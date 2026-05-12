@@ -31,22 +31,16 @@
 ## FAZ 0 — Altyapı & Git
 
 ### T01 — Git reposu başlat ve ilk commit al
-**Durum:** ⬜ TODO
+**Durum:** ✅ DONE
 **Kabul kriterleri:**
-- [ ] `git init` yapıldı
-- [ ] `.gitignore` doğru (target/, node_modules/, .svelte-kit/, dist/, *.db)
-- [ ] `cargo check` temiz
-- [ ] İlk commit alındı: `chore: initial commit — workspace + all crates + Tauri scaffold`
-**Commit:** `—`
+- [x] `git init` yapıldı
+- [x] `.gitignore` doğru (target/, node_modules/, .svelte-kit/, dist/, *.db)
+- [x] `cargo check` temiz
+- [x] İlk commit alındı: `chore: initial commit — workspace + all crates + Tauri scaffold`
+**Commit:** `f8d4dd5`
 
 ### T02 — İkon dosyalarını düzelt
-**Durum:** ⬜ TODO
-**Kabul kriterleri:**
-- [ ] `icon.icns` geçerli bir macOS icns dosyası (tauri-cli veya sips ile üretildi)
-- [ ] `icon.ico` geçerli
-- [ ] `32x32.png`, `128x128.png`, `128x128@2x.png` mevcut ve doğru boyutta
-- [ ] `cargo tauri build` icon aşamasında hata vermiyor
-**Commit:** `—`
+**Durum:** ⏭ SKIP — ikon tasarımı ayrı yapılacak, son aşamaya bırakıldı
 
 ---
 
@@ -205,8 +199,8 @@
 
 | Faz | Görev | Durum |
 |-----|-------|-------|
-| 0 | T01 Git init | ⬜ |
-| 0 | T02 İkon fix | ⬜ |
+| 0 | T01 Git init | ✅ |
+| 0 | T02 İkon fix | ⏭ SKIP |
 | 1 | T03 Soru listesi | ⬜ |
 | 1 | T04 MC soru formu | ⬜ |
 | 1 | T05 Diğer soru tipleri | ⬜ |

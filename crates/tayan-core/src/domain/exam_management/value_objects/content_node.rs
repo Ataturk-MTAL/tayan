@@ -119,6 +119,7 @@ impl ContentNode {
 
 /// Newtype for a sequence of content nodes — the body of any question.
 #[derive(Debug, Clone, Default, PartialEq, Serialize, Deserialize)]
+#[serde(transparent)]
 pub struct QuestionBody(pub Vec<ContentNode>);
 
 impl QuestionBody {

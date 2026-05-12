@@ -5,6 +5,7 @@ use crate::domain::shared::errors::DomainError;
 /// MEB kazanım kodu — örn. "M.7.2.3", "P.9.1.2", "C.10.3.1"
 /// Format: {subject_code}.{grade}.{unit}.{outcome}
 #[derive(Debug, Clone, PartialEq, Eq, Hash, Serialize, Deserialize)]
+#[serde(transparent)]
 pub struct OutcomeCode(String);
 
 impl OutcomeCode {

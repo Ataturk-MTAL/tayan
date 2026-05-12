@@ -13,6 +13,7 @@ use super::{
 
 /// Typed question ID.
 #[derive(Debug, Clone, PartialEq, Eq, Hash, Serialize, Deserialize)]
+#[serde(transparent)]
 pub struct QuestionId(pub Uuid);
 
 impl QuestionId {
@@ -31,6 +32,7 @@ impl std::fmt::Display for QuestionId {
 
 /// Scored points value — must be positive.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Serialize, Deserialize)]
+#[serde(transparent)]
 pub struct Points(pub u32);
 
 impl Points {
