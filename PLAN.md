@@ -47,13 +47,13 @@
 ## FAZ 1 — Soru Bankası UI
 
 ### T03 — Soru listesi sayfası (`/questions`)
-**Durum:** ⬜ TODO
+**Durum:** ✅ DONE
 **Kabul kriterleri:**
-- [ ] `/questions` route'u var, boş sayfa değil
-- [ ] `list_questions` komutu çağrılıyor, sorular listeleniyor
-- [ ] Her soru satırında: tip etiketi, puan, ScoreBadge (Untested/Good/Excellent…)
-- [ ] "Soru Ekle" butonu görünür, modal veya `/questions/new` açıyor
-**Commit:** `—`
+- [x] `/questions` route'u var, boş sayfa değil
+- [x] `list_questions` komutu çağrılıyor, sorular listeleniyor
+- [x] Her soru satırında: tip etiketi, puan, ScoreBadge (Untested/Good/Excellent…)
+- [x] "Soru Ekle" butonu görünür, `/questions/new` açıyor
+**Commit:** `43589ff`
 
 ### T04 — Çoktan seçmeli soru ekleme formu
 **Durum:** ⬜ TODO
@@ -201,7 +201,7 @@
 |-----|-------|-------|
 | 0 | T01 Git init | ✅ |
 | 0 | T02 İkon fix | ⏭ SKIP |
-| 1 | T03 Soru listesi | ⬜ |
+| 1 | T03 Soru listesi | ✅ |
 | 1 | T04 MC soru formu | ⬜ |
 | 1 | T05 Diğer soru tipleri | ⬜ |
 | 1 | T06 KaTeX preview | ⬜ |
