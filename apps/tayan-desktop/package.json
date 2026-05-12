@@ -15,28 +15,29 @@
     "@sveltejs/adapter-static": "^3.0.0",
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/vite-plugin-svelte": "^7.1.2",
-    "@tauri-apps/cli": "^2.0.0",
+    "@tailwindcss/vite": "^4.0.0",
     "@tauri-apps/api": "^2.0.0",
+    "@tauri-apps/cli": "^2.0.0",
+    "@types/node": "^25.6.2",
     "svelte": "^5.0.0",
     "svelte-check": "^4.0.0",
-    "typescript": "^6.0.3",
-    "vite": "^8.0.12",
     "tailwindcss": "^4.0.0",
-    "@tailwindcss/vite": "^4.0.0"
+    "typescript": "^6.0.3",
+    "vite": "^8.0.12"
   },
   "dependencies": {
     "@tauri-apps/api": "^2.0.0",
     "@tauri-apps/plugin-shell": "^2.0.0",
-    "bits-ui": "^2.18.1",
-    "clsx": "^2.1.0",
-    "tailwind-merge": "^3.6.0",
-    "mode-watcher": "^1.1.0",
-    "lucide-svelte": "^1.0.1",
     "@tiptap/core": "^3.23.1",
+    "@tiptap/extension-underline": "^3.23.1",
     "@tiptap/pm": "^3.23.1",
     "@tiptap/starter-kit": "^3.23.1",
-    "@tiptap/extension-underline": "^3.23.1",
-    "katex": "^0.16.0"
+    "bits-ui": "^2.18.1",
+    "clsx": "^2.1.0",
+    "katex": "^0.16.0",
+    "lucide-svelte": "^1.0.1",
+    "mode-watcher": "^1.1.0",
+    "tailwind-merge": "^3.6.0"
   },
   "packageManager": "pnpm@11.1.0+sha512.0c44e842e5686b2c061a81adda8b2258bd8818e9704b2cf2c63d56b931a7b2e910092e085027003b96ca391ab56a07f6df5abaed2be9925034cdd686a535b14"
 }
