@@ -1,0 +1,59 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/tayan-macros",
+    "crates/tayan-core",
+    "crates/tayan-compiler",
+    "crates/tayan-db",
+    "apps/tayan-desktop/src-tauri",
+]
+
+[workspace.package]
+version     = "0.1.0"
+edition     = "2024"
+authors     = ["TAYAN Team"]
+license     = "MIT"
+
+[workspace.dependencies]
+# Shared serialization
+serde        = { version = "1",   features = ["derive"] }
+serde_json   = "1"
+toml         = "1.1"
+
+# IDs & time
+uuid         = { version = "1",   features = ["v4", "serde"] }
+chrono       = { version = "0.4", features = ["serde"] }
+
+# Error handling
+thiserror    = "2"
+anyhow       = "1"
+
+# Async runtime
+tokio        = { version = "1",   features = ["full"] }
+
+# Proc macro helpers (tayan-macros only)
+syn          = { version = "2",   features = ["full", "extra-traits"] }
+quote        = "1"
+proc-macro2  = "1"
+
+# Database
+sqlx         = { version = "0.8", features = [
+    "sqlite", "runtime-tokio", "macros",
+    "chrono", "uuid",
+] }
+
+# Tauri
+tauri        = { version = "2",   features = [] }
+tauri-build  = { version = "2",   features = [] }
+
+
+# Internal crates
+tayan-macros   = { path = "crates/tayan-macros" }
+tayan-core     = { path = "crates/tayan-core" }
+tayan-compiler = { path = "crates/tayan-compiler" }
+tayan-db       = { path = "crates/tayan-db" }
+
+[profile.release]
+opt-level = 3
+lto       = true
+strip     = true

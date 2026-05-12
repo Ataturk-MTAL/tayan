@@ -1,0 +1,82 @@
+use tauri::State;
+use tokio::sync::Mutex;
+
+use tayan_core::{
+    application::{
+        commands::{AddQuestionToExam, CreateExam},
+        ports::ExamRepository,
+    },
+    domain::exam_management::aggregates::{Exam, ExamId},
+};
+use crate::state::AppState;
+
+#[tauri::command]
+pub async fn create_exam(
+    state:   State<'_, Mutex<AppState>>,
+    payload: CreateExam,
+) -> Result<String, String> {
+    let st   = state.lock().await;
+    let exam = Exam::new(payload.meta);
+    let id   = exam.id.0.to_string();
+    st.exams.save(&exam).await.map_err(|e| e.to_string())?;
+    Ok(id)
+}
+
+#[tauri::command]
+pub async fn get_exam(
+    state:   State<'_, Mutex<AppState>>,
+    exam_id: String,
+) -> Result<Exam, String> {
+    let st = state.lock().await;
+    let id = parse_exam_id(&exam_id)?;
+    st.exams.find_by_id(&id).await.map_err(|e| e.to_string())
+}
+
+#[tauri::command]
+pub async fn list_exams(
+    state:    State<'_, Mutex<AppState>>,
+    page:     u32,
+    per_page: u32,
+) -> Result<Vec<Exam>, String> {
+    let st = state.lock().await;
+    st.exams.list(page, per_page).await.map_err(|e| e.to_string())
+}
+
+#[tauri::command]
+pub async fn add_question_to_exam(
+    state:   State<'_, Mutex<AppState>>,
+    payload: AddQuestionToExam,
+) -> Result<(), String> {
+    let st = state.lock().await;
+    let mut exam = st.exams.find_by_id(&payload.exam_id).await.map_err(|e| e.to_string())?;
+    exam.add_question_ref(payload.question_id);
+    st.exams.save(&exam).await.map_err(|e| e.to_string())
+}
+
+#[tauri::command]
+pub async fn publish_exam(
+    state:   State<'_, Mutex<AppState>>,
+    exam_id: String,
+) -> Result<(), String> {
+    let st = state.lock().await;
+    let id = parse_exam_id(&exam_id)?;
+    let mut exam = st.exams.find_by_id(&id).await.map_err(|e| e.to_string())?;
+    exam.publish().map_err(|e| e.to_string())?;
+    st.exams.save(&exam).await.map_err(|e| e.to_string())
+}
+
+#[tauri::command]
+pub async fn delete_exam(
+    state:   State<'_, Mutex<AppState>>,
+    exam_id: String,
+) -> Result<(), String> {
+    let st = state.lock().await;
+    let id = parse_exam_id(&exam_id)?;
+    st.exams.delete(&id).await.map_err(|e| e.to_string())
+}
+
+fn parse_exam_id(s: &str) -> Result<ExamId, String> {
+    uuid::Uuid::parse_str(s)
+        .map(ExamId)
+        .map_err(|e| format!("Invalid exam id: {e}"))
+}

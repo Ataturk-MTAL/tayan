@@ -1,0 +1,20 @@
+[package]
+name    = "tayan-desktop"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+tayan-core     = { workspace = true }
+tayan-compiler = { workspace = true }
+tayan-db       = { workspace = true }
+serde          = { workspace = true }
+serde_json     = { workspace = true }
+anyhow         = { workspace = true }
+tokio          = { workspace = true }
+tauri          = { workspace = true }
+uuid           = { workspace = true }
+sqlx           = { workspace = true }
+dirs-next      = { version = "2" }
+
+[build-dependencies]
+tauri-build = { workspace = true }

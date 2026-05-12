@@ -1,0 +1,28 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# SQLite dev database
+*.db
+*.db-shm
+*.db-wal
+
+# Node / frontend
+/apps/tayan-desktop/node_modules/
+/apps/tayan-desktop/.svelte-kit/
+/apps/tayan-desktop/dist/
+/apps/tayan-desktop/build/
+
+# Tauri generated
+/apps/tayan-desktop/src-tauri/gen/
+
+# Cache
+*.tayan-cache
+
+# macOS
+.DS_Store
+
+# Env
+.env
+.env.*
+!.env.example

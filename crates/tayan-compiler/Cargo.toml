@@ -1,0 +1,11 @@
+[package]
+name    = "tayan-compiler"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+tayan-core = { workspace = true }
+serde      = { workspace = true }
+serde_json = { workspace = true }
+thiserror  = { workspace = true }
+anyhow     = { workspace = true }
