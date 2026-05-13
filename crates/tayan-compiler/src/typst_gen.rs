@@ -65,14 +65,14 @@ fn exam_header(exam: &Exam) -> String {
     )
 }
 
-const PREAMBLE: &str = "#set page(paper: \"a4\", margin: (x: 2cm, y: 2.5cm))
+const PREAMBLE: &str = "#import \"@preview/mitex:0.2.4\": mi, mi-block
+
+#set page(paper: \"a4\", margin: (x: 2cm, y: 2.5cm))
 #set text(lang: \"tr\", size: 11pt, font: \"Linux Libertine\")
 #set par(leading: 0.75em, justify: false)
 #set list(marker: ([--], [•]))
 
-// blank macro for fill-in-blank questions
 #let blank(width: 4cm) = box(width: width, baseline: 20%, stroke: (bottom: 0.5pt + black), height: 1.1em)
-// checkbox macro for true/false
 #let cb(checked: false) = if checked [ ☑ ] else [ ☐ ]
 
 ";

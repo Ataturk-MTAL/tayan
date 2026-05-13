@@ -81,11 +81,11 @@ impl ToTypst for ContentNode {
                 }
             }
             ContentNode::Math(n) => {
-                // Typst native math: $...$ inline, $ ... $ (with spaces) for block
-                let raw = &n.raw;
+                // LaTeX is stored as-is; MiTeX handles LaTeX→Typst conversion
+                let raw = n.raw.replace('"', "\\\"");
                 match n.display {
-                    MathDisplay::Inline => format!("${raw}$"),
-                    MathDisplay::Block  => format!("\n$ {raw} $\n"),
+                    MathDisplay::Inline => format!("#mi(\"{raw}\")"),
+                    MathDisplay::Block  => format!("\n#mi-block(\"{raw}\")\n"),
                 }
             }
             ContentNode::Chem(n) => {
