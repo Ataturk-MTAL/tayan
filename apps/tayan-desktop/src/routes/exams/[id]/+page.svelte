@@ -691,7 +691,6 @@
 {#if showPreview}
   <ExamPreview
     {exam}
-    {examItems}
     bind:showAnswerKey={previewAnswers}
     onclose={() => (showPreview = false)}
   />
