@@ -59,7 +59,7 @@ impl FillInBlankQuestion {
         use crate::domain::shared::errors::DomainError;
         if self.blanks.is_empty() {
             return Err(DomainError::Validation(
-                "Fill-in-blank question must have at least one blank".into(),
+                "Boşluk doldurma sorusunda en az bir boşluk olmalıdır".into(),
             ));
         }
         // Every blank referenced in the body must exist
@@ -69,7 +69,7 @@ impl FillInBlankQuestion {
             if let crate::domain::exam_management::value_objects::ContentNode::Blank(b) = node {
                 if !blank_ids.contains(b.id.as_str()) {
                     return Err(DomainError::Validation(format!(
-                        "Body references undefined blank id `{}`",
+                        "Gövde tanımsız boşluk kimliğine referans veriyor: '{}'",
                         b.id
                     )));
                 }

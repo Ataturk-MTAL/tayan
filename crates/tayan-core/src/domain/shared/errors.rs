@@ -2,15 +2,15 @@ use thiserror::Error;
 
 #[derive(Debug, Error)]
 pub enum DomainError {
-    #[error("Validation failed: {0}")]
+    #[error("Doğrulama hatası: {0}")]
     Validation(String),
 
-    #[error("Entity not found: {entity} with id {id}")]
+    #[error("{entity} bulunamadı (id: {id})")]
     NotFound { entity: &'static str, id: String },
 
-    #[error("Invariant violated: {0}")]
+    #[error("Kısıtlama ihlali: {0}")]
     InvariantViolation(String),
 
-    #[error("Operation not permitted: {0}")]
+    #[error("İşlem izni yok: {0}")]
     NotPermitted(String),
 }

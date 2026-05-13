@@ -84,7 +84,7 @@ impl QuestionBank {
         let id = question.id().clone();
         if self.questions.iter().any(|bq| bq.question.id() == &id) {
             return Err(DomainError::InvariantViolation(
-                format!("Question {id} already exists in the bank"),
+                format!("Soru {id} zaten bankada mevcut"),
             ));
         }
         self.events.push(BankEvent::QuestionAdded {

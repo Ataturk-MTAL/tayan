@@ -114,14 +114,14 @@ fn validate_latex_braces(s: &str) -> Result<(), String> {
             '}' => {
                 depth -= 1;
                 if depth < 0 {
-                    return Err(format!("unmatched `}}` at position {col}"));
+                    return Err(format!("Eşleşmeyen '}}' karakteri, konum: {col}"));
                 }
             }
             _ => {}
         }
     }
     if depth > 0 {
-        return Err(format!("{depth} unclosed `{{` brace(s)"));
+        return Err(format!("{depth} adet kapatılmamış '{{{{' parantez"));
     }
     Ok(())
 }

@@ -1,12 +1,13 @@
 use tauri::State;
 use tokio::sync::Mutex;
 
+use uuid::Uuid;
 use tayan_core::{
     application::{
         commands::{AddStudent, CreateClassroom},
         ports::{ClassroomRepository, StudentRepository},
     },
-    domain::student_management::aggregates::{Classroom, ClassroomId, Student},
+    domain::student_management::aggregates::{Classroom, ClassroomId, Student, StudentId},
 };
 use crate::state::AppState;
 
@@ -53,8 +54,32 @@ pub async fn list_students_by_classroom(
     classroom_id: String,
 ) -> Result<Vec<Student>, String> {
     let st  = state.lock().await;
-    let cid = uuid::Uuid::parse_str(&classroom_id)
+    let cid = Uuid::parse_str(&classroom_id)
         .map(ClassroomId)
         .map_err(|e| e.to_string())?;
     st.students.list_by_classroom(&cid).await.map_err(|e| e.to_string())
+}
+
+#[tauri::command]
+pub async fn delete_student(
+    state:      State<'_, Mutex<AppState>>,
+    student_id: String,
+) -> Result<(), String> {
+    let st  = state.lock().await;
+    let sid = Uuid::parse_str(&student_id)
+        .map(StudentId)
+        .map_err(|e| e.to_string())?;
+    st.students.delete_student(&sid).await.map_err(|e| e.to_string())
+}
+
+#[tauri::command]
+pub async fn delete_classroom(
+    state:        State<'_, Mutex<AppState>>,
+    classroom_id: String,
+) -> Result<(), String> {
+    let st  = state.lock().await;
+    let cid = Uuid::parse_str(&classroom_id)
+        .map(ClassroomId)
+        .map_err(|e| e.to_string())?;
+    st.classes.delete(&cid).await.map_err(|e| e.to_string())
 }

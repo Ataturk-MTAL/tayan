@@ -53,7 +53,7 @@ impl ScoringService {
                 let pts = Self::score_fill_in_blank(q, &ans.given_answer);
                 (pts, Some(pts == q.total_points().value() as f32))
             }
-            Question::Classic(_) => (0.0, None), // manual
+            Question::Classic(_) => (ans.points_earned, None), // manual — keep passed value
         }
     }
 

@@ -46,12 +46,12 @@ impl ClassicQuestion {
         use crate::domain::shared::errors::DomainError;
         if self.body.is_empty() {
             return Err(DomainError::Validation(
-                "Classic question body must not be empty".into(),
+                "Klasik soru gövdesi boş olamaz".into(),
             ));
         }
         if !self.rubric.is_empty() && self.rubric_total() != self.points.value() {
             return Err(DomainError::Validation(format!(
-                "Rubric total ({}) does not match question points ({})",
+                "Rubrik toplam puanı ({}) soru puanıyla ({}) eşleşmiyor",
                 self.rubric_total(),
                 self.points.value()
             )));

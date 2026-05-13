@@ -1,17 +1,18 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
   import { api } from '$lib/api';
   import {
+    QUESTION_TYPE_LABELS,
     type Question,
     bodyPreview,
     questionPoints,
     scoreBadge,
-    QUESTION_TYPE_LABELS,
   } from '$lib/types';
+  import { onMount } from 'svelte';
 
   let questions = $state<Question[]>([]);
   let loading   = $state(true);
   let error     = $state<string | null>(null);
+  let deleting  = $state<string | null>(null);
 
   onMount(async () => {
     try {
@@ -22,6 +23,15 @@
       loading = false;
     }
   });
+
+  async function deleteQuestion(q: Question) {
+    if (deleting !== q.id) { deleting = q.id; return; }
+    try {
+      await api.questions.delete(q.id);
+      questions = questions.filter((x) => x.id !== q.id);
+      deleting = null;
+    } catch (e) { deleting = null; }
+  }
 
   const BADGE_STYLES = {
     excellent: 'bg-emerald-100 text-emerald-800',
@@ -99,6 +109,7 @@
             <th class="px-4 py-3 text-right font-medium">Puan</th>
             <th class="px-4 py-3 text-left font-medium">Kazanım</th>
             <th class="px-4 py-3 text-left font-medium">Kalite</th>
+            <th class="px-2 py-3 w-20"></th>
           </tr>
         </thead>
         <tbody class="divide-y">
@@ -149,6 +160,26 @@
                 <span class="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium {BADGE_STYLES[badge]}">
                   {BADGE_LABELS[badge]}
                 </span>
+              </td>
+
+              <!-- Actions -->
+              <td class="px-2 py-3">
+                <div class="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  <a
+                    href="/questions/{q.id}"
+                    class="inline-flex items-center rounded px-2 py-1 text-xs font-medium hover:bg-accent transition-colors"
+                    title="Düzenle"
+                  >✏</a>
+                  <button
+                    type="button"
+                    onclick={() => deleteQuestion(q)}
+                    title={deleting === q.id ? 'Tekrar tıkla — sil' : 'Sil'}
+                    class="inline-flex items-center rounded px-2 py-1 text-xs font-medium transition-colors
+                           {deleting === q.id
+                             ? 'bg-destructive text-white'
+                             : 'text-destructive hover:bg-destructive/10'}"
+                  >{deleting === q.id ? 'Sil?' : '✕'}</button>
+                </div>
               </td>
             </tr>
           {/each}

@@ -56,12 +56,12 @@
 **Commit:** `43589ff`
 
 ### T04 — Çoktan seçmeli soru ekleme formu
-**Durum:** ⬜ TODO
+**Durum:** ✅ DONE
 **Kabul kriterleri:**
-- [ ] Form: soru gövdesi (plaintext, sonraki görevde math eklenecek), 5 seçenek, doğru cevap seçimi, puan, kazanım kodu
-- [ ] `add_multiple_choice_question` Tauri komutu başarılı dönüyor
-- [ ] Yeni soru listede görünüyor
-**Commit:** `—`
+- [x] Form: soru gövdesi (plaintext, T06'da math eklenecek), 5 seçenek, doğru cevap seçimi, puan, kazanım kodu
+- [x] `add_multiple_choice_question` Tauri komutu başarılı dönüyor
+- [x] Yeni soru listede görünüyor
+**Commit:** `876418d`
 
 ### T05 — Diğer soru tipleri (TF, FillInBlank, Classic)
 **Durum:** ⬜ TODO
@@ -202,7 +202,7 @@
 | 0 | T01 Git init | ✅ |
 | 0 | T02 İkon fix | ⏭ SKIP |
 | 1 | T03 Soru listesi | ✅ |
-| 1 | T04 MC soru formu | ⬜ |
+| 1 | T04 MC soru formu | ✅ |
 | 1 | T05 Diğer soru tipleri | ⬜ |
 | 1 | T06 KaTeX preview | ⬜ |
 | 2 | T07 Sınav listesi | ⬜ |

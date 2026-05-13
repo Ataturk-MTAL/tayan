@@ -184,6 +184,16 @@ impl StudentRepository for SqliteStudentRepository {
             .collect::<anyhow::Result<Vec<_>>>()
             .map_err(RepositoryError::from)
     }
+
+    async fn delete_student(&self, id: &StudentId) -> Result<(), RepositoryError> {
+        let id_str = id.0.to_string();
+        sqlx::query("DELETE FROM students WHERE id=?1")
+            .bind(id_str)
+            .execute(&self.pool)
+            .await
+            .context("delete student")?;
+        Ok(())
+    }
 }
 
 // ── ClassroomRepository ───────────────────────────────────────────────────────
@@ -235,6 +245,22 @@ impl ClassroomRepository for SqliteClassroomRepository {
             })
             .collect::<anyhow::Result<Vec<_>>>()
             .map_err(RepositoryError::from)
+    }
+
+    async fn delete(&self, id: &ClassroomId) -> Result<(), RepositoryError> {
+        let id_str = id.0.to_string();
+        // cascade: delete students first (FK constraint)
+        sqlx::query("DELETE FROM students WHERE classroom_id=?1")
+            .bind(&id_str)
+            .execute(&self.pool)
+            .await
+            .context("delete classroom students")?;
+        sqlx::query("DELETE FROM classrooms WHERE id=?1")
+            .bind(id_str)
+            .execute(&self.pool)
+            .await
+            .context("delete classroom")?;
+        Ok(())
     }
 }
 

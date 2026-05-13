@@ -128,7 +128,7 @@ impl Exam {
     pub fn publish(&mut self) -> Result<(), DomainError> {
         if self.questions.is_empty() {
             return Err(DomainError::InvariantViolation(
-                "Cannot publish an exam with no questions".into(),
+                "Sorusu olmayan sınav yayınlanamaz".into(),
             ));
         }
         self.status = ExamStatus::Published;

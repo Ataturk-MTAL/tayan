@@ -15,7 +15,7 @@ impl OutcomeCode {
             Ok(Self(code))
         } else {
             Err(DomainError::Validation(format!(
-                "Invalid outcome code `{code}`. Expected format: SUBJECT.GRADE.UNIT.OUTCOME (e.g. M.7.2.3)"
+                "Geçersiz kazanım kodu '{code}'. Beklenen format: KONU.SINIF.ÜNİTE.KAZANIM (örn. M.7.2.3)"
             )))
         }
     }

@@ -43,7 +43,7 @@ sqlx         = { version = "0.8", features = [
 ] }
 
 # Tauri
-tauri        = { version = "2",   features = [] }
+tauri        = { version = "2",   features = ["protocol-asset"] }
 tauri-build  = { version = "2",   features = [] }
 
 

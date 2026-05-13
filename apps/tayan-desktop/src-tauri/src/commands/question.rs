@@ -1,5 +1,6 @@
 use tauri::State;
 use tokio::sync::Mutex;
+use uuid::Uuid;
 
 use tayan_core::{
     application::{
@@ -134,4 +135,33 @@ pub async fn list_questions(
     let st   = state.lock().await;
     let bank = st.bank.load().await.map_err(|e| e.to_string())?;
     Ok(bank.questions.into_iter().map(|bq| bq.question).collect())
+}
+
+#[tauri::command]
+pub async fn delete_question(
+    state:       State<'_, Mutex<AppState>>,
+    question_id: String,
+) -> Result<(), String> {
+    let st  = state.lock().await;
+    let mut bank = st.bank.load().await.map_err(|e| e.to_string())?;
+    let id  = QuestionId(Uuid::parse_str(&question_id).map_err(|e| e.to_string())?);
+    bank.remove_question(&id).map_err(|e| e.to_string())?;
+    st.bank.save(&bank).await.map_err(|e| e.to_string())?;
+    Ok(())
+}
+
+#[tauri::command]
+pub async fn update_question(
+    state:   State<'_, Mutex<AppState>>,
+    payload: Question,
+) -> Result<(), String> {
+    payload.validate().map_err(|e| e.to_string())?;
+    let st  = state.lock().await;
+    let mut bank = st.bank.load().await.map_err(|e| e.to_string())?;
+    let id  = payload.id().clone();
+    let bq  = bank.find_mut(&id)
+        .ok_or_else(|| format!("Soru bulunamadı: {id}"))?;
+    bq.question = payload;
+    st.bank.save(&bank).await.map_err(|e| e.to_string())?;
+    Ok(())
 }

@@ -50,18 +50,18 @@ impl MultipleChoiceQuestion {
         use crate::domain::shared::errors::DomainError;
         if self.options.len() < 2 {
             return Err(DomainError::Validation(
-                "Multiple choice question must have at least 2 options".into(),
+                "Çok seçenekli soruda en az 2 seçenek olmalıdır".into(),
             ));
         }
         let correct_count = self.options.iter().filter(|o| o.correct).count();
         if correct_count != 1 {
             return Err(DomainError::Validation(format!(
-                "Multiple choice question must have exactly 1 correct option, found {correct_count}"
+                "Çok seçenekli soruda tam olarak 1 doğru seçenek olmalıdır, {correct_count} bulundu"
             )));
         }
         if self.body.is_empty() {
             return Err(DomainError::Validation(
-                "Question body must not be empty".into(),
+                "Soru gövdesi boş olamaz".into(),
             ));
         }
         Ok(())

@@ -53,7 +53,7 @@ impl TrueFalseQuestion {
     pub fn validate(&self) -> Result<(), crate::domain::shared::errors::DomainError> {
         if self.body.is_empty() {
             return Err(crate::domain::shared::errors::DomainError::Validation(
-                "True/False question body must not be empty".into(),
+                "Doğru/Yanlış soru gövdesi boş olamaz".into(),
             ));
         }
         Ok(())

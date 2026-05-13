@@ -7,6 +7,7 @@ use tayan_core::{
         ports::ExamRepository,
     },
     domain::exam_management::aggregates::{Exam, ExamId},
+    domain::exam_management::entities::question::QuestionId,
 };
 use crate::state::AppState;
 
@@ -54,6 +55,20 @@ pub async fn add_question_to_exam(
 }
 
 #[tauri::command]
+pub async fn remove_question_from_exam(
+    state:       State<'_, Mutex<AppState>>,
+    exam_id:     String,
+    question_id: String,
+) -> Result<(), String> {
+    let st  = state.lock().await;
+    let eid = parse_exam_id(&exam_id)?;
+    let qid = uuid::Uuid::parse_str(&question_id).map(QuestionId).map_err(|e| e.to_string())?;
+    let mut exam = st.exams.find_by_id(&eid).await.map_err(|e| e.to_string())?;
+    exam.remove_question_ref(&qid).map_err(|e| e.to_string())?;
+    st.exams.save(&exam).await.map_err(|e| e.to_string())
+}
+
+#[tauri::command]
 pub async fn publish_exam(
     state:   State<'_, Mutex<AppState>>,
     exam_id: String,
@@ -78,5 +93,5 @@ pub async fn delete_exam(
 fn parse_exam_id(s: &str) -> Result<ExamId, String> {
     uuid::Uuid::parse_str(s)
         .map(ExamId)
-        .map_err(|e| format!("Invalid exam id: {e}"))
+        .map_err(|e| format!("Geçersiz sınav kimliği: {e}"))
 }

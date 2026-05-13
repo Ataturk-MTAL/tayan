@@ -42,12 +42,14 @@ pub trait StudentRepository: Send + Sync {
     async fn find_student(&self, id: &StudentId) -> Result<Student, RepositoryError>;
     async fn list_by_classroom(&self, classroom_id: &ClassroomId)
         -> Result<Vec<Student>, RepositoryError>;
+    async fn delete_student(&self, id: &StudentId) -> Result<(), RepositoryError>;
 }
 
 pub trait ClassroomRepository: Send + Sync {
     async fn save(&self, classroom: &Classroom) -> Result<(), RepositoryError>;
     async fn find_by_id(&self, id: &ClassroomId) -> Result<Classroom, RepositoryError>;
     async fn list(&self) -> Result<Vec<Classroom>, RepositoryError>;
+    async fn delete(&self, id: &ClassroomId) -> Result<(), RepositoryError>;
 }
 
 pub trait ExamResultRepository: Send + Sync {
