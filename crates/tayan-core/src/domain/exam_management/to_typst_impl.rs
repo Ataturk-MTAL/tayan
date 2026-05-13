@@ -1,6 +1,6 @@
 use crate::domain::shared::to_typst::{ToTypst, TypstContext};
 use crate::domain::exam_management::value_objects::content_node::{
-    ContentNode, ChemFlavor, MathDisplay, QuestionBody,
+    ContentNode, MathDisplay, QuestionBody,
 };
 use crate::domain::exam_management::entities::{
     classic::{AnswerSpace, ClassicQuestion},
@@ -44,22 +44,17 @@ impl ToTypst for ContentNode {
                 }
             }
             ContentNode::Math(n) => {
-                // MiTeX: #mi("latex") for inline, #mi-block("latex") for display
-                let raw = n.raw.replace('"', "\\\"");
+                // Typst native math: $...$ inline, $ ... $ (with spaces) for block
+                let raw = &n.raw;
                 match n.display {
-                    MathDisplay::Inline => format!("#mi(\"{raw}\")"),
-                    MathDisplay::Block  => format!("\n#mi-block(\"{raw}\")\n"),
+                    MathDisplay::Inline => format!("${raw}$"),
+                    MathDisplay::Block  => format!("\n$ {raw} $\n"),
                 }
             }
             ContentNode::Chem(n) => {
-                let raw = n.raw.replace('"', "\\\"");
-                match n.flavor {
-                    // chem-par: #ce("H_{2}SO_{4}")
-                    ChemFlavor::Formula    => format!("#ce(\"{raw}\")"),
-                    // alchemist structural: wrapped in skeletize — emit a comment
-                    // for now; the compiler layer can expand this properly later.
-                    ChemFlavor::Structural => format!("/* structural: {raw} */"),
-                }
+                // Emit as monospace; chem rendering handled in future macro layer
+                let raw = esc(&n.raw);
+                format!("`{raw}`")
             }
             ContentNode::Image(n) => {
                 let w = n.width.as_deref().unwrap_or("80%");
