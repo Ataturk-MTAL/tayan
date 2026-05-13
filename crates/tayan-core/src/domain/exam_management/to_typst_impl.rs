@@ -10,7 +10,44 @@ use crate::domain::exam_management::entities::{
     true_false::TrueFalseQuestion,
 };
 
-// ── Helper ────────────────────────────────────────────────────────────────────
+// ── Helpers ───────────────────────────────────────────────────────────────────
+
+/// Convert a Tauri `asset://localhost/%2F...` URL to an absolute fs path.
+/// If `src` is already a plain path it is returned unchanged.
+fn asset_url_to_fs_path(src: &str) -> String {
+    let encoded = src
+        .strip_prefix("asset://localhost/")
+        .or_else(|| src.strip_prefix("asset:/localhost/"))
+        .unwrap_or(src);
+    percent_decode(encoded)
+}
+
+fn percent_decode(s: &str) -> String {
+    let mut out = String::with_capacity(s.len());
+    let mut iter = s.chars();
+    while let Some(c) = iter.next() {
+        if c != '%' {
+            out.push(c);
+            continue;
+        }
+        let h1 = iter.next();
+        let h2 = iter.next();
+        match (h1, h2) {
+            (Some(h1), Some(h2)) => {
+                let hex = format!("{h1}{h2}");
+                if let Ok(byte) = u8::from_str_radix(&hex, 16) {
+                    out.push(byte as char);
+                } else {
+                    out.push('%');
+                    out.push(h1);
+                    out.push(h2);
+                }
+            }
+            _ => out.push('%'),
+        }
+    }
+    out
+}
 
 /// Escape Typst markup special characters in plain text fragments.
 fn esc(s: &str) -> String {
@@ -57,8 +94,9 @@ impl ToTypst for ContentNode {
                 format!("`{raw}`")
             }
             ContentNode::Image(n) => {
-                let w = n.width.as_deref().unwrap_or("80%");
-                format!("#image(\"{}\", width: {})", n.src, w)
+                let w    = n.width.as_deref().unwrap_or("80%");
+                let path = asset_url_to_fs_path(&n.src);
+                format!("#image(\"{}\", width: {w})", path.replace('"', "\\\""))
             }
             ContentNode::Blank(n) => {
                 let w = n.width.as_deref().unwrap_or("4cm");

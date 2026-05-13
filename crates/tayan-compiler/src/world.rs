@@ -147,6 +147,15 @@ impl TayanWorld {
             return Ok(Bytes::new(data));
         }
 
+        // Try as an absolute filesystem path (e.g. image files)
+        // VirtualPath strips the leading '/', so we restore it.
+        let abs = PathBuf::from("/").join(id.vpath().as_rootless_path());
+        if abs.exists() {
+            let data = std::fs::read(&abs)
+                .with_context(|| format!("Dosya okunamadı: {}", abs.display()))?;
+            return Ok(Bytes::new(data));
+        }
+
         bail!("Çözülemeyen dosya: {:?}", id.vpath().as_rootless_path())
     }
 }
