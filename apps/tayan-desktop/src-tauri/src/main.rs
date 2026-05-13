@@ -49,6 +49,7 @@ fn main() {
             commands::analysis::enter_exam_results,
             commands::analysis::get_exam_results,
             commands::analysis::generate_exam_pdf,
+            commands::analysis::export_exam_pdf,
             commands::analysis::export_typst_file,
             // Images
             commands::image::save_image,

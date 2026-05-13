@@ -134,6 +134,9 @@ export const api = {
     generateTypst: (examId: string, answerKey: boolean) =>
       invoke<string>("generate_exam_pdf", { examId, answerKey }),
 
+    exportPdf: (examId: string, answerKey: boolean) =>
+      invoke<string>("export_exam_pdf", { examId, answerKey }),
+
     exportTypstFile: (examId: string, answerKey: boolean) =>
       invoke<string>("export_typst_file", { examId, answerKey }),
   },

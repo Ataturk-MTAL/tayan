@@ -70,6 +70,39 @@ pub async fn generate_exam_pdf(
         .map_err(|e| e.to_string())
 }
 
+/// Compiles the exam to PDF via Typst and returns the raw bytes as a Base64 string.
+#[tauri::command]
+pub async fn export_exam_pdf(
+    state:      State<'_, Mutex<AppState>>,
+    exam_id:    String,
+    answer_key: bool,
+) -> Result<String, String> {
+    let st  = state.lock().await;
+    let eid = uuid::Uuid::parse_str(&exam_id).map(ExamId).map_err(|e| e.to_string())?;
+
+    let exam = st.exams.find_by_id(&eid).await.map_err(|e| e.to_string())?;
+    let bank = st.bank.load().await.map_err(|e| e.to_string())?;
+
+    let ctx = tayan_core::domain::shared::to_typst::TypstContext {
+        answer_key,
+        shuffle: false,
+        question_number: None,
+    };
+
+    let questions: Vec<_> = exam.questions.iter()
+        .filter_map(|r| bank.find(&r.question_id).map(|bq| bq.question.clone()))
+        .collect();
+
+    let source = tayan_compiler::typst_gen::TypstGenerator::generate_exam(&exam, &questions, ctx)
+        .map_err(|e| e.to_string())?;
+
+    let pdf_bytes = tayan_compiler::TayanWorld::compile_pdf(source)
+        .map_err(|e| e.to_string())?;
+
+    use base64::Engine as _;
+    Ok(base64::engine::general_purpose::STANDARD.encode(&pdf_bytes))
+}
+
 /// Generates a Typst file and saves it to the Downloads (or Desktop) folder.
 /// Returns the absolute path to the saved file.
 #[tauri::command]

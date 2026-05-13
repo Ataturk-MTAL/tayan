@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { ContentNode, Exam, Question } from '$lib/types';
+  import { api } from '$lib/api';
   import katex from 'katex';
   import 'katex/dist/katex.min.css';
 
@@ -14,6 +15,30 @@
     showAnswerKey: boolean;
     onclose:     () => void;
   } = $props();
+
+  let pdfExporting = $state(false);
+  let pdfError     = $state<string | null>(null);
+
+  async function downloadPdf() {
+    pdfExporting = true;
+    pdfError = null;
+    try {
+      const b64 = await api.compiler.exportPdf(exam.id, showAnswerKey);
+      const bytes = Uint8Array.from(atob(b64), (c) => c.charCodeAt(0));
+      const blob = new Blob([bytes], { type: 'application/pdf' });
+      const url  = URL.createObjectURL(blob);
+      const a    = document.createElement('a');
+      const suffix = showAnswerKey ? '_cevap' : '';
+      a.href     = url;
+      a.download = `${exam.meta.title}${suffix}.pdf`;
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch (e) {
+      pdfError = String(e);
+    } finally {
+      pdfExporting = false;
+    }
+  }
 
   // ── Render helpers ────────────────────────────────────────────────────────
 
@@ -85,6 +110,22 @@
         <input type="checkbox" bind:checked={showAnswerKey} class="rounded" />
         Cevap Anahtarı
       </label>
+      <button
+        type="button"
+        onclick={downloadPdf}
+        disabled={pdfExporting}
+        class="inline-flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground hover:bg-primary/90 disabled:opacity-50 transition-colors"
+      >
+        {#if pdfExporting}
+          <span class="inline-block w-3 h-3 border-2 border-white/40 border-t-white rounded-full animate-spin"></span>
+          Oluşturuluyor…
+        {:else}
+          PDF İndir
+        {/if}
+      </button>
+      {#if pdfError}
+        <span class="text-xs text-destructive max-w-xs truncate" title={pdfError}>{pdfError}</span>
+      {/if}
       <button
         type="button"
         onclick={onclose}
