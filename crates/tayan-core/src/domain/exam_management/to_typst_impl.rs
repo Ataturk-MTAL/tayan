@@ -81,11 +81,10 @@ impl ToTypst for ContentNode {
                 }
             }
             ContentNode::Math(n) => {
-                // LaTeX is stored as-is; MiTeX handles LaTeX→Typst conversion
-                let raw = n.raw.replace('"', "\\\"");
+                let typst = crate::domain::shared::latex_to_typst::convert(&n.raw);
                 match n.display {
-                    MathDisplay::Inline => format!("#mi(\"{raw}\")"),
-                    MathDisplay::Block  => format!("\n#mi-block(\"{raw}\")\n"),
+                    MathDisplay::Inline => format!("${typst}$"),
+                    MathDisplay::Block  => format!("\n$ {typst} $\n"),
                 }
             }
             ContentNode::Chem(n) => {
