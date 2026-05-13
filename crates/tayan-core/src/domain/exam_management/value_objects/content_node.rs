@@ -3,6 +3,7 @@ use serde::{Deserialize, Serialize};
 // ── Math ──────────────────────────────────────────────────────────────────────
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "snake_case")]
 pub enum MathDisplay {
     Inline,
     Block,
@@ -19,10 +20,11 @@ pub struct MathNode {
 // ── Chemistry ─────────────────────────────────────────────────────────────────
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[serde(rename_all = "snake_case")]
 pub enum ChemFlavor {
-    /// Simple formula — H₂SO₄, C₆H₁₂O₆ etc. → chem-par Typst package
+    /// Simple formula — H₂SO₄, C₆H₁₂O₆ etc.
     Formula,
-    /// Skeletal / structural diagram → alchemist Typst package
+    /// Skeletal / structural diagram
     Structural,
 }
 
