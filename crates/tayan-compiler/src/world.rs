@@ -8,7 +8,7 @@ use anyhow::{bail, Context};
 use chrono::Datelike;
 use typst::{
     LibraryExt,
-    diag::{FileError, FileResult, SourceDiagnostic, Warned},
+    diag::{FileError, FileResult, PackageError, SourceDiagnostic, Warned},
     foundations::{Bytes, Datetime},
     syntax::{FileId, Source, VirtualPath},
     text::{Font, FontBook},
@@ -105,9 +105,15 @@ impl World for TayanWorld {
             return Ok(cached.clone());
         }
 
-        let bytes = self.resolve_file(id).map_err(|_| FileError::NotFound(
-            id.vpath().as_rootless_path().to_owned(),
-        ))?;
+        let bytes = self.resolve_file(id).map_err(|e| {
+            if id.package().is_some() {
+                FileError::Package(PackageError::Other(Some(
+                    format!("{e:#}").into()
+                )))
+            } else {
+                FileError::NotFound(id.vpath().as_rootless_path().to_owned())
+            }
+        })?;
 
         self.file_cache.lock().unwrap().insert(id, bytes.clone());
         Ok(bytes)
