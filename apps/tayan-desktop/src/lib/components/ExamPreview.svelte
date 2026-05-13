@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { Exam, Question } from '$lib/types';
   import { api } from '$lib/api';
-  import { onDestroy } from 'svelte';
+  import { onDestroy, untrack } from 'svelte';
 
   let {
     exam,
@@ -39,10 +39,12 @@
     }
   }
 
-  // compile on mount and whenever showAnswerKey changes
+  // Recompile whenever showAnswerKey changes.
+  // untrack(compile) prevents blobUrl reads inside compile() from
+  // being tracked — otherwise setting blobUrl triggers the effect again.
   $effect(() => {
-    showAnswerKey; // reactive dependency — tracks changes
-    compile();
+    showAnswerKey;
+    untrack(compile);
   });
 
   onDestroy(() => {
