@@ -27,9 +27,18 @@ pub fn derive_to_typst(input: TokenStream) -> TokenStream {
 
 /// Validates LaTeX brace balance at compile time.
 ///
-/// ```rust
-/// let node = math!(r"\frac{a}{b}");        // ✅ compiles
-/// let node = math!(r"\frac{a}{b");         // ❌ compile error: 1 unclosed brace
+/// `ignore`: makro `tayan_core::...` yoluna genişler, ama `tayan-macros` o
+/// crate'e bağımlı olamaz — bağımlılık döngüsü olurdu. Yani örnek yalnızca
+/// TÜKETİCİ crate'te (tayan-core) derlenir, burada değil.
+///
+/// `compile_fail` de kullanılamaz: blok zaten `tayan_core` çözülemediği için
+/// derlenmez, yani test parantez hatasını değil bağımlılık eksikliğini
+/// doğrular ve yanlış sebeple yeşil yanar.
+///
+/// ```ignore
+/// use tayan_macros::math;
+/// let node = math!(r"\frac{a}{b}");   // geçerli
+/// let node = math!(r"\frac{a}{b");    // derleme hatası: 1 kapanmamış parantez
 /// ```
 #[proc_macro]
 pub fn math(input: TokenStream) -> TokenStream {
@@ -85,7 +94,12 @@ pub fn math_block(input: TokenStream) -> TokenStream {
 
 /// Embeds a Typst template file as a `&'static str` and validates it exists.
 ///
-/// ```rust
+/// `ignore`: bu makro dosyanın VARLIĞINI derleme anında doğrular, yani örnek
+/// ancak `templates/exam.typ` gerçekten varsa derlenir. Repoda böyle bir dosya
+/// yok; örneği çalıştırılabilir işaretlemek doc-test'i kalıcı olarak kırar.
+///
+/// ```ignore
+/// use tayan_macros::typst_include;
 /// static EXAM_TEMPLATE: &str = typst_include!("templates/exam.typ");
 /// ```
 #[proc_macro]

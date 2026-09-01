@@ -1,8 +1,24 @@
 <script lang="ts">
   import "../app.css";
   import { page } from "$app/state";
+  import { installPageZoomGuard, resetPageZoom } from "$lib/ui/page-zoom";
 
   let { children } = $props();
+
+  /**
+   * Sayfa zoom'u uygulama genelinde kilitli.
+   *
+   * Kilitsiz hâlde `⌘+tekerlek` — ve macOS'ta trackpad kıstırması — fare
+   * önizlemenin dışındayken doğrudan webview'e düşüyor ve TÜM arayüzü
+   * ölçekliyordu: panel, gezinme bandı, satır numaraları. Öğretmen kâğıdı
+   * büyütmek isterken uygulamayı büyütüyordu.
+   *
+   * Önizlemenin kendi zoom'u bundan etkilenmez; koruma yayılımı durdurmaz.
+   */
+  $effect(() => {
+    void resetPageZoom();
+    return installPageZoomGuard();
+  });
 
   const NAV = [
     { href: "/questions", label: "Sorular" },
@@ -23,7 +39,7 @@
   <header class="ruled-bottom flex shrink-0 items-stretch bg-paper-lift paper-plain">
     <a
       href="/"
-      class="flex items-center px-rule text-[15px] font-bold tracking-[0.12em] text-ink no-underline"
+      class="flex items-center px-half text-[13px] font-bold tracking-[0.12em] text-ink no-underline"
     >
       TAYAN
     </a>
@@ -32,8 +48,8 @@
       {#each NAV as item}
         <a
           href={item.href}
-          class="flex items-center border-l border-rule px-rule text-[13px] no-underline
-                 transition-colors hover:text-red-deep"
+          class="flex items-center border-l border-rule px-half py-quarter text-[12px]
+                 no-underline transition-colors hover:text-red-deep"
           class:text-ink={path.startsWith(item.href)}
           class:font-semibold={path.startsWith(item.href)}
           class:text-pencil={!path.startsWith(item.href)}

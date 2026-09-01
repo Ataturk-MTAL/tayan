@@ -172,6 +172,16 @@ export const api = {
       invoke<string[]>("compile_question_preview_svg", { body }),
   },
 
+  lsp: {
+    status: () =>
+      invoke<{ installed: boolean; path: string | null; version: string; supported: boolean }>(
+        "lsp_status",
+      ),
+    /** İndirir ve kurar. sha256 doğrulanır; tutmazsa kurulum iptal edilir. */
+    install: () => invoke<string>("lsp_install"),
+    uninstall: () => invoke<void>("lsp_uninstall"),
+  },
+
   images: {
     /**
      * Görseli uygulama veri klasörüne yazar ve GÖRELİ yolunu döndürür

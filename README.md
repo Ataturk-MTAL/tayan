@@ -73,6 +73,16 @@ pnpm install
 pnpm tauri dev
 ```
 
+### Dil sunucusu (isteğe bağlı)
+
+Editör kutudan çıktığı hâliyle Typst'in 560 sembolünü tanır ve internet
+gerektirmez. İstenirse **tinymist** dil sunucusu Yardım ekranından kurulabilir;
+içe aktarılan paketlerin sembollerini ve hover açıklamalarını ekler.
+
+Uygulamayla paketlenmez: platform başına 60 MB ve dondurulmuş bir sürüm demek
+olurdu. Kurulum açık bir kullanıcı eylemidir ve indirilen dosya sha256 ile
+doğrulanır.
+
 İlk derleme Typst'i de derlediği için uzun sürer ve belleği zorlar; sonraki
 açılışlar artımlıdır.
 
