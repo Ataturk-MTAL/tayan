@@ -16,12 +16,15 @@ export type QuestionType = Question["question_type"];
 
 export type Block = { label: string; hint: string; snippet: string };
 
-/** Her soru tipinde işe yarayan genel parçalar. */
-const COMMON: Block[] = [
-  // Typst'te satır içi ile blok matematiği BOŞLUK ayırır:
-  //   $x^2$    satır içi, cümlenin içinde kalır
-  //   $ x^2 $  blok, kendi satırına düşer ve ortalanır
-  // Bu parçacıkların hepsi önce boşlukluydu, yani hepsi blok üretiyordu.
+/**
+ * Matematik parçaları.
+ *
+ * Typst'te satır içi ile blok matematiği BOŞLUK ayırır:
+ *   $x^2$    satır içi, cümlenin içinde kalır
+ *   $ x^2 $  blok, kendi satırına düşer ve ortalanır
+ * Bu parçacıkların hepsi önce boşlukluydu, yani hepsi blok üretiyordu.
+ */
+const MATH: Block[] = [
   { label: "Matematik", hint: "$x^2$ — cümlenin içinde", snippet: "${|}$" },
   { label: "Blok matematik", hint: "$ x^2 $ — kendi satırında, ortalı", snippet: "\n$ {|} $\n" },
   { label: "Üs", hint: "x²", snippet: "${|}^2$" },
@@ -32,6 +35,10 @@ const COMMON: Block[] = [
   { label: "Kısmi türev", hint: "∂f/∂x", snippet: "$(partial {|})/(partial x)$" },
   { label: "Toplam", hint: "sigma, alt ve üst sınırlı", snippet: "$sum_(i=1)^n {|}$" },
   { label: "İntegral", hint: "belirli integral", snippet: "$integral_0^1 {|} dif x$" },
+];
+
+/** Sayfada yer kaplayan parçalar: tablo, şekil, aralık, vurgu. */
+const LAYOUT: Block[] = [
   { label: "Tablo", hint: "2 sütunlu", snippet: "#table(columns: 2, [{|}], [])" },
   {
     label: "Şekil + başlık",
@@ -81,8 +88,26 @@ const BY_TYPE: Record<QuestionType, Block[]> = {
   ],
 };
 
-export function blocksFor(type: QuestionType): { templates: Block[]; common: Block[] } {
-  return { templates: BY_TYPE[type], common: COMMON };
+/**
+ * Kalıp düğmelerinin gruplu hâli.
+ *
+ * Düz liste 17 düğmeyi tek şeritte yan yana diziyordu: `Kesir` ile
+ * `Şekil + başlık` aynı ağırlıkta görünüyor, göz hiçbirini bulamıyordu.
+ * Gruplama, aynı anda ekranda duran seçenek sayısını 4-10'a indirir.
+ *
+ * Saf fonksiyon — durum okumaz, DOM'a dokunmaz. Çizim `FloatingPalette`'in
+ * işi; burada yalnız VERİ durur. Bu ayrım `signex-iced`'in veri-görünüme
+ * deseninden alındı (`view/context_menu/`): saf kurucular test edilebilir,
+ * çizici tek yerde durur.
+ */
+export type BlockGroup = { id: string; label: string; blocks: Block[] };
+
+export function groupsFor(type: QuestionType): BlockGroup[] {
+  return [
+    { id: "kalip", label: "Kalıp", blocks: BY_TYPE[type] },
+    { id: "matematik", label: "Matematik", blocks: MATH },
+    { id: "yerlesim", label: "Yerleşim", blocks: LAYOUT },
+  ];
 }
 
 // ── Kaynaktan geri okuma ──────────────────────────────────────────────────────

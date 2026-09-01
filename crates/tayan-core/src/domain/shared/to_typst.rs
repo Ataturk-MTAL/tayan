@@ -1,5 +1,6 @@
 /// Context passed during Typst code generation — controls output mode.
 #[derive(Debug, Clone)]
+#[derive(Default)]
 pub struct TypstContext {
     /// Generate answer key version (shows correct answers).
     pub answer_key: bool,
@@ -16,11 +17,6 @@ pub struct TypstContext {
     pub shuffle_seed: u64,
 }
 
-impl Default for TypstContext {
-    fn default() -> Self {
-        Self { answer_key: false, shuffle: false, question_number: None, booklet: None, shuffle_seed: 0 }
-    }
-}
 
 impl TypstContext {
     pub fn answer_key() -> Self {

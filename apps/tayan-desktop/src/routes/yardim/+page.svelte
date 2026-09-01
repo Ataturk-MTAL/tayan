@@ -1,5 +1,58 @@
 <script lang="ts">
+  import { onMount } from "svelte";
   import PageHead from "$lib/components/shell/PageHead.svelte";
+  import PenButton from "$lib/components/shell/PenButton.svelte";
+  import { api } from "$lib/api";
+  import { errorText } from "$lib/editor/diagnostics";
+
+  /**
+   * Dil sunucusu kurulumu.
+   *
+   * İkili uygulamayla paketlenmiyor: platform başına 60 MB ve dondurulmuş bir
+   * sürüm demekti. Kurulum AÇIK bir eylem — "tamamen çevrimdışı" bir üründe
+   * kullanıcı sormadan ağa çıkmak kabul edilemez.
+   */
+  let lspStatus = $state<{ installed: boolean; path: string | null; version: string; supported: boolean } | null>(null);
+  let lspBusy = $state(false);
+  let lspError = $state<string | null>(null);
+  let lspDone = $state<string | null>(null);
+
+  onMount(async () => {
+    try {
+      lspStatus = await api.lsp.status();
+    } catch (err: unknown) {
+      lspError = errorText(err);
+    }
+  });
+
+  async function installLsp() {
+    lspBusy = true;
+    lspError = null;
+    lspDone = null;
+    try {
+      const path = await api.lsp.install();
+      lspDone = path;
+      lspStatus = await api.lsp.status();
+    } catch (err: unknown) {
+      lspError = errorText(err);
+    } finally {
+      lspBusy = false;
+    }
+  }
+
+  async function removeLsp() {
+    lspBusy = true;
+    lspError = null;
+    lspDone = null;
+    try {
+      await api.lsp.uninstall();
+      lspStatus = await api.lsp.status();
+    } catch (err: unknown) {
+      lspError = errorText(err);
+    } finally {
+      lspBusy = false;
+    }
+  }
 
   /**
    * Yardım ekranı, ürünün pinlenmiş kısıtını taşır: öğretmen ham Typst yazmaya
@@ -135,6 +188,7 @@
     { id: "kalip", ad: "Soru kalıpları" },
     { id: "temel", ad: "Typst temelleri" },
     { id: "gorsel", ad: "Görsel ekleme" },
+    { id: "lsp", ad: "Dil sunucusu" },
     { id: "yunan", ad: "Yunan harfleri" },
     { id: "turev", ad: "Türev ve integral" },
     { id: "kisayol", ad: "Kısayollar" },
@@ -357,6 +411,55 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
             <p class="mt-quarter text-[13px] leading-rule">{hata.ne}</p>
           </div>
         {/each}
+
+        <h2 id="lsp" class="mt-rule border-t border-rule-strong pt-half">Dil sunucusu</h2>
+        <p class="mt-quarter leading-rule">
+          Editör kutudan çıktığı hâliyle Typst'in <strong>560 sembolünü</strong>
+          tanır: işlevler, parametreleri, matematik sembolleri, senin yazdığın
+          <span class="font-mono">#let</span> tanımları. İnternet gerekmez.
+        </p>
+        <p class="mt-half leading-rule">
+          İstersen <strong>tinymist</strong> dil sunucusunu kurabilirsin. Üstüne
+          şunları ekler: içe aktarılan paketlerin sembolleri, belge üzerinden
+          hover açıklamaları ve daha isabetli öneri sıralaması.
+        </p>
+        <p class="pencil mt-quarter">
+          Uygulamayla birlikte gelmiyor — platform başına 60 MB ve dondurulmuş
+          bir sürüm demek olurdu. Kurulum senin açık isteğinle yapılır; indirilen
+          dosya sha256 ile doğrulanır, tutmazsa kurulmaz.
+        </p>
+
+        <div class="ruled mt-half p-half">
+          {#if lspStatus === null}
+            <p class="pencil">Durum okunuyor…</p>
+          {:else if !lspStatus.supported}
+            <p class="annot">Bu platform için hazır yapı yok.</p>
+          {:else if lspStatus.installed}
+            <p class="leading-rule">
+              Kurulu — <span class="font-mono text-[12px]">{lspStatus.version}</span>
+            </p>
+            <p class="pencil font-mono text-[11px]">{lspStatus.path}</p>
+            <div class="mt-half">
+              <PenButton kind="quiet" disabled={lspBusy} onclick={removeLsp}>
+                {lspBusy ? "Kaldırılıyor…" : "Kaldır"}
+              </PenButton>
+            </div>
+          {:else}
+            <p class="leading-rule">Kurulu değil.</p>
+            <div class="mt-half">
+              <PenButton kind="ink" disabled={lspBusy} onclick={installLsp}>
+                {lspBusy ? "İndiriliyor… (60 MB)" : `Kur (${lspStatus.version}, 60 MB)`}
+              </PenButton>
+            </div>
+          {/if}
+
+          {#if lspDone}
+            <p class="pencil mt-half">Kuruldu: <span class="font-mono text-[11px]">{lspDone}</span></p>
+          {/if}
+          {#if lspError}
+            <p class="annot mt-half">{lspError}</p>
+          {/if}
+        </div>
 
         <h2 id="veri" class="mt-rule border-t border-rule-strong pt-half">Verilerim nerede</h2>
         <p class="mt-quarter leading-rule">

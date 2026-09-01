@@ -7,6 +7,7 @@ import { Decoration, type DecorationSet } from "@codemirror/view";
 
 import { typstSyntax } from "./typst-lang";
 import { typstSymbols, inMathMode, localDefinitions, type TypstSymbol } from "./symbols";
+import { tinymistComplete, toCodeMirror } from "./tinymist";
 import type { TypstDiagnostic } from "./diagnostics";
 
 /**
@@ -219,7 +220,42 @@ function enclosingCall(text: string): string | null {
 
 async function tayanCompletions(context: CompletionContext) {
   const upto = context.state.sliceDoc(0, context.pos);
-  const symbols = [...(await typstSymbols()), ...localDefinitions(context.state.doc.toString())];
+
+  // Pahalı işten ÖNCE ucuz eleme.
+  //
+  // Bu sıra ters yazılmıştı: her tuş vuruşunda — silme dahil — tinymist'e tam
+  // belge gönderilip yanıt bekleniyor, sonra "aslında tamamlanacak kelime yok"
+  // diye atılıyordu. İmlecin yazının gerisinde kalmasının ikinci sebebi buydu.
+  const prefix = context.matchBefore(/[#$]?[\w.-]*/);
+  if (!prefix || (prefix.from === prefix.to && !context.explicit)) return null;
+
+  // 0) Önce tinymist. Typst'in tamamını, içe aktarılan paketleri ve belgedeki
+  //    kendi tanımlarımızı bilir. Yoksa veya hata verirse null döner ve
+  //    aşağıdaki kendi dökümümüze düşeriz.
+  const pos = context.state.doc.lineAt(context.pos);
+  const lsp = await tinymistComplete(
+    context.state.doc.toString(),
+    pos.number - 1,
+    context.pos - pos.from,
+  );
+
+  if (lsp !== null && lsp.length > 0) {
+    return {
+      from: prefix.from,
+      options: [
+        // Kalıplarımız üstte kalır: tam çağrı ve öğretici ipucu taşıyorlar,
+        // tinymist bunları sade birer işlev olarak önerir.
+        ...TEMPLATES.map((t) => ({ ...t, type: "keyword", boost: 99 })),
+        ...lsp.map(toCodeMirror),
+      ],
+    };
+  }
+
+  // Buradan itibaren yedek yol: kendi sembol dökümümüz.
+  const symbols = [
+    ...(await typstSymbols()),
+    ...localDefinitions(context.state.doc.toString()),
+  ];
 
   // 1) Bir çağrının içindeysek PARAMETRE öner — yanlış parametre adı bu
   //    ekranda en sık yapılan hatalardan biri.

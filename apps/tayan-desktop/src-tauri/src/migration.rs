@@ -35,11 +35,10 @@ pub async fn migrate_image_storage(
 
     // 1) Dosyaları taşı. Aynı adlı dosya hedefte varsa DOKUNULMAZ: üzerine
     //    yazmak, adları çakışan iki farklı görselden birini yok etmek olur.
-    if let Some(legacy) = legacy_dir {
-        if legacy.exists() && legacy != target_dir {
+    if let Some(legacy) = legacy_dir
+        && legacy.exists() && legacy != target_dir {
             report.moved_files = move_images(&legacy, &target_dir)?;
         }
-    }
 
     // 2) Kaynaklardaki mutlak yolları göreli yap.
     let mut bank = bank_repo.load().await.map_err(|e| e.to_string())?;

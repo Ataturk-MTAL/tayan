@@ -1,7 +1,5 @@
 <script lang="ts">
   import QuestionEditor from "./QuestionEditor.svelte";
-  import RuledField from "../shell/RuledField.svelte";
-  import PenButton from "../shell/PenButton.svelte";
   import { typstBody } from "$lib/question/body";
   import type { ContentNode } from "$lib/types";
   import {
@@ -81,14 +79,6 @@
 
   /** Kalıp hatası yazarken de görünür; kaydetmeyi beklemeye gerek yok. */
   let structureError = $derived(typeof parsed === "string" ? parsed : null);
-
-  let blankCount = $derived(
-    questionType === "fill_in_blank" && Array.isArray(parsed) ? parsed.length : 0,
-  );
-
-  let effectivePoints = $derived(
-    questionType === "fill_in_blank" ? points * Math.max(blankCount, 1) : points,
-  );
 
   /**
    * Var olan soruyu, kimliğini ve istatistiğini KORUYARAK günceller.
@@ -230,29 +220,6 @@
 </script>
 
 <div class="flex h-full min-h-0 flex-col">
-  <div class="ruled-bottom flex shrink-0 flex-wrap items-end gap-rule bg-paper-lift px-rule py-half paper-plain">
-    <div class="w-[160px]">
-      <RuledField label="Soru tipi">
-        <select bind:value={questionType}>
-          {#each Object.entries(QUESTION_TYPE_LABELS) as [value, label]}
-            <option {value}>{label}</option>
-          {/each}
-        </select>
-      </RuledField>
-    </div>
-
-
-    <div class="min-w-[200px] flex-1">
-      <RuledField label="Kazanım" hint="Boşluk veya virgülle ayır — MAT.9.1.2">
-        <input type="text" bind:value={outcomeText} placeholder="MAT.9.1.2" />
-      </RuledField>
-    </div>
-
-    <PenButton kind="ink" disabled={saving || structureError !== null} onclick={save}>
-      {saving ? "Kaydediliyor…" : existing ? "Güncelle" : "Kaydet"}
-    </PenButton>
-  </div>
-
   {#if legacyWarning}
     <p class="ruled-bottom annot shrink-0 bg-red-wash px-rule py-quarter">
       Bu soru eski zengin metin editörüyle yazılmış. Typst kaynağına çevrildi;
@@ -260,20 +227,30 @@
     </p>
   {/if}
 
+  <!--
+    Kalıp hatası (structureError) artık burada BASILMAZ: panelde, kazanım ve
+    puanın hemen altında duruyor. Kaydetme hatası ise ayrı bir şey — ağa/diske
+    giden bir çağrının başarısızlığı — ve üstte kalır.
+  -->
   {#if saveError}
     <p class="ruled-bottom annot shrink-0 bg-red-wash px-rule py-quarter">{saveError}</p>
-  {:else if structureError}
-    <p class="ruled-bottom annot shrink-0 bg-red-wash px-rule py-quarter">{structureError}</p>
   {/if}
 
   <div class="min-h-0 flex-1">
     <QuestionEditor
       {body}
       {questionType}
-      points={effectivePoints}
-      {outcomes}
+      {outcomeText}
+      {points}
       {stats}
+      {structureError}
+      {saving}
+      saveLabel={saving ? "Kaydediliyor…" : existing ? "Güncelle" : "Kaydet"}
       onbodychange={(next) => (body = next)}
+      onquestiontypechange={(next) => (questionType = next)}
+      onoutcometextchange={(next) => (outcomeText = next)}
+      onpointschange={(next) => (points = next)}
+      onsave={save}
     />
   </div>
 </div>

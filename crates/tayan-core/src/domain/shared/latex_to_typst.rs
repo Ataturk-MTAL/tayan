@@ -330,11 +330,11 @@ impl<'a> Converter<'a> {
                 // bare `d` + SINGLE alpha (not preceded by alpha in output)
                 // → insert spaces: "dx" → "d x", "f(y)dy" → "f(y) d y"
                 // Guard: if `d` is followed by 2 letters (div, det, dim…) → skip
-                if c == 'd' {
-                    if let Some(Token::Char(next_c)) = self.peek() {
-                        if next_c.is_alphabetic() {
+                if c == 'd'
+                    && let Some(Token::Char(next_c)) = self.peek()
+                        && next_c.is_alphabetic() {
                             let after_is_alpha = matches!(self.peek2(), Some(Token::Char(a)) if a.is_alphabetic());
-                            let prev_alpha = self.out.chars().last().map_or(false, |ch| ch.is_alphabetic());
+                            let prev_alpha = self.out.chars().last().is_some_and(|ch| ch.is_alphabetic());
                             if !after_is_alpha && !prev_alpha {
                                 if !self.out.ends_with(' ') && !self.out.is_empty() {
                                     self.out.push(' ');
@@ -344,8 +344,6 @@ impl<'a> Converter<'a> {
                                 return;
                             }
                         }
-                    }
-                }
                 self.out.push(c);
             }
 
@@ -522,15 +520,14 @@ impl<'a> Converter<'a> {
             "not" => {
                 // Try to negate the next command
                 self.skip_spaces();
-                if let Some(Token::Cmd(next_cmd)) = self.peek().cloned() {
-                    if let Some(negated) = negation_map(&next_cmd) {
+                if let Some(Token::Cmd(next_cmd)) = self.peek().cloned()
+                    && let Some(negated) = negation_map(&next_cmd) {
                         self.advance();
                         // skip optional space after the negated command
                         if let Some(Token::Char(' ')) = self.peek() { self.advance(); }
                         self.out.push_str(negated);
                         return;
                     }
-                }
                 // Fallback: just emit "not"
                 self.out.push_str("not");
             }
@@ -728,9 +725,8 @@ impl<'a> Converter<'a> {
                 let top = self.read_arg();
                 // expect \over
                 self.skip_spaces();
-                if let Some(Token::Cmd(c)) = self.peek() {
-                    if c == "over" { self.advance(); }
-                }
+                if let Some(Token::Cmd(c)) = self.peek()
+                    && c == "over" { self.advance(); }
                 let base = self.read_arg();
                 self.out.push_str(&format!("overset({base}, {top})"));
             }
@@ -817,7 +813,7 @@ impl<'a> Converter<'a> {
                         None    => self.out.push_str(&format!("d {x}")),
                     }
                 } else {
-                    self.out.push_str("d");
+                    self.out.push('d');
                 }
             }
             "dv" | "derivative" => {
@@ -924,7 +920,7 @@ impl<'a> Converter<'a> {
             "num" => {
                 let val = self.read_arg_raw();
                 // Handle scientific notation: 1.23e4 → 1.23 × 10^4
-                if let Some(pos) = val.find(|c: char| c == 'e' || c == 'E') {
+                if let Some(pos) = val.find(['e', 'E']) {
                     let (mantissa, exp) = val.split_at(pos);
                     let exp = &exp[1..]; // skip 'e'/'E'
                     self.out.push_str(&format!("{mantissa} times 10^({exp})"));
@@ -961,7 +957,7 @@ impl<'a> Converter<'a> {
             _ => {
                 let typst = symbol_map(cmd).unwrap_or(cmd);
                 // Space BEFORE: prevent "ipi", "xalpha" etc. from concatenating
-                if self.out.chars().last().map_or(false, |c| c.is_alphanumeric()) {
+                if self.out.chars().last().is_some_and(|c| c.is_alphanumeric()) {
                     self.out.push(' ');
                 }
                 self.out.push_str(typst);
@@ -1230,7 +1226,7 @@ fn ce_convert(raw: &str) -> String {
                     out.push_str(mapped);
                 } else {
                     match chars[i] {
-                        ',' | ';' => { out.push_str(" "); i += 1; }
+                        ',' | ';' => { out.push(' '); i += 1; }
                         c         => { out.push(c); i += 1; }
                     }
                 }
