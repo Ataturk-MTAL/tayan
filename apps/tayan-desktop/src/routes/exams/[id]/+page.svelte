@@ -63,14 +63,26 @@
     }
   }
 
-  let selected = $derived.by(() => {
-    if (!exam) return [] as Question[];
+  let ordered = $derived.by(() => {
+    if (!exam) return [];
     return exam.questions
       .slice()
       .sort((a, b) => a.display_order - b.display_order)
-      .map((ref) => bank.find((q) => q.id === ref.question_id))
-      .filter((q): q is Question => q !== undefined);
+      .map((ref) => ({
+        id: ref.question_id,
+        question: bank.find((q) => q.id === ref.question_id) ?? null,
+      }));
   });
+
+  let selected = $derived(
+    ordered.map((row) => row.question).filter((q): q is Question => q !== null),
+  );
+
+  /**
+   * Bankada karşılığı olmayan atıflar. Sessizce atmak, öğretmene eksik bir
+   * sınavı tam sanarak bastırmak demektir; toplam puan da yanlış çıkar.
+   */
+  let missing = $derived(ordered.filter((row) => row.question === null));
 
   let available = $derived(
     bank.filter((q) => !exam?.questions.some((ref) => ref.question_id === q.id)),
@@ -142,6 +154,9 @@
     <div class="ruled-bottom flex shrink-0 flex-wrap items-center gap-rule bg-paper px-rule py-half paper-plain">
       <BudgetGauge label="Puan" value={totalPoints} target={POINT_TARGET} unit="puan" />
       <BudgetGauge label="Soru" value={selected.length} target={20} unit="soru" />
+      {#if missing.length > 0}
+        <span class="annot font-semibold">{missing.length} soru bankada yok</span>
+      {/if}
       <span class="pencil">{exam.meta.duration_min} dk</span>
       {#if compiling}<span class="annot ml-auto">derleniyor…</span>{/if}
     </div>
@@ -158,6 +173,12 @@
         {#if selected.length === 0}
           <p class="pencil p-rule">Henüz soru eklenmedi.</p>
         {:else}
+          {#each missing as row (row.id)}
+            <p class="annot border-b border-rule bg-red-wash px-rule py-half">
+              Bankada bulunamadı: <span class="font-mono">{row.id.slice(0, 8)}</span> —
+              soru silinmiş olabilir. Bu sınav eksik basılır.
+            </p>
+          {/each}
           <ol>
             {#each selected as q, i (q.id)}
               <li class="flex items-start gap-half border-b border-rule px-rule py-half">
