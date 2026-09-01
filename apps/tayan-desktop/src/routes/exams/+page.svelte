@@ -1,107 +1,76 @@
 <script lang="ts">
-  import { api } from '$lib/api';
-  import { EXAM_STATUS_LABELS, type Exam, type ExamStatus } from '$lib/types';
-  import { onMount } from 'svelte';
+  import { onMount } from "svelte";
+  import PageHead from "$lib/components/shell/PageHead.svelte";
+  import PenButton from "$lib/components/shell/PenButton.svelte";
+  import { api } from "$lib/api";
+  import { errorText } from "$lib/editor/diagnostics";
+  import { EXAM_STATUS_LABELS, type Exam } from "$lib/types";
+  import { goto } from "$app/navigation";
 
-  let exams    = $state<Exam[]>([]);
-  let loading  = $state(true);
-  let error    = $state<string | null>(null);
-  let deleting = $state<string | null>(null);
+  let exams = $state<Exam[]>([]);
+  let loading = $state(true);
+  let loadError = $state<string | null>(null);
 
-  onMount(async () => {
-    try { exams = await api.exams.list(); }
-    catch (e) { error = String(e); }
-    finally { loading = false; }
-  });
+  onMount(load);
 
-  async function deleteExam(id: string) {
-    if (deleting !== id) { deleting = id; return; }
+  async function load() {
+    loading = true;
     try {
-      await api.exams.delete(id);
-      exams = exams.filter((e) => e.id !== id);
-      deleting = null;
-    } catch (e) { deleting = null; }
-  }
-
-  const STATUS_COLORS: Record<ExamStatus, string> = {
-    Draft:     'bg-muted text-muted-foreground',
-    Published: 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400',
-    Archived:  'bg-amber-100 text-amber-800 dark:bg-amber-900/30 dark:text-amber-400',
-  };
-
-  function fmtDate(d: string) {
-    return new Date(d).toLocaleDateString('tr-TR', { day: '2-digit', month: 'short', year: 'numeric' });
+      exams = await api.exams.list();
+      loadError = null;
+    } catch (err: unknown) {
+      loadError = errorText(err);
+    } finally {
+      loading = false;
+    }
   }
 </script>
 
-<div class="p-6 max-w-5xl mx-auto">
-  <div class="flex items-center justify-between mb-6">
-    <h1 class="text-2xl font-bold">Sınavlar</h1>
-    <a
-      href="/exams/new"
-      class="inline-flex items-center gap-1.5 rounded-md bg-primary px-4 py-2 text-sm
-             font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
-    >
-      + Yeni Sınav
-    </a>
-  </div>
+<div class="flex h-full min-h-0 flex-col">
+  <PageHead title="Sınavlar" count={loading ? null : `${exams.length}`}>
+    <PenButton kind="ink" onclick={() => goto("/exams/new")}>Yeni sınav</PenButton>
+  </PageHead>
 
-  {#if loading}
-    <p class="text-muted-foreground">Yükleniyor…</p>
-  {:else if error}
-    <div class="rounded-md border border-destructive/30 bg-destructive/10 px-3 py-2 text-sm text-destructive">{error}</div>
-  {:else if exams.length === 0}
-    <div class="rounded-lg border bg-card p-12 text-center text-muted-foreground">
-      Henüz sınav oluşturulmadı.
-    </div>
-  {:else}
-    <div class="rounded-lg border overflow-hidden">
-      <table class="w-full text-sm">
-        <thead class="bg-muted/50 text-muted-foreground">
-          <tr>
-            <th class="px-4 py-2.5 text-left font-medium">Sınav Adı</th>
-            <th class="px-4 py-2.5 text-left font-medium">Ders</th>
-            <th class="px-4 py-2.5 text-left font-medium">Sınıf</th>
-            <th class="px-4 py-2.5 text-left font-medium">Tarih</th>
-            <th class="px-4 py-2.5 text-left font-medium">Soru</th>
-            <th class="px-4 py-2.5 text-left font-medium">Durum</th>
-            <th class="px-4 py-2.5"></th>
+  <div class="min-h-0 flex-1 overflow-auto">
+    {#if loading}
+      <p class="pencil p-rule">Sınavlar okunuyor…</p>
+    {:else if loadError}
+      <p class="annot p-rule">{loadError}</p>
+    {:else if exams.length === 0}
+      <p class="pencil p-rule">Henüz sınav yok.</p>
+    {:else}
+      <table class="w-full border-collapse text-[13px]">
+        <thead>
+          <tr class="ruled-bottom">
+            <th class="stamp px-rule py-quarter text-left">Sınav</th>
+            <th class="stamp px-half py-quarter text-left">Ders</th>
+            <th class="stamp px-half py-quarter text-left">Sınıf</th>
+            <th class="stamp px-half py-quarter text-right">Soru</th>
+            <th class="stamp px-half py-quarter text-right">Süre</th>
+            <th class="stamp px-rule py-quarter text-right">Durum</th>
           </tr>
         </thead>
-        <tbody class="divide-y">
+        <tbody>
           {#each exams as exam (exam.id)}
-            <tr class="hover:bg-muted/30 transition-colors">
-              <td class="px-4 py-3 font-medium">
-                <a href="/exams/{exam.id}" class="hover:underline">{exam.meta.title}</a>
-              </td>
-              <td class="px-4 py-3 text-muted-foreground">{exam.meta.subject}</td>
-              <td class="px-4 py-3 text-muted-foreground">{exam.meta.classroom}</td>
-              <td class="px-4 py-3 text-muted-foreground">{fmtDate(exam.meta.date)}</td>
-              <td class="px-4 py-3 text-muted-foreground">{exam.questions.length}</td>
-              <td class="px-4 py-3">
-                <span class="rounded-full px-2 py-0.5 text-xs font-medium {STATUS_COLORS[exam.status]}">
-                  {EXAM_STATUS_LABELS[exam.status]}
-                </span>
-              </td>
-              <td class="px-4 py-3 text-right">
-                <div class="flex items-center justify-end gap-2">
-                  <a href="/exams/{exam.id}"
-                    class="rounded px-2 py-1 text-xs hover:bg-muted transition-colors">Düzenle</a>
-                  <button
-                    type="button"
-                    onclick={() => deleteExam(exam.id)}
-                    title={deleting === exam.id ? 'Tekrar tıkla — sil' : 'Sil'}
-                    class="rounded px-2 py-1 text-xs transition-colors
-                           {deleting === exam.id
-                             ? 'bg-destructive text-white'
-                             : 'text-destructive hover:bg-destructive/10'}"
-                  >{deleting === exam.id ? 'Emin misin?' : 'Sil'}</button>
-                </div>
+            <tr
+              class="cursor-pointer border-b border-rule hover:bg-paper-lift"
+              onclick={() => goto(`/exams/${exam.id}`)}
+            >
+              <td class="px-rule py-half font-semibold">{exam.meta.title}</td>
+              <td class="px-half py-half">{exam.meta.subject}</td>
+              <td class="px-half py-half">{exam.meta.classroom}</td>
+              <td class="px-half py-half text-right tnum">{exam.questions.length}</td>
+              <td class="px-half py-half text-right tnum">{exam.meta.duration_min} dk</td>
+              <td
+                class="px-rule py-half text-right"
+                class:text-red-deep={exam.status === "Published"}
+              >
+                {EXAM_STATUS_LABELS[exam.status]}
               </td>
             </tr>
           {/each}
         </tbody>
       </table>
-    </div>
-  {/if}
+    {/if}
+  </div>
 </div>

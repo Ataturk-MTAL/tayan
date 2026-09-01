@@ -15,6 +15,8 @@
     outcomes: string[];
     stats?: QuestionStats | null;
     onbodychange: (body: string) => void;
+    /** Cevap bölgesi. Kırmızı cetvelin sağı yalnızca ölçümündür, cevabın değil. */
+    answer?: import("svelte").Snippet;
   };
 
   let {
@@ -24,6 +26,7 @@
     outcomes,
     stats = null,
     onbodychange,
+    answer,
   }: Props = $props();
 
   /** Derleme her tuş vuruşunda değil, yazma durunca çalışır. */
@@ -90,4 +93,10 @@
 
     <MeasureRail {stats} {points} {outcomes} />
   </div>
+
+  {#if answer}
+    <div class="ruled-top max-h-[240px] shrink-0 overflow-auto bg-paper px-rule py-half paper-plain">
+      {@render answer()}
+    </div>
+  {/if}
 </div>
