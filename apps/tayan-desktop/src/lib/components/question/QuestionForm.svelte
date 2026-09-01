@@ -3,6 +3,7 @@
   import RuledField from "../shell/RuledField.svelte";
   import PenButton from "../shell/PenButton.svelte";
   import { typstBody } from "$lib/question/body";
+  import type { ContentNode } from "$lib/types";
   import {
     parseOptions,
     parseTrueFalse,
@@ -12,7 +13,7 @@
   } from "$lib/question/templates";
   import { api } from "$lib/api";
   import { errorText } from "$lib/editor/diagnostics";
-  import { QUESTION_TYPE_LABELS, type Question, type QuestionStats } from "$lib/types";
+  import { QUESTION_TYPE_LABELS, questionPoints, type Question, type QuestionStats } from "$lib/types";
   import { goto } from "$app/navigation";
 
   type QuestionType = Question["question_type"];
@@ -22,6 +23,14 @@
     initialBody?: string;
     stats?: QuestionStats | null;
     legacyWarning?: boolean;
+    /**
+     * Var olan bir soru düzenleniyorsa o soru. null ise yeni soru.
+     *
+     * Bu ayrım olmadan düzenleme her kaydedişte YENİ soru üretiyordu: banka
+     * kopyalarla doluyor, sınavlar eski kimliğe atıf yapmaya devam ediyor ve
+     * yapılan değişiklik sınavda hiç görünmüyordu.
+     */
+    existing?: Question | null;
   };
 
   let {
@@ -29,12 +38,13 @@
     initialBody = "",
     stats = null,
     legacyWarning = false,
+    existing = null,
   }: Props = $props();
 
   let questionType = $state<QuestionType>(initialType);
   let body = $state(initialBody);
-  let points = $state(5);
-  let outcomeText = $state("");
+  let points = $state(existing ? questionPoints(existing) : 5);
+  let outcomeText = $state(existing ? existing.outcomes.join(" ") : "");
 
   let saving = $state(false);
   let saveError = $state<string | null>(null);
@@ -71,6 +81,72 @@
     questionType === "fill_in_blank" ? points * Math.max(blankCount, 1) : points,
   );
 
+  /**
+   * Var olan soruyu, kimliğini ve istatistiğini KORUYARAK günceller.
+   *
+   * stats korunmak zorunda: madde analizi geçmişi soruya bağlıdır. Yeni bir
+   * nesne üretip stats'ı sıfırlamak, o sorunun ölçülmüş tarihini silmek olur.
+   */
+  function buildUpdated(base: Question, bodyNodes: ContentNode[]): Question {
+    const common = {
+      id: base.id,
+      outcomes,
+      body: bodyNodes,
+      stats: base.stats,
+    };
+
+    if (questionType === "multiple_choice") {
+      const { options, correctIndex, shuffle } = parsed as {
+        options: string[];
+        correctIndex: number;
+        shuffle: boolean;
+      };
+      return {
+        ...common,
+        question_type: "multiple_choice",
+        points,
+        options: options.map((source, i) => ({
+          id: OPTION_LETTERS[i],
+          body: typstBody(source),
+          correct: i === correctIndex,
+        })),
+        shuffle,
+      };
+    }
+
+    if (questionType === "true_false") {
+      return {
+        ...common,
+        question_type: "true_false",
+        points,
+        correct_answer: parsed as boolean,
+      };
+    }
+
+    if (questionType === "fill_in_blank") {
+      const blanks = parsed as Array<{ accepted: string[] }>;
+      return {
+        ...common,
+        question_type: "fill_in_blank",
+        blanks: blanks.map((b, i) => ({
+          id: `b${i + 1}`,
+          accepted_answers: b.accepted,
+          points,
+          case_sensitive: false,
+        })),
+      };
+    }
+
+    return {
+      ...common,
+      question_type: "classic",
+      points,
+      sample_answer: null,
+      rubric: [],
+      answer_space: { Lines: parsed as number },
+    };
+  }
+
   async function save() {
     if (structureError !== null) {
       saveError = structureError;
@@ -82,6 +158,12 @@
 
     try {
       const bodyNodes = typstBody(body);
+
+      if (existing) {
+        await api.questions.update(buildUpdated(existing, bodyNodes));
+        await goto("/questions");
+        return;
+      }
 
       if (questionType === "multiple_choice") {
         const { options, correctIndex, shuffle } = parsed as {
@@ -166,7 +248,7 @@
     </div>
 
     <PenButton kind="ink" disabled={saving || structureError !== null} onclick={save}>
-      {saving ? "Kaydediliyor…" : "Kaydet"}
+      {saving ? "Kaydediliyor…" : existing ? "Güncelle" : "Kaydet"}
     </PenButton>
   </div>
 

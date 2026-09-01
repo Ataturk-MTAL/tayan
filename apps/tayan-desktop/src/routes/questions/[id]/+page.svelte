@@ -34,5 +34,6 @@
     initialBody={bodySource(question.body)}
     stats={question.stats}
     legacyWarning={isLegacyBody(question.body)}
+    existing={question}
   />
 {/if}
