@@ -33,6 +33,17 @@ const COMMON: Block[] = [
   { label: "Toplam", hint: "sigma, alt ve üst sınırlı", snippet: "$sum_(i=1)^n {|}$" },
   { label: "İntegral", hint: "belirli integral", snippet: "$integral_0^1 {|} dif x$" },
   { label: "Tablo", hint: "2 sütunlu", snippet: "#table(columns: 2, [{|}], [])" },
+  {
+    label: "Şekil + başlık",
+    hint: "numaralı, ortalı, altyazılı",
+    snippet: '#figure(image("{|}", width: 60%), caption: [])',
+  },
+  {
+    label: "Metin | görsel",
+    hint: "soru solda, şekil sağda",
+    snippet:
+      '#grid(columns: (1fr, auto), gutter: 0.5cm,\n  [{|}],\n  image("", width: 4cm),\n)',
+  },
   { label: "Kalın", hint: "*kalın*", snippet: "*{|}*" },
   { label: "Boşluk bırak", hint: "dikey aralık", snippet: "#v(0.5cm)" },
 ];

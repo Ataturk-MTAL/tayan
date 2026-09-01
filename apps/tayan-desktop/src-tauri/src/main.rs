@@ -50,6 +50,17 @@ fn main() {
                     // hâlâ çözülüyor, yani veri kullanılabilir durumda.
                     Err(e) => eprintln!("görsel göçü başarısız: {e}"),
                 }
+
+                // Kullanılmayan görselleri topla. Yalnızca 24 saatten eski
+                // dosyalar: açık editörde duran, henüz kaydedilmemiş sorunun
+                // görseli hiçbir atıfta görünmez ve eşik olmadan silinirdi.
+                match migration::collect_orphan_images(&bank).await {
+                    Ok((n, bytes)) if n > 0 => {
+                        eprintln!("kullanılmayan görsel silindi: {n} dosya, {} KB", bytes / 1024)
+                    }
+                    Ok(_) => {}
+                    Err(e) => eprintln!("görsel temizliği başarısız: {e}"),
+                }
             });
 
             app.manage(Mutex::new(app_state));

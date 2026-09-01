@@ -229,6 +229,39 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
           <span class="font-mono">width</span> değerini değiştirerek boyutlandır:
           <span class="font-mono">40%</span>, <span class="font-mono">8cm</span> gibi.
         </p>
+
+        <h3 class="mt-rule">Hizalama ve yerleşim</h3>
+        <pre class="ruled mt-quarter overflow-x-auto p-half font-mono text-[12px] leading-[20px]">#align(center)[#image("images/a.png", width: 60%)]   ortalı (varsayılan)
+#align(right)[#image("images/a.png", width: 60%)]    sağa dayalı
+#image("images/a.png", width: 60%)                   sola dayalı
+
+#figure(image("images/a.png", width: 60%), caption: [Bir çember])
+  numaralı şekil: "Şekil 1: Bir çember" altına yazılır
+
+#grid(columns: (1fr, auto), gutter: 0.5cm,
+  [Yandaki çemberin alanını bulunuz.],
+  image("images/a.png", width: 4cm),
+)
+  metin solda, şekil sağda</pre>
+        <p class="pencil mt-quarter">
+          Yapıştırdığın görsel ortalı eklenir; sınav kâğıdında şekil neredeyse
+          her zaman ortalanır. Değiştirmek istersen <span class="font-mono">#align</span>
+          satırını düzenle.
+        </p>
+
+        <h3 class="mt-rule">Vazgeçtiğin görseller</h3>
+        <p class="mt-quarter leading-rule">
+          Görsel yapıştırıldığı anda diske yazılır; sorunun kaydedilmesi
+          beklenmez. Beklenseydi önizleme onu gösteremezdi, çünkü Typst dosyadan
+          okur.
+        </p>
+        <p class="mt-quarter leading-rule">
+          Sorudan vazgeçersen o dosya kullanılmadan kalır. Uygulama açılışta,
+          hiçbir soruda kullanılmayan ve <strong>24 saatten eski</strong>
+          görselleri siler. Yaş sınırı bilinçli: az önce yapıştırdığın ve henüz
+          kaydetmediğin görsel hiçbir atıfta görünmez, sınır olmasa tam
+          yazarken silinirdi.
+        </p>
         <p class="mt-half leading-rule">
           Yol <strong>göreli</strong>dir, mutlak değil. Bu bilinçli: mutlak yol
           kullanıcı adını içerir ve veri başka bir bilgisayara taşındığında

@@ -34,7 +34,12 @@ function readAsBase64(file: File): Promise<string> {
   });
 }
 
-/** Görseli kaydeder ve gövdeye eklenecek Typst çağrısını döndürür. */
+/**
+ * Görseli kaydeder ve gövdeye eklenecek Typst çağrısını döndürür.
+ *
+ * Varsayılan ORTALI: sınav kâğıdında şekil neredeyse her zaman ortalanır.
+ * Sola dayalı bırakmak, öğretmene her seferinde #align eklettirmek olurdu.
+ */
 export async function saveImageAsTypst(file: File, width = "60%"): Promise<string> {
   const ext = EXT_BY_TYPE[file.type];
   if (!ext) {
@@ -48,5 +53,5 @@ export async function saveImageAsTypst(file: File, width = "60%"): Promise<strin
 
   const dataUrl = await readAsBase64(file);
   const relative = await api.images.save(dataUrl, ext);
-  return `#image("${relative}", width: ${width})`;
+  return `#align(center)[#image("${relative}", width: ${width})]`;
 }
