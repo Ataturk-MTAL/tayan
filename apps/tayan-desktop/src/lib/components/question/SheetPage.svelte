@@ -33,3 +33,21 @@
   için animasyon tekrarlanmaz.
 -->
 <div class="sheet sheet-set" bind:this={host}></div>
+
+<style>
+  /*
+    Bu kural SheetPreview'de duruyordu; .sheet buraya taşınınca Svelte onu
+    "hiçbir şeye uymuyor" diye attı ve sayfa doğal boyutunda çizilmeye başladı.
+    Kapsamlı stil, kapsadığı işaretlemeyle aynı dosyada durmak zorunda.
+  */
+  .sheet {
+    width: 100%;
+    max-width: 794px; /* A4 genişliği, 96 dpi */
+  }
+
+  .sheet :global(svg) {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+</style>

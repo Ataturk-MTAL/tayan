@@ -62,9 +62,11 @@ export const typstMode = StreamLanguage.define<TypstState>({
     }
 
     // ── Komut / kod ifadesi ───────────────────────────────────────────────────
+    // stream.match düzenli ifadeyle çağrıldığında eşleşme dizisi döner, ama
+    // tip imzası boolean'ı da kapsıyor; daraltmadan indekslenemez.
     const fn = stream.match(FUNCTION_START);
-    if (fn) {
-      const word = String(fn[0]).slice(1);
+    if (fn && typeof fn !== "boolean") {
+      const word = fn[0].slice(1);
       return KEYWORDS.has(word) ? "keyword" : "variableName.function";
     }
 

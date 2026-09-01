@@ -30,7 +30,7 @@
   let safePages = $derived(pages.map(sanitize));
 </script>
 
-<div class="h-full min-h-0 overflow-auto bg-paper-sunk paper-plain">
+<div class="h-full min-h-0 overflow-auto bg-paper-sunk paper-grid">
   {#if error}
     <div class="p-rule">
       <p class="stamp mb-half">Derlenmedi</p>
@@ -61,10 +61,4 @@
   </div>
 </div>
 
-<style>
-  .sheet :global(svg) {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-</style>
+

@@ -124,7 +124,7 @@
     <span class="ml-auto annot" class:invisible={!slowCompile}>derleniyor…</span>
   </div>
 
-  <BlockPalette oninsert={handleInsert} />
+  <BlockPalette {questionType} oninsert={handleInsert} />
 
   <div class="grid min-h-0 flex-1 grid-cols-[minmax(320px,1fr)_minmax(360px,1.15fr)_240px]">
     <section class="min-h-0 border-r border-rule-strong">
