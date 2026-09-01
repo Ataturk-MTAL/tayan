@@ -1,0 +1,97 @@
+name: Release
+
+# Yalnız sürüm etiketiyle tetiklenir: v0.1.0, v0.2.0-rc1 ...
+# Dal push'u release üretmez; sürüm çıkarmak bilinçli bir hareket olmalı.
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+env:
+  CARGO_TERM_COLOR: always
+  CARGO_INCREMENTAL: 0
+
+jobs:
+  build:
+    name: ${{ matrix.label }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      # fail-fast KAPALI: bir platform düşünce diğerlerinin çıktısı da iptal
+      # olurdu. Üç platformdan ikisi çalışıyorsa bunu görmek isteriz.
+      fail-fast: false
+      matrix:
+        include:
+          - os: macos-latest
+            target: aarch64-apple-darwin
+            label: macOS (Apple Silicon)
+          - os: macos-latest
+            target: x86_64-apple-darwin
+            label: macOS (Intel)
+          - os: ubuntu-22.04
+            target: ""
+            label: Linux
+          - os: windows-latest
+            target: ""
+            label: Windows
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sistem bağımlılıkları (Linux)
+        if: matrix.os == 'ubuntu-22.04'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libwebkit2gtk-4.1-dev \
+            libappindicator3-dev \
+            librsvg2-dev \
+            libxdo-dev \
+            libssl-dev \
+            build-essential \
+            patchelf
+
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: ${{ matrix.target }}
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.1.0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: apps/tayan-desktop/pnpm-lock.yaml
+
+      - name: Bağımlılıklar
+        working-directory: apps/tayan-desktop
+        run: pnpm install --frozen-lockfile
+
+      # UYARI: paketler İMZASIZ üretilir. macOS'ta Gatekeeper "geliştirici
+      # doğrulanamadı" der ve kullanıcı sağ tık > Aç ile geçmek zorunda kalır;
+      # Windows'ta SmartScreen uyarısı çıkar. İmzalama Apple Developer ($99/yıl)
+      # ve bir Windows kod imzalama sertifikası ister. Öğretmenlere dağıtım
+      # yapılmadan önce bu çözülmeli — aksi hâlde kurulum adımı korkutucudur.
+      - uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          projectPath: apps/tayan-desktop
+          tagName: ${{ github.ref_name }}
+          releaseName: TAYAN ${{ github.ref_name }}
+          releaseBody: |
+            Değişiklikler için commit geçmişine bakınız.
+
+            **Paketler imzasız.** macOS'ta ilk açılışta sağ tık > Aç,
+            Windows'ta SmartScreen uyarısında "Yine de çalıştır" gerekir.
+          # Taslak: yapı çıktıları gözden geçirilmeden yayımlanmaz.
+          releaseDraft: true
+          prerelease: false
+          args: ${{ matrix.target && format('--target {0}', matrix.target) || '' }}

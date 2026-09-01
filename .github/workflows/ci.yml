@@ -1,0 +1,110 @@
+name: CI
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main, dev]
+
+# Aynı dala arka arkaya push edilirse önceki koşuyu iptal et. Tauri derlemesi
+# pahalı; üst üste binen koşular kuyruğu tıkar ve kimseye bilgi vermez.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CARGO_TERM_COLOR: always
+  # CI'da artımlı derleme işe yaramaz: her koşu temiz makinede başlar ve
+  # artımlı nesneler yalnızca önbelleği şişirir.
+  CARGO_INCREMENTAL: 0
+
+jobs:
+  frontend:
+    name: Ön yüz
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/tayan-desktop
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.1.0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: apps/tayan-desktop/pnpm-lock.yaml
+
+      # --frozen-lockfile: lock dosyası package.json ile uyumsuzsa CI durur.
+      # Sessizce çözüp devam etmek, geliştiricinin makinesinde çalışıp CI'da
+      # başka sürümle derlenen bir yapı demektir.
+      - run: pnpm install --frozen-lockfile
+
+      - name: svelte-check
+        run: pnpm run check
+
+      - name: Vite derlemesi
+        run: pnpm run build
+
+  rust:
+    name: Rust
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Tauri'nin Linux bağımlılıkları. tayan-desktop workspace üyesi olduğu
+      # için `cargo test --workspace` bunlar olmadan bağlanamaz.
+      - name: Sistem bağımlılıkları
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libwebkit2gtk-4.1-dev \
+            libappindicator3-dev \
+            librsvg2-dev \
+            libxdo-dev \
+            libssl-dev \
+            build-essential \
+            patchelf
+
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy
+
+      - uses: Swatinem/rust-cache@v2
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.1.0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: apps/tayan-desktop/pnpm-lock.yaml
+
+      # dist/ ÖNCE üretilmeli: tauri.conf.json `frontendDist: "../dist"` diyor
+      # ve tauri-build bunu derleme anında doğruluyor. Sıra bozulursa Rust
+      # derlemesi, ön yüzle ilgisi olmayan bir hatayla düşer.
+      - name: Ön yüzü derle (tauri-build bunu bekliyor)
+        working-directory: apps/tayan-desktop
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm run build
+
+      # Clippy KAPIDIR, bilgilendirme değil. Uyarı biriktirmeye izin verilen bir
+      # linter, üçüncü uyarıdan sonra kimsenin okumadığı bir gürültü kaynağına
+      # dönüşür. Kapı kurulurken kod tabanındaki 15 uyarının hepsi temizlendi.
+      #
+      # rustfmt kasten YOK: bu kod tabanı elle hizalanmış bir stil kullanıyor
+      # (49 dosyanın 49'u `cargo fmt` ile değişirdi) ve o hizalama bilinçli.
+      - name: Clippy
+        run: cargo clippy --workspace --all-targets -- -D warnings
+
+      - name: Testler
+        run: cargo test --workspace
+
+      - name: Derleme
+        run: cargo build --workspace
