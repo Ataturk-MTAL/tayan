@@ -53,5 +53,7 @@
     "mode-watcher": "^1.1.0",
     "tailwind-merge": "^3.6.0"
   },
-  "packageManager": "pnpm@11.1.0+sha512.0c44e842e5686b2c061a81adda8b2258bd8818e9704b2cf2c63d56b931a7b2e910092e085027003b96ca391ab56a07f6df5abaed2be9925034cdd686a535b14"
+  "packageManager": "pnpm@11.1.0+sha512.0c44e842e5686b2c061a81adda8b2258bd8818e9704b2cf2c63d56b931a7b2e910092e085027003b96ca391ab56a07f6df5abaed2be9925034cdd686a535b14",
+  "license": "Apache-2.0",
+  "description": "TAYAN — öğretmenler için Typst tabanlı sınav ve soru bankası"
 }
