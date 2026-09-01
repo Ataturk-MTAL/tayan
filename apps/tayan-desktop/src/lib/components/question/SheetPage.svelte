@@ -10,8 +10,11 @@
    * Typst değişmeyen bir sayfa için bayt bayt aynı SVG üretir. Bu yüzden
    * karşılaştırıp yalnızca GERÇEKTEN değişmişse DOM'a dokunuyoruz.
    */
-  type Props = { svg: string };
-  let { svg }: Props = $props();
+  type Props = { svg: string; zoom: number };
+  let { svg, zoom }: Props = $props();
+
+  /** A4 genişliği, 96 dpi. Zoom bunun katıdır. */
+  const A4_WIDTH_PX = 794;
 
   // $state şart: bind:this hedefi reaktif olmazsa ilk $effect koşusunda host
   // henüz atanmamış olabilir ve efekt bir daha tetiklenmez — ilk sayfa hiç
@@ -29,10 +32,15 @@
 </script>
 
 <!--
-  sheet-set yalnızca ilk görünüşte oynar; güncellemede sınıf yeniden eklenmediği
-  için animasyon tekrarlanmaz.
+  Zoom transform ile değil GENİŞLİKLE yapılır. transform: scale() sayfayı
+  bulanıklaştırır ve kaydırma alanını bozar; genişlik değişince SVG kendi
+  vektörlerinden yeniden çizilir ve her ölçekte keskin kalır.
 -->
-<div class="sheet sheet-set" bind:this={host}></div>
+<div
+  class="sheet sheet-set"
+  style="width: {Math.round(A4_WIDTH_PX * zoom)}px"
+  bind:this={host}
+></div>
 
 <style>
   /*
@@ -40,11 +48,6 @@
     "hiçbir şeye uymuyor" diye attı ve sayfa doğal boyutunda çizilmeye başladı.
     Kapsamlı stil, kapsadığı işaretlemeyle aynı dosyada durmak zorunda.
   */
-  .sheet {
-    width: 100%;
-    max-width: 794px; /* A4 genişliği, 96 dpi */
-  }
-
   .sheet :global(svg) {
     display: block;
     width: 100%;

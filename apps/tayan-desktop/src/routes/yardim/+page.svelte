@@ -1,0 +1,203 @@
+<script lang="ts">
+  import PageHead from "$lib/components/shell/PageHead.svelte";
+
+  /**
+   * Yardım ekranı, ürünün pinlenmiş kısıtını taşır: öğretmen ham Typst yazmaya
+   * zorlanmaz, ama Typst'in NE OLDUĞUNU buradan anlayabilir.
+   *
+   * Bu yüzden her örnek çalışan gerçek koddur — kısaltılmış, "şuna benzer bir
+   * şey" değil. Kopyalayıp editöre yapıştırınca derlenir.
+   */
+  type Row = { kod: string; ne: string };
+
+  const TEMEL: Row[] = [
+    { kod: "$x^2$", ne: "Satır içi matematik" },
+    { kod: "$ x^2 + y^2 = r^2 $", ne: "Kendi satırında, ortalanmış matematik" },
+    { kod: "$a/b$", ne: "Kesir" },
+    { kod: "$sqrt(x)$", ne: "Karekök" },
+    { kod: "$x_1$", ne: "Alt indis" },
+    { kod: "$alpha$ $beta$ $pi$", ne: "Yunan harfleri: adını yaz" },
+    { kod: "$sum_(i=1)^n i$", ne: "Toplam sembolü, alt ve üst sınırlı" },
+    { kod: "$integral_0^1 f(x) dif x$", ne: "İntegral" },
+    { kod: "*kalın*", ne: "Kalın yazı" },
+    { kod: "_eğik_", ne: "Eğik yazı" },
+    { kod: "#underline[altı çizili]", ne: "Altı çizili" },
+    { kod: "- madde", ne: "Madde işaretli liste" },
+    { kod: "+ madde", ne: "Numaralı liste" },
+    { kod: "#image(\"resim.png\", width: 60%)", ne: "Görsel ekle" },
+    { kod: "#v(0.5cm)", ne: "Dikey boşluk" },
+  ];
+
+  const KALIPLAR = [
+    {
+      ad: "Çoktan seçmeli",
+      kod: `#secenekler(dogru: "C",
+  [$x = 1$],
+  [$x = 2$],
+  [$x = 2$ ve $x = 3$],
+  [$x = 6$],
+  [Hiçbiri],
+)`,
+      not: "dogru: kâğıda BASILMAZ. Uygulama cevap anahtarını ve madde analizini oradan kurar. Şık harfleri (A, B, C…) sıraya göre kendiliğinden verilir.",
+    },
+    {
+      ad: "Doğru / yanlış",
+      kod: "#dogru-yanlis(dogru: true)",
+      not: "true ya da false. Kâğıda iki kutucuk basılır, cevap basılmaz.",
+    },
+    {
+      ad: "Boşluk doldurma",
+      kod: '#bosluk(cevap: "180|180 derece", width: 2cm)',
+      not: "Kabul edilen cevapları | ile ayır. Gövdede kaç tane #bosluk varsa o kadar boşluk oluşur; puan her boşluk için ayrı sayılır.",
+    },
+    {
+      ad: "Klasik",
+      kod: "#cevap-alani(satir: 6)",
+      not: "Öğrencinin yazacağı çizgiler. satir sayısını soruya göre ayarla.",
+    },
+  ];
+
+  const KISAYOLLAR: Row[] = [
+    { kod: "⌘ +", ne: "Önizlemeyi yakınlaştır" },
+    { kod: "⌘ −", ne: "Önizlemeyi uzaklaştır" },
+    { kod: "⌘ 0", ne: "Önizlemeyi gerçek boyuta getir" },
+    { kod: "⌘ + tekerlek", ne: "Sürekli yakınlaştır / uzaklaştır" },
+    { kod: "⌘ Z", ne: "Editörde geri al" },
+    { kod: "⇧ ⌘ Z", ne: "İleri al" },
+    { kod: "Tab", ne: "Girinti ekle" },
+    { kod: "⌃ Boşluk", ne: "Otomatik tamamlama listesi" },
+  ];
+
+  const HATALAR = [
+    {
+      mesaj: "unknown variable",
+      ne: "Var olmayan bir komut yazdın. Genelde yazım hatası: #secenekler yerine #secenek gibi. Yukarıdaki Kalıp düğmeleri doğrusunu ekler.",
+    },
+    {
+      mesaj: "expected closing bracket",
+      ne: "Bir köşeli parantez veya parantez kapanmamış. Editörde kırmızı işaret hangi satırda olduğunu gösterir.",
+    },
+    {
+      mesaj: "Gövdede #secenekler(...) yok",
+      ne: "Soru tipi çoktan seçmeli ama gövdede şık kalıbı yok. Kaydet düğmesi bu yüzden kapalı.",
+    },
+    {
+      mesaj: "Doğru cevap \"X\" şıklarla eşleşmiyor",
+      ne: "dogru: parametresine yazdığın harf, yazdığın şık sayısından fazla. Beş şık varsa en fazla E olabilir.",
+    },
+  ];
+
+  const BOLUMLER = [
+    { id: "kalip", ad: "Soru kalıpları" },
+    { id: "temel", ad: "Typst temelleri" },
+    { id: "kisayol", ad: "Kısayollar" },
+    { id: "kazanim", ad: "Kazanım kodu" },
+    { id: "hata", ad: "Hata mesajları" },
+    { id: "veri", ad: "Verilerim nerede" },
+  ];
+</script>
+
+<div class="flex h-full min-h-0 flex-col">
+  <PageHead title="Yardım" />
+
+  <div class="grid min-h-0 flex-1 grid-cols-[200px_1fr]">
+    <nav class="min-h-0 overflow-auto border-r border-rule-strong px-rule py-half">
+      <ul>
+        {#each BOLUMLER as bolum}
+          <li>
+            <a href="#{bolum.id}" class="block py-quarter text-[13px] leading-rule no-underline">
+              {bolum.ad}
+            </a>
+          </li>
+        {/each}
+      </ul>
+    </nav>
+
+    <article class="min-h-0 overflow-auto px-rule py-rule">
+      <div class="max-w-[68ch]">
+        <p class="leading-rule">
+          TAYAN soruları <strong>Typst</strong> ile dizer. Typst, matematiği ve sayfa
+          düzenini metinle anlatan bir dizgi dilidir; kelime işlemcinin aksine
+          yazdığın şey ile basılan şey birebir aynıdır.
+        </p>
+        <p class="pencil mt-half">
+          Typst öğrenmek zorunda değilsin — yukarıdaki düğmeler her şeyi hazır ekler.
+          Ama eklenen şey kaynakta görünür kalır, böylece zamanla ne olduğunu
+          kendiliğinden öğrenirsin.
+        </p>
+
+        <h2 id="kalip" class="mt-rule border-t border-rule-strong pt-half">Soru kalıpları</h2>
+        <p class="pencil mt-quarter">
+          Sorunun yapısı ayrı bir formda değil, kaynağın içinde durur. Böylece cevap
+          anahtarı ile kâğıtta görünen asla birbirinden ayrı düşmez.
+        </p>
+
+        {#each KALIPLAR as kalip}
+          <h3 class="mt-rule">{kalip.ad}</h3>
+          <pre class="ruled mt-quarter overflow-x-auto p-half font-mono text-[12px] leading-[20px]">{kalip.kod}</pre>
+          <p class="pencil mt-quarter">{kalip.not}</p>
+        {/each}
+
+        <h2 id="temel" class="mt-rule border-t border-rule-strong pt-half">Typst temelleri</h2>
+        <table class="mt-half w-full border-collapse">
+          <tbody>
+            {#each TEMEL as satir}
+              <tr class="border-b border-rule">
+                <td class="w-[46%] py-quarter pr-half font-mono text-[12px] leading-rule">{satir.kod}</td>
+                <td class="py-quarter text-[13px] leading-rule">{satir.ne}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+
+        <h2 id="kisayol" class="mt-rule border-t border-rule-strong pt-half">Kısayollar</h2>
+        <table class="mt-half w-full border-collapse">
+          <tbody>
+            {#each KISAYOLLAR as satir}
+              <tr class="border-b border-rule">
+                <td class="w-[46%] py-quarter pr-half font-mono text-[12px] leading-rule">{satir.kod}</td>
+                <td class="py-quarter text-[13px] leading-rule">{satir.ne}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+
+        <h2 id="kazanim" class="mt-rule border-t border-rule-strong pt-half">Kazanım kodu</h2>
+        <p class="mt-quarter leading-rule">
+          MEB biçiminde yazılır: <span class="font-mono">MAT.9.1.2</span> — ders,
+          sınıf, ünite, kazanım. Bir soruya birden çok kazanım yazabilirsin; boşluk
+          veya virgülle ayır.
+        </p>
+        <p class="pencil mt-quarter">
+          Analiz ekranı kazanım başına başarıyı buradan hesaplar. Kazanım girilmemiş
+          soru analizde görünmez.
+        </p>
+
+        <h2 id="hata" class="mt-rule border-t border-rule-strong pt-half">Hata mesajları</h2>
+        <p class="pencil mt-quarter">
+          Editörde <span class="text-red-deep">kırmızı</span> gördüğün her şey hatadır.
+          Renklendirmede kırmızı kullanılmaz; kenardaki
+          <span class="text-red-deep font-bold">✗</span> ve satır altındaki dalgalı
+          çizgi yalnızca derleme hatasında çıkar.
+        </p>
+        {#each HATALAR as hata}
+          <div class="mt-half border-t border-rule pt-half">
+            <p class="font-mono text-[12px] leading-rule text-red-deep">{hata.mesaj}</p>
+            <p class="mt-quarter text-[13px] leading-rule">{hata.ne}</p>
+          </div>
+        {/each}
+
+        <h2 id="veri" class="mt-rule border-t border-rule-strong pt-half">Verilerim nerede</h2>
+        <p class="mt-quarter leading-rule">
+          Her şey kendi bilgisayarında. İnternet gerekmez, hesap yoktur, hiçbir veri
+          dışarı çıkmaz.
+        </p>
+        <pre class="ruled mt-quarter overflow-x-auto p-half font-mono text-[12px] leading-[20px]">~/Library/Application Support/tayan/</pre>
+        <p class="pencil mt-quarter">
+          Soru bankası, sınavlar, sınıflar ve sonuçlar bu klasördeki veritabanı
+          dosyasında durur. Yedek almak için klasörü kopyalaman yeterlidir.
+        </p>
+      </div>
+    </article>
+  </div>
+</div>
