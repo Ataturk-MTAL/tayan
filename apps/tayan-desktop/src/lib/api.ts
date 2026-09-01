@@ -131,14 +131,18 @@ export const api = {
   },
 
   compiler: {
-    generateTypst: (examId: string, answerKey: boolean) =>
-      invoke<string>("generate_exam_pdf", { examId, answerKey }),
+    /**
+     * booklet: kitapçık türü ("A", "B", ...). null ise tek kitapçık — kâğıda
+     * etiket basılmaz ve şık sırası yalnızca sınav kimliğinden türetilir.
+     */
+    generateTypst: (examId: string, answerKey: boolean, booklet: string | null = null) =>
+      invoke<string>("generate_exam_pdf", { examId, answerKey, booklet }),
 
-    exportPdf: (examId: string, answerKey: boolean) =>
-      invoke<string>("export_exam_pdf", { examId, answerKey }),
+    exportPdf: (examId: string, answerKey: boolean, booklet: string | null = null) =>
+      invoke<string>("export_exam_pdf", { examId, answerKey, booklet }),
 
-    exportTypstFile: (examId: string, answerKey: boolean) =>
-      invoke<string>("export_typst_file", { examId, answerKey }),
+    exportTypstFile: (examId: string, answerKey: boolean, booklet: string | null = null) =>
+      invoke<string>("export_typst_file", { examId, answerKey, booklet }),
 
     previewTypst: (source: string) =>
       invoke<string>("compile_typst_preview", { source }),

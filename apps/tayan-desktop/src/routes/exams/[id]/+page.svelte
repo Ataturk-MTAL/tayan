@@ -27,6 +27,10 @@
   let busy = $state(false);
 
   let answerKey = $state(false);
+
+  /** null = tek kitapçık. Etiket basılmaz, sıra yalnızca sınav kimliğinden. */
+  let booklet = $state<string | null>(null);
+  const BOOKLETS = ["A", "B", "C", "D"];
   let pages = $state<string[]>([]);
   let previewError = $state<string | null>(null);
   let compiling = $state(false);
@@ -53,7 +57,7 @@
     if (!exam) return;
     compiling = true;
     try {
-      const source = await api.compiler.generateTypst(exam.id, answerKey);
+      const source = await api.compiler.generateTypst(exam.id, answerKey, booklet);
       pages = await api.compiler.previewSvg(source);
       previewError = null;
     } catch (err: unknown) {
@@ -90,6 +94,15 @@
 
   let totalPoints = $derived(selected.reduce((sum, q) => sum + questionPoints(q), 0));
 
+  /**
+   * Kitapçıklar yalnızca karıştırılan sorular varsa farklılaşır. Hiçbiri
+   * karıştırılmıyorsa A ile B birebir aynı çıkar; bunu söylememek, öğretmenin
+   * kopya çekilmediğini sanmasına yol açar.
+   */
+  let shuffledCount = $derived(
+    selected.filter((q) => q.question_type === "multiple_choice" && q.shuffle).length,
+  );
+
   async function run(action: () => Promise<unknown>) {
     busy = true;
     actionError = null;
@@ -112,7 +125,7 @@
   async function exportPdf() {
     if (!exam) return;
     await run(async () => {
-      const path = await api.compiler.exportPdf(exam!.id, answerKey);
+      const path = await api.compiler.exportPdf(exam!.id, answerKey, booklet);
       actionError = `PDF kaydedildi: ${path}`;
     });
   }
@@ -134,6 +147,21 @@
       </span>
 
       <div class="ml-auto flex items-center gap-half">
+        <label class="pencil flex items-center gap-quarter">
+          Kitapçık
+          <select
+            class="border-0 border-b border-rule-strong bg-transparent pb-[2px] leading-rule
+                   focus:border-red focus:outline-none"
+            bind:value={booklet}
+            onchange={refreshPreview}
+          >
+            <option value={null}>Tek</option>
+            {#each BOOKLETS as b}
+              <option value={b}>{b}</option>
+            {/each}
+          </select>
+        </label>
+
         <label class="pencil flex items-center gap-quarter">
           <input type="checkbox" bind:checked={answerKey} onchange={refreshPreview} />
           Cevap anahtarı
@@ -158,6 +186,14 @@
         <span class="annot font-semibold">{missing.length} soru bankada yok</span>
       {/if}
       <span class="pencil">{exam.meta.duration_min} dk</span>
+      {#if booklet !== null && shuffledCount === 0}
+        <span class="annot">
+          Hiçbir sorunun şıkları karıştırılmıyor — kitapçıklar birebir aynı çıkar.
+          Soru gövdesinde karistir: true yap.
+        </span>
+      {:else if booklet !== null}
+        <span class="pencil">{shuffledCount} soru karıştırılıyor</span>
+      {/if}
       {#if compiling}<span class="annot ml-auto">derleniyor…</span>{/if}
     </div>
 

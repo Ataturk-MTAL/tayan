@@ -22,14 +22,20 @@ impl TypstGenerator {
         let mut out = String::new();
 
         out.push_str(PREAMBLE);
-        out.push_str(&exam_header(exam));
+        out.push_str(&exam_header(exam, ctx.booklet.as_deref()));
 
         // Karıştırma tohumu sınav kimliğinden gelir: aynı sınav her basıldığında
         // aynı sırayı üretir, farklı sınavlar farklı sıra alır.
         let mut ctx = ctx;
-        ctx.shuffle_seed = tayan_core::domain::shared::to_typst::seed_from(
-            &exam.id.0.to_string(),
-        );
+        // Tohuma kitapçık türü katılır: aynı sınavın A ve B kitapçığı farklı
+        // sıra alır, ama HER İKİSİ de yeniden basıldığında kendi sırasını
+        // birebir tekrarlar. Cevap anahtarı da aynı tohumdan üretildiği için
+        // türle eşleşmemesi imkânsızdır.
+        let seed_base = tayan_core::domain::shared::to_typst::seed_from(&exam.id.0.to_string());
+        ctx.shuffle_seed = match ctx.booklet.as_deref() {
+            Some(b) => seed_base ^ tayan_core::domain::shared::to_typst::seed_from(b),
+            None    => seed_base,
+        };
 
         for (i, q) in questions.iter().enumerate() {
             let q_ctx = ctx.clone().with_number((i + 1) as u32);
@@ -55,19 +61,29 @@ fn escape_typst(s: &str) -> String {
     s.replace('"', "\\\"").replace('#', "\\#")
 }
 
-fn exam_header(exam: &Exam) -> String {
+fn exam_header(exam: &Exam, booklet: Option<&str>) -> String {
     let title   = escape_typst(&exam.meta.title);
     let subject = escape_typst(&exam.meta.subject);
     let class   = escape_typst(&exam.meta.classroom);
     let teacher = escape_typst(&exam.meta.teacher);
     let dur     = exam.meta.duration_min;
+
+    // Tek kitapçıkta etiket basılmaz — "Kitapçık A" yazmak, B yokken gürültüdür.
+    let booklet_line = match booklet {
+        Some(b) => format!(
+            "\n  #linebreak()\n  #text(size: 12pt, weight: \"bold\")[KİTAPÇIK {}]",
+            escape_typst(b)
+        ),
+        None => String::new(),
+    };
+
     format!(
         "#align(center)[
   #text(weight: \"bold\", size: 14pt)[{title}]
   #linebreak()
   #text(size: 10pt)[{subject} #h(1em) | #h(1em) {class} #h(1em) | #h(1em) {teacher}]
   #linebreak()
-  #text(size: 9pt, fill: gray)[Süre: {dur} dk]
+  #text(size: 9pt, fill: gray)[Süre: {dur} dk]{booklet_line}
 ]
 #line(length: 100%)
 #v(0.4cm)

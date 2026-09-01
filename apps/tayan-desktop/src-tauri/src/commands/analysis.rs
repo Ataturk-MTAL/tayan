@@ -49,6 +49,7 @@ pub async fn generate_exam_pdf(
     state:      State<'_, Mutex<AppState>>,
     exam_id:    String,
     answer_key: bool,
+    booklet:    Option<String>,
 ) -> Result<String, String> {
     let st  = state.lock().await;
     let eid = uuid::Uuid::parse_str(&exam_id).map(ExamId).map_err(|e| e.to_string())?;
@@ -58,6 +59,7 @@ pub async fn generate_exam_pdf(
 
     let ctx = tayan_core::domain::shared::to_typst::TypstContext {
         answer_key,
+        booklet,
         ..Default::default()
     };
 
@@ -75,6 +77,7 @@ pub async fn export_exam_pdf(
     state:      State<'_, Mutex<AppState>>,
     exam_id:    String,
     answer_key: bool,
+    booklet:    Option<String>,
 ) -> Result<String, String> {
     let st  = state.lock().await;
     let eid = uuid::Uuid::parse_str(&exam_id).map(ExamId).map_err(|e| e.to_string())?;
@@ -84,6 +87,7 @@ pub async fn export_exam_pdf(
 
     let ctx = tayan_core::domain::shared::to_typst::TypstContext {
         answer_key,
+        booklet,
         ..Default::default()
     };
 
@@ -108,6 +112,7 @@ pub async fn export_typst_file(
     state:      State<'_, Mutex<AppState>>,
     exam_id:    String,
     answer_key: bool,
+    booklet:    Option<String>,
 ) -> Result<String, String> {
     let st  = state.lock().await;
     let eid = uuid::Uuid::parse_str(&exam_id).map(ExamId).map_err(|e| e.to_string())?;
@@ -117,6 +122,7 @@ pub async fn export_typst_file(
 
     let ctx = tayan_core::domain::shared::to_typst::TypstContext {
         answer_key,
+        booklet,
         ..Default::default()
     };
 
