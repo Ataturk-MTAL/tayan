@@ -1,190 +1,127 @@
 <script lang="ts">
-  import { api } from '$lib/api';
+  import { onMount } from "svelte";
+  import PageHead from "$lib/components/shell/PageHead.svelte";
+  import PenButton from "$lib/components/shell/PenButton.svelte";
+  import { api } from "$lib/api";
+  import { errorText } from "$lib/editor/diagnostics";
+  import { bodySource } from "$lib/question/body";
   import {
     QUESTION_TYPE_LABELS,
-    type Question,
-    bodyPreview,
     questionPoints,
     scoreBadge,
-  } from '$lib/types';
-  import { onMount } from 'svelte';
+    type Question,
+    type ScoreBadge,
+  } from "$lib/types";
+  import { goto } from "$app/navigation";
 
   let questions = $state<Question[]>([]);
-  let loading   = $state(true);
-  let error     = $state<string | null>(null);
-  let deleting  = $state<string | null>(null);
+  let loading = $state(true);
+  let loadError = $state<string | null>(null);
+  let filter = $state<"all" | "untested" | "weak">("all");
 
-  onMount(async () => {
+  const BADGE_LABEL: Record<ScoreBadge, string> = {
+    excellent: "Çok iyi",
+    good: "İyi",
+    fair: "Orta",
+    poor: "Zayıf",
+    untested: "Denenmemiş",
+  };
+  const BADGE_COLOR: Record<ScoreBadge, string> = {
+    excellent: "var(--color-mark-excellent)",
+    good: "var(--color-mark-good)",
+    fair: "var(--color-mark-fair)",
+    poor: "var(--color-mark-poor)",
+    untested: "var(--color-mark-untested)",
+  };
+
+  onMount(load);
+
+  async function load() {
+    loading = true;
     try {
       questions = await api.questions.list();
-    } catch (e) {
-      error = String(e);
+      loadError = null;
+    } catch (err: unknown) {
+      loadError = errorText(err);
     } finally {
       loading = false;
     }
-  });
-
-  async function deleteQuestion(q: Question) {
-    if (deleting !== q.id) { deleting = q.id; return; }
-    try {
-      await api.questions.delete(q.id);
-      questions = questions.filter((x) => x.id !== q.id);
-      deleting = null;
-    } catch (e) { deleting = null; }
   }
 
-  const BADGE_STYLES = {
-    excellent: 'bg-emerald-100 text-emerald-800',
-    good:      'bg-blue-100 text-blue-800',
-    fair:      'bg-amber-100 text-amber-800',
-    poor:      'bg-red-100 text-red-800',
-    untested:  'bg-muted text-muted-foreground',
-  };
+  let shown = $derived(
+    questions.filter((q) => {
+      if (filter === "untested") return q.stats.times_used === 0;
+      if (filter === "weak")
+        return q.stats.times_used > 0 && q.stats.discrimination_index < 0.2;
+      return true;
+    }),
+  );
 
-  const BADGE_LABELS = {
-    excellent: 'Mükemmel',
-    good:      'İyi',
-    fair:      'Orta',
-    poor:      'Zayıf',
-    untested:  'Test Edilmedi',
-  };
-
-  const TYPE_STYLES: Record<Question['question_type'], string> = {
-    multiple_choice: 'bg-violet-100 text-violet-800',
-    true_false:      'bg-sky-100 text-sky-800',
-    fill_in_blank:   'bg-orange-100 text-orange-800',
-    classic:         'bg-stone-100 text-stone-700',
-  };
+  function preview(q: Question): string {
+    const source = bodySource(q.body).replace(/\s+/g, " ").trim();
+    return source.length > 110 ? `${source.slice(0, 110)}…` : source || "(boş)";
+  }
 </script>
 
-<div class="p-6 max-w-5xl mx-auto">
-  <!-- Header -->
-  <div class="flex items-center justify-between mb-6">
-    <div>
-      <h1 class="text-2xl font-bold tracking-tight">Soru Bankası</h1>
-      {#if !loading}
-        <p class="text-sm text-muted-foreground mt-0.5">
-          {questions.length} soru
+<div class="flex h-full min-h-0 flex-col">
+  <PageHead title="Soru bankası" count={loading ? null : `${shown.length} / ${questions.length}`}>
+    <PenButton kind="quiet" onclick={() => (filter = "all")}>Tümü</PenButton>
+    <PenButton kind="quiet" onclick={() => (filter = "untested")}>Denenmemiş</PenButton>
+    <PenButton kind="red" onclick={() => (filter = "weak")}>Zayıf ayırt edici</PenButton>
+    <PenButton kind="ink" onclick={() => goto("/questions/new")}>Soru yaz</PenButton>
+  </PageHead>
+
+  <div class="min-h-0 flex-1 overflow-auto">
+    {#if loading}
+      <p class="pencil p-rule">Banka okunuyor…</p>
+    {:else if loadError}
+      <p class="annot p-rule">{loadError}</p>
+    {:else if shown.length === 0}
+      <div class="p-rule">
+        <p class="pencil">
+          {questions.length === 0
+            ? "Bankada henüz soru yok."
+            : "Bu süzgece uyan soru yok."}
         </p>
-      {/if}
-    </div>
-    <a
-      href="/questions/new"
-      class="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
-    >
-      + Soru Ekle
-    </a>
-  </div>
-
-  <!-- States -->
-  {#if loading}
-    <div class="flex items-center justify-center py-24 text-muted-foreground text-sm">
-      Yükleniyor…
-    </div>
-
-  {:else if error}
-    <div class="rounded-md border border-destructive/30 bg-destructive/10 px-4 py-3 text-sm text-destructive">
-      {error}
-    </div>
-
-  {:else if questions.length === 0}
-    <div class="flex flex-col items-center justify-center py-24 gap-3">
-      <p class="text-muted-foreground text-sm">Henüz soru eklenmemiş.</p>
-      <a
-        href="/questions/new"
-        class="text-sm text-primary hover:underline"
-      >
-        İlk soruyu ekle →
-      </a>
-    </div>
-
-  {:else}
-    <!-- Question list -->
-    <div class="rounded-lg border overflow-hidden">
-      <table class="w-full text-sm">
+      </div>
+    {:else}
+      <table class="w-full border-collapse text-[13px]">
         <thead>
-          <tr class="bg-muted/50 border-b text-muted-foreground text-xs uppercase tracking-wide">
-            <th class="px-4 py-3 text-left font-medium">Soru</th>
-            <th class="px-4 py-3 text-left font-medium">Tip</th>
-            <th class="px-4 py-3 text-right font-medium">Puan</th>
-            <th class="px-4 py-3 text-left font-medium">Kazanım</th>
-            <th class="px-4 py-3 text-left font-medium">Kalite</th>
-            <th class="px-2 py-3 w-20"></th>
+          <tr class="ruled-bottom">
+            <th class="stamp px-rule py-quarter text-left">Soru</th>
+            <th class="stamp px-half py-quarter text-left">Tip</th>
+            <th class="stamp px-half py-quarter text-right">Puan</th>
+            <th class="stamp px-half py-quarter text-right">Güçlük</th>
+            <th class="stamp px-half py-quarter text-right">Ayırt edicilik</th>
+            <th class="stamp px-rule py-quarter text-right">Ölçüm</th>
           </tr>
         </thead>
-        <tbody class="divide-y">
-          {#each questions as q (q.id)}
+        <tbody>
+          {#each shown as q (q.id)}
             {@const badge = scoreBadge(q.stats)}
-            {@const pts   = questionPoints(q)}
-            <tr class="hover:bg-muted/30 transition-colors group">
-              <!-- Body preview -->
-              <td class="px-4 py-3 max-w-xs">
-                <span class="line-clamp-2 text-foreground leading-snug">
-                  {bodyPreview(q.body)}
-                </span>
-                {#if q.stats.times_used > 0}
-                  <span class="text-xs text-muted-foreground">
-                    {q.stats.times_used}× kullanıldı
-                  </span>
-                {/if}
+            <tr
+              class="cursor-pointer border-b border-rule align-top hover:bg-paper-lift"
+              onclick={() => goto(`/questions/${q.id}`)}
+            >
+              <td class="px-rule py-half font-mono text-ink-mid">{preview(q)}</td>
+              <td class="px-half py-half whitespace-nowrap">{QUESTION_TYPE_LABELS[q.question_type]}</td>
+              <td class="px-half py-half text-right tnum">{questionPoints(q)}</td>
+              <td class="px-half py-half text-right tnum">
+                {q.stats.times_used > 0 ? `${Math.round(q.stats.difficulty_index * 100)}%` : "—"}
               </td>
-
-              <!-- Type badge -->
-              <td class="px-4 py-3">
-                <span class="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium {TYPE_STYLES[q.question_type]}">
-                  {QUESTION_TYPE_LABELS[q.question_type]}
-                </span>
+              <td
+                class="px-half py-half text-right tnum"
+                class:text-red-deep={q.stats.times_used > 0 && q.stats.discrimination_index < 0.2}
+              >
+                {q.stats.times_used > 0 ? q.stats.discrimination_index.toFixed(2) : "—"}
               </td>
-
-              <!-- Points -->
-              <td class="px-4 py-3 text-right tabular-nums font-medium">
-                {pts}p
-              </td>
-
-              <!-- Outcomes -->
-              <td class="px-4 py-3">
-                <div class="flex flex-wrap gap-1">
-                  {#each q.outcomes.slice(0, 2) as code}
-                    <span class="text-xs text-muted-foreground font-mono bg-muted px-1.5 py-0.5 rounded">
-                      {code}
-                    </span>
-                  {/each}
-                  {#if q.outcomes.length > 2}
-                    <span class="text-xs text-muted-foreground">+{q.outcomes.length - 2}</span>
-                  {/if}
-                </div>
-              </td>
-
-              <!-- Score badge -->
-              <td class="px-4 py-3">
-                <span class="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium {BADGE_STYLES[badge]}">
-                  {BADGE_LABELS[badge]}
-                </span>
-              </td>
-
-              <!-- Actions -->
-              <td class="px-2 py-3">
-                <div class="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                  <a
-                    href="/questions/{q.id}"
-                    class="inline-flex items-center rounded px-2 py-1 text-xs font-medium hover:bg-accent transition-colors"
-                    title="Düzenle"
-                  >✏</a>
-                  <button
-                    type="button"
-                    onclick={() => deleteQuestion(q)}
-                    title={deleting === q.id ? 'Tekrar tıkla — sil' : 'Sil'}
-                    class="inline-flex items-center rounded px-2 py-1 text-xs font-medium transition-colors
-                           {deleting === q.id
-                             ? 'bg-destructive text-white'
-                             : 'text-destructive hover:bg-destructive/10'}"
-                  >{deleting === q.id ? 'Sil?' : '✕'}</button>
-                </div>
+              <td class="px-rule py-half text-right whitespace-nowrap" style="color: {BADGE_COLOR[badge]}">
+                {BADGE_LABEL[badge]}
               </td>
             </tr>
           {/each}
         </tbody>
       </table>
-    </div>
-  {/if}
+    {/if}
+  </div>
 </div>

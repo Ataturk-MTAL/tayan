@@ -45,6 +45,14 @@ pub struct ImageNode {
     pub width: Option<String>,
 }
 
+// ── Raw Typst ────────────────────────────────────────────────────────────────
+
+#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
+pub struct TypstRawNode {
+    /// Raw Typst source inserted directly into the generated question body.
+    pub code: String,
+}
+
 // ── Fill-in-blank placeholder ─────────────────────────────────────────────────
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -85,6 +93,7 @@ pub enum ContentNode {
     Math(MathNode),
     Chem(ChemNode),
     Image(ImageNode),
+    TypstRaw(TypstRawNode),
     Blank(BlankNode),
     Newline,
 }
@@ -112,6 +121,10 @@ impl ContentNode {
 
     pub fn image(src: impl Into<String>, alt: impl Into<String>) -> Self {
         ContentNode::Image(ImageNode { src: src.into(), alt: alt.into(), width: None })
+    }
+
+    pub fn typst_raw(code: impl Into<String>) -> Self {
+        ContentNode::TypstRaw(TypstRawNode { code: code.into() })
     }
 
     pub fn blank(id: impl Into<String>) -> Self {

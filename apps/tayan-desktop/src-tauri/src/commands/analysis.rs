@@ -150,3 +150,53 @@ pub async fn export_typst_file(
     std::fs::write(&path, source).map_err(|e| e.to_string())?;
     Ok(path.display().to_string())
 }
+
+/// Compiles an arbitrary Typst source to PDF and returns Base64 bytes.
+/// Used by the Typst body editor for live preview.
+///
+/// CPU-yoğun iş spawn_blocking ile ayrı thread'e alınır —
+/// async runtime'ı bloklamaz, UI akışkan kalır.
+#[tauri::command]
+pub async fn compile_typst_preview(source: String) -> Result<String, String> {
+    let pdf_bytes = tokio::task::spawn_blocking(move || {
+        tayan_compiler::TayanWorld::compile_pdf(source)
+    })
+    .await
+    .map_err(|e| e.to_string())?
+    .map_err(|e| e.to_string())?;
+
+    use base64::Engine as _;
+    Ok(base64::engine::general_purpose::STANDARD.encode(&pdf_bytes))
+}
+
+/// Canlı önizleme: rastgele Typst kaynağını sayfa başına bir SVG dizesine derler.
+///
+/// PDF yolundan (compile_typst_preview) ayrıdır. PDF her derlemede iframe'i
+/// baştan yükletir; kaydırma konumu sıfırlanır ve ekran titrer. SVG doğrudan
+/// DOM'a girer, yalnızca değişen sayfa değişir.
+///
+/// CPU-yoğun iş spawn_blocking ile ayrı thread'e alınır —
+/// async runtime'ı bloklamaz, UI akışkan kalır.
+#[tauri::command]
+pub async fn compile_typst_preview_svg(source: String) -> Result<Vec<String>, String> {
+    tokio::task::spawn_blocking(move || tayan_compiler::TayanWorld::compile_svg(source))
+        .await
+        .map_err(|e| e.to_string())?
+        .map_err(|e| e.to_string())
+}
+
+/// Soru editörünün canlı önizlemesi: gövdeyi sınavın gerçek önsözüyle sarmalar,
+/// sayfa başına bir SVG döndürür.
+///
+/// Önsöz Rust tarafında kalır (TypstGenerator::preview_document). Ön yüz onu
+/// bilmez, dolayısıyla kopyalayıp sürükleyemez.
+#[tauri::command]
+pub async fn compile_question_preview_svg(body: String) -> Result<Vec<String>, String> {
+    tokio::task::spawn_blocking(move || {
+        let source = tayan_compiler::typst_gen::TypstGenerator::preview_document(&body);
+        tayan_compiler::TayanWorld::compile_svg(source)
+    })
+    .await
+    .map_err(|e| e.to_string())?
+    .map_err(|e| e.to_string())
+}

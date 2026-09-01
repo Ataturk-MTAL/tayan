@@ -1,0 +1,47 @@
+TAYAN
+Copyright 2026 Hakan Gülen
+
+Bu ürün Apache License, Version 2.0 ile lisanslanmıştır. Lisans metni için
+LICENSE dosyasına bakınız.
+
+────────────────────────────────────────────────────────────────────────────────
+ÜÇÜNCÜ TARAF BİLEŞENLER
+────────────────────────────────────────────────────────────────────────────────
+
+Aşağıdakiler TAYAN'ın kaynak kodunun parçası değildir; derleme sırasında
+bağlanır ya da dağıtılan ikili dosyaya GÖMÜLÜR. Gömülenler için atıf, ikili
+dosyayı dağıtan herkesin yükümlülüğüdür.
+
+## İkili dosyaya gömülen yazı tipleri
+
+typst-assets (features = ["fonts"]) aşağıdaki yazı tiplerini derleme sırasında
+uygulamanın ikili dosyasına gömer:
+
+  Libertinus Serif        SIL Open Font License 1.1
+                          https://github.com/alerque/libertinus
+  New Computer Modern     SIL Open Font License 1.1
+                          https://ctan.org/pkg/newcomputermodern
+  DejaVu Sans Mono        Bitstream Vera Fonts Copyright / DejaVu changes
+                          https://dejavu-fonts.github.io/
+
+Sınav çıktısının varsayılan yazı tipi Libertinus Serif'tir; yani üretilen her
+PDF bu gömülü yazı tipini kullanır.
+
+## Arayüzde paketlenen yazı tipleri
+
+  Public Sans             SIL Open Font License 1.1
+                          https://public-sans.digital.gov/
+  JetBrains Mono          SIL Open Font License 1.1
+                          https://www.jetbrains.com/lp/mono/
+
+## Başlıca kütüphaneler
+
+  typst, typst-pdf, typst-svg, typst-library   Apache License 2.0
+  comemo, memmap2, postcard, serde             MIT / Apache 2.0
+  Tauri                                         MIT / Apache 2.0
+  Svelte, SvelteKit, Vite                       MIT
+  CodeMirror 6                                  MIT
+  Tailwind CSS                                  MIT
+
+Tam bağımlılık listesi ve sürümleri için Cargo.lock ve pnpm-lock.yaml
+dosyalarına bakınız.

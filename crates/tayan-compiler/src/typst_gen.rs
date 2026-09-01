@@ -32,6 +32,16 @@ impl TypstGenerator {
 
         Ok(out)
     }
+
+    /// Tek bir soru gövdesini, sınavın GERÇEK önsözüyle sarmalayıp önizlenebilir
+    /// bir Typst belgesi üretir.
+    ///
+    /// Önsözü ön yüze kopyalamak yerine burada tutmanın sebebi sürüklenmedir:
+    /// kopyalanan bir önsöz er ya da geç asıl şablondan ayrışır ve öğretmen
+    /// önizlemede gördüğünden başka bir kâğıt basar.
+    pub fn preview_document(body: &str) -> String {
+        format!("{PREAMBLE}{body}\n")
+    }
 }
 
 fn escape_typst(s: &str) -> String {
@@ -65,12 +75,51 @@ fn exam_header(exam: &Exam) -> String {
     )
 }
 
-const PREAMBLE: &str = "#set page(paper: \"a4\", margin: (x: 2cm, y: 2.5cm))
-#set text(lang: \"tr\", size: 11pt, font: \"Linux Libertine\")
+const PREAMBLE: &str = r##"#set page(paper: "a4", margin: (x: 2cm, y: 2.5cm))
+#set text(lang: "tr", size: 11pt, font: "Libertinus Serif")
 #set par(leading: 0.75em, justify: false)
 #set list(marker: ([--], [•]))
 
 #let blank(width: 4cm) = box(width: width, baseline: 20%, stroke: (bottom: 0.5pt + black), height: 1.1em)
 #let cb(checked: false) = if checked [ ☑ ] else [ ☐ ]
 
-";
+// ── Soru kalıpları ────────────────────────────────────────────────────────────
+// Bunlar hem kâğıdı dizer hem de sorunun YAPISINI kaynakta taşır. Uygulama
+// doğru cevabı bu çağrılardan geri okur, böylece ayrı bir form paneline gerek
+// kalmaz ve tek doğru kaynak Typst metni olur.
+
+// Çoktan seçmeli şıklar.
+// `dogru` öğrenci nüshasında BASILMAZ; yalnızca uygulamanın cevap anahtarını
+// ve madde analizini kurabilmesi için kaynakta durur.
+#let secenekler(dogru: none, ..items) = {
+  let harfler = ("A", "B", "C", "D", "E", "F")
+  let secilenler = items.pos()
+  let satirlar = ()
+  for (i, icerik) in secilenler.enumerate() {
+    satirlar.push([#(harfler.at(i) + ")")])
+    satirlar.push(icerik)
+  }
+  v(0.3cm)
+  grid(columns: (auto, 1fr), row-gutter: 0.45em, column-gutter: 0.5em, ..satirlar)
+}
+
+// Doğru / yanlış. `dogru` yine basılmaz, kaynakta taşınır.
+#let dogru-yanlis(dogru: true) = {
+  v(0.3cm)
+  [#cb() Doğru #h(2em) #cb() Yanlış]
+}
+
+// Boşluk doldurma. `cevap` basılmaz; kabul edilen cevaplar | ile ayrılır.
+// blank() ile aynı çizgiyi çizer, farkı cevabı kaynakta taşımasıdır.
+#let bosluk(cevap: none, width: 4cm) = blank(width: width)
+
+// Klasik soru için cevap alanı: öğrencinin yazacağı çizgiler.
+#let cevap-alani(satir: 6) = {
+  v(0.3cm)
+  for _ in range(satir) {
+    line(length: 100%, stroke: 0.4pt + luma(65%))
+    v(0.9em)
+  }
+}
+
+"##;

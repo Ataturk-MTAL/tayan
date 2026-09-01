@@ -139,6 +139,26 @@ export const api = {
 
     exportTypstFile: (examId: string, answerKey: boolean) =>
       invoke<string>("export_typst_file", { examId, answerKey }),
+
+    previewTypst: (source: string) =>
+      invoke<string>("compile_typst_preview", { source }),
+
+    /**
+     * Canlı önizleme yolu: sayfa başına bir SVG dizesi.
+     *
+     * previewTypst (base64 PDF) dışa aktarma içindir. PDF her derlemede iframe'i
+     * baştan yükletir; kaydırma konumu sıfırlanır ve ekran titrer. SVG doğrudan
+     * DOM'a girer.
+     */
+    previewSvg: (source: string) =>
+      invoke<string[]>("compile_typst_preview_svg", { source }),
+
+    /**
+     * Soru editörü önizlemesi. Gövdeyi Rust tarafında sınavın gerçek önsözüyle
+     * sarmalar — önsöz burada kopyalanmaz, bu yüzden sürüklenemez.
+     */
+    previewQuestion: (body: string) =>
+      invoke<string[]>("compile_question_preview_svg", { body }),
   },
 
   // convenience: build a plain-text ContentNode body

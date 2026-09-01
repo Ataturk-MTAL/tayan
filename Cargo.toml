@@ -11,8 +11,8 @@ members = [
 [workspace.package]
 version     = "0.1.0"
 edition     = "2024"
-authors     = ["TAYAN Team"]
-license     = "MIT"
+authors     = ["Hakan Gülen"]
+license     = "Apache-2.0"
 
 [workspace.dependencies]
 # Shared serialization

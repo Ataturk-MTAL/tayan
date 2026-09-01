@@ -1,257 +1,176 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  import { api } from '$lib/api';
-  import type { Exam, ExamResult, Student, Classroom } from '$lib/types';
+  import { onMount } from "svelte";
+  import PageHead from "$lib/components/shell/PageHead.svelte";
+  import RuledField from "$lib/components/shell/RuledField.svelte";
+  import ScoreHistogram from "$lib/components/measure/ScoreHistogram.svelte";
+  import AnswerGrid from "$lib/components/measure/AnswerGrid.svelte";
+  import { api } from "$lib/api";
+  import { errorText } from "$lib/editor/diagnostics";
+  import type { Classroom, Exam, ExamResult, Student } from "$lib/types";
 
-  let exams          = $state<Exam[]>([]);
-  let selectedExamId = $state<string | null>(null);
-  let results        = $state<ExamResult[]>([]);
-  let studentMap     = $state<Map<string, Student>>(new Map());
-  let loading        = $state(true);
-  let resultsLoading = $state(false);
-  let error          = $state<string | null>(null);
+  let exams = $state<Exam[]>([]);
+  let classrooms = $state<Classroom[]>([]);
+  let students = $state<Student[]>([]);
+  let results = $state<ExamResult[]>([]);
 
-  let selectedExam = $derived(exams.find((e) => e.id === selectedExamId) ?? null);
+  let examId = $state<string>("");
+  let classroomId = $state<string>("");
 
-  // ── Stats ──────────────────────────────────────────────────────────────────
-  let stats = $derived((() => {
-    if (results.length === 0) return null;
-    const pcts = results.map((r) =>
-      r.total_points_max > 0 ? (r.total_points_earned / r.total_points_max) * 100 : 0
-    );
-    const avg  = pcts.reduce((s, v) => s + v, 0) / pcts.length;
-    const max  = Math.max(...pcts);
-    const min  = Math.min(...pcts);
-    const pass = pcts.filter((p) => p >= 50).length;
-    return { avg, max, min, pass, total: pcts.length };
-  })());
-
-  // ── Outcome breakdown ──────────────────────────────────────────────────────
-  type OutcomeStat = { outcome: string; avg_pct: number; count: number };
-  let outcomeStats = $derived((() => {
-    const map = new Map<string, { sum: number; count: number }>();
-    for (const r of results) {
-      for (const op of r.outcome_performance) {
-        const entry = map.get(op.outcome) ?? { sum: 0, count: 0 };
-        entry.sum   += op.score_pct;
-        entry.count += 1;
-        map.set(op.outcome, entry);
-      }
-    }
-    return Array.from(map.entries())
-      .map(([outcome, { sum, count }]): OutcomeStat => ({
-        outcome,
-        avg_pct: sum / count,
-        count,
-      }))
-      .sort((a, b) => a.avg_pct - b.avg_pct);
-  })());
+  let loading = $state(true);
+  let error = $state<string | null>(null);
 
   onMount(async () => {
     try {
-      [exams] = await Promise.all([api.exams.list()]);
-      // Pre-load all students for name lookup
-      await loadAllStudents();
-    } catch (e) { error = String(e); }
-    finally { loading = false; }
+      [exams, classrooms] = await Promise.all([
+        api.exams.list(),
+        api.students.listClassrooms(),
+      ]);
+      const published = exams.filter((e) => e.status !== "Draft");
+      if (published.length > 0) examId = published[0].id;
+      if (classrooms.length > 0) classroomId = classrooms[0].id;
+      error = null;
+    } catch (err: unknown) {
+      error = errorText(err);
+    } finally {
+      loading = false;
+    }
   });
 
-  async function loadAllStudents() {
+  $effect(() => {
+    if (examId) void loadResults(examId);
+  });
+
+  $effect(() => {
+    if (classroomId) void loadStudents(classroomId);
+  });
+
+  async function loadResults(id: string) {
     try {
-      const classes: Classroom[] = await api.students.listClassrooms();
-      const allStudents = (
-        await Promise.all(classes.map((c) => api.students.listByClassroom(c.id)))
-      ).flat();
-      studentMap = new Map(allStudents.map((s) => [s.id, s]));
-    } catch {
-      // non-critical: names won't show but results still display
+      results = await api.results.getByExam(id);
+      error = null;
+    } catch (err: unknown) {
+      error = errorText(err);
     }
   }
 
-  async function selectExam(id: string) {
-    selectedExamId = id;
-    resultsLoading = true;
+  async function loadStudents(id: string) {
     try {
-      results = await api.results.getByExam(id);
-      results = results.slice().sort((a, b) => b.total_points_earned - a.total_points_earned);
-    } catch (e) { error = String(e); }
-    finally { resultsLoading = false; }
+      students = await api.students.listByClassroom(id);
+      error = null;
+    } catch (err: unknown) {
+      error = errorText(err);
+    }
   }
 
-  function studentName(id: string): string {
-    const s = studentMap.get(id);
-    return s ? `${s.first_name} ${s.last_name}` : id.slice(0, 8) + '…';
-  }
+  let selectedExam = $derived(exams.find((e) => e.id === examId) ?? null);
 
-  function studentNo(id: string): string {
-    return studentMap.get(id)?.number ?? '—';
-  }
+  let questionIds = $derived(
+    selectedExam
+      ? selectedExam.questions
+          .slice()
+          .sort((a, b) => a.display_order - b.display_order)
+          .map((q) => q.question_id)
+      : [],
+  );
 
-  function pctBar(pct: number) {
-    const w   = Math.round(pct);
-    const col = pct >= 70 ? 'bg-emerald-500' : pct >= 50 ? 'bg-amber-500' : 'bg-red-500';
-    return { w, col };
-  }
+  let classResults = $derived(
+    results.filter((r) => students.some((s) => s.id === r.student_id)),
+  );
 
-  function fmtDate(d: string) {
-    return new Date(d).toLocaleDateString('tr-TR', { day: '2-digit', month: 'short', year: 'numeric' });
-  }
+  let percentages = $derived(
+    classResults
+      .filter((r) => r.total_points_max > 0)
+      .map((r) => (r.total_points_earned / r.total_points_max) * 100),
+  );
+
+  let summary = $derived.by(() => {
+    if (percentages.length === 0) return null;
+    const sorted = [...percentages].sort((a, b) => a - b);
+    return {
+      count: sorted.length,
+      mean: sorted.reduce((sum, p) => sum + p, 0) / sorted.length,
+      min: sorted[0],
+      max: sorted[sorted.length - 1],
+      median: sorted[Math.floor(sorted.length / 2)],
+      failing: sorted.filter((p) => p < 50).length,
+    };
+  });
 </script>
 
-<div class="p-6 max-w-6xl mx-auto space-y-6">
+<div class="flex h-full min-h-0 flex-col">
+  <PageHead title="Sınav analizi" />
 
-  <!-- ── Header ──────────────────────────────────────────────────────────── -->
-  <div class="flex items-center justify-between">
-    <h1 class="text-2xl font-bold tracking-tight">Sınav Analizi</h1>
-  </div>
-
-  {#if loading}
-    <p class="text-muted-foreground">Yükleniyor…</p>
-  {:else if error}
-    <div class="rounded-md border border-destructive/30 bg-destructive/10 px-3 py-2 text-sm text-destructive">
-      {error}
-    </div>
-  {:else}
-
-    <!-- ── Exam selector ──────────────────────────────────────────────────── -->
-    <div class="flex items-center gap-3">
-      <label class="text-sm font-medium shrink-0" for="exam-sel">Sınav:</label>
-      {#if exams.length === 0}
-        <p class="text-sm text-muted-foreground">Henüz sınav yok.</p>
-      {:else}
-        <select
-          id="exam-sel"
-          value={selectedExamId ?? ''}
-          onchange={(e) => {
-            const v = (e.currentTarget as HTMLSelectElement).value;
-            if (v) selectExam(v);
-          }}
-          class="rounded-md border border-input bg-background px-3 py-1.5 text-sm
-                 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-        >
-          <option value="" disabled>Sınav seçin…</option>
+  <div class="ruled-bottom flex shrink-0 flex-wrap items-end gap-rule bg-paper px-rule py-half paper-plain">
+    <div class="w-[260px]">
+      <RuledField label="Sınav">
+        <select bind:value={examId}>
+          <option value="">— seç —</option>
           {#each exams as exam (exam.id)}
-            <option value={exam.id}>
-              {exam.meta.title} — {exam.meta.subject} / {exam.meta.classroom}
-              ({fmtDate(exam.meta.date)})
-            </option>
+            <option value={exam.id}>{exam.meta.title}</option>
           {/each}
         </select>
-      {/if}
+      </RuledField>
     </div>
 
-    {#if selectedExamId}
-      {#if resultsLoading}
-        <p class="text-muted-foreground text-sm">Sonuçlar yükleniyor…</p>
-      {:else if results.length === 0}
-        <div class="rounded-lg border bg-card p-12 text-center text-muted-foreground text-sm">
-          Bu sınav için henüz sonuç girilmemiş.
+    <div class="w-[160px]">
+      <RuledField label="Sınıf">
+        <select bind:value={classroomId}>
+          <option value="">— seç —</option>
+          {#each classrooms as c (c.id)}
+            <option value={c.id}>{c.name}</option>
+          {/each}
+        </select>
+      </RuledField>
+    </div>
+
+    {#if summary}
+      <dl class="ml-auto flex items-baseline gap-rule">
+        <div>
+          <dt class="stamp">Ortalama</dt>
+          <dd class="text-[19px] font-bold leading-rule tnum">{summary.mean.toFixed(0)}%</dd>
         </div>
-      {:else}
-
-        <!-- ── Stats cards ──────────────────────────────────────────────────── -->
-        {#if stats}
-          <div class="grid grid-cols-2 gap-3 sm:grid-cols-4">
-            <div class="rounded-lg border bg-card px-4 py-3">
-              <p class="text-xs text-muted-foreground">Ortalama</p>
-              <p class="text-2xl font-bold mt-0.5">{stats.avg.toFixed(1)}<span class="text-sm font-normal text-muted-foreground ml-0.5">%</span></p>
-            </div>
-            <div class="rounded-lg border bg-card px-4 py-3">
-              <p class="text-xs text-muted-foreground">En Yüksek</p>
-              <p class="text-2xl font-bold mt-0.5 text-emerald-600">{stats.max.toFixed(1)}<span class="text-sm font-normal text-muted-foreground ml-0.5">%</span></p>
-            </div>
-            <div class="rounded-lg border bg-card px-4 py-3">
-              <p class="text-xs text-muted-foreground">En Düşük</p>
-              <p class="text-2xl font-bold mt-0.5 text-red-500">{stats.min.toFixed(1)}<span class="text-sm font-normal text-muted-foreground ml-0.5">%</span></p>
-            </div>
-            <div class="rounded-lg border bg-card px-4 py-3">
-              <p class="text-xs text-muted-foreground">Geçme Oranı ≥50%</p>
-              <p class="text-2xl font-bold mt-0.5">{stats.pass}<span class="text-sm font-normal text-muted-foreground ml-0.5">/ {stats.total}</span></p>
-            </div>
-          </div>
-        {/if}
-
-        <!-- ── Results table ────────────────────────────────────────────────── -->
-        <div class="space-y-2">
-          <h2 class="font-semibold">Öğrenci Sonuçları</h2>
-          <div class="rounded-lg border overflow-hidden">
-            <table class="w-full text-sm">
-              <thead class="bg-muted/50 text-muted-foreground">
-                <tr>
-                  <th class="px-3 py-2.5 text-left font-medium w-10">Sıra</th>
-                  <th class="px-4 py-2.5 text-left font-medium w-20">No</th>
-                  <th class="px-4 py-2.5 text-left font-medium">Ad Soyad</th>
-                  <th class="px-4 py-2.5 text-right font-medium">Puan</th>
-                  <th class="px-4 py-2.5 text-left font-medium w-48">Başarı</th>
-                  <th class="px-4 py-2.5 text-right font-medium">%</th>
-                </tr>
-              </thead>
-              <tbody class="divide-y">
-                {#each results as r, i (r.id)}
-                  {@const pct = r.total_points_max > 0
-                    ? (r.total_points_earned / r.total_points_max) * 100 : 0}
-                  {@const bar = pctBar(pct)}
-                  <tr class="hover:bg-muted/30 transition-colors">
-                    <td class="px-3 py-2.5 text-center text-muted-foreground">{i + 1}</td>
-                    <td class="px-4 py-2.5 font-mono text-muted-foreground">{studentNo(r.student_id)}</td>
-                    <td class="px-4 py-2.5 font-medium">{studentName(r.student_id)}</td>
-                    <td class="px-4 py-2.5 text-right tabular-nums">
-                      {r.total_points_earned.toFixed(1)} / {r.total_points_max.toFixed(0)}
-                    </td>
-                    <td class="px-4 py-2.5">
-                      <div class="h-2 w-full rounded-full bg-muted overflow-hidden">
-                        <div class="h-full rounded-full {bar.col} transition-all"
-                          style="width: {bar.w}%"></div>
-                      </div>
-                    </td>
-                    <td class="px-4 py-2.5 text-right tabular-nums font-medium
-                               {pct >= 70 ? 'text-emerald-600' : pct >= 50 ? 'text-amber-600' : 'text-red-500'}">
-                      {pct.toFixed(1)}%
-                    </td>
-                  </tr>
-                {/each}
-              </tbody>
-            </table>
-          </div>
+        <div>
+          <dt class="stamp">Ortanca</dt>
+          <dd class="text-[19px] font-bold leading-rule tnum">{summary.median.toFixed(0)}%</dd>
         </div>
-
-        <!-- ── Outcome breakdown ────────────────────────────────────────────── -->
-        {#if outcomeStats.length > 0}
-          <div class="space-y-2">
-            <h2 class="font-semibold">Kazanım Analizi</h2>
-            <div class="rounded-lg border overflow-hidden">
-              <table class="w-full text-sm">
-                <thead class="bg-muted/50 text-muted-foreground">
-                  <tr>
-                    <th class="px-4 py-2.5 text-left font-medium">Kazanım</th>
-                    <th class="px-4 py-2.5 text-left font-medium w-48">Başarı</th>
-                    <th class="px-4 py-2.5 text-right font-medium">Ortalama</th>
-                  </tr>
-                </thead>
-                <tbody class="divide-y">
-                  {#each outcomeStats as os (os.outcome)}
-                    {@const bar = pctBar(os.avg_pct)}
-                    <tr class="hover:bg-muted/30 transition-colors">
-                      <td class="px-4 py-2.5 font-mono text-sm">{os.outcome}</td>
-                      <td class="px-4 py-2.5">
-                        <div class="h-2 w-full rounded-full bg-muted overflow-hidden">
-                          <div class="h-full rounded-full {bar.col}"
-                            style="width: {bar.w}%"></div>
-                        </div>
-                      </td>
-                      <td class="px-4 py-2.5 text-right tabular-nums font-medium
-                                 {os.avg_pct >= 70 ? 'text-emerald-600' : os.avg_pct >= 50 ? 'text-amber-600' : 'text-red-500'}">
-                        {os.avg_pct.toFixed(1)}%
-                      </td>
-                    </tr>
-                  {/each}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        {/if}
-
-      {/if}
+        <div>
+          <dt class="stamp">En düşük / yüksek</dt>
+          <dd class="text-[19px] font-bold leading-rule tnum">
+            {summary.min.toFixed(0)} / {summary.max.toFixed(0)}
+          </dd>
+        </div>
+        <div>
+          <dt class="stamp">Eşiğin altında</dt>
+          <dd class="text-[19px] font-bold leading-rule tnum text-red-deep">
+            {summary.failing} / {summary.count}
+          </dd>
+        </div>
+      </dl>
     {/if}
+  </div>
+
+  {#if error}
+    <p class="ruled-bottom annot shrink-0 bg-red-wash px-rule py-quarter">{error}</p>
   {/if}
+
+  <div class="min-h-0 flex-1 overflow-auto px-rule py-rule">
+    {#if loading}
+      <p class="pencil">Okunuyor…</p>
+    {:else if !examId || !classroomId}
+      <p class="pencil">Bir sınav ve bir sınıf seç.</p>
+    {:else if classResults.length === 0}
+      <div>
+        <p class="pencil">Bu sınav için bu sınıfta girilmiş sonuç yok.</p>
+        <p class="annot mt-half">
+          Sonuç giriş ekranı henüz yapılmadı; `enter_exam_results` komutu hazır
+          ama arayüzü yok. Ölçüm olmadan soru bankası kendini arıtamaz.
+        </p>
+      </div>
+    {:else}
+      <div class="grid gap-rule" style="grid-template-columns: minmax(280px, 380px) 1fr">
+        <ScoreHistogram {percentages} />
+        <AnswerGrid results={classResults} {students} {questionIds} />
+      </div>
+    {/if}
+  </div>
 </div>

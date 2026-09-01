@@ -1,55 +1,94 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  import { api } from '$lib/api';
+  import { onMount } from "svelte";
+  import { api } from "$lib/api";
+  import { errorText } from "$lib/editor/diagnostics";
+  import type { Exam, Question } from "$lib/types";
 
-  let examCount     = $state<number | null>(null);
-  let questionCount = $state<number | null>(null);
-  let studentCount  = $state<number | null>(null);
+  let questions = $state<Question[]>([]);
+  let exams = $state<Exam[]>([]);
+  let loadError = $state<string | null>(null);
+  let loading = $state(true);
 
   onMount(async () => {
-    const [exams, questions, classrooms] = await Promise.all([
-      api.exams.list().catch(() => []),
-      api.questions.list().catch(() => []),
-      api.students.listClassrooms().catch(() => []),
-    ]);
-    examCount     = exams.length;
-    questionCount = questions.length;
-    studentCount  = classrooms.reduce((s, c) => s + (c.student_ids?.length ?? 0), 0);
+    try {
+      [questions, exams] = await Promise.all([api.questions.list(), api.exams.list()]);
+    } catch (err: unknown) {
+      loadError = errorText(err);
+    } finally {
+      loading = false;
+    }
   });
+
+  let untested = $derived(questions.filter((q) => q.stats.times_used === 0).length);
+  let weak = $derived(
+    questions.filter((q) => q.stats.times_used > 0 && q.stats.discrimination_index < 0.2).length,
+  );
+  let drafts = $derived(exams.filter((e) => e.status === "Draft").length);
 </script>
 
-<div class="p-8">
-  <h1 class="text-3xl font-bold tracking-tight mb-2">TAYAN</h1>
-  <p class="text-muted-foreground">Sınav Analiz ve Oluşturma Platformu</p>
+<!--
+  Üç çekirdek eşit ağırlıkta: dizgi, ölçüm, hız. Hiçbiri diğerinin alt sekmesi
+  değil, bu yüzden üçü de aynı genişlikte cetvelli bölge.
+-->
+<div class="h-full overflow-auto">
+  <div class="mx-auto max-w-[900px] px-rule py-rule">
+    <h1>Bugün ne yapacaksın?</h1>
 
-  <!-- Stats row -->
-  <div class="mt-6 grid grid-cols-3 gap-4">
-    {#each [
-      { label: 'Sınav',    value: examCount     },
-      { label: 'Soru',     value: questionCount },
-      { label: 'Öğrenci',  value: studentCount  },
-    ] as stat}
-      <div class="rounded-lg border bg-card px-5 py-4">
-        <div class="text-2xl font-bold">
-          {stat.value === null ? '—' : stat.value}
-        </div>
-        <div class="text-sm text-muted-foreground mt-0.5">{stat.label}</div>
-      </div>
-    {/each}
-  </div>
+    {#if loadError}
+      <p class="annot mt-half">{loadError}</p>
+    {/if}
 
-  <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
-    <a href="/exams/new" class="block rounded-lg border bg-card p-6 hover:shadow-md transition-shadow">
-      <h2 class="font-semibold text-lg mb-1">Yeni Sınav</h2>
-      <p class="text-sm text-muted-foreground">Soru bankasından sorular seçerek sınav oluştur</p>
-    </a>
-    <a href="/questions" class="block rounded-lg border bg-card p-6 hover:shadow-md transition-shadow">
-      <h2 class="font-semibold text-lg mb-1">Soru Bankası</h2>
-      <p class="text-sm text-muted-foreground">Soru ekle, düzenle ve kazanımlarla ilişkilendir</p>
-    </a>
-    <a href="/analysis" class="block rounded-lg border bg-card p-6 hover:shadow-md transition-shadow">
-      <h2 class="font-semibold text-lg mb-1">Sınav Analizi</h2>
-      <p class="text-sm text-muted-foreground">Sınıf ve bireysel başarı raporları</p>
-    </a>
+    <div class="mt-rule grid grid-cols-3 border-t border-l border-rule-strong">
+      <a
+        href="/questions/new"
+        class="border-r border-b border-rule-strong bg-paper-lift p-rule no-underline
+               transition-colors hover:bg-paper-sunk"
+      >
+        <h2>Soru yaz</h2>
+        <p class="pencil mt-quarter">
+          Typst kaynağını yaz, kâğıda ne basılacağını yanında gör.
+        </p>
+        <p class="mt-half text-[28px] font-bold leading-[40px] tnum">
+          {loading ? "—" : questions.length}
+        </p>
+        <p class="stamp">bankadaki soru</p>
+      </a>
+
+      <a
+        href="/exams/new"
+        class="border-r border-b border-rule-strong bg-paper-lift p-rule no-underline
+               transition-colors hover:bg-paper-sunk"
+      >
+        <h2>Sınav kur</h2>
+        <p class="pencil mt-quarter">
+          Bankadan soru seç, puan bütçesini doldur, baskıya çıkar.
+        </p>
+        <p class="mt-half text-[28px] font-bold leading-[40px] tnum">
+          {loading ? "—" : drafts}
+        </p>
+        <p class="stamp">taslak sınav</p>
+      </a>
+
+      <a
+        href="/analysis"
+        class="border-r border-b border-rule-strong bg-paper-lift p-rule no-underline
+               transition-colors hover:bg-paper-sunk"
+      >
+        <h2>Sonucu oku</h2>
+        <p class="pencil mt-quarter">
+          Sınav sonuçları soruya geri döner; zayıf soru kendini belli eder.
+        </p>
+        <p class="mt-half text-[28px] font-bold leading-[40px] tnum" style="color: var(--color-red)">
+          {loading ? "—" : weak}
+        </p>
+        <p class="stamp">ayırt ediciliği düşük soru</p>
+      </a>
+    </div>
+
+    {#if !loading && untested > 0}
+      <p class="annot mt-rule border-t border-rule pt-half">
+        {untested} soru hiç uygulanmadı. Ölçümü olmayan soru, kalitesi bilinmeyen sorudur.
+      </p>
+    {/if}
   </div>
 </div>

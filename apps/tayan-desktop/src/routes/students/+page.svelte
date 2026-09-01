@@ -1,358 +1,219 @@
 <script lang="ts">
-  import { api } from '$lib/api';
-  import type { Classroom, Student } from '$lib/types';
-  import { onMount } from 'svelte';
+  import { onMount } from "svelte";
+  import PageHead from "$lib/components/shell/PageHead.svelte";
+  import PenButton from "$lib/components/shell/PenButton.svelte";
+  import RuledField from "$lib/components/shell/RuledField.svelte";
+  import { api } from "$lib/api";
+  import { errorText } from "$lib/editor/diagnostics";
+  import type { Classroom, Student } from "$lib/types";
 
-  let classrooms          = $state<Classroom[]>([]);
-  let selectedId          = $state<string | null>(null);
-  let students            = $state<Student[]>([]);
-  let loading             = $state(true);
-  let studentsLoading     = $state(false);
-  let error               = $state<string | null>(null);
+  let classrooms = $state<Classroom[]>([]);
+  let students = $state<Student[]>([]);
+  let activeId = $state<string | null>(null);
+  let loading = $state(true);
+  let error = $state<string | null>(null);
+  let busy = $state(false);
 
-  // ── Add classroom modal ────────────────────────────────────────────────────
-  let showAddClass  = $state(false);
-  let newClassName  = $state('');
-  let newGrade      = $state(9);
-  let newBranch     = $state('A');
-  let savingClass   = $state(false);
-  let classError    = $state<string | null>(null);
+  // Yeni sınıf
+  let className = $state("");
+  let grade = $state(9);
+  let branch = $state("A");
 
-  // ── Add student modal ──────────────────────────────────────────────────────
-  let showAddStudent  = $state(false);
-  let newNumber       = $state('');
-  let newFirst        = $state('');
-  let newLast         = $state('');
-  let savingStudent   = $state(false);
-  let studentError    = $state<string | null>(null);
-  let deletingStudent = $state<string | null>(null);
-  let deletingClass   = $state<string | null>(null);
+  // Toplu öğrenci girişi — satır başına "numara,ad soyad"
+  let bulkText = $state("");
 
-  let selectedClassroom = $derived(classrooms.find((c) => c.id === selectedId) ?? null);
+  onMount(loadClassrooms);
 
-  onMount(async () => {
+  async function loadClassrooms() {
+    loading = true;
     try {
       classrooms = await api.students.listClassrooms();
-      if (classrooms.length > 0) await loadStudents(classrooms[0].id);
-    } catch (e) { error = String(e); }
-    finally { loading = false; }
-  });
+      error = null;
+      if (!activeId && classrooms.length > 0) await selectClassroom(classrooms[0].id);
+    } catch (err: unknown) {
+      error = errorText(err);
+    } finally {
+      loading = false;
+    }
+  }
 
-  async function loadStudents(classroomId: string) {
-    selectedId = classroomId;
-    studentsLoading = true;
+  async function selectClassroom(id: string) {
+    activeId = id;
     try {
-      students = await api.students.listByClassroom(classroomId);
-    } catch (e) { error = String(e); }
-    finally { studentsLoading = false; }
+      students = await api.students.listByClassroom(id);
+      error = null;
+    } catch (err: unknown) {
+      error = errorText(err);
+    }
   }
 
   async function createClassroom() {
-    classError = null;
-    if (!newClassName.trim()) { classError = 'Sınıf adı boş olamaz.'; return; }
-    savingClass = true;
+    if (className.trim() === "") {
+      error = "Sınıf adı boş olamaz.";
+      return;
+    }
+    busy = true;
     try {
       const id = await api.students.createClassroom({
-        name:   newClassName.trim(),
-        grade:  newGrade,
-        branch: newBranch.trim() || 'A',
+        name: className.trim(),
+        grade,
+        branch: branch.trim(),
       });
-      classrooms = await api.students.listClassrooms();
-      showAddClass = false;
-      newClassName = ''; newGrade = 9; newBranch = 'A';
-      await loadStudents(id);
-    } catch (e) { classError = String(e); }
-    finally { savingClass = false; }
+      className = "";
+      await loadClassrooms();
+      await selectClassroom(id);
+      error = null;
+    } catch (err: unknown) {
+      error = errorText(err);
+    } finally {
+      busy = false;
+    }
   }
 
-  async function addStudent() {
-    studentError = null;
-    if (!selectedId)        { studentError = 'Önce bir sınıf seçin.'; return; }
-    if (!newNumber.trim())  { studentError = 'Numara boş olamaz.'; return; }
-    if (!newFirst.trim())   { studentError = 'Ad boş olamaz.'; return; }
-    if (!newLast.trim())    { studentError = 'Soyad boş olamaz.'; return; }
-    savingStudent = true;
+  /**
+   * Toplu giriş: satır başına "numara,ad soyad". Öğretmen listeyi e-okuldan
+   * kopyalayıp yapıştırır; tek tek form doldurmak gerçek bir zaman kaybı.
+   */
+  type ParsedStudent = { number: string; first: string; last: string };
+
+  function parseBulk(text: string): ParsedStudent[] {
+    return text
+      .split("\n")
+      .map((line) => line.trim())
+      .filter(Boolean)
+      .map((line) => {
+        const [numberPart, ...nameParts] = line.split(/[,;\t]/);
+        const fullName = nameParts.join(" ").trim();
+        const words = fullName.split(/\s+/).filter(Boolean);
+        const last = words.length > 1 ? (words.pop() as string) : "";
+        return { number: numberPart.trim(), first: words.join(" "), last };
+      })
+      .filter((s) => s.number !== "" && s.first !== "");
+  }
+
+  let parsed = $derived(parseBulk(bulkText));
+
+  async function addBulk() {
+    if (!activeId || parsed.length === 0) return;
+    busy = true;
     try {
-      await api.students.addStudent({
-        classroom_id: selectedId,
-        number:       newNumber.trim(),
-        first_name:   newFirst.trim(),
-        last_name:    newLast.trim(),
-      });
-      students = await api.students.listByClassroom(selectedId);
-      showAddStudent = false;
-      newNumber = ''; newFirst = ''; newLast = '';
-    } catch (e) { studentError = String(e); }
-    finally { savingStudent = false; }
-  }
-
-  function fmtDate(d: string) {
-    return new Date(d).toLocaleDateString('tr-TR', { day: '2-digit', month: 'short', year: 'numeric' });
-  }
-
-  async function deleteStudent(s: Student) {
-    if (deletingStudent !== s.id) { deletingStudent = s.id; return; }
-    try {
-      await api.students.deleteStudent(s.id);
-      students = students.filter((x) => x.id !== s.id);
-      deletingStudent = null;
-    } catch (e) { deletingStudent = null; }
-  }
-
-  async function deleteClassroom(c: Classroom) {
-    if (deletingClass !== c.id) { deletingClass = c.id; return; }
-    try {
-      await api.students.deleteClassroom(c.id);
-      classrooms = classrooms.filter((x) => x.id !== c.id);
-      if (selectedId === c.id) { selectedId = null; students = []; }
-      deletingClass = null;
-    } catch (e) { deletingClass = null; }
+      for (const s of parsed) {
+        await api.students.addStudent({
+          classroom_id: activeId,
+          number: s.number,
+          first_name: s.first,
+          last_name: s.last,
+        });
+      }
+      bulkText = "";
+      await selectClassroom(activeId);
+      error = null;
+    } catch (err: unknown) {
+      error = errorText(err);
+    } finally {
+      busy = false;
+    }
   }
 </script>
 
-<div class="flex h-full">
+<div class="flex h-full min-h-0 flex-col">
+  <PageHead title="Öğrenciler" count={loading ? null : `${classrooms.length} sınıf`} />
 
-  <!-- ── Left panel: Classrooms ────────────────────────────────────────────── -->
-  <div class="w-64 shrink-0 border-r flex flex-col">
-    <div class="flex items-center justify-between px-4 py-3 border-b">
-      <h2 class="font-semibold text-sm">Sınıflar</h2>
-      <button
-        type="button"
-        onclick={() => { showAddClass = true; }}
-        title="Yeni sınıf"
-        class="flex h-6 w-6 items-center justify-center rounded border text-sm hover:bg-accent transition-colors"
-      >+</button>
-    </div>
+  {#if error}
+    <p class="ruled-bottom annot shrink-0 bg-red-wash px-rule py-quarter">{error}</p>
+  {/if}
 
-    {#if loading}
-      <p class="px-4 py-3 text-sm text-muted-foreground">Yükleniyor…</p>
-    {:else if error}
-      <p class="px-4 py-3 text-sm text-destructive">{error}</p>
-    {:else if classrooms.length === 0}
-      <p class="px-4 py-3 text-sm text-muted-foreground">Henüz sınıf yok.</p>
-    {:else}
-      <ul class="flex-1 overflow-y-auto py-2">
-        {#each classrooms as c (c.id)}
-          <li>
-            <div
-              class="group w-full flex items-start transition-colors
-                     {selectedId === c.id
-                       ? 'bg-primary text-primary-foreground'
-                       : 'text-muted-foreground hover:bg-accent hover:text-accent-foreground'}"
-            >
-              <button
-                type="button"
-                onclick={() => loadStudents(c.id)}
-                class="flex-1 text-left px-4 py-2.5 text-sm"
-              >
-                <span class="block font-medium">{c.grade}{c.branch} — {c.name}</span>
-                <span class="block text-xs opacity-70 mt-0.5">
-                  {c.academic_year} · {c.student_ids.length} öğrenci
-                </span>
-              </button>
-              <button
-                type="button"
-                onclick={() => deleteClassroom(c)}
-                title={deletingClass === c.id ? 'Tekrar tıkla — sil' : 'Sınıfı sil'}
-                class="px-2 py-2.5 text-xs opacity-0 group-hover:opacity-100 transition-opacity
-                       {deletingClass === c.id
-                         ? 'opacity-100 text-white bg-destructive rounded'
-                         : 'hover:text-destructive'}
-                       {selectedId === c.id ? 'opacity-60' : ''}"
-              >{deletingClass === c.id ? 'Sil?' : '✕'}</button>
-            </div>
-          </li>
-        {/each}
-      </ul>
-    {/if}
-  </div>
-
-  <!-- ── Right panel: Students ─────────────────────────────────────────────── -->
-  <div class="flex-1 flex flex-col min-w-0">
-    <div class="flex items-center justify-between px-6 py-3 border-b">
-      <h1 class="text-lg font-semibold">
-        {#if selectedClassroom}
-          {selectedClassroom.grade}{selectedClassroom.branch} — {selectedClassroom.name}
-          <span class="ml-2 text-sm font-normal text-muted-foreground">{selectedClassroom.academic_year}</span>
-        {:else}
-          Öğrenciler
-        {/if}
-      </h1>
-      {#if selectedId}
-        <button
-          type="button"
-          onclick={() => { showAddStudent = true; }}
-          class="inline-flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-sm
-                 font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
-        >
-          + Öğrenci Ekle
-        </button>
-      {/if}
-    </div>
-
-    <div class="flex-1 overflow-y-auto p-6">
-      {#if !selectedId}
-        <div class="rounded-lg border bg-card p-12 text-center text-muted-foreground text-sm">
-          Sol panelden bir sınıf seçin.
-        </div>
-      {:else if studentsLoading}
-        <p class="text-muted-foreground text-sm">Yükleniyor…</p>
-      {:else if students.length === 0}
-        <div class="rounded-lg border bg-card p-12 text-center text-muted-foreground text-sm">
-          Bu sınıfta henüz öğrenci yok.
-        </div>
+  <div class="grid min-h-0 flex-1 grid-cols-[240px_1fr_300px]">
+    <section class="min-h-0 overflow-auto border-r border-rule-strong">
+      <h2 class="stamp ruled-bottom sticky top-0 bg-paper px-rule py-quarter">Sınıflar</h2>
+      {#if classrooms.length === 0}
+        <p class="pencil p-rule">Sınıf yok.</p>
       {:else}
-        <div class="rounded-lg border overflow-hidden">
-          <table class="w-full text-sm">
-            <thead class="bg-muted/50 text-muted-foreground">
-              <tr>
-                <th class="px-4 py-2.5 text-left font-medium w-20">No</th>
-                <th class="px-4 py-2.5 text-left font-medium">Ad Soyad</th>
-                <th class="px-4 py-2.5 text-left font-medium">Eklenme</th>
-                <th class="px-2 py-2.5 w-10"></th>
-              </tr>
-            </thead>
-            <tbody class="divide-y">
-              {#each students.slice().sort((a, b) =>
-                a.number.localeCompare(b.number, 'tr', { numeric: true })) as s (s.id)}
-                <tr class="hover:bg-muted/30 transition-colors group">
-                  <td class="px-4 py-2.5 font-mono text-muted-foreground">{s.number}</td>
-                  <td class="px-4 py-2.5 font-medium">{s.first_name} {s.last_name}</td>
-                  <td class="px-4 py-2.5 text-muted-foreground">{fmtDate(s.created_at)}</td>
-                  <td class="px-2 py-2.5">
-                    <button
-                      type="button"
-                      onclick={() => deleteStudent(s)}
-                      title={deletingStudent === s.id ? 'Tekrar tıkla — sil' : 'Öğrenciyi sil'}
-                      class="opacity-0 group-hover:opacity-100 transition-opacity px-1.5 py-1 rounded text-xs
-                             {deletingStudent === s.id
-                               ? 'opacity-100 bg-destructive text-white'
-                               : 'text-destructive hover:bg-destructive/10'}"
-                    >{deletingStudent === s.id ? 'Sil?' : '✕'}</button>
-                  </td>
-                </tr>
-              {/each}
-            </tbody>
-          </table>
-        </div>
+        <ul>
+          {#each classrooms as c (c.id)}
+            <li>
+              <button
+                type="button"
+                class="w-full border-b border-rule px-rule py-half text-left hover:bg-paper-lift"
+                class:bg-paper-lift={c.id === activeId}
+                class:font-semibold={c.id === activeId}
+                onclick={() => selectClassroom(c.id)}
+              >
+                {c.name}
+                <span class="pencil block">{c.student_ids.length} öğrenci</span>
+              </button>
+            </li>
+          {/each}
+        </ul>
       {/if}
-    </div>
+
+      <div class="border-t border-rule-strong px-rule py-half">
+        <h3 class="stamp">Yeni sınıf</h3>
+        <div class="mt-quarter">
+          <RuledField label="Ad"><input type="text" bind:value={className} placeholder="9-A" /></RuledField>
+        </div>
+        <div class="mt-half grid grid-cols-2 gap-half">
+          <RuledField label="Seviye"><input type="number" min="1" max="12" bind:value={grade} /></RuledField>
+          <RuledField label="Şube"><input type="text" bind:value={branch} /></RuledField>
+        </div>
+        <div class="mt-half">
+          <PenButton kind="quiet" disabled={busy} onclick={createClassroom}>Oluştur</PenButton>
+        </div>
+      </div>
+    </section>
+
+    <section class="min-h-0 overflow-auto border-r border-rule-strong">
+      <h2 class="stamp ruled-bottom sticky top-0 bg-paper px-rule py-quarter">Öğrenci listesi</h2>
+      {#if !activeId}
+        <p class="pencil p-rule">Bir sınıf seç.</p>
+      {:else if students.length === 0}
+        <p class="pencil p-rule">Bu sınıfta öğrenci yok.</p>
+      {:else}
+        <table class="w-full border-collapse text-[13px]">
+          <tbody>
+            {#each students as s (s.id)}
+              <tr class="border-b border-rule">
+                <td class="w-[60px] px-rule py-quarter tnum text-pencil">{s.number}</td>
+                <td class="px-half py-quarter">{s.first_name} {s.last_name}</td>
+                <td class="px-rule py-quarter text-right">
+                  <PenButton
+                    kind="quiet"
+                    disabled={busy}
+                    onclick={async () => {
+                      await api.students.deleteStudent(s.id);
+                      if (activeId) await selectClassroom(activeId);
+                    }}
+                  >
+                    Sil
+                  </PenButton>
+                </td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+      {/if}
+    </section>
+
+    <aside class="min-h-0 overflow-auto px-rule py-half">
+      <h2 class="stamp">Toplu ekle</h2>
+      <p class="pencil mt-quarter">
+        Satır başına bir öğrenci: numara, ad soyad. Listeyi olduğu gibi yapıştırabilirsin.
+      </p>
+      <textarea
+        rows="10"
+        class="mt-half w-full border border-rule-strong bg-paper-lift p-half font-mono
+               text-[12px] leading-rule focus:border-red focus:outline-none"
+        bind:value={bulkText}
+        placeholder={"101, Ayşe Yılmaz\n102, Mehmet Demir"}
+      ></textarea>
+      <div class="mt-half flex items-center gap-half">
+        <PenButton kind="ink" disabled={busy || !activeId || parsed.length === 0} onclick={addBulk}>
+          {parsed.length} öğrenci ekle
+        </PenButton>
+        {#if bulkText.trim() !== "" && parsed.length === 0}
+          <span class="annot">Hiçbir satır okunamadı.</span>
+        {/if}
+      </div>
+    </aside>
   </div>
 </div>
-
-<!-- ── Add Classroom Modal ──────────────────────────────────────────────────── -->
-{#if showAddClass}
-  <!-- svelte-ignore a11y_click_events_have_key_events a11y_no_static_element_interactions -->
-  <div class="fixed inset-0 z-40 bg-black/40"
-    onclick={() => { showAddClass = false; classError = null; }}></div>
-  <div class="fixed inset-0 z-50 flex items-center justify-center p-4 pointer-events-none">
-    <div class="pointer-events-auto w-full max-w-sm rounded-xl border bg-card shadow-xl">
-      <div class="flex items-center justify-between border-b px-5 py-3">
-        <h3 class="font-semibold">Yeni Sınıf</h3>
-        <button type="button" onclick={() => { showAddClass = false; classError = null; }}
-          class="text-muted-foreground hover:text-foreground text-lg leading-none transition-colors">✕</button>
-      </div>
-      <form onsubmit={(e) => { e.preventDefault(); createClassroom(); }} class="p-5 space-y-4">
-        <div class="space-y-1.5">
-          <label class="text-sm font-medium" for="cls-name">Sınıf Adı</label>
-          <input id="cls-name" type="text" bind:value={newClassName}
-            placeholder="örn. Fizik 9A veya 9-A"
-            class="w-full rounded-md border border-input bg-background px-3 py-2 text-sm
-                   focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring
-                   placeholder:text-muted-foreground" />
-        </div>
-        <div class="grid grid-cols-2 gap-3">
-          <div class="space-y-1.5">
-            <label class="text-sm font-medium" for="cls-grade">Sınıf Düzeyi</label>
-            <input id="cls-grade" type="number" min="1" max="12" bind:value={newGrade}
-              class="w-full rounded-md border border-input bg-background px-3 py-2 text-sm
-                     focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring" />
-          </div>
-          <div class="space-y-1.5">
-            <label class="text-sm font-medium" for="cls-branch">Şube</label>
-            <input id="cls-branch" type="text" bind:value={newBranch} maxlength="3" placeholder="A"
-              class="w-full rounded-md border border-input bg-background px-3 py-2 text-sm
-                     focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring
-                     placeholder:text-muted-foreground" />
-          </div>
-        </div>
-        {#if classError}
-          <p class="text-sm text-destructive">{classError}</p>
-        {/if}
-        <div class="flex justify-end gap-2 pt-1">
-          <button type="button" onclick={() => { showAddClass = false; classError = null; }}
-            class="rounded-md border px-4 py-1.5 text-sm hover:bg-accent transition-colors">
-            İptal
-          </button>
-          <button type="submit" disabled={savingClass}
-            class="rounded-md bg-primary px-4 py-1.5 text-sm text-primary-foreground
-                   hover:bg-primary/90 transition-colors disabled:opacity-50">
-            {savingClass ? 'Kaydediliyor…' : 'Oluştur'}
-          </button>
-        </div>
-      </form>
-    </div>
-  </div>
-{/if}
-
-<!-- ── Add Student Modal ────────────────────────────────────────────────────── -->
-{#if showAddStudent}
-  <!-- svelte-ignore a11y_click_events_have_key_events a11y_no_static_element_interactions -->
-  <div class="fixed inset-0 z-40 bg-black/40"
-    onclick={() => { showAddStudent = false; studentError = null; }}></div>
-  <div class="fixed inset-0 z-50 flex items-center justify-center p-4 pointer-events-none">
-    <div class="pointer-events-auto w-full max-w-sm rounded-xl border bg-card shadow-xl">
-      <div class="flex items-center justify-between border-b px-5 py-3">
-        <h3 class="font-semibold">
-          Öğrenci Ekle
-          {#if selectedClassroom}
-            <span class="ml-1 text-sm font-normal text-muted-foreground">
-              — {selectedClassroom.grade}{selectedClassroom.branch}
-            </span>
-          {/if}
-        </h3>
-        <button type="button" onclick={() => { showAddStudent = false; studentError = null; }}
-          class="text-muted-foreground hover:text-foreground text-lg leading-none transition-colors">✕</button>
-      </div>
-      <form onsubmit={(e) => { e.preventDefault(); addStudent(); }} class="p-5 space-y-4">
-        <div class="space-y-1.5">
-          <label class="text-sm font-medium" for="stu-num">Okul Numarası</label>
-          <input id="stu-num" type="text" bind:value={newNumber} placeholder="örn. 1234"
-            class="w-full rounded-md border border-input bg-background px-3 py-2 text-sm
-                   focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring
-                   placeholder:text-muted-foreground" />
-        </div>
-        <div class="grid grid-cols-2 gap-3">
-          <div class="space-y-1.5">
-            <label class="text-sm font-medium" for="stu-first">Ad</label>
-            <input id="stu-first" type="text" bind:value={newFirst} placeholder="Ahmet"
-              class="w-full rounded-md border border-input bg-background px-3 py-2 text-sm
-                     focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring
-                     placeholder:text-muted-foreground" />
-          </div>
-          <div class="space-y-1.5">
-            <label class="text-sm font-medium" for="stu-last">Soyad</label>
-            <input id="stu-last" type="text" bind:value={newLast} placeholder="Yılmaz"
-              class="w-full rounded-md border border-input bg-background px-3 py-2 text-sm
-                     focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring
-                     placeholder:text-muted-foreground" />
-          </div>
-        </div>
-        {#if studentError}
-          <p class="text-sm text-destructive">{studentError}</p>
-        {/if}
-        <div class="flex justify-end gap-2 pt-1">
-          <button type="button" onclick={() => { showAddStudent = false; studentError = null; }}
-            class="rounded-md border px-4 py-1.5 text-sm hover:bg-accent transition-colors">
-            İptal
-          </button>
-          <button type="submit" disabled={savingStudent}
-            class="rounded-md bg-primary px-4 py-1.5 text-sm text-primary-foreground
-                   hover:bg-primary/90 transition-colors disabled:opacity-50">
-            {savingStudent ? 'Kaydediliyor…' : 'Ekle'}
-          </button>
-        </div>
-      </form>
-    </div>
-  </div>
-{/if}

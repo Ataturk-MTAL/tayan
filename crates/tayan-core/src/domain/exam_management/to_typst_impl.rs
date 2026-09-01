@@ -97,6 +97,7 @@ impl ToTypst for ContentNode {
                 let path = asset_url_to_fs_path(&n.src);
                 format!("#image(\"{}\", width: {w})", path.replace('"', "\\\""))
             }
+            ContentNode::TypstRaw(n) => n.code.clone(),
             ContentNode::Blank(n) => {
                 let w = n.width.as_deref().unwrap_or("4cm");
                 format!("#box(width: {w}, stroke: (bottom: 0.5pt))[#h(1fr)]")

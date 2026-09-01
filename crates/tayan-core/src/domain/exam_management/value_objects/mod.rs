@@ -4,7 +4,7 @@ pub mod question_stats;
 
 pub use content_node::{
     BlankNode, ChemFlavor, ChemNode, ContentNode, ImageNode,
-    MathDisplay, MathNode, QuestionBody, TextNode, TextStyle,
+    MathDisplay, MathNode, QuestionBody, TextNode, TextStyle, TypstRawNode,
 };
 pub use learning_outcome::{LearningOutcome, OutcomeCode};
 pub use question_stats::{QuestionStats, ScoreBadge};
