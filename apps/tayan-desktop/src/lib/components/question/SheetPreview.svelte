@@ -1,6 +1,13 @@
 <script lang="ts">
+  import SheetPage from "./SheetPage.svelte";
+
   type Props = {
     pages: string[];
+    /**
+     * Yalnızca derleme GERÇEKTEN uzun sürdüğünde true. Her derlemede değil:
+     * tipik derleme 5-30 ms ve debounce 120 ms; bu ritimde bir şeyi soldurup
+     * geri getirmek bilgi vermez, yalnızca göz yorar.
+     */
     stale: boolean;
     error: string | null;
   };
@@ -38,16 +45,18 @@
     </div>
   {/if}
 
-  <div class="flex flex-col items-center gap-rule p-rule" class:opacity-45={stale}>
+  <!--
+    Kâğıt masadan kalkan tek nesnedir; gölge burada gerçektir, süs değil.
+    Uzun süren derlemede kâğıt soldurulmaz — kenarda ince bir çizgi belirir,
+    böylece okunan metin bozulmadan durur.
+  -->
+  {#if stale}
+    <div class="h-[2px] w-full bg-red" aria-hidden="true"></div>
+  {/if}
+
+  <div class="flex flex-col items-center gap-rule p-rule">
     {#each safePages as page, i (i)}
-      <!--
-        Kâğıt masadan kalkan tek nesnedir; gölge burada gerçektir, süs değil.
-        {@html} kullanımı bilinçli: içerik yerel Typst derleyicisinden geliyor
-        ve yukarıdaki sanitize'dan geçiyor.
-      -->
-      <div class="sheet sheet-set">
-        {@html page}
-      </div>
+      <SheetPage svg={page} />
     {/each}
   </div>
 </div>

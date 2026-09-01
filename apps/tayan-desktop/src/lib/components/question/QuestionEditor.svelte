@@ -46,6 +46,17 @@
   let diagnostics = $state<TypstDiagnostic[]>([]);
   let compiling = $state(false);
 
+  /**
+   * Derleme göstergesi yalnızca uzun süren derlemede görünür.
+   *
+   * Tipik derleme 5-30 ms. Her derlemede bir gösterge yakıp söndürmek, yazma
+   * hızında saniyede birkaç kez yanıp sönen bir arayüz demek — bilgi vermiyor,
+   * yalnızca göz yoruyor.
+   */
+  const SLOW_COMPILE_MS = 400;
+  let slowCompile = $state(false);
+  let slowTimer: ReturnType<typeof setTimeout> | null = null;
+
   let sourceRef = $state<ReturnType<typeof TypstSource> | null>(null);
 
   /**
@@ -69,6 +80,8 @@
     }
 
     compiling = true;
+    slowTimer = setTimeout(() => (slowCompile = true), SLOW_COMPILE_MS);
+
     try {
       const result = await api.compiler.previewQuestion(source);
       pages = result;
@@ -82,6 +95,11 @@
       diagnostics = parseDiagnostics(message);
     } finally {
       compiling = false;
+      if (slowTimer !== null) {
+        clearTimeout(slowTimer);
+        slowTimer = null;
+      }
+      slowCompile = false;
 
       const queued = pendingSource;
       pendingSource = null;
@@ -103,7 +121,7 @@
       <span class="pencil font-mono">{outcomes.join(" · ")}</span>
     {/if}
 
-    <span class="ml-auto annot" class:invisible={!compiling}>derleniyor…</span>
+    <span class="ml-auto annot" class:invisible={!slowCompile}>derleniyor…</span>
   </div>
 
   <BlockPalette oninsert={handleInsert} />
@@ -114,7 +132,7 @@
     </section>
 
     <section class="min-h-0">
-      <SheetPreview {pages} stale={compiling} error={compileError} />
+      <SheetPreview {pages} stale={slowCompile} error={compileError} />
     </section>
 
     <MeasureRail {stats} {points} {outcomes} />
