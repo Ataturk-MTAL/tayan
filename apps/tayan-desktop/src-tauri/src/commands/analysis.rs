@@ -293,17 +293,20 @@ pub fn typst_symbols() -> Vec<tayan_compiler::symbols::TypstSymbol> {
 
 /// tinymist'ten tamamlama ister.
 ///
+/// ASYNC ve spawn_blocking şart. Tauri'de senkron komutlar ana iş parçacığında
+/// koşar; bu komut tinymist'e tam belgeyi gönderip yanıtı BLOKLAYARAK bekliyor.
+/// Senkron bırakıldığında her tuş vuruşunda — silme dahil — ana iş parçacığı
+/// duruyor ve imleç yazının gerisinde kalıyordu.
+///
 /// Gövde, önsözle SARMALANARAK gönderilir: tinymist #secenekler gibi şablon
 /// yardımcılarını ancak #let tanımlarını görürse önerebilir. Bu yüzden satır
-/// numarası da önsöz kadar kaydırılır — editördeki 5. satır, tinymist'e
-/// gönderilen belgede 98. satırdır.
+/// numarası da önsöz kadar kaydırılır.
 ///
 /// Hata durumunda Err döner ve ön yüz kendi sembol dökümüne düşer. tinymist
-/// yoksa, çökmüşse veya yavaşsa editör yazmaya devam eder; tamamlama uğruna
-/// yazmayı bloklamak yanlış olur.
+/// yoksa, çökmüşse veya yavaşsa editör yazmaya devam eder.
 #[tauri::command]
-pub fn lsp_complete(
-    tinymist: tauri::State<'_, crate::lsp::Tinymist>,
+pub async fn lsp_complete(
+    tinymist: tauri::State<'_, std::sync::Arc<crate::lsp::Tinymist>>,
     app: tauri::AppHandle,
     body: String,
     line: u32,
@@ -313,8 +316,41 @@ pub fn lsp_complete(
     let root = tayan_compiler::world::app_data_root().join("lsp");
     std::fs::create_dir_all(&root).map_err(|e| e.to_string())?;
 
-    let source = tayan_compiler::typst_gen::TypstGenerator::preview_document(&body);
-    let offset = tayan_compiler::typst_gen::TypstGenerator::preview_line_offset() as u32;
+    let client = tinymist.inner().clone();
 
-    tinymist.complete(&bin, &root, &source, line + offset, character)
+    tokio::task::spawn_blocking(move || {
+        let source = tayan_compiler::typst_gen::TypstGenerator::preview_document(&body);
+        let offset = tayan_compiler::typst_gen::TypstGenerator::preview_line_offset() as u32;
+        client.complete(&bin, &root, &source, line + offset, character)
+    })
+    .await
+    .map_err(|e| e.to_string())?
+}
+
+/// Dil sunucusunun kurulu olup olmadığı.
+#[tauri::command]
+pub fn lsp_status() -> crate::lsp_install::LspStatus {
+    crate::lsp_install::status()
+}
+
+/// Dil sunucusunu indirir ve kurar.
+///
+/// AÇIK bir kullanıcı eylemi olarak çağrılır, ilk açılışta kendiliğinden değil:
+/// "tamamen çevrimdışı" bir üründe kullanıcı sormadan ağa çıkmak kabul edilemez.
+/// İndirme sha256 ile doğrulanır.
+#[tauri::command]
+pub async fn lsp_install() -> Result<String, String> {
+    tokio::task::spawn_blocking(crate::lsp_install::install)
+        .await
+        .map_err(|e| e.to_string())?
+}
+
+#[tauri::command]
+pub fn lsp_uninstall(
+    tinymist: tauri::State<'_, std::sync::Arc<crate::lsp::Tinymist>>,
+) -> Result<(), String> {
+    // Çalışan süreci önce durdur: kullanılan dosyayı silmek bazı sistemlerde
+    // başarısız olur, kalanı da yetim süreç bırakır.
+    tinymist.shutdown();
+    crate::lsp_install::uninstall()
 }

@@ -2,6 +2,7 @@
 
 mod commands;
 mod lsp;
+mod lsp_install;
 mod migration;
 mod state;
 
@@ -64,7 +65,7 @@ fn main() {
                 }
             });
 
-            app.manage(lsp::Tinymist::new());
+            app.manage(std::sync::Arc::new(lsp::Tinymist::new()));
             app.manage(Mutex::new(app_state));
             Ok(())
         })
@@ -104,6 +105,9 @@ fn main() {
             commands::analysis::compile_question_preview_svg,
             commands::analysis::typst_symbols,
             commands::analysis::lsp_complete,
+            commands::analysis::lsp_status,
+            commands::analysis::lsp_install,
+            commands::analysis::lsp_uninstall,
             // Images
             commands::image::save_image,
         ])
@@ -117,7 +121,7 @@ fn main() {
             // güvenip 50 MB'lık bir süreci ortada bırakmak doğru olmaz.
             if let tauri::RunEvent::Exit = event {
                 use tauri::Manager;
-                app.state::<lsp::Tinymist>().shutdown();
+                app.state::<std::sync::Arc<lsp::Tinymist>>().shutdown();
             }
         });
 }

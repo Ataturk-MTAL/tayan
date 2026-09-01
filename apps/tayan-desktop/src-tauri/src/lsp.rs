@@ -37,6 +37,13 @@ pub struct LspCompletion {
 pub fn binary_path(app: &tauri::AppHandle) -> Result<std::path::PathBuf, String> {
     use tauri::Manager;
 
+    // 1) Kullanıcının indirdiği kopya. İkili artık PAKETLENMİYOR: platform
+    //    başına 60 MB ve dondurulmuş sürüm demekti, üstelik tinymist zorunlu
+    //    değil — o olmadan editör kendi sembol dökümüyle çalışıyor.
+    if let Some(p) = crate::lsp_install::installed_binary() {
+        return Ok(p);
+    }
+
     let triple = env!("TINYMIST_TARGET_TRIPLE");
     let name = format!("tinymist-{triple}");
 
@@ -55,7 +62,7 @@ pub fn binary_path(app: &tauri::AppHandle) -> Result<std::path::PathBuf, String>
     }
 
     which_in_path("tinymist")
-        .ok_or_else(|| format!("tinymist bulunamadı. scripts/fetch-tinymist.sh çalıştırın."))
+        .ok_or_else(|| "Dil sunucusu kurulu değil. Yardım ekranından kurabilirsin.".to_string())
 }
 
 fn which_in_path(name: &str) -> Option<std::path::PathBuf> {
@@ -78,6 +85,8 @@ struct Session {
     opened: bool,
     version: i64,
     doc_uri: String,
+    /// Son gönderilen metin. Değişmediyse didChange atlanır.
+    last_source: String,
 }
 
 impl Tinymist {
@@ -119,6 +128,7 @@ impl Tinymist {
             opened: false,
             version: 0,
             doc_uri,
+            last_source: String::new(),
         };
 
         session.request("initialize", json!({
@@ -177,6 +187,12 @@ impl Tinymist {
 
 impl Session {
     fn sync(&mut self, source: &str) -> Result<(), String> {
+        // Metin değişmediyse gönderme. Aynı belgeyi tekrar tekrar yollamak
+        // tinymist'i her seferinde yeniden ayrıştırmaya zorlar.
+        if self.opened && self.last_source == source {
+            return Ok(());
+        }
+
         let uri = self.doc_uri.clone();
 
         if !self.opened {
@@ -187,6 +203,7 @@ impl Session {
             }))?;
             self.opened = true;
             self.version = 1;
+            self.last_source = source.to_string();
             return Ok(());
         }
 
@@ -197,7 +214,10 @@ impl Session {
             // Tam metin gönderiliyor: artımlı senkron için parça hesabı
             // tutmak, bu boyuttaki belgelerde kazandırmayacağı karmaşıklık.
             "contentChanges": [ { "text": source } ]
-        }))
+        }))?;
+
+        self.last_source = source.to_string();
+        Ok(())
     }
 
     fn write_message(&mut self, msg: &Value) -> Result<(), String> {

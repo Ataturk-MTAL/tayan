@@ -221,10 +221,17 @@ function enclosingCall(text: string): string | null {
 async function tayanCompletions(context: CompletionContext) {
   const upto = context.state.sliceDoc(0, context.pos);
 
+  // Pahalı işten ÖNCE ucuz eleme.
+  //
+  // Bu sıra ters yazılmıştı: her tuş vuruşunda — silme dahil — tinymist'e tam
+  // belge gönderilip yanıt bekleniyor, sonra "aslında tamamlanacak kelime yok"
+  // diye atılıyordu. İmlecin yazının gerisinde kalmasının ikinci sebebi buydu.
+  const prefix = context.matchBefore(/[#$]?[\w.-]*/);
+  if (!prefix || (prefix.from === prefix.to && !context.explicit)) return null;
+
   // 0) Önce tinymist. Typst'in tamamını, içe aktarılan paketleri ve belgedeki
   //    kendi tanımlarımızı bilir. Yoksa veya hata verirse null döner ve
-  //    aşağıdaki kendi dökümümüze düşeriz — tamamlama uğruna yazmayı
-  //    bloklamak yanlış olur.
+  //    aşağıdaki kendi dökümümüze düşeriz.
   const pos = context.state.doc.lineAt(context.pos);
   const lsp = await tinymistComplete(
     context.state.doc.toString(),
@@ -233,10 +240,8 @@ async function tayanCompletions(context: CompletionContext) {
   );
 
   if (lsp !== null && lsp.length > 0) {
-    const word = context.matchBefore(/[#$]?[\w.-]*/);
-    if (!word || (word.from === word.to && !context.explicit)) return null;
     return {
-      from: word.from,
+      from: prefix.from,
       options: [
         // Kalıplarımız üstte kalır: tam çağrı ve öğretici ipucu taşıyorlar,
         // tinymist bunları sade birer işlev olarak önerir.
@@ -246,7 +251,11 @@ async function tayanCompletions(context: CompletionContext) {
     };
   }
 
-  const symbols = [...(await typstSymbols()), ...localDefinitions(context.state.doc.toString())];
+  // Buradan itibaren yedek yol: kendi sembol dökümümüz.
+  const symbols = [
+    ...(await typstSymbols()),
+    ...localDefinitions(context.state.doc.toString()),
+  ];
 
   // 1) Bir çağrının içindeysek PARAMETRE öner — yanlış parametre adı bu
   //    ekranda en sık yapılan hatalardan biri.

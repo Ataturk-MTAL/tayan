@@ -27,5 +27,3 @@
 .env.*
 !.env.example
 
-# tinymist sidecar ikilisi — scripts/fetch-tinymist.sh ile indirilir
-/apps/tayan-desktop/src-tauri/binaries/
