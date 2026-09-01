@@ -58,8 +58,7 @@ pub async fn generate_exam_pdf(
 
     let ctx = tayan_core::domain::shared::to_typst::TypstContext {
         answer_key,
-        shuffle: false,
-        question_number: None,
+        ..Default::default()
     };
 
     let questions: Vec<_> = exam.questions.iter()
@@ -85,8 +84,7 @@ pub async fn export_exam_pdf(
 
     let ctx = tayan_core::domain::shared::to_typst::TypstContext {
         answer_key,
-        shuffle: false,
-        question_number: None,
+        ..Default::default()
     };
 
     let questions: Vec<_> = exam.questions.iter()
@@ -119,8 +117,7 @@ pub async fn export_typst_file(
 
     let ctx = tayan_core::domain::shared::to_typst::TypstContext {
         answer_key,
-        shuffle: false,
-        question_number: None,
+        ..Default::default()
     };
 
     let questions: Vec<_> = exam.questions.iter()
