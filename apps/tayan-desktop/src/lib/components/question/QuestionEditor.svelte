@@ -29,8 +29,14 @@
     answer,
   }: Props = $props();
 
-  /** Derleme her tuş vuruşunda değil, yazma durunca çalışır. */
-  const DEBOUNCE_MS = 220;
+  /**
+   * Derleme her tuş vuruşunda değil, yazma durunca çalışır.
+   *
+   * 400 ms bilinçli: her derleme Rust tarafında yeni bir TayanWorld kuruyor ve
+   * Typst belgesini baştan diziyor. Daha kısa bir aralık, canlılık hissini
+   * ölçülebilir biçimde artırmadan derleme sayısını katlıyor.
+   */
+  const DEBOUNCE_MS = 400;
 
   let pages = $state<string[]>([]);
   let compileError = $state<string | null>(null);
@@ -39,6 +45,14 @@
 
   let sourceRef = $state<ReturnType<typeof TypstSource> | null>(null);
 
+  /**
+   * Aynı anda en fazla bir derleme. Üst üste binen derlemeler paralel
+   * TayanWorld örneği demektir; her biri kendi belleğini tutar ve hızlı yazan
+   * bir öğretmen süreci kolayca şişirir. Sıraya alınan yalnızca EN SON kaynak
+   * tutulur — aradakiler zaten ekranda görünmeyecek.
+   */
+  let pendingSource: string | null = null;
+
   $effect(() => {
     const current = body;
     const timer = setTimeout(() => void compile(current), DEBOUNCE_MS);
@@ -46,6 +60,11 @@
   });
 
   async function compile(source: string) {
+    if (compiling) {
+      pendingSource = source;
+      return;
+    }
+
     compiling = true;
     try {
       const result = await api.compiler.previewQuestion(source);
@@ -60,6 +79,10 @@
       diagnostics = parseDiagnostics(message);
     } finally {
       compiling = false;
+
+      const queued = pendingSource;
+      pendingSource = null;
+      if (queued !== null && queued !== source) void compile(queued);
     }
   }
 

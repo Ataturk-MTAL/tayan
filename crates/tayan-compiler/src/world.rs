@@ -17,26 +17,46 @@ use typst::{
     Library, World,
 };
 
+/// Typst'in memoization önbelleğini (comemo) budar.
+///
+/// comemo süreç genelinde ve SINIRSIZ büyür. Tek atışlık bir CLI'da bu sorun
+/// değildir; uzun ömürlü bir masaüstü uygulamasında, üstelik her tuş
+/// duraklamasında yeniden derleyen bir canlı önizlemede, doğrudan bellek
+/// sızıntısıdır. typst CLI de her derlemeden sonra aynı çağrıyı yapar.
+///
+/// Eşik 5: son 5 tahliye turunda kullanılmayan girdiler atılır. Ardışık
+/// derlemeler arasındaki paylaşımı korurken sınırsız büyümeyi keser.
+const COMEMO_RETAIN_ROUNDS: usize = 5;
+
+fn evict_memo_cache() {
+    comemo::evict(COMEMO_RETAIN_ROUNDS);
+}
+
+/// Tahliyeyi Drop'a bağlamak, hata yollarında da çalışmasını garanti eder.
+/// Derleme hatası da önbelleğe girdi yazar; erken dönüşte atlanırsa sızıntı
+/// tam olarak hata ayıklarken, yani en sık derlenen anda birikir.
+struct EvictOnDrop;
+
+impl Drop for EvictOnDrop {
+    fn drop(&mut self) {
+        evict_memo_cache();
+    }
+}
+
 // ── World ─────────────────────────────────────────────────────────────────────
 
 pub struct TayanWorld {
     source:       Source,
-    library:      LazyHash<Library>,
-    book:         LazyHash<FontBook>,
-    fonts:        Vec<Font>,
+    library:      &'static LazyHash<Library>,
+    book:         &'static LazyHash<FontBook>,
+    fonts:        &'static [Font],
     package_root: PathBuf,
     file_cache:   Mutex<HashMap<FileId, Bytes>>,
 }
 
 impl TayanWorld {
     pub fn new(source_text: String) -> anyhow::Result<Self> {
-        let mut font_paths = collect_system_font_paths();
-
-        if let Some(data_dir) = dirs_next::data_local_dir() {
-            font_paths.push(data_dir.join("tayan").join("fonts"));
-        }
-
-        let (book, fonts) = load_fonts_all(&font_paths);
+        let (book, fonts) = font_registry();
         let package_root = typst_package_cache_dir()?;
 
         let source = Source::new(
@@ -46,8 +66,8 @@ impl TayanWorld {
 
         Ok(Self {
             source,
-            library: Library::default().into(),
-            book:    book.into(),
+            library: standard_library(),
+            book,
             fonts,
             package_root,
             file_cache: Mutex::new(HashMap::new()),
@@ -56,6 +76,7 @@ impl TayanWorld {
 
     pub fn compile_pdf(source_text: String) -> anyhow::Result<Vec<u8>> {
         let world = Self::new(source_text)?;
+        let _evict = EvictOnDrop;
         let Warned { output, warnings: _ } = typst::compile(&world);
 
         let doc = output.map_err(|errors| {
@@ -84,6 +105,7 @@ impl TayanWorld {
     /// PDF'te bu mümkün değildir.
     pub fn compile_svg(source_text: String) -> anyhow::Result<Vec<String>> {
         let world = Self::new(source_text)?;
+        let _evict = EvictOnDrop;
         let Warned { output, warnings: _ } = typst::compile::<PagedDocument>(&world);
 
         let doc = output.map_err(|errors| {
@@ -132,11 +154,11 @@ fn format_diagnostic(world: &TayanWorld, diag: &SourceDiagnostic) -> String {
 
 impl World for TayanWorld {
     fn library(&self) -> &LazyHash<Library> {
-        &self.library
+        self.library
     }
 
     fn book(&self) -> &LazyHash<FontBook> {
-        &self.book
+        self.book
     }
 
     fn main(&self) -> FileId {
@@ -221,6 +243,37 @@ impl TayanWorld {
 }
 
 // ── Font loading ──────────────────────────────────────────────────────────────
+
+/// Bütün font kaydı — gömülü + sistem — süreç başına BİR kez kurulur.
+///
+/// Bu neden kritik: sistem font dizinleri gerçek makinelerde gigabaytlarca
+/// olabilir (ölçülen bir kurulumda ~/Library/Fonts 2.2 GB, /System/Library/Fonts
+/// 566 MB). Bunları her derlemede yeniden okumak, canlı önizlemede her tuş
+/// duraklamasında ~2.8 GB ayırmak demektir; süreç birkaç dakikada onlarca
+/// gigabayta çıkar ve macOS "system has run out of application memory" verir.
+/// Ölçülen bir vakada tayan-desktop 31.63 GB'a ulaştı.
+static FONT_REGISTRY: OnceLock<(LazyHash<FontBook>, Vec<Font>)> = OnceLock::new();
+
+/// Typst standart kütüphanesi de derleme başına yeniden kurulmaz.
+static STANDARD_LIBRARY: OnceLock<LazyHash<Library>> = OnceLock::new();
+
+fn font_registry() -> (&'static LazyHash<FontBook>, &'static [Font]) {
+    let (book, fonts) = FONT_REGISTRY.get_or_init(|| {
+        let mut font_paths = collect_system_font_paths();
+
+        if let Some(data_dir) = dirs_next::data_local_dir() {
+            font_paths.push(data_dir.join("tayan").join("fonts"));
+        }
+
+        let (book, fonts) = load_fonts_all(&font_paths);
+        (LazyHash::new(book), fonts)
+    });
+    (book, fonts.as_slice())
+}
+
+fn standard_library() -> &'static LazyHash<Library> {
+    STANDARD_LIBRARY.get_or_init(|| LazyHash::new(Library::default()))
+}
 
 /// Embed fontları process başına bir kez parse edilir; her derlemede sadece
 /// Arc clone (pointer bump) ile yeniden kullanılır.
