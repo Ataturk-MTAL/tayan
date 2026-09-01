@@ -1,20 +1,31 @@
 <script lang="ts">
   import TypstSource from "./TypstSource.svelte";
   import SheetPreview from "./SheetPreview.svelte";
-  import BlockPalette from "./BlockPalette.svelte";
-  import MeasureRail from "../measure/MeasureRail.svelte";
+  import FloatingPalette from "./FloatingPalette.svelte";
+  import QuestionInspector from "./QuestionInspector.svelte";
+  import DockPanel from "../shell/DockPanel.svelte";
+  import PenButton from "../shell/PenButton.svelte";
+  import { layout, setMode, type ViewMode } from "$lib/ui/layout.svelte";
   import { api } from "$lib/api";
   import { parseDiagnostics, errorText, type TypstDiagnostic } from "$lib/editor/diagnostics";
-  import type { QuestionStats } from "$lib/types";
-  import { QUESTION_TYPE_LABELS, type Question } from "$lib/types";
+  import type { QuestionStats, Question } from "$lib/types";
+
+  type QuestionType = Question["question_type"];
 
   type Props = {
     body: string;
-    questionType: Question["question_type"];
+    questionType: QuestionType;
+    outcomeText: string;
     points: number;
-    outcomes: string[];
     stats?: QuestionStats | null;
+    structureError: string | null;
+    saving: boolean;
+    saveLabel: string;
     onbodychange: (body: string) => void;
+    onquestiontypechange: (value: QuestionType) => void;
+    onoutcometextchange: (value: string) => void;
+    onpointschange: (value: number) => void;
+    onsave: () => void;
     /** Cevap bölgesi. Kırmızı cetvelin sağı yalnızca ölçümündür, cevabın değil. */
     answer?: import("svelte").Snippet;
   };
@@ -22,10 +33,17 @@
   let {
     body,
     questionType,
+    outcomeText,
     points,
-    outcomes,
     stats = null,
+    structureError,
+    saving,
+    saveLabel,
     onbodychange,
+    onquestiontypechange,
+    onoutcometextchange,
+    onpointschange,
+    onsave,
     answer,
   }: Props = $props();
 
@@ -68,6 +86,12 @@
   let pendingSource: string | null = null;
 
   let imageError = $state<string | null>(null);
+
+  const MODES: Array<{ id: ViewMode; label: string; title: string }> = [
+    { id: "editor", label: "Editör", title: "Yalnızca kaynak" },
+    { id: "split", label: "Yan yana", title: "Kaynak ve kâğıt yan yana" },
+    { id: "preview", label: "Kâğıt", title: "Yalnızca basılacak sayfa" },
+  ];
 
   $effect(() => {
     const current = body;
@@ -114,43 +138,116 @@
   }
 </script>
 
+{#snippet inspector()}
+  <DockPanel title="Soru">
+    <QuestionInspector
+      {questionType}
+      {outcomeText}
+      {points}
+      {stats}
+      {structureError}
+      {onquestiontypechange}
+      {onoutcometextchange}
+      {onpointschange}
+    />
+  </DockPanel>
+{/snippet}
+
 <div class="flex h-full min-h-0 flex-col">
-  <!-- Künye: sorunun kimliği. Kart değil, cetvelli satır. -->
-  <div class="ruled-bottom flex shrink-0 items-center gap-rule bg-paper px-rule py-half paper-plain">
-    <span class="stamp">{QUESTION_TYPE_LABELS[questionType]}</span>
-    <span class="pencil">{points} puan</span>
-    {#if outcomes.length > 0}
-      <span class="pencil font-mono">{outcomes.join(" · ")}</span>
-    {/if}
+  <!--
+    Tek ince araç satırı. Öncesinde burada iki şerit vardı: form başlığı
+    (tip + kazanım + Kaydet) ve künye (tip + puan + kazanım). İkisi de aynı
+    gerçekleri iki kez basıyordu; ikisi de panele indi. Kalan yalnızca
+    görünüm modu ve kaydetme — ikisi de bir bölmeye ait değil.
+  -->
+  <div
+    class="ruled-bottom paper-plain flex shrink-0 items-center gap-half bg-paper-lift
+           px-half py-quarter"
+  >
+    <div class="flex items-stretch border border-rule-strong">
+      {#each MODES as m (m.id)}
+        <button
+          type="button"
+          class="border-r border-rule px-half py-quarter text-[12px] leading-rule
+                 transition-colors last:border-r-0 hover:text-red-deep"
+          class:bg-paper-sunk={layout.mode === m.id}
+          class:font-semibold={layout.mode === m.id}
+          class:text-ink={layout.mode === m.id}
+          class:text-pencil={layout.mode !== m.id}
+          aria-pressed={layout.mode === m.id}
+          title={m.title}
+          onclick={() => setMode(m.id)}
+        >
+          {m.label}
+        </button>
+      {/each}
+    </div>
 
     {#if imageError}
       <span class="annot">{imageError}</span>
     {/if}
-    <span class="ml-auto annot" class:invisible={!slowCompile}>derleniyor…</span>
+
+    <span class="annot ml-auto" class:invisible={!slowCompile}>derleniyor…</span>
+
+    <PenButton kind="ink" disabled={saving || structureError !== null} onclick={onsave}>
+      {saveLabel}
+    </PenButton>
   </div>
 
-  <BlockPalette {questionType} oninsert={handleInsert} />
+  <div class="flex min-h-0 flex-1">
+    {#if layout.side === "left"}{@render inspector()}{/if}
 
-  <div class="grid min-h-0 flex-1 grid-cols-[minmax(320px,1fr)_minmax(360px,1.15fr)_240px]">
-    <section class="min-h-0 border-r border-rule-strong">
-      <TypstSource
-        bind:this={sourceRef}
-        value={body}
-        {diagnostics}
-        onchange={onbodychange}
-        onimageerror={(m) => (imageError = m)}
-      />
-    </section>
+    <!--
+      `min-w-0` ve `min-w-[320px]` SÜS DEĞİL, yerleşimin taşıyıcı kısıtı.
 
-    <section class="min-h-0">
-      <SheetPreview {pages} stale={slowCompile} error={compileError} />
-    </section>
+      `SheetPage` kâğıda açık piksel genişliği verir (794 × zoom): %159'da
+      1263 px'lik gerçek bir öğe. Flex öğelerinin varsayılanı `min-width: auto`,
+      yani içeriğinin min-content genişliğinin altına inmeyi REDDEDER — önizleme
+      1263 px talep eder ve editörü sıfıra ezer.
 
-    <MeasureRail {stats} {points} {outcomes} />
+      Eski grid bunu `minmax(320px,1fr)_minmax(360px,1.15fr)` ile karşılıyordu.
+      Flex'e geçerken o taban düştü; buradaki iki sınıf onu geri koyuyor:
+      editörün tabanı var, önizleme küçülüp KENDİ içinde kaydırıyor.
+    -->
+    <div class="flex min-h-0 min-w-0 flex-1">
+      {#if layout.mode !== "preview"}
+        <!--
+          Palet kaynağın ÜZERİNDE yüzer; `relative` bu yüzden burada. Kâğıdın
+          üstüne taşmaz — basılacak sayfayı hiçbir şey örtmez.
+        -->
+        <section
+          class="relative min-h-0 min-w-[320px] flex-1 basis-0"
+          class:border-r={layout.mode === "split"}
+          class:border-rule-strong={layout.mode === "split"}
+        >
+          <TypstSource
+            bind:this={sourceRef}
+            value={body}
+            {diagnostics}
+            onchange={onbodychange}
+            onimageerror={(m) => (imageError = m)}
+          />
+          <FloatingPalette {questionType} oninsert={handleInsert} />
+        </section>
+      {/if}
+
+      {#if layout.mode !== "editor"}
+        <!--
+          `min-w-0`: kâğıt ne kadar büyürse büyüsün bu bölme küçülebilmeli.
+          İçindeki kaydırıcı taşmayı zaten üstleniyor; bu sınıf olmadan kâğıdın
+          piksel genişliği yerleşimi dışarı iter ve editörü ekrandan siler.
+        -->
+        <section class="min-h-0 min-w-0 flex-[1.15] basis-0">
+          <SheetPreview {pages} stale={slowCompile} error={compileError} />
+        </section>
+      {/if}
+    </div>
+
+    {#if layout.side === "right"}{@render inspector()}{/if}
   </div>
 
   {#if answer}
-    <div class="ruled-top max-h-[240px] shrink-0 overflow-auto bg-paper px-rule py-half paper-plain">
+    <div class="ruled-top paper-plain max-h-[240px] shrink-0 overflow-auto bg-paper px-rule py-half">
       {@render answer()}
     </div>
   {/if}
