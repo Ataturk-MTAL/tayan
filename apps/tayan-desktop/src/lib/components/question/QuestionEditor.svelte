@@ -32,11 +32,14 @@
   /**
    * Derleme her tuş vuruşunda değil, yazma durunca çalışır.
    *
-   * 400 ms bilinçli: her derleme Rust tarafında yeni bir TayanWorld kuruyor ve
-   * Typst belgesini baştan diziyor. Daha kısa bir aralık, canlılık hissini
-   * ölçülebilir biçimde artırmadan derleme sayısını katlıyor.
+   * 120 ms, ölçüme dayanıyor: font kaydı ısındıktan sonra tek bir sorunun
+   * derlenmesi 4-30 ms sürüyor (debug profilinde ölçüldü). Bu hızda daha uzun
+   * bir bekleme yalnızca yapay gecikme olur.
+   *
+   * Sıfır değil, çünkü derlemeler sıraya alınsa da her tuş vuruşunda IPC turu
+   * yapmanın anlamı yok; 120 ms yazma ritmindeki vuruşları toparlar.
    */
-  const DEBOUNCE_MS = 400;
+  const DEBOUNCE_MS = 120;
 
   let pages = $state<string[]>([]);
   let compileError = $state<string | null>(null);

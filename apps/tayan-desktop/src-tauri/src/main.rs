@@ -10,6 +10,15 @@ use state::AppState;
 fn main() {
     tauri::Builder::default()
         .setup(|app| {
+            // Font künye kaydını arka planda kur. Ölçüm: 510 aile için 2,7-4,4 s.
+            // Tembel bırakılırsa bu süre öğretmenin ilk tuş vuruşuna biner ve
+            // canlı önizleme donmuş görünür. Pencere açılırken bitirilir.
+            std::thread::spawn(|| {
+                let t0 = std::time::Instant::now();
+                tayan_compiler::world::warm_font_registry();
+                eprintln!("font kaydı hazır: {:?}", t0.elapsed());
+            });
+
             let db_path = resolve_db_path();
             let pool = tauri::async_runtime::block_on(async {
                 let p = tayan_db::connect(&db_path).await

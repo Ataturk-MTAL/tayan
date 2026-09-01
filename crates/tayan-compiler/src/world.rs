@@ -327,6 +327,19 @@ fn font_registry() -> (&'static LazyHash<FontBook>, &'static [FontSlot]) {
     (book, slots.as_slice())
 }
 
+/// Font künye kaydını önceden kurar.
+///
+/// Neden gerekli: kayıt ilk derlemede tembel kurulur ve ölçülen makinede bu
+/// 510 aile için 2,7–4,4 saniye sürüyor (sıcak sayfa önbelleğinde 2,73 s;
+/// maliyet disk okuma değil, FontInfo ayrıştırma). Tembel bırakılırsa bu süre
+/// öğretmenin İLK tuş vuruşuna biner ve canlı önizleme donmuş gibi görünür.
+///
+/// Açılışta ayrı bir iş parçacığından çağrılır: uygulama penceresi açılırken
+/// tarama arka planda biter, editöre gelindiğinde kayıt hazırdır.
+pub fn warm_font_registry() {
+    let _ = font_registry();
+}
+
 /// Kullanılabilir font aileleri, alfabetik.
 ///
 /// Künye kaydından okunur; hiçbir font baytı yüklenmez. Öğretmene font seçtiren
