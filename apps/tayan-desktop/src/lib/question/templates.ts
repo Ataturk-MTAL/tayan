@@ -33,9 +33,9 @@ const BY_TYPE: Record<QuestionType, Block[]> = {
   multiple_choice: [
     {
       label: "Şıklar",
-      hint: "5 şık, doğru cevap dogru: parametresinde",
+      hint: "5 şık; doğru cevap dogru:, sınavda karıştırma karistir:",
       snippet:
-        '\n#secenekler(dogru: "A",\n  [],\n  [],\n  [],\n  [],\n  [],\n)\n',
+        '\n#secenekler(dogru: "A", karistir: false,\n  [],\n  [],\n  [],\n  [],\n  [],\n)\n',
     },
   ],
   true_false: [
@@ -130,6 +130,8 @@ export const OPTION_LETTERS = ["A", "B", "C", "D", "E", "F"];
 export type ParsedOptions = {
   options: string[];
   correctIndex: number;
+  /** Sınavda karıştırılsın mı. Karıştırma dizgi anında yapılır, kaynak değişmez. */
+  shuffle: boolean;
 };
 
 export function parseOptions(source: string): ParsedOptions | string {
@@ -157,7 +159,7 @@ export function parseOptions(source: string): ParsedOptions | string {
     return `Doğru işaretlenen ${letter} şıkkı boş.`;
   }
 
-  return { options, correctIndex };
+  return { options, correctIndex, shuffle: namedBool(args, "karistir") ?? false };
 }
 
 export function parseTrueFalse(source: string): boolean | string {

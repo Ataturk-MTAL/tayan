@@ -1,4 +1,4 @@
-use crate::domain::shared::to_typst::{ToTypst, TypstContext};
+use crate::domain::shared::to_typst::{seed_from, ToTypst, TypstContext};
 use crate::domain::exam_management::value_objects::content_node::{
     ContentNode, MathDisplay, QuestionBody,
 };
@@ -115,12 +115,48 @@ impl ToTypst for QuestionBody {
 
 // ── MultipleChoiceQuestion ────────────────────────────────────────────────────
 
+/// Deterministik karışık sıra.
+///
+/// Rastgelelik kullanılmaz: aynı tohum her zaman aynı permütasyonu verir.
+/// Sebebi, yeniden basılan kâğıdın öncekiyle birebir aynı çıkması gerekmesidir;
+/// aksi halde öğrenciye dağıtılan kâğıt ile elindeki cevap anahtarı ayrı düşer.
+fn permutation(count: usize, seed: u64) -> Vec<usize> {
+    let mut order: Vec<usize> = (0..count).collect();
+    let mut state = seed | 1; // xorshift sıfır tohumda kilitlenir
+
+    // Fisher-Yates, xorshift64 ile
+    let mut i = count;
+    while i > 1 {
+        i -= 1;
+        state ^= state << 13;
+        state ^= state >> 7;
+        state ^= state << 17;
+        let j = (state % (i as u64 + 1)) as usize;
+        order.swap(i, j);
+    }
+    order
+}
+
 impl ToTypst for MultipleChoiceQuestion {
     fn to_typst(&self, ctx: &TypstContext) -> String {
         let num = ctx.question_number.map(|n| format!("*{n}.* ")).unwrap_or_default();
         let body = self.body.to_typst(ctx);
         let pts  = self.points.value();
 
+        // Gövde kendi şık kalıbını taşıyorsa şıkları BİR KEZ o dizer.
+        //
+        // Bu ayrım olmadan şıklar iki kez basılıyordu: önce gövdedeki
+        // #secenekler çağrısı, sonra buradaki #grid. Kâğıtta aynı beş şık alt
+        // alta iki kez çıkıyordu.
+        if body.contains("#secenekler(") {
+            let body = inject_option_args(&body, self, ctx);
+            return format!(
+                "#block(width: 100%, breakable: false)[\n  {num}({pts} puan) {body}\n]\n"
+            );
+        }
+
+        // Eski gövdeler (zengin metin editöründen kalanlar) şıkları taşımaz;
+        // onlar için ızgara burada üretilir.
         let options: Vec<String> = self.options.iter().map(|opt| {
             let opt_body = opt.body.to_typst(ctx);
             if ctx.answer_key && opt.correct {
@@ -138,6 +174,39 @@ impl ToTypst for MultipleChoiceQuestion {
              #grid(columns: ({cols}),\n{grid_rows}\n  )\n]\n"
         )
     }
+}
+
+/// `#secenekler(` çağrısına dizgi anına ait argümanları enjekte eder.
+///
+/// Kaynak DEĞİŞTİRİLMEZ; yalnızca bu baskı için üretilen metne eklenir.
+/// Öğretmenin yazdığı dosya olduğu gibi kalır.
+fn inject_option_args(body: &str, q: &MultipleChoiceQuestion, ctx: &TypstContext) -> String {
+    const MARKER: &str = "#secenekler(";
+
+    let Some(at) = body.find(MARKER) else { return body.to_string() };
+    let insert_at = at + MARKER.len();
+    let args_tail = &body[insert_at..];
+
+    let mut injected = String::new();
+
+    // Öğretmen elle yazmışsa üstüne yazma: Typst'te aynı adlı argümanın iki kez
+    // verilmesi hatadır.
+    if q.shuffle && !args_tail.starts_with("sira:") && !args_tail.contains("sira:") {
+        let seed = ctx.shuffle_seed ^ seed_from(&q.id.0.to_string());
+        let order = permutation(q.options.len(), seed);
+        let list: Vec<String> = order.iter().map(|i| i.to_string()).collect();
+        injected.push_str(&format!("sira: ({},), ", list.join(", ")));
+    }
+
+    if ctx.answer_key && !args_tail.contains("anahtar:") {
+        injected.push_str("anahtar: true, ");
+    }
+
+    if injected.is_empty() {
+        return body.to_string();
+    }
+
+    format!("{}{}{}", &body[..insert_at], injected, args_tail)
 }
 
 // ── TrueFalseQuestion ─────────────────────────────────────────────────────────

@@ -24,6 +24,13 @@ impl TypstGenerator {
         out.push_str(PREAMBLE);
         out.push_str(&exam_header(exam));
 
+        // Karıştırma tohumu sınav kimliğinden gelir: aynı sınav her basıldığında
+        // aynı sırayı üretir, farklı sınavlar farklı sıra alır.
+        let mut ctx = ctx;
+        ctx.shuffle_seed = tayan_core::domain::shared::to_typst::seed_from(
+            &exam.id.0.to_string(),
+        );
+
         for (i, q) in questions.iter().enumerate() {
             let q_ctx = ctx.clone().with_number((i + 1) as u32);
             out.push_str(&q.to_typst(&q_ctx));
@@ -91,13 +98,33 @@ const PREAMBLE: &str = r##"#set page(paper: "a4", margin: (x: 2cm, y: 2.5cm))
 // Çoktan seçmeli şıklar.
 // `dogru` öğrenci nüshasında BASILMAZ; yalnızca uygulamanın cevap anahtarını
 // ve madde analizini kurabilmesi için kaynakta durur.
-#let secenekler(dogru: none, ..items) = {
+// karistir: uygulamaya "bu sorunun şıkları sınavda karıştırılsın" der.
+// Dizgide kullanılmaz; sıra uygulamadan sira: ile gelir, çünkü karıştırma
+// soruya değil BASKIYA aittir: aynı soru A ve B kitapçığında farklı sırada
+// çıkmalıdır ve kaynak tek bir sıraya hapsedilmemelidir.
+#let secenekler(dogru: none, karistir: false, sira: none, anahtar: false, ..items) = {
   let harfler = ("A", "B", "C", "D", "E", "F")
   let secilenler = items.pos()
+  let n = secilenler.len()
+
+  // sira verilmezse şıklar YAZILDIĞI sırada dizilir. Verilirse o permütasyona
+  // göre. Karıştırma kaynağı değiştirmez; yalnızca dizgi anında uygulanır,
+  // çünkü aynı soru A ve B kitapçığında farklı sırada çıkmalıdır.
+  let duzen = if sira == none { range(n) } else { sira }
+
+  // dogru harfi YAZILDIĞI sıradaki şıkkı gösterir. Karıştırıldıktan sonraki
+  // konumu burada hesaplanır; böylece cevap anahtarı sıradan bağımsız kalır ve
+  // kâğıtla anahtarın ayrı düşmesi imkânsız olur.
+  let dogru-index = if dogru == none { -1 } else {
+    let bulunan = harfler.position(h => h == upper(dogru))
+    if bulunan == none { -1 } else { bulunan }
+  }
+
   let satirlar = ()
-  for (i, icerik) in secilenler.enumerate() {
-    satirlar.push([#(harfler.at(i) + ")")])
-    satirlar.push(icerik)
+  for (yeni, eski) in duzen.enumerate() {
+    let isaret = if anahtar and eski == dogru-index { ") ✓" } else { ")" }
+    satirlar.push([#(harfler.at(yeni) + isaret)])
+    satirlar.push(secilenler.at(eski))
   }
   v(0.3cm)
   grid(columns: (auto, 1fr), row-gutter: 0.45em, column-gutter: 0.5em, ..satirlar)

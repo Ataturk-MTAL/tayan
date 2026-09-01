@@ -84,9 +84,10 @@
       const bodyNodes = typstBody(body);
 
       if (questionType === "multiple_choice") {
-        const { options, correctIndex } = parsed as {
+        const { options, correctIndex, shuffle } = parsed as {
           options: string[];
           correctIndex: number;
+          shuffle: boolean;
         };
         await api.questions.addMultipleChoice({
           points,
@@ -97,7 +98,7 @@
             body: typstBody(source),
             correct: i === correctIndex,
           })),
-          shuffle: false,
+          shuffle,
         });
       } else if (questionType === "true_false") {
         await api.questions.addTrueFalse({

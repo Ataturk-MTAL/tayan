@@ -1,5 +1,6 @@
 fn main() {
     let cases: Vec<(&str, &str)> = vec![
+        ("karıştırılmış + anahtar", "Kökleri bulunuz.\n\n#secenekler(dogru: \"C\", sira: (3, 0, 2, 4, 1), anahtar: true,\n  [$x = 1$],\n  [$x = 2$],\n  [$x = 2$ ve $x = 3$],\n  [$x = 6$],\n  [Hiçbiri],\n)\n"),
         ("çoktan seçmeli", "Kökleri bulunuz.\n\n$ x^2 - 5x + 6 = 0 $\n\n#secenekler(dogru: \"C\",\n  [$x = 1$],\n  [$x = 2$],\n  [$x = 2$ ve $x = 3$],\n  [$x = 6$],\n  [Hiçbiri],\n)\n"),
         ("doğru yanlış", "Her kare bir dikdörtgendir.\n\n#dogru-yanlis(dogru: true)\n"),
         ("klasik", "İkinci dereceden denklemin çözümünü açıklayınız.\n\n#cevap-alani(satir: 5)\n"),
