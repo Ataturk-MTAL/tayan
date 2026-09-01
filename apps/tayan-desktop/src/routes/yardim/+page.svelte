@@ -58,6 +58,22 @@
     },
   ];
 
+  /** Analiz ve türev gösterimi. Hepsi derlenip gözle doğrulandı. */
+  const TUREV: Row[] = [
+    { kod: "$(dif y)/(dif x)$", ne: "Birinci türev — dy/dx" },
+    { kod: "$(dif^2 y)/(dif x^2)$", ne: "İkinci türev" },
+    { kod: "$f'(x)$", ne: "Üs notasyonu — f prim" },
+    { kod: "$f''(x)$", ne: "İkinci türev, üs notasyonu" },
+    { kod: "$(diff f)/(diff x)$", ne: "Kısmi türev — ∂f/∂x" },
+    { kod: "$(diff^2 f)/(diff x diff y)$", ne: "Karma ikinci kısmi türev" },
+    { kod: "$integral f(x) dif x$", ne: "Belirsiz integral" },
+    { kod: "$integral_0^1 x^2 dif x$", ne: "Belirli integral" },
+    { kod: "$lim_(x -> 0) (sin x)/x$", ne: "Limit" },
+    { kod: "$nabla f$", ne: "Gradyan" },
+    { kod: "$nabla dot bold(F)$", ne: "Diverjans" },
+    { kod: "$dif f = (diff f)/(diff x) dif x$", ne: "Toplam diferansiyel" },
+  ];
+
   const KISAYOLLAR: Row[] = [
     { kod: "⌘ +", ne: "Önizlemeyi yakınlaştır" },
     { kod: "⌘ −", ne: "Önizlemeyi uzaklaştır" },
@@ -91,6 +107,7 @@
   const BOLUMLER = [
     { id: "kalip", ad: "Soru kalıpları" },
     { id: "temel", ad: "Typst temelleri" },
+    { id: "turev", ad: "Türev ve integral" },
     { id: "kisayol", ad: "Kısayollar" },
     { id: "kazanim", ad: "Kazanım kodu" },
     { id: "hata", ad: "Hata mesajları" },
@@ -162,6 +179,29 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
             {/each}
           </tbody>
         </table>
+
+        <h2 id="turev" class="mt-rule border-t border-rule-strong pt-half">Türev ve integral</h2>
+        <p class="mt-quarter leading-rule">
+          İki ayrı <span class="font-mono">d</span> vardır ve karıştırılmamalıdır:
+          <span class="font-mono">dif</span> düz diferansiyel <span class="font-mono">d</span>'yi,
+          <span class="font-mono">diff</span> kısmi türev <span class="font-mono">∂</span>'yi verir.
+          Düz harf <span class="font-mono">d</span> yazarsan değişken gibi eğik dizilir,
+          matematiksel olarak yanlış olur.
+        </p>
+        <table class="mt-half w-full border-collapse">
+          <tbody>
+            {#each TUREV as satir}
+              <tr class="border-b border-rule">
+                <td class="w-[52%] py-quarter pr-half font-mono text-[12px] leading-rule">{satir.kod}</td>
+                <td class="py-quarter text-[13px] leading-rule">{satir.ne}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+        <p class="pencil mt-quarter">
+          Blok olarak istersen dolarların yanına boşluk koy:
+          <span class="font-mono">$ (dif y)/(dif x) = 2x + 3 $</span>
+        </p>
 
         <h2 id="kisayol" class="mt-rule border-t border-rule-strong pt-half">Kısayollar</h2>
         <table class="mt-half w-full border-collapse">

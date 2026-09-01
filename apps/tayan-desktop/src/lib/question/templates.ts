@@ -28,6 +28,8 @@ const COMMON: Block[] = [
   { label: "Alt indis", hint: "x₁", snippet: "${|}_1$" },
   { label: "Kesir", hint: "a bölü b", snippet: "$({|})/()$" },
   { label: "Kök", hint: "karekök", snippet: "$sqrt({|})$" },
+  { label: "Türev", hint: "dy/dx", snippet: "$(dif {|})/(dif x)$" },
+  { label: "Kısmi türev", hint: "∂f/∂x", snippet: "$(diff {|})/(diff x)$" },
   { label: "Toplam", hint: "sigma, alt ve üst sınırlı", snippet: "$sum_(i=1)^n {|}$" },
   { label: "İntegral", hint: "belirli integral", snippet: "$integral_0^1 {|} dif x$" },
   { label: "Görsel", hint: "dosyadan resim", snippet: '#image("{|}", width: 60%)' },

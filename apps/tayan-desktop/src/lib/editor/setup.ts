@@ -177,6 +177,27 @@ const TYPST_BASICS: Snippet[] = [
  * parametre önerilir — yanlış parametre adı yazmak, bu ekranda en sık yapılan
  * hatalardan biri.
  */
+/**
+ * Matematik parçacıkları. "$" yazınca listelenir.
+ *
+ * Hepsi satır içi biçimde: dolarların yanında boşluk yok. Boşluk koymak Typst'te
+ * bloğa geçirir ve formül cümlenin ortasından kendi satırına düşer.
+ */
+const MATH_SNIPPETS: Snippet[] = [
+  { label: "$ satır içi", detail: "Cümlenin içinde", apply: "$$" },
+  { label: "$ blok", detail: "Kendi satırında, ortalı", apply: "$  $" },
+  { label: "$ türev", detail: "dy/dx", apply: "$(dif y)/(dif x)$" },
+  { label: "$ ikinci türev", detail: "d²y/dx²", apply: "$(dif^2 y)/(dif x^2)$" },
+  { label: "$ kısmi türev", detail: "∂f/∂x", apply: "$(diff f)/(diff x)$" },
+  { label: "$ integral", detail: "Belirsiz", apply: "$integral f(x) dif x$" },
+  { label: "$ belirli integral", detail: "Sınırlı", apply: "$integral_0^1 f(x) dif x$" },
+  { label: "$ limit", detail: "lim", apply: "$lim_(x -> 0) $" },
+  { label: "$ toplam", detail: "sigma", apply: "$sum_(i=1)^n $" },
+  { label: "$ kesir", detail: "a/b", apply: "$(a)/(b)$" },
+  { label: "$ kök", detail: "√", apply: "$sqrt(x)$" },
+  { label: "$ nabla", detail: "∇", apply: "$nabla f$" },
+];
+
 const PARAMS: Record<string, Snippet[]> = {
   secenekler: [
     { label: "dogru", detail: "Doğru şıkkın harfi", apply: 'dogru: "A", ' },
@@ -229,7 +250,7 @@ function tayanCompletions(context: CompletionContext) {
     options: [
       ...TAYAN_HELPERS.map((o) => ({ ...o, type: "function" })),
       ...TYPST_BASICS.map((o) => ({ ...o, type: "function" })),
-      { label: "$", type: "keyword", detail: "Matematik", apply: "$  $" },
+      ...MATH_SNIPPETS.map((o) => ({ ...o, type: "keyword" })),
     ],
   };
 }
