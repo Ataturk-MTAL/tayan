@@ -7,6 +7,7 @@ import { Decoration, type DecorationSet } from "@codemirror/view";
 
 import { typstSyntax } from "./typst-lang";
 import { typstSymbols, inMathMode, localDefinitions, type TypstSymbol } from "./symbols";
+import { tinymistComplete, toCodeMirror } from "./tinymist";
 import type { TypstDiagnostic } from "./diagnostics";
 
 /**
@@ -219,6 +220,32 @@ function enclosingCall(text: string): string | null {
 
 async function tayanCompletions(context: CompletionContext) {
   const upto = context.state.sliceDoc(0, context.pos);
+
+  // 0) Önce tinymist. Typst'in tamamını, içe aktarılan paketleri ve belgedeki
+  //    kendi tanımlarımızı bilir. Yoksa veya hata verirse null döner ve
+  //    aşağıdaki kendi dökümümüze düşeriz — tamamlama uğruna yazmayı
+  //    bloklamak yanlış olur.
+  const pos = context.state.doc.lineAt(context.pos);
+  const lsp = await tinymistComplete(
+    context.state.doc.toString(),
+    pos.number - 1,
+    context.pos - pos.from,
+  );
+
+  if (lsp !== null && lsp.length > 0) {
+    const word = context.matchBefore(/[#$]?[\w.-]*/);
+    if (!word || (word.from === word.to && !context.explicit)) return null;
+    return {
+      from: word.from,
+      options: [
+        // Kalıplarımız üstte kalır: tam çağrı ve öğretici ipucu taşıyorlar,
+        // tinymist bunları sade birer işlev olarak önerir.
+        ...TEMPLATES.map((t) => ({ ...t, type: "keyword", boost: 99 })),
+        ...lsp.map(toCodeMirror),
+      ],
+    };
+  }
+
   const symbols = [...(await typstSymbols()), ...localDefinitions(context.state.doc.toString())];
 
   // 1) Bir çağrının içindeysek PARAMETRE öner — yanlış parametre adı bu

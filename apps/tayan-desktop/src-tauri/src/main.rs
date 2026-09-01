@@ -1,6 +1,7 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 mod commands;
+mod lsp;
 mod migration;
 mod state;
 
@@ -63,6 +64,7 @@ fn main() {
                 }
             });
 
+            app.manage(lsp::Tinymist::new());
             app.manage(Mutex::new(app_state));
             Ok(())
         })
@@ -101,11 +103,23 @@ fn main() {
             commands::analysis::compile_typst_preview_svg,
             commands::analysis::compile_question_preview_svg,
             commands::analysis::typst_symbols,
+            commands::analysis::lsp_complete,
             // Images
             commands::image::save_image,
         ])
-        .run(tauri::generate_context!())
-        .expect("error while running tauri application");
+        .build(tauri::generate_context!())
+        .expect("error while building tauri application")
+        .run(|app, event| {
+            // Uygulama kapanırken tinymist'i de kapat.
+            //
+            // Ebeveyn çıkınca stdin kapanır ve tinymist normalde kendisi de
+            // çıkar, ama bu garanti değil: garanti olmayan bir davranışa
+            // güvenip 50 MB'lık bir süreci ortada bırakmak doğru olmaz.
+            if let tauri::RunEvent::Exit = event {
+                use tauri::Manager;
+                app.state::<lsp::Tinymist>().shutdown();
+            }
+        });
 }
 
 fn resolve_db_path() -> String {

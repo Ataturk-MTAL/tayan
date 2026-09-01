@@ -68,10 +68,16 @@ CodeMirror 6 · SQLite
 Gerekenler: Rust (stable), Node 20+, pnpm.
 
 ```bash
+scripts/fetch-tinymist.sh     # dil sunucusu ikilisi (60 MB, sha256 doğrulanır)
 cd apps/tayan-desktop
 pnpm install
 pnpm tauri dev
 ```
+
+`fetch-tinymist.sh` çalıştırılmazsa uygulama yine açılır; editör kendi sembol
+dökümüne düşer (560 sembol) ve tinymist'in verdiği hover belgeleri ile paket
+sembolleri olmaz. İkili depoya girmez: platform başına 60 MB, dört platform
+240 MB eder ve git geçmişini kalıcı şişirir.
 
 İlk derleme Typst'i de derlediği için uzun sürer ve belleği zorlar; sonraki
 açılışlar artımlıdır.

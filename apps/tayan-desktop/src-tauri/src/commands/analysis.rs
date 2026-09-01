@@ -290,3 +290,31 @@ mod diagnostic_shift_tests {
 pub fn typst_symbols() -> Vec<tayan_compiler::symbols::TypstSymbol> {
     tayan_compiler::symbols::all_symbols()
 }
+
+/// tinymist'ten tamamlama ister.
+///
+/// Gövde, önsözle SARMALANARAK gönderilir: tinymist #secenekler gibi şablon
+/// yardımcılarını ancak #let tanımlarını görürse önerebilir. Bu yüzden satır
+/// numarası da önsöz kadar kaydırılır — editördeki 5. satır, tinymist'e
+/// gönderilen belgede 98. satırdır.
+///
+/// Hata durumunda Err döner ve ön yüz kendi sembol dökümüne düşer. tinymist
+/// yoksa, çökmüşse veya yavaşsa editör yazmaya devam eder; tamamlama uğruna
+/// yazmayı bloklamak yanlış olur.
+#[tauri::command]
+pub fn lsp_complete(
+    tinymist: tauri::State<'_, crate::lsp::Tinymist>,
+    app: tauri::AppHandle,
+    body: String,
+    line: u32,
+    character: u32,
+) -> Result<Vec<crate::lsp::LspCompletion>, String> {
+    let bin = crate::lsp::binary_path(&app)?;
+    let root = tayan_compiler::world::app_data_root().join("lsp");
+    std::fs::create_dir_all(&root).map_err(|e| e.to_string())?;
+
+    let source = tayan_compiler::typst_gen::TypstGenerator::preview_document(&body);
+    let offset = tayan_compiler::typst_gen::TypstGenerator::preview_line_offset() as u32;
+
+    tinymist.complete(&bin, &root, &source, line + offset, character)
+}

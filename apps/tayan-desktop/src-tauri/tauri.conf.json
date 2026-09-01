@@ -17,6 +17,9 @@
       "icons/128x128@2x.png",
       "icons/icon.icns",
       "icons/icon.ico"
+    ],
+    "externalBin": [
+      "binaries/tinymist"
     ]
   },
   "app": {
@@ -34,10 +37,14 @@
       }
     ],
     "security": {
-      "capabilities": ["default"],
+      "capabilities": [
+        "default"
+      ],
       "assetProtocol": {
         "enable": true,
-        "scope": ["$APPLOCALDATA/images/**"]
+        "scope": [
+          "$APPLOCALDATA/images/**"
+        ]
       }
     }
   }
