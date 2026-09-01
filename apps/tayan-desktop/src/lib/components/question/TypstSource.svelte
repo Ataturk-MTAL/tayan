@@ -33,13 +33,26 @@
     view?.dispatch({ effects: setDiagnostics.of(diagnostics) });
   });
 
-  /** Blok şeridinin metni imlece yerleştirmesi için. */
+  /**
+   * Blok şeridinin metni imlece yerleştirmesi için.
+   *
+   * Parçacık {|} işareti taşıyorsa imleç oraya konur. İşaret olmadan imleç
+   * her zaman parçacığın SONUNA düşüyordu: `$x$` eklendiğinde kapanış
+   * dolarının sağına, yani yazılacak yerin dışına.
+   */
+  const CARET = "{|}";
+
   export function insert(snippet: string) {
     if (!view) return;
+
+    const caretAt = snippet.indexOf(CARET);
+    const text = caretAt === -1 ? snippet : snippet.replace(CARET, "");
+    const offset = caretAt === -1 ? text.length : caretAt;
+
     const { from, to } = view.state.selection.main;
     view.dispatch({
-      changes: { from, to, insert: snippet },
-      selection: { anchor: from + snippet.length },
+      changes: { from, to, insert: text },
+      selection: { anchor: from + offset },
     });
     view.focus();
   }

@@ -11,9 +11,10 @@
   type Row = { kod: string; ne: string };
 
   const TEMEL: Row[] = [
-    { kod: "$x^2$", ne: "Satır içi matematik" },
-    { kod: "$ x^2 + y^2 = r^2 $", ne: "Kendi satırında, ortalanmış matematik" },
+    { kod: "$x^2$", ne: "Satır içi matematik — cümlenin içinde kalır" },
+    { kod: "$ x^2 $", ne: "Blok matematik — kendi satırına düşer, ortalanır" },
     { kod: "$a/b$", ne: "Kesir" },
+    { kod: "$(a+b)/c$", ne: "Paylı kesir — birden çok terimi parantezle" },
     { kod: "$sqrt(x)$", ne: "Karekök" },
     { kod: "$x_1$", ne: "Alt indis" },
     { kod: "$alpha$ $beta$ $pi$", ne: "Yunan harfleri: adını yaz" },
@@ -139,6 +140,18 @@
         {/each}
 
         <h2 id="temel" class="mt-rule border-t border-rule-strong pt-half">Typst temelleri</h2>
+
+        <p class="mt-quarter leading-rule">
+          <strong>Matematikte tek kural boşluktur.</strong> Dolar işaretinin hemen
+          yanına yazarsan matematik cümlenin içinde kalır; boşluk bırakırsan kendi
+          satırına düşer ve ortalanır.
+        </p>
+        <pre class="ruled mt-quarter overflow-x-auto p-half font-mono text-[12px] leading-[20px]">Kök $x = 2$ olarak bulunur.     → cümlenin içinde
+Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
+        <p class="pencil mt-quarter">
+          Yukarıdaki Matematik düğmesi satır içi, Blok matematik düğmesi bloklu
+          olanı ekler; imleci de yazılacak yere koyar.
+        </p>
         <table class="mt-half w-full border-collapse">
           <tbody>
             {#each TEMEL as satir}

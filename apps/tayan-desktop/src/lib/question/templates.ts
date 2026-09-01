@@ -18,13 +18,21 @@ export type Block = { label: string; hint: string; snippet: string };
 
 /** Her soru tipinde işe yarayan genel parçalar. */
 const COMMON: Block[] = [
-  { label: "Matematik", hint: "$x^2 + y^2$ satır içi", snippet: "$  $" },
-  { label: "Blok matematik", hint: "ortalanmış, kendi satırında", snippet: "\n$ \n$\n" },
-  { label: "Kesir", hint: "a bölü b", snippet: "$ a/b $" },
-  { label: "Kök", hint: "karekök", snippet: "$ sqrt(x) $" },
-  { label: "Görsel", hint: "dosyadan resim", snippet: '#image("", width: 60%)' },
-  { label: "Tablo", hint: "2 sütunlu", snippet: "#table(columns: 2, [], [])" },
-  { label: "Kalın", hint: "*kalın*", snippet: "**" },
+  // Typst'te satır içi ile blok matematiği BOŞLUK ayırır:
+  //   $x^2$    satır içi, cümlenin içinde kalır
+  //   $ x^2 $  blok, kendi satırına düşer ve ortalanır
+  // Bu parçacıkların hepsi önce boşlukluydu, yani hepsi blok üretiyordu.
+  { label: "Matematik", hint: "$x^2$ — cümlenin içinde", snippet: "${|}$" },
+  { label: "Blok matematik", hint: "$ x^2 $ — kendi satırında, ortalı", snippet: "\n$ {|} $\n" },
+  { label: "Üs", hint: "x²", snippet: "${|}^2$" },
+  { label: "Alt indis", hint: "x₁", snippet: "${|}_1$" },
+  { label: "Kesir", hint: "a bölü b", snippet: "$({|})/()$" },
+  { label: "Kök", hint: "karekök", snippet: "$sqrt({|})$" },
+  { label: "Toplam", hint: "sigma, alt ve üst sınırlı", snippet: "$sum_(i=1)^n {|}$" },
+  { label: "İntegral", hint: "belirli integral", snippet: "$integral_0^1 {|} dif x$" },
+  { label: "Görsel", hint: "dosyadan resim", snippet: '#image("{|}", width: 60%)' },
+  { label: "Tablo", hint: "2 sütunlu", snippet: "#table(columns: 2, [{|}], [])" },
+  { label: "Kalın", hint: "*kalın*", snippet: "*{|}*" },
   { label: "Boşluk bırak", hint: "dikey aralık", snippet: "#v(0.5cm)" },
 ];
 
@@ -35,7 +43,7 @@ const BY_TYPE: Record<QuestionType, Block[]> = {
       label: "Şıklar",
       hint: "5 şık; doğru cevap dogru:, sınavda karıştırma karistir:",
       snippet:
-        '\n#secenekler(dogru: "A", karistir: false,\n  [],\n  [],\n  [],\n  [],\n  [],\n)\n',
+        '\n#secenekler(dogru: "A", karistir: false,\n  [{|}],\n  [],\n  [],\n  [],\n  [],\n)\n',
     },
   ],
   true_false: [
@@ -49,7 +57,7 @@ const BY_TYPE: Record<QuestionType, Block[]> = {
     {
       label: "Boşluk",
       hint: "cevap: içine kabul edilenleri | ile ayır",
-      snippet: '#bosluk(cevap: "", width: 4cm)',
+      snippet: '#bosluk(cevap: "{|}", width: 4cm)',
     },
   ],
   classic: [
