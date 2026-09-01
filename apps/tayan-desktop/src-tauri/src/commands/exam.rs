@@ -95,3 +95,28 @@ fn parse_exam_id(s: &str) -> Result<ExamId, String> {
         .map(ExamId)
         .map_err(|e| format!("Geçersiz sınav kimliği: {e}"))
 }
+
+/// Bir sorunun BU SINAVDAKİ puanını belirler.
+///
+/// Puan soruya değil, sorunun sınavdaki kullanımına aittir: aynı soru bir
+/// yazılıda 5, başkasında 10 puan edebilir. points None ise sorunun kendi
+/// puanına dönülür.
+#[tauri::command]
+pub async fn set_exam_question_points(
+    state:       State<'_, Mutex<AppState>>,
+    exam_id:     String,
+    question_id: String,
+    points:      Option<u32>,
+) -> Result<(), String> {
+    let st  = state.lock().await;
+    let eid = uuid::Uuid::parse_str(&exam_id).map(ExamId).map_err(|e| e.to_string())?;
+    let qid = uuid::Uuid::parse_str(&question_id)
+        .map(tayan_core::domain::exam_management::entities::question::QuestionId)
+        .map_err(|e| e.to_string())?;
+
+    let mut exam = st.exams.find_by_id(&eid).await.map_err(|e| e.to_string())?;
+
+    exam.set_question_points(&qid, points).map_err(|e| e.to_string())?;
+    st.exams.save(&exam).await.map_err(|e| e.to_string())?;
+    Ok(())
+}

@@ -151,6 +151,32 @@ impl Exam {
         Ok(())
     }
 
+    /// Bir sorunun BU SINAVDAKİ puanını belirler.
+    ///
+    /// Puan soruya değil, sorunun sınavdaki kullanımına aittir: aynı soru bir
+    /// yazılıda 5, başka bir yazılıda 10 puan edebilir. Sorunun kendi points
+    /// alanı yalnızca override verilmediğinde kullanılan yedektir.
+    ///
+    /// None geçilirse override kaldırılır ve sorunun kendi puanına dönülür.
+    pub fn set_question_points(
+        &mut self,
+        question_id: &QuestionId,
+        points: Option<u32>,
+    ) -> Result<(), DomainError> {
+        let r = self
+            .questions
+            .iter_mut()
+            .find(|r| &r.question_id == question_id)
+            .ok_or_else(|| DomainError::NotFound {
+                entity: "ExamQuestionRef",
+                id: question_id.to_string(),
+            })?;
+
+        r.points_override = points;
+        self.touch();
+        Ok(())
+    }
+
     pub fn total_points(&self, lookup: impl Fn(&QuestionId) -> Option<u32>) -> u32 {
         self.questions
             .iter()

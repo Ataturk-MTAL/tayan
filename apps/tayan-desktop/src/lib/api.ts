@@ -90,6 +90,13 @@ export const api = {
     removeQuestion: (examId: string, questionId: string) =>
       invoke<void>("remove_question_from_exam", { examId, questionId }),
 
+    /**
+     * Sorunun BU SINAVDAKİ puanı. null geçilirse sorunun kendi puanına dönülür.
+     * Puan soruya değil, sorunun sınavdaki kullanımına aittir.
+     */
+    setQuestionPoints: (examId: string, questionId: string, points: number | null) =>
+      invoke<void>("set_exam_question_points", { examId, questionId, points }),
+
     publish: (examId: string) => invoke<void>("publish_exam", { examId }),
 
     delete: (examId: string) => invoke<void>("delete_exam", { examId }),

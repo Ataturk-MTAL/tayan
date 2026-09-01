@@ -198,6 +198,27 @@ const MATH_SNIPPETS: Snippet[] = [
   { label: "$ nabla", detail: "∇", apply: "$nabla f$" },
 ];
 
+/**
+ * Yunan harfleri. Typst'te adıyla yazılır; büyük harf için baş harf büyük.
+ * "$" yazınca matematik parçacıklarıyla birlikte listelenir.
+ */
+const GREEK: Snippet[] = [
+  ["alpha", "α"], ["beta", "β"], ["gamma", "γ"], ["delta", "δ"],
+  ["epsilon", "ε"], ["zeta", "ζ"], ["eta", "η"], ["theta", "θ"],
+  ["iota", "ι"], ["kappa", "κ"], ["lambda", "λ"], ["mu", "μ"],
+  ["nu", "ν"], ["xi", "ξ"], ["pi", "π"], ["rho", "ρ"],
+  ["sigma", "σ"], ["tau", "τ"], ["upsilon", "υ"], ["phi", "φ"],
+  ["chi", "χ"], ["psi", "ψ"], ["omega", "ω"],
+  ["Gamma", "Γ"], ["Delta", "Δ"], ["Theta", "Θ"], ["Lambda", "Λ"],
+  ["Xi", "Ξ"], ["Pi", "Π"], ["Sigma", "Σ"], ["Phi", "Φ"],
+  ["Psi", "Ψ"], ["Omega", "Ω"],
+].map(([ad, glif]) => ({
+  label: `$${ad}`,
+  detail: glif,
+  info: `$${ad}$ olarak yazılır`,
+  apply: `$${ad}$`,
+}));
+
 const PARAMS: Record<string, Snippet[]> = {
   secenekler: [
     { label: "dogru", detail: "Doğru şıkkın harfi", apply: 'dogru: "A", ' },
@@ -251,6 +272,7 @@ function tayanCompletions(context: CompletionContext) {
       ...TAYAN_HELPERS.map((o) => ({ ...o, type: "function" })),
       ...TYPST_BASICS.map((o) => ({ ...o, type: "function" })),
       ...MATH_SNIPPETS.map((o) => ({ ...o, type: "keyword" })),
+      ...GREEK.map((o) => ({ ...o, type: "constant" })),
     ],
   };
 }

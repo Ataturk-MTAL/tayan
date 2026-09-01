@@ -37,6 +37,7 @@ fn main() {
             commands::exam::list_exams,
             commands::exam::add_question_to_exam,
             commands::exam::remove_question_from_exam,
+            commands::exam::set_exam_question_points,
             commands::exam::publish_exam,
             commands::exam::delete_exam,
             // Question bank

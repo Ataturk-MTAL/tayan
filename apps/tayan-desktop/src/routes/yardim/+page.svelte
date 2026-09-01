@@ -58,6 +58,33 @@
     },
   ];
 
+  /** Yunan harfleri. Typst'te adıyla yazılır, büyük harf için baş harf büyük. */
+  const YUNAN: Array<[string, string, string, string]> = [
+    ["alpha", "α", "Alpha", "Α"],
+    ["beta", "β", "Beta", "Β"],
+    ["gamma", "γ", "Gamma", "Γ"],
+    ["delta", "δ", "Delta", "Δ"],
+    ["epsilon", "ε", "Epsilon", "Ε"],
+    ["zeta", "ζ", "Zeta", "Ζ"],
+    ["eta", "η", "Eta", "Η"],
+    ["theta", "θ", "Theta", "Θ"],
+    ["iota", "ι", "Iota", "Ι"],
+    ["kappa", "κ", "Kappa", "Κ"],
+    ["lambda", "λ", "Lambda", "Λ"],
+    ["mu", "μ", "Mu", "Μ"],
+    ["nu", "ν", "Nu", "Ν"],
+    ["xi", "ξ", "Xi", "Ξ"],
+    ["pi", "π", "Pi", "Π"],
+    ["rho", "ρ", "Rho", "Ρ"],
+    ["sigma", "σ", "Sigma", "Σ"],
+    ["tau", "τ", "Tau", "Τ"],
+    ["upsilon", "υ", "Upsilon", "Υ"],
+    ["phi", "φ", "Phi", "Φ"],
+    ["chi", "χ", "Chi", "Χ"],
+    ["psi", "ψ", "Psi", "Ψ"],
+    ["omega", "ω", "Omega", "Ω"],
+  ];
+
   /** Analiz ve türev gösterimi. Hepsi derlenip gözle doğrulandı. */
   const TUREV: Row[] = [
     { kod: "$(dif y)/(dif x)$", ne: "Birinci türev — dy/dx" },
@@ -107,6 +134,7 @@
   const BOLUMLER = [
     { id: "kalip", ad: "Soru kalıpları" },
     { id: "temel", ad: "Typst temelleri" },
+    { id: "yunan", ad: "Yunan harfleri" },
     { id: "turev", ad: "Türev ve integral" },
     { id: "kisayol", ad: "Kısayollar" },
     { id: "kazanim", ad: "Kazanım kodu" },
@@ -179,6 +207,31 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
             {/each}
           </tbody>
         </table>
+
+        <h2 id="yunan" class="mt-rule border-t border-rule-strong pt-half">Yunan harfleri</h2>
+        <p class="mt-quarter leading-rule">
+          Adıyla yazılır. Büyük harf için baş harfi büyüt:
+          <span class="font-mono">$alpha$</span> → α,
+          <span class="font-mono">$Delta$</span> → Δ.
+          Editörde <span class="font-mono">$</span> yazınca hepsi listelenir.
+        </p>
+        <table class="mt-half w-full border-collapse text-[13px]">
+          <tbody>
+            {#each YUNAN as [kucukAd, kucuk, buyukAd, buyuk]}
+              <tr class="border-b border-rule">
+                <td class="py-quarter font-mono text-[12px] leading-rule">${kucukAd}$</td>
+                <td class="py-quarter pr-half text-[15px]">{kucuk}</td>
+                <td class="py-quarter font-mono text-[12px] leading-rule">${buyukAd}$</td>
+                <td class="py-quarter text-[15px]">{buyuk}</td>
+              </tr>
+            {/each}
+          </tbody>
+        </table>
+        <p class="pencil mt-quarter">
+          Artı-eksi için <span class="font-mono">$plus.minus$</span> yaz.
+          <span class="font-mono">+-</span> işe yaramaz; Typst onu ayrı iki işaret
+          olarak dizer.
+        </p>
 
         <h2 id="turev" class="mt-rule border-t border-rule-strong pt-half">Türev ve integral</h2>
         <p class="mt-quarter leading-rule">

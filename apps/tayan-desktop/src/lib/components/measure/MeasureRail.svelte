@@ -93,6 +93,7 @@
 
   <h3 class="stamp mt-rule border-t border-rule pt-half">Puan</h3>
   <p class="mt-quarter text-[19px] font-bold leading-rule tnum">{points}</p>
+  <p class="pencil">sınavda değiştirilebilir</p>
 
   <h3 class="stamp mt-rule border-t border-rule pt-half">Kazanım</h3>
   {#if outcomes.length === 0}

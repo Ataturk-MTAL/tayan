@@ -1,21 +1,15 @@
 fn main() {
-    let body = r#"#set text(size: 15pt)
+    let body = r#"#set text(size: 14pt)
 
-Türev: $(dif y)/(dif x)$ · İkinci: $(dif^2 y)/(dif x^2)$ · Üs notasyonu: $f'(x)$, $f''(x)$
+Küçük: $alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu$
 
-Kısmi: $(diff f)/(diff x)$ · İkinci kısmi: $(diff^2 f)/(diff x diff y)$
+$nu xi omicron pi rho sigma tau upsilon phi chi psi omega$
 
-Blok:
+Büyük: $Gamma Delta Theta Lambda Xi Pi Sigma Upsilon Phi Psi Omega$
 
-$ (dif y)/(dif x) = 2x + 3 $
+Değişkeler: $epsilon.alt phi.alt theta.alt$
 
-$ (diff^2 u)/(diff t^2) = c^2 (diff^2 u)/(diff x^2) $
-
-İntegral: $integral f(x) dif x$ · Belirli: $integral_0^1 x^2 dif x$
-
-Limit: $lim_(x -> 0) (sin x)/x = 1$
-
-Nabla: $nabla f$ · Diverjans: $nabla dot bold(F)$ · Toplam diferansiyel: $dif f = (diff f)/(diff x) dif x + (diff f)/(diff y) dif y$
+Kullanımda: $Delta x$, $sum_(i=1)^n$, $theta = pi/4$, $sigma^2$, $mu +- 2 sigma$
 "#;
     let src = tayan_compiler::typst_gen::TypstGenerator::preview_document(body);
     match tayan_compiler::TayanWorld::compile_svg(src) {

@@ -43,7 +43,16 @@
 
   let questionType = $state<QuestionType>(initialType);
   let body = $state(initialBody);
-  let points = $state(existing ? questionPoints(existing) : 5);
+  /**
+   * Sorunun kendi puanı artık editörde düzenlenmiyor: puan soruya değil,
+   * sorunun SINAVDAKİ kullanımına aittir. Aynı soru bir yazılıda 5, başkasında
+   * 10 puan edebilir; sınav ekranında belirlenir.
+   *
+   * Bu alan yalnızca sınavda puan verilmediğinde kullanılan yedektir. Var olan
+   * soruda korunur, yenide varsayılana düşer.
+   */
+  const DEFAULT_POINTS = 5;
+  let points = $state(existing ? questionPoints(existing) : DEFAULT_POINTS);
   let outcomeText = $state(existing ? existing.outcomes.join(" ") : "");
 
   let saving = $state(false);
@@ -232,14 +241,6 @@
       </RuledField>
     </div>
 
-    <div class="w-[110px]">
-      <RuledField
-        label="Puan"
-        hint={questionType === "fill_in_blank" ? `boşluk başına — toplam ${effectivePoints}` : null}
-      >
-        <input type="number" min="1" bind:value={points} />
-      </RuledField>
-    </div>
 
     <div class="min-w-[200px] flex-1">
       <RuledField label="Kazanım" hint="Boşluk veya virgülle ayır — MAT.9.1.2">

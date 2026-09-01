@@ -92,7 +92,13 @@
     bank.filter((q) => !exam?.questions.some((ref) => ref.question_id === q.id)),
   );
 
-  let totalPoints = $derived(selected.reduce((sum, q) => sum + questionPoints(q), 0));
+  /** Sınavdaki puan: override varsa o, yoksa sorunun kendi puanı. */
+  function pointsInExam(q: Question): number {
+    const ref = exam?.questions.find((r) => r.question_id === q.id);
+    return ref?.points_override ?? questionPoints(q);
+  }
+
+  let totalPoints = $derived(selected.reduce((sum, q) => sum + pointsInExam(q), 0));
 
   /**
    * Kitapçıklar yalnızca karıştırılan sorular varsa farklılaşır. Hiçbiri
@@ -221,10 +227,31 @@
                 <span class="stamp tnum w-[18px] shrink-0 pt-[2px]">{i + 1}</span>
                 <div class="min-w-0 flex-1">
                   <p class="truncate font-mono text-[12px] text-ink-mid">{preview(q)}</p>
-                  <p class="pencil">
-                    {QUESTION_TYPE_LABELS[q.question_type]} · {questionPoints(q)} puan
-                  </p>
+                  <p class="pencil">{QUESTION_TYPE_LABELS[q.question_type]}</p>
                 </div>
+
+                <!--
+                  Puan burada belirlenir, soruda değil: aynı soru bir yazılıda 5,
+                  başkasında 10 puan edebilir.
+                -->
+                <label class="flex shrink-0 items-baseline gap-quarter">
+                  <input
+                    type="number"
+                    min="1"
+                    class="w-[48px] border-0 border-b border-rule-strong bg-transparent pb-[2px]
+                           text-right leading-rule tnum focus:border-red focus:outline-none"
+                    value={pointsInExam(q)}
+                    disabled={busy}
+                    onchange={(e) => {
+                      const v = Number((e.currentTarget as HTMLInputElement).value);
+                      run(() =>
+                        api.exams.setQuestionPoints(exam!.id, q.id, Number.isFinite(v) && v > 0 ? v : null),
+                      );
+                    }}
+                  />
+                  <span class="pencil">puan</span>
+                </label>
+
                 <PenButton
                   kind="quiet"
                   disabled={busy}
