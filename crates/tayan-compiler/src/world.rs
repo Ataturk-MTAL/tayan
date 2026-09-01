@@ -489,10 +489,10 @@ fn load_font_index(fingerprint: u64) -> Option<Vec<CachedFace>> {
 fn store_font_index(fingerprint: u64, faces: &[CachedFace]) {
     let Some(path) = font_index_path() else { return };
 
-    if let Some(parent) = path.parent() {
-        if std::fs::create_dir_all(parent).is_err() {
-            return;
-        }
+    if let Some(parent) = path.parent()
+        && std::fs::create_dir_all(parent).is_err()
+    {
+        return;
     }
 
     let index = FontIndex {

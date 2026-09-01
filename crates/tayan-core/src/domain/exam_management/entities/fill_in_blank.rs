@@ -66,14 +66,13 @@ impl FillInBlankQuestion {
         let blank_ids: std::collections::HashSet<&str> =
             self.blanks.iter().map(|b| b.id.as_str()).collect();
         for node in &self.body.0 {
-            if let crate::domain::exam_management::value_objects::ContentNode::Blank(b) = node {
-                if !blank_ids.contains(b.id.as_str()) {
+            if let crate::domain::exam_management::value_objects::ContentNode::Blank(b) = node
+                && !blank_ids.contains(b.id.as_str()) {
                     return Err(DomainError::Validation(format!(
                         "Gövde tanımsız boşluk kimliğine referans veriyor: '{}'",
                         b.id
                     )));
                 }
-            }
         }
         Ok(())
     }

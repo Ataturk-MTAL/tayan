@@ -176,12 +176,11 @@ impl Tinymist {
 
     /// Sunucuyu durdurur. Uygulama kapanırken çağrılır.
     pub fn shutdown(&self) {
-        if let Ok(mut guard) = self.inner.lock() {
-            if let Some(mut s) = guard.take() {
+        if let Ok(mut guard) = self.inner.lock()
+            && let Some(mut s) = guard.take() {
                 let _ = s.notify("exit", json!({}));
                 let _ = s.child.kill();
             }
-        }
     }
 }
 

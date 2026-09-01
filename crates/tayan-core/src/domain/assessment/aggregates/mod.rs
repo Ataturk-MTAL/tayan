@@ -11,6 +11,12 @@ use crate::domain::student_management::StudentId;
 
 #[derive(Debug, Clone, PartialEq, Eq, Hash, Serialize, Deserialize)]
 pub struct ExamResultId(pub Uuid);
+impl Default for ExamResultId {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl ExamResultId {
     pub fn new() -> Self { Self(Uuid::new_v4()) }
 }
