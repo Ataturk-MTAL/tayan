@@ -84,13 +84,27 @@ impl Exam {
     pub fn id(&self) -> &ExamId { &self.id }
 
     pub fn add_question_ref(&mut self, question_id: QuestionId) {
-        let order = self.questions.len() as u32 + 1;
         self.questions.push(ExamQuestionRef {
             question_id,
-            display_order: order,
+            display_order: 0, // hemen aşağıda yeniden numaralanıyor
             points_override: None,
         });
+
+        // Ekledikten sonra baştan numarala.
+        //
+        // len() + 1 tek başına yeterli değil: geçmişte üretilmiş veya başka bir
+        // yoldan gelmiş bir listede numaralar zaten çakışık olabilir ve ekleme
+        // çakışmayı devralır. Ölçülen bir sınavda iki soru da display_order = 1
+        // taşıyordu; iki soru aynı sırada olduğunda baskı sırası belirsizleşir.
+        self.renumber();
         self.touch();
+    }
+
+    /// Soru sıralarını 1..n olacak şekilde baştan yazar.
+    fn renumber(&mut self) {
+        for (i, r) in self.questions.iter_mut().enumerate() {
+            r.display_order = i as u32 + 1;
+        }
     }
 
     pub fn remove_question_ref(&mut self, question_id: &QuestionId) -> Result<(), DomainError> {
