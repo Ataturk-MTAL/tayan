@@ -201,5 +201,82 @@ pub async fn compile_question_preview_svg(body: String) -> Result<Vec<String>, S
     })
     .await
     .map_err(|e| e.to_string())?
-    .map_err(|e| e.to_string())
+    .map_err(|e| {
+        let offset = tayan_compiler::typst_gen::TypstGenerator::preview_line_offset();
+        shift_diagnostic_lines(&e.to_string(), offset)
+    })
+}
+
+/// Tanılamalardaki satır numaralarını öğretmenin gördüğü metne çevirir.
+///
+/// Typst birleşik belgeye (önsöz + gövde) göre satır verir; editörde ise
+/// yalnızca gövde vardır. Kaydırılmazsa 5. satırdaki hata "satır 98" diye
+/// raporlanır: kenardaki kırmızı kalem işareti hiç çıkmaz, çünkü 98. satır
+/// yoktur, ve mesaj öğretmene hiçbir şey söylemez.
+///
+/// Önsözün kendi içindeki bir hata (satır <= offset) kaydırılmaz; o bizim
+/// kusurumuzdur ve olduğu gibi görünmelidir.
+fn shift_diagnostic_lines(message: &str, offset: usize) -> String {
+    const PREFIX: &str = "(satır ";
+
+    let mut out = String::with_capacity(message.len());
+    let mut rest = message;
+
+    while let Some(at) = rest.find(PREFIX) {
+        out.push_str(&rest[..at]);
+        rest = &rest[at..];
+
+        let after = &rest[PREFIX.len()..];
+        let digits: String = after.chars().take_while(|c| c.is_ascii_digit()).collect();
+
+        match digits.parse::<usize>() {
+            Ok(line) if line > offset => {
+                out.push_str(PREFIX);
+                out.push_str(&(line - offset).to_string());
+                rest = &after[digits.len()..];
+            }
+            _ => {
+                out.push_str(PREFIX);
+                rest = after;
+            }
+        }
+    }
+
+    out.push_str(rest);
+    out
+}
+
+
+#[cfg(test)]
+mod diagnostic_shift_tests {
+    use super::shift_diagnostic_lines;
+
+    #[test]
+    fn gövde_hatası_editör_satırına_çevrilir() {
+        let msg = "Typst derleme hatası:\nexpected comma (satır 98, sütun 39)";
+        let out = shift_diagnostic_lines(msg, 93);
+        assert!(out.contains("(satır 5, sütun 39)"), "{out}");
+    }
+
+    #[test]
+    fn önsöz_hatası_kaydırılmaz() {
+        // Önsözün kendi içindeki hata bizim kusurumuz; olduğu gibi görünmeli.
+        let msg = "unknown variable (satır 40, sütun 3)";
+        let out = shift_diagnostic_lines(msg, 93);
+        assert!(out.contains("(satır 40, sütun 3)"), "{out}");
+    }
+
+    #[test]
+    fn birden_çok_tanılama_hepsi_kaydırılır() {
+        let msg = "a (satır 100, sütun 1)\nb (satır 110, sütun 2)";
+        let out = shift_diagnostic_lines(msg, 93);
+        assert!(out.contains("(satır 7, sütun 1)"), "{out}");
+        assert!(out.contains("(satır 17, sütun 2)"), "{out}");
+    }
+
+    #[test]
+    fn konumsuz_mesaj_bozulmaz() {
+        let msg = "Typst derleme hatası:\nbir şey oldu";
+        assert_eq!(shift_diagnostic_lines(msg, 93), msg);
+    }
 }

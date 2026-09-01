@@ -52,6 +52,15 @@ impl TypstGenerator {
     /// Önsözü ön yüze kopyalamak yerine burada tutmanın sebebi sürüklenmedir:
     /// kopyalanan bir önsöz er ya da geç asıl şablondan ayrışır ve öğretmen
     /// önizlemede gördüğünden başka bir kâğıt basar.
+    /// preview_document'in gövdeden ÖNCE eklediği satır sayısı.
+    ///
+    /// Typst tanılamaları birleşik belgeye göre satır verir. Öğretmenin
+    /// editöründe o satır yoktur: 5. satırdaki hata "satır 98" diye raporlanır,
+    /// kenardaki işaret hiç çıkmaz ve mesaj kimseye bir şey söylemez.
+    pub fn preview_line_offset() -> usize {
+        PREAMBLE.lines().count()
+    }
+
     pub fn preview_document(body: &str) -> String {
         format!("{PREAMBLE}{body}\n")
     }
