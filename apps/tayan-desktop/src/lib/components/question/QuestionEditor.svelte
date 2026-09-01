@@ -67,6 +67,8 @@
    */
   let pendingSource: string | null = null;
 
+  let imageError = $state<string | null>(null);
+
   $effect(() => {
     const current = body;
     const timer = setTimeout(() => void compile(current), DEBOUNCE_MS);
@@ -121,6 +123,9 @@
       <span class="pencil font-mono">{outcomes.join(" · ")}</span>
     {/if}
 
+    {#if imageError}
+      <span class="annot">{imageError}</span>
+    {/if}
     <span class="ml-auto annot" class:invisible={!slowCompile}>derleniyor…</span>
   </div>
 
@@ -128,7 +133,13 @@
 
   <div class="grid min-h-0 flex-1 grid-cols-[minmax(320px,1fr)_minmax(360px,1.15fr)_240px]">
     <section class="min-h-0 border-r border-rule-strong">
-      <TypstSource bind:this={sourceRef} value={body} {diagnostics} onchange={onbodychange} />
+      <TypstSource
+        bind:this={sourceRef}
+        value={body}
+        {diagnostics}
+        onchange={onbodychange}
+        onimageerror={(m) => (imageError = m)}
+      />
     </section>
 
     <section class="min-h-0">

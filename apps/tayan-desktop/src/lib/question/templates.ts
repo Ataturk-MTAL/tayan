@@ -32,7 +32,6 @@ const COMMON: Block[] = [
   { label: "Kısmi türev", hint: "∂f/∂x", snippet: "$(diff {|})/(diff x)$" },
   { label: "Toplam", hint: "sigma, alt ve üst sınırlı", snippet: "$sum_(i=1)^n {|}$" },
   { label: "İntegral", hint: "belirli integral", snippet: "$integral_0^1 {|} dif x$" },
-  { label: "Görsel", hint: "dosyadan resim", snippet: '#image("{|}", width: 60%)' },
   { label: "Tablo", hint: "2 sütunlu", snippet: "#table(columns: 2, [{|}], [])" },
   { label: "Kalın", hint: "*kalın*", snippet: "*{|}*" },
   { label: "Boşluk bırak", hint: "dikey aralık", snippet: "#v(0.5cm)" },

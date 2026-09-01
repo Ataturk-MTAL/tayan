@@ -230,9 +230,24 @@ impl TayanWorld {
             return Ok(Bytes::new(data));
         }
 
-        // Try as an absolute filesystem path (e.g. image files)
-        // VirtualPath strips the leading '/', so we restore it.
-        let abs = PathBuf::from("/").join(id.vpath().as_rootless_path());
+        let rootless = id.vpath().as_rootless_path();
+
+        // Göreli yol: uygulama veri klasöründen çözülür.
+        //
+        // Görseller kaynakta "images/xxx.png" olarak durur, mutlak yol olarak
+        // değil. Mutlak yol kullanıcı adını gömer ve veri başka bir makineye
+        // veya başka bir kullanıcıya taşındığında kırılır; sınav kâğıdı
+        // görselsiz basılır ve bunu fark etmek zordur.
+        let app_relative = app_data_root().join(rootless);
+        if app_relative.exists() {
+            let data = std::fs::read(&app_relative)
+                .with_context(|| format!("Dosya okunamadı: {}", app_relative.display()))?;
+            return Ok(Bytes::new(data));
+        }
+
+        // Mutlak yol (eski kayıtlar böyle). VirtualPath baştaki '/' işaretini
+        // attığı için geri konuyor.
+        let abs = PathBuf::from("/").join(rootless);
         if abs.exists() {
             let data = std::fs::read(&abs)
                 .with_context(|| format!("Dosya okunamadı: {}", abs.display()))?;
@@ -544,6 +559,14 @@ fn mmap_for_indexing(path: &std::path::Path) -> Option<memmap2::Mmap> {
     let file = std::fs::File::open(path).ok()?;
     // GÜVENLİK: yukarıdaki map_font_file ile aynı ödün.
     unsafe { memmap2::Mmap::map(&file).ok() }
+}
+
+/// Uygulama verisinin kök klasörü. Veritabanı, font indeksi ve görseller
+/// hepsi burada durur — tek klasörü kopyalamak tam yedek demek.
+pub fn app_data_root() -> PathBuf {
+    dirs_next::data_local_dir()
+        .unwrap_or_else(std::env::temp_dir)
+        .join("tayan")
 }
 
 fn collect_system_font_paths() -> Vec<PathBuf> {

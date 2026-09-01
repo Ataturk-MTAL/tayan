@@ -279,7 +279,10 @@ function tayanCompletions(context: CompletionContext) {
 
 // ── Kurulum ───────────────────────────────────────────────────────────────────
 
-export function typstEditorExtensions(onChange: (value: string) => void): Extension[] {
+export function typstEditorExtensions(
+  onChange: (value: string) => void,
+  onPaste?: (event: ClipboardEvent) => boolean,
+): Extension[] {
   return [
     lineNumbers(),
     errorGutter,
@@ -299,6 +302,10 @@ export function typstEditorExtensions(onChange: (value: string) => void): Extens
     EditorState.tabSize.of(2),
     EditorView.updateListener.of((update) => {
       if (update.docChanged) onChange(update.state.doc.toString());
+    }),
+    // Görsel yapıştırma. false dönerse CodeMirror normal metin yapıştırmasını yapar.
+    EditorView.domEventHandlers({
+      paste: (event) => (onPaste ? onPaste(event) : false),
     }),
   ];
 }

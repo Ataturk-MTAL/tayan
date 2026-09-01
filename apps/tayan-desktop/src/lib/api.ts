@@ -172,6 +172,16 @@ export const api = {
       invoke<string[]>("compile_question_preview_svg", { body }),
   },
 
+  images: {
+    /**
+     * Görseli uygulama veri klasörüne yazar ve GÖRELİ yolunu döndürür
+     * ("images/xxx.png"). Kaynağa mutlak yol yazmak kullanıcı adını gömer ve
+     * veri taşındığında kırılır.
+     */
+    save: (dataBase64: string, ext: string, context = "soru") =>
+      invoke<string>("save_image", { data: dataBase64, ext, context }),
+  },
+
   // convenience: build a plain-text ContentNode body
   textBody,
 };

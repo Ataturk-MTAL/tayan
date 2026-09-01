@@ -1,16 +1,22 @@
 use base64::Engine;
 use chrono::Local;
-use tauri::Manager;
 use uuid::Uuid;
 
-/// Saves a base64-encoded image to the app-local data directory.
+/// Base64 kodlu bir görseli uygulama veri klasörüne yazar.
 ///
-/// Returns the absolute path to the saved file.
+/// Dönen değer GÖRELİ yoldur: "images/soru_20260512_143022_a3f7b2c1.png".
+/// Kaynağa mutlak yol yazmak kullanıcı adını gömer ve veri başka bir makineye
+/// taşındığında kırılır — sınav görselsiz basılır ve bunu fark etmek zordur.
+///
+/// Klasör veritabanıyla AYNI yerdedir (dirs_next::data_local_dir()/tayan), yani
+/// tek klasörü kopyalamak tam yedek demektir. Daha önce Tauri'nin
+/// app_local_data_dir()'i kullanılıyordu ve görseller veritabanından ayrı bir
+/// klasöre (com.tayan.app/images) düşüyordu; o klasörü kopyalamayan bir yedek
+/// görselleri kaybediyordu.
 /// Filename format: `{context}_{YYYYMMDD}_{HHMMSS}_{8hex}.{ext}`
 /// Example: `soru_20260512_143022_a3f7b2c1.png`
 #[tauri::command]
 pub fn save_image(
-    app: tauri::AppHandle,
     data: String,
     ext: String,
     context: String,
@@ -45,12 +51,7 @@ pub fn save_image(
 
     let filename = format!("{}_{}_{}.{}", safe_context, ts, short_id, safe_ext);
 
-    // Target directory — use Tauri's app_local_data_dir() so $APPLOCALDATA scope matches
-    let img_dir = app
-        .path()
-        .app_local_data_dir()
-        .map_err(|e| e.to_string())?
-        .join("images");
+    let img_dir = tayan_compiler::world::app_data_root().join("images");
     std::fs::create_dir_all(&img_dir).map_err(|e| e.to_string())?;
 
     let path = img_dir.join(&filename);
@@ -68,5 +69,6 @@ pub fn save_image(
 
     std::fs::write(&path, &bytes).map_err(|e| e.to_string())?;
 
-    Ok(path.to_string_lossy().to_string())
+    // Göreli yol: Typst World bunu app_data_root() altından çözer.
+    Ok(format!("images/{filename}"))
 }

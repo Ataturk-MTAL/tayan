@@ -134,6 +134,7 @@
   const BOLUMLER = [
     { id: "kalip", ad: "Soru kalıpları" },
     { id: "temel", ad: "Typst temelleri" },
+    { id: "gorsel", ad: "Görsel ekleme" },
     { id: "yunan", ad: "Yunan harfleri" },
     { id: "turev", ad: "Türev ve integral" },
     { id: "kisayol", ad: "Kısayollar" },
@@ -207,6 +208,37 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
             {/each}
           </tbody>
         </table>
+
+        <h2 id="gorsel" class="mt-rule border-t border-rule-strong pt-half">Görsel ekleme</h2>
+        <p class="mt-quarter leading-rule">İki yol var, ikisi de aynı sonucu verir:</p>
+        <ul class="mt-quarter">
+          <li class="leading-rule">
+            <strong>Yapıştır.</strong> Ekran görüntüsü al, editöre
+            <span class="font-mono">⌘V</span> ile yapıştır.
+          </li>
+          <li class="leading-rule">
+            <strong>Görsel düğmesi.</strong> Yukarıdaki şeritten dosya seç.
+          </li>
+        </ul>
+        <p class="mt-half leading-rule">
+          Her iki durumda da görsel uygulamanın veri klasörüne kopyalanır ve
+          gövdeye şu şekilde eklenir:
+        </p>
+        <pre class="ruled mt-quarter overflow-x-auto p-half font-mono text-[12px] leading-[20px]">#image("images/soru_20260901_143022_a3f7b2c1.png", width: 60%)</pre>
+        <p class="pencil mt-quarter">
+          <span class="font-mono">width</span> değerini değiştirerek boyutlandır:
+          <span class="font-mono">40%</span>, <span class="font-mono">8cm</span> gibi.
+        </p>
+        <p class="mt-half leading-rule">
+          Yol <strong>göreli</strong>dir, mutlak değil. Bu bilinçli: mutlak yol
+          kullanıcı adını içerir ve veri başka bir bilgisayara taşındığında
+          kırılır — sınav görselsiz basılır, üstelik bunu fark etmek zordur.
+        </p>
+        <p class="pencil mt-quarter">
+          En fazla 8 MB. PNG, JPEG, GIF ve WebP desteklenir. Görseller
+          veritabanıyla aynı klasörde durur, yani klasörü kopyalamak görselleri de
+          yedekler.
+        </p>
 
         <h2 id="yunan" class="mt-rule border-t border-rule-strong pt-half">Yunan harfleri</h2>
         <p class="mt-quarter leading-rule">
