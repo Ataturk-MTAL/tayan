@@ -7,15 +7,15 @@ use std::{
 use anyhow::{bail, Context};
 use chrono::Datelike;
 use typst::{
-    LibraryExt,
+    LibraryExt, WorldExt,
     diag::{FileError, FileResult, PackageError, SourceDiagnostic, Warned},
-    foundations::{Bytes, Datetime},
-    layout::PagedDocument,
-    syntax::{FileId, Source, VirtualPath},
+    foundations::{Bytes, Datetime, Duration},
+    syntax::{FileId, RootedPath, Source, VirtualPath, VirtualRoot},
     text::{Font, FontBook, FontInfo},
     utils::LazyHash,
     Library, World,
 };
+use typst_layout::PagedDocument;
 
 /// Typst'in memoization önbelleğini (comemo) budar.
 ///
@@ -59,10 +59,11 @@ impl TayanWorld {
         let (book, fonts) = font_registry();
         let package_root = typst_package_cache_dir()?;
 
-        let source = Source::new(
-            FileId::new(None, VirtualPath::new("/main.typ")),
-            source_text,
-        );
+        // 0.15'te FileId bir RootedPath'ten üretiliyor; kök açıkça belirtiliyor.
+        let vpath = VirtualPath::new("main.typ")
+            .map_err(|e| anyhow::anyhow!("Sanal yol kurulamadı: {e:?}"))?;
+        let file_id = FileId::new(RootedPath::new(VirtualRoot::Project, vpath));
+        let source = Source::new(file_id, source_text);
 
         Ok(Self {
             source,
@@ -116,23 +117,23 @@ impl TayanWorld {
             anyhow::anyhow!("Typst derleme hatası:\n{}", msgs.join("\n"))
         })?;
 
-        Ok(doc.pages.iter().map(typst_svg::svg).collect())
+        // 0.15'te svg() seçenek alıyor ve pages bir metot.
+        let opts = typst_svg::SvgOptions::default();
+        Ok(doc.pages().iter().map(|p| typst_svg::svg(p, &opts)).collect())
     }
 }
 
 fn format_diagnostic(world: &TayanWorld, diag: &SourceDiagnostic) -> String {
     let mut msg = diag.message.to_string();
 
-    let loc = diag.span.id()
-        .and_then(|id| world.source(id).ok())
-        .and_then(|src| {
-            let start = src
-                .range(diag.span)
-                .or_else(|| diag.span.range())
-                .map(|r| r.start)?;
-            let (line, col) = src.lines().byte_to_line_column(start)?;
-            Some((line + 1, col + 1))
-        });
+    // 0.15'te span çözümü WorldExt::range üzerinden yapılıyor; Source::range
+    // artık ham SpanNumber istiyor ve doğrudan kullanılması amaçlanmamış.
+    let loc = world.range(diag.span).and_then(|range| {
+        let id = diag.span.id()?;
+        let src = world.source(id).ok()?;
+        let (line, col) = src.lines().byte_to_line_column(range.start)?;
+        Some((line + 1, col + 1))
+    });
 
     if let Some((line, col)) = loc {
         msg.push_str(&format!(" (satır {line}, sütun {col})"));
@@ -141,7 +142,8 @@ fn format_diagnostic(world: &TayanWorld, diag: &SourceDiagnostic) -> String {
     if !diag.hints.is_empty() {
         let hints = diag.hints
             .iter()
-            .map(|h| h.to_string())
+            // 0.15'te ipuçları Spanned<EcoString>; metin .v alanında.
+            .map(|h| h.v.to_string())
             .collect::<Vec<_>>()
             .join(" | ");
         if !hints.is_empty() {
@@ -182,12 +184,12 @@ impl World for TayanWorld {
         }
 
         let bytes = self.resolve_file(id).map_err(|e| {
-            if id.package().is_some() {
+            if matches!(id.root(), VirtualRoot::Package(_)) {
                 FileError::Package(PackageError::Other(Some(
                     format!("{e:#}").into()
                 )))
             } else {
-                FileError::NotFound(id.vpath().as_rootless_path().to_owned())
+                FileError::NotFound(PathBuf::from(id.vpath().get_without_slash()))
             }
         })?;
 
@@ -200,9 +202,16 @@ impl World for TayanWorld {
         self.fonts.get(index)?.get()
     }
 
-    fn today(&self, offset: Option<i64>) -> Option<Datetime> {
+    fn today(&self, offset: Option<Duration>) -> Option<Datetime> {
         let local = chrono::Local::now();
-        let offset_secs = offset.unwrap_or(0) * 3600;
+        // 0.15'te offset saat sayısı değil, bir Duration.
+        // decompose() [hafta, gün, saat, dakika, saniye] veriyor.
+        let offset_secs = offset
+            .map(|d| {
+                let [w, dd, h, m, sec] = d.decompose();
+                ((w * 7 + dd) * 24 + h) * 3600 + m * 60 + sec
+            })
+            .unwrap_or(0);
         let dt = local + chrono::Duration::seconds(offset_secs);
         Datetime::from_ymd(
             dt.year(),
@@ -214,7 +223,7 @@ impl World for TayanWorld {
 
 impl TayanWorld {
     fn resolve_file(&self, id: FileId) -> anyhow::Result<Bytes> {
-        if let Some(spec) = id.package() {
+        if let VirtualRoot::Package(spec) = id.root() {
             let pkg_dir = self.package_root
                 .join(spec.namespace.as_str())
                 .join(spec.name.as_str())
@@ -224,13 +233,13 @@ impl TayanWorld {
                 download_package(spec, &pkg_dir)?;
             }
 
-            let file_path = pkg_dir.join(id.vpath().as_rootless_path());
+            let file_path = pkg_dir.join(id.vpath().get_without_slash());
             let data = std::fs::read(&file_path)
                 .with_context(|| format!("Dosya okunamadı: {}", file_path.display()))?;
             return Ok(Bytes::new(data));
         }
 
-        let rootless = id.vpath().as_rootless_path();
+        let rootless = id.vpath().get_without_slash();
 
         // Göreli yol: uygulama veri klasöründen çözülür.
         //
@@ -254,7 +263,7 @@ impl TayanWorld {
             return Ok(Bytes::new(data));
         }
 
-        bail!("Çözülemeyen dosya: {:?}", id.vpath().as_rootless_path())
+        bail!("Çözülemeyen dosya: {:?}", id.vpath().get_without_slash())
     }
 }
 
@@ -367,7 +376,17 @@ fn build_font_registry() -> (LazyHash<FontBook>, Vec<FontSlot>) {
 
 /// Önbellek biçimi sürümü. FontInfo'nun kodlaması typst sürümüyle değişebilir;
 /// bu sayı artırılınca eski önbellek sessizce atılır.
-const FONT_INDEX_VERSION: u32 = 1;
+///
+/// 2: typst 0.14.2 -> 0.15.1 yükseltmesi ve postcard -> CBOR geçişi.
+///
+/// Neden CBOR: typst 0.15'te FontInfo şu alanı taşıyor —
+///     #[serde(default, skip_serializing_if = "Vec::is_empty")]
+///     pub axes: Vec<FontAxis>,
+/// skip_serializing_if KENDİNİ TANIMLAYAN biçimler için bir özelliktir. Postcard
+/// alan adı yazmaz, sırayla bayt yazar; boş axes atlanınca akış kayar ve okuma
+/// "Serde Deserialization Error" ile düşer. Postcard bu yapıyı prensip olarak
+/// taşıyamaz. CBOR alan adlarını yazdığı için atlanan alanı sorunsuz karşılar.
+const FONT_INDEX_VERSION: u32 = 2;
 
 #[derive(serde::Serialize, serde::Deserialize, Clone)]
 struct CachedFace {
@@ -384,7 +403,7 @@ struct FontIndex {
 }
 
 fn font_index_path() -> Option<PathBuf> {
-    dirs_next::data_local_dir().map(|d| d.join("tayan").join("font-index.postcard"))
+    dirs_next::data_local_dir().map(|d| d.join("tayan").join("font-index.cbor"))
 }
 
 /// Font dosyalarının listesi: yol, değişim zamanı, boyut.
@@ -456,7 +475,7 @@ fn fingerprint_of(files: &[(PathBuf, u64, u64)]) -> u64 {
 fn load_font_index(fingerprint: u64) -> Option<Vec<CachedFace>> {
     let path  = font_index_path()?;
     let bytes = std::fs::read(&path).ok()?;
-    let index: FontIndex = postcard::from_bytes(&bytes).ok()?;
+    let index: FontIndex = ciborium::from_reader(bytes.as_slice()).ok()?;
 
     if index.version != FONT_INDEX_VERSION || index.fingerprint != fingerprint {
         return None;
@@ -482,11 +501,14 @@ fn store_font_index(fingerprint: u64, faces: &[CachedFace]) {
         faces: faces.to_vec(),
     };
 
-    let Ok(bytes) = postcard::to_allocvec(&index) else { return };
+    let mut bytes = Vec::new();
+    if ciborium::into_writer(&index, &mut bytes).is_err() {
+        return;
+    }
 
     // Önce geçici dosya, sonra rename: iki uygulama örneği aynı anda yazarsa
     // yarım kalmış bir dosya okunmasın.
-    let tmp = path.with_extension("postcard.tmp");
+    let tmp = path.with_extension("cbor.tmp");
     if std::fs::write(&tmp, &bytes).is_ok() {
         let _ = std::fs::rename(&tmp, &path);
     }

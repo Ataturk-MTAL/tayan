@@ -1,33 +1,28 @@
 fn main() {
     let p = "/private/tmp/claude-501/-Users-hakan-VSCodeProjects/c1f16c60-0f9e-4ced-bde6-cc57e12e5ea2/scratchpad/t.svg";
-    let body = format!(r#"#set text(size: 12pt)
+    let body = format!(r#"#set text(size: 13pt)
 
-*1. Varsayılan (blok, sola dayalı):*
+*Çizilmiş işaretler:* Boş #cb() · İşaretli #cb(checked: true) · Tik #tik()
 
-#image("{p}", width: 3cm)
+*Doğru/yanlış:* #dogru-yanlis(dogru: true)
 
-*2. Ortalı:*
+*Karıştırılmış + anahtar* (dogru: "B", sira: (2, 0, 1)):
 
-#align(center)[#image("{p}", width: 3cm)]
-
-*3. Sağa dayalı:*
-
-#align(right)[#image("{p}", width: 3cm)]
-
-*4. Şekil numarası ve başlıkla:*
-
-#figure(image("{p}", width: 3cm), caption: [Bir çember])
-
-*5. Metnin yanında:*
-
-#grid(columns: (1fr, auto), gutter: 0.5cm,
-  [Yandaki çemberin yarıçapı $r$ olduğuna göre alanını bulunuz.],
-  image("{p}", width: 2.5cm),
+#secenekler(dogru: "B", sira: (2, 0, 1), anahtar: true,
+  [Birinci], [İkinci], [Üçüncü],
 )
+
+*Matematik:* satır içi $x^2 + 1$ · türev $(dif y)/(dif x)$ · kısmi $(partial f)/(partial x)$
+
+*Yunan:* $alpha beta gamma Delta Sigma Omega$ · artı-eksi $plus.minus$
+
+*Boşluk:* İç açılar toplamı #bosluk(cevap: "180", width: 2cm) derecedir.
+
+*SVG:* #align(center)[#image("{p}", width: 3cm)]
 "#);
     let src = tayan_compiler::typst_gen::TypstGenerator::preview_document(&body);
     match tayan_compiler::TayanWorld::compile_svg(src) {
-        Ok(pg) => { std::fs::write("/private/tmp/claude-501/-Users-hakan-VSCodeProjects/c1f16c60-0f9e-4ced-bde6-cc57e12e5ea2/scratchpad/check.svg", &pg[0]).unwrap(); println!("OK"); }
+        Ok(pg) => { std::fs::write("/private/tmp/claude-501/-Users-hakan-VSCodeProjects/c1f16c60-0f9e-4ced-bde6-cc57e12e5ea2/scratchpad/check.svg", &pg[0]).unwrap(); println!("OK {} sayfa", pg.len()); }
         Err(e) => println!("HATA: {e}"),
     }
 }
