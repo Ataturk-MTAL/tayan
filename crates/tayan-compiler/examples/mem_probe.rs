@@ -25,6 +25,10 @@ fn main() {
         .and_then(|a| a.parse().ok())
         .unwrap_or(2);
 
+    let t_warm = Instant::now();
+    tayan_compiler::world::warm_font_registry();
+    println!("font kaydı kurulumu: {:?}", t_warm.elapsed());
+
     for i in 1..=rounds {
         // Her turda kaynağı değiştir; comemo önbelleğini gerçekten zorlar.
         let source = format!("{DOC}\n\nTur {i}\n");

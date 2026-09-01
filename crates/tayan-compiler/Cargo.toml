@@ -19,6 +19,7 @@ typst-library = "0.14.2"
 typst-assets  = { version = "0.14.2", features = ["fonts"] }
 comemo        = "0.5.1"
 memmap2       = "0.9"
+postcard      = { version = "1", features = ["use-std"] }
 
 # Package download + extraction
 ureq          = { version = "2", features = ["json"] }

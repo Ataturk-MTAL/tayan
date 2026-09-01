@@ -306,25 +306,194 @@ static FONT_REGISTRY: OnceLock<(LazyHash<FontBook>, Vec<FontSlot>)> = OnceLock::
 static STANDARD_LIBRARY: OnceLock<LazyHash<Library>> = OnceLock::new();
 
 fn font_registry() -> (&'static LazyHash<FontBook>, &'static [FontSlot]) {
-    let (book, slots) = FONT_REGISTRY.get_or_init(|| {
-        let mut book  = FontBook::new();
-        let mut slots = Vec::new();
+    let (book, slots) = FONT_REGISTRY.get_or_init(build_font_registry);
+    (book, slots.as_slice())
+}
 
-        index_embedded_fonts(&mut book, &mut slots);
+fn build_font_registry() -> (LazyHash<FontBook>, Vec<FontSlot>) {
+    let mut book  = FontBook::new();
+    let mut slots = Vec::new();
 
-        let mut font_paths = collect_system_font_paths();
-        if let Some(data_dir) = dirs_next::data_local_dir() {
-            font_paths.push(data_dir.join("tayan").join("fonts"));
-        }
-        for path in &font_paths {
-            if path.exists() {
-                index_fonts_in_dir(path, &mut book, &mut slots);
+    // Gömülü fontlar önbelleğe girmez: disk erişimi yok, ayrıştırmaları ucuz,
+    // ve typst-assets sürümü değiştiğinde önbellek geçersizleştirme derdi
+    // doğurmazlar.
+    index_embedded_fonts(&mut book, &mut slots);
+
+    let files       = collect_font_files();
+    let fingerprint = fingerprint_of(&files);
+
+    match load_font_index(fingerprint) {
+        Some(faces) => {
+            for face in faces {
+                book.push(face.info);
+                slots.push(FontSlot {
+                    source: FontSource::File(face.path, face.index),
+                    font:   OnceLock::new(),
+                });
             }
         }
+        None => {
+            let faces = parse_font_faces(&files);
+            for face in &faces {
+                book.push(face.info.clone());
+                slots.push(FontSlot {
+                    source: FontSource::File(face.path.clone(), face.index),
+                    font:   OnceLock::new(),
+                });
+            }
+            store_font_index(fingerprint, &faces);
+        }
+    }
 
-        (LazyHash::new(book), slots)
-    });
-    (book, slots.as_slice())
+    (LazyHash::new(book), slots)
+}
+
+// ── Künye önbelleği ───────────────────────────────────────────────────────────
+
+/// Önbellek biçimi sürümü. FontInfo'nun kodlaması typst sürümüyle değişebilir;
+/// bu sayı artırılınca eski önbellek sessizce atılır.
+const FONT_INDEX_VERSION: u32 = 1;
+
+#[derive(serde::Serialize, serde::Deserialize, Clone)]
+struct CachedFace {
+    path:  PathBuf,
+    index: u32,
+    info:  FontInfo,
+}
+
+#[derive(serde::Serialize, serde::Deserialize)]
+struct FontIndex {
+    version:     u32,
+    fingerprint: u64,
+    faces:       Vec<CachedFace>,
+}
+
+fn font_index_path() -> Option<PathBuf> {
+    dirs_next::data_local_dir().map(|d| d.join("tayan").join("font-index.postcard"))
+}
+
+/// Font dosyalarının listesi: yol, değişim zamanı, boyut.
+///
+/// Yalnızca dizin gezme ve `metadata` — dosya İÇERİĞİ okunmaz. Bu adım
+/// milisaniyeler sürer; pahalı olan, sonraki adımdaki künye ayrıştırmasıdır.
+fn collect_font_files() -> Vec<(PathBuf, u64, u64)> {
+    let mut dirs = collect_system_font_paths();
+    if let Some(data_dir) = dirs_next::data_local_dir() {
+        dirs.push(data_dir.join("tayan").join("fonts"));
+    }
+
+    let mut files = Vec::new();
+    for dir in &dirs {
+        if dir.exists() {
+            collect_font_files_in_dir(dir, &mut files);
+        }
+    }
+
+    // Sıralama şart: parmak izi dizin okuma sırasına bağlı olmamalı, yoksa
+    // önbellek hiçbir şey değişmese bile rastgele geçersizleşir.
+    files.sort_by(|a, b| a.0.cmp(&b.0));
+    files
+}
+
+fn collect_font_files_in_dir(dir: &std::path::Path, out: &mut Vec<(PathBuf, u64, u64)>) {
+    let Ok(entries) = std::fs::read_dir(dir) else { return };
+
+    for entry in entries.flatten() {
+        let path = entry.path();
+
+        if path.is_dir() {
+            collect_font_files_in_dir(&path, out);
+            continue;
+        }
+
+        let ext = path.extension().and_then(|e| e.to_str()).unwrap_or("");
+        if !matches!(ext.to_ascii_lowercase().as_str(), "ttf" | "otf" | "ttc" | "otc") {
+            continue;
+        }
+
+        let Ok(meta) = entry.metadata() else { continue };
+        let mtime = meta
+            .modified()
+            .ok()
+            .and_then(|t| t.duration_since(std::time::UNIX_EPOCH).ok())
+            .map(|d| d.as_nanos() as u64)
+            .unwrap_or(0);
+
+        out.push((path, mtime, meta.len()));
+    }
+}
+
+fn fingerprint_of(files: &[(PathBuf, u64, u64)]) -> u64 {
+    use std::hash::{Hash, Hasher};
+    let mut hasher = std::collections::hash_map::DefaultHasher::new();
+    FONT_INDEX_VERSION.hash(&mut hasher);
+    files.len().hash(&mut hasher);
+    for (path, mtime, len) in files {
+        path.hash(&mut hasher);
+        mtime.hash(&mut hasher);
+        len.hash(&mut hasher);
+    }
+    hasher.finish()
+}
+
+/// Önbelleği okur. Her hata sessizce None döner ve yeniden tarama yapılır —
+/// bozuk bir önbellek yüzünden uygulama açılmamazlık edemez.
+fn load_font_index(fingerprint: u64) -> Option<Vec<CachedFace>> {
+    let path  = font_index_path()?;
+    let bytes = std::fs::read(&path).ok()?;
+    let index: FontIndex = postcard::from_bytes(&bytes).ok()?;
+
+    if index.version != FONT_INDEX_VERSION || index.fingerprint != fingerprint {
+        return None;
+    }
+
+    Some(index.faces)
+}
+
+/// Önbelleği yazar. Başarısızlık yutulmaz ama ölümcül de değildir: yazılamazsa
+/// uygulama çalışır, yalnızca sonraki açılışta yine tarama yapar.
+fn store_font_index(fingerprint: u64, faces: &[CachedFace]) {
+    let Some(path) = font_index_path() else { return };
+
+    if let Some(parent) = path.parent() {
+        if std::fs::create_dir_all(parent).is_err() {
+            return;
+        }
+    }
+
+    let index = FontIndex {
+        version: FONT_INDEX_VERSION,
+        fingerprint,
+        faces: faces.to_vec(),
+    };
+
+    let Ok(bytes) = postcard::to_allocvec(&index) else { return };
+
+    // Önce geçici dosya, sonra rename: iki uygulama örneği aynı anda yazarsa
+    // yarım kalmış bir dosya okunmasın.
+    let tmp = path.with_extension("postcard.tmp");
+    if std::fs::write(&tmp, &bytes).is_ok() {
+        let _ = std::fs::rename(&tmp, &path);
+    }
+}
+
+/// Pahalı adım: her dosyayı bellek-eşleyip künyelerini ayrıştırır.
+/// Ölçüm: 510 aile için 2,7-4,4 saniye. Önbellek tam olarak bunu atlatır.
+fn parse_font_faces(files: &[(PathBuf, u64, u64)]) -> Vec<CachedFace> {
+    let mut faces = Vec::new();
+
+    for (path, _, _) in files {
+        let Some(mmap) = mmap_for_indexing(path) else { continue };
+        for (index, info) in FontInfo::iter(&mmap).enumerate() {
+            faces.push(CachedFace {
+                path:  path.clone(),
+                index: index as u32,
+                info,
+            });
+        }
+    }
+
+    faces
 }
 
 /// Font künye kaydını önceden kurar.
@@ -365,35 +534,6 @@ fn index_embedded_fonts(book: &mut FontBook, slots: &mut Vec<FontSlot>) {
             book.push(info);
             slots.push(FontSlot {
                 source: FontSource::Embedded(data, index as u32),
-                font:   OnceLock::new(),
-            });
-        }
-    }
-}
-
-fn index_fonts_in_dir(dir: &std::path::Path, book: &mut FontBook, slots: &mut Vec<FontSlot>) {
-    let Ok(entries) = std::fs::read_dir(dir) else { return };
-
-    for entry in entries.flatten() {
-        let path = entry.path();
-
-        if path.is_dir() {
-            index_fonts_in_dir(&path, book, slots);
-            continue;
-        }
-
-        let ext = path.extension().and_then(|e| e.to_str()).unwrap_or("");
-        if !matches!(ext.to_ascii_lowercase().as_str(), "ttf" | "otf" | "ttc" | "otc") {
-            continue;
-        }
-
-        // Eşleme yalnızca künye çıkarmak için açılır ve bu kapsamın sonunda
-        // bırakılır. Dosyanın tamamı belleğe alınmaz.
-        let Some(mmap) = mmap_for_indexing(&path) else { continue };
-        for (index, info) in FontInfo::iter(&mmap).enumerate() {
-            book.push(info);
-            slots.push(FontSlot {
-                source: FontSource::File(path.clone(), index as u32),
                 font:   OnceLock::new(),
             });
         }
