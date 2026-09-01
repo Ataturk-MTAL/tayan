@@ -16,6 +16,9 @@ const EXT_BY_TYPE: Record<string, string> = {
   "image/jpeg": "jpg",
   "image/gif": "gif",
   "image/webp": "webp",
+  // SVG vektörel kalır, baskıda her ölçekte keskin çıkar. Typst onu resvg ile
+  // çizer; script çalıştırmaz, ayrıca önizleme çıktısı ayrıca temizlenir.
+  "image/svg+xml": "svg",
 };
 
 export function isSupportedImage(file: File | null): boolean {

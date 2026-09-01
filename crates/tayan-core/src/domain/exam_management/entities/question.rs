@@ -94,6 +94,16 @@ impl Question {
         }
     }
 
+    /// Gövdeye değiştirilebilir erişim. Veri göçleri için gerekli.
+    pub fn body_mut(&mut self) -> &mut QuestionBody {
+        match self {
+            Question::MultipleChoice(q) => &mut q.body,
+            Question::TrueFalse(q)      => &mut q.body,
+            Question::FillInBlank(q)    => &mut q.body,
+            Question::Classic(q)        => &mut q.body,
+        }
+    }
+
     pub fn stats(&self) -> &QuestionStats {
         match self {
             Question::MultipleChoice(q) => &q.stats,

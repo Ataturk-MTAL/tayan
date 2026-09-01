@@ -1,6 +1,7 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 mod commands;
+mod migration;
 mod state;
 
 use tauri::Manager;
@@ -27,7 +28,31 @@ fn main() {
                     .expect("Migrations failed");
                 p
             });
-            app.manage(Mutex::new(AppState::new(pool)));
+            let app_state = AppState::new(pool);
+
+            // Görsel depolama göçü. Etkisiz tekrarlanabilir: taşınacak dosya ve
+            // düzeltilecek yol kalmadığında hiçbir şey yapmaz.
+            //
+            // Eski sürümler görselleri Tauri'nin app_local_data_dir()'ine
+            // yazıyordu; veritabanı ise data_local_dir()/tayan altındaydı. İki
+            // ayrı klasör, tek klasörü yedekleyen kullanıcının görsellerini
+            // kaybetmesi demekti.
+            let legacy_images = app.path().app_local_data_dir().ok().map(|d| d.join("images"));
+            let bank = app_state.bank.clone();
+            tauri::async_runtime::block_on(async move {
+                match migration::migrate_image_storage(&bank, legacy_images).await {
+                    Ok(r) if r.moved_files > 0 || r.rewritten_refs > 0 => eprintln!(
+                        "görsel göçü: {} dosya taşındı, {} yol düzeltildi",
+                        r.moved_files, r.rewritten_refs
+                    ),
+                    Ok(_) => {}
+                    // Göç başarısız olsa da uygulama açılmalı: eski mutlak yollar
+                    // hâlâ çözülüyor, yani veri kullanılabilir durumda.
+                    Err(e) => eprintln!("görsel göçü başarısız: {e}"),
+                }
+            });
+
+            app.manage(Mutex::new(app_state));
             Ok(())
         })
         .invoke_handler(tauri::generate_handler![

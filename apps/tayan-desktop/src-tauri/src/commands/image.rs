@@ -39,6 +39,10 @@ pub fn save_image(
         "png" => "png",
         "gif" => "gif",
         "webp" => "webp",
+        // SVG vektörel kalır: baskıda her ölçekte keskin çıkar ve GeoGebra gibi
+        // araçların doğal çıktı biçimidir. Typst onu resvg ile çizer, script
+        // çalıştırmaz.
+        "svg" => "svg",
         _ => "png",
     };
 
