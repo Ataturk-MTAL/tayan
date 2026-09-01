@@ -5156,6 +5156,7 @@ dependencies = [
  "comemo",
  "dirs-next",
  "flate2",
+ "memmap2",
  "serde",
  "serde_json",
  "tar",

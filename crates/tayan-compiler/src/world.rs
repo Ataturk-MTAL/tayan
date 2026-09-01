@@ -12,7 +12,7 @@ use typst::{
     foundations::{Bytes, Datetime},
     layout::PagedDocument,
     syntax::{FileId, Source, VirtualPath},
-    text::{Font, FontBook},
+    text::{Font, FontBook, FontInfo},
     utils::LazyHash,
     Library, World,
 };
@@ -49,7 +49,7 @@ pub struct TayanWorld {
     source:       Source,
     library:      &'static LazyHash<Library>,
     book:         &'static LazyHash<FontBook>,
-    fonts:        &'static [Font],
+    fonts:        &'static [FontSlot],
     package_root: PathBuf,
     file_cache:   Mutex<HashMap<FileId, Bytes>>,
 }
@@ -196,7 +196,8 @@ impl World for TayanWorld {
     }
 
     fn font(&self, index: usize) -> Option<Font> {
-        self.fonts.get(index).cloned()
+        // Baytlar burada, yani yalnızca bu yüz gerçekten dizilecekse yüklenir.
+        self.fonts.get(index)?.get()
     }
 
     fn today(&self, offset: Option<i64>) -> Option<Datetime> {
@@ -244,102 +245,152 @@ impl TayanWorld {
 
 // ── Font loading ──────────────────────────────────────────────────────────────
 
-/// Bütün font kaydı — gömülü + sistem — süreç başına BİR kez kurulur.
+/// Bir font yüzü: nerede olduğu bilinir, baytları İSTENENE KADAR açılmaz.
 ///
-/// Bu neden kritik: sistem font dizinleri gerçek makinelerde gigabaytlarca
-/// olabilir (ölçülen bir kurulumda ~/Library/Fonts 2.2 GB, /System/Library/Fonts
-/// 566 MB). Bunları her derlemede yeniden okumak, canlı önizlemede her tuş
-/// duraklamasında ~2.8 GB ayırmak demektir; süreç birkaç dakikada onlarca
-/// gigabayta çıkar ve macOS "system has run out of application memory" verir.
-/// Ölçülen bir vakada tayan-desktop 31.63 GB'a ulaştı.
-static FONT_REGISTRY: OnceLock<(LazyHash<FontBook>, Vec<Font>)> = OnceLock::new();
+/// Ayrım kritik. Typst'in `World` arayüzü zaten iki aşamalıdır:
+///   - `book()` yalnızca KÜNYE ister (aile adı, ağırlık, genişlik, italik).
+///   - `font(index)` yalnızca belgenin GERÇEKTEN kullandığı yüz için çağrılır.
+///
+/// Bir sınav kâğıdı tipik olarak bir ya da iki aile kullanır. Bütün sistem
+/// fontlarını belleğe almak, kullanılmayacak gigabaytları taşımaktır: ölçülen
+/// bir kurulumda ~/Library/Fonts 2.2 GB, /System/Library/Fonts 566 MB.
+struct FontSlot {
+    source: FontSource,
+    font:   OnceLock<Option<Font>>,
+}
+
+enum FontSource {
+    /// typst-assets içinden gelir; veri zaten 'static, disk erişimi yok.
+    Embedded(&'static [u8], u32),
+    /// Diskteki dosya; yalnızca ilk istendiğinde açılır.
+    File(PathBuf, u32),
+}
+
+impl FontSlot {
+    fn get(&self) -> Option<Font> {
+        self.font
+            .get_or_init(|| match &self.source {
+                FontSource::Embedded(data, index) => {
+                    Font::new(Bytes::new(*data), *index)
+                }
+                FontSource::File(path, index) => {
+                    let data = map_font_file(path)?;
+                    Font::new(data, *index)
+                }
+            })
+            .clone()
+    }
+}
+
+/// Font dosyasını belleğe eşler.
+///
+/// GÜVENLİK: `Mmap::map` unsafe'tir çünkü eşlenen dosya başka bir süreç
+/// tarafından değiştirilirse davranış tanımsızdır. Sistem fontları çalışma
+/// sırasında değişmez; typst CLI de aynı ödünü verir. Kazanç, künye taraması
+/// sırasında dosyaların tamamının belleğe kopyalanmamasıdır — yalnızca
+/// okunan sayfalar sayfalanır.
+fn map_font_file(path: &std::path::Path) -> Option<Bytes> {
+    let file = std::fs::File::open(path).ok()?;
+    let mmap = unsafe { memmap2::Mmap::map(&file).ok()? };
+    Some(Bytes::new(mmap))
+}
+
+/// Künye kaydı — süreç başına BİR kez kurulur.
+///
+/// Kurulum sırasında da baytlar kopyalanmaz: her dosya bellek-eşlenir, künyesi
+/// (`FontInfo`) çıkarılır ve eşleme bırakılır. Baytlar ancak `FontSlot::get`
+/// çağrıldığında, yani o yüz gerçekten dizilecekse tutulur.
+static FONT_REGISTRY: OnceLock<(LazyHash<FontBook>, Vec<FontSlot>)> = OnceLock::new();
 
 /// Typst standart kütüphanesi de derleme başına yeniden kurulmaz.
 static STANDARD_LIBRARY: OnceLock<LazyHash<Library>> = OnceLock::new();
 
-fn font_registry() -> (&'static LazyHash<FontBook>, &'static [Font]) {
-    let (book, fonts) = FONT_REGISTRY.get_or_init(|| {
-        let mut font_paths = collect_system_font_paths();
+fn font_registry() -> (&'static LazyHash<FontBook>, &'static [FontSlot]) {
+    let (book, slots) = FONT_REGISTRY.get_or_init(|| {
+        let mut book  = FontBook::new();
+        let mut slots = Vec::new();
 
+        index_embedded_fonts(&mut book, &mut slots);
+
+        let mut font_paths = collect_system_font_paths();
         if let Some(data_dir) = dirs_next::data_local_dir() {
             font_paths.push(data_dir.join("tayan").join("fonts"));
         }
+        for path in &font_paths {
+            if path.exists() {
+                index_fonts_in_dir(path, &mut book, &mut slots);
+            }
+        }
 
-        let (book, fonts) = load_fonts_all(&font_paths);
-        (LazyHash::new(book), fonts)
+        (LazyHash::new(book), slots)
     });
-    (book, fonts.as_slice())
+    (book, slots.as_slice())
+}
+
+/// Kullanılabilir font aileleri, alfabetik.
+///
+/// Künye kaydından okunur; hiçbir font baytı yüklenmez. Öğretmene font seçtiren
+/// bir arayüz bunu kullanır — ve tarama sessizce boş dönerse burada görülür.
+pub fn available_font_families() -> Vec<String> {
+    let (book, _) = font_registry();
+    let mut families: Vec<String> =
+        book.families().map(|(name, _)| name.to_string()).collect();
+    families.sort_by_key(|f| f.to_lowercase());
+    families
 }
 
 fn standard_library() -> &'static LazyHash<Library> {
     STANDARD_LIBRARY.get_or_init(|| LazyHash::new(Library::default()))
 }
 
-/// Embed fontları process başına bir kez parse edilir; her derlemede sadece
-/// Arc clone (pointer bump) ile yeniden kullanılır.
-static EMBEDDED_FONTS: OnceLock<Vec<Font>> = OnceLock::new();
-
-fn get_embedded_fonts() -> &'static [Font] {
-    EMBEDDED_FONTS.get_or_init(|| {
-        let mut fonts = Vec::new();
-        for data in typst_assets::fonts() {
-            let bytes = Bytes::new(data.to_vec());
-            for i in 0.. {
-                match Font::new(bytes.clone(), i) {
-                    Some(font) => fonts.push(font),
-                    None       => break,
-                }
-            }
+/// Gömülü fontlar (Libertinus Serif, New Computer Modern Math, DejaVu Sans Mono).
+/// Bunlar her kurulumda vardır; çıktının makineden makineye aynı çıkması buna
+/// dayanır.
+fn index_embedded_fonts(book: &mut FontBook, slots: &mut Vec<FontSlot>) {
+    for data in typst_assets::fonts() {
+        for (index, info) in FontInfo::iter(data).enumerate() {
+            book.push(info);
+            slots.push(FontSlot {
+                source: FontSource::Embedded(data, index as u32),
+                font:   OnceLock::new(),
+            });
         }
-        fonts
-    })
+    }
 }
 
-/// Embed fontlarını (New Computer Modern Math dahil) + sistem fontlarını yükler.
-/// Embed fontlar OnceLock'tan gelir — ikinci çağrıdan itibaren sadece Arc clone.
-fn load_fonts_all(search_paths: &[PathBuf]) -> (FontBook, Vec<Font>) {
-    let mut book  = FontBook::new();
-    let mut fonts = Vec::new();
-
-    // 1) Önbellekten embed fontlar (Font::clone() = Arc pointer bump, O(1))
-    for font in get_embedded_fonts() {
-        book.push(font.info().clone());
-        fonts.push(font.clone());
-    }
-
-    // 2) Sistem fontları + uygulama font dizini
-    for path in search_paths {
-        if !path.exists() { continue; }
-        load_fonts_from_dir(path, &mut book, &mut fonts);
-    }
-
-    (book, fonts)
-}
-
-fn load_fonts_from_dir(dir: &std::path::Path, book: &mut FontBook, fonts: &mut Vec<Font>) {
+fn index_fonts_in_dir(dir: &std::path::Path, book: &mut FontBook, slots: &mut Vec<FontSlot>) {
     let Ok(entries) = std::fs::read_dir(dir) else { return };
+
     for entry in entries.flatten() {
         let path = entry.path();
+
         if path.is_dir() {
-            load_fonts_from_dir(&path, book, fonts);
+            index_fonts_in_dir(&path, book, slots);
             continue;
         }
+
         let ext = path.extension().and_then(|e| e.to_str()).unwrap_or("");
-        if !matches!(ext.to_ascii_lowercase().as_str(), "ttf" | "otf" | "ttc") {
+        if !matches!(ext.to_ascii_lowercase().as_str(), "ttf" | "otf" | "ttc" | "otc") {
             continue;
         }
-        let Ok(data) = std::fs::read(&path) else { continue };
-        let bytes = Bytes::new(data);
-        for i in 0.. {
-            match Font::new(bytes.clone(), i) {
-                Some(font) => {
-                    book.push(font.info().clone());
-                    fonts.push(font);
-                }
-                None => break,
-            }
+
+        // Eşleme yalnızca künye çıkarmak için açılır ve bu kapsamın sonunda
+        // bırakılır. Dosyanın tamamı belleğe alınmaz.
+        let Some(mmap) = mmap_for_indexing(&path) else { continue };
+        for (index, info) in FontInfo::iter(&mmap).enumerate() {
+            book.push(info);
+            slots.push(FontSlot {
+                source: FontSource::File(path.clone(), index as u32),
+                font:   OnceLock::new(),
+            });
         }
     }
+}
+
+fn mmap_for_indexing(path: &std::path::Path) -> Option<memmap2::Mmap> {
+    let file = std::fs::File::open(path).ok()?;
+    // GÜVENLİK: yukarıdaki map_font_file ile aynı ödün.
+    unsafe { memmap2::Mmap::map(&file).ok() }
 }
 
 fn collect_system_font_paths() -> Vec<PathBuf> {
