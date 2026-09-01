@@ -88,7 +88,29 @@ const PREAMBLE: &str = r##"#set page(paper: "a4", margin: (x: 2cm, y: 2.5cm))
 #set list(marker: ([--], [•]))
 
 #let blank(width: 4cm) = box(width: width, baseline: 20%, stroke: (bottom: 0.5pt + black), height: 1.1em)
-#let cb(checked: false) = if checked [ ☑ ] else [ ☐ ]
+// İşaretler ÇİZİLİR, Unicode'dan ödünç ALINMAZ.
+//
+// ☐ (U+2610), ☑ (U+2611) ve ✓ (U+2713) Libertinus Serif'te yoktur. Yedek font
+// bulunamadığında Typst "tofu" basar: kutu içinde soru işareti. Kâğıtta bunun
+// karşılığı, öğrencinin işaretleyeceği kutucuğun yerinde bir hata simgesi
+// görünmesidir.
+//
+// Çizilen işaret hiçbir fonta bağlı değildir; her kurulumda aynı çıkar.
+#let tik(size: 0.72em) = box(width: size, height: size, baseline: 0.08em, {
+  place(dx: 0.12 * size, dy: 0.44 * size,
+        line(end: (0.22 * size, 0.24 * size), stroke: 1.1pt + black))
+  place(dx: 0.34 * size, dy: 0.68 * size,
+        line(end: (0.44 * size, -0.52 * size), stroke: 1.1pt + black))
+})
+
+#let cb(checked: false) = box(
+  width: 0.85em,
+  height: 0.85em,
+  baseline: 0.16em,
+  stroke: 0.55pt + black,
+  inset: 0pt,
+  if checked { place(center + horizon, tik(size: 0.66em)) },
+)
 
 // ── Soru kalıpları ────────────────────────────────────────────────────────────
 // Bunlar hem kâğıdı dizer hem de sorunun YAPISINI kaynakta taşır. Uygulama
@@ -122,8 +144,12 @@ const PREAMBLE: &str = r##"#set page(paper: "a4", margin: (x: 2cm, y: 2.5cm))
 
   let satirlar = ()
   for (yeni, eski) in duzen.enumerate() {
-    let isaret = if anahtar and eski == dogru-index { ") ✓" } else { ")" }
-    satirlar.push([#(harfler.at(yeni) + isaret)])
+    let etiket = harfler.at(yeni) + ")"
+    if anahtar and eski == dogru-index {
+      satirlar.push([#etiket #tik()])
+    } else {
+      satirlar.push([#etiket])
+    }
     satirlar.push(secilenler.at(eski))
   }
   v(0.3cm)

@@ -160,7 +160,7 @@ impl ToTypst for MultipleChoiceQuestion {
         let options: Vec<String> = self.options.iter().map(|opt| {
             let opt_body = opt.body.to_typst(ctx);
             if ctx.answer_key && opt.correct {
-                format!("  [*{}\\) {}* ✓]", opt.id, opt_body)
+                format!("  [*{}\\) {}* #tik()]", opt.id, opt_body)
             } else {
                 format!("  [{}\\) {}]", opt.id, opt_body)
             }
@@ -219,12 +219,12 @@ impl ToTypst for TrueFalseQuestion {
 
         let (t_mark, f_mark) = if ctx.answer_key {
             if self.correct_answer {
-                ("☑", "☐")
+                ("#cb(checked: true)", "#cb()")
             } else {
-                ("☐", "☑")
+                ("#cb()", "#cb(checked: true)")
             }
         } else {
-            ("☐", "☐")
+            ("#cb()", "#cb()")
         };
 
         format!(
