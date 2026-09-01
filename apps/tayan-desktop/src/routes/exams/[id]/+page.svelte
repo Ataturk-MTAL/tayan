@@ -78,7 +78,11 @@
         if (!t) return true;
         const label = QUESTION_TYPE_LABELS[q.question_type].toLowerCase();
         const body  = q.body
-          .map((n) => (n.type === 'text' ? n.text : ''))
+          .map((n) => {
+            if (n.type === 'text') return n.text;
+            if (n.type === 'typst_raw') return n.code;
+            return '';
+          })
           .join(' ')
           .toLowerCase();
         return label.includes(t) || body.includes(t);
@@ -149,12 +153,17 @@
       .map((n) => {
         if (n.type === 'text')    return n.text;
         if (n.type === 'math')    return `$${n.raw}$`;
+        if (n.type === 'typst_raw') return `[typst] ${n.code}`;
         if (n.type === 'image')   return '[resim]';
         if (n.type === 'newline') return ' ';
         return '';
       })
       .join('')
-      .slice(0, 90) + (q.body.map(n => n.type === 'text' ? n.text : '').join('').length > 90 ? '…' : '');
+      .slice(0, 90) + (q.body.map((n) => {
+        if (n.type === 'text') return n.text;
+        if (n.type === 'typst_raw') return n.code;
+        return '';
+      }).join('').length > 90 ? '…' : '');
   }
 
   const STATUS_COLORS: Record<ExamStatus, string> = {

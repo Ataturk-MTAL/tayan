@@ -10,6 +10,7 @@ export type TextStyle = {
 export type ContentNode =
   | { type: "text"; text: string; style: TextStyle }
   | { type: "math"; raw: string; display: "inline" | "block" }
+  | { type: "typst_raw"; code: string }
   | { type: "chem"; raw: string; flavor: "formula" | "structural" }
   | {
       type: "image";
@@ -134,6 +135,7 @@ export function bodyPreview(body: ContentNode[], maxLen = 80): string {
     .map((n) => {
       if (n.type === "text") return n.text;
       if (n.type === "math") return `[${n.raw}]`;
+      if (n.type === "typst_raw") return `[typst] ${n.code}`;
       if (n.type === "chem") return `[${n.raw}]`;
       return "";
     })

@@ -1,15 +1,17 @@
 <script lang="ts">
   import { goto } from '$app/navigation';
   import { api } from '$lib/api';
-  import { QUESTION_TYPE_LABELS, type ContentNode } from '$lib/types';
-  import OutcomeInput from '$lib/components/questions/OutcomeInput.svelte';
-  import McOptionsEditor, { type McOption } from '$lib/components/questions/McOptionsEditor.svelte';
-  import BlankBodyEditor, { type BlankDraft } from '$lib/components/questions/BlankBodyEditor.svelte';
-  import RubricEditor, { type RubricDraft } from '$lib/components/questions/RubricEditor.svelte';
   import RichBodyEditor from '$lib/components/editor/RichBodyEditor.svelte';
+  import TypstBodyEditor from '$lib/components/editor/TypstBodyEditor.svelte';
+  import BlankBodyEditor, { type BlankDraft } from '$lib/components/questions/BlankBodyEditor.svelte';
+  import McOptionsEditor, { type McOption } from '$lib/components/questions/McOptionsEditor.svelte';
+  import OutcomeInput from '$lib/components/questions/OutcomeInput.svelte';
+  import RubricEditor, { type RubricDraft } from '$lib/components/questions/RubricEditor.svelte';
   import Button from '$lib/components/ui/Button.svelte';
+  import { QUESTION_TYPE_LABELS, type ContentNode } from '$lib/types';
 
   type QuestionType = 'multiple_choice' | 'true_false' | 'fill_in_blank' | 'classic';
+  type BodyEditorMode = 'rich' | 'typst';
   const TYPES: QuestionType[] = ['multiple_choice', 'true_false', 'fill_in_blank', 'classic'];
 
   let selectedType = $state<QuestionType>('multiple_choice');
@@ -18,11 +20,21 @@
 
   let mcTfBodyNodes   = $state<ContentNode[]>([]);
   let classicBodyNodes = $state<ContentNode[]>([]);
+  let mcTfEditorMode = $state<BodyEditorMode>('rich');
+  let classicEditorMode = $state<BodyEditorMode>('rich');
+  let mcTfTypstBody = $state('');
+  let classicTypstBody = $state('');
   let points   = $state(5);
   let outcomes = $state<string[]>([]);
 
-  function bodyHasContent(ns: ContentNode[]) {
-    return ns.some(n => (n.type === 'text' && n.text.trim()) || n.type === 'math' || n.type === 'image');
+  function bodyHasRichContent(ns: ContentNode[]) {
+    return ns.some(
+      n => (n.type === 'text' && n.text.trim()) || n.type === 'math' || n.type === 'image',
+    );
+  }
+
+  function asTypstRaw(code: string): ContentNode[] {
+    return [{ type: 'typst_raw', code }];
   }
 
   let mcOptions   = $state<McOption[]>([
@@ -52,13 +64,19 @@
     submitError = null; submitting = true;
     try {
       if (selectedType === 'multiple_choice') {
-        if (!bodyHasContent(mcTfBodyNodes)) { submitError = 'Soru gövdesi boş olamaz.'; return; }
+        const body = mcTfEditorMode === 'typst' ? asTypstRaw(mcTfTypstBody) : mcTfBodyNodes;
+        if (mcTfEditorMode === 'typst' ? !mcTfTypstBody.trim() : !bodyHasRichContent(mcTfBodyNodes)) {
+          submitError = 'Soru gövdesi boş olamaz.'; return;
+        }
         if (mcOptions.filter((o) => o.text.trim()).length < 2) { submitError = 'En az 2 seçenek gereklidir.'; return; }
-        await api.questions.addMultipleChoice({ points, outcomes, body: mcTfBodyNodes,
+        await api.questions.addMultipleChoice({ points, outcomes, body,
           options: mcOptions.map((o) => ({ id: o.id, body: api.textBody(o.text.trim() || '—'), correct: o.id === mcCorrectId })), shuffle });
       } else if (selectedType === 'true_false') {
-        if (!bodyHasContent(mcTfBodyNodes)) { submitError = 'Soru gövdesi boş olamaz.'; return; }
-        await api.questions.addTrueFalse({ points, outcomes, body: mcTfBodyNodes, correct_answer: tfAnswer });
+        const body = mcTfEditorMode === 'typst' ? asTypstRaw(mcTfTypstBody) : mcTfBodyNodes;
+        if (mcTfEditorMode === 'typst' ? !mcTfTypstBody.trim() : !bodyHasRichContent(mcTfBodyNodes)) {
+          submitError = 'Soru gövdesi boş olamaz.'; return;
+        }
+        await api.questions.addTrueFalse({ points, outcomes, body, correct_answer: tfAnswer });
       } else if (selectedType === 'fill_in_blank') {
         if (!fibBodyText.trim()) { submitError = 'Soru gövdesi boş olamaz.'; return; }
         if (fibBlanks.length === 0) { submitError = 'En az bir [B1] boşluğu ekleyin.'; return; }
@@ -69,11 +87,14 @@
             accepted_answers: b.accepted_answers.split(',').map((s) => s.trim()).filter(Boolean),
             points: b.points, case_sensitive: b.case_sensitive })) });
       } else if (selectedType === 'classic') {
-        if (!bodyHasContent(classicBodyNodes)) { submitError = 'Soru gövdesi boş olamaz.'; return; }
+        const body = classicEditorMode === 'typst' ? asTypstRaw(classicTypstBody) : classicBodyNodes;
+        if (classicEditorMode === 'typst' ? !classicTypstBody.trim() : !bodyHasRichContent(classicBodyNodes)) {
+          submitError = 'Soru gövdesi boş olamaz.'; return;
+        }
         const answer_space = answerSpaceType === 'lines' ? { Lines: answerLines }
           : answerSpaceType === 'height' ? { HeightCm: answerHeightCm }
           : { Grid: { rows: answerGridRows, cols: answerGridCols } };
-        await api.questions.addClassic({ points, outcomes, body: classicBodyNodes,
+        await api.questions.addClassic({ points, outcomes, body,
           rubric: rubric.map((r) => ({ criterion: r.criterion, points: r.points })), answer_space });
       }
       goto('/questions');
@@ -106,15 +127,59 @@
 
     {#if selectedType === 'multiple_choice' || selectedType === 'true_false'}
       <div class="space-y-1.5">
-        <p class="text-sm font-medium">Soru Gövdesi</p>
-        <RichBodyEditor nodes={mcTfBodyNodes} onchange={(v) => (mcTfBodyNodes = v)} />
+        <div class="flex items-center justify-between gap-3">
+          <p class="text-sm font-medium">Soru Gövdesi</p>
+          <div class="flex items-center gap-1 rounded-md border border-input p-0.5 text-xs">
+            <button
+              type="button"
+              onclick={() => (mcTfEditorMode = 'rich')}
+              class="rounded px-2 py-1 transition-colors {mcTfEditorMode === 'rich' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
+            >
+              Zengin
+            </button>
+            <button
+              type="button"
+              onclick={() => (mcTfEditorMode = 'typst')}
+              class="rounded px-2 py-1 transition-colors {mcTfEditorMode === 'typst' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
+            >
+              Typst
+            </button>
+          </div>
+        </div>
+        {#if mcTfEditorMode === 'rich'}
+          <RichBodyEditor nodes={mcTfBodyNodes} onchange={(v) => (mcTfBodyNodes = v)} />
+        {:else}
+          <TypstBodyEditor value={mcTfTypstBody} onchange={(v) => (mcTfTypstBody = v)} rows={12} />
+        {/if}
       </div>
     {/if}
 
     {#if selectedType === 'classic'}
       <div class="space-y-1.5">
-        <p class="text-sm font-medium">Soru Gövdesi</p>
-        <RichBodyEditor nodes={classicBodyNodes} onchange={(v) => (classicBodyNodes = v)} />
+        <div class="flex items-center justify-between gap-3">
+          <p class="text-sm font-medium">Soru Gövdesi</p>
+          <div class="flex items-center gap-1 rounded-md border border-input p-0.5 text-xs">
+            <button
+              type="button"
+              onclick={() => (classicEditorMode = 'rich')}
+              class="rounded px-2 py-1 transition-colors {classicEditorMode === 'rich' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
+            >
+              Zengin
+            </button>
+            <button
+              type="button"
+              onclick={() => (classicEditorMode = 'typst')}
+              class="rounded px-2 py-1 transition-colors {classicEditorMode === 'typst' ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}"
+            >
+              Typst
+            </button>
+          </div>
+        </div>
+        {#if classicEditorMode === 'rich'}
+          <RichBodyEditor nodes={classicBodyNodes} onchange={(v) => (classicBodyNodes = v)} />
+        {:else}
+          <TypstBodyEditor value={classicTypstBody} onchange={(v) => (classicTypstBody = v)} rows={12} />
+        {/if}
       </div>
     {/if}
 

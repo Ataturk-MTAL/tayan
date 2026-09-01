@@ -1,7 +1,7 @@
 use std::{
     collections::HashMap,
     path::PathBuf,
-    sync::Mutex,
+    sync::{Mutex, OnceLock},
 };
 
 use anyhow::{bail, Context};
@@ -10,6 +10,7 @@ use typst::{
     LibraryExt,
     diag::{FileError, FileResult, PackageError, SourceDiagnostic, Warned},
     foundations::{Bytes, Datetime},
+    layout::PagedDocument,
     syntax::{FileId, Source, VirtualPath},
     text::{Font, FontBook},
     utils::LazyHash,
@@ -35,7 +36,7 @@ impl TayanWorld {
             font_paths.push(data_dir.join("tayan").join("fonts"));
         }
 
-        let (book, fonts) = load_fonts(&font_paths);
+        let (book, fonts) = load_fonts_all(&font_paths);
         let package_root = typst_package_cache_dir()?;
 
         let source = Source::new(
@@ -60,7 +61,7 @@ impl TayanWorld {
         let doc = output.map_err(|errors| {
             let msgs: Vec<String> = errors
                 .iter()
-                .map(|e: &SourceDiagnostic| e.message.to_string())
+                .map(|e: &SourceDiagnostic| format_diagnostic(&world, e))
                 .collect();
             anyhow::anyhow!("Typst derleme hatası:\n{}", msgs.join("\n"))
         })?;
@@ -69,11 +70,64 @@ impl TayanWorld {
             .map_err(|errors| {
                 let msgs: Vec<String> = errors
                     .iter()
-                    .map(|e: &SourceDiagnostic| e.message.to_string())
+                    .map(|e: &SourceDiagnostic| format_diagnostic(&world, e))
                     .collect();
                 anyhow::anyhow!("PDF oluşturma hatası:\n{}", msgs.join("\n"))
             })
     }
+
+    /// Canlı önizleme yolu: sayfa başına bir SVG dizesi döndürür.
+    ///
+    /// PDF yolundan ayrıdır çünkü önizleme her tuş vuruşunda yeniden derlenir.
+    /// Sayfaları ayrı ayrı döndürmek, ön yüzün yalnızca değişen sayfayı
+    /// değiştirmesine ve kaydırma konumunu korumasına izin verir; tek parça
+    /// PDF'te bu mümkün değildir.
+    pub fn compile_svg(source_text: String) -> anyhow::Result<Vec<String>> {
+        let world = Self::new(source_text)?;
+        let Warned { output, warnings: _ } = typst::compile::<PagedDocument>(&world);
+
+        let doc = output.map_err(|errors| {
+            let msgs: Vec<String> = errors
+                .iter()
+                .map(|e: &SourceDiagnostic| format_diagnostic(&world, e))
+                .collect();
+            anyhow::anyhow!("Typst derleme hatası:\n{}", msgs.join("\n"))
+        })?;
+
+        Ok(doc.pages.iter().map(typst_svg::svg).collect())
+    }
+}
+
+fn format_diagnostic(world: &TayanWorld, diag: &SourceDiagnostic) -> String {
+    let mut msg = diag.message.to_string();
+
+    let loc = diag.span.id()
+        .and_then(|id| world.source(id).ok())
+        .and_then(|src| {
+            let start = src
+                .range(diag.span)
+                .or_else(|| diag.span.range())
+                .map(|r| r.start)?;
+            let (line, col) = src.lines().byte_to_line_column(start)?;
+            Some((line + 1, col + 1))
+        });
+
+    if let Some((line, col)) = loc {
+        msg.push_str(&format!(" (satır {line}, sütun {col})"));
+    }
+
+    if !diag.hints.is_empty() {
+        let hints = diag.hints
+            .iter()
+            .map(|h| h.to_string())
+            .collect::<Vec<_>>()
+            .join(" | ");
+        if !hints.is_empty() {
+            msg.push_str(&format!("\nİpucu: {hints}"));
+        }
+    }
+
+    msg
 }
 
 impl World for TayanWorld {
@@ -168,10 +222,39 @@ impl TayanWorld {
 
 // ── Font loading ──────────────────────────────────────────────────────────────
 
-fn load_fonts(search_paths: &[PathBuf]) -> (FontBook, Vec<Font>) {
+/// Embed fontları process başına bir kez parse edilir; her derlemede sadece
+/// Arc clone (pointer bump) ile yeniden kullanılır.
+static EMBEDDED_FONTS: OnceLock<Vec<Font>> = OnceLock::new();
+
+fn get_embedded_fonts() -> &'static [Font] {
+    EMBEDDED_FONTS.get_or_init(|| {
+        let mut fonts = Vec::new();
+        for data in typst_assets::fonts() {
+            let bytes = Bytes::new(data.to_vec());
+            for i in 0.. {
+                match Font::new(bytes.clone(), i) {
+                    Some(font) => fonts.push(font),
+                    None       => break,
+                }
+            }
+        }
+        fonts
+    })
+}
+
+/// Embed fontlarını (New Computer Modern Math dahil) + sistem fontlarını yükler.
+/// Embed fontlar OnceLock'tan gelir — ikinci çağrıdan itibaren sadece Arc clone.
+fn load_fonts_all(search_paths: &[PathBuf]) -> (FontBook, Vec<Font>) {
     let mut book  = FontBook::new();
     let mut fonts = Vec::new();
 
+    // 1) Önbellekten embed fontlar (Font::clone() = Arc pointer bump, O(1))
+    for font in get_embedded_fonts() {
+        book.push(font.info().clone());
+        fonts.push(font.clone());
+    }
+
+    // 2) Sistem fontları + uygulama font dizini
     for path in search_paths {
         if !path.exists() { continue; }
         load_fonts_from_dir(path, &mut book, &mut fonts);

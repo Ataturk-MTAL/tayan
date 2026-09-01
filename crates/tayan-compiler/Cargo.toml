@@ -14,7 +14,9 @@ chrono        = { workspace = true }
 # Typst PDF pipeline
 typst         = "0.14.2"
 typst-pdf     = "0.14.2"
+typst-svg     = "0.14.2"
 typst-library = "0.14.2"
+typst-assets  = { version = "0.14.2", features = ["fonts"] }
 
 # Package download + extraction
 ureq          = { version = "2", features = ["json"] }

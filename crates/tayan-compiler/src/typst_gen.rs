@@ -32,6 +32,16 @@ impl TypstGenerator {
 
         Ok(out)
     }
+
+    /// Tek bir soru gövdesini, sınavın GERÇEK önsözüyle sarmalayıp önizlenebilir
+    /// bir Typst belgesi üretir.
+    ///
+    /// Önsözü ön yüze kopyalamak yerine burada tutmanın sebebi sürüklenmedir:
+    /// kopyalanan bir önsöz er ya da geç asıl şablondan ayrışır ve öğretmen
+    /// önizlemede gördüğünden başka bir kâğıt basar.
+    pub fn preview_document(body: &str) -> String {
+        format!("{PREAMBLE}{body}\n")
+    }
 }
 
 fn escape_typst(s: &str) -> String {
@@ -66,7 +76,7 @@ fn exam_header(exam: &Exam) -> String {
 }
 
 const PREAMBLE: &str = "#set page(paper: \"a4\", margin: (x: 2cm, y: 2.5cm))
-#set text(lang: \"tr\", size: 11pt, font: \"Linux Libertine\")
+#set text(lang: \"tr\", size: 11pt, font: \"Libertinus Serif\")
 #set par(leading: 0.75em, justify: false)
 #set list(marker: ([--], [•]))
 

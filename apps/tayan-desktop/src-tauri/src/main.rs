@@ -51,6 +51,9 @@ fn main() {
             commands::analysis::generate_exam_pdf,
             commands::analysis::export_exam_pdf,
             commands::analysis::export_typst_file,
+            commands::analysis::compile_typst_preview,
+            commands::analysis::compile_typst_preview_svg,
+            commands::analysis::compile_question_preview_svg,
             // Images
             commands::image::save_image,
         ])

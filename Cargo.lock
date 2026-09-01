@@ -5161,8 +5161,10 @@ dependencies = [
  "tayan-core",
  "thiserror 2.0.18",
  "typst",
+ "typst-assets",
  "typst-library",
  "typst-pdf",
+ "typst-svg",
  "ureq",
 ]
 
