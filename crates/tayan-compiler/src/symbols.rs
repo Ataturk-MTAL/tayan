@@ -48,10 +48,12 @@ fn collect(module: &Module, math: bool, out: &mut Vec<TypstSymbol>) {
 
         let (kind, params, summary) = match value {
             Value::Func(f) => {
-                let params = f
+                // 0.15'te params() bir iterator ve ParamInfo bir enum:
+                // yerel (Rust) işlevlerde ad var, kapanışlarda olmayabilir.
+                let params: Vec<String> = f
                     .params()
-                    .map(|ps| ps.iter().map(|p| p.name.to_string()).collect())
-                    .unwrap_or_default();
+                    .filter_map(|p| p.name().map(str::to_string))
+                    .collect();
                 ("function", params, first_line(f.docs().unwrap_or("")))
             }
             Value::Symbol(_) => ("symbol", Vec::new(), String::new()),

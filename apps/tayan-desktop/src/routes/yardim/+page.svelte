@@ -91,14 +91,14 @@
     { kod: "$(dif^2 y)/(dif x^2)$", ne: "İkinci türev" },
     { kod: "$f'(x)$", ne: "Üs notasyonu — f prim" },
     { kod: "$f''(x)$", ne: "İkinci türev, üs notasyonu" },
-    { kod: "$(diff f)/(diff x)$", ne: "Kısmi türev — ∂f/∂x" },
-    { kod: "$(diff^2 f)/(diff x diff y)$", ne: "Karma ikinci kısmi türev" },
+    { kod: "$(partial f)/(partial x)$", ne: "Kısmi türev — ∂f/∂x" },
+    { kod: "$(partial^2 f)/(partial x partial y)$", ne: "Karma ikinci kısmi türev" },
     { kod: "$integral f(x) dif x$", ne: "Belirsiz integral" },
     { kod: "$integral_0^1 x^2 dif x$", ne: "Belirli integral" },
     { kod: "$lim_(x -> 0) (sin x)/x$", ne: "Limit" },
     { kod: "$nabla f$", ne: "Gradyan" },
     { kod: "$nabla dot bold(F)$", ne: "Diverjans" },
-    { kod: "$dif f = (diff f)/(diff x) dif x$", ne: "Toplam diferansiyel" },
+    { kod: "$dif f = (partial f)/(partial x) dif x$", ne: "Toplam diferansiyel" },
   ];
 
   const KISAYOLLAR: Row[] = [
@@ -302,7 +302,7 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
         <p class="mt-quarter leading-rule">
           İki ayrı <span class="font-mono">d</span> vardır ve karıştırılmamalıdır:
           <span class="font-mono">dif</span> düz diferansiyel <span class="font-mono">d</span>'yi,
-          <span class="font-mono">diff</span> kısmi türev <span class="font-mono">∂</span>'yi verir.
+          <span class="font-mono">partial</span> kısmi türev <span class="font-mono">∂</span>'yi verir.
           Düz harf <span class="font-mono">d</span> yazarsan değişken gibi eğik dizilir,
           matematiksel olarak yanlış olur.
         </p>

@@ -29,7 +29,7 @@ const COMMON: Block[] = [
   { label: "Kesir", hint: "a bölü b", snippet: "$({|})/()$" },
   { label: "Kök", hint: "karekök", snippet: "$sqrt({|})$" },
   { label: "Türev", hint: "dy/dx", snippet: "$(dif {|})/(dif x)$" },
-  { label: "Kısmi türev", hint: "∂f/∂x", snippet: "$(diff {|})/(diff x)$" },
+  { label: "Kısmi türev", hint: "∂f/∂x", snippet: "$(partial {|})/(partial x)$" },
   { label: "Toplam", hint: "sigma, alt ve üst sınırlı", snippet: "$sum_(i=1)^n {|}$" },
   { label: "İntegral", hint: "belirli integral", snippet: "$integral_0^1 {|} dif x$" },
   { label: "Tablo", hint: "2 sütunlu", snippet: "#table(columns: 2, [{|}], [])" },
