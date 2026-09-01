@@ -536,6 +536,11 @@ pub fn available_font_families() -> Vec<String> {
     families
 }
 
+/// Standart kütüphaneye dışarıdan erişim (sembol dökümü için).
+pub fn standard_library_ref() -> &'static Library {
+    standard_library()
+}
+
 fn standard_library() -> &'static LazyHash<Library> {
     STANDARD_LIBRARY.get_or_init(|| LazyHash::new(Library::default()))
 }

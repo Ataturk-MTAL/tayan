@@ -6,6 +6,7 @@ import { closeBrackets, closeBracketsKeymap, autocompletion, type CompletionCont
 import { Decoration, type DecorationSet } from "@codemirror/view";
 
 import { typstSyntax } from "./typst-lang";
+import { typstSymbols, inMathMode, localDefinitions, type TypstSymbol } from "./symbols";
 import type { TypstDiagnostic } from "./diagnostics";
 
 /**
@@ -123,18 +124,16 @@ const errorGutter = gutter({
 // ── Otomatik tamamlama ────────────────────────────────────────────────────────
 
 /**
- * Yalnızca şablonun GERÇEKTEN tanımladığı yardımcılar listelenir.
- * Kaynak: crates/tayan-compiler/src/typst_gen.rs PREAMBLE.
- * Var olmayan bir işlevi önermek, öğretmene çalışmayan kod öğretmek olur.
+ * Kalıp parçacıkları. Bunlar sembol dökümünde de var ama burada TAM ÇAĞRI ve
+ * öğretici ipucuyla duruyorlar: sadece adı önermek, öğretmeni parametreleri
+ * elle yazmaya bırakır ve eksik virgül gibi hatalar oradan çıkar.
  *
- * Öneriler TAM İMZAYLA eklenir. Sebebi somut: yalnızca adı öneren bir liste,
- * öğretmeni parametreleri elle yazmaya bırakır ve eksik virgül gibi sözdizimi
- * hataları oradan çıkar. Tam çağrı eklenince kaynak her zaman derlenebilir
- * durumda başlar.
+ * Geri kalan her şey — 554 Typst sembolü — elle yazılmıyor, Rust tarafında
+ * kütüphanenin kendisi taranıyor (bkz. symbols.ts).
  */
 type Snippet = { label: string; detail: string; info?: string; apply: string };
 
-const TAYAN_HELPERS: Snippet[] = [
+const TEMPLATES: Snippet[] = [
   {
     label: "#secenekler",
     detail: "Çoktan seçmeli şıklar",
@@ -158,81 +157,49 @@ const TAYAN_HELPERS: Snippet[] = [
     detail: "Klasik soru cevap çizgileri",
     apply: "#cevap-alani(satir: 6)",
   },
-  { label: "#cb", detail: "Kutucuk", apply: "#cb()" },
-  { label: "#tik", detail: "Tik işareti", apply: "#tik()" },
-  { label: "#blank", detail: "Düz boşluk çizgisi", apply: "#blank(width: 4cm)" },
-];
-
-const TYPST_BASICS: Snippet[] = [
-  { label: "#image", detail: "Görsel", apply: '#image("", width: 60%)' },
-  { label: "#table", detail: "Tablo", apply: "#table(columns: 2, [], [])" },
-  { label: "#underline", detail: "Altı çizili", apply: "#underline[]" },
-  { label: "#text", detail: "Metin biçimi", apply: "#text(size: 10pt)[]" },
-  { label: "#v", detail: "Dikey boşluk", apply: "#v(0.5cm)" },
-  { label: "#h", detail: "Yatay boşluk", apply: "#h(1em)" },
+  {
+    label: "#image",
+    detail: "Görsel — ortalı",
+    info: "Yapıştırmak (⌘V) daha hızlı: dosya kendiliğinden kopyalanır.",
+    apply: '#align(center)[#image("images/", width: 60%)]',
+  },
+  {
+    label: "#figure",
+    detail: "Numaralı şekil, altyazılı",
+    apply: '#figure(image("images/", width: 60%), caption: [])',
+  },
 ];
 
 /**
- * Kalıpların parametreleri. İmleç bir kalıp çağrısının İÇİNDEYSE ad yerine
- * parametre önerilir — yanlış parametre adı yazmak, bu ekranda en sık yapılan
- * hatalardan biri.
- */
-/**
- * Matematik parçacıkları. "$" yazınca listelenir.
+ * Sembolü tamamlama girdisine çevirir.
  *
- * Hepsi satır içi biçimde: dolarların yanında boşluk yok. Boşluk koymak Typst'te
- * bloğa geçirir ve formül cümlenin ortasından kendi satırına düşer.
+ * Matematik kipinde `#` YOK: $alpha$ doğru, $#alpha$ hata. Kip dışında işlev
+ * çağrıları `#` ile başlar. Bu ayrım yapılmazsa öneriler derlenmeyen kod üretir.
  */
-const MATH_SNIPPETS: Snippet[] = [
-  { label: "$ satır içi", detail: "Cümlenin içinde", apply: "$$" },
-  { label: "$ blok", detail: "Kendi satırında, ortalı", apply: "$  $" },
-  { label: "$ türev", detail: "dy/dx", apply: "$(dif y)/(dif x)$" },
-  { label: "$ ikinci türev", detail: "d²y/dx²", apply: "$(dif^2 y)/(dif x^2)$" },
-  { label: "$ kısmi türev", detail: "∂f/∂x", apply: "$(diff f)/(diff x)$" },
-  { label: "$ integral", detail: "Belirsiz", apply: "$integral f(x) dif x$" },
-  { label: "$ belirli integral", detail: "Sınırlı", apply: "$integral_0^1 f(x) dif x$" },
-  { label: "$ limit", detail: "lim", apply: "$lim_(x -> 0) $" },
-  { label: "$ toplam", detail: "sigma", apply: "$sum_(i=1)^n $" },
-  { label: "$ kesir", detail: "a/b", apply: "$(a)/(b)$" },
-  { label: "$ kök", detail: "√", apply: "$sqrt(x)$" },
-  { label: "$ nabla", detail: "∇", apply: "$nabla f$" },
-];
+function toCompletion(sym: TypstSymbol, math: boolean) {
+  const detail =
+    sym.params.length > 0 ? `(${sym.params.slice(0, 5).join(", ")})` : sym.kind;
 
-/**
- * Yunan harfleri. Typst'te adıyla yazılır; büyük harf için baş harf büyük.
- * "$" yazınca matematik parçacıklarıyla birlikte listelenir.
- */
-const GREEK: Snippet[] = [
-  ["alpha", "α"], ["beta", "β"], ["gamma", "γ"], ["delta", "δ"],
-  ["epsilon", "ε"], ["zeta", "ζ"], ["eta", "η"], ["theta", "θ"],
-  ["iota", "ι"], ["kappa", "κ"], ["lambda", "λ"], ["mu", "μ"],
-  ["nu", "ν"], ["xi", "ξ"], ["pi", "π"], ["rho", "ρ"],
-  ["sigma", "σ"], ["tau", "τ"], ["upsilon", "υ"], ["phi", "φ"],
-  ["chi", "χ"], ["psi", "ψ"], ["omega", "ω"],
-  ["Gamma", "Γ"], ["Delta", "Δ"], ["Theta", "Θ"], ["Lambda", "Λ"],
-  ["Xi", "Ξ"], ["Pi", "Π"], ["Sigma", "Σ"], ["Phi", "Φ"],
-  ["Psi", "Ψ"], ["Omega", "Ω"],
-].map(([ad, glif]) => ({
-  label: `$${ad}`,
-  detail: glif,
-  info: `$${ad}$ olarak yazılır`,
-  apply: `$${ad}$`,
-}));
+  if (math) {
+    return {
+      label: sym.name,
+      detail,
+      info: sym.summary || undefined,
+      type: sym.kind === "function" ? "function" : "constant",
+      apply: sym.kind === "function" ? `${sym.name}()` : sym.name,
+    };
+  }
 
-const PARAMS: Record<string, Snippet[]> = {
-  secenekler: [
-    { label: "dogru", detail: "Doğru şıkkın harfi", apply: 'dogru: "A", ' },
-    { label: "karistir", detail: "Sınavda karıştırılsın mı", apply: "karistir: true, " },
-  ],
-  "dogru-yanlis": [{ label: "dogru", detail: "true / false", apply: "dogru: true" }],
-  bosluk: [
-    { label: "cevap", detail: "Kabul edilen cevaplar, | ile", apply: 'cevap: "", ' },
-    { label: "width", detail: "Çizgi genişliği", apply: "width: 4cm" },
-  ],
-  "cevap-alani": [{ label: "satir", detail: "Çizgi sayısı", apply: "satir: 6" }],
-};
+  return {
+    label: `#${sym.name}`,
+    detail,
+    info: sym.summary || undefined,
+    type: sym.kind === "tayan" ? "keyword" : "function",
+    apply: sym.params.length > 0 ? `#${sym.name}()` : `#${sym.name}`,
+  };
+}
 
-/** İmlecin içinde bulunduğu, henüz kapanmamış kalıp çağrısının adı. */
+/** İmlecin içinde bulunduğu, henüz kapanmamış çağrının adı. */
 function enclosingCall(text: string): string | null {
   let depth = 0;
   for (let i = text.length - 1; i >= 0; i -= 1) {
@@ -241,7 +208,7 @@ function enclosingCall(text: string): string | null {
     else if (ch === "(") {
       if (depth === 0) {
         const before = text.slice(0, i);
-        const match = before.match(/#([a-zA-Z][\w-]*)$/);
+        const match = before.match(/#?([a-zA-Z][\w-]*)$/);
         return match ? match[1] : null;
       }
       depth -= 1;
@@ -250,29 +217,54 @@ function enclosingCall(text: string): string | null {
   return null;
 }
 
-function tayanCompletions(context: CompletionContext) {
+async function tayanCompletions(context: CompletionContext) {
   const upto = context.state.sliceDoc(0, context.pos);
-  const call = enclosingCall(upto);
+  const symbols = [...(await typstSymbols()), ...localDefinitions(context.state.doc.toString())];
 
-  if (call && PARAMS[call]) {
-    const word = context.matchBefore(/[a-zA-Z-]*/);
-    if (!word) return null;
+  // 1) Bir çağrının içindeysek PARAMETRE öner — yanlış parametre adı bu
+  //    ekranda en sık yapılan hatalardan biri.
+  const call = enclosingCall(upto);
+  if (call) {
+    const target = symbols.find((s) => s.name === call);
+    if (target && target.params.length > 0) {
+      const word = context.matchBefore(/[a-zA-Z-]*/);
+      if (word) {
+        return {
+          from: word.from,
+          options: target.params.map((p) => ({
+            label: p,
+            type: "property",
+            detail: `${call} parametresi`,
+            apply: `${p}: `,
+          })),
+        };
+      }
+    }
+  }
+
+  const math = inMathMode(upto);
+
+  // 2) Matematik kipinde # yok, sade ad yazılır.
+  if (math) {
+    const word = context.matchBefore(/[a-zA-Z][\w.-]*/);
+    if (!word || (word.from === word.to && !context.explicit)) return null;
     return {
       from: word.from,
-      options: PARAMS[call].map((p) => ({ ...p, type: "property" })),
+      options: symbols.filter((s) => s.math).map((s) => toCompletion(s, true)),
     };
   }
 
-  const word = context.matchBefore(/[#$][\w-]*/);
+  // 3) Kip dışında: önce kalıplar, sonra kütüphanenin tamamı.
+  const word = context.matchBefore(/#[\w-]*/);
   if (!word || (word.from === word.to && !context.explicit)) return null;
 
   return {
     from: word.from,
     options: [
-      ...TAYAN_HELPERS.map((o) => ({ ...o, type: "function" })),
-      ...TYPST_BASICS.map((o) => ({ ...o, type: "function" })),
-      ...MATH_SNIPPETS.map((o) => ({ ...o, type: "keyword" })),
-      ...GREEK.map((o) => ({ ...o, type: "constant" })),
+      ...TEMPLATES.map((t) => ({ ...t, type: "keyword", boost: 99 })),
+      ...symbols
+        .filter((s) => !s.math && s.kind !== "value" && s.kind !== "module")
+        .map((s) => toCompletion(s, false)),
     ],
   };
 }

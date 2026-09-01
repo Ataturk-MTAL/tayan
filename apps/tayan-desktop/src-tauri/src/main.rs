@@ -100,6 +100,7 @@ fn main() {
             commands::analysis::compile_typst_preview,
             commands::analysis::compile_typst_preview_svg,
             commands::analysis::compile_question_preview_svg,
+            commands::analysis::typst_symbols,
             // Images
             commands::image::save_image,
         ])

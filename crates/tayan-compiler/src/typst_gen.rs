@@ -61,6 +61,11 @@ impl TypstGenerator {
         PREAMBLE.lines().count()
     }
 
+    /// Şablonun önsözü. Sembol dökümü buradan kendi yardımcılarını okur.
+    pub fn preamble() -> &'static str {
+        PREAMBLE
+    }
+
     pub fn preview_document(body: &str) -> String {
         format!("{PREAMBLE}{body}\n")
     }
