@@ -3,6 +3,7 @@
   import { page } from "$app/state";
   import PenButton from "$lib/components/shell/PenButton.svelte";
   import BudgetGauge from "$lib/components/measure/BudgetGauge.svelte";
+  import QuestionStrip from "$lib/components/measure/QuestionStrip.svelte";
   import SheetPreview from "$lib/components/question/SheetPreview.svelte";
   import { api } from "$lib/api";
   import { errorText } from "$lib/editor/diagnostics";
@@ -135,6 +136,8 @@
         </PenButton>
       </div>
     </div>
+
+    <QuestionStrip questions={selected} />
 
     <div class="ruled-bottom flex shrink-0 flex-wrap items-center gap-rule bg-paper px-rule py-half paper-plain">
       <BudgetGauge label="Puan" value={totalPoints} target={POINT_TARGET} unit="puan" />
