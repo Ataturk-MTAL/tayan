@@ -87,11 +87,23 @@ jobs:
           tagName: ${{ github.ref_name }}
           releaseName: TAYAN ${{ github.ref_name }}
           releaseBody: |
-            Değişiklikler için commit geçmişine bakınız.
+            ## Ön sürüm — üretim için değil
 
-            **Paketler imzasız.** macOS'ta ilk açılışta sağ tık > Aç,
-            Windows'ta SmartScreen uyarısında "Yine de çalıştır" gerekir.
-          # Taslak: yapı çıktıları gözden geçirilmeden yayımlanmaz.
-          releaseDraft: true
-          prerelease: false
+            TAYAN henüz tamamlanmadı. Bilinen eksikler:
+
+            - **Sonuç girişi arayüzü yok.** Sınav sonuçları girilemediği için
+              madde analizi (güçlük, ayırt edicilik) hiçbir soruda oluşmaz.
+            - **Paketler imzasız.** macOS'ta ilk açılışta sağ tık > Aç,
+              Windows'ta SmartScreen uyarısında "Yine de çalıştır" gerekir.
+            - Soru bankası listesi soruları dizgi olarak değil ham Typst
+              kaynağı olarak gösteriyor.
+
+            Veriler yereldir (SQLite) ve uygulama tamamen çevrimdışı çalışır.
+            Denemek isteyenler için; sınıfta kullanmadan önce yedek alın.
+
+            Değişiklikler için commit geçmişine bakınız.
+          # Ön sürüm ve taslak DEĞİL: etiket atıldığında doğrudan yayımlanır.
+          # Ön sürüm işareti, bunun denenmek için olduğunu listede görünür kılar.
+          releaseDraft: false
+          prerelease: true
           args: ${{ matrix.target && format('--target {0}', matrix.target) || '' }}
