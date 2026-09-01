@@ -8,7 +8,7 @@ use tayan_core::{
             AddClassicQuestion, AddFillInBlankQuestion,
             AddMultipleChoiceQuestion, AddTrueFalseQuestion,
         },
-        ports::QuestionBankRepository,
+        ports::{ExamRepository, QuestionBankRepository},
     },
     domain::exam_management::{
         entities::{
@@ -142,9 +142,35 @@ pub async fn delete_question(
     state:       State<'_, Mutex<AppState>>,
     question_id: String,
 ) -> Result<(), String> {
-    let st  = state.lock().await;
+    let st = state.lock().await;
+    let id = QuestionId(Uuid::parse_str(&question_id).map_err(|e| e.to_string())?);
+
+    // Soru bir sınavda kullanılıyorsa silme REDDEDİLİR.
+    //
+    // Alternatif, sınavlardan atfı sessizce çıkarmaktı. Daha kötü: yayımlanmış
+    // bir sınavın içeriği öğretmen görmeden değişir, toplam puan düşer ve kâğıt
+    // beklenenden eksik basılır. Silmeyi reddedip hangi sınavlarda kullanıldığını
+    // söylemek, kararı öğretmene bırakır.
+    //
+    // Bunun engellenmediği durumda ne olduğu görülebilir: sınav kaydı bankada
+    // karşılığı olmayan bir kimliğe atıf yapar ve arayüz onu "bankada yok" diye
+    // göstermek zorunda kalır.
+    let exams = st.exams.list(0, u32::MAX).await.map_err(|e| e.to_string())?;
+    let kullanan: Vec<String> = exams
+        .iter()
+        .filter(|exam| exam.questions.iter().any(|q| q.question_id == id))
+        .map(|exam| exam.meta.title.clone())
+        .collect();
+
+    if !kullanan.is_empty() {
+        return Err(format!(
+            "Bu soru {} sınavda kullanılıyor: {}. Önce sınavlardan çıkar, sonra sil.",
+            kullanan.len(),
+            kullanan.join(", ")
+        ));
+    }
+
     let mut bank = st.bank.load().await.map_err(|e| e.to_string())?;
-    let id  = QuestionId(Uuid::parse_str(&question_id).map_err(|e| e.to_string())?);
     bank.remove_question(&id).map_err(|e| e.to_string())?;
     st.bank.save(&bank).await.map_err(|e| e.to_string())?;
     Ok(())
