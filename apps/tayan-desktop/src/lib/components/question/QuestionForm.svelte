@@ -1,6 +1,8 @@
 <script lang="ts">
   import QuestionEditor from "./QuestionEditor.svelte";
   import { typstBody } from "$lib/question/body";
+  import { STARTER_SUBJECTS, subjectSuggestions } from "$lib/question/subjects";
+  import { onMount } from "svelte";
   import type { ContentNode } from "$lib/types";
   import {
     parseOptions,
@@ -78,6 +80,21 @@
     if (!Number.isFinite(meta.grade) || meta.grade < MIN_GRADE || meta.grade > MAX_GRADE)
       return `Sınıf seviyesi ${MIN_GRADE} ile ${MAX_GRADE} arasında olmalı.`;
     return null;
+  });
+
+  /**
+   * Ders önerileri: bankada gerçekten kullanılanlar önce, sonra başlangıç
+   * listesi. Banka okunamazsa yalnız başlangıç listesiyle devam edilir —
+   * öneri listesi çalışmazsa soru yazmak durmamalı.
+   */
+  let subjectOptions = $state<string[]>(STARTER_SUBJECTS);
+
+  onMount(async () => {
+    try {
+      subjectOptions = subjectSuggestions(await api.questions.list());
+    } catch {
+      // Başlangıç listesi zaten yüklü.
+    }
   });
 
   let saving = $state(false);
@@ -282,6 +299,7 @@
       {stats}
       structureError={structureError ?? metaError}
       {meta}
+      {subjectOptions}
       onmetachange={(next) => (meta = next)}
       {saving}
       saveLabel={saving ? "Kaydediliyor…" : existing ? "Güncelle" : "Kaydet"}

@@ -20,6 +20,7 @@
     stats?: QuestionStats | null;
     structureError: string | null;
     meta: QuestionMeta;
+    subjectOptions: string[];
     onmetachange: (next: QuestionMeta) => void;
     saving: boolean;
     saveLabel: string;
@@ -40,6 +41,7 @@
     stats = null,
     structureError,
     meta,
+    subjectOptions,
     onmetachange,
     saving,
     saveLabel,
@@ -151,6 +153,7 @@
       {stats}
       {structureError}
       {meta}
+      {subjectOptions}
       {onmetachange}
       {onquestiontypechange}
       {onoutcometextchange}

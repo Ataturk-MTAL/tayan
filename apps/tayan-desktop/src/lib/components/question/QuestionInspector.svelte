@@ -13,6 +13,8 @@
    * geri çağrıyla döner. Panel kendi kopyasını tutsa iki doğru kaynak olurdu.
    */
   import RuledField from "../shell/RuledField.svelte";
+  import Combobox from "../shell/Combobox.svelte";
+  import { GRADE_OPTIONS } from "$lib/question/subjects";
   import {
     DIFFICULTY_LABELS,
     MAX_GRADE,
@@ -35,6 +37,8 @@
     structureError: string | null;
     /** Ders, sınıf seviyesi, zorluk. İlk ikisi zorunlu. */
     meta: QuestionMeta;
+    /** Bankada kullanılan dersler + başlangıç listesi. */
+    subjectOptions: string[];
     onmetachange: (next: QuestionMeta) => void;
     onquestiontypechange: (value: QuestionType) => void;
     onoutcometextchange: (value: string) => void;
@@ -48,6 +52,7 @@
     stats,
     structureError,
     meta,
+    subjectOptions,
     onmetachange,
     onquestiontypechange,
     onoutcometextchange,
@@ -106,7 +111,16 @@
     !Number.isFinite(meta.grade) || meta.grade < MIN_GRADE || meta.grade > MAX_GRADE,
   );
 
-  const ZORLUKLAR: Difficulty[] = ["kolay", "orta", "zor"];
+  const ZORLUK_SECENEKLERI = (["kolay", "orta", "zor"] as Difficulty[]).map((z) => ({
+    value: z,
+    label: DIFFICULTY_LABELS[z],
+  }));
+
+  let tipSecenekleri = $derived(
+    Object.entries(QUESTION_TYPE_LABELS).map(([value, label]) => ({ value, label })),
+  );
+
+  let dersSecenekleri = $derived(subjectOptions.map((s) => ({ value: s, label: s })));
 
   function pct(n: number): string {
     return `${Math.round(n * 100)}%`;
@@ -116,23 +130,21 @@
 <div class="flex flex-col gap-rule">
   <div class="flex flex-col gap-half">
     <RuledField label="Soru tipi">
-      <select
+      <Combobox
         value={questionType}
-        onchange={(e) => onquestiontypechange(e.currentTarget.value as QuestionType)}
-      >
-        {#each Object.entries(QUESTION_TYPE_LABELS) as [value, label]}
-          <option {value}>{label}</option>
-        {/each}
-      </select>
+        options={tipSecenekleri}
+        onchange={(v) => onquestiontypechange(v as QuestionType)}
+      />
     </RuledField>
 
     <RuledField label="Ders" hint={dersEksik ? "Zorunlu" : null}>
-      <input
-        type="text"
+      <Combobox
         value={meta.subject}
+        options={dersSecenekleri}
+        allowCustom
         placeholder="Matematik"
-        aria-invalid={dersEksik}
-        oninput={(e) => onmetachange({ ...meta, subject: e.currentTarget.value })}
+        invalid={dersEksik}
+        onchange={(v) => onmetachange({ ...meta, subject: v })}
       />
     </RuledField>
 
@@ -140,31 +152,22 @@
       label="Sınıf seviyesi"
       hint={seviyeEksik ? `Zorunlu — ${MIN_GRADE} ile ${MAX_GRADE} arası` : null}
     >
-      <input
-        type="number"
-        min={MIN_GRADE}
-        max={MAX_GRADE}
-        value={meta.grade === 0 ? "" : meta.grade}
-        placeholder="9"
-        aria-invalid={seviyeEksik}
-        oninput={(e) => onmetachange({ ...meta, grade: Number(e.currentTarget.value) })}
+      <Combobox
+        value={meta.grade === 0 ? "" : String(meta.grade)}
+        options={GRADE_OPTIONS}
+        placeholder="Seç"
+        invalid={seviyeEksik}
+        onchange={(v) => onmetachange({ ...meta, grade: Number(v) })}
       />
     </RuledField>
 
     <RuledField label="Zorluk" hint="İsteğe bağlı — ölçüm gelince gerçeği görürsün">
-      <select
+      <Combobox
         value={meta.difficulty ?? ""}
-        onchange={(e) =>
-          onmetachange({
-            ...meta,
-            difficulty: e.currentTarget.value === "" ? null : (e.currentTarget.value as Difficulty),
-          })}
-      >
-        <option value="">Belirtilmedi</option>
-        {#each ZORLUKLAR as z}
-          <option value={z}>{DIFFICULTY_LABELS[z]}</option>
-        {/each}
-      </select>
+        options={ZORLUK_SECENEKLERI}
+        emptyLabel="Belirtilmedi"
+        onchange={(v) => onmetachange({ ...meta, difficulty: v === "" ? null : (v as Difficulty) })}
+      />
     </RuledField>
 
     <RuledField label="Kazanım" hint="Boşluk veya virgülle ayır — MAT.9.1.2">
