@@ -157,11 +157,24 @@ export const api = {
     generateTypst: (examId: string, answerKey: boolean, booklet: string | null = null) =>
       invoke<string>("generate_exam_pdf", { examId, answerKey, booklet }),
 
-    exportPdf: (examId: string, answerKey: boolean, booklet: string | null = null) =>
-      invoke<string>("export_exam_pdf", { examId, answerKey, booklet }),
+    /**
+     * Sınavı PDF'e derler ve `path`e YAZAR; yazılan yolu döndürür.
+     * Yolu ön yüz kaydetme diyaloğundan alır — nereye kaydedileceği
+     * öğretmenin kararıdır.
+     */
+    exportPdf: (
+      examId: string,
+      answerKey: boolean,
+      booklet: string | null,
+      path: string,
+    ) => invoke<string>("export_exam_pdf", { examId, answerKey, booklet, path }),
 
-    exportTypstFile: (examId: string, answerKey: boolean, booklet: string | null = null) =>
-      invoke<string>("export_typst_file", { examId, answerKey, booklet }),
+    exportTypstFile: (
+      examId: string,
+      answerKey: boolean,
+      booklet: string | null,
+      path: string,
+    ) => invoke<string>("export_typst_file", { examId, answerKey, booklet, path }),
 
     previewTypst: (source: string) =>
       invoke<string>("compile_typst_preview", { source }),

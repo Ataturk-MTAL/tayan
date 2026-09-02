@@ -196,6 +196,7 @@
     { id: "kisayol", ad: "Kısayollar" },
     { id: "kazanim", ad: "Kazanım kodu" },
     { id: "hata", ad: "Hata mesajları" },
+    { id: "yayin", ad: "Yayınla ve PDF kaydet" },
     { id: "veri", ad: "Verilerim nerede" },
   ];
 </script>
@@ -462,6 +463,39 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
             <p class="annot mt-half">{lspError}</p>
           {/if}
         </div>
+
+        <h2 id="yayin" class="mt-rule border-t border-rule-strong pt-half">
+          Yayınla ve PDF kaydet
+        </h2>
+        <p class="mt-quarter leading-rule">
+          İkisi farklı işler yapar ve birbirinin yerine geçmez.
+        </p>
+
+        <dl class="ruled mt-half p-half">
+          <dt class="stamp">Yayınla</dt>
+          <dd class="mt-quarter leading-rule">
+            Sınavın durumunu <span class="font-mono">Taslak</span> yerine
+            <span class="font-mono">Yayında</span> yapar. Kâğıt basmaz, dosya
+            üretmez. Anlamı şudur: <strong>bu sınav artık hazır</strong> — soru
+            listesi ve puanlar dondurulmuş sayılır, sonuç girilebilir. Analiz
+            ekranı yalnız yayımlanmış sınavları hazır seçenek olarak alır.
+          </dd>
+
+          <dt class="stamp mt-half">PDF kaydet</dt>
+          <dd class="mt-quarter leading-rule">
+            Kâğıdı derler ve <strong>senin seçtiğin yere</strong> bir PDF dosyası
+            yazar. Sınavın durumuna dokunmaz; taslak bir sınavın da PDF'i alınır.
+            Yazıcıya gidecek olan budur.
+          </dd>
+        </dl>
+
+        <p class="pencil mt-half">
+          Sıralama şöyle olur: soruları ekle, puanları ayarla, kâğıdı önizle,
+          <strong>PDF kaydet</strong> ile bas, ve sınav uygulanmaya hazır olduğunda
+          <strong>Yayınla</strong> de. Cevap anahtarı ayrı bir PDF'tir:
+          <span class="font-mono">Cevap anahtarı</span> kutusunu işaretleyip tekrar
+          kaydet.
+        </p>
 
         <h2 id="veri" class="mt-rule border-t border-rule-strong pt-half">Verilerim nerede</h2>
         <p class="mt-quarter leading-rule">

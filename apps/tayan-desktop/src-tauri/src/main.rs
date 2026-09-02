@@ -12,6 +12,7 @@ use state::AppState;
 
 fn main() {
     tauri::Builder::default()
+        .plugin(tauri_plugin_dialog::init())
         .setup(|app| {
             // Font künye kaydını arka planda kur. Ölçüm: 510 aile için 2,7-4,4 s.
             // Tembel bırakılırsa bu süre öğretmenin ilk tuş vuruşuna biner ve

@@ -22,6 +22,7 @@ ureq = { version = "2", features = ["json"] }
 tar = "0.4"
 flate2 = "1"
 sha2 = "0.10"
+tauri-plugin-dialog = "2.7.3"
 
 [build-dependencies]
 tauri-build = { workspace = true }

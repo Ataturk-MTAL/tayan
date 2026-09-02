@@ -92,13 +92,18 @@ pub async fn generate_exam_pdf(
         .map_err(|e| e.to_string())
 }
 
-/// Compiles the exam to PDF via Typst and returns the raw bytes as a Base64 string.
+/// Sınavı PDF'e derler ve ÖĞRETMENİN SEÇTİĞİ yola yazar.
+///
+/// Önceden base64 dizesi döndürüyordu ve ön yüz onu bir dosya yolu sanıp ekrana
+/// basıyordu: "PDF kaydedildi: JVBERi0xLjcK...". Fonksiyonun adı kaydetmek
+/// diyordu ama hiçbir şey kaydetmiyordu.
 #[tauri::command]
 pub async fn export_exam_pdf(
     state:      State<'_, Mutex<AppState>>,
     exam_id:    String,
     answer_key: bool,
     booklet:    Option<String>,
+    path:       String,
 ) -> Result<String, String> {
     let st  = state.lock().await;
     let eid = uuid::Uuid::parse_str(&exam_id).map(ExamId).map_err(|e| e.to_string())?;
@@ -122,18 +127,25 @@ pub async fn export_exam_pdf(
     let pdf_bytes = tayan_compiler::TayanWorld::compile_pdf(source)
         .map_err(|e| e.to_string())?;
 
-    use base64::Engine as _;
-    Ok(base64::engine::general_purpose::STANDARD.encode(&pdf_bytes))
+    // Dosyayı GERÇEKTEN yaz. Önceden base64 dönüyordu ve ön yüz onu yol sanıp
+    // ekrana basıyordu: "PDF kaydedildi: JVBERi0xLjcK..." Fonksiyonun adı
+    // kaydetmek diyordu ama hiçbir şey kaydetmiyordu.
+    std::fs::write(&path, &pdf_bytes).map_err(|e| format!("PDF yazılamadı: {e}"))?;
+    Ok(path)
 }
 
-/// Generates a Typst file and saves it to the Downloads (or Desktop) folder.
-/// Returns the absolute path to the saved file.
+/// Typst kaynağını ÖĞRETMENİN SEÇTİĞİ yola yazar.
+///
+/// Önceden İndirilenler klasörüne sormadan yazıyordu: dosya bir yerlere düşüyor,
+/// öğretmen nereye gittiğini ancak yol metnini okuyarak öğreniyordu. Kaydetme
+/// yeri kullanıcının kararıdır.
 #[tauri::command]
 pub async fn export_typst_file(
     state:      State<'_, Mutex<AppState>>,
     exam_id:    String,
     answer_key: bool,
     booklet:    Option<String>,
+    path:       String,
 ) -> Result<String, String> {
     let st  = state.lock().await;
     let eid = uuid::Uuid::parse_str(&exam_id).map(ExamId).map_err(|e| e.to_string())?;
@@ -154,25 +166,8 @@ pub async fn export_typst_file(
     let source = tayan_compiler::typst_gen::TypstGenerator::generate_exam(&exam, &questions, ctx)
         .map_err(|e| e.to_string())?;
 
-    let base_dir = dirs_next::download_dir()
-        .or_else(dirs_next::desktop_dir)
-        .ok_or_else(|| "İndirme klasörü bulunamadı".to_string())?;
-
-    let slug: String = exam.meta.title
-        .chars()
-        .map(|c| if c.is_alphanumeric() { c } else { '_' })
-        .collect::<String>()
-        .trim_matches('_')
-        .to_string();
-    let slug = if slug.is_empty() { "sinav".to_string() } else { slug };
-
-    let ts     = chrono::Local::now().format("%Y%m%d_%H%M%S");
-    let suffix = if answer_key { "_cevap" } else { "" };
-    let filename = format!("{}{}__{}.typ", slug, suffix, ts);
-    let path = base_dir.join(&filename);
-
-    std::fs::write(&path, source).map_err(|e| e.to_string())?;
-    Ok(path.display().to_string())
+    std::fs::write(&path, source).map_err(|e| format!("Dosya yazılamadı: {e}"))?;
+    Ok(path)
 }
 
 /// Compiles an arbitrary Typst source to PDF and returns Base64 bytes.

@@ -7,6 +7,8 @@
   import SheetPreview from "$lib/components/question/SheetPreview.svelte";
   import SelectBox from "$lib/components/shell/SelectBox.svelte";
   import RuledField from "$lib/components/shell/RuledField.svelte";
+  import { save } from "@tauri-apps/plugin-dialog";
+  import { examFileName } from "$lib/exam/filename";
   import { api } from "$lib/api";
   import { errorText } from "$lib/editor/diagnostics";
   import { bodySource } from "$lib/question/body";
@@ -175,8 +177,16 @@
 
   async function exportPdf() {
     if (!exam) return;
+    // Nereye kaydedileceğini ÖĞRETMEN seçer. Önceden dosya sormadan
+    // İndirilenler'e düşüyordu; daha kötüsü, PDF hiç yazılmıyordu.
+    const hedef = await save({
+      defaultPath: examFileName(exam, { answerKey, booklet, extension: "pdf" }),
+      filters: [{ name: "PDF", extensions: ["pdf"] }],
+    });
+    if (!hedef) return; // vazgeçildi
+
     await run(async () => {
-      const path = await api.compiler.exportPdf(exam!.id, answerKey, booklet);
+      const path = await api.compiler.exportPdf(exam!.id, answerKey, booklet, hedef);
       actionError = `PDF kaydedildi: ${path}`;
     });
   }
