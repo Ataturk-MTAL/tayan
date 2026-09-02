@@ -14,8 +14,13 @@
    */
   import RuledField from "../shell/RuledField.svelte";
   import {
+    DIFFICULTY_LABELS,
+    MAX_GRADE,
+    MIN_GRADE,
     QUESTION_TYPE_LABELS,
+    type Difficulty,
     type Question,
+    type QuestionMeta,
     type QuestionStats,
     type ScoreBadge,
   } from "$lib/types";
@@ -28,6 +33,9 @@
     points: number;
     stats: QuestionStats | null;
     structureError: string | null;
+    /** Ders, sınıf seviyesi, zorluk. İlk ikisi zorunlu. */
+    meta: QuestionMeta;
+    onmetachange: (next: QuestionMeta) => void;
     onquestiontypechange: (value: QuestionType) => void;
     onoutcometextchange: (value: string) => void;
     onpointschange: (value: number) => void;
@@ -39,6 +47,8 @@
     points,
     stats,
     structureError,
+    meta,
+    onmetachange,
     onquestiontypechange,
     onoutcometextchange,
     onpointschange,
@@ -87,6 +97,17 @@
       .filter(Boolean),
   );
 
+  /**
+   * Eksik zorunlu alanlar. Kaydete basılmadan görünür: hatayı ancak kaydetmeye
+   * çalışınca öğrenmek, doldurulmuş bir formu geri çevirmek demektir.
+   */
+  let dersEksik = $derived(meta.subject.trim() === "");
+  let seviyeEksik = $derived(
+    !Number.isFinite(meta.grade) || meta.grade < MIN_GRADE || meta.grade > MAX_GRADE,
+  );
+
+  const ZORLUKLAR: Difficulty[] = ["kolay", "orta", "zor"];
+
   function pct(n: number): string {
     return `${Math.round(n * 100)}%`;
   }
@@ -101,6 +122,47 @@
       >
         {#each Object.entries(QUESTION_TYPE_LABELS) as [value, label]}
           <option {value}>{label}</option>
+        {/each}
+      </select>
+    </RuledField>
+
+    <RuledField label="Ders" hint={dersEksik ? "Zorunlu" : null}>
+      <input
+        type="text"
+        value={meta.subject}
+        placeholder="Matematik"
+        aria-invalid={dersEksik}
+        oninput={(e) => onmetachange({ ...meta, subject: e.currentTarget.value })}
+      />
+    </RuledField>
+
+    <RuledField
+      label="Sınıf seviyesi"
+      hint={seviyeEksik ? `Zorunlu — ${MIN_GRADE} ile ${MAX_GRADE} arası` : null}
+    >
+      <input
+        type="number"
+        min={MIN_GRADE}
+        max={MAX_GRADE}
+        value={meta.grade === 0 ? "" : meta.grade}
+        placeholder="9"
+        aria-invalid={seviyeEksik}
+        oninput={(e) => onmetachange({ ...meta, grade: Number(e.currentTarget.value) })}
+      />
+    </RuledField>
+
+    <RuledField label="Zorluk" hint="İsteğe bağlı — ölçüm gelince gerçeği görürsün">
+      <select
+        value={meta.difficulty ?? ""}
+        onchange={(e) =>
+          onmetachange({
+            ...meta,
+            difficulty: e.currentTarget.value === "" ? null : (e.currentTarget.value as Difficulty),
+          })}
+      >
+        <option value="">Belirtilmedi</option>
+        {#each ZORLUKLAR as z}
+          <option value={z}>{DIFFICULTY_LABELS[z]}</option>
         {/each}
       </select>
     </RuledField>

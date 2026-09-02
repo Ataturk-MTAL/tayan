@@ -73,8 +73,35 @@ export type AnswerSpace =
   | { HeightCm: number }
   | { Grid: { rows: number; cols: number } };
 
+/** Öğretmenin kanaati. Ölçülen güçlük ayrı: QuestionStats.difficulty_index. */
+export type Difficulty = "kolay" | "orta" | "zor";
+
+export const DIFFICULTY_LABELS: Record<Difficulty, string> = {
+  kolay: "Kolay",
+  orta: "Orta",
+  zor: "Zor",
+};
+
+export const MIN_GRADE = 1;
+export const MAX_GRADE = 12;
+
+/**
+ * Sorunun künyesi. Ders ve sınıf seviyesi ZORUNLU — kazanım kodu (MAT.9.1.2)
+ * ikisine bağlı, bilinmeden hangi kazanım listesinin gösterileceği belirlenemez.
+ *
+ * Eski kayıtlarda bu alan yok; Rust tarafı serde(default) ile subject: "",
+ * grade: 0 döndürür. Böyle bir soru yüklenir ve basılır ama yeniden
+ * kaydedilirken doğrulamaya takılır.
+ */
+export type QuestionMeta = {
+  subject: string;
+  grade: number;
+  difficulty: Difficulty | null;
+};
+
 export type MultipleChoiceQuestion = {
   question_type: "multiple_choice";
+  meta: QuestionMeta;
   id: string;
   points: number;
   outcomes: string[];
@@ -86,6 +113,7 @@ export type MultipleChoiceQuestion = {
 
 export type TrueFalseQuestion = {
   question_type: "true_false";
+  meta: QuestionMeta;
   id: string;
   points: number;
   outcomes: string[];
@@ -96,6 +124,7 @@ export type TrueFalseQuestion = {
 
 export type FillInBlankQuestion = {
   question_type: "fill_in_blank";
+  meta: QuestionMeta;
   id: string;
   outcomes: string[];
   body: ContentNode[];
@@ -105,6 +134,7 @@ export type FillInBlankQuestion = {
 
 export type ClassicQuestion = {
   question_type: "classic";
+  meta: QuestionMeta;
   id: string;
   points: number;
   outcomes: string[];

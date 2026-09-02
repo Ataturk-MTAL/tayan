@@ -14,7 +14,9 @@ use tayan_core::domain::exam_management::entities::multiple_choice::{
 };
 use tayan_core::domain::exam_management::entities::question::{Points, Question, QuestionId};
 use tayan_core::domain::exam_management::entities::true_false::TrueFalseQuestion;
-use tayan_core::domain::exam_management::value_objects::{ContentNode, QuestionBody};
+use tayan_core::domain::exam_management::value_objects::{
+    ContentNode, Difficulty, QuestionBody, QuestionMeta,
+};
 use tayan_core::domain::shared::to_typst::TypstContext;
 
 const OUT_DIR: &str =
@@ -54,6 +56,7 @@ fn questions() -> Vec<Question> {
             id:       QuestionId::new(),
             points:   Points::new(25),
             outcomes: vec![],
+            meta:     QuestionMeta::new("Mikrodenetleyici ve Güvenlik", 11, Some(Difficulty::Orta)),
             body:     typst(
                 "$(1011 0110)_2$ sayısının onluk tabandaki karşılığı aşağıdakilerden hangisidir?",
             ),
@@ -72,11 +75,13 @@ fn questions() -> Vec<Question> {
             vec![],
             typst("10 bitlik bir ADC toplam 1024 farklı değer üretebilir."),
             true,
+            QuestionMeta::new("Mikrodenetleyici ve Güvenlik", 11, Some(Difficulty::Kolay)),
         )),
         Question::Classic(ClassicQuestion {
             id:            QuestionId::new(),
             points:        Points::new(25),
             outcomes:      vec![],
+            meta:          QuestionMeta::new("Mikrodenetleyici ve Güvenlik", 11, Some(Difficulty::Zor)),
             body:          typst(
                 "Pin çıkış gerilimi $5 \"V\"$, LED ileri gerilimi $V_F = 2 \"V\"$ ve \
                  LED akımı $I = 10 \"mA\"$ ise seri direnç $R$ değerini hesaplayınız. \
@@ -91,6 +96,7 @@ fn questions() -> Vec<Question> {
             id:            QuestionId::new(),
             points:        Points::new(25),
             outcomes:      vec![],
+            meta:          QuestionMeta::new("Mikrodenetleyici ve Güvenlik", 11, Some(Difficulty::Zor)),
             body:          typst(
                 "$f(x) = 2x + 3$ fonksiyonunun grafiğini çiziniz.\n\n\
                  #cevap-alani(satir: 10, bicim: \"kareli\")",

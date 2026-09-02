@@ -1,5 +1,6 @@
 pub mod content_node;
 pub mod learning_outcome;
+pub mod question_meta;
 pub mod question_stats;
 
 pub use content_node::{
@@ -7,4 +8,5 @@ pub use content_node::{
     MathDisplay, MathNode, QuestionBody, TextNode, TextStyle, TypstRawNode,
 };
 pub use learning_outcome::{LearningOutcome, OutcomeCode};
+pub use question_meta::{Difficulty, QuestionMeta, MAX_GRADE, MIN_GRADE};
 pub use question_stats::{QuestionStats, ScoreBadge};

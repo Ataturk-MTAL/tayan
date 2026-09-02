@@ -11,7 +11,14 @@
   } from "$lib/question/templates";
   import { api } from "$lib/api";
   import { errorText } from "$lib/editor/diagnostics";
-  import { QUESTION_TYPE_LABELS, questionPoints, type Question, type QuestionStats } from "$lib/types";
+  import {
+  MAX_GRADE,
+  MIN_GRADE,
+  questionPoints,
+  type Question,
+  type QuestionMeta,
+  type QuestionStats,
+} from "$lib/types";
   import { goto } from "$app/navigation";
 
   type QuestionType = Question["question_type"];
@@ -53,6 +60,26 @@
   let points = $state(existing ? questionPoints(existing) : DEFAULT_POINTS);
   let outcomeText = $state(existing ? existing.outcomes.join(" ") : "");
 
+  /**
+   * Sorunun künyesi. Var olan soruda kayıtlı değer; yenide boş.
+   *
+   * Eski kayıtlarda bu alan yoktu ve Rust tarafı serde(default) ile
+   * subject: "", grade: 0 döndürür. Böyle bir soru açıldığında alanlar boş
+   * görünür ve kaydetme kilitlenir — öğretmen o an doldurur. Uydurma bir
+   * varsayılan koymak, yanlış kazanım eşleşmesi üretmekten kötüdür.
+   */
+  let meta = $state<QuestionMeta>(
+    existing?.meta ?? { subject: "", grade: 0, difficulty: null },
+  );
+
+  /** Ders ve sınıf seviyesi zorunlu; Rust tarafındaki kuralın aynısı. */
+  let metaError = $derived.by(() => {
+    if (meta.subject.trim() === "") return "Ders alanı boş olamaz.";
+    if (!Number.isFinite(meta.grade) || meta.grade < MIN_GRADE || meta.grade > MAX_GRADE)
+      return `Sınıf seviyesi ${MIN_GRADE} ile ${MAX_GRADE} arasında olmalı.`;
+    return null;
+  });
+
   let saving = $state(false);
   let saveError = $state<string | null>(null);
 
@@ -89,6 +116,7 @@
   function buildUpdated(base: Question, bodyNodes: ContentNode[]): Question {
     const common = {
       id: base.id,
+      meta,
       outcomes,
       body: bodyNodes,
       stats: base.stats,
@@ -147,6 +175,11 @@
   }
 
   async function save() {
+    if (metaError !== null) {
+      saveError = metaError;
+      return;
+    }
+
     if (structureError !== null) {
       saveError = structureError;
       return;
@@ -171,6 +204,7 @@
           shuffle: boolean;
         };
         await api.questions.addMultipleChoice({
+          meta,
           points,
           outcomes,
           body: bodyNodes,
@@ -183,6 +217,7 @@
         });
       } else if (questionType === "true_false") {
         await api.questions.addTrueFalse({
+          meta,
           points,
           outcomes,
           body: bodyNodes,
@@ -191,6 +226,7 @@
       } else if (questionType === "fill_in_blank") {
         const blanks = parsed as Array<{ accepted: string[] }>;
         await api.questions.addFillInBlank({
+          meta,
           outcomes,
           body: bodyNodes,
           blanks: blanks.map((b, i) => ({
@@ -201,6 +237,7 @@
         });
       } else {
         await api.questions.addClassic({
+          meta,
           points,
           outcomes,
           body: bodyNodes,
@@ -243,7 +280,9 @@
       {outcomeText}
       {points}
       {stats}
-      {structureError}
+      structureError={structureError ?? metaError}
+      {meta}
+      onmetachange={(next) => (meta = next)}
       {saving}
       saveLabel={saving ? "Kaydediliyor…" : existing ? "Güncelle" : "Kaydet"}
       onbodychange={(next) => (body = next)}

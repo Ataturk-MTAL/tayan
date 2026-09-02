@@ -2,7 +2,7 @@ use serde::{Deserialize, Serialize};
 use uuid::Uuid;
 
 use crate::domain::exam_management::value_objects::{
-    OutcomeCode, QuestionBody, QuestionStats,
+    OutcomeCode, QuestionBody, QuestionMeta, QuestionStats,
 };
 use super::{
     multiple_choice::MultipleChoiceQuestion,
@@ -122,6 +122,25 @@ impl Question {
         }
     }
 
+    /// Sorunun künyesi: ders, sınıf seviyesi, zorluk.
+    pub fn meta(&self) -> &QuestionMeta {
+        match self {
+            Question::MultipleChoice(q) => &q.meta,
+            Question::TrueFalse(q)      => &q.meta,
+            Question::FillInBlank(q)    => &q.meta,
+            Question::Classic(q)        => &q.meta,
+        }
+    }
+
+    pub fn meta_mut(&mut self) -> &mut QuestionMeta {
+        match self {
+            Question::MultipleChoice(q) => &mut q.meta,
+            Question::TrueFalse(q)      => &mut q.meta,
+            Question::FillInBlank(q)    => &mut q.meta,
+            Question::Classic(q)        => &mut q.meta,
+        }
+    }
+
     pub fn question_type_label(&self) -> &'static str {
         match self {
             Question::MultipleChoice(_) => "multiple_choice",
@@ -132,6 +151,10 @@ impl Question {
     }
 
     pub fn validate(&self) -> Result<(), crate::domain::shared::errors::DomainError> {
+        // Künye kuralı burada, tek yerde. Dört varyanta kopyalansaydı
+        // biri güncellenip diğerleri unutulurdu.
+        self.meta().validate()?;
+
         match self {
             Question::MultipleChoice(q) => q.validate(),
             Question::TrueFalse(q)      => q.validate(),

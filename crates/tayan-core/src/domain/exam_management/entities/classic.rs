@@ -1,5 +1,6 @@
 use serde::{Deserialize, Serialize};
 use crate::domain::exam_management::value_objects::{
+    QuestionMeta,
     OutcomeCode, QuestionBody, QuestionStats,
 };
 use super::question::{Points, QuestionId};
@@ -26,6 +27,10 @@ pub struct RubricItem {
 /// Classic / open-ended question. Scored manually by the teacher.
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct ClassicQuestion {
+    /// Ders, sınıf seviyesi ve zorluk. Eski kayıtlarda yok; serde(default)
+    /// ile boş gelir ve yeniden kaydedilirken doğrulamaya takılır.
+    #[serde(default)]
+    pub meta:     QuestionMeta,
     pub id:           QuestionId,
     pub points:       Points,
     pub outcomes:     Vec<OutcomeCode>,
