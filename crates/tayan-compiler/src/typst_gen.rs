@@ -88,6 +88,25 @@ impl TypstGenerator {
     pub fn preview_document(body: &str) -> String {
         format!("{PREAMBLE}{body}\n")
     }
+
+    /// Banka kartı için küçük resim belgesi.
+    ///
+    /// preview_document A4 üretir çünkü önsöz `page(paper: "a4")` diyor ve
+    /// editörde doğrusu budur — öğretmen basılacak kâğıdı görmeli. Ama 300 px
+    /// genişliğinde bir kartta A4'ün %95'i boş kalır ve soru okunmaz.
+    ///
+    /// Burada sayfa YENİDEN tanımlanıyor: genişlik sabit, yükseklik içeriğe
+    /// göre. Böylece kart tam sorunun kapladığı kadar yer tutar.
+    ///
+    /// Genişlik 10cm sabit, `auto` değil: değişken genişlik satır kırılmasını
+    /// karta göre değiştirir ve aynı soru iki farklı kartta farklı görünür.
+    /// Yazı 9pt — A4'teki 11pt bu genişlikte kart için fazla iri.
+    pub fn thumbnail_document(body: &str) -> String {
+        format!(
+            "{PREAMBLE}#set page(width: 10cm, height: auto, margin: 6mm)\n\
+             #set text(size: 9pt)\n{body}\n"
+        )
+    }
 }
 
 fn escape_typst(s: &str) -> String {

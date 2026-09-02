@@ -103,6 +103,7 @@ fn main() {
             commands::analysis::compile_typst_preview,
             commands::analysis::compile_typst_preview_svg,
             commands::analysis::compile_question_preview_svg,
+            commands::analysis::compile_question_thumbnail,
             commands::analysis::typst_symbols,
             commands::analysis::lsp_complete,
             commands::analysis::lsp_status,

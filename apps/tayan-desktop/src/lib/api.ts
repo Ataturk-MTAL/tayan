@@ -175,6 +175,13 @@ export const api = {
      */
     previewQuestion: (body: string) =>
       invoke<string[]>("compile_question_preview_svg", { body }),
+
+    /**
+     * Banka kartı için tek SVG. Sayfa içeriğe göre boyutlanır — tam A4
+     * değil, çünkü 300 px'lik bir kartta A4'ün %95'i boş kalırdı.
+     */
+    questionThumbnail: (body: string) =>
+      invoke<string>("compile_question_thumbnail", { body }),
   },
 
   lsp: {
