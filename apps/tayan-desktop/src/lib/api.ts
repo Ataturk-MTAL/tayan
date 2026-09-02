@@ -7,6 +7,7 @@ import type {
   ExamResult,
   Question,
   QuestionAnswerInput,
+  QuestionMeta,
   QuestionOption,
   Student,
 } from "./types";
@@ -35,6 +36,7 @@ export const api = {
     list: () => invoke<Question[]>("list_questions"),
 
     addMultipleChoice: (p: {
+      meta: QuestionMeta;
       points: number;
       outcomes: string[];
       body: ContentNode[];
@@ -43,6 +45,7 @@ export const api = {
     }) => invoke<string>("add_multiple_choice_question", { payload: p }),
 
     addTrueFalse: (p: {
+      meta: QuestionMeta;
       points: number;
       outcomes: string[];
       body: ContentNode[];
@@ -50,12 +53,14 @@ export const api = {
     }) => invoke<string>("add_true_false_question", { payload: p }),
 
     addFillInBlank: (p: {
+      meta: QuestionMeta;
       outcomes: string[];
       body: ContentNode[];
       blanks: Array<{ id: string; accepted_answers: string[]; points: number }>;
     }) => invoke<string>("add_fill_in_blank_question", { payload: p }),
 
     addClassic: (p: {
+      meta: QuestionMeta;
       points: number;
       outcomes: string[];
       body: ContentNode[];
@@ -170,6 +175,13 @@ export const api = {
      */
     previewQuestion: (body: string) =>
       invoke<string[]>("compile_question_preview_svg", { body }),
+
+    /**
+     * Banka kartı için tek SVG. Sayfa içeriğe göre boyutlanır — tam A4
+     * değil, çünkü 300 px'lik bir kartta A4'ün %95'i boş kalırdı.
+     */
+    questionThumbnail: (body: string) =>
+      invoke<string>("compile_question_thumbnail", { body }),
   },
 
   lsp: {

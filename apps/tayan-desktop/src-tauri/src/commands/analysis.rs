@@ -24,14 +24,35 @@ pub async fn enter_exam_results(
     let sid = uuid::Uuid::parse_str(&student_id).map(StudentId).map_err(|e| e.to_string())?;
 
     let bank = st.bank.load().await.map_err(|e| e.to_string())?;
-    let mut result = ExamResult::new(eid, sid, total_max);
+    let mut result = ExamResult::new(eid.clone(), sid, total_max);
 
     tayan_core::domain::assessment::services::ScoringService::auto_score(
         &mut result, answers, &bank,
     );
 
     result.is_complete = true;
-    st.results.save(&result).await.map_err(|e| e.to_string())
+    st.results.save(&result).await.map_err(|e| e.to_string())?;
+
+    // Madde analizi burada doğar.
+    //
+    // QuestionStatsUpdater yazılmıştı ama hiçbir yerden ÇAĞRILMIYORDU: sonuç
+    // giriliyor, kaydediliyor, ama sorunun istatistiği sıfır kalıyordu. Ölçüm
+    // panelinde her soru sonsuza dek "Denenmemiş" görünüyordu.
+    //
+    // Ayrı bir "analizi tamamla" düğmesi KOYULMADI. Öğretmenin hatırlaması
+    // gereken bir adım, unutulduğunda sessizce yanlış veri bırakır. Her kayıttan
+    // sonra sınavın TÜM sonuçlarından yeniden hesaplanıyor; 30 öğrenci × 10 soru
+    // bellekte önemsiz bir iş ve istatistik her an tutarlı kalıyor.
+    //
+    // Ayırt edicilik (discrimination_index) 6'dan az cevapta 0 döner — üst ve
+    // alt %27 dilimleri anlamlı olmaz. Yani ilk birkaç öğrenciden sonra bu değer
+    // hâlâ 0 görünecek; bu hata değil, istatistiğin dürüstlüğü.
+    let results = st.results.list_by_exam(&eid).await.map_err(|e| e.to_string())?;
+    let mut bank = st.bank.load().await.map_err(|e| e.to_string())?;
+    tayan_core::domain::assessment::services::QuestionStatsUpdater::update_from_results(
+        &mut bank, &results,
+    );
+    st.bank.save(&bank).await.map_err(|e| e.to_string())
 }
 
 #[tauri::command]
@@ -286,6 +307,22 @@ mod diagnostic_shift_tests {
 /// Editörün otomatik tamamlaması bunu kullanır. Elle yazılmış bir liste iki
 /// yönden bozulurdu: Typst sürümü değişince eskir, ve baştan eksik kalır.
 /// Ölçülen döküm: 554 sembol (133 işlev, 300 sembol, 397'si matematik kipi).
+/// Banka kartı için tek SVG. Tam A4 değil: sayfa içeriğe göre boyutlanır.
+///
+/// Ayrı komut, çünkü ayrı belge: compile_question_preview_svg editörün A4
+/// önizlemesini üretir ve öyle kalmalı — öğretmen orada basılacak kâğıdı görür.
+#[tauri::command]
+pub async fn compile_question_thumbnail(body: String) -> Result<String, String> {
+    tokio::task::spawn_blocking(move || {
+        let source = tayan_compiler::typst_gen::TypstGenerator::thumbnail_document(&body);
+        tayan_compiler::TayanWorld::compile_svg(source)
+            .map_err(|e| e.to_string())
+            .map(|pages| pages.into_iter().next().unwrap_or_default())
+    })
+    .await
+    .map_err(|e| e.to_string())?
+}
+
 #[tauri::command]
 pub fn typst_symbols() -> Vec<tayan_compiler::symbols::TypstSymbol> {
     tayan_compiler::symbols::all_symbols()

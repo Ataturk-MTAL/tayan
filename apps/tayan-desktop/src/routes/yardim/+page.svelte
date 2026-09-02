@@ -106,8 +106,10 @@
     },
     {
       ad: "Klasik",
-      kod: "#cevap-alani(satir: 6)",
-      not: "Öğrencinin yazacağı çizgiler. satir sayısını soruya göre ayarla.",
+      kod: `#cevap-alani(satir: 6, bicim: "cizgili")
+#cevap-alani(satir: 10, bicim: "kareli")
+#cevap-alani(satir: 8, bicim: "bos")`,
+      not: 'Üç biçim: "cizgili" yazı çizgileri, "kareli" 5×5 mm kareli alan (grafik ve şema için), "bos" çerçeveli boş kutu. satir yüksekliği verir — kareli alanda bir satır bir 5 mm karedir. Genişlik verilmez: alan bulunduğu sütunun tamamını kaplar, çift sütunlu kâğıtta kendiliğinden daralır.',
     },
   ];
 
@@ -389,7 +391,7 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
 
         <h2 id="kazanim" class="mt-rule border-t border-rule-strong pt-half">Kazanım kodu</h2>
         <p class="mt-quarter leading-rule">
-          MEB biçiminde yazılır: <span class="font-mono">MAT.9.1.2</span> — ders,
+          MEB biçiminde yazılır: <span class="font-mono">MAT.9.1.2</span> — ders kodu 1-5 harf (Türkçe harf geçerli: <span class="font-mono">FİZ</span>, <span class="font-mono">COĞ</span>), sonra sınıf,
           sınıf, ünite, kazanım. Bir soruya birden çok kazanım yazabilirsin; boşluk
           veya virgülle ayır.
         </p>
@@ -471,6 +473,7 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
           Soru bankası, sınavlar, sınıflar ve sonuçlar bu klasördeki veritabanı
           dosyasında durur. Yedek almak için klasörü kopyalaman yeterlidir.
         </p>
+
       </div>
     </article>
   </div>

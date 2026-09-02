@@ -37,6 +37,7 @@ pub async fn add_multiple_choice_question(
         outcomes: payload.outcomes.into_iter()
             .map(|s| OutcomeCode::new(s).map_err(|e| e.to_string()))
             .collect::<Result<Vec<_>, _>>()?,
+        meta:     payload.meta,
         body:     payload.body,
         options:  payload.options,
         shuffle:  payload.shuffle,
@@ -67,6 +68,7 @@ pub async fn add_true_false_question(
         outcomes,
         payload.body,
         payload.correct_answer,
+        payload.meta,
     ));
     q.validate().map_err(|e| e.to_string())?;
     let qid = q.id().0.to_string();
@@ -89,6 +91,7 @@ pub async fn add_fill_in_blank_question(
     let q = Question::FillInBlank(FillInBlankQuestion {
         id:       QuestionId::new(),
         outcomes,
+        meta:     payload.meta,
         body:     payload.body,
         blanks:   payload.blanks,
         stats:    Default::default(),
@@ -115,6 +118,7 @@ pub async fn add_classic_question(
         id:            QuestionId::new(),
         points:        Points::new(payload.points),
         outcomes,
+        meta:          payload.meta,
         body:          payload.body,
         sample_answer: None,
         rubric:        payload.rubric,

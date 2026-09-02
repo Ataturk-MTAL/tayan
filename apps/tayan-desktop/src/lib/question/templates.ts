@@ -82,8 +82,18 @@ const BY_TYPE: Record<QuestionType, Block[]> = {
   classic: [
     {
       label: "Cevap alanı",
-      hint: "öğrencinin yazacağı çizgiler",
-      snippet: "\n#cevap-alani(satir: 6)\n",
+      hint: "öğrencinin yazacağı çizgiler — satir: kaç çizgi",
+      snippet: '\n#cevap-alani(satir: 6, bicim: "cizgili")\n',
+    },
+    {
+      label: "Kareli alan",
+      hint: "5×5 mm kareli — grafik ve şema için; satir: kaç kare yüksek",
+      snippet: '\n#cevap-alani(satir: 10, bicim: "kareli")\n',
+    },
+    {
+      label: "Boş alan",
+      hint: "çerçeveli boş kutu",
+      snippet: '\n#cevap-alani(satir: 8, bicim: "bos")\n',
     },
   ],
 };

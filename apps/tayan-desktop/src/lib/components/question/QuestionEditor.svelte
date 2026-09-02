@@ -8,7 +8,7 @@
   import { layout, setMode, type ViewMode } from "$lib/ui/layout.svelte";
   import { api } from "$lib/api";
   import { parseDiagnostics, errorText, type TypstDiagnostic } from "$lib/editor/diagnostics";
-  import type { QuestionStats, Question } from "$lib/types";
+  import type { QuestionMeta, QuestionStats, Question } from "$lib/types";
 
   type QuestionType = Question["question_type"];
 
@@ -19,6 +19,10 @@
     points: number;
     stats?: QuestionStats | null;
     structureError: string | null;
+    meta: QuestionMeta;
+    subjectOptions: string[];
+    bank: Question[];
+    onmetachange: (next: QuestionMeta) => void;
     saving: boolean;
     saveLabel: string;
     onbodychange: (body: string) => void;
@@ -37,6 +41,10 @@
     points,
     stats = null,
     structureError,
+    meta,
+    subjectOptions,
+    bank,
+    onmetachange,
     saving,
     saveLabel,
     onbodychange,
@@ -146,6 +154,10 @@
       {points}
       {stats}
       {structureError}
+      {meta}
+      {subjectOptions}
+      {bank}
+      {onmetachange}
       {onquestiontypechange}
       {onoutcometextchange}
       {onpointschange}

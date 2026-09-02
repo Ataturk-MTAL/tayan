@@ -73,8 +73,35 @@ export type AnswerSpace =
   | { HeightCm: number }
   | { Grid: { rows: number; cols: number } };
 
+/** Öğretmenin kanaati. Ölçülen güçlük ayrı: QuestionStats.difficulty_index. */
+export type Difficulty = "kolay" | "orta" | "zor";
+
+export const DIFFICULTY_LABELS: Record<Difficulty, string> = {
+  kolay: "Kolay",
+  orta: "Orta",
+  zor: "Zor",
+};
+
+export const MIN_GRADE = 1;
+export const MAX_GRADE = 12;
+
+/**
+ * Sorunun künyesi. Ders ve sınıf seviyesi ZORUNLU — kazanım kodu (MAT.9.1.2)
+ * ikisine bağlı, bilinmeden hangi kazanım listesinin gösterileceği belirlenemez.
+ *
+ * Eski kayıtlarda bu alan yok; Rust tarafı serde(default) ile subject: "",
+ * grade: 0 döndürür. Böyle bir soru yüklenir ve basılır ama yeniden
+ * kaydedilirken doğrulamaya takılır.
+ */
+export type QuestionMeta = {
+  subject: string;
+  grade: number;
+  difficulty: Difficulty | null;
+};
+
 export type MultipleChoiceQuestion = {
   question_type: "multiple_choice";
+  meta: QuestionMeta;
   id: string;
   points: number;
   outcomes: string[];
@@ -86,6 +113,7 @@ export type MultipleChoiceQuestion = {
 
 export type TrueFalseQuestion = {
   question_type: "true_false";
+  meta: QuestionMeta;
   id: string;
   points: number;
   outcomes: string[];
@@ -96,6 +124,7 @@ export type TrueFalseQuestion = {
 
 export type FillInBlankQuestion = {
   question_type: "fill_in_blank";
+  meta: QuestionMeta;
   id: string;
   outcomes: string[];
   body: ContentNode[];
@@ -105,6 +134,7 @@ export type FillInBlankQuestion = {
 
 export type ClassicQuestion = {
   question_type: "classic";
+  meta: QuestionMeta;
   id: string;
   points: number;
   outcomes: string[];
@@ -148,6 +178,12 @@ export function bodyPreview(body: ContentNode[], maxLen = 80): string {
 
 export type ExamStatus = "Draft" | "Published" | "Archived";
 
+/** Kâğıdı imzalayan kişi — "Ömer YİĞİT" / "Okul Müdürü". */
+export type ExamSigner = {
+  name: string;
+  title: string;
+};
+
 export type ExamMeta = {
   title: string;
   subject: string;
@@ -156,6 +192,25 @@ export type ExamMeta = {
   duration_min: number;
   date: string; // NaiveDate → "YYYY-MM-DD"
   instructions: string | null;
+
+  /**
+   * Kâğıdın sütun sayısı: 1 veya 2.
+   *
+   * Çift sütun kısa sorularda kâğıt tasarrufu sağlar. Sorular `breakable: false`
+   * blok içinde dizildiği için hiçbir soru sütun sonunda ikiye bölünmez.
+   *
+   * Typst sütunları DENGELEMEZ: birinci sütunu sayfa yüksekliğine kadar
+   * doldurup ikinciye geçer. Az sayıda kısa soruda ikinci sütun boş kalır —
+   * bu doğru davranıştır, hata değil.
+   */
+  columns: number;
+
+  /** Kâğıdın başındaki kurum satırları. Boşsa basılmaz. */
+  school: string | null;
+  department: string | null;
+
+  /** Kâğıdın altındaki imza bloğu. Boşsa blok hiç basılmaz. */
+  signers: ExamSigner[];
 };
 
 export type ExamQuestionRef = {

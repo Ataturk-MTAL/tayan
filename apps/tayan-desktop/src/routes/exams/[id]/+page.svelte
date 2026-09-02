@@ -5,6 +5,7 @@
   import BudgetGauge from "$lib/components/measure/BudgetGauge.svelte";
   import QuestionStrip from "$lib/components/measure/QuestionStrip.svelte";
   import SheetPreview from "$lib/components/question/SheetPreview.svelte";
+  import SelectBox from "$lib/components/shell/SelectBox.svelte";
   import { api } from "$lib/api";
   import { errorText } from "$lib/editor/diagnostics";
   import { bodySource } from "$lib/question/body";
@@ -155,17 +156,19 @@
       <div class="ml-auto flex items-center gap-half">
         <label class="pencil flex items-center gap-quarter">
           Kitapçık
-          <select
-            class="border-0 border-b border-rule-strong bg-transparent pb-[2px] leading-rule
-                   focus:border-red focus:outline-none"
-            bind:value={booklet}
-            onchange={refreshPreview}
-          >
-            <option value={null}>Tek</option>
-            {#each BOOKLETS as b}
-              <option value={b}>{b}</option>
-            {/each}
-          </select>
+          <span class="inline-block w-[86px]">
+            <SelectBox
+              value={booklet ?? ""}
+              options={BOOKLETS.map((b) => ({ value: b, label: b }))}
+              emptyLabel="Tek"
+              onchange={(v) => {
+                // Boş dize = tek kitapçık. null'a çevrilmezse kâğıda
+                // "KİTAPÇIK " diye boş bir etiket basılırdı.
+                booklet = v === "" ? null : v;
+                refreshPreview();
+              }}
+            />
+          </span>
         </label>
 
         <label class="pencil flex items-center gap-quarter">

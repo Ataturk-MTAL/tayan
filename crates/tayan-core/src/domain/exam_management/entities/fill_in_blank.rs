@@ -1,5 +1,6 @@
 use serde::{Deserialize, Serialize};
 use crate::domain::exam_management::value_objects::{
+    QuestionMeta,
     OutcomeCode, QuestionBody, QuestionStats,
 };
 use super::question::{Points, QuestionId};
@@ -37,6 +38,10 @@ impl Blank {
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct FillInBlankQuestion {
+    /// Ders, sınıf seviyesi ve zorluk. Eski kayıtlarda yok; serde(default)
+    /// ile boş gelir ve yeniden kaydedilirken doğrulamaya takılır.
+    #[serde(default)]
+    pub meta:     QuestionMeta,
     pub id:       QuestionId,
     pub outcomes: Vec<OutcomeCode>,
     /// The body contains `ContentNode::Blank` nodes whose `id` fields reference

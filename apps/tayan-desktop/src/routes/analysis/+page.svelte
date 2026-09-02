@@ -2,16 +2,23 @@
   import { onMount } from "svelte";
   import PageHead from "$lib/components/shell/PageHead.svelte";
   import RuledField from "$lib/components/shell/RuledField.svelte";
+  import SelectBox from "$lib/components/shell/SelectBox.svelte";
   import ScoreHistogram from "$lib/components/measure/ScoreHistogram.svelte";
   import AnswerGrid from "$lib/components/measure/AnswerGrid.svelte";
+  import ResultEntry from "$lib/components/measure/ResultEntry.svelte";
   import { api } from "$lib/api";
   import { errorText } from "$lib/editor/diagnostics";
-  import type { Classroom, Exam, ExamResult, Student } from "$lib/types";
+  import type { Classroom, Exam, ExamResult, Question, Student } from "$lib/types";
 
   let exams = $state<Exam[]>([]);
   let classrooms = $state<Classroom[]>([]);
   let students = $state<Student[]>([]);
   let results = $state<ExamResult[]>([]);
+  /** Banka; sınavın soru atıflarını çözmek için gerekli. */
+  let bank = $state<Question[]>([]);
+
+  type Sekme = "giris" | "analiz";
+  let sekme = $state<Sekme>("giris");
 
   let examId = $state<string>("");
   let classroomId = $state<string>("");
@@ -21,9 +28,10 @@
 
   onMount(async () => {
     try {
-      [exams, classrooms] = await Promise.all([
+      [exams, classrooms, bank] = await Promise.all([
         api.exams.list(),
         api.students.listClassrooms(),
+        api.questions.list(),
       ]);
       const published = exams.filter((e) => e.status !== "Draft");
       if (published.length > 0) examId = published[0].id;
@@ -103,27 +111,45 @@
   <div class="ruled-bottom flex shrink-0 flex-wrap items-end gap-rule bg-paper px-rule py-half paper-plain">
     <div class="w-[260px]">
       <RuledField label="Sınav">
-        <select bind:value={examId}>
-          <option value="">— seç —</option>
-          {#each exams as exam (exam.id)}
-            <option value={exam.id}>{exam.meta.title}</option>
-          {/each}
-        </select>
+        <SelectBox
+          value={examId}
+          options={exams.map((e) => ({ value: e.id, label: e.meta.title }))}
+          emptyLabel="— seç —"
+          onchange={(v) => (examId = v)}
+        />
       </RuledField>
     </div>
 
     <div class="w-[160px]">
       <RuledField label="Sınıf">
-        <select bind:value={classroomId}>
-          <option value="">— seç —</option>
-          {#each classrooms as c (c.id)}
-            <option value={c.id}>{c.name}</option>
-          {/each}
-        </select>
+        <SelectBox
+          value={classroomId}
+          options={classrooms.map((c) => ({ value: c.id, label: c.name }))}
+          emptyLabel="— seç —"
+          onchange={(v) => (classroomId = v)}
+        />
       </RuledField>
     </div>
 
-    {#if summary}
+    <div class="flex items-stretch border border-rule-strong">
+      {#each [["giris", "Sonuç girişi"], ["analiz", "Analiz"]] as [id, label]}
+        <button
+          type="button"
+          class="border-r border-rule px-half py-quarter text-[12px] leading-rule
+                 transition-colors last:border-r-0 hover:text-red-deep"
+          class:bg-paper-sunk={sekme === id}
+          class:font-semibold={sekme === id}
+          class:text-ink={sekme === id}
+          class:text-pencil={sekme !== id}
+          aria-pressed={sekme === id}
+          onclick={() => (sekme = id as Sekme)}
+        >
+          {label}
+        </button>
+      {/each}
+    </div>
+
+    {#if summary && sekme === "analiz"}
       <dl class="ml-auto flex items-baseline gap-rule">
         <div>
           <dt class="stamp">Ortalama</dt>
@@ -153,21 +179,31 @@
     <p class="ruled-bottom annot shrink-0 bg-red-wash px-rule py-quarter">{error}</p>
   {/if}
 
-  <div class="min-h-0 flex-1 overflow-auto px-rule py-rule">
+  <div class="flex min-h-0 flex-1 flex-col">
     {#if loading}
-      <p class="pencil">Okunuyor…</p>
+      <p class="pencil px-rule py-rule">Okunuyor…</p>
     {:else if !examId || !classroomId}
-      <p class="pencil">Bir sınav ve bir sınıf seç.</p>
+      <p class="pencil px-rule py-rule">Bir sınav ve bir sınıf seç.</p>
+    {:else if selectedExam === null}
+      <p class="pencil px-rule py-rule">Sınav bulunamadı.</p>
+    {:else if sekme === "giris"}
+      <ResultEntry
+        exam={selectedExam}
+        {students}
+        {results}
+        {bank}
+        onsaved={() => {
+          // Ölçüm her kayıtta yeniden hesaplanıyor; listeyi de tazele ki
+          // öğrencinin yanındaki işaret hemen görünsün.
+          void loadResults(examId);
+        }}
+      />
     {:else if classResults.length === 0}
-      <div>
-        <p class="pencil">Bu sınav için bu sınıfta girilmiş sonuç yok.</p>
-        <p class="annot mt-half">
-          Sonuç giriş ekranı henüz yapılmadı; `enter_exam_results` komutu hazır
-          ama arayüzü yok. Ölçüm olmadan soru bankası kendini arıtamaz.
-        </p>
-      </div>
+      <p class="pencil px-rule py-rule">
+        Bu sınav için bu sınıfta girilmiş sonuç yok. Sonuç girişi sekmesinden başla.
+      </p>
     {:else}
-      <div class="grid gap-rule" style="grid-template-columns: minmax(280px, 380px) 1fr">
+      <div class="grid gap-rule px-rule py-half" style="grid-template-columns: minmax(280px, 380px) 1fr">
         <ScoreHistogram {percentages} />
         <AnswerGrid results={classResults} {students} {questionIds} />
       </div>

@@ -2,7 +2,7 @@ use serde::{Deserialize, Serialize};
 use crate::domain::exam_management::{
     aggregates::{ExamId, ExamMeta},
     entities::{AnswerSpace, Blank, QuestionId, QuestionOption, RubricItem},
-    value_objects::QuestionBody,
+    value_objects::{QuestionBody, QuestionMeta},
 };
 use crate::domain::student_management::{ClassroomId, StudentId};
 use crate::domain::assessment::aggregates::QuestionAnswer;
@@ -36,6 +36,8 @@ pub struct ReorderQuestion {
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct AddMultipleChoiceQuestion {
+    /// Ders, sınıf seviyesi, zorluk. Ders ve seviye zorunlu.
+    pub meta:     QuestionMeta,
     pub points:   u32,
     pub outcomes: Vec<String>,
     pub body:     QuestionBody,
@@ -45,6 +47,8 @@ pub struct AddMultipleChoiceQuestion {
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct AddTrueFalseQuestion {
+    /// Ders, sınıf seviyesi, zorluk. Ders ve seviye zorunlu.
+    pub meta:     QuestionMeta,
     pub points:         u32,
     pub outcomes:       Vec<String>,
     pub body:           QuestionBody,
@@ -53,6 +57,8 @@ pub struct AddTrueFalseQuestion {
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct AddFillInBlankQuestion {
+    /// Ders, sınıf seviyesi, zorluk. Ders ve seviye zorunlu.
+    pub meta:     QuestionMeta,
     pub outcomes: Vec<String>,
     pub body:     QuestionBody,
     pub blanks:   Vec<Blank>,
@@ -60,6 +66,8 @@ pub struct AddFillInBlankQuestion {
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct AddClassicQuestion {
+    /// Ders, sınıf seviyesi, zorluk. Ders ve seviye zorunlu.
+    pub meta:     QuestionMeta,
     pub points:       u32,
     pub outcomes:     Vec<String>,
     pub body:         QuestionBody,

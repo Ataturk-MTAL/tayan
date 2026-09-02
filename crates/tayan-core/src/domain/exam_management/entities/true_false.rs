@@ -1,11 +1,16 @@
 use serde::{Deserialize, Serialize};
 use crate::domain::exam_management::value_objects::{
+    QuestionMeta,
     OutcomeCode, QuestionBody, QuestionStats,
 };
 use super::question::{Points, QuestionId};
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct TrueFalseQuestion {
+    /// Ders, sınıf seviyesi ve zorluk. Eski kayıtlarda yok; serde(default)
+    /// ile boş gelir ve yeniden kaydedilirken doğrulamaya takılır.
+    #[serde(default)]
+    pub meta:     QuestionMeta,
     pub id:             QuestionId,
     pub points:         Points,
     pub outcomes:       Vec<OutcomeCode>,
@@ -25,12 +30,14 @@ impl TrueFalseQuestion {
         outcomes: Vec<OutcomeCode>,
         body: QuestionBody,
         correct_answer: bool,
+        meta: QuestionMeta,
     ) -> Self {
         Self {
             id,
             points,
             outcomes,
             body,
+            meta,
             correct_answer,
             label_true:  "Doğru".into(),
             label_false: "Yanlış".into(),

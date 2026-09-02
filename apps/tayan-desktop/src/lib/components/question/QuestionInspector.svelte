@@ -13,9 +13,17 @@
    * geri çağrıyla döner. Panel kendi kopyasını tutsa iki doğru kaynak olurdu.
    */
   import RuledField from "../shell/RuledField.svelte";
+  import SelectBox from "../shell/SelectBox.svelte";
+  import { GRADE_OPTIONS } from "$lib/question/subjects";
+  import { outcomePrefix, outcomeSuggestions, splitOutcomes } from "$lib/question/outcomes";
   import {
+    DIFFICULTY_LABELS,
+    MAX_GRADE,
+    MIN_GRADE,
     QUESTION_TYPE_LABELS,
+    type Difficulty,
     type Question,
+    type QuestionMeta,
     type QuestionStats,
     type ScoreBadge,
   } from "$lib/types";
@@ -28,6 +36,13 @@
     points: number;
     stats: QuestionStats | null;
     structureError: string | null;
+    /** Ders, sınıf seviyesi, zorluk. İlk ikisi zorunlu. */
+    meta: QuestionMeta;
+    /** Bankada kullanılan dersler + başlangıç listesi. */
+    subjectOptions: string[];
+    /** Kazanım önerileri için bankanın tamamı. */
+    bank: Question[];
+    onmetachange: (next: QuestionMeta) => void;
     onquestiontypechange: (value: QuestionType) => void;
     onoutcometextchange: (value: string) => void;
     onpointschange: (value: number) => void;
@@ -39,6 +54,10 @@
     points,
     stats,
     structureError,
+    meta,
+    subjectOptions,
+    bank,
+    onmetachange,
     onquestiontypechange,
     onoutcometextchange,
     onpointschange,
@@ -87,6 +106,41 @@
       .filter(Boolean),
   );
 
+  /**
+   * Eksik zorunlu alanlar. Kaydete basılmadan görünür: hatayı ancak kaydetmeye
+   * çalışınca öğrenmek, doldurulmuş bir formu geri çevirmek demektir.
+   */
+  let dersEksik = $derived(meta.subject.trim() === "");
+  let seviyeEksik = $derived(
+    !Number.isFinite(meta.grade) || meta.grade < MIN_GRADE || meta.grade > MAX_GRADE,
+  );
+
+  const ZORLUK_SECENEKLERI = (["kolay", "orta", "zor"] as Difficulty[]).map((z) => ({
+    value: z,
+    label: DIFFICULTY_LABELS[z],
+  }));
+
+  let tipSecenekleri = $derived(
+    Object.entries(QUESTION_TYPE_LABELS).map(([value, label]) => ({ value, label })),
+  );
+
+  let dersSecenekleri = $derived(subjectOptions.map((s) => ({ value: s, label: s })));
+
+  /**
+   * Kazanım kodları yazılırken doğrulanır. Kural Rust tarafıyla birebir aynı;
+   * kaydetmeye çalışınca "Geçersiz kazanım kodu" ile karşılaşmak, doldurulmuş
+   * bir formu geri çevirmek olurdu.
+   */
+  let kazanimlar = $derived(splitOutcomes(outcomeText));
+  let kazanimOnek = $derived(outcomePrefix(meta.subject, meta.grade));
+  let kazanimOnerileri = $derived(outcomeSuggestions(bank, meta.subject, meta.grade));
+
+  function addOutcome(code: string) {
+    const varOlan = outcomeText.trim();
+    if (varOlan.split(/[,\s]+/).includes(code)) return;
+    onoutcometextchange(varOlan === "" ? code : `${varOlan} ${code}`);
+  }
+
   function pct(n: number): string {
     return `${Math.round(n * 100)}%`;
   }
@@ -95,24 +149,78 @@
 <div class="flex flex-col gap-rule">
   <div class="flex flex-col gap-half">
     <RuledField label="Soru tipi">
-      <select
+      <SelectBox
         value={questionType}
-        onchange={(e) => onquestiontypechange(e.currentTarget.value as QuestionType)}
-      >
-        {#each Object.entries(QUESTION_TYPE_LABELS) as [value, label]}
-          <option {value}>{label}</option>
-        {/each}
-      </select>
+        options={tipSecenekleri}
+        onchange={(v) => onquestiontypechange(v as QuestionType)}
+      />
     </RuledField>
 
-    <RuledField label="Kazanım" hint="Boşluk veya virgülle ayır — MAT.9.1.2">
+    <RuledField label="Ders" hint={dersEksik ? "Zorunlu" : null}>
+      <SelectBox
+        value={meta.subject}
+        options={dersSecenekleri}
+        allowCustom
+        placeholder="Matematik"
+        invalid={dersEksik}
+        onchange={(v) => onmetachange({ ...meta, subject: v })}
+      />
+    </RuledField>
+
+    <RuledField
+      label="Sınıf seviyesi"
+      hint={seviyeEksik ? `Zorunlu — ${MIN_GRADE} ile ${MAX_GRADE} arası` : null}
+    >
+      <SelectBox
+        value={meta.grade === 0 ? "" : String(meta.grade)}
+        options={GRADE_OPTIONS}
+        placeholder="Seç"
+        invalid={seviyeEksik}
+        onchange={(v) => onmetachange({ ...meta, grade: Number(v) })}
+      />
+    </RuledField>
+
+    <RuledField label="Zorluk" hint="İsteğe bağlı — ölçüm gelince gerçeği görürsün">
+      <SelectBox
+        value={meta.difficulty ?? ""}
+        options={ZORLUK_SECENEKLERI}
+        emptyLabel="Belirtilmedi"
+        onchange={(v) => onmetachange({ ...meta, difficulty: v === "" ? null : (v as Difficulty) })}
+      />
+    </RuledField>
+
+    <RuledField
+      label="Kazanım"
+      hint={kazanimlar.invalid.length > 0
+        ? `Biçim hatalı: ${kazanimlar.invalid.join(", ")} — DERS.SINIF.ÜNİTE.KAZANIM`
+        : "Boşluk veya virgülle ayır"}
+    >
       <input
         type="text"
         value={outcomeText}
-        placeholder="MAT.9.1.2"
+        placeholder={kazanimOnek === "" ? "MAT.9.1.2" : `${kazanimOnek}1.2`}
+        aria-invalid={kazanimlar.invalid.length > 0}
         oninput={(e) => onoutcometextchange(e.currentTarget.value)}
       />
     </RuledField>
+
+    {#if kazanimOnerileri.length > 0}
+      <div>
+        <span class="stamp">Bu ders ve seviyede kullandıkların</span>
+        <div class="mt-quarter flex flex-wrap gap-quarter">
+          {#each kazanimOnerileri as kod}
+            <button
+              type="button"
+              class="border border-rule-strong bg-paper px-quarter py-[1px] font-mono text-[11px]
+                     leading-rule text-ink-mid transition-colors hover:border-red hover:text-red-deep"
+              onclick={() => addOutcome(kod)}
+            >
+              {kod}
+            </button>
+          {/each}
+        </div>
+      </div>
+    {/if}
 
     <RuledField label="Yedek puan" hint="Sınavda ayrıca belirlenir">
       <input

@@ -26,6 +26,7 @@
     { href: "/students", label: "Öğrenciler" },
     { href: "/analysis", label: "Analiz" },
     { href: "/yardim", label: "Yardım" },
+    { href: "/hakkinda", label: "Hakkında" },
   ];
 
   let path = $derived(page.url.pathname);

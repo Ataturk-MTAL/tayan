@@ -2,6 +2,7 @@
   import { onMount } from "svelte";
   import PageHead from "$lib/components/shell/PageHead.svelte";
   import PenButton from "$lib/components/shell/PenButton.svelte";
+  import QuestionCard from "$lib/components/question/QuestionCard.svelte";
   import { api } from "$lib/api";
   import { errorText } from "$lib/editor/diagnostics";
   import { bodySource } from "$lib/question/body";
@@ -57,10 +58,6 @@
     }),
   );
 
-  function preview(q: Question): string {
-    const source = bodySource(q.body).replace(/\s+/g, " ").trim();
-    return source.length > 110 ? `${source.slice(0, 110)}…` : source || "(boş)";
-  }
 </script>
 
 <div class="flex h-full min-h-0 flex-col">
@@ -85,43 +82,56 @@
         </p>
       </div>
     {:else}
-      <table class="w-full border-collapse text-[13px]">
-        <thead>
-          <tr class="ruled-bottom">
-            <th class="stamp px-rule py-quarter text-left">Soru</th>
-            <th class="stamp px-half py-quarter text-left">Tip</th>
-            <th class="stamp px-half py-quarter text-right">Puan</th>
-            <th class="stamp px-half py-quarter text-right">Güçlük</th>
-            <th class="stamp px-half py-quarter text-right">Ayırt edicilik</th>
-            <th class="stamp px-rule py-quarter text-right">Ölçüm</th>
-          </tr>
-        </thead>
-        <tbody>
-          {#each shown as q (q.id)}
-            {@const badge = scoreBadge(q.stats)}
-            <tr
-              class="cursor-pointer border-b border-rule align-top hover:bg-paper-lift"
-              onclick={() => goto(`/questions/${q.id}`)}
-            >
-              <td class="px-rule py-half font-mono text-ink-mid">{preview(q)}</td>
-              <td class="px-half py-half whitespace-nowrap">{QUESTION_TYPE_LABELS[q.question_type]}</td>
-              <td class="px-half py-half text-right tnum">{questionPoints(q)}</td>
-              <td class="px-half py-half text-right tnum">
-                {q.stats.times_used > 0 ? `${Math.round(q.stats.difficulty_index * 100)}%` : "—"}
-              </td>
-              <td
-                class="px-half py-half text-right tnum"
-                class:text-red-deep={q.stats.times_used > 0 && q.stats.discrimination_index < 0.2}
-              >
-                {q.stats.times_used > 0 ? q.stats.discrimination_index.toFixed(2) : "—"}
-              </td>
-              <td class="px-rule py-half text-right whitespace-nowrap" style="color: {BADGE_COLOR[badge]}">
-                {BADGE_LABEL[badge]}
-              </td>
-            </tr>
-          {/each}
-        </tbody>
-      </table>
+      <!--
+        Fiş dizimi: her soru dizilmiş hâliyle bir kâğıt parçası. Tablo, soruyu
+        ham Typst kaynağı olarak gösteriyordu; öğretmen kendi bankasında
+        `#secenekler(dogru:` görüyordu.
+      -->
+      <div class="grid gap-rule p-rule" style="grid-template-columns: repeat(auto-fill, minmax(260px, 1fr))">
+        {#each shown as q (q.id)}
+          {@const badge = scoreBadge(q.stats)}
+          <button
+            type="button"
+            class="sheet flex flex-col text-left transition-shadow hover:shadow-lg"
+            onclick={() => goto(`/questions/${q.id}`)}
+          >
+            <QuestionCard body={bodySource(q.body)} />
+
+            <div class="ruled-top flex flex-col gap-quarter bg-paper-lift px-half py-quarter">
+              <div class="flex items-baseline gap-quarter">
+                <span class="stamp">{QUESTION_TYPE_LABELS[q.question_type]}</span>
+                <span class="pencil tnum ml-auto">{questionPoints(q)} p</span>
+              </div>
+
+              <div class="flex items-baseline gap-quarter text-[11px] leading-rule">
+                {#if q.meta?.subject}
+                  <span class="text-ink-mid">{q.meta.subject}</span>
+                {/if}
+                {#if q.meta?.grade}
+                  <span class="pencil">{q.meta.grade}. sınıf</span>
+                {/if}
+              </div>
+
+              {#if q.outcomes.length > 0}
+                <span class="pencil font-mono text-[10px]">{q.outcomes.join(" · ")}</span>
+              {/if}
+
+              <!-- Ölçüm rengi 3px çizgi: kırmızı yalnız zayıf ayırt edicilikte. -->
+              <div class="mt-quarter flex items-center gap-quarter">
+                <span class="h-[3px] w-[26px]" style="background: {BADGE_COLOR[badge]}"></span>
+                <span class="text-[11px] leading-rule" style="color: {BADGE_COLOR[badge]}">
+                  {BADGE_LABEL[badge]}
+                </span>
+                {#if q.stats.times_used > 0}
+                  <span class="pencil tnum ml-auto text-[11px]">
+                    {q.stats.discrimination_index.toFixed(2)}
+                  </span>
+                {/if}
+              </div>
+            </div>
+          </button>
+        {/each}
+      </div>
     {/if}
   </div>
 </div>
