@@ -315,11 +315,41 @@ const PREAMBLE: &str = r##"#set page(paper: "a4", margin: (x: 2cm, y: 2.5cm))
 ]
 
 // Klasik soru için cevap alanı: öğrencinin yazacağı çizgiler.
-#let cevap-alani(satir: 6) = {
+// Klasik soru için cevap alanı.
+//
+// bicim: "cizgili" (varsayılan) — düz yazı çizgileri
+//        "kareli"              — 5x5 mm kareli alan, grafik ve şema için
+//        "bos"                 — çerçeveli boş alan
+//
+// GENİŞLİK VERİLMEZ: alan her zaman içinde bulunduğu sütunun tamamını kaplar.
+// Çift sütunlu kâğıtta sütun yarıya iner ve alan da kendiliğinden daralır;
+// elle genişlik yazmak bu uyumu bozardı.
+//
+// `satir` her üç biçimde de yüksekliği belirler. Kareli alanda bir "satır"
+// bir 5 mm karedir, yani satir: 10 → 50 mm yükseklik.
+#let cevap-alani(satir: 6, bicim: "cizgili") = {
   v(0.3cm)
-  for _ in range(satir) {
-    line(length: 100%, stroke: 0.4pt + luma(65%))
-    v(0.9em)
+
+  if bicim == "kareli" {
+    // Kare deseni tiling ile çizilir; böylece genişlik ne olursa olsun kareler
+    // 5 mm kalır. Grid ile çizmek sütun sayısını önceden bilmeyi gerektirirdi
+    // ve sütun genişliği değiştiğinde kareler bozulurdu.
+    rect(
+      width: 100%,
+      height: satir * 5mm,
+      stroke: 0.5pt + luma(55%),
+      fill: tiling(size: (5mm, 5mm), {
+        place(line(start: (0mm, 0mm), end: (5mm, 0mm), stroke: 0.3pt + luma(80%)))
+        place(line(start: (0mm, 0mm), end: (0mm, 5mm), stroke: 0.3pt + luma(80%)))
+      }),
+    )
+  } else if bicim == "bos" {
+    rect(width: 100%, height: satir * 0.9em, stroke: 0.5pt + luma(55%))
+  } else {
+    for _ in range(satir) {
+      line(length: 100%, stroke: 0.4pt + luma(65%))
+      v(0.9em)
+    }
   }
 }
 

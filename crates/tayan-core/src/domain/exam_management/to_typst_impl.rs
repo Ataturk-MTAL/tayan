@@ -267,11 +267,23 @@ impl ToTypst for ClassicQuestion {
         let body = self.body.to_typst(ctx);
         let pts  = self.points.value();
 
-        let answer_space = match &self.answer_space {
-            AnswerSpace::Lines(n) => {
-                let line_height = 0.8_f32 * (*n as f32);
-                format!("#rect(width: 100%, height: {:.1}cm, stroke: 0.5pt)[]", line_height)
-            }
+        // Gövde kendi cevap alanını taşıyorsa alan BİR KEZ o çizer.
+        //
+        // Şıklardaki `#secenekler(` korumasının aynısı: öğretmen gövdeye
+        // `#cevap-alani(satir: 10, bicim: "kareli")` yazdığında hem kareli
+        // alan hem de buradaki çizgiler basılıyordu — kâğıtta iki cevap alanı.
+        // Gövdedeki çağrı biçimi de (kareli/çizgili/boş) seçtiği için ondan
+        // vazgeçip domain varsayılanını basmak, öğretmenin kararını silmek olur.
+        let body_has_answer_space = body.contains("#cevap-alani(");
+
+        let answer_space = if body_has_answer_space {
+            String::new()
+        } else {
+            match &self.answer_space {
+            // Varyantın adı `Lines` ama önceden boş bir dikdörtgen basıyordu.
+            // Öğretmen "6 satır" seçtiğinde kâğıtta çizgi bekler, boş kutu
+            // değil; önsözdeki #cevap-alani zaten doğrusunu çiziyor.
+            AnswerSpace::Lines(n) => format!("#cevap-alani(satir: {n})"),
             AnswerSpace::HeightCm(h) => {
                 format!("#rect(width: 100%, height: {:.1}cm, stroke: 0.5pt)[]", h)
             }
@@ -280,6 +292,7 @@ impl ToTypst for ClassicQuestion {
                     "#grid(columns: {}, rows: {}, ..range({}).map(_ => rect(width: 100%, height: 0.8cm, stroke: 0.3pt)[]))",
                     cols, rows, rows * cols
                 )
+            }
             }
         };
 

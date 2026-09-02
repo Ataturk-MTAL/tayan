@@ -92,8 +92,8 @@ fn questions() -> Vec<Question> {
             points:        Points::new(25),
             outcomes:      vec![],
             body:          typst(
-                "VE (AND), VEYA (OR) ve DEĞİL (NOT) kapılarının doğruluk tablolarını \
-                 oluşturunuz.",
+                "$f(x) = 2x + 3$ fonksiyonunun grafiğini çiziniz.\n\n\
+                 #cevap-alani(satir: 10, bicim: \"kareli\")",
             ),
             sample_answer: None,
             rubric:        vec![],
