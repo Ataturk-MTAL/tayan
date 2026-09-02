@@ -82,6 +82,20 @@ jobs:
       - uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          # macOS imzalama ve noterleme.
+          #
+          # Sır tanımlı DEĞİLSE bu değişkenler boş gelir ve tauri-action imzasız
+          # paket üretir — bugünkü davranış. Yani bu blok hiçbir şeyi bozmaz;
+          # sırlar eklendiği gün imzalama kendiliğinden devreye girer.
+          #
+          # Kurulum adımları: docs/IMZALAMA.md
+          APPLE_CERTIFICATE: ${{ secrets.APPLE_CERTIFICATE }}
+          APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
+          APPLE_SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APPLE_PASSWORD: ${{ secrets.APPLE_PASSWORD }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
         with:
           projectPath: apps/tayan-desktop
           tagName: ${{ github.ref_name }}
@@ -93,8 +107,20 @@ jobs:
 
             - **Sonuç girişi arayüzü yok.** Sınav sonuçları girilemediği için
               madde analizi (güçlük, ayırt edicilik) hiçbir soruda oluşmaz.
-            - **Paketler imzasız.** macOS'ta ilk açılışta sağ tık > Aç,
-              Windows'ta SmartScreen uyarısında "Yine de çalıştır" gerekir.
+            - Soru bankası listesi soruları dizgi olarak gösteriyor.
+
+            ## Kurulum
+
+            Paketler imzasız (sertifika maliyeti için bkz. docs/IMZALAMA.md).
+            İşletim sistemi bir kez uyarı verir; adımlar şunlar:
+
+            **macOS** — indirdikten sonra uygulamaya **sağ tıklayın > Aç**,
+            çıkan pencerede tekrar **Aç**. Çift tıklamak çalışmaz. Yalnız ilk
+            açılışta gerekir; sonrasında normal açılır.
+
+            **Windows** — SmartScreen uyarısında **Ek bilgi > Yine de çalıştır**.
+
+            **Linux** — uyarı çıkmaz. `.deb`, `.rpm` ya da `.AppImage` seçin.
             - Soru bankası listesi soruları dizgi olarak değil ham Typst
               kaynağı olarak gösteriyor.
 
