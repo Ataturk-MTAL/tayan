@@ -102,6 +102,13 @@ export const api = {
     setQuestionPoints: (examId: string, questionId: string, points: number | null) =>
       invoke<void>("set_exam_question_points", { examId, questionId, points }),
 
+    /**
+     * Sınavın künyesini günceller — sütun, okul, imzalar dahil.
+     * Sorular ve yayın durumu DEĞİŞMEZ; ikisi de kendi komutlarına ait.
+     */
+    updateMeta: (examId: string, meta: ExamMeta) =>
+      invoke<void>("update_exam_meta", { examId, meta }),
+
     publish: (examId: string) => invoke<void>("publish_exam", { examId }),
 
     delete: (examId: string) => invoke<void>("delete_exam", { examId }),

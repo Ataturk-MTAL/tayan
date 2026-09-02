@@ -6,6 +6,7 @@
   import QuestionStrip from "$lib/components/measure/QuestionStrip.svelte";
   import SheetPreview from "$lib/components/question/SheetPreview.svelte";
   import SelectBox from "$lib/components/shell/SelectBox.svelte";
+  import RuledField from "$lib/components/shell/RuledField.svelte";
   import { api } from "$lib/api";
   import { errorText } from "$lib/editor/diagnostics";
   import { bodySource } from "$lib/question/body";
@@ -24,6 +25,49 @@
   let bank = $state<Question[]>([]);
   let loading = $state(true);
   let loadError = $state<string | null>(null);
+
+  /**
+   * Kâğıt ayarları paneli. Sütun, okul, alan ve imzalar yalnız oluşturma
+   * formunda girilebiliyordu; kurulmuş sınavda değiştirilemiyordu. Oysa bunlar
+   * BASKININ özellikleri ve öğretmen kâğıdı gördükten sonra fikir değiştirir.
+   */
+  let ayarlarAcik = $state(false);
+  let ayarKaydediliyor = $state(false);
+  let ayarHatasi = $state<string | null>(null);
+
+  async function ayarlariKaydet() {
+    if (!exam) return;
+    ayarKaydediliyor = true;
+    ayarHatasi = null;
+    try {
+      await api.exams.updateMeta(exam.id, {
+        ...exam.meta,
+        school: exam.meta.school?.trim() || null,
+        department: exam.meta.department?.trim() || null,
+        // Adı da unvanı da boş satırlar gönderilmez: kâğıtta boş bir imza
+        // çizgisi olarak basılırdı.
+        signers: exam.meta.signers
+          .map((sg) => ({ name: sg.name.trim(), title: sg.title.trim() }))
+          .filter((sg) => sg.name !== "" || sg.title !== ""),
+      });
+      ayarlarAcik = false;
+      await refreshPreview();
+    } catch (err: unknown) {
+      ayarHatasi = errorText(err);
+    } finally {
+      ayarKaydediliyor = false;
+    }
+  }
+
+  function imzaEkle() {
+    if (!exam) return;
+    exam.meta.signers = [...exam.meta.signers, { name: "", title: "" }];
+  }
+
+  function imzaSil(i: number) {
+    if (!exam) return;
+    exam.meta.signers = exam.meta.signers.filter((_, k) => k !== i);
+  }
   let actionError = $state<string | null>(null);
   let busy = $state(false);
 
@@ -153,6 +197,16 @@
         {EXAM_STATUS_LABELS[exam.status]}
       </span>
 
+      <button
+        type="button"
+        class="border border-rule-strong bg-paper px-half py-quarter text-[12px]
+               leading-rule text-ink transition-colors hover:border-red hover:text-red-deep"
+        aria-expanded={ayarlarAcik}
+        onclick={() => (ayarlarAcik = !ayarlarAcik)}
+      >
+        Kâğıt ayarları
+      </button>
+
       <div class="ml-auto flex items-center gap-half">
         <label class="pencil flex items-center gap-quarter">
           Kitapçık
@@ -185,6 +239,87 @@
         </PenButton>
       </div>
     </div>
+
+    {#if ayarlarAcik}
+      <div class="ruled-bottom shrink-0 bg-paper px-rule py-half paper-plain">
+        {#if ayarHatasi}
+          <p class="annot mb-half bg-red-wash px-half py-quarter">{ayarHatasi}</p>
+        {/if}
+
+        <div class="grid max-w-[720px] grid-cols-2 gap-x-rule gap-y-half">
+          <RuledField label="Sütun" hint="Çift sütun kısa sorularda kâğıt kazandırır">
+            <SelectBox
+              value={String(exam.meta.columns)}
+              options={[
+                { value: "1", label: "Tek sütun" },
+                { value: "2", label: "Çift sütun" },
+              ]}
+              onchange={(v) => exam && (exam.meta.columns = Number(v))}
+            />
+          </RuledField>
+
+          <RuledField label="Süre" hint="dakika">
+            <input type="number" min="1" bind:value={exam.meta.duration_min} />
+          </RuledField>
+
+          <RuledField label="Okul" hint="Boşsa kâğıda basılmaz">
+            <input type="text" bind:value={exam.meta.school} />
+          </RuledField>
+
+          <RuledField label="Alan / Bölüm" hint="Boşsa kâğıda basılmaz">
+            <input type="text" bind:value={exam.meta.department} />
+          </RuledField>
+
+          <div class="col-span-2">
+            <div class="flex items-center gap-half">
+              <span class="stamp">İmzalar</span>
+              <span class="pencil">Boşsa imza bloğu basılmaz</span>
+              <button
+                type="button"
+                class="ml-auto border border-rule-strong bg-paper-lift px-half py-quarter
+                       text-[12px] leading-rule text-ink transition-colors
+                       hover:border-red hover:text-red-deep"
+                onclick={imzaEkle}
+              >
+                + İmza ekle
+              </button>
+            </div>
+
+            {#each exam.meta.signers as _, i (i)}
+              <div class="mt-quarter flex items-end gap-half">
+                <div class="flex-1">
+                  <RuledField label="Ad Soyad">
+                    <input type="text" bind:value={exam.meta.signers[i].name} />
+                  </RuledField>
+                </div>
+                <div class="flex-1">
+                  <RuledField label="Unvan">
+                    <input type="text" bind:value={exam.meta.signers[i].title} />
+                  </RuledField>
+                </div>
+                <button
+                  type="button"
+                  class="border border-rule-strong bg-paper-lift px-half py-quarter
+                         text-[12px] leading-rule text-pencil transition-colors
+                         hover:border-red hover:text-red-deep"
+                  aria-label="{i + 1}. imzayı sil"
+                  onclick={() => imzaSil(i)}
+                >
+                  Sil
+                </button>
+              </div>
+            {/each}
+          </div>
+        </div>
+
+        <div class="mt-half flex items-center gap-half">
+          <PenButton kind="ink" disabled={ayarKaydediliyor} onclick={ayarlariKaydet}>
+            {ayarKaydediliyor ? "Kaydediliyor…" : "Ayarları kaydet"}
+          </PenButton>
+          <span class="pencil">Kaydedince önizleme yenilenir</span>
+        </div>
+      </div>
+    {/if}
 
     <QuestionStrip questions={selected} />
 

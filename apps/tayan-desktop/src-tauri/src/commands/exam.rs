@@ -6,7 +6,7 @@ use tayan_core::{
         commands::{AddQuestionToExam, CreateExam},
         ports::ExamRepository,
     },
-    domain::exam_management::aggregates::{Exam, ExamId},
+    domain::exam_management::aggregates::{Exam, ExamId, ExamMeta},
     domain::exam_management::entities::question::QuestionId,
 };
 use crate::state::AppState;
@@ -65,6 +65,28 @@ pub async fn remove_question_from_exam(
     let qid = uuid::Uuid::parse_str(&question_id).map(QuestionId).map_err(|e| e.to_string())?;
     let mut exam = st.exams.find_by_id(&eid).await.map_err(|e| e.to_string())?;
     exam.remove_question_ref(&qid).map_err(|e| e.to_string())?;
+    st.exams.save(&exam).await.map_err(|e| e.to_string())
+}
+
+/// Kurulmuş bir sınavın künyesini günceller.
+///
+/// Sütun sayısı, okul, alan ve imzalar yalnız oluşturma formunda girilebiliyordu;
+/// bir kez kurulan sınavda değiştirilemiyordu. Oysa bunlar BASKININ özellikleri
+/// ve öğretmen kâğıdı gördükten sonra fikir değiştirebilir.
+///
+/// YALNIZ meta değişir. questions ve status korunur: bu komut soruları silmek
+/// ya da yayın durumunu geri almak için bir yol OLMAMALI — ikisi de kendi
+/// komutlarına ait ve kendi kuralları var.
+#[tauri::command]
+pub async fn update_exam_meta(
+    state:   State<'_, Mutex<AppState>>,
+    exam_id: String,
+    meta:    ExamMeta,
+) -> Result<(), String> {
+    let st = state.lock().await;
+    let id = parse_exam_id(&exam_id)?;
+    let mut exam = st.exams.find_by_id(&id).await.map_err(|e| e.to_string())?;
+    exam.meta = meta;
     st.exams.save(&exam).await.map_err(|e| e.to_string())
 }
 
