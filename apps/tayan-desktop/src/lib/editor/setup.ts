@@ -1,4 +1,4 @@
-import { EditorView, keymap, lineNumbers, highlightActiveLine, highlightActiveLineGutter, gutter, GutterMarker } from "@codemirror/view";
+import { EditorView, keymap, lineNumbers, highlightActiveLine, highlightActiveLineGutter, gutter, GutterMarker, tooltips } from "@codemirror/view";
 import { EditorState, StateEffect, StateField, RangeSet, type Extension } from "@codemirror/state";
 import { defaultKeymap, history, historyKeymap, indentWithTab } from "@codemirror/commands";
 import { bracketMatching, indentOnInput } from "@codemirror/language";
@@ -60,6 +60,50 @@ const editorTheme = EditorView.theme({
     textDecoration: "underline wavy #c8102e",
     textDecorationSkipInk: "none",
     textUnderlineOffset: "3px",
+  },
+
+  // ── Tamamlama kutusu ────────────────────────────────────────────────────
+  // Genişlik sınırlı: uzun imzalar (tinymist bazen tam fonksiyon imzası
+  // döndürüyor) kutuyu ekran genişliğine kadar şişiriyordu.
+  ".cm-tooltip.cm-tooltip-autocomplete": {
+    border: "1px solid #a4b3ad",
+    background: "#fbfbf8",
+    boxShadow: "0 1px 2px rgba(22,35,63,0.08), 0 4px 12px rgba(22,35,63,0.10)",
+    maxWidth: "420px",
+  },
+  ".cm-tooltip-autocomplete > ul": {
+    maxHeight: "220px",
+    fontFamily: "'JetBrains Mono', ui-monospace, monospace",
+    fontSize: "12px",
+    lineHeight: "20px",
+  },
+  ".cm-tooltip-autocomplete > ul > li": {
+    padding: "1px 8px",
+    // Uzun satır kutuyu genişletmesin: kesilir, tamamı seçilince yazılır.
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+    whiteSpace: "nowrap",
+  },
+  ".cm-tooltip-autocomplete > ul > li[aria-selected]": {
+    background: "#e9ebe4",
+    color: "#96061f",
+  },
+  ".cm-completionLabel": { color: "inherit" },
+  ".cm-completionDetail": {
+    color: "#6e716b",
+    fontStyle: "normal",
+    marginLeft: "0.6em",
+  },
+  // Sağdaki ayrıntı paneli de sınırlı; tinymist uzun belge döndürebiliyor.
+  ".cm-completionInfo": {
+    maxWidth: "320px",
+    maxHeight: "220px",
+    overflow: "auto",
+    border: "1px solid #a4b3ad",
+    background: "#fbfbf8",
+    padding: "4px 8px",
+    fontSize: "12px",
+    lineHeight: "18px",
   },
 }, { dark: false });
 
@@ -320,7 +364,26 @@ export function typstEditorExtensions(
     indentOnInput(),
     bracketMatching(),
     closeBrackets(),
-    autocompletion({ override: [tayanCompletions] }),
+    /**
+     * Tamamlama kutusu editör bölmesinin DIŞINA taşıyordu.
+     *
+     * Varsayılan `position: "absolute"` kutuyu editörün kaydırıcısına göre
+     * konumlandırır; imleç sağ kenara ya da alta yakınken kutu bölmeden dışarı
+     * çıkıyor ve kırpılıyordu. `fixed` görüntü alanına göre konumlandırır:
+     * CodeMirror kutuyu ekran içinde tutar ve altta yer yoksa YUKARI çevirir —
+     * VS Code'un yaptığı da budur.
+     *
+     * Bedeli: kutu artık document.body'ye asılıyor, editörle birlikte
+     * kaydırılmıyor. Kaydırma sırasında zaten kapanıyor, sorun olmuyor.
+     */
+    tooltips({ position: "fixed" }),
+
+    autocompletion({
+      override: [tayanCompletions],
+      // 560 sembolün tamamını çizmek hem yavaş hem okunmaz. VS Code da
+      // listeyi kırpar; aradığın ilk harflerden sonra zaten daralıyor.
+      maxRenderedOptions: 60,
+    }),
     keymap.of([...closeBracketsKeymap, ...defaultKeymap, ...historyKeymap, indentWithTab]),
     typstSyntax,
     diagnosticField,
