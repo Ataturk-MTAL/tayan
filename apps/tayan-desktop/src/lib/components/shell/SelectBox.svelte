@@ -1,6 +1,6 @@
 <script lang="ts">
   /**
-   * Seçim kutusu — kapalı liste ya da serbest girişli (combobox).
+   * SelectBox — kapalı liste ya da serbest girişli (combobox) seçim kutusu.
    *
    * NEDEN yerel `<select>` yetmedi:
    *

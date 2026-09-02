@@ -2,6 +2,7 @@
   import { onMount } from "svelte";
   import PageHead from "$lib/components/shell/PageHead.svelte";
   import RuledField from "$lib/components/shell/RuledField.svelte";
+  import SelectBox from "$lib/components/shell/SelectBox.svelte";
   import ScoreHistogram from "$lib/components/measure/ScoreHistogram.svelte";
   import AnswerGrid from "$lib/components/measure/AnswerGrid.svelte";
   import { api } from "$lib/api";
@@ -103,23 +104,23 @@
   <div class="ruled-bottom flex shrink-0 flex-wrap items-end gap-rule bg-paper px-rule py-half paper-plain">
     <div class="w-[260px]">
       <RuledField label="Sınav">
-        <select bind:value={examId}>
-          <option value="">— seç —</option>
-          {#each exams as exam (exam.id)}
-            <option value={exam.id}>{exam.meta.title}</option>
-          {/each}
-        </select>
+        <SelectBox
+          value={examId}
+          options={exams.map((e) => ({ value: e.id, label: e.meta.title }))}
+          emptyLabel="— seç —"
+          onchange={(v) => (examId = v)}
+        />
       </RuledField>
     </div>
 
     <div class="w-[160px]">
       <RuledField label="Sınıf">
-        <select bind:value={classroomId}>
-          <option value="">— seç —</option>
-          {#each classrooms as c (c.id)}
-            <option value={c.id}>{c.name}</option>
-          {/each}
-        </select>
+        <SelectBox
+          value={classroomId}
+          options={classrooms.map((c) => ({ value: c.id, label: c.name }))}
+          emptyLabel="— seç —"
+          onchange={(v) => (classroomId = v)}
+        />
       </RuledField>
     </div>
 

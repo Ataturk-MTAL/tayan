@@ -13,7 +13,7 @@
    * geri çağrıyla döner. Panel kendi kopyasını tutsa iki doğru kaynak olurdu.
    */
   import RuledField from "../shell/RuledField.svelte";
-  import Combobox from "../shell/Combobox.svelte";
+  import SelectBox from "../shell/SelectBox.svelte";
   import { GRADE_OPTIONS } from "$lib/question/subjects";
   import {
     DIFFICULTY_LABELS,
@@ -130,7 +130,7 @@
 <div class="flex flex-col gap-rule">
   <div class="flex flex-col gap-half">
     <RuledField label="Soru tipi">
-      <Combobox
+      <SelectBox
         value={questionType}
         options={tipSecenekleri}
         onchange={(v) => onquestiontypechange(v as QuestionType)}
@@ -138,7 +138,7 @@
     </RuledField>
 
     <RuledField label="Ders" hint={dersEksik ? "Zorunlu" : null}>
-      <Combobox
+      <SelectBox
         value={meta.subject}
         options={dersSecenekleri}
         allowCustom
@@ -152,7 +152,7 @@
       label="Sınıf seviyesi"
       hint={seviyeEksik ? `Zorunlu — ${MIN_GRADE} ile ${MAX_GRADE} arası` : null}
     >
-      <Combobox
+      <SelectBox
         value={meta.grade === 0 ? "" : String(meta.grade)}
         options={GRADE_OPTIONS}
         placeholder="Seç"
@@ -162,7 +162,7 @@
     </RuledField>
 
     <RuledField label="Zorluk" hint="İsteğe bağlı — ölçüm gelince gerçeği görürsün">
-      <Combobox
+      <SelectBox
         value={meta.difficulty ?? ""}
         options={ZORLUK_SECENEKLERI}
         emptyLabel="Belirtilmedi"

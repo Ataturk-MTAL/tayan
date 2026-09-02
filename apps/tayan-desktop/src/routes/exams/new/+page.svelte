@@ -2,6 +2,7 @@
   import PageHead from "$lib/components/shell/PageHead.svelte";
   import PenButton from "$lib/components/shell/PenButton.svelte";
   import RuledField from "$lib/components/shell/RuledField.svelte";
+  import SelectBox from "$lib/components/shell/SelectBox.svelte";
   import { api } from "$lib/api";
   import { errorText } from "$lib/editor/diagnostics";
   import { goto } from "$app/navigation";
@@ -136,10 +137,14 @@
         </div>
 
         <RuledField label="Sütun" hint="Çift sütun kısa sorularda kâğıt kazandırır">
-          <select bind:value={columns}>
-            <option value={1}>Tek sütun</option>
-            <option value={2}>Çift sütun</option>
-          </select>
+          <SelectBox
+            value={String(columns)}
+            options={[
+              { value: "1", label: "Tek sütun" },
+              { value: "2", label: "Çift sütun" },
+            ]}
+            onchange={(v) => (columns = Number(v))}
+          />
         </RuledField>
 
         <div></div>
