@@ -14,6 +14,35 @@
   let date = $state(new Date().toISOString().slice(0, 10));
   let instructions = $state("");
 
+  /**
+   * Kâğıdın sütun sayısı. Çift sütun kısa sorularda kâğıt tasarrufu sağlar;
+   * uzun gövdeli veya geniş görselli soruda okunaksızdır. Karar öğretmenin.
+   */
+  let columns = $state(1);
+  let school = $state("");
+  let department = $state("");
+
+  /**
+   * İmza bloğu. Boş bırakılırsa kâğıda hiç basılmaz.
+   *
+   * Değişiklikler YERİNDE yapılmaz: her ekleme/silme/düzenleme yeni bir dizi
+   * üretir. Yerinde değiştirmek, aynı diziyi tutan başka bir yerin sessizce
+   * etkilenmesi demektir.
+   */
+  let signers = $state<Array<{ name: string; title: string }>>([]);
+
+  function addSigner() {
+    signers = [...signers, { name: "", title: "" }];
+  }
+
+  function removeSigner(index: number) {
+    signers = signers.filter((_, i) => i !== index);
+  }
+
+  function updateSigner(index: number, field: "name" | "title", value: string) {
+    signers = signers.map((s, i) => (i === index ? { ...s, [field]: value } : s));
+  }
+
   let saving = $state(false);
   let saveError = $state<string | null>(null);
 
@@ -34,6 +63,14 @@
         duration_min: durationMin,
         date,
         instructions: instructions.trim() || null,
+        columns,
+        school: school.trim() || null,
+        department: department.trim() || null,
+        // Adı da unvanı da boş olan satırlar gönderilmez: yarım doldurulmuş bir
+        // imza satırı kâğıtta boş bir çizgi olarak basılırdı.
+        signers: signers
+          .map((s) => ({ name: s.name.trim(), title: s.title.trim() }))
+          .filter((s) => s.name !== "" || s.title !== ""),
       });
       await goto(`/exams/${id}`);
     } catch (err: unknown) {
@@ -88,6 +125,90 @@
           <RuledField label="Talimatlar" hint="Kâğıdın başında öğrenciye görünür">
             <textarea rows="3" bind:value={instructions}></textarea>
           </RuledField>
+        </div>
+
+        <!--
+          Kâğıdın biçimi. Bunlar sorunun değil BASKININ özellikleri: aynı soru
+          bir sınavda tek sütun, başkasında çift sütun basılabilir.
+        -->
+        <div class="col-span-2 border-t border-rule pt-half">
+          <h2 class="stamp">Kâğıt biçimi</h2>
+        </div>
+
+        <RuledField label="Sütun" hint="Çift sütun kısa sorularda kâğıt kazandırır">
+          <select bind:value={columns}>
+            <option value={1}>Tek sütun</option>
+            <option value={2}>Çift sütun</option>
+          </select>
+        </RuledField>
+
+        <div></div>
+
+        <RuledField label="Okul" hint="Boşsa kâğıda basılmaz">
+          <input
+            type="text"
+            bind:value={school}
+            placeholder="Atatürk Mesleki ve Teknik Anadolu Lisesi"
+          />
+        </RuledField>
+
+        <RuledField label="Alan / Bölüm" hint="Boşsa kâğıda basılmaz">
+          <input
+            type="text"
+            bind:value={department}
+            placeholder="Elektrik-Elektronik Teknolojisi Alanı"
+          />
+        </RuledField>
+
+        <div class="col-span-2">
+          <div class="flex items-center gap-half">
+            <span class="stamp">İmzalar</span>
+            <span class="pencil">Boşsa kâğıdın altına imza bloğu basılmaz</span>
+            <button
+              type="button"
+              class="ml-auto border border-rule-strong bg-paper-lift px-half py-quarter
+                     text-[12px] leading-rule text-ink transition-colors
+                     hover:border-red hover:text-red-deep"
+              onclick={addSigner}
+            >
+              + İmza ekle
+            </button>
+          </div>
+
+          {#each signers as signer, i (i)}
+            <div class="mt-half flex items-end gap-half">
+              <div class="flex-1">
+                <RuledField label="Ad Soyad">
+                  <input
+                    type="text"
+                    value={signer.name}
+                    placeholder="Hakan GÜLEN"
+                    oninput={(e) => updateSigner(i, "name", e.currentTarget.value)}
+                  />
+                </RuledField>
+              </div>
+              <div class="flex-1">
+                <RuledField label="Unvan">
+                  <input
+                    type="text"
+                    value={signer.title}
+                    placeholder="Ders Öğretmeni"
+                    oninput={(e) => updateSigner(i, "title", e.currentTarget.value)}
+                  />
+                </RuledField>
+              </div>
+              <button
+                type="button"
+                class="border border-rule-strong bg-paper-lift px-half py-quarter
+                       text-[12px] leading-rule text-pencil transition-colors
+                       hover:border-red hover:text-red-deep"
+                aria-label="{i + 1}. imzayı sil"
+                onclick={() => removeSigner(i)}
+              >
+                Sil
+              </button>
+            </div>
+          {/each}
         </div>
       </div>
     </div>

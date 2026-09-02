@@ -37,11 +37,30 @@ impl TypstGenerator {
             None    => seed_base,
         };
 
+        // Çift sütun, soruları saran tek bir #columns bloğudur; başlık ve imza
+        // bloğu dışarıda kalır çünkü ikisi de kâğıdın TAM genişliğine aittir.
+        //
+        // Soruların sütun sonunda ikiye bölünmemesi ayrı bir ayar gerektirmez:
+        // her soru zaten `breakable: false` bir blokta üretiliyor.
+        let two_columns = exam.meta.columns >= 2;
+        if two_columns {
+            // Sütun genişliği yarıya inince 11pt satır başına ~35 karakter
+            // bırakıyor. 10pt kırılmayı azaltır ve kâğıtta hâlâ rahat okunur.
+            out.push_str("#set text(size: 10pt)\n");
+            out.push_str("#columns(2, gutter: 0.85cm)[\n");
+        }
+
         for (i, q) in questions.iter().enumerate() {
             let q_ctx = ctx.clone().with_number((i + 1) as u32);
             out.push_str(&q.to_typst(&q_ctx));
             out.push('\n');
         }
+
+        if two_columns {
+            out.push_str("]\n");
+        }
+
+        out.push_str(&signature_block(&exam.meta.signers));
 
         Ok(out)
     }
@@ -75,38 +94,127 @@ fn escape_typst(s: &str) -> String {
     s.replace('"', "\\\"").replace('#', "\\#")
 }
 
+/// Kâğıdın alt imza bloğu. İmzacı yoksa hiç basılmaz.
+///
+/// `float: true` ile sayfanın altına oturur ve SON sayfada çıkar. Sütun
+/// bloğunun DIŞINDA üretilir; kâğıdın tam genişliğine aittir, bir sütuna değil.
+fn signature_block(signers: &[tayan_core::domain::exam_management::aggregates::ExamSigner]) -> String {
+    if signers.is_empty() {
+        return String::new();
+    }
+
+    let cols = vec!["1fr"; signers.len()].join(", ");
+    let cells: Vec<String> = signers
+        .iter()
+        .map(|s| {
+            format!(
+                "    imzasatir(\"{}\", \"{}\"),",
+                escape_typst(&s.name),
+                escape_typst(&s.title)
+            )
+        })
+        .collect();
+
+    format!(
+        "
+#place(bottom + center, float: true, clearance: 12pt, block(width: 100%)[
+  #line(length: 100%, stroke: 0.6pt)
+  #v(3mm)
+  #grid(columns: ({cols}), gutter: 0.6cm, row-gutter: 0.3cm,
+{cells}
+  )
+  #v(2mm)
+  #line(length: 100%, stroke: 0.6pt)
+])
+",
+        cells = cells.join("\n")
+    )
+}
+
 fn exam_header(exam: &Exam, booklet: Option<&str>) -> String {
     let title   = escape_typst(&exam.meta.title);
     let subject = escape_typst(&exam.meta.subject);
     let class   = escape_typst(&exam.meta.classroom);
     let teacher = escape_typst(&exam.meta.teacher);
     let dur     = exam.meta.duration_min;
+    let date    = exam.meta.date.format("%d.%m.%Y").to_string();
+    let count   = exam.questions.len();
+
+    // Kurum satırları isteğe bağlı: okul adı girilmemişse boş bir satır
+    // basmak yerine hiç basmıyoruz.
+    let school_line = match exam.meta.school.as_deref() {
+        Some(s) if !s.trim().is_empty() => format!(
+            "  #text(12pt, weight: \"bold\")[{}]\n  #linebreak()\n",
+            escape_typst(s)
+        ),
+        _ => String::new(),
+    };
+    let dept_line = match exam.meta.department.as_deref() {
+        Some(d) if !d.trim().is_empty() => format!(
+            "  #text(9.5pt, weight: \"bold\")[{}]\n  #linebreak()\n",
+            escape_typst(d)
+        ),
+        _ => String::new(),
+    };
 
     // Tek kitapçıkta etiket basılmaz — "Kitapçık A" yazmak, B yokken gürültüdür.
     let booklet_line = match booklet {
         Some(b) => format!(
-            "\n  #linebreak()\n  #text(size: 12pt, weight: \"bold\")[KİTAPÇIK {}]",
+            "  #linebreak()\n  #text(11pt, weight: \"bold\")[KİTAPÇIK {}]\n",
             escape_typst(b)
         ),
         None => String::new(),
     };
 
+    let instructions = exam
+        .meta
+        .instructions
+        .as_deref()
+        .filter(|s| !s.trim().is_empty())
+        .map(escape_typst)
+        .unwrap_or_else(|| {
+            format!(
+                "Sınav {count} sorudan oluşur. İstediğiniz sorudan başlayabilirsiniz; \
+                 işlem gerektiren sorularda işlemleri gösteriniz. Başarılar dileriz."
+            )
+        });
+
     format!(
-        "#align(center)[
-  #text(weight: \"bold\", size: 14pt)[{title}]
+        "#set page(footer: context [
+  #set text(8pt, fill: luma(45%))
+  #line(length: 100%, stroke: 0.4pt + luma(75%))
+  #grid(columns: (1fr, 1fr, 1fr),
+    align(left)[{subject}],
+    align(center)[Sayfa #counter(page).display() / #context counter(page).final().first()],
+    align(right)[{title}],
+  )
+])
+
+#align(center, block(spacing: 0pt)[
+  #set par(leading: 0.4em)
+{school_line}{dept_line}  #text(9.5pt, weight: \"bold\")[{class} #sym.dot.c {subject} #sym.dot.c {teacher}]
   #linebreak()
-  #text(size: 10pt)[{subject} #h(1em) | #h(1em) {class} #h(1em) | #h(1em) {teacher}]
-  #linebreak()
-  #text(size: 9pt, fill: gray)[Süre: {dur} dk]{booklet_line}
-]
-#line(length: 100%)
-#v(0.4cm)
-#grid(columns: (1fr, 1fr, 1fr),
-  [Ad Soyad: #underline(offset: 2pt)[#h(5cm)]],
-  [No: #underline(offset: 2pt)[#h(2cm)]],
-  [Puan: #underline(offset: 2pt)[#h(2cm)]],
+  #text(10pt, weight: \"bold\")[{title}]
+{booklet_line}])
+#v(1.4mm)
+
+#table(
+  columns: (1fr, 0.7fr, 0.7fr, 0.7fr),
+  stroke: 0.6pt + luma(40%),
+  inset: (x: 6pt, y: 4pt),
+  [*Adı Soyadı:*], [*No:*], [*Sınıf/Şube:*], [*Aldığı Puan:*],
 )
-#v(0.6cm)
+#v(1mm)
+
+#block(fill: luma(96%), stroke: 0.5pt + luma(70%), radius: 3pt,
+       inset: (x: 7pt, y: 5pt), width: 100%,
+  text(8.5pt)[
+    #text(weight: \"bold\")[Açıklamalar: ] {instructions}
+    #h(0.6em) Süre: *{dur} dk* #h(0.6em) Tarih: {date}
+  ])
+#v(1.4mm)
+#line(length: 100%, stroke: 0.7pt)
+#v(1.4mm)
 
 "
     )
@@ -195,6 +303,16 @@ const PREAMBLE: &str = r##"#set page(paper: "a4", margin: (x: 2cm, y: 2.5cm))
 // Boşluk doldurma. `cevap` basılmaz; kabul edilen cevaplar | ile ayrılır.
 // blank() ile aynı çizgiyi çizer, farkı cevabı kaynakta taşımasıdır.
 #let bosluk(cevap: none, width: 4cm) = blank(width: width)
+
+// Kâğıdın altındaki tek imza sütunu: çizgi, ad, unvan.
+// signature_block bunu imzacı sayısı kadar bir grid içinde çağırır.
+#let imzasatir(ad, unvan) = align(center)[
+  #line(length: 3.2cm, stroke: 0.5pt)
+  #linebreak()
+  #text(weight: "bold")[#ad]
+  #linebreak()
+  #text(8.5pt)[#unvan]
+]
 
 // Klasik soru için cevap alanı: öğrencinin yazacağı çizgiler.
 #let cevap-alani(satir: 6) = {

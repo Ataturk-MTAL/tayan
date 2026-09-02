@@ -148,6 +148,12 @@ export function bodyPreview(body: ContentNode[], maxLen = 80): string {
 
 export type ExamStatus = "Draft" | "Published" | "Archived";
 
+/** Kâğıdı imzalayan kişi — "Ömer YİĞİT" / "Okul Müdürü". */
+export type ExamSigner = {
+  name: string;
+  title: string;
+};
+
 export type ExamMeta = {
   title: string;
   subject: string;
@@ -156,6 +162,25 @@ export type ExamMeta = {
   duration_min: number;
   date: string; // NaiveDate → "YYYY-MM-DD"
   instructions: string | null;
+
+  /**
+   * Kâğıdın sütun sayısı: 1 veya 2.
+   *
+   * Çift sütun kısa sorularda kâğıt tasarrufu sağlar. Sorular `breakable: false`
+   * blok içinde dizildiği için hiçbir soru sütun sonunda ikiye bölünmez.
+   *
+   * Typst sütunları DENGELEMEZ: birinci sütunu sayfa yüksekliğine kadar
+   * doldurup ikinciye geçer. Az sayıda kısa soruda ikinci sütun boş kalır —
+   * bu doğru davranıştır, hata değil.
+   */
+  columns: number;
+
+  /** Kâğıdın başındaki kurum satırları. Boşsa basılmaz. */
+  school: string | null;
+  department: string | null;
+
+  /** Kâğıdın altındaki imza bloğu. Boşsa blok hiç basılmaz. */
+  signers: ExamSigner[];
 };
 
 export type ExamQuestionRef = {

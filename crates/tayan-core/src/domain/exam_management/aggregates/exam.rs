@@ -51,6 +51,41 @@ pub struct ExamMeta {
     pub duration_min: u32,
     pub date:         NaiveDate,
     pub instructions: Option<String>,
+
+    /// Kâğıdın sütun sayısı: 1 veya 2.
+    ///
+    /// Çift sütun kısa sorularda kâğıt tasarrufu sağlar; uzun gövdeli veya
+    /// geniş görselli sorularda okunaksızdır. Karar öğretmenindir, bu yüzden
+    /// SINAV ayarı — soru ayarı değil.
+    ///
+    /// Sorular zaten `breakable: false` blok içinde üretiliyor, yani bir soru
+    /// sütun sonunda ikiye bölünmez; çift sütun için bu alan tek başına yeter.
+    #[serde(default = "default_columns")]
+    pub columns: u8,
+
+    /// Kâğıdın başındaki kurum satırları. Yoksa basılmaz — okul adı olmadan da
+    /// geçerli bir sınav kâğıdı üretilebilmeli.
+    #[serde(default)]
+    pub school: Option<String>,
+    #[serde(default)]
+    pub department: Option<String>,
+
+    /// Kâğıdın altındaki imza bloğu. Boşsa blok hiç basılmaz.
+    #[serde(default)]
+    pub signers: Vec<ExamSigner>,
+}
+
+/// Eski kayıtlarda bu alan yok. Tek sütun güvenli varsayılan: her soru tipinde
+/// okunur, çift sütun ise uzun gövdeli soruda bozulur.
+fn default_columns() -> u8 {
+    1
+}
+
+/// Kâğıdı imzalayan kişi — "Ömer YİĞİT" / "Okul Müdürü" gibi.
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+pub struct ExamSigner {
+    pub name:  String,
+    pub title: String,
 }
 
 /// An exam is a named, ordered collection of question references with metadata.
