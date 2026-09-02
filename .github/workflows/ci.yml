@@ -56,6 +56,11 @@ jobs:
       - name: svelte-check
         run: pnpm run check
 
+      # Birim testler saf modüller için: ayrıştırıcılar, doğrulayıcılar, Esc
+      # merdiveni. Koşmayan test sessizce çürür — kapı olması bunun içindir.
+      - name: Birim testler
+        run: pnpm run test
+
       - name: Vite derlemesi
         run: pnpm run build
 
