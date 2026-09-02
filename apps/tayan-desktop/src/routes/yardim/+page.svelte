@@ -391,7 +391,7 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
 
         <h2 id="kazanim" class="mt-rule border-t border-rule-strong pt-half">Kazanım kodu</h2>
         <p class="mt-quarter leading-rule">
-          MEB biçiminde yazılır: <span class="font-mono">MAT.9.1.2</span> — ders,
+          MEB biçiminde yazılır: <span class="font-mono">MAT.9.1.2</span> — ders kodu 1-5 harf (Türkçe harf geçerli: <span class="font-mono">FİZ</span>, <span class="font-mono">COĞ</span>), sonra sınıf,
           sınıf, ünite, kazanım. Bir soruya birden çok kazanım yazabilirsin; boşluk
           veya virgülle ayır.
         </p>

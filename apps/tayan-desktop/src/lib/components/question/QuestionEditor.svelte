@@ -21,6 +21,7 @@
     structureError: string | null;
     meta: QuestionMeta;
     subjectOptions: string[];
+    bank: Question[];
     onmetachange: (next: QuestionMeta) => void;
     saving: boolean;
     saveLabel: string;
@@ -42,6 +43,7 @@
     structureError,
     meta,
     subjectOptions,
+    bank,
     onmetachange,
     saving,
     saveLabel,
@@ -154,6 +156,7 @@
       {structureError}
       {meta}
       {subjectOptions}
+      {bank}
       {onmetachange}
       {onquestiontypechange}
       {onoutcometextchange}

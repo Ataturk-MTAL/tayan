@@ -2,6 +2,7 @@
   import QuestionEditor from "./QuestionEditor.svelte";
   import { typstBody } from "$lib/question/body";
   import { STARTER_SUBJECTS, subjectSuggestions } from "$lib/question/subjects";
+  import { splitOutcomes } from "$lib/question/outcomes";
   import { onMount } from "svelte";
   import type { ContentNode } from "$lib/types";
   import {
@@ -79,6 +80,13 @@
     if (meta.subject.trim() === "") return "Ders alanı boş olamaz.";
     if (!Number.isFinite(meta.grade) || meta.grade < MIN_GRADE || meta.grade > MAX_GRADE)
       return `Sınıf seviyesi ${MIN_GRADE} ile ${MAX_GRADE} arasında olmalı.`;
+
+    // Biçimsiz kazanım kaydetmede Rust tarafından reddedilir. Burada yakalamak,
+    // öğretmenin hatayı formu doldurduktan SONRA öğrenmesini önler.
+    const { invalid } = splitOutcomes(outcomeText);
+    if (invalid.length > 0)
+      return `Kazanım kodu biçimsiz: ${invalid.join(", ")} — DERS.SINIF.ÜNİTE.KAZANIM bekleniyor.`;
+
     return null;
   });
 
@@ -88,10 +96,13 @@
    * öneri listesi çalışmazsa soru yazmak durmamalı.
    */
   let subjectOptions = $state<string[]>(STARTER_SUBJECTS);
+  /** Kazanım önerileri bankanın kendisinden türetiliyor. */
+  let bank = $state<Question[]>([]);
 
   onMount(async () => {
     try {
-      subjectOptions = subjectSuggestions(await api.questions.list());
+      bank = await api.questions.list();
+      subjectOptions = subjectSuggestions(bank);
     } catch {
       // Başlangıç listesi zaten yüklü.
     }
@@ -300,6 +311,7 @@
       structureError={structureError ?? metaError}
       {meta}
       {subjectOptions}
+      {bank}
       onmetachange={(next) => (meta = next)}
       {saving}
       saveLabel={saving ? "Kaydediliyor…" : existing ? "Güncelle" : "Kaydet"}
