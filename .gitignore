@@ -27,3 +27,10 @@
 .env.*
 !.env.example
 
+
+# tauri icon, masaüstünde kullanılmayan mobil ve Microsoft Store varlıklarını da
+# üretiyor. TAYAN yalnız masaüstü; bunlar repoya girmez.
+apps/tayan-desktop/src-tauri/icons/android/
+apps/tayan-desktop/src-tauri/icons/ios/
+apps/tayan-desktop/src-tauri/icons/Square*Logo.png
+apps/tayan-desktop/src-tauri/icons/StoreLogo.png

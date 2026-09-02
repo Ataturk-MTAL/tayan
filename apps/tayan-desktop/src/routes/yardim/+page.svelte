@@ -195,7 +195,10 @@
     { id: "kazanim", ad: "Kazanım kodu" },
     { id: "hata", ad: "Hata mesajları" },
     { id: "veri", ad: "Verilerim nerede" },
+    { id: "hakkinda", ad: "Hakkında" },
   ];
+
+  const SURUM = "0.1.0";
 </script>
 
 <div class="flex h-full min-h-0 flex-col">
@@ -470,6 +473,60 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
         <p class="pencil mt-quarter">
           Soru bankası, sınavlar, sınıflar ve sonuçlar bu klasördeki veritabanı
           dosyasında durur. Yedek almak için klasörü kopyalaman yeterlidir.
+        </p>
+
+        <h2 id="hakkinda" class="mt-rule border-t border-rule-strong pt-half">Hakkında</h2>
+
+        <img
+          src="/tayan-logo.png"
+          alt="TAYAN — Soru Bankası ve Typst Editörü"
+          class="mt-half block w-[260px] max-w-full"
+        />
+
+        <p class="mt-half leading-rule">
+          <strong>TAYAN</strong>, öğretmenlerin sınav sorusu yazması, sınav kurması ve
+          sonuçları çözümlemesi için yapılmış çevrimdışı bir masaüstü uygulamasıdır.
+          Sorular <a href="https://typst.app" target="_blank" rel="noreferrer">Typst</a>
+          ile dizilir; kâğıda basılan ile ekranda görülen aynıdır.
+        </p>
+
+        <dl class="mt-half grid grid-cols-[130px_1fr] gap-x-half gap-y-quarter">
+          <dt class="stamp">Sürüm</dt>
+          <dd class="tnum">{SURUM}</dd>
+
+          <dt class="stamp">Geliştiren</dt>
+          <dd>Hakan Gülen</dd>
+
+          <dt class="stamp">Kurum</dt>
+          <dd>
+            Atatürk Mesleki ve Teknik Anadolu Lisesi<br />
+            <span class="pencil">Elektrik-Elektronik Teknolojisi Alanı</span>
+          </dd>
+
+          <dt class="stamp">Lisans</dt>
+          <dd>Apache License 2.0</dd>
+
+          <dt class="stamp">Kaynak kod</dt>
+          <dd>
+            <a
+              href="https://github.com/Ataturk-MTAL/tayan"
+              target="_blank"
+              rel="noreferrer"
+              class="font-mono text-[12px]">github.com/Ataturk-MTAL/tayan</a
+            >
+          </dd>
+        </dl>
+
+        <p class="pencil mt-half border-t border-rule pt-half">
+          Telif hakkı &copy; 2026 Hakan Gülen. TAYAN açık kaynaktır ve Apache License,
+          Version 2.0 koşullarıyla dağıtılır. Dizgi motoru Typst, ayrı kendi lisansı
+          altındadır; üçüncü taraf bileşenlerin tam listesi için depodaki
+          <span class="font-mono text-[12px]">NOTICE</span> dosyasına bakınız.
+        </p>
+
+        <p class="pencil mt-half">
+          Uygulama tamamen çevrimdışıdır: hesap açılmaz, veri toplanmaz, hiçbir bilgi
+          dışarı gönderilmez.
         </p>
       </div>
     </article>
