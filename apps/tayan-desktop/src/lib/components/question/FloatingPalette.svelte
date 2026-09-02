@@ -16,6 +16,7 @@
   import { groupsFor, type QuestionType } from "$lib/question/templates";
   import { saveImageAsTypst } from "$lib/question/image";
   import { errorText } from "$lib/editor/diagnostics";
+  import { pushEscapeLayer } from "$lib/ui/escape-stack";
 
   type Props = {
     questionType: QuestionType;
@@ -64,20 +65,18 @@
   }
 
   /**
-   * Esc ve dışarı tık paneli kapatır.
+   * Esc, tek sıralı merdivenden gelir — kendi pencere dinleyicimiz YOK.
    *
-   * UYARI: Esc şu an burada, çünkü kapatılacak tek katman bu. Sınav çekmecesi,
-   * yardım paneli ve boş-belge tip seçici geldiğinde bu dinleyici KALDIRILMALI
-   * ve tek sıralı bir Esc merdivenine taşınmalıdır. Katman başına ayrı Esc
-   * dinleyicisi, ekranda olmayan bir yığına karşı çözülen Esc demektir
-   * (docs/UI-IA.md §9.5).
+   * Önceden kendi dinleyicisi vardı ve şu hatayı üretiyordu: palet açıkken
+   * editörde Esc'e basmak CodeMirror'ın tamamlama kutusunu kapatıyor, olay
+   * pencereye çıkıyor ve paleti DE kapatıyordu. Merdiven `defaultPrevented`
+   * kontrolüyle bunu engelliyor (lib/ui/escape-stack.ts).
    */
-  function onKeydown(event: KeyboardEvent) {
-    if (event.key === "Escape" && open) {
-      open = false;
-      event.stopPropagation();
-    }
-  }
+  $effect(() => {
+    if (!open) return;
+    return pushEscapeLayer(() => (open = false));
+  });
+
 
   function onWindowPointerDown(event: PointerEvent) {
     if (!open || !root) return;
@@ -85,7 +84,7 @@
   }
 </script>
 
-<svelte:window onkeydown={onKeydown} onpointerdown={onWindowPointerDown} />
+<svelte:window onpointerdown={onWindowPointerDown} />
 
 <!--
   Kâğıt tabakası, kart değil: köşesiz, cetvelli kenarlı, hafif gölgeli.
