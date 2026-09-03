@@ -195,6 +195,7 @@
     { id: "turev", ad: "Türev ve integral" },
     { id: "kisayol", ad: "Kısayollar" },
     { id: "kazanim", ad: "Kazanım kodu" },
+    { id: "rubrik", ad: "Rubrik ve cevap anahtarı" },
     { id: "hata", ad: "Hata mesajları" },
     { id: "yayin", ad: "Yayınla ve PDF kaydet" },
     { id: "veri", ad: "Verilerim nerede" },
@@ -399,6 +400,91 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
         <p class="pencil mt-quarter">
           Analiz ekranı kazanım başına başarıyı buradan hesaplar. Kazanım girilmemiş
           soru analizde görünmez.
+        </p>
+
+        <h2 id="rubrik" class="mt-rule border-t border-rule-strong pt-half">
+          Rubrik ve cevap anahtarı
+        </h2>
+        <p class="mt-quarter leading-rule">
+          Açık uçlu (klasik) sorularda puanı neye göre verdiğini yazabilirsin.
+          Soruyu açtığında paneldeki <b>Puanlama ölçütleri</b> bölümünden
+          <b>+ Ölçüt ekle</b> ile satır eklersin: solda ölçüt metni, sağda puanı.
+        </p>
+        <p class="mt-quarter leading-rule">
+          Ölçüt puanlarının toplamı <b>soru puanına eşit olmak zorunda</b>.
+          Eşit değilken sağ üstteki sayaç kırmızıya döner ve kaydetme kilitlenir;
+          altında kaç puanın dağıtılmadığı yazar. Ölçüt yazmak zorunlu değil —
+          boş bırakırsan cevap anahtarına puanlama tablosu basılmaz.
+        </p>
+        <p class="pencil mt-quarter">
+          Ölçüt alanı Typst kabul eder: <span class="font-mono">$</span> yazınca
+          sembol listesi açılır. &quot;Formül
+          <span class="font-mono">$R = (V_(&quot;pin&quot;) - V_F)/I$</span>
+          yazılmış&quot; gibi ölçütler böyle yazılır.
+        </p>
+
+        <h3 class="stamp mt-half">Cevap anahtarını basmak</h3>
+        <p class="mt-quarter leading-rule">
+          Ayrı bir &quot;cevap anahtarı oluştur&quot; adımı yok. Sınavı aç,
+          <b>Cevap anahtarı</b> kutucuğunu işaretle — önizleme anında değişir —
+          sonra <b>PDF kaydet</b>. Dosya adı kendiliğinden
+          <span class="font-mono">_cevap</span> ile biter.
+        </p>
+        <p class="mt-quarter leading-rule">
+          Kutucuk işaretliyken kâğıda <b>ek olarak</b> şunlar girer: doğru şık
+          işareti, doğru/yanlış cevabı, soru başlığı, puanlama ölçütleri tablosu
+          (TOPLAM satırıyla) ve örnek cevap. İşaretsizken hiçbiri basılmaz.
+        </p>
+        <p class="pencil mt-quarter">
+          İki kâğıdın soru sırası birebir aynıdır: karıştırma sırası sınav
+          kimliğinden türer. <b>Kitapçık türünü değiştirdiysen anahtarı da aynı
+          türle bas</b> — B kitapçığının anahtarını A ile basarsan sıralar tutmaz.
+        </p>
+        <p class="pencil mt-quarter">
+          Soru başlığı da yalnız cevap anahtarında görünür. Öğrenci nüshasında
+          basılsaydı konuyu ele verirdi: &quot;Dijital Çıkış — LED Sürme&quot;
+          başlığı, sorunun neyi sorduğunu okumadan söyler.
+        </p>
+        <h3 class="stamp mt-half">Eski dosyandan rubrik yapıştırmak</h3>
+        <p class="mt-quarter leading-rule">
+          Elindeki cevap anahtarı dosyalarında ölçütler
+          <span class="font-mono">#rubrik((([ölçüt], puan), ...))</span> biçiminde
+          yazılıysa bunu doğrudan soru gövdesine yapıştırabilirsin. Üstte bir
+          şerit çıkar ve <b>Panele taşı ve gövdeden kaldır</b> düğmesiyle ölçütler
+          panele geçer, blok gövdeden silinir.
+        </p>
+        <p class="pencil mt-quarter">
+          Yalnız düz <span class="font-mono">([ölçüt], puan)</span> demetleri
+          taşınabiliyor. Değişkenle yazılmış
+          (<span class="font-mono">#rubrik(olcutler)</span>), hesaplanmış puanlı
+          (<span class="font-mono">3 + 2</span>) veya döngüyle üretilmiş rubrikler
+          okunmaz — şerit sebebini yazar, ölçütleri panele elle girersin.
+          Bu sınır bilinçli: yanlış okunmuş bir ölçüt yanlış not demek olurdu.
+        </p>
+        <p class="pencil mt-quarter">
+          <b>Gövdede kalan rubrik kaydettirmez.</b> Panele taşımazsan kaydetme
+          reddedilir, çünkü gövdedeki blok hiçbir yerde işlemez: cevap anahtarına
+          basılmaz, sonuç girişinde kutucuk çıkmaz, toplam doğrulaması çalışmaz.
+          Ölçütleri yazdığını sanıp hiçbirinin işlememesi, en baştan hata almaktan
+          kötüdür.
+        </p>
+        <p class="pencil mt-quarter">
+          Ayrıca güvenlik ağı var: önsözdeki
+          <span class="font-mono">#rubrik</span> öğrenci nüshasında hiçbir şey
+          basmaz. Gözden kaçan bir blok bile öğrencinin önüne düşemez.
+        </p>
+
+        <h3 class="stamp mt-half">Ölçütlere göre puanlamak</h3>
+        <p class="mt-quarter leading-rule">
+          <b>Analiz &rarr; Sonuç girişi</b> ekranında açık uçlu sorunun ölçütleri
+          kutucuk olarak çıkar. İşaretledikçe puan kendiliğinden toplanır. Puan
+          kutusunu elle de değiştirebilirsin: ölçüte tam uymayan ama karşılığı
+          olan bir cevabı takdir edebilmelisin — rubrik yardımcıdır, kelepçe değil.
+        </p>
+        <p class="pencil mt-quarter">
+          Rubriği sonradan düzenlersen <b>daha önce girilmiş notlar değişmez.</b>
+          Puan giriş anında hesaplanıp kaydedilir. Yalnız kaydedilen ölçüt
+          kırılımı eski rubriğe işaret ediyor olabilir.
         </p>
 
         <h2 id="hata" class="mt-rule border-t border-rule-strong pt-half">Hata mesajları</h2>
