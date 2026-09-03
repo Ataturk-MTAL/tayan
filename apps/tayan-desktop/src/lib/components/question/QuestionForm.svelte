@@ -1,6 +1,8 @@
 <script lang="ts">
   import QuestionEditor from "./QuestionEditor.svelte";
-  import { typstBody } from "$lib/question/body";
+  import { bodySource, typstBody } from "$lib/question/body";
+  import type { RubricItem } from "$lib/types";
+  import { hasRubricCall, importRubric, removeRange } from "$lib/question/rubric-import";
   import { STARTER_SUBJECTS, subjectSuggestions } from "$lib/question/subjects";
   import { splitOutcomes } from "$lib/question/outcomes";
   import { onMount } from "svelte";
@@ -64,6 +66,76 @@
   let outcomeText = $state(existing ? existing.outcomes.join(" ") : "");
 
   /**
+   * Açık uçlu sorunun puanlama ölçütleri.
+   *
+   * Bir zamanlar burada `rubric: []` SABİTİ vardı: alan Rust'ta, doğrulaması
+   * Rust'ta, cevap anahtarına dizgisi Rust'ta hazırdı ama arayüz her kayıtta
+   * boş yazıyordu — öğretmen rubriği hiç oluşturamıyordu.
+   */
+  let rubric = $state<RubricItem[]>(
+    existing?.question_type === "classic" ? existing.rubric : [],
+  );
+
+  /**
+   * Örnek çözüm — YALNIZ cevap anahtarına basılır.
+   *
+   * Alan uçtan uca ölüydü: komut yapısında yoktu, Rust işleyicisi `None`
+   * yazıyordu, form `null` gönderiyordu. Cevap anahtarı "Örnek cevap:"
+   * basmaya hazır olduğu hâlde öğretmen hiçbir yerden giremiyordu.
+   */
+  let sampleAnswer = $state(
+    existing?.question_type === "classic" && existing.sample_answer
+      ? bodySource(existing.sample_answer)
+      : "",
+  );
+
+  /**
+   * Gövdeye yazılmış `#rubrik(...)` bloğu.
+   *
+   * Öğretmenin elindeki eski cevap anahtarı dosyalarında ölçütler böyle
+   * yazılı; yapıştırıp panele taşıyabilmeli. Taşıma TEK YÖNLÜ ve BİR KEZ:
+   * sonrasında hüküm panelin. Çözümleyici asla not vermez, yalnız veri taşır.
+   */
+  /**
+   * KAYNAK İKİ TANE. Öğretmen eski cevap anahtarı dosyasını büyük ihtimalle
+   * CEVAP sekmesine yapıştırır — ölçütler orada. Yalnız gövdeye bakmak, aynı
+   * sessiz kaybı öbür kapıdan içeri alırdı.
+   */
+  let govdedekiRubrik = $derived.by(() => {
+    if (questionType !== "classic") return null;
+    const govde = importRubric(body);
+    if (govde) return { kaynak: "body" as const, sonuc: govde };
+    const cevap = importRubric(sampleAnswer);
+    if (cevap) return { kaynak: "sample" as const, sonuc: cevap };
+    return null;
+  });
+
+  function rubrigiPaneleTasi() {
+    const bulunan = govdedekiRubrik;
+    if (!bulunan?.sonuc.ok) return;
+    const { from, to, items } = bulunan.sonuc;
+    rubric = items;
+    if (bulunan.kaynak === "body") {
+      body = removeRange(body, from, to);
+    } else {
+      sampleAnswer = removeRange(sampleAnswer, from, to);
+    }
+  }
+
+  /** Rust'taki ClassicQuestion::validate ile aynı kural. */
+  let rubricError = $derived.by(() => {
+    if (questionType !== "classic" || rubric.length === 0) return null;
+    if (rubric.some((r) => r.criterion.trim() === "")) {
+      return "Rubrikte boş ölçüt var.";
+    }
+    const toplam = rubric.reduce((sum, r) => sum + r.points, 0);
+    if (toplam !== points) {
+      return `Rubrik toplamı (${toplam}) soru puanıyla (${points}) eşleşmiyor.`;
+    }
+    return null;
+  });
+
+  /**
    * Sorunun künyesi. Var olan soruda kayıtlı değer; yenide boş.
    *
    * Eski kayıtlarda bu alan yoktu ve Rust tarafı serde(default) ile
@@ -72,7 +144,7 @@
    * varsayılan koymak, yanlış kazanım eşleşmesi üretmekten kötüdür.
    */
   let meta = $state<QuestionMeta>(
-    existing?.meta ?? { subject: "", grade: 0, difficulty: null },
+    existing?.meta ?? { subject: "", grade: 0, difficulty: null, title: "" },
   );
 
   /** Ders ve sınıf seviyesi zorunlu; Rust tarafındaki kuralın aynısı. */
@@ -196,8 +268,8 @@
       ...common,
       question_type: "classic",
       points,
-      sample_answer: null,
-      rubric: [],
+      sample_answer: sampleAnswer.trim() === "" ? null : typstBody(sampleAnswer),
+      rubric,
       answer_space: { Lines: parsed as number },
     };
   }
@@ -210,6 +282,21 @@
 
     if (structureError !== null) {
       saveError = structureError;
+      return;
+    }
+
+    // Rust ClassicQuestion::validate gövdedeki #rubrik( yüzünden reddediyor.
+    // Sebebi burada söylemek, öğretmeni ham hata mesajıyla baş başa bırakmıyor.
+    if (questionType === "classic" && (hasRubricCall(body) || hasRubricCall(sampleAnswer))) {
+      saveError =
+        "Kaynakta #rubrik( var. Panele taşımadan kaydedilemez: kaynağa " +
+        "yazılan rubrik ne cevap anahtarına ne de sonuç girişine yansır.";
+      return;
+    }
+
+    // Rust zaten reddediyor; burada durdurmak sebebi ANLAŞILIR kılıyor.
+    if (rubricError !== null) {
+      saveError = rubricError;
       return;
     }
 
@@ -269,8 +356,8 @@
           points,
           outcomes,
           body: bodyNodes,
-          sample_answer: null,
-          rubric: [],
+          sample_answer: sampleAnswer.trim() === "" ? null : typstBody(sampleAnswer),
+          rubric,
           answer_space: { Lines: parsed as number },
         });
       }
@@ -297,6 +384,39 @@
     puanın hemen altında duruyor. Kaydetme hatası ise ayrı bir şey — ağa/diske
     giden bir çağrının başarısızlığı — ve üstte kalır.
   -->
+  <!--
+    Gövdeye yazılmış rubrik SESSİZ KALMAZ. Kaydetme zaten kilitli; burada
+    öğretmen ya tek tıkla panele taşır ya da neden okunamadığını görür.
+  -->
+  {#if govdedekiRubrik}
+    <div class="ruled-bottom shrink-0 bg-red-wash px-rule py-quarter">
+      {#if govdedekiRubrik.sonuc.ok}
+        <p class="annot">
+          {govdedekiRubrik.kaynak === "body" ? "Soru gövdesinde" : "Örnek cevapta"}
+          {govdedekiRubrik.sonuc.items.length} ölçütlük bir
+          <span class="font-mono">#rubrik(…)</span> bloğu var. Ölçütler panelden
+          yönetilir; kaynakta kalırsa ne cevap anahtarına ne sonuç girişine yansır.
+        </p>
+        <button
+          type="button"
+          class="stamp mt-quarter border border-rule px-half leading-rule
+                 text-ink-mid transition-colors hover:border-red hover:text-red-deep"
+          onclick={rubrigiPaneleTasi}
+        >
+          Panele taşı ve gövdeden kaldır
+        </button>
+      {:else}
+        <p class="annot">
+          Kaynaktaki <span class="font-mono">#rubrik(…)</span> okunamadı:
+          {govdedekiRubrik.sonuc.reason} Yalnız düz
+          <span class="font-mono">([ölçüt], puan)</span> demetleri taşınabiliyor —
+          değişken, hesaplanmış puan ve döngü okunmuyor. Ölçütleri panele elle
+          gir ve bloğu kaynaktan sil.
+        </p>
+      {/if}
+    </div>
+  {/if}
+
   {#if saveError}
     <p class="ruled-bottom annot shrink-0 bg-red-wash px-rule py-quarter">{saveError}</p>
   {/if}
@@ -307,6 +427,8 @@
       {questionType}
       {outcomeText}
       {points}
+      {rubric}
+      {sampleAnswer}
       {stats}
       structureError={structureError ?? metaError}
       {meta}
@@ -319,6 +441,8 @@
       onquestiontypechange={(next) => (questionType = next)}
       onoutcometextchange={(next) => (outcomeText = next)}
       onpointschange={(next) => (points = next)}
+      onrubricchange={(next) => (rubric = next)}
+      onsampleanswerchange={(next) => (sampleAnswer = next)}
       onsave={save}
     />
   </div>

@@ -223,6 +223,63 @@ pub async fn compile_question_preview_svg(body: String) -> Result<Vec<String>, S
     })
 }
 
+/// Cevap anahtarı önizlemesi: soru + rubrik tablosu + örnek cevap birlikte.
+///
+/// AYNI DİZGİ YOLUNDAN GEÇER. Rubrik tablosunu ya da "Örnek cevap:" bloğunu
+/// burada kendi format dizgisiyle üretmek en sinsi hata olurdu: önizleme ile
+/// basılan anahtar sessizce ıraksar, öğretmen ekranda gördüğünden başka bir
+/// kâğıt basar. Bu yüzden geçici bir `ClassicQuestion` kurulup gerçek
+/// `to_typst(answer_key: true)` çağrılıyor.
+///
+/// Soru burada DOĞRULANMAZ. Önizleme yazarken çalışıyor; henüz toplamı
+/// tutmayan bir rubrik de görünmeli, yoksa öğretmen ölçütleri yazarken
+/// önizleme kararır.
+#[tauri::command]
+pub async fn compile_answer_preview_svg(
+    body: String,
+    sample_answer: Option<String>,
+    rubric: Vec<tayan_core::domain::exam_management::entities::classic::RubricItem>,
+    points: u32,
+) -> Result<Vec<String>, String> {
+    use tayan_core::domain::exam_management::entities::classic::{AnswerSpace, ClassicQuestion};
+    use tayan_core::domain::exam_management::entities::question::{Points, QuestionId};
+    use tayan_core::domain::exam_management::value_objects::{ContentNode, QuestionBody};
+    use tayan_core::domain::shared::to_typst::{ToTypst, TypstContext};
+
+    tokio::task::spawn_blocking(move || {
+        let soru = ClassicQuestion {
+            meta: Default::default(),
+            id: QuestionId::new(),
+            points: Points::new(points),
+            outcomes: vec![],
+            body: QuestionBody(vec![ContentNode::typst_raw(body)]),
+            sample_answer: sample_answer
+                .filter(|s| !s.trim().is_empty())
+                .map(|s| QuestionBody(vec![ContentNode::typst_raw(s)])),
+            rubric,
+            answer_space: AnswerSpace::Lines(6),
+            stats: Default::default(),
+        };
+
+        let ctx = TypstContext {
+            answer_key: true,
+            shuffle: false,
+            question_number: None,
+            booklet: None,
+            shuffle_seed: 0,
+        };
+
+        let source = tayan_compiler::typst_gen::TypstGenerator::preview_document(&soru.to_typst(&ctx));
+        tayan_compiler::TayanWorld::compile_svg(source)
+    })
+    .await
+    .map_err(|e| e.to_string())?
+    .map_err(|e| {
+        let offset = tayan_compiler::typst_gen::TypstGenerator::preview_line_offset();
+        shift_diagnostic_lines(&e.to_string(), offset)
+    })
+}
+
 /// Tanılamalardaki satır numaralarını öğretmenin gördüğü metne çevirir.
 ///
 /// Typst birleşik belgeye (önsöz + gövde) göre satır verir; editörde ise

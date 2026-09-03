@@ -71,6 +71,14 @@ pub struct AddClassicQuestion {
     pub points:       u32,
     pub outcomes:     Vec<String>,
     pub body:         QuestionBody,
+    /// Yalnız cevap anahtarına basılan örnek çözüm.
+    ///
+    /// `serde(default)`: alan komut yapısında YOKTU ve işleyici sabit `None`
+    /// yazıyordu — cevap anahtarı "Örnek cevap:" basmaya hazır olduğu hâlde
+    /// öğretmen hiçbir yerden giremiyordu. Varsayılan, alanı göndermeyen eski
+    /// çağrıların bozulmamasını sağlıyor.
+    #[serde(default)]
+    pub sample_answer: Option<QuestionBody>,
     pub rubric:       Vec<RubricItem>,
     pub answer_space: AnswerSpace,
 }

@@ -120,7 +120,7 @@ pub async fn add_classic_question(
         outcomes,
         meta:          payload.meta,
         body:          payload.body,
-        sample_answer: None,
+        sample_answer: payload.sample_answer,
         rubric:        payload.rubric,
         answer_space:  payload.answer_space,
         stats:         Default::default(),

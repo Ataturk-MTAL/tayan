@@ -9,6 +9,7 @@ import type {
   QuestionAnswerInput,
   QuestionMeta,
   QuestionOption,
+  RubricItem,
   Student,
 } from "./types";
 
@@ -195,6 +196,26 @@ export const api = {
      */
     previewQuestion: (body: string) =>
       invoke<string[]>("compile_question_preview_svg", { body }),
+
+    /**
+     * Cevap anahtarı önizlemesi: soru + rubrik tablosu + örnek cevap.
+     *
+     * Rust tarafı geçici bir ClassicQuestion kurup GERÇEK dizgi yolunu
+     * çağırıyor; burada üretilen bir şey yok. Önizleme ile basılan anahtarın
+     * ayrışmaması buna bağlı.
+     */
+    previewAnswerKey: (
+      body: string,
+      sampleAnswer: string | null,
+      rubric: RubricItem[],
+      points: number,
+    ) =>
+      invoke<string[]>("compile_answer_preview_svg", {
+        body,
+        sampleAnswer,
+        rubric,
+        points,
+      }),
 
     /**
      * Banka kartı için tek SVG. Sayfa içeriğe göre boyutlanır — tam A4

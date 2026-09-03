@@ -100,7 +100,7 @@ describe("outcomePrefix", () => {
 function soru(subject: string, grade: number, outcomes: string[]): Question {
   return {
     question_type: "classic",
-    meta: { subject, grade, difficulty: null },
+    meta: { subject, grade, difficulty: null, title: "" },
     id: `${subject}-${grade}-${outcomes.join("_")}`,
     points: 5,
     outcomes,

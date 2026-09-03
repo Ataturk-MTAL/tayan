@@ -52,11 +52,23 @@ pub struct QuestionMeta {
     pub grade: u8,
     #[serde(default)]
     pub difficulty: Option<Difficulty>,
+    /// Sorunun kısa başlığı — "Dijital Çıkış — LED Sürme".
+    ///
+    /// Cevap anahtarında soru numarasının yanına basılır. Kâğıt okuyan
+    /// öğretmen "3. Soru" yerine ne aradığını görür. İsteğe bağlı: boş dize
+    /// başlıksız demektir, eski kayıtlarda da böyle gelir.
+    #[serde(default)]
+    pub title: String,
 }
 
 impl QuestionMeta {
     pub fn new(subject: impl Into<String>, grade: u8, difficulty: Option<Difficulty>) -> Self {
-        Self { subject: subject.into(), grade, difficulty }
+        Self { subject: subject.into(), grade, difficulty, title: String::new() }
+    }
+
+    /// Başlıklı kopya. Künye değişmez tutulur; yeni bir değer döner.
+    pub fn with_title(self, title: impl Into<String>) -> Self {
+        Self { title: title.into(), ..self }
     }
 
     pub fn validate(&self) -> Result<(), DomainError> {

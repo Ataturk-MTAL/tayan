@@ -199,8 +199,16 @@ const TEMPLATES: Snippet[] = [
   },
   {
     label: "#cevap-alani",
-    detail: "Klasik soru cevap çizgileri",
+    detail: "Açık uçlu soru cevap alanı",
+    info: 'bicim: "cizgili" | "kareli" | "bos". Kareli 5×5 mm; satir sayısı '
+      + "yüksekliği verir. Genişlik sütuna göre kendiliğinden ayarlanır.",
     apply: "#cevap-alani(satir: 6)",
+  },
+  {
+    label: "#cevap-alani-kareli",
+    detail: "Kareli cevap alanı — grafik, şema",
+    info: "5×5 mm kareli alan. satir: 10 → 50 mm yükseklik.",
+    apply: '#cevap-alani(satir: 10, bicim: "kareli")',
   },
   {
     label: "#image",
@@ -400,3 +408,88 @@ export function typstEditorExtensions(
     }),
   ];
 }
+
+/**
+ * Tek satırlık Typst alanı: rubrik ölçütü gibi KISA metinler için.
+ *
+ * NEDEN AYRI: rubrik ölçütleri düz metin değil. Öğretmenin kendi cevap
+ * anahtarındaki ölçütler şöyle yazılıyor:
+ *
+ *   ([Formül $R = (V_("pin") - V_F)/I$ yazılmış], 3)
+ *
+ * Düz bir <textarea>'da bu metni yazmak, uygulamanın her yerinde çalışan
+ * sembol tamamlamasından mahrum kalmak demek. Aynı editörün tamamı ise
+ * fazla: satır numarası, hata oluğu ve etkin satır vurgusu tek satırlık bir
+ * alanda gürültü.
+ *
+ * Tamamlama kaynağı ve sözdizimi vurgusu gövde editörüyle AYNI — iki ayrı
+ * liste tutmak, birinde bilinen bir sembolün öbüründe bilinmemesi demekti.
+ */
+export function typstFieldExtensions(onChange: (value: string) => void): Extension[] {
+  return [
+    tooltips({ position: "fixed" }),
+    autocompletion({
+      override: [tayanCompletions],
+      // Gövde editöründe 60 yeterli: orada uzun bir belge var, arama birkaç
+      // harfle daralıyor. Rubrik ölçütü ise kısa ve çoğu zaman TEK sembol
+      // arıyorsun — liste erken kesilince aradığın sembol hiç görünmüyor.
+      maxRenderedOptions: 300,
+      // Alan dar; kutuyu kendi genişliğine hapsetmesin.
+      tooltipClass: () => "tayan-field-tamamlama",
+    }),
+    closeBrackets(),
+    history(),
+    keymap.of([...closeBracketsKeymap, ...defaultKeymap, ...historyKeymap]),
+    typstSyntax,
+    fieldTheme,
+    genisTamamlamaKutusu,
+    EditorView.lineWrapping,
+    EditorView.updateListener.of((update) => {
+      if (update.docChanged) onChange(update.state.doc.toString());
+    }),
+  ];
+}
+
+/**
+ * Alan görünümü: satır numarasız, çerçevesiz, altı çizgili.
+ *
+ * Formu bir editör gibi değil, form alanı gibi göstermek gerekiyor —
+ * RuledField'ın öteki girdileriyle aynı çizgide durmalı.
+ */
+const fieldTheme = EditorView.theme({
+  "&": {
+    fontSize: "13px",
+    backgroundColor: "transparent",
+  },
+  "&.cm-focused": { outline: "none" },
+  ".cm-content": {
+    padding: "0 0 3px",
+    fontFamily: "inherit",
+    caretColor: "var(--color-ink)",
+  },
+  ".cm-line": { padding: "0" },
+  ".cm-scroller": { fontFamily: "inherit", lineHeight: "20px" },
+});
+
+/**
+ * Tamamlama kutusunun boyu.
+ *
+ * CodeMirror varsayılanı kutuyu editörün genişliğine ve ~10em yüksekliğe
+ * sıkıştırıyor. Kenetlenen panel dar olduğu için rubrik alanında bu, aynı anda
+ * beş altı öneri demekti; aradığın sembol listede olsa bile görünmüyordu.
+ *
+ * `position: fixed` sayesinde kutu görüntü alanına göre konumlanıyor, yani
+ * paneli taşırmadan genişleyebilir.
+ */
+const genisTamamlamaKutusu = EditorView.theme({
+  ".tayan-field-tamamlama": {
+    minWidth: "340px",
+    maxWidth: "min(560px, 90vw)",
+  },
+  ".tayan-field-tamamlama > ul": {
+    maxHeight: "22em",
+  },
+  ".tayan-field-tamamlama > ul > li": {
+    padding: "2px 6px",
+  },
+});

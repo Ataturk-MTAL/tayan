@@ -149,4 +149,20 @@ impl QuestionBody {
     pub fn is_empty(&self) -> bool {
         self.0.is_empty()
     }
+
+    /// Gövdedeki ham Typst kaynağı — yalnız `TypstRaw` düğümlerinden.
+    ///
+    /// Dizgi için DEĞİL (onun yolu `to_typst`); kaynakta bir çağrının geçip
+    /// geçmediğini sınamak için. Bu ayrımı korumak önemli: burası bir
+    /// ayrıştırıcı değil, yalnız bir arama zemini.
+    pub fn raw_source(&self) -> String {
+        self.0
+            .iter()
+            .filter_map(|n| match n {
+                ContentNode::TypstRaw(t) => Some(t.code.as_str()),
+                _ => None,
+            })
+            .collect::<Vec<_>>()
+            .join("\n")
+    }
 }

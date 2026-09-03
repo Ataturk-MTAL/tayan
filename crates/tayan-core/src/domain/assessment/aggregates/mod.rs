@@ -31,6 +31,16 @@ pub struct QuestionAnswer {
     pub given_answer:      Option<String>,
     pub points_earned:     f32,
     pub is_correct:        Option<bool>,  // None for Classic (manual)
+    /// Klasik soruda karşılanan rubrik ölçütlerinin sırası (0'dan başlar).
+    ///
+    /// KANIT, KAYNAK DEĞİL. Puanın kendisi `points_earned` alanında durur ve
+    /// giriş anında donar. Öğretmen sonradan rubriği düzenlerse verilmiş
+    /// notlar DEĞİŞMEZ — yalnız bu kırılım eski rubriğe işaret ediyor olabilir.
+    /// Notun kendiliğinden kayması, kırılımın eskimesinden çok daha kötüdür.
+    ///
+    /// Boş: rubrik yok, ya da puan doğrudan elle girilmiş.
+    #[serde(default)]
+    pub rubric_met:        Vec<u16>,
 }
 
 /// Outcome-level performance for a single student on a single exam.

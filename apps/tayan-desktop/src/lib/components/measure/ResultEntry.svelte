@@ -23,6 +23,7 @@
     ExamResult,
     Question,
     QuestionAnswerInput,
+    RubricItem,
     Student,
   } from "$lib/types";
 
@@ -46,6 +47,33 @@
   let answers = $state<Record<string, string>>({});
   /** Klasik sorular için elle girilen puan. */
   let manualPoints = $state<Record<string, number>>({});
+
+  /**
+   * Klasik soruda karşılanan rubrik ölçütleri: soru kimliği → ölçüt sıraları.
+   *
+   * Ölçüt işaretlendikçe puan kendiliğinden toplanır. Puanın KAYNAĞI yine
+   * `manualPoints`; buradan hesaplanıp oraya yazılır. Böylece rubriksiz soru,
+   * rubrikli soru ve öğretmenin elle düzelttiği puan tek yoldan kaydedilir.
+   */
+  let rubricMet = $state<Record<string, number[]>>({});
+
+  function rubrikOf(q: Question): RubricItem[] {
+    return q.question_type === "classic" ? q.rubric : [];
+  }
+
+  /** Ölçütü işaretle/kaldır ve puanı yeniden topla. */
+  function toggleCriterion(q: Question, index: number) {
+    const mevcut = rubricMet[q.id] ?? [];
+    const sonraki = mevcut.includes(index)
+      ? mevcut.filter((i) => i !== index)
+      : [...mevcut, index].sort((a, b) => a - b);
+
+    rubricMet = { ...rubricMet, [q.id]: sonraki };
+
+    const rubrik = rubrikOf(q);
+    const toplam = sonraki.reduce((sum, i) => sum + (rubrik[i]?.points ?? 0), 0);
+    manualPoints = { ...manualPoints, [q.id]: toplam };
+  }
 
   /**
    * Sınavın soruları, display_order sırasında ve bankada BULUNANLAR.
@@ -81,6 +109,7 @@
     studentId = id;
     answers = {};
     manualPoints = {};
+    rubricMet = {};
     saved = null;
     saveError = null;
   }
@@ -114,6 +143,7 @@
           given_answer: null,
           points_earned: manualPoints[qid] ?? 0,
           is_correct: null,
+          rubric_met: rubricMet[qid] ?? [],
         });
         continue;
       }
@@ -129,6 +159,7 @@
           given_answer: JSON.stringify(map),
           points_earned: 0,
           is_correct: null,
+          rubric_met: [],
         });
         continue;
       }
@@ -141,6 +172,7 @@
         given_answer: raw === undefined || raw === "" ? null : raw,
         points_earned: 0,
         is_correct: null,
+        rubric_met: [],
       });
     }
 
@@ -298,6 +330,34 @@
                   </label>
                 {/each}
               {:else}
+                <!--
+                  Açık uçlu soru. Rubrik varsa ölçüt ölçüt işaretlenir ve puan
+                  kendiliğinden toplanır: hangi ölçütün verilmediği kayda geçer,
+                  itiraz geldiğinde gerekçe elde durur.
+
+                  Puan kutusu YİNE DE düzenlenebilir kalıyor. Ölçüte tam
+                  uymayan ama karşılığı olan bir cevabı öğretmen takdir
+                  edebilmeli; rubrik yardımcıdır, kelepçe değil.
+                -->
+                {#if rubrikOf(question).length > 0}
+                  <ul class="mb-quarter space-y-[2px]">
+                    {#each rubrikOf(question) as olcut, oi (oi)}
+                      <li>
+                        <label class="flex items-start gap-quarter">
+                          <input
+                            type="checkbox"
+                            class="mt-[3px] shrink-0 accent-[var(--color-red)]"
+                            checked={(rubricMet[question.id] ?? []).includes(oi)}
+                            onchange={() => toggleCriterion(question, oi)}
+                          />
+                          <span class="annot flex-1">{olcut.criterion}</span>
+                          <span class="pencil tnum shrink-0">{olcut.points}</span>
+                        </label>
+                      </li>
+                    {/each}
+                  </ul>
+                {/if}
+
                 <label class="flex items-center gap-quarter">
                   <span class="stamp">Puan</span>
                   <input

@@ -9,28 +9,72 @@
 
   type Props = {
     value: string;
+    /**
+     * Hangi belge düzenleniyor — "question" ya da "answer".
+     *
+     * TEK GÖRÜNÜM, ÇOK DURUM. Sekme başına ayrı bir `EditorView` monte etmek
+     * iki imleç çiziyordu; ayrıca `display:none` içindeki bir CodeMirror
+     * ölçüm yapamıyor ve göründüğünde bozuk çizebiliyor. Tek görünüm tutup
+     * `setState` ile belge değiştirmek ikisini birden çözüyor.
+     *
+     * Geri alma geçmişi `EditorState` içinde yaşadığı için sekmeler arasında
+     * gidip gelmek geçmişi KAYBETMEZ — her belgenin kendi durumu saklanıyor.
+     */
+    docId?: string;
     diagnostics?: TypstDiagnostic[];
-    onchange: (value: string) => void;
+    onchange: (value: string, docId: string) => void;
     /** Panodan görsel yapıştırıldığında. Hata mesajı üstte gösterilsin diye dışarı verilir. */
     onimageerror?: (message: string) => void;
   };
 
-  let { value, diagnostics = [], onchange, onimageerror }: Props = $props();
+  let {
+    value,
+    docId = "question",
+    diagnostics = [],
+    onchange,
+    onimageerror,
+  }: Props = $props();
 
   let host: HTMLDivElement;
   let view: EditorView | null = null;
 
-  onMount(() => {
-    view = new EditorView({
-      parent: host,
-      state: EditorState.create({
-        doc: value,
-        extensions: typstEditorExtensions(onchange, handlePaste),
-      }),
+  /** Belge kimliği → durum. Sekme geçişinde geçmişi taşıyan yer burası. */
+  const durumlar = new Map<string, EditorState>();
+  /** Görünümde şu an hangi belge duruyor. onMount'ta kurulur; prop'un ilk
+   * değerini burada okumak "yalnız ilk değeri yakalar" uyarısını hak eder. */
+  let aktifDoc: string | null = null;
+
+  function durumKur(doc: string, metin: string): EditorState {
+    return EditorState.create({
+      doc: metin,
+      // Değişiklik hangi belgeden geldiyse onunla bildirilir; sekme
+      // değiştikten sonra gecikmeli bir olay yanlış alana yazamaz.
+      extensions: typstEditorExtensions((v) => onchange(v, doc), handlePaste),
     });
+  }
+
+  onMount(() => {
+    aktifDoc = docId;
+    const state = durumKur(docId, value);
+    durumlar.set(docId, state);
+    view = new EditorView({ parent: host, state });
   });
 
   onDestroy(() => view?.destroy());
+
+  // Sekme değişince: mevcut durumu sakla, hedefin durumunu geri yükle.
+  $effect(() => {
+    const hedef = docId;
+    if (!view || aktifDoc === null || hedef === aktifDoc) return;
+
+    durumlar.set(aktifDoc, view.state);
+    aktifDoc = hedef;
+
+    const kayitli = durumlar.get(hedef) ?? durumKur(hedef, value);
+    durumlar.set(hedef, kayitli);
+    view.setState(kayitli);
+    view.focus();
+  });
 
   /**
    * Panodaki görseli yakalar: öğretmen bir şekil ekran görüntüsü alıp doğrudan

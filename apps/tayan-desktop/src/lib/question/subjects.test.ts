@@ -5,7 +5,7 @@ import type { Question } from "$lib/types";
 function soru(subject: string): Question {
   return {
     question_type: "true_false",
-    meta: { subject, grade: 9, difficulty: null },
+    meta: { subject, grade: 9, difficulty: null, title: "" },
     id: `q-${subject}`,
     points: 5,
     outcomes: [],

@@ -13,6 +13,7 @@
    * geri çağrıyla döner. Panel kendi kopyasını tutsa iki doğru kaynak olurdu.
    */
   import RuledField from "../shell/RuledField.svelte";
+  import RubricEditor from "./RubricEditor.svelte";
   import SelectBox from "../shell/SelectBox.svelte";
   import { GRADE_OPTIONS } from "$lib/question/subjects";
   import { outcomePrefix, outcomeSuggestions, splitOutcomes } from "$lib/question/outcomes";
@@ -25,6 +26,7 @@
     type Question,
     type QuestionMeta,
     type QuestionStats,
+    type RubricItem,
     type ScoreBadge,
   } from "$lib/types";
 
@@ -34,6 +36,7 @@
     questionType: QuestionType;
     outcomeText: string;
     points: number;
+    rubric: RubricItem[];
     stats: QuestionStats | null;
     structureError: string | null;
     /** Ders, sınıf seviyesi, zorluk. İlk ikisi zorunlu. */
@@ -46,12 +49,14 @@
     onquestiontypechange: (value: QuestionType) => void;
     onoutcometextchange: (value: string) => void;
     onpointschange: (value: number) => void;
+    onrubricchange: (next: RubricItem[]) => void;
   };
 
   let {
     questionType,
     outcomeText,
     points,
+    rubric,
     stats,
     structureError,
     meta,
@@ -61,6 +66,7 @@
     onquestiontypechange,
     onoutcometextchange,
     onpointschange,
+    onrubricchange,
   }: Props = $props();
 
   const BADGE_LABEL: Record<ScoreBadge, string> = {
@@ -156,6 +162,20 @@
       />
     </RuledField>
 
+    <!--
+      Başlık ZORUNLU DEĞİL ve yalnız cevap anahtarına basılır. Öğrenci
+      nüshasında görünseydi konuyu ele verirdi: "LED Sürme" başlığı, sorunun
+      neyi sorduğunu okumadan söyler.
+    -->
+    <RuledField label="Başlık" hint="Yalnız cevap anahtarında görünür">
+      <input
+        type="text"
+        placeholder="Dijital Çıkış — LED Sürme"
+        value={meta.title}
+        oninput={(e) => onmetachange({ ...meta, title: e.currentTarget.value })}
+      />
+    </RuledField>
+
     <RuledField label="Ders" hint={dersEksik ? "Zorunlu" : null}>
       <SelectBox
         value={meta.subject}
@@ -231,6 +251,14 @@
       />
     </RuledField>
   </div>
+
+  <!--
+    Rubrik yalnız açık uçlu soruda. Şıklı ve doğru-yanlış soruda puan
+    kendiliğinden hesaplanıyor; oraya ölçüt koymak öğretmeni yanıltır.
+  -->
+  {#if questionType === "classic"}
+    <RubricEditor {rubric} {points} onchange={onrubricchange} />
+  {/if}
 
   {#if structureError}
     <p class="annot border-t border-rule pt-half">{structureError}</p>

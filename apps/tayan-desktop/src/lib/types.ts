@@ -1,3 +1,4 @@
+import { typstPlain } from "$lib/question/plain-text";
 // ── Content ───────────────────────────────────────────────────────────────────
 
 export type TextStyle = {
@@ -97,6 +98,11 @@ export type QuestionMeta = {
   subject: string;
   grade: number;
   difficulty: Difficulty | null;
+  /**
+   * Kısa başlık — "Dijital Çıkış — LED Sürme". Yalnız cevap anahtarına basılır;
+   * öğrenci nüshasında başlık konuyu ele verir. Boş dize başlıksız demektir.
+   */
+  title: string;
 };
 
 export type MultipleChoiceQuestion = {
@@ -160,16 +166,25 @@ export function questionPoints(q: Question): number {
   return (q as MultipleChoiceQuestion).points;
 }
 
+/**
+ * Listelerde gösterilecek tek satırlık özet.
+ *
+ * Gövde tek bir `typst_raw` düğümü olarak saklandığı için burası bir zamanlar
+ * ham kodu "[typst] ..." diye basıyordu; sonuç girişi ve analiz ekranlarında
+ * öğretmen hangi soruyu puanladığını göremiyordu. Artık kaynak önce Typst
+ * kurallarına göre düz metne çevriliyor.
+ */
 export function bodyPreview(body: ContentNode[], maxLen = 80): string {
   const text = body
     .map((n) => {
       if (n.type === "text") return n.text;
-      if (n.type === "math") return `[${n.raw}]`;
-      if (n.type === "typst_raw") return `[typst] ${n.code}`;
-      if (n.type === "chem") return `[${n.raw}]`;
+      if (n.type === "math") return typstPlain(`$${n.raw}$`);
+      if (n.type === "typst_raw") return typstPlain(n.code);
+      if (n.type === "chem") return typstPlain(`$${n.raw}$`);
       return "";
     })
-    .join("")
+    .join(" ")
+    .replace(/\s+/g, " ")
     .trim();
   return text.length > maxLen ? text.slice(0, maxLen) + "…" : text;
 }
@@ -271,6 +286,13 @@ export type QuestionAnswerInput = {
   given_answer: string | null;
   points_earned: number;
   is_correct: boolean | null;
+  /**
+   * Klasik soruda karşılanan rubrik ölçütlerinin sırası (0'dan başlar).
+   *
+   * KANIT, KAYNAK DEĞİL: puan `points_earned` alanında durur ve giriş anında
+   * donar. Rubrik sonradan düzenlenirse verilmiş notlar değişmez.
+   */
+  rubric_met: number[];
 };
 
 export type OutcomePerformance = {

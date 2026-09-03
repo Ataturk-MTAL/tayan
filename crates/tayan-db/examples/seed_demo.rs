@@ -13,7 +13,9 @@ use tayan_core::application::ports::{
     ClassroomRepository, ExamRepository, QuestionBankRepository, StudentRepository,
 };
 use tayan_core::domain::exam_management::aggregates::{Exam, ExamMeta, ExamSigner};
-use tayan_core::domain::exam_management::entities::classic::{AnswerSpace, ClassicQuestion};
+use tayan_core::domain::exam_management::entities::classic::{
+    AnswerSpace, ClassicQuestion, RubricItem,
+};
 use tayan_core::domain::exam_management::entities::multiple_choice::{
     MultipleChoiceQuestion, QuestionOption,
 };
@@ -30,6 +32,20 @@ fn govde(src: &str) -> QuestionBody {
 
 fn kunye(zorluk: Difficulty) -> QuestionMeta {
     QuestionMeta::new("Matematik", 9, Some(zorluk))
+}
+
+/// Sorunun kimliğini yerinde ayarlar.
+///
+/// Domaine `set_id` KOYMUYORUZ: kimliği dışarıdan değiştirilebilen bir soru,
+/// sınav atıflarını ve girilmiş sonuçları sessizce başka bir soruya bağlar.
+/// Burada, yalnız deneme verisini tazelemek için, açıkça yapılıyor.
+fn kimligi_yaz(q: &mut Question, id: QuestionId) {
+    match q {
+        Question::MultipleChoice(x) => x.id = id,
+        Question::TrueFalse(x) => x.id = id,
+        Question::FillInBlank(x) => x.id = id,
+        Question::Classic(x) => x.id = id,
+    }
 }
 
 fn kazanim(kod: &str) -> Vec<OutcomeCode> {
@@ -99,13 +115,21 @@ async fn main() -> anyhow::Result<()> {
             id: QuestionId::new(),
             points: Points::new(25),
             outcomes: kazanim("MAT.9.5.1"),
-            meta: kunye(Difficulty::Zor),
+            // Başlık cevap anahtarında soru numarasının yanında görünür.
+            meta: kunye(Difficulty::Zor).with_title("Doğrusal Fonksiyon Grafiği"),
             body: govde(
                 "$f(x) = 2x + 3$ fonksiyonunun grafiğini çiziniz ve eksenleri kestiği \
                  noktaları yazınız.\n\n#cevap-alani(satir: 10, bicim: \"kareli\")",
             ),
             sample_answer: None,
-            rubric: vec![],
+            // Gerçek bir rubrik: ölçüt toplamı soru puanına EŞİT olmak
+            // zorunda (ClassicQuestion::validate). Sonuç girişinde bu
+            // ölçütler kutucuk olarak çıkar ve puanı kendiliğinden toplar.
+            rubric: vec![
+                RubricItem { criterion: "Eksenleri kestiği noktalar doğru bulunmuş".into(), points: Points::new(10) },
+                RubricItem { criterion: "Grafik doğru çizilmiş".into(), points: Points::new(10) },
+                RubricItem { criterion: "Eğim doğru gösterilmiş".into(), points: Points::new(5) },
+            ],
             answer_space: AnswerSpace::Lines(6),
             stats: Default::default(),
         }),
@@ -116,6 +140,7 @@ async fn main() -> anyhow::Result<()> {
     let mut bank = bank_repo.load().await?;
     let mut ids: Vec<QuestionId> = Vec::new();
     let mut yeni = 0usize;
+    let mut guncellenen = 0usize;
 
     for q in sorular {
         q.validate()?;
@@ -127,7 +152,20 @@ async fn main() -> anyhow::Result<()> {
             .map(|bq| bq.question.id().clone());
 
         match mevcut {
-            Some(id) => ids.push(id),
+            Some(id) => {
+                // Gövde eşleşti: soru zaten var. Ama künye ve rubrik SONRADAN
+                // eklenen alanlar; eski kayıt onlarsız duruyor olabilir ve
+                // deneme verisi rubriksiz kalırsa denenmek istenen özellik
+                // ekranda hiç görünmez. Kimliği koruyup içeriği tazeliyoruz —
+                // kimlik korunduğu için sınav atıfları ve sonuçlar bozulmaz.
+                if let Some(mevcut_soru) = bank.find_mut(&id) {
+                    let mut taze = q;
+                    kimligi_yaz(&mut taze, id.clone());
+                    mevcut_soru.question = taze;
+                    guncellenen += 1;
+                }
+                ids.push(id);
+            }
             None => {
                 ids.push(q.id().clone());
                 bank.add_question(q)?;
@@ -136,7 +174,7 @@ async fn main() -> anyhow::Result<()> {
         }
     }
     bank_repo.save(&bank).await?;
-    println!("soru           : {yeni} yeni, {} toplam kullanılan", ids.len());
+    println!("soru           : {yeni} yeni, {guncellenen} güncellendi, {} toplam", ids.len());
 
     // ── Sınıf ve öğrenciler ───────────────────────────────────────────────────
     // Altı öğrenci bilinçli: ayırt edicilik 6'dan az cevapta 0 döner, çünkü

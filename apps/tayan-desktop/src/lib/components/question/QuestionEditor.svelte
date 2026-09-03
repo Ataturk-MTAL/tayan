@@ -8,7 +8,7 @@
   import { layout, setMode, type ViewMode } from "$lib/ui/layout.svelte";
   import { api } from "$lib/api";
   import { parseDiagnostics, errorText, type TypstDiagnostic } from "$lib/editor/diagnostics";
-  import type { QuestionMeta, QuestionStats, Question } from "$lib/types";
+  import type { QuestionMeta, QuestionStats, Question, RubricItem } from "$lib/types";
 
   type QuestionType = Question["question_type"];
 
@@ -17,6 +17,8 @@
     questionType: QuestionType;
     outcomeText: string;
     points: number;
+    rubric: RubricItem[];
+    sampleAnswer: string;
     stats?: QuestionStats | null;
     structureError: string | null;
     meta: QuestionMeta;
@@ -29,6 +31,8 @@
     onquestiontypechange: (value: QuestionType) => void;
     onoutcometextchange: (value: string) => void;
     onpointschange: (value: number) => void;
+    onrubricchange: (next: RubricItem[]) => void;
+    onsampleanswerchange: (next: string) => void;
     onsave: () => void;
     /** Cevap bölgesi. Kırmızı cetvelin sağı yalnızca ölçümündür, cevabın değil. */
     answer?: import("svelte").Snippet;
@@ -39,6 +43,8 @@
     questionType,
     outcomeText,
     points,
+    rubric,
+    sampleAnswer,
     stats = null,
     structureError,
     meta,
@@ -51,6 +57,8 @@
     onquestiontypechange,
     onoutcometextchange,
     onpointschange,
+    onrubricchange,
+    onsampleanswerchange,
     onsave,
     answer,
   }: Props = $props();
@@ -86,12 +94,31 @@
   let sourceRef = $state<ReturnType<typeof TypstSource> | null>(null);
 
   /**
+   * Kaynak bölmesinde hangi metin düzenleniyor.
+   *
+   * KALICI DEĞİL, bilerek. `layout.svelte.ts` kalıcı YERLEŞİM tercihini
+   * tutuyor; aktif sekme ise soruya özgü geçici durum. Kalıcılaştırılsaydı
+   * çoktan seçmeli bir soru açıldığında "cevap" sekmesi anlamsız kalırdı.
+   */
+  let sourceTab = $state<"question" | "answer">("question");
+
+  /** Cevap sekmesi yalnız açık uçlu soruda var: sample_answer orada. */
+  let hasAnswerTab = $derived(questionType === "classic");
+
+  // Soru tipi klasikten çıkarsa cevap sekmesi kaybolur; üstünde kalmamalı.
+  $effect(() => {
+    if (!hasAnswerTab && sourceTab === "answer") sourceTab = "question";
+  });
+
+  /**
    * Aynı anda en fazla bir derleme. Üst üste binen derlemeler paralel
    * TayanWorld örneği demektir; her biri kendi belleğini tutar ve hızlı yazan
    * bir öğretmen süreci kolayca şişirir. Sıraya alınan yalnızca EN SON kaynak
    * tutulur — aradakiler zaten ekranda görünmeyecek.
    */
-  let pendingSource: string | null = null;
+  /** Koşum sürerken gelen son iş. Dize değil KAPANIŞ: hangi varyantın
+   * derleneceği bilgisi de taşınmalı. */
+  let pendingJob: (() => Promise<string[]>) | null = null;
 
   let imageError = $state<string | null>(null);
 
@@ -101,15 +128,41 @@
     { id: "preview", label: "Kâğıt", title: "Yalnızca basılacak sayfa" },
   ];
 
+  /**
+   * Önizleme SEKMEYİ İZLER: Soru sekmesinde öğrenci nüshası, Cevap sekmesinde
+   * cevap anahtarı. Böylece öğretmen anahtarın nasıl basılacağını — rubrik
+   * tablosu dahil — kaydetmeden önce görüyor.
+   *
+   * Tek derleme yapılıyor: yalnız görünen varyant. İkisini birden derlemek
+   * her tuş vuruşunda iki Typst koşusu demekti.
+   */
   $effect(() => {
+    // Bağımlılıklar açıkça okunuyor: cevap sekmesindeyken rubrik ya da örnek
+    // cevap değişince de önizleme tazelenmeli.
     const current = body;
-    const timer = setTimeout(() => void compile(current), DEBOUNCE_MS);
+    const tab = sourceTab;
+    const cevap = sampleAnswer;
+    const olcutler = rubric;
+    const puan = points;
+
+    const timer = setTimeout(() => {
+      if (tab === "answer") void compileAnswer(current, cevap, olcutler, puan);
+      else void compile(current);
+    }, DEBOUNCE_MS);
     return () => clearTimeout(timer);
   });
 
-  async function compile(source: string) {
+  /**
+   * Tek koşum yolu; iki varyant da buradan geçer.
+   *
+   * KUYRUK ARTIK KAYNAK DİZESİNE DEĞİL İŞE BAKIYOR. Önceden bekleyen iş
+   * `pendingSource: string` olarak tutuluyordu ve hangi komutun çağrılacağı
+   * bilgisi yoktu; iki varyant gelince aynı dizeyle yanlış önizleme
+   * derlenebilirdi. Bekleyen iş artık kapanışın kendisi.
+   */
+  async function run(is: () => Promise<string[]>) {
     if (compiling) {
-      pendingSource = source;
+      pendingJob = is;
       return;
     }
 
@@ -117,8 +170,7 @@
     slowTimer = setTimeout(() => (slowCompile = true), SLOW_COMPILE_MS);
 
     try {
-      const result = await api.compiler.previewQuestion(source);
-      pages = result;
+      pages = await is();
       compileError = null;
       diagnostics = [];
     } catch (err: unknown) {
@@ -135,12 +187,28 @@
       }
       slowCompile = false;
 
-      const queued = pendingSource;
-      pendingSource = null;
-      if (queued !== null && queued !== source) void compile(queued);
+      const queued = pendingJob;
+      pendingJob = null;
+      if (queued !== null) void run(queued);
     }
   }
 
+  async function compileAnswer(
+    source: string,
+    cevap: string,
+    olcutler: RubricItem[],
+    puan: number,
+  ) {
+    await run(() =>
+      api.compiler.previewAnswerKey(source, cevap.trim() === "" ? null : cevap, olcutler, puan),
+    );
+  }
+
+  async function compile(source: string) {
+    await run(() => api.compiler.previewQuestion(source));
+  }
+
+  /** Tek editör var; hangi belge açıksa oraya yazar. */
   function handleInsert(snippet: string) {
     sourceRef?.insert(snippet);
   }
@@ -152,6 +220,7 @@
       {questionType}
       {outcomeText}
       {points}
+      {rubric}
       {stats}
       {structureError}
       {meta}
@@ -161,6 +230,7 @@
       {onquestiontypechange}
       {onoutcometextchange}
       {onpointschange}
+      {onrubricchange}
     />
   </DockPanel>
 {/snippet}
@@ -228,17 +298,57 @@
           üstüne taşmaz — basılacak sayfayı hiçbir şey örtmez.
         -->
         <section
-          class="relative min-h-0 min-w-[320px] flex-1 basis-0"
+          class="relative flex min-h-0 min-w-[320px] flex-1 basis-0 flex-col"
           class:border-r={layout.mode === "split"}
           class:border-rule-strong={layout.mode === "split"}
         >
-          <TypstSource
-            bind:this={sourceRef}
-            value={body}
-            {diagnostics}
-            onchange={onbodychange}
-            onimageerror={(m) => (imageError = m)}
-          />
+          <!--
+            Sekmeler YALNIZ açık uçlu soruda. Örnek cevap alanı yalnız orada
+            var; şıklı soruda doğru cevap zaten şık verisinde ve boş bir
+            "Cevap" sekmesi öğretmeni yanıltırdı.
+          -->
+          {#if hasAnswerTab}
+            <div class="ruled-bottom flex shrink-0 gap-0 px-rule">
+              {#each [{ id: "question" as const, ad: "Soru" }, { id: "answer" as const, ad: "Cevap" }] as sekme (sekme.id)}
+                <button
+                  type="button"
+                  class="stamp border-b-2 px-half py-quarter leading-rule transition-colors"
+                  class:border-red={sourceTab === sekme.id}
+                  class:text-red-deep={sourceTab === sekme.id}
+                  class:border-transparent={sourceTab !== sekme.id}
+                  class:text-ink-mid={sourceTab !== sekme.id}
+                  onclick={() => (sourceTab = sekme.id)}
+                >
+                  {sekme.ad}
+                </button>
+              {/each}
+              <span class="pencil ml-auto self-center">
+                {sourceTab === "answer"
+                  ? "Yalnız cevap anahtarına basılır"
+                  : "Öğrenci kâğıdına basılır"}
+              </span>
+            </div>
+          {/if}
+
+          <!--
+            TEK EDİTÖR, İKİ BELGE.
+            Sekme başına ayrı bir TypstSource monte etmek iki imleç çiziyordu
+            ve gizlenen CodeMirror ölçüm yapamadığı için göründüğünde bozuk
+            çizebiliyordu. Artık tek görünüm var; `docId` değişince editör
+            durumu değiştiriyor. Geri alma geçmişi durumun içinde yaşadığı
+            için sekmeler arası geçişte kaybolmuyor.
+          -->
+          <div class="relative min-h-0 flex-1">
+            <TypstSource
+              bind:this={sourceRef}
+              docId={sourceTab}
+              value={sourceTab === "answer" ? sampleAnswer : body}
+              diagnostics={sourceTab === "answer" ? [] : diagnostics}
+              onchange={(v, doc) => (doc === "answer" ? onsampleanswerchange(v) : onbodychange(v))}
+              onimageerror={(m) => (imageError = m)}
+            />
+          </div>
+
           <FloatingPalette {questionType} oninsert={handleInsert} />
         </section>
       {/if}
