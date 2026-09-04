@@ -146,12 +146,71 @@ export type Spread = {
   n: number;
   mean: number;
   median: number;
+  /** Mod: en çok öğrencinin düştüğü puan aralığının orta noktası. */
+  mode: number;
+  /** Standart sapma (örneklem, n-1). */
+  sd: number;
+  /**
+   * Çarpıklık katsayısı (Fisher–Pearson, örneklem düzeltmeli).
+   *
+   * Excel'in SKEW() işleviyle aynı hesap; öğretmen kendi tablosuyla
+   * karşılaştırdığında aynı sayıyı görmeli. n < 3 ya da sapma sıfırsa
+   * tanımsız (null).
+   *
+   * NEGATİF = sola çarpık: kuyruk düşük puanlarda, yığılma yüksekte —
+   * sınıf başarılı. POZİTİF = sağa çarpık: yığılma düşük puanlarda.
+   */
+  skewness: number | null;
   min: number;
   max: number;
   /** Alt ve üst çeyrek: kutunun kenarları. */
   q1: number;
   q3: number;
 };
+
+/** Frekans dağılımındaki puan aralığı genişliği. */
+export const BIN_WIDTH = 10;
+
+export type Bin = { from: number; to: number; count: number; mid: number };
+
+/**
+ * Frekans dağılımı: 0-100 arası, varsayılan 10 puanlık aralıklar.
+ *
+ * SON ARALIK KAPALI. 100 alan öğrenci aksi hâlde hiçbir aralığa düşmez ve
+ * grafikten kaybolurdu; tam puan alan öğrenciyi yok saymak kabul edilemez.
+ */
+export function histogram(values: number[], width = BIN_WIDTH): Bin[] {
+  const sayi = Math.ceil(100 / width);
+  const bins: Bin[] = Array.from({ length: sayi }, (_, i) => ({
+    from: i * width,
+    to: (i + 1) * width,
+    count: 0,
+    mid: i * width + width / 2,
+  }));
+
+  for (const v of values) {
+    const kirpik = Math.min(Math.max(v, 0), 100);
+    const i = Math.min(Math.floor(kirpik / width), sayi - 1);
+    bins[i].count += 1;
+  }
+  return bins;
+}
+
+/**
+ * Çarpıklığın sözle karşılığı.
+ *
+ * Eşikler ölçme-değerlendirmede yerleşik: |0.5| altı simetrik sayılır,
+ * |1| üstü belirgin çarpıklıktır. Sayının kendisi öğretmene bir şey
+ * söylemiyor; yönü ve şiddeti söylüyor.
+ */
+export function skewLabel(skew: number | null): string {
+  if (skew === null) return "Hesaplanamadı";
+  if (Math.abs(skew) < 0.5) return "Simetrik — puanlar ortada toplanmış";
+  const siddet = Math.abs(skew) < 1 ? "Orta düzey" : "Belirgin";
+  return skew < 0
+    ? `${siddet} sola çarpık — yığılma yüksek puanlarda, sınıf başarılı`
+    : `${siddet} sağa çarpık — yığılma düşük puanlarda, sınıf zorlanmış`;
+}
 
 /** Sıralı dizide oransal konum — doğrusal ara değerleme. */
 function quantile(sorted: number[], p: number): number {
@@ -164,15 +223,52 @@ function quantile(sorted: number[], p: number): number {
   return sorted[alt] + kalan * (ustDeger - sorted[alt]);
 }
 
+/**
+ * Çarpıklık katsayısı — Fisher–Pearson, örneklem düzeltmeli (Excel SKEW).
+ *
+ *   G1 = n / ((n-1)(n-2)) · Σ((xi − x̄) / s)³
+ *
+ * n < 3'te tanımsız: üç noktadan az veriyle bir dağılımın yönü hakkında
+ * konuşulamaz. Sapma sıfırsa (herkes aynı puanı almış) bölme tanımsız.
+ */
+function skew(values: number[], mean: number, sd: number): number | null {
+  const n = values.length;
+  if (n < 3 || sd === 0) return null;
+  const toplam = values.reduce((acc, x) => acc + ((x - mean) / sd) ** 3, 0);
+  return (n / ((n - 1) * (n - 2))) * toplam;
+}
+
+/** En kalabalık aralığın orta noktası. Eşitlikte ilk (düşük) aralık kazanır. */
+function modeOf(values: number[]): number {
+  const bins = histogram(values);
+  let en = bins[0];
+  for (const b of bins) {
+    if (b.count > en.count) en = b;
+  }
+  return en.mid;
+}
+
 export function spread(values: number[]): Spread | null {
   if (values.length === 0) return null;
   const s = [...values].sort((a, b) => a - b);
+  const n = s.length;
+  const mean = s.reduce((a, b) => a + b, 0) / n;
+
+  // Örneklem sapması (n-1): sınıf, tüm öğrencilerin evreni değil, o sınavdaki
+  // bir ölçümdür. Excel'in STDEV.S'iyle aynı sayıyı verir.
+  const varyans =
+    n < 2 ? 0 : s.reduce((acc, x) => acc + (x - mean) ** 2, 0) / (n - 1);
+  const sd = Math.sqrt(varyans);
+
   return {
-    n: s.length,
-    mean: s.reduce((a, b) => a + b, 0) / s.length,
+    n,
+    mean,
     median: quantile(s, 0.5),
+    mode: modeOf(s),
+    sd,
+    skewness: skew(s, mean, sd),
     min: s[0],
-    max: s[s.length - 1],
+    max: s[n - 1],
     q1: quantile(s, 0.25),
     q3: quantile(s, 0.75),
   };

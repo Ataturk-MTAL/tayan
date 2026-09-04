@@ -3,7 +3,7 @@
   import PageHead from "$lib/components/shell/PageHead.svelte";
   import RuledField from "$lib/components/shell/RuledField.svelte";
   import SelectBox from "$lib/components/shell/SelectBox.svelte";
-  import ScoreSpread from "$lib/components/measure/ScoreSpread.svelte";
+  import ScoreDistribution from "$lib/components/measure/ScoreDistribution.svelte";
   import ItemAnalysis from "$lib/components/measure/ItemAnalysis.svelte";
   import AnswerGrid from "$lib/components/measure/AnswerGrid.svelte";
   import ResultEntry from "$lib/components/measure/ResultEntry.svelte";
@@ -281,7 +281,7 @@
       </div>
 
       <div class="grid gap-rule px-rule py-half" style="grid-template-columns: minmax(280px, 380px) 1fr">
-        <ScoreSpread {percentages} stats={dagilim} />
+        <ScoreDistribution {percentages} stats={dagilim} threshold={GECME_ESIGI} />
         <AnswerGrid results={classResults} {students} {questionIds} />
       </div>
 

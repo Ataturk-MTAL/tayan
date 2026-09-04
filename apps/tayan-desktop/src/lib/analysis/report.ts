@@ -1,5 +1,12 @@
 import type { Exam, ExamResult, Question, Student } from "$lib/types";
-import { needsReview, spread, type ItemStat } from "./item-stats";
+import {
+  BIN_WIDTH,
+  histogram,
+  needsReview,
+  skewLabel,
+  spread,
+  type ItemStat,
+} from "./item-stats";
 
 /**
  * Rust'a gönderilen rapor yükü. Alan adları `analysis_report.rs` ile BİREBİR;
@@ -36,6 +43,19 @@ export type AnalysisReport = {
   department: string | null;
   mean: number;
   median: number;
+  mode: number;
+  sd: number;
+  skewness: number | null;
+  /**
+   * Çarpıklığın sözle karşılığı — EKRANDA üretilir.
+   *
+   * Eşikleri Rust'ta bir daha yazmak, kâğıtla ekranın aynı sayı için farklı
+   * yorum yazması demekti.
+   */
+  skew_label: string;
+  /** Frekans dağılımı: her aralıktaki öğrenci sayısı. */
+  bins: number[];
+  bin_width: number;
   min: number;
   max: number;
   q1: number;
@@ -90,6 +110,12 @@ export function buildReport(args: {
     department: exam.meta.department ?? null,
     mean: dagilim.mean,
     median: dagilim.median,
+    mode: dagilim.mode,
+    sd: dagilim.sd,
+    skewness: dagilim.skewness,
+    skew_label: skewLabel(dagilim.skewness),
+    bins: histogram(satirlar.map((s) => s.percentage)).map((b) => b.count),
+    bin_width: BIN_WIDTH,
     min: dagilim.min,
     max: dagilim.max,
     q1: dagilim.q1,

@@ -44,6 +44,18 @@ pub struct AnalysisReport {
     pub department: Option<String>,
     pub mean: f32,
     pub median: f32,
+    /// Mod: en kalabalık puan aralığının orta noktası.
+    pub mode: f32,
+    /// Standart sapma (örneklem, n-1).
+    pub sd: f32,
+    /// Çarpıklık katsayısı; None = güvenilir hesaplanamıyor.
+    pub skewness: Option<f32>,
+    /// Çarpıklığın sözle karşılığı. EKRANDA ÜRETİLİR: eşikleri iki yerde
+    /// tutmak, kâğıtla ekranın farklı yorum yazması demekti.
+    pub skew_label: String,
+    /// Frekans dağılımı: her aralıktaki öğrenci sayısı, 0'dan 100'e.
+    pub bins: Vec<u32>,
+    pub bin_width: u32,
     pub min: f32,
     pub max: f32,
     pub q1: f32,
@@ -96,56 +108,83 @@ fn dagilim_cubugu(item: &ReportItem) -> String {
     )
 }
 
-/// Puan yayılımı: her öğrenci bir nokta.
+/// Puan dağılımı: FREKANS DİKEY, PUAN YATAY.
 ///
-/// HİSTOGRAM DEĞİL. Bir sınıfta 6-30 öğrenci var; binleme bu boyutta yayılımı
-/// gizler ve kutu sınırı kaydıkça şekil değişir. Nokta grafiğinde her öğrenci
-/// kendi yerinde durur. Aynı puandakiler üst üste binmesin diye istifleniyor.
+/// Ölçme-değerlendirmenin standart görünümü. Öğretmen mod, medyan ve
+/// ortalamanın birbirine göre yerinden sınıfın durumunu okuyor: mod > medyan >
+/// ortalama sola çarpıktır ve sınıf başarılıdır, ters sıra sınıfın
+/// zorlandığını gösterir.
+///
+/// ÇUBUKLARIN ALTINDA HAM NOKTALAR VAR. Binleme küçük sınıfta yanıltır:
+/// altı öğrencide her aralığa bir kişi düşer ve grafik veriyi değil aralık
+/// genişliğini gösterir. Nokta şeridi her öğrenciyi kendi puanında gösterir.
 fn yayilim_grafigi(r: &AnalysisReport) -> String {
-    const GENISLIK_CM: f32 = 16.0;
-    const YUKSEKLIK_CM: f32 = 2.4;
-    const NOKTA_PT: f32 = 4.0;
-    const KATMAN_CM: f32 = 0.28;
-    const YIGIN_ARALIGI: f32 = 2.5;
+    const GENISLIK_CM: f32 = 15.0;
+    const YUKSEKLIK_CM: f32 = 3.2;
+    const SERIT_CM: f32 = 0.45;
+    const NOKTA_PT: f32 = 3.0;
 
-    let mut sirali: Vec<f32> = r.students.iter().map(|s| clamp_pct(s.percentage)).collect();
-    sirali.sort_by(|a, b| a.partial_cmp(b).unwrap_or(std::cmp::Ordering::Equal));
+    let x = |p: f32| GENISLIK_CM * (clamp_pct(p) / 100.0);
+    let en_yuksek = r.bins.iter().copied().max().unwrap_or(1).max(1) as f32;
+    let aralik_sayisi = r.bins.len().max(1) as f32;
+    let cubuk_w = GENISLIK_CM / aralik_sayisi;
 
-    let mut yerlesim: Vec<f32> = Vec::new();
+    let mut govde = String::new();
+
+    // Çubuklar. Aralarında ince kâğıt boşluğu var; bitişik çubuklar tek parça
+    // gibi okunur ve öğretmen frekansı yanlış sayar.
+    for (i, say) in r.bins.iter().enumerate() {
+        if *say == 0 {
+            continue;
+        }
+        let h = YUKSEKLIK_CM * (*say as f32 / en_yuksek);
+        govde.push_str(&format!(
+            "  #place(dx: {dx:.3}cm, dy: {dy:.3}cm, rect(width: {w:.3}cm, height: {h:.3}cm, stroke: none, fill: rgb(\"#16233f\")))\n",
+            dx = i as f32 * cubuk_w + 0.03,
+            dy = YUKSEKLIK_CM - h,
+            w = cubuk_w - 0.06,
+        ));
+    }
+
+    // Geçme eşiği: kesikli. Yatay eksenin anlam ortası.
+    govde.push_str(&format!(
+        "  #place(dx: {:.2}cm, dy: 0cm, line(length: {YUKSEKLIK_CM}cm, angle: 90deg, stroke: (paint: rgb(\"#c8102e\"), dash: \"dashed\", thickness: 0.6pt)))\n",
+        x(r.threshold),
+    ));
+
+    // Mod, medyan, ortalama. Etiketleri üstte; üçü çakışırsa bile hangisinin
+    // nerede olduğu okunabilsin diye farklı yüksekliklere yazılıyor.
+    for (i, (ad, deger)) in [("Mod", r.mode), ("Medyan", r.median), ("Ort", r.mean)]
+        .iter()
+        .enumerate()
+    {
+        let dx = x(*deger);
+        govde.push_str(&format!(
+            "  #place(dx: {dx:.2}cm, dy: 0cm, line(length: {YUKSEKLIK_CM}cm, angle: 90deg, stroke: 0.7pt + rgb(\"#c8102e\")))\n\
+             #place(dx: {dx:.2}cm + 1.5pt, dy: {dy:.2}cm, text(6.5pt, fill: rgb(\"#c8102e\"))[{ad}])\n",
+            dy = 0.02 + i as f32 * 0.32,
+        ));
+    }
+
+    // Ham puanlar.
     let mut noktalar = String::new();
-    for p in &sirali {
-        let katman = yerlesim.iter().filter(|o| (*o - p).abs() < YIGIN_ARALIGI).count();
-        yerlesim.push(*p);
-
-        let x = GENISLIK_CM * (p / 100.0);
-        let y = YUKSEKLIK_CM - 0.25 - (katman as f32) * KATMAN_CM;
-        let renk = if *p < r.threshold { "rgb(\"#c8102e\")" } else { "rgb(\"#16233f\")" };
-        // BAŞTAKİ `#` ŞART. İçerik bloğunda `#` olmadan yazılan şey düz
-        // metindir ve metindeki `#16233f` Typst'te kod ifadesi başlatır:
-        // "invalid number suffix: `f`". Renk kodu yüzünden bütün rapor
-        // derlenmiyordu.
+    for s in &r.students {
+        let p = clamp_pct(s.percentage);
+        let renk = if p < r.threshold { "rgb(\"#c8102e\")" } else { "rgb(\"#16233f\")" };
         noktalar.push_str(&format!(
-            "  #place(dx: {x:.2}cm - {half}pt, dy: {y:.2}cm, circle(radius: {half}pt, fill: {renk}, stroke: none))\n",
+            "  #place(dx: {dx:.2}cm - {half}pt, dy: 0.12cm, circle(radius: {half}pt, fill: {renk}, stroke: none))\n",
+            dx = x(p),
             half = NOKTA_PT / 2.0,
         ));
     }
 
-    let q1x = GENISLIK_CM * (clamp_pct(r.q1) / 100.0);
-    let q3x = GENISLIK_CM * (clamp_pct(r.q3) / 100.0);
-    let ortx = GENISLIK_CM * (clamp_pct(r.mean) / 100.0);
-    let esikx = GENISLIK_CM * (clamp_pct(r.threshold) / 100.0);
-
     format!(
-        "#block(width: {GENISLIK_CM}cm, height: {YUKSEKLIK_CM}cm, breakable: false)[\n\
-         #place(dx: {q1x:.2}cm, dy: 0cm, rect(width: {kutu:.2}cm, height: {YUKSEKLIK_CM}cm, stroke: none, fill: luma(93%)))\n\
-         #place(dx: {esikx:.2}cm, dy: 0cm, line(length: {YUKSEKLIK_CM}cm, angle: 90deg, stroke: (paint: rgb(\"#c8102e\"), dash: \"dashed\", thickness: 0.6pt)))\n\
-         #place(dx: {ortx:.2}cm, dy: 0cm, line(length: {YUKSEKLIK_CM}cm, angle: 90deg, stroke: 0.8pt + rgb(\"#c8102e\")))\n\
-         {noktalar}\
-         ]\n\
+        "#block(width: {GENISLIK_CM}cm, height: {YUKSEKLIK_CM}cm, breakable: false, \
+         stroke: (bottom: 0.5pt + luma(60%), left: 0.5pt + luma(60%)))[\n{govde}]\n\
+         #block(width: {GENISLIK_CM}cm, height: {SERIT_CM}cm, breakable: false)[\n{noktalar}]\n\
          #block(width: {GENISLIK_CM}cm)[\n\
          #grid(columns: (1fr,) * 6, ..([0], [20], [40], [60], [80], [100]).map(t => text(7pt, fill: luma(40%))[#t]))\n\
          ]\n",
-        kutu = (q3x - q1x).max(0.06),
     )
 }
 
@@ -194,11 +233,29 @@ pub fn generate_report(r: &AnalysisReport) -> String {
     // ── Yayılım ───────────────────────────────────────────────────────────
     out.push_str("#text(9pt, weight: \"bold\")[PUAN YAYILIMI]\n#v(1.5mm)\n");
     out.push_str(&yayilim_grafigi(r));
+    let carpiklik = match r.skewness {
+        Some(s) => format!("{s:.2}"),
+        None => "—".into(),
+    };
+
     out.push_str(&format!(
-        "#v(1mm)\n#text(8pt, fill: luma(40%))[Her nokta bir öğrenci. Gri kutu ortadaki yarı \
-         (%{:.0}–%{:.0}); kesiksiz çizgi ortalama (%{:.0}), kesikli çizgi geçme eşiği (%{:.0}). \
-         Eşiğin altındaki noktalar kırmızı.]\n#v(5mm)\n\n",
-        r.q1, r.q3, r.mean, r.threshold,
+        "#v(1mm)\n#text(8pt, fill: luma(40%))[Yatay eksen puan, dikey eksen frekans \
+         ({} puanlık aralıklar). Kesikli çizgi geçme eşiği (%{:.0}); işaretli dikey \
+         çizgiler mod, medyan ve ortalama. Çubukların altındaki noktalar tek tek \
+         öğrencileri gösterir; eşiğin altındakiler kırmızı.]\n#v(3mm)\n\n",
+        r.bin_width, r.threshold,
+    ));
+
+    // Merkezî eğilim ölçüleri ve çarpıklık — öğretmenin alanının dili.
+    out.push_str(&format!(
+        "#grid(columns: (1fr,) * 5, gutter: 6pt,\n{}{}{}{}{})\n\
+         #v(1.5mm)\n#text(8pt)[*Yorum:* {}]\n#v(5mm)\n\n",
+        ozet_kutu("Mod", &format!("{:.0}", r.mode)),
+        ozet_kutu("Medyan", &format!("{:.1}", r.median)),
+        ozet_kutu("Ortalama", &format!("{:.1}", r.mean)),
+        ozet_kutu("Std. sapma", &format!("{:.1}", r.sd)),
+        ozet_kutu("Çarpıklık", &carpiklik),
+        esc(&r.skew_label),
     ));
 
     // ── Soru soru ─────────────────────────────────────────────────────────
@@ -314,6 +371,12 @@ mod tests {
             department: Some("Elektrik-Elektronik Teknolojisi Alanı".into()),
             mean: 53.0,
             median: 65.0,
+            mode: 65.0,
+            sd: 28.4,
+            skewness: Some(-0.42),
+            skew_label: "Simetrik — puanlar ortada toplanmış".into(),
+            bins: vec![0, 1, 0, 1, 0, 1, 1, 1, 0, 1],
+            bin_width: 10,
             min: 15.0,
             max: 90.0,
             q1: 30.0,

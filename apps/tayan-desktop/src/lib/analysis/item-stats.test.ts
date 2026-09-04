@@ -1,5 +1,12 @@
 import { describe, expect, test } from "vitest";
-import { classifyAnswer, itemStats, needsReview, spread } from "./item-stats";
+import {
+  classifyAnswer,
+  histogram,
+  itemStats,
+  needsReview,
+  skewLabel,
+  spread,
+} from "./item-stats";
 import type { ExamResult, Question } from "$lib/types";
 
 function cevap(qid: string, puan: number, dogru: boolean | null) {
@@ -126,8 +133,19 @@ describe("spread", () => {
   });
 
   test("tek değer", () => {
+    // Tek öğrencide sapma sıfır ve çarpıklık tanımsız; mod, 42'nin düştüğü
+    // 40–50 aralığının orta noktasıdır.
     expect(spread([42])).toEqual({
-      n: 1, mean: 42, median: 42, min: 42, max: 42, q1: 42, q3: 42,
+      n: 1,
+      mean: 42,
+      median: 42,
+      mode: 45,
+      sd: 0,
+      skewness: null,
+      min: 42,
+      max: 42,
+      q1: 42,
+      q3: 42,
     });
   });
 
@@ -137,6 +155,86 @@ describe("spread", () => {
 
   test("çift sayıda değerde ortanca ara değerlenir", () => {
     expect(spread([10, 20, 30, 40])?.median).toBe(25);
+  });
+});
+
+describe("histogram", () => {
+  test("10 puanlık aralıklar, 0-100", () => {
+    const b = histogram([5, 15, 15, 95]);
+    expect(b).toHaveLength(10);
+    expect(b[0].count).toBe(1);
+    expect(b[1].count).toBe(2);
+    expect(b[9].count).toBe(1);
+  });
+
+  test("TAM PUAN KAYBOLMAZ", () => {
+    // 100 üst sınıra tam otururdu; son aralık kapalı tutulmasaydı hiçbir
+    // aralığa düşmez ve tam puan alan öğrenci grafikten silinirdi.
+    expect(histogram([100])[9].count).toBe(1);
+  });
+
+  test("aralık orta noktaları", () => {
+    expect(histogram([])[0].mid).toBe(5);
+    expect(histogram([])[9].mid).toBe(95);
+  });
+
+  test("sınır dışı değerler kırpılır", () => {
+    expect(histogram([-10])[0].count).toBe(1);
+    expect(histogram([140])[9].count).toBe(1);
+  });
+});
+
+describe("spread — merkezî eğilim ve çarpıklık", () => {
+  test("mod en kalabalık aralığın orta noktası", () => {
+    const s = spread([12, 15, 18, 55]);
+    expect(s?.mode).toBe(15);
+  });
+
+  test("standart sapma örneklem (n-1)", () => {
+    // Excel STDEV.S([10,20,30,40]) = 12.909944
+    expect(spread([10, 20, 30, 40])?.sd).toBeCloseTo(12.909944, 4);
+  });
+
+  test("çarpıklık Excel SKEW ile aynı formülden gelir", () => {
+    // Elle: ortalama 22, s = sqrt(1902.5) = 43.61766,
+    // Σ((xi-x̄)/s)³ = 5.35737, G1 = 5/(4·3) · 5.35737 = 2.23240
+    // Excel SKEW() de aynı örneklem düzeltmeli formülü kullanır; öğretmen
+    // kendi tablosuyla karşılaştırdığında aynı sayıyı görmeli.
+    expect(spread([1, 2, 3, 4, 100])?.skewness).toBeCloseTo(2.2324, 3);
+  });
+
+  test("negatif çarpıklık: yığılma yüksek puanlarda", () => {
+    const s = spread([10, 80, 85, 90, 95]);
+    expect(s?.skewness).toBeLessThan(0);
+  });
+
+  test("üçten az veride çarpıklık YOK", () => {
+    // İki noktadan bir dağılımın yönü çıkarılamaz; sayı uydurulmaz.
+    expect(spread([40, 60])?.skewness).toBeNull();
+  });
+
+  test("herkes aynı puanı aldıysa çarpıklık tanımsız", () => {
+    // Sapma sıfır; bölme tanımsız olurdu.
+    const s = spread([50, 50, 50, 50]);
+    expect(s?.sd).toBe(0);
+    expect(s?.skewness).toBeNull();
+  });
+});
+
+describe("skewLabel", () => {
+  test("yön ve şiddet söylenir", () => {
+    expect(skewLabel(-1.4)).toContain("sola çarpık");
+    expect(skewLabel(1.4)).toContain("sağa çarpık");
+    expect(skewLabel(-0.7)).toContain("Orta düzey");
+    expect(skewLabel(-1.4)).toContain("Belirgin");
+  });
+
+  test("küçük değer simetrik sayılır", () => {
+    expect(skewLabel(0.2)).toContain("Simetrik");
+  });
+
+  test("hesaplanamayan durum gizlenmez", () => {
+    expect(skewLabel(null)).toBe("Hesaplanamadı");
   });
 });
 
