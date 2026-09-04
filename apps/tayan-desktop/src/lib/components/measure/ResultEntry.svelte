@@ -362,7 +362,10 @@
                               class="w-[110px]"
                               value={answers[`${question.id}::${b.id}`] ?? ""}
                               oninput={(e) =>
-                                setAnswer(`${question.id}::${b.id}`, e.currentTarget.value)}
+                                setAnswer(
+                                  `${question.id}::${b.id}`,
+                                  (e.currentTarget as HTMLInputElement).value,
+                                )}
                             />
                           </label>
                         {/each}
@@ -409,7 +412,8 @@
                           max={maxPoints(ref, question)}
                           class="tnum w-[70px]"
                           value={manualPoints[question.id] ?? 0}
-                          oninput={(e) => setPoints(question.id, Number(e.currentTarget.value))}
+                          oninput={(e) =>
+                            setPoints(question.id, Number((e.currentTarget as HTMLInputElement).value))}
                         />
                         <span class="text-[12px] text-gray-500 dark:text-gray-400">
                           / {maxPoints(ref, question)}
