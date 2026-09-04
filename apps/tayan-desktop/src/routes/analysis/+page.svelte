@@ -3,11 +3,16 @@
   import PageHead from "$lib/components/shell/PageHead.svelte";
   import RuledField from "$lib/components/shell/RuledField.svelte";
   import SelectBox from "$lib/components/shell/SelectBox.svelte";
-  import ScoreHistogram from "$lib/components/measure/ScoreHistogram.svelte";
+  import ScoreSpread from "$lib/components/measure/ScoreSpread.svelte";
+  import ItemAnalysis from "$lib/components/measure/ItemAnalysis.svelte";
   import AnswerGrid from "$lib/components/measure/AnswerGrid.svelte";
   import ResultEntry from "$lib/components/measure/ResultEntry.svelte";
   import { api } from "$lib/api";
   import { errorText } from "$lib/editor/diagnostics";
+  import { itemStats, spread } from "$lib/analysis/item-stats";
+  import { buildReport } from "$lib/analysis/report";
+  import { examFileName } from "$lib/exam/filename";
+  import { save } from "@tauri-apps/plugin-dialog";
   import type { Classroom, Exam, ExamResult, Question, Student } from "$lib/types";
 
   let exams = $state<Exam[]>([]);
@@ -90,6 +95,63 @@
       .filter((r) => r.total_points_max > 0)
       .map((r) => (r.total_points_earned / r.total_points_max) * 100),
   );
+
+  /** Geçme eşiği. Şimdilik sabit; sınav ayarına bağlanana kadar tek yerde. */
+  const GECME_ESIGI = 50;
+
+  let raporYaziliyor = $state(false);
+  let raporDurumu = $state<string | null>(null);
+
+  /**
+   * Analiz raporunu PDF olarak kaydeder.
+   *
+   * ÖLÇÜLER EKRANDAN GİDER. Rust ikinci bir hesap yapmıyor; öğretmenin veliye
+   * gösterdiği kâğıt ile ekranda gördüğü aynı sayıları taşımak zorunda.
+   */
+  async function raporKaydet() {
+    if (!selectedExam) return;
+
+    const rapor = buildReport({
+      exam: selectedExam,
+      items: maddeler,
+      bank,
+      results: classResults,
+      students,
+      threshold: GECME_ESIGI,
+    });
+    if (rapor === null) {
+      raporDurumu = "Sonuç girilmemiş; rapor alınamaz.";
+      return;
+    }
+
+    const hedef = await save({
+      defaultPath: examFileName(selectedExam, {
+        answerKey: false,
+        booklet: null,
+        extension: "pdf",
+        suffix: "analiz",
+      }),
+      filters: [{ name: "PDF", extensions: ["pdf"] }],
+    });
+    if (!hedef) return; // vazgeçildi
+
+    raporYaziliyor = true;
+    raporDurumu = null;
+    try {
+      const yol = await api.compiler.exportAnalysisPdf(rapor, hedef);
+      raporDurumu = `Rapor kaydedildi: ${yol}`;
+    } catch (err: unknown) {
+      raporDurumu = errorText(err);
+    } finally {
+      raporYaziliyor = false;
+    }
+  }
+
+  /** Yayılım ölçüleri: ortalama, ortanca, çeyrekler. */
+  let dagilim = $derived(spread(percentages));
+
+  /** Soru soru madde analizi — bu sınavın kendi sonuçlarından. */
+  let maddeler = $derived(itemStats(classResults, questionIds, bank));
 
   let summary = $derived.by(() => {
     if (percentages.length === 0) return null;
@@ -203,9 +265,28 @@
         Bu sınav için bu sınıfta girilmiş sonuç yok. Sonuç girişi sekmesinden başla.
       </p>
     {:else}
+      <div class="ruled-bottom flex items-center justify-between px-rule py-quarter">
+        <span class="pencil">
+          {#if raporDurumu}{raporDurumu}{:else}Yayılım, soru soru analiz ve öğrenci listesi tek PDF'te.{/if}
+        </span>
+        <button
+          type="button"
+          class="stamp border border-rule px-half py-quarter leading-rule text-ink-mid
+                 transition-colors hover:border-red hover:text-red-deep disabled:opacity-50"
+          disabled={raporYaziliyor}
+          onclick={raporKaydet}
+        >
+          {raporYaziliyor ? "Yazılıyor…" : "Analiz PDF"}
+        </button>
+      </div>
+
       <div class="grid gap-rule px-rule py-half" style="grid-template-columns: minmax(280px, 380px) 1fr">
-        <ScoreHistogram {percentages} />
+        <ScoreSpread {percentages} stats={dagilim} />
         <AnswerGrid results={classResults} {students} {questionIds} />
+      </div>
+
+      <div class="px-rule pb-rule">
+        <ItemAnalysis items={maddeler} {bank} studentCount={classResults.length} />
       </div>
     {/if}
   </div>

@@ -12,6 +12,7 @@ import type {
   RubricItem,
   Student,
 } from "./types";
+import type { AnalysisReport } from "./analysis/report";
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -204,6 +205,15 @@ export const api = {
      * çağırıyor; burada üretilen bir şey yok. Önizleme ile basılan anahtarın
      * ayrışmaması buna bağlı.
      */
+    /**
+     * Sınav analizi raporunu PDF olarak yazar.
+     *
+     * Ölçüler ekranda hesaplanıp OLDUĞU GİBİ gönderiliyor. Rust'ta ikinci bir
+     * hesap yapılsaydı kâğıt ile ekran sessizce ayrışabilirdi.
+     */
+    exportAnalysisPdf: (report: AnalysisReport, path: string) =>
+      invoke<string>("export_analysis_pdf", { report, path }),
+
     previewAnswerKey: (
       body: string,
       sampleAnswer: string | null,

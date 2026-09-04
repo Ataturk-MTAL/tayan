@@ -134,6 +134,29 @@ pub async fn export_exam_pdf(
     Ok(path)
 }
 
+/// Sınav analizi raporunu PDF olarak yazar.
+///
+/// SAYILAR BURADA HESAPLANMAZ. Rapor, ekranın gösterdiği ölçülerin aynısını
+/// alıp dizer; ikinci bir hesap, öğretmenin veliye gösterdiği kâğıtla ekranda
+/// gördüğünün sessizce ayrışması demekti.
+#[tauri::command]
+pub async fn export_analysis_pdf(
+    report: tayan_compiler::analysis_report::AnalysisReport,
+    path:   String,
+) -> Result<String, String> {
+    let source = tayan_compiler::analysis_report::generate_report(&report);
+
+    let pdf_bytes = tokio::task::spawn_blocking(move || {
+        tayan_compiler::TayanWorld::compile_pdf(source)
+    })
+    .await
+    .map_err(|e| e.to_string())?
+    .map_err(|e| e.to_string())?;
+
+    std::fs::write(&path, &pdf_bytes).map_err(|e| format!("Rapor yazılamadı: {e}"))?;
+    Ok(path)
+}
+
 /// Typst kaynağını ÖĞRETMENİN SEÇTİĞİ yola yazar.
 ///
 /// Önceden İndirilenler klasörüne sormadan yazıyordu: dosya bir yerlere düşüyor,
