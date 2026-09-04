@@ -353,7 +353,11 @@ impl ToTypst for ClassicQuestion {
         // vazgeçip domain varsayılanını basmak, öğretmenin kararını silmek olur.
         let body_has_answer_space = body.contains("#cevap-alani(");
 
-        let answer_space = if body_has_answer_space {
+        // CEVAP ANAHTARINDA CEVAP ALANI YOK. Cevap zaten basılı; boş çizgiler
+        // kâğıt harcar ve rubrik tablosunu aşağı iter. Gövdeye elle yazılmış
+        // #cevap-alani çağrısı da önsözdeki bayrakla susturuluyor, yani iki
+        // yol da kapalı.
+        let answer_space = if ctx.answer_key || body_has_answer_space {
             String::new()
         } else {
             match &self.answer_space {

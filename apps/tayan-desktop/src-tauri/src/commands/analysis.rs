@@ -269,7 +269,10 @@ pub async fn compile_answer_preview_svg(
             shuffle_seed: 0,
         };
 
-        let source = tayan_compiler::typst_gen::TypstGenerator::preview_document(&soru.to_typst(&ctx));
+        // answer_key_document: önsözdeki `anahtar-nushasi` bayrağını açar, böylece
+        // gövdeye elle yazılmış #cevap-alani da anahtarda basılmaz.
+        let source =
+            tayan_compiler::typst_gen::TypstGenerator::answer_key_document(&soru.to_typst(&ctx));
         tayan_compiler::TayanWorld::compile_svg(source)
     })
     .await

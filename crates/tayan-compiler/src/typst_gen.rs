@@ -21,7 +21,7 @@ impl TypstGenerator {
     ) -> Result<String, CompilerError> {
         let mut out = String::new();
 
-        out.push_str(PREAMBLE);
+        out.push_str(&Self::preamble_for(ctx.answer_key));
         out.push_str(&exam_header(exam, ctx.booklet.as_deref()));
 
         // Karıştırma tohumu sınav kimliğinden gelir: aynı sınav her basıldığında
@@ -83,6 +83,28 @@ impl TypstGenerator {
     /// Şablonun önsözü. Sembol dökümü buradan kendi yardımcılarını okur.
     pub fn preamble() -> &'static str {
         PREAMBLE
+    }
+
+    /// Önsözün istenen nüshaya göre ayarlanmış hâli.
+    ///
+    /// Bayrak önsözün İLK satırında ve `cevap-alani` ondan sonra tanımlı;
+    /// Typst kapanışları tanım anında yakaladığı için sıra önemli. Satır
+    /// sayısı değişmediğinden `preview_line_offset()` bozulmuyor.
+    pub fn preamble_for(answer_key: bool) -> String {
+        if answer_key {
+            PREAMBLE.replacen(
+                "#let anahtar-nushasi = false",
+                "#let anahtar-nushasi = true",
+                1,
+            )
+        } else {
+            PREAMBLE.to_string()
+        }
+    }
+
+    /// Cevap anahtarı önizlemesi/basımı için belge.
+    pub fn answer_key_document(body: &str) -> String {
+        format!("{}{body}\n", Self::preamble_for(true))
     }
 
     pub fn preview_document(body: &str) -> String {
@@ -239,7 +261,8 @@ fn exam_header(exam: &Exam, booklet: Option<&str>) -> String {
     )
 }
 
-const PREAMBLE: &str = r##"#set page(paper: "a4", margin: (x: 2cm, y: 2.5cm))
+const PREAMBLE: &str = r##"#let anahtar-nushasi = false
+#set page(paper: "a4", margin: (x: 2cm, y: 2.5cm))
 #set text(lang: "tr", size: 11pt, font: "Libertinus Serif")
 #set par(leading: 0.75em, justify: false)
 #set list(marker: ([--], [•]))
@@ -347,6 +370,11 @@ const PREAMBLE: &str = r##"#set page(paper: "a4", margin: (x: 2cm, y: 2.5cm))
 // `satir` her üç biçimde de yüksekliği belirler. Kareli alanda bir "satır"
 // bir 5 mm karedir, yani satir: 10 → 50 mm yükseklik.
 #let cevap-alani(satir: 6, bicim: "cizgili") = {
+  // CEVAP ANAHTARINDA BASILMAZ. Cevap zaten yazılı; boş çizgi ya da kareli
+  // alan hem kâğıt harcar hem de rubrik tablosunu aşağı iter. Öğretmenin
+  // kendi cevap anahtarında da cevap alanı yoktur.
+  if anahtar-nushasi { return none }
+
   v(0.3cm)
 
   if bicim == "kareli" {
@@ -426,7 +454,11 @@ mod preamble_tests {
     /// kâğıdı hem cevap anahtarını. Bu yüzden derlemesi test edilir; kaynağın
     /// üretilmiş olması yetmez.
     fn svg(govde: &str) -> Result<Vec<String>, String> {
-        let kaynak = format!("{PREAMBLE}{govde}\n");
+        svg_nusha(govde, false)
+    }
+
+    fn svg_nusha(govde: &str, anahtar: bool) -> Result<Vec<String>, String> {
+        let kaynak = format!("{}{govde}\n", TypstGenerator::preamble_for(anahtar));
         TayanWorld::compile_svg(kaynak).map_err(|e| e.to_string())
     }
 
@@ -494,6 +526,33 @@ mod preamble_tests {
         let anahtar = svg(r#"Deneme#rubrik((([Ölçüt], 10),), goster: true)"#)
             .expect("anahtar rubriği derlenmeli");
         assert_ne!(bos, anahtar, "goster: true olmasına rağmen tablo basılmadı");
+    }
+
+    #[test]
+    fn cevap_alani_anahtar_nushasinda_basilmaz() {
+        // Cevap anahtarında öğrenci cevap alanı anlamsız: cevap zaten yazılı,
+        // boş çizgiler kâğıt harcar ve rubrik tablosunu aşağı iter. Gövdeye
+        // ELLE yazılmış çağrı da susmalı — domain'deki kontrol yalnız kendi
+        // ürettiği alanı kapatıyor, bu önsöz bayrağı gövdedekini kapatıyor.
+        let bos = svg_nusha("Deneme", true).expect("boş belge derlenmeli");
+
+        for bicim in ["cizgili", "kareli", "bos"] {
+            let alanli = svg_nusha(
+                &format!("Deneme#cevap-alani(satir: 8, bicim: \"{bicim}\")"),
+                true,
+            )
+            .unwrap_or_else(|e| panic!("{bicim} derlenmeli: {e}"));
+
+            assert_eq!(bos, alanli, "{bicim} biçimi cevap anahtarına basıldı");
+        }
+    }
+
+    #[test]
+    fn cevap_alani_ogrenci_nushasinda_basilir() {
+        let bos = svg_nusha("Deneme", false).expect("boş belge derlenmeli");
+        let alanli = svg_nusha("Deneme#cevap-alani(satir: 8)", false)
+            .expect("öğrenci nüshası derlenmeli");
+        assert_ne!(bos, alanli, "öğrenci kâğıdında cevap alanı kayboldu");
     }
 
     #[test]
