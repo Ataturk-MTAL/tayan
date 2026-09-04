@@ -136,7 +136,26 @@
       <Alert color="red" class="m-4 shrink-0">{error}</Alert>
     {/if}
 
-    <div class="grid min-h-0 flex-1 grid-cols-[240px_1fr_300px]">
+    <!--
+      Yan izler sabit (240px / 300px), orta iz minmax(0,1fr).
+      Bir ara yan izlere minmax(180px,240px) ve minmax(240px,300px) verilmişti;
+      ölçüldü: desteklenen HİÇBİR pencere boyutunda sonucu değiştirmiyordu, o
+      yüzden geri alındı. Grid iz boyutlandırmasında (§12.6 Maximize Tracks)
+      esnek olmayan izler önce büyüme sınırlarına kadar doldurulur, fr iz ancak
+      artan yeri alır. En dar desteklenen pencerede (tauri.conf.json
+      minWidth=1024) alan 1024 − 224 (w-56 çekmece) − 1 (border-r) = 799px:
+      tabanlar 180 + 0 + 240 = 420, boş yer 379 ve yan izlerin sınırlarına
+      çıkması için gereken 60 + 60 = 120'den büyük ⇒ T1 240'a, T3 300'e
+      doluyor, ortaya 799 − 540 = 259px kalıyor. Sabit izlerle bire bir aynı
+      sonuç; alt sınırlar ancak alan 540px'in altına inseydi iş görürdü ve
+      minWidth=1024 oraya inilmesine izin vermiyor.
+      Yani orta sütunu 259px'e sığdıran şey ızgara değil, aşağıdaki hücre
+      düzeltmeleri: px-3, w-px ve wrap-anywhere.
+      minmax(0,1fr) korunuyor: çıplak `1fr` aslında minmax(auto,1fr) demek,
+      o zaman orta izin tabanı section'daki overflow-auto'nun otomatik en küçük
+      boyu 0'a düşürmesine bağlı kalırdı. 0 tabanı burada açıkça yazılı.
+    -->
+    <div class="grid min-h-0 flex-1 grid-cols-[240px_minmax(0,1fr)_300px]">
       <section class="min-h-0 overflow-auto border-r border-gray-200 dark:border-gray-700">
         <h2
           class="sticky top-0 border-b border-gray-200 bg-gray-50 px-4 py-2 text-xs font-semibold
@@ -209,15 +228,49 @@
         {:else if students.length === 0}
           <p class="p-4 text-sm text-gray-500 dark:text-gray-400">Bu sınıfta öğrenci yok.</p>
         {:else}
+          <!--
+            Satır kendi sütununa sığmıyordu. flowbite'ın tableBodyCell
+            base'i her hücreye `px-6 py-4 whitespace-nowrap` veriyor: üç
+            hücrenin salt yatay dolgusu 3×48px = 144px, üstüne nowrap ad
+            hücresinin sarmasını engelliyor. Kısa bir adla bile ("Ayşe
+            Yılmaz") satırın min-content'i ~296px oluyordu; orta sütuna
+            düşen 259px'e sığmayınca Table'ın `relative overflow-x-auto`
+            sarmalayıcısı sessizce yatay kaydırıcı açıyor ve "Sil" düğmesi
+            görüş alanının dışına kayıyordu — kaydırmadan öğrenci
+            silinemiyordu. Dolgu px-3'e çekildi, ad hücresine sarma izni
+            verildi. `w-[60px]` de ölü bir beyandı: preflight'ın
+            box-sizing:border-box'ı yüzünden 60px'in 48px'i dolguya
+            gidiyor, içeriğe 12px kalıyor, tarayıcı da beyanı yok sayıp
+            sütunu ~68px'e büyütüyordu; `w-px` otomatik tablo düzeninde
+            "bu sütun min-content kadar kalsın" demenin çalışan yolu ve
+            artan genişliği ad sütununa bırakıyor. tailwind-variants
+            sınıfları twMerge ile birleştirdiği için `whitespace-normal` ve
+            `px-3` base'deki karşılıklarını eziyor, `!` gerekmiyor. Uzun
+            ad kısaltılmıyor, iki satıra sarıyor.
+            Ad hücresinde `break-words` DEĞİL `wrap-anywhere` var: min-content
+            hesabında overflow-wrap: break-word kelimeyi bölünmemiş sayar (aynı
+            ölçüm ItemAnalysis.svelte'te de yapıldı), yani boşluksuz tek parça
+            bir soyad hücrenin katkısını tam kelime genişliğinde bırakırdı.
+            259px'lik sütunda pay yok: numara (w-px + px-3 ≈ 44) +
+            "Küçükçalışkanoğlu" (≈ 119 + 24 dolgu = 143) + Sil (≈ 64) = 251px,
+            geriye 8px kalıyor; bir tık daha uzun bölünemez bir soyad Table'ın
+            `relative overflow-x-auto` sarmalayıcısında yatay kaydırıcı açıp
+            "Sil" düğmesini yine görüş alanının dışına atardı. overflow-wrap:
+            anywhere hücrenin min-content'ini tek karaktere indiriyor; boşluklu
+            normal adlar yine kelime sınırından kırılıyor, hiçbir ad
+            kısaltılmıyor.
+          -->
           <Table>
             <TableBody>
               {#each students as s (s.id)}
                 <TableBodyRow>
-                  <TableBodyCell class="w-[60px] tnum text-gray-500 dark:text-gray-400">
+                  <TableBodyCell class="w-px px-3 tnum text-gray-500 dark:text-gray-400">
                     {s.number}
                   </TableBodyCell>
-                  <TableBodyCell>{s.first_name} {s.last_name}</TableBodyCell>
-                  <TableBodyCell class="text-right">
+                  <TableBodyCell class="px-3 whitespace-normal wrap-anywhere">
+                    {s.first_name} {s.last_name}
+                  </TableBodyCell>
+                  <TableBodyCell class="w-px px-3 text-right">
                     <Button
                       size="xs"
                       color="alternative"

@@ -17,6 +17,22 @@
   let { pages, stale, error }: Props = $props();
 
   const A4_WIDTH_PX = 794;
+  /**
+   * Taban 0.5 ve bilinçli olarak öyle KALIYOR.
+   *
+   * Bu sabit yalnız o anki görünümü değil, `tayan.preview.zoom` altında
+   * saklanan değeri de kırpıyor (hem loadZoom hem setZoom). Yani tabanı
+   * indirmek bir yerleşim düzeltmesi değil, oturumlar arası kalıcı bir
+   * davranış değişikliğidir; kendi başına karara bağlanmalı, taşma düzeltmesi
+   * diye geçiştirilmemeli. Taşmanın kendisi zaten aşağıdaki `overflow-auto`
+   * kaydırma kabında tutuluyor — kâğıt kesilmiyor, kaydırılıyor.
+   *
+   * Bilinen ödün: "Sığdır" bölme 794 × 0.5 + 40 = 437 px'ten darken sözünü tam
+   * tutamaz. Ölçüm — 1024 px pencere (tauri.conf.json minWidth), 224 px
+   * çekmece + 1 px kenarlık, varsayılan 260 px panel, yan yana mod: önizleme
+   * bölmesine 217 px kalıyor, fit() (217 − 40) / 794 ≈ 0,22 istiyor, setZoom
+   * 0,5'e kırpıyor ve sayfa yatayda kaydırılabilir kalıyor.
+   */
   const MIN_ZOOM = 0.5;
   const MAX_ZOOM = 3;
   const ZOOM_KEY = "tayan.preview.zoom";

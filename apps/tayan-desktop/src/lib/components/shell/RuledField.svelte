@@ -35,10 +35,8 @@
 <style>
   /*
     NEDEN :global() VE ÖZEL SINIF: `children` çağıranın verdiği ham
-    `<input>`/`<select>`/`<textarea>` (SelectBox kendi sınıflarını taşıyor,
-    bkz. SelectBox.svelte — bu kural onun için de geçerli ama zaten
-    override ediyor). Bu snippet'in içeriğine dışarıdan class EKLEYEMEYİZ,
-    üstelik `<label>` elementini artık biz değil Flowbite'ın Label bileşeni
+    `<input>`/`<select>`/`<textarea>`. Bu snippet'in içeriğine dışarıdan class
+    EKLEYEMEYİZ, üstelik `<label>` elementini artık biz değil Flowbite'ın Label bileşeni
     çiziyor — Svelte'in stil kapsamlama karması (scope hash) o elemente
     iğnelenmiyor. Tek yol: kendi seçtiğimiz sabit bir sınıf (`ruled-field`)
     üzerinden tam `:global()` seçici. Bu sınıf yalnız BU bileşenin verdiği
@@ -48,8 +46,21 @@
     görünümünün elle taşınmış hâli (kenarlık, yuvarlak köşe, odak halkası,
     koyu kip) — çağıranlar `Input` bileşenini DEĞİL çıplak `<input>` yazdığı
     için bu görünümü buradan vermek zorundayız.
+
+    NEDEN `:not([role="combobox"])`: bu `<style>` bloğu KATMANSIZ (unlayered)
+    CSS olarak basılıyor, Tailwind 4'ün bütün utility'leri ise
+    `@layer utilities` içinde. Katman sırasında katmansız kural, özgüllüğü ne
+    olursa olsun katmanlı kuralı YENER — yani buradaki `padding` kısayolu
+    SelectBox'ın ▾ düğmesine yer açan `pr-8` sınıfını (2rem → 0.625rem), `border`
+    kısayolu da `invalid` durumundaki `border-red-500` sınıfını eziyordu. Sonuç:
+    uzun ders adı okun ALTINA girip kesiliyor, zorunlu alan uyarısının kırmızı
+    kenarlığı hiç çıkmıyordu. SelectBox Flowbite `Input md` görünümünün tamamını
+    zaten kendi sınıflarında taşıdığı için onu bu kuralların dışında bırakmak
+    hiçbir şey kaybettirmiyor; seçici SelectBox'ın girdisindeki
+    `role="combobox"`e dayanıyor, RuledField'in diğer çağıranlarındaki çıplak
+    `<input>`/`<textarea>` etkilenmiyor.
   */
-  :global(.ruled-field input),
+  :global(.ruled-field input:not([role="combobox"])),
   :global(.ruled-field select),
   :global(.ruled-field textarea) {
     display: block;
@@ -65,14 +76,14 @@
     font-variant-numeric: tabular-nums;
   }
 
-  :global(.ruled-field input:disabled),
+  :global(.ruled-field input:not([role="combobox"]):disabled),
   :global(.ruled-field select:disabled),
   :global(.ruled-field textarea:disabled) {
     cursor: not-allowed;
     opacity: 0.5;
   }
 
-  :global(.ruled-field input:focus),
+  :global(.ruled-field input:not([role="combobox"]):focus),
   :global(.ruled-field select:focus),
   :global(.ruled-field textarea:focus) {
     outline: none;
@@ -80,7 +91,7 @@
     box-shadow: 0 0 0 1px var(--color-primary-500);
   }
 
-  :global(.dark) :global(.ruled-field input),
+  :global(.dark) :global(.ruled-field input:not([role="combobox"])),
   :global(.dark) :global(.ruled-field select),
   :global(.dark) :global(.ruled-field textarea) {
     border-color: var(--color-gray-600);

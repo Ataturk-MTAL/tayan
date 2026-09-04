@@ -121,17 +121,53 @@
               </span>
             </div>
 
-            <div class="flex items-baseline gap-2 text-[11px] leading-tight">
+            <!--
+              Uzun bir ders adı ("Bilişim Teknolojileri ve Yazılım Geliştirme")
+              ya da boşluksuz uzun bir belirteç burada sessizce yok oluyordu: ne
+              üç nokta çıkıyordu ne kaydırma. İki span flex öğesi ve varsayılan
+              min-width:auto ile min-content'in altına inemiyor, taşan kısmı da
+              ebeveyn button'daki overflow-hidden kırpıyordu — düzen bozulmuyor
+              ama metnin sonu görünmez oluyordu. min-w-0 kabı küçülebilir yapıyor
+              (o olmadan truncate hiç çalışmaz, çünkü ebeveyn daralamaz), truncate
+              kesme yerine üç nokta gösteriyor, title ile tam metin fare üstünde
+              okunabilir kalıyor. flex-wrap dar kartta ders adını ve sınıf
+              bilgisini alt alta alıyor; shrink-0 ise "9. sınıf" ibaresinin
+              kelime kelime kırılmasını engelliyor.
+            -->
+            <div class="flex flex-wrap items-baseline gap-x-2 gap-y-0.5 text-[11px] leading-tight">
               {#if q.meta?.subject}
-                <span class="text-gray-700 dark:text-gray-300">{q.meta.subject}</span>
+                <span
+                  class="min-w-0 truncate text-gray-700 dark:text-gray-300"
+                  title={q.meta.subject}
+                >
+                  {q.meta.subject}
+                </span>
               {/if}
               {#if q.meta?.grade}
-                <span class="text-gray-500 dark:text-gray-400">{q.meta.grade}. sınıf</span>
+                <span class="shrink-0 text-gray-500 dark:text-gray-400">{q.meta.grade}. sınıf</span>
               {/if}
             </div>
 
+            <!--
+              Kazanım kodları ("MAT.9.1.2.3") boşluksuz tek parça belirteçler;
+              varsayılan overflow-wrap: normal onları hiçbir yerden kıramaz.
+              Ölçüm (minWidth=1024): 1024 − 225 (çekmece + border) − 48
+              (PageShell p-6) = 751px, auto-fill minmax(260px, 1fr) burada 2
+              sütun veriyor ⇒ (751 − 16 gap) / 2 ≈ 367px, px-3 sonrası içeriğe
+              343px; ızgaranın ilan ettiği taban ise 260px ⇒ 236px. 10px
+              font-mono ≈ 6px/karakter olduğundan bölünemez tek bir kod 39–57
+              karakteri aşınca ebeveyn button'ın overflow-hidden'ı onu SESSİZCE
+              kırpıyordu — hemen yukarıdaki yorumun mahkûm ettiği başarısızlığın
+              aynısı.
+              wrap-anywhere seçildi, QuestionInspector'daki break-all değil:
+              orada her li tek bir kod, burada kodlar " · " ile birleşmiş tek
+              bir metin ve break-all sığan kodları da ortadan bölerdi.
+              overflow-wrap: anywhere önce ayıraçtan kırar, yalnızca tek başına
+              satıra sığmayan kodu böler. Metin kesilmediği için `title`
+              gerekmiyor: kodun tamamı ekranda kalıyor.
+            -->
             {#if q.outcomes.length > 0}
-              <span class="font-mono text-[10px] text-gray-500 dark:text-gray-400">
+              <span class="font-mono text-[10px] wrap-anywhere text-gray-500 dark:text-gray-400">
                 {q.outcomes.join(" · ")}
               </span>
             {/if}

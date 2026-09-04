@@ -31,6 +31,23 @@
   /** Çarpıklığın güvenilir okunabildiği en küçük sınıf. */
   const MIN_CARPIKLIK_N = 15;
 
+  /**
+   * Bu puanın üstündeki işaret çizgilerinin etiketi çizginin SOLUNA geçer.
+   * Etiket her zaman çizginin sağına, `text-anchor` varsayılanı (`start`) ile
+   * konuyordu; dış <svg> öğesinde tarayıcı varsayılanı `overflow: hidden`
+   * olduğu için viewBox dışına taşan yazı çizilmiyordu — kırpılma sessiz,
+   * hata vermiyor. Ölçek yalnız 0–100 aralığını kapsıyor, sağda etiket için
+   * pay yok: x(d) = 22 + 2.98d ve 8px'te "Medyan" 31px, yani d > 88.6'da
+   * viewBox'ın 320 genişliğini aşıyor ("Mod" d > 93.3, "Ort" d > 94.3).
+   * Yüksek başarılı bir sınıfta üç etiketin üçü birden gidebiliyordu.
+   * 85 eşiği en geniş etiket olan "Medyan"a pay bırakır; dy kademeleri
+   * (10/24/38) aynı kaldığı için üç etiket sola dönse de üst üste binmez.
+   */
+  const ETIKET_SOLA_ESIK = 85;
+
+  /** Etiketin işaret çizgisine uzaklığı (viewBox birimi). */
+  const ETIKET_BOSLUK = 3;
+
   const W = 320;
   const H = 140;
   const SERIT = 20;
@@ -98,8 +115,19 @@
   {#if stats === null}
     <p class="mt-[5px] text-[12px] leading-5 text-gray-500 dark:text-gray-400">Sonuç girilmemiş.</p>
   {:else}
+    <!--
+      max-w-[640px]: viewBox oranı sabit olduğu için SVG genişledikçe hem
+      yükseklik hem TÜM iç ölçüler (8px eksen yazısı, 1.6px eğri kalınlığı)
+      doğrusal büyüyor — SVG'nin ölçeklenmesi tipografiyi ölçeklemez, ölçek
+      DIŞINA çıkarır. Az sorulu bir sınavda (AnswerGrid dar kalınca) sol sütun
+      ~1000px'e çıkıyor ve grafik 3.1 katına ölçekleniyor: 8px'lik eksen
+      yazıları ~25px, 1.6px'lik eğri çizgisi ~5px, kart ~500px yüksekliğe
+      şişiyordu; kartın kendi 11–15px'lik yazı ölçeğiyle görünür uyumsuzluk
+      oluşuyordu. Üst sınır en fazla 2 kat büyümeye izin verir; dar pencerede
+      küçülme davranışı aynen kalır.
+    -->
     <svg
-      class="mt-2.5 w-full"
+      class="mt-2.5 w-full max-w-[640px]"
       viewBox="0 0 {W} {H + SERIT}"
       role="img"
       aria-label="Puan dağılım eğrisi: yatay eksen puan, dikey eksen frekans"
@@ -140,6 +168,11 @@
 
       <!-- Mod/medyan/ortalama çizgileri de değerlendirme okuması: aynı kırmızı. -->
       {#each isaretler as m (m.ad)}
+        <!--
+          Sağ uçtaki etiket çizginin soluna döner ve tutunma noktası `end`
+          olur; böylece yazı viewBox'ın sağ kenarından taşıp kırpılmaz.
+        -->
+        {@const solda = m.deger > ETIKET_SOLA_ESIK}
         <line
           x1={x(kirp(m.deger))}
           y1={0}
@@ -150,8 +183,9 @@
           <title>{m.ad}: %{m.deger.toFixed(1)}</title>
         </line>
         <text
-          x={x(kirp(m.deger)) + 3}
+          x={x(kirp(m.deger)) + (solda ? -ETIKET_BOSLUK : ETIKET_BOSLUK)}
           y={m.dy}
+          text-anchor={solda ? "end" : "start"}
           class="fill-red-600 dark:fill-red-400"
           style="font-size: 8px"
         >

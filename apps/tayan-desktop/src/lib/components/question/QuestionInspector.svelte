@@ -328,9 +328,19 @@
       <h3 class="text-[11px] font-semibold tracking-wide text-gray-500 uppercase dark:text-gray-400">
         Girilen kazanımlar
       </h3>
+      <!--
+        break-all ŞART: kazanım kodları nokta ve rakamdan oluşan tek parça
+        belirteçler, içinde kırılacak boşluk yok. Varsayılan
+        overflow-wrap: normal hiçbir yerden kıramadığı için uzun bir kod li'nin
+        dışına taşıyor, kırpan bir ata olmadığından taşma DockPanel'in
+        `min-h-0 flex-1 overflow-auto` kabına kadar gidiyor ve orada YATAY
+        kaydırma açıyordu — panelin bütün içeriği sağa kayıyordu. break-words
+        yetmez, o yalnız kelime sınırında kırar ve bu belirteçte sınır yoktur.
+        Metin kısaltılmıyor, yalnız sarılıyor: kod tam okunur kalıyor.
+      -->
       <ul class="mt-1">
         {#each outcomes as outcome}
-          <li class="font-mono text-xs text-gray-600 dark:text-gray-300">{outcome}</li>
+          <li class="font-mono text-xs break-all text-gray-600 dark:text-gray-300">{outcome}</li>
         {/each}
       </ul>
     </div>

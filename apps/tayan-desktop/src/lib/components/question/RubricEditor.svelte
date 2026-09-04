@@ -63,7 +63,22 @@
     <h3 class="text-[11px] font-semibold tracking-wide text-gray-500 uppercase dark:text-gray-400">
       Puanlama ölçütleri
     </h3>
-    <Badge color={hata !== null ? "red" : "gray"} class="tnum">{toplam} / {points}</Badge>
+    <!--
+      shrink-0 + whitespace-nowrap ŞART: rozet `flex items-baseline
+      justify-between` içinde varsayılan flex-shrink:1 ile küçülüyordu ve
+      Flowbite Badge teması ne whitespace-nowrap ne shrink-0 içeriyor.
+      MIN_PANEL_WIDTH 200 px olduğu için öğretmenin sürükleyerek ulaştığı
+      200-220 px'te başlık (max-content ~107 px) ile rozet (~80 px) kaba
+      sığmıyor, açık ikisine birden dağıtılınca rozet "100 /" ile "100"
+      arasındaki boşluktan kırılıyordu: toplam puan tek bir sayı gibi
+      okunamıyor, rozet 20 px yerine 36 px olup başlık şeridini şişiriyordu.
+      Başlık zaten iki satıra sarabildiği için daralmayı o karşılar.
+      Renk (kırmızı = eşik ihlali) değerlendirme rengidir, dekoratif değil;
+      olduğu gibi kalıyor.
+    -->
+    <Badge
+      color={hata !== null ? "red" : "gray"}
+      class="tnum shrink-0 whitespace-nowrap">{toplam} / {points}</Badge>
   </div>
 
   {#if rubric.length === 0}
@@ -80,9 +95,17 @@
         durur; her alan kendi çizgisini çizince satır kırık görünüyordu.
         Çizgi satırın kendisinde, odak da satırın tamamını vurguluyor —
         kırmızı değil, bu yalnızca "aktif satır" göstergesi, bir hata değil.
+
+        PUAN SÜTUNU 2.75rem DEĞİL 3rem: 44 px'lik sabit sütunda üç haneli puan
+        ("100") sessizce kırpılıyordu — ekranda "10" görünüyordu. Sütun sabit
+        olduğu için panel genişlese de sonuç değişmiyordu; ekle() ilk ölçüte
+        doğrudan soru puanını yazdığından 100 puanlık klasik soruda bu ilk
+        satırda hemen ortaya çıkıyordu. 48 px, dolgusu sıfırlanmış girdide dört
+        haneye bile pay bırakır. Ölçüt sütunu (1fr) karşılığında 4 px daralıyor
+        ama TypstField satır sarması yaptığı için orada taşma üretmez.
       -->
       <li
-        class="grid grid-cols-[1fr_2.75rem_1.5rem] items-end gap-x-2 border-b
+        class="grid grid-cols-[1fr_3rem_1.5rem] items-end gap-x-2 border-b
                border-gray-200 py-1 focus-within:border-primary-500
                dark:border-gray-700 dark:focus-within:border-primary-400"
       >
@@ -93,8 +116,18 @@
           bordered={false}
           onchange={(v) => guncelle(i, { criterion: v })}
         />
+        <!--
+          px-0 ŞART: flowbite eklentisi @layer base içinde bütün [type='number']
+          girdilerine 12 px sol ve 12 px sağ dolgu basıyor. Bu girdide px-*
+          yardımcı sınıfı olmadığı için o taban kuralı geçerliydi ve 44 px'lik
+          sütunda metne yalnız 20 px kalıyordu; "100" 14 px tabular-nums ile
+          22,7 px olduğundan son hane sessizce kayboluyordu (clientWidth 44,
+          scrollWidth 53). min-w-0 burada çare değil — sorun asgari genişlik
+          değil, dolgu. px-0 @layer utilities içinde üretildiği için taban
+          katman kuralını yener.
+        -->
         <input
-          class="olcut-puan tnum w-full border-0 bg-transparent text-right text-sm
+          class="olcut-puan tnum w-full border-0 bg-transparent px-0 text-right text-sm
                  text-gray-900 focus:outline-none dark:text-white"
           type="number"
           min="0"

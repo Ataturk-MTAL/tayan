@@ -37,9 +37,19 @@
     <!--
       Üç çekirdek eşit ağırlıkta: dizgi, ölçüm, hız. Hiçbiri diğerinin alt sekmesi
       değil, bu yüzden üçü de aynı boyutta kart.
+
+      Dolgu kartların kendisine yazıldı (p-6): flowbite-svelte 1.33.1'de card
+      temasının base sınıfı `w-full flex max-w-sm border rounded-lg …` — içinde
+      hiçbir `p-*` yok, ve bu projede ThemeProvider da kurulmadığı için
+      getTheme("card") undefined dönüyor. Yani dolgu hiçbir yerden gelmiyordu:
+      başlık, açıklama ve büyük sayı kart kenarlığına yapışık basılıyor, dar
+      pencerede metin kartın dışına taşmış gibi görünüyordu. size="xl" zaten
+      max-w-none verdiği için p-6 genişlik davranışını değiştirmiyor;
+      sm:grid-cols-3 de Tailwind'de repeat(3, minmax(0,1fr)) ürettiğinden
+      sütunlar 0'a inebiliyor, orada ek bir düzeltme gerekmiyor.
     -->
     <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
-      <Card href="/questions/new" size="xl" class="hover:bg-gray-50 dark:hover:bg-gray-700">
+      <Card href="/questions/new" size="xl" class="p-6 hover:bg-gray-50 dark:hover:bg-gray-700">
         <h2 class="text-lg font-semibold text-gray-900 dark:text-white">Soru yaz</h2>
         <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
           Typst kaynağını yaz, kâğıda ne basılacağını yanında gör.
@@ -52,7 +62,7 @@
         </p>
       </Card>
 
-      <Card href="/exams/new" size="xl" class="hover:bg-gray-50 dark:hover:bg-gray-700">
+      <Card href="/exams/new" size="xl" class="p-6 hover:bg-gray-50 dark:hover:bg-gray-700">
         <h2 class="text-lg font-semibold text-gray-900 dark:text-white">Sınav kur</h2>
         <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
           Bankadan soru seç, puan bütçesini doldur, baskıya çıkar.
@@ -69,7 +79,7 @@
         Bu kart tek başına kırmızı: uygulamada kırmızı yalnız değerlendirme
         için ayrılmış (bkz. app.css), "zayıf soru" ölçütü bu ayrımı hak ediyor.
       -->
-      <Card href="/analysis" size="xl" class="hover:bg-gray-50 dark:hover:bg-gray-700">
+      <Card href="/analysis" size="xl" class="p-6 hover:bg-gray-50 dark:hover:bg-gray-700">
         <h2 class="text-lg font-semibold text-gray-900 dark:text-white">Sonucu oku</h2>
         <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
           Sınav sonuçları soruya geri döner; zayıf soru kendini belli eder.

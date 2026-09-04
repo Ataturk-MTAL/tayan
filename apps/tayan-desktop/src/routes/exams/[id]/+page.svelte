@@ -178,9 +178,25 @@
     }
   }
 
-  function preview(q: Question): string {
+  /** Listede tek satırın okunur kaldığı kırpma sınırı. */
+  const PREVIEW_MAX_CHARS = 70;
+
+  /**
+   * Gövdenin tek satıra indirgenmiş, KIRPILMAMIŞ kaynağı. `title` bunu alır:
+   * kırpılmış metni title'a koymak erişim sağlamaz, yalnızca "tamamı burada"
+   * sanısı verir — 70. karakterden sonrası hiçbir yerde görünmezdi.
+   */
+  function fullSource(q: Question): string {
     const source = bodySource(q.body).replace(/\s+/g, " ").trim();
-    return source.length > 70 ? `${source.slice(0, 70)}…` : source || "(boş)";
+    return source || "(boş)";
+  }
+
+  /** Gövdede basılan kırpık hâl. Tamamı için fullSource() + title. */
+  function preview(q: Question): string {
+    const source = fullSource(q);
+    return source.length > PREVIEW_MAX_CHARS
+      ? `${source.slice(0, PREVIEW_MAX_CHARS)}…`
+      : source;
   }
 
   async function exportPdf() {
@@ -405,10 +421,22 @@
         <Alert color="red" class="shrink-0 rounded-none">{actionError}</Alert>
       {/if}
 
-      <div
-        class="grid min-h-0 flex-1 grid-cols-[minmax(280px,1fr)_minmax(300px,1fr)_minmax(320px,1.1fr)]"
-      >
-        <section class="min-h-0 overflow-auto border-r border-gray-200 dark:border-gray-700">
+      <!--
+        İzler minmax(0,…) ile tanımlı. Eskiden üç izin de SABİT PİKSEL alt sınırı
+        vardı (280+300+320 = 900px); desteklenen en dar pencerede (tauri.conf.json
+        minWidth 1024, yan menü w-56 = 224px → 800px) ızgara kaptan 100px taşıyordu.
+        Taşmayı yakalayacak kaydırıcı da yok — PageShell scroll={false} ve app.css'te
+        html, body { overflow: hidden } — yani üçüncü sütun (kâğıt önizlemesi)
+        kaydırma çubuğu bile açmadan sessizce kırpılıyor, önizlemeye HİÇ
+        erişilemiyordu. minmax(0,…) izin min-content'in altına inmesine izin verir:
+        800px'lik alanda izler ~258/258/284px olur. Kâğıdın KENDİ 794*zoom
+        genişliği değişmez; küçülen yalnızca onu tutan kap.
+      -->
+      <div class="grid min-h-0 flex-1 grid-cols-[minmax(0,1fr)_minmax(0,1fr)_minmax(0,1.1fr)]">
+        <!-- min-w-0: ızgara öğesinin varsayılan min-width:auto'su onu içeriğinin
+             min-content genişliğinin ALTINA indirmez; uzun bir soru satırı izi
+             şişirip komşu sütunları dışarı iterdi. minmax(0,…) ancak bununla işe yarar. -->
+        <section class="min-h-0 min-w-0 overflow-auto border-r border-gray-200 dark:border-gray-700">
           <h2
             class="sticky top-0 border-b border-gray-200 bg-white px-6 py-2 text-xs font-semibold
                    uppercase tracking-wide text-gray-500 dark:border-gray-700 dark:bg-gray-900
@@ -421,20 +449,70 @@
           {:else}
             {#each missing as row (row.id)}
               <Alert color="red" class="mx-6 mt-3 rounded-md">
-                Bankada bulunamadı: <span class="font-mono">{row.id.slice(0, 8)}</span> — soru
+                <!--
+                  Kimlik 8 haneye kırpılıyor (satıra sığması için) ama TAM hâli
+                  title'da: silinmiş soruyu yedekte veya kayıtta aratmanın tek
+                  ipucu bu kimlik; 8 karakterlik önek başka soruya da uyabilir,
+                  yani kırpık hâl tek başına yanlış soruya götürebilir.
+                -->
+                Bankada bulunamadı:
+                <span class="font-mono" title={row.id}>{row.id.slice(0, 8)}</span> — soru
                 silinmiş olabilir. Bu sınav eksik basılır.
               </Alert>
             {/each}
             <ol class="divide-y divide-gray-200 dark:divide-gray-700">
               {#each selected as q, i (q.id)}
-                <li class="flex items-start gap-2.5 px-6 py-4">
+                <!--
+                  ÖLÇÜLDÜ (1024 px = desteklenen en dar pencere, tauri.conf.json
+                  minWidth; yan menü w-56 224 + 1 kenarlık → içerik 799 px; ızgara
+                  3,1fr olduğundan bu iz 257,7 px, border-r düşünce 256,7 px, px-4
+                  düşünce satıra 224,7 px):
+                    numara w-5 20 + 3 × gap-2.5 30
+                    + puan etiketi (girdi w-12 48 + gap-1 4 + "puan" 32,3) 84,3
+                    + "Çıkar" xs düğmesi (px-3 24 + metin 29,6 + kenarlık 2) 55,6
+                    = 189,9 px atlanamaz yük.
+                  Tek satırda metin sütununa 34,9 px kalıyordu (px-6 iken 18,9 px;
+                  yani px-4 tek başına satırı kurtarmıyor). Soru tipi etiketi bu
+                  kutunun altına İNEMEZ — en uzun kelimesi "Doldurma" 14 px'te
+                  63,7 px — ve <p> normal sarmayla bile min-content'inin altına
+                  sıkışamadığı için kutudan taşıp puan girdisinin üstüne biniyor,
+                  section'ın overflow-auto'sunda yatay kaydırıcı açıyordu.
+
+                  Çözüm metni kısaltmak değil SARMAK: flex-wrap + metin sütununa
+                  basis-40 (160 px) taban. Satır 20 + 10 + 160 = 190 px ile
+                  dolduğundan puan+Çıkar bloğu bir alt satıra iniyor ve metne
+                  194,7 px kalıyor; "Boşluk Doldurma" (114,2 px) tek satırda sığar.
+                  xl:flex-nowrap — 1280 px ve üstünde satır zaten tek satıra
+                  sığıyor (metne 117,5 px) ve orada dikey yer harcamanın anlamı yok.
+                -->
+                <li class="flex flex-wrap items-start gap-2.5 px-4 py-4 xl:flex-nowrap">
                   <span
                     class="tnum w-5 shrink-0 pt-0.5 text-xs font-semibold text-gray-500 dark:text-gray-400"
                   >
                     {i + 1}
                   </span>
-                  <div class="min-w-0 flex-1">
-                    <p class="truncate font-mono text-xs text-gray-700 dark:text-gray-300">
+                  <!--
+                    grow + basis-40, flex-1 DEĞİL: flex-1'in basis'i 0 olduğu için
+                    satır kırma kararında bu sütun 0 px sayılır ve flex-wrap hiçbir
+                    genişlikte devreye girmezdi. 160 px'lik taban, kırma eşiğini
+                    metnin okunur kaldığı yere koyuyor. min-w-0 + shrink (varsayılan
+                    1) sayesinde tek satırlı xl kipinde 160 px'in altına inebiliyor.
+                  -->
+                  <div class="min-w-0 grow basis-40">
+                    <!--
+                      truncate burada bilinçli: satır tek satırda kalmalı, yoksa
+                      liste ritmi bozulur.
+                      Gövde İKİ kez kırpılıyor: önce preview() 70 karakterde
+                      (JS), sonra truncate satır sonunda (CSS). title bu yüzden
+                      fullSource() alır: title'a da preview() verilseydi 70.
+                      karakterden sonrası HİÇBİR YERDE olmazdı — kırpık metni
+                      title'a koymak erişim sağlamaz, yalnızca "tamamı burada"
+                      sanısı verir.
+                    -->
+                    <p
+                      class="truncate font-mono text-xs text-gray-700 dark:text-gray-300"
+                      title={fullSource(q)}
+                    >
                       {preview(q)}
                     </p>
                     <p class="text-sm text-gray-500 dark:text-gray-400">
@@ -445,13 +523,45 @@
                   <!--
                     Puan burada belirlenir, soruda değil: aynı soru bir yazılıda 5,
                     başkasında 10 puan edebilir.
+
+                    ml-auto: blok alt satıra indiğinde sağa yaslanır. Tek satırlı
+                    kipte etkisizdir — metin sütunu grow ile tüm boşluğu yediği için
+                    dağıtılacak boşluk kalmaz. justify-end YERİNE otomatik kenar
+                    boşluğu: taşma anında auto 0'a çözülür, yani içerik sola değil
+                    sağa taşar; html,body{overflow:hidden} altında sola taşan
+                    içeriğe hiçbir biçimde erişilemezdi.
                   -->
-                  <label class="flex shrink-0 items-baseline gap-1 text-sm text-gray-500 dark:text-gray-400">
+                  <label
+                    class="ml-auto flex shrink-0 items-baseline gap-1 text-sm text-gray-500
+                           dark:text-gray-400"
+                  >
+                    <!--
+                      px-0 ŞART: flowbite eklentisi @layer base içinde bütün
+                      [type='number'] girdilerine 12 px sol + 12 px sağ dolgu VE
+                      font-size: 1rem basıyor (node_modules/flowbite/plugin.js:192
+                      seçici, 210/212 dolgu, 213 font-size). Bu girdide ne px-* ne
+                      text-* yardımcısı vardı, yani ikisi de geçerliydi: w-12
+                      border-box olduğu için metne 48 − 24 = 24 px kalıyor, "100"
+                      ise 16 px Public Sans'ta 26,1 px sürüyor — son hane sessizce
+                      kırpılıyordu. RubricEditor'de giderilen hatanın aynısı.
+                      px-0 metin kutusunu 48 px'e çıkarır (dört hane, "1000",
+                      14 px'te 31,4 px). text-sm ise rakamları
+                      yanındaki "puan" etiketiyle aynı 14 px'e indirir; etiketten
+                      miras alındığı sanılan boy, doğrudan öğeye basılan taban kuralı
+                      yüzünden miras ALINMIYORDU.
+                      NOT: px-0 satıra genişlik KAZANDIRMAZ — w-12 dış genişliği
+                      sabitler, dolgu onun içindedir; satırı rahatlatan şey sarma.
+                      sinav-puan (dosya sonundaki style bloğu): yerel artırma oklarını
+                      gizler. Yukarıdaki "metne 48 px kalır" hesabı ANCAK oklar
+                      gizliyken doğru — WebKit ok yığınını kutunun SAĞ kenarına
+                      koyuyor, metin de sağa yaslı, yani oklar tam da rakamların
+                      üstüne biniyordu. RubricEditor'deki kardeş çözümün aynısı.
+                    -->
                     <input
                       type="number"
                       min="1"
-                      class="tnum w-12 border-0 border-b border-gray-300 bg-transparent pb-0.5
-                             text-right leading-6 focus:border-primary-600 focus:outline-none
+                      class="sinav-puan tnum w-12 border-0 border-b border-gray-300 bg-transparent px-0 pb-0.5
+                             text-right text-sm leading-6 focus:border-primary-600 focus:outline-none
                              focus:ring-0 dark:border-gray-600 dark:focus:border-primary-500"
                       value={pointsInExam(q)}
                       disabled={busy}
@@ -469,9 +579,15 @@
                     puan
                   </label>
 
+                  <!--
+                    shrink-0: flex öğesinin varsayılan flex-shrink:1 değeriyle
+                    sütun daraldığında düğme eziliyor, "Çıkar" etiketi iki satıra
+                    kırılıyordu. Eylem sabit genişlikte kalır; esneyen, metin sütunudur.
+                  -->
                   <Button
                     size="xs"
                     color="alternative"
+                    class="shrink-0"
                     disabled={busy}
                     onclick={() => run(() => api.exams.removeQuestion(exam!.id, q.id))}
                   >
@@ -483,7 +599,10 @@
           {/if}
         </section>
 
-        <section class="min-h-0 overflow-auto border-r border-gray-200 dark:border-gray-700">
+        <!-- min-w-0: ızgara öğesinin varsayılan min-width:auto'su onu içeriğinin
+             min-content genişliğinin ALTINA indirmez; uzun bir soru satırı izi
+             şişirip komşu sütunları dışarı iterdi. minmax(0,…) ancak bununla işe yarar. -->
+        <section class="min-h-0 min-w-0 overflow-auto border-r border-gray-200 dark:border-gray-700">
           <h2
             class="sticky top-0 border-b border-gray-200 bg-white px-6 py-2 text-xs font-semibold
                    uppercase tracking-wide text-gray-500 dark:border-gray-700 dark:bg-gray-900
@@ -498,9 +617,18 @@
           {:else}
             <ul class="divide-y divide-gray-200 dark:divide-gray-700">
               {#each available as q (q.id)}
-                <li class="flex items-start gap-2.5 px-6 py-4">
+                <!-- px-6 → px-4: yandaki listeyle aynı gerekçe — kenar boşluğundan
+                     kazanılan 16px önizleme metnine gidiyor, metin kısaltılmıyor. -->
+                <li class="flex items-start gap-2.5 px-4 py-4">
                   <div class="min-w-0 flex-1">
-                    <p class="truncate font-mono text-xs text-gray-700 dark:text-gray-300">
+                    <!-- truncate tek satırı korur. Metin önce preview() ile 70
+                         karakterde, sonra truncate ile satır sonunda kırpıldığından
+                         title KIRPILMAMIŞ fullSource() alır; kırpık bir title,
+                         bankadaki uzun sorunun devamına erişim vermezdi. -->
+                    <p
+                      class="truncate font-mono text-xs text-gray-700 dark:text-gray-300"
+                      title={fullSource(q)}
+                    >
                       {preview(q)}
                     </p>
                     <p class="text-sm text-gray-500 dark:text-gray-400">
@@ -510,9 +638,11 @@
                       {/if}
                     </p>
                   </div>
+                  <!-- shrink-0: dar sütunda düğme ezilip "Ekle" iki satıra kırılıyordu. -->
                   <Button
                     size="xs"
                     color="alternative"
+                    class="shrink-0"
                     disabled={busy}
                     onclick={() => run(() => api.exams.addQuestion(exam!.id, q.id))}
                   >
@@ -524,10 +654,33 @@
           {/if}
         </section>
 
-        <section class="min-h-0">
+        <!-- min-w-0: SheetPreview kâğıdı gerçek piksel genişliğinde (794*zoom) çizer.
+             Bu bölüm min-content altına inemezse o genişlik izi zorlar ve ızgarayı
+             taşırırdı. Kâğıt olduğu gibi kalır, kendi min-h-0 flex-1 overflow-auto
+             kaydırıcısında kayar; küçülen yalnızca bu kap. -->
+        <section class="min-h-0 min-w-0">
           <SheetPreview {pages} stale={compiling} error={previewError} />
         </section>
       </div>
     </div>
   </PageShell>
 {/if}
+
+<style>
+  /*
+    Puan girdisinin artırma oklarını gizler. Girdi w-12 (48 px) ve metni sağa
+    yaslı; WebKit ok yığınını sağ kenara koyduğu için "100" son hanesinin
+    üstüne biniyor, puan okunmaz hâle geliyordu. Değer klavyeden ve
+    yukarı/aşağı tuşlarıyla hâlâ değiştirilebilir, yani erişim kaybı yok.
+    Yalnız bu sınıfa uygulanır: kâğıt ayarlarındaki "Süre" girdisi tam
+    genişlikte, orada oklar rakamı ezmiyor ve kullanışlı kalıyor.
+  */
+  .sinav-puan::-webkit-outer-spin-button,
+  .sinav-puan::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+  }
+  .sinav-puan {
+    appearance: textfield;
+  }
+</style>

@@ -210,11 +210,19 @@
 
       <div class="flex items-stretch border border-gray-300 dark:border-gray-600">
         {#each [["giris", "Sonuç girişi"], ["analiz", "Analiz"]] as [id, label]}
+          <!--
+            Hover rengi kırmızıdan primary'ye alındı. Kırmızı bu üründe yalnız bir
+            DEĞERLENDİRME sinyali: yanlış cevap, eşiğin altı, hata. Sekmenin
+            üzerine gelmek bunların hiçbiri değil — üstelik aynı ekranda gerçek
+            kırmızı ("Eşiğin altında" sayısı) duruyor ve dekoratif kırmızı o
+            uyarının anlamını zayıflatıyordu. Seçili sekme zaten primary-700
+            kullanıyor; hover artık onunla tutarlı. Koyu kip karşılığı da verildi.
+          -->
           <button
             type="button"
             class="border-r border-gray-200 px-2.5 py-[5px] text-[12px] leading-5
-                   transition-colors last:border-r-0 hover:text-red-600 dark:border-gray-700
-                   dark:hover:text-red-400
+                   transition-colors last:border-r-0 hover:text-primary-700 dark:border-gray-700
+                   dark:hover:text-primary-300
                    {sekme === id
                      ? 'bg-primary-50 font-semibold text-primary-700 dark:bg-primary-900/30 dark:text-primary-300'
                      : 'text-gray-500 dark:text-gray-400'}"
@@ -305,16 +313,64 @@
         -->
         <div class="min-h-0 flex-1 overflow-auto">
           <!--
-            Eğri geniş sütunda: dağılımın şekli grafiğin asıl ürünü ve 380 px'lik
-            sütunda tek bir tümsek gibi eziliyordu. Cevap ızgarası soru sayısı
-            kadar yer kaplar, `auto` ile kendi genişliğini alıyor.
+            EĞRİNİN 420px TABANI BİLİNÇLİ BİR KARAR: dağılımın ŞEKLİ grafiğin
+            asıl ürünü ve dar bir sütunda tek bir tümsek gibi eziliyor. Cevap
+            ızgarası ise soru sayısı kadar yer kaplar; ikinci izde kendi
+            genişliğini alıyor.
+
+            Taban bir ara `minmax(0,1fr)` yapılmıştı; bu eğriyi VARSAYILAN
+            pencerede yok ediyordu. Izgara iz boyutlandırmasında `fr` izin
+            büyüme sınırı taban boyutuna eşittir (CSS Grid §12.4), yani
+            "maximize tracks" (§12.6) adımında anında donar: boş yerin tamamı
+            `auto` ize, onun max-content'ine kadar gider, `fr` ize yalnız ARTAN
+            kalır (§12.7). Varsayılan 1280px pencerede izlere kalan yer
+            1280 − 224 (w-56 çekmece) − 1 (kenarlık) − 40 (px-5) − 20 (gap-5)
+            = 995px. AnswerGrid'in max-content'i ise ad sütunu (~180px,
+            whitespace-nowrap) + 20px × soru + % sütunu (~41px) + p-4 ve
+            kenarlık (34px) = 255 + 20 × soru. Eğriye kalan 995 − (255 + 20 ×
+            soru) = 740 − 20 × soru: 17 soruda 420px'in ALTINA düşüyor, 37
+            soruda 0'a iniyor (40 soruda kart 1055px, izlere kalan yerin
+            üstünde). Yani grafik önce eziliyor, orta ölçekli bir sınavda
+            tümüyle kayboluyordu. Ad sütunu bir kestirim (~180px); eşikler o
+            kestirime bağlı, mekanizma değil.
+
+            Taşmanın gerçek nedeni taban DEĞİLDİ, AnswerGrid sarmalayıcısının
+            küçülememesiydi (aşağıdaki min-w-0). O geldikten sonra ikinci izin
+            TABAN boyutu 0'dır ve 420px'lik taban hiçbir yerde taşma üretmez:
+            420 + 20 (gap-5) + 40 (px-5) = 480px, xl'in en dar hâlinde bu satıra
+            kalan 1280 − 225 = 1055px'in çok altında.
+
+            İkinci iz `auto` değil `minmax(0,auto)`: tabanı öğenin min-content'i
+            yerine açıkça 0'a bağlar, böylece karttaki min-w-0 ileride silinse
+            bile eğrinin tabanı sessizce taşmaya dönüşmez.
+
+            xl altında tek sütun: 1024px'lik pencerede yan yana iki kart zaten
+            sığmıyor, orada eğri TAM genişliği alır — aynı kararın dar
+            penceredeki karşılığı.
           -->
           <div
-            class="grid items-start gap-5 px-5 py-2.5"
-            style="grid-template-columns: minmax(420px, 1fr) auto"
+            class="grid grid-cols-1 items-start gap-5 px-5 py-2.5
+                   xl:grid-cols-[minmax(420px,1fr)_minmax(0,auto)]"
           >
-            <ScoreDistribution {percentages} stats={dagilim} threshold={GECME_ESIGI} />
-            <AnswerGrid results={classResults} {students} {questionIds} />
+            <!--
+              Sarmalayıcı şart: ScoreDistribution `class` prop'u almıyor, min-w-0
+              başka türlü verilemiyor. Izgara öğesinin varsayılan min-width:auto'su
+              onu içeriğinin min-content'inin altına indirmez; SVG w-full + viewBox
+              olduğu için kap küçülebilince grafik de sorunsuz küçülür.
+            -->
+            <div class="min-w-0">
+              <ScoreDistribution {percentages} stats={dagilim} threshold={GECME_ESIGI} />
+            </div>
+            <!--
+              Aynı gerekçe: min-w-0 olmadan tablonun min-content genişliği izin
+              TABAN boyutuna geçer ve izi dışarı iterdi. Buradaki min-w-0 ile
+              taşma AnswerGrid'in KENDİ overflow-auto kabına düşer, sayfayı
+              yatay kaydırmaz — eğrinin 420px tabanını taşımaya dönüşmeden
+              ayakta tutan da bu.
+            -->
+            <div class="min-w-0">
+              <AnswerGrid results={classResults} {students} {questionIds} />
+            </div>
           </div>
 
           <div class="px-5 pb-5">

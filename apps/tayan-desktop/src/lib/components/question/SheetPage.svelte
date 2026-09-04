@@ -37,16 +37,26 @@
   vektörlerinden yeniden çizilir ve her ölçekte keskin kalır.
 -->
 <div
-  class="sheet sheet-set"
+  class="sheet bg-white shadow-sm ring-1 ring-gray-300 dark:ring-gray-600"
   style="width: {Math.round(A4_WIDTH_PX * zoom)}px"
   bind:this={host}
 ></div>
 
 <style>
   /*
-    Bu kural SheetPreview'de duruyordu; .sheet buraya taşınınca Svelte onu
-    "hiçbir şeye uymuyor" diye attı ve sayfa doğal boyutunda çizilmeye başladı.
-    Kapsamlı stil, kapsadığı işaretlemeyle aynı dosyada durmak zorunda.
+    KÂĞIT HER TEMADA BEYAZ — `dark:` karşılığı BİLEREK YOK. Basılacak kâğıt
+    beyazdır; koyu kipte de öyle görünmeli, yoksa öğretmen ekranda gördüğüyle
+    elindeki çıktıyı karşılaştıramaz. Yalnız kenar çizgisi temaya uyuyor.
+
+    Zemin bir zamanlar app.css'teki `.sheet` sınıfından geliyordu. Tema
+    Flowbite'a taşınırken o sınıf silindi ama işaretlemedeki adı kaldı: kâğıt
+    sessizce arkasındaki koyu yüzeyi devraldı. Zemin artık kullanıldığı yerde,
+    doğrudan öğenin üstünde duruyor; uzaktaki bir sınıfa bağlı kalırsa aynı
+    sessiz kayıp tekrarlanır.
+
+    Aşağıdaki kural SheetPreview'de duruyordu; .sheet buraya taşınınca Svelte
+    onu "hiçbir şeye uymuyor" diye attı ve sayfa doğal boyutunda çizilmeye
+    başladı. Kapsamlı stil, kapsadığı işaretlemeyle aynı dosyada durmak zorunda.
   */
   .sheet :global(svg) {
     display: block;
