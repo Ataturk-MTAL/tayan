@@ -191,38 +191,38 @@
       </p>
     {/if}
 
-    <dl class="ruled-top mt-quarter grid grid-cols-[auto_1fr] gap-x-half">
-      <dt class="pencil">Mod</dt>
-      <dd class="annot tnum text-right">
-        {stats.mode === null ? "—" : stats.mode.toFixed(0)}
-      </dd>
-      <dt class="pencil">Medyan</dt>
-      <dd class="annot tnum text-right">{stats.median.toFixed(1)}</dd>
-      <dt class="pencil">Ortalama</dt>
-      <dd class="annot tnum text-right">{stats.mean.toFixed(1)}</dd>
-      <dt class="pencil">Standart sapma</dt>
-      <dd class="annot tnum text-right">{stats.sd.toFixed(1)}</dd>
-      <dt class="pencil">Çarpıklık</dt>
-      <dd class="annot tnum text-right">
-        {stats.skewness === null ? "—" : stats.skewness.toFixed(2)}
-      </dd>
+    <!--
+      ÖLÇÜLER YATAY. Dikey liste dar bir sütun izlenimi veriyor ve grafiğin
+      altına uzun bir metin kuyruğu ekliyordu; beş sayı yan yana tek bakışta
+      okunuyor ve mod/medyan/ortalama sırası da böyle görünüyor.
+    -->
+    <dl class="ruled-top mt-quarter flex flex-wrap gap-x-rule gap-y-quarter pt-quarter">
+      {#each [["Mod", stats.mode === null ? "—" : stats.mode.toFixed(0)], ["Medyan", stats.median.toFixed(1)], ["Ortalama", stats.mean.toFixed(1)], ["Std. sapma", stats.sd.toFixed(1)], ["Çarpıklık", stats.skewness === null ? "—" : stats.skewness.toFixed(2)]] as [ad, deger] (ad)}
+        <div>
+          <dt class="pencil">{ad}</dt>
+          <dd class="tnum text-[15px] leading-rule">{deger}</dd>
+        </div>
+      {/each}
     </dl>
 
-    <p class="annot mt-quarter">{skewLabel(stats.skewness)}</p>
+    <p class="annot mt-quarter text-red-deep">{skewLabel(stats.skewness)}</p>
 
-    {#if stats.mode === null}
-      <p class="pencil mt-quarter">
-        Tepe noktası yok: öğrenciler ayrı ayrı aralıklara düşmüş, hiçbir puan
-        aralığında yığılma oluşmamış.
-      </p>
-    {/if}
-
-    {#if stats.n < MIN_CARPIKLIK_N}
-      <p class="pencil mt-quarter">
-        Çarpıklık {stats.n} öğrenciyle oynak: tek bir çok düşük ya da çok
-        yüksek not katsayıyı savurur. {MIN_CARPIKLIK_N} kişiden itibaren
-        yorumlanabilir hâle gelir.
-      </p>
+    <!--
+      Uyarılar tek satıra indi. Paragraf paragraf açıklama, dashboard'da
+      okunmuyor ve yerleşimi bozuyor; sebep kısa, ayrıntı yardım sayfasında.
+    -->
+    {#if stats.mode === null || stats.n < MIN_CARPIKLIK_N}
+      <ul class="pencil mt-quarter">
+        {#if stats.mode === null}
+          <li>Tepe noktası yok — hiçbir puan aralığında yığılma oluşmamış.</li>
+        {/if}
+        {#if stats.n < MIN_CARPIKLIK_N}
+          <li>
+            Çarpıklık {stats.n} öğrenciyle oynak; {MIN_CARPIKLIK_N} kişiden
+            itibaren yorumlanabilir.
+          </li>
+        {/if}
+      </ul>
     {/if}
   {/if}
 </figure>

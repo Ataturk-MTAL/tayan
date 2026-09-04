@@ -280,13 +280,27 @@
         </button>
       </div>
 
-      <div class="grid gap-rule px-rule py-half" style="grid-template-columns: minmax(280px, 380px) 1fr">
-        <ScoreDistribution {percentages} stats={dagilim} threshold={GECME_ESIGI} />
-        <AnswerGrid results={classResults} {students} {questionIds} />
-      </div>
+      <!--
+        KAYDIRMA BURADA. Belge kaydırması ana menüyü de yukarı taşıyordu;
+        pencere sabit kalmalı, yalnız bu bölge kaymalı.
+      -->
+      <div class="min-h-0 flex-1 overflow-auto">
+        <!--
+          Eğri geniş sütunda: dağılımın şekli grafiğin asıl ürünü ve 380 px'lik
+          sütunda tek bir tümsek gibi eziliyordu. Cevap ızgarası soru sayısı
+          kadar yer kaplar, `auto` ile kendi genişliğini alıyor.
+        -->
+        <div
+          class="grid items-start gap-rule px-rule py-half"
+          style="grid-template-columns: minmax(420px, 1fr) auto"
+        >
+          <ScoreDistribution {percentages} stats={dagilim} threshold={GECME_ESIGI} />
+          <AnswerGrid results={classResults} {students} {questionIds} />
+        </div>
 
-      <div class="px-rule pb-rule">
-        <ItemAnalysis items={maddeler} {bank} studentCount={classResults.length} />
+        <div class="px-rule pb-rule">
+          <ItemAnalysis items={maddeler} {bank} studentCount={classResults.length} />
+        </div>
       </div>
     {/if}
   </div>

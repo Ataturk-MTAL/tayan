@@ -78,6 +78,19 @@
     color-scheme: light;
   }
 
+  /*
+    UYGULAMA KABUĞU, BELGE DEĞİL.
+    Belge kaydırması ana menüyü de yukarı taşıyordu; üstelik içerik uzayınca
+    kâğıt ızgarası sayfanın altına doğru uzayıp içerik bitince boş kareler
+    bırakıyordu. Pencere sabit kalır, kaydırma yalnız içerik bölgesinin
+    İÇİNDE olur.
+  */
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+
   body {
     margin: 0;
     background-color: var(--color-paper);
