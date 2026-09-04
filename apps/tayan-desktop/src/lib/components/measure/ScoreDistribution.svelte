@@ -1,27 +1,22 @@
 <script lang="ts">
   /**
-   * Puan dağılımı — ölçme-değerlendirmenin standart görünümü.
+   * Puan dağılımı — ölçme-değerlendirme kitaplarındaki çan eğrisi.
    *
-   * FREKANS DİKEY, PUAN YATAY. Öğretmen bu grafiği kendi alanının diliyle
-   * okuyor: mod, medyan ve ortalamanın birbirine göre yeri sınıfın durumunu
-   * söylüyor. Mod > Medyan > Ortalama sola çarpıktır ve sınıf başarılıdır;
-   * ters sıra sınıfın zorlandığını gösterir.
+   * FREKANS DİKEY, PUAN YATAY. Öğretmen mod, medyan ve ortalamanın birbirine
+   * göre yerinden sınıfın durumunu okuyor: mod > medyan > ortalama sola
+   * çarpıktır ve sınıf başarılıdır, ters sıra sınıfın zorlandığını gösterir.
    *
-   * D3 YALNIZ HESAP İÇİN. Çizimi Svelte yapıyor; D3'ten yalnız DOM'a
-   * dokunmayan ölçek ve tik hesapları alınıyor. D3'ün kendi belgesi de bunu
-   * söylüyor: "you can use Svelte exclusively for rendering if you like, and
-   * only use D3 modules that don't manipulate the DOM." İkisinin aynı düğümü
-   * yönetmesi, bu oturumda çift imleç sorununu yaratan hatanın aynısı olurdu.
+   * ÇUBUK DEĞİL EĞRİ. Histogram aralık sınırına duyarlı: sınır bir puan kaysa
+   * şekil değişiyor. Altı öğrencide her aralığa bir kişi düşüyor ve grafik
+   * veriyi değil aralık genişliğini gösteriyordu — hiçbir şey anlaşılmıyordu.
+   * Eğri (çekirdek yoğunluk kestirimi) bunu yapmaz: her puan kendi etrafına
+   * bir tümsek koyar, tümsekler toplanır, dağılımın şekli görünür.
    *
-   * ÇUBUKLARIN ALTINDA HAM NOKTALAR VAR. Binleme küçük sınıfta yanıltır:
-   * altı öğrencide her aralığa bir kişi düşer ve grafik veriyi değil aralık
-   * genişliğini gösterir. Nokta şeridi her öğrenciyi kendi puanında gösterir;
-   * iki görünüm birbirinin yerine değil, birbirinin denetimi.
+   * D3 YALNIZ HESAP İÇİN: ölçekler ve eğri üreteci. Çizimi Svelte yapıyor;
+   * D3'ün kendi belgesinin önerdiği ayrım bu.
    */
-  // `d3` demetinden içe aktarılıyor; d3-scale ayrı bir paket olarak kurulu
-  // değil. Vite yalnız kullanılan parçaları paketliyor.
-  import { scaleLinear } from "d3";
-  import { BIN_WIDTH, histogram, skewLabel, type Spread } from "$lib/analysis/item-stats";
+  import { area, curveBasis, line, scaleLinear } from "d3";
+  import { BIN_WIDTH, densityCurve, skewLabel, type Spread } from "$lib/analysis/item-stats";
 
   type Props = {
     /** Öğrenci başına yüzde. */
@@ -36,39 +31,47 @@
   /** Çarpıklığın güvenilir okunabildiği en küçük sınıf. */
   const MIN_CARPIKLIK_N = 15;
 
-  // Görünüm kutusu birimleri. SVG ölçeklenebilir olduğu için piksel değil
-  // kendi birimimizle çiziyoruz; panel daralınca grafik de daralıyor.
   const W = 320;
-  const H = 130;
-  const SERIT = 18;
+  const H = 140;
+  const SERIT = 20;
   const SOL = 22;
   const ALT = 14;
 
-  let bins = $derived(histogram(percentages));
-  let enYuksek = $derived(Math.max(1, ...bins.map((b) => b.count)));
-
-  // Tip parametreleri şart: ticks() aksi hâlde unknown döndürüyor ve
-  // eksen etiketleri yazılamıyor.
-  let x = $derived(scaleLinear<number, number>().domain([0, 100]).range([SOL, W]));
-  let y = $derived(scaleLinear<number, number>().domain([0, enYuksek]).range([H - ALT, 0]));
+  let egri = $derived(densityCurve(percentages, BIN_WIDTH));
 
   /**
-   * Frekans tikleri TAM SAYI olmalı — "2.5 öğrenci" diye bir şey yok.
-   * d3'ün ticks() önerisini tam sayıya süzüyoruz.
+   * Dikey eksenin tepesi. Eğrinin tepesiyle kutunun tavanı arasında bir tutam
+   * boşluk bırakılıyor; eğri tavana yapışırsa tepenin nerede olduğu görünmez.
    */
-  let yTikler = $derived(
-    Array.from(new Set(y.ticks(Math.min(enYuksek, 4)).map(Math.round))).filter(
-      (t) => t <= enYuksek,
-    ),
-  );
+  let tavan = $derived(Math.max(1, ...egri.map((p) => p.y)) * 1.15);
 
+  let x = $derived(scaleLinear<number, number>().domain([0, 100]).range([SOL, W]));
+  let y = $derived(scaleLinear<number, number>().domain([0, tavan]).range([H - ALT, 0]));
+
+  /** Frekans ekseni TAM SAYI: "2.5 öğrenci" diye bir şey yok. */
+  let yTikler = $derived(
+    Array.from(new Set(y.ticks(3).map(Math.round))).filter((t) => t <= tavan),
+  );
   let xTikler = $derived(x.ticks(5));
 
-  /** Mod/medyan/ortalama çizgileri. Etiketler farklı yükseklikte: çakışsalar
-   *  bile hangisinin nerede olduğu okunabilmeli. */
+  let cizgi = $derived(
+    line<{ x: number; y: number }>()
+      .x((p) => x(p.x))
+      .y((p) => y(p.y))
+      .curve(curveBasis),
+  );
+
+  let alan = $derived(
+    area<{ x: number; y: number }>()
+      .x((p) => x(p.x))
+      .y0(y(0))
+      .y1((p) => y(p.y))
+      .curve(curveBasis),
+  );
+
   /**
-   * Mod null olabilir: tepe noktası yoksa çizgi de çizilmez. Olmayan bir
-   * tepeyi grafiğe koymak, öğretmenin dağılımı yanlış okumasına yol açardı.
+   * Mod null olabilir: tepe noktası yoksa çizgisi de çizilmez. Olmayan bir
+   * tepeyi grafiğe koymak dağılımın yanlış okunmasına yol açardı.
    */
   let isaretler = $derived(
     stats === null
@@ -79,6 +82,10 @@
           { ad: "Ort", deger: stats.mean, dy: 38 },
         ],
   );
+
+  function kirp(v: number): number {
+    return Math.min(Math.max(v, 0), 100);
+  }
 </script>
 
 <figure class="m-0">
@@ -91,17 +98,10 @@
       class="mt-half w-full"
       viewBox="0 0 {W} {H + SERIT}"
       role="img"
-      aria-label="Puan dağılımı: yatay eksen puan, dikey eksen frekans"
+      aria-label="Puan dağılım eğrisi: yatay eksen puan, dikey eksen frekans"
     >
-      <!-- Eksenler. Recessive: veriyi değil çerçeveyi çiziyorlar. -->
       <line x1={SOL} y1={0} x2={SOL} y2={H - ALT} stroke="var(--color-rule-strong)" />
-      <line
-        x1={SOL}
-        y1={H - ALT}
-        x2={W}
-        y2={H - ALT}
-        stroke="var(--color-rule-strong)"
-      />
+      <line x1={SOL} y1={H - ALT} x2={W} y2={H - ALT} stroke="var(--color-rule-strong)" />
 
       {#each yTikler as t (t)}
         <text
@@ -115,27 +115,15 @@
         </text>
       {/each}
 
-      <!-- Çubuklar. Aralarında kâğıt boşluğu var; bitişik çubuklar tek parça
-           gibi okunur ve öğretmen frekansı yanlış sayar. -->
-      {#each bins as b (b.from)}
-        {#if b.count > 0}
-          <rect
-            x={x(b.from) + 1}
-            y={y(b.count)}
-            width={Math.max(x(b.to) - x(b.from) - 2, 1)}
-            height={y(0) - y(b.count)}
-            class="fill-ink"
-          >
-            <title>{b.from}–{b.to} puan: {b.count} öğrenci</title>
-          </rect>
-        {/if}
-      {/each}
+      {#if egri.length > 0}
+        <path d={alan(egri) ?? ""} class="fill-ink" opacity="0.14" />
+        <path d={cizgi(egri) ?? ""} fill="none" class="stroke-ink" stroke-width="1.6" />
+      {/if}
 
-      <!-- Geçme eşiği. -->
       <line
-        x1={x(threshold)}
+        x1={x(kirp(threshold))}
         y1={0}
-        x2={x(threshold)}
+        x2={x(kirp(threshold))}
         y2={H - ALT}
         stroke="var(--color-red)"
         stroke-dasharray="3 3"
@@ -145,16 +133,16 @@
 
       {#each isaretler as m (m.ad)}
         <line
-          x1={x(m.deger)}
+          x1={x(kirp(m.deger))}
           y1={0}
-          x2={x(m.deger)}
+          x2={x(kirp(m.deger))}
           y2={H - ALT}
           stroke="var(--color-red-deep)"
         >
           <title>{m.ad}: %{m.deger.toFixed(1)}</title>
         </line>
         <text
-          x={x(m.deger) + 3}
+          x={x(kirp(m.deger)) + 3}
           y={m.dy}
           class="fill-red-deep"
           style="font-size: 8px"
@@ -163,11 +151,14 @@
         </text>
       {/each}
 
-      <!-- Ham puanlar: her öğrenci bir nokta, binleme yok. -->
+      <!--
+        Ham puanlar. Eğri bir KESTİRİM; noktalar gerçeğin kendisi. İkisi aynı
+        eksende yan yana durunca eğrinin nerede yumuşattığı da görünüyor.
+      -->
       {#each percentages as p, i (i)}
         <circle
-          cx={x(Math.min(Math.max(p, 0), 100))}
-          cy={H - ALT + 8}
+          cx={x(kirp(p))}
+          cy={H - ALT + 9}
           r="2.5"
           class={p >= threshold ? "fill-ink" : "fill-red"}
         >
@@ -175,11 +166,6 @@
         </circle>
       {/each}
 
-      <!--
-        SON ETİKET KIRPILMASIN. 100, eksenin tam ucunda duruyor ve ortalanmış
-        hâlde yarısı görünüm kutusunun dışına taşıyordu: ekranda "10" yazıyordu
-        ve öğretmen ekseni 0-10 sanabilirdi. Uçtaki etiketler içeri yaslanıyor.
-      -->
       {#each xTikler as t (t)}
         <text
           x={x(t)}
@@ -193,11 +179,17 @@
       {/each}
     </svg>
 
-    <p class="pencil mt-quarter">
-      Yatay: puan · Dikey: frekans ({BIN_WIDTH} puanlık aralıklar). Kesikli
-      çizgi geçme eşiği; koyu çizgiler mod, medyan ve ortalama. Alttaki
-      noktalar tek tek öğrenciler.
-    </p>
+    {#if egri.length === 0}
+      <p class="pencil mt-quarter">
+        Eğri çizilmedi: {stats.n} öğrenciyle ya da herkes aynı puanı aldığında
+        dağılımın şekli hesaplanamıyor. Alttaki noktalar ham puanları gösteriyor.
+      </p>
+    {:else}
+      <p class="pencil mt-quarter">
+        Yatay: puan · Dikey: frekans. Kesikli çizgi geçme eşiği; koyu çizgiler
+        mod, medyan ve ortalama. Alttaki noktalar tek tek öğrenciler.
+      </p>
+    {/if}
 
     <dl class="ruled-top mt-quarter grid grid-cols-[auto_1fr] gap-x-half">
       <dt class="pencil">Mod</dt>
@@ -221,8 +213,7 @@
     {#if stats.mode === null}
       <p class="pencil mt-quarter">
         Tepe noktası yok: öğrenciler ayrı ayrı aralıklara düşmüş, hiçbir puan
-        aralığında yığılma oluşmamış. Beraberlikte bir aralık seçmek, en düşük
-        puanı mod diye göstermek olurdu.
+        aralığında yığılma oluşmamış.
       </p>
     {/if}
 

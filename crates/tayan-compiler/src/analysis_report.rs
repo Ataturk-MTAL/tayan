@@ -60,6 +60,13 @@ pub struct AnalysisReport {
     /// Frekans dağılımı: her aralıktaki öğrenci sayısı, 0'dan 100'e.
     pub bins: Vec<u32>,
     pub bin_width: u32,
+    /// Dağılım eğrisi: (puan, frekans) noktaları.
+    ///
+    /// EKRANDA HESAPLANIR. Çekirdek yoğunluk kestirimini burada bir daha
+    /// yazmak, kâğıtla ekranın farklı eğri çizmesi demekti. Boş dizi = eğri
+    /// çizilemiyor (üçten az öğrenci ya da herkes aynı puanı almış).
+    #[serde(default)]
+    pub curve: Vec<(f32, f32)>,
     pub min: f32,
     pub max: f32,
     pub q1: f32,
@@ -129,24 +136,38 @@ fn yayilim_grafigi(r: &AnalysisReport) -> String {
     const NOKTA_PT: f32 = 3.0;
 
     let x = |p: f32| GENISLIK_CM * (clamp_pct(p) / 100.0);
-    let en_yuksek = r.bins.iter().copied().max().unwrap_or(1).max(1) as f32;
-    let aralik_sayisi = r.bins.len().max(1) as f32;
-    let cubuk_w = GENISLIK_CM / aralik_sayisi;
+
+    // Dikey eksenin tepesi eğriden geliyor; eğri yoksa çubuklardan.
+    let tepe = r
+        .curve
+        .iter()
+        .map(|(_, y)| *y)
+        .fold(0.0f32, f32::max)
+        .max(r.bins.iter().copied().max().unwrap_or(1) as f32)
+        .max(1.0)
+        * 1.15;
+
+    let y = |v: f32| YUKSEKLIK_CM - YUKSEKLIK_CM * (v / tepe).clamp(0.0, 1.0);
 
     let mut govde = String::new();
 
-    // Çubuklar. Aralarında ince kâğıt boşluğu var; bitişik çubuklar tek parça
-    // gibi okunur ve öğretmen frekansı yanlış sayar.
-    for (i, say) in r.bins.iter().enumerate() {
-        if *say == 0 {
-            continue;
+    // DAĞILIM EĞRİSİ. Çubuk yerine eğri: histogram aralık sınırına duyarlı,
+    // sınır bir puan kaysa şekil değişiyor ve küçük sınıfta her aralığa bir
+    // kişi düşüp grafik veriyi değil aralık genişliğini gösteriyordu.
+    //
+    // polygon çekirdek Typst; paket gerekmiyor. Nokta sıklığı yeterli olduğu
+    // için düz parçalar gözle eğri görünüyor.
+    if r.curve.len() >= 2 {
+        let mut kose: Vec<String> = Vec::with_capacity(r.curve.len() + 2);
+        kose.push(format!("({:.3}cm, {:.3}cm)", x(0.0), y(0.0)));
+        for (px, py) in &r.curve {
+            kose.push(format!("({:.3}cm, {:.3}cm)", x(*px), y(*py)));
         }
-        let h = YUKSEKLIK_CM * (*say as f32 / en_yuksek);
+        kose.push(format!("({:.3}cm, {:.3}cm)", x(100.0), y(0.0)));
+
         govde.push_str(&format!(
-            "  #place(dx: {dx:.3}cm, dy: {dy:.3}cm, rect(width: {w:.3}cm, height: {h:.3}cm, stroke: none, fill: rgb(\"#16233f\")))\n",
-            dx = i as f32 * cubuk_w + 0.03,
-            dy = YUKSEKLIK_CM - h,
-            w = cubuk_w - 0.06,
+            "  #place(dx: 0cm, dy: 0cm, polygon(fill: rgb(\"#16233f\").transparentize(86%), stroke: 1pt + rgb(\"#16233f\"), {}))\n",
+            kose.join(", "),
         ));
     }
 
@@ -390,6 +411,13 @@ mod tests {
             skew_label: "Simetrik — puanlar ortada toplanmış".into(),
             bins: vec![0, 1, 0, 1, 0, 1, 1, 1, 0, 1],
             bin_width: 10,
+            curve: (0..=50)
+                .map(|i| {
+                    let x = i as f32 * 2.0;
+                    let z = (x - 55.0) / 25.0;
+                    (x, 2.0 * (-0.5 * z * z).exp())
+                })
+                .collect(),
             min: 15.0,
             max: 90.0,
             q1: 30.0,
@@ -431,6 +459,24 @@ mod tests {
     #[test]
     fn rapor_derlenir() {
         assert!(derlenir(&ornek()).expect("rapor derlenmeli") >= 1);
+    }
+
+    #[test]
+    fn dagilim_egrisi_derlenir() {
+        // Eğri polygon ile çiziliyor; nokta sayısı yüksek ve koordinatlar
+        // hesaplanmış. Kaynağın üretilmesi yetmez, Typst'in dizebildiği
+        // görülmeli.
+        let r = ornek();
+        assert!(r.curve.len() > 10, "örnek eğri yeterince nokta taşımalı");
+        derlenir(&r).expect("eğrili rapor derlenmeli");
+    }
+
+    #[test]
+    fn egrisiz_rapor_da_derlenir() {
+        // Üçten az öğrencide eğri hesaplanamıyor; kâğıt yine basılmalı.
+        let mut r = ornek();
+        r.curve = vec![];
+        derlenir(&r).expect("eğrisiz rapor derlenmeli");
     }
 
     #[test]

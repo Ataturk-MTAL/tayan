@@ -204,6 +204,55 @@ export function histogram(values: number[], width = BIN_WIDTH): Bin[] {
   return bins;
 }
 
+export type CurvePoint = { x: number; y: number };
+
+/**
+ * Dağılım eğrisi — ölçme-değerlendirme kitaplarındaki çan.
+ *
+ * Çekirdek yoğunluk kestirimi (Gauss çekirdeği). Histogram aralık sınırına
+ * duyarlıdır: sınır bir puan kaysa şekil değişir. Eğri bunu yapmaz — her puan
+ * kendi etrafına bir tümsek koyar, tümsekler toplanır.
+ *
+ * Y EKSENİ FREKANS KALIR. Ham yoğunluk 0-1 arası soyut bir sayıdır ve
+ * öğretmene bir şey söylemez; `n × aralık genişliği` ile çarpılıp "bu
+ * genişlikte beklenen öğrenci sayısı"na çevriliyor. Böylece eğri, altındaki
+ * nokta şeridiyle aynı ölçekte okunuyor.
+ *
+ * Bant genişliği Silverman kuralı: h = 1.06 · s · n^(-1/5). Elle bir sayı
+ * seçmek, eğrinin şeklini veriye değil o seçime bağlardı.
+ *
+ * n < 3 ya da sapma sıfırsa boş dizi: iki noktadan çan çizmek veriyi değil
+ * çekirdek genişliğini göstermek olur.
+ */
+export function densityCurve(
+  values: number[],
+  binWidth = BIN_WIDTH,
+  step = 2,
+): CurvePoint[] {
+  const n = values.length;
+  if (n < 3) return [];
+
+  const mean = values.reduce((a, b) => a + b, 0) / n;
+  const sd = Math.sqrt(
+    values.reduce((acc, v) => acc + (v - mean) ** 2, 0) / (n - 1),
+  );
+  if (sd === 0) return [];
+
+  const h = 1.06 * sd * Math.pow(n, -1 / 5);
+  const olcek = (n * binWidth) / (h * Math.sqrt(2 * Math.PI));
+
+  const noktalar: CurvePoint[] = [];
+  for (let x = 0; x <= 100; x += step) {
+    let toplam = 0;
+    for (const v of values) {
+      const z = (x - v) / h;
+      toplam += Math.exp(-0.5 * z * z);
+    }
+    noktalar.push({ x, y: (toplam / n) * olcek });
+  }
+  return noktalar;
+}
+
 /**
  * Çarpıklığın sözle karşılığı.
  *

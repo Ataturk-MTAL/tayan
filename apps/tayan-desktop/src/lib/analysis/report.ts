@@ -1,6 +1,7 @@
 import type { Exam, ExamResult, Question, Student } from "$lib/types";
 import {
   BIN_WIDTH,
+  densityCurve,
   histogram,
   needsReview,
   skewLabel,
@@ -57,6 +58,13 @@ export type AnalysisReport = {
   /** Frekans dağılımı: her aralıktaki öğrenci sayısı. */
   bins: number[];
   bin_width: number;
+  /**
+   * Dağılım eğrisi: [puan, frekans] noktaları.
+   *
+   * BURADA hesaplanıp kâğıda olduğu gibi gidiyor. Rust'ta ikinci bir kestirim,
+   * ekranla kâğıdın farklı eğri çizmesi demekti.
+   */
+  curve: [number, number][];
   min: number;
   max: number;
   q1: number;
@@ -117,6 +125,9 @@ export function buildReport(args: {
     skew_label: skewLabel(dagilim.skewness),
     bins: histogram(satirlar.map((s) => s.percentage)).map((b) => b.count),
     bin_width: BIN_WIDTH,
+    curve: densityCurve(satirlar.map((s) => s.percentage), BIN_WIDTH).map(
+      (p) => [p.x, p.y] as [number, number],
+    ),
     min: dagilim.min,
     max: dagilim.max,
     q1: dagilim.q1,
