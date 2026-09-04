@@ -10,6 +10,8 @@
    * olmadığında kaydetme Rust'ta reddediliyordu ama öğretmen sebebi görmüyordu;
    * fark burada, girerken, canlı gösteriliyor.
    */
+  import { Badge, Button } from "flowbite-svelte";
+  import { PlusOutline, TrashBinOutline } from "flowbite-svelte-icons";
   import type { RubricItem } from "$lib/types";
   import TypstField from "./TypstField.svelte";
 
@@ -56,31 +58,33 @@
   }
 </script>
 
-<div class="border-t border-rule pt-half">
+<div class="border-t border-gray-200 pt-3 dark:border-gray-700">
   <div class="flex items-baseline justify-between">
-    <h3 class="stamp">Puanlama ölçütleri</h3>
-    <span class="pencil tnum" class:text-red-deep={hata !== null}>
-      {toplam} / {points}
-    </span>
+    <h3 class="text-[11px] font-semibold tracking-wide text-gray-500 uppercase dark:text-gray-400">
+      Puanlama ölçütleri
+    </h3>
+    <Badge color={hata !== null ? "red" : "gray"} class="tnum">{toplam} / {points}</Badge>
   </div>
 
   {#if rubric.length === 0}
-    <p class="pencil mt-quarter">
+    <p class="mt-1 text-xs text-gray-500 dark:text-gray-400">
       Ölçüt yok. Cevap anahtarına yalnız örnek çözüm basılır, puanlama tablosu
       basılmaz.
     </p>
   {/if}
 
-  <ol class="mt-quarter">
+  <ol class="mt-1">
     {#each rubric as item, i (i)}
       <!--
         TEK ÇİZGİ, ÜÇ ALAN. Ölçüt, puan ve sil düğmesi aynı çizginin üstünde
         durur; her alan kendi çizgisini çizince satır kırık görünüyordu.
-        Çizgi satırın kendisinde, odak da satırın tamamını kırmızıya çeviriyor.
+        Çizgi satırın kendisinde, odak da satırın tamamını vurguluyor —
+        kırmızı değil, bu yalnızca "aktif satır" göstergesi, bir hata değil.
       -->
       <li
-        class="grid grid-cols-[1fr_2.75rem_1.25rem] items-end gap-x-half border-b
-               border-rule-strong py-[3px] focus-within:border-red"
+        class="grid grid-cols-[1fr_2.75rem_1.5rem] items-end gap-x-2 border-b
+               border-gray-200 py-1 focus-within:border-primary-500
+               dark:border-gray-700 dark:focus-within:border-primary-400"
       >
         <TypstField
           value={item.criterion}
@@ -90,8 +94,8 @@
           onchange={(v) => guncelle(i, { criterion: v })}
         />
         <input
-          class="olcut-puan tnum w-full border-0 bg-transparent text-right leading-rule
-                 focus:outline-none"
+          class="olcut-puan tnum w-full border-0 bg-transparent text-right text-sm
+                 text-gray-900 focus:outline-none dark:text-white"
           type="number"
           min="0"
           max={points}
@@ -101,28 +105,24 @@
         />
         <button
           type="button"
-          class="stamp leading-rule text-ink-mid transition-colors hover:text-red-deep"
+          class="flex items-center justify-center text-gray-400 transition-colors
+                 hover:text-red-600 dark:text-gray-500 dark:hover:text-red-400"
           aria-label="Ölçütü sil"
           title="Ölçütü sil"
           onclick={() => sil(i)}
         >
-          ×
+          <TrashBinOutline class="h-3.5 w-3.5" />
         </button>
       </li>
     {/each}
   </ol>
 
-  <button
-    type="button"
-    class="stamp mt-half border border-rule px-half py-[2px] leading-rule text-ink-mid
-           transition-colors hover:border-red hover:text-red-deep"
-    onclick={ekle}
-  >
-    + Ölçüt ekle
-  </button>
+  <Button size="xs" color="light" class="mt-2" onclick={ekle}>
+    <PlusOutline class="me-1 h-3.5 w-3.5" /> Ölçüt ekle
+  </Button>
 
   {#if hata}
-    <p class="annot mt-quarter text-red-deep">{hata}</p>
+    <p class="mt-1 text-xs text-red-600 dark:text-red-400">{hata}</p>
   {/if}
 </div>
 

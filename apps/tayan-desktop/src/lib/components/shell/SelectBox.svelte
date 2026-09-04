@@ -11,11 +11,17 @@
    *    dersleri ÖNERİR ama listede olmayanı da yazdırır — meslek liselerinde
    *    her okulun kendi dersi olabilir, kapalı liste onları dışarıda bırakırdı.
    *
-   * 2. Yerel `<select>` macOS'ta kendi çerçevesini ve okunu çiziyor; Kırmızı
-   *    Kalem'in cetvelli, köşesiz diline uymuyordu.
+   * 2. Yerel `<select>` macOS'ta kendi çerçevesini ve okunu çiziyor; ne eski
+   *    Kırmızı Kalem'in cetvelli diline ne de şimdiki Flowbite girdi
+   *    diline (kenarlık, yuvarlak köşe, odak halkası) uyuyordu.
    *
    * `allowCustom: false` verilirse kapalı liste gibi davranır: yazılan metin
    * yalnız süzme yapar, değer olarak kaydedilmez.
+   *
+   * GÖRÜNÜM KENDİ SINIFLARINDA (RuledField'e bağımlı DEĞİL): önceki sürüm
+   * stilini sarmalayan RuledField'in `:global()` seçicisinden alıyordu.
+   * Burası artık Flowbite'ın `Input` temasındaki `md` boyutunu birebir
+   * taşıyor — RuledField dışında kullanılsa bile görünüm bozulmaz.
    */
   type Option = { value: string; label: string };
 
@@ -142,11 +148,24 @@
     onmousedown={() => {
       if (!allowCustom) openList();
     }}
+    class="block w-full rounded-lg border bg-gray-50 px-2.5 py-2.5 pr-8 text-sm text-gray-900
+           placeholder-gray-400 focus:outline-none focus:ring-1 dark:bg-gray-700 dark:text-white
+           dark:placeholder-gray-400"
+    class:cursor-pointer={!allowCustom}
+    class:border-gray-300={!invalid}
+    class:dark:border-gray-600={!invalid}
+    class:focus:border-primary-500={!invalid}
+    class:focus:ring-primary-500={!invalid}
+    class:border-red-500={invalid}
+    class:dark:border-red-500={invalid}
+    class:focus:border-red-500={invalid}
+    class:focus:ring-red-500={invalid}
   />
 
   <button
     type="button"
-    class="chevron"
+    class="absolute inset-y-0 right-0 flex w-8 items-center justify-center text-gray-400
+           transition-colors hover:text-primary-600 dark:text-gray-500 dark:hover:text-primary-400"
     tabindex="-1"
     aria-label={open ? "Listeyi kapat" : "Listeyi aç"}
     onclick={() => {
@@ -162,17 +181,25 @@
   </button>
 
   {#if open}
-    <ul {id} role="listbox" class="panel">
+    <ul
+      {id}
+      role="listbox"
+      class="absolute inset-x-0 top-full z-20 mt-1 max-h-60 overflow-y-auto rounded-lg border
+             border-gray-200 bg-white py-1 shadow-lg dark:border-gray-600 dark:bg-gray-700"
+    >
       {#if filtered.length === 0}
-        <li class="pencil px-half py-quarter text-[12px]">Eşleşme yok</li>
+        <li class="px-2.5 py-1.5 text-xs text-gray-400 dark:text-gray-500">Eşleşme yok</li>
       {:else}
         {#each filtered as option, i (option.value)}
           <!-- svelte-ignore a11y_click_events_have_key_events -->
           <li
             role="option"
             aria-selected={option.value === value}
-            class="row"
-            class:is-active={i === active}
+            class="cursor-pointer px-2.5 py-1.5 text-sm text-gray-900 dark:text-gray-50"
+            class:bg-primary-50={i === active}
+            class:text-primary-700={i === active}
+            class:dark:bg-gray-600={i === active}
+            class:dark:text-white={i === active}
             onpointerenter={() => (active = i)}
             onpointerdown={(e) => {
               // preventDefault: girdinin odağı kaybetmesini engeller, yoksa
@@ -188,51 +215,3 @@
     </ul>
   {/if}
 </div>
-
-<style>
-  /*
-    Girdinin kendi stilini RuledField veriyor (alt çizgi, saydam zemin).
-    Burada yalnız açılan liste biçimlendiriliyor: köşesiz, cetvelli kâğıt.
-  */
-  .chevron {
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 0 2px;
-    font-size: 11px;
-    line-height: 20px;
-    color: var(--color-pencil);
-    background: transparent;
-  }
-  .chevron:hover {
-    color: var(--color-red-deep);
-  }
-
-  .panel {
-    position: absolute;
-    z-index: 20;
-    top: 100%;
-    left: 0;
-    right: 0;
-    max-height: 220px;
-    overflow-y: auto;
-    margin-top: 2px;
-    border: 1px solid var(--color-rule-strong);
-    background: var(--color-paper-lift);
-    box-shadow:
-      0 1px 2px rgba(22, 35, 63, 0.08),
-      0 4px 12px rgba(22, 35, 63, 0.1);
-  }
-
-  .row {
-    padding: 3px 10px;
-    font-size: 13px;
-    line-height: 20px;
-    cursor: pointer;
-    color: var(--color-ink);
-  }
-  .row.is-active {
-    background: var(--color-paper-sunk);
-    color: var(--color-red-deep);
-  }
-</style>

@@ -57,64 +57,93 @@
   );
 </script>
 
-<figure class="m-0">
-  <figcaption class="stamp">Soru × öğrenci</figcaption>
+<figure
+  class="m-0 rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800"
+>
+  <figcaption class="text-[11px] font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">
+    Soru × öğrenci
+  </figcaption>
 
-  <div class="mt-half flex flex-wrap items-center gap-rule">
-    <span class="pencil"><span class="text-ink">✓</span> doğru</span>
-    <span class="pencil"><span class="text-red">✗</span> yanlış</span>
-    <span class="pencil"><span class="text-red">⁄</span> kısmi</span>
-    <span class="pencil">boş: cevaplanmadı</span>
+  <div class="mt-2.5 flex flex-wrap items-center gap-5 text-[12px] leading-5 text-gray-500 dark:text-gray-400">
+    <span><span class="text-gray-800 dark:text-gray-200">✓</span> doğru</span>
+    <span><span class="text-red-600 dark:text-red-400">✗</span> yanlış</span>
+    <span><span class="text-red-600 dark:text-red-400">⁄</span> kısmi</span>
+    <span>boş: cevaplanmadı</span>
   </div>
 
   {#if rows.length === 0}
-    <p class="pencil mt-half">Bu sınıfta öğrenci yok.</p>
+    <p class="mt-2.5 text-[12px] leading-5 text-gray-500 dark:text-gray-400">Bu sınıfta öğrenci yok.</p>
   {:else}
-    <div class="mt-half overflow-auto">
+    <div class="mt-2.5 overflow-auto">
       <table class="border-collapse">
         <thead>
           <tr>
-            <th class="stamp sticky left-0 bg-paper px-half text-left">Öğrenci</th>
+            <th
+              class="sticky left-0 bg-white px-2.5 text-left text-[11px] font-semibold uppercase
+                     tracking-wider text-gray-500 dark:bg-gray-800 dark:text-gray-400"
+            >
+              Öğrenci
+            </th>
             {#each questionIds as _, i}
-              <th class="stamp w-[20px] text-center font-normal tnum">{i + 1}</th>
+              <th
+                class="tnum w-[20px] text-center text-[11px] font-normal uppercase tracking-wider
+                       text-gray-500 dark:text-gray-400"
+              >
+                {i + 1}
+              </th>
             {/each}
-            <th class="stamp px-half text-right">%</th>
+            <th
+              class="px-2.5 text-right text-[11px] font-semibold uppercase tracking-wider
+                     text-gray-500 dark:text-gray-400"
+            >
+              %
+            </th>
           </tr>
         </thead>
         <tbody>
           {#each rows as row (row.student.id)}
             <tr>
               <th
-                class="sticky left-0 whitespace-nowrap bg-paper px-half text-left text-[12px]
-                       font-normal leading-[20px]"
+                class="sticky left-0 whitespace-nowrap bg-white px-2.5 text-left text-[12px]
+                       font-normal leading-[20px] text-gray-900 dark:bg-gray-800 dark:text-white"
               >
-                <span class="text-pencil tnum">{row.student.number}</span>
+                <span class="tnum text-gray-500 dark:text-gray-400">{row.student.number}</span>
                 {row.student.first_name}
                 {row.student.last_name}
               </th>
               {#each row.cells as cell}
                 <td
-                  class="h-[20px] w-[20px] border border-rule text-center text-[12px] leading-[18px]"
-                  class:bg-red-wash={cell.state === "wrong"}
-                  class:text-red={cell.state === "wrong" || cell.state === "partial"}
-                  class:text-ink={cell.state === "correct"}
+                  class="h-[20px] w-[20px] border border-gray-200 text-center text-[12px]
+                         leading-[18px] dark:border-gray-700"
+                  class:bg-red-50={cell.state === "wrong"}
+                  class:dark:bg-red-950={cell.state === "wrong"}
+                  class:text-red-600={cell.state === "wrong" || cell.state === "partial"}
+                  class:dark:text-red-400={cell.state === "wrong" || cell.state === "partial"}
+                  class:text-gray-800={cell.state === "correct"}
+                  class:dark:text-gray-200={cell.state === "correct"}
                   title={cell.title}
                 >
                   {GLYPH[cell.state]}
                 </td>
               {/each}
-              <td class="px-half text-right text-[12px] leading-[20px] tnum">
+              <td class="tnum px-2.5 text-right text-[12px] leading-[20px]">
                 {row.percent ?? "—"}
               </td>
             </tr>
           {/each}
 
           <tr>
-            <th class="stamp sticky left-0 bg-paper px-half text-left">Yanlış</th>
+            <th
+              class="sticky left-0 bg-white px-2.5 text-left text-[11px] font-semibold uppercase
+                     tracking-wider text-gray-500 dark:bg-gray-800 dark:text-gray-400"
+            >
+              Yanlış
+            </th>
             {#each wrongPerQuestion as count}
               <td
-                class="border-t border-rule-strong text-center text-[11px] leading-[20px] tnum"
-                class:text-red-deep={count > rows.length / 2}
+                class="tnum border-t border-gray-300 text-center text-[11px] leading-[20px] dark:border-gray-600"
+                class:text-red-600={count > rows.length / 2}
+                class:dark:text-red-400={count > rows.length / 2}
                 class:font-semibold={count > rows.length / 2}
               >
                 {count}

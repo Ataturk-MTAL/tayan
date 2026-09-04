@@ -1,4 +1,7 @@
 <script lang="ts">
+  import { Button } from "flowbite-svelte";
+  import { MinusOutline, PlusOutline } from "flowbite-svelte-icons";
+
   type Props = {
     zoom: number;
     onzoom: (value: number) => void;
@@ -17,54 +20,45 @@
   }
 </script>
 
-<div class="ruled-bottom flex shrink-0 items-center gap-quarter bg-paper px-half py-quarter paper-plain">
-  <button
-    type="button"
-    class="border border-rule-strong bg-paper-lift px-half leading-rule text-ink
-           transition-colors hover:border-red hover:text-red-deep disabled:opacity-40"
+<div
+  class="flex shrink-0 items-center gap-2 border-b border-gray-200 bg-white px-3 py-1.5
+         dark:border-gray-700 dark:bg-gray-800"
+>
+  <Button
+    size="xs"
+    color="light"
+    class="!p-1.5"
     disabled={zoom <= ZOOM_STEPS[0]}
     title="Uzaklaştır (⌘−)"
     aria-label="Uzaklaştır"
     onclick={() => step(-1)}
   >
-    −
-  </button>
+    <MinusOutline class="h-3.5 w-3.5" />
+  </Button>
 
-  <span class="tnum w-[46px] text-center text-[12px] leading-rule">
+  <span class="tnum w-12 text-center text-xs text-gray-600 dark:text-gray-300">
     {Math.round(zoom * 100)}%
   </span>
 
-  <button
-    type="button"
-    class="border border-rule-strong bg-paper-lift px-half leading-rule text-ink
-           transition-colors hover:border-red hover:text-red-deep disabled:opacity-40"
+  <Button
+    size="xs"
+    color="light"
+    class="!p-1.5"
     disabled={zoom >= ZOOM_STEPS[ZOOM_STEPS.length - 1]}
     title="Yakınlaştır (⌘+)"
     aria-label="Yakınlaştır"
     onclick={() => step(1)}
   >
-    +
-  </button>
+    <PlusOutline class="h-3.5 w-3.5" />
+  </Button>
 
-  <button
-    type="button"
-    class="ml-half border border-rule-strong bg-paper-lift px-half text-[12px] leading-rule
-           text-ink transition-colors hover:border-red hover:text-red-deep"
-    title="Sayfayı panele sığdır"
-    onclick={onfit}
-  >
+  <Button size="xs" color="light" class="ml-2" title="Sayfayı panele sığdır" onclick={onfit}>
     Sığdır
-  </button>
+  </Button>
 
-  <button
-    type="button"
-    class="border border-rule-strong bg-paper-lift px-half text-[12px] leading-rule
-           text-ink transition-colors hover:border-red hover:text-red-deep"
-    title="Gerçek boyut (⌘0)"
-    onclick={() => onzoom(1)}
-  >
+  <Button size="xs" color="light" title="Gerçek boyut (⌘0)" onclick={() => onzoom(1)}>
     100%
-  </button>
+  </Button>
 
-  <span class="pencil ml-auto">⌘ + tekerlek</span>
+  <span class="ml-auto text-xs text-gray-400 dark:text-gray-500">⌘ + tekerlek</span>
 </div>

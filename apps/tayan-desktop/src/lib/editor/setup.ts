@@ -11,13 +11,35 @@ import { tinymistComplete, toCodeMirror } from "./tinymist";
 import type { TypstDiagnostic } from "./diagnostics";
 
 /**
+ * Editör renkleri CSS DEĞİŞKENİNDEN okunuyor.
+ *
+ * CodeMirror teması bir JS nesnesi ve derleme anında sabitleniyor; koyu kipe
+ * geçildiğinde yeniden kurulmuyor. Sabit hex yazsaydık editör açık temada
+ * kalır, koyu sayfada göz alırdı. Değişkenler `app.css` içinde `:root` ve
+ * `.dark` altında tanımlı, yani tema anahtarı editörü de çeviriyor.
+ */
+const CM = {
+  bg: "var(--cm-bg)",
+  text: "var(--cm-text)",
+  caret: "var(--cm-caret)",
+  selection: "var(--cm-selection)",
+  activeLine: "var(--cm-active-line)",
+  gutterText: "var(--cm-gutter-text)",
+  gutterBorder: "var(--cm-gutter-border)",
+  panelBg: "var(--cm-panel-bg)",
+  panelBorder: "var(--cm-panel-border)",
+  panelSelected: "var(--cm-panel-selected)",
+  error: "var(--cm-error)",
+} as const;
+
+/**
  * Editörün görünümü, dünyanın kuralına uyar: içerik mürekkep, hata kırmızı.
  * Sözdizimi renklendirmesinde kırmızı yoktur (bkz. typst-lang.ts), bu yüzden
  * editörde görülen her kırmızı tek bir şey demektir: burada bir hata var.
  */
 const editorTheme = EditorView.theme({
   "&": {
-    color: "#16233f",
+    color: CM.text,
     backgroundColor: "transparent",
     height: "100%",
     fontSize: "13.5px",
@@ -27,24 +49,24 @@ const editorTheme = EditorView.theme({
     lineHeight: "20px",
     overflow: "auto",
   },
-  ".cm-content": { padding: "20px 0", caretColor: "#c8102e" },
+  ".cm-content": { padding: "20px 0", caretColor: CM.caret },
   ".cm-line": { padding: "0 20px" },
 
   "&.cm-focused": { outline: "none" },
-  ".cm-cursor, .cm-dropCursor": { borderLeft: "2px solid #c8102e" },
+  ".cm-cursor, .cm-dropCursor": { borderLeft: `2px solid ${CM.caret}` },
   "&.cm-focused .cm-selectionBackground, .cm-selectionBackground, .cm-content ::selection": {
-    backgroundColor: "#f7e4e7",
+    backgroundColor: CM.selection,
   },
-  ".cm-activeLine": { backgroundColor: "rgba(22, 35, 63, 0.035)" },
+  ".cm-activeLine": { backgroundColor: CM.activeLine },
 
   ".cm-gutters": {
     backgroundColor: "transparent",
-    color: "#6e716b",
+    color: CM.gutterText,
     border: "none",
-    borderRight: "1px solid #c3cec9",
+    borderRight: `1px solid ${CM.gutterBorder}`,
     minWidth: "40px",
   },
-  ".cm-activeLineGutter": { backgroundColor: "transparent", color: "#16233f" },
+  ".cm-activeLineGutter": { backgroundColor: "transparent", color: CM.text },
   ".cm-lineNumbers .cm-gutterElement": {
     padding: "0 10px 0 5px",
     fontVariantNumeric: "tabular-nums",
@@ -52,12 +74,12 @@ const editorTheme = EditorView.theme({
 
   ".cm-matchingBracket, &.cm-focused .cm-matchingBracket": {
     backgroundColor: "transparent",
-    outline: "1px solid #a4b3ad",
+    outline: `1px solid ${CM.panelBorder}`,
   },
 
   // Kırmızı kalem: hatalı satırın altı çizilir.
   ".tayan-error-line": {
-    textDecoration: "underline wavy #c8102e",
+    textDecoration: `underline wavy ${CM.error}`,
     textDecorationSkipInk: "none",
     textUnderlineOffset: "3px",
   },
@@ -66,9 +88,9 @@ const editorTheme = EditorView.theme({
   // Genişlik sınırlı: uzun imzalar (tinymist bazen tam fonksiyon imzası
   // döndürüyor) kutuyu ekran genişliğine kadar şişiriyordu.
   ".cm-tooltip.cm-tooltip-autocomplete": {
-    border: "1px solid #a4b3ad",
-    background: "#fbfbf8",
-    boxShadow: "0 1px 2px rgba(22,35,63,0.08), 0 4px 12px rgba(22,35,63,0.10)",
+    border: `1px solid ${CM.panelBorder}`,
+    background: CM.panelBg,
+    boxShadow: "0 1px 2px rgb(0 0 0 / 0.08), 0 4px 12px rgb(0 0 0 / 0.10)",
     maxWidth: "420px",
   },
   ".cm-tooltip-autocomplete > ul": {
@@ -85,12 +107,12 @@ const editorTheme = EditorView.theme({
     whiteSpace: "nowrap",
   },
   ".cm-tooltip-autocomplete > ul > li[aria-selected]": {
-    background: "#e9ebe4",
-    color: "#96061f",
+    background: CM.panelSelected,
+    color: CM.error,
   },
   ".cm-completionLabel": { color: "inherit" },
   ".cm-completionDetail": {
-    color: "#6e716b",
+    color: CM.gutterText,
     fontStyle: "normal",
     marginLeft: "0.6em",
   },
@@ -99,8 +121,8 @@ const editorTheme = EditorView.theme({
     maxWidth: "320px",
     maxHeight: "220px",
     overflow: "auto",
-    border: "1px solid #a4b3ad",
-    background: "#fbfbf8",
+    border: `1px solid ${CM.panelBorder}`,
+    background: CM.panelBg,
     padding: "4px 8px",
     fontSize: "12px",
     lineHeight: "18px",
@@ -135,7 +157,7 @@ class PenMarker extends GutterMarker {
   toDOM() {
     const el = document.createElement("span");
     el.textContent = "✗";
-    el.style.color = "#c8102e";
+    el.style.color = CM.error;
     el.style.fontWeight = "700";
     el.setAttribute("aria-label", "Bu satırda derleme hatası var");
     return el;
@@ -465,7 +487,7 @@ const fieldTheme = EditorView.theme({
   ".cm-content": {
     padding: "0 0 3px",
     fontFamily: "inherit",
-    caretColor: "var(--color-ink)",
+    caretColor: CM.caret,
   },
   ".cm-line": { padding: "0" },
   ".cm-scroller": { fontFamily: "inherit", lineHeight: "20px" },

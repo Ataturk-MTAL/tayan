@@ -107,19 +107,22 @@ export const typstMode = StreamLanguage.define<TypstState>({
  * Editörde kırmızı gördüğün an bir hata vardır.
  */
 export const typstHighlight = HighlightStyle.define([
-  { tag: tags.comment, color: "#6e716b", fontStyle: "italic" },
-  { tag: tags.meta, color: "#96061f", fontWeight: "700" },
-  { tag: tags.atom, color: "#1b4f72" },
-  { tag: tags.keyword, color: "#16233f", fontWeight: "700" },
-  { tag: tags.function(tags.variableName), color: "#2f6f9e", fontWeight: "500" },
-  { tag: tags.string, color: "#1b6b41" },
-  { tag: tags.monospace, color: "#47536e" },
-  { tag: tags.heading, color: "#16233f", fontWeight: "700" },
-  { tag: tags.list, color: "#47536e" },
+  // Renkler CSS değişkeninden: vurgu tanımı derleme anında sabitleniyor ve
+  // koyu kipte yeniden kurulmuyor. Sabit hex yazsaydık koyu zeminde lacivert
+  // anahtar kelimeler okunmaz olurdu.
+  { tag: tags.comment, color: "var(--cm-syn-comment)", fontStyle: "italic" },
+  { tag: tags.meta, color: "var(--cm-syn-meta)", fontWeight: "700" },
+  { tag: tags.atom, color: "var(--cm-syn-atom)" },
+  { tag: tags.keyword, color: "var(--cm-syn-keyword)", fontWeight: "700" },
+  { tag: tags.function(tags.variableName), color: "var(--cm-syn-function)", fontWeight: "500" },
+  { tag: tags.string, color: "var(--cm-syn-string)" },
+  { tag: tags.monospace, color: "var(--cm-syn-mono)" },
+  { tag: tags.heading, color: "var(--cm-syn-keyword)", fontWeight: "700" },
+  { tag: tags.list, color: "var(--cm-syn-mono)" },
   { tag: tags.strong, fontWeight: "700" },
   { tag: tags.emphasis, fontStyle: "italic" },
-  { tag: tags.labelName, color: "#a8710d" },
-  { tag: tags.number, color: "#1b4f72" },
+  { tag: tags.labelName, color: "var(--cm-syn-label)" },
+  { tag: tags.number, color: "var(--cm-syn-atom)" },
 ]);
 
 export const typstSyntax = [typstMode, syntaxHighlighting(typstHighlight)];

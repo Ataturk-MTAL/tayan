@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Alert, Button } from "flowbite-svelte";
   import QuestionEditor from "./QuestionEditor.svelte";
   import { bodySource, typstBody } from "$lib/question/body";
   import type { RubricItem } from "$lib/types";
@@ -373,10 +374,12 @@
 
 <div class="flex h-full min-h-0 flex-col">
   {#if legacyWarning}
-    <p class="ruled-bottom annot shrink-0 bg-red-wash px-rule py-quarter">
-      Bu soru eski zengin metin editörüyle yazılmış. Typst kaynağına çevrildi;
-      kaydedersen bu çeviri kalıcı olur.
-    </p>
+    <div class="shrink-0 px-4 pt-3">
+      <Alert color="amber">
+        Bu soru eski zengin metin editörüyle yazılmış. Typst kaynağına çevrildi;
+        kaydedersen bu çeviri kalıcı olur.
+      </Alert>
+    </div>
   {/if}
 
   <!--
@@ -389,36 +392,35 @@
     öğretmen ya tek tıkla panele taşır ya da neden okunamadığını görür.
   -->
   {#if govdedekiRubrik}
-    <div class="ruled-bottom shrink-0 bg-red-wash px-rule py-quarter">
+    <div class="shrink-0 px-4 pt-3">
       {#if govdedekiRubrik.sonuc.ok}
-        <p class="annot">
-          {govdedekiRubrik.kaynak === "body" ? "Soru gövdesinde" : "Örnek cevapta"}
-          {govdedekiRubrik.sonuc.items.length} ölçütlük bir
-          <span class="font-mono">#rubrik(…)</span> bloğu var. Ölçütler panelden
-          yönetilir; kaynakta kalırsa ne cevap anahtarına ne sonuç girişine yansır.
-        </p>
-        <button
-          type="button"
-          class="stamp mt-quarter border border-rule px-half leading-rule
-                 text-ink-mid transition-colors hover:border-red hover:text-red-deep"
-          onclick={rubrigiPaneleTasi}
-        >
-          Panele taşı ve gövdeden kaldır
-        </button>
+        <Alert color="amber">
+          <p>
+            {govdedekiRubrik.kaynak === "body" ? "Soru gövdesinde" : "Örnek cevapta"}
+            {govdedekiRubrik.sonuc.items.length} ölçütlük bir
+            <span class="font-mono">#rubrik(…)</span> bloğu var. Ölçütler panelden
+            yönetilir; kaynakta kalırsa ne cevap anahtarına ne sonuç girişine yansır.
+          </p>
+          <Button size="xs" color="light" class="mt-2" onclick={rubrigiPaneleTasi}>
+            Panele taşı ve gövdeden kaldır
+          </Button>
+        </Alert>
       {:else}
-        <p class="annot">
+        <Alert color="red">
           Kaynaktaki <span class="font-mono">#rubrik(…)</span> okunamadı:
           {govdedekiRubrik.sonuc.reason} Yalnız düz
           <span class="font-mono">([ölçüt], puan)</span> demetleri taşınabiliyor —
           değişken, hesaplanmış puan ve döngü okunmuyor. Ölçütleri panele elle
           gir ve bloğu kaynaktan sil.
-        </p>
+        </Alert>
       {/if}
     </div>
   {/if}
 
   {#if saveError}
-    <p class="ruled-bottom annot shrink-0 bg-red-wash px-rule py-quarter">{saveError}</p>
+    <div class="shrink-0 px-4 pt-3">
+      <Alert color="red">{saveError}</Alert>
+    </div>
   {/if}
 
   <div class="min-h-0 flex-1">

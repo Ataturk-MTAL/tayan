@@ -15,6 +15,7 @@
    *   Klasik         : cevap yok; puan ELLE girilir ve olduğu gibi kaydedilir
    */
   import PenButton from "../shell/PenButton.svelte";
+  import { Alert, Badge, Card, Checkbox, Input, Table, TableBody, TableBodyCell, TableBodyRow, TableHead, TableHeadCell } from "flowbite-svelte";
   import { api } from "$lib/api";
   import { errorText } from "$lib/editor/diagnostics";
   import { bodyPreview } from "$lib/types";
@@ -208,25 +209,27 @@
 
 <div class="grid min-h-0 flex-1 grid-cols-[220px_1fr]">
   <!-- Öğrenci listesi. Girilmiş olanlar işaretli: deste ilerledikçe kalan görünür. -->
-  <nav class="min-h-0 overflow-auto border-r border-rule-strong">
+  <nav class="min-h-0 overflow-auto border-r border-gray-300 dark:border-gray-600">
     {#if students.length === 0}
-      <p class="pencil p-half">Bu sınıfta öğrenci yok.</p>
+      <p class="p-2.5 text-[12px] leading-5 text-gray-500 dark:text-gray-400">Bu sınıfta öğrenci yok.</p>
     {:else}
       <ul>
         {#each students as s (s.id)}
           <li>
             <button
               type="button"
-              class="flex w-full items-center gap-half border-b border-rule px-half py-quarter
-                     text-left text-[13px] leading-rule transition-colors hover:bg-paper-lift"
-              class:bg-paper-sunk={s.id === studentId}
-              class:font-semibold={s.id === studentId}
+              class="flex w-full items-center gap-2.5 border-b border-gray-200 px-2.5 py-[5px]
+                     text-left text-[13px] leading-5 transition-colors hover:bg-gray-50
+                     dark:border-gray-700 dark:hover:bg-gray-700
+                     {s.id === studentId ? 'bg-primary-50 font-semibold dark:bg-primary-900/30' : ''}"
               onclick={() => selectStudent(s.id)}
             >
-              <span class="tnum w-[28px] text-pencil">{s.number}</span>
+              <span class="tnum w-[28px] text-gray-500 dark:text-gray-400">{s.number}</span>
               <span class="flex-1">{s.first_name} {s.last_name}</span>
               {#if girilmis.has(s.id)}
-                <span class="stamp" style="color: var(--color-mark-excellent)">✓</span>
+                <!-- Sonucu girilmiş: yeşil "tamam" rozeti. Bu bir "doğru cevap" değil,
+                     bir iş durumu — kırmızı/gri değerlendirme ekseninin dışında. -->
+                <Badge color="green" class="px-1.5 py-0 text-[11px]">✓</Badge>
               {/if}
             </button>
           </li>
@@ -235,23 +238,28 @@
     {/if}
   </nav>
 
-  <div class="min-h-0 overflow-auto px-rule py-half">
+  <div class="min-h-0 overflow-auto px-5 py-2.5">
     {#if eksikSoru > 0}
-      <p class="annot mb-half bg-red-wash px-half py-quarter">
+      <Alert color="red" class="mb-2.5 text-[12px] leading-5">
         Bu sınavın {eksikSoru} sorusu bankada bulunamadı. O sorular puanlanamaz;
         toplam puan onlar hariç hesaplandı.
-      </p>
+      </Alert>
     {/if}
 
     {#if studentId === ""}
-      <p class="pencil">Soldan bir öğrenci seç.</p>
+      <p class="text-[12px] leading-5 text-gray-500 dark:text-gray-400">Soldan bir öğrenci seç.</p>
     {:else}
-      <div class="ruled-bottom mb-half flex flex-wrap items-center gap-half pb-quarter">
-        <span class="stamp">Toplam</span>
-        <span class="tnum font-bold">{toplamPuan}</span>
-        <span class="pencil">puan</span>
+      <div class="mb-2.5 flex flex-wrap items-center gap-2.5 border-b border-gray-300 pb-[5px] dark:border-gray-600">
+        <span class="text-[11px] font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">
+          Toplam
+        </span>
+        <span class="tnum font-bold text-gray-900 dark:text-white">{toplamPuan}</span>
+        <span class="text-[12px] text-gray-500 dark:text-gray-400">puan</span>
         {#if girilmis.has(studentId)}
-          <span class="annot">Bu öğrencinin sonucu daha önce girilmiş; kaydetmek üzerine yazar.</span>
+          <!-- Uyarı, hata değil: amber. Kırmızı yalnız değerlendirme/yanlış içindir. -->
+          <span class="text-[12px] leading-5 text-amber-600 dark:text-amber-400">
+            Bu öğrencinin sonucu daha önce girilmiş; kaydetmek üzerine yazar.
+          </span>
         {/if}
         <span class="ml-auto"></span>
         <PenButton kind="ink" disabled={saving} onclick={save}>
@@ -260,122 +268,161 @@
       </div>
 
       {#if saveError}
-        <p class="annot mb-half bg-red-wash px-half py-quarter">{saveError}</p>
+        <Alert color="red" class="mb-2.5 text-[12px] leading-5">{saveError}</Alert>
       {/if}
       {#if saved}
-        <p class="pencil mb-half">{saved} kaydedildi. Ölçüm yeniden hesaplandı.</p>
+        <p class="mb-2.5 text-[12px] leading-5 text-gray-500 dark:text-gray-400">
+          {saved} kaydedildi. Ölçüm yeniden hesaplandı.
+        </p>
       {/if}
 
-      {#each sorular as { ref, question }, i (ref.question_id)}
-        {#if question !== null}
-          <div class="border-b border-rule py-half">
-            <div class="flex items-baseline gap-half">
-              <span class="stamp">{i + 1}.</span>
-              <span class="flex-1 text-[13px] leading-rule text-ink-mid">
-                {bodyPreview(question.body, 90)}
-              </span>
-              <span class="pencil tnum">{maxPoints(ref, question)} p</span>
-            </div>
+      <Card size="xl" class="p-0">
+        <Table>
+          <TableHead>
+            <TableHeadCell class="w-[2rem]">#</TableHeadCell>
+            <TableHeadCell>Soru</TableHeadCell>
+            <TableHeadCell>Cevap</TableHeadCell>
+          </TableHead>
+          <TableBody>
+            {#each sorular as { ref, question }, i (ref.question_id)}
+              {#if question !== null}
+                <TableBodyRow>
+                  <TableBodyCell class="tnum align-top text-gray-500 dark:text-gray-400">
+                    {i + 1}.
+                  </TableBodyCell>
+                  <TableBodyCell class="align-top">
+                    <span class="text-[13px] leading-5 text-gray-700 dark:text-gray-300">
+                      {bodyPreview(question.body, 90)}
+                    </span>
+                    <span class="tnum block text-[12px] text-gray-500 dark:text-gray-400">
+                      {maxPoints(ref, question)} p
+                    </span>
+                  </TableBodyCell>
+                  <TableBodyCell class="align-top">
+                    {#if question.question_type === "multiple_choice"}
+                      <div class="flex flex-wrap items-center gap-[5px]">
+                        {#each question.options as opt (opt.id)}
+                          <button
+                            type="button"
+                            class="w-[30px] border border-gray-300 bg-white py-[5px] text-[12px]
+                                   leading-5 transition-colors hover:border-red-600
+                                   dark:border-gray-600 dark:bg-gray-800 dark:hover:border-red-400
+                                   {answers[question.id] === opt.id
+                                     ? 'bg-primary-50 font-semibold dark:bg-primary-900/30'
+                                     : ''}"
+                            onclick={() =>
+                              setAnswer(question.id, answers[question.id] === opt.id ? "" : opt.id)}
+                          >
+                            {opt.id}
+                          </button>
+                        {/each}
+                        <span class="ml-2.5 text-[12px] text-gray-500 dark:text-gray-400">
+                          boş bırakılırsa cevapsız sayılır
+                        </span>
+                      </div>
+                    {:else if question.question_type === "true_false"}
+                      <div class="flex flex-wrap items-center gap-[5px]">
+                        <button
+                          type="button"
+                          class="border border-gray-300 bg-white px-2.5 py-[5px] text-[12px]
+                                 leading-5 transition-colors hover:border-red-600
+                                 dark:border-gray-600 dark:bg-gray-800 dark:hover:border-red-400
+                                 {answers[question.id] === 'true'
+                                   ? 'bg-primary-50 font-semibold dark:bg-primary-900/30'
+                                   : ''}"
+                          onclick={() =>
+                            setAnswer(question.id, answers[question.id] === "true" ? "" : "true")}
+                        >
+                          Doğru
+                        </button>
+                        <button
+                          type="button"
+                          class="border border-gray-300 bg-white px-2.5 py-[5px] text-[12px]
+                                 leading-5 transition-colors hover:border-red-600
+                                 dark:border-gray-600 dark:bg-gray-800 dark:hover:border-red-400
+                                 {answers[question.id] === 'false'
+                                   ? 'bg-primary-50 font-semibold dark:bg-primary-900/30'
+                                   : ''}"
+                          onclick={() =>
+                            setAnswer(question.id, answers[question.id] === "false" ? "" : "false")}
+                        >
+                          Yanlış
+                        </button>
+                      </div>
+                    {:else if question.question_type === "fill_in_blank"}
+                      <div class="flex flex-wrap items-center gap-2.5">
+                        {#each question.blanks as b (b.id)}
+                          <label class="flex items-center gap-[5px]">
+                            <span class="text-[11px] font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">
+                              {b.id}
+                            </span>
+                            <Input
+                              type="text"
+                              size="sm"
+                              class="w-[110px]"
+                              value={answers[`${question.id}::${b.id}`] ?? ""}
+                              oninput={(e) =>
+                                setAnswer(`${question.id}::${b.id}`, e.currentTarget.value)}
+                            />
+                          </label>
+                        {/each}
+                      </div>
+                    {:else}
+                      <!--
+                        Açık uçlu soru. Rubrik varsa ölçüt ölçüt işaretlenir ve puan
+                        kendiliğinden toplanır: hangi ölçütün verilmediği kayda geçer,
+                        itiraz geldiğinde gerekçe elde durur.
 
-            <div class="mt-quarter flex flex-wrap items-center gap-quarter">
-              {#if question.question_type === "multiple_choice"}
-                {#each question.options as opt (opt.id)}
-                  <button
-                    type="button"
-                    class="w-[30px] border border-rule-strong bg-paper py-quarter text-[12px]
-                           leading-rule transition-colors hover:border-red"
-                    class:bg-paper-sunk={answers[question.id] === opt.id}
-                    class:font-semibold={answers[question.id] === opt.id}
-                    onclick={() =>
-                      setAnswer(question.id, answers[question.id] === opt.id ? "" : opt.id)}
-                  >
-                    {opt.id}
-                  </button>
-                {/each}
-                <span class="pencil ml-half">boş bırakılırsa cevapsız sayılır</span>
-              {:else if question.question_type === "true_false"}
-                <button
-                  type="button"
-                  class="border border-rule-strong bg-paper px-half py-quarter text-[12px]
-                         leading-rule transition-colors hover:border-red"
-                  class:bg-paper-sunk={answers[question.id] === "true"}
-                  class:font-semibold={answers[question.id] === "true"}
-                  onclick={() =>
-                    setAnswer(question.id, answers[question.id] === "true" ? "" : "true")}
-                >
-                  Doğru
-                </button>
-                <button
-                  type="button"
-                  class="border border-rule-strong bg-paper px-half py-quarter text-[12px]
-                         leading-rule transition-colors hover:border-red"
-                  class:bg-paper-sunk={answers[question.id] === "false"}
-                  class:font-semibold={answers[question.id] === "false"}
-                  onclick={() =>
-                    setAnswer(question.id, answers[question.id] === "false" ? "" : "false")}
-                >
-                  Yanlış
-                </button>
-              {:else if question.question_type === "fill_in_blank"}
-                {#each question.blanks as b (b.id)}
-                  <label class="flex items-center gap-quarter">
-                    <span class="stamp">{b.id}</span>
-                    <input
-                      type="text"
-                      class="w-[110px] border-0 border-b border-rule-strong bg-transparent
-                             pb-[2px] text-[13px] leading-rule focus:border-red focus:outline-none"
-                      value={answers[`${question.id}::${b.id}`] ?? ""}
-                      oninput={(e) => setAnswer(`${question.id}::${b.id}`, e.currentTarget.value)}
-                    />
-                  </label>
-                {/each}
-              {:else}
-                <!--
-                  Açık uçlu soru. Rubrik varsa ölçüt ölçüt işaretlenir ve puan
-                  kendiliğinden toplanır: hangi ölçütün verilmediği kayda geçer,
-                  itiraz geldiğinde gerekçe elde durur.
+                        Puan kutusu YİNE DE düzenlenebilir kalıyor. Ölçüte tam
+                        uymayan ama karşılığı olan bir cevabı öğretmen takdir
+                        edebilmeli; rubrik yardımcıdır, kelepçe değil.
+                      -->
+                      {#if rubrikOf(question).length > 0}
+                        <ul class="mb-[5px] space-y-[2px]">
+                          {#each rubrikOf(question) as olcut, oi (oi)}
+                            <li>
+                              <Checkbox
+                                checked={(rubricMet[question.id] ?? []).includes(oi)}
+                                onchange={() => toggleCriterion(question, oi)}
+                                labelProps={{ class: "flex w-full items-start gap-[5px]" }}
+                              >
+                                <span class="flex-1 text-[12px] leading-5 text-gray-700 dark:text-gray-300">
+                                  {olcut.criterion}
+                                </span>
+                                <span class="tnum shrink-0 text-[12px] text-gray-500 dark:text-gray-400">
+                                  {olcut.points}
+                                </span>
+                              </Checkbox>
+                            </li>
+                          {/each}
+                        </ul>
+                      {/if}
 
-                  Puan kutusu YİNE DE düzenlenebilir kalıyor. Ölçüte tam
-                  uymayan ama karşılığı olan bir cevabı öğretmen takdir
-                  edebilmeli; rubrik yardımcıdır, kelepçe değil.
-                -->
-                {#if rubrikOf(question).length > 0}
-                  <ul class="mb-quarter space-y-[2px]">
-                    {#each rubrikOf(question) as olcut, oi (oi)}
-                      <li>
-                        <label class="flex items-start gap-quarter">
-                          <input
-                            type="checkbox"
-                            class="mt-[3px] shrink-0 accent-[var(--color-red)]"
-                            checked={(rubricMet[question.id] ?? []).includes(oi)}
-                            onchange={() => toggleCriterion(question, oi)}
-                          />
-                          <span class="annot flex-1">{olcut.criterion}</span>
-                          <span class="pencil tnum shrink-0">{olcut.points}</span>
-                        </label>
-                      </li>
-                    {/each}
-                  </ul>
-                {/if}
-
-                <label class="flex items-center gap-quarter">
-                  <span class="stamp">Puan</span>
-                  <input
-                    type="number"
-                    min="0"
-                    max={maxPoints(ref, question)}
-                    class="tnum w-[70px] border-0 border-b border-rule-strong bg-transparent
-                           pb-[2px] text-[13px] leading-rule focus:border-red focus:outline-none"
-                    value={manualPoints[question.id] ?? 0}
-                    oninput={(e) => setPoints(question.id, Number(e.currentTarget.value))}
-                  />
-                  <span class="pencil">/ {maxPoints(ref, question)}</span>
-                </label>
+                      <label class="flex items-center gap-[5px]">
+                        <span class="text-[11px] font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">
+                          Puan
+                        </span>
+                        <Input
+                          type="number"
+                          size="sm"
+                          min="0"
+                          max={maxPoints(ref, question)}
+                          class="tnum w-[70px]"
+                          value={manualPoints[question.id] ?? 0}
+                          oninput={(e) => setPoints(question.id, Number(e.currentTarget.value))}
+                        />
+                        <span class="text-[12px] text-gray-500 dark:text-gray-400">
+                          / {maxPoints(ref, question)}
+                        </span>
+                      </label>
+                    {/if}
+                  </TableBodyCell>
+                </TableBodyRow>
               {/if}
-            </div>
-          </div>
-        {/if}
-      {/each}
+            {/each}
+          </TableBody>
+        </Table>
+      </Card>
     {/if}
   </div>
 </div>

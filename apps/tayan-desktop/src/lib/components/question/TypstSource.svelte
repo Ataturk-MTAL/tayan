@@ -132,4 +132,14 @@
   }
 </script>
 
-<div class="h-full min-h-0 paper-plain bg-paper-lift" bind:this={host}></div>
+<!--
+  Zemin SABİT AÇIK renkte kalıyor, koyu kipte bile.
+
+  CodeMirror'ın kendi teması (`lib/editor/setup.ts`, bu ajanın dosyası değil)
+  gövde rengini `transparent` bırakıyor ve imleç/metin renklerini SABİT koyu
+  mürekkep tonlarıyla yazıyor (`#16233f` gibi). Kap koyu kipte karanlığa
+  dönerse mürekkep zeminle aynı tona düşer ve metin okunmaz olur. Editör
+  rengi kendi görevi olarak "şimdilik açık kalabilir" — bu yüzden kap da
+  onunla birlikte açık kalmalı.
+-->
+<div class="h-full min-h-0 bg-white" bind:this={host}></div>

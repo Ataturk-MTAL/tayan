@@ -1,8 +1,17 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import PageHead from "$lib/components/shell/PageHead.svelte";
-  import PenButton from "$lib/components/shell/PenButton.svelte";
-  import RuledField from "$lib/components/shell/RuledField.svelte";
+  import {
+    Alert,
+    Button,
+    Input,
+    Label,
+    Table,
+    TableBody,
+    TableBodyCell,
+    TableBodyRow,
+    Textarea,
+  } from "flowbite-svelte";
+  import PageShell from "$lib/components/shell/PageShell.svelte";
   import { api } from "$lib/api";
   import { errorText } from "$lib/editor/diagnostics";
   import type { Classroom, Student } from "$lib/types";
@@ -116,104 +125,140 @@
   }
 </script>
 
-<div class="flex h-full min-h-0 flex-col">
-  <PageHead title="Öğrenciler" count={loading ? null : `${classrooms.length} sınıf`} />
+<!--
+  scroll={false}: üç sütun (sınıflar / öğrenciler / toplu ekle) her biri kendi
+  kaydırıcısını taşıyor. Kabuk da kaydırırsa fare tekerleğinin hangi sütunu
+  süreceği belirsizleşir — PageShell'in kendi uyarısı da bunu söylüyor.
+-->
+<PageShell title="Öğrenciler" subtitle={loading ? null : `${classrooms.length} sınıf`} scroll={false}>
+  <div class="flex h-full min-h-0 flex-col">
+    {#if error}
+      <Alert color="red" class="m-4 shrink-0">{error}</Alert>
+    {/if}
 
-  {#if error}
-    <p class="ruled-bottom annot shrink-0 bg-red-wash px-rule py-quarter">{error}</p>
-  {/if}
-
-  <div class="grid min-h-0 flex-1 grid-cols-[240px_1fr_300px]">
-    <section class="min-h-0 overflow-auto border-r border-rule-strong">
-      <h2 class="stamp ruled-bottom sticky top-0 bg-paper px-rule py-quarter">Sınıflar</h2>
-      {#if classrooms.length === 0}
-        <p class="pencil p-rule">Sınıf yok.</p>
-      {:else}
-        <ul>
-          {#each classrooms as c (c.id)}
-            <li>
-              <button
-                type="button"
-                class="w-full border-b border-rule px-rule py-half text-left hover:bg-paper-lift"
-                class:bg-paper-lift={c.id === activeId}
-                class:font-semibold={c.id === activeId}
-                onclick={() => selectClassroom(c.id)}
-              >
-                {c.name}
-                <span class="pencil block">{c.student_ids.length} öğrenci</span>
-              </button>
-            </li>
-          {/each}
-        </ul>
-      {/if}
-
-      <div class="border-t border-rule-strong px-rule py-half">
-        <h3 class="stamp">Yeni sınıf</h3>
-        <div class="mt-quarter">
-          <RuledField label="Ad"><input type="text" bind:value={className} placeholder="9-A" /></RuledField>
-        </div>
-        <div class="mt-half grid grid-cols-2 gap-half">
-          <RuledField label="Seviye"><input type="number" min="1" max="12" bind:value={grade} /></RuledField>
-          <RuledField label="Şube"><input type="text" bind:value={branch} /></RuledField>
-        </div>
-        <div class="mt-half">
-          <PenButton kind="quiet" disabled={busy} onclick={createClassroom}>Oluştur</PenButton>
-        </div>
-      </div>
-    </section>
-
-    <section class="min-h-0 overflow-auto border-r border-rule-strong">
-      <h2 class="stamp ruled-bottom sticky top-0 bg-paper px-rule py-quarter">Öğrenci listesi</h2>
-      {#if !activeId}
-        <p class="pencil p-rule">Bir sınıf seç.</p>
-      {:else if students.length === 0}
-        <p class="pencil p-rule">Bu sınıfta öğrenci yok.</p>
-      {:else}
-        <table class="w-full border-collapse text-[13px]">
-          <tbody>
-            {#each students as s (s.id)}
-              <tr class="border-b border-rule">
-                <td class="w-[60px] px-rule py-quarter tnum text-pencil">{s.number}</td>
-                <td class="px-half py-quarter">{s.first_name} {s.last_name}</td>
-                <td class="px-rule py-quarter text-right">
-                  <PenButton
-                    kind="quiet"
-                    disabled={busy}
-                    onclick={async () => {
-                      await api.students.deleteStudent(s.id);
-                      if (activeId) await selectClassroom(activeId);
-                    }}
-                  >
-                    Sil
-                  </PenButton>
-                </td>
-              </tr>
+    <div class="grid min-h-0 flex-1 grid-cols-[240px_1fr_300px]">
+      <section class="min-h-0 overflow-auto border-r border-gray-200 dark:border-gray-700">
+        <h2
+          class="sticky top-0 border-b border-gray-200 bg-gray-50 px-4 py-2 text-xs font-semibold
+                 uppercase tracking-wide text-gray-500 dark:border-gray-700 dark:bg-gray-900
+                 dark:text-gray-400"
+        >
+          Sınıflar
+        </h2>
+        {#if classrooms.length === 0}
+          <p class="p-4 text-sm text-gray-500 dark:text-gray-400">Sınıf yok.</p>
+        {:else}
+          <ul>
+            {#each classrooms as c (c.id)}
+              <li>
+                <button
+                  type="button"
+                  class="w-full border-b border-gray-200 px-4 py-2 text-left text-sm
+                         hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-700/60"
+                  class:bg-gray-100={c.id === activeId}
+                  class:dark:bg-gray-700={c.id === activeId}
+                  class:font-semibold={c.id === activeId}
+                  onclick={() => selectClassroom(c.id)}
+                >
+                  {c.name}
+                  <span class="block text-xs text-gray-500 dark:text-gray-400">
+                    {c.student_ids.length} öğrenci
+                  </span>
+                </button>
+              </li>
             {/each}
-          </tbody>
-        </table>
-      {/if}
-    </section>
-
-    <aside class="min-h-0 overflow-auto px-rule py-half">
-      <h2 class="stamp">Toplu ekle</h2>
-      <p class="pencil mt-quarter">
-        Satır başına bir öğrenci: numara, ad soyad. Listeyi olduğu gibi yapıştırabilirsin.
-      </p>
-      <textarea
-        rows="10"
-        class="mt-half w-full border border-rule-strong bg-paper-lift p-half font-mono
-               text-[12px] leading-rule focus:border-red focus:outline-none"
-        bind:value={bulkText}
-        placeholder={"101, Ayşe Yılmaz\n102, Mehmet Demir"}
-      ></textarea>
-      <div class="mt-half flex items-center gap-half">
-        <PenButton kind="ink" disabled={busy || !activeId || parsed.length === 0} onclick={addBulk}>
-          {parsed.length} öğrenci ekle
-        </PenButton>
-        {#if bulkText.trim() !== "" && parsed.length === 0}
-          <span class="annot">Hiçbir satır okunamadı.</span>
+          </ul>
         {/if}
-      </div>
-    </aside>
+
+        <div class="border-t border-gray-200 px-4 py-3 dark:border-gray-700">
+          <h3 class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
+            Yeni sınıf
+          </h3>
+          <div class="mt-2">
+            <Label for="new-classroom-name" class="mb-1">Ad</Label>
+            <Input id="new-classroom-name" type="text" bind:value={className} placeholder="9-A" />
+          </div>
+          <div class="mt-3 grid grid-cols-2 gap-2">
+            <div>
+              <Label for="new-classroom-grade" class="mb-1">Seviye</Label>
+              <Input id="new-classroom-grade" type="number" min="1" max="12" bind:value={grade} />
+            </div>
+            <div>
+              <Label for="new-classroom-branch" class="mb-1">Şube</Label>
+              <Input id="new-classroom-branch" type="text" bind:value={branch} />
+            </div>
+          </div>
+          <div class="mt-3">
+            <Button size="sm" color="alternative" disabled={busy} onclick={createClassroom}>
+              Oluştur
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      <section class="min-h-0 overflow-auto border-r border-gray-200 dark:border-gray-700">
+        <h2
+          class="sticky top-0 border-b border-gray-200 bg-gray-50 px-4 py-2 text-xs font-semibold
+                 uppercase tracking-wide text-gray-500 dark:border-gray-700 dark:bg-gray-900
+                 dark:text-gray-400"
+        >
+          Öğrenci listesi
+        </h2>
+        {#if !activeId}
+          <p class="p-4 text-sm text-gray-500 dark:text-gray-400">Bir sınıf seç.</p>
+        {:else if students.length === 0}
+          <p class="p-4 text-sm text-gray-500 dark:text-gray-400">Bu sınıfta öğrenci yok.</p>
+        {:else}
+          <Table>
+            <TableBody>
+              {#each students as s (s.id)}
+                <TableBodyRow>
+                  <TableBodyCell class="w-[60px] tnum text-gray-500 dark:text-gray-400">
+                    {s.number}
+                  </TableBodyCell>
+                  <TableBodyCell>{s.first_name} {s.last_name}</TableBodyCell>
+                  <TableBodyCell class="text-right">
+                    <Button
+                      size="xs"
+                      color="alternative"
+                      disabled={busy}
+                      onclick={async () => {
+                        await api.students.deleteStudent(s.id);
+                        if (activeId) await selectClassroom(activeId);
+                      }}
+                    >
+                      Sil
+                    </Button>
+                  </TableBodyCell>
+                </TableBodyRow>
+              {/each}
+            </TableBody>
+          </Table>
+        {/if}
+      </section>
+
+      <aside class="min-h-0 overflow-auto px-4 py-3">
+        <h2 class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
+          Toplu ekle
+        </h2>
+        <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
+          Satır başına bir öğrenci: numara, ad soyad. Listeyi olduğu gibi yapıştırabilirsin.
+        </p>
+        <Textarea
+          rows={10}
+          class="mt-3 font-mono text-xs"
+          bind:value={bulkText}
+          placeholder={"101, Ayşe Yılmaz\n102, Mehmet Demir"}
+        />
+        <div class="mt-3 flex items-center gap-2">
+          <Button size="sm" disabled={busy || !activeId || parsed.length === 0} onclick={addBulk}>
+            {parsed.length} öğrenci ekle
+          </Button>
+          {#if bulkText.trim() !== "" && parsed.length === 0}
+            <span class="text-xs text-red-600 dark:text-red-500">Hiçbir satır okunamadı.</span>
+          {/if}
+        </div>
+      </aside>
+    </div>
   </div>
-</div>
+</PageShell>

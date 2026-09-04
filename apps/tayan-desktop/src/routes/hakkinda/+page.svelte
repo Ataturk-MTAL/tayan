@@ -6,7 +6,8 @@
    * Kopyalanmadı: iki yerde duran bir sürüm numarası er ya da geç ayrışır ve
    * hangisinin doğru olduğunu kimse bilemez.
    */
-  import PageHead from "$lib/components/shell/PageHead.svelte";
+  import PageShell from "$lib/components/shell/PageShell.svelte";
+  import { A, Badge, Heading, P } from "flowbite-svelte";
 
   /**
    * Açık kaynak künyesi.
@@ -59,122 +60,149 @@
   const SURUM = "0.1.0";
 </script>
 
-<div class="flex h-full min-h-0 flex-col">
-  <PageHead title="Hakkında" />
+<PageShell title="Hakkında">
+  <div class="mx-auto max-w-[680px]">
+    <img
+      src="/tayan-logo.png"
+      alt="TAYAN — Soru Bankası ve Typst Editörü"
+      class="block w-[280px] max-w-full"
+    />
 
-  <div class="min-h-0 flex-1 overflow-auto">
-    <div class="mx-auto max-w-[680px] px-rule py-rule">
-      <img
-        src="/tayan-logo.png"
-        alt="TAYAN — Soru Bankası ve Typst Editörü"
-        class="block w-[280px] max-w-full"
-      />
+    <P class="mt-6 text-gray-700 dark:text-gray-300">
+      <strong class="text-gray-900 dark:text-white">TAYAN</strong>, öğretmenlerin sınav sorusu
+      yazması, sınav kurması ve sonuçları çözümlemesi için yapılmış çevrimdışı bir masaüstü
+      uygulamasıdır. Sorular <A href="https://typst.app" target="_blank" rel="noreferrer"
+        >Typst</A
+      > ile dizilir; kâğıda basılan ile ekranda görülen aynıdır.
+    </P>
 
-      <p class="mt-rule leading-rule">
-        <strong>TAYAN</strong>, öğretmenlerin sınav sorusu yazması, sınav kurması ve
-        sonuçları çözümlemesi için yapılmış çevrimdışı bir masaüstü uygulamasıdır.
-        Sorular <a href="https://typst.app" target="_blank" rel="noreferrer">Typst</a>
-        ile dizilir; kâğıda basılan ile ekranda görülen aynıdır.
-      </p>
+    <dl
+      class="mt-6 grid grid-cols-[130px_1fr] gap-x-2.5 gap-y-2.5 border-t border-gray-200 pt-2.5
+             text-sm dark:border-gray-700"
+    >
+      <dt class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
+        Sürüm
+      </dt>
+      <dd class="tnum text-gray-900 dark:text-white">{SURUM}</dd>
 
-      <dl
-        class="mt-rule grid grid-cols-[130px_1fr] gap-x-half gap-y-half border-t border-rule pt-half"
-      >
-        <dt class="stamp">Sürüm</dt>
-        <dd class="tnum">{SURUM}</dd>
+      <dt class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
+        Geliştiren
+      </dt>
+      <dd class="text-gray-900 dark:text-white">Hakan Gülen</dd>
 
-        <dt class="stamp">Geliştiren</dt>
-        <dd>Hakan Gülen</dd>
+      <dt class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
+        Kurum
+      </dt>
+      <dd class="text-gray-900 dark:text-white">
+        Atatürk Mesleki ve Teknik Anadolu Lisesi<br />
+        <span class="text-xs text-gray-500 dark:text-gray-400"
+          >Elektrik-Elektronik Teknolojisi Alanı</span
+        >
+      </dd>
 
-        <dt class="stamp">Kurum</dt>
-        <dd>
-          Atatürk Mesleki ve Teknik Anadolu Lisesi<br />
-          <span class="pencil">Elektrik-Elektronik Teknolojisi Alanı</span>
-        </dd>
+      <dt class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
+        Lisans
+      </dt>
+      <dd class="text-gray-900 dark:text-white">Apache License 2.0</dd>
 
-        <dt class="stamp">Lisans</dt>
-        <dd>Apache License 2.0</dd>
+      <dt class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
+        Kaynak kod
+      </dt>
+      <dd>
+        <A
+          href="https://github.com/Ataturk-MTAL/tayan"
+          target="_blank"
+          rel="noreferrer"
+          class="font-mono text-xs">github.com/Ataturk-MTAL/tayan</A
+        >
+      </dd>
+    </dl>
 
-        <dt class="stamp">Kaynak kod</dt>
-        <dd>
-          <a
-            href="https://github.com/Ataturk-MTAL/tayan"
-            target="_blank"
-            rel="noreferrer"
-            class="font-mono text-[12px]">github.com/Ataturk-MTAL/tayan</a
-          >
-        </dd>
-      </dl>
+    <Heading
+      tag="h2"
+      class="mt-6 border-t border-gray-200 pt-2.5 text-base font-semibold text-gray-900
+             dark:border-gray-700 dark:text-white"
+    >
+      Kullanılan açık kaynak bileşenler
+    </Heading>
+    <P class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+      TAYAN bu bileşenler olmadan var olamazdı. Her biri kendi lisansı altındadır.
+    </P>
 
-      <h2 class="stamp mt-rule border-t border-rule-strong pt-half">
-        Kullanılan açık kaynak bileşenler
-      </h2>
-      <p class="pencil mt-quarter">
-        TAYAN bu bileşenler olmadan var olamazdı. Her biri kendi lisansı
-        altındadır.
-      </p>
+    <Heading
+      tag="h3"
+      class="mt-4 text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400"
+    >
+      Dizgi ve uygulama çatısı
+    </Heading>
+    <ul class="mt-1 divide-y divide-gray-200 dark:divide-gray-700">
+      {#each CEKIRDEK as b (b.ad)}
+        <li class="flex items-center justify-between gap-2.5 py-1.5">
+          <span class="min-w-0 text-sm text-gray-700 dark:text-gray-300">
+            <span class="font-mono text-xs text-gray-900 dark:text-white">{b.ad}</span>
+            <span class="text-gray-500 dark:text-gray-400">{b.surum}</span> — {b.ne}
+          </span>
+          <Badge color="gray" class="shrink-0">{b.lisans}</Badge>
+        </li>
+      {/each}
+    </ul>
 
-      <h3 class="stamp mt-half">Dizgi ve uygulama çatısı</h3>
-      <ul class="mt-quarter">
-        {#each CEKIRDEK as b (b.ad)}
-          <li class="flex justify-between gap-half border-b border-rule py-[2px]">
-            <span class="annot">
-              <span class="font-mono text-[12px]">{b.ad}</span>
-              <span class="pencil">{b.surum}</span> — {b.ne}
-            </span>
-            <span class="pencil shrink-0">{b.lisans}</span>
-          </li>
-        {/each}
-      </ul>
+    <Heading
+      tag="h3"
+      class="mt-4 text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400"
+    >
+      Gömülü Typst paketleri
+    </Heading>
+    <P class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+      Uygulamanın içine gömülüdürler; internet olmadan da çalışsın diye. Kaynak hâlleriyle
+      dağıtılırlar, yani değiştirilebilirler.
+    </P>
+    <ul class="mt-1 divide-y divide-gray-200 dark:divide-gray-700">
+      {#each PAKETLER as p (p.ad)}
+        <li class="flex items-center justify-between gap-2.5 py-1.5">
+          <span class="min-w-0 text-sm text-gray-700 dark:text-gray-300">
+            <span class="font-mono text-xs text-gray-900 dark:text-white">{p.ad}</span>
+            <span class="text-gray-500 dark:text-gray-400">{p.surum}</span> — {p.ne}
+          </span>
+          <Badge color="gray" class="shrink-0">{p.lisans}</Badge>
+        </li>
+      {/each}
+    </ul>
 
-      <h3 class="stamp mt-half">Gömülü Typst paketleri</h3>
-      <p class="pencil mt-quarter">
-        Uygulamanın içine gömülüdürler; internet olmadan da çalışsın diye.
-        Kaynak hâlleriyle dağıtılırlar, yani değiştirilebilirler.
-      </p>
-      <ul class="mt-quarter">
-        {#each PAKETLER as p (p.ad)}
-          <li class="flex justify-between gap-half border-b border-rule py-[2px]">
-            <span class="annot">
-              <span class="font-mono text-[12px]">{p.ad}</span>
-              <span class="pencil">{p.surum}</span> — {p.ne}
-            </span>
-            <span class="pencil shrink-0">{p.lisans}</span>
-          </li>
-        {/each}
-      </ul>
+    <Heading
+      tag="h3"
+      class="mt-4 text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400"
+    >
+      Yazı tipleri
+    </Heading>
+    <ul class="mt-1 divide-y divide-gray-200 dark:divide-gray-700">
+      {#each YAZI_TIPLERI as y (y.ad)}
+        <li class="flex items-center justify-between gap-2.5 py-1.5">
+          <span class="min-w-0 text-sm text-gray-700 dark:text-gray-300">
+            <span class="font-mono text-xs text-gray-900 dark:text-white">{y.ad}</span> — {y.ne}
+          </span>
+          <Badge color="gray" class="shrink-0">{y.lisans}</Badge>
+        </li>
+      {/each}
+    </ul>
 
-      <h3 class="stamp mt-half">Yazı tipleri</h3>
-      <ul class="mt-quarter">
-        {#each YAZI_TIPLERI as y (y.ad)}
-          <li class="flex justify-between gap-half border-b border-rule py-[2px]">
-            <span class="annot">
-              <span class="font-mono text-[12px]">{y.ad}</span> — {y.ne}
-            </span>
-            <span class="pencil shrink-0">{y.lisans}</span>
-          </li>
-        {/each}
-      </ul>
+    <P class="mt-4 text-sm text-gray-500 dark:text-gray-400">
+      Yukarıdakiler doğrudan kullanılan bileşenler. Onların da kendi bağımlılıkları var: toplam
+      <b class="text-gray-700 dark:text-gray-300">{NPM_SAYISI}</b> JavaScript paketi ve
+      <b class="text-gray-700 dark:text-gray-300">{CRATE_SAYISI}</b> Rust crate'i. Büyük çoğunluğu
+      MIT, ISC ve Apache-2.0. Tam liste depodaki
+      <span class="font-mono text-xs">NOTICE</span> ve
+      <span class="font-mono text-xs">THIRD-PARTY.md</span> dosyalarındadır.
+    </P>
 
-      <p class="pencil mt-half">
-        Yukarıdakiler doğrudan kullanılan bileşenler. Onların da kendi
-        bağımlılıkları var: toplam <b>{NPM_SAYISI}</b> JavaScript paketi ve
-        <b>{CRATE_SAYISI}</b> Rust crate'i. Büyük çoğunluğu MIT, ISC ve
-        Apache-2.0. Tam liste depodaki
-        <span class="font-mono text-[12px]">NOTICE</span> ve
-        <span class="font-mono text-[12px]">THIRD-PARTY.md</span> dosyalarındadır.
-      </p>
+    <P class="mt-6 border-t border-gray-200 pt-2.5 text-sm text-gray-500 dark:border-gray-700 dark:text-gray-400">
+      Telif hakkı &copy; 2026 Hakan Gülen. TAYAN açık kaynaktır ve Apache License, Version 2.0
+      koşullarıyla dağıtılır.
+    </P>
 
-      <p class="pencil mt-rule border-t border-rule pt-half">
-        Telif hakkı &copy; 2026 Hakan Gülen. TAYAN açık kaynaktır ve Apache License,
-        Version 2.0 koşullarıyla dağıtılır.
-      </p>
-
-      <p class="pencil mt-half">
-        Uygulama tamamen çevrimdışıdır: hesap açılmaz, veri toplanmaz, hiçbir bilgi
-        dışarı gönderilmez. Soru bankası, sınavlar, sınıflar ve sonuçlar yalnızca bu
-        bilgisayarda durur.
-      </p>
-    </div>
+    <P class="mt-2.5 text-sm text-gray-500 dark:text-gray-400">
+      Uygulama tamamen çevrimdışıdır: hesap açılmaz, veri toplanmaz, hiçbir bilgi dışarı
+      gönderilmez. Soru bankası, sınavlar, sınıflar ve sonuçlar yalnızca bu bilgisayarda durur.
+    </P>
   </div>
-</div>
+</PageShell>

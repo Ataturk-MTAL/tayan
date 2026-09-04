@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Spinner } from "flowbite-svelte";
   import TypstSource from "./TypstSource.svelte";
   import SheetPreview from "./SheetPreview.svelte";
   import FloatingPalette from "./FloatingPalette.svelte";
@@ -243,19 +244,28 @@
     görünüm modu ve kaydetme — ikisi de bir bölmeye ait değil.
   -->
   <div
-    class="ruled-bottom paper-plain flex shrink-0 items-center gap-half bg-paper-lift
-           px-half py-quarter"
+    class="flex shrink-0 items-center gap-2 border-b border-gray-200 bg-white px-3 py-2
+           dark:border-gray-700 dark:bg-gray-800"
   >
-    <div class="flex items-stretch border border-rule-strong">
+    <!-- Görünüm modu: ThemeToggle ile aynı kalıp — kapalı gri iz, aktif beyaz/koyu segment. -->
+    <div
+      class="flex items-center gap-1 rounded-lg bg-gray-100 p-1 dark:bg-gray-700/60"
+      role="group"
+      aria-label="Görünüm modu"
+    >
       {#each MODES as m (m.id)}
         <button
           type="button"
-          class="border-r border-rule px-half py-quarter text-[12px] leading-rule
-                 transition-colors last:border-r-0 hover:text-red-deep"
-          class:bg-paper-sunk={layout.mode === m.id}
-          class:font-semibold={layout.mode === m.id}
-          class:text-ink={layout.mode === m.id}
-          class:text-pencil={layout.mode !== m.id}
+          class="rounded-md px-3 py-1 text-xs font-medium transition-colors"
+          class:bg-white={layout.mode === m.id}
+          class:shadow-sm={layout.mode === m.id}
+          class:text-primary-700={layout.mode === m.id}
+          class:dark:bg-gray-800={layout.mode === m.id}
+          class:dark:text-primary-300={layout.mode === m.id}
+          class:text-gray-500={layout.mode !== m.id}
+          class:hover:text-gray-900={layout.mode !== m.id}
+          class:dark:text-gray-400={layout.mode !== m.id}
+          class:dark:hover:text-white={layout.mode !== m.id}
           aria-pressed={layout.mode === m.id}
           title={m.title}
           onclick={() => setMode(m.id)}
@@ -266,10 +276,16 @@
     </div>
 
     {#if imageError}
-      <span class="annot">{imageError}</span>
+      <span class="text-xs text-red-600 dark:text-red-400">{imageError}</span>
     {/if}
 
-    <span class="annot ml-auto" class:invisible={!slowCompile}>derleniyor…</span>
+    <span
+      class="ml-auto flex items-center gap-1.5 text-xs text-gray-500 dark:text-gray-400"
+      class:invisible={!slowCompile}
+    >
+      <Spinner size="4" />
+      derleniyor…
+    </span>
 
     <PenButton kind="ink" disabled={saving || structureError !== null} onclick={onsave}>
       {saveLabel}
@@ -300,7 +316,8 @@
         <section
           class="relative flex min-h-0 min-w-[320px] flex-1 basis-0 flex-col"
           class:border-r={layout.mode === "split"}
-          class:border-rule-strong={layout.mode === "split"}
+          class:border-gray-200={layout.mode === "split"}
+          class:dark:border-gray-700={layout.mode === "split"}
         >
           <!--
             Sekmeler YALNIZ açık uçlu soruda. Örnek cevap alanı yalnız orada
@@ -308,21 +325,28 @@
             "Cevap" sekmesi öğretmeni yanıltırdı.
           -->
           {#if hasAnswerTab}
-            <div class="ruled-bottom flex shrink-0 gap-0 px-rule">
+            <div
+              class="flex shrink-0 gap-0 border-b border-gray-200 px-3 dark:border-gray-700"
+            >
               {#each [{ id: "question" as const, ad: "Soru" }, { id: "answer" as const, ad: "Cevap" }] as sekme (sekme.id)}
                 <button
                   type="button"
-                  class="stamp border-b-2 px-half py-quarter leading-rule transition-colors"
-                  class:border-red={sourceTab === sekme.id}
-                  class:text-red-deep={sourceTab === sekme.id}
+                  class="border-b-2 px-3 py-1.5 text-sm font-medium transition-colors"
+                  class:border-primary-600={sourceTab === sekme.id}
+                  class:text-primary-700={sourceTab === sekme.id}
+                  class:dark:border-primary-400={sourceTab === sekme.id}
+                  class:dark:text-primary-400={sourceTab === sekme.id}
                   class:border-transparent={sourceTab !== sekme.id}
-                  class:text-ink-mid={sourceTab !== sekme.id}
+                  class:text-gray-500={sourceTab !== sekme.id}
+                  class:hover:text-gray-700={sourceTab !== sekme.id}
+                  class:dark:text-gray-400={sourceTab !== sekme.id}
+                  class:dark:hover:text-gray-200={sourceTab !== sekme.id}
                   onclick={() => (sourceTab = sekme.id)}
                 >
                   {sekme.ad}
                 </button>
               {/each}
-              <span class="pencil ml-auto self-center">
+              <span class="ml-auto self-center text-xs text-gray-400 dark:text-gray-500">
                 {sourceTab === "answer"
                   ? "Yalnız cevap anahtarına basılır"
                   : "Öğrenci kâğıdına basılır"}
@@ -369,7 +393,10 @@
   </div>
 
   {#if answer}
-    <div class="ruled-top paper-plain max-h-[240px] shrink-0 overflow-auto bg-paper px-rule py-half">
+    <div
+      class="max-h-[240px] shrink-0 overflow-auto border-t border-gray-200 bg-white px-4 py-3
+             dark:border-gray-700 dark:bg-gray-800"
+    >
       {@render answer()}
     </div>
   {/if}

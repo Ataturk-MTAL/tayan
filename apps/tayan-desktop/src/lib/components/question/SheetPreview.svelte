@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Alert } from "flowbite-svelte";
   import SheetPage from "./SheetPage.svelte";
   import PreviewZoom from "./PreviewZoom.svelte";
 
@@ -102,34 +103,43 @@
   <PreviewZoom {zoom} onzoom={setZoom} onfit={fit} />
 
   <!--
-    Kâğıt masadan kalkan tek nesnedir; gölge burada gerçektir, süs değil.
-    Uzun süren derlemede kâğıt soldurulmaz — kenarda ince bir çizgi belirir,
-    böylece okunan metin bozulmadan durur.
+    Basılacak kâğıt uzun süren derlemede SOLDURULMAZ — önceki sayfa okunur
+    kalır. Bunun yerine üstte ince bir çubuk belirir. Kırmızı DEĞİL: bu bir
+    hata değil, yalnızca "hâlâ hesaplanıyor" bilgisi — kırmızı bu uygulamada
+    yalnızca değerlendirme/hata kanalına ayrılmış (bkz. app.css).
   -->
   {#if stale}
-    <div class="h-[2px] w-full shrink-0 bg-red" aria-hidden="true"></div>
+    <div class="h-0.5 w-full shrink-0 bg-primary-400 dark:bg-primary-500" aria-hidden="true"></div>
   {/if}
 
+  <!--
+    Kâğıdın çevresi koyu kipe uyar, kâğıdın KENDİSİ (SheetPage içinde) her
+    zaman beyaz kalır — basılacak sayfa gerçekte de beyaz kâğıttır.
+  -->
   <div
-    class="min-h-0 flex-1 overflow-auto bg-paper-sunk paper-grid"
+    class="min-h-0 flex-1 overflow-auto bg-gray-100 dark:bg-gray-900"
     bind:this={scroller}
     onwheel={onWheel}
   >
     {#if error}
-      <div class="p-rule">
-        <p class="stamp mb-half">Derlenmedi</p>
-        <pre class="annot whitespace-pre-wrap font-mono text-[12px] leading-[20px]">{error}</pre>
-        <p class="pencil mt-rule">Son çalışan sayfa aşağıda duruyor.</p>
+      <div class="p-4">
+        <Alert color="red">
+          <span class="font-semibold">Derlenmedi</span>
+          <pre
+            class="mt-2 max-h-64 overflow-auto whitespace-pre-wrap font-mono text-xs leading-5"
+          >{error}</pre>
+          <p class="mt-2 text-xs opacity-80">Son çalışan sayfa aşağıda duruyor.</p>
+        </Alert>
       </div>
     {/if}
 
     {#if safePages.length === 0 && !error}
       <div class="flex h-full items-center justify-center">
-        <p class="pencil">Sayfa henüz derlenmedi.</p>
+        <p class="text-sm text-gray-500 dark:text-gray-400">Sayfa henüz derlenmedi.</p>
       </div>
     {/if}
 
-    <div class="flex min-w-fit flex-col items-center gap-rule p-rule">
+    <div class="flex min-w-fit flex-col items-center gap-5 p-5">
       {#each safePages as page, i (i)}
         <SheetPage svg={page} {zoom} />
       {/each}

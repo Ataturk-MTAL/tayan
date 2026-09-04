@@ -30,56 +30,67 @@
     return t !== "" ? t : bodyPreview(q.body, 46);
   }
 
-  /** Yığılmış çubuğun parçaları. Sıra bilinçli: doğru → kısmi → yanlış → boş. */
+  /**
+   * Yığılmış çubuğun parçaları. Sıra bilinçli: doğru → kısmi → yanlış → boş.
+   *
+   * Renkler: doğru/kısmi ANA VERİ (koyu/orta gri), yanlış TEK KIRMIZI —
+   * kırmızı burada da yalnız değerlendirme demek. Boş, ızgara tonunda nötr;
+   * "cevaplanmadı" bir hata değil, ölçülememiş bir hücre.
+   */
   function parcalar(item: ItemStat) {
     const n = item.correct + item.partial + item.wrong + item.blank;
     if (n === 0) return [];
     return [
-      { ad: "doğru", say: item.correct, sinif: "bg-ink" },
-      { ad: "kısmi", say: item.partial, sinif: "bg-ink/45" },
-      { ad: "yanlış", say: item.wrong, sinif: "bg-red" },
-      { ad: "boş", say: item.blank, sinif: "bg-rule-strong" },
+      { ad: "doğru", say: item.correct, sinif: "bg-gray-800 dark:bg-gray-200" },
+      { ad: "kısmi", say: item.partial, sinif: "bg-gray-400 dark:bg-gray-500" },
+      { ad: "yanlış", say: item.wrong, sinif: "bg-red-600 dark:bg-red-400" },
+      { ad: "boş", say: item.blank, sinif: "bg-gray-300 dark:bg-gray-600" },
     ]
       .filter((p) => p.say > 0)
       .map((p) => ({ ...p, yuzde: (p.say / n) * 100 }));
   }
 </script>
 
-<figure class="m-0">
-  <figcaption class="stamp">Soru soru</figcaption>
+<figure
+  class="m-0 rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800"
+>
+  <figcaption class="text-[11px] font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">
+    Soru soru
+  </figcaption>
 
   {#if items.length === 0}
-    <p class="pencil mt-quarter">Sonuç girilmemiş.</p>
+    <p class="mt-[5px] text-[12px] leading-5 text-gray-500 dark:text-gray-400">Sonuç girilmemiş.</p>
   {:else}
-    <div class="mt-quarter flex flex-wrap gap-half">
-      <span class="pencil"><span class="mr-[3px] inline-block h-[8px] w-[8px] bg-ink align-middle"></span>doğru</span>
-      <span class="pencil"><span class="mr-[3px] inline-block h-[8px] w-[8px] bg-ink/45 align-middle"></span>kısmi</span>
-      <span class="pencil"><span class="mr-[3px] inline-block h-[8px] w-[8px] bg-red align-middle"></span>yanlış</span>
-      <span class="pencil"><span class="mr-[3px] inline-block h-[8px] w-[8px] bg-rule-strong align-middle"></span>boş</span>
+    <div class="mt-[5px] flex flex-wrap gap-2.5 text-[12px] leading-5 text-gray-500 dark:text-gray-400">
+      <span><span class="mr-[3px] inline-block h-[8px] w-[8px] bg-gray-800 align-middle dark:bg-gray-200"></span>doğru</span>
+      <span><span class="mr-[3px] inline-block h-[8px] w-[8px] bg-gray-400 align-middle dark:bg-gray-500"></span>kısmi</span>
+      <span><span class="mr-[3px] inline-block h-[8px] w-[8px] bg-red-600 align-middle dark:bg-red-400"></span>yanlış</span>
+      <span><span class="mr-[3px] inline-block h-[8px] w-[8px] bg-gray-300 align-middle dark:bg-gray-600"></span>boş</span>
     </div>
 
-    <table class="mt-half w-full border-collapse">
+    <table class="mt-2.5 w-full border-collapse">
       <thead>
-        <tr class="ruled-bottom">
-          <th class="stamp w-[1.5rem] text-left font-normal">#</th>
-          <th class="stamp text-left font-normal">Soru</th>
-          <th class="stamp w-[34%] text-left font-normal">Dağılım</th>
-          <th class="stamp w-[3.5rem] text-right font-normal">Güçlük</th>
-          <th class="stamp w-[4.5rem] text-right font-normal">Ayırt</th>
+        <tr class="border-b border-gray-300 dark:border-gray-600">
+          <th class="w-[1.5rem] text-left text-[11px] font-normal uppercase tracking-wider text-gray-500 dark:text-gray-400">#</th>
+          <th class="text-left text-[11px] font-normal uppercase tracking-wider text-gray-500 dark:text-gray-400">Soru</th>
+          <th class="w-[34%] text-left text-[11px] font-normal uppercase tracking-wider text-gray-500 dark:text-gray-400">Dağılım</th>
+          <th class="w-[3.5rem] text-right text-[11px] font-normal uppercase tracking-wider text-gray-500 dark:text-gray-400">Güçlük</th>
+          <th class="w-[4.5rem] text-right text-[11px] font-normal uppercase tracking-wider text-gray-500 dark:text-gray-400">Ayırt</th>
         </tr>
       </thead>
       <tbody>
         {#each items as item (item.questionId)}
           {@const uyari = needsReview(item)}
-          <tr class="border-b border-rule align-top">
-            <td class="tnum pencil py-quarter">{item.order}</td>
-            <td class="py-quarter pr-half">
-              <span class="annot">{baslik(item)}</span>
+          <tr class="border-b border-gray-200 align-top dark:border-gray-700">
+            <td class="tnum py-[5px] text-[12px] leading-5 text-gray-500 dark:text-gray-400">{item.order}</td>
+            <td class="py-[5px] pr-2.5">
+              <span class="text-[12px] leading-5 text-gray-900 dark:text-white">{baslik(item)}</span>
               {#if uyari}
-                <span class="pencil block text-red-deep">{uyari}</span>
+                <!-- Gözden geçirme uyarısı GERÇEK bir değerlendirme sonucu: kırmızı burada doğru yerinde. -->
+                <span class="block text-[12px] leading-5 text-red-600 dark:text-red-400">{uyari}</span>
               {/if}
             </td>
-            <td class="py-quarter pr-half">
+            <td class="py-[5px] pr-2.5">
               <!--
                 Yığılmış çubuk: sınıfın bu soruda nasıl dağıldığı. Parçalar
                 arasında 1px kâğıt boşluğu var, yoksa iki koyu parça tek parça
@@ -91,14 +102,17 @@
                 {/each}
               </div>
             </td>
-            <td class="tnum annot py-quarter text-right">
+            <td class="tnum py-[5px] text-right text-[12px] leading-5 text-gray-700 dark:text-gray-300">
               {(item.difficulty * 100).toFixed(0)}%
             </td>
-            <td class="tnum annot py-quarter text-right">
+            <td class="tnum py-[5px] text-right text-[12px] leading-5 text-gray-700 dark:text-gray-300">
               {#if item.discrimination === null}
-                <span class="pencil">—</span>
+                <span class="text-gray-500 dark:text-gray-400">—</span>
               {:else}
-                <span class:text-red-deep={item.discrimination < 0.2}>
+                <span
+                  class:text-red-600={item.discrimination < 0.2}
+                  class:dark:text-red-400={item.discrimination < 0.2}
+                >
                   {item.discrimination.toFixed(2)}
                 </span>
               {/if}
@@ -108,7 +122,7 @@
       </tbody>
     </table>
 
-    <p class="annot mt-quarter">
+    <p class="mt-2.5 text-[12px] leading-5 text-gray-700 dark:text-gray-300">
       <b>Güçlük</b>, sınıfın o sorudan aldığı puanın alınabilecek puana oranı:
       yüksek değer soru kolay demek. <b>Ayırt edicilik</b>, üst %27 ile alt %27
       arasındaki fark; 0.20'nin altı sorunun iyi ve zayıf öğrenciyi
@@ -116,7 +130,7 @@
     </p>
 
     {#if studentCount < MIN_DISCRIMINATION_N}
-      <p class="pencil mt-quarter">
+      <p class="mt-2.5 text-[12px] leading-5 text-gray-500 dark:text-gray-400">
         Ayırt edicilik hesaplanmadı: {studentCount} öğrenci var,
         {MIN_DISCRIMINATION_N} gerekiyor. Daha az kişide üst dilim bir iki
         öğrenciye iner ve çıkan sayı sorunun niteliğini değil, o öğrencilerin

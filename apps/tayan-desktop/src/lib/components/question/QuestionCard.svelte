@@ -120,13 +120,18 @@
   {#if svg !== null}
     {@html svg}
   {:else if failed}
-    <p class="annot p-half text-[11px]">Dizilemedi — açıp bakınca hata görünür</p>
+    <p class="p-2 text-[11px] text-red-600">Dizilemedi — açıp bakınca hata görünür</p>
   {:else}
-    <div class="skeleton"></div>
+    <div class="skeleton animate-pulse"></div>
   {/if}
 </div>
 
 <style>
+  /*
+    Kâğıt her zaman beyaz — koyu kipte bile. Kartın dizgisi basılacak sayfanın
+    kendisi; içindeki metin ve iskelet rengi de bu yüzden koyu kipten
+    ETKİLENMİYOR, tıpkı SheetPreview'deki kâğıt gibi.
+  */
   .thumb {
     background: #ffffff;
     overflow: hidden;
@@ -140,6 +145,6 @@
   }
   .skeleton {
     height: 110px;
-    background: var(--color-paper-sunk);
+    background: #e5e7eb;
   }
 </style>

@@ -88,63 +88,71 @@
   }
 </script>
 
-<figure class="m-0">
-  <figcaption class="stamp">Puan dağılımı</figcaption>
+<figure
+  class="m-0 rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800"
+>
+  <figcaption class="text-[11px] font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">
+    Puan dağılımı
+  </figcaption>
 
   {#if stats === null}
-    <p class="pencil mt-quarter">Sonuç girilmemiş.</p>
+    <p class="mt-[5px] text-[12px] leading-5 text-gray-500 dark:text-gray-400">Sonuç girilmemiş.</p>
   {:else}
     <svg
-      class="mt-half w-full"
+      class="mt-2.5 w-full"
       viewBox="0 0 {W} {H + SERIT}"
       role="img"
       aria-label="Puan dağılım eğrisi: yatay eksen puan, dikey eksen frekans"
     >
-      <line x1={SOL} y1={0} x2={SOL} y2={H - ALT} stroke="var(--color-rule-strong)" />
-      <line x1={SOL} y1={H - ALT} x2={W} y2={H - ALT} stroke="var(--color-rule-strong)" />
+      <!-- Eksen ve ızgara: veri değil, okuma çerçevesi — soluk gri. -->
+      <line x1={SOL} y1={0} x2={SOL} y2={H - ALT} class="stroke-gray-300 dark:stroke-gray-600" />
+      <line x1={SOL} y1={H - ALT} x2={W} y2={H - ALT} class="stroke-gray-300 dark:stroke-gray-600" />
 
       {#each yTikler as t (t)}
         <text
           x={SOL - 4}
           y={y(t) + 3}
           text-anchor="end"
-          class="fill-ink-mid"
+          class="fill-gray-500 dark:fill-gray-400"
           style="font-size: 8px; font-variant-numeric: tabular-nums"
         >
           {t}
         </text>
       {/each}
 
+      <!-- Ana veri: eğrinin kendisi, koyu gri/lacivert — değerlendirme değil, ölçüm. -->
       {#if egri.length > 0}
-        <path d={alan(egri) ?? ""} class="fill-ink" opacity="0.14" />
-        <path d={cizgi(egri) ?? ""} fill="none" class="stroke-ink" stroke-width="1.6" />
+        <path d={alan(egri) ?? ""} class="fill-gray-800 dark:fill-gray-200" opacity="0.14" />
+        <path d={cizgi(egri) ?? ""} fill="none" class="stroke-gray-800 dark:stroke-gray-200" stroke-width="1.6" />
       {/if}
 
+      <!-- Geçme eşiği: değerlendirme çizgisi, kırmızı. -->
       <line
         x1={x(kirp(threshold))}
         y1={0}
         x2={x(kirp(threshold))}
         y2={H - ALT}
-        stroke="var(--color-red)"
+        class="stroke-red-600 dark:stroke-red-400"
         stroke-dasharray="3 3"
       >
         <title>Geçme eşiği %{threshold}</title>
       </line>
 
+      <!-- Mod/medyan/ortalama çizgileri de değerlendirme okuması: aynı kırmızı. -->
       {#each isaretler as m (m.ad)}
         <line
           x1={x(kirp(m.deger))}
           y1={0}
           x2={x(kirp(m.deger))}
           y2={H - ALT}
-          stroke="var(--color-red-deep)"
+          class="stroke-red-600 dark:stroke-red-400"
         >
           <title>{m.ad}: %{m.deger.toFixed(1)}</title>
         </line>
         <text
           x={x(kirp(m.deger)) + 3}
           y={m.dy}
-          class="fill-red-deep"
+          class="fill-red-600 dark:fill-red-400"
           style="font-size: 8px"
         >
           {m.ad}
@@ -154,13 +162,14 @@
       <!--
         Ham puanlar. Eğri bir KESTİRİM; noktalar gerçeğin kendisi. İkisi aynı
         eksende yan yana durunca eğrinin nerede yumuşattığı da görünüyor.
+        Eşiğin altındaki nokta kırmızı — bu da bir değerlendirme okuması.
       -->
       {#each percentages as p, i (i)}
         <circle
           cx={x(kirp(p))}
           cy={H - ALT + 9}
           r="2.5"
-          class={p >= threshold ? "fill-ink" : "fill-red"}
+          class={p >= threshold ? "fill-gray-800 dark:fill-gray-200" : "fill-red-600 dark:fill-red-400"}
         >
           <title>%{p.toFixed(0)}</title>
         </circle>
@@ -171,7 +180,7 @@
           x={x(t)}
           y={H + SERIT - 2}
           text-anchor={t === 0 ? "start" : t >= 100 ? "end" : "middle"}
-          class="fill-ink-mid"
+          class="fill-gray-500 dark:fill-gray-400"
           style="font-size: 8px; font-variant-numeric: tabular-nums"
         >
           {t}
@@ -180,12 +189,12 @@
     </svg>
 
     {#if egri.length === 0}
-      <p class="pencil mt-quarter">
+      <p class="mt-[5px] text-[12px] leading-5 text-gray-500 dark:text-gray-400">
         Eğri çizilmedi: {stats.n} öğrenciyle ya da herkes aynı puanı aldığında
         dağılımın şekli hesaplanamıyor. Alttaki noktalar ham puanları gösteriyor.
       </p>
     {:else}
-      <p class="pencil mt-quarter">
+      <p class="mt-[5px] text-[12px] leading-5 text-gray-500 dark:text-gray-400">
         Yatay: puan · Dikey: frekans. Kesikli çizgi geçme eşiği; koyu çizgiler
         mod, medyan ve ortalama. Alttaki noktalar tek tek öğrenciler.
       </p>
@@ -196,23 +205,28 @@
       altına uzun bir metin kuyruğu ekliyordu; beş sayı yan yana tek bakışta
       okunuyor ve mod/medyan/ortalama sırası da böyle görünüyor.
     -->
-    <dl class="ruled-top mt-quarter flex flex-wrap gap-x-rule gap-y-quarter pt-quarter">
+    <dl class="mt-[5px] flex flex-wrap gap-x-5 gap-y-[5px] border-t border-gray-300 pt-[5px] dark:border-gray-600">
       {#each [["Mod", stats.mode === null ? "—" : stats.mode.toFixed(0)], ["Medyan", stats.median.toFixed(1)], ["Ortalama", stats.mean.toFixed(1)], ["Std. sapma", stats.sd.toFixed(1)], ["Çarpıklık", stats.skewness === null ? "—" : stats.skewness.toFixed(2)]] as [ad, deger] (ad)}
         <div>
-          <dt class="pencil">{ad}</dt>
-          <dd class="tnum text-[15px] leading-rule">{deger}</dd>
+          <dt class="text-[12px] leading-5 text-gray-500 dark:text-gray-400">{ad}</dt>
+          <dd class="tnum text-[15px] leading-5 text-gray-900 dark:text-white">{deger}</dd>
         </div>
       {/each}
     </dl>
 
-    <p class="annot mt-quarter text-red-deep">{skewLabel(stats.skewness)}</p>
+    <!--
+      Çarpıklık sözü her zaman kırmızı DEĞİL: yön olumlu da olabilir ("sola
+      çarpık — sınıf başarılı"). Kırmızı yalnız değerlendirme/olumsuz bulgu
+      içindir; burası nötr açıklama.
+    -->
+    <p class="mt-[5px] text-[12px] leading-5 text-gray-700 dark:text-gray-300">{skewLabel(stats.skewness)}</p>
 
     <!--
       Uyarılar tek satıra indi. Paragraf paragraf açıklama, dashboard'da
       okunmuyor ve yerleşimi bozuyor; sebep kısa, ayrıntı yardım sayfasında.
     -->
     {#if stats.mode === null || stats.n < MIN_CARPIKLIK_N}
-      <ul class="pencil mt-quarter">
+      <ul class="mt-[5px] text-[12px] leading-5 text-gray-500 dark:text-gray-400">
         {#if stats.mode === null}
           <li>Tepe noktası yok — hiçbir puan aralığında yığılma oluşmamış.</li>
         {/if}

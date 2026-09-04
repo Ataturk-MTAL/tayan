@@ -1,5 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
+  import { Alert, Card } from "flowbite-svelte";
+  import PageShell from "$lib/components/shell/PageShell.svelte";
   import { api } from "$lib/api";
   import { errorText } from "$lib/editor/diagnostics";
   import type { Exam, Question } from "$lib/types";
@@ -26,69 +28,65 @@
   let drafts = $derived(exams.filter((e) => e.status === "Draft").length);
 </script>
 
-<!--
-  Üç çekirdek eşit ağırlıkta: dizgi, ölçüm, hız. Hiçbiri diğerinin alt sekmesi
-  değil, bu yüzden üçü de aynı genişlikte cetvelli bölge.
--->
-<div class="h-full overflow-auto">
-  <div class="mx-auto max-w-[900px] px-rule py-rule">
-    <h1>Bugün ne yapacaksın?</h1>
-
+<PageShell title="Bugün ne yapacaksın?">
+  <div class="mx-auto max-w-[900px]">
     {#if loadError}
-      <p class="annot mt-half">{loadError}</p>
+      <Alert color="red" class="mb-6">{loadError}</Alert>
     {/if}
 
-    <div class="mt-rule grid grid-cols-3 border-t border-l border-rule-strong">
-      <a
-        href="/questions/new"
-        class="border-r border-b border-rule-strong bg-paper-lift p-rule no-underline
-               transition-colors hover:bg-paper-sunk"
-      >
-        <h2>Soru yaz</h2>
-        <p class="pencil mt-quarter">
+    <!--
+      Üç çekirdek eşit ağırlıkta: dizgi, ölçüm, hız. Hiçbiri diğerinin alt sekmesi
+      değil, bu yüzden üçü de aynı boyutta kart.
+    -->
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+      <Card href="/questions/new" size="xl" class="hover:bg-gray-50 dark:hover:bg-gray-700">
+        <h2 class="text-lg font-semibold text-gray-900 dark:text-white">Soru yaz</h2>
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
           Typst kaynağını yaz, kâğıda ne basılacağını yanında gör.
         </p>
-        <p class="mt-half text-[28px] font-bold leading-[40px] tnum">
+        <p class="mt-4 text-[28px] font-bold leading-[40px] tnum text-gray-900 dark:text-white">
           {loading ? "—" : questions.length}
         </p>
-        <p class="stamp">bankadaki soru</p>
-      </a>
+        <p class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
+          bankadaki soru
+        </p>
+      </Card>
 
-      <a
-        href="/exams/new"
-        class="border-r border-b border-rule-strong bg-paper-lift p-rule no-underline
-               transition-colors hover:bg-paper-sunk"
-      >
-        <h2>Sınav kur</h2>
-        <p class="pencil mt-quarter">
+      <Card href="/exams/new" size="xl" class="hover:bg-gray-50 dark:hover:bg-gray-700">
+        <h2 class="text-lg font-semibold text-gray-900 dark:text-white">Sınav kur</h2>
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
           Bankadan soru seç, puan bütçesini doldur, baskıya çıkar.
         </p>
-        <p class="mt-half text-[28px] font-bold leading-[40px] tnum">
+        <p class="mt-4 text-[28px] font-bold leading-[40px] tnum text-gray-900 dark:text-white">
           {loading ? "—" : drafts}
         </p>
-        <p class="stamp">taslak sınav</p>
-      </a>
+        <p class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
+          taslak sınav
+        </p>
+      </Card>
 
-      <a
-        href="/analysis"
-        class="border-r border-b border-rule-strong bg-paper-lift p-rule no-underline
-               transition-colors hover:bg-paper-sunk"
-      >
-        <h2>Sonucu oku</h2>
-        <p class="pencil mt-quarter">
+      <!--
+        Bu kart tek başına kırmızı: uygulamada kırmızı yalnız değerlendirme
+        için ayrılmış (bkz. app.css), "zayıf soru" ölçütü bu ayrımı hak ediyor.
+      -->
+      <Card href="/analysis" size="xl" class="hover:bg-gray-50 dark:hover:bg-gray-700">
+        <h2 class="text-lg font-semibold text-gray-900 dark:text-white">Sonucu oku</h2>
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
           Sınav sonuçları soruya geri döner; zayıf soru kendini belli eder.
         </p>
-        <p class="mt-half text-[28px] font-bold leading-[40px] tnum" style="color: var(--color-red)">
+        <p class="mt-4 text-[28px] font-bold leading-[40px] tnum text-red-600 dark:text-red-500">
           {loading ? "—" : weak}
         </p>
-        <p class="stamp">ayırt ediciliği düşük soru</p>
-      </a>
+        <p class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
+          ayırt ediciliği düşük soru
+        </p>
+      </Card>
     </div>
 
     {#if !loading && untested > 0}
-      <p class="annot mt-rule border-t border-rule pt-half">
+      <Alert color="gray" class="mt-6">
         {untested} soru hiç uygulanmadı. Ölçümü olmayan soru, kalitesi bilinmeyen sorudur.
-      </p>
+      </Alert>
     {/if}
   </div>
-</div>
+</PageShell>

@@ -1,8 +1,6 @@
 <script lang="ts">
-  import PageHead from "$lib/components/shell/PageHead.svelte";
-  import PenButton from "$lib/components/shell/PenButton.svelte";
-  import RuledField from "$lib/components/shell/RuledField.svelte";
-  import SelectBox from "$lib/components/shell/SelectBox.svelte";
+  import PageShell from "$lib/components/shell/PageShell.svelte";
+  import { Alert, Button, Heading, Input, Label, Select, Textarea } from "flowbite-svelte";
   import { api } from "$lib/api";
   import { errorText } from "$lib/editor/diagnostics";
   import { goto } from "$app/navigation";
@@ -20,6 +18,10 @@
    * uzun gövdeli veya geniş görselli soruda okunaksızdır. Karar öğretmenin.
    */
   let columns = $state(1);
+  const COLUMN_OPTIONS = [
+    { value: "1", name: "Tek sütun" },
+    { value: "2", name: "Çift sütun" },
+  ];
   let school = $state("");
   let department = $state("");
 
@@ -82,140 +84,160 @@
   }
 </script>
 
-<div class="flex h-full min-h-0 flex-col">
-  <PageHead title="Yeni sınav">
-    <PenButton kind="ink" disabled={saving} onclick={create}>
+<PageShell title="Yeni sınav">
+  {#snippet actions()}
+    <Button size="sm" disabled={saving} onclick={create}>
       {saving ? "Oluşturuluyor…" : "Oluştur"}
-    </PenButton>
-  </PageHead>
+    </Button>
+  {/snippet}
 
-  <div class="min-h-0 flex-1 overflow-auto">
-    <div class="mx-auto max-w-[620px] px-rule py-rule">
-      {#if saveError}
-        <p class="annot mb-rule bg-red-wash px-half py-quarter">{saveError}</p>
-      {/if}
+  <div class="mx-auto max-w-[620px]">
+    {#if saveError}
+      <Alert color="red" class="mb-5">{saveError}</Alert>
+    {/if}
 
-      <div class="grid grid-cols-2 gap-x-rule gap-y-rule">
-        <div class="col-span-2">
-          <RuledField label="Başlık">
-            <input type="text" bind:value={title} placeholder="1. Dönem 2. Yazılı" />
-          </RuledField>
+    <div class="grid grid-cols-2 gap-x-5 gap-y-5">
+      <div class="col-span-2">
+        <Label for="title" class="mb-1">Başlık</Label>
+        <Input id="title" type="text" bind:value={title} placeholder="1. Dönem 2. Yazılı" />
+      </div>
+
+      <div>
+        <Label for="subject" class="mb-1">Ders</Label>
+        <Input id="subject" type="text" bind:value={subject} placeholder="Matematik" />
+      </div>
+
+      <div>
+        <Label for="classroom" class="mb-1">Sınıf</Label>
+        <Input id="classroom" type="text" bind:value={classroom} placeholder="9-A" />
+      </div>
+
+      <div>
+        <Label for="teacher" class="mb-1">Öğretmen</Label>
+        <Input id="teacher" type="text" bind:value={teacher} />
+      </div>
+
+      <div>
+        <Label for="date" class="mb-1">Tarih</Label>
+        <Input id="date" type="date" bind:value={date} />
+      </div>
+
+      <div>
+        <Label for="duration" class="mb-1">
+          Süre <span class="font-normal text-gray-500 dark:text-gray-400">(dakika)</span>
+        </Label>
+        <Input id="duration" type="number" min="1" bind:value={durationMin} />
+      </div>
+
+      <div class="col-span-2">
+        <Label for="instructions" class="mb-1">
+          Talimatlar
+          <span class="font-normal text-gray-500 dark:text-gray-400"
+            >— Kâğıdın başında öğrenciye görünür</span
+          >
+        </Label>
+        <Textarea id="instructions" rows={3} bind:value={instructions} />
+      </div>
+
+      <!--
+        Kâğıdın biçimi. Bunlar sorunun değil BASKININ özellikleri: aynı soru
+        bir sınavda tek sütun, başkasında çift sütun basılabilir.
+      -->
+      <div class="col-span-2 border-t border-gray-200 pt-2.5 dark:border-gray-700">
+        <Heading
+          tag="h2"
+          class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400"
+        >
+          Kâğıt biçimi
+        </Heading>
+      </div>
+
+      <div>
+        <Label class="mb-1">
+          Sütun
+          <span class="font-normal text-gray-500 dark:text-gray-400"
+            >— Çift sütun kısa sorularda kâğıt kazandırır</span
+          >
+        </Label>
+        <Select
+          items={COLUMN_OPTIONS}
+          value={String(columns)}
+          placeholder=""
+          onchange={(e) => (columns = Number((e.currentTarget as HTMLSelectElement).value))}
+        />
+      </div>
+
+      <div></div>
+
+      <div>
+        <Label for="school" class="mb-1">
+          Okul <span class="font-normal text-gray-500 dark:text-gray-400">— Boşsa kâğıda basılmaz</span>
+        </Label>
+        <Input
+          id="school"
+          type="text"
+          bind:value={school}
+          placeholder="Atatürk Mesleki ve Teknik Anadolu Lisesi"
+        />
+      </div>
+
+      <div>
+        <Label for="department" class="mb-1">
+          Alan / Bölüm
+          <span class="font-normal text-gray-500 dark:text-gray-400">— Boşsa kâğıda basılmaz</span>
+        </Label>
+        <Input
+          id="department"
+          type="text"
+          bind:value={department}
+          placeholder="Elektrik-Elektronik Teknolojisi Alanı"
+        />
+      </div>
+
+      <div class="col-span-2">
+        <div class="flex items-center gap-2.5">
+          <span class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
+            İmzalar
+          </span>
+          <span class="text-sm text-gray-500 dark:text-gray-400">
+            Boşsa kâğıdın altına imza bloğu basılmaz
+          </span>
+          <Button size="xs" color="alternative" class="ml-auto" onclick={addSigner}>
+            + İmza ekle
+          </Button>
         </div>
 
-        <RuledField label="Ders">
-          <input type="text" bind:value={subject} placeholder="Matematik" />
-        </RuledField>
-
-        <RuledField label="Sınıf">
-          <input type="text" bind:value={classroom} placeholder="9-A" />
-        </RuledField>
-
-        <RuledField label="Öğretmen">
-          <input type="text" bind:value={teacher} />
-        </RuledField>
-
-        <RuledField label="Tarih">
-          <input type="date" bind:value={date} />
-        </RuledField>
-
-        <RuledField label="Süre" hint="dakika">
-          <input type="number" min="1" bind:value={durationMin} />
-        </RuledField>
-
-        <div class="col-span-2">
-          <RuledField label="Talimatlar" hint="Kâğıdın başında öğrenciye görünür">
-            <textarea rows="3" bind:value={instructions}></textarea>
-          </RuledField>
-        </div>
-
-        <!--
-          Kâğıdın biçimi. Bunlar sorunun değil BASKININ özellikleri: aynı soru
-          bir sınavda tek sütun, başkasında çift sütun basılabilir.
-        -->
-        <div class="col-span-2 border-t border-rule pt-half">
-          <h2 class="stamp">Kâğıt biçimi</h2>
-        </div>
-
-        <RuledField label="Sütun" hint="Çift sütun kısa sorularda kâğıt kazandırır">
-          <SelectBox
-            value={String(columns)}
-            options={[
-              { value: "1", label: "Tek sütun" },
-              { value: "2", label: "Çift sütun" },
-            ]}
-            onchange={(v) => (columns = Number(v))}
-          />
-        </RuledField>
-
-        <div></div>
-
-        <RuledField label="Okul" hint="Boşsa kâğıda basılmaz">
-          <input
-            type="text"
-            bind:value={school}
-            placeholder="Atatürk Mesleki ve Teknik Anadolu Lisesi"
-          />
-        </RuledField>
-
-        <RuledField label="Alan / Bölüm" hint="Boşsa kâğıda basılmaz">
-          <input
-            type="text"
-            bind:value={department}
-            placeholder="Elektrik-Elektronik Teknolojisi Alanı"
-          />
-        </RuledField>
-
-        <div class="col-span-2">
-          <div class="flex items-center gap-half">
-            <span class="stamp">İmzalar</span>
-            <span class="pencil">Boşsa kâğıdın altına imza bloğu basılmaz</span>
-            <button
-              type="button"
-              class="ml-auto border border-rule-strong bg-paper-lift px-half py-quarter
-                     text-[12px] leading-rule text-ink transition-colors
-                     hover:border-red hover:text-red-deep"
-              onclick={addSigner}
-            >
-              + İmza ekle
-            </button>
-          </div>
-
-          {#each signers as signer, i (i)}
-            <div class="mt-half flex items-end gap-half">
-              <div class="flex-1">
-                <RuledField label="Ad Soyad">
-                  <input
-                    type="text"
-                    value={signer.name}
-                    placeholder="Hakan GÜLEN"
-                    oninput={(e) => updateSigner(i, "name", e.currentTarget.value)}
-                  />
-                </RuledField>
-              </div>
-              <div class="flex-1">
-                <RuledField label="Unvan">
-                  <input
-                    type="text"
-                    value={signer.title}
-                    placeholder="Ders Öğretmeni"
-                    oninput={(e) => updateSigner(i, "title", e.currentTarget.value)}
-                  />
-                </RuledField>
-              </div>
-              <button
-                type="button"
-                class="border border-rule-strong bg-paper-lift px-half py-quarter
-                       text-[12px] leading-rule text-pencil transition-colors
-                       hover:border-red hover:text-red-deep"
-                aria-label="{i + 1}. imzayı sil"
-                onclick={() => removeSigner(i)}
-              >
-                Sil
-              </button>
+        {#each signers as signer, i (i)}
+          <div class="mt-2.5 flex items-end gap-2.5">
+            <div class="flex-1">
+              <Label class="mb-1">Ad Soyad</Label>
+              <Input
+                type="text"
+                value={signer.name}
+                placeholder="Hakan GÜLEN"
+                oninput={(e) => updateSigner(i, "name", (e.currentTarget as HTMLInputElement).value)}
+              />
             </div>
-          {/each}
-        </div>
+            <div class="flex-1">
+              <Label class="mb-1">Unvan</Label>
+              <Input
+                type="text"
+                value={signer.title}
+                placeholder="Ders Öğretmeni"
+                oninput={(e) => updateSigner(i, "title", (e.currentTarget as HTMLInputElement).value)}
+              />
+            </div>
+            <Button
+              size="sm"
+              color="alternative"
+              aria-label="{i + 1}. imzayı sil"
+              onclick={() => removeSigner(i)}
+            >
+              Sil
+            </Button>
+          </div>
+        {/each}
       </div>
     </div>
   </div>
-</div>
+</PageShell>
