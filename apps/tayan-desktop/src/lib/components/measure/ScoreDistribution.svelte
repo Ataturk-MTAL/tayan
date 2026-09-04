@@ -66,11 +66,15 @@
 
   /** Mod/medyan/ortalama çizgileri. Etiketler farklı yükseklikte: çakışsalar
    *  bile hangisinin nerede olduğu okunabilmeli. */
+  /**
+   * Mod null olabilir: tepe noktası yoksa çizgi de çizilmez. Olmayan bir
+   * tepeyi grafiğe koymak, öğretmenin dağılımı yanlış okumasına yol açardı.
+   */
   let isaretler = $derived(
     stats === null
       ? []
       : [
-          { ad: "Mod", deger: stats.mode, dy: 10 },
+          ...(stats.mode === null ? [] : [{ ad: "Mod", deger: stats.mode, dy: 10 }]),
           { ad: "Medyan", deger: stats.median, dy: 24 },
           { ad: "Ort", deger: stats.mean, dy: 38 },
         ],
@@ -171,11 +175,16 @@
         </circle>
       {/each}
 
+      <!--
+        SON ETİKET KIRPILMASIN. 100, eksenin tam ucunda duruyor ve ortalanmış
+        hâlde yarısı görünüm kutusunun dışına taşıyordu: ekranda "10" yazıyordu
+        ve öğretmen ekseni 0-10 sanabilirdi. Uçtaki etiketler içeri yaslanıyor.
+      -->
       {#each xTikler as t (t)}
         <text
           x={x(t)}
           y={H + SERIT - 2}
-          text-anchor="middle"
+          text-anchor={t === 0 ? "start" : t >= 100 ? "end" : "middle"}
           class="fill-ink-mid"
           style="font-size: 8px; font-variant-numeric: tabular-nums"
         >
@@ -192,7 +201,9 @@
 
     <dl class="ruled-top mt-quarter grid grid-cols-[auto_1fr] gap-x-half">
       <dt class="pencil">Mod</dt>
-      <dd class="annot tnum text-right">{stats.mode.toFixed(0)}</dd>
+      <dd class="annot tnum text-right">
+        {stats.mode === null ? "—" : stats.mode.toFixed(0)}
+      </dd>
       <dt class="pencil">Medyan</dt>
       <dd class="annot tnum text-right">{stats.median.toFixed(1)}</dd>
       <dt class="pencil">Ortalama</dt>
@@ -206,6 +217,14 @@
     </dl>
 
     <p class="annot mt-quarter">{skewLabel(stats.skewness)}</p>
+
+    {#if stats.mode === null}
+      <p class="pencil mt-quarter">
+        Tepe noktası yok: öğrenciler ayrı ayrı aralıklara düşmüş, hiçbir puan
+        aralığında yığılma oluşmamış. Beraberlikte bir aralık seçmek, en düşük
+        puanı mod diye göstermek olurdu.
+      </p>
+    {/if}
 
     {#if stats.n < MIN_CARPIKLIK_N}
       <p class="pencil mt-quarter">

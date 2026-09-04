@@ -186,8 +186,23 @@ describe("histogram", () => {
 
 describe("spread — merkezî eğilim ve çarpıklık", () => {
   test("mod en kalabalık aralığın orta noktası", () => {
+    // 12, 15, 18 hepsi 10-20 aralığında; 55 tek başına. Tepe belirgin.
     const s = spread([12, 15, 18, 55]);
     expect(s?.mode).toBe(15);
+  });
+
+  test("TEPE YOKSA MOD YOK", () => {
+    // Altı öğrenci altı ayrı aralığa düştüğünde "en kalabalık aralık" diye
+    // bir şey kalmıyor. Beraberlikte ilkini seçmek, en düşük puanı mod diye
+    // göstermek olurdu: medyan 55 iken mod 15 yazılıyordu ve öğretmen
+    // "mod < medyan < ortalama, sağa çarpık" diye okuyordu.
+    const s = spread([15, 30, 45, 65, 70, 90]);
+    expect(s?.mode).toBeNull();
+    expect(s?.median).toBe(55);
+  });
+
+  test("tek değerde mod o aralıktır", () => {
+    expect(spread([42])?.mode).toBe(45);
   });
 
   test("standart sapma örneklem (n-1)", () => {

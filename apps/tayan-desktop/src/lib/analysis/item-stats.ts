@@ -146,8 +146,16 @@ export type Spread = {
   n: number;
   mean: number;
   median: number;
-  /** Mod: en çok öğrencinin düştüğü puan aralığının orta noktası. */
-  mode: number;
+  /**
+   * Mod: en çok öğrencinin düştüğü puan aralığının orta noktası.
+   *
+   * null = TEPE NOKTASI YOK. Altı öğrencinin altısı ayrı aralığa düşerse her
+   * aralıkta bir kişi olur ve "en kalabalık aralık" diye bir şey kalmaz;
+   * beraberlikte ilkini seçmek, en düşük puanı mod diye göstermek olurdu.
+   * Medyan 55 iken mod 15 yazmak öğretmene "mod < medyan < ortalama, sağa
+   * çarpık" dedirtir — oysa çarpıklık −0.06, dağılım simetrik.
+   */
+  mode: number | null;
   /** Standart sapma (örneklem, n-1). */
   sd: number;
   /**
@@ -238,14 +246,23 @@ function skew(values: number[], mean: number, sd: number): number | null {
   return (n / ((n - 1) * (n - 2))) * toplam;
 }
 
-/** En kalabalık aralığın orta noktası. Eşitlikte ilk (düşük) aralık kazanır. */
-function modeOf(values: number[]): number {
+/**
+ * En kalabalık aralığın orta noktası; TEPE YOKSA null.
+ *
+ * Eşitlikte ilk aralığı seçmek en sinsi hataydı: altı öğrenci altı ayrı
+ * aralığa düştüğünde "mod" en düşük puan çıkıyordu ve öğretmen mod < medyan
+ * < ortalama sırasına bakıp dağılımı sağa çarpık sanıyordu.
+ *
+ * Birden çok aralık aynı en yüksek sayıyı paylaşıyorsa tek bir tepe yok
+ * demektir; sayı uydurmak yerine yokluğu söyleniyor.
+ */
+function modeOf(values: number[]): number | null {
   const bins = histogram(values);
-  let en = bins[0];
-  for (const b of bins) {
-    if (b.count > en.count) en = b;
-  }
-  return en.mid;
+  const enYuksek = Math.max(...bins.map((b) => b.count));
+  if (enYuksek === 0) return null;
+
+  const tepeler = bins.filter((b) => b.count === enYuksek);
+  return tepeler.length === 1 ? tepeler[0].mid : null;
 }
 
 export function spread(values: number[]): Spread | null {

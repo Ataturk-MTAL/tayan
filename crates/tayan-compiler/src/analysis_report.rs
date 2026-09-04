@@ -45,7 +45,11 @@ pub struct AnalysisReport {
     pub mean: f32,
     pub median: f32,
     /// Mod: en kalabalık puan aralığının orta noktası.
-    pub mode: f32,
+    ///
+    /// None = tepe noktası yok. Öğrenciler ayrı aralıklara dağıldığında
+    /// beraberlikte bir aralık seçmek, en düşük puanı mod diye göstermek
+    /// olurdu; kâğıtta "—" basılıyor.
+    pub mode: Option<f32>,
     /// Standart sapma (örneklem, n-1).
     pub sd: f32,
     /// Çarpıklık katsayısı; None = güvenilir hesaplanamıyor.
@@ -154,10 +158,16 @@ fn yayilim_grafigi(r: &AnalysisReport) -> String {
 
     // Mod, medyan, ortalama. Etiketleri üstte; üçü çakışırsa bile hangisinin
     // nerede olduğu okunabilsin diye farklı yüksekliklere yazılıyor.
-    for (i, (ad, deger)) in [("Mod", r.mode), ("Medyan", r.median), ("Ort", r.mean)]
-        .iter()
-        .enumerate()
-    {
+    // Mod None ise çizgisi de çizilmez: olmayan bir tepeyi kâğıda koymak,
+    // öğretmenin dağılımı yanlış okumasına yol açardı.
+    let isaretler: Vec<(&str, f32)> = r
+        .mode
+        .map(|m| ("Mod", m))
+        .into_iter()
+        .chain([("Medyan", r.median), ("Ort", r.mean)])
+        .collect();
+
+    for (i, (ad, deger)) in isaretler.iter().enumerate() {
         let dx = x(*deger);
         govde.push_str(&format!(
             "  #place(dx: {dx:.2}cm, dy: 0cm, line(length: {YUKSEKLIK_CM}cm, angle: 90deg, stroke: 0.7pt + rgb(\"#c8102e\")))\n\
@@ -250,7 +260,10 @@ pub fn generate_report(r: &AnalysisReport) -> String {
     out.push_str(&format!(
         "#grid(columns: (1fr,) * 5, gutter: 6pt,\n{}{}{}{}{})\n\
          #v(1.5mm)\n#text(8pt)[*Yorum:* {}]\n#v(5mm)\n\n",
-        ozet_kutu("Mod", &format!("{:.0}", r.mode)),
+        ozet_kutu(
+            "Mod",
+            &r.mode.map_or("—".to_string(), |m| format!("{m:.0}")),
+        ),
         ozet_kutu("Medyan", &format!("{:.1}", r.median)),
         ozet_kutu("Ortalama", &format!("{:.1}", r.mean)),
         ozet_kutu("Std. sapma", &format!("{:.1}", r.sd)),
@@ -371,7 +384,7 @@ mod tests {
             department: Some("Elektrik-Elektronik Teknolojisi Alanı".into()),
             mean: 53.0,
             median: 65.0,
-            mode: 65.0,
+            mode: Some(65.0),
             sd: 28.4,
             skewness: Some(-0.42),
             skew_label: "Simetrik — puanlar ortada toplanmış".into(),

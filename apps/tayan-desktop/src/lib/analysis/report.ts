@@ -43,7 +43,8 @@ export type AnalysisReport = {
   department: string | null;
   mean: number;
   median: number;
-  mode: number;
+  /** Tepe noktası yoksa null — kâğıtta da "—" basılır. */
+  mode: number | null;
   sd: number;
   skewness: number | null;
   /**
