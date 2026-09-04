@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { selectedLabel } from "$lib/ui/select-label";
   /**
    * SelectBox — kapalı liste ya da serbest girişli (combobox) seçim kutusu.
    *
@@ -49,11 +50,7 @@
   const id = `cb-${Math.random().toString(36).slice(2, 9)}`;
 
   /** Kapalıyken seçili etiketi, açıkken yazılanı gösterir. */
-  let shown = $derived.by(() => {
-    if (open) return query;
-    const hit = options.find((o) => o.value === value);
-    return hit ? hit.label : value;
-  });
+  let shown = $derived(open ? query : selectedLabel(options, value, emptyLabel));
 
   /** Türkçe küçültme: "I" → "ı", "İ" → "i". toLowerCase() bunu bozar. */
   function fold(s: string): string {
