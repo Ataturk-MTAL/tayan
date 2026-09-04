@@ -224,11 +224,22 @@ impl World for TayanWorld {
 impl TayanWorld {
     fn resolve_file(&self, id: FileId) -> anyhow::Result<Bytes> {
         if let VirtualRoot::Package(spec) = id.root() {
+            // ÖNCE GÖMÜLÜ PAKETLER. TAYAN'ın vaadi tamamen çevrimdışı
+            // çalışmak; paketi ağdan indirmeye bırakmak, temiz kurulmuş bir
+            // okul bilgisayarında internetsizken sınav kâğıdının hiç
+            // basılamaması demekti. cetz, zap ve oxifmt ikilinin içinde.
+            if let Some(bytes) = bundled_package_file(spec, id.vpath().get_without_slash()) {
+                return Ok(Bytes::new(bytes.to_vec()));
+            }
+
             let pkg_dir = self.package_root
                 .join(spec.namespace.as_str())
                 .join(spec.name.as_str())
                 .join(spec.version.to_string());
 
+            // Gömülü olmayan bir paket istenirse indirme yolu duruyor:
+            // öğretmen kendi kâğıdında başka bir paket kullanabilmeli.
+            // O durumda internet gerekiyor.
             if !pkg_dir.exists() {
                 download_package(spec, &pkg_dir)?;
             }
@@ -630,6 +641,38 @@ fn collect_system_font_paths() -> Vec<PathBuf> {
 
 // ── Package cache ─────────────────────────────────────────────────────────────
 
+/// Uygulamayla birlikte gönderilen Typst paketleri.
+///
+/// İKİLİNİN İÇİNDE, dosya sisteminde değil. Klasöre kopyalamak, klasörün
+/// silinmesi ya da hiç oluşmaması durumunda sessizce ağ indirmesine düşmek
+/// demekti; gömülü olan her zaman orada.
+///
+/// LİSANS: cetz ve zap LGPL, oxifmt Apache-2.0/MIT. Typst paketleri KAYNAK
+/// olarak dağıtılıyor (.typ dosyaları), yani LGPL'in "kaynak erişilebilir
+/// olsun, kullanıcı değiştirebilsin" şartı kendiliğinden sağlanıyor. Paketlerin
+/// kendi LICENSE dosyaları olduğu gibi korunuyor; bkz. THIRD-PARTY.md.
+static BUNDLED_PACKAGES: include_dir::Dir<'_> =
+    include_dir::include_dir!("$CARGO_MANIFEST_DIR/packages");
+
+/// Gömülü paketten dosya okur; paket ya da sürüm gömülü değilse None.
+///
+/// Sürüm KESİN eşleşmeli. Farklı bir sürümü "yakın" diye vermek, öğretmenin
+/// kâğıdını başka bir kütüphaneyle dizmek olurdu ve fark sessizce çıktıya
+/// yansırdı.
+fn bundled_package_file(
+    spec: &typst::syntax::package::PackageSpec,
+    vpath: &str,
+) -> Option<&'static [u8]> {
+    let yol = format!(
+        "{}/{}/{}/{}",
+        spec.namespace,
+        spec.name,
+        spec.version,
+        vpath.trim_start_matches('/'),
+    );
+    BUNDLED_PACKAGES.get_file(&yol).map(|f| f.contents())
+}
+
 fn typst_package_cache_dir() -> anyhow::Result<PathBuf> {
     if let Ok(p) = std::env::var("TYPST_PACKAGE_CACHE_PATH") {
         return Ok(PathBuf::from(p));
@@ -664,4 +707,91 @@ fn download_package(
         .with_context(|| format!("Paket açılamadı: {}", spec.name))?;
 
     Ok(())
+}
+
+#[cfg(test)]
+mod gomulu_paket_testleri {
+    use super::*;
+    use typst::syntax::package::PackageSpec;
+
+    fn spec(ad: &str, surum: &str) -> PackageSpec {
+        format!("@preview/{ad}:{surum}").parse().expect("geçerli paket adı")
+    }
+
+    /// Her Typst paketinde bulunan tek dosya. Giriş dosyasının adı
+    /// (`lib.typ`, `src/lib.typ`, …) pakete göre değişiyor ve burada
+    /// sınanan şey içerik değil, paketin gömülü OLUP OLMADIĞI.
+    const KUNYE: &str = "typst.toml";
+
+    #[test]
+    fn cetz_zap_ve_oxifmt_gomulu() {
+        // Bu üçü kâğıda giriyor: cetz grafik, zap devre şeması, oxifmt
+        // biçimlendirme. Gömülü olmazlarsa internetsiz okulda kâğıt basılmaz.
+        for (ad, surum) in [("cetz", "0.4.2"), ("zap", "0.5.0"), ("oxifmt", "1.0.0")] {
+            assert!(
+                bundled_package_file(&spec(ad, surum), KUNYE).is_some(),
+                "{ad}:{surum} gömülü değil"
+            );
+        }
+    }
+
+    #[test]
+    fn alt_klasordeki_dosya_da_okunur() {
+        // cetz ve zap giriş dosyasını src/ altında tutuyor; yalnız kök
+        // dosyaları görebilseydik paketler çözülmezdi.
+        assert!(bundled_package_file(&spec("cetz", "0.4.2"), "src/lib.typ").is_some());
+    }
+
+    #[test]
+    fn baska_surum_sessizce_verilmez() {
+        // "Yakın sürüm" vermek, öğretmenin kâğıdını başka bir kütüphaneyle
+        // dizmek olurdu ve fark sessizce çıktıya yansırdı.
+        assert!(bundled_package_file(&spec("cetz", "0.3.0"), KUNYE).is_none());
+    }
+
+    #[test]
+    fn gomulu_olmayan_paket_none_doner() {
+        assert!(bundled_package_file(&spec("olmayan-paket", "1.0.0"), KUNYE).is_none());
+    }
+
+    /// ASIL KANIT: cetz kullanan bir belge, paket önbelleği ERİŞİLEMEZKEN
+    /// derleniyor mu?
+    ///
+    /// Yukarıdaki testler yalnız baytların gömülü olduğunu gösteriyor.
+    /// Typst'in onları gerçekten çözebildiğini görmek başka bir şey; çözümleme
+    /// yolu yanlış kurulsaydı hepsi geçer, uygulama yine internet isterdi.
+    ///
+    /// Ortam değişkeni var olmayan bir yola kuruluyor — gerçek önbelleğe
+    /// dokunulmuyor, hiçbir şey silinmiyor.
+    #[test]
+    fn cetz_onbelleksiz_derlenir() {
+        let sahte = std::env::temp_dir().join("tayan-onbellek-yok-bilerek");
+
+        // SAFETY: testler aynı süreçte koştuğu için ortam değişkeni paylaşılır.
+        // Bu test yalnız gömülü yolu sınıyor ve değişkeni geri almıyor; değer
+        // var olmayan bir dizin, yani başka testler de yalnız gömülüden okur.
+        unsafe {
+            std::env::set_var("TYPST_PACKAGE_CACHE_PATH", &sahte);
+        }
+
+        let kaynak = r#"#import "@preview/cetz:0.4.2"
+#cetz.canvas({
+  import cetz.draw: *
+  line((0, 0), (2, 1))
+})"#;
+
+        TayanWorld::compile_svg(kaynak.to_string())
+            .expect("cetz gömülüden çözülmeli, internet gerekmemeli");
+    }
+
+    #[test]
+    fn lisans_dosyalari_gomulu_kaldi() {
+        // LGPL şartı: lisans metni dağıtımla birlikte gitmeli.
+        for (ad, surum) in [("cetz", "0.4.2"), ("zap", "0.5.0")] {
+            assert!(
+                bundled_package_file(&spec(ad, surum), "LICENSE").is_some(),
+                "{ad} lisansı gömülü değil"
+            );
+        }
+    }
 }
