@@ -37,14 +37,14 @@
    * formunda girilebiliyordu; kurulmuş sınavda değiştirilemiyordu. Oysa bunlar
    * BASKININ özellikleri ve öğretmen kâğıdı gördükten sonra fikir değiştirir.
    */
-  let ayarlarAcik = $state(false);
-  let ayarKaydediliyor = $state(false);
-  let ayarHatasi = $state<string | null>(null);
+  let settingsOpen = $state(false);
+  let isSavingSettings = $state(false);
+  let settingsError = $state<string | null>(null);
 
-  async function ayarlariKaydet() {
+  async function saveSettings() {
     if (!exam) return;
-    ayarKaydediliyor = true;
-    ayarHatasi = null;
+    isSavingSettings = true;
+    settingsError = null;
     try {
       await api.exams.updateMeta(exam.id, {
         ...exam.meta,
@@ -56,21 +56,21 @@
           .map((sg) => ({ name: sg.name.trim(), title: sg.title.trim() }))
           .filter((sg) => sg.name !== "" || sg.title !== ""),
       });
-      ayarlarAcik = false;
+      settingsOpen = false;
       await refreshPreview();
     } catch (err: unknown) {
-      ayarHatasi = errorText(err);
+      settingsError = errorText(err);
     } finally {
-      ayarKaydediliyor = false;
+      isSavingSettings = false;
     }
   }
 
-  function imzaEkle() {
+  function addSigner() {
     if (!exam) return;
     exam.meta.signers = [...exam.meta.signers, { name: "", title: "" }];
   }
 
-  function imzaSil(i: number) {
+  function removeSigner(i: number) {
     if (!exam) return;
     exam.meta.signers = exam.meta.signers.filter((_, k) => k !== i);
   }
@@ -203,14 +203,14 @@
     if (!exam) return;
     // Nereye kaydedileceğini ÖĞRETMEN seçer. Önceden dosya sormadan
     // İndirilenler'e düşüyordu; daha kötüsü, PDF hiç yazılmıyordu.
-    const hedef = await save({
+    const targetPath = await save({
       defaultPath: examFileName(exam, { answerKey, booklet, extension: "pdf" }),
       filters: [{ name: "PDF", extensions: ["pdf"] }],
     });
-    if (!hedef) return; // vazgeçildi
+    if (!targetPath) return; // vazgeçildi
 
     await run(async () => {
-      const path = await api.compiler.exportPdf(exam!.id, answerKey, booklet, hedef);
+      const path = await api.compiler.exportPdf(exam!.id, answerKey, booklet, targetPath);
       actionError = `PDF kaydedildi: ${path}`;
     });
   }
@@ -242,8 +242,8 @@
       <Button
         size="sm"
         color="alternative"
-        aria-expanded={ayarlarAcik}
-        onclick={() => (ayarlarAcik = !ayarlarAcik)}
+        aria-expanded={settingsOpen}
+        onclick={() => (settingsOpen = !settingsOpen)}
       >
         Kâğıt ayarları
       </Button>
@@ -278,10 +278,10 @@
     {/snippet}
 
     <div class="flex h-full min-h-0 flex-col">
-      {#if ayarlarAcik}
+      {#if settingsOpen}
         <div class="shrink-0 border-b border-gray-200 bg-gray-50 px-6 py-4 dark:border-gray-700 dark:bg-gray-800">
-          {#if ayarHatasi}
-            <Alert color="red" class="mb-3">{ayarHatasi}</Alert>
+          {#if settingsError}
+            <Alert color="red" class="mb-3">{settingsError}</Alert>
           {/if}
 
           <div class="grid max-w-3xl grid-cols-2 gap-x-5 gap-y-2.5">
@@ -303,14 +303,14 @@
             </div>
 
             <div>
-              <Label for="ayar-sure" class="mb-1">
+              <Label for="settings-duration" class="mb-1">
                 Süre <span class="font-normal text-gray-500 dark:text-gray-400">(dakika)</span>
               </Label>
-              <Input id="ayar-sure" type="number" min="1" bind:value={exam.meta.duration_min} />
+              <Input id="settings-duration" type="number" min="1" bind:value={exam.meta.duration_min} />
             </div>
 
             <div>
-              <Label for="ayar-okul" class="mb-1">
+              <Label for="settings-school" class="mb-1">
                 Okul
                 <span class="font-normal text-gray-500 dark:text-gray-400"
                   >— Boşsa kâğıda basılmaz</span
@@ -319,21 +319,21 @@
               <!-- get/set çifti: Input null kabul etmiyor, exam.meta.school ise
                    string | null — boş girişte veritabanı alanı null kalabilmeli. -->
               <Input
-                id="ayar-okul"
+                id="settings-school"
                 type="text"
                 bind:value={() => exam?.meta.school ?? "", (v) => exam && (exam.meta.school = v)}
               />
             </div>
 
             <div>
-              <Label for="ayar-alan" class="mb-1">
+              <Label for="settings-department" class="mb-1">
                 Alan / Bölüm
                 <span class="font-normal text-gray-500 dark:text-gray-400"
                   >— Boşsa kâğıda basılmaz</span
                 >
               </Label>
               <Input
-                id="ayar-alan"
+                id="settings-department"
                 type="text"
                 bind:value={() => exam?.meta.department ?? "", (v) => exam && (exam.meta.department = v)}
               />
@@ -349,7 +349,7 @@
                 <span class="text-sm text-gray-500 dark:text-gray-400">
                   Boşsa imza bloğu basılmaz
                 </span>
-                <Button size="xs" color="alternative" class="ml-auto" onclick={imzaEkle}>
+                <Button size="xs" color="alternative" class="ml-auto" onclick={addSigner}>
                   + İmza ekle
                 </Button>
               </div>
@@ -368,7 +368,7 @@
                     size="sm"
                     color="alternative"
                     aria-label="{i + 1}. imzayı sil"
-                    onclick={() => imzaSil(i)}
+                    onclick={() => removeSigner(i)}
                   >
                     Sil
                   </Button>
@@ -378,8 +378,8 @@
           </div>
 
           <div class="mt-2.5 flex items-center gap-2.5">
-            <Button size="sm" disabled={ayarKaydediliyor} onclick={ayarlariKaydet}>
-              {ayarKaydediliyor ? "Kaydediliyor…" : "Ayarları kaydet"}
+            <Button size="sm" disabled={isSavingSettings} onclick={saveSettings}>
+              {isSavingSettings ? "Kaydediliyor…" : "Ayarları kaydet"}
             </Button>
             <span class="text-sm text-gray-500 dark:text-gray-400">
               Kaydedince önizleme yenilenir
@@ -551,7 +551,7 @@
                       yüzünden miras ALINMIYORDU.
                       NOT: px-0 satıra genişlik KAZANDIRMAZ — w-12 dış genişliği
                       sabitler, dolgu onun içindedir; satırı rahatlatan şey sarma.
-                      sinav-puan (dosya sonundaki style bloğu): yerel artırma oklarını
+                      exam-points (dosya sonundaki style bloğu): yerel artırma oklarını
                       gizler. Yukarıdaki "metne 48 px kalır" hesabı ANCAK oklar
                       gizliyken doğru — WebKit ok yığınını kutunun SAĞ kenarına
                       koyuyor, metin de sağa yaslı, yani oklar tam da rakamların
@@ -560,7 +560,7 @@
                     <input
                       type="number"
                       min="1"
-                      class="sinav-puan tnum w-12 border-0 border-b border-gray-300 bg-transparent px-0 pb-0.5
+                      class="exam-points tnum w-12 border-0 border-b border-gray-300 bg-transparent px-0 pb-0.5
                              text-right text-sm leading-6 focus:border-primary-600 focus:outline-none
                              focus:ring-0 dark:border-gray-600 dark:focus:border-primary-500"
                       value={pointsInExam(q)}
@@ -675,12 +675,12 @@
     Yalnız bu sınıfa uygulanır: kâğıt ayarlarındaki "Süre" girdisi tam
     genişlikte, orada oklar rakamı ezmiyor ve kullanışlı kalıyor.
   */
-  .sinav-puan::-webkit-outer-spin-button,
-  .sinav-puan::-webkit-inner-spin-button {
+  .exam-points::-webkit-outer-spin-button,
+  .exam-points::-webkit-inner-spin-button {
     appearance: none;
     margin: 0;
   }
-  .sinav-puan {
+  .exam-points {
     appearance: textfield;
   }
 </style>
