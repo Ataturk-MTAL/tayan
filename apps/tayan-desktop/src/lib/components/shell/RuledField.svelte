@@ -98,4 +98,24 @@
     background-color: var(--color-gray-700);
     color: var(--color-white);
   }
+
+  /*
+    KOYU KİPTE ODAK KENARLIĞI — bu kural olmadan kayboluyordu.
+
+    Yukarıdaki `:focus` kuralının özgüllüğü (0,2,1): `.ruled-field` + `textarea`
+    + `:focus`. Hemen üstteki koyu kip kuralının özgüllüğü de (0,2,1): `.dark`
+    + `.ruled-field` + `textarea`. EŞİT özgüllükte kaynakta sonra gelen kazanır
+    ve koyu kip kuralı sonra geliyor — yani koyu kipte odaklanan alanın
+    kenarlığı `primary-500` yerine `gray-600`da kalıyordu. Odak göstergesinin
+    kaybolması, klavyeyle çalışan kullanıcının nerede olduğunu kaybetmesi
+    demek.
+
+    Bu kural (0,3,1) ile hem daha özgül hem de daha sonra; iki yoldan da
+    kazanıyor. `box-shadow` yukarıdaki kuraldan geliyor, tekrarlanmıyor.
+  */
+  :global(.dark) :global(.ruled-field input:not([role="combobox"]):focus),
+  :global(.dark) :global(.ruled-field select:focus),
+  :global(.dark) :global(.ruled-field textarea:focus) {
+    border-color: var(--color-primary-500);
+  }
 </style>

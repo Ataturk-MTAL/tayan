@@ -10,10 +10,10 @@
   import { setTheme, theme, type ThemeChoice } from "$lib/ui/theme.svelte";
   import { DesktopPcOutline, MoonOutline, SunOutline } from "flowbite-svelte-icons";
 
-  const SECENEKLER: { id: ThemeChoice; ad: string; icon: typeof SunOutline }[] = [
-    { id: "light", ad: "Açık tema", icon: SunOutline },
-    { id: "dark", ad: "Koyu tema", icon: MoonOutline },
-    { id: "system", ad: "Sistem teması", icon: DesktopPcOutline },
+  const THEME_OPTIONS: { id: ThemeChoice; label: string; icon: typeof SunOutline }[] = [
+    { id: "light", label: "Açık tema", icon: SunOutline },
+    { id: "dark", label: "Koyu tema", icon: MoonOutline },
+    { id: "system", label: "Sistem teması", icon: DesktopPcOutline },
   ];
 </script>
 
@@ -22,7 +22,7 @@
   role="group"
   aria-label="Tema"
 >
-  {#each SECENEKLER as s (s.id)}
+  {#each THEME_OPTIONS as s (s.id)}
     <button
       type="button"
       class="flex flex-1 items-center justify-center rounded-md py-1.5 transition-colors"
@@ -35,8 +35,8 @@
       class:dark:text-gray-400={theme.choice !== s.id}
       class:hover:text-gray-900={theme.choice !== s.id}
       class:dark:hover:text-white={theme.choice !== s.id}
-      title={s.ad}
-      aria-label={s.ad}
+      title={s.label}
+      aria-label={s.label}
       aria-pressed={theme.choice === s.id}
       onclick={() => setTheme(s.id)}
     >

@@ -96,6 +96,9 @@ importers:
         specifier: ^3.6.0
         version: 3.6.0
     devDependencies:
+      '@flowbite-svelte-plugins/datatable':
+        specifier: ^0.4.1
+        version: 0.4.1(svelte@5.55.5)(tailwindcss@4.3.0)
       '@sveltejs/adapter-static':
         specifier: ^3.0.0
         version: 3.0.10(@sveltejs/kit@2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(svelte@5.55.5)(vite@8.0.12(@types/node@25.6.2)(esbuild@0.28.2)(jiti@2.7.0)))(svelte@5.55.5)(typescript@6.0.3)(vite@8.0.12(@types/node@25.6.2)(esbuild@0.28.2)(jiti@2.7.0)))
@@ -123,6 +126,9 @@ importers:
       flowbite:
         specifier: ^4.0.2
         version: 4.0.2
+      simple-datatables:
+        specifier: ^10.3.0
+        version: 10.3.0
       svelte:
         specifier: ^5.0.0
         version: 5.55.5
@@ -342,6 +348,12 @@ packages:
 
   '@floating-ui/utils@0.2.11':
     resolution: {integrity: sha512-RiB/yIh78pcIxl6lLMG0CgBXAZ2Y0eVHqMPYugu+9U0AeT6YBeiJpf7lbdJNIugFP5SIjwNRgo4DhR1Qxi26Gg==}
+
+  '@flowbite-svelte-plugins/datatable@0.4.1':
+    resolution: {integrity: sha512-LUZlLxbE/HJPj5Hd82Crgs6sR3Yvm5PP/7iaLYCQzBU61PW/iDXg85AKTq7sKeSAflHtY4kVPJuTt5vuI8W5fg==}
+    peerDependencies:
+      svelte: ^5.0.0
+      tailwindcss: ^4.1.4
 
   '@fontsource/jetbrains-mono@5.3.0':
     resolution: {integrity: sha512-fqDfB5I9f1p1TV486aUgB9t8zP84P0O1FtQR5Ol9vjwPy+S+EIGlVYm1cvj2W5shcZMTg2nZFdVMoH5wFu8a1A==}
@@ -1310,6 +1322,9 @@ packages:
   date-fns@4.4.0:
     resolution: {integrity: sha512-+1UMbeh68lH1SegH83CGWwpb6OHHbpSgr3+s5Eww5M4CAgswBpoWS0AjTOfEJ33HiYKz1hdj/KTFprzXHmq/6w==}
 
+  dayjs@1.11.23:
+    resolution: {integrity: sha512-QDTCU0M0MxR3hQfnlDJfwekQiaanm1ubOD231u73WBckQ/fsamwRLiE2GBz6D3a/xF1NgfiDLJjXBa1hYOYTtQ==}
+
   deepmerge@4.3.1:
     resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
     engines: {node: '>=0.10.0'}
@@ -1327,6 +1342,9 @@ packages:
 
   devalue@5.8.0:
     resolution: {integrity: sha512-2zA9pFEsnp7vWBZbXF5JAgAq0fsUIt/1XPbRiAmRV3lp/2C3upzH+sADiyy66aFCihoLEsrQHxNM5w1gIDfsBg==}
+
+  diff-dom@5.2.1:
+    resolution: {integrity: sha512-G6WquwIa/XOxiYDYRMxfJj+c+a6LXMv7zgXoAQ3eRjTYkc8Lc4Aq97krTu/B15r243FR7dyeSxDenzKtO6sbfA==}
 
   enhanced-resolve@5.21.3:
     resolution: {integrity: sha512-QyL119InA+XXEkNLNTPCXPugSvOfhwv0JOlGNzvxs0hZaiHLNvXSpudUWsOlsXGWJh8G6ckCScEkVHfX3kw/2Q==}
@@ -1688,6 +1706,9 @@ packages:
 
   siginfo@2.0.0:
     resolution: {integrity: sha512-ybx0WO1/8bSBLEWXZvEd7gMW3Sn3JFlW3TvX1nREbDLRNQNaeNN8WK0meBwPdAaOI7TtRRRJn/Es1zhrrCHu7g==}
+
+  simple-datatables@10.3.0:
+    resolution: {integrity: sha512-/9XcZ/AzZWYNMTTwUcUqsNhZXD1KIHg4tWCUhRx5qPDOnRVG2gNdRDR1euNTCbQxfAypu78ucgWc/BOMFfuxAQ==}
 
   sirv@3.0.2:
     resolution: {integrity: sha512-2wcC/oGxHis/BoHkkPwldgiPSYcpZK3JU28WoMVv55yHJgcZ8rlXvuG9iZggz+sU1d4bRgIGASwyWqjxu3FM0g==}
@@ -2052,6 +2073,12 @@ snapshots:
       '@floating-ui/utils': 0.2.11
 
   '@floating-ui/utils@0.2.11': {}
+
+  '@flowbite-svelte-plugins/datatable@0.4.1(svelte@5.55.5)(tailwindcss@4.3.0)':
+    dependencies:
+      simple-datatables: 10.3.0
+      svelte: 5.55.5
+      tailwindcss: 4.3.0
 
   '@fontsource/jetbrains-mono@5.3.0': {}
 
@@ -2956,6 +2983,8 @@ snapshots:
 
   date-fns@4.4.0: {}
 
+  dayjs@1.11.23: {}
+
   deepmerge@4.3.1: {}
 
   delaunator@5.1.0:
@@ -2967,6 +2996,8 @@ snapshots:
   detect-libc@2.1.2: {}
 
   devalue@5.8.0: {}
+
+  diff-dom@5.2.1: {}
 
   enhanced-resolve@5.21.3:
     dependencies:
@@ -3365,6 +3396,11 @@ snapshots:
   set-cookie-parser@3.1.0: {}
 
   siginfo@2.0.0: {}
+
+  simple-datatables@10.3.0:
+    dependencies:
+      dayjs: 1.11.23
+      diff-dom: 5.2.1
 
   sirv@3.0.2:
     dependencies:

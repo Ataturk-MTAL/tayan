@@ -10,24 +10,24 @@
  * sistem gündüz açığa dönünce uygulama da dönmeli.
  */
 
-const ANAHTAR = "tayan.theme.v1";
+const STORAGE_KEY = "tayan.theme.v1";
 
 export type ThemeChoice = "light" | "dark" | "system";
 
-const SECENEKLER: ThemeChoice[] = ["light", "dark", "system"];
+const CHOICES: ThemeChoice[] = ["light", "dark", "system"];
 
-function saklananOku(): ThemeChoice {
+function readStoredChoice(): ThemeChoice {
   if (typeof localStorage === "undefined") return "system";
   try {
-    const ham = localStorage.getItem(ANAHTAR);
-    return SECENEKLER.includes(ham as ThemeChoice) ? (ham as ThemeChoice) : "system";
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return CHOICES.includes(raw as ThemeChoice) ? (raw as ThemeChoice) : "system";
   } catch {
     // Gizli pencere ya da kapatılmış site verisi: varsayılana düş, çökme.
     return "system";
   }
 }
 
-function sistemKoyuMu(): boolean {
+function isSystemDark(): boolean {
   if (typeof window === "undefined" || !window.matchMedia) return false;
   return window.matchMedia("(prefers-color-scheme: dark)").matches;
 }
@@ -54,29 +54,29 @@ export const theme = new ThemeState();
  * çağrılmıyor, yine de sızıntı bırakmamak için var.
  */
 export function initTheme(): () => void {
-  theme.choice = saklananOku();
-  theme.systemDark = sistemKoyuMu();
-  uygula();
+  theme.choice = readStoredChoice();
+  theme.systemDark = isSystemDark();
+  applyTheme();
 
   if (typeof window === "undefined" || !window.matchMedia) return () => {};
 
   const mq = window.matchMedia("(prefers-color-scheme: dark)");
-  const dinle = (e: MediaQueryListEvent) => {
+  const onSystemChange = (e: MediaQueryListEvent) => {
     theme.systemDark = e.matches;
-    uygula();
+    applyTheme();
   };
-  mq.addEventListener("change", dinle);
-  return () => mq.removeEventListener("change", dinle);
+  mq.addEventListener("change", onSystemChange);
+  return () => mq.removeEventListener("change", onSystemChange);
 }
 
 export function setTheme(next: ThemeChoice) {
   theme.choice = next;
   try {
-    localStorage.setItem(ANAHTAR, next);
+    localStorage.setItem(STORAGE_KEY, next);
   } catch {
     // Yazamamak temayı uygulamayı engellemez; yalnız hatırlanmaz.
   }
-  uygula();
+  applyTheme();
 }
 
 /** Açık ↔ koyu arasında gidip gelir. "system" seçiliyken karşıtına geçer. */
@@ -84,7 +84,7 @@ export function toggleTheme() {
   setTheme(theme.isDark ? "light" : "dark");
 }
 
-function uygula() {
+function applyTheme() {
   if (typeof document === "undefined") return;
   document.documentElement.classList.toggle("dark", theme.isDark);
   // Tarayıcının kendi çizdiği alanlar (kaydırma çubuğu, form denetimleri)

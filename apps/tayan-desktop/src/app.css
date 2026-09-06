@@ -19,6 +19,29 @@
 @import "@fontsource/jetbrains-mono/700.css";
 
 /*
+  FLOWBITE'IN SEMANTİK BELİRTEÇLERİ. Bunsuz Flowbite'ın kendi bileşen CSS'i
+  boşa çözülüyor.
+
+  ÖLÇÜLDÜ: `flowbite/plugin` datatable'ın tamamını biçimlendiriyor ama
+  kuralları semantik değişkenlere dayanıyor —
+  `border: 1px solid var(--color-default)`,
+  `background-color: var(--color-neutral-secondary-soft)`,
+  `color: var(--color-heading)`, `border-radius: var(--radius-base)`.
+  Bu proje `@theme`inde yalnız `--color-primary-*` ve fontlar vardı; sayılan
+  değişkenlerin HİÇBİRİ tanımlı değildi. Sonuç: kurallar CSS'e giriyor ama
+  kenarlık ve zemin hiçbir şeye çözülüyordu — arama kutusu çerçevesiz, tablo
+  çıplak. Hata da vermiyordu; tanımsız bir custom property sessizce boş.
+
+  Bu, Tailwind v3 döneminden kalan "yalnız primary" temasının mirasıydı.
+  Flowbite artık tam bir belirteç kümesi bekliyor ve onu paketle veriyor.
+
+  SIRA ÖNEMLİ: bu satır aşağıdaki `@theme` bloğundan ÖNCE. Flowbite burada
+  `--font-sans`ı Inter yapıyor; projenin kendi `@theme`i sonra gelip Public
+  Sans'a çeviriyor. Ters sırada uygulamanın yazı tipi sessizce değişirdi.
+*/
+@import "flowbite/src/themes/default.css";
+
+/*
   TAYAN teması. Flowbite bileşenleri `primary-*` ölçeğini bekliyor; burada
   tanımlanan renkler bütün düğmelere, sekmelere ve odak halkalarına gidiyor.
 
@@ -42,10 +65,36 @@
   --font-sans:
     "Public Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /*
+    Başlık şeridinin yüksekliği — SABİT, ölçülen değil.
+
+    Şerit eskiden içeriğine göre büyüyüp küçülüyordu: alt başlığı olan sayfada
+    bir satır, eylemleri sarmalayan sayfada bir satır daha. Sayfa değiştikçe
+    yükseklik zıplıyor, çekmecenin üst kenarı da onunla birlikte oynuyordu.
+    Daha kötüsü, alt başlıklar `loading ? null : ...` olduğu için AYNI sayfada
+    veri gelince şerit büyüyordu.
+
+    Tek değer iki yerde kullanılıyor — şeridin kendi yüksekliği (`PageShell`)
+    ve çekmecenin nereden başladığı (`+layout`) — bu yüzden ikisinin de
+    gördüğü tek yerde duruyor. İki dosyaya ayrı ayrı `h-20` / `top-20` yazmak,
+    birini değiştirip diğerini unutmayı davet ederdi.
+
+    5rem = 80 px: 28 px başlık + 20 px ikincil satır + 2 × 16 px iç boşluk.
+  */
+  --tayan-header-h: 5rem;
 }
 
 @source "../node_modules/flowbite-svelte/dist";
 @source "../node_modules/flowbite-svelte-icons/dist";
+
+/*
+  Datatable eklentisi. Sınıfları çalışma anında `simple-datatables` tarafından
+  DOM'a yazılıyor; kaynak taranmazsa Tailwind o sınıfları hiç üretmez ve tablo
+  biçimsiz kalır — sessizce, hata vermeden.
+*/
+@source "../node_modules/simple-datatables/dist";
+@source "../node_modules/@flowbite-svelte-plugins/datatable/dist";
 
 @layer base {
   /*
@@ -126,6 +175,16 @@
     --cm-syn-label: #fcd34d;
   }
 }
+
+/*
+  DATATABLE İÇİN ELDE YAZILMIŞ KURAL YOK — bilerek.
+
+  Eklentinin dokümanı burada `.datatable-active` ve `tr.selected` için pembe
+  (`#ffe4de` / `#fff1ee`) sabit renkler veriyor. İkisi de gereksiz: Flowbite'ın
+  kendi eklentisi bu iki seçiciyi zaten biçimlendiriyor ve yukarıda içe alınan
+  belirteçlerle artık doğru çözülüyorlar. Dokümanın bloğu, belirteçleri
+  olmayan bir kuruluma yamaydı.
+*/
 
 @layer utilities {
   /*

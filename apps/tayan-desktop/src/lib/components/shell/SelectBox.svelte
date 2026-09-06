@@ -338,7 +338,14 @@
       style={menuStyle}
     >
       {#if filtered.length === 0}
-        <li class="px-2.5 py-1.5 text-xs text-gray-400 dark:text-gray-500">Eşleşme yok</li>
+        <!--
+          `dark:text-gray-400`, `dark:text-gray-500` DEĞİL. gray-500 (#6b7280)
+          panelin koyu zemini gray-700 (#374151) üstünde yaklaşık 2.1:1 kontrast
+          veriyor — küçük punto için okunmuyor. gray-400 (#9ca3af) aynı zeminde
+          ~4.0:1'e çıkıyor ve uygulamanın başka yerlerinde de koyu kipteki soluk
+          metin rengi zaten bu.
+        -->
+        <li class="px-2.5 py-1.5 text-xs text-gray-400 dark:text-gray-400">Eşleşme yok</li>
       {:else}
         {#each filtered as option, i (option.value)}
           <!--
