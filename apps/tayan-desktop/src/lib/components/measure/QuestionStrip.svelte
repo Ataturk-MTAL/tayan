@@ -86,11 +86,11 @@
    * bırakıyor, geniş mod bu yüzden 13px'i koruyabiliyor. leading-5
    * değişmediği için şerit yüksekliği iki modda da 48px.
    */
-  const YOGUN_ESIK = 32;
+  const DENSE_THRESHOLD = 32;
 
-  let yogun = $derived(questions.length > YOGUN_ESIK);
-  let tusOlcu = $derived(yogun ? "min-w-[20px] px-[2px]" : "min-w-[24px] px-[5px]");
-  let sayiOlcu = $derived(yogun ? "text-[11px]" : "text-[13px]");
+  let isDense = $derived(questions.length > DENSE_THRESHOLD);
+  let keySizeClass = $derived(isDense ? "min-w-[20px] px-[2px]" : "min-w-[24px] px-[5px]");
+  let numberSizeClass = $derived(isDense ? "text-[11px]" : "text-[13px]");
 </script>
 
 {#if questions.length > 0}
@@ -146,13 +146,13 @@
         -->
         <button
           type="button"
-          class="group relative {tusOlcu} flex-1 border-l border-gray-200 py-2.5
+          class="group relative {keySizeClass} flex-1 border-l border-gray-200 py-2.5
                  text-center transition-colors hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-700
                  {q.id === activeId ? 'bg-gray-50 dark:bg-gray-700' : ''}"
           title="{i + 1}. soru · {questionPoints(q)} puan · {BADGE_LABEL[badge]}"
           onclick={() => onselect?.(q.id)}
         >
-          <span class="tnum block {sayiOlcu} leading-5" class:font-bold={q.id === activeId}>
+          <span class="tnum block {numberSizeClass} leading-5" class:font-bold={q.id === activeId}>
             {i + 1}
           </span>
           <!-- Durum tuşun kendisinde: altındaki çizgi ölçümün rengidir. -->

@@ -24,37 +24,37 @@
 
   let { rubric, points, onchange }: Props = $props();
 
-  let toplam = $derived(rubric.reduce((sum, r) => sum + r.points, 0));
-  let fark = $derived(points - toplam);
+  let total = $derived(rubric.reduce((sum, r) => sum + r.points, 0));
+  let difference = $derived(points - total);
 
   /** Boş rubrik geçerlidir: öğretmen ölçüt yazmak zorunda değil. */
-  let hata = $derived.by(() => {
+  let error = $derived.by(() => {
     if (rubric.length === 0) return null;
     if (rubric.some((r) => r.criterion.trim() === "")) {
       return "Ölçüt metni boş olamaz.";
     }
-    if (toplam !== points) {
-      return fark > 0
-        ? `Ölçüt toplamı ${toplam}; soru puanı ${points}. ${fark} puan dağıtılmadı.`
-        : `Ölçüt toplamı ${toplam}; soru puanı ${points}. ${-fark} puan fazla.`;
+    if (total !== points) {
+      return difference > 0
+        ? `Ölçüt toplamı ${total}; soru puanı ${points}. ${difference} puan dağıtılmadı.`
+        : `Ölçüt toplamı ${total}; soru puanı ${points}. ${-difference} puan fazla.`;
     }
     return null;
   });
 
   // Değişmezlik: her düzenleme yeni dizi üretir, mevcut olan değiştirilmez.
-  function ekle() {
+  function addItem() {
     // Kalan puanı yeni ölçüte öner: en sık istenen dağılım budur ve
     // öğretmenin toplamı elde tutturmasına gerek kalmaz.
-    const onerilen = rubric.length === 0 ? points : Math.max(0, fark);
-    onchange([...rubric, { criterion: "", points: onerilen }]);
+    const suggestedPoints = rubric.length === 0 ? points : Math.max(0, difference);
+    onchange([...rubric, { criterion: "", points: suggestedPoints }]);
   }
 
-  function sil(index: number) {
+  function removeItem(index: number) {
     onchange(rubric.filter((_, i) => i !== index));
   }
 
-  function guncelle(index: number, alan: Partial<RubricItem>) {
-    onchange(rubric.map((r, i) => (i === index ? { ...r, ...alan } : r)));
+  function updateItem(index: number, patch: Partial<RubricItem>) {
+    onchange(rubric.map((r, i) => (i === index ? { ...r, ...patch } : r)));
   }
 </script>
 
@@ -77,8 +77,8 @@
       olduğu gibi kalıyor.
     -->
     <Badge
-      color={hata !== null ? "red" : "gray"}
-      class="tnum shrink-0 whitespace-nowrap">{toplam} / {points}</Badge>
+      color={error !== null ? "red" : "gray"}
+      class="tnum shrink-0 whitespace-nowrap">{total} / {points}</Badge>
   </div>
 
   {#if rubric.length === 0}
@@ -114,7 +114,7 @@
           placeholder="Değerlendirme ölçütü"
           ariaLabel="Değerlendirme ölçütü"
           bordered={false}
-          onchange={(v) => guncelle(i, { criterion: v })}
+          onchange={(v) => updateItem(i, { criterion: v })}
         />
         <!--
           px-0 ŞART: flowbite eklentisi @layer base içinde bütün [type='number']
@@ -127,14 +127,14 @@
           katman kuralını yener.
         -->
         <input
-          class="olcut-puan tnum w-full border-0 bg-transparent px-0 text-right text-sm
+          class="criterion-points tnum w-full border-0 bg-transparent px-0 text-right text-sm
                  text-gray-900 focus:outline-none dark:text-white"
           type="number"
           min="0"
           max={points}
           aria-label="Ölçüt puanı"
           value={item.points}
-          oninput={(e) => guncelle(i, { points: Number(e.currentTarget.value) })}
+          oninput={(e) => updateItem(i, { points: Number(e.currentTarget.value) })}
         />
         <button
           type="button"
@@ -142,7 +142,7 @@
                  hover:text-red-600 dark:text-gray-500 dark:hover:text-red-400"
           aria-label="Ölçütü sil"
           title="Ölçütü sil"
-          onclick={() => sil(i)}
+          onclick={() => removeItem(i)}
         >
           <TrashBinOutline class="h-3.5 w-3.5" />
         </button>
@@ -150,12 +150,12 @@
     {/each}
   </ol>
 
-  <Button size="xs" color="light" class="mt-2" onclick={ekle}>
+  <Button size="xs" color="light" class="mt-2" onclick={addItem}>
     <PlusOutline class="me-1 h-3.5 w-3.5" /> Ölçüt ekle
   </Button>
 
-  {#if hata}
-    <p class="mt-1 text-xs text-red-600 dark:text-red-400">{hata}</p>
+  {#if error}
+    <p class="mt-1 text-xs text-red-600 dark:text-red-400">{error}</p>
   {/if}
 </div>
 
@@ -166,12 +166,12 @@
     rakamı sağa yaslamak, tabloya benzeyen bir puan sütunu veriyor.
     Değer klavyeden ve yukarı/aşağı tuşlarıyla hâlâ değiştirilebilir.
   */
-  .olcut-puan::-webkit-outer-spin-button,
-  .olcut-puan::-webkit-inner-spin-button {
+  .criterion-points::-webkit-outer-spin-button,
+  .criterion-points::-webkit-inner-spin-button {
     appearance: none;
     margin: 0;
   }
-  .olcut-puan {
+  .criterion-points {
     appearance: textfield;
   }
 </style>

@@ -152,12 +152,13 @@
     // cevap değişince de önizleme tazelenmeli.
     const current = body;
     const tab = sourceTab;
-    const cevap = sampleAnswer;
-    const olcutler = rubric;
-    const puan = points;
+    const currentSampleAnswer = sampleAnswer;
+    const currentRubric = rubric;
+    const currentPoints = points;
 
     const timer = setTimeout(() => {
-      if (tab === "answer") void compileAnswer(current, cevap, olcutler, puan);
+      if (tab === "answer")
+        void compileAnswer(current, currentSampleAnswer, currentRubric, currentPoints);
       else void compile(current);
     }, DEBOUNCE_MS);
     return () => clearTimeout(timer);
@@ -171,9 +172,9 @@
    * bilgisi yoktu; iki varyant gelince aynı dizeyle yanlış önizleme
    * derlenebilirdi. Bekleyen iş artık kapanışın kendisi.
    */
-  async function run(is: () => Promise<string[]>) {
+  async function run(job: () => Promise<string[]>) {
     if (compiling) {
-      pendingJob = is;
+      pendingJob = job;
       return;
     }
 
@@ -181,7 +182,7 @@
     slowTimer = setTimeout(() => (slowCompile = true), SLOW_COMPILE_MS);
 
     try {
-      pages = await is();
+      pages = await job();
       compileError = null;
       diagnostics = [];
     } catch (err: unknown) {
@@ -206,12 +207,12 @@
 
   async function compileAnswer(
     source: string,
-    cevap: string,
-    olcutler: RubricItem[],
-    puan: number,
+    sampleAnswer: string,
+    rubric: RubricItem[],
+    points: number,
   ) {
     await run(() =>
-      api.compiler.previewAnswerKey(source, cevap.trim() === "" ? null : cevap, olcutler, puan),
+      api.compiler.previewAnswerKey(source, sampleAnswer.trim() === "" ? null : sampleAnswer, rubric, points),
     );
   }
 
@@ -395,22 +396,22 @@
             <div
               class="flex shrink-0 gap-0 border-b border-gray-200 px-3 dark:border-gray-700"
             >
-              {#each [{ id: "question" as const, ad: "Soru" }, { id: "answer" as const, ad: "Cevap" }] as sekme (sekme.id)}
+              {#each [{ id: "question" as const, label: "Soru" }, { id: "answer" as const, label: "Cevap" }] as tab (tab.id)}
                 <button
                   type="button"
                   class="shrink-0 border-b-2 px-3 py-1.5 text-sm font-medium transition-colors"
-                  class:border-primary-600={sourceTab === sekme.id}
-                  class:text-primary-700={sourceTab === sekme.id}
-                  class:dark:border-primary-400={sourceTab === sekme.id}
-                  class:dark:text-primary-400={sourceTab === sekme.id}
-                  class:border-transparent={sourceTab !== sekme.id}
-                  class:text-gray-500={sourceTab !== sekme.id}
-                  class:hover:text-gray-700={sourceTab !== sekme.id}
-                  class:dark:text-gray-400={sourceTab !== sekme.id}
-                  class:dark:hover:text-gray-200={sourceTab !== sekme.id}
-                  onclick={() => (sourceTab = sekme.id)}
+                  class:border-primary-600={sourceTab === tab.id}
+                  class:text-primary-700={sourceTab === tab.id}
+                  class:dark:border-primary-400={sourceTab === tab.id}
+                  class:dark:text-primary-400={sourceTab === tab.id}
+                  class:border-transparent={sourceTab !== tab.id}
+                  class:text-gray-500={sourceTab !== tab.id}
+                  class:hover:text-gray-700={sourceTab !== tab.id}
+                  class:dark:text-gray-400={sourceTab !== tab.id}
+                  class:dark:hover:text-gray-200={sourceTab !== tab.id}
+                  onclick={() => (sourceTab = tab.id)}
                 >
-                  {sekme.ad}
+                  {tab.label}
                 </button>
               {/each}
               <!--

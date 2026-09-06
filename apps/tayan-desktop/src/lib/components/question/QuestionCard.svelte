@@ -13,34 +13,34 @@
 
   /** Gövde metni → SVG. Aynı soru iki kez derlenmez. */
   const cache = new Map<string, string>();
-  let calisan = 0;
-  const kuyruk: Array<() => void> = [];
+  let running = 0;
+  const queue: Array<() => void> = [];
 
-  function slotAl(): Promise<void> {
-    if (calisan < MAX_CONCURRENT) {
-      calisan += 1;
+  function acquireSlot(): Promise<void> {
+    if (running < MAX_CONCURRENT) {
+      running += 1;
       return Promise.resolve();
     }
-    return new Promise((resolve) => kuyruk.push(resolve));
+    return new Promise((resolve) => queue.push(resolve));
   }
 
-  function slotBirak() {
-    const sonraki = kuyruk.shift();
-    if (sonraki) sonraki();
-    else calisan -= 1;
+  function releaseSlot() {
+    const next = queue.shift();
+    if (next) next();
+    else running -= 1;
   }
 
-  export async function derle(body: string): Promise<string> {
+  export async function compileThumbnail(body: string): Promise<string> {
     const hit = cache.get(body);
     if (hit !== undefined) return hit;
 
-    await slotAl();
+    await acquireSlot();
     try {
       const svg = await api.compiler.questionThumbnail(body);
       cache.set(body, svg);
       return svg;
     } finally {
-      slotBirak();
+      releaseSlot();
     }
   }
 </script>
@@ -83,24 +83,24 @@
 
   $effect(() => {
     const el = host;
-    const kaynak = body;
+    const source = body;
     if (!el) return;
 
-    let iptal = false;
-    const gozlemci = new IntersectionObserver(
-      (girisler) => {
-        if (!girisler.some((g) => g.isIntersecting)) return;
-        gozlemci.disconnect();
+    let cancelled = false;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (!entries.some((entry) => entry.isIntersecting)) return;
+        observer.disconnect();
         void (async () => {
           try {
-            const raw = await derle(kaynak);
-            if (!iptal) svg = sanitize(raw);
+            const raw = await compileThumbnail(source);
+            if (!cancelled) svg = sanitize(raw);
           } catch (err: unknown) {
             // Hata metni karta sığmaz; kart "Dizilemedi" der ve soru yine
             // açılabilir. Ayrıntı konsola bırakılmıyor, gizlenmiyor da:
             // editörde açınca aynı hata tanılama olarak görünür.
             void errorText(err);
-            if (!iptal) failed = true;
+            if (!cancelled) failed = true;
           }
         })();
       },
@@ -108,10 +108,10 @@
       { rootMargin: "200px" },
     );
 
-    gozlemci.observe(el);
+    observer.observe(el);
     return () => {
-      iptal = true;
-      gozlemci.disconnect();
+      cancelled = true;
+      observer.disconnect();
     };
   });
 </script>

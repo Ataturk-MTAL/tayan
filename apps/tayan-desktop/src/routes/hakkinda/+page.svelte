@@ -20,23 +20,23 @@
    * Rust crate'inin tamamını listelemek kimsenin okumadığı bir duvar üretir;
    * tam liste NOTICE ve THIRD-PARTY.md dosyalarında.
    */
-  const CEKIRDEK = [
-    { ad: "typst", surum: "0.15.1", lisans: "Apache-2.0", ne: "dizgi motoru" },
-    { ad: "tauri", surum: "2.11.1", lisans: "Apache-2.0 / MIT", ne: "masaüstü çatısı" },
-    { ad: "svelte", surum: "5.55.5", lisans: "MIT", ne: "arayüz" },
-    { ad: "@sveltejs/kit", surum: "2.59.1", lisans: "MIT", ne: "yönlendirme" },
-    { ad: "@codemirror/view", surum: "6.43.9", lisans: "MIT", ne: "kod editörü" },
-    { ad: "d3", surum: "7.9.0", lisans: "ISC", ne: "grafik ölçekleri" },
-    { ad: "sqlx", surum: "0.8.6", lisans: "MIT / Apache-2.0", ne: "veritabanı" },
-    { ad: "tokio", surum: "1.52.3", lisans: "MIT", ne: "eşzamansız çalışma" },
-    { ad: "serde", surum: "1.0.228", lisans: "MIT / Apache-2.0", ne: "veri dönüşümü" },
-    { ad: "include_dir", surum: "0.7.4", lisans: "MIT", ne: "paket gömme" },
+  const CORE_COMPONENTS = [
+    { name: "typst", version: "0.15.1", license: "Apache-2.0", role: "dizgi motoru" },
+    { name: "tauri", version: "2.11.1", license: "Apache-2.0 / MIT", role: "masaüstü çatısı" },
+    { name: "svelte", version: "5.55.5", license: "MIT", role: "arayüz" },
+    { name: "@sveltejs/kit", version: "2.59.1", license: "MIT", role: "yönlendirme" },
+    { name: "@codemirror/view", version: "6.43.9", license: "MIT", role: "kod editörü" },
+    { name: "d3", version: "7.9.0", license: "ISC", role: "grafik ölçekleri" },
+    { name: "sqlx", version: "0.8.6", license: "MIT / Apache-2.0", role: "veritabanı" },
+    { name: "tokio", version: "1.52.3", license: "MIT", role: "eşzamansız çalışma" },
+    { name: "serde", version: "1.0.228", license: "MIT / Apache-2.0", role: "veri dönüşümü" },
+    { name: "include_dir", version: "0.7.4", license: "MIT", role: "paket gömme" },
   ];
 
-  const PAKETLER = [
-    { ad: "cetz", surum: "0.4.2", lisans: "LGPL-3.0", ne: "çizim ve grafik" },
-    { ad: "zap", surum: "0.5.0", lisans: "LGPL-3.0", ne: "devre şemaları" },
-    { ad: "oxifmt", surum: "1.0.0", lisans: "Apache-2.0 / MIT", ne: "biçimlendirme" },
+  const TYPST_PACKAGES = [
+    { name: "cetz", version: "0.4.2", license: "LGPL-3.0", role: "çizim ve grafik" },
+    { name: "zap", version: "0.5.0", license: "LGPL-3.0", role: "devre şemaları" },
+    { name: "oxifmt", version: "1.0.0", license: "Apache-2.0 / MIT", role: "biçimlendirme" },
   ];
 
   /**
@@ -44,20 +44,20 @@
    * içinden çıkıyorlar (Libertinus Serif, DejaVu Sans Mono, New Computer
    * Modern). Doğru atıf o crate'e.
    */
-  const YAZI_TIPLERI = [
-    { ad: "@fontsource/public-sans", lisans: "OFL-1.1", ne: "arayüz" },
-    { ad: "@fontsource/jetbrains-mono", lisans: "OFL-1.1", ne: "kod editörü" },
-    { ad: "typst-assets", lisans: "Apache-2.0", ne: "sınav kâğıdının yazı tipleri" },
+  const FONTS = [
+    { name: "@fontsource/public-sans", license: "OFL-1.1", role: "arayüz" },
+    { name: "@fontsource/jetbrains-mono", license: "OFL-1.1", role: "kod editörü" },
+    { name: "typst-assets", license: "Apache-2.0", role: "sınav kâğıdının yazı tipleri" },
   ];
 
-  const NPM_SAYISI = 176;
-  const CRATE_SAYISI = 709;
+  const NPM_PACKAGE_COUNT = 176;
+  const RUST_CRATE_COUNT = 709;
 
   /**
    * Sürüm elle yazılıyor ve Cargo.toml ile tauri.conf.json'daki 0.1.0 ile aynı
    * kalmak zorunda — sürüm yükseltirken üçü birden güncellenmeli.
    */
-  const SURUM = "0.1.0";
+  const APP_VERSION = "0.1.0";
 </script>
 
 <PageShell title="Hakkında">
@@ -83,7 +83,7 @@
       <dt class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
         Sürüm
       </dt>
-      <dd class="tnum text-gray-900 dark:text-white">{SURUM}</dd>
+      <dd class="tnum text-gray-900 dark:text-white">{APP_VERSION}</dd>
 
       <dt class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
         Geliştiren
@@ -136,13 +136,13 @@
       Dizgi ve uygulama çatısı
     </Heading>
     <ul class="mt-1 divide-y divide-gray-200 dark:divide-gray-700">
-      {#each CEKIRDEK as b (b.ad)}
+      {#each CORE_COMPONENTS as b (b.name)}
         <li class="flex items-center justify-between gap-2.5 py-1.5">
           <span class="min-w-0 text-sm text-gray-700 dark:text-gray-300">
-            <span class="font-mono text-xs text-gray-900 dark:text-white">{b.ad}</span>
-            <span class="text-gray-500 dark:text-gray-400">{b.surum}</span> — {b.ne}
+            <span class="font-mono text-xs text-gray-900 dark:text-white">{b.name}</span>
+            <span class="text-gray-500 dark:text-gray-400">{b.version}</span> — {b.role}
           </span>
-          <Badge color="gray" class="shrink-0">{b.lisans}</Badge>
+          <Badge color="gray" class="shrink-0">{b.license}</Badge>
         </li>
       {/each}
     </ul>
@@ -158,13 +158,13 @@
       dağıtılırlar, yani değiştirilebilirler.
     </P>
     <ul class="mt-1 divide-y divide-gray-200 dark:divide-gray-700">
-      {#each PAKETLER as p (p.ad)}
+      {#each TYPST_PACKAGES as p (p.name)}
         <li class="flex items-center justify-between gap-2.5 py-1.5">
           <span class="min-w-0 text-sm text-gray-700 dark:text-gray-300">
-            <span class="font-mono text-xs text-gray-900 dark:text-white">{p.ad}</span>
-            <span class="text-gray-500 dark:text-gray-400">{p.surum}</span> — {p.ne}
+            <span class="font-mono text-xs text-gray-900 dark:text-white">{p.name}</span>
+            <span class="text-gray-500 dark:text-gray-400">{p.version}</span> — {p.role}
           </span>
-          <Badge color="gray" class="shrink-0">{p.lisans}</Badge>
+          <Badge color="gray" class="shrink-0">{p.license}</Badge>
         </li>
       {/each}
     </ul>
@@ -176,20 +176,20 @@
       Yazı tipleri
     </Heading>
     <ul class="mt-1 divide-y divide-gray-200 dark:divide-gray-700">
-      {#each YAZI_TIPLERI as y (y.ad)}
+      {#each FONTS as y (y.name)}
         <li class="flex items-center justify-between gap-2.5 py-1.5">
           <span class="min-w-0 text-sm text-gray-700 dark:text-gray-300">
-            <span class="font-mono text-xs text-gray-900 dark:text-white">{y.ad}</span> — {y.ne}
+            <span class="font-mono text-xs text-gray-900 dark:text-white">{y.name}</span> — {y.role}
           </span>
-          <Badge color="gray" class="shrink-0">{y.lisans}</Badge>
+          <Badge color="gray" class="shrink-0">{y.license}</Badge>
         </li>
       {/each}
     </ul>
 
     <P class="mt-4 text-sm text-gray-500 dark:text-gray-400">
       Yukarıdakiler doğrudan kullanılan bileşenler. Onların da kendi bağımlılıkları var: toplam
-      <b class="text-gray-700 dark:text-gray-300">{NPM_SAYISI}</b> JavaScript paketi ve
-      <b class="text-gray-700 dark:text-gray-300">{CRATE_SAYISI}</b> Rust crate'i. Büyük çoğunluğu
+      <b class="text-gray-700 dark:text-gray-300">{NPM_PACKAGE_COUNT}</b> JavaScript paketi ve
+      <b class="text-gray-700 dark:text-gray-300">{RUST_CRATE_COUNT}</b> Rust crate'i. Büyük çoğunluğu
       MIT, ISC ve Apache-2.0. Tam liste depodaki
       <span class="font-mono text-xs">NOTICE</span> ve
       <span class="font-mono text-xs">THIRD-PARTY.md</span> dosyalarındadır.

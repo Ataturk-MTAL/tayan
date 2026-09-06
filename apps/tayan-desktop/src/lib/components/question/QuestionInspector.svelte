@@ -121,35 +121,35 @@
    * Eksik zorunlu alanlar. Kaydete basılmadan görünür: hatayı ancak kaydetmeye
    * çalışınca öğrenmek, doldurulmuş bir formu geri çevirmek demektir.
    */
-  let dersEksik = $derived(meta.subject.trim() === "");
-  let seviyeEksik = $derived(
+  let isSubjectMissing = $derived(meta.subject.trim() === "");
+  let isGradeMissing = $derived(
     !Number.isFinite(meta.grade) || meta.grade < MIN_GRADE || meta.grade > MAX_GRADE,
   );
 
-  const ZORLUK_SECENEKLERI = (["kolay", "orta", "zor"] as Difficulty[]).map((z) => ({
-    value: z,
-    label: DIFFICULTY_LABELS[z],
+  const DIFFICULTY_OPTIONS = (["kolay", "orta", "zor"] as Difficulty[]).map((difficulty) => ({
+    value: difficulty,
+    label: DIFFICULTY_LABELS[difficulty],
   }));
 
-  let tipSecenekleri = $derived(
+  let questionTypeOptions = $derived(
     Object.entries(QUESTION_TYPE_LABELS).map(([value, label]) => ({ value, label })),
   );
 
-  let dersSecenekleri = $derived(subjectOptions.map((s) => ({ value: s, label: s })));
+  let subjectSelectOptions = $derived(subjectOptions.map((s) => ({ value: s, label: s })));
 
   /**
    * Kazanım kodları yazılırken doğrulanır. Kural Rust tarafıyla birebir aynı;
    * kaydetmeye çalışınca "Geçersiz kazanım kodu" ile karşılaşmak, doldurulmuş
    * bir formu geri çevirmek olurdu.
    */
-  let kazanimlar = $derived(splitOutcomes(outcomeText));
-  let kazanimOnek = $derived(outcomePrefix(meta.subject, meta.grade));
-  let kazanimOnerileri = $derived(outcomeSuggestions(bank, meta.subject, meta.grade));
+  let parsedOutcomes = $derived(splitOutcomes(outcomeText));
+  let outcomeCodePrefix = $derived(outcomePrefix(meta.subject, meta.grade));
+  let suggestedOutcomes = $derived(outcomeSuggestions(bank, meta.subject, meta.grade));
 
   function addOutcome(code: string) {
-    const varOlan = outcomeText.trim();
-    if (varOlan.split(/[,\s]+/).includes(code)) return;
-    onoutcometextchange(varOlan === "" ? code : `${varOlan} ${code}`);
+    const current = outcomeText.trim();
+    if (current.split(/[,\s]+/).includes(code)) return;
+    onoutcometextchange(current === "" ? code : `${current} ${code}`);
   }
 
   function pct(n: number): string {
@@ -162,7 +162,7 @@
     <RuledField label="Soru tipi">
       <SelectBox
         value={questionType}
-        options={tipSecenekleri}
+        options={questionTypeOptions}
         onchange={(v) => onquestiontypechange(v as QuestionType)}
       />
     </RuledField>
@@ -181,26 +181,26 @@
       />
     </RuledField>
 
-    <RuledField label="Ders" hint={dersEksik ? "Zorunlu" : null}>
+    <RuledField label="Ders" hint={isSubjectMissing ? "Zorunlu" : null}>
       <SelectBox
         value={meta.subject}
-        options={dersSecenekleri}
+        options={subjectSelectOptions}
         allowCustom
         placeholder="Matematik"
-        invalid={dersEksik}
+        invalid={isSubjectMissing}
         onchange={(v) => onmetachange({ ...meta, subject: v })}
       />
     </RuledField>
 
     <RuledField
       label="Sınıf seviyesi"
-      hint={seviyeEksik ? `Zorunlu — ${MIN_GRADE} ile ${MAX_GRADE} arası` : null}
+      hint={isGradeMissing ? `Zorunlu — ${MIN_GRADE} ile ${MAX_GRADE} arası` : null}
     >
       <SelectBox
         value={meta.grade === 0 ? "" : String(meta.grade)}
         options={GRADE_OPTIONS}
         placeholder="Seç"
-        invalid={seviyeEksik}
+        invalid={isGradeMissing}
         onchange={(v) => onmetachange({ ...meta, grade: Number(v) })}
       />
     </RuledField>
@@ -208,7 +208,7 @@
     <RuledField label="Zorluk" hint="İsteğe bağlı — ölçüm gelince gerçeği görürsün">
       <SelectBox
         value={meta.difficulty ?? ""}
-        options={ZORLUK_SECENEKLERI}
+        options={DIFFICULTY_OPTIONS}
         emptyLabel="Belirtilmedi"
         onchange={(v) => onmetachange({ ...meta, difficulty: v === "" ? null : (v as Difficulty) })}
       />
@@ -216,35 +216,35 @@
 
     <RuledField
       label="Kazanım"
-      hint={kazanimlar.invalid.length > 0
-        ? `Biçim hatalı: ${kazanimlar.invalid.join(", ")} — DERS.SINIF.ÜNİTE.KAZANIM`
+      hint={parsedOutcomes.invalid.length > 0
+        ? `Biçim hatalı: ${parsedOutcomes.invalid.join(", ")} — DERS.SINIF.ÜNİTE.KAZANIM`
         : "Boşluk veya virgülle ayır"}
     >
       <input
         type="text"
         value={outcomeText}
-        placeholder={kazanimOnek === "" ? "MAT.9.1.2" : `${kazanimOnek}1.2`}
-        aria-invalid={kazanimlar.invalid.length > 0}
+        placeholder={outcomeCodePrefix === "" ? "MAT.9.1.2" : `${outcomeCodePrefix}1.2`}
+        aria-invalid={parsedOutcomes.invalid.length > 0}
         oninput={(e) => onoutcometextchange(e.currentTarget.value)}
       />
     </RuledField>
 
-    {#if kazanimOnerileri.length > 0}
+    {#if suggestedOutcomes.length > 0}
       <div>
         <span class="text-[11px] font-semibold tracking-wide text-gray-500 uppercase dark:text-gray-400">
           Bu ders ve seviyede kullandıkların
         </span>
         <div class="mt-1 flex flex-wrap gap-1">
-          {#each kazanimOnerileri as kod}
+          {#each suggestedOutcomes as code}
             <button
               type="button"
               class="rounded border border-gray-300 bg-white px-1.5 py-0.5 font-mono text-[11px]
                      text-gray-600 transition-colors hover:border-primary-500 hover:text-primary-700
                      dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300
                      dark:hover:border-primary-400 dark:hover:text-primary-400"
-              onclick={() => addOutcome(kod)}
+              onclick={() => addOutcome(code)}
             >
-              {kod}
+              {code}
             </button>
           {/each}
         </div>

@@ -457,14 +457,14 @@ export function typstFieldExtensions(onChange: (value: string) => void): Extensi
       // arıyorsun — liste erken kesilince aradığın sembol hiç görünmüyor.
       maxRenderedOptions: 300,
       // Alan dar; kutuyu kendi genişliğine hapsetmesin.
-      tooltipClass: () => "tayan-field-tamamlama",
+      tooltipClass: () => "tayan-field-completion",
     }),
     closeBrackets(),
     history(),
     keymap.of([...closeBracketsKeymap, ...defaultKeymap, ...historyKeymap]),
     typstSyntax,
     fieldTheme,
-    genisTamamlamaKutusu,
+    wideCompletionTheme,
     EditorView.lineWrapping,
     EditorView.updateListener.of((update) => {
       if (update.docChanged) onChange(update.state.doc.toString());
@@ -503,15 +503,15 @@ const fieldTheme = EditorView.theme({
  * `position: fixed` sayesinde kutu görüntü alanına göre konumlanıyor, yani
  * paneli taşırmadan genişleyebilir.
  */
-const genisTamamlamaKutusu = EditorView.theme({
-  ".tayan-field-tamamlama": {
+const wideCompletionTheme = EditorView.theme({
+  ".tayan-field-completion": {
     minWidth: "340px",
     maxWidth: "min(560px, 90vw)",
   },
-  ".tayan-field-tamamlama > ul": {
+  ".tayan-field-completion > ul": {
     maxHeight: "22em",
   },
-  ".tayan-field-tamamlama > ul > li": {
+  ".tayan-field-completion > ul > li": {
     padding: "2px 6px",
   },
 });

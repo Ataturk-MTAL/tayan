@@ -61,60 +61,60 @@
    * Bu yüzden her örnek çalışan gerçek koddur — kısaltılmış, "şuna benzer bir
    * şey" değil. Kopyalayıp editöre yapıştırınca derlenir.
    */
-  type Row = { kod: string; ne: string };
+  type Row = { code: string; description: string };
 
-  const TEMEL: Row[] = [
-    { kod: "$x^2$", ne: "Satır içi matematik — cümlenin içinde kalır" },
-    { kod: "$ x^2 $", ne: "Blok matematik — kendi satırına düşer, ortalanır" },
-    { kod: "$a/b$", ne: "Kesir" },
-    { kod: "$(a+b)/c$", ne: "Paylı kesir — birden çok terimi parantezle" },
-    { kod: "$sqrt(x)$", ne: "Karekök" },
-    { kod: "$x_1$", ne: "Alt indis" },
-    { kod: "$alpha$ $beta$ $pi$", ne: "Yunan harfleri: adını yaz" },
-    { kod: "$sum_(i=1)^n i$", ne: "Toplam sembolü, alt ve üst sınırlı" },
-    { kod: "$integral_0^1 f(x) dif x$", ne: "İntegral" },
-    { kod: "*kalın*", ne: "Kalın yazı" },
-    { kod: "_eğik_", ne: "Eğik yazı" },
-    { kod: "#underline[altı çizili]", ne: "Altı çizili" },
-    { kod: "- madde", ne: "Madde işaretli liste" },
-    { kod: "+ madde", ne: "Numaralı liste" },
-    { kod: "#image(\"resim.png\", width: 60%)", ne: "Görsel ekle" },
-    { kod: "#v(0.5cm)", ne: "Dikey boşluk" },
+  const BASICS: Row[] = [
+    { code: "$x^2$", description: "Satır içi matematik — cümlenin içinde kalır" },
+    { code: "$ x^2 $", description: "Blok matematik — kendi satırına düşer, ortalanır" },
+    { code: "$a/b$", description: "Kesir" },
+    { code: "$(a+b)/c$", description: "Paylı kesir — birden çok terimi parantezle" },
+    { code: "$sqrt(x)$", description: "Karekök" },
+    { code: "$x_1$", description: "Alt indis" },
+    { code: "$alpha$ $beta$ $pi$", description: "Yunan harfleri: adını yaz" },
+    { code: "$sum_(i=1)^n i$", description: "Toplam sembolü, alt ve üst sınırlı" },
+    { code: "$integral_0^1 f(x) dif x$", description: "İntegral" },
+    { code: "*kalın*", description: "Kalın yazı" },
+    { code: "_eğik_", description: "Eğik yazı" },
+    { code: "#underline[altı çizili]", description: "Altı çizili" },
+    { code: "- madde", description: "Madde işaretli liste" },
+    { code: "+ madde", description: "Numaralı liste" },
+    { code: "#image(\"resim.png\", width: 60%)", description: "Görsel ekle" },
+    { code: "#v(0.5cm)", description: "Dikey boşluk" },
   ];
 
-  const KALIPLAR = [
+  const TEMPLATES = [
     {
-      ad: "Çoktan seçmeli",
-      kod: `#secenekler(dogru: "C",
+      name: "Çoktan seçmeli",
+      code: `#secenekler(dogru: "C",
   [$x = 1$],
   [$x = 2$],
   [$x = 2$ ve $x = 3$],
   [$x = 6$],
   [Hiçbiri],
 )`,
-      not: "dogru: kâğıda BASILMAZ. Uygulama cevap anahtarını ve madde analizini oradan kurar. Şık harfleri (A, B, C…) sıraya göre kendiliğinden verilir.",
+      note: "dogru: kâğıda BASILMAZ. Uygulama cevap anahtarını ve madde analizini oradan kurar. Şık harfleri (A, B, C…) sıraya göre kendiliğinden verilir.",
     },
     {
-      ad: "Doğru / yanlış",
-      kod: "#dogru-yanlis(dogru: true)",
-      not: "true ya da false. Kâğıda iki kutucuk basılır, cevap basılmaz.",
+      name: "Doğru / yanlış",
+      code: "#dogru-yanlis(dogru: true)",
+      note: "true ya da false. Kâğıda iki kutucuk basılır, cevap basılmaz.",
     },
     {
-      ad: "Boşluk doldurma",
-      kod: '#bosluk(cevap: "180|180 derece", width: 2cm)',
-      not: "Kabul edilen cevapları | ile ayır. Gövdede kaç tane #bosluk varsa o kadar boşluk oluşur; puan her boşluk için ayrı sayılır.",
+      name: "Boşluk doldurma",
+      code: '#bosluk(cevap: "180|180 derece", width: 2cm)',
+      note: "Kabul edilen cevapları | ile ayır. Gövdede kaç tane #bosluk varsa o kadar boşluk oluşur; puan her boşluk için ayrı sayılır.",
     },
     {
-      ad: "Klasik",
-      kod: `#cevap-alani(satir: 6, bicim: "cizgili")
+      name: "Klasik",
+      code: `#cevap-alani(satir: 6, bicim: "cizgili")
 #cevap-alani(satir: 10, bicim: "kareli")
 #cevap-alani(satir: 8, bicim: "bos")`,
-      not: 'Üç biçim: "cizgili" yazı çizgileri, "kareli" 5×5 mm kareli alan (grafik ve şema için), "bos" çerçeveli boş kutu. satir yüksekliği verir — kareli alanda bir satır bir 5 mm karedir. Genişlik verilmez: alan bulunduğu sütunun tamamını kaplar, çift sütunlu kâğıtta kendiliğinden daralır.',
+      note: 'Üç biçim: "cizgili" yazı çizgileri, "kareli" 5×5 mm kareli alan (grafik ve şema için), "bos" çerçeveli boş kutu. satir yüksekliği verir — kareli alanda bir satır bir 5 mm karedir. Genişlik verilmez: alan bulunduğu sütunun tamamını kaplar, çift sütunlu kâğıtta kendiliğinden daralır.',
     },
   ];
 
   /** Yunan harfleri. Typst'te adıyla yazılır, büyük harf için baş harf büyük. */
-  const YUNAN: Array<[string, string, string, string]> = [
+  const GREEK_LETTERS: Array<[string, string, string, string]> = [
     ["alpha", "α", "Alpha", "Α"],
     ["beta", "β", "Beta", "Β"],
     ["gamma", "γ", "Gamma", "Γ"],
@@ -141,64 +141,64 @@
   ];
 
   /** Analiz ve türev gösterimi. Hepsi derlenip gözle doğrulandı. */
-  const TUREV: Row[] = [
-    { kod: "$(dif y)/(dif x)$", ne: "Birinci türev — dy/dx" },
-    { kod: "$(dif^2 y)/(dif x^2)$", ne: "İkinci türev" },
-    { kod: "$f'(x)$", ne: "Üs notasyonu — f prim" },
-    { kod: "$f''(x)$", ne: "İkinci türev, üs notasyonu" },
-    { kod: "$(partial f)/(partial x)$", ne: "Kısmi türev — ∂f/∂x" },
-    { kod: "$(partial^2 f)/(partial x partial y)$", ne: "Karma ikinci kısmi türev" },
-    { kod: "$integral f(x) dif x$", ne: "Belirsiz integral" },
-    { kod: "$integral_0^1 x^2 dif x$", ne: "Belirli integral" },
-    { kod: "$lim_(x -> 0) (sin x)/x$", ne: "Limit" },
-    { kod: "$nabla f$", ne: "Gradyan" },
-    { kod: "$nabla dot bold(F)$", ne: "Diverjans" },
-    { kod: "$dif f = (partial f)/(partial x) dif x$", ne: "Toplam diferansiyel" },
+  const CALCULUS: Row[] = [
+    { code: "$(dif y)/(dif x)$", description: "Birinci türev — dy/dx" },
+    { code: "$(dif^2 y)/(dif x^2)$", description: "İkinci türev" },
+    { code: "$f'(x)$", description: "Üs notasyonu — f prim" },
+    { code: "$f''(x)$", description: "İkinci türev, üs notasyonu" },
+    { code: "$(partial f)/(partial x)$", description: "Kısmi türev — ∂f/∂x" },
+    { code: "$(partial^2 f)/(partial x partial y)$", description: "Karma ikinci kısmi türev" },
+    { code: "$integral f(x) dif x$", description: "Belirsiz integral" },
+    { code: "$integral_0^1 x^2 dif x$", description: "Belirli integral" },
+    { code: "$lim_(x -> 0) (sin x)/x$", description: "Limit" },
+    { code: "$nabla f$", description: "Gradyan" },
+    { code: "$nabla dot bold(F)$", description: "Diverjans" },
+    { code: "$dif f = (partial f)/(partial x) dif x$", description: "Toplam diferansiyel" },
   ];
 
-  const KISAYOLLAR: Row[] = [
-    { kod: "⌘ +", ne: "Önizlemeyi yakınlaştır" },
-    { kod: "⌘ −", ne: "Önizlemeyi uzaklaştır" },
-    { kod: "⌘ 0", ne: "Önizlemeyi gerçek boyuta getir" },
-    { kod: "⌘ + tekerlek", ne: "Sürekli yakınlaştır / uzaklaştır" },
-    { kod: "⌘ Z", ne: "Editörde geri al" },
-    { kod: "⇧ ⌘ Z", ne: "İleri al" },
-    { kod: "Tab", ne: "Girinti ekle" },
-    { kod: "⌃ Boşluk", ne: "Otomatik tamamlama listesi" },
+  const SHORTCUTS: Row[] = [
+    { code: "⌘ +", description: "Önizlemeyi yakınlaştır" },
+    { code: "⌘ −", description: "Önizlemeyi uzaklaştır" },
+    { code: "⌘ 0", description: "Önizlemeyi gerçek boyuta getir" },
+    { code: "⌘ + tekerlek", description: "Sürekli yakınlaştır / uzaklaştır" },
+    { code: "⌘ Z", description: "Editörde geri al" },
+    { code: "⇧ ⌘ Z", description: "İleri al" },
+    { code: "Tab", description: "Girinti ekle" },
+    { code: "⌃ Boşluk", description: "Otomatik tamamlama listesi" },
   ];
 
-  const HATALAR = [
+  const COMMON_ERRORS = [
     {
-      mesaj: "unknown variable",
-      ne: "Var olmayan bir komut yazdın. Genelde yazım hatası: #secenekler yerine #secenek gibi. Yukarıdaki Kalıp düğmeleri doğrusunu ekler.",
+      message: "unknown variable",
+      description: "Var olmayan bir komut yazdın. Genelde yazım hatası: #secenekler yerine #secenek gibi. Yukarıdaki Kalıp düğmeleri doğrusunu ekler.",
     },
     {
-      mesaj: "expected closing bracket",
-      ne: "Bir köşeli parantez veya parantez kapanmamış. Editörde kırmızı işaret hangi satırda olduğunu gösterir.",
+      message: "expected closing bracket",
+      description: "Bir köşeli parantez veya parantez kapanmamış. Editörde kırmızı işaret hangi satırda olduğunu gösterir.",
     },
     {
-      mesaj: "Gövdede #secenekler(...) yok",
-      ne: "Soru tipi çoktan seçmeli ama gövdede şık kalıbı yok. Kaydet düğmesi bu yüzden kapalı.",
+      message: "Gövdede #secenekler(...) yok",
+      description: "Soru tipi çoktan seçmeli ama gövdede şık kalıbı yok. Kaydet düğmesi bu yüzden kapalı.",
     },
     {
-      mesaj: "Doğru cevap \"X\" şıklarla eşleşmiyor",
-      ne: "dogru: parametresine yazdığın harf, yazdığın şık sayısından fazla. Beş şık varsa en fazla E olabilir.",
+      message: "Doğru cevap \"X\" şıklarla eşleşmiyor",
+      description: "dogru: parametresine yazdığın harf, yazdığın şık sayısından fazla. Beş şık varsa en fazla E olabilir.",
     },
   ];
 
-  const BOLUMLER = [
-    { id: "kalip", ad: "Soru kalıpları" },
-    { id: "temel", ad: "Typst temelleri" },
-    { id: "gorsel", ad: "Görsel ekleme" },
-    { id: "lsp", ad: "Dil sunucusu" },
-    { id: "yunan", ad: "Yunan harfleri" },
-    { id: "turev", ad: "Türev ve integral" },
-    { id: "kisayol", ad: "Kısayollar" },
-    { id: "kazanim", ad: "Kazanım kodu" },
-    { id: "rubrik", ad: "Rubrik ve cevap anahtarı" },
-    { id: "hata", ad: "Hata mesajları" },
-    { id: "yayin", ad: "Yayınla ve PDF kaydet" },
-    { id: "veri", ad: "Verilerim nerede" },
+  const SECTIONS = [
+    { id: "kalip", name: "Soru kalıpları" },
+    { id: "temel", name: "Typst temelleri" },
+    { id: "gorsel", name: "Görsel ekleme" },
+    { id: "lsp", name: "Dil sunucusu" },
+    { id: "yunan", name: "Yunan harfleri" },
+    { id: "turev", name: "Türev ve integral" },
+    { id: "kisayol", name: "Kısayollar" },
+    { id: "kazanim", name: "Kazanım kodu" },
+    { id: "rubrik", name: "Rubrik ve cevap anahtarı" },
+    { id: "hata", name: "Hata mesajları" },
+    { id: "yayin", name: "Yayınla ve PDF kaydet" },
+    { id: "veri", name: "Verilerim nerede" },
   ];
 </script>
 
@@ -211,7 +211,7 @@
   <div class="grid h-full min-h-0 grid-cols-[200px_1fr]">
     <nav class="min-h-0 overflow-auto border-r border-gray-200 p-3 dark:border-gray-700">
       <ul class="space-y-1">
-        {#each BOLUMLER as bolum}
+        {#each SECTIONS as bolum}
           <li>
             <a
               href="#{bolum.id}"
@@ -219,7 +219,7 @@
                      transition-colors hover:bg-gray-100 dark:text-gray-300
                      dark:hover:bg-gray-700/60"
             >
-              {bolum.ad}
+              {bolum.name}
             </a>
           </li>
         {/each}
@@ -250,13 +250,13 @@
           kâğıtta görünen asla birbirinden ayrı düşmez.
         </p>
 
-        {#each KALIPLAR as kalip}
-          <h3 class="mt-5 text-sm font-semibold text-gray-900 dark:text-white">{kalip.ad}</h3>
+        {#each TEMPLATES as kalip}
+          <h3 class="mt-5 text-sm font-semibold text-gray-900 dark:text-white">{kalip.name}</h3>
           <pre
             class="mt-1 overflow-x-auto rounded-lg border border-gray-200 bg-gray-50 p-2.5
                    font-mono text-xs leading-5 text-gray-700 dark:border-gray-700
-                   dark:bg-gray-800 dark:text-gray-300">{kalip.kod}</pre>
-          <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">{kalip.not}</p>
+                   dark:bg-gray-800 dark:text-gray-300">{kalip.code}</pre>
+          <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">{kalip.note}</p>
         {/each}
 
         <h2
@@ -283,12 +283,12 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
         </p>
         <table class="mt-2.5 w-full border-collapse text-sm">
           <tbody>
-            {#each TEMEL as satir}
+            {#each BASICS as satir}
               <tr class="border-b border-gray-200 dark:border-gray-700">
                 <td class="w-[46%] py-1.5 pr-2.5 align-top font-mono text-xs text-gray-700 dark:text-gray-300">
-                  {satir.kod}
+                  {satir.code}
                 </td>
-                <td class="py-1.5 align-top text-gray-700 dark:text-gray-300">{satir.ne}</td>
+                <td class="py-1.5 align-top text-gray-700 dark:text-gray-300">{satir.description}</td>
               </tr>
             {/each}
           </tbody>
@@ -386,7 +386,7 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
         </p>
         <table class="mt-2.5 w-full border-collapse text-sm">
           <tbody>
-            {#each YUNAN as [kucukAd, kucuk, buyukAd, buyuk]}
+            {#each GREEK_LETTERS as [kucukAd, kucuk, buyukAd, buyuk]}
               <tr class="border-b border-gray-200 dark:border-gray-700">
                 <td class="py-1.5 font-mono text-xs text-gray-700 dark:text-gray-300">${kucukAd}$</td>
                 <td class="py-1.5 pr-2.5 text-base text-gray-900 dark:text-white">{kucuk}</td>
@@ -417,12 +417,12 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
         </p>
         <table class="mt-2.5 w-full border-collapse text-sm">
           <tbody>
-            {#each TUREV as satir}
+            {#each CALCULUS as satir}
               <tr class="border-b border-gray-200 dark:border-gray-700">
                 <td class="w-[52%] py-1.5 pr-2.5 align-top font-mono text-xs text-gray-700 dark:text-gray-300">
-                  {satir.kod}
+                  {satir.code}
                 </td>
-                <td class="py-1.5 align-top text-gray-700 dark:text-gray-300">{satir.ne}</td>
+                <td class="py-1.5 align-top text-gray-700 dark:text-gray-300">{satir.description}</td>
               </tr>
             {/each}
           </tbody>
@@ -441,12 +441,12 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
         </h2>
         <table class="mt-2.5 w-full border-collapse text-sm">
           <tbody>
-            {#each KISAYOLLAR as satir}
+            {#each SHORTCUTS as satir}
               <tr class="border-b border-gray-200 dark:border-gray-700">
                 <td class="w-[46%] py-1.5 pr-2.5 align-top font-mono text-xs text-gray-700 dark:text-gray-300">
-                  {satir.kod}
+                  {satir.code}
                 </td>
-                <td class="py-1.5 align-top text-gray-700 dark:text-gray-300">{satir.ne}</td>
+                <td class="py-1.5 align-top text-gray-700 dark:text-gray-300">{satir.description}</td>
               </tr>
             {/each}
           </tbody>
@@ -581,10 +581,10 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
           <span class="font-bold text-red-600 dark:text-red-500">✗</span> ve satır altındaki
           dalgalı çizgi yalnızca derleme hatasında çıkar.
         </p>
-        {#each HATALAR as hata}
+        {#each COMMON_ERRORS as hata}
           <div class="mt-3 border-t border-gray-200 pt-3 dark:border-gray-700">
-            <p class="font-mono text-xs text-red-600 dark:text-red-500">{hata.mesaj}</p>
-            <p class="mt-1 text-sm text-gray-700 dark:text-gray-300">{hata.ne}</p>
+            <p class="font-mono text-xs text-red-600 dark:text-red-500">{hata.message}</p>
+            <p class="mt-1 text-sm text-gray-700 dark:text-gray-300">{hata.description}</p>
           </div>
         {/each}
 

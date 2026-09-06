@@ -32,36 +32,36 @@ export type RubricImport =
   | { ok: true; items: RubricItem[]; from: number; to: number }
   | { ok: false; reason: string; from: number; to: number };
 
-const CAGRI = "#rubrik(";
+const RUBRIC_CALL = "#rubrik(";
 
 /**
  * Dengeli ayraç tarayıcı. `konum` açılışı gösterir; kapanışın indisini döndürür.
  * Kapanmıyorsa -1 — yarım yazılmış makro sessizce kabul edilmemeli.
  */
-function ayraciKapat(kaynak: string, konum: number): number {
-  let derinlik = 0;
-  let dizede: '"' | null = null;
+function findClosingBracket(source: string, start: number): number {
+  let depth = 0;
+  let inString: '"' | null = null;
 
-  for (let i = konum; i < kaynak.length; i++) {
-    const c = kaynak[i];
+  for (let i = start; i < source.length; i++) {
+    const c = source[i];
 
     if (c === "\\") {
       i++;
       continue;
     }
-    if (dizede) {
-      if (c === dizede) dizede = null;
+    if (inString) {
+      if (c === inString) inString = null;
       continue;
     }
     if (c === '"') {
-      dizede = '"';
+      inString = '"';
       continue;
     }
-    if (c === "(" || c === "[") derinlik++;
+    if (c === "(" || c === "[") depth++;
     else if (c === ")" || c === "]") {
-      derinlik--;
-      if (derinlik === 0) return i;
-      if (derinlik < 0) return -1;
+      depth--;
+      if (depth === 0) return i;
+      if (depth < 0) return -1;
     }
   }
   return -1;
@@ -69,7 +69,7 @@ function ayraciKapat(kaynak: string, konum: number): number {
 
 /** Gövdede `#rubrik(` var mı? Kaydetme kapısı ve uyarı şeridi bunu sorar. */
 export function hasRubricCall(source: string): boolean {
-  return source.includes(CAGRI);
+  return source.includes(RUBRIC_CALL);
 }
 
 /**
@@ -77,12 +77,12 @@ export function hasRubricCall(source: string): boolean {
  *
  * İçerik ham bırakılır: matematik ve biçimlendirme ölçüt metninin parçası.
  */
-function demetleriOku(govde: string): RubricItem[] | string {
+function readTuples(body: string): RubricItem[] | string {
   const items: RubricItem[] = [];
   let i = 0;
 
-  while (i < govde.length) {
-    const c = govde[i];
+  while (i < body.length) {
+    const c = body[i];
     if (c === "," || /\s/.test(c)) {
       i++;
       continue;
@@ -91,30 +91,30 @@ function demetleriOku(govde: string): RubricItem[] | string {
       return `Beklenmeyen karakter: "${c}". Yalnız ([ölçüt], puan) demetleri okunabiliyor.`;
     }
 
-    const kapanis = ayraciKapat(govde, i);
-    if (kapanis === -1) return "Ayraçlar kapanmamış.";
+    const closeIndex = findClosingBracket(body, i);
+    if (closeIndex === -1) return "Ayraçlar kapanmamış.";
 
-    const demet = govde.slice(i + 1, kapanis);
-    i = kapanis + 1;
+    const tuple = body.slice(i + 1, closeIndex);
+    i = closeIndex + 1;
 
     // İçerik bloğu ile puanı ayır: [..] , sayı
-    const icerikBas = demet.indexOf("[");
-    if (icerikBas === -1) return "Ölçüt metni [ ] içinde değil.";
+    const contentStart = tuple.indexOf("[");
+    if (contentStart === -1) return "Ölçüt metni [ ] içinde değil.";
 
-    const icerikSon = ayraciKapat(demet, icerikBas);
-    if (icerikSon === -1) return "Ölçüt metninin köşeli parantezi kapanmamış.";
+    const contentEnd = findClosingBracket(tuple, contentStart);
+    if (contentEnd === -1) return "Ölçüt metninin köşeli parantezi kapanmamış.";
 
-    const criterion = demet.slice(icerikBas + 1, icerikSon).trim();
+    const criterion = tuple.slice(contentStart + 1, contentEnd).trim();
     if (criterion === "") return "Boş ölçüt metni.";
 
-    const kalan = demet.slice(icerikSon + 1).replace(/^\s*,\s*/, "").trim();
+    const rest = tuple.slice(contentEnd + 1).replace(/^\s*,\s*/, "").trim();
     // Hesaplanmış puan (5 + 5, degisken) KABUL EDİLMEZ: doğru okuduğumuzu
     // ancak tam sayıda garanti edebiliriz.
-    if (!/^\d+$/.test(kalan)) {
-      return `Puan tam sayı olmalı, okunan: "${kalan}".`;
+    if (!/^\d+$/.test(rest)) {
+      return `Puan tam sayı olmalı, okunan: "${rest}".`;
     }
 
-    items.push({ criterion, points: Number(kalan) });
+    items.push({ criterion, points: Number(rest) });
   }
 
   return items.length > 0 ? items : "Hiç ölçüt bulunamadı.";
@@ -126,36 +126,36 @@ function demetleriOku(govde: string): RubricItem[] | string {
  * Blok yoksa null döner — bu bir hata değil, olağan durum.
  */
 export function importRubric(source: string): RubricImport | null {
-  const bas = source.indexOf(CAGRI);
-  if (bas === -1) return null;
+  const callStart = source.indexOf(RUBRIC_CALL);
+  if (callStart === -1) return null;
 
-  const acilis = bas + CAGRI.length - 1;
-  const kapanis = ayraciKapat(source, acilis);
-  if (kapanis === -1) {
+  const openIndex = callStart + RUBRIC_CALL.length - 1;
+  const closeIndex = findClosingBracket(source, openIndex);
+  if (closeIndex === -1) {
     return {
       ok: false,
       reason: "#rubrik( ayracı kapanmamış.",
-      from: bas,
+      from: callStart,
       to: source.length,
     };
   }
 
-  const to = kapanis + 1;
-  let ic = source.slice(acilis + 1, kapanis).trim();
+  const to = closeIndex + 1;
+  let inner = source.slice(openIndex + 1, closeIndex).trim();
 
   // `goster: true` bizim ürettiğimiz çağrıda var; içe aktarırken anlamı yok.
-  ic = ic.replace(/,\s*goster\s*:\s*(true|false)\s*$/, "").trim();
+  inner = inner.replace(/,\s*goster\s*:\s*(true|false)\s*$/, "").trim();
 
   // Dış demet parantezi: ((..), (..)) → (..), (..)
-  if (ic.startsWith("(") && ayraciKapat(ic, 0) === ic.length - 1) {
-    ic = ic.slice(1, -1);
+  if (inner.startsWith("(") && findClosingBracket(inner, 0) === inner.length - 1) {
+    inner = inner.slice(1, -1);
   }
 
-  const sonuc = demetleriOku(ic);
-  if (typeof sonuc === "string") {
-    return { ok: false, reason: sonuc, from: bas, to };
+  const result = readTuples(inner);
+  if (typeof result === "string") {
+    return { ok: false, reason: result, from: callStart, to };
   }
-  return { ok: true, items: sonuc, from: bas, to };
+  return { ok: true, items: result, from: callStart, to };
 }
 
 /** Bloğu gövdeden çıkarır. Taşıma tek yönlü: panel artık sahibi. */

@@ -102,21 +102,21 @@
    * CEVAP sekmesine yapıştırır — ölçütler orada. Yalnız gövdeye bakmak, aynı
    * sessiz kaybı öbür kapıdan içeri alırdı.
    */
-  let govdedekiRubrik = $derived.by(() => {
+  let embeddedRubric = $derived.by(() => {
     if (questionType !== "classic") return null;
-    const govde = importRubric(body);
-    if (govde) return { kaynak: "body" as const, sonuc: govde };
-    const cevap = importRubric(sampleAnswer);
-    if (cevap) return { kaynak: "sample" as const, sonuc: cevap };
+    const fromBody = importRubric(body);
+    if (fromBody) return { source: "body" as const, result: fromBody };
+    const fromSampleAnswer = importRubric(sampleAnswer);
+    if (fromSampleAnswer) return { source: "sample" as const, result: fromSampleAnswer };
     return null;
   });
 
-  function rubrigiPaneleTasi() {
-    const bulunan = govdedekiRubrik;
-    if (!bulunan?.sonuc.ok) return;
-    const { from, to, items } = bulunan.sonuc;
+  function moveRubricToPanel() {
+    const found = embeddedRubric;
+    if (!found?.result.ok) return;
+    const { from, to, items } = found.result;
     rubric = items;
-    if (bulunan.kaynak === "body") {
+    if (found.source === "body") {
       body = removeRange(body, from, to);
     } else {
       sampleAnswer = removeRange(sampleAnswer, from, to);
@@ -129,9 +129,9 @@
     if (rubric.some((r) => r.criterion.trim() === "")) {
       return "Rubrikte boş ölçüt var.";
     }
-    const toplam = rubric.reduce((sum, r) => sum + r.points, 0);
-    if (toplam !== points) {
-      return `Rubrik toplamı (${toplam}) soru puanıyla (${points}) eşleşmiyor.`;
+    const total = rubric.reduce((sum, r) => sum + r.points, 0);
+    if (total !== points) {
+      return `Rubrik toplamı (${total}) soru puanıyla (${points}) eşleşmiyor.`;
     }
     return null;
   });
@@ -391,24 +391,24 @@
     Gövdeye yazılmış rubrik SESSİZ KALMAZ. Kaydetme zaten kilitli; burada
     öğretmen ya tek tıkla panele taşır ya da neden okunamadığını görür.
   -->
-  {#if govdedekiRubrik}
+  {#if embeddedRubric}
     <div class="shrink-0 px-4 pt-3">
-      {#if govdedekiRubrik.sonuc.ok}
+      {#if embeddedRubric.result.ok}
         <Alert color="amber">
           <p>
-            {govdedekiRubrik.kaynak === "body" ? "Soru gövdesinde" : "Örnek cevapta"}
-            {govdedekiRubrik.sonuc.items.length} ölçütlük bir
+            {embeddedRubric.source === "body" ? "Soru gövdesinde" : "Örnek cevapta"}
+            {embeddedRubric.result.items.length} ölçütlük bir
             <span class="font-mono">#rubrik(…)</span> bloğu var. Ölçütler panelden
             yönetilir; kaynakta kalırsa ne cevap anahtarına ne sonuç girişine yansır.
           </p>
-          <Button size="xs" color="light" class="mt-2" onclick={rubrigiPaneleTasi}>
+          <Button size="xs" color="light" class="mt-2" onclick={moveRubricToPanel}>
             Panele taşı ve gövdeden kaldır
           </Button>
         </Alert>
       {:else}
         <Alert color="red">
           Kaynaktaki <span class="font-mono">#rubrik(…)</span> okunamadı:
-          {govdedekiRubrik.sonuc.reason} Yalnız düz
+          {embeddedRubric.result.reason} Yalnız düz
           <span class="font-mono">([ölçüt], puan)</span> demetleri taşınabiliyor —
           değişken, hesaplanmış puan ve döngü okunmuyor. Ölçütleri panele elle
           gir ve bloğu kaynaktan sil.
