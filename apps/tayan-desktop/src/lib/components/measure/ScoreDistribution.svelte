@@ -15,21 +15,142 @@
    * D3 YALNIZ HESAP İÇİN: ölçekler ve eğri üreteci. Çizimi Svelte yapıyor;
    * D3'ün kendi belgesinin önerdiği ayrım bu.
    */
-  import { area, curveBasis, line, scaleLinear } from "d3";
-  import { BIN_WIDTH, densityCurve, skewLabel, type Spread } from "$lib/analysis/item-stats";
+  /*
+    `curveMonotoneX`, `curveBasis` DEĞİL. `curveBasis` yaklaşık bir B-spline:
+    örneklenen noktalardan GEÇMEZ, onları çeker. Zaten aşırı düzleşmiş bir
+    eğriyi bir kez daha yumuşatıyordu. `curveMonotoneX` ızgara üzerinde
+    örneklenmiş bir fonksiyon için doğru seçim — noktalardan geçer ve
+    aşım (overshoot) üretmez, yani yoğunluk sahte biçimde eksiye inmez.
+  */
+  import {
+    area,
+    brushX as d3brushX,
+    curveMonotoneX,
+    line,
+    scaleLinear,
+    select as d3select,
+    type D3BrushEvent,
+  } from "d3";
+  import {
+    clearSelection,
+    hoverStudent,
+    selectStudents,
+    selection,
+  } from "$lib/ui/analysis-selection.svelte";
+  import {
+    BIN_WIDTH,
+    densityCurve,
+    MIN_CURVE_N,
+    MIN_SKEWNESS_N,
+    skewLabel,
+    type Spread,
+  } from "$lib/analysis/item-stats";
 
   type Props = {
     /** Öğrenci başına yüzde. */
     percentages: number[];
+    /**
+     * Puanların ait olduğu öğrenci kimlikleri — `percentages` ile AYNI SIRADA.
+     *
+     * Fırçalanan aralığın hangi öğrencilere karşılık geldiğini bulmanın tek
+     * yolu bu. Verilmezse fırça çizilmiyor: seçim üretemeyecek bir etkileşimi
+     * göstermek, tıklayınca hiçbir şey olmayan bir düğme koymak olurdu.
+     */
+    studentIds?: string[];
+    /** Balonda öğrencinin adını gösterebilmek için — kimlik → "101 Ayşe YILMAZ". */
+    studentLabel?: (studentId: string) => string;
     stats: Spread | null;
     /** Geçme eşiği — yatay eksenin anlam ortası. */
     threshold?: number;
   };
 
-  let { percentages, stats, threshold = 50 }: Props = $props();
+  let {
+    percentages,
+    studentIds = [],
+    studentLabel,
+    stats,
+    threshold = 50,
+  }: Props = $props();
 
-  /** Çarpıklığın güvenilir okunabildiği en küçük sınıf. */
-  const MIN_CARPIKLIK_N = 15;
+  let figureEl = $state<HTMLElement | null>(null);
+
+  /** Balonun konumu ve içeriği. `null` = balon yok. */
+  let balon = $state<{ x: number; y: number; pct: number; studentId: string } | null>(null);
+
+  /**
+   * Balon konumu FİGÜRE GÖRE. SVG ölçekleniyor; viewBox koordinatını piksele
+   * çevirmek kart genişliği değiştikçe yeniden hesap ister. İmleç olayı zaten
+   * ekran koordinatı taşıyor.
+   */
+  function balonGoster(event: PointerEvent, pct: number, studentId: string) {
+    const kap = figureEl?.getBoundingClientRect();
+    if (!kap) return;
+    balon = { x: event.clientX - kap.left, y: event.clientY - kap.top, pct, studentId };
+    hoverStudent(studentId);
+  }
+
+  function balonGizle() {
+    balon = null;
+    hoverStudent(null);
+  }
+
+  /** Tek öğrenciyi seçime al/çıkar. */
+  function ogrenciSec(id: string) {
+    const var_ = selection.studentIds.includes(id);
+    selectStudents(
+      var_ ? selection.studentIds.filter((x) => x !== id) : [...selection.studentIds, id],
+      KAYNAK,
+    );
+  }
+
+  const KAYNAK = "puan aralığı";
+
+  let brushHost = $state<SVGGElement | null>(null);
+  let canBrush = $derived(studentIds.length === percentages.length && percentages.length > 0);
+
+  /**
+   * PUAN ARALIĞI FIRÇASI — "bu aralıktakiler kimler?"
+   *
+   * Dağılımın gösterdiği şey bir küme; öğretmenin sorusu ise hep bireysel:
+   * "eşiğin hemen altındaki şu yığın kim?". Aralığı fırçalayınca cevap ızgarası
+   * o öğrencilere vurguya geçiyor ve soru soru neyi kaçırdıkları görünüyor.
+   *
+   * Tek eksende (`brushX`): dikey eksen frekans, oradan bir aralık seçmenin
+   * anlamı yok.
+   */
+  $effect(() => {
+    const host = brushHost;
+    if (!host || !canBrush) return;
+
+    const b = d3brushX<unknown>()
+      .extent([
+        [LEFT, TOP],
+        [W, plotH - BOTTOM],
+      ])
+      .filter((event: MouseEvent) => !event.button)
+      .on("end", (event: D3BrushEvent<unknown>) => {
+        if (!event.selection) {
+          if (selection.source === KAYNAK) clearSelection();
+          return;
+        }
+        const [x0, x1] = event.selection as [number, number];
+        const alt = x.invert(x0);
+        const ust = x.invert(x1);
+        const secilen = studentIds.filter((_, i) => {
+          const p = percentages[i];
+          return p >= alt && p <= ust;
+        });
+        selectStudents(secilen, KAYNAK);
+      });
+
+    const sec = d3select(host);
+    sec.call(b);
+
+    return () => {
+      sec.on(".brush", null);
+      sec.selectAll("*").remove();
+    };
+  });
 
   /**
    * Bu puanın üstündeki işaret çizgilerinin etiketi çizginin SOLUNA geçer.
@@ -43,105 +164,145 @@
    * 85 eşiği en geniş etiket olan "Medyan"a pay bırakır; dy kademeleri
    * (10/24/38) aynı kaldığı için üç etiket sola dönse de üst üste binmez.
    */
-  const ETIKET_SOLA_ESIK = 85;
+  const LABEL_FLIP_THRESHOLD = 85;
 
   /** Etiketin işaret çizgisine uzaklığı (viewBox birimi). */
-  const ETIKET_BOSLUK = 3;
+  const LABEL_GAP = 3;
 
   const W = 320;
   const H = 140;
-  const SERIT = 20;
-  const SOL = 22;
-  const ALT = 14;
+  /**
+   * EĞRİ YOKKEN GRAFİK BİR ŞERİDE İNER.
+   *
+   * 140 birimlik gövde dikey eksen için ayrılmıştı; eğri çizilmediğinde o
+   * eksenin gösterecek bir şeyi yok ve nokta şeridi 126 birimlik boşluğun
+   * altında 20 birimlik bir dipnot gibi kalıyordu. Oysa az öğrencili bir
+   * sınıfta noktalar ASIL grafiktir: her biri bir çocuk, tam ve kayıpsız.
+   */
+  const STRIP_ONLY_H = 46;
+  const STRIP_H = 20;
+  const LEFT = 22;
+  const BOTTOM = 14;
+  /**
+   * Üst pay — EN ÜSTTEKİ EKSEN ETİKETİ İÇİN.
+   *
+   * Ölçeğin üst ucu 0 idi, yani en yüksek frekans etiketi `y=0`a düşüyor ve
+   * `y(t) + 3` taban çizgisiyle 8px'lik yazının üst yarısı viewBox'ın DIŞINDA
+   * kalıyordu: ekranda "6" rakamının yalnız alt yarısı görünüyordu. SVG'de
+   * taşan içerik hata vermez, sessizce kırpılır.
+   */
+  const TOP = 7;
 
-  let egri = $derived(densityCurve(percentages, BIN_WIDTH));
+  let showCurve = $derived(stats !== null && stats.n >= MIN_CURVE_N);
+  let showSkewness = $derived(stats !== null && stats.n >= MIN_SKEWNESS_N);
+
+  let curve = $derived(showCurve ? densityCurve(percentages, BIN_WIDTH) : []);
 
   /**
    * Dikey eksenin tepesi. Eğrinin tepesiyle kutunun tavanı arasında bir tutam
    * boşluk bırakılıyor; eğri tavana yapışırsa tepenin nerede olduğu görünmez.
    */
-  let tavan = $derived(Math.max(1, ...egri.map((p) => p.y)) * 1.15);
+  let yMax = $derived(Math.max(1, ...curve.map((p) => p.y)) * 1.15);
 
-  let x = $derived(scaleLinear<number, number>().domain([0, 100]).range([SOL, W]));
-  let y = $derived(scaleLinear<number, number>().domain([0, tavan]).range([H - ALT, 0]));
+  let plotH = $derived(showCurve ? H : STRIP_ONLY_H);
+
+  let x = $derived(scaleLinear<number, number>().domain([0, 100]).range([LEFT, W]));
+  let y = $derived(scaleLinear<number, number>().domain([0, yMax]).range([plotH - BOTTOM, TOP]));
 
   /** Frekans ekseni TAM SAYI: "2.5 öğrenci" diye bir şey yok. */
-  let yTikler = $derived(
-    Array.from(new Set(y.ticks(3).map(Math.round))).filter((t) => t <= tavan),
+  let yTicks = $derived(
+    Array.from(new Set(y.ticks(3).map(Math.round))).filter((t) => t <= yMax),
   );
-  let xTikler = $derived(x.ticks(5));
+  let xTicks = $derived(x.ticks(5));
 
-  let cizgi = $derived(
+  let lineGenerator = $derived(
     line<{ x: number; y: number }>()
       .x((p) => x(p.x))
       .y((p) => y(p.y))
-      .curve(curveBasis),
+      .curve(curveMonotoneX),
   );
 
-  let alan = $derived(
+  let areaGenerator = $derived(
     area<{ x: number; y: number }>()
       .x((p) => x(p.x))
       .y0(y(0))
       .y1((p) => y(p.y))
-      .curve(curveBasis),
+      .curve(curveMonotoneX),
   );
 
   /**
    * Mod null olabilir: tepe noktası yoksa çizgisi de çizilmez. Olmayan bir
    * tepeyi grafiğe koymak dağılımın yanlış okunmasına yol açardı.
    */
-  let isaretler = $derived(
+  let markers = $derived(
     stats === null
       ? []
       : [
-          ...(stats.mode === null ? [] : [{ ad: "Mod", deger: stats.mode, dy: 10 }]),
-          { ad: "Medyan", deger: stats.median, dy: 24 },
-          { ad: "Ort", deger: stats.mean, dy: 38 },
+          /*
+            MOD ARTIK HİÇ ÇİZİLMİYOR. Ayrık değerli sürekli puanlarda örneklem
+            modu tanımsız; `modeOf` onu 10 puanlık aralıklardan ÜRETİYOR ve
+            değer aralık genişliğiyle birlikte oynuyor (aynı altı puan için
+            bin 5/10/20/25 → null/null/70/null). Değeri bir görüntü sabitine
+            bağlı olan şey istatistik değildir. `modeOf`un beraberlikte null
+            dönme kararı doğruydu — ama doğru çözüm boş bırakmak değil,
+            istatistiği hiç raporlamamak.
+          */
+          { label: "Medyan", value: stats.median, dy: 10 },
+          { label: "Ort", value: stats.mean, dy: 24 },
         ],
   );
 
-  function kirp(v: number): number {
+  function clamp(v: number): number {
     return Math.min(Math.max(v, 0), 100);
   }
 </script>
 
 <figure
-  class="m-0 rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800"
+  bind:this={figureEl}
+  class="relative m-0 flex h-full flex-col rounded-lg border border-default-medium
+         bg-neutral-primary-medium p-4 shadow-sm"
 >
-  <figcaption class="text-[11px] font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">
+  <figcaption class="text-xs font-semibold uppercase tracking-wider text-body-subtle">
     Puan dağılımı
   </figcaption>
 
   {#if stats === null}
-    <p class="mt-[5px] text-[12px] leading-5 text-gray-500 dark:text-gray-400">Sonuç girilmemiş.</p>
+    <p class="mt-1 text-xs text-body-subtle">Sonuç girilmemiş.</p>
   {:else}
     <!--
-      max-w-[640px]: viewBox oranı sabit olduğu için SVG genişledikçe hem
-      yükseklik hem TÜM iç ölçüler (8px eksen yazısı, 1.6px eğri kalınlığı)
-      doğrusal büyüyor — SVG'nin ölçeklenmesi tipografiyi ölçeklemez, ölçek
-      DIŞINA çıkarır. Az sorulu bir sınavda (AnswerGrid dar kalınca) sol sütun
-      ~1000px'e çıkıyor ve grafik 3.1 katına ölçekleniyor: 8px'lik eksen
-      yazıları ~25px, 1.6px'lik eğri çizgisi ~5px, kart ~500px yüksekliğe
-      şişiyordu; kartın kendi 11–15px'lik yazı ölçeğiyle görünür uyumsuzluk
-      oluşuyordu. Üst sınır en fazla 2 kat büyümeye izin verir; dar pencerede
-      küçülme davranışı aynen kalır.
+      GENİŞLİK SINIRI ARTIK IZGARA İZİNDE, BURADA DEĞİL.
+
+      SVG'de `max-w-[640px]` vardı; kart ondan geniş olabildiği için kartın
+      içinde ölü boşluk kalıyordu. Üst sınır analiz ızgarasının iz tanımına
+      taşındı (`minmax(20rem, 40rem)`), yani kart ne kadarsa SVG de o kadar.
+
+      Sınırın kendisi hâlâ gerekli: viewBox oranı sabit olduğu için SVG
+      genişledikçe TÜM iç ölçüler (8px eksen yazısı, 1.6px eğri kalınlığı)
+      doğrusal büyüyor — SVG ölçeklenmesi tipografiyi ölçeklemez, ölçek DIŞINA
+      çıkarır. 40rem tavanı en fazla ~1.9 kat büyümeye izin veriyor.
     -->
     <svg
-      class="mt-2.5 w-full max-w-[640px]"
-      viewBox="0 0 {W} {H + SERIT}"
+      class="mt-2.5 w-full"
+      viewBox="0 0 {W} {plotH + STRIP_H}"
       role="img"
       aria-label="Puan dağılım eğrisi: yatay eksen puan, dikey eksen frekans"
     >
-      <!-- Eksen ve ızgara: veri değil, okuma çerçevesi — soluk gri. -->
-      <line x1={SOL} y1={0} x2={SOL} y2={H - ALT} class="stroke-gray-300 dark:stroke-gray-600" />
-      <line x1={SOL} y1={H - ALT} x2={W} y2={H - ALT} class="stroke-gray-300 dark:stroke-gray-600" />
+      <!--
+        Eksen ve ızgara: veri değil, okuma çerçevesi — soluk gri.
+        DİKEY EKSEN YALNIZ EĞRİ VARKEN. Nokta şeridinin frekans ekseni yok;
+        boş bir dikey çizgi okunacak bir ölçek varmış izlenimi verirdi.
+      -->
+      {#if showCurve}
+        <line x1={LEFT} y1={TOP} x2={LEFT} y2={plotH - BOTTOM} class="stroke-default-medium" />
+      {/if}
+      <line x1={LEFT} y1={plotH - BOTTOM} x2={W} y2={plotH - BOTTOM} class="stroke-default-medium" />
 
-      {#each yTikler as t (t)}
+      {#each showCurve ? yTicks : [] as t (t)}
         <text
-          x={SOL - 4}
+          x={LEFT - 4}
           y={y(t) + 3}
           text-anchor="end"
-          class="fill-gray-500 dark:fill-gray-400"
+          class="fill-body-subtle"
           style="font-size: 8px; font-variant-numeric: tabular-nums"
         >
           {t}
@@ -149,17 +310,17 @@
       {/each}
 
       <!-- Ana veri: eğrinin kendisi, koyu gri/lacivert — değerlendirme değil, ölçüm. -->
-      {#if egri.length > 0}
-        <path d={alan(egri) ?? ""} class="fill-gray-800 dark:fill-gray-200" opacity="0.14" />
-        <path d={cizgi(egri) ?? ""} fill="none" class="stroke-gray-800 dark:stroke-gray-200" stroke-width="1.6" />
+      {#if curve.length > 0}
+        <path d={areaGenerator(curve) ?? ""} class="fill-gray-800 dark:fill-gray-200" opacity="0.14" />
+        <path d={lineGenerator(curve) ?? ""} fill="none" class="stroke-gray-800 dark:stroke-gray-200" stroke-width="1.6" />
       {/if}
 
       <!-- Geçme eşiği: değerlendirme çizgisi, kırmızı. -->
       <line
-        x1={x(kirp(threshold))}
-        y1={0}
-        x2={x(kirp(threshold))}
-        y2={H - ALT}
+        x1={x(clamp(threshold))}
+        y1={TOP}
+        x2={x(clamp(threshold))}
+        y2={plotH - BOTTOM}
         class="stroke-red-600 dark:stroke-red-400"
         stroke-dasharray="3 3"
       >
@@ -167,29 +328,29 @@
       </line>
 
       <!-- Mod/medyan/ortalama çizgileri de değerlendirme okuması: aynı kırmızı. -->
-      {#each isaretler as m (m.ad)}
+      {#each markers as m (m.label)}
         <!--
           Sağ uçtaki etiket çizginin soluna döner ve tutunma noktası `end`
           olur; böylece yazı viewBox'ın sağ kenarından taşıp kırpılmaz.
         -->
-        {@const solda = m.deger > ETIKET_SOLA_ESIK}
+        {@const flipLeft = m.value > LABEL_FLIP_THRESHOLD}
         <line
-          x1={x(kirp(m.deger))}
-          y1={0}
-          x2={x(kirp(m.deger))}
-          y2={H - ALT}
+          x1={x(clamp(m.value))}
+          y1={TOP}
+          x2={x(clamp(m.value))}
+          y2={plotH - BOTTOM}
           class="stroke-red-600 dark:stroke-red-400"
         >
-          <title>{m.ad}: %{m.deger.toFixed(1)}</title>
+          <title>{m.label}: %{m.value.toFixed(1)}</title>
         </line>
         <text
-          x={x(kirp(m.deger)) + (solda ? -ETIKET_BOSLUK : ETIKET_BOSLUK)}
+          x={x(clamp(m.value)) + (flipLeft ? -LABEL_GAP : LABEL_GAP)}
           y={m.dy}
-          text-anchor={solda ? "end" : "start"}
+          text-anchor={flipLeft ? "end" : "start"}
           class="fill-red-600 dark:fill-red-400"
           style="font-size: 8px"
         >
-          {m.ad}
+          {m.label}
         </text>
       {/each}
 
@@ -199,22 +360,73 @@
         Eşiğin altındaki nokta kırmızı — bu da bir değerlendirme okuması.
       -->
       {#each percentages as p, i (i)}
-        <circle
-          cx={x(kirp(p))}
-          cy={H - ALT + 9}
-          r="2.5"
-          class={p >= threshold ? "fill-gray-800 dark:fill-gray-200" : "fill-red-600 dark:fill-red-400"}
-        >
-          <title>%{p.toFixed(0)}</title>
-        </circle>
+        {@const sid = studentIds[i]}
+        {@const r = showCurve ? 2.5 : 4}
+        {@const renk =
+          p >= threshold ? "fill-gray-800 dark:fill-gray-200" : "fill-red-600 dark:fill-red-400"}
+        <!--
+          İKİ DAL, BİR DÜZİNE ÜÇLÜ OPERATÖR DEĞİL. `studentIds` verilmediğinde
+          nokta etkileşimsiz; her özniteliği ayrı ayrı koşullamak hem okunmuyor
+          hem de `role` statik olarak görünmediği için erişilebilirlik
+          denetimini yanıltıyordu ("tabindex var ama etkileşimli öğe değil").
+        -->
+        {#if sid === undefined}
+          <circle cx={x(clamp(p))} cy={plotH - BOTTOM + 9} {r} class={renk}></circle>
+        {:else}
+          {@const uzerinde = selection.hoveredStudentId === sid}
+          <circle
+            cx={x(clamp(p))}
+            cy={plotH - BOTTOM + 9}
+            r={uzerinde ? r + 2 : r}
+            class="{renk} cursor-pointer transition-all"
+            opacity={selection.hasStudent(sid) ? 1 : 0.2}
+            onpointerenter={(e) => balonGoster(e, p, sid)}
+            onpointermove={(e) => balonGoster(e, p, sid)}
+            onpointerleave={balonGizle}
+            onclick={() => ogrenciSec(sid)}
+            onkeydown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                ogrenciSec(sid);
+              }
+            }}
+            onfocus={() => hoverStudent(sid)}
+            onblur={balonGizle}
+            role="button"
+            tabindex="0"
+            aria-label={`${studentLabel ? studentLabel(sid) : "Öğrenci"}, puan ${p.toFixed(0)}`}
+            aria-pressed={selection.studentSet.has(sid)}
+          ></circle>
+        {/if}
       {/each}
 
-      {#each xTikler as t (t)}
+      <!--
+        FIRÇA EN ÜSTTE: kendi saydam dikdörtgeni tıklamaları yakalıyor.
+        `canBrush` yoksa hiç çizilmiyor — seçim üretemeyecek bir etkileşim
+        göstermek yanıltıcı olurdu.
+      -->
+      {#if canBrush}
+        <!--
+          KAPLAMA ETKİN KALMALI. Bir ara `pointer-events-none` verilmişti;
+          `.overlay` d3-brush'ta tam da YENİ SEÇİMİ BAŞLATAN dikdörtgendir,
+          kapatınca boş alandan fırça başlatmak imkânsız hâle geliyordu —
+          grafik "hiç etkileşimli değil" görünüyordu.
+
+          Burada çakışma da yok: nokta şeridi fırça alanının (`extent`)
+          ALTINDA, eksenin dışında duruyor.
+        -->
+        <g
+          bind:this={brushHost}
+          class="[&_.selection]:fill-primary-600/15 [&_.selection]:stroke-primary-600"
+        ></g>
+      {/if}
+
+      {#each xTicks as t (t)}
         <text
           x={x(t)}
-          y={H + SERIT - 2}
+          y={plotH + STRIP_H - 2}
           text-anchor={t === 0 ? "start" : t >= 100 ? "end" : "middle"}
-          class="fill-gray-500 dark:fill-gray-400"
+          class="fill-body-subtle"
           style="font-size: 8px; font-variant-numeric: tabular-nums"
         >
           {t}
@@ -222,15 +434,45 @@
       {/each}
     </svg>
 
-    {#if egri.length === 0}
-      <p class="mt-[5px] text-[12px] leading-5 text-gray-500 dark:text-gray-400">
-        Eğri çizilmedi: {stats.n} öğrenciyle ya da herkes aynı puanı aldığında
-        dağılımın şekli hesaplanamıyor. Alttaki noktalar ham puanları gösteriyor.
+    <!--
+      EĞRİ YOKKEN "hesaplanamıyor" DEMEK YANLIŞTI: hesaplanabiliyordu, biz
+      çizmemeye KARAR verdik. Sebebi de söylenmeli, yoksa öğretmen eksik bir
+      şey olduğunu sanır. Nokta şeridi bir teselli ödülü değil — altı öğrenci
+      için verinin tam ve kayıpsız gösterimi; eğri ise en iyi hâlde bir
+      kestirim.
+    -->
+    <!--
+      `pointer-events-none` ŞART: balon imlecin altında kalırsa noktanın
+      `pointerleave`ini tetikler, balon kapanır, imleç tekrar noktaya düşer —
+      sonsuz titreme.
+    -->
+    {#if balon}
+      {@const solda = balon.x > (figureEl?.clientWidth ?? 0) / 2}
+      <div
+        class="pointer-events-none absolute z-10 max-w-[16rem] rounded-lg border
+               border-default-medium bg-neutral-primary-medium px-2.5 py-1.5 text-xs shadow-lg"
+        style="left: {balon.x}px; top: {balon.y}px;
+               transform: translate({solda ? '-100%' : '0'}, -100%) translate({solda ? -10 : 10}px, -10px)"
+      >
+        <p class="font-semibold text-heading">
+          {studentLabel ? studentLabel(balon.studentId) : "Öğrenci"}
+        </p>
+        <p class="tnum mt-0.5 {balon.pct >= threshold ? 'text-body-subtle' : 'text-red-600 dark:text-red-400'}">
+          Puan %{balon.pct.toFixed(0)}{#if balon.pct < threshold} — eşiğin altında{/if}
+        </p>
+      </div>
+    {/if}
+
+    {#if !showCurve}
+      <p class="mt-1 text-xs text-body-subtle">
+        Her nokta bir öğrenci; kesikli çizgi geçme eşiği. Dağılım eğrisi
+        {stats.n} öğrenciyle çizilmiyor — {MIN_CURVE_N} kişinin altında eğrinin
+        şekli sınıfı değil, hesabın düzleştirme ayarını gösterir.
       </p>
     {:else}
-      <p class="mt-[5px] text-[12px] leading-5 text-gray-500 dark:text-gray-400">
+      <p class="mt-1 text-xs text-body-subtle">
         Yatay: puan · Dikey: frekans. Kesikli çizgi geçme eşiği; koyu çizgiler
-        mod, medyan ve ortalama. Alttaki noktalar tek tek öğrenciler.
+        medyan ve ortalama. Alttaki noktalar tek tek öğrenciler.
       </p>
     {/if}
 
@@ -239,38 +481,40 @@
       altına uzun bir metin kuyruğu ekliyordu; beş sayı yan yana tek bakışta
       okunuyor ve mod/medyan/ortalama sırası da böyle görünüyor.
     -->
-    <dl class="mt-[5px] flex flex-wrap gap-x-5 gap-y-[5px] border-t border-gray-300 pt-[5px] dark:border-gray-600">
-      {#each [["Mod", stats.mode === null ? "—" : stats.mode.toFixed(0)], ["Medyan", stats.median.toFixed(1)], ["Ortalama", stats.mean.toFixed(1)], ["Std. sapma", stats.sd.toFixed(1)], ["Çarpıklık", stats.skewness === null ? "—" : stats.skewness.toFixed(2)]] as [ad, deger] (ad)}
+    <!--
+      SIRA DEĞİŞTİ VE "Mod" ÇIKTI.
+
+      Mod ayrık değerli sürekli puanlarda tanımsız; buradaki değer 10 puanlık
+      aralıklardan üretiliyordu ve aralık genişliğiyle oynuyordu. Kalıcı bir
+      "—" ile onun altına iliştirilmiş bir özür, öğretmene eksik bir özellik
+      izlenimi veriyordu; oysa eksik olan bir şey yok, hesaplanması gereken
+      bir şey yok.
+
+      Yerine EN DÜŞÜK–EN YÜKSEK geldi. Sıra istatistikleri her n'de tanımlı,
+      hiçbir varsayım gerektirmiyor ve öğretmenin gerçekten sorduğu şeye —
+      sınıf ne kadar yayılmış — sd'den daha doğrudan cevap veriyor.
+
+      Çarpıklık yalnız n ≥ 50'de. Altında sayı basmak, standart hatası
+      değerin on katı olan bir büyüklüğü iki ondalıkla raporlamak olurdu.
+    -->
+    <dl class="mt-[5px] flex flex-wrap gap-x-5 gap-y-[5px] border-t border-default-medium pt-[5px]">
+      {#each [["Öğrenci", String(stats.n)], ["En düşük – en yüksek", `${stats.min.toFixed(0)} – ${stats.max.toFixed(0)}`], ["Medyan", stats.median.toFixed(1)], ["Ortalama", stats.mean.toFixed(1)], ["Std. sapma", stats.sd.toFixed(1)], ...(showSkewness && stats.skewness !== null ? [["Çarpıklık", stats.skewness.toFixed(2)]] : [])] as [label, value] (label)}
         <div>
-          <dt class="text-[12px] leading-5 text-gray-500 dark:text-gray-400">{ad}</dt>
-          <dd class="tnum text-[15px] leading-5 text-gray-900 dark:text-white">{deger}</dd>
+          <dt class="text-xs text-body-subtle">{label}</dt>
+          <dd class="tnum text-[15px] leading-5 text-heading">{value}</dd>
         </div>
       {/each}
     </dl>
 
     <!--
-      Çarpıklık sözü her zaman kırmızı DEĞİL: yön olumlu da olabilir ("sola
-      çarpık — sınıf başarılı"). Kırmızı yalnız değerlendirme/olumsuz bulgu
-      içindir; burası nötr açıklama.
+      Çarpıklık cümlesi de aynı kapının arkasında. Eskiden n'den bağımsız
+      basılıyor, altına "bu sayı oynak" diye bir dipnot ekleniyordu — ama
+      öğretmen CÜMLEYİ okuyor, dipnotu değil. n=6'da −0.06'nın %95 aralığı
+      `skewLabel`in üretebildiği bütün etiketleri kapsıyordu: yani ekranda
+      kesin kipte yazan cümle, rastgele bir etiketti.
     -->
-    <p class="mt-[5px] text-[12px] leading-5 text-gray-700 dark:text-gray-300">{skewLabel(stats.skewness)}</p>
-
-    <!--
-      Uyarılar tek satıra indi. Paragraf paragraf açıklama, dashboard'da
-      okunmuyor ve yerleşimi bozuyor; sebep kısa, ayrıntı yardım sayfasında.
-    -->
-    {#if stats.mode === null || stats.n < MIN_CARPIKLIK_N}
-      <ul class="mt-[5px] text-[12px] leading-5 text-gray-500 dark:text-gray-400">
-        {#if stats.mode === null}
-          <li>Tepe noktası yok — hiçbir puan aralığında yığılma oluşmamış.</li>
-        {/if}
-        {#if stats.n < MIN_CARPIKLIK_N}
-          <li>
-            Çarpıklık {stats.n} öğrenciyle oynak; {MIN_CARPIKLIK_N} kişiden
-            itibaren yorumlanabilir.
-          </li>
-        {/if}
-      </ul>
+    {#if showSkewness}
+      <p class="mt-[5px] text-xs leading-5 text-body">{skewLabel(stats.skewness)}</p>
     {/if}
   {/if}
 </figure>

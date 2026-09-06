@@ -4,6 +4,7 @@ import {
   histogram,
   itemStats,
   needsReview,
+  outcomeStats,
   skewLabel,
   spread,
 } from "./item-stats";
@@ -244,8 +245,29 @@ describe("skewLabel", () => {
     expect(skewLabel(-1.4)).toContain("Belirgin");
   });
 
-  test("küçük değer simetrik sayılır", () => {
-    expect(skewLabel(0.2)).toContain("Simetrik");
+  test("küçük değer bakışımlı sayılır", () => {
+    expect(skewLabel(0.2)).toContain("Bakışımlı");
+  });
+
+  /**
+   * Bu test bir GERİLEMEYİ kilitliyor. Etiket eskiden "Simetrik — puanlar
+   * ortada toplanmış" diyordu; çarpıklık bakışımı ölçer, TOPLANMAYI değil.
+   * Düzgün dağılım da bakışımlıdır, uçlara yığılmış çift tepeli bir dağılım
+   * da. 15/30/45/65/70/90 puanlı, ölçeğin 75 puanına yayılmış bir sınıf
+   * "ortada toplanmış" diye tanıtılıyordu — toplanmanın tam tersi.
+   */
+  test("bakışım, toplanma iddiası taşımaz", () => {
+    expect(skewLabel(0.2)).not.toContain("ortada toplanmış");
+  });
+
+  /**
+   * Sola çarpıklık tek başına "sınıf başarılı" demiyor: yüzde puanları 100'de
+   * sınırlı olduğu için KOLAY bir test de mekanik olarak sola çarpıklık
+   * üretir (tavan etkisi). İki okuma zıt öğretimsel sonuçlara götürür.
+   */
+  test("çarpıklık yönü tek bir nedene bağlanmaz", () => {
+    expect(skewLabel(-1.4)).toContain("test kolay gelmiş");
+    expect(skewLabel(1.4)).toContain("test zor gelmiş");
   });
 
   test("hesaplanamayan durum gizlenmez", () => {
@@ -276,5 +298,90 @@ describe("needsReview", () => {
 
   test("hiç cevaplanmamış madde", () => {
     expect(needsReview({ ...temel, answered: 0 })).toContain("Kimse");
+  });
+});
+
+describe("outcomeStats", () => {
+  /** Tek soruluk sahte bir madde; puan ve güçlük dışarıdan verilir. */
+  function madde(questionId: string, difficulty: number, maxPoints: number) {
+    return {
+      questionId,
+      order: 1,
+      correct: 0,
+      partial: 0,
+      wrong: 0,
+      blank: 0,
+      answered: 0,
+      difficulty,
+      discrimination: null,
+      maxPoints,
+    };
+  }
+
+  function soru(id: string, outcomes: string[], points: number) {
+    return {
+      id,
+      question_type: "classic",
+      points,
+      outcomes,
+      meta: { subject: "Matematik", grade: 10, difficulty: null, title: "" },
+      body: [],
+      rubric: [],
+    } as unknown as Parameters<typeof outcomeStats>[1][number];
+  }
+
+  test("yüzde puandan hesaplanır, soru sayısından değil", () => {
+    // Arrange — 20 öğrenci, 15 puanlık tek soru, sınıf %80 almış.
+    const items = [madde("q1", 0.8, 15)];
+    const bank = [soru("q1", ["MAT.10.1.1"], 15)];
+
+    // Act
+    const { outcomes } = outcomeStats(items, bank, 20);
+
+    // Assert — 20 × 15 = 300 alınabilir, 240 alınmış.
+    expect(outcomes[0].pointsAvailable).toBe(300);
+    expect(outcomes[0].pointsEarned).toBeCloseTo(240, 5);
+    expect(outcomes[0].scorePct).toBeCloseTo(80, 5);
+  });
+
+  test("en kötü kazanım başa gelir", () => {
+    const items = [madde("q1", 0.9, 10), madde("q2", 0.2, 10)];
+    const bank = [soru("q1", ["İYİ.10.1.1"], 10), soru("q2", ["KOTU.10.1.1"], 10)];
+
+    const { outcomes } = outcomeStats(items, bank, 10);
+
+    expect(outcomes[0].outcome).toBe("KOTU.10.1.1");
+  });
+
+  /**
+   * Kazanım kodu girilmemiş sorular hiçbir çubuğa girmiyor. Sayıları
+   * söylenmezse öğretmen grafiği "sınavın tamamı" sanar — oysa yarısını
+   * kapsıyor olabilir.
+   */
+  test("kodsuz sorular ayrıca sayılır", () => {
+    const items = [madde("q1", 0.5, 10), madde("q2", 0.5, 10)];
+    const bank = [soru("q1", ["MAT.10.1.1"], 10), soru("q2", [], 10)];
+
+    const { outcomes, uncodedQuestions } = outcomeStats(items, bank, 5);
+
+    expect(outcomes).toHaveLength(1);
+    expect(uncodedQuestions).toBe(1);
+  });
+
+  /**
+   * Çok kazanımlı soru her kazanıma TAM puanıyla giriyor, bölünerek değil:
+   * o sorudan alınan puan iki kazanım için de kanıttır.
+   */
+  test("çok kazanımlı soru her kazanıma tam girer", () => {
+    const items = [madde("q1", 0.6, 10)];
+    const bank = [soru("q1", ["A.10.1.1", "B.10.1.1"], 10)];
+
+    const { outcomes } = outcomeStats(items, bank, 10);
+
+    expect(outcomes).toHaveLength(2);
+    for (const o of outcomes) {
+      expect(o.pointsAvailable).toBe(100);
+      expect(o.scorePct).toBeCloseTo(60, 5);
+    }
   });
 });

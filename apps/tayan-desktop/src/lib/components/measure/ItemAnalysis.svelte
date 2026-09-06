@@ -11,6 +11,7 @@
    * hatasıdır. Burada her ölçü kendi sütununda duruyor.
    */
   import { MIN_DISCRIMINATION_N, needsReview, type ItemStat } from "$lib/analysis/item-stats";
+  import { selection } from "$lib/ui/analysis-selection.svelte";
   import { bodyPreview } from "$lib/types";
   import type { Question } from "$lib/types";
 
@@ -33,7 +34,7 @@
    * yalnız sahte güven verir. Infinity'de `text.length > maxLen` hiç sağlanmadığı
    * için tam düz metin dönüyor.
    */
-  function baslik(item: ItemStat, maxLen = 46): string {
+  function questionLabel(item: ItemStat, maxLen = 46): string {
     const q = bank.find((b) => b.id === item.questionId);
     if (!q) return "Bankada yok";
     const t = q.meta.title.trim();
@@ -47,22 +48,22 @@
    * kırmızı burada da yalnız değerlendirme demek. Boş, ızgara tonunda nötr;
    * "cevaplanmadı" bir hata değil, ölçülememiş bir hücre.
    */
-  function parcalar(item: ItemStat) {
+  function barSegments(item: ItemStat) {
     const n = item.correct + item.partial + item.wrong + item.blank;
     if (n === 0) return [];
     return [
-      { ad: "doğru", say: item.correct, sinif: "bg-gray-800 dark:bg-gray-200" },
-      { ad: "kısmi", say: item.partial, sinif: "bg-gray-400 dark:bg-gray-500" },
-      { ad: "yanlış", say: item.wrong, sinif: "bg-red-600 dark:bg-red-400" },
-      { ad: "boş", say: item.blank, sinif: "bg-gray-300 dark:bg-gray-600" },
+      { label: "doğru", count: item.correct, className: "bg-gray-800 dark:bg-gray-200" },
+      { label: "kısmi", count: item.partial, className: "bg-gray-400 dark:bg-gray-500" },
+      { label: "yanlış", count: item.wrong, className: "bg-red-600 dark:bg-red-400" },
+      { label: "boş", count: item.blank, className: "bg-gray-300 dark:bg-gray-600" },
     ]
-      .filter((p) => p.say > 0)
-      .map((p) => ({ ...p, yuzde: (p.say / n) * 100 }));
+      .filter((p) => p.count > 0)
+      .map((p) => ({ ...p, percent: (p.count / n) * 100 }));
   }
 </script>
 
 <figure
-  class="m-0 rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800"
+  class="m-0 rounded-lg border border-default-medium bg-neutral-primary-medium p-4 shadow-sm"
 >
   <figcaption class="text-[11px] font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">
     Soru soru
@@ -90,8 +91,19 @@
       </thead>
       <tbody>
         {#each items as item (item.questionId)}
-          {@const uyari = needsReview(item)}
-          <tr class="border-b border-gray-200 align-top dark:border-gray-700">
+          {@const reviewNote = needsReview(item)}
+          <!--
+            SEÇİM DIŞI SATIR GİZLENMİYOR, SOLUKLAŞIYOR. Gizlemek bağlamı
+            götürürdü: "seçtiğim beş soru diğer on beşe göre nerede duruyor"
+            sorusu ancak diğerleri de görünürken cevaplanır.
+          -->
+          <tr
+            class="border-b border-gray-200 align-top transition-all dark:border-gray-700
+                   {selection.hasQuestion(item.questionId) ? '' : 'opacity-30'}
+                   {selection.hoveredQuestionId === item.questionId
+              ? 'bg-primary-50 dark:bg-primary-900/30'
+              : ''}"
+          >
             <td class="tnum py-[5px] text-[12px] leading-5 text-gray-500 dark:text-gray-400">{item.order}</td>
             <!--
               wrap-anywhere: başlık ham kullanıcı metni (q.meta.title, uzunluk
@@ -120,10 +132,10 @@
                    çağrılan baslik() kırpılmamış tam metni verdiği için erişim korunuyor. -->
               <span
                 class="text-[12px] leading-5 text-gray-900 dark:text-white"
-                title={baslik(item, Infinity)}>{baslik(item)}</span>
-              {#if uyari}
+                title={questionLabel(item, Infinity)}>{questionLabel(item)}</span>
+              {#if reviewNote}
                 <!-- Gözden geçirme uyarısı GERÇEK bir değerlendirme sonucu: kırmızı burada doğru yerinde. -->
-                <span class="block text-[12px] leading-5 text-red-600 dark:text-red-400">{uyari}</span>
+                <span class="block text-[12px] leading-5 text-red-600 dark:text-red-400">{reviewNote}</span>
               {/if}
             </td>
             <td class="py-[5px] pr-2.5">
@@ -133,8 +145,8 @@
                 gibi okunuyor.
               -->
               <div class="flex h-[14px] w-full gap-[1px]" title="{item.correct} doğru, {item.partial} kısmi, {item.wrong} yanlış, {item.blank} boş">
-                {#each parcalar(item) as p (p.ad)}
-                  <div class="{p.sinif}" style="width: {p.yuzde}%"></div>
+                {#each barSegments(item) as p (p.label)}
+                  <div class="{p.className}" style="width: {p.percent}%"></div>
                 {/each}
               </div>
             </td>

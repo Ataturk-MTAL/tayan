@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { ExamResult, Student } from "$lib/types";
+  import { selection } from "$lib/ui/analysis-selection.svelte";
 
   /**
    * Soru × öğrenci ızgarası. Hücre boyutu defterin karesiyle aynıdır (20px):
@@ -92,7 +93,7 @@
   zararsız.
 -->
 <figure
-  class="m-0 min-w-0 rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800"
+  class="m-0 min-w-0 rounded-lg border border-default-medium bg-neutral-primary-medium p-4 shadow-sm"
 >
   <figcaption class="text-[11px] font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">
     Soru × öğrenci
@@ -136,7 +137,17 @@
         </thead>
         <tbody>
           {#each rows as row (row.student.id)}
-            <tr>
+            <!--
+              Dağılımda fırçalanan puan aralığı buraya öğrenci seçimi olarak
+              geliyor. Satır gizlenmiyor, soluklaşıyor: seçilenlerin
+              diğerlerine göre nerede durduğu görünür kalmalı.
+            -->
+            <tr
+              class="transition-all {selection.hasStudent(row.student.id) ? '' : 'opacity-25'}
+                     {selection.hoveredStudentId === row.student.id
+                ? 'bg-primary-50 dark:bg-primary-900/30'
+                : ''}"
+            >
               <th
                 class="sticky left-0 whitespace-nowrap bg-white px-2.5 text-left text-[12px]
                        font-normal leading-[20px] text-gray-900 dark:bg-gray-800 dark:text-white"
@@ -145,10 +156,11 @@
                 {row.student.first_name}
                 {row.student.last_name}
               </th>
-              {#each row.cells as cell}
+              {#each row.cells as cell, ci}
                 <td
                   class="h-[20px] w-[20px] border border-gray-200 text-center text-[12px]
-                         leading-[18px] dark:border-gray-700"
+                         leading-[18px] transition-opacity dark:border-gray-700
+                         {selection.hasQuestion(questionIds[ci]) ? '' : 'opacity-25'}"
                   class:bg-red-50={cell.state === "wrong"}
                   class:dark:bg-red-950={cell.state === "wrong"}
                   class:text-red-600={cell.state === "wrong" || cell.state === "partial"}

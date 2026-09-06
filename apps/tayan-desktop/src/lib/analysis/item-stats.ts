@@ -16,6 +16,28 @@ export type CellState = "correct" | "wrong" | "partial" | "blank";
 /** Ayırt ediciliğin anlamlı sayılabildiği en küçük sınıf. */
 export const MIN_DISCRIMINATION_N = 10;
 
+/**
+ * Dağılım eğrisinin çizilebildiği en küçük sınıf.
+ *
+ * `MIN_DISCRIMINATION_N` ile AYNI İLKE: "Sayı uydurmaktansa yokluğunu
+ * söylemek gerekiyor". Bu dosya n<10'da ayırt ediciliği hesaplamayı
+ * reddediyordu ama aynı altı öğrenciden bütün bir dağılım şekli çiziliyordu —
+ * kendi ölçütüne uymuyordu.
+ *
+ * EKRAN VE KÂĞIT AYNI KAPIYI KULLANIR. Eşik iki yerde ayrı yazılsaydı,
+ * öğretmenin veliye gösterdiği PDF ekranda görmediği bir eğri taşıyabilirdi.
+ */
+export const MIN_CURVE_N = 30;
+
+/**
+ * Çarpıklık sayısının ve sözlü yorumunun okunabildiği en küçük sınıf.
+ *
+ * SE(G1) = √( 6n(n−1) / ((n−2)(n+1)(n+3)) ) — n=6'da 0.845, n=15'te 0.580,
+ * n=30'da 0.427, n=50'de 0.337. `skewLabel`in ilk eşiği |0.5|; o eşiğin
+ * altını okuyabilmek için SE'nin de altında kalması gerekiyor.
+ */
+export const MIN_SKEWNESS_N = 50;
+
 /** Üst ve alt dilim oranı — madde analizinde yerleşik değer. */
 const UPPER_LOWER_FRACTION = 0.27;
 
@@ -142,6 +164,89 @@ export function itemStats(
   });
 }
 
+/** Bir kazanımın SINIF düzeyindeki performansı. */
+export type OutcomeStat = {
+  outcome: string;
+  /** Bu kazanımı taşıyan soru sayısı — yüzdenin ne kadar sağlam olduğunu söyler. */
+  questionCount: number;
+  pointsEarned: number;
+  pointsAvailable: number;
+  /** 0-100. */
+  scorePct: number;
+};
+
+/**
+ * Kazanım bazlı sınıf performansı.
+ *
+ * KAYNAK `itemStats`, SAKLANAN `outcome_performance` DEĞİL. İki gerekçe:
+ *
+ *   1. Saklanan alan YAZMA ANINDA hesaplanıyor. Puanlama düzeltilse bile eski
+ *      sonuçlar eski değerlerini taşımaya devam ediyor; ekran onlardan
+ *      beslenseydi öğretmen, düzeltilmiş bir hatayı hâlâ ekranında görürdü.
+ *   2. Buradaki sayılar madde tablosunun sayılarıyla AYNI kaynaktan geliyor:
+ *      `difficulty = kazanılan / (öğrenci × maxPoints)`. Yani kazanım yüzdesi
+ *      ile soru güçlüğü hiçbir zaman birbiriyle çelişemez.
+ *
+ * Rust tarafındaki `ScoringService::compute_outcome_performance` ÖĞRENCİ
+ * bazlı aynı ölçüyü hesaplıyor (karne için); ikisi de puan üzerinden çalışıyor.
+ * Biri değişirse diğeri de gözden geçirilmeli.
+ *
+ * KODSUZ SORULAR AYRICA DÖNÜYOR. Kazanım kodu girilmemiş sorular hiçbir çubuğa
+ * girmiyor; sayısı söylenmezse öğretmen grafiği "sınavın tamamı" sanır, oysa
+ * yarısını kapsıyor olabilir.
+ */
+export function outcomeStats(
+  items: ItemStat[],
+  bank: Question[],
+  studentCount: number,
+): { outcomes: OutcomeStat[]; uncodedQuestions: number } {
+  const toplam = new Map<string, { questionCount: number; earned: number; available: number }>();
+  let uncodedQuestions = 0;
+
+  for (const item of items) {
+    const q = bank.find((b) => b.id === item.questionId);
+    if (!q) continue;
+
+    if (q.outcomes.length === 0) {
+      uncodedQuestions += 1;
+      continue;
+    }
+
+    const available = item.maxPoints * studentCount;
+    // `difficulty` zaten kazanılan/alınabilir oranı; çarpınca ham puana dönüyor.
+    const earned = item.difficulty * available;
+
+    /*
+      ÇOK KAZANIMLI SORU HER KAZANIMA TAM PUANIYLA GİRİYOR, bölünerek değil.
+      Soru iki kazanımı birden ölçüyorsa, o sorudan alınan puan ikisi için de
+      kanıttır; yarıya bölmek "bu kazanımdan 2 puan alınabilirdi" gibi
+      uydurma bir payda üretirdi. Yüzdeler bu yüzden kazanımlar arasında
+      toplanabilir değil — her biri kendi içinde okunur.
+    */
+    for (const outcome of q.outcomes) {
+      const e = toplam.get(outcome) ?? { questionCount: 0, earned: 0, available: 0 };
+      toplam.set(outcome, {
+        questionCount: e.questionCount + 1,
+        earned: e.earned + earned,
+        available: e.available + available,
+      });
+    }
+  }
+
+  const outcomes = [...toplam.entries()]
+    .map(([outcome, v]) => ({
+      outcome,
+      questionCount: v.questionCount,
+      pointsEarned: v.earned,
+      pointsAvailable: v.available,
+      scorePct: v.available > 0 ? (v.earned / v.available) * 100 : 0,
+    }))
+    // EN KÖTÜ ÜSTTE: grafiğin üst kısmı doğrudan telafi planı oluyor.
+    .sort((a, b) => a.scorePct - b.scorePct);
+
+  return { outcomes, uncodedQuestions };
+}
+
 export type Spread = {
   n: number;
   mean: number;
@@ -238,7 +343,24 @@ export function densityCurve(
   );
   if (sd === 0) return [];
 
+  /*
+    BANDWIDTH VERİDEN GELİR, BİR GÖRÜNTÜ SABİTİNDEN DEĞİL.
+
+    Bir ara burada `h = min(max(silverman, binWidth/2), binWidth)` vardı; amaç
+    Silverman'ın küçük örneklemde aşırı düzleştirmesini telafi etmekti. Sonuç
+    UYDURMA BİR BULGU oldu: 15/30/45/65/70/90 puanlarında h=10 ile eğri iki
+    tepeli çıkıyor — x=30'da 0.659, x=50'de 0.591 çukur, x=67.5'te 0.837 —
+    ve o çukur TAM geçme eşiğinin altına düşüyor. Grafik "sınıf geçme notu
+    etrafında ikiye ayrılıyor" diyordu; veride böyle bir şey yok. Aynı altı
+    puan Silverman'ın kendi h=20.52'siyle çukursuz tek bir kemer veriyor.
+
+    Düzleştirme parametresini `BIN_WIDTH` gibi bir ekran sabitine eşitlemek
+    yoğunluk kestirimi değil, hoşa giden şekli aramaktır. Kural veriden
+    gelir; eğri az örneklemde düz çıkıyorsa doğru cevap eğriyi ZORLAMAK değil,
+    o boyutta EĞRİ ÇİZMEMEKTİR (ekran tarafındaki `MIN_CURVE_N` kapısı).
+  */
   const h = 1.06 * sd * Math.pow(n, -1 / 5);
+
   const olcek = (n * binWidth) / (h * Math.sqrt(2 * Math.PI));
 
   const noktalar: CurvePoint[] = [];
@@ -262,11 +384,24 @@ export function densityCurve(
  */
 export function skewLabel(skew: number | null): string {
   if (skew === null) return "Hesaplanamadı";
-  if (Math.abs(skew) < 0.5) return "Simetrik — puanlar ortada toplanmış";
+  /*
+    "Simetrik — puanlar ortada TOPLANMIŞ" yazıyordu ve bu YANLIŞTI. Çarpıklık
+    bakışımı ölçer, toplanmayı değil; düzgün (uniform) dağılım da simetriktir,
+    uçlara yığılmış çift tepeli bir dağılım da. 15/30/45/65/70/90 puanlı bir
+    sınıf (sd 27.7, ölçeğin 75 puanına yayılmış) "ortada toplanmış" diye
+    tanıtılıyordu — toplanmanın tam tersi. Yayılımı sd ve ranj söyler.
+  */
+  if (Math.abs(skew) < 0.5) return "Bakışımlı — iki kuyruk dengeli";
   const siddet = Math.abs(skew) < 1 ? "Orta düzey" : "Belirgin";
+  /*
+    NEDEN İKİ OKUMA BİRDEN. Sola çarpıklık tek başına "sınıf başarılı"
+    demiyor: yüzde puanları 100'de sınırlı olduğu için KOLAY bir test de
+    mekanik olarak sola çarpıklık üretir (tavan etkisi). İki yorum zıt
+    öğretimsel sonuçlara götürüyor; yalnız birini yazmak öğretmeni yanıltır.
+  */
   return skew < 0
-    ? `${siddet} sola çarpık — yığılma yüksek puanlarda, sınıf başarılı`
-    : `${siddet} sağa çarpık — yığılma düşük puanlarda, sınıf zorlanmış`;
+    ? `${siddet} sola çarpık — yığılma yüksek puanlarda (sınıf başarılı ya da test kolay gelmiş)`
+    : `${siddet} sağa çarpık — yığılma düşük puanlarda (sınıf zorlanmış ya da test zor gelmiş)`;
 }
 
 /** Sıralı dizide oransal konum — doğrusal ara değerleme. */
@@ -347,10 +482,40 @@ export function spread(values: number[]): Spread | null {
  * 0.90'ın üstü (soru ya kimseye ya herkese göre), ayırt edicilik 0.20'nin
  * altı (iyi ve zayıf öğrenciyi ayırmıyor).
  */
+/**
+ * Ayırt ediciliğin "ters" sayıldığı eşik.
+ *
+ * SIFIR DEĞİL, çünkü küçük sınıfta D'nin örneklem gürültüsü tek başına eksiye
+ * geçebiliyor. Üretilmiş veriyle ölçüldü (bkz. `seed_analysis`): gerçek ayırt
+ * ediciliği sıfır olan bir madde 34 kişilik sınıfta D = −0.11 veriyor (üst/alt
+ * dilim 9 kişi), 220 kişide ise D = +0.19'a oturuyor. Gerçekten ters olan madde
+ * aynı iki ölçekte −0.44 ve −0.41 veriyor. Sıfır eşiği tipik sınıfta yanlış
+ * alarm üretirdi; −0.20 ikisini de doğru ayırıyor.
+ */
+export const REVERSE_DISCRIMINATION = -0.2;
+
 export function needsReview(item: ItemStat): string | null {
   if (item.answered === 0) return "Kimse cevaplamamış";
   if (item.difficulty < 0.2) return "Çok zor — kimse yapamamış";
   if (item.difficulty > 0.9) return "Çok kolay — herkes yapmış";
+
+  /*
+    TERS AYIRAN MADDE, "AYIRT ETMİYOR"DAN AYRI BİR TEŞHİSTİR.
+
+    Eskiden tek dal vardı: `discrimination < 0.2` ⇒ "Ayırt etmiyor". İşarete
+    bakılmıyordu, dolayısıyla D = −0.44 olan madde ile D = 0.05 olan madde aynı
+    cümleyi alıyordu. Oysa öğretmenin yapacağı iş bambaşka:
+
+      D ≈ 0  → soru kimseyi ayırmıyor; belirsiz ya da uç güçlükte.
+               YAPILACAK: soruyu gözden geçir.
+      D < 0  → soruyu İYİ öğrenciler yanlış, ZAYIF öğrenciler doğru yapmış.
+               Tesadüf değil, sistematik ters ilişki; ölçme kitaplarında
+               birincil açıklaması CEVAP ANAHTARININ YANLIŞ olmasıdır.
+               YAPILACAK: önce anahtarı kontrol et.
+  */
+  if (item.discrimination !== null && item.discrimination <= REVERSE_DISCRIMINATION) {
+    return "Ters ayırıyor — cevap anahtarını kontrol et";
+  }
   if (item.discrimination !== null && item.discrimination < 0.2) {
     return "Ayırt etmiyor";
   }
