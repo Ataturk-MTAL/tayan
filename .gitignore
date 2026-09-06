@@ -34,3 +34,8 @@ apps/tayan-desktop/src-tauri/icons/android/
 apps/tayan-desktop/src-tauri/icons/ios/
 apps/tayan-desktop/src-tauri/icons/Square*Logo.png
 apps/tayan-desktop/src-tauri/icons/StoreLogo.png
+
+# Ajan eklentisinin kök dizine bıraktığı yönerge dosyası. İçeriği bu projeye
+# ait değil (başka bir deponun donanım/bench yönergeleri) ve makineden makineye
+# değişiyor; sürümlenmesi anlamsız.
+/CLAUDE.md
