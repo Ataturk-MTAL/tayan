@@ -96,6 +96,7 @@ fn main() {
             commands::student::list_students_by_classroom,
             commands::student::delete_student,
             commands::student::delete_classroom,
+            commands::student::parse_roster,
             // Analysis / results
             commands::analysis::enter_exam_results,
             commands::analysis::get_exam_results,

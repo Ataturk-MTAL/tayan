@@ -180,7 +180,7 @@ async fn main() -> anyhow::Result<()> {
     // Altı öğrenci bilinçli: ayırt edicilik 6'dan az cevapta 0 döner, çünkü
     // üst ve alt %27 dilimleri o sayıda anlamlı olmaz. Altıncı sonuç girilince
     // değer ilk kez gerçek bir sayı olur.
-    let mut sinif = Classroom::new("9-A", 9, "A");
+    let sinif = Classroom::new("9-A", 9, "A");
     let ogrenciler = [
         ("101", "Ayşe", "YILMAZ"),
         ("102", "Berk", "DEMİR"),
@@ -191,16 +191,17 @@ async fn main() -> anyhow::Result<()> {
     ];
     // Sınıf ÖNCE kaydedilmeli: students tablosu classrooms(id)'ye yabancı
     // anahtarla bağlı, ters sırada "FOREIGN KEY constraint failed" döner.
+    //
+    // TEK KAYIT YETİYOR. Eskiden öğrenciler yazıldıktan sonra sınıf İKİNCİ kez
+    // kaydediliyordu, çünkü `student_ids` üyeliğin bir kopyasını taşıyordu. O
+    // alan kalktı — üyeliği yalnız `students.classroom_id` söylüyor.
     class_repo.save(&sinif).await?;
     let mut kayitli = Vec::new();
     for (no, ad, soyad) in ogrenciler {
         let s = Student::new(no, ad, soyad, sinif.id.clone());
-        sinif.student_ids.push(s.id.clone());
         student_repo.save_student(&s).await?;
         kayitli.push(s.id.clone());
     }
-    // Öğrenci kimlikleri eklendikten sonra sınıfı tekrar kaydet.
-    class_repo.save(&sinif).await?;
     let _ = kayitli;
     println!("öğrenci eklendi: {}", ogrenciler.len());
 

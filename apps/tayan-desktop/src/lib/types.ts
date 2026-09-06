@@ -260,13 +260,21 @@ export const QUESTION_TYPE_LABELS: Record<Question["question_type"], string> = {
 
 // ── Classroom / Student ───────────────────────────────────────────────────────
 
+/**
+ * Bir sınıf.
+ *
+ * ÜYELİK BURADA YOK. Bir `student_ids: string[]` alanı vardı; üyeliğin ikinci
+ * kopyasıydı ve hiç bakımı yapılmıyordu — Rust tarafında yalnız `seed_demo`
+ * dolduruyordu, `add_student` komutu dokunmuyordu, çıkarma yolu hiç yoktu.
+ * Arayüzden açılan bir sınıfta sonsuza dek boş kalıyordu, dolayısıyla ondan
+ * okunan sayaç da hep 0. Sayım artık gerçek öğrenci satırlarından türetiliyor.
+ */
 export type Classroom = {
   id: string;
   name: string;
   grade: number;
   branch: string;
   academic_year: string;
-  student_ids: string[];
   created_at: string;
 };
 
@@ -295,10 +303,30 @@ export type QuestionAnswerInput = {
   rubric_met: number[];
 };
 
+/**
+ * Bir öğrencinin bir sınavda tek bir kazanımdaki performansı.
+ *
+ * PUANLAR DA VAR, ÇÜNKÜ SINIF TOPLAMI ANCAK ONLARLA DOĞRU. Öğrenci
+ * yüzdelerinin ortalamasını almak, sorular farklı puanlardaysa yanlış sonuç
+ * verir; puanlar toplanıp bölününce sonuç kesin.
+ *
+ * `score_pct` bir ara `correct / total_questions` idi ve açık uçlu soruları
+ * sessizce sıfır sayıyordu (klasik soruda `is_correct` her zaman `null`).
+ * Artık puandan hesaplanıyor.
+ *
+ * ESKİ KAYITLARDA PUANLAR 0. Alanlar sonradan eklendi; Rust tarafı
+ * `#[serde(default)]` ile eski satırları okumaya devam ediyor ama değerleri
+ * sıfır geliyor. Sonuç yeniden kaydedilince doğru değerle doluyor — okuyan
+ * taraf `points_available === 0` durumunu "veri yok" saymalı, "%0 başarı"
+ * değil.
+ */
 export type OutcomePerformance = {
   outcome: string;
   total_questions: number;
+  /** Yalnız otomatik puanlanan sorularda TAM doğru sayısı. */
   correct: number;
+  points_earned: number;
+  points_available: number;
   score_pct: number;
 };
 

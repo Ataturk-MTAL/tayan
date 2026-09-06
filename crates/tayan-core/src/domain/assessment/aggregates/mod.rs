@@ -44,11 +44,40 @@ pub struct QuestionAnswer {
 }
 
 /// Outcome-level performance for a single student on a single exam.
+///
+/// PUAN DA SAKLANIYOR, YALNIZ SAYI DEĞİL.
+///
+/// `score_pct` eskiden `correct / total_questions` idi ve bu SESSİZCE YANLIŞ
+/// sonuç veriyordu: `is_correct` klasik soruda her zaman `None` (puan elle
+/// giriliyor, "doğru/yanlış" diye bir şey yok) ve boşluk doldurmada kısmi
+/// doğru `false` sayılıyor. Yani açık uçlu bir sorunun kazanımı, sınıf o
+/// sorudan tam puan alsa bile %0 görünüyordu.
+///
+/// `points_earned` / `points_available` AYRICA saklanıyor, çünkü SINIF
+/// düzeyinde toplama ancak böyle doğru yapılabiliyor: öğrenci yüzdelerinin
+/// ortalaması, sorular farklı puanlardaysa yanlış sonuç verir. Puanlar
+/// toplanıp bölününce sonuç kesin.
+///
+/// `correct` ve `total_questions` KORUNUYOR: karne / öğrenci bazlı raporda
+/// "8 sorunun 5'i doğru" ifadesi puandan farklı ve gerekli bir bilgi.
+/// `correct` yalnız otomatik puanlanan sorularda TAM doğruyu sayar.
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct OutcomePerformance {
     pub outcome:         OutcomeCode,
     pub total_questions: u32,
     pub correct:         u32,
+    /// Bu kazanımın sorularından alınan toplam puan.
+    ///
+    /// `#[serde(default)]`: alan sonradan eklendi ve veritabanındaki eski
+    /// sonuçlarda YOK. Varsayılansız olsaydı eski kayıtların tamamı okunamaz
+    /// hâle gelir, öğretmenin girdiği bütün sonuçlar ekrandan kaybolurdu.
+    /// Eski satırlar 0.0 ile geliyor; sonuç yeniden kaydedildiğinde doğru
+    /// değerle doluyor.
+    #[serde(default)]
+    pub points_earned:    f32,
+    /// Bu kazanımın sorularından alınabilecek toplam puan.
+    #[serde(default)]
+    pub points_available: f32,
     pub score_pct:       f32,
 }
 

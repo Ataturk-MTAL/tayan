@@ -270,7 +270,7 @@ pub async fn compile_answer_preview_svg(
     use tayan_core::domain::shared::to_typst::{ToTypst, TypstContext};
 
     tokio::task::spawn_blocking(move || {
-        let soru = ClassicQuestion {
+        let question = ClassicQuestion {
             meta: Default::default(),
             id: QuestionId::new(),
             points: Points::new(points),
@@ -295,7 +295,7 @@ pub async fn compile_answer_preview_svg(
         // answer_key_document: önsözdeki `anahtar-nushasi` bayrağını açar, böylece
         // gövdeye elle yazılmış #cevap-alani da anahtarda basılmaz.
         let source =
-            tayan_compiler::typst_gen::TypstGenerator::answer_key_document(&soru.to_typst(&ctx));
+            tayan_compiler::typst_gen::TypstGenerator::answer_key_document(&question.to_typst(&ctx));
         tayan_compiler::TayanWorld::compile_svg(source)
     })
     .await
@@ -351,14 +351,14 @@ mod diagnostic_shift_tests {
     use super::shift_diagnostic_lines;
 
     #[test]
-    fn gövde_hatası_editör_satırına_çevrilir() {
+    fn body_error_maps_to_editor_line() {
         let msg = "Typst derleme hatası:\nexpected comma (satır 98, sütun 39)";
         let out = shift_diagnostic_lines(msg, 93);
         assert!(out.contains("(satır 5, sütun 39)"), "{out}");
     }
 
     #[test]
-    fn önsöz_hatası_kaydırılmaz() {
+    fn preamble_error_is_not_shifted() {
         // Önsözün kendi içindeki hata bizim kusurumuz; olduğu gibi görünmeli.
         let msg = "unknown variable (satır 40, sütun 3)";
         let out = shift_diagnostic_lines(msg, 93);
@@ -366,7 +366,7 @@ mod diagnostic_shift_tests {
     }
 
     #[test]
-    fn birden_çok_tanılama_hepsi_kaydırılır() {
+    fn all_diagnostics_are_shifted() {
         let msg = "a (satır 100, sütun 1)\nb (satır 110, sütun 2)";
         let out = shift_diagnostic_lines(msg, 93);
         assert!(out.contains("(satır 7, sütun 1)"), "{out}");
@@ -374,7 +374,7 @@ mod diagnostic_shift_tests {
     }
 
     #[test]
-    fn konumsuz_mesaj_bozulmaz() {
+    fn message_without_position_is_unchanged() {
         let msg = "Typst derleme hatası:\nbir şey oldu";
         assert_eq!(shift_diagnostic_lines(msg, 93), msg);
     }
