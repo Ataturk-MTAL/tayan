@@ -143,10 +143,20 @@
    *      aday yöne SIÇRIYORDU. Kullanıcının gördüğü "zoomda senkron hareket
    *      edemiyor" tam olarak buydu.
    *
-   * Çözüm etiketi oynatmak değil, ETİKET SAYISINI AZALTMAK: yalnız sorunlu
-   * maddeler ve imlecin üstündeki madde numara taşıyor. Sağlıklı maddeler
-   * çıplak nokta; kimliğini imleç balonu söylüyor. Grafiğin işi zaten
-   * "hangileri sorunlu" — 20 numarayı birden okutmak o işe hizmet etmiyordu.
+   * Çözüm etiketi oynatmak değil, ETİKETİ NOKTANIN İÇİNE ALMAK: numara her
+   * zaman kendi dairesinin merkezinde duruyor, dolayısıyla kayacak bir yer de
+   * yok.
+   *
+   * NUMARA HER NOKTADA VAR. Bir ara yalnız sorunlu maddeler numara taşıyordu
+   * ("etiket sayısını azaltmak") ve sağlıklı maddeler çıplak nokta kalıyordu.
+   * Yanlıştı: saçılımdaki çıplak bir nokta "hangi soru" sorusuna cevap
+   * vermiyor, öğretmeni tabloya dönüp aramaya zorluyordu. Grafiğin işi yalnız
+   * "hangileri sorunlu" değil; "13 numara neden burada" da bir soru.
+   *
+   * BEDELİ ÇAKIŞMA: p ve D değerleri yakın iki madde üst üste biniyor,
+   * numaraları da öyle. Bu bilginin kendisi (o iki madde gerçekten benzer);
+   * ayırmanın yolu tekerlekle yakınlaştırmak ya da imleci üstüne getirmek —
+   * imlecin altındaki nokta büyüyor ve balon hangisi olduğunu söylüyor.
    */
   let yerlesim = $derived(
     noktalar.map((n) => ({ ...n, cx: x(n.p), cy: y(n.d) })),
@@ -484,7 +494,6 @@
       -->
       {#each yerlesim as n (n.order)}
         {@const uzerinde = selection.hoveredQuestionId === n.questionId}
-        {@const etiketli = n.durum !== "saglikli" || uzerinde}
         {@const gorunur = selection.hasQuestion(n.questionId)}
         <g>
           <circle
@@ -500,19 +509,17 @@
             bu bilginin kendisi (iki maddenin p ve D değeri yakın); imleç
             balonu hangisi olduğunu söylüyor.
           -->
-          {#if etiketli}
-            <text
-              x={n.cx}
-              y={n.cy + 3}
-              text-anchor="middle"
-              class="fill-white dark:fill-gray-900"
-              opacity={gorunur ? 1 : 0.25}
-              style="font-size: 8px; font-weight: 600; font-variant-numeric: tabular-nums"
-              aria-hidden="true"
-            >
-              {n.order}
-            </text>
-          {/if}
+          <text
+            x={n.cx}
+            y={n.cy + 3}
+            text-anchor="middle"
+            class="pointer-events-none fill-white dark:fill-gray-900"
+            opacity={gorunur ? 1 : 0.25}
+            style="font-size: 8px; font-weight: 600; font-variant-numeric: tabular-nums"
+            aria-hidden="true"
+          >
+            {n.order}
+          </text>
         </g>
       {/each}
 

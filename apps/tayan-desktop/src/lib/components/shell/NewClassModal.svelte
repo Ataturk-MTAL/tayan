@@ -23,7 +23,7 @@
    * korunuyor; iki yol da `open = false`ta buluşuyor, tekrarı zararsız.
    */
   import { Alert, Button, Input, Label, Modal } from "flowbite-svelte";
-  import { CloseOutline } from "flowbite-svelte-icons";
+  import { CloseOutline, CloudArrowUpOutline } from "flowbite-svelte-icons";
   import DropdownSelect from "$lib/components/shell/DropdownSelect.svelte";
   import { pushEscapeLayer } from "$lib/ui/escape-stack";
   import { api } from "$lib/api";
@@ -122,11 +122,16 @@
     return data.findIndex((r) => r.some((h) => h.trim() !== ""));
   }
 
-  async function onFileSelected(event: Event) {
-    const el = event.target as HTMLInputElement;
-    const file = el.files?.[0];
-    if (!file) return;
-
+  /**
+   * Dosyayı okur — girdiden mi sürüklemeden mi geldiği umurunda değil.
+   *
+   * İKİ GİRİŞ, TEK YOL. Dosya seçiciden gelen `File` ile bırakılan `File` aynı
+   * şey; ayrıştırma, başlık bulma, otomatik sütun tanıma ve hata metinleri
+   * ikisinde de birebir aynı olmalı. İki ayrı işleyici yazsaydık biri
+   * güncellenip diğeri unutulurdu — sürükleyen öğretmen, tıklayanın gördüğü
+   * hatayı görmezdi.
+   */
+  async function readRoster(file: File) {
     reading = true;
     fileError = null;
     headers = [];
@@ -169,9 +174,48 @@
       fileError = errorText(err);
     } finally {
       reading = false;
-      // Aynı dosyayı tekrar seçebilmek için girdiyi sıfırla.
-      el.value = "";
     }
+  }
+
+  async function onFileSelected(event: Event) {
+    const el = event.target as HTMLInputElement;
+    const file = el.files?.[0];
+    if (!file) return;
+
+    await readRoster(file);
+
+    // Aynı dosyayı tekrar seçebilmek için girdiyi sıfırla: `change` yalnız
+    // DEĞER değişince atıyor, aynı yolu ikinci kez seçmek olay üretmezdi.
+    el.value = "";
+  }
+
+  /**
+   * Sürükleme alanın üstünde mi — yalnız görsel geri bildirim için.
+   *
+   * `dragover` alanın İÇİNDEKİ çocuklar üzerinde de atıyor ve her geçişte bir
+   * `dragleave` geliyor; tek bir bayrağı `dragleave`de körlemesine kapatmak
+   * çerçeveyi titretirdi. Bu yüzden çocuklar `pointer-events-none`: tarayıcı
+   * sürükleme olaylarını yalnız kabın kendisinde görüyor.
+   */
+  let dragOver = $state(false);
+
+  function onDragOver(event: DragEvent) {
+    // Varsayılan davranış "bırakmayı reddet"; engellenmezse `drop` hiç atmıyor.
+    event.preventDefault();
+    dragOver = true;
+  }
+
+  function onDragLeave() {
+    dragOver = false;
+  }
+
+  async function onDrop(event: DragEvent) {
+    event.preventDefault();
+    dragOver = false;
+
+    const file = event.dataTransfer?.files?.[0];
+    if (!file) return;
+    await readRoster(file);
   }
 
   let columnOptions = $derived(headers.map((b) => ({ name: b, value: b })));
@@ -281,23 +325,49 @@
   </div>
 
   <form id="new-class-form" class="mt-4 space-y-4" onsubmit={submit}>
-    <div class="grid grid-cols-[1fr_100px_100px] gap-3">
-      <div>
+    <!--
+      ÜÇ ALAN KABIN GENİŞLİĞİNİ UMURSAMIYOR.
+
+      Buradaki ızgara `grid-cols-[1fr_100px_100px]` idi ve KUSURLUYDU. Kalıp
+      `size="lg"`, yani Flowbite temasında `max-w-4xl` = 896 px; `1fr` "makul
+      genişlik" değil "ARTAN NE VARSA HEPSİ" demek, dolayısıyla "9-A" yazan
+      alan ~600 px'e çıkıyor, 100 px'e çivilenmiş Seviye ve Şube de sağ kenara
+      sürülüyordu. Kalıp bu kadar geniş, çünkü aşağıdaki sütun eşleme tablosu
+      geniş; bu üç alanın onunla bir işi yok.
+
+      `flex` doğru primitif: `flex-1` basis'i SIFIR yapıp büyütüyor, `max-w-xs`
+      büyümenin nerede duracağını söylüyor; iki küçük alan `flex-none`, yani ne
+      büyüyor ne küçülüyor — 96 px'lik kutu font ölçeğiyle birlikte değişiyor,
+      sabit piksel gibi donmuyor. `flex-wrap`, dar bir kapta alanların ezilmek
+      yerine alt satıra inmesi için.
+
+      Not: ızgarada kalınsaydı bile `1fr` yanlış yazımdı — `1fr` aslında
+      `minmax(auto, 1fr)` ve `auto` minimumu içeriğin min-content'i olduğu için
+      uzun bir değer ızgarayı taşırır; güvenli form `minmax(0, 1fr)`.
+    -->
+    <div class="flex flex-wrap items-end gap-3">
+      <div class="min-w-48 max-w-xs flex-1">
         <Label for="nc-name" class="mb-1.5">Sınıf adı</Label>
         <Input id="nc-name" bind:value={name} placeholder="9-A" required />
       </div>
-      <div>
+      <div class="w-24 flex-none">
         <Label for="nc-grade" class="mb-1.5">Seviye</Label>
         <Input id="nc-grade" type="number" min="1" max="12" bind:value={grade} />
       </div>
-      <div>
+      <div class="w-24 flex-none">
         <Label for="nc-branch" class="mb-1.5">Şube</Label>
         <Input id="nc-branch" bind:value={branch} />
       </div>
     </div>
 
     {#if mode === "excel"}
-      <div class="space-y-3 rounded-lg border border-gray-200 p-3 dark:border-gray-700">
+      <!--
+        DIŞ KART KALDIRILDI. Burada `rounded-lg border p-3` taşıyan bir kap
+        vardı ve içindeki kesikli bırakma alanı da yuvarlak köşeli bir kutu:
+        iç içe iki çerçeve, ikincisi hiçbir şey söylemiyordu. Bırakma alanının
+        kesikli kenarı zaten "buraya bırak" sınırını çiziyor.
+      -->
+      <div class="space-y-3">
         <!--
           DOSYA `<input type="file">` İLE ALINIYOR, Tauri dialog'uyla değil.
           `@tauri-apps/plugin-dialog`ın `open()`i yalnız YOL döndürüyor, bayt
@@ -309,25 +379,78 @@
         -->
         <div>
           <Label for="nc-file" class="mb-1.5">Excel dosyası (.xlsx, .xls, .ods)</Label>
+          <!--
+            NATIVE DÜĞME YOK; ALANIN KENDİSİ HEM TIKLANIYOR HEM BIRAKILIYOR.
+
+            `<input type="file">`in kendi görünümü iki yerden kusurlu. DİL:
+            "Choose File" ve "no file selected" WebKit'in içinden geliyor;
+            `::file-selector-button` biçimlendirilebiliyor ama METNİ sabit —
+            tamamen Türkçe bir ekranda iki İngilizce parça kalıyordu. GEOMETRİ:
+            o düğme girdinin içerik kutusunun sol üst köşesinden başlıyor ve
+            KENDİ köşeleri kare; girdiye `rounded-lg` verilince kare köşe
+            yuvarlatılmış kenarın içinden taşıyor, çerçevenin solunda dışarı
+            çıkan gri bir dikdörtgen görünüyordu.
+
+            FLOWBITE'IN `Fileupload`I BU KUSURU ÇÖZMÜYOR, TAŞIYOR: temasında
+            (`forms/fileupload/theme.js`, 1.33.1) `rounded-lg border` var ama
+            tek bir `file:` sınıfı yok — aynı kare köşe, aynı İngilizce metin.
+            `Dropzone` metni bize bırakıyor ama girdisine `class="hidden"`
+            DAYATIYOR ve o sınıf `restProps`tan sonra yazıldığı için dışarıdan
+            geçersiz kılınamıyor: `display:none` bir girdi sekme sırasında
+            yoktur, yani klavyeyle dosya seçme yolu tümüyle kapanır. Bu yüzden
+            görsel dili (kesikli çerçeve, yuvarlak köşe, hover) alındı,
+            işaretleme burada yazıldı.
+
+            `<label for>` iki işi birden yapıyor: üstüne tıklamak dosya
+            seçiciyi açıyor (bunun için JavaScript gerekmiyor) ve bırakma
+            hedefi de o. Girdi `sr-only`, `hidden` DEĞİL — gizli ama
+            odaklanabilir; `peer` olduğu için odak halkası alanın kendisinde
+            beliriyor. Sekmeyle gelen kullanıcı nereye geldiğini görüyor.
+          -->
           <input
             id="nc-file"
             type="file"
             accept=".xlsx,.xls,.xlsb,.ods"
-            class="block w-full cursor-pointer rounded-lg border border-gray-300 bg-gray-50 text-sm
-                   text-gray-900 file:mr-3 file:cursor-pointer file:border-0 file:bg-gray-100
-                   file:px-4 file:py-2.5 file:text-sm file:text-gray-900 dark:border-gray-600
-                   dark:bg-gray-700 dark:text-white dark:file:bg-gray-600 dark:file:text-white"
+            class="peer sr-only"
             onchange={onFileSelected}
           />
-          {#if fileName !== ""}
-            <p class="mt-1.5 text-xs text-gray-500 dark:text-gray-400">
-              {fileName} · {rows.length} satır okundu
-            </p>
-          {/if}
+          <label
+            for="nc-file"
+            ondragover={onDragOver}
+            ondragleave={onDragLeave}
+            ondrop={onDrop}
+            class="flex cursor-pointer flex-col items-center justify-center gap-1 rounded-lg
+                   border-2 border-dashed px-4 py-6 text-center transition-colors
+                   peer-focus-visible:ring-2 peer-focus-visible:ring-primary-500
+                   {dragOver
+              ? 'border-primary-500 bg-primary-50 dark:border-primary-500 dark:bg-primary-900/20'
+              : 'border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:bg-gray-600'}"
+          >
+            <!--
+              ÇOCUKLAR OLAY GEÇİRMİYOR. `pointer-events-none` olmasaydı ikon ile
+              yazı arasındaki her geçiş kaba bir `dragleave` yollar ve kesikli
+              çerçeve sürükleme boyunca yanıp sönerdi.
+            -->
+            <div class="pointer-events-none flex flex-col items-center gap-1">
+              <CloudArrowUpOutline class="h-7 w-7 text-gray-400 dark:text-gray-500" />
+              {#if fileName === ""}
+                <p class="text-sm text-gray-700 dark:text-gray-200">
+                  <span class="font-semibold">Dosya seçmek için tıkla</span>
+                  ya da e-Okul listesini buraya sürükle
+                </p>
+                <p class="text-xs text-gray-500 dark:text-gray-400">.xlsx · .xls · .xlsb · .ods</p>
+              {:else}
+                <p class="text-sm font-semibold text-gray-900 dark:text-white">{fileName}</p>
+                <p class="text-xs text-gray-500 dark:text-gray-400">
+                  {rows.length} satır okundu · değiştirmek için tıkla
+                </p>
+              {/if}
+            </div>
+          </label>
         </div>
 
         {#if reading}
-          <p class="text-sm text-gray-500 dark:text-gray-400">Dosya reading…</p>
+          <p class="text-sm text-gray-500 dark:text-gray-400">Dosya okunuyor…</p>
         {/if}
 
         {#if fileError}
