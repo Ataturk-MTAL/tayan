@@ -48,3 +48,7 @@ apps/tayan-desktop/src-tauri/icons/StoreLogo.png
 
 # Firecrawl CLI'ın yerel önbelleği.
 /.firecrawl/
+
+# TYMM kılavuz PDF'leri (~55 MB). scripts/fetch_tymm_kilavuzlar.py ile indirilir;
+# yapılandırılmış özet data/tymm/olcme-rehberi.json'dadır.
+/.tymm-pdf/
