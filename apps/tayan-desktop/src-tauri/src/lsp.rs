@@ -345,7 +345,7 @@ mod tinymist_tests {
     /// İkincisi kritik: gövde önsözle sarmalanmadan gönderilseydi tinymist
     /// #secenekler'in tanımını göremez ve öneremezdi.
     #[test]
-    fn önsözdeki_yardımcıları_öneriyor() {
+    fn suggests_preamble_helpers() {
         let Some(bin) = dev_binary() else {
             eprintln!("tinymist ikilisi yok, test atlandı (scripts/fetch-tinymist.sh)");
             return;

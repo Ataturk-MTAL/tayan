@@ -73,27 +73,57 @@ impl ScoringService {
         result: &ExamResult,
         bank:   &QuestionBank,
     ) -> Vec<OutcomePerformance> {
-        let mut map: std::collections::HashMap<&OutcomeCode, (u32, u32)> =
+        /*
+            YÜZDE PUANDAN HESAPLANIYOR, DOĞRU SAYISINDAN DEĞİL.
+
+            Eski hâl `correct / total_questions` idi ve açık uçlu soruları
+            SESSİZCE SIFIR sayıyordu: `score_answer` klasik soruda
+            `(ans.points_earned, None)` dönüyor, yani `is_correct` hiçbir zaman
+            `Some(true)` olmuyor. Sonuç: sınıf 15 puanlık bir klasik sorudan
+            ortalama 6.5 alsa bile o sorunun kazanımı %0 görünüyordu. Boşluk
+            doldurmada da kısmi doğru `false` sayıldığı için aynı kayıp vardı.
+
+            Puan üzerinden hesap her soru tipinde çalışıyor ve kısmi puanı da
+            hakkıyla yansıtıyor.
+
+            KAPSAM NOTU: `question.points()` sorunun KENDİ puanı; sınava özgü
+            `points_override` bu servise ulaşmıyor (yalnız banka veriliyor).
+            Aynı sınırlama `score_answer`ta da var, yani kazanılan ve
+            alınabilir puan AYNI ölçekten geliyor — oran doğru kalıyor.
+            Override kullanılan bir sınavda ikisi birden sınavın ölçeğinden
+            sapar; bu ayrı ve daha eski bir tutarsızlık.
+        */
+        // outcome -> (soru sayısı, tam doğru sayısı, alınan puan, alınabilir puan)
+        let mut map: std::collections::HashMap<&OutcomeCode, (u32, u32, f32, f32)> =
             std::collections::HashMap::new();
 
         for ans in &result.answers {
             if let Some(bq) = bank.find(&ans.question_id) {
+                let available = bq.question.points().value() as f32;
                 for outcome in bq.question.outcomes() {
-                    let entry = map.entry(outcome).or_insert((0, 0));
+                    let entry = map.entry(outcome).or_insert((0, 0, 0.0, 0.0));
                     entry.0 += 1;
                     if ans.is_correct == Some(true) {
                         entry.1 += 1;
                     }
+                    entry.2 += ans.points_earned;
+                    entry.3 += available;
                 }
             }
         }
 
         map.into_iter()
-            .map(|(outcome, (total, correct))| OutcomePerformance {
-                outcome:         outcome.clone(),
-                total_questions: total,
+            .map(|(outcome, (total, correct, earned, available))| OutcomePerformance {
+                outcome:          outcome.clone(),
+                total_questions:  total,
                 correct,
-                score_pct:       if total > 0 { correct as f32 / total as f32 * 100.0 } else { 0.0 },
+                points_earned:    earned,
+                points_available: available,
+                score_pct:        if available > 0.0 {
+                    earned / available * 100.0
+                } else {
+                    0.0
+                },
             })
             .collect()
     }
@@ -155,5 +185,72 @@ impl QuestionStatsUpdater {
         let bot_correct: f32 = sorted[n - cutoff..].iter().map(|(_, c)| c).sum();
 
         (top_correct - bot_correct) / cutoff as f32
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::domain::assessment::aggregates::ExamResult;
+    use crate::domain::exam_management::aggregates::{ExamId, QuestionBank};
+    use crate::domain::exam_management::entities::classic::{AnswerSpace, ClassicQuestion};
+    use crate::domain::exam_management::entities::question::{Points, Question, QuestionId};
+    use crate::domain::exam_management::value_objects::{
+        ContentNode, Difficulty, OutcomeCode, QuestionBody, QuestionMeta,
+    };
+    use crate::domain::student_management::aggregates::StudentId;
+
+    fn klasik_soru(puan: u32, kazanim: &str) -> Question {
+        Question::Classic(ClassicQuestion {
+            id: QuestionId::new(),
+            points: Points::new(puan),
+            outcomes: vec![OutcomeCode::new(kazanim).unwrap()],
+            meta: QuestionMeta::new("Matematik", 10, Some(Difficulty::Orta)),
+            body: QuestionBody(vec![ContentNode::typst_raw("Çözünüz.")]),
+            sample_answer: None,
+            rubric: vec![],
+            answer_space: AnswerSpace::Lines(6),
+            stats: Default::default(),
+        })
+    }
+
+    /// GERİLEME TESTİ.
+    ///
+    /// `score_pct` bir ara `correct / total_questions` idi. Klasik soruda
+    /// `score_answer` `is_correct = None` döndürüyor, dolayısıyla o soru hiçbir
+    /// zaman "doğru" sayılmıyordu: sınıf 15 puanlık bir açık uçlu sorudan tam
+    /// puan alsa bile kazanım %0 görünüyordu. Sessiz bir hataydı — kimse
+    /// patlamıyor, yalnız sayı yanlış çıkıyordu.
+    #[test]
+    fn klasik_soru_kazanim_yuzdesine_katki_verir() {
+        let soru = klasik_soru(15, "MAT.10.6.1");
+        let qid = soru.id().clone();
+        let mut bank = QuestionBank::new("deneme");
+        bank.add_question(soru).unwrap();
+
+        let mut result = ExamResult::new(ExamId::new(), StudentId::new(), 15.0);
+        ScoringService::auto_score(
+            &mut result,
+            vec![QuestionAnswer {
+                question_id: qid,
+                given_answer: None,
+                points_earned: 12.0,
+                is_correct: None,
+                rubric_met: vec![],
+            }],
+            &bank,
+        );
+
+        let perf = &result.outcome_performance[0];
+        assert_eq!(perf.points_earned, 12.0);
+        assert_eq!(perf.points_available, 15.0);
+        assert!(
+            (perf.score_pct - 80.0).abs() < 0.01,
+            "klasik soru %80 vermeli, %{} verdi",
+            perf.score_pct
+        );
+        // `correct` yalnız otomatik puanlananları sayar; klasikte 0 kalması doğru.
+        assert_eq!(perf.correct, 0);
+        assert_eq!(perf.total_questions, 1);
     }
 }

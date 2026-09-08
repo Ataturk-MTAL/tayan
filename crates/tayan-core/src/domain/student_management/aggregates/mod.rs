@@ -27,6 +27,18 @@ impl AcademicYear {
     }
 }
 
+/// Bir sınıf.
+///
+/// ÜYELİK BURADA TUTULMAZ. Bir `student_ids: Vec<StudentId>` alanı vardı ve
+/// üyeliğin İKİNCİ bir kopyasıydı; gerçeği `students.classroom_id` taşıyor.
+/// İki kopya kaçınılmaz olarak ayrıştı: alanı yalnız `seed_demo` dolduruyordu,
+/// `add_student` komutu ona hiç dokunmuyordu ve çıkarma yolu HİÇ yoktu.
+/// Sonuç, arayüzden açılan her sınıfın kaç öğrenci eklenirse eklensin sonsuza
+/// dek boş bir liste taşıması — rozet de o listeden okuduğu için hep 0.
+///
+/// Sayım artık `students` tablosundan geliyor. Eski satırlardaki fazladan
+/// `student_ids` anahtarı zararsız: `deny_unknown_fields` bu ağaçta hiç
+/// kullanılmıyor, serde bilinmeyen alanı yok sayıyor — göç gerekmiyor.
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Classroom {
     pub id:            ClassroomId,
@@ -34,7 +46,6 @@ pub struct Classroom {
     pub grade:         u8,
     pub branch:        String,
     pub academic_year: AcademicYear,
-    pub student_ids:   Vec<StudentId>,
     pub created_at:    DateTime<Utc>,
 }
 
@@ -46,18 +57,11 @@ impl Classroom {
             grade,
             branch:        branch.into(),
             academic_year: AcademicYear::current(),
-            student_ids:   vec![],
             created_at:    Utc::now(),
         }
     }
 
     pub fn id(&self) -> &ClassroomId { &self.id }
-
-    pub fn add_student(&mut self, id: StudentId) {
-        if !self.student_ids.contains(&id) {
-            self.student_ids.push(id);
-        }
-    }
 }
 
 // ── Student ───────────────────────────────────────────────────────────────────

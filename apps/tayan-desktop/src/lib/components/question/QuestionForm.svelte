@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Alert, Button } from "flowbite-svelte";
   import QuestionEditor from "./QuestionEditor.svelte";
   import { bodySource, typstBody } from "$lib/question/body";
   import type { RubricItem } from "$lib/types";
@@ -101,21 +102,21 @@
    * CEVAP sekmesine yapıştırır — ölçütler orada. Yalnız gövdeye bakmak, aynı
    * sessiz kaybı öbür kapıdan içeri alırdı.
    */
-  let govdedekiRubrik = $derived.by(() => {
+  let embeddedRubric = $derived.by(() => {
     if (questionType !== "classic") return null;
-    const govde = importRubric(body);
-    if (govde) return { kaynak: "body" as const, sonuc: govde };
-    const cevap = importRubric(sampleAnswer);
-    if (cevap) return { kaynak: "sample" as const, sonuc: cevap };
+    const fromBody = importRubric(body);
+    if (fromBody) return { source: "body" as const, result: fromBody };
+    const fromSampleAnswer = importRubric(sampleAnswer);
+    if (fromSampleAnswer) return { source: "sample" as const, result: fromSampleAnswer };
     return null;
   });
 
-  function rubrigiPaneleTasi() {
-    const bulunan = govdedekiRubrik;
-    if (!bulunan?.sonuc.ok) return;
-    const { from, to, items } = bulunan.sonuc;
+  function moveRubricToPanel() {
+    const found = embeddedRubric;
+    if (!found?.result.ok) return;
+    const { from, to, items } = found.result;
     rubric = items;
-    if (bulunan.kaynak === "body") {
+    if (found.source === "body") {
       body = removeRange(body, from, to);
     } else {
       sampleAnswer = removeRange(sampleAnswer, from, to);
@@ -128,9 +129,9 @@
     if (rubric.some((r) => r.criterion.trim() === "")) {
       return "Rubrikte boş ölçüt var.";
     }
-    const toplam = rubric.reduce((sum, r) => sum + r.points, 0);
-    if (toplam !== points) {
-      return `Rubrik toplamı (${toplam}) soru puanıyla (${points}) eşleşmiyor.`;
+    const total = rubric.reduce((sum, r) => sum + r.points, 0);
+    if (total !== points) {
+      return `Rubrik toplamı (${total}) soru puanıyla (${points}) eşleşmiyor.`;
     }
     return null;
   });
@@ -373,10 +374,12 @@
 
 <div class="flex h-full min-h-0 flex-col">
   {#if legacyWarning}
-    <p class="ruled-bottom annot shrink-0 bg-red-wash px-rule py-quarter">
-      Bu soru eski zengin metin editörüyle yazılmış. Typst kaynağına çevrildi;
-      kaydedersen bu çeviri kalıcı olur.
-    </p>
+    <div class="shrink-0 px-4 pt-3">
+      <Alert color="amber">
+        Bu soru eski zengin metin editörüyle yazılmış. Typst kaynağına çevrildi;
+        kaydedersen bu çeviri kalıcı olur.
+      </Alert>
+    </div>
   {/if}
 
   <!--
@@ -388,37 +391,36 @@
     Gövdeye yazılmış rubrik SESSİZ KALMAZ. Kaydetme zaten kilitli; burada
     öğretmen ya tek tıkla panele taşır ya da neden okunamadığını görür.
   -->
-  {#if govdedekiRubrik}
-    <div class="ruled-bottom shrink-0 bg-red-wash px-rule py-quarter">
-      {#if govdedekiRubrik.sonuc.ok}
-        <p class="annot">
-          {govdedekiRubrik.kaynak === "body" ? "Soru gövdesinde" : "Örnek cevapta"}
-          {govdedekiRubrik.sonuc.items.length} ölçütlük bir
-          <span class="font-mono">#rubrik(…)</span> bloğu var. Ölçütler panelden
-          yönetilir; kaynakta kalırsa ne cevap anahtarına ne sonuç girişine yansır.
-        </p>
-        <button
-          type="button"
-          class="stamp mt-quarter border border-rule px-half leading-rule
-                 text-ink-mid transition-colors hover:border-red hover:text-red-deep"
-          onclick={rubrigiPaneleTasi}
-        >
-          Panele taşı ve gövdeden kaldır
-        </button>
+  {#if embeddedRubric}
+    <div class="shrink-0 px-4 pt-3">
+      {#if embeddedRubric.result.ok}
+        <Alert color="amber">
+          <p>
+            {embeddedRubric.source === "body" ? "Soru gövdesinde" : "Örnek cevapta"}
+            {embeddedRubric.result.items.length} ölçütlük bir
+            <span class="font-mono">#rubrik(…)</span> bloğu var. Ölçütler panelden
+            yönetilir; kaynakta kalırsa ne cevap anahtarına ne sonuç girişine yansır.
+          </p>
+          <Button size="xs" color="light" class="mt-2" onclick={moveRubricToPanel}>
+            Panele taşı ve gövdeden kaldır
+          </Button>
+        </Alert>
       {:else}
-        <p class="annot">
+        <Alert color="red">
           Kaynaktaki <span class="font-mono">#rubrik(…)</span> okunamadı:
-          {govdedekiRubrik.sonuc.reason} Yalnız düz
+          {embeddedRubric.result.reason} Yalnız düz
           <span class="font-mono">([ölçüt], puan)</span> demetleri taşınabiliyor —
           değişken, hesaplanmış puan ve döngü okunmuyor. Ölçütleri panele elle
           gir ve bloğu kaynaktan sil.
-        </p>
+        </Alert>
       {/if}
     </div>
   {/if}
 
   {#if saveError}
-    <p class="ruled-bottom annot shrink-0 bg-red-wash px-rule py-quarter">{saveError}</p>
+    <div class="shrink-0 px-4 pt-3">
+      <Alert color="red">{saveError}</Alert>
+    </div>
   {/if}
 
   <div class="min-h-0 flex-1">

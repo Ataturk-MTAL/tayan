@@ -60,6 +60,7 @@
   bind:this={host}
   class="min-w-0 flex-1"
   class:border-b={bordered}
-  class:border-rule-strong={bordered}
-  class:focus-within:border-red={bordered}
+  class:border-gray-300={bordered}
+  class:dark:border-gray-600={bordered}
+  class:focus-within:border-primary-500={bordered}
 ></div>

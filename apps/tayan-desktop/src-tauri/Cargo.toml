@@ -24,5 +24,20 @@ flate2 = "1"
 sha2 = "0.10"
 tauri-plugin-dialog = "2.7.3"
 
+# e-Okul sınıf listesi içe aktarma — Excel/OpenDocument okuyucu.
+#
+# AYRIŞTIRMA RUST'TA, WEBVIEW'DE DEĞİL. İki gerekçe:
+#   1. calamine eski `.xls` (BIFF) biçimini de okuyor. e-Okul bir MEB sistemi
+#      ve `.xls` çıktı vermesi olası; tarayıcı tarafındaki JS seçenekleri ya o
+#      biçimi hiç açmıyor ya da (npm'deki `xlsx`) 2022'de donmuş ve DOSYA
+#      OKURKEN tetiklenen yamalanmamış bir prototype-pollution açığı taşıyor
+#      (CVE-2023-30533, first_patched_version: null).
+#   2. Yabancı bir ikili dosyayı JS bağlamının dışında ayrıştırmak daha dar bir
+#      saldırı yüzeyi.
+#
+# Baytlar webview'in `<input type="file">`ından IPC ile geliyor; bu yüzden
+# `plugin-fs`e ve yeni bir `dialog:allow-open` iznine gerek YOK.
+calamine = "0.36"
+
 [build-dependencies]
 tauri-build = { workspace = true }

@@ -137,6 +137,24 @@ export const api = {
 
     deleteClassroom: (classroomId: string) =>
       invoke<void>("delete_classroom", { classroomId }),
+
+    /**
+     * Sınıf listesi dosyasını (Excel / OpenDocument) ayrıştırır.
+     *
+     * AYRIŞTIRMA RUST'TA. `calamine` eski `.xls` biçimini de okuyor — e-Okul
+     * bir MEB sistemi ve `.xls` çıktı vermesi olası; tarayıcı tarafındaki JS
+     * seçenekleri ya o biçimi hiç açmıyor ya da npm'de yamalanmamış bir
+     * prototype-pollution açığı taşıyor (CVE-2023-30533, tetikleyicisi tam da
+     * dosya okumak). Ayrıca ikili dosya webview'in dışında çözülüyor.
+     *
+     * Baytlar `<input type="file">`tan geliyor, yol değil içerik — bu yüzden
+     * `plugin-fs` ve `dialog:allow-open` izni gerekmiyor.
+     *
+     * Dönen `rows`: başlık aranmamış ham satırlar, her hücre metin. Hangi
+     * sütunun ne olduğuna arayüzde öğretmen karar veriyor.
+     */
+    parseRoster: (bytes: Uint8Array) =>
+      invoke<{ rows: string[][] }>("parse_roster", { bytes }),
   },
 
   results: {

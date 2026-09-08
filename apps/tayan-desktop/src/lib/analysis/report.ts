@@ -3,6 +3,8 @@ import {
   BIN_WIDTH,
   densityCurve,
   histogram,
+  MIN_CURVE_N,
+  MIN_SKEWNESS_N,
   needsReview,
   skewLabel,
   spread,
@@ -121,13 +123,34 @@ export function buildReport(args: {
     median: dagilim.median,
     mode: dagilim.mode,
     sd: dagilim.sd,
-    skewness: dagilim.skewness,
-    skew_label: skewLabel(dagilim.skewness),
+    /*
+      KÂĞIT EKRANLA AYNI KAPIDAN GEÇER. Eşikler `item-stats.ts`te tek yerde;
+      burada ayrı bir karar verilseydi öğretmenin veliye gösterdiği PDF,
+      ekranda görmediği bir eğri ya da yorumlayamayacağı bir çarpıklık
+      taşıyabilirdi.
+
+      Çarpıklık n < MIN_SKEWNESS_N'de null gidiyor (kâğıtta "—") ve yorum
+      satırı bir hüküm yerine SEBEBİ yazıyor: boş dize gönderilseydi kâğıtta
+      başlıksız bir "Yorum:" kalırdı.
+    */
+    skewness: dagilim.n >= MIN_SKEWNESS_N ? dagilim.skewness : null,
+    skew_label:
+      dagilim.n >= MIN_SKEWNESS_N
+        ? skewLabel(dagilim.skewness)
+        : `Çarpıklık ${dagilim.n} öğrenciyle yorumlanamaz; en az ${MIN_SKEWNESS_N} öğrenci gerekir.`,
     bins: histogram(satirlar.map((s) => s.percentage)).map((b) => b.count),
     bin_width: BIN_WIDTH,
-    curve: densityCurve(satirlar.map((s) => s.percentage), BIN_WIDTH).map(
-      (p) => [p.x, p.y] as [number, number],
-    ),
+    /*
+      Eğri eşiğin altında BOŞ gider. Rust tarafı bunu zaten kaldırıyor
+      (`analysis_report.rs`: `if r.curve.len() >= 2`), yani kâğıtta yalnız
+      nokta şeridi ve eşik çizgisi kalır — ekrandakinin aynısı.
+    */
+    curve:
+      dagilim.n >= MIN_CURVE_N
+        ? densityCurve(satirlar.map((s) => s.percentage), BIN_WIDTH).map(
+            (p) => [p.x, p.y] as [number, number],
+          )
+        : [],
     min: dagilim.min,
     max: dagilim.max,
     q1: dagilim.q1,

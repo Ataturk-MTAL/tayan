@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Alert } from "flowbite-svelte";
   import SheetPage from "./SheetPage.svelte";
   import PreviewZoom from "./PreviewZoom.svelte";
 
@@ -16,6 +17,22 @@
   let { pages, stale, error }: Props = $props();
 
   const A4_WIDTH_PX = 794;
+  /**
+   * Taban 0.5 ve bilinçli olarak öyle KALIYOR.
+   *
+   * Bu sabit yalnız o anki görünümü değil, `tayan.preview.zoom` altında
+   * saklanan değeri de kırpıyor (hem loadZoom hem setZoom). Yani tabanı
+   * indirmek bir yerleşim düzeltmesi değil, oturumlar arası kalıcı bir
+   * davranış değişikliğidir; kendi başına karara bağlanmalı, taşma düzeltmesi
+   * diye geçiştirilmemeli. Taşmanın kendisi zaten aşağıdaki `overflow-auto`
+   * kaydırma kabında tutuluyor — kâğıt kesilmiyor, kaydırılıyor.
+   *
+   * Bilinen ödün: "Sığdır" bölme 794 × 0.5 + 40 = 437 px'ten darken sözünü tam
+   * tutamaz. Ölçüm — 1024 px pencere (tauri.conf.json minWidth), 224 px
+   * çekmece + 1 px kenarlık, varsayılan 260 px panel, yan yana mod: önizleme
+   * bölmesine 217 px kalıyor, fit() (217 − 40) / 794 ≈ 0,22 istiyor, setZoom
+   * 0,5'e kırpıyor ve sayfa yatayda kaydırılabilir kalıyor.
+   */
   const MIN_ZOOM = 0.5;
   const MAX_ZOOM = 3;
   const ZOOM_KEY = "tayan.preview.zoom";
@@ -102,34 +119,43 @@
   <PreviewZoom {zoom} onzoom={setZoom} onfit={fit} />
 
   <!--
-    Kâğıt masadan kalkan tek nesnedir; gölge burada gerçektir, süs değil.
-    Uzun süren derlemede kâğıt soldurulmaz — kenarda ince bir çizgi belirir,
-    böylece okunan metin bozulmadan durur.
+    Basılacak kâğıt uzun süren derlemede SOLDURULMAZ — önceki sayfa okunur
+    kalır. Bunun yerine üstte ince bir çubuk belirir. Kırmızı DEĞİL: bu bir
+    hata değil, yalnızca "hâlâ hesaplanıyor" bilgisi — kırmızı bu uygulamada
+    yalnızca değerlendirme/hata kanalına ayrılmış (bkz. app.css).
   -->
   {#if stale}
-    <div class="h-[2px] w-full shrink-0 bg-red" aria-hidden="true"></div>
+    <div class="h-0.5 w-full shrink-0 bg-primary-400 dark:bg-primary-500" aria-hidden="true"></div>
   {/if}
 
+  <!--
+    Kâğıdın çevresi koyu kipe uyar, kâğıdın KENDİSİ (SheetPage içinde) her
+    zaman beyaz kalır — basılacak sayfa gerçekte de beyaz kâğıttır.
+  -->
   <div
-    class="min-h-0 flex-1 overflow-auto bg-paper-sunk paper-grid"
+    class="min-h-0 flex-1 overflow-auto bg-gray-100 dark:bg-gray-900"
     bind:this={scroller}
     onwheel={onWheel}
   >
     {#if error}
-      <div class="p-rule">
-        <p class="stamp mb-half">Derlenmedi</p>
-        <pre class="annot whitespace-pre-wrap font-mono text-[12px] leading-[20px]">{error}</pre>
-        <p class="pencil mt-rule">Son çalışan sayfa aşağıda duruyor.</p>
+      <div class="p-4">
+        <Alert color="red">
+          <span class="font-semibold">Derlenmedi</span>
+          <pre
+            class="mt-2 max-h-64 overflow-auto whitespace-pre-wrap font-mono text-xs leading-5"
+          >{error}</pre>
+          <p class="mt-2 text-xs opacity-80">Son çalışan sayfa aşağıda duruyor.</p>
+        </Alert>
       </div>
     {/if}
 
     {#if safePages.length === 0 && !error}
       <div class="flex h-full items-center justify-center">
-        <p class="pencil">Sayfa henüz derlenmedi.</p>
+        <p class="text-sm text-gray-500 dark:text-gray-400">Sayfa henüz derlenmedi.</p>
       </div>
     {/if}
 
-    <div class="flex min-w-fit flex-col items-center gap-rule p-rule">
+    <div class="flex min-w-fit flex-col items-center gap-5 p-5">
       {#each safePages as page, i (i)}
         <SheetPage svg={page} {zoom} />
       {/each}

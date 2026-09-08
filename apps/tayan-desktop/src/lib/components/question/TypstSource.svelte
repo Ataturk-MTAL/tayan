@@ -39,14 +39,14 @@
   let view: EditorView | null = null;
 
   /** Belge kimliği → durum. Sekme geçişinde geçmişi taşıyan yer burası. */
-  const durumlar = new Map<string, EditorState>();
+  const states = new Map<string, EditorState>();
   /** Görünümde şu an hangi belge duruyor. onMount'ta kurulur; prop'un ilk
    * değerini burada okumak "yalnız ilk değeri yakalar" uyarısını hak eder. */
-  let aktifDoc: string | null = null;
+  let activeDocId: string | null = null;
 
-  function durumKur(doc: string, metin: string): EditorState {
+  function createState(doc: string, text: string): EditorState {
     return EditorState.create({
-      doc: metin,
+      doc: text,
       // Değişiklik hangi belgeden geldiyse onunla bildirilir; sekme
       // değiştikten sonra gecikmeli bir olay yanlış alana yazamaz.
       extensions: typstEditorExtensions((v) => onchange(v, doc), handlePaste),
@@ -54,9 +54,9 @@
   }
 
   onMount(() => {
-    aktifDoc = docId;
-    const state = durumKur(docId, value);
-    durumlar.set(docId, state);
+    activeDocId = docId;
+    const state = createState(docId, value);
+    states.set(docId, state);
     view = new EditorView({ parent: host, state });
   });
 
@@ -64,15 +64,15 @@
 
   // Sekme değişince: mevcut durumu sakla, hedefin durumunu geri yükle.
   $effect(() => {
-    const hedef = docId;
-    if (!view || aktifDoc === null || hedef === aktifDoc) return;
+    const targetDocId = docId;
+    if (!view || activeDocId === null || targetDocId === activeDocId) return;
 
-    durumlar.set(aktifDoc, view.state);
-    aktifDoc = hedef;
+    states.set(activeDocId, view.state);
+    activeDocId = targetDocId;
 
-    const kayitli = durumlar.get(hedef) ?? durumKur(hedef, value);
-    durumlar.set(hedef, kayitli);
-    view.setState(kayitli);
+    const savedState = states.get(targetDocId) ?? createState(targetDocId, value);
+    states.set(targetDocId, savedState);
+    view.setState(savedState);
     view.focus();
   });
 
@@ -132,4 +132,18 @@
   }
 </script>
 
-<div class="h-full min-h-0 paper-plain bg-paper-lift" bind:this={host}></div>
+<!--
+  ZEMİN EDİTÖRÜN KENDİ DEĞİŞKENİNDEN, `bg-white`DAN DEĞİL.
+
+  `setup.ts`teki tema `&` üzerinde bilerek `backgroundColor: "transparent"`
+  diyor — zemini bu kap boyuyor. Kapta çıplak `bg-white` vardı ve `dark:`
+  karşılığı YOKTU: koyu kipte editör beyaz kalıyor, metin ise `--cm-text`
+  (#f3f4f6) ile açık geliyordu. Açık zemin üstünde açık metin — kod
+  okunmuyordu. Ölçüldü: `.cm-editor` arka planı `rgba(0, 0, 0, 0)`, kabı
+  `rgb(255, 255, 255)`, metin `rgb(243, 244, 246)`.
+
+  `bg-white dark:bg-gray-800` yazmak da işi görürdü ama iki ayrı doğruluk
+  kaynağı bırakırdı. `--cm-bg` zaten editörün gutter'ı, etkin satırı ve
+  panelleri için kullanılan değişken; kap da onu okuyunca ikisi ayrı düşemez.
+-->
+<div class="h-full min-h-0 bg-[var(--cm-bg)]" bind:this={host}></div>

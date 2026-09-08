@@ -165,7 +165,7 @@ mod install_tests {
     /// Gerçekten indirip kuruyor mu, VE sha256 doğrulaması işliyor mu?
     #[test]
     #[ignore = "ağ gerektirir: cargo test -- --ignored"]
-    fn indirir_dogrular_kurar() {
+    fn downloads_verifies_and_installs() {
         let _ = uninstall();
         assert!(installed_binary().is_none(), "önce temiz olmalı");
 

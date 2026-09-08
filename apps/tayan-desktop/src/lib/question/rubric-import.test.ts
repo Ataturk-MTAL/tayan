@@ -8,13 +8,13 @@ import { hasRubricCall, importRubric, removeRange } from "./rubric-import";
  */
 describe("importRubric", () => {
   test("öğretmenin kendi dosyasındaki biçim okunur", () => {
-    const kaynak = `Devreyi çiziniz.
+    const source = `Devreyi çiziniz.
 
 #rubrik((
   ([Çalışma prensibi doğru açıklanmış], 6),
   ([Formül $R = (V_("pin") - V_F)/I$ yazılmış], 3),
 ))`;
-    const r = importRubric(kaynak);
+    const r = importRubric(source);
     expect(r?.ok).toBe(true);
     if (!r?.ok) return;
     expect(r.items).toEqual([
@@ -88,10 +88,10 @@ describe("hasRubricCall", () => {
 
 describe("removeRange", () => {
   test("blok çıkar, gövde derli toparlanır", () => {
-    const kaynak = "Soru metni.\n\n#rubrik((([Ölçüt], 5),))\n\nDevamı.";
-    const r = importRubric(kaynak);
+    const source = "Soru metni.\n\n#rubrik((([Ölçüt], 5),))\n\nDevamı.";
+    const r = importRubric(source);
     expect(r?.ok).toBe(true);
     if (!r?.ok) return;
-    expect(removeRange(kaynak, r.from, r.to)).toBe("Soru metni.\n\nDevamı.");
+    expect(removeRange(source, r.from, r.to)).toBe("Soru metni.\n\nDevamı.");
   });
 });

@@ -14,12 +14,12 @@ export function isValidOutcome(code: string): boolean {
   const parts = code.split(".");
   if (parts.length !== 4) return false;
 
-  const ders = parts[0];
+  const subjectCode = parts[0];
   // [...ders].length: "FİZ" UTF-8'de 4 bayt ama 3 harftir.
-  const harfSayisi = [...ders].length;
-  if (harfSayisi < 1 || harfSayisi > 5) return false;
+  const letterCount = [...subjectCode].length;
+  if (letterCount < 1 || letterCount > 5) return false;
   // \p{L}: her dilde harf. \w Türkçe harfleri dışarıda bırakırdı.
-  if (!/^\p{L}+$/u.test(ders)) return false;
+  if (!/^\p{L}+$/u.test(subjectCode)) return false;
 
   return parts.slice(1).every((p) => /^\d+$/.test(p) && Number(p) <= 255);
 }
@@ -91,12 +91,12 @@ export function outcomeSuggestions(
   subject: string,
   grade: number,
 ): string[] {
-  const konu = subject.trim();
-  if (konu === "") return [];
+  const trimmedSubject = subject.trim();
+  if (trimmedSubject === "") return [];
 
   const seen = new Set<string>();
   for (const q of questions) {
-    if (q.meta?.subject?.trim() !== konu) continue;
+    if (q.meta?.subject?.trim() !== trimmedSubject) continue;
     if (q.meta?.grade !== grade) continue;
     for (const o of q.outcomes) seen.add(o);
   }

@@ -5,13 +5,13 @@ describe("typstPlain", () => {
   test("asıl şikâyet: ham kod yerine okunur satır", () => {
     // Analiz ekranında bu satır aynen şöyle görünüyordu:
     //   "[typst] Aşağıdaki denklemin köklerini bulunuz. $ x^2 - 5x + 6 = 0 $"
-    const kaynak = "Aşağıdaki denklemin köklerini bulunuz.\n\n$ x^2 - 5x + 6 = 0 $";
-    expect(typstPlain(kaynak)).toBe("Aşağıdaki denklemin köklerini bulunuz. x² - 5x + 6 = 0");
+    const source = "Aşağıdaki denklemin köklerini bulunuz.\n\n$ x^2 - 5x + 6 = 0 $";
+    expect(typstPlain(source)).toBe("Aşağıdaki denklemin köklerini bulunuz. x² - 5x + 6 = 0");
   });
 
   test("gövdesiz çağrı düşer — cevap alanı okunacak bir şey değil", () => {
-    const kaynak = 'Grafiği çiziniz.\n\n#cevap-alani(satir: 10, bicim: "kareli")';
-    expect(typstPlain(kaynak)).toBe("Grafiği çiziniz.");
+    const source = 'Grafiği çiziniz.\n\n#cevap-alani(satir: 10, bicim: "kareli")';
+    expect(typstPlain(source)).toBe("Grafiği çiziniz.");
   });
 
   test("gövdeli çağrının İÇERİĞİ kalır", () => {

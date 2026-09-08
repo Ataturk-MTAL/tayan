@@ -27,8 +27,8 @@ beforeEach(() => {
   resetEscapeStack();
   handler = null;
   vi.stubGlobal("window", {
-    addEventListener: (tip: string, fn: (e: KeyboardEvent) => void) => {
-      if (tip === "keydown") handler = fn;
+    addEventListener: (type: string, fn: (e: KeyboardEvent) => void) => {
+      if (type === "keydown") handler = fn;
     },
     removeEventListener: () => {},
   });
@@ -36,42 +36,42 @@ beforeEach(() => {
 
 describe("pushEscapeLayer", () => {
   test("tek katman Esc ile kapanır", () => {
-    const kapat = vi.fn();
-    pushEscapeLayer(kapat);
+    const close = vi.fn();
+    pushEscapeLayer(close);
     esc();
-    expect(kapat).toHaveBeenCalledTimes(1);
+    expect(close).toHaveBeenCalledTimes(1);
   });
 
   test("yalnız EN ÜSTTEKİ katman kapanır — hepsi birden değil", () => {
     // Asıl hata buydu: palet ve tamamlama kutusu tek Esc'te birlikte kapanıyordu.
-    const alt = vi.fn();
-    const ust = vi.fn();
-    pushEscapeLayer(alt);
-    pushEscapeLayer(ust);
+    const closeBottom = vi.fn();
+    const closeTop = vi.fn();
+    pushEscapeLayer(closeBottom);
+    pushEscapeLayer(closeTop);
 
     esc();
-    expect(ust).toHaveBeenCalledTimes(1);
-    expect(alt).not.toHaveBeenCalled();
+    expect(closeTop).toHaveBeenCalledTimes(1);
+    expect(closeBottom).not.toHaveBeenCalled();
   });
 
   test("üst katman kalkınca sıradaki devralır", () => {
-    const alt = vi.fn();
-    const ust = vi.fn();
-    pushEscapeLayer(alt);
-    const kaldir = pushEscapeLayer(ust);
+    const closeBottom = vi.fn();
+    const closeTop = vi.fn();
+    pushEscapeLayer(closeBottom);
+    const remove = pushEscapeLayer(closeTop);
 
-    kaldir();
+    remove();
     esc();
-    expect(alt).toHaveBeenCalledTimes(1);
-    expect(ust).not.toHaveBeenCalled();
+    expect(closeBottom).toHaveBeenCalledTimes(1);
+    expect(closeTop).not.toHaveBeenCalled();
   });
 
   test("Esc başkası tarafından harcanmışsa merdiven devreye GİRMEZ", () => {
     // CodeMirror tamamlama kutusunu kapatırken preventDefault çağırıyor.
-    const kapat = vi.fn();
-    pushEscapeLayer(kapat);
+    const close = vi.fn();
+    pushEscapeLayer(close);
     esc({ defaultPrevented: true });
-    expect(kapat).not.toHaveBeenCalled();
+    expect(close).not.toHaveBeenCalled();
   });
 
   test("katman kapatınca olay tüketilir", () => {
@@ -85,24 +85,24 @@ describe("pushEscapeLayer", () => {
   });
 
   test("kaldırma iki kez çağrılsa yığın bozulmaz", () => {
-    const kapat = vi.fn();
-    pushEscapeLayer(kapat);
-    const kaldir = pushEscapeLayer(() => {});
-    kaldir();
-    kaldir();
+    const close = vi.fn();
+    pushEscapeLayer(close);
+    const remove = pushEscapeLayer(() => {});
+    remove();
+    remove();
     expect(escapeLayerCount()).toBe(1);
     esc();
-    expect(kapat).toHaveBeenCalledTimes(1);
+    expect(close).toHaveBeenCalledTimes(1);
   });
 
   test("Escape dışındaki tuşlar yok sayılır", () => {
-    const kapat = vi.fn();
-    pushEscapeLayer(kapat);
+    const close = vi.fn();
+    pushEscapeLayer(close);
     handler?.({
       key: "Enter",
       defaultPrevented: false,
       preventDefault: () => {},
     } as KeyboardEvent);
-    expect(kapat).not.toHaveBeenCalled();
+    expect(close).not.toHaveBeenCalled();
   });
 });

@@ -258,7 +258,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn mutlak_yol_göreli_olur() {
+    fn absolute_path_becomes_relative() {
         assert_eq!(
             relative_image_path("/Users/biri/Library/Application Support/com.tayan.app/images/a.png"),
             Some("images/a.png".to_string())
@@ -266,7 +266,7 @@ mod tests {
     }
 
     #[test]
-    fn asset_url_göreli_olur() {
+    fn asset_url_becomes_relative() {
         // Eski kayıtların GERÇEK biçimi: tamamen yüzde kodlanmış asset URL'i.
         let src = "asset://localhost/%2FUsers%2Fhakan%2FLibrary%2FApplication%20Support%2Fcom.tayan.app%2Fimages%2Fimg_20260512_211000_a24a65e8.png";
         assert_eq!(
@@ -276,17 +276,17 @@ mod tests {
     }
 
     #[test]
-    fn zaten_göreli_yol_değişmez() {
+    fn already_relative_path_is_unchanged() {
         assert_eq!(relative_image_path("images/a.png"), None);
     }
 
     #[test]
-    fn images_içermeyen_mutlak_yol_değişmez() {
+    fn absolute_path_without_images_is_unchanged() {
         assert_eq!(relative_image_path("/tmp/a.png"), None);
     }
 
     #[test]
-    fn typst_çağrısı_yeniden_yazılır() {
+    fn typst_image_call_is_rewritten() {
         let (out, hits) = rewrite_image_calls(
             "Metin #image(\"/Users/x/images/a.png\", width: 60%) devam #image(\"images/b.png\")",
         );
@@ -296,7 +296,7 @@ mod tests {
     }
 
     #[test]
-    fn dosya_adları_çıkarılır() {
+    fn file_names_are_collected() {
         let mut set = std::collections::HashSet::new();
         collect_names(
             "#image(\"images/a.png\") ve #image(\"images/b-2_x.svg\", width: 3cm)",
@@ -308,7 +308,7 @@ mod tests {
     }
 
     #[test]
-    fn görsel_yoksa_metin_bozulmaz() {
+    fn text_is_unchanged_without_images() {
         let code = "Sadece metin, #v(1cm) ve $x^2$";
         let (out, hits) = rewrite_image_calls(code);
         assert_eq!(hits, 0);
