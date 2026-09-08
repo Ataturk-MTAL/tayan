@@ -1,0 +1,130 @@
+{
+  "checked_at": "2026-09-08",
+  "deep": false,
+  "sources": {
+    "/beceriler/kavramsal-beceriler": {
+      "status": "ok",
+      "bytes": 79608,
+      "sha256_raw": "c3647849897314c4e185859f20481cba2ff033273408454f91270246ba85a0ab",
+      "sha256_text": "7f5da3745cffe5763248e27e103b752de15b6ee7569e7602f44fef54f04e4f44"
+    },
+    "/beceriler/sosyal-duygusal-ogrenme-becerileri": {
+      "status": "ok",
+      "bytes": 85165,
+      "sha256_raw": "c3d2e28de046d5f48ac9e70e107c48a573e707a705542a4a899b9d93d5894037",
+      "sha256_text": "649880f27d82d60150540c802ddd1f9bf6f2db6c9f60a56831d9c39112a3d8a3"
+    },
+    "/beceriler/egilimler": {
+      "status": "ok",
+      "bytes": 46707,
+      "sha256_raw": "98d288f233af607d26ea1d12d5e4817c08f7a706d732776b1d7a58a20fbb0317",
+      "sha256_text": "260b154d1eb8b39922517e2832505615e795bd305e227d3a2e0055bbb86185ad"
+    },
+    "/beceriler/erdem-deger-eylem-cercevesi": {
+      "status": "ok",
+      "bytes": 218669,
+      "sha256_raw": "59a2cf4f3b4e4d1db54ffcde9081772e08401104c01013eeeebb47271b83abbb",
+      "sha256_text": "d0623352d210f6f0ec140100c9c89dae88d8d656699220280bff36e42afd2a45"
+    },
+    "/beceriler/okuryazarlik-becerileri": {
+      "status": "ok",
+      "bytes": 122459,
+      "sha256_raw": "a768af3cce008bcb03debc05c8e26725c9a92bda2ace3e06c08cf7cb1f672b82",
+      "sha256_text": "f4bf2dffde89744869d7212b25a0323b2b78bf699a0d7d2ce3c013a1aabdba08"
+    },
+    "/beceriler/fiziksel-beceriler": {
+      "status": "ok",
+      "bytes": 19256,
+      "sha256_raw": "ee448d8460e6d0bf5b0acc4fc31edcf07120a877bc584da024b7067ed5a9f2a9",
+      "sha256_text": "1e13a4c892863d10a5391564de6e9e0080ebe62564abb2741a87d390dd0ff802"
+    },
+    "/beceriler/turkce-alan-becerileri": {
+      "status": "ok",
+      "bytes": 56540,
+      "sha256_raw": "82f49e8b486d4b0ab6a4e5822f403eada0feb394824e711d9f1824ca09d1f424",
+      "sha256_text": "dd33f6f24b63e0f32b6fff7720b3a85567ac1847ec6fbbbb00fb966e4c263e51"
+    },
+    "/beceriler/matematik-alan-becerileri": {
+      "status": "ok",
+      "bytes": 54236,
+      "sha256_raw": "aea5b20ea3ee693be5e227fc1efa1e78f06f487c38cde406c0ff59835c40d0fa",
+      "sha256_text": "ee1a5983c0291b19006ae4ea932788508dec780b88fa5620620568a13dd8aafa"
+    },
+    "/beceriler/fen-bilimleri-alan-becerileri": {
+      "status": "ok",
+      "bytes": 56432,
+      "sha256_raw": "4a30198ea31a6193ed3f0af9f630ed983a7165b27b3a03e4a565147887f9c682",
+      "sha256_text": "1a9b7c76a41415d7c02fdedd1e9972e06435eb2d0ddf45b560e4b8bd02ddf4fd"
+    },
+    "/beceriler/sosyal-bilimler-alan-becerileri": {
+      "status": "ok",
+      "bytes": 195272,
+      "sha256_raw": "b0889f3a1ebce9a27cc653ad8890b1137a7e8d0e8d6d86c94a713aaffbfe428a",
+      "sha256_text": "830385c41fb0a636e8e93b6d1ec08b052cb76818d31b370f1e0a33f5d552e9b0"
+    },
+    "/beceriler/sanat-alan-becerileri": {
+      "status": "ok",
+      "bytes": 80478,
+      "sha256_raw": "4928af85a581cab090c22335f3e023589f3cf4b0fe2abd7c7a20cf5eff0cc7b2",
+      "sha256_text": "b63d3ee2ea9f4369472e6c1a98fefbc6dfb3fb08abbd8593f8f0c9d32dc07c83"
+    },
+    "/beceriler/beden-egitimi-oyun-ve-spor-alan-becerileri": {
+      "status": "ok",
+      "bytes": 50529,
+      "sha256_raw": "38e05cbb7d008ff12e6451134f2a46fbfbe3cb465a1b5d1dcc1d48057f2999a8",
+      "sha256_text": "e360fa235eda7ff05f0468bf3d8222dc53dd4984b0e1d93314a6c43801ad5baa"
+    },
+    "/beceriler/bilisim-teknolojileri-ve-yazilim-alan-becerileri": {
+      "status": "ok",
+      "bytes": 79047,
+      "sha256_raw": "174f974ed4d62d649d475b52c58e94c06bcd15e253dbc686e69245558c04a100",
+      "sha256_text": "43f8f2d5396903fc923925c31a01d4dcaeb6e1b9985cf5007bbecd4ee21d68cc"
+    },
+    "/beceriler/tasarim-alan-becerileri": {
+      "status": "ok",
+      "bytes": 37017,
+      "sha256_raw": "09bc38d6364dada6827244291013666cefa4c8bf08bfc05405eccda8a509d41a",
+      "sha256_text": "0e598a17af50eb33c82a4592cf3bbe33c0e0faffd3948b52be97ec3385c1a252"
+    },
+    "/beceriler/din-egitimi-ve-ogretimi-alan-becerileri": {
+      "status": "ok",
+      "bytes": 77225,
+      "sha256_raw": "496c02563dbe2688fc84b3997bfe769e0a31647b7883e31456f8bbe17824cb87",
+      "sha256_text": "af2b912008f30a6b01142c7915503a70e61d3e1d847823abe1e07c4ee9374e15"
+    },
+    "/beceriler/yabanci-dil-alan-becerileri": {
+      "status": "ok",
+      "bytes": 85546,
+      "sha256_raw": "7ef83e7c466d6f2fd534922f09a6eecae34c7ab44fcc82a473a97f659b97d509",
+      "sha256_text": "9b1e062adc96cbb919ff07e8a471339d8ee2a16f8f80ee00737b7b09ce1f8faf"
+    },
+    "/upload/kilavuz/coktan-secmeli-soru-yazim-kilavuzu.pdf": {
+      "status": "ok",
+      "bytes": 10511176,
+      "sha256_raw": "26e496eb39ffb8e76c6e9ec1694722dd8ccad0b8d99acd76d10146fbd1eab948"
+    },
+    "/assets/pdf/modul-5.pdf": {
+      "status": "ok",
+      "bytes": 5178985,
+      "sha256_raw": "78541120159966573efe429a45b3959ed0f4843af05da7682ac625f02f862ca6"
+    },
+    "/assets/pdf/modul-5-yayin-2.pdf": {
+      "status": "ok",
+      "bytes": 26949327,
+      "sha256_raw": "d896f98cfabd8921b09d1507b805b7bb5647591a4d1682527560636a1408604f"
+    },
+    "/upload/brosur/ortak_metin.pdf": {
+      "status": "ok",
+      "bytes": 4902774,
+      "sha256_raw": "6c294c7d1f759fa2f21089c2d26945b0884658f1c88d8a776cbd9847ad4a0c12"
+    },
+    "/upload/kilavuz/performans-gelisim-cercevesi.pdf": {
+      "status": "missing"
+    },
+    "/Ders/GetDerslerBySinif": {
+      "status": "ok",
+      "course_count": 111,
+      "sha256_text": "ceb5825cdc6802968371c9ed46d9ad89e0dbba5fa8f19428310c3edb99687056"
+    }
+  }
+}

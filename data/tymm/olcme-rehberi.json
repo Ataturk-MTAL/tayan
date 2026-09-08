@@ -1,0 +1,420 @@
+{
+  "source": {
+    "name": "Türkiye Yüzyılı Maarif Modeli — Ölçme ve Değerlendirme Rehberi",
+    "base_url": "https://tymm.meb.gov.tr",
+    "extracted_at": "2026-09-08",
+    "documents": [
+      {
+        "file": "coktan-secmeli-soru-yazim-kilavuzu.pdf",
+        "url": "https://tymm.meb.gov.tr/upload/kilavuz/coktan-secmeli-soru-yazim-kilavuzu.pdf",
+        "pages": 123,
+        "provides": [
+          "writing_process",
+          "checklist",
+          "error_taxonomy",
+          "question_form"
+        ]
+      },
+      {
+        "file": "modul-5.pdf",
+        "url": "https://tymm.meb.gov.tr/assets/pdf/modul-5.pdf",
+        "pages": 62,
+        "provides": [
+          "principles",
+          "question_types"
+        ]
+      }
+    ],
+    "extraction": "manual",
+    "fetch_script": "scripts/fetch_tymm_kilavuzlar.py"
+  },
+  "principles": [
+    {
+      "code": "5.2.3.1",
+      "name": "Amaç Odaklılık",
+      "text": "Değerlendirme faaliyetleri, önceden belirlenen öğrenme hedefleri ve öğrenci ihtiyaçlarına hizmet etmelidir. Bu faaliyetler, her bir değerlendirme etkinliğinin, öğrencilerin hangi bilgi ve becerileri kazanması gerektiğini açıkça belirlemekle başlar. Amaç odaklılık, öğretmenlere değerlendirme sürecinin eğitim hedeflerine ulaşmak için nasıl bir yol haritası izlemesi gerektiğini gösterir. Bu yaklaşım, değerlendirme faaliyetlerinin öğrencilerin gerçek öğrenme gereksinimlerini karşılayacak şekilde tasarlanmasını sağlar."
+    },
+    {
+      "code": "5.2.3.2",
+      "name": "Öğrenci Merkezlilik",
+      "text": "Öğrenci merkezli değerlendirme, öğrencilerin bireysel öğrenme yollarını, ilgi alanlarını ve öğrenme stillerini göz önünde bulundurur. Bu yaklaşım, öğrencilerin öğrenme sürecine aktif olarak katılımını teşvik eder ve onların güçlü yönlerini ve gelişim alanlarını daha iyi anlamalarını sağlar. Öğrenci merkezlilik, öğrenme materyallerinin ve değerlendirme yöntemlerinin çeşitlendirilmesinden hareketle her öğrencinin potansiyeline ulaşmasına yardımcı olur."
+    },
+    {
+      "code": "5.2.3.3",
+      "name": "Çeşitlilik",
+      "text": "Değerlendirme yöntemlerinde çeşitlilik, öğrencilerin farklı beceri ve yeteneklerini adil ve kapsamlı bir şekilde değerlendirmeyi amaçlar. Çeşitlilik; yazılı sınavlardan proje tabanlı ödevlere, gözlem ve sunumlardan portfolyo değerlendirmelerine kadar geniş bir yelpazedeki değerlendirme araçlarının kullanılmasını içerir. Çeşitlilik, öğrencilerin sadece akademik bilgilerini değil, aynı zamanda yaratıcılık, eleştirel düşünme ve iş birliği gibi 21. yüzyıl becerilerini de göstermelerine olanak tanır."
+    },
+    {
+      "code": "5.2.3.4",
+      "name": "Geri Bildirim",
+      "text": "Etkili bir değerlendirme süreci öğrencilere yönelik anlamlı, yapıcı ve zamanında geri bildirimler sağlar. Geri bildirim, öğrencilerin öğrenme süreçlerinde neyin iyi gittiğini ve hangi alanlarda gelişmeye ihtiyaç duyduklarını anlamalarına yardımcı olur. Bu süreç, öğrencilere gelecekteki öğrenme hedeflerine yönelik somut veriler sunarak onların motivasyonlarını ve öz düzenleme becerilerini artırır."
+    },
+    {
+      "code": "5.2.3.5",
+      "name": "Şeffaflık",
+      "text": "Değerlendirme sürecinin şeffaf olması, öğrencilerin değerlendirme kriterlerini ve beklentileri önceden bilmesini sağlar. Şeffaflık, öğrencilerin değerlendirme süreçlerine daha aktif bir şekilde katılmalarını ve kendi öğrenmeleri üzerinde daha fazla kontrol sahibi olmalarını teşvik eder. Şeffaflık, aynı zamanda, öğrenci ve öğretmen arasında açık bir iletişim ve güven ortamı oluşturarak öğrenme ve değerlendirme süreçlerinin daha adil ve objektif gerçekleşmesine katkıda bulunur. Şeffaflık ilkesi, öğrencilere değerlendirme süreçlerinin nasıl yapılandırıldığını ve hangi ölçütlerin kullanıldığını anlama fırsatı verir. Bu anlayış, öğrencilerin değerlendirmelere nasıl hazırlanacaklarını ve öğrenme süreçlerinde nelere odaklanmaları gerektiğini daha iyi kavramalarını sağlar. Ayrıca değerlendirme sonuçlarının nedenlerini anlamalarına ve sonuçları kendi öğrenme hedefleri doğrultusunda nasıl kullanacaklarını belirlemelerine yardımcı olur."
+    }
+  ],
+  "writing_process": {
+    "code": "2.4",
+    "name": "TYMM Bağlam Temelli Çoktan Seçmeli Soru Yazım Süreci",
+    "source_page": 20,
+    "steps": [
+      {
+        "order": 1,
+        "text": "Hedefin netleştirilmesi: Ölçülecek öğrenme çıktısı ve süreç bileşeninin belirlenmesi"
+      },
+      {
+        "order": 2,
+        "text": "Günlük hayat ile ilişkili bağlamın oluşturulması"
+      },
+      {
+        "order": 3,
+        "text": "İlgili süreç bileşenlerini ölçmeyi hedefleyen bağlam temelli soruların hazırlanması"
+      },
+      {
+        "order": 4,
+        "text": "Güçlü çeldiricilerin yapılandırılması"
+      },
+      {
+        "order": 5,
+        "text": "Bağlamın işlevselliğinin test edilmesi (Bağlam olmadan soru çözülebiliyor mu?)"
+      }
+    ]
+  },
+  "checklist": {
+    "code": "2.4.4",
+    "name": "Bağlam Temelli Soru Yazımına Yönelik Kontrol Listesi",
+    "source_page": 18,
+    "header_fields": [
+      "Bağlam Adı",
+      "Soru Yazarının Adı",
+      "Beceri Adı",
+      "Süreç Bileşeni"
+    ],
+    "response_fields": [
+      "Evet",
+      "Hayır",
+      "Açıklama / Düzeltme Notu"
+    ],
+    "areas": [
+      {
+        "name": "Bağlam Seçimi",
+        "criteria": [
+          "Bağlam, öğrencilerin yaş ve sınıf düzeyine uygun mu?",
+          "Bağlam günlük hayatla ilişkili mi?",
+          "Bağlam karmaşık detaylardan arındırılmış mı?",
+          "Bağlam ilgili beceriyi ölçebilecek nitelikte mi?",
+          "Bağlam; kültür, cinsiyet, coğrafi bölge, din, ideoloji gibi unsurlar açısından tarafsız ve ön yargıdan uzak mı?"
+        ]
+      },
+      {
+        "name": "Soru ve Seçenekler",
+        "criteria": [
+          "Soru açık ve anlaşılır bir dille yazılmış mı?",
+          "Sorunun güçlük düzeyi, öğrenci grubuna uygun mu?",
+          "Soru kökü ve seçenekler, ilgili becerinin süreç bileşenini/bileşenlerini ölçecek şekilde kurgulanmış mı?",
+          "Soru bağlamdan hareketle cevaplanıyor mu?",
+          "Seçenekler ifade tarzı ve biçimsel özellikler bakımından birbirine benzer mi?",
+          "Çeldiriciler, beceriye ve/veya süreç bileşenine sahip olmayan öğrencileri çekecek kadar güçlü mü?",
+          "Soru ve seçeneklerde ipucu içeren ifadelerden kaçınılmış mı?",
+          "\"Yukarıdakilerin hepsi/hiçbiri\" gibi seçeneklerin kullanımından kaçınılmış mı?"
+        ]
+      },
+      {
+        "name": "Etik ve Tarafsızlık",
+        "criteria": [
+          "Bağlam veya soru; herhangi bir birey, grup, kültür, cinsiyet vb. hakkında olumsuz çağrışımlardan arındırılmış mı?",
+          "Kullanılan materyaller (metin, tablo, grafik vb.) pedagojik ve etik açıdan uygun mu?"
+        ]
+      },
+      {
+        "name": "Dil ve Anlatım",
+        "criteria": [
+          "Bağlam, soru kökü ve seçeneklerde noktalama işaretleri ve yazım kurallarına uyulmuş mu?",
+          "Bağlam, soru kökü ve seçenekler anlatım bozukluklarından arındırılmış mı?"
+        ]
+      }
+    ]
+  },
+  "error_taxonomy": {
+    "code": "2.5",
+    "name": "Bağlam Temelli Soru Yazımında Sık Yapılan Hatalara Örnekler",
+    "source_pages": [
+      21,
+      22,
+      23
+    ],
+    "categories": [
+      {
+        "code": "2.5.1",
+        "name": "Bağlam Hataları",
+        "items": [
+          {
+            "wrong": "Bir soru metninde \"küresel ısınma\" anlatılmasına rağmen sorunun \"Aşağıdakilerden hangisi bir sera gazıdır?\" şeklinde olması",
+            "wrong_reason": "Soruyu cevaplamak için metni okumaya gerek yoktur, bağlam işlevsizdir.",
+            "right": "Sorunun çözümü için bağlamda sunulan grafikteki \"yıllık sıcaklık artış oranının\" incelenmesi ve yorumlanmasının ölçülmesi",
+            "right_reason": "Cevap doğrudan bağlama dayalıdır."
+          },
+          {
+            "wrong": "Bağlamda bir olay tasvir edilip (örneğin gökkuşağının oluşumu) soru kökünde ise bu olayın bilimsel nedeninin (ışığın kırılması/tam yansıma) sorulması",
+            "wrong_reason": "Bu durum, ilgili kazanımı veya alan bilgisini değil yalnızca Türkçe okuma-anlama becerisini ölçer.",
+            "right": "Sorunun çözümü için gereken tüm bilgilerin doğrudan metinde verilmesi",
+            "right_reason": "Öğrenci bağlamı ve alan bilgisini kullanarak cevaba ulaşır."
+          },
+          {
+            "wrong": "\"Ayşe markete gitti, 3 × 2 + 5 ekmek aldı.\" gibi ifadelerin kullanılması",
+            "wrong_reason": "Hayatın olağan akışına aykırı, zorlama ve yapay bir kurgudur.",
+            "right": "\"Ayşe, marketteki farklı gramajlardaki ürünlerin birim fiyatlarını karşılaştırarak ekonomik bir tercih yapmak istemektedir.\" kurgusunun kullanılması",
+            "right_reason": "Karşılaşılabilecek gerçek bir problem durumudur."
+          },
+          {
+            "wrong": "\"Bir aracı kurumda VİOP (Vadeli İşlem ve Opsiyon Piyasası) hesabı açan Mert, spot piyasa yerine türev piyasaları tercih etmektedir.\" gibi spesifik bir alan bilgisi içeren senaryoların kullanılması",
+            "wrong_reason": "Sadece belirli bir sosyoekonomik grubun aşina olduğu, fırsat eşitliğini zedeleyen senaryolardır.",
+            "right": "\"Ayşe, odasını yeniden düzenlemek istemekte ve odanın 1/100 ölçekli bir planını çizmektedir...\" ya da \"Ayşe, bir tarif için gereken malzeme miktarlarını 4 kişilik yerine 10 kişilik olacak şekilde yeniden hesaplamaktadır...\" gibi durumların kullanılması",
+            "right_reason": "Öğrencinin okulda veya günlük yaşamda karşılaşabileceği, kapsayıcı durumlar kurgulanır."
+          }
+        ]
+      },
+      {
+        "code": "2.5.2",
+        "name": "Soru Kökü Hataları",
+        "items": [
+          {
+            "wrong": "\"Aşağıdakilerden hangisinin... olmadığı söylenemez?\" şeklinde çift olumsuzluk içeren ifadelerin kullanılması",
+            "wrong_reason": "Zihni gereksiz yere yoran ve ölçme hatasına neden olabilen ifadelerdir.",
+            "right": "Olumsuzluk ifadesinin tek ve net olması, altının çizilmesi veya kelimenin koyu yazılması. Örnek: \"... değildir?\"",
+            "right_reason": "Zihinsel karmaşayı önleyen net ve anlaşılır bir ifadedir."
+          },
+          {
+            "wrong": "\"Sizce bu metnin ana fikri nedir?\" gibi öznel ifadeler kullanılması",
+            "wrong_reason": "Cevabı kişiden kişiye değişebilecek, puanlama güvenirliği düşük bir ifadedir.",
+            "right": "\"Yazarın bu metinde vurguladığı temel düşünce aşağıdakilerden hangisidir?\" şeklinde metne referans gösterilmesi",
+            "right_reason": "Metne dayalı, tartışmaya kapalı bir nesnellik sağlar."
+          },
+          {
+            "wrong": "Soru kökünde konunun anlatılmaya devam edilmesi. Örnek: \"Hücre canlılığın temel birimidir, buna göre...\"",
+            "wrong_reason": "Sorunun odağını dağıtan ve okuma yükünü artıran gereksiz bir bilgidir.",
+            "right": "Bilgi kısmının bağlama yerleştirilmesi ve soru kökünün sadece öğrenciyi cevaplamaya yönlendirmesi",
+            "right_reason": "Öğrenciyi doğrudan cevabı bulmaya sevk eden işlevsel bir yapıdır."
+          },
+          {
+            "wrong": "Aynı bağlamdan birden fazla soru sorulduğu durumda, ikinci veya sonraki soruların kökünde \"Bir önceki soruda bulduğunuz sonuca göre...\" ifadesinin kullanılması",
+            "wrong_reason": "İlk soruyu yanlış cevaplayan öğrencinin zincirleme olarak diğerini de yanlış yapmasına yol açar.",
+            "right": "\"Verilen grafiğe göre...\" denilerek her sorunun ortak veriye dayalı ama birbirinden bağımsız çözülebilmesinin sağlanması",
+            "right_reason": "İlk soruyu cevaplayamayan öğrenci, grafiğe bakıp ikinci soruyu cevaplayabilmelidir."
+          }
+        ]
+      },
+      {
+        "code": "2.5.3",
+        "name": "Seçenek ve Çeldirici Hataları",
+        "items": [
+          {
+            "wrong": "\"Hepsi\", \"Hiçbiri\", \"A ve B\" gibi seçeneklerin kullanılması",
+            "wrong_reason": "Öğrenci seçeneklerden sadece birinin doğruluğundan emin olduğunda diğerlerini analiz etmeden doğru cevabı bulabilir veya eleyebilir.",
+            "right": "Her seçeneğin bağımsız bir yargı veya veri içermesi, \"Hepsi\" gibi kapsayıcı ifadelerden kaçınılması",
+            "right_reason": "Test çözme tekniğini değil ilgili kazanımı ve beceriyi ölçmeyi amaçlar."
+          },
+          {
+            "wrong": "Sadece seçenek sayısını tamamlamak için bariz yanlış seçenek yazılması",
+            "wrong_reason": "Konuyu hiç bilmeyen öğrencinin bile elediği, genel kültür bilgisiyle cevaplanabilen ve çekiciliği olmayan seçeneklerdir.",
+            "right": "Çeldiricilerin rastgele yanlışlardan değil konuyu \"eksik öğrenen\" veya \"yanlış yapılandıran\" öğrencinin düşeceği bilimsel yanılgılardan seçilmesi",
+            "right_reason": "Bilmeyenlere çekici gelen güçlü çeldiriciler kurgulanır."
+          },
+          {
+            "wrong": "Doğru cevabın diğer seçeneklerden bariz şekilde daha uzun, detaylı ve açıklayıcı olması",
+            "wrong_reason": "Öğrenciye soruyu okumasa bile doğru cevabı işaretlettiren \"görsel\" bir ipucu sağlar.",
+            "right": "Tüm seçeneklerin kelime sayısı, satır uzunluğu ve dil yapısı bakımından birbirine benzer olması",
+            "right_reason": "Cevabın biçimiyle değil sadece içeriğiyle öne çıkmasını sağlayan adil bir yapıdır."
+          },
+          {
+            "wrong": "Metinde geçen bir cümlenin, kelime grubunun ya da kelimenin aynen seçeneklerde kullanılması",
+            "wrong_reason": "Öğrenci metni anlamasa bile görsel eşleştirme yaparak doğru cevabı bulabilir.",
+            "right": "Seçeneğin metindeki ifadenin aynısı değil anlamca özdeşi (farklı kelimelerle ifade edilmiş hâli) olması",
+            "right_reason": "Öğrencinin ezberini değil okuduğunu anlama ve yorumlama becerisini ölçen bir yaklaşımdır."
+          }
+        ]
+      },
+      {
+        "code": "2.5.4",
+        "name": "Tasarım ve Dizgi Hataları",
+        "items": [
+          {
+            "wrong": "Metinde yazılanı aynen resmeden görsellerin kullanılması. Örnek: \"Masanın üzerinde üç elma var\" yazarken yanına üç elma resmi koymak",
+            "wrong_reason": "Ölçmeye katkısı olmayan, gereksiz bilişsel yük oluşturan bir kullanımdır.",
+            "right": "Görselin metni tekrar etmek yerine metinde yer almayan yeni bir veriyi sunması. Örnek: Elmaların görselini değil elmaların \"çürüme oranını\" gösteren bir görsel sunmak",
+            "right_reason": "Sorunun çözümü için görselin okunmasını zorunlu kılan bir tasarımdır."
+          },
+          {
+            "wrong": "Veri etiketlerinin (rakamların) çok küçük olduğu, çizgilerin birbirine girdiği, gereksiz üç boyutlu grafiklerin kullanılması",
+            "wrong_reason": "Algıyı zorlaştıran ve sorunun odağını bozan görsel gürültü oluşturur.",
+            "right": "Sadece sorunun çözümü için gerekli veriyi içeren, iki boyutlu, sadeleştirilmiş ve net etiketlenmiş grafiklerin kullanılması",
+            "right_reason": "Öğrencinin doğrudan veriye odaklanmasını sağlayan, gözü yormayan temiz bir tasarımdır."
+          },
+          {
+            "wrong": "Metnin bir sayfada, sorunun diğer sayfada yer alması veya görsel ile soru kökü arasına başka içeriklerin bulunması",
+            "wrong_reason": "Öğrencinin dikkatini dağıtan ve sürekli sayfa çevirmeyi gerektiren ergonomik bir hatadır.",
+            "right": "Bağlam (metin/görsel) ve ona ait soruların öğrencinin gözlerini yormayacak şekilde aynı görsel alanında bulunması",
+            "right_reason": "Odaklanmayı kolaylaştıran, bilişsel yükü azaltan bütüncül bir sunumdur."
+          }
+        ]
+      }
+    ]
+  },
+  "question_form": {
+    "code": "2.6",
+    "name": "Soru Yazım Formu",
+    "source_page": 23,
+    "fields": [
+      "Ders",
+      "Sınıf Düzeyi",
+      "Beceri",
+      "Süreç Bileşenleri",
+      "Gerekçeleri/Kanıt (Açıklayınız.)",
+      "Bağlam Adı",
+      "Yararlanılan Kaynak",
+      "Güçlük Tahmini (Zor / Orta / Kolay)",
+      "Soru Yazarı Adı Soyadı",
+      "e-posta"
+    ]
+  },
+  "question_types": [
+    {
+      "code": "5.4.1",
+      "name": "Açık Uçlu Sorular",
+      "ozellikler": [
+        "5.4.1.1. Açık Uçlu Soruların Özellikleri ve Önemi: Açık uçlu sorular, öğrencilerin öğrendiklerini kendi cümleleriyle ifade etmelerine olanak tanır ve derinlemesine anlama, analiz, sentez ve değerlendirme gibi üst düzey düşünme becerilerini ölçer. Açık uçlu sorular, öğrencilerin bilgi, anlayış ve düşünme becerilerini derinlemesine ölçen bir değerlendirme yöntemidir. Bu tür sorular, öğrencilere belirli bir cevap yerine kendi cevaplarını ifade etme, eleştirel düşünme, yaratıcılık ve problem çözme yeteneklerini gösterme fırsatı tanır. Ölçme ve değerlendirme sürecinin eğitim öğretimin vazgeçilmez bir ögesi olduğu vurgulanmakta, öğrencilerde meydana gelen davranış değişikliğinin belirlenmesinde ölçme ve değerlendirmenin kritik bir rol oynadığı belirtilmektedir. Bu süreç, eğitim kalitesinin artırılmasına yönelik kararların alınmasını sağlar ve eğitimin daha iyi hâle getirilmesi noktasında mevcut eksikliklerin belirlenmesine yardımcı olur.",
+        "5.4.1.1.1. Derinlemesine Bilgi ve Anlayış Ölçümü: Açık uçlu sorular, öğrencilerin bir konuyu derinlemesine ne kadar anladıklarını, elde ettikleri bilgiyi nasıl uygulayabileceklerini ortaya koymalarına olanak tanır.",
+        "5.4.1.1.2. Eleştirel ve Analitik Düşünme Becerileri: Açık uçlu sorular, öğrencilerin eleştirel düşünme ve analitik düşünme becerilerini sergilemelerini gerektirir. Soru, öğrencinin probleme nasıl yaklaştığını, problemin çözümünde hangi yöntemleri kullandığını, sonuçları nasıl analiz ettiğini ve varılan sonuçların gerekçelerini nasıl desteklediğini açıklamasını ister.",
+        "5.4.1.1.3. Yaratıcılık ve Özgün Düşünce: Açık uçlu sorular, öğrencilerin yaratıcılıklarını gösterme ve özgün düşüncelerini ifade etme fırsatı sunar. Sternberg (2006) yaratıcılığın, bilgiyi yenilikçi ve etkili bir şekilde kullanma yeteneği olarak tanımlandığını ve açık uçlu soruların bu tür bir düşünceyi teşvik edebileceğini belirtir. Bu tür sorular, öğrencilerin standart cevapların ötesinde düşünmelerini ve kendi özgün çözümlerini geliştirmelerini sağlar.",
+        "5.4.1.1.4. Öğrenci Merkezli Öğrenme: Açık uçlu sorular, öğrenci merkezli öğrenmeyi destekler ve öğrencilere kendi öğrenme süreçlerini yönlendirme imkânı verir. Duckworth, E. (1987), öğrencilerin kendi anlayışlarını ve yorumlarını inşa etmelerine olanak tanıyan eğitim ortamlarının önemini vurgular. Açık uçlu sorular, öğrencilere düşüncelerini keşfetme ve ifade etme özgürlüğü sunarak öğrenme sürecinin daha etkili ve anlamlı hâle gelmesine yardımcı olur."
+      ],
+      "hazirlama": [
+        "Açık uçlu soruların hazırlanmasında dikkat edilmesi gereken hususlar, öğrencilerin bilgi ve becerilerini doğru bir şekilde ölçebilmek için kritik öneme sahiptir. Bu soruların hazırlanışı, öğretim kalitesini ve öğrenme deneyimlerini doğrudan etkiler. Hazırlanmasında dikkat edilecek husular aşağıda şekilde ifade edilmiştir:",
+        "Soruların açık ve anlaşılır olması, öğrencilerin soruyu doğru bir şekilde anlamalarını ve cevaplamalarını sağlar.",
+        "Soruların, öğrenme hedefleriyle doğrudan ilişkili olması ve öğrencileri derinlemesine düşünmeye teşvik etmesi gerekmektedir.",
+        "Soruların özgün olması ve çeşitli düşünme becerilerini ölçecek şekilde tasarlanması öğrencilerin farklı yönlerden düşünmelerini ve öğrenmelerini sağlar.",
+        "Soruların, öğrencilerin farklı düzeylerdeki bilgi ve ifade becerilerini gösterebilmelerine imkan tanıyacak şekilde kapsamlı ve erişilebilir olması gerekmektedir."
+      ],
+      "uygulama": [],
+      "puanlama": [
+        "Açık uçlu soruların puanlanması, öğretmenlerin öğrencilerin performanslarını değerlendirirken karşılaştıkları en büyük zorluklardan biridir. Bu tür soruların öznel yargılara dayalı olabileceğinden, objektif ve adil bir puanlama sistemi geliştirmek önemlidir. Puanlamada dikkat edilecek hususlar aşağıda ifade edilmiştir:",
+        "Açık ve objektif değerlendirme kriterlerinin olması öğrencilerin cevaplarının nasıl değerlendirileceği konusunda öğretmene yol gösterir. Bunun için dereceli puanlama anahtarları kullanılabilir.",
+        "Öğrencilerin hangi noktalarda eksiklerinin olduğu ve neleri iyi yaptıklarına ilişkin geri bildirim vermek",
+        "Esneklik ve öznel yargıların farkında olarak önlemler alma.",
+        "Değerlendiriciler arasında tutarlılık sağlamak için puanlama eğitimi ve ölçümleme süresi süreçleri önemlidir. Ölçümleme süresi, değerlendiricilerin aynı cevapları benzer şekilde değerlendirmelerini sağlar."
+      ]
+    },
+    {
+      "code": "5.4.2",
+      "name": "Kısa Cevaplı Sorular",
+      "ozellikler": [
+        "Kısa cevaplı sorular, öğrencilerin kısa ve öz cevaplar vererek bilgi, anlayış ve düşünme becerilerini göstermelerine olanak tanıyan değerlendirme araçlarıdır. Bu soru türü, açık uçlu sorulara kıyasla daha kısa ve spesifik yanıtlar gerektirse de, öğrencilerin konuyu ne kadar iyi anladıklarını ve eleştirel düşünme becerilerini ölçebilir. İyi hazırlanmış kısa cevaplı sorular, öğrencilerin derinlemesine bilgi ve anlayışını sergilemelerine imkan verir.",
+        "5.4.2.1.1. Netlik: Soruların net ve anlaşılır olması öğrencilerin soruyu doğru bir şekilde anlamalarını ve buna uygun yanıtlar vermelerini sağlar. Netlik, öğrencilerin sorulanı doğru kavramalarını ve net yanıtlar vermelerini kolaylaştırır.",
+        "5.4.2.1.2. Odaklanmışlık: Her bir sorunun öğrenme hedeflerine ve öğrencilerin beklenen çıktılarına odaklanması gerektiğini vurgular. Odaklanmışlık, öğretmenlere öğrenme hedeflerine ulaşılıp ulaşılmadığını değerlendirmede yardımcı olur.",
+        "5.4.2.1.3. Bilgi ve Anlayış Ölçümü: Kısa cevaplı sorular, öğrencilerin bilgi düzeylerini ve konuyu nasıl anladıklarını sınamış olur. Bu, temel kavramlar, tarihler, olaylar, teoriler veya prensiplerin açıklanmasını gerektirebilir."
+      ],
+      "hazirlama": [
+        "Kısa cevaplı soruların hazırlanmasında aşağıdaki kriterler dikkate alınmalıdır:",
+        "Öğrenme hedefleri ile uyum",
+        "Çeşitlilik",
+        "Açık talimatlar"
+      ],
+      "uygulama": [],
+      "puanlama": [
+        "Rubrikler ve Değerlendirme Kriterleri: Rubriklerin, öğretmenlere öğrenci yanıtlarını daha objektif bir şekilde değerlendirmeleri için açık ve anlaşılır kriterler sunarak değerlendirme sürecinin şeffaflığını artırdığı vurgulanmıştır.",
+        "Geri Bildirim: Öğrencilerin hedeflerine ulaşma konusunda nerede olduklarını ve ilerlemek için ne yapmaları gerektiğini anlamalarına yardımcı olur.",
+        "Esneklik: Kısa cevaplı soruların değerlendirme aşaması, doğru veya yanlış yanıtların ötesine geçmeli ve öğrencilerin düşünce süreçlerini, argüman kalitesini ve de dikkate almalıdır."
+      ]
+    },
+    {
+      "code": "5.4.3",
+      "name": "Doğru-Yanlış Soruları",
+      "ozellikler": [
+        "Doğru-yanlış soruları, ölçme ve değerlendirme araçları içerisinde sıkça kullanılan bir yöntemdir. Bu tür soruların etkili bir şekilde hazırlanması, uygulanması ve değerlendirilmesi öğrencilerin bilgi ve kavrayışlarının doğru bir şekilde ölçülmesini sağlar."
+      ],
+      "hazirlama": [
+        "5.4.3.1.1. Açık ve Netlik: Soruların açık ve net bir şekilde formüle edilmesi gerekir. Okuyucunun soruyu birden fazla şekilde yorumlamasına yol açabilecek belirsizliklerden kaçınılmalıdır. Soruların açıkça ifade edilmesi, öğrencilerin soruyu yanlış anlamalarını önler ve daha adil bir değerlendirme sağlar.",
+        "5.4.3.1.2. Belirli Bir Bilgiyi Test Etmek: Her soru öğrencilerin belirli bir kavramı veya bilgiyi anladıklarını doğrulamak için tasarlanmalıdır. Sorular, öğrencilerin düşünme becerilerini ve konunun derinlemesine anlaşılmasını değerlendirecek şekilde hazırlanmalıdır. Basit yapıda ve sadece belleğe dayalı soru hazırlamak yerine; açıklama, karşılaştırma, yorumlama, genelleme ve uygulama gücünü ölçebilecek doğru-yanlış soruları hazırlanabilir.",
+        "5.4.3.1.3. Kapsamlılık: Bir doğru-yanlış sorusu, ölçülmek istenen öğrenme çıktısıyla doğrudan ilişkili olmalıdır. Sorular, öğrenme çıktılarını doğrudan yansıtmalıdır. Doğru-yanlış soruları genellikle basit bilgiyi test etmek için daha uygundur."
+      ],
+      "uygulama": [
+        "5.4.3.2.1. Dikkat Dağıtıcı Unsurlardan Kaçınma ve Eşit Ağırlıklı Dağılım: Sorular, öğrencilerin dikkatini dağıtabilecek gereksiz bilgiler içermemelidir. Sorunun odak noktasını bozabilecek unsurların olmamasına dikkat edilmelidir. Doğru ve yanlış seçeneklerinin yaklaşık eşit dağılımı önemlidir. Doğru ve yanlış cevapların dengeli bir şekilde dağıtılması tahmin ederek doğru cevaba ulaşma şansını azaltır.",
+        "5.4.3.2.2. Adil Olma ve Kültürel Duyarlılık: Sorulara hem doğru hem de yanlış yanıtlar verme ihtimalinin olması gerekir. Soruların doğruluğu veya yanlışlığı, öğrencilerin önceden sahip oldukları bilgilere değil sunulan bilgilere dayanmalıdır. Soruların dil ve içerik olarak tüm öğrencilere adil olması gerekir. Sorular, kültürel ön yargılardan arındırılmalıdır."
+      ],
+      "puanlama": [
+        "5.4.3.3.1. Objektiflik: Doğru-yanlış soruları objektif bir şekilde puanlanır. Her doğru yanıta belirli bir puan verilirken yanlış yanıtlar genellikle puan kaybına neden olmaz. Objektif puanlama öğrencilerin performansının daha adil bir şekilde değerlendirilmesine olanak sağlar.",
+        "5.4.3.3.2. Yanıltıcı Sorulara Dikkat: Eğer soru yanıltıcı ifadeler içeriyorsa bu durum puanlama kriterlerinde özel olarak ele alınmalıdır. Öğrencilerin soruları dikkatli okumaları ve yanıtlarken dikkatli olmaları teşvik edilmelidir.",
+        "5.4.3.3.3. Geri bildirim Sağlama: Öğrencilere yanıtlarının neden doğru veya yanlış olduğu konusunda geri bildirim sağlanmalıdır. Geri bildirim, öğrenme sürecini destekler ve öğrencilerin konuyu daha iyi anlamalarına yardımcı olur. Bazı eğitimciler, yanlış cevapların puan kırma yerine öğrenme fırsatları olarak kullanılmasını önerir."
+      ]
+    },
+    {
+      "code": "5.4.4",
+      "name": "Eşleştirme Soruları",
+      "ozellikler": [
+        "Eşleştirme soruları, öğretim süreçlerinde öğrencilerin bilgi ve kavramları eşleştirme yeteneklerini ölçmeyi amaçlayan soru tiplerinden biridir. Bu soru tipi, genellikle iki sütun hâlinde sunulur: Bir sütunda terimler, tanımlar, tarihler veya kavramlar yer alırken diğer sütunda ise bu terimlerin, tanımların, tarihlerin veya kavramların eşleştiği ögeler bulunur. Öğrencilerden beklenen, bir sütundaki ögeleri diğer sütundaki karşılıklarıyla doğru şekilde eşleştirmeleridir. Eşleştirme soruları, öğrencilere bilgiler arasında bağlantılar kurma, ilişkileri analiz etme ve daha geniş bir bilgi seti içinde özgün yorumlar yapma fırsatı sunar. Böylece öğrencilerin analitik düşünme ve kritik değerlendirme becerilerini de test etmeyi sağlar. Bu yönü ile eşleştirme soruları, öğrencilerin bilgiyi hatırlamasından çok anlamasını ve uygulamasını gerektirmektedir. Geniş kapsama sahip öğrenme çıktılarını incelemek için bu soru türü tercih edilebilir."
+      ],
+      "hazirlama": [
+        "Eşleştirme sorularının kullanımı, öğrencilerin bilgiyi hatırlamasından çok anlamasını ve uygulamasını gerektirmektedir. Bu yüzden hazırlanan eşleştirmeli sorular, öğrencilerin bir konu hakkında yüzeysel değil, derinlemesine bir kavramsal anlayış geliştirmelerine olanak tanımalıdır. Eşleştirme soruları hazırlanırken eşleştirilecek ögeler arasında dikkatli bir seçim yapılmalıdır. Öğrencilerin yanlış eşleştirmeler yapmasına yol açabilecek unsurlara yer verilmemeli; sorular, kafa karışıklığını önleyecek şekilde tasarlanmalıdır. Programda geniş kapsama sahip öğrenme çıktılarını incelemek için bu soru türü tercih edilebilir.",
+        "(Bilgi Görseli: Eşleştirme soruları) Eşleştirme soruları bilgi düzeyinden daha üst düzeyde ve öğrencilerin derinlemesine kavramsal anlayış geliştirmelerine fırsat verecek şekilde hazırlanabilir.",
+        "(Bilgi Görseli: Eşleştirme soruları) Eşleştirme soruları hazırlanırken sorular ve soruların eşleşeceği ifadeler kafa karışıklığını önleyecek şekilde seçilmelidir.",
+        "Eşleştirme sorularında seçeneklerin sayısının öncüllerden fazla olması şans başarısını düşürmeye yardım edecektir. İyi bir eşleştirme sorusu hazırlanırken aşağıdaki noktalara dikkat edilmelidir:",
+        "Şans başarısını azaltmak için cevap seçenekleri öncül sayısından fazla olmalıdır.",
+        "Cevap sütununda yer alan ifadeler ile öncüller sütunundaki ifadelerin eşleştirilmesinde kullanılacak olan yöntem yönergede belirtilmelidir.",
+        "Cevaplarda veya öncüllerde yer alan özel isimler alfabetik sırada olmalı, rakamlar da ise hiyerarşik sıralama yapılmalıdır.",
+        "Cevaplarda yer alan ifadeler öncüllere yönelik hazırlanmalı ve anlamlı bir bütün sağlanmalıdır.",
+        "Öncüllerde yer alan ifadeler tek bir özelliğe yönelik hazırlanmalıdır."
+      ],
+      "uygulama": [
+        "Bu soruda seçeneklere ait harfler, uygun öncüllerin önünde yer alan boşluklara yazılabilir. Bu tür sorularda farklı eşleştirme yöntemlerinden de yararlanılabilir."
+      ],
+      "puanlama": []
+    },
+    {
+      "code": "5.4.5",
+      "name": "Çoktan Seçmeli Sorular",
+      "ozellikler": [
+        "Çoktan seçmeli sorular, öğrencilerin bilişsel yeteneklerini çeşitli düzeylerde ölçebilmesinin yanında etkili bir şekilde tasarlanırsa öğrencilerin konu hakkındaki bilgi ve anlayış düzeylerini doğru bir şekilde yansıtabilir. Bu tür sorularda seçeneklerin öğrencilere hazır olarak sunulması öğrencilerin üst düzey düşünme becerileri ve yaratıcılıklarını etkiler. Ancak çeldiricilerin iyi organize edilmesi öğrencilerin bilgilerini üst düzeye taşımalarına ve şans başarısının azalmasına katkı sağlayacaktır.",
+        "Farklı türlere sahip olan çoktan seçmeli sorularda süreç bileşenlerini ölçmek için temel beceriler düzeyinde sorular hazırlanmak istendiğinde \"kesin ve biricik doğru yanıtı olan çoktan seçmeli sorular\" kullanılabilir. Birden çok çıktıya yönelik olarak bilginin tek bir soru ile sorulması gerektiğinde \"birleşik yanıt vermeyi gerektiren sorular\" kullanılabilir. Zorluk düzeyi yüksek öğrenme çıktılarını ölçmek için ise \"en doğru yanıtı olan sorular ve doğru cevabı gizlenen sorular\" kullanılabilir.",
+        "Birden çok öğrenme çıktısına yönelik olarak bilginin tek bir soru ile sorulması gerektiğinde birleşik yanıt vermeyi gerektiren maddeler kullanılabilir. Zorluk düzeyi yüksek öğrenme çıktılarını ölçmek için ise en doğru yanıtı olan maddeler ve doğru cevabı gizlenen maddeler kullanılabilir. Bu iki çoktan seçmeli soru türleri ile öğrencinin cevabı direkt tahmin edebilmesi daha zor olduğundan bu sorular ile şans başarısı azaltılabilir."
+      ],
+      "hazirlama": [
+        "Çoktan seçmeli soruları hazırlarken dikkat edilmesi gereken başlıca noktalar;",
+        "(Bilgi görseli) Sorular hazırlanırken öğrencilerin yaşı, gelişim seviyesi ve öğrenme ihtiyaçlarına göre seçenek sayısı, görseller gibi bileşenlere dikkat edilmelidir.",
+        "(Bilgi görseli) Sorunun ayrıt edici gücünü artırmak ve öğrencilerin konuyu daha iyi anlamalarını sağlamak için soru kökü ile alakalı, öğrencilerin karşılaşabileceği yaygın eksik öğrenmeleri yansıtacak şekilde çeldiriciler oluşturulmalıdır.",
+        "(Bilgi görseli) Öğrencilerin soruyu doğru bir şekilde anlamaları için soru köklerin de olumsuz ifadeler kullanılacaksa, bu ifadeler vurgulanmalıdır.",
+        "(Bilgi görseli) Doğru cevap, diğer seçeneklerden belirgin şekilde uzun veya kısa olmamalıdır.",
+        "(Bilgi görseli) Seçenekler arasında mantıklı bir denge sağlanmalıdır.",
+        "5.4.5.1.1. Gelişim Özelliklerinin Dikkate Alınması: Sorular hazırlanırken öğrencilerin yaşı, gelişim seviyesi ve öğrenme ihtiyaçlarına göre seçenek sayısı, görseller gibi bileşenlere dikkat edilmelidir.",
+        "5.4.5.1.2. Alakalı ve Mantıklı Çeldiriciler: Sorunun ayırt edici gücünü artırmak ve öğrencilerin konuyu daha iyi anlamalarını sağlamak için madde kökü ile alakalı, öğrencilerin karşılaşabileceği yaygın yanlış anlamaları yansıtacak şekilde çeldiriciler oluşturulmalıdır.",
+        "5.4.5.1.3. Olumsuz İfadelerin Dikkatli Kullanımı: Öğrencilerin soruyu doğru bir şekilde anlamaları için madde köklerinde olumsuz ifadeler kullanılacaksa bu ifadeler vurgulanmalıdır.",
+        "5.4.5.1.4. Seçenekler Arasında Denge: İyi bir madde, seçenekler arasında mantıklı bir denge sağlar. Doğru cevap, diğer seçeneklerden belirgin şekilde uzun veya kısa olmamalıdır.",
+        "5.4.5.1.5. Bilgi Üzerinde Düşünmeye Teşvik Etme: Sorular, öğrencileri bilginin ötesine geçmeye, bilgiler arasında ilişkiler kurmaya ve sonuçlar çıkarmaya teşvik etmelidir. Bu teşvik, derin öğrenmeyi ve kalıcı anlayışı destekler.",
+        "5.4.5.1.6. Geri bildirim Potansiyeli: Her soru, öğrencilere yanıt üzerine düşünme ve öğrenme fırsatı sunacak şekilde tasarlanmalı."
+      ],
+      "uygulama": [],
+      "puanlama": []
+    }
+  ],
+  "notes": [
+    "Kaynak dosya /tmp/claude-501/tymm-pdf/modul-5.txt 4007 satırdır (görevde 4069 denmişti). Bölüm 5.2.3.x gövde metni 336-380 satırları arasında; 5.4 bölümü 1088. satırda başlar (görevde ~343 ve ~748 denmişti; 748 civarı içindekiler/başka içerik).",
+    "pdftotext -layout çıktısında ana metin ile tablo/şekil içerikleri AYNI satırlarda iç içe geçmiştir (özellikle 5.4.1.1.2, 5.4.1.1.3, 5.4.1.1.4, 5.4.1.2 ve 5.4.2.1.2 çevresinde). Paragraflar bu iç içe geçmiş satırlardan elle ayıklanmıştır; teorik olarak bir kelime kaçmış olabilir.",
+    "5.4.1 (Açık Uçlu Sorular): kaynakta 'uygulanması' başlığı YOKTUR — uygulama alanı boş bırakıldı.",
+    "5.4.1.3 ikinci madde kaynakta yarım kalmıştır ('...geri bildirim vermek' — cümle bitmiyor); birebir aktarıldı.",
+    "5.4.1.2 girişindeki 'Hazırlanmasında dikkat edilecek husular aşağıda şekilde ifade edilmiştir' ifadesindeki yazım hataları ('husular', 'aşağıda şekilde') kaynakta böyledir; düzeltilmedi.",
+    "5.4.2 (Kısa Cevaplı Sorular): kaynakta 'uygulanması' başlığı YOKTUR — uygulama alanı boş bırakıldı.",
+    "5.4.2.3 üçüncü maddesi kaynakta eksik yazılmıştır ('...argüman kalitesini ve de dikkate almalıdır'); birebir aktarıldı.",
+    "5.4.4 (Eşleştirme Soruları): kaynakta 5.4.x.y alt başlıkları YOKTUR; metin düz paragraf + 'Bilgi Görseli' kutucukları hâlindedir. Paragraflar içeriklerine göre ozellikler/hazirlama/uygulama alanlarına dağıtıldı — bu bölümleme kaynakta açık başlıkla belirtilmemiştir, bizim yorumumuzdur. Puanlama bölümü yoktur — boş bırakıldı.",
+    "5.4.4 'uygulama' alanındaki tek madde, örnek soru sonrasındaki açıklama cümlesinden alınmıştır; kaynakta 'Uygulanması' diye bir başlık altında değildir.",
+    "5.4.5 (Çoktan Seçmeli Sorular): kaynakta 'uygulanması' ve 'puanlanması' başlıkları YOKTUR — bu iki alan boş bırakıldı.",
+    "5.4.5 hazirlama alanındaki '(Bilgi görseli)' ile işaretlenen 5 madde, 5.4.5.1 numaralı başlıktan ÖNCE gelen grafik kutucuklarıdır ve 5.4.5.1.1-5.4.5.1.4 maddeleriyle içerik olarak büyük ölçüde örtüşür (kaynakta tekrar edilmiştir). İkisi de korundu.",
+    "Kaynakta '5.4.5.1.' başlığının satırı '5.4.5.1.  4.  Çoktan Seçmeli Soruları Hazırlarken Dikkat Edilmesi Gereken Hususlar' şeklinde bir şekil numarası ('4.') ile karışmıştır; başlık adı içindekiler listesine göre doğrulandı.",
+    "Kaynakta 5.4.5.1.2'de 'ayırt edici', önceki grafik kutucuğunda ise 'ayrıt edici' yazılmıştır; her ikisi de kaynaktaki hâliyle korundu.",
+    "Örnek sorular, örnek puanlama anahtarları, öğrenme çıktısı tabloları ve ders programı alıntıları KAPSAM DIŞI bırakıldı (istenen alanlar ilke/kural metinleridir).",
+    "question_types içinde boş kalan alt bölümler (5.4.1 uygulama, 5.4.2 uygulama, 5.4.4 puanlama, 5.4.5 uygulama/puanlama) kaynakta O BAŞLIĞIN HİÇ OLMAMASINDANDIR; uydurulmamıştır.",
+    "5.4.4 Eşleştirme Soruları'nda kaynakta alt başlık yoktur; ozellikler/hazirlama/uygulama ayrımı içeriğe bakılarak YAPILMIŞ BİR YORUMDUR, kaynağın kendi bölümlemesi değildir.",
+    "Kaynak metindeki yazım hataları ve yarım kalan cümleler düzeltilmeden aktarılmıştır.",
+    "Örnek sorular, puanlama anahtarı örnekleri ve öğrenme çıktısı tabloları kapsam dışıdır."
+  ]
+}
