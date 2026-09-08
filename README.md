@@ -73,6 +73,10 @@ pnpm install
 pnpm tauri dev
 ```
 
+`5173` doluysa veya uygulama TTY'siz bir kabukta sessizce çıkıyorsa,
+başlatma tuzakları ve çözümleri için
+[`.claude/skills/running-tayan-desktop/SKILL.md`](.claude/skills/running-tayan-desktop/SKILL.md).
+
 ### Dil sunucusu (isteğe bağlı)
 
 Editör kutudan çıktığı hâliyle Typst'in 560 sembolünü tanır ve internet

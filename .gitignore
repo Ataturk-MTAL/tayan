@@ -39,3 +39,9 @@ apps/tayan-desktop/src-tauri/icons/StoreLogo.png
 # ait değil (başka bir deponun donanım/bench yönergeleri) ve makineden makineye
 # değişiyor; sürümlenmesi anlamsız.
 /CLAUDE.md
+
+# Ajan araçlarının makineye özel yerel ayarları. Proje skill'leri
+# (.claude/skills/) sürümlenir, ekiple paylaşılır; yerel ayarlar ve oturum
+# artıkları makineden makineye değişir, girmez.
+/.claude/settings.local.json
+/.claude/*.local.json
