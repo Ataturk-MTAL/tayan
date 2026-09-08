@@ -130,35 +130,45 @@ def main() -> int:
     resolved = sum(1 for row in rows if row["resolved"])
     unresolved_codes = sorted({row["code"] for row in rows if not row["resolved"]})
 
+    report = {
+        "rows": len(rows),
+        "resolved": resolved,
+        "unresolved": len(rows) - resolved,
+        # Ders programı bu kodlara atıf yapıyor ama beceri çerçevesinde
+        # karşılıkları yok. Satırlar atılmaz; resolved:false ile işaretli.
+        "unresolved_codes": unresolved_codes,
+        "courses": len({row["course_id"] for row in rows}),
+        "name_mismatches": len(mismatches),
+        "name_mismatch_samples": mismatches[:20],
+    }
+    source = {
+        "generator": "scripts/build_tymm_ders_beceri.py",
+        "inputs": [str(beceriler_path), str(dersler_path)],
+        "fetched_at": dersler["source"]["fetched_at"],
+        "note": "Satırlar sadeleştirilmiştir: ders adı/kademe course_id ile "
+                "dersler.json'dan, beceri adı/tanımı/süreç bileşenleri code ile "
+                "beceriler.json'dan çözülür.",
+    }
+
     if args.jsonl:
         out_path = args.data_dir / "ders-beceri.jsonl"
         with out_path.open("w", encoding="utf-8") as handle:
             for row in rows:
-                handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+                handle.write(json.dumps(row, ensure_ascii=False, separators=(",", ":")) + "\n")
+        # JSONL'de rapora yer yok; yan dosyaya yazılır, yoksa çözülemeyen
+        # kodlar ve ad uyuşmazlığı sayısı sessizce kaybolur.
+        sidecar = args.data_dir / "ders-beceri.report.json"
+        sidecar.write_text(
+            json.dumps({"report": report, "source": source}, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        print(f"rapor: {sidecar}", file=sys.stderr)
     else:
         out_path = args.data_dir / "ders-beceri.json"
-        document = {
-            "report": {
-                "rows": len(rows),
-                "resolved": resolved,
-                "unresolved": len(rows) - resolved,
-                # Ders programı bu kodlara atıf yapıyor ama beceri çerçevesinde
-                # karşılıkları yok. Satırlar atılmaz; işaretli durur.
-                "unresolved_codes": unresolved_codes,
-                "courses": len({row["course_id"] for row in rows}),
-                "name_mismatches": len(mismatches),
-                "name_mismatch_samples": mismatches[:20],
-            },
-            "source": {
-                "generator": "scripts/build_tymm_ders_beceri.py",
-                "inputs": [str(beceriler_path), str(dersler_path)],
-                "fetched_at": dersler["source"]["fetched_at"],
-                "note": "Satırlar sadeleştirilmiştir: ders adı/kademe course_id ile dersler.json'dan, beceri adı/tanımı/süreç bileşenleri code ile beceriler.json'dan çözülür.",
-            },
-            "rows": rows,
-        }
         out_path.write_text(
-            json.dumps(document, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8"
+            json.dumps({"report": report, "source": source, "rows": rows},
+                       ensure_ascii=False, separators=(",", ":")) + "\n",
+            encoding="utf-8",
         )
 
     print(
