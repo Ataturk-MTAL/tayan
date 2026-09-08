@@ -40,6 +40,39 @@ python3 scripts/fetch_tymm_kilavuzlar.py       # ağ; PDF'ler .tymm-pdf/ (sürü
 PDF'lerden elle çıkarılmıştır. Kapsam dışı bırakılanlar ve kaynak
 tutarsızlıkları dosyanın `notes` alanındadır.
 
+## Güncelleme
+
+MEB sayfaları ve PDF'leri zamanla değişir; PDF'ler repoda tutulmaz. Neyin
+değiştiğini `sources.lock.json` üzerinden takip ederiz:
+
+```bash
+python3 scripts/check_tymm_sources.py            # karşılaştır, raporla
+python3 scripts/check_tymm_sources.py --deep     # 111 ders grafiğini de tara
+python3 scripts/check_tymm_sources.py --update   # kilidi tazele
+```
+
+Kilitte kaynak başına iki parmak izi durur. Tek hash yanıltıcıdır: sayfalardaki
+CSS bağlantısı sürüm damgası taşır (`output1.css?v=...`), site yeniden
+yayınlanınca içerik aynı kalsa bile ham hash döner.
+
+| Alan | Anlamı |
+|---|---|
+| `sha256_raw` | ham bayt — yalnız bu değiştiyse kozmetik, yok sayılabilir |
+| `sha256_text` | görünür metin — bu da değiştiyse İÇERİK değişmiş |
+| `course_count` | ders sayısı; değişmesi ders eklenip çıkarıldığını gösterir |
+| `status` | `ok` / `missing`; kaybolan kaynak geri gelirse "YENİDEN YAYINDA" |
+
+Script hiçbir veri dosyasının üzerine yazmaz — güncelleme kararı insana aittir.
+İçerik değişmişse veya kaynak kaybolmuşsa çıkış kodu 1 döner, böylece cron
+işi veya CI adımı olarak kullanılabilir.
+
+Sıra önemli: önce `check_tymm_sources.py` ile neyin değiştiğini gör, sonra
+ilgili çekme script'ini çalıştır, sonra üretilen veriyi gözden geçir, en son
+`--update` ile kilidi tazele. Kilidi önce tazelersen değişimin kaydı kaybolur.
+
+`performans-gelisim-cercevesi.pdf` şu an yayında değil (sunucu 500 veriyor).
+Kilitte `missing` olarak durur; listeden çıkarılmadı ki geri gelirse görülsün.
+
 ## Birleştirme
 
 Beceri kodları (`KB2.8`, `D9`, `SBAB1.1` …) üç dosyada da ortaktır.
