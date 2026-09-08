@@ -195,6 +195,34 @@
       <span class="font-mono text-xs">THIRD-PARTY.md</span> dosyalarındadır.
     </P>
 
+    <Heading
+      tag="h2"
+      class="mt-6 border-t border-gray-200 pt-2.5 text-base font-semibold text-gray-900
+             dark:border-gray-700 dark:text-white"
+    >
+      Müfredat verisi
+    </Heading>
+    <P class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+      Beceri çerçevesi, öğretim programları ve ölçme-değerlendirme kuralları
+      <b class="text-gray-700 dark:text-gray-300">Türkiye Yüzyılı Maarif Modeli</b>'nden alınmıştır.
+      Bu içeriğin ve &ldquo;Türkiye Yüzyılı Maarif Modeli&rdquo; adının marka, telif ve kullanım
+      hakları <b class="text-gray-700 dark:text-gray-300">T.C. Millî Eğitim Bakanlığı</b>'na aittir.
+    </P>
+    <P class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+      TAYAN bu içeriği yalnızca kaynak göstererek kullanır. MEB ile bağlantılı değildir; MEB
+      tarafından onaylanmamış, desteklenmemiş veya yetkilendirilmemiştir. Güncel ve bağlayıcı
+      metin her zaman Bakanlığın kendi yayınıdır.
+    </P>
+    <P class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+      Kaynak:
+      <A
+        href="https://tymm.meb.gov.tr"
+        target="_blank"
+        rel="noreferrer"
+        class="font-mono text-xs">tymm.meb.gov.tr</A
+      >
+    </P>
+
     <P class="mt-6 border-t border-gray-200 pt-2.5 text-sm text-gray-500 dark:border-gray-700 dark:text-gray-400">
       Telif hakkı &copy; 2026 Hakan Gülen. TAYAN açık kaynaktır ve Apache License, Version 2.0
       koşullarıyla dağıtılır.

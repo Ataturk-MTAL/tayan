@@ -45,3 +45,21 @@ PDF bu gömülü yazı tipini kullanır.
 
 Tam bağımlılık listesi ve sürümleri için Cargo.lock ve pnpm-lock.yaml
 dosyalarına bakınız.
+
+────────────────────────────────────────────────────────────────────────────────
+MÜFREDAT VERİSİ
+────────────────────────────────────────────────────────────────────────────────
+
+`data/tymm/` altındaki beceri çerçevesi, öğretim programı eşlemeleri ve
+ölçme-değerlendirme kuralları T.C. Millî Eğitim Bakanlığı'nın Türkiye Yüzyılı
+Maarif Modeli yayınlarından türetilmiştir.
+
+  Kaynak: https://tymm.meb.gov.tr
+
+Bu içeriğin ve "Türkiye Yüzyılı Maarif Modeli" adının marka, telif ve kullanım
+hakları T.C. Millî Eğitim Bakanlığı'na aittir. TAYAN'ın Apache-2.0 lisansı
+KENDİ kaynak kodunu kapsar; bu veriyi kapsamaz.
+
+TAYAN, MEB ile bağlantılı değildir; MEB tarafından onaylanmamış, desteklenmemiş
+veya yetkilendirilmemiştir. Güncel ve bağlayıcı metin her zaman Bakanlığın
+kendi yayınıdır.

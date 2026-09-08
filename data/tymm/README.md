@@ -1,5 +1,12 @@
 # TYMM veri seti
 
+> **Haklar.** Bu dizindeki içerik T.C. Millî Eğitim Bakanlığı'nın Türkiye
+> Yüzyılı Maarif Modeli yayınlarından türetilmiştir. İçeriğin ve "Türkiye
+> Yüzyılı Maarif Modeli" adının marka, telif ve kullanım hakları MEB'e aittir;
+> TAYAN'ın Apache-2.0 lisansı bu veriyi kapsamaz. TAYAN MEB ile bağlantılı
+> değildir ve MEB tarafından onaylanmamıştır. Bağlayıcı metin için
+> <https://tymm.meb.gov.tr>.
+
 MEB Türkiye Yüzyılı Maarif Modeli'nden çekilmiş beceri çerçevesi, ders
 programları ve ölçme-değerlendirme rehberi.
 
