@@ -45,3 +45,6 @@ apps/tayan-desktop/src-tauri/icons/StoreLogo.png
 # artıkları makineden makineye değişir, girmez.
 /.claude/settings.local.json
 /.claude/*.local.json
+
+# Firecrawl CLI'ın yerel önbelleği.
+/.firecrawl/
