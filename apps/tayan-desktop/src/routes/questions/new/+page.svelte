@@ -1,4 +1,5 @@
 <script lang="ts">
+  import PageShell from "$lib/components/shell/PageShell.svelte";
   import QuestionForm from "$lib/components/question/QuestionForm.svelte";
 
   /**
@@ -19,4 +20,12 @@ $ x^2 - 5x + 6 = 0 $
 `;
 </script>
 
-<QuestionForm initialBody={STARTER} />
+<!--
+  scroll={false}: editör kendi yüksekliğini ve kendi kaydırıcılarını
+  yönetiyor (kaynak, önizleme, panel — üçü de kendi içinde kayar). Kabuk
+  kaydırmayı üstlenirse iç içe iki kaydırıcı fare tekerleğinin hangisini
+  süreceğini belirsizleştirirdi.
+-->
+<PageShell title="Yeni soru" scroll={false}>
+  <QuestionForm initialBody={STARTER} />
+</PageShell>

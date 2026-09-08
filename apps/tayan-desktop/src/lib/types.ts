@@ -1,3 +1,4 @@
+import { typstPlain } from "$lib/question/plain-text";
 // ── Content ───────────────────────────────────────────────────────────────────
 
 export type TextStyle = {
@@ -97,6 +98,11 @@ export type QuestionMeta = {
   subject: string;
   grade: number;
   difficulty: Difficulty | null;
+  /**
+   * Kısa başlık — "Dijital Çıkış — LED Sürme". Yalnız cevap anahtarına basılır;
+   * öğrenci nüshasında başlık konuyu ele verir. Boş dize başlıksız demektir.
+   */
+  title: string;
 };
 
 export type MultipleChoiceQuestion = {
@@ -160,16 +166,25 @@ export function questionPoints(q: Question): number {
   return (q as MultipleChoiceQuestion).points;
 }
 
+/**
+ * Listelerde gösterilecek tek satırlık özet.
+ *
+ * Gövde tek bir `typst_raw` düğümü olarak saklandığı için burası bir zamanlar
+ * ham kodu "[typst] ..." diye basıyordu; sonuç girişi ve analiz ekranlarında
+ * öğretmen hangi soruyu puanladığını göremiyordu. Artık kaynak önce Typst
+ * kurallarına göre düz metne çevriliyor.
+ */
 export function bodyPreview(body: ContentNode[], maxLen = 80): string {
   const text = body
     .map((n) => {
       if (n.type === "text") return n.text;
-      if (n.type === "math") return `[${n.raw}]`;
-      if (n.type === "typst_raw") return `[typst] ${n.code}`;
-      if (n.type === "chem") return `[${n.raw}]`;
+      if (n.type === "math") return typstPlain(`$${n.raw}$`);
+      if (n.type === "typst_raw") return typstPlain(n.code);
+      if (n.type === "chem") return typstPlain(`$${n.raw}$`);
       return "";
     })
-    .join("")
+    .join(" ")
+    .replace(/\s+/g, " ")
     .trim();
   return text.length > maxLen ? text.slice(0, maxLen) + "…" : text;
 }
@@ -245,13 +260,21 @@ export const QUESTION_TYPE_LABELS: Record<Question["question_type"], string> = {
 
 // ── Classroom / Student ───────────────────────────────────────────────────────
 
+/**
+ * Bir sınıf.
+ *
+ * ÜYELİK BURADA YOK. Bir `student_ids: string[]` alanı vardı; üyeliğin ikinci
+ * kopyasıydı ve hiç bakımı yapılmıyordu — Rust tarafında yalnız `seed_demo`
+ * dolduruyordu, `add_student` komutu dokunmuyordu, çıkarma yolu hiç yoktu.
+ * Arayüzden açılan bir sınıfta sonsuza dek boş kalıyordu, dolayısıyla ondan
+ * okunan sayaç da hep 0. Sayım artık gerçek öğrenci satırlarından türetiliyor.
+ */
 export type Classroom = {
   id: string;
   name: string;
   grade: number;
   branch: string;
   academic_year: string;
-  student_ids: string[];
   created_at: string;
 };
 
@@ -271,12 +294,39 @@ export type QuestionAnswerInput = {
   given_answer: string | null;
   points_earned: number;
   is_correct: boolean | null;
+  /**
+   * Klasik soruda karşılanan rubrik ölçütlerinin sırası (0'dan başlar).
+   *
+   * KANIT, KAYNAK DEĞİL: puan `points_earned` alanında durur ve giriş anında
+   * donar. Rubrik sonradan düzenlenirse verilmiş notlar değişmez.
+   */
+  rubric_met: number[];
 };
 
+/**
+ * Bir öğrencinin bir sınavda tek bir kazanımdaki performansı.
+ *
+ * PUANLAR DA VAR, ÇÜNKÜ SINIF TOPLAMI ANCAK ONLARLA DOĞRU. Öğrenci
+ * yüzdelerinin ortalamasını almak, sorular farklı puanlardaysa yanlış sonuç
+ * verir; puanlar toplanıp bölününce sonuç kesin.
+ *
+ * `score_pct` bir ara `correct / total_questions` idi ve açık uçlu soruları
+ * sessizce sıfır sayıyordu (klasik soruda `is_correct` her zaman `null`).
+ * Artık puandan hesaplanıyor.
+ *
+ * ESKİ KAYITLARDA PUANLAR 0. Alanlar sonradan eklendi; Rust tarafı
+ * `#[serde(default)]` ile eski satırları okumaya devam ediyor ama değerleri
+ * sıfır geliyor. Sonuç yeniden kaydedilince doğru değerle doluyor — okuyan
+ * taraf `points_available === 0` durumunu "veri yok" saymalı, "%0 başarı"
+ * değil.
+ */
 export type OutcomePerformance = {
   outcome: string;
   total_questions: number;
+  /** Yalnız otomatik puanlanan sorularda TAM doğru sayısı. */
   correct: number;
+  points_earned: number;
+  points_available: number;
   score_pct: number;
 };
 

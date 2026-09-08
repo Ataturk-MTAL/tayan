@@ -82,3 +82,23 @@ describe("examFileName", () => {
       .toMatch(/\.typ$/);
   });
 });
+
+describe("examFileName — analiz eki", () => {
+  test("analiz raporu kâğıttan ayrı adlanır", () => {
+    // Ek olmasaydı kâğıt ile rapor aynı adı isteyip birbirini ezerdi.
+    const ad = examFileName(sinav({}), {
+      answerKey: false,
+      booklet: null,
+      extension: "pdf",
+      suffix: "analiz",
+    });
+    expect(ad.endsWith("_analiz.pdf")).toBe(true);
+  });
+
+  test("ek verilmezse ad bugünküyle aynı kalır", () => {
+    const opts = { answerKey: false, booklet: null, extension: "pdf" };
+    expect(examFileName(sinav({}), opts)).toBe(
+      examFileName(sinav({}), { ...opts, suffix: null }),
+    );
+  });
+});

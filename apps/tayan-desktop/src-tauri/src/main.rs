@@ -96,6 +96,7 @@ fn main() {
             commands::student::list_students_by_classroom,
             commands::student::delete_student,
             commands::student::delete_classroom,
+            commands::student::parse_roster,
             // Analysis / results
             commands::analysis::enter_exam_results,
             commands::analysis::get_exam_results,
@@ -106,6 +107,8 @@ fn main() {
             commands::analysis::compile_typst_preview_svg,
             commands::analysis::compile_question_preview_svg,
             commands::analysis::compile_question_thumbnail,
+            commands::analysis::compile_answer_preview_svg,
+            commands::analysis::export_analysis_pdf,
             commands::analysis::typst_symbols,
             commands::analysis::lsp_complete,
             commands::analysis::lsp_status,

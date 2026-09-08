@@ -52,6 +52,13 @@ export type FilenameOptions = {
   answerKey: boolean;
   booklet: string | null;
   extension: string;
+  /**
+   * Sona eklenen ayırt edici ek — analiz raporu için "analiz".
+   *
+   * Aynı sınavın kâğıdı, cevap anahtarı ve analiz raporu aynı klasörde yan
+   * yana durur; ek olmadan kâğıt ile rapor aynı adı isteyip birbirini ezerdi.
+   */
+  suffix?: string | null;
 };
 
 export function examFileName(exam: Exam, opts: FilenameOptions): string {
@@ -70,6 +77,7 @@ export function examFileName(exam: Exam, opts: FilenameOptions): string {
   // Cevap anahtarı EN SONDA: öğrenci nüshasıyla alfabetik olarak yan yana
   // dizilir ve ikisinin karıştırılması zorlaşır.
   if (opts.answerKey) parcalar.push("cevap");
+  if (opts.suffix) parcalar.push(slugify(opts.suffix));
 
   return `${parcalar.join("_")}.${opts.extension}`;
 }

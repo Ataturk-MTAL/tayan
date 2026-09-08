@@ -27,3 +27,4 @@ ureq          = { version = "2", features = ["json"] }
 tar           = "0.4"
 flate2        = "1"
 dirs-next     = "2"
+include_dir = "0.7.4"

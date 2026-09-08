@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { ExamResult, Student } from "$lib/types";
+  import { selection } from "$lib/ui/analysis-selection.svelte";
 
   /**
    * Soru × öğrenci ızgarası. Hücre boyutu defterin karesiyle aynıdır (20px):
@@ -57,64 +58,138 @@
   );
 </script>
 
-<figure class="m-0">
-  <figcaption class="stamp">Soru × öğrenci</figcaption>
+<!--
+  DÜZELTME: bu figure ızgara öğesi DEĞİL. Rapor sayfası
+  (routes/analysis/+page.svelte:371) onu `<div class="min-w-0">` sarmalayıcısının
+  içine koyuyor; `grid-template-columns: minmax(420px,1fr) minmax(0,auto)`
+  ızgarasının ikinci izindeki öğe O SARMALAYICI, figure ise onun normal akıştaki
+  blok çocuğu. Eski yorum figure'ü izin öğesi sayıyor ve buradaki min-w-0'ı
+  taşmayı çözen şey ilan ediyordu; okuyucuyu sarmalayıcıyı gereksiz sanıp
+  silmeye götürebilirdi, oysa yükü taşıyan tam olarak o.
 
-  <div class="mt-half flex flex-wrap items-center gap-rule">
-    <span class="pencil"><span class="text-ink">✓</span> doğru</span>
-    <span class="pencil"><span class="text-red">✗</span> yanlış</span>
-    <span class="pencil"><span class="text-red">⁄</span> kısmi</span>
-    <span class="pencil">boş: cevaplanmadı</span>
+  Asıl kilit sarmalayıcıda: ızgara öğesinin varsayılan `min-width: auto` değeri
+  min-content'e çözülür ve öğe min-content'in ALTINA inemez. Figure kaydırma kabı
+  OLMADIĞI için içindeki `overflow-auto` divin min-content'i (= tablonun tam
+  genişliği: whitespace-nowrap ad sütunu + 20px × soru sayısı + % sütunu) figure
+  üzerinden doğrudan izin TABAN boyutuna geçer. Sarmalayıcıda min-w-0 yokken
+  sonuç: kart izin sığdırabileceğinden geniş olur olmaz sağ kenarlığı pencerenin
+  dışında kalıyor, İÇ kaydırma çubuğu hiç çıkmıyor, onun yerine tüm rapor bölgesi
+  yatay kayıyordu — yani eğri kartı da yana kayıyordu. Bu yalnız kendi taşmasını
+  değil EĞRİYİ de ilgilendiriyor: kartın max-content'i (ad sütunu ~180px + 20px ×
+  soru + % sütunu ~41px + p-4/kenarlık 34px; 40 soruda ≈ 1055px) varsayılan
+  1280px pencerede izlere kalan 995px'i aşıyor. Sarmalayıcı küçülebildiği için
+  ikinci iz artan yere razı oluyor, eğrinin 420px tabanı ayakta kalıyor ve
+  kaydırma tablonun KENDİ kabında kalıyor.
+
+  Peki buradaki min-w-0 ne işe yarıyor? Bugün: hiçbir şeye. Normal akıştaki blok
+  kutuda `min-width`in başlangıç değeri zaten 0, yani bu sınıf mevcut düzende
+  ölçülebilir bir şey değiştirmiyor. SAVUNMA olarak duruyor: figure bir gün
+  sarmalayıcısız, doğrudan bir ızgara/flex izine konursa aynı kilidi kendi başına
+  da açar. Silmek bugün zararsız — ama silinirse sarmalayıcıdaki min-w-0'ın
+  ZORUNLU olduğu unutulmasın.
+
+  Ad sütunundaki `whitespace-nowrap` kalıyor: satır yüksekliği 20px'lik defter
+  karesine kilitli, sarma hizayı bozardı — sarmalayıcı küçülebildiği için nowrap
+  zararsız.
+-->
+<figure
+  class="m-0 min-w-0 rounded-lg border border-default-medium bg-neutral-primary-medium p-4 shadow-sm"
+>
+  <figcaption class="text-[11px] font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">
+    Soru × öğrenci
+  </figcaption>
+
+  <div class="mt-2.5 flex flex-wrap items-center gap-5 text-[12px] leading-5 text-gray-500 dark:text-gray-400">
+    <span><span class="text-gray-800 dark:text-gray-200">✓</span> doğru</span>
+    <span><span class="text-red-600 dark:text-red-400">✗</span> yanlış</span>
+    <span><span class="text-red-600 dark:text-red-400">⁄</span> kısmi</span>
+    <span>boş: cevaplanmadı</span>
   </div>
 
   {#if rows.length === 0}
-    <p class="pencil mt-half">Bu sınıfta öğrenci yok.</p>
+    <p class="mt-2.5 text-[12px] leading-5 text-gray-500 dark:text-gray-400">Bu sınıfta öğrenci yok.</p>
   {:else}
-    <div class="mt-half overflow-auto">
+    <div class="mt-2.5 overflow-auto">
       <table class="border-collapse">
         <thead>
           <tr>
-            <th class="stamp sticky left-0 bg-paper px-half text-left">Öğrenci</th>
+            <th
+              class="sticky left-0 bg-white px-2.5 text-left text-[11px] font-semibold uppercase
+                     tracking-wider text-gray-500 dark:bg-gray-800 dark:text-gray-400"
+            >
+              Öğrenci
+            </th>
             {#each questionIds as _, i}
-              <th class="stamp w-[20px] text-center font-normal tnum">{i + 1}</th>
+              <th
+                class="tnum w-[20px] text-center text-[11px] font-normal uppercase tracking-wider
+                       text-gray-500 dark:text-gray-400"
+              >
+                {i + 1}
+              </th>
             {/each}
-            <th class="stamp px-half text-right">%</th>
+            <th
+              class="px-2.5 text-right text-[11px] font-semibold uppercase tracking-wider
+                     text-gray-500 dark:text-gray-400"
+            >
+              %
+            </th>
           </tr>
         </thead>
         <tbody>
           {#each rows as row (row.student.id)}
-            <tr>
+            <!--
+              Dağılımda fırçalanan puan aralığı buraya öğrenci seçimi olarak
+              geliyor. Satır gizlenmiyor, soluklaşıyor: seçilenlerin
+              diğerlerine göre nerede durduğu görünür kalmalı.
+            -->
+            <tr
+              class="transition-all {selection.hasStudent(row.student.id) ? '' : 'opacity-25'}
+                     {selection.hoveredStudentId === row.student.id
+                ? 'bg-primary-50 dark:bg-primary-900/30'
+                : ''}"
+            >
               <th
-                class="sticky left-0 whitespace-nowrap bg-paper px-half text-left text-[12px]
-                       font-normal leading-[20px]"
+                class="sticky left-0 whitespace-nowrap bg-white px-2.5 text-left text-[12px]
+                       font-normal leading-[20px] text-gray-900 dark:bg-gray-800 dark:text-white"
               >
-                <span class="text-pencil tnum">{row.student.number}</span>
+                <span class="tnum text-gray-500 dark:text-gray-400">{row.student.number}</span>
                 {row.student.first_name}
                 {row.student.last_name}
               </th>
-              {#each row.cells as cell}
+              {#each row.cells as cell, ci}
                 <td
-                  class="h-[20px] w-[20px] border border-rule text-center text-[12px] leading-[18px]"
-                  class:bg-red-wash={cell.state === "wrong"}
-                  class:text-red={cell.state === "wrong" || cell.state === "partial"}
-                  class:text-ink={cell.state === "correct"}
+                  class="h-[20px] w-[20px] border border-gray-200 text-center text-[12px]
+                         leading-[18px] transition-opacity dark:border-gray-700
+                         {selection.hasQuestion(questionIds[ci]) ? '' : 'opacity-25'}"
+                  class:bg-red-50={cell.state === "wrong"}
+                  class:dark:bg-red-950={cell.state === "wrong"}
+                  class:text-red-600={cell.state === "wrong" || cell.state === "partial"}
+                  class:dark:text-red-400={cell.state === "wrong" || cell.state === "partial"}
+                  class:text-gray-800={cell.state === "correct"}
+                  class:dark:text-gray-200={cell.state === "correct"}
                   title={cell.title}
                 >
                   {GLYPH[cell.state]}
                 </td>
               {/each}
-              <td class="px-half text-right text-[12px] leading-[20px] tnum">
+              <td class="tnum px-2.5 text-right text-[12px] leading-[20px]">
                 {row.percent ?? "—"}
               </td>
             </tr>
           {/each}
 
           <tr>
-            <th class="stamp sticky left-0 bg-paper px-half text-left">Yanlış</th>
+            <th
+              class="sticky left-0 bg-white px-2.5 text-left text-[11px] font-semibold uppercase
+                     tracking-wider text-gray-500 dark:bg-gray-800 dark:text-gray-400"
+            >
+              Yanlış
+            </th>
             {#each wrongPerQuestion as count}
               <td
-                class="border-t border-rule-strong text-center text-[11px] leading-[20px] tnum"
-                class:text-red-deep={count > rows.length / 2}
+                class="tnum border-t border-gray-300 text-center text-[11px] leading-[20px] dark:border-gray-600"
+                class:text-red-600={count > rows.length / 2}
+                class:dark:text-red-400={count > rows.length / 2}
                 class:font-semibold={count > rows.length / 2}
               >
                 {count}

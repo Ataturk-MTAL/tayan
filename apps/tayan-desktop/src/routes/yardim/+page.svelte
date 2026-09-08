@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import PageHead from "$lib/components/shell/PageHead.svelte";
-  import PenButton from "$lib/components/shell/PenButton.svelte";
+  import PageShell from "$lib/components/shell/PageShell.svelte";
+  import { Button } from "flowbite-svelte";
   import { api } from "$lib/api";
   import { errorText } from "$lib/editor/diagnostics";
 
@@ -61,60 +61,60 @@
    * Bu yüzden her örnek çalışan gerçek koddur — kısaltılmış, "şuna benzer bir
    * şey" değil. Kopyalayıp editöre yapıştırınca derlenir.
    */
-  type Row = { kod: string; ne: string };
+  type Row = { code: string; description: string };
 
-  const TEMEL: Row[] = [
-    { kod: "$x^2$", ne: "Satır içi matematik — cümlenin içinde kalır" },
-    { kod: "$ x^2 $", ne: "Blok matematik — kendi satırına düşer, ortalanır" },
-    { kod: "$a/b$", ne: "Kesir" },
-    { kod: "$(a+b)/c$", ne: "Paylı kesir — birden çok terimi parantezle" },
-    { kod: "$sqrt(x)$", ne: "Karekök" },
-    { kod: "$x_1$", ne: "Alt indis" },
-    { kod: "$alpha$ $beta$ $pi$", ne: "Yunan harfleri: adını yaz" },
-    { kod: "$sum_(i=1)^n i$", ne: "Toplam sembolü, alt ve üst sınırlı" },
-    { kod: "$integral_0^1 f(x) dif x$", ne: "İntegral" },
-    { kod: "*kalın*", ne: "Kalın yazı" },
-    { kod: "_eğik_", ne: "Eğik yazı" },
-    { kod: "#underline[altı çizili]", ne: "Altı çizili" },
-    { kod: "- madde", ne: "Madde işaretli liste" },
-    { kod: "+ madde", ne: "Numaralı liste" },
-    { kod: "#image(\"resim.png\", width: 60%)", ne: "Görsel ekle" },
-    { kod: "#v(0.5cm)", ne: "Dikey boşluk" },
+  const BASICS: Row[] = [
+    { code: "$x^2$", description: "Satır içi matematik — cümlenin içinde kalır" },
+    { code: "$ x^2 $", description: "Blok matematik — kendi satırına düşer, ortalanır" },
+    { code: "$a/b$", description: "Kesir" },
+    { code: "$(a+b)/c$", description: "Paylı kesir — birden çok terimi parantezle" },
+    { code: "$sqrt(x)$", description: "Karekök" },
+    { code: "$x_1$", description: "Alt indis" },
+    { code: "$alpha$ $beta$ $pi$", description: "Yunan harfleri: adını yaz" },
+    { code: "$sum_(i=1)^n i$", description: "Toplam sembolü, alt ve üst sınırlı" },
+    { code: "$integral_0^1 f(x) dif x$", description: "İntegral" },
+    { code: "*kalın*", description: "Kalın yazı" },
+    { code: "_eğik_", description: "Eğik yazı" },
+    { code: "#underline[altı çizili]", description: "Altı çizili" },
+    { code: "- madde", description: "Madde işaretli liste" },
+    { code: "+ madde", description: "Numaralı liste" },
+    { code: "#image(\"resim.png\", width: 60%)", description: "Görsel ekle" },
+    { code: "#v(0.5cm)", description: "Dikey boşluk" },
   ];
 
-  const KALIPLAR = [
+  const TEMPLATES = [
     {
-      ad: "Çoktan seçmeli",
-      kod: `#secenekler(dogru: "C",
+      name: "Çoktan seçmeli",
+      code: `#secenekler(dogru: "C",
   [$x = 1$],
   [$x = 2$],
   [$x = 2$ ve $x = 3$],
   [$x = 6$],
   [Hiçbiri],
 )`,
-      not: "dogru: kâğıda BASILMAZ. Uygulama cevap anahtarını ve madde analizini oradan kurar. Şık harfleri (A, B, C…) sıraya göre kendiliğinden verilir.",
+      note: "dogru: kâğıda BASILMAZ. Uygulama cevap anahtarını ve madde analizini oradan kurar. Şık harfleri (A, B, C…) sıraya göre kendiliğinden verilir.",
     },
     {
-      ad: "Doğru / yanlış",
-      kod: "#dogru-yanlis(dogru: true)",
-      not: "true ya da false. Kâğıda iki kutucuk basılır, cevap basılmaz.",
+      name: "Doğru / yanlış",
+      code: "#dogru-yanlis(dogru: true)",
+      note: "true ya da false. Kâğıda iki kutucuk basılır, cevap basılmaz.",
     },
     {
-      ad: "Boşluk doldurma",
-      kod: '#bosluk(cevap: "180|180 derece", width: 2cm)',
-      not: "Kabul edilen cevapları | ile ayır. Gövdede kaç tane #bosluk varsa o kadar boşluk oluşur; puan her boşluk için ayrı sayılır.",
+      name: "Boşluk doldurma",
+      code: '#bosluk(cevap: "180|180 derece", width: 2cm)',
+      note: "Kabul edilen cevapları | ile ayır. Gövdede kaç tane #bosluk varsa o kadar boşluk oluşur; puan her boşluk için ayrı sayılır.",
     },
     {
-      ad: "Klasik",
-      kod: `#cevap-alani(satir: 6, bicim: "cizgili")
+      name: "Klasik",
+      code: `#cevap-alani(satir: 6, bicim: "cizgili")
 #cevap-alani(satir: 10, bicim: "kareli")
 #cevap-alani(satir: 8, bicim: "bos")`,
-      not: 'Üç biçim: "cizgili" yazı çizgileri, "kareli" 5×5 mm kareli alan (grafik ve şema için), "bos" çerçeveli boş kutu. satir yüksekliği verir — kareli alanda bir satır bir 5 mm karedir. Genişlik verilmez: alan bulunduğu sütunun tamamını kaplar, çift sütunlu kâğıtta kendiliğinden daralır.',
+      note: 'Üç biçim: "cizgili" yazı çizgileri, "kareli" 5×5 mm kareli alan (grafik ve şema için), "bos" çerçeveli boş kutu. satir yüksekliği verir — kareli alanda bir satır bir 5 mm karedir. Genişlik verilmez: alan bulunduğu sütunun tamamını kaplar, çift sütunlu kâğıtta kendiliğinden daralır.',
     },
   ];
 
   /** Yunan harfleri. Typst'te adıyla yazılır, büyük harf için baş harf büyük. */
-  const YUNAN: Array<[string, string, string, string]> = [
+  const GREEK_LETTERS: Array<[string, string, string, string]> = [
     ["alpha", "α", "Alpha", "Α"],
     ["beta", "β", "Beta", "Β"],
     ["gamma", "γ", "Gamma", "Γ"],
@@ -141,154 +141,197 @@
   ];
 
   /** Analiz ve türev gösterimi. Hepsi derlenip gözle doğrulandı. */
-  const TUREV: Row[] = [
-    { kod: "$(dif y)/(dif x)$", ne: "Birinci türev — dy/dx" },
-    { kod: "$(dif^2 y)/(dif x^2)$", ne: "İkinci türev" },
-    { kod: "$f'(x)$", ne: "Üs notasyonu — f prim" },
-    { kod: "$f''(x)$", ne: "İkinci türev, üs notasyonu" },
-    { kod: "$(partial f)/(partial x)$", ne: "Kısmi türev — ∂f/∂x" },
-    { kod: "$(partial^2 f)/(partial x partial y)$", ne: "Karma ikinci kısmi türev" },
-    { kod: "$integral f(x) dif x$", ne: "Belirsiz integral" },
-    { kod: "$integral_0^1 x^2 dif x$", ne: "Belirli integral" },
-    { kod: "$lim_(x -> 0) (sin x)/x$", ne: "Limit" },
-    { kod: "$nabla f$", ne: "Gradyan" },
-    { kod: "$nabla dot bold(F)$", ne: "Diverjans" },
-    { kod: "$dif f = (partial f)/(partial x) dif x$", ne: "Toplam diferansiyel" },
+  const CALCULUS: Row[] = [
+    { code: "$(dif y)/(dif x)$", description: "Birinci türev — dy/dx" },
+    { code: "$(dif^2 y)/(dif x^2)$", description: "İkinci türev" },
+    { code: "$f'(x)$", description: "Üs notasyonu — f prim" },
+    { code: "$f''(x)$", description: "İkinci türev, üs notasyonu" },
+    { code: "$(partial f)/(partial x)$", description: "Kısmi türev — ∂f/∂x" },
+    { code: "$(partial^2 f)/(partial x partial y)$", description: "Karma ikinci kısmi türev" },
+    { code: "$integral f(x) dif x$", description: "Belirsiz integral" },
+    { code: "$integral_0^1 x^2 dif x$", description: "Belirli integral" },
+    { code: "$lim_(x -> 0) (sin x)/x$", description: "Limit" },
+    { code: "$nabla f$", description: "Gradyan" },
+    { code: "$nabla dot bold(F)$", description: "Diverjans" },
+    { code: "$dif f = (partial f)/(partial x) dif x$", description: "Toplam diferansiyel" },
   ];
 
-  const KISAYOLLAR: Row[] = [
-    { kod: "⌘ +", ne: "Önizlemeyi yakınlaştır" },
-    { kod: "⌘ −", ne: "Önizlemeyi uzaklaştır" },
-    { kod: "⌘ 0", ne: "Önizlemeyi gerçek boyuta getir" },
-    { kod: "⌘ + tekerlek", ne: "Sürekli yakınlaştır / uzaklaştır" },
-    { kod: "⌘ Z", ne: "Editörde geri al" },
-    { kod: "⇧ ⌘ Z", ne: "İleri al" },
-    { kod: "Tab", ne: "Girinti ekle" },
-    { kod: "⌃ Boşluk", ne: "Otomatik tamamlama listesi" },
+  const SHORTCUTS: Row[] = [
+    { code: "⌘ +", description: "Önizlemeyi yakınlaştır" },
+    { code: "⌘ −", description: "Önizlemeyi uzaklaştır" },
+    { code: "⌘ 0", description: "Önizlemeyi gerçek boyuta getir" },
+    { code: "⌘ + tekerlek", description: "Sürekli yakınlaştır / uzaklaştır" },
+    { code: "⌘ Z", description: "Editörde geri al" },
+    { code: "⇧ ⌘ Z", description: "İleri al" },
+    { code: "Tab", description: "Girinti ekle" },
+    { code: "⌃ Boşluk", description: "Otomatik tamamlama listesi" },
   ];
 
-  const HATALAR = [
+  const COMMON_ERRORS = [
     {
-      mesaj: "unknown variable",
-      ne: "Var olmayan bir komut yazdın. Genelde yazım hatası: #secenekler yerine #secenek gibi. Yukarıdaki Kalıp düğmeleri doğrusunu ekler.",
+      message: "unknown variable",
+      description: "Var olmayan bir komut yazdın. Genelde yazım hatası: #secenekler yerine #secenek gibi. Yukarıdaki Kalıp düğmeleri doğrusunu ekler.",
     },
     {
-      mesaj: "expected closing bracket",
-      ne: "Bir köşeli parantez veya parantez kapanmamış. Editörde kırmızı işaret hangi satırda olduğunu gösterir.",
+      message: "expected closing bracket",
+      description: "Bir köşeli parantez veya parantez kapanmamış. Editörde kırmızı işaret hangi satırda olduğunu gösterir.",
     },
     {
-      mesaj: "Gövdede #secenekler(...) yok",
-      ne: "Soru tipi çoktan seçmeli ama gövdede şık kalıbı yok. Kaydet düğmesi bu yüzden kapalı.",
+      message: "Gövdede #secenekler(...) yok",
+      description: "Soru tipi çoktan seçmeli ama gövdede şık kalıbı yok. Kaydet düğmesi bu yüzden kapalı.",
     },
     {
-      mesaj: "Doğru cevap \"X\" şıklarla eşleşmiyor",
-      ne: "dogru: parametresine yazdığın harf, yazdığın şık sayısından fazla. Beş şık varsa en fazla E olabilir.",
+      message: "Doğru cevap \"X\" şıklarla eşleşmiyor",
+      description: "dogru: parametresine yazdığın harf, yazdığın şık sayısından fazla. Beş şık varsa en fazla E olabilir.",
     },
   ];
 
-  const BOLUMLER = [
-    { id: "kalip", ad: "Soru kalıpları" },
-    { id: "temel", ad: "Typst temelleri" },
-    { id: "gorsel", ad: "Görsel ekleme" },
-    { id: "lsp", ad: "Dil sunucusu" },
-    { id: "yunan", ad: "Yunan harfleri" },
-    { id: "turev", ad: "Türev ve integral" },
-    { id: "kisayol", ad: "Kısayollar" },
-    { id: "kazanim", ad: "Kazanım kodu" },
-    { id: "hata", ad: "Hata mesajları" },
-    { id: "yayin", ad: "Yayınla ve PDF kaydet" },
-    { id: "veri", ad: "Verilerim nerede" },
+  const SECTIONS = [
+    { id: "kalip", name: "Soru kalıpları" },
+    { id: "temel", name: "Typst temelleri" },
+    { id: "gorsel", name: "Görsel ekleme" },
+    { id: "lsp", name: "Dil sunucusu" },
+    { id: "yunan", name: "Yunan harfleri" },
+    { id: "turev", name: "Türev ve integral" },
+    { id: "kisayol", name: "Kısayollar" },
+    { id: "kazanim", name: "Kazanım kodu" },
+    { id: "rubrik", name: "Rubrik ve cevap anahtarı" },
+    { id: "hata", name: "Hata mesajları" },
+    { id: "yayin", name: "Yayınla ve PDF kaydet" },
+    { id: "veri", name: "Verilerim nerede" },
   ];
 </script>
 
-<div class="flex h-full min-h-0 flex-col">
-  <PageHead title="Yardım" />
-
-  <div class="grid min-h-0 flex-1 grid-cols-[200px_1fr]">
-    <nav class="min-h-0 overflow-auto border-r border-rule-strong px-rule py-half">
-      <ul>
-        {#each BOLUMLER as bolum}
+<PageShell title="Yardım" scroll={false}>
+  <!--
+    Yan gezinme kendi kaydırıcısını istiyor: makale uzunken çekmece de onunla
+    kayarsa BÖLÜMLER listesi gözden kaybolur. Bu yüzden PageShell'in kaydırmasını
+    kapatıp burada iki bağımsız kaydırıcı kuruyoruz.
+  -->
+  <div class="grid h-full min-h-0 grid-cols-[200px_1fr]">
+    <nav class="min-h-0 overflow-auto border-r border-gray-200 p-3 dark:border-gray-700">
+      <ul class="space-y-1">
+        {#each SECTIONS as bolum}
           <li>
-            <a href="#{bolum.id}" class="block py-quarter text-[13px] leading-rule no-underline">
-              {bolum.ad}
+            <a
+              href="#{bolum.id}"
+              class="block rounded-lg px-3 py-1.5 text-sm text-gray-600 no-underline
+                     transition-colors hover:bg-gray-100 dark:text-gray-300
+                     dark:hover:bg-gray-700/60"
+            >
+              {bolum.name}
             </a>
           </li>
         {/each}
       </ul>
     </nav>
 
-    <article class="min-h-0 overflow-auto px-rule py-rule">
+    <article class="min-h-0 overflow-auto px-6 py-6">
       <div class="max-w-[68ch]">
-        <p class="leading-rule">
-          TAYAN soruları <strong>Typst</strong> ile dizer. Typst, matematiği ve sayfa
-          düzenini metinle anlatan bir dizgi dilidir; kelime işlemcinin aksine
-          yazdığın şey ile basılan şey birebir aynıdır.
+        <p class="text-gray-700 dark:text-gray-300">
+          TAYAN soruları <strong class="text-gray-900 dark:text-white">Typst</strong> ile dizer.
+          Typst, matematiği ve sayfa düzenini metinle anlatan bir dizgi dilidir; kelime
+          işlemcinin aksine yazdığın şey ile basılan şey birebir aynıdır.
         </p>
-        <p class="pencil mt-half">
-          Typst öğrenmek zorunda değilsin — yukarıdaki düğmeler her şeyi hazır ekler.
-          Ama eklenen şey kaynakta görünür kalır, böylece zamanla ne olduğunu
-          kendiliğinden öğrenirsin.
-        </p>
-
-        <h2 id="kalip" class="mt-rule border-t border-rule-strong pt-half">Soru kalıpları</h2>
-        <p class="pencil mt-quarter">
-          Sorunun yapısı ayrı bir formda değil, kaynağın içinde durur. Böylece cevap
-          anahtarı ile kâğıtta görünen asla birbirinden ayrı düşmez.
+        <p class="mt-2.5 text-sm text-gray-500 dark:text-gray-400">
+          Typst öğrenmek zorunda değilsin — yukarıdaki düğmeler her şeyi hazır ekler. Ama eklenen
+          şey kaynakta görünür kalır, böylece zamanla ne olduğunu kendiliğinden öğrenirsin.
         </p>
 
-        {#each KALIPLAR as kalip}
-          <h3 class="mt-rule">{kalip.ad}</h3>
-          <pre class="ruled mt-quarter overflow-x-auto p-half font-mono text-[12px] leading-[20px]">{kalip.kod}</pre>
-          <p class="pencil mt-quarter">{kalip.not}</p>
+        <h2
+          id="kalip"
+          class="mt-8 border-t border-gray-200 pt-3 text-lg font-semibold text-gray-900
+                 dark:border-gray-700 dark:text-white"
+        >
+          Soru kalıpları
+        </h2>
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+          Sorunun yapısı ayrı bir formda değil, kaynağın içinde durur. Böylece cevap anahtarı ile
+          kâğıtta görünen asla birbirinden ayrı düşmez.
+        </p>
+
+        {#each TEMPLATES as kalip}
+          <h3 class="mt-5 text-sm font-semibold text-gray-900 dark:text-white">{kalip.name}</h3>
+          <pre
+            class="mt-1 overflow-x-auto rounded-lg border border-gray-200 bg-gray-50 p-2.5
+                   font-mono text-xs leading-5 text-gray-700 dark:border-gray-700
+                   dark:bg-gray-800 dark:text-gray-300">{kalip.code}</pre>
+          <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">{kalip.note}</p>
         {/each}
 
-        <h2 id="temel" class="mt-rule border-t border-rule-strong pt-half">Typst temelleri</h2>
+        <h2
+          id="temel"
+          class="mt-8 border-t border-gray-200 pt-3 text-lg font-semibold text-gray-900
+                 dark:border-gray-700 dark:text-white"
+        >
+          Typst temelleri
+        </h2>
 
-        <p class="mt-quarter leading-rule">
-          <strong>Matematikte tek kural boşluktur.</strong> Dolar işaretinin hemen
-          yanına yazarsan matematik cümlenin içinde kalır; boşluk bırakırsan kendi
-          satırına düşer ve ortalanır.
+        <p class="mt-1 text-gray-700 dark:text-gray-300">
+          <strong class="text-gray-900 dark:text-white">Matematikte tek kural boşluktur.</strong>
+          Dolar işaretinin hemen yanına yazarsan matematik cümlenin içinde kalır; boşluk bırakırsan
+          kendi satırına düşer ve ortalanır.
         </p>
-        <pre class="ruled mt-quarter overflow-x-auto p-half font-mono text-[12px] leading-[20px]">Kök $x = 2$ olarak bulunur.     → cümlenin içinde
+        <pre
+          class="mt-1 overflow-x-auto rounded-lg border border-gray-200 bg-gray-50 p-2.5 font-mono
+                 text-xs leading-5 text-gray-700 dark:border-gray-700 dark:bg-gray-800
+                 dark:text-gray-300">Kök $x = 2$ olarak bulunur.     → cümlenin içinde
 Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
-        <p class="pencil mt-quarter">
-          Yukarıdaki Matematik düğmesi satır içi, Blok matematik düğmesi bloklu
-          olanı ekler; imleci de yazılacak yere koyar.
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+          Yukarıdaki Matematik düğmesi satır içi, Blok matematik düğmesi bloklu olanı ekler; imleci
+          de yazılacak yere koyar.
         </p>
-        <table class="mt-half w-full border-collapse">
+        <table class="mt-2.5 w-full border-collapse text-sm">
           <tbody>
-            {#each TEMEL as satir}
-              <tr class="border-b border-rule">
-                <td class="w-[46%] py-quarter pr-half font-mono text-[12px] leading-rule">{satir.kod}</td>
-                <td class="py-quarter text-[13px] leading-rule">{satir.ne}</td>
+            {#each BASICS as satir}
+              <tr class="border-b border-gray-200 dark:border-gray-700">
+                <td class="w-[46%] py-1.5 pr-2.5 align-top font-mono text-xs text-gray-700 dark:text-gray-300">
+                  {satir.code}
+                </td>
+                <td class="py-1.5 align-top text-gray-700 dark:text-gray-300">{satir.description}</td>
               </tr>
             {/each}
           </tbody>
         </table>
 
-        <h2 id="gorsel" class="mt-rule border-t border-rule-strong pt-half">Görsel ekleme</h2>
-        <p class="mt-quarter leading-rule">İki yol var, ikisi de aynı sonucu verir:</p>
-        <ul class="mt-quarter">
-          <li class="leading-rule">
-            <strong>Yapıştır.</strong> Ekran görüntüsü al, editöre
-            <span class="font-mono">⌘V</span> ile yapıştır.
+        <h2
+          id="gorsel"
+          class="mt-8 border-t border-gray-200 pt-3 text-lg font-semibold text-gray-900
+                 dark:border-gray-700 dark:text-white"
+        >
+          Görsel ekleme
+        </h2>
+        <p class="mt-1 text-gray-700 dark:text-gray-300">İki yol var, ikisi de aynı sonucu verir:</p>
+        <ul class="mt-1 list-inside list-disc text-gray-700 dark:text-gray-300">
+          <li>
+            <strong class="text-gray-900 dark:text-white">Yapıştır.</strong> Ekran görüntüsü al,
+            editöre <span class="font-mono">⌘V</span> ile yapıştır.
           </li>
-          <li class="leading-rule">
-            <strong>Görsel düğmesi.</strong> Yukarıdaki şeritten dosya seç.
+          <li>
+            <strong class="text-gray-900 dark:text-white">Görsel düğmesi.</strong> Yukarıdaki
+            şeritten dosya seç.
           </li>
         </ul>
-        <p class="mt-half leading-rule">
-          Her iki durumda da görsel uygulamanın veri klasörüne kopyalanır ve
-          gövdeye şu şekilde eklenir:
+        <p class="mt-2.5 text-gray-700 dark:text-gray-300">
+          Her iki durumda da görsel uygulamanın veri klasörüne kopyalanır ve gövdeye şu şekilde
+          eklenir:
         </p>
-        <pre class="ruled mt-quarter overflow-x-auto p-half font-mono text-[12px] leading-[20px]">#image("images/soru_20260901_143022_a3f7b2c1.png", width: 60%)</pre>
-        <p class="pencil mt-quarter">
+        <pre
+          class="mt-1 overflow-x-auto rounded-lg border border-gray-200 bg-gray-50 p-2.5 font-mono
+                 text-xs leading-5 text-gray-700 dark:border-gray-700 dark:bg-gray-800
+                 dark:text-gray-300">#image("images/soru_20260901_143022_a3f7b2c1.png", width: 60%)</pre>
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
           <span class="font-mono">width</span> değerini değiştirerek boyutlandır:
           <span class="font-mono">40%</span>, <span class="font-mono">8cm</span> gibi.
         </p>
 
-        <h3 class="mt-rule">Hizalama ve yerleşim</h3>
-        <pre class="ruled mt-quarter overflow-x-auto p-half font-mono text-[12px] leading-[20px]">#align(center)[#image("images/a.png", width: 60%)]   ortalı (varsayılan)
+        <h3 class="mt-5 text-sm font-semibold text-gray-900 dark:text-white">
+          Hizalama ve yerleşim
+        </h3>
+        <pre
+          class="mt-1 overflow-x-auto rounded-lg border border-gray-200 bg-gray-50 p-2.5 font-mono
+                 text-xs leading-5 text-gray-700 dark:border-gray-700 dark:bg-gray-800
+                 dark:text-gray-300">#align(center)[#image("images/a.png", width: 60%)]   ortalı (varsayılan)
 #align(right)[#image("images/a.png", width: 60%)]    sağa dayalı
 #image("images/a.png", width: 60%)                   sola dayalı
 
@@ -300,215 +343,382 @@ Kök $ x = 2 $ olarak bulunur.   → kendi satırında, ortalı</pre>
   image("images/a.png", width: 4cm),
 )
   metin solda, şekil sağda</pre>
-        <p class="pencil mt-quarter">
-          Yapıştırdığın görsel ortalı eklenir; sınav kâğıdında şekil neredeyse
-          her zaman ortalanır. Değiştirmek istersen <span class="font-mono">#align</span>
-          satırını düzenle.
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+          Yapıştırdığın görsel ortalı eklenir; sınav kâğıdında şekil neredeyse her zaman
+          ortalanır. Değiştirmek istersen <span class="font-mono">#align</span> satırını
+          düzenle.
         </p>
 
-        <h3 class="mt-rule">Vazgeçtiğin görseller</h3>
-        <p class="mt-quarter leading-rule">
-          Görsel yapıştırıldığı anda diske yazılır; sorunun kaydedilmesi
-          beklenmez. Beklenseydi önizleme onu gösteremezdi, çünkü Typst dosyadan
-          okur.
+        <h3 class="mt-5 text-sm font-semibold text-gray-900 dark:text-white">
+          Vazgeçtiğin görseller
+        </h3>
+        <p class="mt-1 text-gray-700 dark:text-gray-300">
+          Görsel yapıştırıldığı anda diske yazılır; sorunun kaydedilmesi beklenmez. Beklenseydi
+          önizleme onu gösteremezdi, çünkü Typst dosyadan okur.
         </p>
-        <p class="mt-quarter leading-rule">
-          Sorudan vazgeçersen o dosya kullanılmadan kalır. Uygulama açılışta,
-          hiçbir soruda kullanılmayan ve <strong>24 saatten eski</strong>
-          görselleri siler. Yaş sınırı bilinçli: az önce yapıştırdığın ve henüz
-          kaydetmediğin görsel hiçbir atıfta görünmez, sınır olmasa tam
-          yazarken silinirdi.
+        <p class="mt-1 text-gray-700 dark:text-gray-300">
+          Sorudan vazgeçersen o dosya kullanılmadan kalır. Uygulama açılışta, hiçbir soruda
+          kullanılmayan ve <strong class="text-gray-900 dark:text-white">24 saatten eski</strong>
+          görselleri siler. Yaş sınırı bilinçli: az önce yapıştırdığın ve henüz kaydetmediğin
+          görsel hiçbir atıfta görünmez, sınır olmasa tam yazarken silinirdi.
         </p>
-        <p class="mt-half leading-rule">
-          Yol <strong>göreli</strong>dir, mutlak değil. Bu bilinçli: mutlak yol
-          kullanıcı adını içerir ve veri başka bir bilgisayara taşındığında
+        <p class="mt-2.5 text-gray-700 dark:text-gray-300">
+          Yol <strong class="text-gray-900 dark:text-white">göreli</strong>dir, mutlak değil. Bu
+          bilinçli: mutlak yol kullanıcı adını içerir ve veri başka bir bilgisayara taşındığında
           kırılır — sınav görselsiz basılır, üstelik bunu fark etmek zordur.
         </p>
-        <p class="pencil mt-quarter">
-          En fazla 8 MB. PNG, JPEG, GIF ve WebP desteklenir. Görseller
-          veritabanıyla aynı klasörde durur, yani klasörü kopyalamak görselleri de
-          yedekler.
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+          En fazla 8 MB. PNG, JPEG, GIF ve WebP desteklenir. Görseller veritabanıyla aynı klasörde
+          durur, yani klasörü kopyalamak görselleri de yedekler.
         </p>
 
-        <h2 id="yunan" class="mt-rule border-t border-rule-strong pt-half">Yunan harfleri</h2>
-        <p class="mt-quarter leading-rule">
+        <h2
+          id="yunan"
+          class="mt-8 border-t border-gray-200 pt-3 text-lg font-semibold text-gray-900
+                 dark:border-gray-700 dark:text-white"
+        >
+          Yunan harfleri
+        </h2>
+        <p class="mt-1 text-gray-700 dark:text-gray-300">
           Adıyla yazılır. Büyük harf için baş harfi büyüt:
-          <span class="font-mono">$alpha$</span> → α,
-          <span class="font-mono">$Delta$</span> → Δ.
+          <span class="font-mono">$alpha$</span> → α, <span class="font-mono">$Delta$</span> → Δ.
           Editörde <span class="font-mono">$</span> yazınca hepsi listelenir.
         </p>
-        <table class="mt-half w-full border-collapse text-[13px]">
+        <table class="mt-2.5 w-full border-collapse text-sm">
           <tbody>
-            {#each YUNAN as [kucukAd, kucuk, buyukAd, buyuk]}
-              <tr class="border-b border-rule">
-                <td class="py-quarter font-mono text-[12px] leading-rule">${kucukAd}$</td>
-                <td class="py-quarter pr-half text-[15px]">{kucuk}</td>
-                <td class="py-quarter font-mono text-[12px] leading-rule">${buyukAd}$</td>
-                <td class="py-quarter text-[15px]">{buyuk}</td>
+            {#each GREEK_LETTERS as [kucukAd, kucuk, buyukAd, buyuk]}
+              <tr class="border-b border-gray-200 dark:border-gray-700">
+                <td class="py-1.5 font-mono text-xs text-gray-700 dark:text-gray-300">${kucukAd}$</td>
+                <td class="py-1.5 pr-2.5 text-base text-gray-900 dark:text-white">{kucuk}</td>
+                <td class="py-1.5 font-mono text-xs text-gray-700 dark:text-gray-300">${buyukAd}$</td>
+                <td class="py-1.5 text-base text-gray-900 dark:text-white">{buyuk}</td>
               </tr>
             {/each}
           </tbody>
         </table>
-        <p class="pencil mt-quarter">
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
           Artı-eksi için <span class="font-mono">$plus.minus$</span> yaz.
-          <span class="font-mono">+-</span> işe yaramaz; Typst onu ayrı iki işaret
-          olarak dizer.
+          <span class="font-mono">+-</span> işe yaramaz; Typst onu ayrı iki işaret olarak dizer.
         </p>
 
-        <h2 id="turev" class="mt-rule border-t border-rule-strong pt-half">Türev ve integral</h2>
-        <p class="mt-quarter leading-rule">
+        <h2
+          id="turev"
+          class="mt-8 border-t border-gray-200 pt-3 text-lg font-semibold text-gray-900
+                 dark:border-gray-700 dark:text-white"
+        >
+          Türev ve integral
+        </h2>
+        <p class="mt-1 text-gray-700 dark:text-gray-300">
           İki ayrı <span class="font-mono">d</span> vardır ve karıştırılmamalıdır:
-          <span class="font-mono">dif</span> düz diferansiyel <span class="font-mono">d</span>'yi,
-          <span class="font-mono">partial</span> kısmi türev <span class="font-mono">∂</span>'yi verir.
-          Düz harf <span class="font-mono">d</span> yazarsan değişken gibi eğik dizilir,
-          matematiksel olarak yanlış olur.
+          <span class="font-mono">dif</span> düz diferansiyel
+          <span class="font-mono">d</span>'yi, <span class="font-mono">partial</span> kısmi türev
+          <span class="font-mono">∂</span>'yi verir. Düz harf <span class="font-mono">d</span>
+          yazarsan değişken gibi eğik dizilir, matematiksel olarak yanlış olur.
         </p>
-        <table class="mt-half w-full border-collapse">
+        <table class="mt-2.5 w-full border-collapse text-sm">
           <tbody>
-            {#each TUREV as satir}
-              <tr class="border-b border-rule">
-                <td class="w-[52%] py-quarter pr-half font-mono text-[12px] leading-rule">{satir.kod}</td>
-                <td class="py-quarter text-[13px] leading-rule">{satir.ne}</td>
+            {#each CALCULUS as satir}
+              <tr class="border-b border-gray-200 dark:border-gray-700">
+                <td class="w-[52%] py-1.5 pr-2.5 align-top font-mono text-xs text-gray-700 dark:text-gray-300">
+                  {satir.code}
+                </td>
+                <td class="py-1.5 align-top text-gray-700 dark:text-gray-300">{satir.description}</td>
               </tr>
             {/each}
           </tbody>
         </table>
-        <p class="pencil mt-quarter">
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
           Blok olarak istersen dolarların yanına boşluk koy:
           <span class="font-mono">$ (dif y)/(dif x) = 2x + 3 $</span>
         </p>
 
-        <h2 id="kisayol" class="mt-rule border-t border-rule-strong pt-half">Kısayollar</h2>
-        <table class="mt-half w-full border-collapse">
+        <h2
+          id="kisayol"
+          class="mt-8 border-t border-gray-200 pt-3 text-lg font-semibold text-gray-900
+                 dark:border-gray-700 dark:text-white"
+        >
+          Kısayollar
+        </h2>
+        <table class="mt-2.5 w-full border-collapse text-sm">
           <tbody>
-            {#each KISAYOLLAR as satir}
-              <tr class="border-b border-rule">
-                <td class="w-[46%] py-quarter pr-half font-mono text-[12px] leading-rule">{satir.kod}</td>
-                <td class="py-quarter text-[13px] leading-rule">{satir.ne}</td>
+            {#each SHORTCUTS as satir}
+              <tr class="border-b border-gray-200 dark:border-gray-700">
+                <td class="w-[46%] py-1.5 pr-2.5 align-top font-mono text-xs text-gray-700 dark:text-gray-300">
+                  {satir.code}
+                </td>
+                <td class="py-1.5 align-top text-gray-700 dark:text-gray-300">{satir.description}</td>
               </tr>
             {/each}
           </tbody>
         </table>
 
-        <h2 id="kazanim" class="mt-rule border-t border-rule-strong pt-half">Kazanım kodu</h2>
-        <p class="mt-quarter leading-rule">
-          MEB biçiminde yazılır: <span class="font-mono">MAT.9.1.2</span> — ders kodu 1-5 harf (Türkçe harf geçerli: <span class="font-mono">FİZ</span>, <span class="font-mono">COĞ</span>), sonra sınıf,
-          sınıf, ünite, kazanım. Bir soruya birden çok kazanım yazabilirsin; boşluk
-          veya virgülle ayır.
+        <h2
+          id="kazanim"
+          class="mt-8 border-t border-gray-200 pt-3 text-lg font-semibold text-gray-900
+                 dark:border-gray-700 dark:text-white"
+        >
+          Kazanım kodu
+        </h2>
+        <p class="mt-1 text-gray-700 dark:text-gray-300">
+          MEB biçiminde yazılır: <span class="font-mono">MAT.9.1.2</span> — ders kodu 1-5 harf
+          (Türkçe harf geçerli: <span class="font-mono">FİZ</span>,
+          <span class="font-mono">COĞ</span>), sonra sınıf, sınıf, ünite, kazanım. Bir soruya
+          birden çok kazanım yazabilirsin; boşluk veya virgülle ayır.
         </p>
-        <p class="pencil mt-quarter">
-          Analiz ekranı kazanım başına başarıyı buradan hesaplar. Kazanım girilmemiş
-          soru analizde görünmez.
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+          Analiz ekranı kazanım başına başarıyı buradan hesaplar. Kazanım girilmemiş soru analizde
+          görünmez.
         </p>
 
-        <h2 id="hata" class="mt-rule border-t border-rule-strong pt-half">Hata mesajları</h2>
-        <p class="pencil mt-quarter">
-          Editörde <span class="text-red-deep">kırmızı</span> gördüğün her şey hatadır.
-          Renklendirmede kırmızı kullanılmaz; kenardaki
-          <span class="text-red-deep font-bold">✗</span> ve satır altındaki dalgalı
-          çizgi yalnızca derleme hatasında çıkar.
+        <h2
+          id="rubrik"
+          class="mt-8 border-t border-gray-200 pt-3 text-lg font-semibold text-gray-900
+                 dark:border-gray-700 dark:text-white"
+        >
+          Rubrik ve cevap anahtarı
+        </h2>
+        <p class="mt-1 text-gray-700 dark:text-gray-300">
+          Açık uçlu (klasik) sorularda puanı neye göre verdiğini yazabilirsin. Soruyu açtığında
+          paneldeki <b>Puanlama ölçütleri</b> bölümünden <b>+ Ölçüt ekle</b> ile satır eklersin:
+          solda ölçüt metni, sağda puanı.
         </p>
-        {#each HATALAR as hata}
-          <div class="mt-half border-t border-rule pt-half">
-            <p class="font-mono text-[12px] leading-rule text-red-deep">{hata.mesaj}</p>
-            <p class="mt-quarter text-[13px] leading-rule">{hata.ne}</p>
+        <p class="mt-1 text-gray-700 dark:text-gray-300">
+          Ölçüt puanlarının toplamı <b>soru puanına eşit olmak zorunda</b>. Eşit değilken sağ
+          üstteki sayaç kırmızıya döner ve kaydetme kilitlenir; altında kaç puanın dağıtılmadığı
+          yazar. Ölçüt yazmak zorunlu değil — boş bırakırsan cevap anahtarına puanlama tablosu
+          basılmaz.
+        </p>
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+          Ölçüt alanı Typst kabul eder: <span class="font-mono">$</span> yazınca sembol listesi
+          açılır. &quot;Formül
+          <span class="font-mono">$R = (V_(&quot;pin&quot;) - V_F)/I$</span>
+          yazılmış&quot; gibi ölçütler böyle yazılır.
+        </p>
+
+        <h3
+          class="mt-4 text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400"
+        >
+          Cevap anahtarını basmak
+        </h3>
+        <p class="mt-1 text-gray-700 dark:text-gray-300">
+          Ayrı bir &quot;cevap anahtarı oluştur&quot; adımı yok. Sınavı aç,
+          <b>Cevap anahtarı</b> kutucuğunu işaretle — önizleme anında değişir — sonra
+          <b>PDF kaydet</b>. Dosya adı kendiliğinden <span class="font-mono">_cevap</span> ile
+          biter.
+        </p>
+        <p class="mt-1 text-gray-700 dark:text-gray-300">
+          Kutucuk işaretliyken kâğıda <b>ek olarak</b> şunlar girer: doğru şık işareti,
+          doğru/yanlış cevabı, soru başlığı, puanlama ölçütleri tablosu (TOPLAM satırıyla) ve
+          örnek cevap. İşaretsizken hiçbiri basılmaz.
+        </p>
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+          İki kâğıdın soru sırası birebir aynıdır: karıştırma sırası sınav kimliğinden türer.
+          <b>Kitapçık türünü değiştirdiysen anahtarı da aynı türle bas</b> — B kitapçığının
+          anahtarını A ile basarsan sıralar tutmaz.
+        </p>
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+          Soru başlığı da yalnız cevap anahtarında görünür. Öğrenci nüshasında basılsaydı konuyu
+          ele verirdi: &quot;Dijital Çıkış — LED Sürme&quot; başlığı, sorunun neyi sorduğunu
+          okumadan söyler.
+        </p>
+        <h3
+          class="mt-4 text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400"
+        >
+          Eski dosyandan rubrik yapıştırmak
+        </h3>
+        <p class="mt-1 text-gray-700 dark:text-gray-300">
+          Elindeki cevap anahtarı dosyalarında ölçütler
+          <span class="font-mono">#rubrik((([ölçüt], puan), ...))</span> biçiminde yazılıysa bunu
+          doğrudan soru gövdesine yapıştırabilirsin. Üstte bir şerit çıkar ve
+          <b>Panele taşı ve gövdeden kaldır</b> düğmesiyle ölçütler panele geçer, blok gövdeden
+          silinir.
+        </p>
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+          Yalnız düz <span class="font-mono">([ölçüt], puan)</span> demetleri taşınabiliyor.
+          Değişkenle yazılmış (<span class="font-mono">#rubrik(olcutler)</span>), hesaplanmış
+          puanlı (<span class="font-mono">3 + 2</span>) veya döngüyle üretilmiş rubrikler
+          okunmaz — şerit sebebini yazar, ölçütleri panele elle girersin. Bu sınır bilinçli: yanlış
+          okunmuş bir ölçüt yanlış not demek olurdu.
+        </p>
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+          <b>Gövdede kalan rubrik kaydettirmez.</b> Panele taşımazsan kaydetme reddedilir, çünkü
+          gövdedeki blok hiçbir yerde işlemez: cevap anahtarına basılmaz, sonuç girişinde kutucuk
+          çıkmaz, toplam doğrulaması çalışmaz. Ölçütleri yazdığını sanıp hiçbirinin işlememesi, en
+          baştan hata almaktan kötüdür.
+        </p>
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+          Ayrıca güvenlik ağı var: önsözdeki <span class="font-mono">#rubrik</span> öğrenci
+          nüshasında hiçbir şey basmaz. Gözden kaçan bir blok bile öğrencinin önüne düşemez.
+        </p>
+
+        <h3
+          class="mt-4 text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400"
+        >
+          Ölçütlere göre puanlamak
+        </h3>
+        <p class="mt-1 text-gray-700 dark:text-gray-300">
+          <b>Analiz &rarr; Sonuç girişi</b> ekranında açık uçlu sorunun ölçütleri kutucuk olarak
+          çıkar. İşaretledikçe puan kendiliğinden toplanır. Puan kutusunu elle de
+          değiştirebilirsin: ölçüte tam uymayan ama karşılığı olan bir cevabı takdir
+          edebilmelisin — rubrik yardımcıdır, kelepçe değil.
+        </p>
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+          Rubriği sonradan düzenlersen <b>daha önce girilmiş notlar değişmez.</b> Puan giriş anında
+          hesaplanıp kaydedilir. Yalnız kaydedilen ölçüt kırılımı eski rubriğe işaret ediyor
+          olabilir.
+        </p>
+
+        <h2
+          id="hata"
+          class="mt-8 border-t border-gray-200 pt-3 text-lg font-semibold text-gray-900
+                 dark:border-gray-700 dark:text-white"
+        >
+          Hata mesajları
+        </h2>
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+          Editörde <span class="text-red-600 dark:text-red-500">kırmızı</span> gördüğün her şey
+          hatadır. Renklendirmede kırmızı kullanılmaz; kenardaki
+          <span class="font-bold text-red-600 dark:text-red-500">✗</span> ve satır altındaki
+          dalgalı çizgi yalnızca derleme hatasında çıkar.
+        </p>
+        {#each COMMON_ERRORS as hata}
+          <div class="mt-3 border-t border-gray-200 pt-3 dark:border-gray-700">
+            <p class="font-mono text-xs text-red-600 dark:text-red-500">{hata.message}</p>
+            <p class="mt-1 text-sm text-gray-700 dark:text-gray-300">{hata.description}</p>
           </div>
         {/each}
 
-        <h2 id="lsp" class="mt-rule border-t border-rule-strong pt-half">Dil sunucusu</h2>
-        <p class="mt-quarter leading-rule">
-          Editör kutudan çıktığı hâliyle Typst'in <strong>560 sembolünü</strong>
-          tanır: işlevler, parametreleri, matematik sembolleri, senin yazdığın
+        <h2
+          id="lsp"
+          class="mt-8 border-t border-gray-200 pt-3 text-lg font-semibold text-gray-900
+                 dark:border-gray-700 dark:text-white"
+        >
+          Dil sunucusu
+        </h2>
+        <p class="mt-1 text-gray-700 dark:text-gray-300">
+          Editör kutudan çıktığı hâliyle Typst'in <strong class="text-gray-900 dark:text-white"
+            >560 sembolünü</strong
+          > tanır: işlevler, parametreleri, matematik sembolleri, senin yazdığın
           <span class="font-mono">#let</span> tanımları. İnternet gerekmez.
         </p>
-        <p class="mt-half leading-rule">
-          İstersen <strong>tinymist</strong> dil sunucusunu kurabilirsin. Üstüne
-          şunları ekler: içe aktarılan paketlerin sembolleri, belge üzerinden
+        <p class="mt-2.5 text-gray-700 dark:text-gray-300">
+          İstersen <strong class="text-gray-900 dark:text-white">tinymist</strong> dil sunucusunu
+          kurabilirsin. Üstüne şunları ekler: içe aktarılan paketlerin sembolleri, belge üzerinden
           hover açıklamaları ve daha isabetli öneri sıralaması.
         </p>
-        <p class="pencil mt-quarter">
-          Uygulamayla birlikte gelmiyor — platform başına 60 MB ve dondurulmuş
-          bir sürüm demek olurdu. Kurulum senin açık isteğinle yapılır; indirilen
-          dosya sha256 ile doğrulanır, tutmazsa kurulmaz.
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+          Uygulamayla birlikte gelmiyor — platform başına 60 MB ve dondurulmuş bir sürüm demek
+          olurdu. Kurulum senin açık isteğinle yapılır; indirilen dosya sha256 ile doğrulanır,
+          tutmazsa kurulmaz.
         </p>
 
-        <div class="ruled mt-half p-half">
+        <div
+          class="mt-2.5 rounded-lg border border-gray-200 bg-gray-50 p-4 dark:border-gray-700
+                 dark:bg-gray-800"
+        >
           {#if lspStatus === null}
-            <p class="pencil">Durum okunuyor…</p>
+            <p class="text-sm text-gray-500 dark:text-gray-400">Durum okunuyor…</p>
           {:else if !lspStatus.supported}
-            <p class="annot">Bu platform için hazır yapı yok.</p>
+            <p class="text-sm text-red-600 dark:text-red-500">Bu platform için hazır yapı yok.</p>
           {:else if lspStatus.installed}
-            <p class="leading-rule">
-              Kurulu — <span class="font-mono text-[12px]">{lspStatus.version}</span>
+            <p class="text-gray-700 dark:text-gray-300">
+              Kurulu — <span class="font-mono text-xs">{lspStatus.version}</span>
             </p>
-            <p class="pencil font-mono text-[11px]">{lspStatus.path}</p>
-            <div class="mt-half">
-              <PenButton kind="quiet" disabled={lspBusy} onclick={removeLsp}>
+            <p class="font-mono text-xs text-gray-500 dark:text-gray-400">{lspStatus.path}</p>
+            <div class="mt-2.5">
+              <Button size="sm" color="alternative" disabled={lspBusy} onclick={removeLsp}>
                 {lspBusy ? "Kaldırılıyor…" : "Kaldır"}
-              </PenButton>
+              </Button>
             </div>
           {:else}
-            <p class="leading-rule">Kurulu değil.</p>
-            <div class="mt-half">
-              <PenButton kind="ink" disabled={lspBusy} onclick={installLsp}>
+            <p class="text-gray-700 dark:text-gray-300">Kurulu değil.</p>
+            <div class="mt-2.5">
+              <Button size="sm" disabled={lspBusy} onclick={installLsp}>
                 {lspBusy ? "İndiriliyor… (60 MB)" : `Kur (${lspStatus.version}, 60 MB)`}
-              </PenButton>
+              </Button>
             </div>
           {/if}
 
           {#if lspDone}
-            <p class="pencil mt-half">Kuruldu: <span class="font-mono text-[11px]">{lspDone}</span></p>
+            <p class="mt-2.5 text-sm text-gray-500 dark:text-gray-400">
+              Kuruldu: <span class="font-mono text-xs">{lspDone}</span>
+            </p>
           {/if}
           {#if lspError}
-            <p class="annot mt-half">{lspError}</p>
+            <p class="mt-2.5 text-sm text-red-600 dark:text-red-500">{lspError}</p>
           {/if}
         </div>
 
-        <h2 id="yayin" class="mt-rule border-t border-rule-strong pt-half">
+        <h2
+          id="yayin"
+          class="mt-8 border-t border-gray-200 pt-3 text-lg font-semibold text-gray-900
+                 dark:border-gray-700 dark:text-white"
+        >
           Yayınla ve PDF kaydet
         </h2>
-        <p class="mt-quarter leading-rule">
+        <p class="mt-1 text-gray-700 dark:text-gray-300">
           İkisi farklı işler yapar ve birbirinin yerine geçmez.
         </p>
 
-        <dl class="ruled mt-half p-half">
-          <dt class="stamp">Yayınla</dt>
-          <dd class="mt-quarter leading-rule">
+        <dl
+          class="mt-2.5 rounded-lg border border-gray-200 bg-gray-50 p-4 dark:border-gray-700
+                 dark:bg-gray-800"
+        >
+          <dt
+            class="text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400"
+          >
+            Yayınla
+          </dt>
+          <dd class="mt-1 text-gray-700 dark:text-gray-300">
             Sınavın durumunu <span class="font-mono">Taslak</span> yerine
-            <span class="font-mono">Yayında</span> yapar. Kâğıt basmaz, dosya
-            üretmez. Anlamı şudur: <strong>bu sınav artık hazır</strong> — soru
-            listesi ve puanlar dondurulmuş sayılır, sonuç girilebilir. Analiz
-            ekranı yalnız yayımlanmış sınavları hazır seçenek olarak alır.
+            <span class="font-mono">Yayında</span> yapar. Kâğıt basmaz, dosya üretmez. Anlamı
+            şudur: <strong class="text-gray-900 dark:text-white">bu sınav artık hazır</strong> —
+            soru listesi ve puanlar dondurulmuş sayılır, sonuç girilebilir. Analiz ekranı yalnız
+            yayımlanmış sınavları hazır seçenek olarak alır.
           </dd>
 
-          <dt class="stamp mt-half">PDF kaydet</dt>
-          <dd class="mt-quarter leading-rule">
-            Kâğıdı derler ve <strong>senin seçtiğin yere</strong> bir PDF dosyası
-            yazar. Sınavın durumuna dokunmaz; taslak bir sınavın da PDF'i alınır.
+          <dt
+            class="mt-2.5 text-xs font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400"
+          >
+            PDF kaydet
+          </dt>
+          <dd class="mt-1 text-gray-700 dark:text-gray-300">
+            Kâğıdı derler ve <strong class="text-gray-900 dark:text-white"
+              >senin seçtiğin yere</strong
+            > bir PDF dosyası yazar. Sınavın durumuna dokunmaz; taslak bir sınavın da PDF'i alınır.
             Yazıcıya gidecek olan budur.
           </dd>
         </dl>
 
-        <p class="pencil mt-half">
+        <p class="mt-2.5 text-sm text-gray-500 dark:text-gray-400">
           Sıralama şöyle olur: soruları ekle, puanları ayarla, kâğıdı önizle,
-          <strong>PDF kaydet</strong> ile bas, ve sınav uygulanmaya hazır olduğunda
-          <strong>Yayınla</strong> de. Cevap anahtarı ayrı bir PDF'tir:
-          <span class="font-mono">Cevap anahtarı</span> kutusunu işaretleyip tekrar
-          kaydet.
+          <strong class="text-gray-900 dark:text-white">PDF kaydet</strong> ile bas, ve sınav
+          uygulanmaya hazır olduğunda <strong class="text-gray-900 dark:text-white"
+            >Yayınla</strong
+          > de. Cevap anahtarı ayrı bir PDF'tir: <span class="font-mono">Cevap anahtarı</span>
+          kutusunu işaretleyip tekrar kaydet.
         </p>
 
-        <h2 id="veri" class="mt-rule border-t border-rule-strong pt-half">Verilerim nerede</h2>
-        <p class="mt-quarter leading-rule">
-          Her şey kendi bilgisayarında. İnternet gerekmez, hesap yoktur, hiçbir veri
-          dışarı çıkmaz.
+        <h2
+          id="veri"
+          class="mt-8 border-t border-gray-200 pt-3 text-lg font-semibold text-gray-900
+                 dark:border-gray-700 dark:text-white"
+        >
+          Verilerim nerede
+        </h2>
+        <p class="mt-1 text-gray-700 dark:text-gray-300">
+          Her şey kendi bilgisayarında. İnternet gerekmez, hesap yoktur, hiçbir veri dışarı
+          çıkmaz.
         </p>
-        <pre class="ruled mt-quarter overflow-x-auto p-half font-mono text-[12px] leading-[20px]">~/Library/Application Support/tayan/</pre>
-        <p class="pencil mt-quarter">
-          Soru bankası, sınavlar, sınıflar ve sonuçlar bu klasördeki veritabanı
-          dosyasında durur. Yedek almak için klasörü kopyalaman yeterlidir.
+        <pre
+          class="mt-1 overflow-x-auto rounded-lg border border-gray-200 bg-gray-50 p-2.5 font-mono
+                 text-xs leading-5 text-gray-700 dark:border-gray-700 dark:bg-gray-800
+                 dark:text-gray-300">~/Library/Application Support/tayan/</pre>
+        <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+          Soru bankası, sınavlar, sınıflar ve sonuçlar bu klasördeki veritabanı dosyasında durur.
+          Yedek almak için klasörü kopyalaman yeterlidir.
         </p>
-
       </div>
     </article>
   </div>
-</div>
+</PageShell>

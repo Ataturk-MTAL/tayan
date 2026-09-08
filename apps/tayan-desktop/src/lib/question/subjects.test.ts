@@ -2,10 +2,10 @@ import { describe, expect, test } from "vitest";
 import { GRADE_OPTIONS, STARTER_SUBJECTS, subjectSuggestions } from "./subjects";
 import type { Question } from "$lib/types";
 
-function soru(subject: string): Question {
+function makeQuestion(subject: string): Question {
   return {
     question_type: "true_false",
-    meta: { subject, grade: 9, difficulty: null },
+    meta: { subject, grade: 9, difficulty: null, title: "" },
     id: `q-${subject}`,
     points: 5,
     outcomes: [],
@@ -26,13 +26,13 @@ function soru(subject: string): Question {
 
 describe("subjectSuggestions", () => {
   test("bankada kullanılan dersler EN ÜSTE çıkar", () => {
-    const r = subjectSuggestions([soru("Sayısal Elektronik"), soru("Kumanda Teknikleri")]);
+    const r = subjectSuggestions([makeQuestion("Sayısal Elektronik"), makeQuestion("Kumanda Teknikleri")]);
     // Kullanılanlar alfabetik, sonra başlangıç listesinin kalanı.
     expect(r.slice(0, 2)).toEqual(["Kumanda Teknikleri", "Sayısal Elektronik"]);
   });
 
   test("kullanılan ders başlangıç listesinde tekrarlanmaz", () => {
-    const r = subjectSuggestions([soru("Matematik")]);
+    const r = subjectSuggestions([makeQuestion("Matematik")]);
     expect(r.filter((s) => s === "Matematik")).toHaveLength(1);
     expect(r[0]).toBe("Matematik");
   });
@@ -42,11 +42,11 @@ describe("subjectSuggestions", () => {
   });
 
   test("boş ve boşluklu ders adları elenir", () => {
-    expect(subjectSuggestions([soru("   "), soru("")])).toEqual(STARTER_SUBJECTS);
+    expect(subjectSuggestions([makeQuestion("   "), makeQuestion("")])).toEqual(STARTER_SUBJECTS);
   });
 
   test("Türkçe sıralama: Ç, İ, Ü doğru yerde", () => {
-    const r = subjectSuggestions([soru("Ünite Testi"), soru("Çizim"), soru("İngilizce")]);
+    const r = subjectSuggestions([makeQuestion("Ünite Testi"), makeQuestion("Çizim"), makeQuestion("İngilizce")]);
     expect(r.slice(0, 3)).toEqual(["Çizim", "İngilizce", "Ünite Testi"]);
   });
 });

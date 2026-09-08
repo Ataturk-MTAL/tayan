@@ -34,3 +34,28 @@ apps/tayan-desktop/src-tauri/icons/android/
 apps/tayan-desktop/src-tauri/icons/ios/
 apps/tayan-desktop/src-tauri/icons/Square*Logo.png
 apps/tayan-desktop/src-tauri/icons/StoreLogo.png
+
+# Ajan eklentisinin kök dizine bıraktığı yönerge dosyası. İçeriği bu projeye
+# ait değil (başka bir deponun donanım/bench yönergeleri) ve makineden makineye
+# değişiyor; sürümlenmesi anlamsız.
+/CLAUDE.md
+
+# Ajan araçlarının makineye özel yerel ayarları. Proje skill'leri
+# (.claude/skills/) sürümlenir, ekiple paylaşılır; yerel ayarlar ve oturum
+# artıkları makineden makineye değişir, girmez.
+/.claude/settings.local.json
+/.claude/*.local.json
+
+# Firecrawl CLI'ın yerel önbelleği.
+/.firecrawl/
+
+# TYMM kılavuz PDF'leri (~55 MB). scripts/fetch_tymm_kilavuzlar.py ile indirilir;
+# yapılandırılmış özet data/tymm/olcme-rehberi.json'dadır.
+/.tymm-pdf/
+
+# ders-beceri.* tamamen türetilmiştir: beceriler.json + dersler.json'dan
+# scripts/build_tymm_ders_beceri.py ile saniyeler içinde yeniden üretilir.
+# 5.9 MB'lık türetilmiş veriyi sürümlemek yerine üretim adımı olarak durur.
+/data/tymm/ders-beceri.json
+/data/tymm/ders-beceri.jsonl
+/data/tymm/ders-beceri.report.json

@@ -9,8 +9,10 @@ import type {
   QuestionAnswerInput,
   QuestionMeta,
   QuestionOption,
+  RubricItem,
   Student,
 } from "./types";
+import type { AnalysisReport } from "./analysis/report";
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -135,6 +137,24 @@ export const api = {
 
     deleteClassroom: (classroomId: string) =>
       invoke<void>("delete_classroom", { classroomId }),
+
+    /**
+     * Sınıf listesi dosyasını (Excel / OpenDocument) ayrıştırır.
+     *
+     * AYRIŞTIRMA RUST'TA. `calamine` eski `.xls` biçimini de okuyor — e-Okul
+     * bir MEB sistemi ve `.xls` çıktı vermesi olası; tarayıcı tarafındaki JS
+     * seçenekleri ya o biçimi hiç açmıyor ya da npm'de yamalanmamış bir
+     * prototype-pollution açığı taşıyor (CVE-2023-30533, tetikleyicisi tam da
+     * dosya okumak). Ayrıca ikili dosya webview'in dışında çözülüyor.
+     *
+     * Baytlar `<input type="file">`tan geliyor, yol değil içerik — bu yüzden
+     * `plugin-fs` ve `dialog:allow-open` izni gerekmiyor.
+     *
+     * Dönen `rows`: başlık aranmamış ham satırlar, her hücre metin. Hangi
+     * sütunun ne olduğuna arayüzde öğretmen karar veriyor.
+     */
+    parseRoster: (bytes: Uint8Array) =>
+      invoke<{ rows: string[][] }>("parse_roster", { bytes }),
   },
 
   results: {
@@ -195,6 +215,35 @@ export const api = {
      */
     previewQuestion: (body: string) =>
       invoke<string[]>("compile_question_preview_svg", { body }),
+
+    /**
+     * Cevap anahtarı önizlemesi: soru + rubrik tablosu + örnek cevap.
+     *
+     * Rust tarafı geçici bir ClassicQuestion kurup GERÇEK dizgi yolunu
+     * çağırıyor; burada üretilen bir şey yok. Önizleme ile basılan anahtarın
+     * ayrışmaması buna bağlı.
+     */
+    /**
+     * Sınav analizi raporunu PDF olarak yazar.
+     *
+     * Ölçüler ekranda hesaplanıp OLDUĞU GİBİ gönderiliyor. Rust'ta ikinci bir
+     * hesap yapılsaydı kâğıt ile ekran sessizce ayrışabilirdi.
+     */
+    exportAnalysisPdf: (report: AnalysisReport, path: string) =>
+      invoke<string>("export_analysis_pdf", { report, path }),
+
+    previewAnswerKey: (
+      body: string,
+      sampleAnswer: string | null,
+      rubric: RubricItem[],
+      points: number,
+    ) =>
+      invoke<string[]>("compile_answer_preview_svg", {
+        body,
+        sampleAnswer,
+        rubric,
+        points,
+      }),
 
     /**
      * Banka kartı için tek SVG. Sayfa içeriğe göre boyutlanır — tam A4

@@ -21,7 +21,7 @@ impl TypstGenerator {
     ) -> Result<String, CompilerError> {
         let mut out = String::new();
 
-        out.push_str(PREAMBLE);
+        out.push_str(&Self::preamble_for(ctx.answer_key));
         out.push_str(&exam_header(exam, ctx.booklet.as_deref()));
 
         // Karıştırma tohumu sınav kimliğinden gelir: aynı sınav her basıldığında
@@ -83,6 +83,28 @@ impl TypstGenerator {
     /// Şablonun önsözü. Sembol dökümü buradan kendi yardımcılarını okur.
     pub fn preamble() -> &'static str {
         PREAMBLE
+    }
+
+    /// Önsözün istenen nüshaya göre ayarlanmış hâli.
+    ///
+    /// Bayrak önsözün İLK satırında ve `cevap-alani` ondan sonra tanımlı;
+    /// Typst kapanışları tanım anında yakaladığı için sıra önemli. Satır
+    /// sayısı değişmediğinden `preview_line_offset()` bozulmuyor.
+    pub fn preamble_for(answer_key: bool) -> String {
+        if answer_key {
+            PREAMBLE.replacen(
+                "#let anahtar-nushasi = false",
+                "#let anahtar-nushasi = true",
+                1,
+            )
+        } else {
+            PREAMBLE.to_string()
+        }
+    }
+
+    /// Cevap anahtarı önizlemesi/basımı için belge.
+    pub fn answer_key_document(body: &str) -> String {
+        format!("{}{body}\n", Self::preamble_for(true))
     }
 
     pub fn preview_document(body: &str) -> String {
@@ -239,7 +261,8 @@ fn exam_header(exam: &Exam, booklet: Option<&str>) -> String {
     )
 }
 
-const PREAMBLE: &str = r##"#set page(paper: "a4", margin: (x: 2cm, y: 2.5cm))
+const PREAMBLE: &str = r##"#let anahtar-nushasi = false
+#set page(paper: "a4", margin: (x: 2cm, y: 2.5cm))
 #set text(lang: "tr", size: 11pt, font: "Libertinus Serif")
 #set par(leading: 0.75em, justify: false)
 #set list(marker: ([--], [•]))
@@ -347,6 +370,11 @@ const PREAMBLE: &str = r##"#set page(paper: "a4", margin: (x: 2cm, y: 2.5cm))
 // `satir` her üç biçimde de yüksekliği belirler. Kareli alanda bir "satır"
 // bir 5 mm karedir, yani satir: 10 → 50 mm yükseklik.
 #let cevap-alani(satir: 6, bicim: "cizgili") = {
+  // CEVAP ANAHTARINDA BASILMAZ. Cevap zaten yazılı; boş çizgi ya da kareli
+  // alan hem kâğıt harcar hem de rubrik tablosunu aşağı iter. Öğretmenin
+  // kendi cevap anahtarında da cevap alanı yoktur.
+  if anahtar-nushasi { return none }
+
   v(0.3cm)
 
   if bicim == "kareli" {
@@ -372,4 +400,173 @@ const PREAMBLE: &str = r##"#set page(paper: "a4", margin: (x: 2cm, y: 2.5cm))
   }
 }
 
+// Açık uçlu sorunun puanlama ölçütleri. YALNIZ cevap anahtarında basılır.
+//
+// satirlar: ((ölçüt, puan), (ölçüt, puan), ...)
+//
+// TOPLAM satırı kendiliğinden hesaplanır ve elle yazılmaz. Elle yazılan bir
+// toplam, ölçüt eklenince sessizce yanlışa döner; okuyan öğretmen de kâğıdı
+// yanlış toplamla değerlendirir.
+//
+// breakable: false — tablo sayfa/sütun ortasından bölünürse ölçütlerin bir
+// kısmı öbür sütunda kalır ve okuyan kişi eksik ölçütle puanlar.
+//
+// GÖSTER VARSAYILAN OLARAK KAPALI — GÜVENLİK AĞI.
+//
+// Cevap anahtarını üreten Rust `goster: true` verir. Öğretmen soru gövdesine
+// elle `#rubrik((...))` yazarsa parametre verilmez ve hiçbir şey basılmaz:
+// puanlama ölçütleri öğrenci kâğıdına ASLA sızmaz. Bayrağı önsözde bir
+// değişken yapmak yerine parametre yapmanın sebebi Typst'in kapanışları
+// tanım anında yakalaması — sonradan yeniden bağlanan bir değişkeni bu
+// fonksiyon görmez ve koruma sessizce çalışmaz hâle gelirdi.
+#let rubrik(satirlar, goster: false) = {
+  if not goster { return none }
+  let toplam = satirlar.map(s => s.at(1)).sum(default: 0)
+  block(breakable: false, above: 0.5em, below: 0.2em, width: 100%)[
+    #text(8.3pt, weight: "bold", fill: rgb("#1b5e20"))[Puanlama Ölçütleri (Rubrik):]
+    #v(0.2em)
+    #table(
+      columns: (1fr, auto),
+      stroke: 0.5pt + luma(60%),
+      inset: (x: 5pt, y: 3pt),
+      align: (col, row) => if col == 1 { center + horizon } else { left + horizon },
+      fill: (col, row) => if row == 0 { luma(90%) } else { none },
+      table.header(
+        text(8pt, weight: "bold")[Değerlendirme Ölçütü],
+        text(8pt, weight: "bold")[Puan],
+      ),
+      ..satirlar.map(s => (text(8.3pt)[#s.at(0)], text(8.3pt)[#s.at(1)])).flatten(),
+      table.cell(fill: luma(95%))[#text(8.3pt, weight: "bold")[TOPLAM]],
+      table.cell(fill: luma(95%))[#text(8.3pt, weight: "bold")[#toplam]],
+    )
+  ]
+}
+
 "##;
+
+#[cfg(test)]
+mod preamble_tests {
+    use super::*;
+    use crate::world::TayanWorld;
+
+    /// Önsöz her PDF'in başına giriyor. Buradaki bir sözdizimi hatası tek bir
+    /// soruyu değil, uygulamanın BÜTÜN çıktısını bozar — hem önizlemeyi hem
+    /// kâğıdı hem cevap anahtarını. Bu yüzden derlemesi test edilir; kaynağın
+    /// üretilmiş olması yetmez.
+    fn svg(govde: &str) -> Result<Vec<String>, String> {
+        svg_nusha(govde, false)
+    }
+
+    fn svg_nusha(govde: &str, anahtar: bool) -> Result<Vec<String>, String> {
+        let kaynak = format!("{}{govde}\n", TypstGenerator::preamble_for(anahtar));
+        TayanWorld::compile_svg(kaynak).map_err(|e| e.to_string())
+    }
+
+    fn derlenir(govde: &str) -> Result<(), String> {
+        svg(govde).map(|_| ())
+    }
+
+    #[test]
+    fn onsoz_tek_basina_derlenir() {
+        derlenir("Deneme").expect("önsöz derlenmeli");
+    }
+
+    #[test]
+    fn rubrik_tablosu_derlenir_ve_toplami_kendi_hesaplar() {
+        // Cevap anahtarının bastığı biçimin aynısı.
+        derlenir(
+            r#"#rubrik((
+    ([Çalışma prensibi doğru açıklanmış], 6),
+    ([Formül yazılmış], 3),
+    ([İşlem ve sonuç doğru], 5),
+    ([Aşırı akım/zarar açıklanmış], 6),
+  ), goster: true)"#,
+        )
+        .expect("rubrik tablosu derlenmeli");
+    }
+
+    #[test]
+    fn olcut_icindeki_matematik_derlenir() {
+        // Rubrik ölçütleri matematik içeriyor. Kaynağın üretilmiş olması
+        // yetmez — Typst'in onu gerçekten dizebildiğini görmek gerekir.
+        derlenir(
+            r#"#rubrik((
+    ([Formül $R = (V_("pin") - V_F)/I$ yazılmış], 3),
+    ([$(1011 thin 0110)_2 = 182$ doğru], 4),
+  ), goster: true)"#,
+        )
+        .expect("matematikli ölçüt derlenmeli");
+    }
+
+    #[test]
+    fn tek_olcutlu_rubrik_de_derlenir() {
+        derlenir("#rubrik((([Tek ölçüt], 20),), goster: true)").expect("tek satırlı rubrik derlenmeli");
+    }
+
+    #[test]
+    fn goster_verilmeden_rubrik_hicbir_sey_basmaz() {
+        // GÜVENLİK AĞI. Öğretmen soru gövdesine elle `#rubrik((...))` yazarsa
+        // ölçütler öğrenci kâğıdına basılmamalı. "Derlendi" demek yetmez —
+        // çıktının BOŞ sayfayla birebir aynı olduğu görülmeli.
+        let bos = svg("Deneme").expect("boş belge derlenmeli");
+        let rubrikli = svg(
+            r#"Deneme#rubrik((([Gizli ölçüt], 6), ([Başka ölçüt], 4)))"#,
+        )
+        .expect("gövde içi rubrik derlenmeli");
+
+        assert_eq!(
+            bos, rubrikli,
+            "gövdeye yazılmış rubrik öğrenci kâğıdına sızdı"
+        );
+    }
+
+    #[test]
+    fn goster_true_ile_tablo_basilir() {
+        let bos = svg("Deneme").expect("boş belge derlenmeli");
+        let anahtar = svg(r#"Deneme#rubrik((([Ölçüt], 10),), goster: true)"#)
+            .expect("anahtar rubriği derlenmeli");
+        assert_ne!(bos, anahtar, "goster: true olmasına rağmen tablo basılmadı");
+    }
+
+    #[test]
+    fn cevap_alani_anahtar_nushasinda_basilmaz() {
+        // Cevap anahtarında öğrenci cevap alanı anlamsız: cevap zaten yazılı,
+        // boş çizgiler kâğıt harcar ve rubrik tablosunu aşağı iter. Gövdeye
+        // ELLE yazılmış çağrı da susmalı — domain'deki kontrol yalnız kendi
+        // ürettiği alanı kapatıyor, bu önsöz bayrağı gövdedekini kapatıyor.
+        let bos = svg_nusha("Deneme", true).expect("boş belge derlenmeli");
+
+        for bicim in ["cizgili", "kareli", "bos"] {
+            let alanli = svg_nusha(
+                &format!("Deneme#cevap-alani(satir: 8, bicim: \"{bicim}\")"),
+                true,
+            )
+            .unwrap_or_else(|e| panic!("{bicim} derlenmeli: {e}"));
+
+            assert_eq!(bos, alanli, "{bicim} biçimi cevap anahtarına basıldı");
+        }
+    }
+
+    #[test]
+    fn cevap_alani_ogrenci_nushasinda_basilir() {
+        let bos = svg_nusha("Deneme", false).expect("boş belge derlenmeli");
+        let alanli = svg_nusha("Deneme#cevap-alani(satir: 8)", false)
+            .expect("öğrenci nüshası derlenmeli");
+        assert_ne!(bos, alanli, "öğrenci kâğıdında cevap alanı kayboldu");
+    }
+
+    #[test]
+    fn bos_rubrik_cokmez() {
+        // Cevap anahtarı boş rubriği hiç basmıyor, ama `sum()` boş dizide
+        // panikler; varsayılan verilmezse bu sessiz bir tuzak olurdu.
+        derlenir("#rubrik((), goster: true)").expect("boş rubrik çökmemeli");
+    }
+
+    #[test]
+    fn cevap_alani_uc_bicimde_de_derlenir() {
+        for bicim in ["cizgili", "kareli", "bos"] {
+            derlenir(&format!("#cevap-alani(satir: 4, bicim: \"{bicim}\")"))
+                .unwrap_or_else(|e| panic!("{bicim} biçimi derlenmeli: {e}"));
+        }
+    }
+}

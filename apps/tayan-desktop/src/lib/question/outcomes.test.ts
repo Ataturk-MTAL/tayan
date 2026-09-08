@@ -97,10 +97,10 @@ describe("outcomePrefix", () => {
 });
 
 /** Test verisi: yalnız bu testlerin okuduğu alanlar anlamlı doldurulmuş. */
-function soru(subject: string, grade: number, outcomes: string[]): Question {
+function makeQuestion(subject: string, grade: number, outcomes: string[]): Question {
   return {
     question_type: "classic",
-    meta: { subject, grade, difficulty: null },
+    meta: { subject, grade, difficulty: null, title: "" },
     id: `${subject}-${grade}-${outcomes.join("_")}`,
     points: 5,
     outcomes,
@@ -123,9 +123,9 @@ function soru(subject: string, grade: number, outcomes: string[]): Question {
 
 describe("outcomeSuggestions", () => {
   const bank = [
-    soru("Matematik", 9, ["MAT.9.1.2", "MAT.9.1.3"]),
-    soru("Matematik", 10, ["MAT.10.1.1"]),
-    soru("Fizik", 9, ["FİZ.9.1.1"]),
+    makeQuestion("Matematik", 9, ["MAT.9.1.2", "MAT.9.1.3"]),
+    makeQuestion("Matematik", 10, ["MAT.10.1.1"]),
+    makeQuestion("Fizik", 9, ["FİZ.9.1.1"]),
   ];
 
   test("yalnız aynı ders VE aynı seviyeden öneri gelir", () => {
@@ -142,7 +142,7 @@ describe("outcomeSuggestions", () => {
   });
 
   test("aynı kazanım iki soruda geçse bir kez listelenir", () => {
-    const iki = [...bank, soru("Matematik", 9, ["MAT.9.1.2"])];
-    expect(outcomeSuggestions(iki, "Matematik", 9)).toEqual(["MAT.9.1.2", "MAT.9.1.3"]);
+    const bankWithDuplicate = [...bank, makeQuestion("Matematik", 9, ["MAT.9.1.2"])];
+    expect(outcomeSuggestions(bankWithDuplicate, "Matematik", 9)).toEqual(["MAT.9.1.2", "MAT.9.1.3"]);
   });
 });

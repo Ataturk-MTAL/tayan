@@ -54,6 +54,33 @@ impl ClassicQuestion {
                 "Klasik soru gövdesi boş olamaz".into(),
             ));
         }
+        // GÖVDEYE YAZILMIŞ RUBRİK KAYDETMEYİ DURDURUR.
+        //
+        // Öğretmen gövdeye `#rubrik((...))` yazıp panele taşımazsa şu olurdu:
+        // cevap anahtarında tablo YOK (önsözdeki güvenlik ağı `goster`
+        // verilmediği için hiçbir şey basmaz), sonuç girişinde kutucuk YOK
+        // (kutucuklar `rubric` alanından geliyor) ve toplam doğrulaması hiç
+        // çalışmamış olurdu. Öğretmen ölçütleri yazdığını sanır, hiçbiri
+        // işlemez. Sessiz kaybetmektense burada durdurmak gerekiyor.
+        // Örnek cevap da denetlenir. Öğretmen eski cevap anahtarı dosyasını
+        // büyük ihtimalle ÖRNEK CEVAP alanına yapıştırır ve o dosyalarda
+        // ölçütler `#rubrik(...)` ile yazılı. Yalnız gövdeye bakmak, aynı
+        // sessiz kaybı öbür kapıdan içeri alırdı.
+        let ornek_cevapta = self
+            .sample_answer
+            .as_ref()
+            .is_some_and(|sa| sa.raw_source().contains("#rubrik("));
+
+        if self.body.raw_source().contains("#rubrik(") || ornek_cevapta {
+            return Err(DomainError::Validation(
+                "Soru gövdesinde ya da örnek cevapta #rubrik( var. Ölçütler \
+                 kaynağa değil, panelin Puanlama ölçütleri bölümüne girilir; \
+                 oradan girilmeyen rubrik cevap anahtarına da sonuç girişine de \
+                 yansımaz."
+                    .into(),
+            ));
+        }
+
         if !self.rubric.is_empty() && self.rubric_total() != self.points.value() {
             return Err(DomainError::Validation(format!(
                 "Rubrik toplam puanı ({}) soru puanıyla ({}) eşleşmiyor",

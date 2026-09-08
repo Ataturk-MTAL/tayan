@@ -185,13 +185,44 @@ impl StudentRepository for SqliteStudentRepository {
             .map_err(RepositoryError::from)
     }
 
+    /// Öğrenciyi siler — sınav sonucu varsa SİLMEZ, açıklayarak reddeder.
+    ///
+    /// SONUÇLARI SESSİZCE SİLMİYORUZ. `exam_results.student_id` bu satıra
+    /// yabancı anahtarla bağlı ve sqlx `PRAGMA foreign_keys` değerini
+    /// varsayılan olarak ON yapıyor (sqlx-sqlite 0.8.6, `options/mod.rs:185`),
+    /// yani eski hâlde silme `(code: 787) FOREIGN KEY constraint failed` ham
+    /// dizesiyle patlıyordu ve öğretmen ne olduğunu anlamıyordu. Sonuçları
+    /// birlikte silmek de çözüm değil: girilen puanlar öğretmenin emeği ve
+    /// geri alınamaz. Doğrusu, KAÇ sonucun engellediğini söyleyip hiçbir şeye
+    /// dokunmamak.
+    ///
+    /// Sayım işlemin İÇİNDE: dışarıda olsaydı sayımla silme arasında yazılan
+    /// bir sonuç kontrolü atlatırdı.
     async fn delete_student(&self, id: &StudentId) -> Result<(), RepositoryError> {
         let id_str = id.0.to_string();
+
+        let mut tx = self.pool.begin().await.context("begin delete student")?;
+
+        let blocking: i64 =
+            sqlx::query_scalar("SELECT COUNT(*) FROM exam_results WHERE student_id=?1")
+                .bind(&id_str)
+                .fetch_one(&mut *tx)
+                .await
+                .context("count student exam results")?;
+
+        if blocking > 0 {
+            return Err(RepositoryError::Conflict(format!(
+                "bu öğrenciye bağlı {blocking} sınav sonucu var; önce o sonuçları sil"
+            )));
+        }
+
         sqlx::query("DELETE FROM students WHERE id=?1")
-            .bind(id_str)
-            .execute(&self.pool)
+            .bind(&id_str)
+            .execute(&mut *tx)
             .await
             .context("delete student")?;
+
+        tx.commit().await.context("commit delete student")?;
         Ok(())
     }
 }
@@ -247,19 +278,51 @@ impl ClassroomRepository for SqliteClassroomRepository {
             .map_err(RepositoryError::from)
     }
 
+    /// Sınıfı ve öğrencilerini siler — sınav sonucu varsa SİLMEZ.
+    ///
+    /// TEK İŞLEM (transaction). Eskiden iki ayrı `execute` vardı: ilki
+    /// geçtikten sonra ikincisi başarısız olursa öğrencileri silinmiş, kendisi
+    /// duran bir sınıf kalıyordu — hiçbir yerden geri alınamayan yarım bir
+    /// durum. Artık ikisi birlikte ya olur ya olmaz.
+    ///
+    /// Reddetme gerekçesi `delete_student`teki ile aynı: sonuçları öğrenciyle
+    /// birlikte silmek öğretmenin girdiği puanları götürürdü.
     async fn delete(&self, id: &ClassroomId) -> Result<(), RepositoryError> {
         let id_str = id.0.to_string();
-        // cascade: delete students first (FK constraint)
+
+        let mut tx = self.pool.begin().await.context("begin delete classroom")?;
+
+        let blocking: i64 = sqlx::query_scalar(
+            r#"SELECT COUNT(*) FROM exam_results r
+               JOIN students s ON s.id = r.student_id
+               WHERE s.classroom_id = ?1"#,
+        )
+        .bind(&id_str)
+        .fetch_one(&mut *tx)
+        .await
+        .context("count classroom exam results")?;
+
+        if blocking > 0 {
+            return Err(RepositoryError::Conflict(format!(
+                "bu sınıfın öğrencilerine bağlı {blocking} sınav sonucu var; \
+                 sınıf silinemez"
+            )));
+        }
+
+        // Önce öğrenciler: students.classroom_id classrooms(id)'ye yabancı
+        // anahtarla bağlı, ters sırada FK kısıtı patlar.
         sqlx::query("DELETE FROM students WHERE classroom_id=?1")
             .bind(&id_str)
-            .execute(&self.pool)
+            .execute(&mut *tx)
             .await
             .context("delete classroom students")?;
         sqlx::query("DELETE FROM classrooms WHERE id=?1")
-            .bind(id_str)
-            .execute(&self.pool)
+            .bind(&id_str)
+            .execute(&mut *tx)
             .await
             .context("delete classroom")?;
+
+        tx.commit().await.context("commit delete classroom")?;
         Ok(())
     }
 }

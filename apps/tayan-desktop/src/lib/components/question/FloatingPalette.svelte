@@ -7,12 +7,14 @@
    * gruplama yoktu, `Kesir` ile `Şekil + başlık` aynı ağırlıkta duruyordu ve
    * şerit editörün üstünden kalıcı olarak yer yiyordu.
    *
-   * Şimdi kapalı başlar (tek pill), açılınca gruplu bir kâğıt tabakası olarak
+   * Şimdi kapalı başlar (tek pill), açılınca gruplu bir panel olarak
    * kaynağın üzerinde yüzer. Ekranda aynı anda 4-10 seçenek durur, 17 değil.
    *
    * Pinlenmiş kısıt burada da geçerli: tıklanan her blok kaynağa GÖRÜNÜR Typst
    * olarak düşer. Öğretmen Typst yazmaya zorlanmaz ama her seferinde görür.
    */
+  import { Button } from "flowbite-svelte";
+  import { CloseOutline, GridPlusOutline, ImageOutline } from "flowbite-svelte-icons";
   import { groupsFor, type QuestionType } from "$lib/question/templates";
   import { saveImageAsTypst } from "$lib/question/image";
   import { errorText } from "$lib/editor/diagnostics";
@@ -87,24 +89,30 @@
 <svelte:window onpointerdown={onWindowPointerDown} />
 
 <!--
-  Kâğıt tabakası, kart değil: köşesiz, cetvelli kenarlı, hafif gölgeli.
-  Kırmızı yalnız kalıp düğmelerinde — o vurgu şeritten devralındı, çünkü
-  soru gövdesi o kalıp olmadan tamamlanmaz.
+  Panel kaynağın ÜZERİNDE yüzer, kâğıdın üstüne taşmaz. Kırmızı burada YOK:
+  bu bir değerlendirme değil, ekleme aracı — vurgu birincil (mavi) renkte.
 -->
 <div bind:this={root} class="pointer-events-none absolute inset-0 z-10">
   {#if open}
     <div
-      class="shadow-float pointer-events-auto absolute right-rule bottom-rule w-[300px]
-             border border-rule-strong bg-paper-lift"
+      class="pointer-events-auto absolute right-4 bottom-4 w-[300px] rounded-lg border
+             border-gray-200 bg-white shadow-lg dark:border-gray-700 dark:bg-gray-800"
     >
-      <div class="ruled-bottom flex items-stretch">
+      <div class="flex items-stretch border-b border-gray-200 dark:border-gray-700">
         {#each groups as group (group.id)}
           <button
             type="button"
-            class="stamp flex-1 border-r border-rule px-quarter py-quarter
-                   transition-colors hover:text-red-deep"
-            class:bg-paper-sunk={group.id === activeId}
-            class:text-ink={group.id === activeId}
+            class="flex-1 border-r border-gray-200 px-2 py-1.5 text-[11px] font-semibold
+                   tracking-wide uppercase transition-colors last:border-r-0
+                   dark:border-gray-700"
+            class:bg-gray-100={group.id === activeId}
+            class:text-gray-900={group.id === activeId}
+            class:dark:bg-gray-700={group.id === activeId}
+            class:dark:text-white={group.id === activeId}
+            class:text-gray-500={group.id !== activeId}
+            class:hover:text-gray-900={group.id !== activeId}
+            class:dark:text-gray-400={group.id !== activeId}
+            class:dark:hover:text-white={group.id !== activeId}
             aria-pressed={group.id === activeId}
             onclick={() => (activeId = group.id)}
           >
@@ -113,27 +121,35 @@
         {/each}
         <button
           type="button"
-          class="stamp px-half py-quarter transition-colors hover:text-red-deep"
+          class="flex items-center px-2 text-gray-500 transition-colors hover:text-gray-900
+                 dark:text-gray-400 dark:hover:text-white"
           title="Paneli kapat — Esc"
           aria-label="Paleti kapat"
           onclick={() => (open = false)}
         >
-          ✕
+          <CloseOutline class="h-4 w-4" />
         </button>
       </div>
 
-      <div class="grid grid-cols-2 gap-quarter p-half">
+      <div class="grid grid-cols-2 gap-1 p-2">
         {#each activeGroup.blocks as block (block.label)}
           <button
             type="button"
-            class="border px-half py-quarter text-left text-[12px] leading-rule
-                   transition-colors hover:border-red hover:text-red-deep"
-            class:border-red={activeGroup.id === "kalip"}
-            class:bg-red-wash={activeGroup.id === "kalip"}
-            class:text-red-deep={activeGroup.id === "kalip"}
-            class:border-rule-strong={activeGroup.id !== "kalip"}
-            class:bg-paper={activeGroup.id !== "kalip"}
-            class:text-ink={activeGroup.id !== "kalip"}
+            class="rounded border px-2 py-1.5 text-left text-xs transition-colors"
+            class:border-primary-300={activeGroup.id === "kalip"}
+            class:bg-primary-50={activeGroup.id === "kalip"}
+            class:text-primary-700={activeGroup.id === "kalip"}
+            class:dark:border-primary-700={activeGroup.id === "kalip"}
+            class:dark:bg-primary-900={activeGroup.id === "kalip"}
+            class:dark:text-primary-300={activeGroup.id === "kalip"}
+            class:border-gray-200={activeGroup.id !== "kalip"}
+            class:bg-white={activeGroup.id !== "kalip"}
+            class:text-gray-900={activeGroup.id !== "kalip"}
+            class:hover:border-primary-400={activeGroup.id !== "kalip"}
+            class:hover:text-primary-700={activeGroup.id !== "kalip"}
+            class:dark:border-gray-700={activeGroup.id !== "kalip"}
+            class:dark:bg-gray-800={activeGroup.id !== "kalip"}
+            class:dark:text-white={activeGroup.id !== "kalip"}
             title={block.hint}
             onclick={() => oninsert(block.snippet)}
           >
@@ -142,37 +158,40 @@
         {/each}
       </div>
 
-      <div class="ruled-top flex items-center gap-half px-half py-quarter">
-        <span class="stamp">Ekle</span>
-        <button
-          type="button"
-          class="border border-rule-strong bg-paper px-half py-quarter text-[12px]
-                 leading-rule text-ink transition-colors hover:border-red
-                 hover:text-red-deep disabled:opacity-40"
-          title="Dosyadan görsel seç — kopyalanır ve göreli yolla eklenir"
+      <div class="flex items-center gap-2 border-t border-gray-200 px-3 py-2 dark:border-gray-700">
+        <span class="text-[11px] font-semibold tracking-wide text-gray-500 uppercase dark:text-gray-400">
+          Ekle
+        </span>
+        <Button
+          size="xs"
+          color="light"
           disabled={saving}
+          title="Dosyadan görsel seç — kopyalanır ve göreli yolla eklenir"
           onclick={() => fileInput?.click()}
         >
+          <ImageOutline class="me-1 h-3.5 w-3.5" />
           {saving ? "Ekleniyor…" : "Görsel"}
-        </button>
+        </Button>
       </div>
 
       {#if imageError}
-        <p class="annot ruled-top px-half py-quarter">{imageError}</p>
+        <p class="border-t border-gray-200 px-3 py-2 text-xs text-red-600 dark:border-gray-700 dark:text-red-400">
+          {imageError}
+        </p>
       {/if}
     </div>
   {:else}
     <button
       type="button"
-      class="shadow-float pointer-events-auto absolute right-rule bottom-rule flex
-             items-center gap-quarter border border-rule-strong bg-paper-lift
-             px-half py-quarter text-[12px] leading-rule text-ink transition-colors
-             hover:border-red hover:text-red-deep"
+      class="pointer-events-auto absolute right-4 bottom-4 flex items-center gap-1
+             rounded-lg border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium
+             text-gray-900 shadow-lg transition-colors hover:bg-gray-50
+             dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
       aria-expanded="false"
       title="Kalıp ve matematik parçaları"
       onclick={() => (open = true)}
     >
-      <span aria-hidden="true">⊞</span> Ekle
+      <GridPlusOutline class="h-4 w-4" /> Ekle
     </button>
   {/if}
 </div>
@@ -184,15 +203,3 @@
   bind:this={fileInput}
   onchange={handleFile}
 />
-
-<style>
-  /*
-    Basılacak sayfanın gölgesinden (.sheet) daha hafif: masadan kalkan EN
-    yüksek nesne kâğıttır, palet onun altında durur.
-  */
-  .shadow-float {
-    box-shadow:
-      0 1px 2px rgba(22, 35, 63, 0.08),
-      0 4px 12px rgba(22, 35, 63, 0.1);
-  }
-</style>

@@ -120,7 +120,7 @@ pub async fn add_classic_question(
         outcomes,
         meta:          payload.meta,
         body:          payload.body,
-        sample_answer: None,
+        sample_answer: payload.sample_answer,
         rubric:        payload.rubric,
         answer_space:  payload.answer_space,
         stats:         Default::default(),
@@ -160,17 +160,17 @@ pub async fn delete_question(
     // karşılığı olmayan bir kimliğe atıf yapar ve arayüz onu "bankada yok" diye
     // göstermek zorunda kalır.
     let exams = st.exams.list(0, u32::MAX).await.map_err(|e| e.to_string())?;
-    let kullanan: Vec<String> = exams
+    let used_by_exams: Vec<String> = exams
         .iter()
         .filter(|exam| exam.questions.iter().any(|q| q.question_id == id))
         .map(|exam| exam.meta.title.clone())
         .collect();
 
-    if !kullanan.is_empty() {
+    if !used_by_exams.is_empty() {
         return Err(format!(
             "Bu soru {} sınavda kullanılıyor: {}. Önce sınavlardan çıkar, sonra sil.",
-            kullanan.len(),
-            kullanan.join(", ")
+            used_by_exams.len(),
+            used_by_exams.join(", ")
         ));
     }
 
