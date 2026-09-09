@@ -216,7 +216,7 @@
   "gaps": [
    {
     "course": "Halk Oyunları Dersi",
-    "reason": "ünitesi bulunamayan çıktı",
+    "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
      "HO.1.1",
      "HO.1.2",

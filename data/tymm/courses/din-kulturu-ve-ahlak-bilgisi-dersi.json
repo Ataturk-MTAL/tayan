@@ -37,12 +37,16 @@
      "text": "Günlük hayatta kullanılan dinî ifadeleri ayırt edebilme numarası beceri ve becerilerin süreç bileşenlerini ifade eder. a) Günlük hayatta kullanılan dinî ifadeleri Ünite Numarası tespit eder. Sınıf seviyesi",
      "components": [
       {
+       "label": "a",
+       "text": "Günlük hayatta kullanılan dinî ifadeleri tespit eder."
+      },
+      {
        "label": "b",
-       "text": "Günlük hayatta kullanılan dinî ifadelerin Ders kodu önemini araştırır."
+       "text": "Günlük hayatta kullanılan dinî ifadelerin önemini araştırır. 10"
       },
       {
        "label": "c",
-       "text": "Günlük hayatta kullanılan dinî ifadeleri ilişkili olduğu alana göre etiketler. Öğrenme-öğretme"
+       "text": "Günlük hayatta kullanılan dinî ifadeleri ilişkili olduğu alana göre etiketler."
       }
      ]
     },
@@ -2553,7 +2557,7 @@
  "report": {
   "units": 25,
   "outcomes": 96,
-  "components": 312,
+  "components": 313,
   "orphan_outcomes": 0,
   "gaps": []
  }

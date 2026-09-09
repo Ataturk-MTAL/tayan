@@ -333,7 +333,7 @@
   "gaps": [
    {
     "course": "İngilizce Dersi (Hazırlık-12)",
-    "reason": "ünitesi bulunamayan çıktı",
+    "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
      "ENG.9.1",
      "ENG.9.2",
@@ -354,21 +354,7 @@
      "ENG.11.1",
      "EENG.11.1",
      "ENG.11.2",
-     "ENG.11.3",
-     "ENG.11.4",
-     "ENG.11.5",
-     "ENG.11.6",
-     "ENG.11.7",
-     "EENG.11.7",
-     "ENG.11.8",
-     "ENG.12.1",
-     "ENG.12.2",
-     "ENG.12.3",
-     "ENG.12.4",
-     "ENG.12.5",
-     "ENG.12.6",
-     "ENG.12.7",
-     "ENG.12.8"
+     "ENG.11.3"
     ]
    }
   ]

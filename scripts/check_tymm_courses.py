@@ -79,12 +79,19 @@ def main() -> int:
             orphans_total += orphans
             orphan_courses.append((entry["name"], orphans))
 
+        # Dersin KENDİ çıktı kodları bölüm metinlerinde bolca geçiyor
+        # (Anahtar Kavramlar, İLİŞKİLER, Öğrenme Çıktıları). Bunlar beceri
+        # referansı değil; ayıklanmazsa doğrulayıcı 625 yanlış pozitif üretir.
+        own_prefix = document["course"].get("prefix") or ""
         for unit in document["units"]:
             for text in unit["sections"].values():
                 for match in CODE_RE.finditer(text):
                     code = match.group(1)
-                    if code not in known:
-                        unresolved[code] = unresolved.get(code, 0) + 1
+                    if code in known:
+                        continue
+                    if own_prefix and code.startswith(own_prefix):
+                        continue
+                    unresolved[code] = unresolved.get(code, 0) + 1
 
     report = index["report"]
     print(f"ders: {report['courses']}   ünite: {sum_units}")
@@ -99,9 +106,25 @@ def main() -> int:
             print(f"   {name[:44]:<46} {count}")
 
     if unresolved:
-        print(f"\nbeceriler.json'da çözülemeyen kod: {len(unresolved)} tür")
-        for code, count in sorted(unresolved.items(), key=lambda kv: -kv[1])[:10]:
-            print(f"   {code:<14} x{count}")
+        # İki ayrı durum: seti VAR ama kodu yok (kaynak tutarsızlığı) ve
+        # seti hiç yok (tanımadığımız beceri kümesi). Aynı torbaya konurlarsa
+        # hangisinin düzeltilebilir olduğu görünmez.
+        beceriler = json.loads((DATA / "beceriler.json").read_text(encoding="utf-8"))
+        sets = {s["code"] for s in beceriler["sets"] if s["code"]}
+        inconsistent: dict[str, int] = {}
+        unknown_set: dict[str, int] = {}
+        for code, count in unresolved.items():
+            prefix = re.match(r"[A-ZÇĞİÖŞÜ]+", code)
+            target = inconsistent if prefix and prefix.group(0) in sets else unknown_set
+            target[code] = count
+
+        print(f"\nçözülemeyen kod: {len(unresolved)} tür / {sum(unresolved.values())} geçiş")
+        print(f"   seti VAR, kodu yok (kaynak tutarsızlığı): {len(inconsistent)} tür")
+        for code, count in sorted(inconsistent.items(), key=lambda kv: -kv[1])[:6]:
+            print(f"      {code:<14} x{count}")
+        print(f"   seti HİÇ YOK (tanınmayan küme): {len(unknown_set)} tür")
+        for code, count in sorted(unknown_set.items(), key=lambda kv: -kv[1])[:6]:
+            print(f"      {code:<14} x{count}")
 
     for problem in problems:
         print(f"  SORUN {problem}")

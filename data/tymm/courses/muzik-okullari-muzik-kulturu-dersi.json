@@ -43,7 +43,28 @@
      "code": "MK.3.1.2",
      "order": 2,
      "text": "Müzik kültürünün oluşumunu sorgulayabilme sonunda öğrencilere SÜREÇ BİLEŞENLERİ a) Müzik kültürünün oluşumundaki etkenleri kazandırılması amaçlanan tanımlar. bilgi, beceri ve becerilerin süreç bileşenlerini ifade b) Müzik kültürünü oluşturan etkenler hakkında eder. sorular sorar. Öğrenme sürecinde ele",
-     "components": []
+     "components": [
+      {
+       "label": "a",
+       "text": "Müzik kültürünün oluşumundaki etkenleri tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Müzik kültürünü oluşturan etkenler hakkında sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Müzik kültürünü oluşturan etkenler hakkında bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Toplanan bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Toplanan bilgiler üzerinden çıkarım yapar."
+      }
+     ]
     },
     {
      "code": "MK.3.1.3",
@@ -420,7 +441,7 @@
  "report": {
   "units": 6,
   "outcomes": 26,
-  "components": 22,
+  "components": 27,
   "orphan_outcomes": 0,
   "gaps": []
  }

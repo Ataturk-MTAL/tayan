@@ -10,7 +10,7 @@
  },
  "units": [
   {
-   "grade": null,
+   "grade": 1,
    "unit": 1,
    "kind": "TEMA",
    "title": "SATRANCI TANIYALIM",
@@ -23,10 +23,46 @@
     "İÇERİK ÇERÇEVESİ": "Satranç Tarihi Atatürk ve Satranç Satrancın Faydaları Satranç Kuralları",
     "Anahtar Kavramlar": "satranç, satrancın önemi, satranç oyun kuralları, bütüncül gelişim"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "OOEST.1.1",
+     "order": 1,
+     "text": "Satranç oyununu tanıyabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEST.1.2",
+     "order": 2,
+     "text": "Satranç oyununun bütüncül gelişime faydalarını sorgulayabilme. ÇIKTILARI VE a) Bütüncül gelişimi tanımlar. SÜREÇ",
+     "components": [
+      {
+       "label": "b",
+       "text": "Satranç oyununun bütüncül gelişime faydasına yönelik sorular sorar. BİLEŞENLERİ"
+      },
+      {
+       "label": "c",
+       "text": "Soruların cevaplarına yönelik bilgiler toplar."
+      },
+      {
+       "label": "d",
+       "text": "Topladığı bilgileri değerlendirir."
+      },
+      {
+       "label": "e",
+       "text": "Ulaştığı bilgiler üzerinden satrancın bütüncül gelişime faydasına yönelik çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "OOEST.1.3",
+     "order": 3,
+     "text": "Güvenilir kaynaklardan elde ettiği bilgilerden hareketle Atartürk’ün satranç oyununa verdiği önemi açıklayabilme. Öğrenme-öğretme sürecinde Satranç Tarihi, Satranç Kuralları İÇERİK ele alınan bilgi kümesini (konuya/ ÇERÇEVESİ Satrancın Faydaları alt konuya ilişkin sınırlar) ifade eder. Atatürk ve Satranç Disipline ait başlıca anahtar kavbütüncül gelişim, satranç, ramları ifade eder.",
+     "components": []
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 2,
    "unit": 2,
    "kind": "TEMA",
    "title": "SATRANÇ TAHTASI",
@@ -39,10 +75,57 @@
     "İÇERİK ÇERÇEVESİ": "Satranç Tahtasının Özellikleri Satranç Tahtasını Yerleştirme Kare İsimlendirme Merkez Kareler",
     "Anahtar Kavramlar": "satranç tahtası, merkez kareler, yatay-dikey-çapraz doğrultu"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "OOEST.2.1",
+     "order": 1,
+     "text": "Satranç tahtasını tanıma sürecinde tahtayı oluşturan bileşenleri gözlemleÇIKTILARI VE yebilme. SÜREÇ a) Tahta üzerindeki görsel bileşenleri fark eder. BİLEŞENLERİ b) Tahtayı oluşturan görsel bileşenleri ifade eder.",
+     "components": []
+    },
+    {
+     "code": "OOEST.2.2",
+     "order": 2,
+     "text": "Satranç tahtasını, tahtanın köşe rengine ve siyah beyaz oyuncu yöününe dikkat ederek oyuncular arasına doğru yerleştirebilme.",
+     "components": []
+    },
+    {
+     "code": "OOEST.2.3",
+     "order": 3,
+     "text": "Satranç tahtasında kare isimlendirilmesine yönelik çözümleme yapabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Satranç tahtasında yatay ve dikey isimleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yatay ve dikey arasındaki ilişkiyi belirleyerek kare isimlendirmesi yapar."
+      }
+     ]
+    },
+    {
+     "code": "OOEST.2.4",
+     "order": 4,
+     "text": "Satranç tahtası üzerindeki merkez kareleri, oyun kontrolü ve bu karelerdeki taşların hareket alanı yönünden diğer karelerle karşılaştırabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Satranç tahtası üzerindeki merkez karelerle diğer karelerin özelliklerini oyun kontrolü ve oyuna hâkimiyet açısından belirler."
+      },
+      {
+       "label": "b",
+       "text": "Satranç tahtası üzerindeki merkez karelerle diğer karelerin benzerliklerini oyun kontrolü ve oyuna hâkimiyet açısından listeler."
+      },
+      {
+       "label": "c",
+       "text": "Satranç tahtası üzerindeki merkez karelerle diğer karelerin farklılıklarını oyun kontrolü ve oyuna hâkimiyet açısından listeler."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 3,
    "unit": 3,
    "kind": "TEMA",
    "title": "SATRANÇ TAŞLARI VE HAREKETLERİ",
@@ -55,10 +138,52 @@
     "İÇERİK ÇERÇEVESİ": "Satranç Taşları ve Özellikleri Satrançta Taş Alma",
     "Anahtar Kavramlar": "-"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "OOEST.3.1",
+     "order": 1,
+     "text": "Satranç taşlarını adlarına, başlangıç konumlarına ve hareket özelliklerine ÇIKTILARI VE göre tanıyabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEST.3.2",
+     "order": 2,
+     "text": "Satranç tahtasının özelliklerinden ve taşların kendine özgü hareket kurallaBİLEŞENLERİ rından yola çıkarak kural dışı taş hareketlerini belirleyebilme.",
+     "components": []
+    },
+    {
+     "code": "OOEST.3.3",
+     "order": 3,
+     "text": "Satranç oyununda rakip oyuncunun taşını kurallara uygun alma yöntemlerini açıklayabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEST.3.4",
+     "order": 4,
+     "text": "Satranç taşlarını hareket alanı, taşın değeri, konumu, şahın önemi gibi etkenleri göz önünde bulundurarak güçlerine göre sınıflandırabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Satranç taşlarının hareket alanından yola çıkarak taşların gücüne yönelik ölçütleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Satranç taşlarını güçlerine göre ayırır."
+      },
+      {
+       "label": "c",
+       "text": "Satranç taşlarını güçlerine göre sıralar."
+      },
+      {
+       "label": "d",
+       "text": "Satranç taşlarını güçlerine göre etiketler."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 4,
    "unit": 4,
    "kind": "TEMA",
    "title": "TAŞ İSTEME",
@@ -71,10 +196,49 @@
     "İÇERİK ÇERÇEVESİ": "Satrançta Hamle Taş İsteme Hamlesi Rakip taşı isteme Satrançta Tehditı Örtü Konumu Tehdit oluşturma",
     "Anahtar Kavramlar": "açarak taş isteme, örtü, rakip taşı isteme, tehdit oluşturma"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "OOEST.4.1",
+     "order": 1,
+     "text": "Satranç oyununda atak yaparak taş isteme hamlesini normal hamle ile karÇIKTILARI VE şılaştırabilme. SÜREÇ a) Taş isteme hamlesi ile normal hamlenin özelliklerini belirler. BİLEŞENLERİ b) Taş isteme hamlesinin normal hamle ile benzerliklerini listeler.",
+     "components": [
+      {
+       "label": "c",
+       "text": "Taş isteme hamlesinin normal hamleden farklarını listeler."
+      }
+     ]
+    },
+    {
+     "code": "OOEST.4.2",
+     "order": 2,
+     "text": "Satranç oyununda tehdit kavramını sorgulayabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Satranç oyununda tehdit kavramını tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Tehdit ile ilgili sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Tehdit ile ilgili bilgi toplar."
+      },
+      {
+       "label": "d",
+       "text": "Toplanan bilgileri değerlendirir."
+      },
+      {
+       "label": "e",
+       "text": "Toplanan bilgiler üzerinden çıkarım yapar."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 5,
    "unit": 5,
    "kind": "TEMA",
    "title": "ŞAH VE MAT",
@@ -87,10 +251,60 @@
     "İÇERİK ÇERÇEVESİ": "Şahı Koruma Mat Durumu Mattan Korunma",
     "Anahtar Kavramlar": "mat, şah çekme, tehdit"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "OOEST.5.1",
+     "order": 1,
+     "text": "Tümevarım yönteminden hareketle şah çekme tekniklerine yönelik akıl yüÇIKTILARI VE rütebilme. SÜREÇ a) Şah çekme tekniklerine yönelik gözlem yapar. BİLEŞENLERİ b) Şah çekme tekniklerine yönelik örüntü bulur.",
+     "components": [
+      {
+       "label": "c",
+       "text": "Şah çekme tekniklerine yönelik genelleme yapar."
+      }
+     ]
+    },
+    {
+     "code": "OOEST.5.2",
+     "order": 2,
+     "text": "Tehdit altındaki şahı korumaya yönelik eleştirel düşünebilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Tehdit altındaki şahın durumunu sorgular."
+      },
+      {
+       "label": "b",
+       "text": "Şahı koruma yolları ile ilgili akıl yürütür."
+      },
+      {
+       "label": "c",
+       "text": "Akıl yürütme sonucunda ulaştığı çıkarımları oyuna yansıtır."
+      }
+     ]
+    },
+    {
+     "code": "OOEST.5.3",
+     "order": 3,
+     "text": "Satrançta mat durumunun mantıksal denetlemesini yapabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Satranç oyununda mat konumuna yönelik önermeler geliştirir."
+      },
+      {
+       "label": "b",
+       "text": "Mat durumundan kurtulmaya yönelik kuralları uygular."
+      },
+      {
+       "label": "c",
+       "text": "Oyunda mat konumunun oluşmasına yönelik yargıda bulunur. Şah Çekme ve Teknikleri"
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 6,
    "unit": 6,
    "kind": "TEMA",
    "title": "SATRANÇTA HÜCUM VE SAVUNMA",
@@ -103,10 +317,49 @@
     "İÇERİK ÇERÇEVESİ": "Satrançta Hücum Çatal Hamlesi Satrançta Savunma Şiş Hamlesi",
     "Anahtar Kavramlar": "çatal, hücum, savunma, şiş"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "OOEST.6.1",
+     "order": 1,
+     "text": "Satrançta hücum ve savunmaya yönelik hamleleri sınıflandırabilme. ÇIKTILARI VE a) Hücum ve savunma hamlelerine yönelik ölçüt belirler. SÜREÇ b) Hücum ve savunmaya yönelik yapılan hamleleri ayrıştırır. BİLEŞENLERİ",
+     "components": [
+      {
+       "label": "c",
+       "text": "Hücum ve savunmaya yönelik hamleleri tasnif eder."
+      },
+      {
+       "label": "d",
+       "text": "Yapılan hamleyi hücum veya savunma hamlesi olarak etiketlendirir."
+      }
+     ]
+    },
+    {
+     "code": "OOEST.6.2",
+     "order": 2,
+     "text": "Çatal ve şiş hamlesine yönelik bilgi toplayabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çatal ve şiş hamlesi hakkında bilgi toplamak için gerekli araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği aracı kullanarak konu hakkında bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Çatal ve şiş hamlesi hakkında ulaşılan bilgileri doğrular."
+      },
+      {
+       "label": "d",
+       "text": "Çatal ve şiş hamlesi hakkında ulaşılan bilgileri kaydeder."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 7,
    "unit": 7,
    "kind": "TEMA",
    "title": "BASİT MATLAR OPOZİSYON VE İKİ HAMLELİK MATLAR",
@@ -120,10 +373,55 @@
     "Anahtar Kavramlar": "çoban, merdiven, opozisyon, tembel",
     "Sosyal-Duygusal Öğrenme Becerileri": "/ OOEST.7.1 Öğrencilerin merdiven matı, çoban matı gibi basit mat konumlarındaki hamle dizilimle-"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "OOEST.7.1",
+     "order": 1,
+     "text": "Satranç oyununda basit matlara yönelik çözümleme yapabilme. ÇIKTILARI VE a) Satranç oyununda basit matların çeşitlerini belirler. SÜREÇ b) Satranç oyununda basit matlar arasındaki ilişkileri belirler. BİLEŞENLERİ",
+     "components": []
+    },
+    {
+     "code": "OOEST.7.2",
+     "order": 2,
+     "text": "Satrançta opozisyon konumunu yorumlayabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Satrançta opozisyonu ve opozisyonun mat yapmaya etkisini inceler."
+      },
+      {
+       "label": "b",
+       "text": "Opozisyonun mat yapmaya etkisini bağlamdan kopmadan açıklar."
+      },
+      {
+       "label": "c",
+       "text": "Opozisyonu ve opozisyonun anlamını kendi cümleleri ile yeniden ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "OOEST.7.3",
+     "order": 3,
+     "text": "Kademeli olarak önce bir sonra iki hamlelik matlara yönelik fikirlerini eyleme dönüştürebilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kademeli olarak önce bir sonra iki hamlelik matlara yönelik plan yapar."
+      },
+      {
+       "label": "b",
+       "text": "Kademeli olarak önce bir sonra iki hamlelik matlara yönelik yapılan planı uygular."
+      },
+      {
+       "label": "c",
+       "text": "Uyguladığı planın oyuna etkisini değerlendirir."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 8,
    "unit": 8,
    "kind": "TEMA",
    "title": "TAŞ DEĞİŞİMLERİ VE FEDA",
@@ -136,10 +434,81 @@
     "İÇERİK ÇERÇEVESİ": "Taşların Gücü Taş Fedası Satrançta Taş Değişimi",
     "Anahtar Kavramlar": "feda, güç, taş değişimi"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "OOEST.8.1",
+     "order": 1,
+     "text": "Satrançta taş değişimi kuralını açıklayabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEST.8.2",
+     "order": 2,
+     "text": "Satranç oyununda taşlar arasında taş değeri, konum güvenliği, şah tehdidi, SÜREÇ tempo ve sonraki hamle etkisi durumlarından hareketle taş değişimi yapmaya yönelik BİLEŞENLERİ karar verebilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Satranç oyununda taş değişim kararına yönelik amacını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Taş değişimi kararına yönelik bilgi toplar."
+      },
+      {
+       "label": "c",
+       "text": "Alternatif taş değişimi seçenekleri oluşturur."
+      },
+      {
+       "label": "d",
+       "text": "Alternatif seçenekler üzerinde mantıksal denetleme yapar."
+      },
+      {
+       "label": "e",
+       "text": "Taş değişimi kararına yönelik seçim yapar."
+      },
+      {
+       "label": "f",
+       "text": "Taş değişimi kararını oyun sürecine ve sonuç üzerine yansıtır."
+      }
+     ]
+    },
+    {
+     "code": "OOEST.8.3",
+     "order": 3,
+     "text": "Satrançta konumsal kazanç elde etmek üzere yapılan taş fedasını açıklayabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEST.8.4",
+     "order": 4,
+     "text": "Satrançta daha iyi bir konum elde etmek için feda edilecek taşın oyuna etkisini düşünerek çıkarım yapabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Mevcut bilgileri dâhilinde daha iyi bir konum elde etmek için feda edilecek taşın oyuna etkisi ile ilgili varsayımda bulunur."
+      },
+      {
+       "label": "b",
+       "text": "Feda edilecek taşın oyuna etkisi ile ilgili varsayımları listeler."
+      },
+      {
+       "label": "c",
+       "text": "Feda edilecek taşın oyuna etkisi ile ilgili varsayımları karşılaştırır."
+      },
+      {
+       "label": "d",
+       "text": "Feda edilecek taşın oyuna etkisi ile ilgili önerme sunar."
+      },
+      {
+       "label": "e",
+       "text": "Feda edilecek taşın oyuna etkisi ile ilgili önermeyi değerlendirir."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 9,
    "unit": 9,
    "kind": "TEMA",
    "title": "KURALLAR VE PUANLAMA",
@@ -152,10 +521,76 @@
     "İÇERİK ÇERÇEVESİ": "Rok hamlesi ve amacı Piyonu terfi ettirme Satrançta puanlama Rok hamlesinin yapılamayacağı durumlar Adil oyun anlayışı Notasyon kâğıdı ve Hamle yazımı",
     "Anahtar Kavramlar": "hamle yazımı, notasyon, piyon terfi, puanlama, rok hamlesi"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "OOEST.9.1",
+     "order": 1,
+     "text": "Satrançta rok hamlesinin oyuna ve oyun sonuna etkisini sorgulayabilme. ÇIKTILARI VE a) Satrançta rok hamlesini tanımlar. SÜREÇ b) Rok hamlesi ile ilgili sorular sorar. BİLEŞENLERİ",
+     "components": [
+      {
+       "label": "c",
+       "text": "Rok hamlesi ile ilgili bilgi toplar."
+      },
+      {
+       "label": "d",
+       "text": "Rok hamlesi ile ilgili topladığı bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "e",
+       "text": "Toplanan bilgiler üzerinden rok hamlesinin yapılma amacına yönelik çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "OOEST.9.2",
+     "order": 2,
+     "text": "Satrançta kurallara uygun olarak piyonu terfi ettirme fikrini eyleme dönüştürebilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Satranç oyununda piyonun terfi ettirilmesi ile ilgili plan yapar."
+      },
+      {
+       "label": "b",
+       "text": "Satranç oyununda piyonun terfi ettirilmesi ile ilgili yaptığı planı uygular."
+      },
+      {
+       "label": "c",
+       "text": "Satranç oyununda piyonun terfi ettirilmesi ile ilgili uyguladığı planı değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "OOEST.9.3",
+     "order": 3,
+     "text": "Oyun içi, maç sonu ve turnuva sonu puanlamaların nasıl yapıldığını açıklayabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEST.9.4",
+     "order": 4,
+     "text": "Satrançta adil oyun anlayışına uygun davranabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Satranç oyununda adil oyun anlayışını açıklar."
+      },
+      {
+       "label": "b",
+       "text": "Satranç oyununda adil oyun anlayışına uygun hareket eder."
+      }
+     ]
+    },
+    {
+     "code": "OOEST.9.5",
+     "order": 5,
+     "text": "Satrançta oyun süresince yaptığı hamleleri notasyon kâğıdına yazabilme.",
+     "components": []
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 10,
    "unit": 10,
    "kind": "TEMA",
    "title": "AÇMAZ, SALDIRI VE SATRANÇ SAATİ",
@@ -168,10 +603,42 @@
     "İÇERİK ÇERÇEVESİ": "Satrançta Açma Satranç Saati Saldırının Oyuna Etkisi",
     "Anahtar Kavramlar": "saat kullanımı, saldırı, satrançta açmaz, strateji, taktik"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "OOEST.10.1",
+     "order": 1,
+     "text": "Satrançta açmaza yönelik taktik ve strateji geliştirebilme. ÇIKTILARI VE a) Açmaza giren taşın durumunu belirler. SÜREÇ b) Açmaz durumunun çözümüne ilişkin öneri geliştirir. BİLEŞENLERİ c) Çözüme ilişkin öneriyi uygular.",
+     "components": []
+    },
+    {
+     "code": "OOEST.10.2",
+     "order": 2,
+     "text": "Satrançta taşa saldırı yapmaya yönelik gözlemlerden hareketle taşa saldırının oyuna etkisine yönelik akıl yürütebilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Satrançta taşa saldırı yapmanın oyuna etkisine yönelik gözlem yapar."
+      },
+      {
+       "label": "b",
+       "text": "Satrançta taşa saldırı yapmanın oyuna etkisine yönelik örüntü bulur."
+      },
+      {
+       "label": "c",
+       "text": "Satrançta taşa saldırı yapmanın oyuna etkisine yönelik genelleme yapar."
+      }
+     ]
+    },
+    {
+     "code": "OOEST.10.3",
+     "order": 3,
+     "text": "Satranç saatini kullanabilme.",
+     "components": []
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 11,
    "unit": 11,
    "kind": "TEMA",
    "title": "SATRANÇTA BERABERLİK VE AÇILIŞ",
@@ -185,10 +652,49 @@
     "Anahtar Kavramlar": "açılış ilkeleri, pat durumu, yetersiz güç",
     "Sosyal-Duygusal Öğrenme Becerileri": "/ OOEST.11.1"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "OOEST.11.1",
+     "order": 1,
+     "text": "Ön öğrenmelerden hareketle satrançta beraberlik durumlarına yönelik çıÇIKTILARI VE karım yapabilme. SÜREÇ a) Mevcut bilgisi dâhilinde beraberliğin ne olduğu hakkında varsayımda bulunur. BİLEŞENLERİ b) Beraberlik durumlarını listeler.",
+     "components": [
+      {
+       "label": "c",
+       "text": "Beraberlik durumlarını karşılaştırır."
+      },
+      {
+       "label": "d",
+       "text": "Beraberlik durumları hakkında önerme sunar."
+      },
+      {
+       "label": "e",
+       "text": "Beraberlik durumlarını değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "OOEST.11.2",
+     "order": 2,
+     "text": "Satrançta temel açılış ilkelerini kullanarak taktik ve strateji geliştirebilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Satrançta temel açılış ilkelerinden hareketle taktiksel durum belirlemesi yapar."
+      },
+      {
+       "label": "b",
+       "text": "Belirlenen durumun çözümüne ilişkin öneri sunar."
+      },
+      {
+       "label": "c",
+       "text": "Taktiği uygular."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 12,
    "unit": 12,
    "kind": "TEMA",
    "title": "SATRANÇ KÜLTÜRÜ",
@@ -201,693 +707,73 @@
     "İÇERİK ÇERÇEVESİ": "Dünyada veTürkiye’de Satranç Çevrimiçi Satranç",
     "Anahtar Kavramlar": "satranç tarihi, şampiyon oyuncular, çevrimiçi satranç"
    },
-   "outcomes": []
-  }
- ],
- "unassigned_outcomes": [
-  {
-   "code": "OOEST.1.1",
-   "grade": 1,
-   "unit": null,
-   "order": 1,
-   "text": "Satranç oyununu tanıyabilme.",
-   "components": []
-  },
-  {
-   "code": "OOEST.1.2",
-   "grade": 1,
-   "unit": null,
-   "order": 2,
-   "text": "Satranç oyununun bütüncül gelişime süreç bileşenlerini ifade eder. BİLEŞENLERİ faydalarını sorgulayabilme.",
-   "components": [
+   "outcomes": [
     {
-     "label": "a",
-     "text": "Bütüncül gelişimi tanımlar."
+     "code": "OOEST.12.1",
+     "order": 1,
+     "text": "Satrancın ülkemizdeki gelişimine yönelik bilgi toplayabilme. ÇIKTILARI VE a) Satrancın ülkemizdeki gelişimi hakkında bilgi toplayabileceği araçları belirler. SÜREÇ b) Belirlediği araçları kullanarak satrancın gelişimine yönelik bilgilere ulaşır. BİLEŞENLERİ",
+     "components": [
+      {
+       "label": "c",
+       "text": "Ulaştığı bilgileri doğrular."
+      },
+      {
+       "label": "d",
+       "text": "Satrancın ülkemizdeki gelişimiyle ilgili ulaştığı bilgileri kaydeder."
+      }
+     ]
     },
     {
-     "label": "b",
-     "text": "Satranç oyununun bütüncül gelişime faydasına yönelik sorular sorar."
+     "code": "OOEST.12.2",
+     "order": 2,
+     "text": "Türkiye’den ve dünyadan seçilen birer satranç şampiyonu hakkında belirlenen ölçüte göre güvenilir kaynaklardan bilgi toplayabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Seçilen satranç şampiyonları hakkında araştırma yapacağı kaynakları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği kaynakları kullanarak bilgilere ulaşır."
+      },
+      {
+       "label": "c",
+       "text": "Kullanacağı kaynakların bilgi edineceği konuya uygunluğunu açıklar."
+      },
+      {
+       "label": "d",
+       "text": "Kullandığı kaynaklardan satranç şampiyonları ile ilgili edindiği bilgileri kaydeder."
+      }
+     ]
     },
     {
-     "label": "c",
-     "text": "Soruların cevaplarına yönelik bilgiler toplar."
-    },
-    {
-     "label": "d",
-     "text": "Topladığı bilgileri değerlendirir."
-    },
-    {
-     "label": "e",
-     "text": "Ulaştığı bilgiler üzerinden satrancın bütüncül gelişime faydasına yönelik çıkarım yapar."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.1.3",
-   "grade": 1,
-   "unit": null,
-   "order": 3,
-   "text": "Güvenilir kaynaklardan elde ettiği bilgilerden hareketle Atartürk’ün satranç oyununa verdiği önemi açıklayabilme. Öğrenme-öğretme sürecinde Satranç Tarihi, Satranç Kuralları İÇERİK ele alınan bilgi kümesini (konuya/ ÇERÇEVESİ Satrancın Faydaları alt konuya ilişkin sınırlar) ifade eder. Atatürk ve Satranç Disipline ait başlıca anahtar kavbütüncül gelişim, satranç, ramları ifade eder.",
-   "components": []
-  },
-  {
-   "code": "OOEST.2.1",
-   "grade": 2,
-   "unit": null,
-   "order": 1,
-   "text": "Satranç tahtasını tanıma sürecinde tahtayı oluşturan bileşenleri gözlemleÇIKTILARI VE yebilme. SÜREÇ a) Tahta üzerindeki görsel bileşenleri fark eder. BİLEŞENLERİ b) Tahtayı oluşturan görsel bileşenleri ifade eder.",
-   "components": []
-  },
-  {
-   "code": "OOEST.2.2",
-   "grade": 2,
-   "unit": null,
-   "order": 2,
-   "text": "Satranç tahtasını, tahtanın köşe rengine ve siyah beyaz oyuncu yöününe dikkat ederek oyuncular arasına doğru yerleştirebilme.",
-   "components": []
-  },
-  {
-   "code": "OOEST.2.3",
-   "grade": 2,
-   "unit": null,
-   "order": 3,
-   "text": "Satranç tahtasında kare isimlendirilmesine yönelik çözümleme yapabilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Satranç tahtasında yatay ve dikey isimleri belirler."
-    },
-    {
-     "label": "b",
-     "text": "Yatay ve dikey arasındaki ilişkiyi belirleyerek kare isimlendirmesi yapar."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.2.4",
-   "grade": 2,
-   "unit": null,
-   "order": 4,
-   "text": "Satranç tahtası üzerindeki merkez kareleri, oyun kontrolü ve bu karelerdeki taşların hareket alanı yönünden diğer karelerle karşılaştırabilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Satranç tahtası üzerindeki merkez karelerle diğer karelerin özelliklerini oyun kontrolü ve oyuna hâkimiyet açısından belirler."
-    },
-    {
-     "label": "b",
-     "text": "Satranç tahtası üzerindeki merkez karelerle diğer karelerin benzerliklerini oyun kontrolü ve oyuna hâkimiyet açısından listeler."
-    },
-    {
-     "label": "c",
-     "text": "Satranç tahtası üzerindeki merkez karelerle diğer karelerin farklılıklarını oyun kontrolü ve oyuna hâkimiyet açısından listeler."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.3.1",
-   "grade": 3,
-   "unit": null,
-   "order": 1,
-   "text": "Satranç taşlarını adlarına, başlangıç konumlarına ve hareket özelliklerine ÇIKTILARI VE göre tanıyabilme.",
-   "components": []
-  },
-  {
-   "code": "OOEST.3.2",
-   "grade": 3,
-   "unit": null,
-   "order": 2,
-   "text": "Satranç tahtasının özelliklerinden ve taşların kendine özgü hareket kurallaBİLEŞENLERİ rından yola çıkarak kural dışı taş hareketlerini belirleyebilme.",
-   "components": []
-  },
-  {
-   "code": "OOEST.3.3",
-   "grade": 3,
-   "unit": null,
-   "order": 3,
-   "text": "Satranç oyununda rakip oyuncunun taşını kurallara uygun alma yöntemlerini açıklayabilme.",
-   "components": []
-  },
-  {
-   "code": "OOEST.3.4",
-   "grade": 3,
-   "unit": null,
-   "order": 4,
-   "text": "Satranç taşlarını hareket alanı, taşın değeri, konumu, şahın önemi gibi etkenleri göz önünde bulundurarak güçlerine göre sınıflandırabilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Satranç taşlarının hareket alanından yola çıkarak taşların gücüne yönelik ölçütleri belirler."
-    },
-    {
-     "label": "b",
-     "text": "Satranç taşlarını güçlerine göre ayırır."
-    },
-    {
-     "label": "c",
-     "text": "Satranç taşlarını güçlerine göre sıralar."
-    },
-    {
-     "label": "d",
-     "text": "Satranç taşlarını güçlerine göre etiketler."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.4.1",
-   "grade": 4,
-   "unit": null,
-   "order": 1,
-   "text": "Satranç oyununda atak yaparak taş isteme hamlesini normal hamle ile karÇIKTILARI VE şılaştırabilme. SÜREÇ a) Taş isteme hamlesi ile normal hamlenin özelliklerini belirler. BİLEŞENLERİ b) Taş isteme hamlesinin normal hamle ile benzerliklerini listeler.",
-   "components": [
-    {
-     "label": "c",
-     "text": "Taş isteme hamlesinin normal hamleden farklarını listeler."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.4.2",
-   "grade": 4,
-   "unit": null,
-   "order": 2,
-   "text": "Satranç oyununda tehdit kavramını sorgulayabilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Satranç oyununda tehdit kavramını tanımlar."
-    },
-    {
-     "label": "b",
-     "text": "Tehdit ile ilgili sorular sorar."
-    },
-    {
-     "label": "c",
-     "text": "Tehdit ile ilgili bilgi toplar."
-    },
-    {
-     "label": "d",
-     "text": "Toplanan bilgileri değerlendirir."
-    },
-    {
-     "label": "e",
-     "text": "Toplanan bilgiler üzerinden çıkarım yapar."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.5.1",
-   "grade": 5,
-   "unit": null,
-   "order": 1,
-   "text": "Tümevarım yönteminden hareketle şah çekme tekniklerine yönelik akıl yüÇIKTILARI VE rütebilme. SÜREÇ a) Şah çekme tekniklerine yönelik gözlem yapar. BİLEŞENLERİ b) Şah çekme tekniklerine yönelik örüntü bulur.",
-   "components": [
-    {
-     "label": "c",
-     "text": "Şah çekme tekniklerine yönelik genelleme yapar."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.5.2",
-   "grade": 5,
-   "unit": null,
-   "order": 2,
-   "text": "Tehdit altındaki şahı korumaya yönelik eleştirel düşünebilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Tehdit altındaki şahın durumunu sorgular."
-    },
-    {
-     "label": "b",
-     "text": "Şahı koruma yolları ile ilgili akıl yürütür."
-    },
-    {
-     "label": "c",
-     "text": "Akıl yürütme sonucunda ulaştığı çıkarımları oyuna yansıtır."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.5.3",
-   "grade": 5,
-   "unit": null,
-   "order": 3,
-   "text": "Satrançta mat durumunun mantıksal denetlemesini yapabilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Satranç oyununda mat konumuna yönelik önermeler geliştirir."
-    },
-    {
-     "label": "b",
-     "text": "Mat durumundan kurtulmaya yönelik kuralları uygular."
-    },
-    {
-     "label": "c",
-     "text": "Oyunda mat konumunun oluşmasına yönelik yargıda bulunur. Şah Çekme ve Teknikleri"
-    }
-   ]
-  },
-  {
-   "code": "OOEST.6.1",
-   "grade": 6,
-   "unit": null,
-   "order": 1,
-   "text": "Satrançta hücum ve savunmaya yönelik hamleleri sınıflandırabilme. ÇIKTILARI VE a) Hücum ve savunma hamlelerine yönelik ölçüt belirler. SÜREÇ b) Hücum ve savunmaya yönelik yapılan hamleleri ayrıştırır. BİLEŞENLERİ",
-   "components": [
-    {
-     "label": "c",
-     "text": "Hücum ve savunmaya yönelik hamleleri tasnif eder."
-    },
-    {
-     "label": "d",
-     "text": "Yapılan hamleyi hücum veya savunma hamlesi olarak etiketlendirir."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.6.2",
-   "grade": 6,
-   "unit": null,
-   "order": 2,
-   "text": "Çatal ve şiş hamlesine yönelik bilgi toplayabilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Çatal ve şiş hamlesi hakkında bilgi toplamak için gerekli araçları belirler."
-    },
-    {
-     "label": "b",
-     "text": "Belirlediği aracı kullanarak konu hakkında bilgileri bulur."
-    },
-    {
-     "label": "c",
-     "text": "Çatal ve şiş hamlesi hakkında ulaşılan bilgileri doğrular."
-    },
-    {
-     "label": "d",
-     "text": "Çatal ve şiş hamlesi hakkında ulaşılan bilgileri kaydeder."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.7.1",
-   "grade": 7,
-   "unit": null,
-   "order": 1,
-   "text": "Satranç oyununda basit matlara yönelik çözümleme yapabilme. ÇIKTILARI VE a) Satranç oyununda basit matların çeşitlerini belirler. SÜREÇ b) Satranç oyununda basit matlar arasındaki ilişkileri belirler. BİLEŞENLERİ",
-   "components": []
-  },
-  {
-   "code": "OOEST.7.2",
-   "grade": 7,
-   "unit": null,
-   "order": 2,
-   "text": "Satrançta opozisyon konumunu yorumlayabilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Satrançta opozisyonu ve opozisyonun mat yapmaya etkisini inceler."
-    },
-    {
-     "label": "b",
-     "text": "Opozisyonun mat yapmaya etkisini bağlamdan kopmadan açıklar."
-    },
-    {
-     "label": "c",
-     "text": "Opozisyonu ve opozisyonun anlamını kendi cümleleri ile yeniden ifade eder."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.7.3",
-   "grade": 7,
-   "unit": null,
-   "order": 3,
-   "text": "Kademeli olarak önce bir sonra iki hamlelik matlara yönelik fikirlerini eyleme dönüştürebilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Kademeli olarak önce bir sonra iki hamlelik matlara yönelik plan yapar."
-    },
-    {
-     "label": "b",
-     "text": "Kademeli olarak önce bir sonra iki hamlelik matlara yönelik yapılan planı uygular."
-    },
-    {
-     "label": "c",
-     "text": "Uyguladığı planın oyuna etkisini değerlendirir."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.8.1",
-   "grade": 8,
-   "unit": null,
-   "order": 1,
-   "text": "Satrançta taş değişimi kuralını açıklayabilme.",
-   "components": []
-  },
-  {
-   "code": "OOEST.8.2",
-   "grade": 8,
-   "unit": null,
-   "order": 2,
-   "text": "Satranç oyununda taşlar arasında taş değeri, konum güvenliği, şah tehdidi, SÜREÇ tempo ve sonraki hamle etkisi durumlarından hareketle taş değişimi yapmaya yönelik BİLEŞENLERİ karar verebilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Satranç oyununda taş değişim kararına yönelik amacını belirler."
-    },
-    {
-     "label": "b",
-     "text": "Taş değişimi kararına yönelik bilgi toplar."
-    },
-    {
-     "label": "c",
-     "text": "Alternatif taş değişimi seçenekleri oluşturur."
-    },
-    {
-     "label": "d",
-     "text": "Alternatif seçenekler üzerinde mantıksal denetleme yapar."
-    },
-    {
-     "label": "e",
-     "text": "Taş değişimi kararına yönelik seçim yapar."
-    },
-    {
-     "label": "f",
-     "text": "Taş değişimi kararını oyun sürecine ve sonuç üzerine yansıtır."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.8.3",
-   "grade": 8,
-   "unit": null,
-   "order": 3,
-   "text": "Satrançta konumsal kazanç elde etmek üzere yapılan taş fedasını açıklayabilme.",
-   "components": []
-  },
-  {
-   "code": "OOEST.8.4",
-   "grade": 8,
-   "unit": null,
-   "order": 4,
-   "text": "Satrançta daha iyi bir konum elde etmek için feda edilecek taşın oyuna etkisini düşünerek çıkarım yapabilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Mevcut bilgileri dâhilinde daha iyi bir konum elde etmek için feda edilecek taşın oyuna etkisi ile ilgili varsayımda bulunur."
-    },
-    {
-     "label": "b",
-     "text": "Feda edilecek taşın oyuna etkisi ile ilgili varsayımları listeler."
-    },
-    {
-     "label": "c",
-     "text": "Feda edilecek taşın oyuna etkisi ile ilgili varsayımları karşılaştırır."
-    },
-    {
-     "label": "d",
-     "text": "Feda edilecek taşın oyuna etkisi ile ilgili önerme sunar."
-    },
-    {
-     "label": "e",
-     "text": "Feda edilecek taşın oyuna etkisi ile ilgili önermeyi değerlendirir."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.9.1",
-   "grade": 9,
-   "unit": null,
-   "order": 1,
-   "text": "Satrançta rok hamlesinin oyuna ve oyun sonuna etkisini sorgulayabilme. ÇIKTILARI VE a) Satrançta rok hamlesini tanımlar. SÜREÇ b) Rok hamlesi ile ilgili sorular sorar. BİLEŞENLERİ",
-   "components": [
-    {
-     "label": "c",
-     "text": "Rok hamlesi ile ilgili bilgi toplar."
-    },
-    {
-     "label": "d",
-     "text": "Rok hamlesi ile ilgili topladığı bilgilerin doğruluğunu değerlendirir."
-    },
-    {
-     "label": "e",
-     "text": "Toplanan bilgiler üzerinden rok hamlesinin yapılma amacına yönelik çıkarım yapar."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.9.2",
-   "grade": 9,
-   "unit": null,
-   "order": 2,
-   "text": "Satrançta kurallara uygun olarak piyonu terfi ettirme fikrini eyleme dönüştürebilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Satranç oyununda piyonun terfi ettirilmesi ile ilgili plan yapar."
-    },
-    {
-     "label": "b",
-     "text": "Satranç oyununda piyonun terfi ettirilmesi ile ilgili yaptığı planı uygular."
-    },
-    {
-     "label": "c",
-     "text": "Satranç oyununda piyonun terfi ettirilmesi ile ilgili uyguladığı planı değerlendirir."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.9.3",
-   "grade": 9,
-   "unit": null,
-   "order": 3,
-   "text": "Oyun içi, maç sonu ve turnuva sonu puanlamaların nasıl yapıldığını açıklayabilme.",
-   "components": []
-  },
-  {
-   "code": "OOEST.9.4",
-   "grade": 9,
-   "unit": null,
-   "order": 4,
-   "text": "Satrançta adil oyun anlayışına uygun davranabilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Satranç oyununda adil oyun anlayışını açıklar."
-    },
-    {
-     "label": "b",
-     "text": "Satranç oyununda adil oyun anlayışına uygun hareket eder."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.9.5",
-   "grade": 9,
-   "unit": null,
-   "order": 5,
-   "text": "Satrançta oyun süresince yaptığı hamleleri notasyon kâğıdına yazabilme.",
-   "components": []
-  },
-  {
-   "code": "OOEST.10.1",
-   "grade": 10,
-   "unit": null,
-   "order": 1,
-   "text": "Satrançta açmaza yönelik taktik ve strateji geliştirebilme. ÇIKTILARI VE a) Açmaza giren taşın durumunu belirler. SÜREÇ b) Açmaz durumunun çözümüne ilişkin öneri geliştirir. BİLEŞENLERİ c) Çözüme ilişkin öneriyi uygular.",
-   "components": []
-  },
-  {
-   "code": "OOEST.10.2",
-   "grade": 10,
-   "unit": null,
-   "order": 2,
-   "text": "Satrançta taşa saldırı yapmaya yönelik gözlemlerden hareketle taşa saldırının oyuna etkisine yönelik akıl yürütebilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Satrançta taşa saldırı yapmanın oyuna etkisine yönelik gözlem yapar."
-    },
-    {
-     "label": "b",
-     "text": "Satrançta taşa saldırı yapmanın oyuna etkisine yönelik örüntü bulur."
-    },
-    {
-     "label": "c",
-     "text": "Satrançta taşa saldırı yapmanın oyuna etkisine yönelik genelleme yapar."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.10.3",
-   "grade": 10,
-   "unit": null,
-   "order": 3,
-   "text": "Satranç saatini kullanabilme.",
-   "components": []
-  },
-  {
-   "code": "OOEST.11.1",
-   "grade": 11,
-   "unit": null,
-   "order": 1,
-   "text": "Ön öğrenmelerden hareketle satrançta beraberlik durumlarına yönelik çıÇIKTILARI VE karım yapabilme. SÜREÇ a) Mevcut bilgisi dâhilinde beraberliğin ne olduğu hakkında varsayımda bulunur. BİLEŞENLERİ b) Beraberlik durumlarını listeler.",
-   "components": [
-    {
-     "label": "c",
-     "text": "Beraberlik durumlarını karşılaştırır."
-    },
-    {
-     "label": "d",
-     "text": "Beraberlik durumları hakkında önerme sunar."
-    },
-    {
-     "label": "e",
-     "text": "Beraberlik durumlarını değerlendirir."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.11.2",
-   "grade": 11,
-   "unit": null,
-   "order": 2,
-   "text": "Satrançta temel açılış ilkelerini kullanarak taktik ve strateji geliştirebilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Satrançta temel açılış ilkelerinden hareketle taktiksel durum belirlemesi yapar."
-    },
-    {
-     "label": "b",
-     "text": "Belirlenen durumun çözümüne ilişkin öneri sunar."
-    },
-    {
-     "label": "c",
-     "text": "Taktiği uygular."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.12.1",
-   "grade": 12,
-   "unit": null,
-   "order": 1,
-   "text": "Satrancın ülkemizdeki gelişimine yönelik bilgi toplayabilme. ÇIKTILARI VE a) Satrancın ülkemizdeki gelişimi hakkında bilgi toplayabileceği araçları belirler. SÜREÇ b) Belirlediği araçları kullanarak satrancın gelişimine yönelik bilgilere ulaşır. BİLEŞENLERİ",
-   "components": [
-    {
-     "label": "c",
-     "text": "Ulaştığı bilgileri doğrular."
-    },
-    {
-     "label": "d",
-     "text": "Satrancın ülkemizdeki gelişimiyle ilgili ulaştığı bilgileri kaydeder."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.12.2",
-   "grade": 12,
-   "unit": null,
-   "order": 2,
-   "text": "Türkiye’den ve dünyadan seçilen birer satranç şampiyonu hakkında belirlenen ölçüte göre güvenilir kaynaklardan bilgi toplayabilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Seçilen satranç şampiyonları hakkında araştırma yapacağı kaynakları belirler."
-    },
-    {
-     "label": "b",
-     "text": "Belirlediği kaynakları kullanarak bilgilere ulaşır."
-    },
-    {
-     "label": "c",
-     "text": "Kullanacağı kaynakların bilgi edineceği konuya uygunluğunu açıklar."
-    },
-    {
-     "label": "d",
-     "text": "Kullandığı kaynaklardan satranç şampiyonları ile ilgili edindiği bilgileri kaydeder."
-    }
-   ]
-  },
-  {
-   "code": "OOEST.12.3",
-   "grade": 12,
-   "unit": null,
-   "order": 3,
-   "text": "Satranç oyununda edindiği bilgileri öğretmen denetimli ve güvenli çevrimiçi ortamlarda uygulayabilme.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Satranç oyunu hakkında edindiği bilgileri öğretmen denetimli ve güvenli çevrimiçi ortamlarda uygulayabileceği araç ve teknolojileri belirler."
-    },
-    {
-     "label": "b",
-     "text": "Belirlediği araç ve teknolojileri kullanır."
-    },
-    {
-     "label": "c",
-     "text": "Kullandığı araç ve teknolojilerin oyun kazanma ve pratik yapmaya yönelik verimliliğini değerlendirir."
+     "code": "OOEST.12.3",
+     "order": 3,
+     "text": "Satranç oyununda edindiği bilgileri öğretmen denetimli ve güvenli çevrimiçi ortamlarda uygulayabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Satranç oyunu hakkında edindiği bilgileri öğretmen denetimli ve güvenli çevrimiçi ortamlarda uygulayabileceği araç ve teknolojileri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği araç ve teknolojileri kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Kullandığı araç ve teknolojilerin oyun kazanma ve pratik yapmaya yönelik verimliliğini değerlendirir."
+      }
+     ]
     }
    ]
   }
  ],
+ "unassigned_outcomes": [],
  "report": {
   "units": 12,
-  "outcomes": 0,
-  "components": 0,
-  "orphan_outcomes": 38,
-  "gaps": [
-   {
-    "course": "Oyun ve Oyun Etkinlikleri Dersi (Satranç)",
-    "reason": "ünitesi bulunamayan çıktı",
-    "codes": [
-     "OOEST.1.1",
-     "OOEST.1.2",
-     "OOEST.1.3",
-     "OOEST.2.1",
-     "OOEST.2.2",
-     "OOEST.2.3",
-     "OOEST.2.4",
-     "OOEST.3.1",
-     "OOEST.3.2",
-     "OOEST.3.3",
-     "OOEST.3.4",
-     "OOEST.4.1",
-     "OOEST.4.2",
-     "OOEST.5.1",
-     "OOEST.5.2",
-     "OOEST.5.3",
-     "OOEST.6.1",
-     "OOEST.6.2",
-     "OOEST.7.1",
-     "OOEST.7.2",
-     "OOEST.7.3",
-     "OOEST.8.1",
-     "OOEST.8.2",
-     "OOEST.8.3",
-     "OOEST.8.4",
-     "OOEST.9.1",
-     "OOEST.9.2",
-     "OOEST.9.3",
-     "OOEST.9.4",
-     "OOEST.9.5",
-     "OOEST.10.1",
-     "OOEST.10.2",
-     "OOEST.10.3",
-     "OOEST.11.1",
-     "OOEST.11.2",
-     "OOEST.12.1",
-     "OOEST.12.2",
-     "OOEST.12.3"
-    ]
-   }
-  ]
+  "outcomes": 38,
+  "components": 75,
+  "orphan_outcomes": 0,
+  "gaps": []
  }
 }

@@ -511,9 +511,9 @@
    },
    "outcomes": [
     {
-     "code": "GTR.4.2.1",
+     "code": "GTR.4.3.1",
      "order": 1,
-     "text": "Gitarda arpej tekniğini uygulayabilme",
+     "text": "Gitarda temel akorları uygulayabilme",
      "components": []
     }
    ]
@@ -543,9 +543,9 @@
    },
    "outcomes": [
     {
-     "code": "GTR.4.3.1",
+     "code": "GTR.4.2.1",
      "order": 1,
-     "text": "Gitarda temel akorları uygulayabilme",
+     "text": "Gitarda arpej tekniğini uygulayabilme",
      "components": []
     }
    ]

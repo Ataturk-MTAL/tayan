@@ -36,7 +36,24 @@
      "code": "KK.9.1.1",
      "order": 1,
      "text": "Kur’an-ı Kerim okumanın önemi ile sonunda öğrenciye VE ilgili bilgi toplayabilme kazandırılması amaçlanan bilgi, SÜREÇ BİLEŞENLERİ a) Kur’an-ı Kerim okumanın önemi ile ilgili beceri ve becerilerin süreç bilgiye ulaşmak için kullanacağı araçları bileşenlerini ifade eder. öğretmeni ile belirler.",
-     "components": []
+     "components": [
+      {
+       "label": "a",
+       "text": "Kur’an-ı Kerim okumanın önemi ile ilgili bilgiye ulaşmak için kullanacağı araçları öğretmen ile belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği aracı kullanarak Kur’an-ı Kerim okumanın önemi ile ilgili bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Kur’an-ı Kerim okumanın önemi ile ilgili bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Kur’an-ı Kerim okumanın önemi ile ilgili ulaşılan bilgileri kaydeder."
+      }
+     ]
     },
     {
      "code": "KK.9.1.2",
@@ -1357,7 +1374,7 @@
  "report": {
   "units": 16,
   "outcomes": 43,
-  "components": 161,
+  "components": 165,
   "orphan_outcomes": 0,
   "gaps": []
  }

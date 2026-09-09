@@ -163,7 +163,7 @@
   "gaps": [
    {
     "course": "Spor ve Fiziki Etkinlikler Dersi",
-    "reason": "ünitesi bulunamayan çıktı",
+    "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
      "SFE.1.1",
      "SFE.1.2",

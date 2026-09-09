@@ -1085,6 +1085,10 @@
      "text": "Veda Haccı’nın önemini çözümleyeve becerilerin süreç bilme bileşenlerini ifade eder. a) Veda Haccı’nın önemine ilişkin unsurları araştırır.",
      "components": [
       {
+       "label": "a",
+       "text": "Veda Haccı’nın önemine ilişkin unsurları araştırır. 17"
+      },
+      {
        "label": "b",
        "text": "Veda Haccı’nın önemine ilişkin unsurlar arasındaki ilişkileri belirler."
       }
@@ -1156,7 +1160,7 @@
  "report": {
   "units": 16,
   "outcomes": 38,
-  "components": 124,
+  "components": 125,
   "orphan_outcomes": 0,
   "gaps": []
  }

@@ -37,7 +37,24 @@
      "code": "DKAB.9.1.1",
      "order": 1,
      "text": "Öğrenme çıktı numarası ması amaçlanan bilgi, beceri ve becerilerin süreç bileşenlerini ayetlerden hareketle müşahede edebilme Ünite Numarası ifade eder. a) İnsanın yaratılışı ve özellikleriyle ilgili Sınıf seviyesi merak ettiklerini belirler. Ders kodu 9. Sınıf Din Kültürü ve Ahlak Bilb) İnsanın yaratılışına ve özelliklerine dair gisi dersi 1. ünitenin 1. öğrenme sorular sorar. çıktısına ait süreç bileşenlerini ifade eder. Öğrenme-öğretme",
-     "components": []
+     "components": [
+      {
+       "label": "a",
+       "text": "İnsanın yaratılışı ve özellikleriyle ilgili merak ettiklerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "İnsanın yaratılışına ve özelliklerine dair sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "İnsanın yaratılışını ve özelliklerini İslam’ın temel kaynaklarından faydalanarak inceler."
+      },
+      {
+       "label": "ç",
+       "text": "İnsanın yaratılışına ve özelliklerine dair çıkarımlarda bulunur."
+      }
+     ]
     },
     {
      "code": "DKAB.9.1.2",
@@ -2053,7 +2070,7 @@
  "report": {
   "units": 20,
   "outcomes": 73,
-  "components": 256,
+  "components": 260,
   "orphan_outcomes": 0,
   "gaps": []
  }

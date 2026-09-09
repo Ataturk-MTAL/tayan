@@ -10,26 +10,52 @@
  },
  "units": [
   {
-   "grade": null,
+   "grade": 1,
    "unit": 1,
    "kind": "TEMA",
-   "title": "SAĞLIKLI YAŞAMIN MATEMATİĞİ",
-   "description": "Bu temada öğrencilerin sağlıklı yaşam seçimi ve sağlıklı yaşamın bileşenlerini ilişkilendirmede matematiksel temsillerden yararlanabilmeleri ve yaşam alışkanlıklarına bağlı olarak sağlıklı yaşam seçiminde matematiksel temsillerden yararlanarak karar verebilmeleri amaçlanmaktadır. ALAN MAB3. Matematiksel Temsil (MAB3.1. Matematiksel Temsillerden Yararlanma) BECERİLERİ KAVRAMSAL KB3.1. Karar Verme BECERİLER",
+   "title": "STRATEJİ VE ZEKÂ OYUNLARININ MATEMATİĞİ",
+   "description": "Bu temada öğrencilerin strateji ve zekâ oyunlarında karşılaşılan duruma yönelik en uygun hamleye karar verebilmeleri ve oyunlarda olası durumları belirleyerek amaca yönelik matematiksel çözümler geliştirebilmeleri amaçlanmaktadır. ALAN MAB2. Matematiksel Problem Çözme (MAB2.1. Matematiksel Çözümler Geliştirme) BECERİLERİ KAVRAMSAL KB3.1. Karar Verme BECERİLER",
    "lesson_hours": 12,
    "sections": {
-    "EĞİLİMLER": "E1.4. Kendine İnanma (Öz Yeterlilik), E1.6. Seçicilik, E3.10. Eleştirel Bakma",
-    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim Öğrenme Becerileri",
-    "Değerler": "D12. Sabır, D13. Sağlıklı Yaşam, D16. Sorumluluk",
-    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB7. Veri Okuryazarlığı DİSİPLİNLER ARASI Beden Eğitimi, Biyoloji",
-    "İLİŞKİLER": "BECERİLER ARASI KB2.12. Mevcut Bilgiye / Veriye Dayalı Tahmin Etme, KB2.17. Değerlendirme MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI MAT.U.2.1.1. Sağlıklı yaşam bileşenlerini ilişkilendirmede matematiksel temsillerden yaVE SÜREÇ BİLEŞENLERİ rarlanabilme a) Beslenme alışkanlıkları ve fiziksel aktivitenin bileşenlerini matematiksel temsil bağlamındaki anlamı ile tanır. b) Besinlerin kalori, glisemik yük değerini ve fiziksel aktivitelerde metabolizma hızı (ME), PAL (fiziksel aktivite hızı), BMH değerlerinin (bazal metabolizma hızı) kullanılmasında uygun matematiksel temsilleri belirler. c) Yaşam seçimlerine bağlı olarak beslenme ve fiziksel aktivite bileşenlerinin matematiksel temsillerini oluşturur. MAT.U.2.1.2. Yaşam alışkanlıklarına bağlı olarak sağlıklı yaşam seçimleri konusunda matematiksel temsillerden yararlanarak karar verebilme a) Yaşam alışkanlıklarına uygun sağlıklı yaşam seçimleri için amacını belirler. b) Hangi besin türünden ne kadar beslenebileceği veya fiziksel aktivitenin hangi oranda olması gerekliliği üzerine bilgi toplar. c) Topladığı bilgileri kullanarak amacına yönelik alternatif önermeler/seçenekler oluşturur. ç) Oluşturduğu alternatif önermeler/seçenekler üzerinde mantıksal denetlemeler yapar. d) Ortaya konulan önermeler/seçenekler arasından seçim yapar. e) Kararının sonuçları üzerinden yansıtma yapar.",
-    "İÇERİK ÇERÇEVESİ": "Sağlıklı Yaşam Bileşenleri Sağlıklı Yaşam Seçimleri",
-    "Anahtar Kavramlar": "beslenme, diyet, egzersiz, glisemik indeks, glisemik yük, günlük kalori ihtiyacı, kalori, metabolizma hızı Sembol ve Gösterimler BMH, GY, kcal, ME, PAL ÖĞRENME Öğrenme çıktıları; çalışma kâğıdı, açık uçlu sorular, performans görevi ile değerlendirilebilir. KANITLARI Performans görevi olarak öğrencilerden kendi yaşam tarzlarını değerlendirerek sağlıklı (Ölçme ve yaşam alışkanlıklarını geliştirmeye yönelik kişisel bir plan hazırlamaları istenebilir. ÖğrenDeğerlendirme) cilerden günlük kalori alımını ve harcamasını dengelemeye yönelik çeşitli beslenme ve fiziksel aktivite alternatifleri geliştirmeleri, geliştirdikleri alternatifler arasında mantıklı karşılaştırmalar yaparak seçimde bulunmaları, seçim sürecinde kullandıkları ölçütleri gerekçelendirmeleri ve yansıtıcı değerlendirmeler yapmaları beklenir. Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin yüzde ve oran-orantı hesaplamaları ile tablo ve grafik oluşturup yorumlayabildiği; temel enerji birimlerini (kalori, kilokalori vb.) bildiği kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerden yüzde, oran orantı hesaplamaları, tablo ve grafik oluşturmaları, temel enerji birimlerine ilişkin günlük yaşamdan alınmış örnekleri açık uçlu sorular üzerinden cevaplamaları istenebilir. Köprü Kurma Öğrencilerin günlük hayattan örneklerle sağlıklı yaşam tercihlerini (sağlıklı beslenme, fiziksel aktivite) oluşturan bileşenleri fark etmeleri için fikir alışverişi yapmaları sağlanabilir. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme MAT.U.2.1.1 Uygulamaları Günlük hayattan örnekler kullanılarak sağlıklı beslenme ve fiziksel aktiviteyle ilgili temel kavramlar (kalori, glisemik yük, BMH, ME, PAL) incelenir (OB1). Farklı besinlerin kalori, glisemik indeks ve glisemik yük bilgileri (basitleştirilmiş tablolar veya örnekler üzerinden) ile ilgili hesaplamalar yapılarak bu değerlerin beslenme tercihlerini nasıl etkilediği tartışılabilir ve öğrenciler gıda okuryazarlığı konusunda bilinçlenerek gıda üzerindeki bilgileri anlayabilir (D13.1, KB2.12). Fiziksel aktivitelerin (yürüme, koşma, merdiven çıkma vb.) ME değeri ve PAL tablosu incelenebilir, aktivite şiddeti ile arasındaki ilişki matematiksel temsil ile ifade edilebilir (OB7). Bireylerin BMH (farklı yaş, cinsiyet, boy, kilo) değerlerini hesaplama alıştırmaları yapılabilir. Öğrencilerin kendi kişisel verilerini kullanarak BMH değerlerini hesaplamaları teşvik edilebilir (SDB1.2). Örnek senaryolardaki fiziksel aktivitelerin süreleri, ME değerleri kullanılarak toplam ME değerini ve yaklaşık harcanan enerjiyi hesaplama problemleri çözülebilir. Problem durumlarındaki PAL değerleri ve yaşam biçimleri incelenerek örnek bireylerin aktivite düzeylerini belirleme ve yorumlama çalışmaları yapılabilir (KB2.17). Böylelikle öğrenciler yaşına ve fiziksel özelliklerine uygun sosyal ve sportif etkinliklere katılabilir (D13.2). Öğrencilerin belirledikleri günlük kalori ihtiyacına ve sağlıklı yemek tabağı modeline uygun, farklı besin gruplarından oluşan öğün listeleri oluşturmaları, yaklaşık kalori değerleri hesaplamaları istenebilir. Öğrencilerden farklı ME değerlerine sahip aktivitelerden oluşan egzersiz planı tasarlamaya yönelik araştırma yapmaları istenebilir. Öğrenme süreci çalışma kâğıdı ile değerlendirilebilir. MAT.U.2.1.2 Öğrencilere “Neden sağlıklı yaşam seçimleri yapmalıyız?” sorusu yöneltilebilir. Bu süreçte sağlıklı yaşam seçimlerinin kişisel ve toplumsal sağlık üzerindeki etkileri ile ilgili sınıf tartışması düzenlenebilir. Öğrencilerden sağlıklı yaşam seçimlerine yönelik beslenme ve fiziksel aktivite alışkanlıklarını gözden geçirerek sağlıklı yaşam hedeflerini (kalori açığı oluşturma, kas oranını artırma vb.) belirlemeleri istenir (SDB1.2). Öğrenciler belirlediği hedefler doğrultusunda tüketiminin artırılması veya azaltılması gereken besinleri ve besin ögelerini öğrenerek beslenmesinde uygular (D13.1). Öğrencilerden besin türleri, fiziksel aktivite çeşitleri ve bunların matematiksel temsil değerleri (kalori, GY, ME, PAL) hakkında bilgi toplamaları istenebilir. Bilgi toplama aşamasında öğrencilerin biyoloji, beden eğitimi gibi farklı disiplinlerden yararlanmaları desteklenir. Öğrencilerden topladıkları bilgilere ve belirledikleri amaca yönelik beslenme planları (aynı kalori hedefine farklı öğün kombinasyonlarıyla ulaşma gibi), farklı fiziksel aktivite programları (aynı enerji harcaması hedefine farklı aktivitelerle ulaşma vb.) gibi alternatifler oluşturmaları istenebilir (OB1). Öğrencilerden oluşturdukları alternatif beslenme planlarını kalori hedefine uygunluk, glisemik yük profili, besin çeşitliliği ve sağlıklı beslenme ilkeleri açısından değerlendirmeleri istenebilir. Öğrencilerden oluşturdukları fiziksel aktivite programlarını haftalık önerilen süreler, metabolik eş değeri (ME), kişisel PAL değeri ve fiziksel aktivite prensipleri açısından değerlendirmeleri istenebilir. Öğrencilerin küçük gruplar hâlinde, oluşturdukları alternatifleri sınıf arkadaşlarıyla paylaşarak birbirlerinin planları üzerinde matematiksel temsiller yapmaları, bunları sağlıklı yaşam seçimi ile ilişkilendirerek mantıksal denetleme yapmaları sağlanabilir (SDB2.1, OB1). Öğrencilerden alternatifler üzerinde kişisel tercihlerini dikkate alarak belirledikleri sağlıklı yaşam hedeflerine ulaşmada en uygun ve uygulanabilir beslenme planı ile fiziksel aktivite programını seçmeleri istenir (E1.6). Öğrencilerden seçimlerinin güçlü ve zayıf yönlerini eleştirel bir bakış açısıyla genel sağlıklı yaşam göstergeleri (yeterli uyku, aktif yaşam, dengeli beslenme etkileri vb.) MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI bağlamında değerlendirmeleri istenebilir ve öz bakımlarını doğru biçimde ve zamanında yapmaları beklenir (E3.10, D16.1). Öğrencilerden yaptıkları seçimlerin kısa ve uzun vadeli uygulanabilirliğini ve etkilerini düşünerek yansıtıcı yazı yazmaları istenebilir. Öğrencilerden yazdıkları yazıları sınıf ortamında arkadaşları ile paylaşmaları istenebilir (E1.4). Öğrencilerden planlarını belirlenen bir süre boyunca uygulamaları ve uygulama süresince sabrın bilinçli ve etkin bir bekleyiş süreci olduğunu fark etmeleri istenebilir (D12.3). Öğrencilerden uygulama sonuçlarını sınıf ortamında arkadaşları ile paylaşmaları istenebilir. Performans görevi olarak öğrencilerden kendi yaşam tarzlarını değerlendirerek sağlıklı yaşam alışkanlıklarını geliştirmeye yönelik kişisel bir plan hazırlamaları istenebilir. Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir.",
-    "FARKLILAŞTIRMA": "Zenginleştirme (*) Öğrencilerden sağlıklı yaşam tercihlerini etkileyen değişkenler üzerine araştırma yapmaları, araştırma sonuçlarının verilerini grafik üzerinde temsil ederek dijital ortamda sunmaları istenebilir. (*) Öğrenciler farklı yaş gruplarına (çocuk, genç, yetişkin, yaşlı) ait sağlıklı yaşam öneri planı hazırlayabilir. Öğrencilerden farklı öneri planını ilgili yaş grubunun fizyolojik ve yaşam tarzı ihtiyaçlarına uygun şekilde matematiksel temsillerle (yaşa göre BMH hesaplamaları ve öneri grafikleri) desteklemeleri istenebilir. Öğrencilerden buldukları sonuçları raporlaştırarak sunmaları istenebilir. (*) Öğrencilerden dijital araçlardan yararlanarak bireyin beslenme alışkanlıkları, fiziksel aktivitesi, uyku süresi gibi değişkenler arasında doğrusal regresyon modeli kurmaları istenebilir. (*) Öğrencilerden bireylerin sağlıklı beslenme alışkanlıkları verilerini araştırarak sonuçlarını matematiksel temsilleri ile raporlaştırmaları istenebilir. Destekleme Öğrencilere bazı temel kavramları öğrenmeleri ve karşılaştırabilmeleri için önceden hazırlanmış veri tabloları (farklı gıdaların kalori ve glisemik yük bilgileri) ve yardımcı görseller (besin piramidi, aktivite yoğunluk grafikleri) sunularak basit yorumlama ve temel işlem gerektiren çalışma kâğıtları verilebilir. Öğrencilere çalışma kâğıtları ile örnek senaryolar sunularak öğrencilerden kalori, BMH, glisemik yük hesaplama ile ilgili problem çözmeleri istenebilir. Bu hesaplamalar ile öğrencilerin öğrenme sürecine katılımı desteklenir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI"
+    "EĞİLİMLER": "E3.6. Analitiklik, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.2. Esneklik Öğrenme Becerileri",
+    "Değerler": "D3. Çalışkanlık, D10. Mütevazılık",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık DİSİPLİNLER ARASI Bilişim Teknolojileri ve Yazılım, Psikoloji",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.16. Muhakeme (Akıl Yürütme) (KB2.16.3. Analojik Akıl Yürütme), MAB3. Matematiksel Temsil MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI MAT.U.1.1.1. Strateji ve zekâ oyunlarında karşılaşılan duruma yönelik en uygun hamleye VE SÜREÇ BİLEŞENLERİ karar verebilme a) Karar vermesi gereken oyun senaryosunda ulaşmak istediği amacı belirler. b) Oyunun kuralları ve mevcut oyun durumu ile ilgili bilgi toplar. c) Edindiği bilgilere ve rakibin olası hamlelerine göre alternatif hamle seçenekleri oluşturur. ç) Hamle seçenekleri üzerinde mantıksal denetleme yapar. d) Hamle seçenekleri arasından en uygun seçimi yapar. e) Yaptığı seçimin sonuçları üzerinde yansıtma yapar. MAT.U.1.1.2. Strateji ve zekâ oyunlarında olası durumları belirleyerek amaca yönelik matematiksel çözümler geliştirebilme a) Strateji ve zekâ oyunlarında amaca ulaşmak için olası durumlara dayalı bir çözüm stratejisi oluşturur. b) Oluşturduğu stratejiyi kullanarak oyundaki problem durumunu çözer. c) Oyundaki problem durumunun çözümünü kontrol eder.",
+    "İÇERİK ÇERÇEVESİ": "Strateji ve Zekâ Oyunlarında Karar Verme Strateji ve Zekâ Oyunlarında Matematiksel Çözümler Geliştirme",
+    "Anahtar Kavramlar": "dama, mangala, olasılık, satranç, strateji, zekâ Sembol ve Gösterimler ÖĞRENME Öğrenme çıktıları; 3-2-1 çıkış kartı, çalışma kâğıdı ve performans görevi ile değerlendiriKANITLARI lebilir. (Ölçme ve Öğrencilerden belirlenen bir oyun için en uygun hamleleri içeren bir strateji planı geliştirDeğerlendirme) meleri ve bu planın matematiksel gerekçesini ortaya koymaları istenebilir. Bu kapsamda performans görevi, analitik dereceli puanlama anahtarıyla değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin bir olayın olasılık değeri ile tümleyeninin olasılık değerinin toplamının 1 olduğunu, sıralama, seçme gibi sayma kavramlarını bildiği; olayların olasılığını teorik ve deneysel olasılık ile inceleyebildiği ve yorumlayabildiği kabul edilmektedir. Ayrıca öğrencilerin oyun içindeki değişkenler ve ilişkiler üzerinden optimal kararlar alabilmeleri için mantıksal çıkarım ve problem çözme süreçlerinin nasıl yapılandırılması gerektiği hususunda yetkinlik sahibi oldukları kabul edilir. Ön Değerlendirme Süreci Öğrencilere sıralama, seçme gibi sayma kavramları, teorik ve deneysel olasılık ile ilgili ön bilgilerini belirlemeye yönelik sorular sorulabilir. Öğrencilerle oynadıkları bir strateji veya zekâ oyununda hamlelerini nasıl belirledikleri üzerinde soru-cevap etkinliği yapılabilir ve böylece öğrencilerin karar verme ve problem çözme becerileri değerlendirilebilir. Köprü Kurma Öğrencilerin daha önce karşılaştıkları strateji ve zekâ oyunlarıyla ilgili deneyimlerinden ve bu oyunlara dair temel bilgilerden yararlanılarak bu süreçte stratejik düşünme ile matematiksel düşünme süreçleri arasındaki ilişki yapılandırılabilir. Öğrencilere strateji ve zekâ oyunlarında karşılaşılan durumların çözümünde matematiksel akıl yürütmenin nasıl kullanıldığına dair örnekler sunulabilir ve böylece öğrencilerin kendi düşünme süreçlerine yönelik farkındalık geliştirmeleri ve fikirlerini paylaşmaları teşvik edilebilir. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme MAT.U.1.1.1 Uygulamaları Öğrencilere seçilen bir strateji ve zekâ oyununun kuralları tanıtılır. Öğrencilere seçilen strateji ve zekâ oyununa (mangala, dama, satranç vb.) ait senaryo sunularak öğrencilerin belirli bir hamle yapmaları gereken durumla karşılaşmaları sağlanır. Öğrencilerden oyunda bu durum karşısında ulaşmak istedikleri amacı (taş kazanmak, rakibi engellemek, üstünlük sağlamak vb.) belirlemeleri istenir. Örneğin öğrenciler mangala oyununda avantaj sağlamak için yapacakları hamlede hazinelerine daha fazla taş taşımaları gerektiğini belirleyebilir. Öğrenciler en uygun hamleye yönelik karar sürecinde strateji ve zekâ oyununun (mangala, dama, satranç vb.) kuralları ile ilgili bilgi toplar ve verilen oyun koşullarını inceler (OB1). Öğrenciler kendisine verilen örnek senaryoda kendisinin ve rakibinin taşlarının dizilişini inceler. Oyundaki taşların veya elemanların dizilişi, oyuncuların hamle sırası gibi bilgiler dikkate alınarak öğrencilerin sistematik bir şekilde farklı hamle alternatifleri üretmeleri sağlanır (E3.7). Alternatifler üretilirken öğrencilerin problem çözme becerileri desteklenir. Öğrencilerden alternatif hamleler oluşturduktan sonra her bir hamlenin avantaj ve dezavantajlarını tartışarak bu hamlelerin sonuçlarını mantıksal olarak denetlemeleri beklenir (E3.6). Öğrencilerden argümanlar ve karşı argümanlar geliştirmeleri istenir ve öğrencilerin farklı bakış açılarına uyum sağlayarak düşüncelerini yeniden yapılandırmaları teşvik edilir. Bunun için beyin fırtınası tekniğinden yararlanılabilir (SDB3.2). Ardından öğrenciler oluşturdukları alternatifler arasından en uygun hamleyi seçer ve seçimlerini neden bu yönde yaptıklarına dair açıklamalarda bulunur. Örneğin mangala oyununda öğrenciler seçtikleri kuyudaki taşlar ile hazineye ulaşıp ulaşamayacaklarını, rakibinin kuyusundan taş alıp alamayacaklarını açıklar. Öğrencilerden oyunları genel ağ araçları yardımı ile dijital ortamda oynamaları istenebilir ve böylece öğrencilerin oyunlarla ilgili deneyimlerini artırmaları, hamle seçenekleri arasından en uygun olanı seçmeleri sağlanabilir (OB2). Disiplinler arası bağlamda bilişim teknolojileri disiplini ile dijital strateji oyunlarının oynanması, psikoloji disiplini ile karar verme süreçleri ilişkilendirilir. Öğrencilerden karar verdikleri hamle seçeneklerini sınıf ortamında arkadaşları ile paylaşmaları istenebilir. Bu aşamada öğrencilerin iş birliği içerisinde fikir alışverişi yapmaları teşvik edilir (SDB2.2). Öğrencilerin olaylar ve durumlar karşısında farklı bakış açıları olabileceğini kabul ederek sınıf içi tartışmalar yapmaları sağlanır (SDB2.1, D10.3). Süreç sonunda öğrencilerden seçtikleri hamlenin nedenlerini, sonuçlarını ve bu seçimler üzerindeki değerlendirmelerini sınıf ortamında arkadaşlarıyla paylaşarak yansıtmaları istenebilir. Bu süreç, farklı oyun türleri (satranç, dama veya mangala) için uygun şekilde yeniden yapılandırılarak kullanılabilir. Öğrenme süreci 3-2-1 çıkış kartı ile değerlendirilebilir. MAT.U.1.1.2 Öğrencilere strateji ve zekâ oyunları (satranç, mangala, hanoi kulesi vb.) ile ilgili belirli senaryolar sunulur. Her bir senaryoda öğrencilerden karşılaştıkları durumu matematiksel bir problem olarak yapılandırmaları beklenir. Öğrenciler, bu senaryodaki durumu inceleyerek önemli parçaları (taş konumları, hamle sayısı, oyun kuralları vb.) belirler ve bu parçalar arasındaki ilişkileri analiz eder. Öğrenciler analiz ettikleri bu oyun durumlarını matematiksel temsillere dönüştürür (MAB3). Örneğin öğrenciler satrançta belirli bir taşın nasıl hareket edebileceğini tabloya aktarır, hanoi kulesinde hamleleri cebirsel olarak ifade eder veya olasılık içeren oyunlarda sonuçları diyagram ya da ağaç şemasıyla gösterir. Öğrenciler bu temsiller üzerinden hamle seçeneklerini yorumlayarak farklı çözüm yollarını ifade eder. Öğrenciler oyun içinde ortaya çıkan durumları gözlemleyip oyun durumlarının niteliklerini ve benzerliklerini saptayarak analiz ettikleri ilişkilere ve oluşturdukları temsillere dayalı stratejiler geliştirir ve bu doğrultuda en uygun hamleyi belirler (KB2.16.3). Örneğin öğrenciler; sayma, sıralama ve seçme sayısı bulma, cebirsel modelleme ya da olasılık gibi yöntemlerden birini seçerek problemi çözer ve çözümlerini kontrol eder. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI Bu süreçte öğrencilerden planlı ve sistematik olmaları beklenir (E3.7, D3.2). Öğrencilere oyunlardaki olası hamleleri ve hamlelerin sonuçlarını matematiksel olarak ifade etmeye yönelik grupla yapılacak çalışma kâğıdı verilebilir. Öğrenciler geliştirdikleri matematiksel çözüm stratejilerini sınıf ortamında paylaşır. Nim oyunu gibi strateji ve zekâ oyunlarında farklı çözüm yolları, strateji oluşturma biçimleri ve kullanılan temsiller (model, tablo, işlem basamakları vb.) sınıf ortamında tartışılabilir. Öğrencilerin tüm fikirleri mütevazı bir şekilde dikkate alıp arkadaşlarından gelen farklı stratejilere, çözüm yollarına ve eleştirilere açık olmaları sağlanır (SDB2.3, D10.3). Öğrencilerden strateji ve zekâ oyunlarıyla ilgili bir performans görevi hazırlamaları beklenebilir. Bu görev kapsamında öğrencilerden belirli bir oyun senaryosunu analiz etmeleri, en iyi hamleleri içeren strateji planı belirlemeleri ve çözüm süreçlerini matematiksel olarak ifade etmeleri istenir. Öğrencilerden bu süreçte hedef ve planları gerektiğinde yeniden düzenlemeleri beklenir (D3.2). Böylece öğrencilerin problem çözme ve akıl yürütme becerileri desteklenerek matematiği günlük yaşam bağlamında kullanmaları teşvik edilir. Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme (*) Öğrencilerden reversi, hex vb. oyunlarda stratejik kararlar geliştirmeleri ve bu kararları alırken geliştirdikleri stratejileri sunmaları istenebilir. (*) Öğrencilerden oyun teorisi kavramlarını (Nash dengesi, sıfır toplamlı oyunlar vb.) araştırmaları istenebilir. (*) Öğrencilere yapay zekâ algoritmalarının oyunlardaki stratejik düşünmeyi nasıl taklit ettiğine dair araştırma ödevi verilebilir. (*) Öğrencilerden kendi strateji oyunlarını tasarlamaları ve bu oyunların matematiksel modellerini oluşturmaları istenebilir. Destekleme Stratejik karar vermeye ve matematiksel çözümler oluşturmaya yönelik temel seviye oyunlar üzerinde çalışılması sağlanabilir. Öğrencilere çalışma kâğıtlarıyla temel seviye sudoku oyunları verilebilir. Öğrencilere oyunlardaki olası hamleleri ve hamlelerin sonuçlarını tahmin etmeye yönelik basitleştirilmiş senaryolar sunulabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "MAT.U.1.1.1",
+     "order": 1,
+     "text": "Strateji ve zekâ oyunlarında karşılaşılan duruma yönelik en uygun hamleye",
+     "components": []
+    },
+    {
+     "code": "MAT.U.1.1.2",
+     "order": 2,
+     "text": "Strateji ve zekâ oyunlarında olası durumları belirleyerek amaca yönelik matematiksel çözümler geliştirebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Strateji ve zekâ oyunlarında amaca ulaşmak için olası durumlara dayalı bir çözüm stratejisi oluşturur."
+      },
+      {
+       "label": "b",
+       "text": "Oluşturduğu stratejiyi kullanarak oyundaki problem durumunu çözer."
+      },
+      {
+       "label": "c",
+       "text": "Oyundaki problem durumunun çözümünü kontrol eder."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 1,
    "unit": 2,
    "kind": "TEMA",
    "title": "BİLİŞİMİN MATEMATİĞİ",
@@ -45,10 +71,266 @@
     "Anahtar Kavramlar": "bayt, bit, boole cebri, kod, kriptoloji, sayı sistemi, şifreleme Sembol ve Gösterimler GB, KB, MB, TB ÖĞRENME Öğrenme çıktıları; 3-2-1 çıkış kartı, çalışma kâğıdı ve performans görevi ile değerlendiriKANITLARI lebilir. (Ölçme ve Öğrencilerden belirlenen bir oyun için en uygun hamleleri içeren bir strateji planı geliştirDeğerlendirme) meleri ve bu planın matematiksel gerekçesini ortaya koymaları istenebilir. Bu kapsamda performans görevi, analitik dereceli puanlama anahtarıyla değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin doğal ve tam sayıların özelliklerini bildikleri, üslü sayılarla işlem yapabildikleri; mantık bağlaçları ve niceleyicileri bildikleri; şema/grafik okuyup yorumlayabildikleri; bir doğal sayının çarpanlarını ve katlarını belirleyebildikleri; bölünen, bölen, bölüm, kalan kavramlarını ve bölme algoritmasını bildikleri; doğal sayılarda bölünebilme kurallarını kullanarak işlemler yapabildikleri; örüntü, terim ve cebirsel ifade kavramlarını, doğrusal fonksiyonları, sayma yöntemlerini bildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere doğal ve tam sayıların özellikleri, doğal sayıların çarpanları ve katları, üslü sayılarda işlemler, mantık bağlaçları ve niceleyiciler, bölme algoritması, doğal sayılarda bölünebilme kuralları ve cebirsel ifadelerle ilgili bilgi ve becerilerinin belirlenmesi amacıyla açık uçlu sorular sorulabilir. Öğrencilere farklı sayı ve şekil örüntülerinde verilmeyen terimleri bulmaya, örüntüyü devam ettirmeye ve örüntünün cebirsel kuralını bulmaya yönelik çalışmalar yaptırılabilir. Köprü Kurma Öğrenciler dijital ortamlarda kullandıkları cihazların sayı sistemleriyle nasıl çalıştığını örnekler üzerinden inceleyebilir. Günlük yaşamda karşılaştıkları şifreleme uygulamaları (mesajlaşma araçları, banka işlemleri) üzerinden bu sistemlerde kullanılan matematiksel yöntemlerin yapısı ve işleyişi sorgulanabilir, böylece sayı sistemleri ile şifreleme algoritmaları arasında ilişki kurulabilir. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme MAT.U.1.2.1 Uygulamaları Bilgisayarların elektronik devreleri ile sayı sistemleri arasında nasıl bir ilişki olduğu sorularak öğrencilerin beyin fırtınası yapması sağlanır. Öğrencilere bilgisayarların elektronik devrelerinde elektrik akımının geçmesi (açık) ve geçmemesi (kapalı) durumlarının 1 ve 0 ile nasıl temsil edildiği belirtilir. Öğrencilere bu ikili durumun ikilik sayı sistemi ile ilişkisi kurdurulur. Öğrencilerin, bu sayı sisteminin bilgisayarların temel çalışma prensibini oluşturduğunu fark etmeleri sağlanır. Daha sonra öğrencilerden bilgisayar sistemlerinde kullanılan sayı sistemlerinin temel bileşenlerini belirlemeleri istenir. Öğrenciler ikilik sayı sistemi ile Boole cebri arasındaki ilişkiyi inceleyerek Boole cebrinin temel özelliklerini tanımlar. Bu temel özellikler doğrultusunda devre karşılıkları ve bağlaçların doğruluk tabloları incelenerek öğrencilerin bilgisayar elektronik sisteminin cebirsel yapısına odaklanarak ilişkilendirme yapmaları sağlanır (E3.2). Elektronik devreler konusunda fizik disiplini ile ilişki kurulur. Öğrenciler verilen uygulama ve örneklerle bilgisayarlarda kullanılan sayı sistemlerinde (ikilik, sekizlik, onaltılık vb.) hangi rakamların kullanıldığını, basamakların ne anlama geldiğini ve basamak değerlerinin nasıl elde edildiğini belirler. Bunun için öğrencilerden karşılaştırma tablosu doldurmaları istenebilir. Örneğin bilgisayarlarda klavyedeki karakterlerin ikilik sayı sistemindeki karşılıkları (ASCII kodları) öğrencilerle incelenebilir. Farklı sayı sistemleri (ikilik, onaltılık vb.) birbirine dönüştürülür. Yapılan dönüşümlerin doğruluğunun kontrol edilmesi aşamasında öğrencilerin matematiksel araç ve teknolojilerden yararlanması sağlanarak dijital okuryazarlık becerileri desteklenir (MAB5, OB2). Farklı sayı sistemlerinin bilgisayar bilimlerindeki kullanımlarına yer verilebilir. Onaltılık sayı sisteminin bilgisayar bilimlerindeki kullanım alanları (renk kodları, bellek adresleri vb.) örneklendirilebilir. Bit ve bayt kavramları açıklanır ve bu kavramlar depolama birimleri (KB, MB, GB, TB) ile ilişkilendirilir. Öğrenme sürecinde öğrencilere sayı sistemlerinin birbirine dönüşümlerini içeren ve Boole cebri uygulamaları ile ilgili çalışma kâğıtları verilebilir. MAT.U.1.2.2 Öğrencilerin kriptoloji (şifre bilimi) hakkındaki bilgileri sorgulanır. Kriptolojinin kullanıldığı alanlar ve önemi hakkında (devletlerin sırlarını şifreleyerek ulusal güvenliği korumak gibi) sınıf içi tartışma yapılır (SDB 2.1). Bu tartışma esnasında öğrencilerden ülkesinin kalkınmasını ve gelişmesini desteklemek için neden şifrelemeye ihtiyaç duyduklarını anlamlandırmaları beklenir (D19.4). Şifreli metinlerin harflerden, sembollerden veya sayılardan oluşabileceği ifade edilir. Ardından farklı şifreleme algoritmaları hakkında örnekler incelenir. Örneğin Sezar, XOR, Vigenere, Vernam gibi temel şifreleme teknikleri sınıfla incelenir. Sonraki aşamada şifreleme yöntemlerinde kullanılan matematiksel işlemler ve yapılar üzerinde durulur. Öğrenciler; şifrelemede (şifre oluşturma, şifreleri daha karmaşık hâle getirme vb.) sayı sistemleri (ikilik, onluk, onaltılık vb.), asal sayılar, toplama-çıkarma işlemleri, sayma ve sıralama, harf-sayı eşleştirmeleri gibi kullanılan matematiksel kavramları ve yöntemleri tespit eder. Örneğin Sezar şifrelemede hangi matematiksel yöntemlerin kullanılabileceği (doğrusal fonksiyon vb.) örnek ve uygulamalarla tespit edilir. Tema süresince sayı ve şifreleme sistemleri bağlamında bilişim teknolojileri, yazılım ve kriptoloji disiplinleri ile ilişki kurulur. Öğrencilere örnek bir algoritmaya ait yarım bırakılmış bir şifreleme örneği sunularak öğrencilerden eksik adımları edindiği deneyimlerden yola çıkarak tamamlamaları istenebilir. Öğrencilerden sayı sistemleri ve algoritmanın işlem mantığını kullanarak bu eksik bölümleri tahmin etmeleri, matematiksel ilişkilerle ulaştıkları çıkarımları açıklamaları istenir. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI Öğrencilere benzer matematiksel yöntemleri kullanarak kendi şifreleme sistemlerini geliştirmeleri için bireysel çalışma veya grup çalışmaları yapma imkânı tanınır (E3.7, SDB2.2). Bu süreçte öğrenciler öğrendikleri matematiksel yöntemleri farklı şekillerde uygulamaya teşvik edilir. Uygulama sonrası öz değerlendirme veya grup değerlendirmeleri yapılabilir (SDB1.2). Öğrencilere şifrelemede kullanılan sayı örüntüsü ilişkilerinin ve bu sayı örüntülerinin genel terimlerinin cebirsel temsilinin bulunmasının istendiği çalışma kâğıdı verilebilir. Bilgisayar sistemlerinde kullanılan sayı sistemlerinin yapısı incelenerek bu sayı sistemlerinin şifreleme algoritmalarındaki rollerini araştırmaya yönelik performans görevi öğrencilere verilebilir. Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir.",
     "FARKLILAŞTIRMA": "Zenginleştirme (*) Öğrencilerden geçmişten günümüze kullanılan şifreleme sistemlerinde yer alan matematiksel yöntemleri araştırmaları ve kendilerinin de farklı bir matematiksel yöntem kullanarak şifreleme sistemi geliştirmeleri beklenebilir. (*) Kriptografi tarihi veya ünlü kod parçaları hakkında araştırma projeleri yapılabilir. (*) Öğrencilerden şifrelemede hash fonksiyonlarının kullanım alanlarını araştırmaları istenebilir. Destekleme Öğrencilere ikilik ve onluk sayı sistemlerine ait dönüşüm işlemlerinin adım adım gösterildiği örnekler verilebilir. Öğrencilerden verilen ikilik sayı sistemindeki sayıları onluk sayı sistemine, onluk sayı sisteminde verilen sayıları da ikilik sayı sistemine dönüştürmeleri istenebilir. Hazır dönüşüm tabloları kullanılarak öğrencilerin işlem süreçlerini takip etmeleri kolaylaştırılabilir. Öğrencilere sabit bir şifreleme algoritması (Sezar şifresi gibi) adım adım açıklanabilir. Öğrencilerle birkaç kelime örneği şifrelenebilir. Ardından öğrencilerden benzer yapıda kelimeleri şifrelemeleri istenebilir. Bu süreçte sayısal karşılıklar bir tablo üzerinden takip edilir ve işlem basamakları destekleyici yönergelerle sadeleştirilebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "MAT.U.1.2.1",
+     "order": 1,
+     "text": "Bilgisayar sistemlerinde kullanılan sayı sistemlerini ve bu sistemlerin mantık-",
+     "components": []
+    },
+    {
+     "code": "MAT.U.1.2.2",
+     "order": 2,
+     "text": "Sayı sistemleri ve matematiksel yöntemleri kullanarak farklı şifreleme algoritmalarına yönelik analojik akıl yürütebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Farklı şifreleme algoritmalarını inceler."
+      },
+      {
+       "label": "b",
+       "text": "Şifreleme algoritmasında kullanılan sayı sistemleri ve matematiksel yöntemleri tespit eder."
+      },
+      {
+       "label": "c",
+       "text": "Sayı sistemlerini ve matematiksel yöntemleri kullanarak şifreleme mantığını anlamaya yönelik çıkarım yapar."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 1,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "UZAYIN MATEMATİĞİ",
+   "description": "Bu temada öğrencilerin astronomideki uzaklık ölçü birimlerinden yararlanarak gök cisimleri arasındaki mesafeyi ve gezegenlerin çekim kuvvetini hesaplarken matematiksel temsilleri kullanabilmeleri amaçlanmaktadır. ALAN MAB3. Matematiksel Temsil (MAB3.1. Matematiksel Temsillerden Yararlanma) BECERİLERİ KAVRAMSAL BECERİLER",
+   "lesson_hours": 10,
+   "sections": {
+    "EĞİLİMLER": "E3.6. Analitiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim, SDB3.1. Uyum Öğrenme Becerileri",
+    "Değerler": "D3. Çalışkanlık",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık DİSİPLİNLER ARASI Astronomi ve Uzay Bilimleri, Fizik",
+    "İLİŞKİLER": "BECERİLER ARASI MAB1. Matematiksel Muhakeme, MAB2. Matematiksel Problem Çözme MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI MAT.U.1.3.1. Astronomide kullanılan uzaklık ölçü birimlerini kullanarak gezegenler, yıldızlar VE SÜREÇ BİLEŞENLERİ ve galaksiler arasındaki uzaklıkları hesaplamada matematiksel temsillerden yararlanabilme a) Astronomide kullanılan uzaklık ölçü birimlerini (astronomik birim, ışık yılı, parsek) tanır. b) Gezegenler, yıldızlar ve galaksiler arasındaki uzaklıkları matematiksel temsillerle belirler. c) Gezegenler, yıldızlar ve galaksiler arasındaki uzaklıkları ifade etmede matematiksel temsilleri kullanır. MAT.U.1.3.2. Gezegenlerin çekim kuvvetine ilişkin hesaplamalarda matematiksel temsillerden yararlanabilme a) Gezegenlerin çekim kuvvetini oluşturan yer çekimi ivmesi, yarıçap uzunluğu ve yoğunluğu gibi büyüklükleri bağlamlarındaki anlamları ile tanır. b) Gezegenlerin çekim kuvveti, yer çekimi ivmesi, yarıçap uzunluğu ve yoğunluğu gibi büyüklükleri matematiksel temsillerle belirler. c) Gezegenlerin çekim kuvveti, yer çekimi ivmesi, yarıçap uzunluğu ve yoğunluğu gibi büyüklükleri hesaplarken matematiksel temsilleri kullanır.",
+    "İÇERİK ÇERÇEVESİ": "Gezegenler, Yıldızlar ve Galaksiler Arası Uzaklıklar Gezegenlerin Çekim Kuvveti",
+    "Anahtar Kavramlar": "çekim kuvveti, galaksi, gezegen, ışık yılı, kütle, paralaks, parsek, uzaklık, yoğunluk Sembol ve Gösterimler AB, F, g, Iy, M, pc, ρ ÖĞRENME Öğrenme çıktıları; açık uçlu sorular, eşleştirme, çalışma kâğıtları, performans görevi ile KANITLARI değerlendirilebilir. (Ölçme ve Öğrencilerden performans görevi olarak Güneş sisteminden bir gezegen seçip bu gezegeDeğerlendirme) nin ve uydularının yörünge hareketlerini kütle çekim yasasına göre modellemeleri, oluşturulan modeli matematiksel temsillerle açıklamaları ve sunmaları istenebilir. Performans görevi analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin ondalık ve üslü sayılarda toplama, çıkarma, çarpma ve bölme işlemleri ile yüzde ve oran-orantı hesaplamaları yapabildikleri; bilimsel gösterimi bildikleri; uzaklık ölçü birimleri konusunda temel bilgilere sahip oldukları ve birim dönüşümlerini yapabildikleri kabul edilmektedir. Ayrıca Dünya’nın ve diğer gezegenlerin Güneş etrafındaki hareketleriyle ilgili temel bilgileri öğrendikleri kabul edilmektedir. Ön Değerlendirme Süreci Dünya’nın ve diğer gezegenlerin Güneş etrafındaki hareketlerine ilişkin temel bilgilerini yoklayan eşleştirme soruları ile bu hareketlere dayalı ondalık ve üslü sayılarda dört işlem, yüzde, oran-orantı, uzaklık ölçü birimlerinde birim dönüşümleri ve bilimsel gösterim hesaplamalarına yer verilebilir. Köprü Kurma Uzayda gezegenler, yıldızlar, galaksiler arasındaki uzaklık ve kütle çekim ilişkilerini anlamaya yönelik matematiğe neden ihtiyaç duyulabileceği konusunda sınıf içi tartışma yapılabilir. İki gezegen arasındaki mesafenin ifade edilmesi ile günlük hayatta mesafeleri ifade etmede kullanılan temsillerin karşılaştırılmasına yönelik soru-cevap etkinliği yapılabilir. Dünya’nın Güneş etrafında, Ay’ın ise Dünya etrafında dönmesi ile Güneş, Dünya ve Ay’ın kütleleri arasındaki ilişki üzerine bir beyin fırtınası yapılabilir. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme MAT.U.1.3.1 Uygulamaları Galaksiler, yıldızlar ve gezegenler arasındaki mesafeler uygulamasıyla astronomik birim (AB), ışık yılı (Iy) ve parsek (pc) kavramlarına giriş yapılır ve bu kavramlar tanıtılır (OB1). Daha sonra örnek ve uygulamalarla öğrencilerden Güneş sistemindeki gezegenlerin Güneş’e olan uzaklıklarını ifade ederken farklı birimlerde verilen uzaklıkları [astronomik birim (AB), ışık yılı (Iy) ve parsek (pc)] birbirine dönüştürmeleri beklenir. Öğrencilerin örnek problem durumlarında hesaplama yaparken astronomide kullanılan ölçü birimlerini kullanmaları istenir (MAB2). Örneklerle Üçgen (M33), Andromeda gibi galaksilerin Dünya’ya yaklaşık uzaklıkları belirlenir ve bu büyük mesafelerin ifadesinde kullanılan birimlerin anlamı üzerinde durulur. Öğrencilerden farklı uzaklık ölçü birimlerinin (AB, Iy, pc) astronomide hangi uzunlukları ifade etmede yaygın kullanıldığı ile ilgili araştırma yapmaları ve araştırma sonuçlarını sınıfta arkadaşlarına sunmaları istenir (OB1). Bu süreçte öğrencilerin astronomi ve uzay bilimleri disiplini ile ilişki kurmaları sağlanır. Öğrencilerden gruplara ayrılarak her bir grubun kendine bir gök cismi seçmesi istenir. Her bir grubun kendi gök cismi ile diğer grupların seçtiği gök cisimleri arasındaki mesafeyi belirlemesi istenir (SDB3.1). Uzaklıkların karşılaştırılması için tablo, grafik, ölçekli çizim gibi matematiksel temsiller oluşturulur (E3.6). Öğrenciler mesafeleri belirlerken NASA, ESA ve benzeri güvenilir dijital veri kaynaklarından faydalanabilir (OB2). Öğrencilerden belirledikleri mesafeleri ifade etmek için en uygun astronomik ölçü birimini (AB, Iy veya pc) seçmeleri, neden bu birimi seçtiklerini açıklamaları istenir. Öğrencilere farklı astronomik mesafeler verilebilir, ışığın verilen mesafeyi ne kadar sürede alacağını hesaplama problemleri çözülebilir. Örneğin öğrenciler Dünya’ya veya Güneş’e uzaklığı verilen bir yıldızın dünyadan gözlemlenebilen görüntüsünün yıldızın kaç yıl önceki görüntüsüne ait olduğunu hesaplayabilir. Öğrenciler hesaplamalarında parsek ve ışık yılı ölçü birimlerini kullanır, hesaplama yaparken bu birimleri birbirine dönüştürebilir. Uygulamalar ve örneklerle Dünya ve yıldızlar arasındaki mesafelerin hesaplanmasında paralaks yöntemine yer verilir. Paralaks açısının kullanımı ile birimler arasında da dönüşüm yapılması beklenir. Öğrenme süreci açık uçlu sorularla değerlendirilebilir. MAT.U.1.3.2 Öğrenciler gezegenleri ve gezegenlerin fiziksel özelliklerini [kütle (M), yarıçap (R) uzunluğu vb.] dijital veri tabanları ya da görseller yardımıyla inceler (OB2). Uygulamalar ve örneklerle farklı gezegenlerin (Merkür, Venüs, Dünya vb.) yer çekimi (g) ivmelerinin hesaplanmasına yer verilir. Ayrıca yine örnek ve uygulamalarla gezegenlerin yoğunluk (ρ) hesaplamasına yer verilir. Hesaplamalar sırasında öğrencilerin değişkenler (yer çekimi ivmesi, yarıçap uzunluğu, yoğunluk ve kütle) arasındaki ilişkiyi matematiksel temsillerle incelemeleri beklenir. Bunun için bilgi görseli kullanılır. Öğrenciler gezegenlerin yer çekimi ivmelerini inceleyerek Dünya’daki bir ağırlığın diğer gezegenlerde ne kadar geleceğini matematiksel temsillerden yararlanarak karşılaştırır. Örnek ve uygulamalar sonrasında öğrencilerden “En hafif hissedeceğiniz gezegen hangisidir? En çok hangisinde ağır hissedersiniz?” gibi sorulara matematiksel gerekçelendirmeler ile cevap vermeleri istenebilir (E3.6, MAB1). Öğrenciler Newton’ın evrensel çekim yasası formülü ile gezegenlerin çekim kuvvetlerini hesaplamaya yönelik örnekler çözebilir ve uygulamalar yapabilir. Gezegenlerin çekim kuvveti (F) hesaplamalarıyla öğrencilerin fizik disiplini ile ilişki kurmaları sağlanır. Öğrenme süreci çalışma kâğıdı ile değerlendirilebilir. Öğrencilerden performans görevi olarak Güneş sisteminden bir gezegen seçip bu gezegenin ve uydularının yörünge hareketlerini kütle çekim yasasına göre modellemeleri, oluşturulan modeli matematiksel temsillerle açıklamaları ve sunmaları istenebilir (SDB2.1). Bu süreçte öğrencilerin güvenilir bilgi kaynaklarına ulaşmaları beklenir (D3.3). Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden Türk-İslam tarihinde astronomi ve matematik alanında çalışan bilim insanlarının zaman ölçümüne dayalı geliştirdikleri yöntemlerle ilgili (rubu tahtası, güneş saati vb.) araştırma yapmaları istenebilir. (*) Öğrencilerin astronomide kullanılan uzaklık ölçüm yöntemlerini (Doppler kayması vb.) araştırmaları ve araştırma sonuçlarını sunmaları (poster, dijital sunum vb.) istenebilir. (*) Öğrenciler seçtikleri iki gök cismi arasındaki kütle çekim kuvvetinin zamanla nasıl değiştiğini (kütle çekimini etkileyen faktörleri dikkate alınarak) araştırabilir. Öğrenciler örneğin Dünya ile Ay arasındaki uzaklığın değişmesi durumunda Newton’ın evrensel çekim yasasına göre kuvvetin değişimini grafikle gösterebilir. Öğrenciler araştırmalarını bir rapor hâlinde sunabilir. (*) Öğrencilerden Hubble (Habıl) sabitini ölçme yaklaşımlarını, bu ölçümlerin uydu gönderme ve yön bulma sistemlerinde nasıl kullanıldığını araştırmaları ve araştırma sonuçlarını sınıf ortamında arkadaşlarına sunmaları istenebilir. Destekleme Öğrencilere astronomide kullanılan ölçü birimleri ve birimler arası dönüşümler ile ilgili basit hesaplamalara yönelik kısa cevaplı açık uçlu sorular ve boşluk doldurmalar içeren çalışma kâğıtları verilebilir. Soyut astronomik kavramlar için sanal gökyüzü izleme programları veya çevrim içi simülasyonlar aracılığıyla görselleştirmeler sağlanarak konunun daha kolay anlaşılması desteklenebilir. Astronomide kullanılan uzaklık ölçü birimlerini içeren video anlatımları, gezegenler, galaksiler, yıldızlar arasındaki mesafeler ve çekim kuvvetiyle ilgili görsel materyaller (poster, bilgi görseli) ve kavram haritaları kullanılabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "MAT.U.1.3.1",
+     "order": 1,
+     "text": "Astronomide kullanılan uzaklık ölçü birimlerini kullanarak gezegenler, yıldızlar",
+     "components": []
+    },
+    {
+     "code": "MAT.U.1.3.2",
+     "order": 2,
+     "text": "Gezegenlerin çekim kuvvetine ilişkin hesaplamalarda matematiksel temsillerden yararlanabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gezegenlerin çekim kuvvetini oluşturan yer çekimi ivmesi, yarıçap uzunluğu ve yoğunluğu gibi büyüklükleri bağlamlarındaki anlamları ile tanır."
+      },
+      {
+       "label": "b",
+       "text": "Gezegenlerin çekim kuvveti, yer çekimi ivmesi, yarıçap uzunluğu ve yoğunluğu gibi büyüklükleri matematiksel temsillerle belirler."
+      },
+      {
+       "label": "c",
+       "text": "Gezegenlerin çekim kuvveti, yer çekimi ivmesi, yarıçap uzunluğu ve yoğunluğu gibi büyüklükleri hesaplarken matematiksel temsilleri kullanır."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 4,
+   "kind": "TEMA",
+   "title": "FİNANSIN MATEMATİĞİ",
+   "description": "Bu temada öğrencilerin bütçe dengesi ve tasarruf planlamasında matematiksel temsillerden yararlanabilmeleri, yatırım karar süreçlerini matematiksel olarak değerlendirerek uygun yatırım kararları verebilmeleri amaçlanmaktadır. ALAN MAB3. Matematiksel Temsil (MAB3.1. Matematiksel Temsillerden Yararlanma) BECERİLERİ KAVRAMSAL KB3.1. Karar Verme BECERİLER",
+   "lesson_hours": 16,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven)",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.3. Sosyal Farkındalık Öğrenme Becerileri",
+    "Değerler": "D14. Saygı, D16. Sorumluluk, D17. Tasarruf",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB3. Finansal Okuryazarlık, OB6. Vatandaşlık Okuryazarlığı DİSİPLİNLER ARASI Bilişim Teknolojileri, Ekonomi",
+    "İLİŞKİLER": "BECERİLER ARASI MAB1. Matematiksel Muhakeme MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI MAT.U.1.4.1. Bütçe dengesi ve tasarruf planlamasında matematiksel temsillerden yararVE SÜREÇ BİLEŞENLERİ lanabilme a) Bütçe dengesi ve tasarruf planlaması sürecine ilişkin verileri, matematiksel temsil bağlamındaki anlamıyla tanır. b) Bütçe dengesi ve tasarruf planlaması sürecine ilişkin uygun matematiksel temsilleri belirler. c) Bütçe dengesi ve tasarruf planlamasında matematiksel temsilleri kullanır. MAT.U.1.4.2. Yatırım karar süreçlerini matematiksel olarak değerlendirerek uygun yatırım kararları verebilme a) Yatırım karar süreçlerine ilişkin amacını belirler. b) Yatırım kararı ile ilgili bilgi toplar. c) Yatırım sürecine yönelik olası alternatif seçenekler oluşturur. ç) Alternatif yatırım seçenekleri üzerinde matematiksel verilerden yararlanarak mantıksal denetlemeler yapar. d) Elde ettiği verilere dayanarak en uygun yatırım kararını seçer. e) Verdiği yatırım kararının sonuçları üzerinde yansıtma yapar.",
+    "İÇERİK ÇERÇEVESİ": "Bütçe Dengesi ve Tasarruf Planlama Yatırım Kararları",
+    "Anahtar Kavramlar": "bütçe, faiz, gelir, gider, kâr-zarar, oran, tasarruf, yatırım, yüzde Sembol ve Gösterimler ₺,% ÖĞRENME Öğrenme çıktıları; açık uçlu sorular, kısa cevaplı sorular ve performans görevi ile değerKANITLARI lendirilebilir. (Ölçme ve Performans görevi olarak öğrencilerden hayalî bir bütçe planı hazırlamaları ve bu plan Değerlendirme) üzerinde gelir-gider durumları ile tasarruf planlarının verilerini grafiklerle temsil etmeleri istenebilir. Öğrencilerden performans görevi olarak yatırım simülasyonu hazırlamaları ve alternatif yatırım seçeneklerini değerlendirmeleri istenebilir. Performans görevleri analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin gelir-gider, tasarruf kavramlarını tanıdıkları; grafik ve tablo verilerini okuyabildikleri; yüzde ve oran-orantı hesaplamaları yapabildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere gelir-gider, tasarruf kavramları, grafik ve tablo verileri, yüzde ve oran-orantı hesaplamaları ile ilgili açık uçlu sorular sorulabilir. Köprü Kurma Öğrencilerin geçmiş öğrenmelerinde karşılaştıkları temel günlük yaşam durumları (alışveriş, harçlık kullanımı, gelir-gider ayrımı gibi) üzerinden sınıf ortamında bir tartışma başlatılabilir. Öğrencilerden bir bireyin veya ailenin gelir ve giderlerinin nasıl dengelenebileceğine dair fikirlerini paylaşmaları istenebilir. Öğrencilerin bu bilgiler üzerinden bütçe hazırlamaları ve tasarruf planlamasının neden önemli olduğunu sorgulamaları sağlanabilir. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme MAT.U.1.4.1 Uygulamaları Öğrenciler bir bütçe uygulaması üzerinden bütçede yer alan gelir (maaş, harçlık, ek gelir vb.), gider (kira, ulaşım, yemek, giyim, eğlence vb.) ve tasarruf kalemlerinin neler olduğunu tanır. Bütçede yer alan toplam gelir-gider durumu, tasarruf oranı matematiksel temsillerle belirlenir. Örneğin ulaşım giderlerinin toplam gider içindeki payı yüzde olarak belirlenebilir. Gelir-gider tabloları, yüzdelik dilimleri, tasarruf oranını gösteren grafikler oluşturulur (OB3). Bir bütçenin dengesi nasıl sağlanabilir düşüncesi ile gelir-gider durumunu matematiksel temsillerle değerlendirerek bütçe örneğinde yer alan tasarruf oranı hesaplanır. Tasarruf yapmanın gerekçeleri ve önemi sorgulanır (OB3). Bu sırada öğrenciler sınıfta bir “tasarruf önerileri panosu” oluşturarak fikirlerini paylaşabilir ve öğrencilerin satın alacakları ürünleri belirlerken isteklerine değil ihtiyaçlarına öncelik vermeleri sağlanır (D17.1). Böylelikle öğrencilerin sözlü iletişimin gücünü ve önemini fark etmeleri sağlanarak bir hedefe ulaşmak ya da bir işi yapmak için kapasitelerinin, yeteneklerinin olduğuna yönelik yargıları ve inançları desteklenir (E1.5, SDB2.1). Öğrencilerden örnekler veya uygulamalarla bir tasarruf hedefi belirlemeleri istenebilir. Öğrencilerden haftalık, aylık veya yıllık bazda tasarruf edilmesi gereken miktarları hesaplamaları ve buna göre temel bir tasarruf planı hazırlamaları beklenir. Böylelikle öğrencilerin tasarruf ilkelerini kavramaları ile bireysel gelişimlerini desteklemeye yönelik tasarruf planlaması yapmaları sağlanır (D16.1, OB3). Ekonomi disiplini ile bağlantı kurularak bütçe yönetimi ve finansal planlama konularına vurgu yapılır. Performans görevi olarak öğrencilerden bir bütçe oluşturmaları istenebilir. Öğrencilerden gelir ve gider verilerini dijital ortamda elektronik tablo programlarına işleyerek bütçe kalemlerinin matematiksel temsillerini (yüzdelik dağılımlar, tablo, sütun grafiği) oluşturmaları beklenebilir. Böylelikle öğrencilerin dijital okuryazarlık becerisi gelişimi desteklenir (OB2). Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. MAT.U.1.4.2 Öğrencilerle kısa, orta ve uzun vadeli finansal hedefler (yeni bir telefon alma, üniversite harçlığını biriktirme vb.) üzerine konuşulabilir. Yatırım yapmanın bu hedeflere ulaşmada nasıl bir araç olabileceği ile ilgili beyin fırtınası yapılabilir (SDB2.1). Bu süreçte öğrencilerin yatırım yapmaya yönelik merak eğilimleri harekete geçirilir (E1.1). Öğrencilere bir yatırım senaryosu üzerinde kararlar almaya yönelik uygulama verilir. Öğrencilerden verilen senaryo doğrultusunda bir yatırım amacı belirlemeleri (kısa vadede kâr etmek, 5 yıl içinde birikimi artırmak vb.) istenir. Öğrencilerden yatırım araçlarına yönelik (getiri potansiyelleri, riskleri vb.) araştırma yapmaları ve bilgi toplamaları beklenir (OB1). Öğrencilerin belirledikleri yatırım amacına uygun olabilecek bu araçlar hakkında buldukları sonuçları sınıf ortamında birbirleriyle tartışmaları sağlanabilir. Öğrencilerden araştırma sonuçlarına dayanarak en az 2 veya 3 yatırım alternatifi (altın, döviz, katılım hesabı vb.) geliştirmeleri beklenir. Öğrencilerden yatırım alternatiflerine yönelik hesaplamaları (yatırım süresi, maliyet, getiri vb.) dijital araçlarla gerçekleştirmeleri istenir (OB2). Öğrencilerden oluşturdukları yatırım alternatiflerini maliyet ve getirileri açısından matematiksel temsillerle sunmaları (tablo, grafik vb.) istenir. Öğrenciler oluşturdukları matematiksel temsillerden yararlanarak yatırım alternatifleri üzerinde maliyet ve getiri açısından mantıksal denetlemeler yaparlar. Öğrencilerden en uygun yatırım alternatifini seçmeleri ve seçimlerini gerekçelendirmeleri beklenir. Öğrenciler kendi duygu, düşünce ve davranışlarından sorumlu olduklarını kabul ederek yatırım kararlarını gerekçelendirmeye yönelik çalışmalar yapabilir (SDB1.2, D16.3). Öğrencilerden seçimlerinin amaçlarına uygunluğunu, avantajlarını ve dezavantajlarını değerlendirmeleri istenir. Öğrencilerden yatırım kararlarını alırken toplumun refahını ve ekonomik sürdürülebilirliği de dikkate almaları beklenir (OB6). Gerçek hayatta enflasyon, vergiler, piyasa değişimleri gibi ek faktörlerin sonuçları nasıl etkileyebileceği üzerine öğrencilerin fikir yürütmeleri ve olası etkiler üzerine tartışmaları sağlanabilir. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI Bu süreçte öğrenciler olay ve durumları çok yönlü bakış açısıyla değerlendirir (D14.1, SDB2.3). Alternatif yatırım araçlarına yönelik hesaplamalar içeren farklı örneklere yer verilebilir, öğrencilerin bu örnekler üzerinden çıkarımlarda bulunmaları sağlanabilir (MAB1). Öğrencilere yatırım simülasyonu hazırlamalarına ve alternatif yatırım seçeneklerini değerlendirmelerine yönelik performans görevi verilebilir (OB3). Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. Öğrencilerden yaptıkları yatırım planlarında matematiksel temsillere ve planların gerekçelerine yer vermeleri, bunları da dijital araçlarla sunmaları istenir (OB2). Bu süreçte bilişim teknolojileri disiplini ile iş birliği sağlanır.",
+    "FARKLILAŞTIRMA": "Zenginleştirme (*) Öğrencilerden farklı kültürlerde ve dönemlerde uygulanan yatırım yöntemlerine (Osmanlı’da para vakıfları, Japonya’da geleneksel tasarruf sistemleri gibi) yönelik kısa araştırmalar yapmaları, bu sistemlerin matematiksel dayanaklarını ifade etmeleri ve günümüz uygulamalarıyla karşılaştırmaları istenebilir. Bu süreçte öğrencilerin hazırladıkları görseller ve yazılı içeriklerle (blog gönderisi, broşür, dijital dergi sayfası) yatırım okuryazarlığını ifade etmeleri sağlanabilir. (*) Öğrencilerden bir yatırım aracının piyasa koşullarıyla ilişkisi, farklı yatırım araçlarının dijital hesaplama araçları ile karşılaştırılması, ileri düzey finansal araçların incelenmesi (bileşik faiz, net bugünkü değer) istenebilir. Destekleme Öğrencilere gelir-gider ve tasarruf hesaplamalarına yönelik basit bütçe çalışmaları içeren çalışma kâğıdı verilebilir. Dijital araç kullanımı konusunda desteğe ihtiyaç duyan öğrencilere dijital hesaplama araçlarının temel işlevleri uygulamalı olarak gösterilebilir. Öğrencilere bireysel ön bilgi düzeylerine uygun olarak sadeleştirilmiş senaryolar sunulup öğrencilerden kısa vadeli yatırım kararlarına ilişkin farklı alternatifler geliştirmeleri istenebilir. Örneğin “Birikiminle telefon mu alırsın, birikimini banka hesabında mı tutarsın?” gibi kişisel tercihe dayalı küçük ölçekli karar örnekleriyle öğrencinin sürece katılımı sağlanabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "MAT.U.1.4.1",
+     "order": 1,
+     "text": "Bütçe dengesi ve tasarruf planlamasında matematiksel temsillerden yarar-",
+     "components": []
+    },
+    {
+     "code": "MAT.U.1.4.2",
+     "order": 2,
+     "text": "Yatırım karar süreçlerini matematiksel olarak değerlendirerek uygun yatırım kararları verebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yatırım karar süreçlerine ilişkin amacını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yatırım kararı ile ilgili bilgi toplar."
+      },
+      {
+       "label": "c",
+       "text": "Yatırım sürecine yönelik olası alternatif seçenekler oluşturur."
+      },
+      {
+       "label": "ç",
+       "text": "Alternatif yatırım seçenekleri üzerinde matematiksel verilerden yararlanarak mantıksal denetlemeler yapar."
+      },
+      {
+       "label": "d",
+       "text": "Elde ettiği verilere dayanarak en uygun yatırım kararını seçer."
+      },
+      {
+       "label": "e",
+       "text": "Verdiği yatırım kararının sonuçları üzerinde yansıtma yapar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 5,
+   "kind": "TEMA",
+   "title": "SANATIN MATEMATİĞİ",
+   "description": "Bu temada öğrencilerin Türk el sanatları ve geleneksel mimari eserlerde yer alan süslemelerde kullanılan geometrik şekilleri çözümleyebilmeleri, geometrik şekiller ve matematiksel ilişkileri kullanarak süslemeler sentezleyebilmeleri amaçlanmaktadır. ALAN BECERİLERİ KAVRAMSAL KB2.4. Çözümleme, KB2.20. Sentezleme BECERİLER",
+   "lesson_hours": 18,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven), E3.3. Yaratıcılık",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim Öğrenme Becerileri",
+    "Değerler": "D7. Estetik, D14. Saygı",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı DİSİPLİNLER ARASI Görsel Sanatlar, Tarih",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.13. Yapılandırma, MAB3. Matematiksel Temsil MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI MAT.U.1.5.1.Türk el sanatları motiflerinde ve geleneksel mimari eserlerde yer alan geoVE SÜREÇ BİLEŞENLERİ metrik şekilleri çözümleyebilme a) Türk el sanatları motiflerinde ve geleneksel mimari eserlerde yer alan süslemelerde kullanılan geometrik şekilleri belirler. b) Türk el sanatları motifleri ve geleneksel mimari eserlerde kullanılan geometrik şekillerin matematiksel ilişkilerini (oran, yansıma, öteleme, dönme vb.) belirler. MAT.U.1.5.2. Geometrik şekiller ve matematiksel ilişkileri kullanarak süslemeler sentezleyebilme a) Bir süslemeyi oluşturabilecek farklı geometrik şekilleri belirler. b) Farklı geometrik şekillerden bir süsleme oluşturabilmek için şekiller arasında matematiksel ilişkiler (yansıma, öteleme, dönme vb.) kurar. c) Belirlediği şekilleri birleştirerek özgün bir süsleme oluşturur.",
+    "İÇERİK ÇERÇEVESİ": "Türk El Sanatları Motifleri ve Geleneksel Mimari Eserlerde Yer Alan Geometrik Şekiller Geometrik Şekiller ve Matematiksel İlişkileri Kullanarak Oluşturulan Özgün Süslemeler",
+    "Anahtar Kavramlar": "çokgen, daire, dönme, dörtgen, düzgün çokgenler, eşlik, geometrik inşa, kaplama, öteleme, simetri ekseni, süsleme, üçgen, yansıma, yay, yıldız Sembol ve Gösterimler AB, [AB] ÖĞRENME Öğrenme çıktıları; açık uçlu sorular, çalışma kâğıtları, performans görevi ile değerlendiriKANITLARI lebilir. (Ölçme ve Performans görevi olarak öğrencilerden Türk-İslam kültürüne ait süsleme motiflerini Değerlendirme) araştırmaları, bunlardan birini seçerek kullanılan geometrik şekilleri belirlemeleri ve şekiller arasında kullanılan matematiksel ilişkiyi incelemeleri istenebilir. Öğrencilere farklı geometrik şekiller içeren özgün bir desen oluşturmalarına yönelik performans görevi verilebilir. Performans görevleri analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin pergel, cetvel, dinamik matematik yazılımı gibi araç gereci tanıdıkları; bu araçlarla temel düzeyde çizim ve inşa yapabildikleri; çokgen, çember, yay, düzgün çokgenler ve özel dörtgenler gibi geometrik şekilleri tanıdıkları; yansıma (simetri), öteleme ve dönme dönüşümleriyle ilgili temel bilgileri edindikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerin çokgenler, özel dörtgenler, düzgün çokgenler, çember gibi temel geometrik şekillere ilişkin bilgileri, bu şekillerin yansıma (simetri), açı ve kenar özelliklerine dair ön bilgileri, yansıma, öteleme ve dönme dönüşümlerine ilişkin kavramları doğru kullanıp kullanmadıkları; açık uçlu sorular ve görsel inceleme uygulamaları ile değerlendirilebilir. Köprü Kurma Öğrencilere gözlemleyebildikleri tarihî yapılarda (cami, saray, müze vb.) yer alan süsleme ve tasarımlarda dikkatlerini çeken geometrik şekillerin neler olduğu sorularak öğrencilerin fikirlerini paylaşmaları sağlanabilir. Öğrencilere bir tarihî yapı veya el sanatları görseli üzerinde kullanılan geometrik şekillerin neler olduğu sorulabilir. Geometrik şekillerin bir araya gelmesi aşamasında kullanılan dönüşüm (yansıma, öteleme, döndürme), örüntü gibi matematiksel ilişkiler sorgulatılabilir. Öğrencilere görsel sanatlar, kültürel motif bilgileri ve matematiksel temsil becerileriyle bağlantı kurdurularak özgün desenler üretmek için hangi geometrik şekillerin kullanılabileceğine yönelik beyin fırtınası yaptırılabilir. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme MAT.U.1.5.1 Uygulamaları Öğrencilere Türk el sanatları motifleri (halı, kilim, tezhip vb.) ve geleneksel mimari eserlerden görseller (çini desenleri, kapı ve kubbe süslemeleri vb.) sunularak öğrencilerin merak duyguları harekete geçirilir (E1.1). Bu süreçte tarih disiplini ile ilişki kurularak öğrencilerin, desenlerin ait olduğu dönemleri ve kültürel bağlamlarını tartışmalarına imkân verilir. Öğrencilerden birbirlerinin fikirlerine saygı göstermeleri ve kendi fikirlerinin eleştirilmesine açık olmaları beklenir (D14.1). Öğrencilerin bu örnekleri incelemeleri ve bu örneklerde yer alan geometrik şekillerin neler olabileceğine dair tahminlerde bulunmaları teşvik edilir. Öğrencilerin el sanatlarındaki süslemeleri veya mimari tasarımları oluşturan şekillerin nasıl bir araya getirildiği (yansıma, öteleme, dönme), tekrar eden şekil ve yapılar, bu şekiller arasındaki benzerlikler, kültürel ögeler gibi durumlara ilişkin fikirlerini paylaşmaları ve tartışmaları sağlanır (SDB2.1, OB5). Böylece öğrencilerin süsleme ve tasarımlardaki düzeni görmeleri beklenir. El sanatları ve mimari eserlerlerin incelenerek yapısının anlaşılması ve çözümlenmesiyle öğrencilerin görsel ve sanat okuryazarlığı becerilerinin gelişimi de desteklenir (OB4, OB9). Öğrencilerden bireysel veya grup çalışmasıyla Türk-İslam kültürüne ait geometrik şekillerle oluşturulmuş bir eser belirlemeleri istenir. Öğrencilerden bu eseri incelemelerine yönelik sınıf içi uygulamalar yapmaları istenebilir. Öğrencilerden inceleme sürecinde eserde yer alan geometrik şekilleri (daire, altıgen, sekizgen, yıldız, yay vb.) belirlemeleri beklenir. Öğrencilerden bu şekillerin bir araya gelmesinde kullanılan matematiksel temsilleri ve ilişkileri belirlemeleri beklenir (MAB3). Öğrencilerden inceleme sonuçlarını sınıf ortamında arkadaşlarıyla paylaşmaları istenebilir (SDB2.1). Öğrencilerden millî kültüre ait geometrik süslemeleri araştırmaları, bu süslemelerde kullanılan matematiksel ilişkileri (özellikle dönüşüm geometrisi ve örüntüler) belirlemeleri istenebilir. Performans görevi olarak öğrencilerden Türk-İslam kültürüne ait süsleme motiflerini araştırmaları, bunlardan birini seçerek kullanılan geometrik şekilleri belirlemeleri ve şekiller arasında kullanılan matematiksel ilişkiyi incelemeleri istenebilir. Böylelikle öğrencilerin sanat eserleriyle donatılmış bir çevrenin insanın gelişimine ve olgunlaşmasına katkıda bulunacağını fark etmeleri sağlanır (D7.2). Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. MAT.U.1.5.2 Selçuklu, Osmanlı ve Endülüs sanatından, cami, medrese, saray gibi yapılardan alınmış geometrik süsleme görsellerine yer verilir. Aynı zamanda Cezeri’nin fiziği ve mekaniği bir sanat olarak sunduğu eserleri ve Escher (Eşer) gibi sanatçıların desenleri incelenerek farklı dönem ve kültürlerde estetikle matematik arasındaki ilişkiye vurgu yapılır (OB5). Öğrenciler verilen örnek görsellerden yararlanarak kendi tasarımları için uygun olacağını düşündükleri farklı geometrik şekilleri belirler. Bu süreçte öğrencilerin geometrik bilgiye dayalı karar vermeleri desteklenir. Bu aşamada öğrencilerden seçimlerini gerekçelendirmeleri istenebilir. Bir sonraki aşamada öğrencilerin süsleme için belirlediği şekillerin birbiriyle nasıl ilişkilendirilebileceği ve bu şekillerin bir araya geliş biçimlerinin tasarıma nasıl etki edeceği sorgulatılabilir. Öğrencilerden belirledikleri geometrik şekilleri kullanarak yansıma, öteleme, dönme gibi geometrik dönüşümlerden yararlanarak örüntü içeren desenler oluşturmaları istenir. Öğrencilerin bu ilişkileri oluştururken dinamik matematik yazılımlarından yararlanmaları teşvik edilerek dijital okuryazarlık becerilerinin gelişimi desteklenir (OB2). Bu süreçte öğrenciler şekillerin yerleşimi sırasında oluşan orantısal ilişkileri, simetri eksenlerini, dönüşüm gibi matematiksel ilişkileri kurar. Öğrenciler belirledikleri şekiller ve bu şekillerin matematiksel ilişkilerini kurarak özgün bir süsleme tasarımı oluşturur (E3.3, KB2.13). MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI Öğrencilerden tasarımlarında kullandıkları geometrik şekilleri nasıl yerleştirdiklerini ve şekiller arasında hangi dönüşümleri ve oran ilişkilerini kullandıklarını sınıf ortamında arkadaşları ile paylaşmaları beklenir. Öğrencilerin tasarımlarını açıklarken öz güven kazanmaları ve etkili iletişim kurmaları desteklenir (E1.5, SDB2.1). Geometrik desenleri inceleme ve sentezleme sürecinde görsel sanatlar disiplini ile ilişki kurulur. Öğrencilere farklı geometrik şekiller içeren özgün bir desen oluşturmalarına yönelik performans görevi verilebilir. Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme (*) Öğrencilerin hangi düzgün çokgenlerin düzlemi boşluksuz kaplayabileceği konusunu araştırmaları istenebilir. Bu doğrultuda öğrencilerden kaplama kurallarını keşfetmeleri, elde ettikleri sonuçları bir çizim veya dijital tasarım olarak sunmaları ve bu çalışmaları estetik yönüyle değerlendirerek özgün bir süsleme oluşturmaları beklenebilir. Öğrencilerin çalışmalarını sergileyerek sınıf içinde sunmaları teşvik edilir. (*) Öğrencilerden Farabi, Ömer Hayyam, İbnülheysem gibi bilim insanlarının geometriye katkılarını ve çokgen inşasına dair yaklaşımlarını araştırmaları istenebilir. Bu araştırmalar ışığında hazırladıkları sunumlar sınıf ortamında paylaşılabilir. Bu etkinlikle öğrencilerin entelektüel gelişimleri ve bilim tarihine duyarlılıkları desteklenir. Destekleme Öğrencilere çizim araçlarını (pergel, cetvel vb.) doğru kullanmalarına yönelik çalışma kâğıtları verilebilir. Çalışma kâğıtlarında basit çizimler yapmalarına ve temel geometrik inşa adımlarını (doğru çizme, orta nokta belirleme, açı oluşturma vb.) uygulamalarına yönelik açık uçlu sorulara yer verilebilir. Süslemelere ve geleneksel motiflere ilişkin günlük yaşamdan, kültürel hayattan seçilmiş örnek görseller ve kısa videolar kullanılarak öğrencilerin dikkatleri çekilebilir. Bu materyallerle öğrencilerin tasarımlardaki geometrik şekilleri ve matematiksel ilişkileri fark etmeleri desteklenir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI MATEMATİK UYGULAMALARI II"
+   },
+   "outcomes": [
+    {
+     "code": "MAT.U.1.5.1",
+     "order": 1,
+     "text": "Türk el sanatları motiflerinde ve geleneksel mimari eserlerde yer alan geo-",
+     "components": []
+    },
+    {
+     "code": "MAT.U.1.5.2",
+     "order": 2,
+     "text": "Geometrik şekiller ve matematiksel ilişkileri kullanarak süslemeler sentezleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bir süslemeyi oluşturabilecek farklı geometrik şekilleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Farklı geometrik şekillerden bir süsleme oluşturabilmek için şekiller arasında matematiksel ilişkiler (yansıma, öteleme, dönme vb.) kurar."
+      },
+      {
+       "label": "c",
+       "text": "Belirlediği şekilleri birleştirerek özgün bir süsleme oluşturur."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "SAĞLIKLI YAŞAMIN MATEMATİĞİ",
+   "description": "Bu temada öğrencilerin sağlıklı yaşam seçimi ve sağlıklı yaşamın bileşenlerini ilişkilendirmede matematiksel temsillerden yararlanabilmeleri ve yaşam alışkanlıklarına bağlı olarak sağlıklı yaşam seçiminde matematiksel temsillerden yararlanarak karar verebilmeleri amaçlanmaktadır. ALAN MAB3. Matematiksel Temsil (MAB3.1. Matematiksel Temsillerden Yararlanma) BECERİLERİ KAVRAMSAL KB3.1. Karar Verme BECERİLER",
+   "lesson_hours": 12,
+   "sections": {
+    "EĞİLİMLER": "E1.4. Kendine İnanma (Öz Yeterlilik), E1.6. Seçicilik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim Öğrenme Becerileri",
+    "Değerler": "D12. Sabır, D13. Sağlıklı Yaşam, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB7. Veri Okuryazarlığı DİSİPLİNLER ARASI Beden Eğitimi, Biyoloji",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.12. Mevcut Bilgiye / Veriye Dayalı Tahmin Etme, KB2.17. Değerlendirme MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI MAT.U.2.1.1. Sağlıklı yaşam bileşenlerini ilişkilendirmede matematiksel temsillerden yaVE SÜREÇ BİLEŞENLERİ rarlanabilme a) Beslenme alışkanlıkları ve fiziksel aktivitenin bileşenlerini matematiksel temsil bağlamındaki anlamı ile tanır. b) Besinlerin kalori, glisemik yük değerini ve fiziksel aktivitelerde metabolizma hızı (ME), PAL (fiziksel aktivite hızı), BMH değerlerinin (bazal metabolizma hızı) kullanılmasında uygun matematiksel temsilleri belirler. c) Yaşam seçimlerine bağlı olarak beslenme ve fiziksel aktivite bileşenlerinin matematiksel temsillerini oluşturur. MAT.U.2.1.2. Yaşam alışkanlıklarına bağlı olarak sağlıklı yaşam seçimleri konusunda matematiksel temsillerden yararlanarak karar verebilme a) Yaşam alışkanlıklarına uygun sağlıklı yaşam seçimleri için amacını belirler. b) Hangi besin türünden ne kadar beslenebileceği veya fiziksel aktivitenin hangi oranda olması gerekliliği üzerine bilgi toplar. c) Topladığı bilgileri kullanarak amacına yönelik alternatif önermeler/seçenekler oluşturur. ç) Oluşturduğu alternatif önermeler/seçenekler üzerinde mantıksal denetlemeler yapar. d) Ortaya konulan önermeler/seçenekler arasından seçim yapar. e) Kararının sonuçları üzerinden yansıtma yapar.",
+    "İÇERİK ÇERÇEVESİ": "Sağlıklı Yaşam Bileşenleri Sağlıklı Yaşam Seçimleri",
+    "Anahtar Kavramlar": "beslenme, diyet, egzersiz, glisemik indeks, glisemik yük, günlük kalori ihtiyacı, kalori, metabolizma hızı Sembol ve Gösterimler BMH, GY, kcal, ME, PAL ÖĞRENME Öğrenme çıktıları; çalışma kâğıdı, açık uçlu sorular, performans görevi ile değerlendirilebilir. KANITLARI Performans görevi olarak öğrencilerden kendi yaşam tarzlarını değerlendirerek sağlıklı (Ölçme ve yaşam alışkanlıklarını geliştirmeye yönelik kişisel bir plan hazırlamaları istenebilir. ÖğrenDeğerlendirme) cilerden günlük kalori alımını ve harcamasını dengelemeye yönelik çeşitli beslenme ve fiziksel aktivite alternatifleri geliştirmeleri, geliştirdikleri alternatifler arasında mantıklı karşılaştırmalar yaparak seçimde bulunmaları, seçim sürecinde kullandıkları ölçütleri gerekçelendirmeleri ve yansıtıcı değerlendirmeler yapmaları beklenir. Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin yüzde ve oran-orantı hesaplamaları ile tablo ve grafik oluşturup yorumlayabildiği; temel enerji birimlerini (kalori, kilokalori vb.) bildiği kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerden yüzde, oran orantı hesaplamaları, tablo ve grafik oluşturmaları, temel enerji birimlerine ilişkin günlük yaşamdan alınmış örnekleri açık uçlu sorular üzerinden cevaplamaları istenebilir. Köprü Kurma Öğrencilerin günlük hayattan örneklerle sağlıklı yaşam tercihlerini (sağlıklı beslenme, fiziksel aktivite) oluşturan bileşenleri fark etmeleri için fikir alışverişi yapmaları sağlanabilir. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme MAT.U.2.1.1 Uygulamaları Günlük hayattan örnekler kullanılarak sağlıklı beslenme ve fiziksel aktiviteyle ilgili temel kavramlar (kalori, glisemik yük, BMH, ME, PAL) incelenir (OB1). Farklı besinlerin kalori, glisemik indeks ve glisemik yük bilgileri (basitleştirilmiş tablolar veya örnekler üzerinden) ile ilgili hesaplamalar yapılarak bu değerlerin beslenme tercihlerini nasıl etkilediği tartışılabilir ve öğrenciler gıda okuryazarlığı konusunda bilinçlenerek gıda üzerindeki bilgileri anlayabilir (D13.1, KB2.12). Fiziksel aktivitelerin (yürüme, koşma, merdiven çıkma vb.) ME değeri ve PAL tablosu incelenebilir, aktivite şiddeti ile arasındaki ilişki matematiksel temsil ile ifade edilebilir (OB7). Bireylerin BMH (farklı yaş, cinsiyet, boy, kilo) değerlerini hesaplama alıştırmaları yapılabilir. Öğrencilerin kendi kişisel verilerini kullanarak BMH değerlerini hesaplamaları teşvik edilebilir (SDB1.2). Örnek senaryolardaki fiziksel aktivitelerin süreleri, ME değerleri kullanılarak toplam ME değerini ve yaklaşık harcanan enerjiyi hesaplama problemleri çözülebilir. Problem durumlarındaki PAL değerleri ve yaşam biçimleri incelenerek örnek bireylerin aktivite düzeylerini belirleme ve yorumlama çalışmaları yapılabilir (KB2.17). Böylelikle öğrenciler yaşına ve fiziksel özelliklerine uygun sosyal ve sportif etkinliklere katılabilir (D13.2). Öğrencilerin belirledikleri günlük kalori ihtiyacına ve sağlıklı yemek tabağı modeline uygun, farklı besin gruplarından oluşan öğün listeleri oluşturmaları, yaklaşık kalori değerleri hesaplamaları istenebilir. Öğrencilerden farklı ME değerlerine sahip aktivitelerden oluşan egzersiz planı tasarlamaya yönelik araştırma yapmaları istenebilir. Öğrenme süreci çalışma kâğıdı ile değerlendirilebilir. MAT.U.2.1.2 Öğrencilere “Neden sağlıklı yaşam seçimleri yapmalıyız?” sorusu yöneltilebilir. Bu süreçte sağlıklı yaşam seçimlerinin kişisel ve toplumsal sağlık üzerindeki etkileri ile ilgili sınıf tartışması düzenlenebilir. Öğrencilerden sağlıklı yaşam seçimlerine yönelik beslenme ve fiziksel aktivite alışkanlıklarını gözden geçirerek sağlıklı yaşam hedeflerini (kalori açığı oluşturma, kas oranını artırma vb.) belirlemeleri istenir (SDB1.2). Öğrenciler belirlediği hedefler doğrultusunda tüketiminin artırılması veya azaltılması gereken besinleri ve besin ögelerini öğrenerek beslenmesinde uygular (D13.1). Öğrencilerden besin türleri, fiziksel aktivite çeşitleri ve bunların matematiksel temsil değerleri (kalori, GY, ME, PAL) hakkında bilgi toplamaları istenebilir. Bilgi toplama aşamasında öğrencilerin biyoloji, beden eğitimi gibi farklı disiplinlerden yararlanmaları desteklenir. Öğrencilerden topladıkları bilgilere ve belirledikleri amaca yönelik beslenme planları (aynı kalori hedefine farklı öğün kombinasyonlarıyla ulaşma gibi), farklı fiziksel aktivite programları (aynı enerji harcaması hedefine farklı aktivitelerle ulaşma vb.) gibi alternatifler oluşturmaları istenebilir (OB1). Öğrencilerden oluşturdukları alternatif beslenme planlarını kalori hedefine uygunluk, glisemik yük profili, besin çeşitliliği ve sağlıklı beslenme ilkeleri açısından değerlendirmeleri istenebilir. Öğrencilerden oluşturdukları fiziksel aktivite programlarını haftalık önerilen süreler, metabolik eş değeri (ME), kişisel PAL değeri ve fiziksel aktivite prensipleri açısından değerlendirmeleri istenebilir. Öğrencilerin küçük gruplar hâlinde, oluşturdukları alternatifleri sınıf arkadaşlarıyla paylaşarak birbirlerinin planları üzerinde matematiksel temsiller yapmaları, bunları sağlıklı yaşam seçimi ile ilişkilendirerek mantıksal denetleme yapmaları sağlanabilir (SDB2.1, OB1). Öğrencilerden alternatifler üzerinde kişisel tercihlerini dikkate alarak belirledikleri sağlıklı yaşam hedeflerine ulaşmada en uygun ve uygulanabilir beslenme planı ile fiziksel aktivite programını seçmeleri istenir (E1.6). Öğrencilerden seçimlerinin güçlü ve zayıf yönlerini eleştirel bir bakış açısıyla genel sağlıklı yaşam göstergeleri (yeterli uyku, aktif yaşam, dengeli beslenme etkileri vb.) MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI bağlamında değerlendirmeleri istenebilir ve öz bakımlarını doğru biçimde ve zamanında yapmaları beklenir (E3.10, D16.1). Öğrencilerden yaptıkları seçimlerin kısa ve uzun vadeli uygulanabilirliğini ve etkilerini düşünerek yansıtıcı yazı yazmaları istenebilir. Öğrencilerden yazdıkları yazıları sınıf ortamında arkadaşları ile paylaşmaları istenebilir (E1.4). Öğrencilerden planlarını belirlenen bir süre boyunca uygulamaları ve uygulama süresince sabrın bilinçli ve etkin bir bekleyiş süreci olduğunu fark etmeleri istenebilir (D12.3). Öğrencilerden uygulama sonuçlarını sınıf ortamında arkadaşları ile paylaşmaları istenebilir. Performans görevi olarak öğrencilerden kendi yaşam tarzlarını değerlendirerek sağlıklı yaşam alışkanlıklarını geliştirmeye yönelik kişisel bir plan hazırlamaları istenebilir. Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme (*) Öğrencilerden sağlıklı yaşam tercihlerini etkileyen değişkenler üzerine araştırma yapmaları, araştırma sonuçlarının verilerini grafik üzerinde temsil ederek dijital ortamda sunmaları istenebilir. (*) Öğrenciler farklı yaş gruplarına (çocuk, genç, yetişkin, yaşlı) ait sağlıklı yaşam öneri planı hazırlayabilir. Öğrencilerden farklı öneri planını ilgili yaş grubunun fizyolojik ve yaşam tarzı ihtiyaçlarına uygun şekilde matematiksel temsillerle (yaşa göre BMH hesaplamaları ve öneri grafikleri) desteklemeleri istenebilir. Öğrencilerden buldukları sonuçları raporlaştırarak sunmaları istenebilir. (*) Öğrencilerden dijital araçlardan yararlanarak bireyin beslenme alışkanlıkları, fiziksel aktivitesi, uyku süresi gibi değişkenler arasında doğrusal regresyon modeli kurmaları istenebilir. (*) Öğrencilerden bireylerin sağlıklı beslenme alışkanlıkları verilerini araştırarak sonuçlarını matematiksel temsilleri ile raporlaştırmaları istenebilir. Destekleme Öğrencilere bazı temel kavramları öğrenmeleri ve karşılaştırabilmeleri için önceden hazırlanmış veri tabloları (farklı gıdaların kalori ve glisemik yük bilgileri) ve yardımcı görseller (besin piramidi, aktivite yoğunluk grafikleri) sunularak basit yorumlama ve temel işlem gerektiren çalışma kâğıtları verilebilir. Öğrencilere çalışma kâğıtları ile örnek senaryolar sunularak öğrencilerden kalori, BMH, glisemik yük hesaplama ile ilgili problem çözmeleri istenebilir. Bu hesaplamalar ile öğrencilerin öğrenme sürecine katılımı desteklenir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "MAT.U.2.1.1",
+     "order": 1,
+     "text": "Sağlıklı yaşam bileşenlerini ilişkilendirmede matematiksel temsillerden ya-",
+     "components": []
+    },
+    {
+     "code": "MAT.U.2.1.2",
+     "order": 2,
+     "text": "Yaşam alışkanlıklarına bağlı olarak sağlıklı yaşam seçimleri konusunda matematiksel temsillerden yararlanarak karar verebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yaşam alışkanlıklarına uygun sağlıklı yaşam seçimleri için amacını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Hangi besin türünden ne kadar beslenebileceği veya fiziksel aktivitenin hangi oranda olması gerekliliği üzerine bilgi toplar."
+      },
+      {
+       "label": "c",
+       "text": "Topladığı bilgileri kullanarak amacına yönelik alternatif önermeler/seçenekler oluşturur."
+      },
+      {
+       "label": "ç",
+       "text": "Oluşturduğu alternatif önermeler/seçenekler üzerinde mantıksal denetlemeler yapar."
+      },
+      {
+       "label": "d",
+       "text": "Ortaya konulan önermeler/seçenekler arasından seçim yapar."
+      },
+      {
+       "label": "e",
+       "text": "Kararının sonuçları üzerinden yansıtma yapar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "BİLİŞİMİN MATEMATİĞİ",
+   "description": "Bu temada öğrencilerin çizge teoreminden yararlanarak günlük hayat problemlerini çözebilmeleri amaçlanmaktadır. ALAN MAB2. Matematiksel Problem Çözme BECERİLERİ KAVRAMSAL BECERİLER",
+   "lesson_hours": 12,
+   "sections": {
+    "EĞİLİMLER": "E3.2. Odaklanma, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB3.2. Esneklik Öğrenme Becerileri",
+    "Değerler": "D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık DİSİPLİNLER ARASI Bilişim Teknolojileri ve Yazılım, Coğrafya, Fizik",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.16. Muhakeme (Akıl Yürütme) (KB2.16.3. Analojik Akıl Yürütme) MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI MAT.U.2.2.1. Çizge teoreminden yararlanarak günlük hayat problemlerini çözebilme VE SÜREÇ BİLEŞENLERİ a) Çizgeyi oluşturan parçaları belirler. b) Çizgeyi oluşturan parçalar arasındaki ilişkileri belirler. c) Çizge teoremini oluşturan kavramları bağlamdan kopmadan matematiksel temsillere dönüştürür. ç) Çizge teoremi ve matematiksel temsillerinden yararlanarak günlük hayat problemlerini yorumlar. d) Çizge teoremi ve matematiksel temsilleri kullanarak günlük hayat problemlerinde stratejiler oluşturur. e) Çizge teoremi ve matematiksel temsilleri kullanarak günlük hayat problemlerinde oluşturulan stratejileri kullanarak problemi çözer. f) Kullandığı çözüm stratejilerini kontrol eder. g) Günlük hayat problemlerinde çizge teoreminde kullandığı matematiksel temsilleri ve çözüm stratejilerini gözden geçirir. ğ) Problem çözümlerinde kullandığı stratejilere yönelik çıkarım yapar. h) Çizge teoreminden yararlanarak geliştirdiği çözümleri değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Günlük Hayat Problemlerinde Çizge Teorisi",
+    "Anahtar Kavramlar": "çizge, derece, düğüm Sembol ve Gösterimler ÖĞRENME Öğrenme çıktıları, performans görevi ve açık uçlu sorular ile değerlendirilebilir. KANITLARI Öğrencilere farklı disiplinlerle (coğrafya, bilgisayar bilimleri) ilişkilendirilmiş, öğrencilerin ilgi (Ölçme ve alanlarına göre çizge kuramı uygulamalarına yönelik bir performans görevi verilebilir. PerforDeğerlendirme) mans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin sayı kümelerini, temel işlemleri, veri ile ilişkili kavramları ve mantıksal niceleyicileri bildiği kabul edilmektedir. Ayrıca öğrencilerin verilen basit tablo ve grafiklerden verileri okuyup temsillerle ifade edebildikleri, algoritmalarda adım adım yönergeleri uygulayabildiği kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere doğal ve tam sayıların özellikleri, tek-çift doğal sayılar, alt küme kavramı ve mantıksal niceleyicilere yönelik eşleştirme soruları sorulabilir. Öğrencilere gündelik hayattan örnek durumlar (kan grupları, sınıfta oturma düzeni vb.) verilerek bu durumları temsillerle (görsel, tablo vb.) ifade etmeleri istenebilir. Verilen bir algoritmanın adım adım uygulama ve sonuçlarını bulma aşamalarına yönelik açık uçlu sorular sorulabilir. Köprü Kurma Gerçek yaşam durumlarına karşılık gelen Königsberg köprüsü problemi verilir. Bu problemin çözümüne yönelik sınıf içi tartışmalar yapılabilir. Öğrenciler problemin çözümü ile ilgili bireysel düşüncelerini sınıfta paylaşmaları konusunda teşvik edilebilir. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme MAT.U.2.2.1 Uygulamaları Öğrencilerin çizgeyi (graf) oluşturan temel parçaları (düğüm, ayrıt, yol, derece vb.) keşfetmelerine yönelik uygulamalar yapılır. Öğrenciler bu yapıların temel bileşenlerini (köşe, kenar) belirler. Örneğin öğrencilerin günlük hayatta karşılaşabilecekleri ilişki yapılarını (sosyal ağlar, altyapı ağları vb.) incelemeleri sağlanır. Öğrencilere çizge teoreminin temel bileşenleri olan düğüm (nokta/köşe), derece ve ayrıt (çizgi/kenar) kavramları açıklanır. Öğrencilerden farklı bağlamlardaki örneklerle çizgelerdeki parçaları belirlemeleri ve parçalar arasındaki ilişkileri (düğüm dereceleri vb.) ifade etmeleri istenir. Bu süreçte kavram haritası kullanılabilir. Öğrencilere günlük hayat durumlarını (trafik yönlendirme, sosyal ağ, dağıtım lojistiği gibi) temsil etmede çizgelerin nasıl (yönlü, ağırlıklı vb.) kullanılabileceğine yönelik örnekler verilir ve bunları öğrencilerin incelemesi istenir. Öğrencilerin çizgeleri oluştururken problem durumları arasındaki ilişkilerin yönlü olup olmadığını veya bir ağırlık (maliyet, mesafe vb.) içerip içermediğini dikkate almaları ve verilen duruma uygun temsili belirlemeleri istenir. Öğrenciler verilen duruma veya probleme uygun çizgeleri bağlamdan kopmadan diyagram, tablo, liste vb. farklı matematiksel temsillere dönüştürür. Öğrencilerden farklı durumları veya problemleri temsil etmede çizge kullanmaları ve çizgeyi yorumlamaları istenir (KB2.16.3). Öğrencilerden örneğin kendi ilgi alanlarına göre (elektrik devreleri, sosyal medyada bilgi yayılımı vb.) bir gerçek yaşam durumunu çizge teorisini ve çizge teorisinin temsillerini kullanarak ifade etmeleri beklenebilir. Fizik disiplini ile ilişki kurularak elektrik devreleri, dirençlerin bağlanma şekilleri (seri-paralel) ve akım yolları çizge temsilleri ile modellenebilir. Bilgisayar kullanımı desteklenerek basit grafik çizim programları veya çevrim içi araçlarla çalışmalar yapılabilir (OB2). Bu esnada bilişim teknolojileri ve yazılım disiplini ile ilişki kurulabilir. Öğrenciler; çizge üzerinde iki düğüm arasındaki en kısa yolu bulma, bir ağdaki tüm düğümleri en düşük maliyetle birbirine bağlama, bir ağın bağlantılı olup olmadığını kontrol etme gibi temel problemlerin çözümüne yönelik stratejiler oluşturur. Bir problem durumuna ait çözüm stratejisinin farklı yollar kullanılarak geliştirilmesi beklenir. Böylece öğrencilerin çözüm üretmeye yönelik esneklik becerilerinin gelişimi desteklenir (SDB3.2). Örneğin bir ulaşım ağında en kısa mesafeyi bulma probleminden sonra bir bilgisayar ağında en hızlı veri iletim yolunun belirlenmesiyle ilgili bir probleme geçiş yapılmasının gerekli olduğu hissettirilir. Böylelikle belirli çizge türleriyle çözülebilecek problemlerde kullanılan strateji anlamlandırılır. Öğrencilerden verilen çizge temelli problemleri belirlediği stratejilerle (çizim, tablo, doğal dil vb.) çözmeleri beklenir, bu sayede öğrencilerin problemin çözüm sürecine ilişkin çok yönlü düşünmeleri sağlanır. Örneğin öğrencilerden belirli sayıda yerleşim yerine hizmet götürecek bir şebekenin (su, genel ağ, elektrik vb.) toplam hat uzunluğunun en aza indirilecek şekilde planlanması veya bir teslimat aracının belirlenen tüm noktalara uğrayarak katedeceği toplam mesafenin en aza indirilmesi gibi problemleri çizge teorisinden yararlanarak oluşturduğu stratejilerle çözmeleri beklenir. Öğrencilerden verilen görevleri zamanında ve eksiksiz tamamlamaları beklenir (D16.3). Problemlerin alternatif çözümleri için Dijkstra, Prim veya Kruskal gibi temel çizge algoritmalarının mantığı ve uygulama süreçleri ele alınabilir. Öğrencilerin seçtikleri algoritmayı uygularken dikkatli ve düzenli çalışmaları teşvik edilir (E3.2, E3.7). Öğrencilerden oluşturulan çözümlerin (bulunan en kısa yolun uzunluğu, minimum kapsama ağacı vb.) doğruluğunu farklı yöntemlerle (deneme yanılma, uygun algoritmaları kullanarak vb.) kontrol etmesi beklenir. “Bu yol gerçekten en kısa yol mu, neden?”, “Bu ağaç tüm noktaları bağlıyor mu ve toplam maliyetin minimum olmasını sağlar mı?” gibi sorularla problemin çözüm yaklaşımının doğruluğu gözden geçirilir. Öğrencilerin iş birliğine dayalı grup çalışmalarıyla farklı modelleme seçenekleri ve çözüm stratejilerini karşılaştırılarak çözüm yaklaşımına yönelik MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI çıkarım yapması sağlanır. Her öğrencinin bireysel olarak çözüm yaklaşımına dair kısa bir yansıtıcı yazı yazarak çıkarımlarını değerlendirmesi sağlanabilir. Tema boyunca ulaşım sistemleri, harita üzerindeki şehir bağlantıları ve en kısa yol problemleri bağlamında coğrafya disiplini ile ilişki kurulur. Öğrenme süreci kontrol listesi ile değerlendirilebilir. Performans görevi olarak öğrencilerden ilgi alanlarına göre farklı disiplinlerle (coğrafya, bilgisayar bilimleri) ilişkilendirilmiş çizge kuramı uygulamalarına yönelik sunu hazırlamaları istenebilir. Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden çizge teorisi ile çözülebilen problemleri araştırmaları ve araştırmalarını sunmaları istenebilir. (*) Öğrencilerle teknoloji destekli ortamları kullanarak çizge oluşturma çalışmaları yapılır. Öğrencilerden yazılımlar aracılığıyla dijital ortamda çizgeler oluşturup yorumlamaları istenebilir. (*) Öğrencilerden kendi belirledikleri bir problem için çizge modeli oluşturmaları istenebilir. (*) Öğrencilerden Bellman Ford en kısa yolu bulma algoritmasının kullanıldığı problemlerin çözümü ile ilgili araştırma yapmaları istenebilir. Destekleme Temel çizge yapılarına ilişkin somut materyallerle (ip, boncuk, karton düğümler) modelleme etkinlikleri yapılabilir. Öğrencilere çizge teoreminin kullanıldığı basit problem örneklerinin tercih edildiği çalışma kâğıtları verilebilir. Farklı çizge türlerini tanıma ve basit algoritmaları uygulama becerilerini ölçen çalışma kâğıtları kullanılabilir. Öğrencilerle ilgi duydukları bir alanda (sosyal ağlar, şehir içi ulaşım, oyun haritaları vb.) çizge teorisinin nasıl kullanıldığını araştırıp basit bir modelleme yapacakları durum üzerinde çalışılabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "MAT.U.2.2.1",
+     "order": 1,
+     "text": "Çizge teoreminden yararlanarak günlük hayat problemlerini çözebilme",
+     "components": []
+    }
+   ]
+  },
+  {
+   "grade": 2,
    "unit": 3,
    "kind": "TEMA",
    "title": "ROTA BELİRLEMENİN MATEMATİĞİ",
@@ -64,10 +346,36 @@
     "Anahtar Kavramlar": "dik koordinat sistemi, pusula, pusula açısı, pusula gülü, rota, rota açısı, trigonometri, yön Sembol ve Gösterimler α, β, θ, N-S-E-W, (x, y), cos, cot, sin, tan ÖĞRENME Öğrenme çıktıları; açık uçlu sorular, çalışma kâğıdı, performans görevi ile değerlendirilebilir. KANITLARI Performans görevi olarak öğrencilerden görmek istedikleri yerleri içeren en uygun seyahat (Ölçme ve rotasını (minimum mesafe, en az maliyet vb. dikkate alınarak) belirlemeleri istenebilir. PerDeğerlendirme) formans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin açı ölçmeyi, dik koordinat sistemini, dik üçgenin özelliklerini bildiği ve bir dar açının sinüs, kosinüs, tanjant ve kotanjant oranlarını bulabildiği; bir üçgende kosinüs ve sinüs teoremlerini uygulayabildiği, çizge teorisi hakkında bilgi sahibi olduğu kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere açı ölçme, dik koordinat sistemi, dik üçgenin özellikleri, bir dar açının trigonometrik oranları, üçgende sinüs ve kosinüs teoremi uygulama ve çizge teorisinin temel bileşenlerini içeren açık uçlu sorular sorulabilir. Köprü Kurma Öğrencilere gezi planları yapılırken dikkate alınan kriterlerin neler olabileceği sorgulatılarak konuya giriş yapılabilir. “Uçaklar ve gemiler yönlerini nasıl belirler?”, “Teknolojinin olmadığı bir yerde elinizde hangi araçlar olduğunda varmak istediğiniz noktayı daha rahat bulabilirsiniz?” gibi sorularla merak uyandırılabilir. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme MAT.U.2.3.1 Uygulamaları Rotanın hangi bileşenlerden oluştuğunun belirlenmesine yönelik uygulamalar yapılabilir. Örneğin öğrencilerden bir harita üzerinde bulundukları bir noktadan başka bir noktaya ulaşabilecekleri bir rota belirlemeleri istenebilir. Öğrencilerden rota planındaki durakları, yön değişimlerini ve tahminî mesafeleri belirlemeleri istenir. Bu süreç dik koordinat sistemi temsili, yön bulabilme (doğu, batı, güney, kuzey, güneydoğu vb.) ve harita okuyabilme (somut veya dijital) ile desteklenir (OB1, OB2). Öğrencilere belirledikleri rotada neleri dikkate aldıkları (yön, mesafe ve zaman tahmini, açı ölçümü vb.) açık uçlu sorularla sorgulatılabilir. Öğrencilerin tartışarak birlikte karar vermeleri teşvik edilir (SDB2.1, SDB3.2). Harita üzerindeki yön değişiminin açı ile ilişkisi sorgulatılabilir. Örneğin öğrencilere düz bir doğrultuda yürüyen bir hareketlinin 45°, 90°, 120° vb. açılarla sağa veya sola dönüş yaptığı rotalar verilir. Bu açıların yön değiştirmeyi nasıl etkilediği çizim ve yön bulma yoluyla incelenebilir (KB2.12). Harita ve pusulalarda verilen açıların yön karşılığını bulmaya veya verilen yönlerin rota açılarını hesaplamaya yönelik örnekler ve uygulamalar yapılabilir. Örnek ve uygulamalarda rota açılarının ölçülmesine yönelik pusula gülü kullanılabilir. Performans görevi olarak öğrencilerden görmek istedikleri yerleri içeren en uygun seyahat rotasını (minimum mesafe, en az maliyet vb. dikkate alınarak) belirleyip afiş hazırlaması istenebilir (E3.7, SDB1.2). Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. MAT.U.2.3.2 Öğrenciler gerçek haritalar üzerinde rota bilgilerini (kalkış varış noktaları, duraklar, mesafeler vb.) ve temsillerini (üçgen, uzunluk, doğru, açı vb.) inceler. Örneğin bir harita üzerindeki dik koordinat sistemi temsili ile konum belirleme çalışmalarına yönelik uygulama yapılır. Uygulamada belirlenen konumlar arasındaki mesafeler, doğru parçası, üçgen ve dik üçgende kenar uzunlukları oranları ile açı temsillerine yer verilir. Bu süreçte üçgen biçiminde modellenebilecek rotalar için öğrenciler trigonometrik oranlardan yararlanabilir. Belirli bir açıyla ilerlenen rotalarda sinüs, kosinüs, kotanjant ve tanjant oranları kullanılarak yatay, düşey ve eğik mesafeler hesaplanabilir. Bu hesaplamalar hem geometrik şekil üzerinde oranlı çizimlerle hem de cebirsel bağıntılarla ifade edilebilir. Öğrencilerin problem durumlarına uygun temsilleri seçmeleri ve kullanmaları sağlanır. Örneğin öğrencilerden verilen rotada başlangıç bitiş noktalarının ve mesafelerin uygun temsillerinden (üçgen, trigonometrik oranlar vb.) yararlanarak pusula açısının ölçüsünü hesaplamaları istenebilir. Verilen pusula açıları kullanılarak birden fazla durağa uğranmış bir rotada, istenilen güzergâhtaki pusula açısı ölçüsü hesaplanmasına yönelik uygulamalar yapılabilir. Ayrıca öğrencilerin pusula açı ölçüsü ve uzaklık bilgisini kullanarak ulaşım araçlarının hangi yönde ne kadar hareket ettiğini trigonometrik oranlardan yararlanarak bulmaları beklenir. Öğrencilerden pusula açısı ve uzaklık oranları verilmiş, birden fazla duraklı rotada istenen uzaklıkları kosinüs veya sinüs teoremlerinden yararlanarak bulmaları beklenir (E3.6). Öğrencilerden grup çalışması olarak acil durumlarda gerekli olabilecek (okul ile itfaiye arası veya okul acil toplanma alanı vb.) en uygun rotayı bulmaları istenebilir (SDB2.2, SDB3.3). Öğrencilerden belirledikleri rotayı detaylı olarak mesafe, yön, açı vb. temsilleri kullanarak ifade etmeleri ve grafik, tablo, dik koordinat sistemi vb. görsel temsiller ile sunmaları istenebilir. Bu süreçte farklı rota seçeneklerini grup üyeleri ile tartışmaları beklenir (SDB2.2). Öğrencilerden tartışma sırasında birbirlerinin fikirlerine saygı duymakla birlikte fikirlerinin eleştirilmesine açık olmaları ve etkili iletişim kurmaları beklenir (SDB2.1, D14.1). Yön bulma ve harita okuma konularında coğrafya disiplini ile ilişki kurulur. Öğrencilere gerçek bir şehir haritası üzerinde başlangıç ve bitiş noktaları belirtilen çok duraklı bir seyahat rotası verilerek bu rota üzerindeki yön, açı ve mesafeleri trigonometrik oranlar kullanarak hesaplamaları ve temsil etmelerine yönelik çalışma kâğıdı verilebilir. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI",
     "FARKLILAŞTIRMA": "Zenginleştirme (*) Öğrencilerden farklı ülkelerdeki seyahat sistemleri, yön bulma yöntemleri ve kültürel seyahat tercihleri üzerine kısa araştırmalar yaparak bu bilgileri matematiksel temsillerle sunmaları istenebilir. (*) Küresel koordinat sistemi (uzayda nokta belirleme) üzerinde rota belirleme çalışmaları yapılabilir. Bu süreçte dijital haritalar kullanılabilir. Destekleme Yön, açı, mesafe gibi kavramlara ilişkin görsel ve somut materyaller (harita, kutu oyunları ya da dijital uygulamalar) kullanılarak uygulamalar yapılabilir. Öğrencilerle yönleri tanımaya yönelik pusula uygulamaları, pusula gülü etkinlikleri ve gerçek pusula kullanımı ile sınıf dışı etkinlikler yapılabilir. Öğrencilere temel trigonometrik oranlarla ilgili çalışma kâğıtları verilebilir. Öğrencilerden basit yönergelerle verilen rotayı harita üzerinde çizmeleri ve belirlenen rota üzerinde mesafe, açı, yön vb. bileşenleri belirlemeleri istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "MAT.U.2.3.1",
+     "order": 1,
+     "text": "Bir seyahat rotası planlama sürecini çözümleyebilme",
+     "components": []
+    },
+    {
+     "code": "MAT.U.2.3.2",
+     "order": 2,
+     "text": "Gerçek hayat bağlamında karşılaşılan problem durumlarında rota belirleyebilmek için matematik temsillerden yararlanabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Rota belirlemede kullanılan yön, konum ve açı bilgilerinin matematiksel temsillerini (dik koordinat sistemi, doğru, açı, dik üçgen, trigonometrik oranlar vb.) bağlam içerisindeki anlamları ile tanır."
+      },
+      {
+       "label": "b",
+       "text": "Rota belirleme problemlerinde kullanılabilecek matematiksel temsilleri belirler."
+      },
+      {
+       "label": "c",
+       "text": "Rota belirleme problemlerinin çözümünde matematiksel temsilleri kullanır."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 2,
    "unit": 4,
    "kind": "TEMA",
    "title": "FİNANSIN MATEMATİĞİ",
@@ -83,10 +391,55 @@
     "Anahtar Kavramlar": "poliçe, prim, risk, sigorta, teminat Sembol ve Gösterimler ₺,% ÖĞRENME Öğrenme çıktıları; kontrol listesi, açık uçlu sorular, performans görevi ile değerlendirilebilir. KANITLARI Performans görevi olarak öğrencilerden bir sigorta türü belirleyip o sigorta türüne ait farklı (Ölçme ve poliçe örneklerini incelemeleri istenebilir. Öğrencilerden bu poliçe örnekleri üzerinde benDeğerlendirme) zerlikleri ve farklılıkları listelemeleri ve poliçelerin tercih edilebilirliğini değerlendirerek sunu hâline getirmeleri istenebilir. Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin risk, sigorta kavramlarını tanıdıkları; tablo ve grafik verilerini okuyabildikleri;ondalık sayılarla dört işlem ve yüzde, oran-orantı hesaplamaları yapabildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere yüzde, oran-orantı, ondalık sayılarda dört işlem ve grafik okuma becerilerine yönelik açık uçlu sorular sorularak varsa ön bilgilerindeki eksikliklerin belirlenmesi ve giderilmesi sağlanabilir. Öğrencilere risk ve sigorta kavramları ile ilgili “Sigorta nedir?”, “Hangi durumlarda sigortaya ihtiyaç duyulur?”, “Risk ne demektir ve günlük hayatta nasıl karşımıza çıkar?” gibi açık uçlu sorular sorularak öğrencilerin bilgi düzeyleri belirlenebilir. Köprü Kurma Öğrencilerden risk kavramı hakkındaki düşüncelerini sınıf ortamında paylaşmaları istenir. Öğrencilerin risk kavramını tanımlamaları ve risklerin günlük yaşamdaki örnekleri (deprem, hastalık, trafik kazası, ürün kaybı, seyahat iptalleri vb.) üzerinden tartışmaları sağlanabilir. Risklerin hangi durumlarda ortaya çıktığı ve bu risklerin bireyler veya toplumlar üzerindeki etkilerini fark etmeleri sağlanabilir. Öğrencilere “Risklerin önceden tahmin edilmesi neden önemlidir?”, “Riskleri azaltmak ya da yönetmek için neler yapılabilir?” gibi açık uçlu sorular yöneltilebilir. Bu sınıf tartışmaları üzerinden sigortanın risk yönetimi çerçevesinde önemli bir araç olduğuna dair farkındalık oluşturulması amaçlanır. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme MAT.U.2.4.1 Uygulamaları Öğrencilere farklı sigorta türlerine ait (sağlık, trafik, deprem, seyahat ve tarım sigortası vb.) poliçe örnekleri sunulur. Öğrencilerin bu örnekler üzerinden poliçelerde yer alan kapsamları incelemeleri sağlanır. Örneğin öğrencilerden özel sağlık sigorta poliçesi kapsamı içerisinde yer alabilecek hizmetlerin (ayakta tedavi, laboratuvar testleri, tam bakım, yatarak tedavi vb.) neler olduğunu incelemeleri ve içerikteki ayrıntıları fark etmeleri beklenir. Böylelikle öğrencilerin görsel ve bilgi okuryazarlığı desteklenir (OB1, OB4). Öğrencilere “seyahat sigortası yaptırmış bir kişinin yurt dışı seyahatinde yaşadığı sağlık problemi sonucunda karşılaştığı duruma dair” bir senaryo sunulabilir. Bu senaryo üzerinden seyahat sigortasının teminat kapsamı, poliçede yer alan koruma unsurları, poliçenin süresi ve sınırları belirlenir. Öğrenciler küçük gruplara ayrılarak her bir gruba farklı bir sigorta türü verilir. Grup, kendi poliçesinin kapsamını belirlerken tablo veya grafik gibi görsel sunum araçlarından da yararlanabilir. Süreçte öğrencilerden belirledikleri kapsamları sınıfta arkadaşlarına sözlü olarak sunmaları istenir. Bu uygulama süresince öğrencilerden birbirlerinin fikirlerine saygı duymakla birlikte fikirlerinin eleştirilmesine açık olmaları ve eleştiriye empatiyle yaklaşmaları beklenir (E2.1, D14.1). Öğrencilerden örnekler üzerinden bir sigorta türündeki (sağlık, seyahat sigortası vb.) teminat ögeleri arasında ilişki kurmaları istenebilir. Örneğin öğrencilere “Seyahat süresi arttıkça teminat kapsamının genişliği değişiyor mu?”, “Riskli bölgelere yönelik sigorta koşulları farklı mı?” gibi sorular yöneltilerek öğrencilerin poliçe içindeki ilişkili bölümleri (teminat ile süre, istisnalar ile primler) incelemeleri ve bu ilişkileri belirlemeleri istenebilir. Öğrencilerin bu ilişkileri belirleme sürecinde düzenli, örgütlü, odaklı ve gayretli olmaları beklenir (E.3.7). Öğrenme süreci kontrol listesi ile değerlendirilebilir. MAT.U.2.4.2 Öğrenciler sigorta poliçesi prim hesabında yer alan kapsamların (risk primi, yük primi, teminat, süre vb.) matematiksel temsillerini bağlamlarındaki anlamları ile tanır. Öğrencilere örneklerle farklı sigorta durumlarını içeren senaryolar verilir. Öğrencilerden verilen senaryoda hangi faktörlerin prim hesaplamasında etkili olabileceğini belirlemeleri ve bu bilgileri matematiksel olarak nasıl temsil edebileceklerini (oran, çarpan, süre, sabit bedel vb.) saptamaları istenir. Örneğin trafik sigortasında sürücünün ve aracın yaşı ile kazaya karışma geçmişi gibi faktörlerin prim hesabını hangi oranda etkilediği hesaplanabilir. Bu hesaplamalar yapılırken matematiksel problem çözme becerisi desteklenir (MAB2). Risk primi, yük primi, teminat, süre gibi sigorta kavramları matematiksel temsil bağlamında kullanılarak farklı hesaplama örnekleri ile açıklanır. Poliçe prim hesaplamalarında ekonomi ve finansal matematik disiplinleri ile ilişki kurulur. Öğrencilerden teminat, risk oranı ve süre içeren örnek sigorta poliçeleri üzerinden matematiksel temsilleri kullanarak prim hesabı yapmaları istenir. Prim hesaplama sürecinde “Risk oranındaki değişim sonucu nasıl etkilemektedir?” sorusuyla prim hesabındaki değişimler bağlamsal anlamında incelenebilir. Örneğin öğrencilerden uygulama ile deprem sigortası poliçe hesaplamasında yaşanılan bölge, yapının tarzı, yaşı, alanı, kat sayısı vb. özelliklere bağlı olarak prim hesabı yapmaları istenebilir. Deprem sigortası prim hesabına etki eden bölge seçiminde coğrafya disiplini ile ilişki kurulur. Bu süreçte öğrencilerin sigorta sistemine ait farkındalıkları arttırılır ve toplumsal hayatı düzenleyen kurallara uygun hareket etmeleri geliştirilir (D16.2, OB3). Bu bağlamda sigortanın bireysel ve toplumsal güvence sağlaması demokrasi ve insan hakları disiplini ile ilişkilendirilerek ele alınır. Öğrenme süreci açık uçlu sorularla değerlendirebilir. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI MAT.U.2.4.3 Örnekler ve uygulamalarla aynı sigorta türüne ait örnek poliçelerin kapsamı, prim miktarları, ödeme yöntemleri, ek hizmetler gibi özellikleri belirlenir. Öğrencilerden belirlenen özelliklere göre poliçelere ait benzerliklerin ve farklılıkların listelenmesi istenebilir. Öğrencilerden poliçeleri inceleyerek teminat bedellerini, sigorta primlerini, poliçeye dâhil edilen ek hizmetleri karşılaştırmaları istenebilir. Örneğin öğrencilere bir uygulama ile iki farklı sigorta şirketine ait iş yeri bileşik sigortasının poliçesinde yer alan teminat bedelleri, uygulanacak enflasyon, hasar, muafiyet ve prim oranları ile ödeme seçenekleri verilir. Öğrenciler bu seçenekler üzerinden iki poliçedeki sigorta primlerini, teminat bedelleri toplamlarını karşılaştırır. Bu uygulama sürecinde öğrencilerin disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri desteklenir (D3.1). Uygulama sonrasında öğrencilerden bir poliçenin kişisel anlamda tercih edilebilirliği üzerine kısa bir tartışma yapmaları istenebilir. Öğrencilerin tartışma sırasında kararlarının ahlaki sorumluluğunu üstlenmeleri, başkalarının fikirleri ve duyguları karşısında nazik olmaları; nezaketin ise ince, ölçülü ve zarif davranmak anlamına geldiğini bilmeleri desteklenir. (SDB3.3, D14.1). Performans görevi olarak öğrencilerden bir sigorta türü belirleyip sigorta türüne ait farklı poliçe örneklerini incelemeleri istenebilir. Öğrencilerden bu poliçe örneklerinin benzerliklerini ve farklılıklarını listelemeleri ve poliçelerin tercih edilebilirliğini değerlendirerek sunu hâline getirmeleri istenebilir. Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir.",
     "FARKLILAŞTIRMA": "Zenginleştirme (*) Öğrencilerden belirli bir sigorta türü (tarım, iş sigortası vb.) üzerine odaklanarak olası bir risk senaryosu oluşturup bu riskin nasıl yönetilebileceğine dair bir rapor hazırlamaları istenebilir. Rapor; poliçe kapsamı, teminat tutarı, prim hesabı ve önerilen çözüm yollarını içerecek biçimde yapılandırılabilir. (*) Öğrencilerden bir sigorta türü (hayat sigortası, deprem sigortası vb.) belirlemeleri, bu sigorta için matematik yazılımları veya çevrim içi sigorta hesaplama araçları kullanarak poliçe prim hesaplamaları yapmaları istenebilir. Öğrenciler; yaş, meslek, süre vb. değişkenler için poliçe prim miktarının nasıl değiştiğini inceleyebilir. Öğrencilerden değişkenlerin prim hesabına etkisini matematiksel temsillerle (tablo, grafik vb.) ifade etmeleri ve çıkarımlarını bir dijital pano programı aracılığıyla sunmaları istenebilir. Destekleme Öğrencilere sigorta kavramına dair bilgilendirici kısa videolar, animasyonlar ve güncel haber içerikleri izletilerek öğrencilerin dikkatleri tema üzerine çekilebilir. Böylece soyut kavramların somutlaştırılması sağlanabilir. Temel düzeydeki poliçe örnekleri üzerinde teminat kapsamı, süre, prim vb. ögeler incelenerek öğrencilerin sigorta sistemine ait kavramları anlamlandırmaları sağlanabilir. Öğrencilere sigorta primi hesaplamalarına yönelik basitleştirilmiş senaryolar sunularak öğrencilerden gerekli hesaplamaları yapmaları istenebilir. Bu hesaplamalar süresince öğrencilerin çevrim içi hesaplama araçlarından (hesap makineleri, dijital tablo düzenleyiciler gibi) yararlanmaları teşvik edilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "MAT.U.2.4.1",
+     "order": 1,
+     "text": "Türlerine göre sigorta poliçelerinin kapsamlarını çözümleyebilme",
+     "components": []
+    },
+    {
+     "code": "MAT.U.2.4.2",
+     "order": 2,
+     "text": "Sigorta poliçesi prim hesabında matematiksel temsillerden yararlanabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Sigorta poliçesi prim hesabında yer alan kapsamların (risk primi, yük primi, teminat, süre vb.) matematiksel temsillerini bağlamlarındaki anlamları ile tanır."
+      },
+      {
+       "label": "b",
+       "text": "Farklı sigorta türlerine ait poliçe prim hesaplamasında kullanılacak uygun matematiksel temsilleri belirler."
+      },
+      {
+       "label": "c",
+       "text": "Farklı sigorta türlerinin poliçe prim hesaplamasında matematiksel temsilleri kullanır."
+      }
+     ]
+    },
+    {
+     "code": "MAT.U.2.4.3",
+     "order": 3,
+     "text": "Aynı tür sigorta poliçelerini kapsamlarına göre karşılaştırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Aynı tür sigorta poliçelerine ait teminat kapsamı, prim tutarları, ödeme seçenekleri, ek hizmetler gibi özellikleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlenen özelliklere göre poliçeler arasındaki benzerlikleri listeler."
+      },
+      {
+       "label": "c",
+       "text": "Belirlenen özelliklere göre poliçeler arasındaki farklılıkları listeler."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 2,
    "unit": 5,
    "kind": "TEMA",
    "title": "SANATIN MATEMATİĞİ",
@@ -102,393 +455,71 @@
     "Anahtar Kavramlar": "altın dikdörtgen, altın oran, fibonacci dizisi, katlama, oran, origami, örüntü, simetri, spiral, tangram Sembol ve Gösterimler Fn, φ ÖĞRENME Öğrenme çıktıları; açık uçlu sorular, kısa cevaplı sorular, eşleştirme, grup değerlendirme KANITLARI formu, kontrol listesi, öz değerlendirme formu, çalışma kâğıdı, performans görevi ile değer- (Ölçme ve lendirilebilir. Değerlendirme) Öğrencilere origami ve tangram parçalarından oluşan farklı örnekleri yapabilmeye yönelik performans görevi verilebilir. Performans görevleri analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin bir örüntü içerisindeki temsil sayıları ve sayılar arasında ilişki kurabildikleri; geometrik şekilleri ve temel özelliklerini, benzerlik ve simetri özelliklerini, karesel fonksiyonları, tam kareye tamamlamayı, köklü ifadeleri bildikleri; pergel, ölçüsüz cetvel, matematik yazılımı gibi araç gereci tanıdıkları; bu araçlarla basit düzeyde çizim (doğru, orta nokta, çember vb.) yapabildikleri kabul edilmektedir. MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI Ön Değerlendirme Süreci Öğrencilere karesel fonksiyonlar, tam kareye tamamlama, köklü ifadeler, sayı örüntüleri ve sayı örüntüleri arasındaki ilişkiyi belirlemeye yönelik açık uçlu sorular sorulabilir. Öğrencilere geometrik şekillerin temel özelliklerine, simetri ve benzerlik kavramlarına, pergel, ölçüsüz cetvel ve matematik yazılımları gibi araç gerecin kullanımına dair kısa cevaplı sorular sorulabilir. Köprü Kurma Öğrencilerin verilen bir gerçek yaşam durumunu temsil eden sayı dizisini oluşturmaları ve bu dizideki terimler arasında nasıl bir ilişki olduğunu ifade etmeleri sağlanabilir. Öğrencilerden önceden öğrendikleri çizim ve inşalardan yararlanarak verilen bir tasarımı istenilen ölçü ve orana göre çizebilmeleri beklenebilir. Öğrencilere, uzaydaki uydular için gereken güneş panellerinin yüksek taşıma maliyetleri hatırlatılarak bu panellerin uzaya en verimli şekilde nasıl taşınabileceğine dair sorular yöneltilebilir. Bu süreçte origami (katlama sanatıyla hacim küçültme) ve tangram (parçaları birleştirerek form oluşturma) prensiplerinin, mühendislikteki gerçek yaşam uygulamalarını fark etmeleri sağlanır. Öğrenme-Öğretme MAT.U.2.5.1 Uygulamaları Öğrencilere doğada gözlemlenebilecek bazı varlıkların (ayçiçeği, çam kozalağı, deniz kabuğu, ananas vb.) görselleri sunulur. Öğrencilere bu görsellerde tekrar eden yapıları incelemeleri ve spiral şekillerini fark etmelerine yönelik açık uçlu sorular sorulur. Böylelikle öğrencilerden gözlem yaparak örüntüleri fark etmeleri beklenir. Bu süreçte öğrencilerin doğaya yönelik merak duymaları teşvik edilir ve görsel okuryazarlık becerilerinin gelişimi desteklenir (E1.1, OB4). Öğrencilerin ayçiçeği, çam kozalağı, salyangoz kabuğu gibi doğadaki sarmal yapıları incelemeleri ve bu yapılardaki düzeni sorgulamaları beklenir. Bu incelemelerle öğrencilerin doğadaki spiral örüntüler üzerinden Fibonacci dizisini ve altın oran kavramını keşfetmeleri, bu kavramların sayısal ve geometrik temsillerini oluşturmaları sağlanır. Fibonacci dizisinin terimleri yazılarak ardışık iki terim arasındaki oranlar hesap makinesi, elektronik tablo gibi uygulamalarla belirlenebilir. Böylelikle terimlerin değeri büyüdükçe bu oranın altın orana yaklaştığının fark edilmesi sağlanır (E3.6). Öğrenciler, günlük hayatta sık karşılaşılan dikdörtgensel nesnelerin (kartpostal, telefon ekranı vb.) kenar uzunlukları oranını altın oran açısından değerlendirir. Bu süreçte öğrenciler estetiğin sanat ve doğada önemli bir yere sahip olduğunu fark eder (D7.1). Böylelikle öğrenciler doğadaki örüntüleri ve sanatsal tasarımlardaki altın oranı ifade etmede Fibonacci sayıları ve altın oranı bağlamlarındaki anlamı ile tanır. Öğrenciler doğadaki farklı örneklerin (çiçek yaprak sayıları, kozalak ve ayçiçeği tohumlarında yer alan sarmal sayılar vb.) matematiksel temsilini Fibonacci dizisi olarak belirler. Bu süreçte görsel sanatlar disiplini ile ilişki kurulur. Bir doğru parçası gösteriminden yararlanarak altın oranın hesaplanmasına, altın oran pergeli oluşturma uygulamasına yer verilir. Öğrencilerin oluşturdukları pergel ile Türk lirası sembolünü incelemeleri ve simgedeki altın oranı belirlemeleri beklenir. Böylece öğrencilerin Fibonacci dizisi ve altın oran ilişkisini keşfetmeleri, cebirsel ve geometrik temsillerin yanı sıra sayısal değerleri tam kareye tamamlama veya matematik yazılımları kullanarak belirlemeleri sağlanır. Altın dikdörtgen oluşturma uygulamasına yer verilir. Öğrenciler inşa ettikleri dikdörtgendeki oranı, altın oranı kullanarak açıklar. Öğrencilerin doğa ve sanat görsellerindeki Fibonacci dizisi ve altın oranı incelemelerine yönelik grup çalışması yapılır. Grup çalışmasıyla yürütülen bu çalışmada öğrencilerin iş birliği yapmaları ve fikir alışverişinde bulunmaları desteklenir (SDB2.2). Öğrencilerden Fibonacci dizisi ve altın oran ile ifade edilebilecek doğa ve sanat görsellerini araştırmaları istenir. Araştırmalarına dayanarak her grup bir sanat veya doğa görseli seçer. Öğrencilerden seçtikleri görseldeki örüntüleri ve oranları ifade etmede Fibonacci sayısı ve altın oranın uygun matematiksel temsillerini kullanmaları beklenir. Gruplar sonuçlarını sınıf ortamında arkadaşlarına sunar. Grupların sunumlarında hem hesaplamalara MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI hem geometrik gösterimlere yer vermeleri beklenir. Sunum sürecinde öğrencilerin iletişim becerileri gelişir ve birbirlerinin fikirlerine saygı duymalarının yanında fikirlerinin eleştirilmesine açık olmaları desteklenir. Çalışma sonrasında grup değerlendirme formu kullanılabilir (SDB2.1, D14.1). MAT.U.2.5.2 Öğrencilerin Türk Bayrağı Kanunu’nda verilen ölçü ve oranları incelemeleri sağlanır. Öğrencilere bayrağın tasarımında yer alan şekillerin (hilal, yıldız vb.) çiziminde hangi geometrik şekillerin (çember yayı, doğru parçası, düzgün çokgen vb.) kullanıldığı sorgulatılır. Öğrencilerin Türk bayrağında kullanılan renk ve sembolleri açıklamaları sağlanır (D19.1). Öğrencilerin pergel, cetvel ve dinamik matematik yazılımları kullanarak çember, düzgün çokgen vb. çizim uygulamaları yapmaları sağlanır. Bu süreçte Türk bayrağı tasarımındaki geometrik şekillerin çiziminde kullanılabilecek matematiksel araç (cetvel, pergel, açıölçer vb.) ve teknolojileri (dinamik matematik yazılımları vb.) tanımaları sağlanır (OB2). Öğrencilerden Türk bayrağı tasarım uygulamasında kullanabilecekleri matematiksel araç ve teknolojiyi belirlemeleri istenir. Öğrencilerin Türk bayrağını resmî ölçü ve oranlara uygun olarak bireysel veya grup hâlinde çizmeleri istenebilir. Böylelikle öğrencilerin belirledikleri matematiksel araç ve teknolojiyi etkin biçimde kullanarak Türk bayrağı tasarımını tamamlamaları beklenir. Öğrencilerin bir hedefe ulaşmak ya da bir işi yapmak için kapasiteleri ile yeteneklerinin olduğuna yönelik yargıları ve inançları desteklenir (E1.5). Öğrenciler Türk bayrağı tasarımı ile ilgili görev ve sorumluluklarını yerine getirmek için iç motivasyon geliştirir (D16.3). Öğrenme süreci kontrol listesi ile değerlendirilebilir. MAT.U.2.5.3 Origami yapı örnekleri sunulur ve öğrencilerin bu örnekleri görsel yorumlama yöntemi ile incelemesi sağlanır. Öğrencilerin örneklerde yer alan geometrik şekilleri (kare, paralelkenar, dikdörtgen, nokta, açı, kenar, köşegen, simetri vb.) incelemeleri ve bu şekillerin özellikleri ile ilgili fikirlerini paylaşmaları sağlanır. Öğrencilerin farklı örneklerde gördükleri benzer özellikleri ifade etmeleri beklenir. Öğrencilerin örnek uygulamalar ile origami çalışması yapmaları sağlanır. Öğrencilerin sınıf veya grup tartışması yoluyla origami yapılarındaki geometrik şekilleri belirlemeleri istenir. Öğrencilerin farklı fikirler üzerinde uzlaşması bekleneceğinden bu çalışma iş birliği becerisini destekler (SDB2.2). Öğrencilerin her bir örnek origami yapı için belirledikleri şekiller özetlenir. Her bir origami örneği için belirlenen bu şekiller arasındaki ilişkilere ve bu ilişkileri nasıl kurduklarına dair açıklama yapması sağlanır. Öğrencilerin şekiller arasındaki ilişkiler üzerinden origaminin nasıl oluşturulduğunu, katlama işlemlerinde tekrar ve benzerlikleri ifade etmeleri beklenir (E3.6). Örneğin origami ile oluşturulabilecek üçgen prizma yapımı aşamasında tekrar eden katlama işlemleri, oluşan yüzeylerin geometrik şekilleri ve özellikleri, aralarındaki ilişkiler ifade edilir. Origami ile oluşan yapının çözümlenmesi, sunulan origami görsellerinin tanınması, yorumlanması ve sorgulanması ile öğrencilerin görsel okuryazarlık becerilerinin gelişimi desteklenir (OB4). MAT.U.2.5.4 Geometrik şekiller kullanılarak oluşturulan tangram örnekleri üzerinden öğrencilerin merak duyguları harekete geçirilir (E1.1). Öğrencilerin bu örnekleri incelemeleri sağlanır. Öğrencilerden tangramı oluşturan parçaların hangi geometrik şekillerden oluştuğunu belirlemeleri istenir. Öğrencilerin belirledikleri geometrik şekillerin benzer ve farklı özelliklerine dair açıklama yapmaları, hangi özelliklerine göre bir araya getirildiklerine dair fikirlerini paylaşmaları ve tartışmaları sağlanır (SDB2.1). Öğrenciler bir araya getirilen tangram parçalarının arasındaki açı uygunluklarını, kenar ilişkilerini, simetriyi ve yön farklılıklarının ilişkilerine dair çıkarımlarda bulunur (MAB1). Böylece öğrencilerin tangramdaki geometrik şekillerin nasıl bir araya geldiğini görmeleri beklenir. Tangram parçaları ile oluşturulan farklı örneklerin incelenerek yapısının anlaşılması ve çözümlenmesiyle öğrencilerin görsel okuryazarlık MATEMATİK UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI becerilerinin gelişimi de desteklenir (OB4). Öğrencilere origami ve tangram parçalarından oluşan farklı örnekleri yapabilmeye yönelik performans ödevi verilebilir (E3.3). Performans görevlerinin sınıf ortamında sunulması desteklenerek öğrencilerin öz güven ve girişkenlik eğilimlerinin, iletişim ve iş birliği becerilerinin gelişimi sağlanır (E1.5, E2.3, SDB2.1, SDB2.2). Performans görevleri analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir.",
     "FARKLILAŞTIRMA": "Zenginleştirme (*) Öğrencilerden sanat, biyoloji, mimarlık gibi alanlarda Fibonacci dizisi ve altın oran kullanımına dair örnekler araştırmaları istenebilir. Öğrencilerin araştırma sonuçlarını içeren kısa sunular hazırlamaları ve bu sunuları sınıf ortamında paylaşmaları beklenebilir. Öğrencilerin disiplinler arası bağlantı kurmaları ve matematiksel temsiller kullanmaları teşvik edilir. (*) Öğrencilerden Ayasofya-i Kebîr Câmi-i Şerîfi, Parthenon Tapınağı, Pisa Kulesi gibi tarihî yapılardaki altın oranı araştırmaları istenebilir. Öğrencilerin bu oranı görsel üzerinde göstererek dijital sunu hâlinde sunmaları teşvik edilir. (*) Öğrencilerden Türk bayrağını kanunda belirtilen ölçü ve orana göre filografi sanatı ile belli bir ölçüde tasarlamaları istenebilir. (*) Öğrencilerden origaminin tarihçesini araştırarak Japon, Çin ve Endülüs matematik kültürlerindeki origami tekniklerini tanıtmaları ve bu tekniklerle matematiksel bir figür oluşturmaları istenebilir. (*) Öğrenciler tangram parçalarıyla bir hikâyeyi veya temayı (doğa, şehir, hareket vb.) anlatan görsel tasarımlar oluşturabilir ve bu ürünleri dijital ortamda sergileyebilir. (*) Öğrenciler, çok yüzlü katı cisimler (küp, dört yüzlü, on iki yüzlü vb.) oluşturmak için modüler origami tekniklerini araştırabilir ve öğrencilerden araştırma sonuçlarını sunmaları istenebilir. Öğrenciler oluşturdukları yapıların yüz, ayrıt ve köşe sayılarına göre Euler bağıntısını test edebilir. Destekleme Öğrencilere Fibonacci dizisi ve altın oranın doğada ve sanatta kullanımına yönelik video ve görseller sunularak öğrencilerin örüntüleri ve oranı fark etmeleri desteklenebilir. Çalışma kâğıtları ile Fibonacci dizisindeki terimler ve ilişkilerini belirlemeye yönelik temel sorulara yer verilerek öğrencilerin konuyu kavramaları desteklenebilir. Öğrenciler Türk bayrağı çizimine geçmeden önce çember, yay, düzgün çokgen gibi temel geometrik şekillerin çizimine yönelik kılavuzlu uygulamalar yapabilir. Bu uygulamalar bireysel ya da ikili gruplar hâlinde gerçekleştirilerek öğrencilerin iş birliği yapmaları ve birbirlerinden destek almaları teşvik edilir. Öğrencilerden temel origami ve tangram uygulamaları yapmaları istenebilir. Öğrencilere bu uygulamalar aşamasında temel geometrik şekilleri tanıma; bu şekillerin benzerlik, eşlik ve simetri özelliklerini belirleme uygulamaları yaptırılabilir. Katlama işlemlerinde yön, açı ve şekil ilişkileri üzerine basitleştirilmiş etkinliklerle öğrencilerin temel kavramları anlamlandırmaları sağlanabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz."
    },
-   "outcomes": []
-  }
- ],
- "unassigned_outcomes": [
-  {
-   "code": "MAT.U.1.1.1",
-   "grade": 1,
-   "unit": 1,
-   "order": 1,
-   "text": "Strateji ve zekâ oyunlarında karşılaşılan duruma yönelik en uygun hamleye",
-   "components": []
-  },
-  {
-   "code": "MAT.U.1.1.2",
-   "grade": 1,
-   "unit": 1,
-   "order": 2,
-   "text": "Strateji ve zekâ oyunlarında olası durumları belirleyerek amaca yönelik matematiksel çözümler geliştirebilme",
-   "components": [
+   "outcomes": [
     {
-     "label": "a",
-     "text": "Strateji ve zekâ oyunlarında amaca ulaşmak için olası durumlara dayalı bir çözüm stratejisi oluşturur."
+     "code": "MAT.U.2.5.1",
+     "order": 1,
+     "text": "Doğadaki örüntüleri ve sanatsal tasarımlardaki altın oranı ifade etmede Fibo-",
+     "components": []
     },
     {
-     "label": "b",
-     "text": "Oluşturduğu stratejiyi kullanarak oyundaki problem durumunu çözer."
+     "code": "MAT.U.2.5.2",
+     "order": 2,
+     "text": "Türk bayrağının tasarımında matematiksel araç ve teknolojilerden yararlanabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Türk bayrağının tasarımında kullanılabilecek matematiksel araç ve teknolojileri tanır."
+      },
+      {
+       "label": "b",
+       "text": "Türk bayrağının tasarımında kullanılabilecek matematiksel araç ve teknolojilerden uygun olanı belirler."
+      },
+      {
+       "label": "c",
+       "text": "Türk bayrağının tasarımında belirlediği matematiksel araç veya teknolojiyi kullanır."
+      }
+     ]
     },
     {
-     "label": "c",
-     "text": "Oyundaki problem durumunun çözümünü kontrol eder."
-    }
-   ]
-  },
-  {
-   "code": "MAT.U.1.2.1",
-   "grade": 1,
-   "unit": 2,
-   "order": 1,
-   "text": "Bilgisayar sistemlerinde kullanılan sayı sistemlerini ve bu sistemlerin mantık-",
-   "components": []
-  },
-  {
-   "code": "MAT.U.1.2.2",
-   "grade": 1,
-   "unit": 2,
-   "order": 2,
-   "text": "Sayı sistemleri ve matematiksel yöntemleri kullanarak farklı şifreleme algoritmalarına yönelik analojik akıl yürütebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Farklı şifreleme algoritmalarını inceler."
+     "code": "MAT.U.2.5.3",
+     "order": 3,
+     "text": "Origami uygulamalarında oluşan yapıların geometrik şekillerini ve ilişkilerini çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Origami uygulama aşamalarında oluşan yapıların geometrik şekillerini ve özelliklerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "Origami yapılarındaki geometrik şekiller arasındaki ilişkileri belirler."
+      }
+     ]
     },
     {
-     "label": "b",
-     "text": "Şifreleme algoritmasında kullanılan sayı sistemleri ve matematiksel yöntemleri tespit eder."
-    },
-    {
-     "label": "c",
-     "text": "Sayı sistemlerini ve matematiksel yöntemleri kullanarak şifreleme mantığını anlamaya yönelik çıkarım yapar."
-    }
-   ]
-  },
-  {
-   "code": "MAT.U.1.3.1",
-   "grade": 1,
-   "unit": 3,
-   "order": 1,
-   "text": "Astronomide kullanılan uzaklık ölçü birimlerini kullanarak gezegenler, yıldızlar",
-   "components": []
-  },
-  {
-   "code": "MAT.U.1.3.2",
-   "grade": 1,
-   "unit": 3,
-   "order": 2,
-   "text": "Gezegenlerin çekim kuvvetine ilişkin hesaplamalarda matematiksel temsillerden yararlanabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Gezegenlerin çekim kuvvetini oluşturan yer çekimi ivmesi, yarıçap uzunluğu ve yoğunluğu gibi büyüklükleri bağlamlarındaki anlamları ile tanır."
-    },
-    {
-     "label": "b",
-     "text": "Gezegenlerin çekim kuvveti, yer çekimi ivmesi, yarıçap uzunluğu ve yoğunluğu gibi büyüklükleri matematiksel temsillerle belirler."
-    },
-    {
-     "label": "c",
-     "text": "Gezegenlerin çekim kuvveti, yer çekimi ivmesi, yarıçap uzunluğu ve yoğunluğu gibi büyüklükleri hesaplarken matematiksel temsilleri kullanır."
-    }
-   ]
-  },
-  {
-   "code": "MAT.U.1.4.1",
-   "grade": 1,
-   "unit": 4,
-   "order": 1,
-   "text": "Bütçe dengesi ve tasarruf planlamasında matematiksel temsillerden yarar-",
-   "components": []
-  },
-  {
-   "code": "MAT.U.1.4.2",
-   "grade": 1,
-   "unit": 4,
-   "order": 2,
-   "text": "Yatırım karar süreçlerini matematiksel olarak değerlendirerek uygun yatırım kararları verebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Yatırım karar süreçlerine ilişkin amacını belirler."
-    },
-    {
-     "label": "b",
-     "text": "Yatırım kararı ile ilgili bilgi toplar."
-    },
-    {
-     "label": "c",
-     "text": "Yatırım sürecine yönelik olası alternatif seçenekler oluşturur."
-    },
-    {
-     "label": "ç",
-     "text": "Alternatif yatırım seçenekleri üzerinde matematiksel verilerden yararlanarak mantıksal denetlemeler yapar."
-    },
-    {
-     "label": "d",
-     "text": "Elde ettiği verilere dayanarak en uygun yatırım kararını seçer."
-    },
-    {
-     "label": "e",
-     "text": "Verdiği yatırım kararının sonuçları üzerinde yansıtma yapar."
-    }
-   ]
-  },
-  {
-   "code": "MAT.U.1.5.1",
-   "grade": 1,
-   "unit": 5,
-   "order": 1,
-   "text": "Türk el sanatları motiflerinde ve geleneksel mimari eserlerde yer alan geo-",
-   "components": []
-  },
-  {
-   "code": "MAT.U.1.5.2",
-   "grade": 1,
-   "unit": 5,
-   "order": 2,
-   "text": "Geometrik şekiller ve matematiksel ilişkileri kullanarak süslemeler sentezleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Bir süslemeyi oluşturabilecek farklı geometrik şekilleri belirler."
-    },
-    {
-     "label": "b",
-     "text": "Farklı geometrik şekillerden bir süsleme oluşturabilmek için şekiller arasında matematiksel ilişkiler (yansıma, öteleme, dönme vb.) kurar."
-    },
-    {
-     "label": "c",
-     "text": "Belirlediği şekilleri birleştirerek özgün bir süsleme oluşturur."
-    }
-   ]
-  },
-  {
-   "code": "MAT.U.2.1.1",
-   "grade": 2,
-   "unit": 1,
-   "order": 1,
-   "text": "Sağlıklı yaşam bileşenlerini ilişkilendirmede matematiksel temsillerden ya-",
-   "components": []
-  },
-  {
-   "code": "MAT.U.2.1.2",
-   "grade": 2,
-   "unit": 1,
-   "order": 2,
-   "text": "Yaşam alışkanlıklarına bağlı olarak sağlıklı yaşam seçimleri konusunda matematiksel temsillerden yararlanarak karar verebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Yaşam alışkanlıklarına uygun sağlıklı yaşam seçimleri için amacını belirler."
-    },
-    {
-     "label": "b",
-     "text": "Hangi besin türünden ne kadar beslenebileceği veya fiziksel aktivitenin hangi oranda olması gerekliliği üzerine bilgi toplar."
-    },
-    {
-     "label": "c",
-     "text": "Topladığı bilgileri kullanarak amacına yönelik alternatif önermeler/seçenekler oluşturur."
-    },
-    {
-     "label": "ç",
-     "text": "Oluşturduğu alternatif önermeler/seçenekler üzerinde mantıksal denetlemeler yapar."
-    },
-    {
-     "label": "d",
-     "text": "Ortaya konulan önermeler/seçenekler arasından seçim yapar."
-    },
-    {
-     "label": "e",
-     "text": "Kararının sonuçları üzerinden yansıtma yapar."
-    }
-   ]
-  },
-  {
-   "code": "MAT.U.2.2.1",
-   "grade": 2,
-   "unit": 2,
-   "order": 1,
-   "text": "Çizge teoreminden yararlanarak günlük hayat problemlerini çözebilme",
-   "components": []
-  },
-  {
-   "code": "MAT.U.2.3.1",
-   "grade": 2,
-   "unit": 3,
-   "order": 1,
-   "text": "Bir seyahat rotası planlama sürecini çözümleyebilme",
-   "components": []
-  },
-  {
-   "code": "MAT.U.2.3.2",
-   "grade": 2,
-   "unit": 3,
-   "order": 2,
-   "text": "Gerçek hayat bağlamında karşılaşılan problem durumlarında rota belirleyebilmek için matematik temsillerden yararlanabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Rota belirlemede kullanılan yön, konum ve açı bilgilerinin matematiksel temsillerini (dik koordinat sistemi, doğru, açı, dik üçgen, trigonometrik oranlar vb.) bağlam içerisindeki anlamları ile tanır."
-    },
-    {
-     "label": "b",
-     "text": "Rota belirleme problemlerinde kullanılabilecek matematiksel temsilleri belirler."
-    },
-    {
-     "label": "c",
-     "text": "Rota belirleme problemlerinin çözümünde matematiksel temsilleri kullanır."
-    }
-   ]
-  },
-  {
-   "code": "MAT.U.2.4.1",
-   "grade": 2,
-   "unit": 4,
-   "order": 1,
-   "text": "Türlerine göre sigorta poliçelerinin kapsamlarını çözümleyebilme",
-   "components": []
-  },
-  {
-   "code": "MAT.U.2.4.2",
-   "grade": 2,
-   "unit": 4,
-   "order": 2,
-   "text": "Sigorta poliçesi prim hesabında matematiksel temsillerden yararlanabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Sigorta poliçesi prim hesabında yer alan kapsamların (risk primi, yük primi, teminat, süre vb.) matematiksel temsillerini bağlamlarındaki anlamları ile tanır."
-    },
-    {
-     "label": "b",
-     "text": "Farklı sigorta türlerine ait poliçe prim hesaplamasında kullanılacak uygun matematiksel temsilleri belirler."
-    },
-    {
-     "label": "c",
-     "text": "Farklı sigorta türlerinin poliçe prim hesaplamasında matematiksel temsilleri kullanır."
-    }
-   ]
-  },
-  {
-   "code": "MAT.U.2.4.3",
-   "grade": 2,
-   "unit": 4,
-   "order": 3,
-   "text": "Aynı tür sigorta poliçelerini kapsamlarına göre karşılaştırabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Aynı tür sigorta poliçelerine ait teminat kapsamı, prim tutarları, ödeme seçenekleri, ek hizmetler gibi özellikleri belirler."
-    },
-    {
-     "label": "b",
-     "text": "Belirlenen özelliklere göre poliçeler arasındaki benzerlikleri listeler."
-    },
-    {
-     "label": "c",
-     "text": "Belirlenen özelliklere göre poliçeler arasındaki farklılıkları listeler."
-    }
-   ]
-  },
-  {
-   "code": "MAT.U.2.5.1",
-   "grade": 2,
-   "unit": 5,
-   "order": 1,
-   "text": "Doğadaki örüntüleri ve sanatsal tasarımlardaki altın oranı ifade etmede Fibo-",
-   "components": []
-  },
-  {
-   "code": "MAT.U.2.5.2",
-   "grade": 2,
-   "unit": 5,
-   "order": 2,
-   "text": "Türk bayrağının tasarımında matematiksel araç ve teknolojilerden yararlanabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Türk bayrağının tasarımında kullanılabilecek matematiksel araç ve teknolojileri tanır."
-    },
-    {
-     "label": "b",
-     "text": "Türk bayrağının tasarımında kullanılabilecek matematiksel araç ve teknolojilerden uygun olanı belirler."
-    },
-    {
-     "label": "c",
-     "text": "Türk bayrağının tasarımında belirlediği matematiksel araç veya teknolojiyi kullanır."
-    }
-   ]
-  },
-  {
-   "code": "MAT.U.2.5.3",
-   "grade": 2,
-   "unit": 5,
-   "order": 3,
-   "text": "Origami uygulamalarında oluşan yapıların geometrik şekillerini ve ilişkilerini çözümleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Origami uygulama aşamalarında oluşan yapıların geometrik şekillerini ve özelliklerini belirler."
-    },
-    {
-     "label": "b",
-     "text": "Origami yapılarındaki geometrik şekiller arasındaki ilişkileri belirler."
-    }
-   ]
-  },
-  {
-   "code": "MAT.U.2.5.4",
-   "grade": 2,
-   "unit": 5,
-   "order": 4,
-   "text": "Tangram uygulamalarında şekli oluşturan parçaları belirleyerek bu parçalar arasındaki geometrik ilişkileri çözümleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Tangramı oluşturan parçaları belirler."
-    },
-    {
-     "label": "b",
-     "text": "Şekiller oluşturmak için parçalar arasındaki geometrik ilişkileri belirler."
+     "code": "MAT.U.2.5.4",
+     "order": 4,
+     "text": "Tangram uygulamalarında şekli oluşturan parçaları belirleyerek bu parçalar arasındaki geometrik ilişkileri çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Tangramı oluşturan parçaları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Şekiller oluşturmak için parçalar arasındaki geometrik ilişkileri belirler."
+      }
+     ]
     }
    ]
   }
  ],
+ "unassigned_outcomes": [],
  "report": {
-  "units": 5,
-  "outcomes": 0,
-  "components": 0,
-  "orphan_outcomes": 22,
-  "gaps": [
-   {
-    "course": "Matematik Uygulamaları Dersi",
-    "reason": "ünitesi bulunamayan çıktı",
-    "codes": [
-     "MAT.U.1.1.1",
-     "MAT.U.1.1.2",
-     "MAT.U.1.2.1",
-     "MAT.U.1.2.2",
-     "MAT.U.1.3.1",
-     "MAT.U.1.3.2",
-     "MAT.U.1.4.1",
-     "MAT.U.1.4.2",
-     "MAT.U.1.5.1",
-     "MAT.U.1.5.2",
-     "MAT.U.2.1.1",
-     "MAT.U.2.1.2",
-     "MAT.U.2.2.1",
-     "MAT.U.2.3.1",
-     "MAT.U.2.3.2",
-     "MAT.U.2.4.1",
-     "MAT.U.2.4.2",
-     "MAT.U.2.4.3",
-     "MAT.U.2.5.1",
-     "MAT.U.2.5.2",
-     "MAT.U.2.5.3",
-     "MAT.U.2.5.4"
-    ]
-   }
-  ]
+  "units": 10,
+  "outcomes": 22,
+  "components": 40,
+  "orphan_outcomes": 0,
+  "gaps": []
  }
 }

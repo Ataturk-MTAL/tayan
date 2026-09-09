@@ -2822,7 +2822,28 @@
      "code": "GS.8.7.1",
      "order": 1,
      "text": "Kent kültürü ve müzeler arasındaki ilişkileri sorsonunda öğrenciye ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ gulayabilme kazandırılması amaçlanan bilgi, beceri ve becerilerin a) Yaşadığı kentin kültürel kimliği, tarihî geçmişi ve güncel durumuna ilişkin merak ettiği konuları süreç bileşenlerini ifade tanımlar. eder. Öğrenme sürecinde ele alınan bilgi kümesini",
-     "components": []
+     "components": [
+      {
+       "label": "a",
+       "text": "Yaşadıkları veya doğdukları kentin kültürel kimliği, tarihî geçmişi ve güncel durumuna ilişkin merak ettiği konuları tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Kentin mevcut durumu, geleceği ve müzelerin kent kültüründeki rolü hakkında sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Kentin sosyal, kültürel, tarihî ve ekonomik değişimi ile müzelerin bu değişimdeki etkisine yönelik bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Kentin sosyal, kültürel, tarihî ve ekonomik değişimi ile müzelerin bu değişimdeki etkisi hakkında topladığı bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Müzelerin gelecekteki rolü hakkında çıkarım yapar."
+      }
+     ]
     },
     {
      "code": "GS.8.7.2",
@@ -2846,7 +2867,7 @@
  "report": {
   "units": 56,
   "outcomes": 85,
-  "components": 196,
+  "components": 201,
   "orphan_outcomes": 0,
   "gaps": []
  }

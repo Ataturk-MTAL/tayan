@@ -413,29 +413,6 @@
   "outcomes": 16,
   "components": 53,
   "orphan_outcomes": 0,
-  "gaps": [
-   {
-    "course": "T.C. İnkılap Tarihi ve Atatürkçülük Dersi",
-    "reason": "ünitesi bulunamayan çıktı",
-    "codes": [
-     "İTA.8.1.1",
-     "İTA.8.1.2",
-     "İTA.8.1.3",
-     "İTA.8.2.1",
-     "İTA.8.2.2",
-     "İTA.8.2.3",
-     "İTA.8.2.4",
-     "TA.8.2.5",
-     "İTA.8.2.5",
-     "İTA.8.3.1",
-     "İTA.8.3.2",
-     "İTA.8.3.3",
-     "İTA.8.3.4",
-     "İTA.8.4.1",
-     "İTA.8.4.2",
-     "İTA.8.4.3"
-    ]
-   }
-  ]
+  "gaps": []
  }
 }

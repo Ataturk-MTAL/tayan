@@ -152,11 +152,11 @@
      "components": [
       {
        "label": "a",
-       "text": "Aile içindeki görev ve sorumlulukları belirler."
+       "text": "Aile içindeki görev ve sorumluluklarını belirler."
       },
       {
        "label": "b",
-       "text": "Aile bireylerinin görev ve sorumluluklarını ilişkilendirir. Öğrenme-öğretme sürecinde ele alınan"
+       "text": "Aile bireylerinin görev ve sorumlulukları ilişkilendirir."
       }
      ]
     }
@@ -265,7 +265,20 @@
      "code": "HB.1.5.2",
      "order": 2,
      "text": "Modeller üzerinden gök cisimlerini karşılaştırabilme Formda yer alan ifadeleri okuyunuz. Her öğrenci için bu davranışları gözleme durumunuzu ilgili kutuyu (X) ile işaretleyerek değerlendiriniz. Formu doldururken yaptığınız etkinlikleri göz önünde bulundurmanız gerektiğini unutmayınız. ÖĞRETMEN GÖZLEM FORMU İFADELER Öğrenci Öğrenci Öğrenci Öğrenci Öğrenci ... ... ... ... ... 1. Gök cisimlerinden Güneş, Dünya ve Ay’ı bilir. 2. Güneş, Dünya ve Ay’ın şekillerini fark eder. 3. Güneş, Dünya ve Ay ile ilgili sorular sorar. 4. Gök cisimlerinin şekillerinin neye benzediğini söyler. 5. Gök cisimlerinin özelliklerini belirler. 6. Gök cisimlerinin benzerliklerini ve farklılıklarını söyler. 7. Gök cisimlerini büyüklük bakımından karşılaştırır.",
-     "components": []
+     "components": [
+      {
+       "label": "a",
+       "text": "Modeller üzerinden gök cisimlerinin (Güneş, Dünya ve Ay) özelliklerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "Modeller üzerinden gök cisimlerinin (Güneş, Dünya ve Ay) benzerliklerini listeler."
+      },
+      {
+       "label": "c",
+       "text": "Modeller üzerinden gök cisimlerinin (Güneş, Dünya ve Ay) farklılıklarını listeler."
+      }
+     ]
     },
     {
      "code": "HB.1.5.3",
@@ -1273,6 +1286,24 @@
    },
    "outcomes": [
     {
+     "code": "HB.1.1.3",
+     "order": 3,
+     "text": "Sınıf ve okul ortamında kurallara uygun davranabilme Aşağıdaki öz değerlendirme formunu sınıf ve okul ortamındaki kuralları düşünerek doldurunuz. Yaptığınız davranışlar için \"Evet”, yapmadığınız davranışlar için \"Hayır” kutusunu (X) ile işaretleyiniz. ÖZ DEĞERLENDİRME FORMU Davranışlar Evet Hayır 1. Okula zamanında gelirim. 2. Zil çalınca derse girerim. 3. Dersi dikkatle dinlerim. 4. Derste söz hakkı alarak konuşurum. 5. Başkasının eşyasını kullanmak için izin isterim. 6. Öğretmenlerime saygılı davranırım. 7. Arkadaşlarıma saygılı davranırım. 8. Sınıf eşyalarını özenli kullanırım. 9. Okul eşyalarını özenli kullanırım. 10. Sınıfımı temiz tutarım. 11. Okulumu temiz tutarım. 12. Koridorlarda koşmam. 13. Kantinde sıraya girerim. 14. Merdivenlerden inip çıkarken dikkatli olurum. Tüm davranışlar için \"Evet” kutusunu işaretlediyseniz tebrikler. Sınıf ve okul kurallarına uyuyorsunuz. \"Hayır” kutusunu işaretlediğiniz davranışlarınızı gözden geçiriniz. HAYAT BILGISI DERSİ ÖĞRETİM PROGRAMI EK-2",
+     "components": []
+    },
+    {
+     "code": "HB.1.4.1",
+     "order": 1,
+     "text": "Yaşadığı yerin ve ülkemizin genel özelliklerini açıklayabilme PERFORMANS GÖREVİ Görev Başlığı Yaşadığım Yerin ve Ülkemin Tanıtım Afişi Öğrenme Çıktısı Yaşadığı yerin ve ülkemizin genel özelliklerini açıklayabilme Görev Yaşadığı yerin ve ülkemizin genel özelliklerini açıklayabilmeye yönelik \"Yaşadığım Yerin ve Ülkemin Tanıtım Afişi” oluşturma Süre 4 ders saati Gerekli Makas, yapıştırıcı, renkli karton, yaşadığı yeri ve ülkemizi tanıtan fotoğraflar, resimler. Malzemeler Yapılması 1. Yaşadığınız yerin ve ülkenin özelliklerini anlatan resimler ya da fotoğraflar bulunuz. Gerekenler 2. Görselleri renkli kartona afiş oluşturacak şekilde tasarlayarak yapıştırınız. 3. Oluşturduğunuz afişe bir slogan bulunuz ve sınıf panosunda sergileyiniz. PERFORMANS GÖREVİ DERECELİ PUANLAMA ANAHTARI Öğrencinin Adı Soyadı: Performans Ölçütler Gelişmiş • Yaşadığı yerin ve ülkemizin özelliklerini anlatan en az beş resim veya fotoğraf afişte yer almaktadır. • Görseller anlamlı bir bütün olarak kurgulanmıştır. • Afişte yer alan slogan konuyla uyumludur. Yeterli • Yaşadığı yerin ve ülkemizin özelliklerini anlatan en fazla üç-dört resim veya fotoğraf afişte yer almaktadır. • Görsellerin yerleşiminde hatalar vardır. • Afişte yer alan slogan konuyla ilgili değildir. Geliştirilmeli • Afişte yer alan resim veya fotoğraflar konu ile ilgisizdir. • Görseller anlamlı bir bütün oluşturmamaktadır. • Afişte slogan yoktur. HAYAT BILGISI DERSİ ÖĞRETİM PROGRAMI EK-3",
+     "components": []
+    },
+    {
+     "code": "HB.1.5.2",
+     "order": 2,
+     "text": "Modeller üzerinden gök cisimlerini karşılaştırabilme Formda yer alan ifadeleri okuyunuz. Her öğrenci için bu davranışları gözleme durumunuzu ilgili kutuyu (X) ile işaretleyerek değerlendiriniz. Formu doldururken yaptığınız etkinlikleri göz önünde bulundurmanız gerektiğini unutmayınız. ÖĞRETMEN GÖZLEM FORMU İFADELER Öğrenci Öğrenci Öğrenci Öğrenci Öğrenci ... ... ... ... ... 1. Gök cisimlerinden Güneş, Dünya ve Ay’ı bilir. 2. Güneş, Dünya ve Ay’ın şekillerini fark eder. 3. Güneş, Dünya ve Ay ile ilgili sorular sorar. 4. Gök cisimlerinin şekillerinin neye benzediğini söyler. 5. Gök cisimlerinin özelliklerini belirler. 6. Gök cisimlerinin benzerliklerini ve farklılıklarını söyler. 7. Gök cisimlerini büyüklük bakımından karşılaştırır.",
+     "components": []
+    },
+    {
      "code": "HB.3.6.1",
      "order": 1,
      "text": "Bilimsel gelişmelerin günlük yaşama etkisini yorumlayabilme",
@@ -1335,8 +1366,8 @@
  "unassigned_outcomes": [],
  "report": {
   "units": 18,
-  "outcomes": 66,
-  "components": 106,
+  "outcomes": 69,
+  "components": 109,
   "orphan_outcomes": 0,
   "gaps": []
  }

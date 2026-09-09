@@ -95,20 +95,38 @@ Ayrıntı: `SOURCES.md` (beceri çerçevesi), `DERSLER.md` (ders programları).
 ## Ders programları — bilinen eksikler
 
 `courses/` altındaki veri ders programı PDF'lerinden çıkarılır. 2026-09-09
-ölçümü: **80 ders · 1212 ünite · 3897 öğrenme çıktısı · 7608 süreç bileşeni**.
+ölçümü: **108 ders · 1597 ünite · 6006 öğrenme çıktısı · 12 057 süreç bileşeni**.
+
+Çıktılar üniteye ANAHTARLA değil KONUMLA bağlanır: çıktı fiziksel olarak hangi
+ünite bloğunun içindeyse ona aittir. Anahtar eşleştirme iki yerde çuvallıyordu —
+üç sayılı kodda ünite kademesi yok, bazı belgelerde de "N. SINIF" satırı hiç
+geçmiyor.
+
+Kaynak ÜÇ kod şeması kullanıyor ve hangisinin geçerli olduğu belgeden anlaşılır:
+
+| Şema | Örnek | Anlamı |
+|---|---|---|
+| dört sayılı | `FİZ.9.1.2.` | ön ek + sınıf + ünite + sıra |
+| üç sayılı | `T.O.5.2.` | ön ek + sınıf + sıra (ünite kademesi yok) |
+| yapışık | `TDE1.1.` | rakam ön eke bitişik; beceri kodlarıyla aynı biçimde |
+
+Bir ders birden fazla ön ek kullanabilir (Türkçe: `T.D`, `T.O`, `T.Y`, `T.K`).
+Ünite başlığı sözcüğü de değişir (`ÜNİTE`, `TEMA`, `ÖĞRENME ALANI`); kullanılan
+sözcük her ünitenin `kind` alanındadır.
 
 Eksikler gizlenmez, sayıyla durur:
 
-- **31 derste hiç kodlu çıktı çıkarılamadı.** Türkçe programlarında çıktılar
-  ünite içinde değil `EK 1`'de toplanmış; Okul Öncesi üç parçalı kod kullanıyor
-  (`MYB.5.1`), dört parçalı değil.
-- **29 derste 741 çıktı ünitesine bağlanamadı.** Dosyalarda
-  `unassigned_outcomes` altında durur, atılmaz. En çok Seçmeli Müzik, Oyun ve
-  Oyun Etkinlikleri, Masal ve Destanlarımız derslerinde.
-- **98 tür beceri kodu `beceriler.json` ile eşleşmiyor.** Bilinen
-  `KB2.16.1/.2/.3` tutarsızlığının yanında `RK2.1`, `SBD1`, `BTY6.4`, `E3.11`
-  gibi ön ekler var; derse özgü mü yoksa beceri çerçevesinde eksik mi olduğu
-  henüz belirlenmedi.
+- **3 derste hiç kodlu çıktı çıkarılamadı.** En az biri (Türk Kültür ve
+  Medeniyet Tarihi) kaynakta gerçekten kodlu çıktı taşımıyor; belgede yalnız
+  `SDB`/`SBAB` beceri kodları geçiyor.
+- **16 derste 241 çıktı** hiçbir ünite bloğunun içinde değil; dosyalarda
+  `unassigned_outcomes` altında durur, atılmaz.
+- **19 tür beceri kodu çözülemiyor.** İkiye ayrılır: seti VAR ama kodu yok
+  (`KB2.16.1/.2/.3`, `E3.11`, `DAB3.1` — MEB'in iki belgesi birbirini tutmuyor)
+  ve seti hiç yok (`SBD1`, `SDBS3`, `SBSB5` — 1-5 geçişlik, görünüşe göre
+  kaynaktaki yazım hataları).
 
-Ünite başlığı sözcüğü derse göre değişir (`ÜNİTE`, `TEMA`, `ÖĞRENME ALANI`);
-kullanılan sözcük her ünitenin `kind` alanındadır.
+Aynı çıktının birden çok ünitede görünmesi tekrar değil, veridir: Ortaokul
+Türkçe'de 418 benzersiz çıktı 800 kayıt üretir, çünkü aynı çıktı birkaç temada
+işlenir. Ünite bloğu "nerede işleniyor"u, belge geneli kanonik tanımı verir;
+ikisi birleştirilir.

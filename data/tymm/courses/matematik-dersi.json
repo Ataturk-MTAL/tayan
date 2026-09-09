@@ -1840,100 +1840,6 @@
    },
    "outcomes": [
     {
-     "code": "MAT.11.3.1",
-     "order": 1,
-     "text": "f (x) = sinx (x ∈ ℝ), f (x) = cosx (x ∈ ℝ), f (x) = tanx (x ∈ ℝ, x ≠ π + kπ, k ∈ ℤ ) ve f (x) = cotx (x ∈ ℝ, x ≠ kπ, k ∈ ℤ) şeklinde tanımlı trigonometrik referans fonksiyonların nitel özellikleri ile bu fonksiyonlardan türetilen [g(x) = k ∙ f (mx ± r) ± s (k, m, r, s ∈ ℝ, k ≠ 0, m ≠ 0)] trigonometrik fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yapabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Trigonometrik referans fonksiyonların nitel özelliklerini (tanım kümesi, görüntü kümesi, işareti, artanlığı-azalanlığı, maksimum-minimum noktaları, sıfırları, bire birliği, tekliği-çiftliği, örtenliği, periyodu) matematiksel temsilleri kullanarak belirler."
-      },
-      {
-       "label": "b",
-       "text": "Trigonometrik referans fonksiyonların nitel özellikleri ile matematiksel temsilleri arasındaki ilişkileri belirler."
-      },
-      {
-       "label": "c",
-       "text": "Trigonometrik referans fonksiyonları grafik ve cebirsel temsili üzerinde yapılan işlemlerle diğer trigonometrik fonksiyonlara dönüştürür."
-      },
-      {
-       "label": "ç",
-       "text": "Trigonometrik referans fonksiyonlar ile bu fonksiyonlardan türetilen fonksiyonların grafik temsilleri ile cebirsel temsilleri arasındaki ilişkiyi ifade eder."
-      },
-      {
-       "label": "d",
-       "text": "Trigonometrik referans fonksiyonlardan türetilen fonksiyonların nitel özelliklerine ilişkin varsayımlarda bulunur."
-      },
-      {
-       "label": "e",
-       "text": "Varsayımlarından yararlanıp farklı durumlarla ilgili örüntüleri listeleyerek türetilen fonksiyonların nitel özellikleriyle ilgili örüntüleri geneller."
-      },
-      {
-       "label": "f",
-       "text": "Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder."
-      },
-      {
-       "label": "g",
-       "text": "Genellemelerinden elde ettiği önermeleri uygun sözel veya cebirsel dil ile sunar."
-      },
-      {
-       "label": "ğ",
-       "text": "Elde ettiği önermelerin gerçek yaşam bağlamlarındaki kullanışlılığını değerlendirir."
-      },
-      {
-       "label": "h",
-       "text": "Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar. ı) Uyguladığı doğrulama veya ispat yöntemlerinin farklı durumlardaki kullanışlılığını değerlendirir."
-      }
-     ]
-    },
-    {
-     "code": "MAT.11.3.2",
-     "order": 2,
-     "text": "Trigonometrik fonksiyonlarla ifade edilebilen denklemleri içeren problemleri çözebilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Trigonometrik fonksiyonlarla ifade edilebilen denklemlere ilişkin matematiksel bileşenleri (denklemi oluşturan fonksiyonların nitel özellikleri ile cebirsel ve grafik temsilleri) belirler."
-      },
-      {
-       "label": "b",
-       "text": "Trigonometrik fonksiyonlarla ifade edilebilen denklemlere ilişkin matematiksel bileşenlerin aralarındaki ilişkileri belirler."
-      },
-      {
-       "label": "c",
-       "text": "Trigonometrik fonksiyonlarla ifade edilebilen denklemlerin problem bağlamındaki temsillerini farklı temsillere dönüştürür."
-      },
-      {
-       "label": "ç",
-       "text": "Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder."
-      },
-      {
-       "label": "d",
-       "text": "Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için strateji oluşturur."
-      },
-      {
-       "label": "e",
-       "text": "Belirlediği stratejiyi kullanır."
-      },
-      {
-       "label": "f",
-       "text": "Elde ettiği çözümü farklı yöntemleri kullanarak doğrular."
-      },
-      {
-       "label": "g",
-       "text": "Problemin olası çözüm stratejilerini gözden geçirir."
-      },
-      {
-       "label": "ğ",
-       "text": "Problemin olası çözüm stratejilerinin trigonometrik fonksiyon içeren farklı problem durumlarında kullanımı ile ilgili çıkarımlar yapar."
-      },
-      {
-       "label": "h",
-       "text": "Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir. ORTAÖĞRETİM MATEMATİK DERSİ ÖĞRETİM PROGRAMI"
-      }
-     ]
-    },
-    {
      "code": "MAT.11.3.3",
      "order": 3,
      "text": "Gerçek sayılarda f(x) = ax (a > 0, a ≠ 1) şeklinde tanımlı üstel referans fonksiyonun nitel özellikleri ile bu fonksiyondan türetilen [g(x) = k ∙ f (mx ± r) ± s (k, m, r, s ∈ ℝ, k ≠ 0, m ≠ 0)] üstel fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yapabilme",
@@ -2092,72 +1998,6 @@
        "text": "Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir."
       }
      ]
-    },
-    {
-     "code": "MAT.11.3.7",
-     "order": 7,
-     "text": "Fonksiyonların bileşkelerine ilişkin muhakeme yapabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "İki veya daha fazla fonksiyonun bileşkesinden oluşan bir fonksiyonun bileşenlerini (bileşke fonksiyon ile bileşkeyi oluşturan fonksiyonların cebirsel ve grafik temsilleri) belirler."
-      },
-      {
-       "label": "b",
-       "text": "İki veya daha fazla fonksiyonun bileşkesinden oluşan bir fonksiyonun bileşenleri arasındaki ilişkileri belirler."
-      },
-      {
-       "label": "c",
-       "text": "İki veya daha fazla fonksiyonun bileşkesiyle elde ettiği fonksiyonları sembolik bir dile dönüştürür."
-      },
-      {
-       "label": "ç",
-       "text": "Verilen fonksiyonları iki veya daha fazla fonksiyonun bileşkesi şeklinde ifade eder."
-      },
-      {
-       "label": "d",
-       "text": "Bileşke fonksiyonlara ve bu fonksiyonların nitel özelliklerine (işareti, artanlığı-azalanlığı, maksimum-minimum noktaları, sıfırları, bire birliği, tekliği-çiftliği, örtenliği) ilişkin varsayımlarda bulunur."
-      },
-      {
-       "label": "e",
-       "text": "Varsayımlarına dayalı olarak bileşke fonksiyonlara ve bileşke fonksiyonların nitel özelliklerine ilişkin örüntüleri geneller."
-      },
-      {
-       "label": "f",
-       "text": "Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder."
-      },
-      {
-       "label": "g",
-       "text": "Genellemelerinden elde ettiği önermeleri matematiksel olarak doğrulayabileceği şekilde sunar."
-      },
-      {
-       "label": "ğ",
-       "text": "Bileşke fonksiyonu gerçek yaşam bağlamında kullanışlılık açısından değerlendirir."
-      },
-      {
-       "label": "h",
-       "text": "Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar. ı) Uyguladığı doğrulama veya ispat yöntemlerinin farklı durumlardaki kullanışlılığını değerlendirir."
-      }
-     ]
-    },
-    {
-     "code": "MAT.11.3.8",
-     "order": 8,
-     "text": "Fonksiyonlarda dört işlem özelliklerini yorumlayabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Fonksiyonlarda dört işlemin yapılabilme koşullarını inceler."
-      },
-      {
-       "label": "b",
-       "text": "Fonksiyonlarda dört işlemi uygun cebirsel veya grafik temsillerle ifade eder."
-      },
-      {
-       "label": "c",
-       "text": "Fonksiyonlarda dört işlem özelliklerini dönüştürdüğü fonksiyonlar bağlamında sözel olarak açıklar."
-      }
-     ]
     }
    ]
   },
@@ -2185,72 +2025,6 @@
     "FARKLILAŞTIRMA": "Zenginleştirme (*) Öğrencilerin bir polinom fonksiyonun sıfırının işaretinin ne olacağına veya p ve q birer polinom fonksiyon olmak üzere p(x) = q(x)denkleminin çözüm kümesindeki elemanların hangi ardışık tam sayılar arasında olacağına dair çıkarımda bulunmaları fonksiyonların grafikleri incelenerek sağlanabilir. (*) Polinom interpolasyonu yöntemi kullanılarak bir polinom fonksiyonun cebirsel temsilinin bulunmasına yönelik çalışmalar yapılabilir. Örneğin bazı noktalarda aldığı değerleri bilinen bir polinom fonksiyonun cebirsel temsili polinom interpolasyonu yöntemi ile bulunabilir. Farklı stratejiler kullanılarak ve elde edilen sonuçlardan yararlanılarak belirlenen cebirsel ifadenin doğruluğu kontrol edilebilir. (*) Öğrencilere en fazla dördüncü dereceden gerçek katsayılı bir p polinom fonksiyonu için p(x) = 0 denkleminin kökleri ile katsayıları arasındaki bağıntıları veren Vieta (Viet) formüllerine yönelik araştırma ödevi verilebilir. Öğrencilerden araştırma sonucunda ulaşılan verileri kullanarak gerçek katsayılı polinom fonksiyonların sıfırlarının bulunmasına yönelik elde edilen cebirsel formülleri ispatlaması beklenebilir. Ayrıca öğrencilerden bir polinomun sıfırlarının gerçek sayı ya da karmaşık sayı olması durumlarına dair çıkarımlar yapmaları beklenebilir. Polinomlarda bölme algoritmasına ve Horner (Hornır) yöntemine yer verilir. Bir kökü tahmin edilen bir polinom fonksiyonun diğer köklerini araştırmak için bölme algoritması ve Horner yöntemi kullanılabilir. Destekleme Üçüncü veya dördüncü dereceden polinom fonksiyonlara p(x) = x3 ve q(x) = x4 polinom fonksiyonlarının cebirsel ve grafik temsillerinin incelenmesi ve ilişkilendirilmesi ile başlanabilir. Rasyonel fonksiyonlara payı ve paydası birinci veya ikinci dereceden polinomlardan oluşan uygun koşullarda r(x) = x 1 , k(x) = 23x şeklinde tanımlı fonksiyonlar incelenex+1 x +1 rek başlanabilir. Polinom fonksiyonların nitel özelliklerinin incelenmesine yönelik çözülen örneklerin sayısı artırılabilir ve incelemeler yapılırken matematik yazılımlarından yararlanılabilir. Polinom fonksiyonların nitel özellikleri ile ilgili genellemelere ulaşılamadığı durumlarda sayısal örnekler kullanılarak öğrencilerden sınırlı genellemeler yapmaları istenebilir. Polinom ve rasyonel fonksiyonlarla ifade edilebilen denklem ve eşitsizlikleri içeren problemlerin çözümlerinde hesap makinesi, çevrim içi araçlar veya matematik yazılımlarından yararlanılabilir. Polinom fonksiyonlar ile ilgili performans görevleri ve çalışma kâğıtları için daha fazla zaman verilebilir. Geri bildirimlerde ve değerlendirmelerde çoklu ortam araçları (sözlü, yazılı, görsel gibi) kullanılabilir. Öğrenciler için bireyselleştirilmiş öğrenme planları oluşturulur ve polinom fonksiyonlar konusunda öğrencilerin bireysel ihtiyaçlarına uygun hedefler belirlenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAÖĞRETİM MATEMATİK DERSİ ÖĞRETİM PROGRAMI"
    },
    "outcomes": [
-    {
-     "code": "MAT.12.1.1",
-     "order": 1,
-     "text": "Aritmetik ve geometrik dizilerin özelliklerine ilişkin muhakeme yapabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Sayı örüntülerinin ardışık terimlerini belirler."
-      },
-      {
-       "label": "b",
-       "text": "Ardışık terimler arasındaki ortak fark/oran (çarpan) ilişkisini belirler."
-      },
-      {
-       "label": "c",
-       "text": "Sayı örüntülerinin her bir terimini belirlediği ortak farkı/oranı kullanarak ifade eder."
-      },
-      {
-       "label": "ç",
-       "text": "Ortak farkı/oranı kullanarak örüntülerin genel terimini belirler."
-      },
-      {
-       "label": "d",
-       "text": "Aritmetik/geometrik dizilerin sonlu toplamlarına ilişkin varsayımlarda bulunur."
-      },
-      {
-       "label": "e",
-       "text": "Varsayımlarından yararlanıp aritmetik/geometrik dizilerin sonlu toplamları ile ilgili örüntüleri geneller."
-      },
-      {
-       "label": "f",
-       "text": "Aritmetik/geometrik dizilerin sonlu toplamlarına ilişkin genellemeleri ile varsayımlarını karşılaştırır."
-      },
-      {
-       "label": "g",
-       "text": "Elde ettiği genellemelerden aritmetik/geometrik dizilerin sonlu toplamlarına ilişkin önermeler sunar."
-      },
-      {
-       "label": "ğ",
-       "text": "Sunduğu önermelerin faydasını gerçek yaşam problemleri bağlamında değerlendirir."
-      },
-      {
-       "label": "h",
-       "text": "Aritmetik ve geometrik dizilerin sonlu toplamlarına ilişkin elde edilen önermeleri görsel olarak doğrular ve cebirsel olarak ispatlar. ı) Aritmetik ve geometrik dizilerin sonlu toplamlarına ilişkin uyguladığı ispat yöntemlerini kullanışlılık açısından değerlendirir."
-      }
-     ]
-    },
-    {
-     "code": "MAT.12.1.2",
-     "order": 2,
-     "text": "Gerçek sayılarda tanımlı fonksiyonlar ile gerçek sayı dizilerini karşılaştırabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerini belirler."
-      },
-      {
-       "label": "b",
-       "text": "Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerine ilişkin benzerlikleri listeler."
-      },
-      {
-       "label": "c",
-       "text": "Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerine ilişkin farklılıkları listeler."
-      }
-     ]
-    },
     {
      "code": "MAT.12.1.3",
      "order": 3,
@@ -2675,189 +2449,6 @@
        "text": "Fonksiyonların tanımlı olduğu bir noktadaki sürekliliğini o noktadaki değerinin limitine eşitliği olarak ifade eder."
       }
      ]
-    },
-    {
-     "code": "MAT.12.4.5",
-     "order": 5,
-     "text": "Bir fonksiyonun belirli bir nokta civarındaki değişim oranına ilişkin muhakeme yapabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Bir fonksiyonun belirli bir nokta civarındaki değişim oranı ile ilgili bileşenleri (fonksiyonun nitel özellikleri ile cebirsel ve grafik temsili) belirler."
-      },
-      {
-       "label": "b",
-       "text": "Bir fonksiyonun belirli bir nokta civarındaki değişim oranı ile ilgili bileşenleri arasındaki ilişkileri belirler."
-      },
-      {
-       "label": "c",
-       "text": "Bir fonksiyonun belirli bir nokta civarındaki değişim oranını tablo, grafik ve limit gösteriminden yararlanarak fonksiyonun o noktadaki anlık değişimi olarak ifade eder."
-      },
-      {
-       "label": "ç",
-       "text": "Bir fonksiyonun belirli bir noktadaki anlık değişimini fonksiyonun o noktadaki türevi olarak ifade eder."
-      },
-      {
-       "label": "d",
-       "text": "Uygun koşullarda tanımlı fonksiyonların [ f(x) = xn (n∈ℕ), f(x) = x ve f(x) = 1x ] belirli bir noktadaki anlık değişimlerini inceleyerek o noktadaki türevlerine yönelik varsayımlarda bulunur."
-      },
-      {
-       "label": "e",
-       "text": "Varsayımlarına dayalı örüntüleri geneller."
-      },
-      {
-       "label": "f",
-       "text": "Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder."
-      },
-      {
-       "label": "g",
-       "text": "Genellemelerini önerme olarak ifade eder."
-      },
-      {
-       "label": "ğ",
-       "text": "Önermelerini anlık değişim oranını yorumlamayı gerektiren problem durumlarında değerlendirir."
-      },
-      {
-       "label": "h",
-       "text": "Fonksiyonun bir noktadaki türevini limit gösteriminden faydalanarak ispatlar. ı) Uyguladığı ispatı kullanışlılık açısından değerlendirir."
-      }
-     ]
-    },
-    {
-     "code": "MAT.12.4.6",
-     "order": 6,
-     "text": "Fonksiyonların türevinin olmadığı noktalar hakkında çıkarım yapabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Fonksiyonlar ve türevin limit tanımı ile ilgili önceki bilgilerinden yararlanarak bir fonksiyonun herhangi bir noktasında hangi durumlarda türevinin olmadığına ilişkin varsayımlarda bulunur."
-      },
-      {
-       "label": "b",
-       "text": "Varsayımlarından yararlanıp farklı durumlarla ilgili örüntüleri listeleyerek bir fonksiyonun herhangi bir noktasında hangi durumlarda türevinin olmadığı ile ilgili örüntüleri geneller."
-      },
-      {
-       "label": "c",
-       "text": "Bir fonksiyonun herhangi bir noktasında hangi durumlarda türevinin olmadığına ilişkin genellemeleri ile varsayımlarını karşılaştırır."
-      },
-      {
-       "label": "ç",
-       "text": "Bir fonksiyonun herhangi bir noktasında hangi durumlarda türevinin olmadığına ilişkin elde ettiği genellemelerden önermeler sunar."
-      },
-      {
-       "label": "d",
-       "text": "Bir fonksiyonun herhangi bir noktasında hangi durumlarda türevinin olmadığına ilişkin önermeleri türev-süreklilik ilişkisi bağlamında değerlendirir."
-      }
-     ]
-    },
-    {
-     "code": "MAT.12.4.7",
-     "order": 7,
-     "text": "Türevin limit gösteriminden faydalanarak iki fonksiyonun toplamı, farkı, çarpımı, bölümü ve bileşkesinin türevine ilişkin muhakeme yapabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Fonksiyonların toplamı, farkı, çarpımı, bölümü ve bileşkesinin türevine ilişkin varsayımlar geliştirir."
-      },
-      {
-       "label": "b",
-       "text": "Varsayımlarına dayalı örüntüleri geneller."
-      },
-      {
-       "label": "c",
-       "text": "Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder."
-      },
-      {
-       "label": "ç",
-       "text": "Genellemelerini önerme olarak ifade eder."
-      },
-      {
-       "label": "d",
-       "text": "Önermelerini farklı problem durumlarında değerlendirir."
-      },
-      {
-       "label": "e",
-       "text": "İki fonksiyonun toplamı, farkı, çarpımı ve bölümünün bir noktadaki türevine dair kuralları limit gösteriminden faydalanarak ispatlar."
-      },
-      {
-       "label": "f",
-       "text": "Uyguladığı ispatı kullanışlılık açısından değerlendirir. ORTAÖĞRETİM MATEMATİK DERSİ ÖĞRETİM PROGRAMI"
-      }
-     ]
-    },
-    {
-     "code": "MAT.12.4.8",
-     "order": 8,
-     "text": "Bir fonksiyonun ve onun türev fonksiyonunun matematiksel temsillerine ve bunlar arasındaki ilişkilere dair çıkarımlar yapabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Referans fonksiyonlar, türevin limit tanımı, fonksiyonlarda türev alma kuralları ile ilgili önceki bilgilerinden faydalanarak bir fonksiyonun ve onun türev fonksiyonunun matematiksel temsilleri ve bunlar arasındaki ilişkiye dair varsayımlarda bulunur."
-      },
-      {
-       "label": "b",
-       "text": "Varsayımlarından yararlanıp farklı durumlarla ilgili örüntüleri listeleyerek bir fonksiyonun ve onun türev fonksiyonunun matematiksel temsilleri ve bunlar arasındaki ilişkiye yönelik örüntüleri geneller."
-      },
-      {
-       "label": "c",
-       "text": "Bir fonksiyonun ve onun türev fonksiyonunun matematiksel temsilleri ve bunlar arasındaki ilişkiye dair genellemeleri ile varsayımlarını karşılaştırır."
-      },
-      {
-       "label": "ç",
-       "text": "Elde ettiği genellemelerden önermeler sunar."
-      },
-      {
-       "label": "d",
-       "text": "Bir fonksiyonun ve onun türev fonksiyonunun matematiksel temsilleri ve bunlar arasındaki ilişkiye dair önermeleri polinom fonksiyonların grafik temsilini incelemede ve elde etmede değerlendirir."
-      }
-     ]
-    },
-    {
-     "code": "MAT.12.4.9",
-     "order": 9,
-     "text": "Gerçek yaşam durumlarında türevi kullanarak problemler çözebilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Türev bilgisinin kullanılabileceği problemlerdeki matematiksel bileşenleri (problemi temsil eden fonksiyonun nitel özellikleri ile cebirsel ve grafik temsilleri) belirler."
-      },
-      {
-       "label": "b",
-       "text": "Problemlerdeki matematiksel bileşenler arasındaki ilişkileri türev bağlamında inceler."
-      },
-      {
-       "label": "c",
-       "text": "Problemlerdeki değişim bağlamını fonksiyon, denklem ve türev temsillerine dönüştürür."
-      },
-      {
-       "label": "ç",
-       "text": "Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder."
-      },
-      {
-       "label": "d",
-       "text": "Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için strateji oluşturur."
-      },
-      {
-       "label": "e",
-       "text": "Belirlediği stratejiyi kullanarak problemi çözer."
-      },
-      {
-       "label": "f",
-       "text": "Elde ettiği çözümü farklı yöntemleri kullanarak doğrular."
-      },
-      {
-       "label": "g",
-       "text": "Problemin olası çözüm stratejilerini gözden geçirir."
-      },
-      {
-       "label": "ğ",
-       "text": "Problemin olası çözüm stratejilerinin maksimum-minimum değer hesaplamayı içeren farklı problem durumlarında kullanımı ile ilgili çıkarımlar yapar."
-      },
-      {
-       "label": "h",
-       "text": "Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir."
-      }
-     ]
     }
    ]
   },
@@ -2927,12 +2518,462 @@
    ]
   }
  ],
- "unassigned_outcomes": [],
+ "unassigned_outcomes": [
+  {
+   "code": "MAT.11.3.1",
+   "grade": 11,
+   "unit": 3,
+   "order": 1,
+   "text": "f (x) = sinx (x ∈ ℝ), f (x) = cosx (x ∈ ℝ), f (x) = tanx (x ∈ ℝ, x ≠ π + kπ, k ∈ ℤ ) ve f (x) = cotx (x ∈ ℝ, x ≠ kπ, k ∈ ℤ) şeklinde tanımlı trigonometrik referans fonksiyonların nitel özellikleri ile bu fonksiyonlardan türetilen [g(x) = k ∙ f (mx ± r) ± s (k, m, r, s ∈ ℝ, k ≠ 0, m ≠ 0)] trigonometrik fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yapabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Trigonometrik referans fonksiyonların nitel özelliklerini (tanım kümesi, görüntü kümesi, işareti, artanlığı-azalanlığı, maksimum-minimum noktaları, sıfırları, bire birliği, tekliği-çiftliği, örtenliği, periyodu) matematiksel temsilleri kullanarak belirler."
+    },
+    {
+     "label": "b",
+     "text": "Trigonometrik referans fonksiyonların nitel özellikleri ile matematiksel temsilleri arasındaki ilişkileri belirler."
+    },
+    {
+     "label": "c",
+     "text": "Trigonometrik referans fonksiyonları grafik ve cebirsel temsili üzerinde yapılan işlemlerle diğer trigonometrik fonksiyonlara dönüştürür."
+    },
+    {
+     "label": "ç",
+     "text": "Trigonometrik referans fonksiyonlar ile bu fonksiyonlardan türetilen fonksiyonların grafik temsilleri ile cebirsel temsilleri arasındaki ilişkiyi ifade eder."
+    },
+    {
+     "label": "d",
+     "text": "Trigonometrik referans fonksiyonlardan türetilen fonksiyonların nitel özelliklerine ilişkin varsayımlarda bulunur."
+    },
+    {
+     "label": "e",
+     "text": "Varsayımlarından yararlanıp farklı durumlarla ilgili örüntüleri listeleyerek türetilen fonksiyonların nitel özellikleriyle ilgili örüntüleri geneller."
+    },
+    {
+     "label": "f",
+     "text": "Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder."
+    },
+    {
+     "label": "g",
+     "text": "Genellemelerinden elde ettiği önermeleri uygun sözel veya cebirsel dil ile sunar."
+    },
+    {
+     "label": "ğ",
+     "text": "Elde ettiği önermelerin gerçek yaşam bağlamlarındaki kullanışlılığını değerlendirir."
+    },
+    {
+     "label": "h",
+     "text": "Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar. ı) Uyguladığı doğrulama veya ispat yöntemlerinin farklı durumlardaki kullanışlılığını değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "MAT.11.3.2",
+   "grade": 11,
+   "unit": 3,
+   "order": 2,
+   "text": "Trigonometrik fonksiyonlarla ifade edilebilen denklemleri içeren problemleri çözebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Trigonometrik fonksiyonlarla ifade edilebilen denklemlere ilişkin matematiksel bileşenleri (denklemi oluşturan fonksiyonların nitel özellikleri ile cebirsel ve grafik temsilleri) belirler."
+    },
+    {
+     "label": "b",
+     "text": "Trigonometrik fonksiyonlarla ifade edilebilen denklemlere ilişkin matematiksel bileşenlerin aralarındaki ilişkileri belirler."
+    },
+    {
+     "label": "c",
+     "text": "Trigonometrik fonksiyonlarla ifade edilebilen denklemlerin problem bağlamındaki temsillerini farklı temsillere dönüştürür."
+    },
+    {
+     "label": "ç",
+     "text": "Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder."
+    },
+    {
+     "label": "d",
+     "text": "Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için strateji oluşturur."
+    },
+    {
+     "label": "e",
+     "text": "Belirlediği stratejiyi kullanır."
+    },
+    {
+     "label": "f",
+     "text": "Elde ettiği çözümü farklı yöntemleri kullanarak doğrular."
+    },
+    {
+     "label": "g",
+     "text": "Problemin olası çözüm stratejilerini gözden geçirir."
+    },
+    {
+     "label": "ğ",
+     "text": "Problemin olası çözüm stratejilerinin trigonometrik fonksiyon içeren farklı problem durumlarında kullanımı ile ilgili çıkarımlar yapar."
+    },
+    {
+     "label": "h",
+     "text": "Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir. ORTAÖĞRETİM MATEMATİK DERSİ ÖĞRETİM PROGRAMI"
+    }
+   ]
+  },
+  {
+   "code": "MAT.11.3.7",
+   "grade": 11,
+   "unit": 3,
+   "order": 7,
+   "text": "Fonksiyonların bileşkelerine ilişkin muhakeme yapabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İki veya daha fazla fonksiyonun bileşkesinden oluşan bir fonksiyonun bileşenlerini (bileşke fonksiyon ile bileşkeyi oluşturan fonksiyonların cebirsel ve grafik temsilleri) belirler."
+    },
+    {
+     "label": "b",
+     "text": "İki veya daha fazla fonksiyonun bileşkesinden oluşan bir fonksiyonun bileşenleri arasındaki ilişkileri belirler."
+    },
+    {
+     "label": "c",
+     "text": "İki veya daha fazla fonksiyonun bileşkesiyle elde ettiği fonksiyonları sembolik bir dile dönüştürür."
+    },
+    {
+     "label": "ç",
+     "text": "Verilen fonksiyonları iki veya daha fazla fonksiyonun bileşkesi şeklinde ifade eder."
+    },
+    {
+     "label": "d",
+     "text": "Bileşke fonksiyonlara ve bu fonksiyonların nitel özelliklerine (işareti, artanlığı-azalanlığı, maksimum-minimum noktaları, sıfırları, bire birliği, tekliği-çiftliği, örtenliği) ilişkin varsayımlarda bulunur."
+    },
+    {
+     "label": "e",
+     "text": "Varsayımlarına dayalı olarak bileşke fonksiyonlara ve bileşke fonksiyonların nitel özelliklerine ilişkin örüntüleri geneller."
+    },
+    {
+     "label": "f",
+     "text": "Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder."
+    },
+    {
+     "label": "g",
+     "text": "Genellemelerinden elde ettiği önermeleri matematiksel olarak doğrulayabileceği şekilde sunar."
+    },
+    {
+     "label": "ğ",
+     "text": "Bileşke fonksiyonu gerçek yaşam bağlamında kullanışlılık açısından değerlendirir."
+    },
+    {
+     "label": "h",
+     "text": "Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar. ı) Uyguladığı doğrulama veya ispat yöntemlerinin farklı durumlardaki kullanışlılığını değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "MAT.11.3.8",
+   "grade": 11,
+   "unit": 3,
+   "order": 8,
+   "text": "Fonksiyonlarda dört işlem özelliklerini yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Fonksiyonlarda dört işlemin yapılabilme koşullarını inceler."
+    },
+    {
+     "label": "b",
+     "text": "Fonksiyonlarda dört işlemi uygun cebirsel veya grafik temsillerle ifade eder."
+    },
+    {
+     "label": "c",
+     "text": "Fonksiyonlarda dört işlem özelliklerini dönüştürdüğü fonksiyonlar bağlamında sözel olarak açıklar."
+    }
+   ]
+  },
+  {
+   "code": "MAT.12.1.1",
+   "grade": 12,
+   "unit": 1,
+   "order": 1,
+   "text": "Aritmetik ve geometrik dizilerin özelliklerine ilişkin muhakeme yapabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Sayı örüntülerinin ardışık terimlerini belirler."
+    },
+    {
+     "label": "b",
+     "text": "Ardışık terimler arasındaki ortak fark/oran (çarpan) ilişkisini belirler."
+    },
+    {
+     "label": "c",
+     "text": "Sayı örüntülerinin her bir terimini belirlediği ortak farkı/oranı kullanarak ifade eder."
+    },
+    {
+     "label": "ç",
+     "text": "Ortak farkı/oranı kullanarak örüntülerin genel terimini belirler."
+    },
+    {
+     "label": "d",
+     "text": "Aritmetik/geometrik dizilerin sonlu toplamlarına ilişkin varsayımlarda bulunur."
+    },
+    {
+     "label": "e",
+     "text": "Varsayımlarından yararlanıp aritmetik/geometrik dizilerin sonlu toplamları ile ilgili örüntüleri geneller."
+    },
+    {
+     "label": "f",
+     "text": "Aritmetik/geometrik dizilerin sonlu toplamlarına ilişkin genellemeleri ile varsayımlarını karşılaştırır."
+    },
+    {
+     "label": "g",
+     "text": "Elde ettiği genellemelerden aritmetik/geometrik dizilerin sonlu toplamlarına ilişkin önermeler sunar."
+    },
+    {
+     "label": "ğ",
+     "text": "Sunduğu önermelerin faydasını gerçek yaşam problemleri bağlamında değerlendirir."
+    },
+    {
+     "label": "h",
+     "text": "Aritmetik ve geometrik dizilerin sonlu toplamlarına ilişkin elde edilen önermeleri görsel olarak doğrular ve cebirsel olarak ispatlar. ı) Aritmetik ve geometrik dizilerin sonlu toplamlarına ilişkin uyguladığı ispat yöntemlerini kullanışlılık açısından değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "MAT.12.1.2",
+   "grade": 12,
+   "unit": 1,
+   "order": 2,
+   "text": "Gerçek sayılarda tanımlı fonksiyonlar ile gerçek sayı dizilerini karşılaştırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerini belirler."
+    },
+    {
+     "label": "b",
+     "text": "Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerine ilişkin benzerlikleri listeler."
+    },
+    {
+     "label": "c",
+     "text": "Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerine ilişkin farklılıkları listeler."
+    }
+   ]
+  },
+  {
+   "code": "MAT.12.4.5",
+   "grade": 12,
+   "unit": 4,
+   "order": 5,
+   "text": "Bir fonksiyonun belirli bir nokta civarındaki değişim oranına ilişkin muhakeme yapabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Bir fonksiyonun belirli bir nokta civarındaki değişim oranı ile ilgili bileşenleri (fonksiyonun nitel özellikleri ile cebirsel ve grafik temsili) belirler."
+    },
+    {
+     "label": "b",
+     "text": "Bir fonksiyonun belirli bir nokta civarındaki değişim oranı ile ilgili bileşenleri arasındaki ilişkileri belirler."
+    },
+    {
+     "label": "c",
+     "text": "Bir fonksiyonun belirli bir nokta civarındaki değişim oranını tablo, grafik ve limit gösteriminden yararlanarak fonksiyonun o noktadaki anlık değişimi olarak ifade eder."
+    },
+    {
+     "label": "ç",
+     "text": "Bir fonksiyonun belirli bir noktadaki anlık değişimini fonksiyonun o noktadaki türevi olarak ifade eder."
+    },
+    {
+     "label": "d",
+     "text": "Uygun koşullarda tanımlı fonksiyonların [ f(x) = xn (n∈ℕ), f(x) = x ve f(x) = 1x ] belirli bir noktadaki anlık değişimlerini inceleyerek o noktadaki türevlerine yönelik varsayımlarda bulunur."
+    },
+    {
+     "label": "e",
+     "text": "Varsayımlarına dayalı örüntüleri geneller."
+    },
+    {
+     "label": "f",
+     "text": "Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder."
+    },
+    {
+     "label": "g",
+     "text": "Genellemelerini önerme olarak ifade eder."
+    },
+    {
+     "label": "ğ",
+     "text": "Önermelerini anlık değişim oranını yorumlamayı gerektiren problem durumlarında değerlendirir."
+    },
+    {
+     "label": "h",
+     "text": "Fonksiyonun bir noktadaki türevini limit gösteriminden faydalanarak ispatlar. ı) Uyguladığı ispatı kullanışlılık açısından değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "MAT.12.4.6",
+   "grade": 12,
+   "unit": 4,
+   "order": 6,
+   "text": "Fonksiyonların türevinin olmadığı noktalar hakkında çıkarım yapabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Fonksiyonlar ve türevin limit tanımı ile ilgili önceki bilgilerinden yararlanarak bir fonksiyonun herhangi bir noktasında hangi durumlarda türevinin olmadığına ilişkin varsayımlarda bulunur."
+    },
+    {
+     "label": "b",
+     "text": "Varsayımlarından yararlanıp farklı durumlarla ilgili örüntüleri listeleyerek bir fonksiyonun herhangi bir noktasında hangi durumlarda türevinin olmadığı ile ilgili örüntüleri geneller."
+    },
+    {
+     "label": "c",
+     "text": "Bir fonksiyonun herhangi bir noktasında hangi durumlarda türevinin olmadığına ilişkin genellemeleri ile varsayımlarını karşılaştırır."
+    },
+    {
+     "label": "ç",
+     "text": "Bir fonksiyonun herhangi bir noktasında hangi durumlarda türevinin olmadığına ilişkin elde ettiği genellemelerden önermeler sunar."
+    },
+    {
+     "label": "d",
+     "text": "Bir fonksiyonun herhangi bir noktasında hangi durumlarda türevinin olmadığına ilişkin önermeleri türev-süreklilik ilişkisi bağlamında değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "MAT.12.4.7",
+   "grade": 12,
+   "unit": 4,
+   "order": 7,
+   "text": "Türevin limit gösteriminden faydalanarak iki fonksiyonun toplamı, farkı, çarpımı, bölümü ve bileşkesinin türevine ilişkin muhakeme yapabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Fonksiyonların toplamı, farkı, çarpımı, bölümü ve bileşkesinin türevine ilişkin varsayımlar geliştirir."
+    },
+    {
+     "label": "b",
+     "text": "Varsayımlarına dayalı örüntüleri geneller."
+    },
+    {
+     "label": "c",
+     "text": "Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder."
+    },
+    {
+     "label": "ç",
+     "text": "Genellemelerini önerme olarak ifade eder."
+    },
+    {
+     "label": "d",
+     "text": "Önermelerini farklı problem durumlarında değerlendirir."
+    },
+    {
+     "label": "e",
+     "text": "İki fonksiyonun toplamı, farkı, çarpımı ve bölümünün bir noktadaki türevine dair kuralları limit gösteriminden faydalanarak ispatlar."
+    },
+    {
+     "label": "f",
+     "text": "Uyguladığı ispatı kullanışlılık açısından değerlendirir. ORTAÖĞRETİM MATEMATİK DERSİ ÖĞRETİM PROGRAMI"
+    }
+   ]
+  },
+  {
+   "code": "MAT.12.4.8",
+   "grade": 12,
+   "unit": 4,
+   "order": 8,
+   "text": "Bir fonksiyonun ve onun türev fonksiyonunun matematiksel temsillerine ve bunlar arasındaki ilişkilere dair çıkarımlar yapabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Referans fonksiyonlar, türevin limit tanımı, fonksiyonlarda türev alma kuralları ile ilgili önceki bilgilerinden faydalanarak bir fonksiyonun ve onun türev fonksiyonunun matematiksel temsilleri ve bunlar arasındaki ilişkiye dair varsayımlarda bulunur."
+    },
+    {
+     "label": "b",
+     "text": "Varsayımlarından yararlanıp farklı durumlarla ilgili örüntüleri listeleyerek bir fonksiyonun ve onun türev fonksiyonunun matematiksel temsilleri ve bunlar arasındaki ilişkiye yönelik örüntüleri geneller."
+    },
+    {
+     "label": "c",
+     "text": "Bir fonksiyonun ve onun türev fonksiyonunun matematiksel temsilleri ve bunlar arasındaki ilişkiye dair genellemeleri ile varsayımlarını karşılaştırır."
+    },
+    {
+     "label": "ç",
+     "text": "Elde ettiği genellemelerden önermeler sunar."
+    },
+    {
+     "label": "d",
+     "text": "Bir fonksiyonun ve onun türev fonksiyonunun matematiksel temsilleri ve bunlar arasındaki ilişkiye dair önermeleri polinom fonksiyonların grafik temsilini incelemede ve elde etmede değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "MAT.12.4.9",
+   "grade": 12,
+   "unit": 4,
+   "order": 9,
+   "text": "Gerçek yaşam durumlarında türevi kullanarak problemler çözebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Türev bilgisinin kullanılabileceği problemlerdeki matematiksel bileşenleri (problemi temsil eden fonksiyonun nitel özellikleri ile cebirsel ve grafik temsilleri) belirler."
+    },
+    {
+     "label": "b",
+     "text": "Problemlerdeki matematiksel bileşenler arasındaki ilişkileri türev bağlamında inceler."
+    },
+    {
+     "label": "c",
+     "text": "Problemlerdeki değişim bağlamını fonksiyon, denklem ve türev temsillerine dönüştürür."
+    },
+    {
+     "label": "ç",
+     "text": "Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder."
+    },
+    {
+     "label": "d",
+     "text": "Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için strateji oluşturur."
+    },
+    {
+     "label": "e",
+     "text": "Belirlediği stratejiyi kullanarak problemi çözer."
+    },
+    {
+     "label": "f",
+     "text": "Elde ettiği çözümü farklı yöntemleri kullanarak doğrular."
+    },
+    {
+     "label": "g",
+     "text": "Problemin olası çözüm stratejilerini gözden geçirir."
+    },
+    {
+     "label": "ğ",
+     "text": "Problemin olası çözüm stratejilerinin maksimum-minimum değer hesaplamayı içeren farklı problem durumlarında kullanımı ile ilgili çıkarımlar yapar."
+    },
+    {
+     "label": "h",
+     "text": "Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir."
+    }
+   ]
+  }
+ ],
  "report": {
   "units": 22,
-  "outcomes": 77,
-  "components": 452,
-  "orphan_outcomes": 0,
-  "gaps": []
+  "outcomes": 66,
+  "components": 369,
+  "orphan_outcomes": 11,
+  "gaps": [
+   {
+    "course": "Matematik Dersi",
+    "reason": "hiçbir ünite bloğunun içinde değil",
+    "codes": [
+     "MAT.11.3.1",
+     "MAT.11.3.2",
+     "MAT.11.3.7",
+     "MAT.11.3.8",
+     "MAT.12.1.1",
+     "MAT.12.1.2",
+     "MAT.12.4.5",
+     "MAT.12.4.6",
+     "MAT.12.4.7",
+     "MAT.12.4.8",
+     "MAT.12.4.9"
+    ]
+   }
+  ]
  }
 }

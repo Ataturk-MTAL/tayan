@@ -44,7 +44,7 @@
       },
       {
        "label": "b",
-       "text": "Coğrafya biliminin konusu ve bölümlerini oluşturan bileşenler arasındaki ilişkileri belirler. Öğrenme-öğretme yaşan-"
+       "text": "Coğrafya biliminin konusu ve bölümlerini oluşturan bileşenler arasındaki ilişkileri belirler."
       }
      ]
     },
@@ -2369,7 +2369,20 @@
      "code": "COĞ.12.7.1",
      "order": 1,
      "text": "1.5. COĞRAFYA DERSİ KİTAP FORMA SAYILARI VE KİTAP EBATLARI DERS KİTABI FORMA SAYISI KİTAP EBADI COĞRAFYA 9 14-16 19,5 cm X 27,5 cm COĞRAFYA 10 14-16 19,5 cm X 27,5 cm COĞRAFYA 11 16-18 19,5 cm X 27,5 cm COĞRAFYA 12 16-18 19,5 cm X 27,5 cm COĞRAFYA DERSİ ÖĞRETİM PROGRAMI 1.6. COĞRAFYA DERSİ ÖĞRETİM PROGRAMI’NIN YAPISI Ünite temelli yaklaşımla hazırlanan Coğrafya Dersi Öğretim Programı 9, 10, 11 ve 12. sınıflarda uygulanabilecek şekilde düzenlenmiştir. Programda her sınıf düzeyinde aynı isimli yedi ünite yer almaktadır. Ünitelerin yapısı ve bu yapıya ilişkin açıklamalar şematik olarak aşağıda sunulmuştur. Ünitenin adını ifade eder. 1. ÜNİTE: COĞRAFYANIN DOĞASI Bu ünitede anlamı, tanımı, konusu ve yaklaşımı bakımından coğrafya biliminin çözümlenebilmesi; örnek Ünitede öğrenilmesi amaçlaolay ve olgular üzerinden bu bilimin hayatın farklı nan bilgi ve becerilere yönelik alanlarında kullanımının anlaşılabilmesi, tarihsel geaçıklamayı ifade eder. lişimi ve bu gelişime önemli katkılarda bulunan bilim insanları hakkında bilgi edinilebilmesi amaçlanmaktadır. Ünitenin işleneceği süreyi ifade DERS SAATİ 6 eder.",
-     "components": []
+     "components": [
+      {
+       "label": "a",
+       "text": "Uluslararası birlikteliklerin anlaşmazlıklara sunduğu çözümlerle ilgili mantıksal temellendirme yapar."
+      },
+      {
+       "label": "b",
+       "text": "Uluslararası birlikteliklerin anlaşmazlıklara sunduğu çözümlerle ilgili mantıksal tutarsızlık ve geçersizlikleri tespit eder."
+      },
+      {
+       "label": "c",
+       "text": "Uluslararası birlikteliklerin anlaşmazlıklara sunduğu çözümleri kabul eder veya çürütür."
+      }
+     ]
     },
     {
      "code": "COĞ.12.7.2",
@@ -2435,7 +2448,7 @@
  "report": {
   "units": 28,
   "outcomes": 76,
-  "components": 291,
+  "components": 294,
   "orphan_outcomes": 0,
   "gaps": []
  }

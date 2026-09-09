@@ -10,7 +10,7 @@
  },
  "units": [
   {
-   "grade": null,
+   "grade": 1,
    "unit": 1,
    "kind": "TEMA",
    "title": "DİNLEME, SÖYLEME, ÇALMA",
@@ -29,10 +29,732 @@
     "İÇERİK ÇERÇEVESİ": "Farklı Türdeki Eserler Ritimle Eşlik",
     "Anahtar Kavramlar": "eser, marş, materyal, müzik türleri, ritim, ritim çalgısı, şarkı, türkü"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "SMGME.1.1.1",
+     "order": 1,
+     "text": "Farklı türdeki eserleri dinleyebilme bileşenlerini ifade eder.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Farklı türdeki eserlerin müziksel bileşenlerini tanır."
+      },
+      {
+       "label": "b",
+       "text": "Farklı türdeki eserlerin müziksel bileşenlerini ayırt eder."
+      },
+      {
+       "label": "c",
+       "text": "Farklı türdeki eserlerin müziksel bileşenlerini açıklar."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.1.1.2",
+     "order": 2,
+     "text": "Farklı türdeki eserleri söyleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bedenini farklı türde eserler söylemeye hazır hâle getirir."
+      },
+      {
+       "label": "b",
+       "text": "Farklı türdeki eserleri söylerken uygun söyleme tekniklerini kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Farklı türdeki eserlerin müziksel bileşenlerini uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.1.1.3",
+     "order": 3,
+     "text": "Dinlediği müziklere ritim kalıpları oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dinlediği müziklerin vuruşlarını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Kullanacağı ritim kalıplarını seçer."
+      },
+      {
+       "label": "c",
+       "text": "Seçtiği ritim kalıbıyla özgün bir ürün oluşturur."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.1.1.4",
+     "order": 4,
+     "text": "Dinlediği müziklere ritim çalgılarıyla eşlik edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Basit ritim kalıplarını çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Ritim çalgısına özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Ritim çalgısına özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Dinlediği müziklere ritim çalgısıyla eşlik ederken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.1.1.5",
+     "order": 5,
+     "text": "Farklı materyallerden yararlanarak ritim çalgısı oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Oluşturacağı ritim çalgısının amacını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Ritim çalgısı yapabilmek için gerekli ögeleri seçer."
+      },
+      {
+       "label": "c",
+       "text": "Seçtiği ögelerle özgün bir ritim çalgısı yapar."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.1.1.6",
+     "order": 6,
+     "text": "Oluşturduğu ritim çalgısıyla eserlere eşlik edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çalınacak eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Oluşturduğu çalgıya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Oluşturduğu çalgıya özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Çalınacak eserin müziksel bileşenlerini uygular."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 1,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "MÜZİK KÜLTÜRÜ",
+   "description": "Temada öğrencilerin yaşadıkları yerdeki halk oyunlarını oynayabilmeleri, türküleri dinleyebilmeleri ve söyleyebilmeleri, Türk tasavvuf müziği eserlerini söyleyebilmeleri amaçlanmaktadır.",
+   "lesson_hours": 32,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB9. Müziksel Dinleme, SAB10. Müziksel Söyleme, SAB13. Müziksel Hareket",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGME.1.2.1 Sosyal-Duygusal • Öğrencilerin kültürel mirası korumaları teşvik edilir (OB5). Öğrenme Becerileri/ • Öğrencilerin millî kimliklerini tanımaları sağlanır (D19.2).",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık)",
+    "Değerler": "D14. Saygı, D15. Sevgi, D16. Sorumluluk, D19. Vatanseverlik / SMGME.1.2.2",
+    "Okuryazarlık Becerileri": "OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI • Öğrencilerin kültürel unsurları tanımaları, fark etmeleri, kültürel etkinliklere katılmaları, kültürel mirası korumaları teşvik edilir (OB5). SMGME.1.2.3 • Öğrencilerin yaşadıkları yerdeki türküleri söyleyerek performans sergilemeleri sağlanır (OB9). • Öğrencilerin yaşadıkları yerdeki türküleri söyleyerek kişisel yorumlarını performanslarına yansıtmaları sağlanır (SDB1.1). SMGME.1.2.4 • Öğrencilerin kültürel unsurları tanımaları, fark etmeleri ve korumaları desteklenir (OB5). • Öğrencilerin millî ve manevi değerlere karşı saygı duymaları teşvik edilir (D14.3). • Öğrencilerin ülkesinin değerlerine bağlılık göstermesi sağlanır (D15.3). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ • Öğrencilerin toplumun millî ve manevi değerlerini koruyup yaşatmaya istekli olmaları desteklenir (D16.2). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ II. DÜZEY",
+    "İLİŞKİLER": "SAB6. Müziksel İşitme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGME.1.2.1. Yaşadığı yerdeki halk oyunlarını oynayabilme a) Yaşadığı yerin halk oyunlarına uygun hareketleri belirler. b) Yaşadığı yerin halk oyunlarına uygun hareketleri sergiler. SMGME.1.2.2. Yaşadığı yerdeki türküleri dinleyebilme a) Yaşadığı yerdeki türkülerin müziksel bileşenlerini tanır. b) Yaşadığı yerdeki türkülerin müziksel bileşenlerini ayırt eder. c) Yaşadığı yerdeki türkülerin müziksel bileşenlerini açıklar. SMGME.1.2.3. Yaşadığı yerdeki türküleri söyleyebilme a) Bedenini yaşadığı yerdeki türküleri söylemeye hazır hâle getirir. b) Yaşadığı yerdeki türküleri söylerken uygun söyleme tekniklerini kullanır. c) Yaşadığı yerdeki türkülerin müziksel bileşenlerini uygular. SMGME.1.2.4. Türk tasavvuf müziği eserlerini (mevlit, gazel, ilahi, kaside vb.) söyleyebilme a) Bedenini Türk tasavvuf müziği eserlerini söylemeye hazır hâle getirir. b) Türk tasavvuf müziği eserlerini söylerken uygun söyleme tekniklerini kullanır. c) Türk tasavvuf müziği eserlerinin müziksel bileşenlerini uygular.",
+    "İÇERİK ÇERÇEVESİ": "Yöresel Kültür Türk Tasavvuf Müziği",
+    "Anahtar Kavramlar": "gazel, gazelhan, halk oyunları, ilahi, kaside, kültür, mevlit, mevlithan, türkü"
+   },
+   "outcomes": [
+    {
+     "code": "SMGME.1.2.1",
+     "order": 1,
+     "text": "Yaşadığı yerdeki halk oyunlarını oynayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yaşadığı yerin halk oyunlarına uygun hareketleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yaşadığı yerin halk oyunlarına uygun hareketleri sergiler."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.1.2.2",
+     "order": 2,
+     "text": "Yaşadığı yerdeki türküleri dinleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yaşadığı yerdeki türkülerin müziksel bileşenlerini tanır."
+      },
+      {
+       "label": "b",
+       "text": "Yaşadığı yerdeki türkülerin müziksel bileşenlerini ayırt eder."
+      },
+      {
+       "label": "c",
+       "text": "Yaşadığı yerdeki türkülerin müziksel bileşenlerini açıklar."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.1.2.3",
+     "order": 3,
+     "text": "Yaşadığı yerdeki türküleri söyleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bedenini yaşadığı yerdeki türküleri söylemeye hazır hâle getirir."
+      },
+      {
+       "label": "b",
+       "text": "Yaşadığı yerdeki türküleri söylerken uygun söyleme tekniklerini kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Yaşadığı yerdeki türkülerin müziksel bileşenlerini uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.1.2.4",
+     "order": 4,
+     "text": "Türk tasavvuf müziği eserlerini (mevlit, gazel, ilahi, kaside vb.) söyleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bedenini Türk tasavvuf müziği eserlerini söylemeye hazır hâle getirir."
+      },
+      {
+       "label": "b",
+       "text": "Türk tasavvuf müziği eserlerini söylerken uygun söyleme tekniklerini kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Türk tasavvuf müziği eserlerinin müziksel bileşenlerini uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "DİNLEME, SÖYLEME, ÇALMA",
+   "description": "Temada öğrencilerin yaşadıkları yerdeki ve ülkemizdeki farklı yörelere ait türküleri sınıflandırabilmeleri, yaşadıkları yerdeki türküler ile şarkı, türkü ve marşları bireysel ve toplu olarak söyleyebilmeleri ayrıca türkülerin yörelere göre söyleniş özelliklerini karşılaştırabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 36,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB9. Müziksel Dinleme, SAB10. Müziksel Söyleme, SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB2.7. Karşılaştırma",
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGME.2.1.1 Sosyal-Duygusal • Öğrencilerin kültürel unsurları tanımaları, fark etmeleri, kültürel etkinliklere Öğrenme Becerileri/ katılmaları, kültürel mirası korumaları teşvik edilir (OB5).",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.2. İş Birliği",
+    "Değerler": "D16. Sorumluluk Okuryazarlık Beceriler OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI / SMGME.2.1.2",
+    "İLİŞKİLER": "SAB6. Müziksel İşitme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGME.2.1.1. Ülkemizdeki farklı yörelere ait türküleri dinleyebilme a) Ülkemizdeki farklı yörelere ait türküler ile ilgili bileşenleri tanır. b) Ülkemizdeki farklı yörelere ait türküler ile ilgili bileşenleri ayırt eder. c) Ülkemizdeki farklı yörelere ait türküler ile ilgili bileşenleri açıklar. SMGME.2.1.2. Ülkemizdeki farklı yörelere ait türküleri söyleyebilme a) Bedenini ülkemizdeki farklı yörelere ait türküleri söylemeye hazır hâle getirir. b) Ülkemizdeki farklı yörelere ait türküleriş söylerken uygun söyleme tekniklerini kullanır. c) Türkülerin müziksel bileşenlerini uygular. SMGME.2.1.3. Türkülerin yörelere göre söyleniş özelliklerini karşılaştırabilme a) Türkülerin yörelere göre söyleniş özelliklerini belirler. b) Türkülerin yörelere göre söyleniş özelliklerindeki benzerlikleri listeler. c) Türkülerin yörelere göre söyleniş özelliklerindeki farklılıkları listeler. SMGME.2.1.4. Yaşanmış öyküleri olan türküleri söyleyebilme a) Bedenini yaşanmış öyküleri olan türküleri söylemeye hazır hâle getirir. b) Yaşanmış öyküleri olan türküleri söylerken uygun söyleme tekniklerini kullanır. c) Yaşanmış öyküleri olan türkülerin müziksel bileşenlerini uygular. SMGME.2.1.5. Eserlere ritim çalgısıyla eşlik edebilme a) Eşlik edilecek eseri çözümler. b) Ritim çalgısına özgü duruş ve tutuş pozisyonunu alır. c) Ritim çalgısına özgü teknikleri kullanır. ç) Eşlik edilecek eserin müziksel bileşenlerini uygular.",
+    "İÇERİK ÇERÇEVESİ": "Farklı Yörelere Ait Türküler Türkülerin Söyleniş Özellikleri Türkülerin Öyküleri",
+    "Anahtar Kavramlar": "eser, ritim, ritim çalgısı, türkü, yöre",
+    "Okuryazarlık Becerileri": "• Öğrencilerin ülkemizdeki farklı yörelere ait türküleri söyleyerek performans sergilemeleri sağlanır (OB9). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ • Öğrencilerin ülkemizdeki farklı yörelere ait türküleri söyleyerek kişisel yorumlarını performanslarına yansıtmaları sağlanır (SDB1.1). SMGME.2.1.3 • Öğrencilerin güvenilir kaynaklardan yararlanarak türkülerin yörelere göre söyleniş özellikleri hakkında bilgi edinmeleri sağlanır (OB1). • Öğrencilerin grup çalışmalarında iş birliği yapmaları teşvik edilir (SDB2.2). SMGME.2.1.4 • Öğrencilerin çalışmalarını yaparken hedef belirlemeleri ve motivasyonlarını ayarlamalarına yönelik planlama yapmaları sağlanır (SDB1.2). • Öğrencilerin görevlerini zamanında ve eksiksiz yapmaları sağlanır (D16.3). • Öğrencilerin güvenilir kaynaklardan yararlanarak yaşanmış öyküleri olan türküler hakkında bilgi edinmeleri sağlanır (OB1). SMGME.2.1.5 • Öğrencilerin ritim çalgılarıyla performans sergilemeleri teşvik edilir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ II. DÜZEY"
+   },
+   "outcomes": [
+    {
+     "code": "SMGME.2.1.1",
+     "order": 1,
+     "text": "Ülkemizdeki farklı yörelere ait türküleri dinleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Ülkemizdeki farklı yörelere ait türküler ile ilgili bileşenleri tanır."
+      },
+      {
+       "label": "b",
+       "text": "Ülkemizdeki farklı yörelere ait türküler ile ilgili bileşenleri ayırt eder."
+      },
+      {
+       "label": "c",
+       "text": "Ülkemizdeki farklı yörelere ait türküler ile ilgili bileşenleri açıklar."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.2.1.2",
+     "order": 2,
+     "text": "Ülkemizdeki farklı yörelere ait türküleri söyleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bedenini ülkemizdeki farklı yörelere ait türküleri söylemeye hazır hâle getirir."
+      },
+      {
+       "label": "b",
+       "text": "Ülkemizdeki farklı yörelere ait türküleriş söylerken uygun söyleme tekniklerini kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Türkülerin müziksel bileşenlerini uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.2.1.3",
+     "order": 3,
+     "text": "Türkülerin yörelere göre söyleniş özelliklerini karşılaştırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Türkülerin yörelere göre söyleniş özelliklerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "Türkülerin yörelere göre söyleniş özelliklerindeki benzerlikleri listeler."
+      },
+      {
+       "label": "c",
+       "text": "Türkülerin yörelere göre söyleniş özelliklerindeki farklılıkları listeler."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.2.1.4",
+     "order": 4,
+     "text": "Yaşanmış öyküleri olan türküleri söyleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bedenini yaşanmış öyküleri olan türküleri söylemeye hazır hâle getirir."
+      },
+      {
+       "label": "b",
+       "text": "Yaşanmış öyküleri olan türküleri söylerken uygun söyleme tekniklerini kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Yaşanmış öyküleri olan türkülerin müziksel bileşenlerini uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.2.1.5",
+     "order": 5,
+     "text": "Eserlere ritim çalgısıyla eşlik edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Eşlik edilecek eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Ritim çalgısına özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Ritim çalgısına özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Eşlik edilecek eserin müziksel bileşenlerini uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "MÜZİK KÜLTÜRÜ",
+   "description": "Temada öğrencilerin farklı kültürlere ait müzikler ile ilgili bilgi toplayabilmeleri, ülkemizdeki ve dünyadaki güncel müzikleri dinleyebilmeleri amaçlanmaktadır.",
+   "lesson_hours": 32,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB9. Müziksel Dinleme",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E1.1. Merak, E3.2. Odaklanma, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGME.2.2.1 Sosyal-Duygusal • Öğrencilerin sanatsal ve görsel zevkleri hayatlarının bir parçası hâline Öğrenme Becerileri/ getirmeleri teşvik edilir (D7.3).",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme)",
+    "Değerler": "D7. Estetik, D12. Sabır, D19. Vatanseverlik /",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB5. Kültür Okuryazarlığı BECERİLER ARASI SMGME.2.2.2 • Öğrencilerin kültürel unsurları tanımaları, fark etmeleri, kültürel etkinliklere katılmaları, farklı kültürleri keşfetmeleri, kültürel mirası korumaları teşvik edilir (OB5). • Öğrencilerin millî kimliklerini tanımaları sağlanır (D19.2). SMGME.2.2.3 • Öğrencilerin güvenilir kaynaklardan yararlanarak farklı kültürlere ait müzikler hakkında bilgi edinmeleri sağlanır (OB1). • Öğrencilerin çalışmalarını yaparken hedef belirlemeleri ve motivasyonlarını ayarlamalarına yönelik plan yapmaları sağlanır (SDB1.2). • Öğrencilerin araştırmalarını yaparken dijital kaynaklardan yararlanmaları sağlanır (OB2). • Öğrencilere çalışmalarını yaparken istikrarlı olmaları gerektiği hatırlatılır (D12.3). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ III. DÜZEY",
+    "İLİŞKİLER": "SAB6. Müziksel İşitme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGME.2.2.1. Ülkemizdeki güncel müzikleri dinleyebilme a) Ülkemizdeki güncel müzikler ile ilgili bileşenleri tanır. b) Ülkemizdeki güncel müzikler ile ilgili bileşenleri ayırt eder. c) Ülkemizdeki güncel müzikler ile ilgili bileşenleri açıklar. SMGME.2.2.2. Dünyadaki güncel müzikleri dinleyebilme a) Dünyadaki güncel müzikler ile ilgili bileşenleri tanır. b) Dünyadaki güncel müzikler ile ilgili bileşenleri ayırt eder. c) Dünyadaki güncel müzikler ile ilgili bileşenleri açıklar. SMGME.2.2.3. Farklı kültürlere ait müzikler ile ilgili bilgi toplayabilme a) Farklı kültürlere ait müzikler ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği aracı kullanarak konu ile ilgili bilgileri bulur. c) Farklı kültürlere ait müzikler ile ilgili edindiği bilgileri doğrular. ç) Farklı kültürlere ait müzikler ile ilgili edindiği bilgileri kaydeder.",
+    "İÇERİK ÇERÇEVESİ": "Ülkemizdeki ve Dünyadaki Güncel Müzikler Farklı Kültürlere Ait Müzikler",
+    "Anahtar Kavramlar": "dünya müzikleri, farklı kültürler, güncel, kültür"
+   },
+   "outcomes": [
+    {
+     "code": "SMGME.2.2.1",
+     "order": 1,
+     "text": "Ülkemizdeki güncel müzikleri dinleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Ülkemizdeki güncel müzikler ile ilgili bileşenleri tanır."
+      },
+      {
+       "label": "b",
+       "text": "Ülkemizdeki güncel müzikler ile ilgili bileşenleri ayırt eder."
+      },
+      {
+       "label": "c",
+       "text": "Ülkemizdeki güncel müzikler ile ilgili bileşenleri açıklar."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.2.2.2",
+     "order": 2,
+     "text": "Dünyadaki güncel müzikleri dinleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dünyadaki güncel müzikler ile ilgili bileşenleri tanır."
+      },
+      {
+       "label": "b",
+       "text": "Dünyadaki güncel müzikler ile ilgili bileşenleri ayırt eder."
+      },
+      {
+       "label": "c",
+       "text": "Dünyadaki güncel müzikler ile ilgili bileşenleri açıklar."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.2.2.3",
+     "order": 3,
+     "text": "Farklı kültürlere ait müzikler ile ilgili bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Farklı kültürlere ait müzikler ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği aracı kullanarak konu ile ilgili bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Farklı kültürlere ait müzikler ile ilgili edindiği bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Farklı kültürlere ait müzikler ile ilgili edindiği bilgileri kaydeder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "DİNLEME, SÖYLEME, ÇALMA",
+   "description": "Temada öğrencilerin farklı türdeki eserleri dinleyebilmeleri ve söyleyebilmeleri, Türk müziğindeki basit usulleri tanıyabilmeleri, basit usullerdeki Türk müziği eserlerini söyleyebilmeleri, eserlere ritim çalgısıyla eşlik edebilmeleri amaçlanmaktadır.",
+   "lesson_hours": 36,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB9. Müziksel Dinleme, SAB10. Müziksel Söyleme, SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB1. Temel Beceriler",
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGME.3.1.1 Sosyal-Duygusal • Öğrencilerin kültürel unsurları tanımaları, fark etmeleri, kültürel etkinliklere Öğrenme Becerileri/ katılmaları, farklı kültürleri keşfetmeleri, kültürel mirası korumaları teşvik edilir",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık)",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik, D12. Sabır / (OB5).",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI SMGME.3.1.2 • Öğrencilerin farklı türdeki eserleri söyleyerek performans sergilemeleri sağlanır (OB9). • Öğrencilerin farklı türdeki eserleri söyleyerek kişisel yorumlarını performanslarına yansıtmaları teşvik edilir (SDB1.1). • Öğrencilerin sanatsal ve görsel zevkleri hayatlarının bir parçası hâline getirmeleri teşvik edilir (D7.3). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ SMGME.3.1.3 • Öğrenciler araştırmalarını yaparken disiplinli, planlı ve istikrarlı olmaları yönünde cesaretlendirilir (D3.2). • Öğrencilerin güvenilir kaynaklardan yararlanarak basit usuller hakkında bilgi edinmeleri sağlanır (OB1). • Öğrencilere araştırmalarını yaparken istikrarlı olmaları gerektiği hatırlatılır (D12.3). SMGME.3.1.4 • Öğrencilerin basit usullerdeki Türk müziği eserlerini söyleyerek performans sergilemeleri sağlanır (OB9). • Öğrencilerin basit usullerdeki Türk müziği eserlerini söyleyerek kişisel özelliklerini performanslarına yansıtmaları teşvik edilir (SDB1.1). SMGME.3.1.5 • Öğrencilerin ritim çalgılarıyla performans sergilemeleri sağlanır (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ III. DÜZEY",
+    "İLİŞKİLER": "SAB6. Müziksel İşitme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGME.3.1.1. Farklı türdeki eserleri dinleyebilme a) Farklı türdeki eserlerin müziksel bileşenlerini tanır. b) Farklı türdeki eserlerin müziksel bileşenlerini ayırt eder. c) Farklı türdeki eserlerin müziksel bileşenlerini açıklar. SMGME.3.1.2. Farklı türdeki eserleri söyleyebilme a) Bedenini farklı türdeki eserleri söylemeye hazır hâle getirir. b) Farklı türdeki eserleri söylerken uygun söyleme tekniklerini kullanır. c) Farklı türdeki eserlerin müziksel bileşenlerini uygular. SMGME.3.1.3. Türk müziğindeki basit usulleri [nim sofyan (2/4), semai (3/4), sofyan (4/4)] tanıyabilme SMGME.3.1.4. Basit usullerdeki Türk müziği eserlerini söyleyebilme a) Bedenini basit usullerdeki Türk müziği eserlerini söylemeye hazır hâle getirir. b) Basit usullerdeki Türk müziği eserlerini söylerken uygun söyleme tekniklerini kullanır. c) Basit usullerdeki Türk müziği eserlerinin müziksel bileşenlerini uygular. SMGME.3.1.5. Eserlere ritim çalgısıyla eşlik edebilme a) Eşlik edilecek eseri çözümler. b) Ritim çalgısına özgü duruş ve tutuş pozisyonu alır. c) Ritim çalgısına özgü teknikleri kullanır. ç) Eşlik edilecek eserin müziksel bileşenlerini uygular.",
+    "İÇERİK ÇERÇEVESİ": "Farklı Türdeki Eserler Türk Müziğinde Basit Usuller",
+    "Anahtar Kavramlar": "basit usul, marş, ritim, ritim çalgısı, şarkı, Türk müziği, türkü, usul"
+   },
+   "outcomes": [
+    {
+     "code": "SMGME.3.1.1",
+     "order": 1,
+     "text": "Farklı türdeki eserleri dinleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Farklı türdeki eserlerin müziksel bileşenlerini tanır."
+      },
+      {
+       "label": "b",
+       "text": "Farklı türdeki eserlerin müziksel bileşenlerini ayırt eder."
+      },
+      {
+       "label": "c",
+       "text": "Farklı türdeki eserlerin müziksel bileşenlerini açıklar."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.3.1.2",
+     "order": 2,
+     "text": "Farklı türdeki eserleri söyleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bedenini farklı türdeki eserleri söylemeye hazır hâle getirir."
+      },
+      {
+       "label": "b",
+       "text": "Farklı türdeki eserleri söylerken uygun söyleme tekniklerini kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Farklı türdeki eserlerin müziksel bileşenlerini uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.3.1.3",
+     "order": 3,
+     "text": "Türk müziğindeki basit usulleri [nim sofyan (2/4), semai (3/4), sofyan (4/4)] tanıyabilme",
+     "components": []
+    },
+    {
+     "code": "SMGME.3.1.4",
+     "order": 4,
+     "text": "Basit usullerdeki Türk müziği eserlerini söyleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bedenini basit usullerdeki Türk müziği eserlerini söylemeye hazır hâle getirir."
+      },
+      {
+       "label": "b",
+       "text": "Basit usullerdeki Türk müziği eserlerini söylerken uygun söyleme tekniklerini kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Basit usullerdeki Türk müziği eserlerinin müziksel bileşenlerini uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.3.1.5",
+     "order": 5,
+     "text": "Eserlere ritim çalgısıyla eşlik edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Eşlik edilecek eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Ritim çalgısına özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Ritim çalgısına özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Eşlik edilecek eserin müziksel bileşenlerini uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "MÜZİK KÜLTÜRÜ",
+   "description": "Temada öğrencilerin halk tiyatrosu oyunlarını grupla oynayabilmeleri, topluma mal olmuş sanatçıların yaşamlarından bir kesiti grupla canlandırabilmeleri, dinledikleri müziklerle ilgili duygu ve düşüncelerini yansıtabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 32,
+   "sections": {
+    "ALAN BECERİLERİ": "BEOSAB7. Eşle/Grupla Hareket Etme",
+    "KAVRAMSAL BECERİLER": "KB2.15. Yansıtma",
+    "EĞİLİMLER": "E1.5. Kendine Güvenme (Öz Güven), E2.5. Oyunseverlik, E3.3. Yaratıcılık",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGME.3.2.1 Sosyal-Duygusal • Öğrencilerin grup çalışmalarında iş birliği içinde hareket etmeleri desteklenir Öğrenme Becerileri/ (SDB2.2).",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik, D12. Sabır Okuryazarlık Beceriler OB1. Bilgi Okuryazarlığı BECERİLER ARASI / • Öğrencilerin sanatsal bakış açısı kazanmaları ve kendilerine özgü",
+    "İLİŞKİLER": "SAB13. Müziksel Hareket ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGME.3.2.1. Halk tiyatrosu oyunlarını grupla oynayabilme a) Halk tiyatrosu oyunundaki rolleri tanımlar. b) Halk tiyatrosundaki rolleri yerine getirir. c) Halk tiyatrosunu oynarken grupla uyumlu hareket eder. SMGME.3.2.2. Topluma mal olmuş sanatçıların yaşamlarından bir kesiti grupla canlandırabilme a) Topluma mal olmuş sanatçıların yaşamlarından kesitler canlandırmak için rolleri tanımlar. b) Canlandırılacak kesitteki rolleri yerine getirir. c) Canlandırmada grupla uyumlu hareket eder. SMGME.3.2.3. Dinlediği müziklerle ilgili duygu ve düşüncelerini yansıtabilme a) Dinlediği müziklerle ilgili deneyimini gözden geçirir. b) Dinlediği müziklerle ilgili çıkarım yapar. c) Ulaştığı çıkarımları resim, dans, şiir, kompozisyon ve yaratıcı drama gibi sanatsal yollarla değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Halk Tiyatrosu Topluma Mal Olmuş Yaşamlar Müzik ve Duygular",
+    "Anahtar Kavramlar": "duygu, halk tiyatrosu, sanat, sanatçı",
+    "Okuryazarlık Becerileri": "üretkenliklerini ortaya çıkarmaları sağlanır (D7.2). • Öğrencilerin güvenilir kaynaklardan yararlanarak halk tiyatrosu hakkında bilgi edinmeleri sağlanır (OB1). SMGME.3.2.2 • Öğrencilerin sanatçıların yaşamlarını canlandırırken kişisel yorumlarını performanslarına yansıtmaları teşvik edilir (SDB1.1). • Öğrencilerin grup çalışmalarında iş birliği içinde hareket etmeleri desteklenir (SDB2.2). SMGME.3.2.3 • Öğrenciler araştırmalarını yaparken disiplinli, planlı ve istikrarlı olmaları yönünde cesaretlendirilir (D3.2). • Öğrencilere alıştırmalarını yaparken istikrarlı olmaları gerektiği hatırlatılır (D12.3). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ IV. DÜZEY"
+   },
+   "outcomes": [
+    {
+     "code": "SMGME.3.2.1",
+     "order": 1,
+     "text": "Halk tiyatrosu oyunlarını grupla oynayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Halk tiyatrosu oyunundaki rolleri tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Halk tiyatrosundaki rolleri yerine getirir."
+      },
+      {
+       "label": "c",
+       "text": "Halk tiyatrosunu oynarken grupla uyumlu hareket eder."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.3.2.2",
+     "order": 2,
+     "text": "Topluma mal olmuş sanatçıların yaşamlarından bir kesiti grupla canlandırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Topluma mal olmuş sanatçıların yaşamlarından kesitler canlandırmak için rolleri tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Canlandırılacak kesitteki rolleri yerine getirir."
+      },
+      {
+       "label": "c",
+       "text": "Canlandırmada grupla uyumlu hareket eder."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.3.2.3",
+     "order": 3,
+     "text": "Dinlediği müziklerle ilgili duygu ve düşüncelerini yansıtabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dinlediği müziklerle ilgili deneyimini gözden geçirir."
+      },
+      {
+       "label": "b",
+       "text": "Dinlediği müziklerle ilgili çıkarım yapar."
+      },
+      {
+       "label": "c",
+       "text": "Ulaştığı çıkarımları resim, dans, şiir, kompozisyon ve yaratıcı drama gibi sanatsal yollarla değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 4,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "DİNLEME, SÖYLEME, ÇALMA",
+   "description": "Temada öğrencilerin farklı türdeki ulusal ve uluslararası eserleri dinleyebilmeleri ve söyleyebilmeleri, Türk müziğindeki bileşik usulleri tanıyabilmeleri, bileşik usullerdeki Türk müziği eserlerini söyleyebilmeleri, eserlere ritim çalgısıyla eşlik edebilmeleri amaçlanmaktadır.",
+   "lesson_hours": 36,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB9. Müziksel Dinleme, SAB10. Müziksel Söyleme, SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB1. Temel Beceriler",
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGME.4.1.1 Sosyal-Duygusal • Öğrencilerin kişisel ve toplumsal haklara saygı göstermeleri teşvik edilir (D11.3). Öğrenme Becerileri/ • Öğrencilerin çevresine, millî ve manevi değerlere saygı duymaları sağlanır",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık)",
+    "Değerler": "D11. Özgürlük, D14. Saygı, D19. Vatanseverlik / (D14.3).",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI • Öğrencilerin kültürel unsurları tanımaları, fark etmeleri, kültürel etkinliklere katılmaları, farklı kültürleri keşfetmeleri, kültürel mirası korumaları desteklenir (OB5). SMGME.4.1.2 • Öğrencilerin farklı türdeki ulusal ve uluslararası eserleri söylerken kişisel yorumlarını performanslarına yansıtmaları teşvik edilir (SDB1.1). • Öğrencilerin kişisel ve toplumsal haklara saygı göstermeleri teşvik edilir (D11.3). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ • Öğrencilerin çevresine, millî ve manevi değerlere saygı duymaları teşvik edilir (D14.3). • Öğrencilerin kültürel unsurları tanımaları, fark etmeleri, kültürel etkinliklere katılmaları, farklı kültürleri keşfetmeleri, kültürel mirası korumaları desteklenir (OB5). SMGME.4.1.3 • Öğrencilerin araştırmalarını yaparken dijital kaynakları kullanmaları sağlanır (OB2). • Öğrencilerin Türk kültürünün devamlılığı için çaba göstermeleri desteklenir (D19.3). SMGME.4.1.4 • Öğrencilerin bileşik usullerdeki Türk müziği eserlerini söyleyerek performans sergilemeleri sağlanır (OB9). SMGME.4.1.5 • Öğrencilerin ritim çalgılarıyla performans sergilemeleri teşvik edilir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ IV. DÜZEY",
+    "İLİŞKİLER": "SAB6. Müziksel İşitme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGME.4.1.1. Farklı türdeki ulusal ve uluslararası eserleri dinleyebilme a) Farklı türdeki eserlerin müziksel bileşenlerini tanır. b) Farklı türdeki eserlerin müziksel bileşenlerini ayırt eder. c) Farklı türdeki eserlerin müziksel bileşenlerini açıklar. SMGME.4.1.2. Farklı türdeki ulusal ve uluslararası eserleri söyleyebilme a) Bedenini farklı türdeki ulusal ve uluslararası eserleri söylemeye hazır hâle getirir. b) Farklı türdeki ulusal ve uluslararası eserleri söylerken uygun söyleme tekniklerini kullanır. c) Farklı türdeki ulusal ve uluslararası eserlerin müziksel bileşenlerini uygular. SMGME.4.1.3. Türk müziğinde bileşik usulleri tanıyabilme SMGME.4.1.4. Bileşik usullerdeki Türk müziği eserlerini söyleyebilme a) Bedenini bileşik usullerdeki Türk müziği eserlerini söylemeye hazır hâle getirir. b) Bileşik usullerdeki Türk müziği eserlerini söylerken uygun söyleme tekniklerini kullanır. c) Bileşik usullerdeki Türk müziği eserlerinin müziksel bileşenlerini uygular. SMGME.4.1.5. Eserlere ritim çalgısıyla eşlik edebilme a) Eşlik edilecek eseri çözümler. b) Ritim çalgısına özgü duruş ve tutuş pozisyonunu alır. c) Ritim çalgısına özgü teknikleri kullanır. ç) Eşlik edilecek eserin müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Ulusal ve Uluslararası Eserler Türk Müziğinde Bileşik Usuller",
+    "Anahtar Kavramlar": "bileşik usul, eser, Türk müziği, ulusal, uluslararası, usul"
+   },
+   "outcomes": [
+    {
+     "code": "SMGME.4.1.1",
+     "order": 1,
+     "text": "Farklı türdeki ulusal ve uluslararası eserleri dinleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Farklı türdeki eserlerin müziksel bileşenlerini tanır."
+      },
+      {
+       "label": "b",
+       "text": "Farklı türdeki eserlerin müziksel bileşenlerini ayırt eder."
+      },
+      {
+       "label": "c",
+       "text": "Farklı türdeki eserlerin müziksel bileşenlerini açıklar."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.4.1.2",
+     "order": 2,
+     "text": "Farklı türdeki ulusal ve uluslararası eserleri söyleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bedenini farklı türdeki ulusal ve uluslararası eserleri söylemeye hazır hâle getirir."
+      },
+      {
+       "label": "b",
+       "text": "Farklı türdeki ulusal ve uluslararası eserleri söylerken uygun söyleme tekniklerini kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Farklı türdeki ulusal ve uluslararası eserlerin müziksel bileşenlerini uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.4.1.3",
+     "order": 3,
+     "text": "Türk müziğinde bileşik usulleri tanıyabilme",
+     "components": []
+    },
+    {
+     "code": "SMGME.4.1.4",
+     "order": 4,
+     "text": "Bileşik usullerdeki Türk müziği eserlerini söyleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bedenini bileşik usullerdeki Türk müziği eserlerini söylemeye hazır hâle getirir."
+      },
+      {
+       "label": "b",
+       "text": "Bileşik usullerdeki Türk müziği eserlerini söylerken uygun söyleme tekniklerini kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Bileşik usullerdeki Türk müziği eserlerinin müziksel bileşenlerini uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.4.1.5",
+     "order": 5,
+     "text": "Eserlere ritim çalgısıyla eşlik edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Eşlik edilecek eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Ritim çalgısına özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Ritim çalgısına özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Eşlik edilecek eserin müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 4,
    "unit": 2,
    "kind": "TEMA",
    "title": "MÜZİK KÜLTÜRÜ",
@@ -51,817 +773,119 @@
     "İÇERİK ÇERÇEVESİ": "Türk Müziği Bestecilerinin Eserleri Türk Kültüründe Müzikal Karakterler Klasik Müzik Eserleri Müzik ve Tedavi Müzik Teknolojileri",
     "Anahtar Kavramlar": "besteci, eser, klasik müzik, müzikal karakter, tedavi, Türk müziği ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GENEL MÜZİK EĞİTİMİ MODÜLÜ"
    },
-   "outcomes": []
-  }
- ],
- "unassigned_outcomes": [
-  {
-   "code": "SMGME.1.1.1",
-   "grade": 1,
-   "unit": 1,
-   "order": 1,
-   "text": "Farklı türdeki eserleri dinleyebilme bileşenlerini ifade eder.",
-   "components": [
-    {
-     "label": "a",
-     "text": "Farklı türdeki eserlerin müziksel bileşenlerini tanır."
-    },
-    {
-     "label": "b",
-     "text": "Farklı türdeki eserlerin müziksel bileşenlerini ayırt eder."
-    },
-    {
-     "label": "c",
-     "text": "Farklı türdeki eserlerin müziksel bileşenlerini açıklar."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.1.1.2",
-   "grade": 1,
-   "unit": 1,
-   "order": 2,
-   "text": "Farklı türdeki eserleri söyleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Bedenini farklı türde eserler söylemeye hazır hâle getirir."
-    },
-    {
-     "label": "b",
-     "text": "Farklı türdeki eserleri söylerken uygun söyleme tekniklerini kullanır."
-    },
-    {
-     "label": "c",
-     "text": "Farklı türdeki eserlerin müziksel bileşenlerini uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.1.1.3",
-   "grade": 1,
-   "unit": 1,
-   "order": 3,
-   "text": "Dinlediği müziklere ritim kalıpları oluşturabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Dinlediği müziklerin vuruşlarını belirler."
-    },
-    {
-     "label": "b",
-     "text": "Kullanacağı ritim kalıplarını seçer."
-    },
-    {
-     "label": "c",
-     "text": "Seçtiği ritim kalıbıyla özgün bir ürün oluşturur."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.1.1.4",
-   "grade": 1,
-   "unit": 1,
-   "order": 4,
-   "text": "Dinlediği müziklere ritim çalgılarıyla eşlik edebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Basit ritim kalıplarını çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Ritim çalgısına özgü duruş ve tutuş pozisyonu alır."
-    },
-    {
-     "label": "c",
-     "text": "Ritim çalgısına özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Dinlediği müziklere ritim çalgısıyla eşlik ederken müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.1.1.5",
-   "grade": 1,
-   "unit": 1,
-   "order": 5,
-   "text": "Farklı materyallerden yararlanarak ritim çalgısı oluşturabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Oluşturacağı ritim çalgısının amacını belirler."
-    },
-    {
-     "label": "b",
-     "text": "Ritim çalgısı yapabilmek için gerekli ögeleri seçer."
-    },
-    {
-     "label": "c",
-     "text": "Seçtiği ögelerle özgün bir ritim çalgısı yapar."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.1.1.6",
-   "grade": 1,
-   "unit": 1,
-   "order": 6,
-   "text": "Oluşturduğu ritim çalgısıyla eserlere eşlik edebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Çalınacak eseri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Oluşturduğu çalgıya özgü duruş ve tutuş pozisyonu alır."
-    },
-    {
-     "label": "c",
-     "text": "Oluşturduğu çalgıya özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Çalınacak eserin müziksel bileşenlerini uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.1.2.1",
-   "grade": 1,
-   "unit": 2,
-   "order": 1,
-   "text": "Yaşadığı yerdeki halk oyunlarını oynayabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Yaşadığı yerin halk oyunlarına uygun hareketleri belirler."
-    },
-    {
-     "label": "b",
-     "text": "Yaşadığı yerin halk oyunlarına uygun hareketleri sergiler."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.1.2.2",
-   "grade": 1,
-   "unit": 2,
-   "order": 2,
-   "text": "Yaşadığı yerdeki türküleri dinleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Yaşadığı yerdeki türkülerin müziksel bileşenlerini tanır."
-    },
-    {
-     "label": "b",
-     "text": "Yaşadığı yerdeki türkülerin müziksel bileşenlerini ayırt eder."
-    },
-    {
-     "label": "c",
-     "text": "Yaşadığı yerdeki türkülerin müziksel bileşenlerini açıklar."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.1.2.3",
-   "grade": 1,
-   "unit": 2,
-   "order": 3,
-   "text": "Yaşadığı yerdeki türküleri söyleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Bedenini yaşadığı yerdeki türküleri söylemeye hazır hâle getirir."
-    },
-    {
-     "label": "b",
-     "text": "Yaşadığı yerdeki türküleri söylerken uygun söyleme tekniklerini kullanır."
-    },
-    {
-     "label": "c",
-     "text": "Yaşadığı yerdeki türkülerin müziksel bileşenlerini uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.1.2.4",
-   "grade": 1,
-   "unit": 2,
-   "order": 4,
-   "text": "Türk tasavvuf müziği eserlerini (mevlit, gazel, ilahi, kaside vb.) söyleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Bedenini Türk tasavvuf müziği eserlerini söylemeye hazır hâle getirir."
-    },
-    {
-     "label": "b",
-     "text": "Türk tasavvuf müziği eserlerini söylerken uygun söyleme tekniklerini kullanır."
-    },
-    {
-     "label": "c",
-     "text": "Türk tasavvuf müziği eserlerinin müziksel bileşenlerini uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.2.1.1",
-   "grade": 2,
-   "unit": 1,
-   "order": 1,
-   "text": "Ülkemizdeki farklı yörelere ait türküleri dinleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Ülkemizdeki farklı yörelere ait türküler ile ilgili bileşenleri tanır."
-    },
-    {
-     "label": "b",
-     "text": "Ülkemizdeki farklı yörelere ait türküler ile ilgili bileşenleri ayırt eder."
-    },
-    {
-     "label": "c",
-     "text": "Ülkemizdeki farklı yörelere ait türküler ile ilgili bileşenleri açıklar."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.2.1.2",
-   "grade": 2,
-   "unit": 1,
-   "order": 2,
-   "text": "Ülkemizdeki farklı yörelere ait türküleri söyleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Bedenini ülkemizdeki farklı yörelere ait türküleri söylemeye hazır hâle getirir."
-    },
-    {
-     "label": "b",
-     "text": "Ülkemizdeki farklı yörelere ait türküleriş söylerken uygun söyleme tekniklerini kullanır."
-    },
-    {
-     "label": "c",
-     "text": "Türkülerin müziksel bileşenlerini uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.2.1.3",
-   "grade": 2,
-   "unit": 1,
-   "order": 3,
-   "text": "Türkülerin yörelere göre söyleniş özelliklerini karşılaştırabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Türkülerin yörelere göre söyleniş özelliklerini belirler."
-    },
-    {
-     "label": "b",
-     "text": "Türkülerin yörelere göre söyleniş özelliklerindeki benzerlikleri listeler."
-    },
-    {
-     "label": "c",
-     "text": "Türkülerin yörelere göre söyleniş özelliklerindeki farklılıkları listeler."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.2.1.4",
-   "grade": 2,
-   "unit": 1,
-   "order": 4,
-   "text": "Yaşanmış öyküleri olan türküleri söyleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Bedenini yaşanmış öyküleri olan türküleri söylemeye hazır hâle getirir."
-    },
-    {
-     "label": "b",
-     "text": "Yaşanmış öyküleri olan türküleri söylerken uygun söyleme tekniklerini kullanır."
-    },
-    {
-     "label": "c",
-     "text": "Yaşanmış öyküleri olan türkülerin müziksel bileşenlerini uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.2.1.5",
-   "grade": 2,
-   "unit": 1,
-   "order": 5,
-   "text": "Eserlere ritim çalgısıyla eşlik edebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Eşlik edilecek eseri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Ritim çalgısına özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Ritim çalgısına özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Eşlik edilecek eserin müziksel bileşenlerini uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.2.2.1",
-   "grade": 2,
-   "unit": 2,
-   "order": 1,
-   "text": "Ülkemizdeki güncel müzikleri dinleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Ülkemizdeki güncel müzikler ile ilgili bileşenleri tanır."
-    },
-    {
-     "label": "b",
-     "text": "Ülkemizdeki güncel müzikler ile ilgili bileşenleri ayırt eder."
-    },
-    {
-     "label": "c",
-     "text": "Ülkemizdeki güncel müzikler ile ilgili bileşenleri açıklar."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.2.2.2",
-   "grade": 2,
-   "unit": 2,
-   "order": 2,
-   "text": "Dünyadaki güncel müzikleri dinleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Dünyadaki güncel müzikler ile ilgili bileşenleri tanır."
-    },
-    {
-     "label": "b",
-     "text": "Dünyadaki güncel müzikler ile ilgili bileşenleri ayırt eder."
-    },
-    {
-     "label": "c",
-     "text": "Dünyadaki güncel müzikler ile ilgili bileşenleri açıklar."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.2.2.3",
-   "grade": 2,
-   "unit": 2,
-   "order": 3,
-   "text": "Farklı kültürlere ait müzikler ile ilgili bilgi toplayabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Farklı kültürlere ait müzikler ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler."
-    },
-    {
-     "label": "b",
-     "text": "Belirlediği aracı kullanarak konu ile ilgili bilgileri bulur."
-    },
-    {
-     "label": "c",
-     "text": "Farklı kültürlere ait müzikler ile ilgili edindiği bilgileri doğrular."
-    },
-    {
-     "label": "ç",
-     "text": "Farklı kültürlere ait müzikler ile ilgili edindiği bilgileri kaydeder."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.3.1.1",
-   "grade": 3,
-   "unit": 1,
-   "order": 1,
-   "text": "Farklı türdeki eserleri dinleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Farklı türdeki eserlerin müziksel bileşenlerini tanır."
-    },
-    {
-     "label": "b",
-     "text": "Farklı türdeki eserlerin müziksel bileşenlerini ayırt eder."
-    },
-    {
-     "label": "c",
-     "text": "Farklı türdeki eserlerin müziksel bileşenlerini açıklar."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.3.1.2",
-   "grade": 3,
-   "unit": 1,
-   "order": 2,
-   "text": "Farklı türdeki eserleri söyleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Bedenini farklı türdeki eserleri söylemeye hazır hâle getirir."
-    },
-    {
-     "label": "b",
-     "text": "Farklı türdeki eserleri söylerken uygun söyleme tekniklerini kullanır."
-    },
-    {
-     "label": "c",
-     "text": "Farklı türdeki eserlerin müziksel bileşenlerini uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.3.1.3",
-   "grade": 3,
-   "unit": 1,
-   "order": 3,
-   "text": "Türk müziğindeki basit usulleri [nim sofyan (2/4), semai (3/4), sofyan (4/4)] tanıyabilme",
-   "components": []
-  },
-  {
-   "code": "SMGME.3.1.4",
-   "grade": 3,
-   "unit": 1,
-   "order": 4,
-   "text": "Basit usullerdeki Türk müziği eserlerini söyleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Bedenini basit usullerdeki Türk müziği eserlerini söylemeye hazır hâle getirir."
-    },
-    {
-     "label": "b",
-     "text": "Basit usullerdeki Türk müziği eserlerini söylerken uygun söyleme tekniklerini kullanır."
-    },
-    {
-     "label": "c",
-     "text": "Basit usullerdeki Türk müziği eserlerinin müziksel bileşenlerini uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.3.1.5",
-   "grade": 3,
-   "unit": 1,
-   "order": 5,
-   "text": "Eserlere ritim çalgısıyla eşlik edebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Eşlik edilecek eseri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Ritim çalgısına özgü duruş ve tutuş pozisyonu alır."
-    },
-    {
-     "label": "c",
-     "text": "Ritim çalgısına özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Eşlik edilecek eserin müziksel bileşenlerini uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.3.2.1",
-   "grade": 3,
-   "unit": 2,
-   "order": 1,
-   "text": "Halk tiyatrosu oyunlarını grupla oynayabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Halk tiyatrosu oyunundaki rolleri tanımlar."
-    },
-    {
-     "label": "b",
-     "text": "Halk tiyatrosundaki rolleri yerine getirir."
-    },
-    {
-     "label": "c",
-     "text": "Halk tiyatrosunu oynarken grupla uyumlu hareket eder."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.3.2.2",
-   "grade": 3,
-   "unit": 2,
-   "order": 2,
-   "text": "Topluma mal olmuş sanatçıların yaşamlarından bir kesiti grupla canlandırabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Topluma mal olmuş sanatçıların yaşamlarından kesitler canlandırmak için rolleri tanımlar."
-    },
-    {
-     "label": "b",
-     "text": "Canlandırılacak kesitteki rolleri yerine getirir."
-    },
-    {
-     "label": "c",
-     "text": "Canlandırmada grupla uyumlu hareket eder."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.3.2.3",
-   "grade": 3,
-   "unit": 2,
-   "order": 3,
-   "text": "Dinlediği müziklerle ilgili duygu ve düşüncelerini yansıtabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Dinlediği müziklerle ilgili deneyimini gözden geçirir."
-    },
-    {
-     "label": "b",
-     "text": "Dinlediği müziklerle ilgili çıkarım yapar."
-    },
-    {
-     "label": "c",
-     "text": "Ulaştığı çıkarımları resim, dans, şiir, kompozisyon ve yaratıcı drama gibi sanatsal yollarla değerlendirir."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.4.1.1",
-   "grade": 4,
-   "unit": 1,
-   "order": 1,
-   "text": "Farklı türdeki ulusal ve uluslararası eserleri dinleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Farklı türdeki eserlerin müziksel bileşenlerini tanır."
-    },
-    {
-     "label": "b",
-     "text": "Farklı türdeki eserlerin müziksel bileşenlerini ayırt eder."
-    },
-    {
-     "label": "c",
-     "text": "Farklı türdeki eserlerin müziksel bileşenlerini açıklar."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.4.1.2",
-   "grade": 4,
-   "unit": 1,
-   "order": 2,
-   "text": "Farklı türdeki ulusal ve uluslararası eserleri söyleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Bedenini farklı türdeki ulusal ve uluslararası eserleri söylemeye hazır hâle getirir."
-    },
-    {
-     "label": "b",
-     "text": "Farklı türdeki ulusal ve uluslararası eserleri söylerken uygun söyleme tekniklerini kullanır."
-    },
-    {
-     "label": "c",
-     "text": "Farklı türdeki ulusal ve uluslararası eserlerin müziksel bileşenlerini uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.4.1.3",
-   "grade": 4,
-   "unit": 1,
-   "order": 3,
-   "text": "Türk müziğinde bileşik usulleri tanıyabilme",
-   "components": []
-  },
-  {
-   "code": "SMGME.4.1.4",
-   "grade": 4,
-   "unit": 1,
-   "order": 4,
-   "text": "Bileşik usullerdeki Türk müziği eserlerini söyleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Bedenini bileşik usullerdeki Türk müziği eserlerini söylemeye hazır hâle getirir."
-    },
-    {
-     "label": "b",
-     "text": "Bileşik usullerdeki Türk müziği eserlerini söylerken uygun söyleme tekniklerini kullanır."
-    },
-    {
-     "label": "c",
-     "text": "Bileşik usullerdeki Türk müziği eserlerinin müziksel bileşenlerini uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.4.1.5",
-   "grade": 4,
-   "unit": 1,
-   "order": 5,
-   "text": "Eserlere ritim çalgısıyla eşlik edebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Eşlik edilecek eseri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Ritim çalgısına özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Ritim çalgısına özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Eşlik edilecek eserin müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.4.2.1",
-   "grade": 4,
-   "unit": 2,
-   "order": 1,
-   "text": "Kültürel mirasın bir parçası olan Türk müziği bestecilerinin eserlerini söyleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Bedenini Türk müziği bestecilerinin eserlerini söylemeye hazır hâle getirir."
-    },
-    {
-     "label": "b",
-     "text": "Türk müziği bestecilerinin eserlerini söylerken uygun söyleme tekniklerini kullanır."
-    },
-    {
-     "label": "c",
-     "text": "Türk müziği bestecilerinin eserlerini söylerken müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.4.2.2",
-   "grade": 4,
-   "unit": 2,
-   "order": 2,
-   "text": "Türk kültürüne ait hikâye, masal ve destanlarda geçen müzikal karakterleri canlandırabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Türk kültürüne ait hikâye, masal ve destanlarda geçen müzikal karakterleri canlandırmak için rolleri tanımlar."
-    },
-    {
-     "label": "b",
-     "text": "Canlandırmadaki rolleri yerine getirir."
-    },
-    {
-     "label": "c",
-     "text": "Canlandırmada grupla uyumlu hareket eder."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.4.2.3",
-   "grade": 4,
-   "unit": 2,
-   "order": 3,
-   "text": "Klasik müzik eserleri dinleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Klasik müzik eserlerinin müziksel bileşenlerini tanır."
-    },
-    {
-     "label": "b",
-     "text": "Klasik müzik eserlerinin müziksel bileşenlerini ayırt eder."
-    },
-    {
-     "label": "c",
-     "text": "Klasik müzik eserlerinin müziksel bileşenlerini açıklar."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.4.2.4",
-   "grade": 4,
-   "unit": 2,
-   "order": 4,
-   "text": "Müziğin tedavi yöntemi olarak kullanıldığını sorgulayabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Müziğin sağlık üzerindeki etkisini tanımlar."
-    },
-    {
-     "label": "b",
-     "text": "Müziğin tedavi yöntemi olarak kullanılması üzerine sorular sorar."
-    },
-    {
-     "label": "c",
-     "text": "Müziğin tedavi yöntemi olarak kullanılması ile ilgili bilgi toplar."
-    },
-    {
-     "label": "ç",
-     "text": "Topladığı bilgilerin doğruluğunu değerlendirir."
-    },
-    {
-     "label": "d",
-     "text": "Topladığı bilgiler üzerinden çıkarım yapar."
-    }
-   ]
-  },
-  {
-   "code": "SMGME.4.2.5",
-   "grade": 4,
-   "unit": 2,
-   "order": 5,
-   "text": "Dijital ve yapay zekâ destekli müzik teknolojilerini kullanarak özgün ürün oluşturabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Dijital ve yapay zekâ destekli müzik teknolojileri ile oluşturacağı ürünün kullanım amacını belirler."
-    },
-    {
-     "label": "b",
-     "text": "Dijital ve yapay zekâ destekli müzik teknolojileri ile ürün oluşturmak için gerekli ögeleri seçer."
-    },
-    {
-     "label": "c",
-     "text": "Seçtiği ögeler ile dijital ve yapay zekâ destekli müzik teknolojilerini kullanarak özgün ürün oluşturur."
+   "outcomes": [
+    {
+     "code": "SMGME.4.2.1",
+     "order": 1,
+     "text": "Kültürel mirasın bir parçası olan Türk müziği bestecilerinin eserlerini söyleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bedenini Türk müziği bestecilerinin eserlerini söylemeye hazır hâle getirir."
+      },
+      {
+       "label": "b",
+       "text": "Türk müziği bestecilerinin eserlerini söylerken uygun söyleme tekniklerini kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Türk müziği bestecilerinin eserlerini söylerken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.4.2.2",
+     "order": 2,
+     "text": "Türk kültürüne ait hikâye, masal ve destanlarda geçen müzikal karakterleri canlandırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Türk kültürüne ait hikâye, masal ve destanlarda geçen müzikal karakterleri canlandırmak için rolleri tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Canlandırmadaki rolleri yerine getirir."
+      },
+      {
+       "label": "c",
+       "text": "Canlandırmada grupla uyumlu hareket eder."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.4.2.3",
+     "order": 3,
+     "text": "Klasik müzik eserleri dinleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Klasik müzik eserlerinin müziksel bileşenlerini tanır."
+      },
+      {
+       "label": "b",
+       "text": "Klasik müzik eserlerinin müziksel bileşenlerini ayırt eder."
+      },
+      {
+       "label": "c",
+       "text": "Klasik müzik eserlerinin müziksel bileşenlerini açıklar."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.4.2.4",
+     "order": 4,
+     "text": "Müziğin tedavi yöntemi olarak kullanıldığını sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Müziğin sağlık üzerindeki etkisini tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Müziğin tedavi yöntemi olarak kullanılması üzerine sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Müziğin tedavi yöntemi olarak kullanılması ile ilgili bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Topladığı bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Topladığı bilgiler üzerinden çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "SMGME.4.2.5",
+     "order": 5,
+     "text": "Dijital ve yapay zekâ destekli müzik teknolojilerini kullanarak özgün ürün oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dijital ve yapay zekâ destekli müzik teknolojileri ile oluşturacağı ürünün kullanım amacını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Dijital ve yapay zekâ destekli müzik teknolojileri ile ürün oluşturmak için gerekli ögeleri seçer."
+      },
+      {
+       "label": "c",
+       "text": "Seçtiği ögeler ile dijital ve yapay zekâ destekli müzik teknolojilerini kullanarak özgün ürün oluşturur."
+      }
+     ]
     }
    ]
   }
  ],
+ "unassigned_outcomes": [],
  "report": {
-  "units": 2,
-  "outcomes": 0,
-  "components": 0,
-  "orphan_outcomes": 36,
-  "gaps": [
-   {
-    "course": "Seçmeli Müzik Dersi (Genel Müzik Eğitimi)",
-    "reason": "ünitesi bulunamayan çıktı",
-    "codes": [
-     "SMGME.1.1.1",
-     "SMGME.1.1.2",
-     "SMGME.1.1.3",
-     "SMGME.1.1.4",
-     "SMGME.1.1.5",
-     "SMGME.1.1.6",
-     "SMGME.1.2.1",
-     "SMGME.1.2.2",
-     "SMGME.1.2.3",
-     "SMGME.1.2.4",
-     "SMGME.2.1.1",
-     "SMGME.2.1.2",
-     "SMGME.2.1.3",
-     "SMGME.2.1.4",
-     "SMGME.2.1.5",
-     "SMGME.2.2.1",
-     "SMGME.2.2.2",
-     "SMGME.2.2.3",
-     "SMGME.3.1.1",
-     "SMGME.3.1.2",
-     "SMGME.3.1.3",
-     "SMGME.3.1.4",
-     "SMGME.3.1.5",
-     "SMGME.3.2.1",
-     "SMGME.3.2.2",
-     "SMGME.3.2.3",
-     "SMGME.4.1.1",
-     "SMGME.4.1.2",
-     "SMGME.4.1.3",
-     "SMGME.4.1.4",
-     "SMGME.4.1.5",
-     "SMGME.4.2.1",
-     "SMGME.4.2.2",
-     "SMGME.4.2.3",
-     "SMGME.4.2.4",
-     "SMGME.4.2.5"
-    ]
-   }
-  ]
+  "units": 8,
+  "outcomes": 36,
+  "components": 109,
+  "orphan_outcomes": 0,
+  "gaps": []
  }
 }

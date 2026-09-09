@@ -211,7 +211,7 @@
   "gaps": [
    {
     "course": "Çoklu Yabancı Dil Eğitim Modeli Almanca",
-    "reason": "ünitesi bulunamayan çıktı",
+    "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
      "DE.5.1",
      "DE.5.2",
@@ -232,11 +232,7 @@
      "DE.7.5",
      "DE.7.6",
      "DE.8.1",
-     "DE.8.2",
-     "DE.8.3",
-     "DE.8.4",
-     "DE.8.5",
-     "DE.8.6"
+     "DE.8.2"
     ]
    }
   ]

@@ -33,55 +33,67 @@
    },
    "outcomes": [
     {
-     "code": "SB.4.1.1",
+     "code": "SB.5.1.1",
      "order": 1,
-     "text": "Sosyal bilgiler dersinin hayatına sunacağı katkıları öğrenciye kazandırılması amaçlanan bilÖĞRENME ÇIKTILARI gi, beceri ve becerilerin süreç bileşenleVE yorumlayabilme rini ifade eder. SÜREÇ BİLEŞENLERİ a) Örnek olaylardan hareketle sosyal bilgiler dersinin bireysel ve toplumsal katkılarını inceler.",
+     "text": "Dâhil olduğu gruplar ve bu gruplardaki rolleri arasındaki ilişkileri çözümleyebilme",
      "components": [
       {
-       "label": "b",
-       "text": "Sosyal bilgiler dersinin bireysel ve toplumsal katkılarını bağlamdan kopmadan dönüştürür."
+       "label": "a",
+       "text": "Dâhil olduğu grupları ve bu gruplardaki rollerini belirler."
       },
       {
-       "label": "c",
-       "text": "Sosyal bilgiler dersinin bireysel ve toplumsal katkılarını nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder. Öğrenme-öğretme sürecinde ele"
+       "label": "b",
+       "text": "Dâhil olduğu gruplar ile bu gruplardaki rolleri arasındaki ilişkileri belirler."
       }
      ]
     },
     {
-     "code": "SB.4.1.2",
+     "code": "SB.5.1.2",
      "order": 2,
-     "text": "Bireysel özelliklere saygı duymayı hayatına yansıtabilme",
+     "text": "Kültürel özelliklere saygı duymanın birlikte yaşamaya etkisini yorumlayabilme",
      "components": [
       {
        "label": "a",
-       "text": "Bireysel özelliklere ilişkin deneyimlerini gözden geçirir."
+       "text": "Kültürel özelliklere saygı duymanın birlikte yaşamaya etkisini örnekler üzerinden inceler."
       },
       {
        "label": "b",
-       "text": "Bireysel özelliklere saygı duymanın önemine ilişkin çıkarım yapar."
+       "text": "Kültürel özelliklere saygı duymanın birlikte yaşamaya etkisini yazılı, görsel veya dijital ürünlere dönüştürür."
       },
       {
        "label": "c",
-       "text": "Bireysel özelliklere saygı duymanın önemine ilişkin ulaştığı çıkarımları değerlendirir."
+       "text": "Kültürel özelliklere saygı duymanın birlikte yaşamaya etkisini ifade eder."
       }
      ]
     },
     {
-     "code": "SB.4.1.3",
+     "code": "SB.5.1.3",
      "order": 3,
-     "text": "Toplumsal birliği sürdürmeye yönelik fikir üretebilme",
+     "text": "Toplumsal birliği sürdürmeye yönelik yardımlaşma ve dayanışma faaliyetlerine katkı sağlayabilme",
      "components": [
       {
        "label": "a",
-       "text": "Aile, sınıf ve okul ortamında toplumsal birliği sürdürmenin bir gereklilik olduğunu fark eder."
+       "text": "Toplumsal birliği sürdürmeye yönelik yardımlaşma ve dayanışma faaliyetlerini sorgular."
       },
       {
        "label": "b",
-       "text": "Aile, sınıf ve okul ortamında toplumsal birliği sürdürmeye katkıda bulunan benzer örnekleri inceler."
+       "text": "Toplumsal birliği sürdürmeye yönelik yardımlaşma ve dayanışma faaliyetleri için sosyal temas oluşturur."
       },
       {
        "label": "c",
-       "text": "Aile, sınıf ve okul ortamında toplumsal birliği sürdürmeye yönelik fikir üretir."
+       "text": "Toplumsal birliği sürdürmeye yönelik yardımlaşma ve dayanışma faaliyetleri için grup dinamiğini sağlar."
+      },
+      {
+       "label": "ç",
+       "text": "Toplumsal birliği sürdürmeye yönelik yardımlaşma ve dayanışma faaliyetleri için fikir üretir."
+      },
+      {
+       "label": "d",
+       "text": "Toplumsal birliği sürdürmeye yönelik yardımlaşma ve dayanışma faaliyetlerine ilişkin üretilen fikirleri müzakere eder."
+      },
+      {
+       "label": "e",
+       "text": "Toplumsal birliği sürdürmeye yönelik yardımlaşma ve dayanışma faaliyetlerine ilişkin üretilen fikri eyleme dönüştürür."
       }
      ]
     }
@@ -480,67 +492,75 @@
    },
    "outcomes": [
     {
-     "code": "SB.5.1.1",
+     "code": "SB.6.1.1",
      "order": 1,
-     "text": "Dâhil olduğu gruplar ve bu gruplardaki rolleri arasındaki ilişkileri çözümleyebilme",
+     "text": "Dâhil olduğu grupların ve bu gruplardaki rollerinin zaman içerisinde değişebileceğine ilişkin çıkarım yapabilme",
      "components": [
       {
        "label": "a",
-       "text": "Dâhil olduğu grupları ve bu gruplardaki rollerini belirler."
+       "text": "Dâhil olduğu gruplar ve bu gruplardaki rollerinin zaman içerisinde değişebileceğine ilişkin varsayımda bulunur."
       },
       {
        "label": "b",
-       "text": "Dâhil olduğu gruplar ile bu gruplardaki rolleri arasındaki ilişkileri belirler."
-      }
-     ]
-    },
-    {
-     "code": "SB.5.1.2",
-     "order": 2,
-     "text": "Kültürel özelliklere saygı duymanın birlikte yaşamaya etkisini yorumlayabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Kültürel özelliklere saygı duymanın birlikte yaşamaya etkisini örnekler üzerinden inceler."
-      },
-      {
-       "label": "b",
-       "text": "Kültürel özelliklere saygı duymanın birlikte yaşamaya etkisini yazılı, görsel veya dijital ürünlere dönüştürür."
+       "text": "Farklı grupları ve bu gruplardaki rolleri listeler."
       },
       {
        "label": "c",
-       "text": "Kültürel özelliklere saygı duymanın birlikte yaşamaya etkisini ifade eder."
-      }
-     ]
-    },
-    {
-     "code": "SB.5.1.3",
-     "order": 3,
-     "text": "Toplumsal birliği sürdürmeye yönelik yardımlaşma ve dayanışma faaliyetlerine katkı sağlayabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Toplumsal birliği sürdürmeye yönelik yardımlaşma ve dayanışma faaliyetlerini sorgular."
-      },
-      {
-       "label": "b",
-       "text": "Toplumsal birliği sürdürmeye yönelik yardımlaşma ve dayanışma faaliyetleri için sosyal temas oluşturur."
-      },
-      {
-       "label": "c",
-       "text": "Toplumsal birliği sürdürmeye yönelik yardımlaşma ve dayanışma faaliyetleri için grup dinamiğini sağlar."
+       "text": "Farklı grupları ve bu gruplardaki rolleri karşılaştırır."
       },
       {
        "label": "ç",
-       "text": "Toplumsal birliği sürdürmeye yönelik yardımlaşma ve dayanışma faaliyetleri için fikir üretir."
+       "text": "Gelecekte dâhil olabileceği gruplar ve roller ile ilgili önermede bulunur."
       },
       {
        "label": "d",
-       "text": "Toplumsal birliği sürdürmeye yönelik yardımlaşma ve dayanışma faaliyetlerine ilişkin üretilen fikirleri müzakere eder."
+       "text": "Dâhil olduğu grupların ve bu gruplardaki rollerinin zaman içinde değişebileceğini değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "SB.6.1.2",
+     "order": 2,
+     "text": "Kültürel bağlarımızın ve millî değerlerimizin toplumsal birliğe etkisini yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kültürel bağlarımızın ve millî değerlerimizin toplumsal birliğe etkisini inceler."
       },
       {
-       "label": "e",
-       "text": "Toplumsal birliği sürdürmeye yönelik yardımlaşma ve dayanışma faaliyetlerine ilişkin üretilen fikri eyleme dönüştürür."
+       "label": "b",
+       "text": "Kültürel bağlarımızın ve millî değerlerimizin toplumsal birliğe etkisine ilişkin edindiği bilgileri bağlamdan kopmadan dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Kültürel bağlarımızın ve millî değerlerimizin toplumsal birliğe etkisini nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "SB.6.1.3",
+     "order": 3,
+     "text": "Toplumsal hayatta karşılaşılan sorunlara yönelik çözüm önerilerini müzakere edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Toplumsal hayatta karşılaşılan sorunları fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Toplumsal hayatta karşılaşılan sorunların nedenlerine yönelik farklı bakış açılarını karşılaştırır."
+      },
+      {
+       "label": "c",
+       "text": "Toplumsal hayatta karşılaşılan sorunlara yönelik çözüm önerileri geliştirir."
+      },
+      {
+       "label": "ç",
+       "text": "Toplumsal hayatta karşılaşılan sorunlara yönelik çözüm önerilerini farklı görüş ve düşünceleri dikkate alarak düzenler."
+      },
+      {
+       "label": "d",
+       "text": "Toplumsal hayatta karşılaşılan sorunlara yönelik çözüm önerilerini savunur."
       }
      ]
     }
@@ -1019,75 +1039,75 @@
    },
    "outcomes": [
     {
-     "code": "SB.6.1.1",
+     "code": "SB.7.1.1",
      "order": 1,
-     "text": "Dâhil olduğu grupların ve bu gruplardaki rollerinin zaman içerisinde değişebileceğine ilişkin çıkarım yapabilme",
+     "text": "Dâhil olduğu gruplarda ve sosyal hayatta etkili iletişimin önemini sorgulayabilme",
      "components": [
       {
        "label": "a",
-       "text": "Dâhil olduğu gruplar ve bu gruplardaki rollerinin zaman içerisinde değişebileceğine ilişkin varsayımda bulunur."
+       "text": "Dâhil olduğu gruplarda ve sosyal hayatta etkili iletişimin önemi ile ilgili merak ettiği konuları tanımlar."
       },
       {
        "label": "b",
-       "text": "Farklı grupları ve bu gruplardaki rolleri listeler."
+       "text": "Dâhil olduğu gruplarda ve sosyal hayatta etkili iletişimin önemi ile ilgili sorular sorar."
       },
       {
        "label": "c",
-       "text": "Farklı grupları ve bu gruplardaki rolleri karşılaştırır."
+       "text": "Dâhil olduğu gruplarda ve sosyal hayatta etkili iletişimin önemi ile ilgili bilgi toplar."
       },
       {
        "label": "ç",
-       "text": "Gelecekte dâhil olabileceği gruplar ve roller ile ilgili önermede bulunur."
+       "text": "Dâhil olduğu gruplarda ve sosyal hayatta etkili iletişimin önemi ile ilgili topladığı bilgilerin doğruluğunu değerlendirir."
       },
       {
        "label": "d",
-       "text": "Dâhil olduğu grupların ve bu gruplardaki rollerinin zaman içinde değişebileceğini değerlendirir."
+       "text": "Yapmış olduğu değerlendirmelerden hareketle olumlu iletişimin önemine yönelik çıkarım yapar."
       }
      ]
     },
     {
-     "code": "SB.6.1.2",
+     "code": "SB.7.1.2",
      "order": 2,
-     "text": "Kültürel bağlarımızın ve millî değerlerimizin toplumsal birliğe etkisini yorumlayabilme",
+     "text": "Özel gereksinimli bireyler için fırsat eşitliğini sürdürmeye yönelik fikir üretebilme",
      "components": [
       {
        "label": "a",
-       "text": "Kültürel bağlarımızın ve millî değerlerimizin toplumsal birliğe etkisini inceler."
+       "text": "Özel gereksinimli bireyler için fırsat eşitliğini sürdürmenin önemini fark eder."
       },
       {
        "label": "b",
-       "text": "Kültürel bağlarımızın ve millî değerlerimizin toplumsal birliğe etkisine ilişkin edindiği bilgileri bağlamdan kopmadan dönüştürür."
+       "text": "Özel gereksinimli bireyler için fırsat eşitliğini sürdürmeye yönelik benzer girişimleri inceler."
       },
       {
        "label": "c",
-       "text": "Kültürel bağlarımızın ve millî değerlerimizin toplumsal birliğe etkisini nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder."
+       "text": "Özel gereksinimli bireyler için fırsat eşitliğini sürdürmeye yönelik yeni fikirler üretir."
       }
      ]
     },
     {
-     "code": "SB.6.1.3",
+     "code": "SB.7.1.3",
      "order": 3,
-     "text": "Toplumsal hayatta karşılaşılan sorunlara yönelik çözüm önerilerini müzakere edebilme",
+     "text": "Türk toplumunun millî meseleler karşısında gösterdiği tutum ve davranışlara ilişkin çıkarım yapabilme",
      "components": [
       {
        "label": "a",
-       "text": "Toplumsal hayatta karşılaşılan sorunları fark eder."
+       "text": "Türk toplumunun millî meseleler karşısında gösterdiği tutum ve davranışlara ilişkin varsayımlarda bulunur."
       },
       {
        "label": "b",
-       "text": "Toplumsal hayatta karşılaşılan sorunların nedenlerine yönelik farklı bakış açılarını karşılaştırır."
+       "text": "Türk toplumunun millî meseleler karşısında gösterdiği tutum ve davranışlara ilişkin örnekleri listeler."
       },
       {
        "label": "c",
-       "text": "Toplumsal hayatta karşılaşılan sorunlara yönelik çözüm önerileri geliştirir."
+       "text": "Türk toplumunun millî meseleler karşısında gösterdiği tutum ve davranışları karşılaştırır."
       },
       {
        "label": "ç",
-       "text": "Toplumsal hayatta karşılaşılan sorunlara yönelik çözüm önerilerini farklı görüş ve düşünceleri dikkate alarak düzenler."
+       "text": "Türk toplumunun oluşabilecek farklı millî meseleler karşısında gösterebileceği tutum ve davranışlara ilişkin önermelerde bulunur."
       },
       {
        "label": "d",
-       "text": "Toplumsal hayatta karşılaşılan sorunlara yönelik çözüm önerilerini savunur."
+       "text": "Türk toplumunun millî meseleler karşısında gösterdiği tutum ve davranışları toplumsal birlikteliğe etkisi açısından değerlendirir."
       }
      ]
     }
@@ -1529,75 +1549,59 @@
    },
    "outcomes": [
     {
-     "code": "SB.7.1.1",
+     "code": "SB.4.1.1",
      "order": 1,
-     "text": "Dâhil olduğu gruplarda ve sosyal hayatta etkili iletişimin önemini sorgulayabilme",
+     "text": "Sosyal bilgiler dersinin hayatına sunacağı katkıları öğrenciye kazandırılması amaçlanan bilÖĞRENME ÇIKTILARI gi, beceri ve becerilerin süreç bileşenleVE yorumlayabilme rini ifade eder. SÜREÇ BİLEŞENLERİ a) Örnek olaylardan hareketle sosyal bilgiler dersinin bireysel ve toplumsal katkılarını inceler.",
      "components": [
       {
        "label": "a",
-       "text": "Dâhil olduğu gruplarda ve sosyal hayatta etkili iletişimin önemi ile ilgili merak ettiği konuları tanımlar."
+       "text": "Örnek olaylardan hareketle sosyal bilgiler dersinin bireysel ve toplumsal katkılarını inceler."
       },
       {
        "label": "b",
-       "text": "Dâhil olduğu gruplarda ve sosyal hayatta etkili iletişimin önemi ile ilgili sorular sorar."
+       "text": "Sosyal bilgiler dersinin bireysel ve toplumsal katkılarını bağlamdan kopmadan dönüştürür."
       },
       {
        "label": "c",
-       "text": "Dâhil olduğu gruplarda ve sosyal hayatta etkili iletişimin önemi ile ilgili bilgi toplar."
-      },
-      {
-       "label": "ç",
-       "text": "Dâhil olduğu gruplarda ve sosyal hayatta etkili iletişimin önemi ile ilgili topladığı bilgilerin doğruluğunu değerlendirir."
-      },
-      {
-       "label": "d",
-       "text": "Yapmış olduğu değerlendirmelerden hareketle olumlu iletişimin önemine yönelik çıkarım yapar."
+       "text": "Sosyal bilgiler dersinin bireysel ve toplumsal katkılarını nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder."
       }
      ]
     },
     {
-     "code": "SB.7.1.2",
+     "code": "SB.4.1.2",
      "order": 2,
-     "text": "Özel gereksinimli bireyler için fırsat eşitliğini sürdürmeye yönelik fikir üretebilme",
+     "text": "Bireysel özelliklere saygı duymayı hayatına yansıtabilme",
      "components": [
       {
        "label": "a",
-       "text": "Özel gereksinimli bireyler için fırsat eşitliğini sürdürmenin önemini fark eder."
+       "text": "Bireysel özelliklere ilişkin deneyimlerini gözden geçirir."
       },
       {
        "label": "b",
-       "text": "Özel gereksinimli bireyler için fırsat eşitliğini sürdürmeye yönelik benzer girişimleri inceler."
+       "text": "Bireysel özelliklere saygı duymanın önemine ilişkin çıkarım yapar."
       },
       {
        "label": "c",
-       "text": "Özel gereksinimli bireyler için fırsat eşitliğini sürdürmeye yönelik yeni fikirler üretir."
+       "text": "Bireysel özelliklere saygı duymanın önemine ilişkin ulaştığı çıkarımları değerlendirir."
       }
      ]
     },
     {
-     "code": "SB.7.1.3",
+     "code": "SB.4.1.3",
      "order": 3,
-     "text": "Türk toplumunun millî meseleler karşısında gösterdiği tutum ve davranışlara ilişkin çıkarım yapabilme",
+     "text": "Toplumsal birliği sürdürmeye yönelik fikir üretebilme",
      "components": [
       {
        "label": "a",
-       "text": "Türk toplumunun millî meseleler karşısında gösterdiği tutum ve davranışlara ilişkin varsayımlarda bulunur."
+       "text": "Aile, sınıf ve okul ortamında toplumsal birliği sürdürmenin bir gereklilik olduğunu fark eder."
       },
       {
        "label": "b",
-       "text": "Türk toplumunun millî meseleler karşısında gösterdiği tutum ve davranışlara ilişkin örnekleri listeler."
+       "text": "Aile, sınıf ve okul ortamında toplumsal birliği sürdürmeye katkıda bulunan benzer örnekleri inceler."
       },
       {
        "label": "c",
-       "text": "Türk toplumunun millî meseleler karşısında gösterdiği tutum ve davranışları karşılaştırır."
-      },
-      {
-       "label": "ç",
-       "text": "Türk toplumunun oluşabilecek farklı millî meseleler karşısında gösterebileceği tutum ve davranışlara ilişkin önermelerde bulunur."
-      },
-      {
-       "label": "d",
-       "text": "Türk toplumunun millî meseleler karşısında gösterdiği tutum ve davranışları toplumsal birlikteliğe etkisi açısından değerlendirir."
+       "text": "Aile, sınıf ve okul ortamında toplumsal birliği sürdürmeye yönelik fikir üretir."
       }
      ]
     }
@@ -1977,7 +1981,7 @@
  "report": {
   "units": 24,
   "outcomes": 71,
-  "components": 220,
+  "components": 221,
   "orphan_outcomes": 0,
   "gaps": []
  }

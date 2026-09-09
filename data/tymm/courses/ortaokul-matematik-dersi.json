@@ -34,59 +34,6 @@
    },
    "outcomes": [
     {
-     "code": "MAT.5.1.1",
-     "order": 1,
-     "text": "Altı basamaklı sayıları okuma ve yazmayı daha Öğrenme-öğretme yaşantıları çok basamaklı sayılara genelleyebilme sonunda öğrenciye kazandırılması VE amaçlanan bilgi, beceri ve becerilerin SÜREÇ BİLEŞENLERİ a) Günlük hayattaki farklı bağlamlardan yola çısüreç bileşenlerini ifade eder. karak altıdan çok basamaklı sayılar hakkında bilgi toplar. Öğrenme-öğretme sürecinde ele",
-     "components": []
-    },
-    {
-     "code": "MAT.5.1.2",
-     "order": 2,
-     "text": "Doğal sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Problemin içerdiği sayı ve işlem bileşenlerini belirler."
-      },
-      {
-       "label": "b",
-       "text": "Problemde verilenler ile istenenlerin gerektirdiği işlemler arasındaki ilişkiyi belirler."
-      },
-      {
-       "label": "c",
-       "text": "Problem bağlamıyla ilişkili verilenleri uygun matematiksel temsillere dönüştürür."
-      },
-      {
-       "label": "ç",
-       "text": "Problemi matematiksel temsiller kullanarak kendi ifadeleri ile açıklar."
-      },
-      {
-       "label": "d",
-       "text": "Problemin sonucuna ilişkin tahminde bulunur ve işlemleri gerçekleştirmek için stratejiler geliştirir."
-      },
-      {
-       "label": "e",
-       "text": "Belirlenen strateji veya stratejileri çözüm için uygular."
-      },
-      {
-       "label": "f",
-       "text": "Çözüm yollarını kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir."
-      },
-      {
-       "label": "g",
-       "text": "Problemin çözümü için kullandığı veya geliştirdiği stratejileri gözden geçirerek kısa yolları değerlendirir."
-      },
-      {
-       "label": "ğ",
-       "text": "Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller."
-      },
-      {
-       "label": "h",
-       "text": "Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
-      }
-     ]
-    },
-    {
      "code": "MAT.5.1.3",
      "order": 3,
      "text": "Gerçek yaşam durumlarına karşılık gelen kesirleri farklı biçimlerde temsil edebilme",
@@ -707,102 +654,6 @@
     "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden Mısırlıların bir kesri, birim kesirlerin toplamı olarak nasıl yazdıklarına ve bölme işleminden yararlanarak ondalık gösterimleri kesir biçiminde nasıl ifade ettiklerine yönelik araştırma yapmaları istenebilir. Uzunluk ölçme birimlerinin diğer disiplinlerde kullanım alanlarını keşfetmesine yönelik araştırma görevi verilebilir. Kesir, ondalık ve yüzde gösterimleri ile ilgili gerçek yaşam problemleri verilerek çözümleri tartışılabilir. Örneğin 150 birimkarelik bir evin kullanım alanlarının öğrencilere göre en verimli büyüklüklerini yüzde ile belirlemeleri ve hesaplamaları istenebilir. Problemin çözüm sürecinde ortaya çıkan büyüklükleri kesir ve ondalık gösterimler ile ifade etmeleri istenebilir. Elde edilen büyüklüklerin uygun olup olmadığı tartışılır ve tartışma sonucunda kullanım alanlarıyla eşleştirilen yüzdelikler manipüle edilerek yeni büyüklükler karşılaştırılabilir. Bu süreçte elektronik tablodan yararlanılabilir. ORTAOKUL MATEMATİK DERSİ ÖĞRETİM PROGRAMI Destekleme Uzunluk ölçme, ondalık gösterimlerin çözümlenmesi, basamak değerleri, kesir ve bölme ilişkisine yönelik çevrim içi oyunlar kullanılabilir. Kesir, ondalık ve yüzde gösterimleri ile ilgili problem çözümlerinde öğrencilerin yakın çevrelerinden, ilgi alanlarından problem bağlamları seçilebilir. Örneğin ondalık gösterimler ile işlemlerde para bağlamı (125,5 TL paramın onda biri kadar borcum varsa kaç liram kalır?) seçilebilir. Ayrıca problemler kolaydan zora doğru hazırlanarak çözüm süreçlerinde öğrencilere bireysel destek verilebilir ve çözümlerine anlık geri bildirimler yapılabilir. Bu süreçte grup çalışmalarından da yararlanılabilir. Öğrencilerin grup tartışmalarına aktif katılımı teşvik edilerek düşüncelerini açıklamalarına fırsat verilebilir. Öğrencilerin bireysel ya da grup çalışmalarına yönelik günlük tutmaları sağlanarak düşünceleri hakkında fikir sahibi olunabilir. Öğrenme çıktıları görsel, işitsel, dokunsal veya dijital materyallerle desteklenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL MATEMATİK DERSİ ÖĞRETİM PROGRAMI"
    },
    "outcomes": [
-    {
-     "code": "MAT.6.1.1",
-     "order": 1,
-     "text": "Karşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Karşılaştığı durumlarda bir doğal sayının çarpan ve katlarına yönelik varsayımlarda bulunur."
-      },
-      {
-       "label": "b",
-       "text": "Varsayımına yönelik örnek durumların içerdiği ilişkileri inceleyerek bir doğal sayının çarpan ve katlarına ilişkin genellemeleri belirler."
-      },
-      {
-       "label": "c",
-       "text": "Elde ettiği genellemelerin varsayımını karşılayıp karşılamadığını çeşitli modellerle gösterir."
-      },
-      {
-       "label": "ç",
-       "text": "Varsayımı ile ilgili ulaştığı sonuca yönelik doğrulayabileceği matematiksel bir önermeyi sözel ya da sembolik temsil ile sunar."
-      },
-      {
-       "label": "d",
-       "text": "Farklı problemlerin pratik yoldan çözümüne yönelik oluşturduğu önermenin gerekçelerini sunar."
-      },
-      {
-       "label": "e",
-       "text": "Önermenin geçerliliğini destekleyen kapsayıcı örnekler verir."
-      },
-      {
-       "label": "f",
-       "text": "İşe koştuğu doğrulamanın benzer önermelere uygulanıp uygulanamayacağını değerlendirir."
-      }
-     ]
-    },
-    {
-     "code": "MAT.6.1.2",
-     "order": 2,
-     "text": "Bir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Bir doğal sayının katlarını veya basamak değerlerini dikkate alarak 2, 3, 4, 5, 6, 9 ve 10’a tam bölünebilme kriterleri ile ilgili varsayımlarda bulunur."
-      },
-      {
-       "label": "b",
-       "text": "2, 3, 4, 5, 6, 9 ve 10’un katlarını ve basamak değerlerini inceleyerek genellemeleri belirler."
-      },
-      {
-       "label": "c",
-       "text": "Elde ettiği genellemelerin, varsayımını karşılayıp karşılamadığını örnekler ile sınar."
-      },
-      {
-       "label": "ç",
-       "text": "Bir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilmesindeki kriterlere ilişkin önerme sunar."
-      },
-      {
-       "label": "d",
-       "text": "Bir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilmesindeki kriterlerin farklı durumlarda kullanışlılığını değerlendirir."
-      }
-     ]
-    },
-    {
-     "code": "MAT.6.1.3",
-     "order": 3,
-     "text": "Bir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Bir doğal sayının asal olup olmadığını ve asal çarpanlarını belirler."
-      },
-      {
-       "label": "b",
-       "text": "Asal sayıların özelliklerini ve bir doğal sayı ile asal çarpanları arasındaki ilişkileri belirler."
-      }
-     ]
-    },
-    {
-     "code": "MAT.6.1.4",
-     "order": 4,
-     "text": "Günlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Problemlerde ya da matematiksel durumlarda verilen iki sayının ortak katlarını ve ortak bölenlerini inceler."
-      },
-      {
-       "label": "b",
-       "text": "İncelediği ortak kat veya ortak bölen ilişkilerini çizim, tablo ve sayı doğrusu gibi matematiksel temsillerle ifade eder."
-      },
-      {
-       "label": "c",
-       "text": "İki sayının ortak katlarını ve ortak bölenlerini kendi ifadelerini kullanarak açıklar. ORTAOKUL MATEMATİK DERSİ ÖĞRETİM PROGRAMI"
-      }
-     ]
-    },
     {
      "code": "MAT.6.1.5",
      "order": 5,
@@ -1592,115 +1443,6 @@
        "text": "Genellemelerin geçerliliğini değerlendirir."
       }
      ]
-    },
-    {
-     "code": "MAT.7.1.5",
-     "order": 5,
-     "text": "Gerçek yaşam durumları üzerinden oran ilişkileri hakkında muhakeme yapabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Gerçek yaşam durumları üzerinden iki niceliğin karşılaştırılmasında toplamsal (mutlak) ve çarpımsal (bağıl) ilişkileri ayırt eder."
-      },
-      {
-       "label": "b",
-       "text": "Gerçek yaşam durumları üzerinden oranın iki niceliğin çarpımsal ilişkiler kurularak karşılaştırılması olduğunu belirler."
-      },
-      {
-       "label": "c",
-       "text": "Çözümlediği gerçek yaşam durumlarının içerdiği oranı birimli ve birimsiz oran olarak ifade eder."
-      },
-      {
-       "label": "ç",
-       "text": "Birimli ve birimsiz oranı kendi ifadeleriyle açıklar."
-      },
-      {
-       "label": "d",
-       "text": "Yorumladığı gerçek yaşam durumundaki ilişkilere dayalı olarak denk orana ve birim orana ilişkin varsayımlarda bulunur."
-      },
-      {
-       "label": "e",
-       "text": "Varsayımındaki örneklere ait ilişkileri inceleyerek denk oran ve birim orana ilişkin genellemeleri belirler."
-      },
-      {
-       "label": "f",
-       "text": "Elde ettiği genellemelerin varsayımını karşılayıp karşılamadığını çeşitli temsiller (oran tabloları, çubuk diyagramı, çift sayı doğrusu, grafik, somut materyaller) ile sınar."
-      },
-      {
-       "label": "g",
-       "text": "Varsayımı ile ilgili ulaştığı sonuca yönelik doğrulayabileceği matematiksel bir önermeyi sunar."
-      },
-      {
-       "label": "ğ",
-       "text": "Sunduğu önermenin katkısına yönelik gerekçeler sunar."
-      }
-     ]
-    },
-    {
-     "code": "MAT.7.1.6",
-     "order": 6,
-     "text": "Gerçek yaşam durumları üzerinden orantılı durumları yorumlayabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Gerçek yaşam durumlarında iki durumun orantılı olup olmadığını inceler."
-      },
-      {
-       "label": "b",
-       "text": "Orantılı olan iki durumun ilişkisini temsiller ile ifade eder."
-      },
-      {
-       "label": "c",
-       "text": "Orantı kavramını kendi ifadeleriyle yeniden açıklar."
-      }
-     ]
-    },
-    {
-     "code": "MAT.7.1.7",
-     "order": 7,
-     "text": "Gerçek yaşam durumları üzerinden doğru orantılı durumlara ilişkin problemleri çözebilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Doğru orantılı durumlara ilişkin problemlerde nicelikleri belirler."
-      },
-      {
-       "label": "b",
-       "text": "Doğru orantılı durumlar arasındaki ilişkileri belirler."
-      },
-      {
-       "label": "c",
-       "text": "Bu ilişkileri tablo ve grafik temsillerine dönüştürür."
-      },
-      {
-       "label": "ç",
-       "text": "Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder."
-      },
-      {
-       "label": "d",
-       "text": "Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için stratejiler oluşturur."
-      },
-      {
-       "label": "e",
-       "text": "Belirlediği stratejileri kullanır."
-      },
-      {
-       "label": "f",
-       "text": "Elde ettiği çözümü farklı stratejileri kullanarak doğrular."
-      },
-      {
-       "label": "g",
-       "text": "Problemin olası farklı çözüm stratejilerini inceler."
-      },
-      {
-       "label": "ğ",
-       "text": "Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller."
-      },
-      {
-       "label": "h",
-       "text": "Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
-      }
-     ]
     }
    ]
   },
@@ -2061,118 +1803,6 @@
       {
        "label": "h",
        "text": "Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
-      }
-     ]
-    },
-    {
-     "code": "MAT.7.4.7",
-     "order": 7,
-     "text": "Dikdörtgenin, paralelkenarın alanına ve çemberin uzunluğuna ilişkin deneyimlerini dairenin alan bağıntısına yansıtabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Dikdörtgenin, paralelkenarın alanı ve çemberin uzunluğuna yönelik deneyimlerini gözden geçirir."
-      },
-      {
-       "label": "b",
-       "text": "Dikdörtgenin alan bağıntısı ve çemberin uzunluğundan yola çıkarak dairenin alan bağıntısına yönelik çıkarım yapar."
-      },
-      {
-       "label": "c",
-       "text": "Çıkarımını farklı örnekler üzerinden değerlendirir."
-      }
-     ]
-    },
-    {
-     "code": "MAT.7.4.8",
-     "order": 8,
-     "text": "Çemberde merkez açı ve gördüğü yay uzunluğu arasındaki ilişkiden yola çıkarak daire ve daire diliminin alanları arasındaki ilişkiye yönelik analojik akıl yürütebilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Çemberde merkez açı ve gördüğü yay uzunluğu ile daire ve daire diliminin alanı arasındaki ilişkileri gözlemler."
-      },
-      {
-       "label": "b",
-       "text": "Çemberde merkez açı ve gördüğü yay uzunluğu ile daire ve daire diliminin alanı arasındaki ilişkiyi tespit eder."
-      },
-      {
-       "label": "c",
-       "text": "Çemberde merkez açı ve gördüğü yay uzunluğuyla daire ve daire diliminin alanı arasında kurulan ilişkiden hareketle daire diliminin alanına dair çıkarım yapar."
-      }
-     ]
-    },
-    {
-     "code": "MAT.7.4.9",
-     "order": 9,
-     "text": "Eşkenar dörtgen ve yamuğun alan bağıntılarına dair çıkarım yapabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Dikdörtgen, paralelkenar ve üçgenin alan bağıntısına dair ön bilgisiyle eşkenar dörtgenin ve yamuğun alan hesabına yönelik varsayımda bulunur."
-      },
-      {
-       "label": "b",
-       "text": "Eşkenar dörtgeni ve yamuğu parçalayarak veya tamamlayarak oluşturduğu geometrik şekillerin alanlarını belirler."
-      },
-      {
-       "label": "c",
-       "text": "Oluşturulan geometrik şekillerin alanlarını varsayımlarıyla karşılaştırır."
-      },
-      {
-       "label": "ç",
-       "text": "Eşkenar dörtgenin ve yamuğun alan bağıntılarına dair önermeler sunar."
-      },
-      {
-       "label": "d",
-       "text": "Çeşitli geometrik şekillerin alanlarının hesaplanmasında eşkenar dörtgenin ve yamuğun alan bağıntılarının katkılarını değerlendirir."
-      }
-     ]
-    },
-    {
-     "code": "MAT.7.4.10",
-     "order": 10,
-     "text": "Günlük hayat durumlarında daire, daire dilimi, eşkenar dörtgen ve yamuğun alanına ilişkin problem çözebilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Günlük hayat durumlarında daire, daire dilimi, eşkenar dörtgen ve yamuğun alanlarına ilişkin problemde ilgili matematiksel bileşenleri (şekil, uzunluk, alan, açı, köşegen, yarıçap, yükseklik gibi) belirler."
-      },
-      {
-       "label": "b",
-       "text": "Matematiksel bileşenler arasındaki ilişkileri belirler."
-      },
-      {
-       "label": "c",
-       "text": "Problem bağlamındaki temsilleri farklı temsillere dönüştürür."
-      },
-      {
-       "label": "ç",
-       "text": "Matematiksel temsillere dönüştürdüğü problemi kendi ifadeleri ile açıklar."
-      },
-      {
-       "label": "d",
-       "text": "Problemin sonucuna ilişkin tahminde bulunur ve işlemleri gerçekleştirmek için stratejiler geliştirir."
-      },
-      {
-       "label": "e",
-       "text": "Belirlenen stratejileri çözüm için uygular."
-      },
-      {
-       "label": "f",
-       "text": "Çözüm yollarını kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir."
-      },
-      {
-       "label": "g",
-       "text": "Problemin çözümü için kullandığı veya geliştirdiği stratejileri gözden geçirerek alternatif çözüm yollarını değerlendirir."
-      },
-      {
-       "label": "ğ",
-       "text": "Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller."
-      },
-      {
-       "label": "h",
-       "text": "Genellemenin geçerliliğini matematiksel örneklerle değerlendirir. ORTAOKUL MATEMATİK DERSİ ÖĞRETİM PROGRAMI"
       }
      ]
     }
@@ -3129,12 +2759,429 @@
    ]
   }
  ],
- "unassigned_outcomes": [],
+ "unassigned_outcomes": [
+  {
+   "code": "MAT.5.1.1",
+   "grade": 5,
+   "unit": 1,
+   "order": 1,
+   "text": "Altı basamaklı sayıları okuma ve yazmayı daha Öğrenme-öğretme yaşantıları çok basamaklı sayılara genelleyebilme sonunda öğrenciye kazandırılması VE amaçlanan bilgi, beceri ve becerilerin SÜREÇ BİLEŞENLERİ a) Günlük hayattaki farklı bağlamlardan yola çısüreç bileşenlerini ifade eder. karak altıdan çok basamaklı sayılar hakkında bilgi toplar. Öğrenme-öğretme sürecinde ele",
+   "components": []
+  },
+  {
+   "code": "MAT.5.1.2",
+   "grade": 5,
+   "unit": 1,
+   "order": 2,
+   "text": "Doğal sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Problemin içerdiği sayı ve işlem bileşenlerini belirler."
+    },
+    {
+     "label": "b",
+     "text": "Problemde verilenler ile istenenlerin gerektirdiği işlemler arasındaki ilişkiyi belirler."
+    },
+    {
+     "label": "c",
+     "text": "Problem bağlamıyla ilişkili verilenleri uygun matematiksel temsillere dönüştürür."
+    },
+    {
+     "label": "ç",
+     "text": "Problemi matematiksel temsiller kullanarak kendi ifadeleri ile açıklar."
+    },
+    {
+     "label": "d",
+     "text": "Problemin sonucuna ilişkin tahminde bulunur ve işlemleri gerçekleştirmek için stratejiler geliştirir."
+    },
+    {
+     "label": "e",
+     "text": "Belirlenen strateji veya stratejileri çözüm için uygular."
+    },
+    {
+     "label": "f",
+     "text": "Çözüm yollarını kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir."
+    },
+    {
+     "label": "g",
+     "text": "Problemin çözümü için kullandığı veya geliştirdiği stratejileri gözden geçirerek kısa yolları değerlendirir."
+    },
+    {
+     "label": "ğ",
+     "text": "Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller."
+    },
+    {
+     "label": "h",
+     "text": "Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "MAT.6.1.1",
+   "grade": 6,
+   "unit": 1,
+   "order": 1,
+   "text": "Karşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Karşılaştığı durumlarda bir doğal sayının çarpan ve katlarına yönelik varsayımlarda bulunur."
+    },
+    {
+     "label": "b",
+     "text": "Varsayımına yönelik örnek durumların içerdiği ilişkileri inceleyerek bir doğal sayının çarpan ve katlarına ilişkin genellemeleri belirler."
+    },
+    {
+     "label": "c",
+     "text": "Elde ettiği genellemelerin varsayımını karşılayıp karşılamadığını çeşitli modellerle gösterir."
+    },
+    {
+     "label": "ç",
+     "text": "Varsayımı ile ilgili ulaştığı sonuca yönelik doğrulayabileceği matematiksel bir önermeyi sözel ya da sembolik temsil ile sunar."
+    },
+    {
+     "label": "d",
+     "text": "Farklı problemlerin pratik yoldan çözümüne yönelik oluşturduğu önermenin gerekçelerini sunar."
+    },
+    {
+     "label": "e",
+     "text": "Önermenin geçerliliğini destekleyen kapsayıcı örnekler verir."
+    },
+    {
+     "label": "f",
+     "text": "İşe koştuğu doğrulamanın benzer önermelere uygulanıp uygulanamayacağını değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "MAT.6.1.2",
+   "grade": 6,
+   "unit": 1,
+   "order": 2,
+   "text": "Bir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Bir doğal sayının katlarını veya basamak değerlerini dikkate alarak 2, 3, 4, 5, 6, 9 ve 10’a tam bölünebilme kriterleri ile ilgili varsayımlarda bulunur."
+    },
+    {
+     "label": "b",
+     "text": "2, 3, 4, 5, 6, 9 ve 10’un katlarını ve basamak değerlerini inceleyerek genellemeleri belirler."
+    },
+    {
+     "label": "c",
+     "text": "Elde ettiği genellemelerin, varsayımını karşılayıp karşılamadığını örnekler ile sınar."
+    },
+    {
+     "label": "ç",
+     "text": "Bir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilmesindeki kriterlere ilişkin önerme sunar."
+    },
+    {
+     "label": "d",
+     "text": "Bir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilmesindeki kriterlerin farklı durumlarda kullanışlılığını değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "MAT.6.1.3",
+   "grade": 6,
+   "unit": 1,
+   "order": 3,
+   "text": "Bir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Bir doğal sayının asal olup olmadığını ve asal çarpanlarını belirler."
+    },
+    {
+     "label": "b",
+     "text": "Asal sayıların özelliklerini ve bir doğal sayı ile asal çarpanları arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "MAT.6.1.4",
+   "grade": 6,
+   "unit": 1,
+   "order": 4,
+   "text": "Günlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Problemlerde ya da matematiksel durumlarda verilen iki sayının ortak katlarını ve ortak bölenlerini inceler."
+    },
+    {
+     "label": "b",
+     "text": "İncelediği ortak kat veya ortak bölen ilişkilerini çizim, tablo ve sayı doğrusu gibi matematiksel temsillerle ifade eder."
+    },
+    {
+     "label": "c",
+     "text": "İki sayının ortak katlarını ve ortak bölenlerini kendi ifadelerini kullanarak açıklar. ORTAOKUL MATEMATİK DERSİ ÖĞRETİM PROGRAMI"
+    }
+   ]
+  },
+  {
+   "code": "MAT.7.1.5",
+   "grade": 7,
+   "unit": 1,
+   "order": 5,
+   "text": "Gerçek yaşam durumları üzerinden oran ilişkileri hakkında muhakeme yapabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Gerçek yaşam durumları üzerinden iki niceliğin karşılaştırılmasında toplamsal (mutlak) ve çarpımsal (bağıl) ilişkileri ayırt eder."
+    },
+    {
+     "label": "b",
+     "text": "Gerçek yaşam durumları üzerinden oranın iki niceliğin çarpımsal ilişkiler kurularak karşılaştırılması olduğunu belirler."
+    },
+    {
+     "label": "c",
+     "text": "Çözümlediği gerçek yaşam durumlarının içerdiği oranı birimli ve birimsiz oran olarak ifade eder."
+    },
+    {
+     "label": "ç",
+     "text": "Birimli ve birimsiz oranı kendi ifadeleriyle açıklar."
+    },
+    {
+     "label": "d",
+     "text": "Yorumladığı gerçek yaşam durumundaki ilişkilere dayalı olarak denk orana ve birim orana ilişkin varsayımlarda bulunur."
+    },
+    {
+     "label": "e",
+     "text": "Varsayımındaki örneklere ait ilişkileri inceleyerek denk oran ve birim orana ilişkin genellemeleri belirler."
+    },
+    {
+     "label": "f",
+     "text": "Elde ettiği genellemelerin varsayımını karşılayıp karşılamadığını çeşitli temsiller (oran tabloları, çubuk diyagramı, çift sayı doğrusu, grafik, somut materyaller) ile sınar."
+    },
+    {
+     "label": "g",
+     "text": "Varsayımı ile ilgili ulaştığı sonuca yönelik doğrulayabileceği matematiksel bir önermeyi sunar."
+    },
+    {
+     "label": "ğ",
+     "text": "Sunduğu önermenin katkısına yönelik gerekçeler sunar."
+    }
+   ]
+  },
+  {
+   "code": "MAT.7.1.6",
+   "grade": 7,
+   "unit": 1,
+   "order": 6,
+   "text": "Gerçek yaşam durumları üzerinden orantılı durumları yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Gerçek yaşam durumlarında iki durumun orantılı olup olmadığını inceler."
+    },
+    {
+     "label": "b",
+     "text": "Orantılı olan iki durumun ilişkisini temsiller ile ifade eder."
+    },
+    {
+     "label": "c",
+     "text": "Orantı kavramını kendi ifadeleriyle yeniden açıklar."
+    }
+   ]
+  },
+  {
+   "code": "MAT.7.1.7",
+   "grade": 7,
+   "unit": 1,
+   "order": 7,
+   "text": "Gerçek yaşam durumları üzerinden doğru orantılı durumlara ilişkin problemleri çözebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Doğru orantılı durumlara ilişkin problemlerde nicelikleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Doğru orantılı durumlar arasındaki ilişkileri belirler."
+    },
+    {
+     "label": "c",
+     "text": "Bu ilişkileri tablo ve grafik temsillerine dönüştürür."
+    },
+    {
+     "label": "ç",
+     "text": "Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder."
+    },
+    {
+     "label": "d",
+     "text": "Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için stratejiler oluşturur."
+    },
+    {
+     "label": "e",
+     "text": "Belirlediği stratejileri kullanır."
+    },
+    {
+     "label": "f",
+     "text": "Elde ettiği çözümü farklı stratejileri kullanarak doğrular."
+    },
+    {
+     "label": "g",
+     "text": "Problemin olası farklı çözüm stratejilerini inceler."
+    },
+    {
+     "label": "ğ",
+     "text": "Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller."
+    },
+    {
+     "label": "h",
+     "text": "Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "MAT.7.4.7",
+   "grade": 7,
+   "unit": 4,
+   "order": 7,
+   "text": "Dikdörtgenin, paralelkenarın alanına ve çemberin uzunluğuna ilişkin deneyimlerini dairenin alan bağıntısına yansıtabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dikdörtgenin, paralelkenarın alanı ve çemberin uzunluğuna yönelik deneyimlerini gözden geçirir."
+    },
+    {
+     "label": "b",
+     "text": "Dikdörtgenin alan bağıntısı ve çemberin uzunluğundan yola çıkarak dairenin alan bağıntısına yönelik çıkarım yapar."
+    },
+    {
+     "label": "c",
+     "text": "Çıkarımını farklı örnekler üzerinden değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "MAT.7.4.8",
+   "grade": 7,
+   "unit": 4,
+   "order": 8,
+   "text": "Çemberde merkez açı ve gördüğü yay uzunluğu arasındaki ilişkiden yola çıkarak daire ve daire diliminin alanları arasındaki ilişkiye yönelik analojik akıl yürütebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Çemberde merkez açı ve gördüğü yay uzunluğu ile daire ve daire diliminin alanı arasındaki ilişkileri gözlemler."
+    },
+    {
+     "label": "b",
+     "text": "Çemberde merkez açı ve gördüğü yay uzunluğu ile daire ve daire diliminin alanı arasındaki ilişkiyi tespit eder."
+    },
+    {
+     "label": "c",
+     "text": "Çemberde merkez açı ve gördüğü yay uzunluğuyla daire ve daire diliminin alanı arasında kurulan ilişkiden hareketle daire diliminin alanına dair çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "MAT.7.4.9",
+   "grade": 7,
+   "unit": 4,
+   "order": 9,
+   "text": "Eşkenar dörtgen ve yamuğun alan bağıntılarına dair çıkarım yapabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dikdörtgen, paralelkenar ve üçgenin alan bağıntısına dair ön bilgisiyle eşkenar dörtgenin ve yamuğun alan hesabına yönelik varsayımda bulunur."
+    },
+    {
+     "label": "b",
+     "text": "Eşkenar dörtgeni ve yamuğu parçalayarak veya tamamlayarak oluşturduğu geometrik şekillerin alanlarını belirler."
+    },
+    {
+     "label": "c",
+     "text": "Oluşturulan geometrik şekillerin alanlarını varsayımlarıyla karşılaştırır."
+    },
+    {
+     "label": "ç",
+     "text": "Eşkenar dörtgenin ve yamuğun alan bağıntılarına dair önermeler sunar."
+    },
+    {
+     "label": "d",
+     "text": "Çeşitli geometrik şekillerin alanlarının hesaplanmasında eşkenar dörtgenin ve yamuğun alan bağıntılarının katkılarını değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "MAT.7.4.10",
+   "grade": 7,
+   "unit": 4,
+   "order": 10,
+   "text": "Günlük hayat durumlarında daire, daire dilimi, eşkenar dörtgen ve yamuğun alanına ilişkin problem çözebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Günlük hayat durumlarında daire, daire dilimi, eşkenar dörtgen ve yamuğun alanlarına ilişkin problemde ilgili matematiksel bileşenleri (şekil, uzunluk, alan, açı, köşegen, yarıçap, yükseklik gibi) belirler."
+    },
+    {
+     "label": "b",
+     "text": "Matematiksel bileşenler arasındaki ilişkileri belirler."
+    },
+    {
+     "label": "c",
+     "text": "Problem bağlamındaki temsilleri farklı temsillere dönüştürür."
+    },
+    {
+     "label": "ç",
+     "text": "Matematiksel temsillere dönüştürdüğü problemi kendi ifadeleri ile açıklar."
+    },
+    {
+     "label": "d",
+     "text": "Problemin sonucuna ilişkin tahminde bulunur ve işlemleri gerçekleştirmek için stratejiler geliştirir."
+    },
+    {
+     "label": "e",
+     "text": "Belirlenen stratejileri çözüm için uygular."
+    },
+    {
+     "label": "f",
+     "text": "Çözüm yollarını kontrol eder ve çözüme ulaştırmayan stratejiyi değiştirir."
+    },
+    {
+     "label": "g",
+     "text": "Problemin çözümü için kullandığı veya geliştirdiği stratejileri gözden geçirerek alternatif çözüm yollarını değerlendirir."
+    },
+    {
+     "label": "ğ",
+     "text": "Kullandığı strateji veya stratejileri farklı problemlerin çözümlerine geneller."
+    },
+    {
+     "label": "h",
+     "text": "Genellemenin geçerliliğini matematiksel örneklerle değerlendirir. ORTAOKUL MATEMATİK DERSİ ÖĞRETİM PROGRAMI"
+    }
+   ]
+  }
+ ],
  "report": {
   "units": 26,
-  "outcomes": 100,
-  "components": 444,
-  "orphan_outcomes": 0,
-  "gaps": []
+  "outcomes": 87,
+  "components": 374,
+  "orphan_outcomes": 13,
+  "gaps": [
+   {
+    "course": "Ortaokul Matematik Dersi",
+    "reason": "hiçbir ünite bloğunun içinde değil",
+    "codes": [
+     "MAT.5.1.1",
+     "MAT.5.1.2",
+     "MAT.6.1.1",
+     "MAT.6.1.2",
+     "MAT.6.1.3",
+     "MAT.6.1.4",
+     "MAT.7.1.5",
+     "MAT.7.1.6",
+     "MAT.7.1.7",
+     "MAT.7.4.7",
+     "MAT.7.4.8",
+     "MAT.7.4.9",
+     "MAT.7.4.10"
+    ]
+   }
+  ]
  }
 }

@@ -78,6 +78,10 @@ def parse_units(text: str, prefix: str) -> list[dict]:
     def flush() -> None:
         nonlocal current, section, label_buffer
         if current is not None:
+            # Blok ham metni saklanır: çıktılar anahtarla değil KONUMLA
+            # eşleştirilecek — çıktı hangi bloğun içindeyse o bloğa aittir.
+            current["text"] = "\n".join(current["_lines"])
+            del current["_lines"]
             current["description"] = collapse(current["description"])
             current["sections"] = {k: collapse(v) for k, v in current["sections"].items()}
             units.append(current)
@@ -103,11 +107,13 @@ def parse_units(text: str, prefix: str) -> list[dict]:
                 "description": "",
                 "lesson_hours": None,
                 "sections": {},
+                "_lines": [],
             }
             continue
 
         if current is None:
             continue
+        current["_lines"].append(line)
 
         hours_hit = HOURS_RE.match(line)
         if hours_hit:
@@ -150,8 +156,16 @@ def parse_units(text: str, prefix: str) -> list[dict]:
     # "SINIF DÜZEYLERİNE AİT" ifadesi 110 dersin yalnız 39'unda var. Bunun
     # yerine en dolgun blok kazanır — çıktı ve beceri ayrıştırıcılarında da
     # kullanılan strateji.
-    richest: dict[tuple[int | None, int], dict] = {}
+    # Sınıfı OLMAYAN bloklar tekilleştirilmez. Bazı belgelerde "N. SINIF"
+    # satırı hiç geçmiyor; o zaman 5./6./7. sınıfın TEMA 1'leri aynı
+    # (None, 1) anahtarına düşer ve üçü birden teke inerdi — gerçek ünite
+    # blokları kaybolurdu.
+    ungraded = [u for u in units if u["grade"] is None]
+
+    richest: dict[tuple[int, int], dict] = {}
     for unit in units:
+        if unit["grade"] is None:
+            continue
         key = (unit["grade"], unit["unit"])
         score = len(unit["sections"]) * 1000 + len(unit["description"])
         previous = richest.get(key)
@@ -160,7 +174,5 @@ def parse_units(text: str, prefix: str) -> list[dict]:
     for unit in richest.values():
         unit.pop("_score", None)
 
-    return sorted(
-        richest.values(),
-        key=lambda u: (u["grade"] if u["grade"] is not None else 0, u["unit"]),
-    )
+    graded = sorted(richest.values(), key=lambda u: (u["grade"], u["unit"]))
+    return graded + ungraded

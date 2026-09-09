@@ -277,5 +277,94 @@ class TruncatedReferenceTest(unittest.TestCase):
         self.assertEqual(sum(len(o["components"]) for o in outcomes), 2)
 
 
+# Bazı belgelerde "N. SINIF" satırı HİÇ geçmiyor (Ortaokul Matematik ve Bilim
+# Uygulamaları). O zaman her ünite bloğu grade=None alıyor ve (grade, unit)
+# anahtarıyla tekilleştirme 5./6./7. sınıfın TEMA 1'lerini tek bloğa
+# çakıştırıp üçünü atıyordu. Sınıf yoksa tekilleştirme YAPILMAZ.
+NO_GRADE_MARKER = """1. TEMA: GÜNLÜK HAYATTA MATEMATİK
+Beşinci sınıf teması.
+DERS SAATİ 16
+İÇERİK ÇERÇEVESİ      Beşinci sınıf içeriği
+1. TEMA: GÜNLÜK HAYATTA MATEMATİK
+Altıncı sınıf teması.
+DERS SAATİ 14
+İÇERİK ÇERÇEVESİ      Altıncı sınıf içeriği
+"""
+
+# Ünite bloğunun HAM METNİ saklanır; çıktılar anahtarla değil KONUMLA
+# eşleştirilir. Çıktı hangi bloğun içindeyse o bloğa aittir.
+BLOCK_WITH_OUTCOMES = """9. SINIF
+1. ÜNİTE: FİZİK BİLİMİ
+Açıklama.
+DERS SAATİ 8
+ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ FİZ.9.1.1. Birinci çıktı
+   a) Birinci bileşen.
+2. ÜNİTE: KUVVET
+Açıklama iki.
+DERS SAATİ 24
+ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ FİZ.9.2.1. İkinci çıktı
+"""
+
+
+class NoGradeMarkerTest(unittest.TestCase):
+    def test_sinif_yoksa_tekrarli_temalar_korunur(self):
+        units = parse_units(NO_GRADE_MARKER, "MBU")
+        self.assertEqual(len(units), 2)
+        self.assertTrue(all(u["grade"] is None for u in units))
+
+    def test_her_blok_kendi_icerigini_tutar(self):
+        units = parse_units(NO_GRADE_MARKER, "MBU")
+        self.assertEqual(units[0]["lesson_hours"], 16)
+        self.assertEqual(units[1]["lesson_hours"], 14)
+
+
+class BlockTextTest(unittest.TestCase):
+    def test_blok_ham_metni_saklanir(self):
+        units = parse_units(BLOCK_WITH_OUTCOMES, "FİZ")
+        self.assertEqual(len(units), 2)
+        self.assertIn("FİZ.9.1.1", units[0]["text"])
+        self.assertNotIn("FİZ.9.2.1", units[0]["text"])
+        self.assertIn("FİZ.9.2.1", units[1]["text"])
+
+
+# ÜÇÜNCÜ kod şeması: rakam ön eke YAPIŞIK, araya nokta girmiyor.
+#   TDE1.1.  = TDE + tema 1 + sıra 1
+# Türk Dili ve Edebiyatı, Okuma Becerileri, Robotik Kodlama, Demokrasi ve
+# İnsan Hakları, Türk Kültür ve Medeniyet Tarihi bu biçimi kullanıyor ve
+# hiçbir çıktı çıkarılamıyordu (867 566 karakterlik belgeden sıfır).
+#
+# Biçim beceri kodlarıyla (SDB1.2, E3.3) BİREBİR aynı; ayırt edici tek şey
+# ön ekin bilinen bir beceri ön eki olmaması.
+GLUED_PREFIX = """TDE1.1. Sanatın Dili temasında dinlemeyi yönetebilme
+   a) Dinleme amacını belirler.
+TDE1.2. Metinde anlam oluşturabilme
+   a) Bağlamdan yararlanır.
+SDB2.1. İletişim becerisi
+E3.3. Soru sorma eğilimi
+"""
+
+
+class GluedPrefixTest(unittest.TestCase):
+    def test_yapisik_sema_bulunur(self):
+        prefixes, segments = detect_scheme(GLUED_PREFIX)
+        self.assertEqual(segments, 2)
+        self.assertEqual(prefixes, ["TDE"])
+
+    def test_beceri_kodlari_secilmez(self):
+        prefixes, segments = detect_scheme(GLUED_PREFIX)
+        self.assertNotIn("SDB", prefixes)
+        self.assertNotIn("E", prefixes)
+
+    def test_yapisik_kod_ayristirilir(self):
+        prefixes, segments = detect_scheme(GLUED_PREFIX)
+        outcomes = parse_outcomes(GLUED_PREFIX, prefixes, segments)
+        self.assertEqual(len(outcomes), 2)
+        self.assertEqual(outcomes[0]["code"], "TDE1.1")
+        self.assertEqual(outcomes[0]["grade"], 1)
+        self.assertIsNone(outcomes[0]["unit"])
+        self.assertEqual(outcomes[0]["order"], 1)
+        self.assertEqual(len(outcomes[0]["components"]), 1)
+
+
 if __name__ == "__main__":
     unittest.main()

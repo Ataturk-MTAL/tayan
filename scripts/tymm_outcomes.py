@@ -25,6 +25,10 @@ import re
 # "$" yalnız metnin en sonunda eşleşir — hiçbir kod bulunamaz.
 FOUR_RE = re.compile(r"([A-ZÇĞİÖŞÜ][A-ZÇĞİÖŞÜ.]*?)\.(\d+)\.(\d+)\.(\d+)\.\s*(.*)$", re.M)
 THREE_RE = re.compile(r"([A-ZÇĞİÖŞÜ][A-ZÇĞİÖŞÜ.]*?)\.(\d+)\.(\d+)\.\s*(.*)$", re.M)
+# Üçüncü şema: rakam ön eke YAPIŞIK — "TDE1.1." = TDE + tema 1 + sıra 1.
+# Beceri kodlarıyla (SDB1.2, E3.3) aynı biçimde; ayırt edici tek şey ön ekin
+# SKILL_PREFIXES içinde olmaması.
+GLUED_RE = re.compile(r"([A-ZÇĞİÖŞÜ]{2,8})(\d+)\.(\d+)\.\s*(.*)$", re.M)
 COMPONENT_RE = re.compile(r"^\s*([a-zçğöşü])\)\s*(.+)$")
 
 # Beceri çerçevesinin kodları ÖĞRENME ÇIKTISI DEĞİLDİR. Ders programları
@@ -84,6 +88,19 @@ def detect_scheme(text: str) -> tuple[list[str], int]:
         return sorted(four), 4
     if three:
         return sorted(three), 3
+
+    # Noktalı şemalar hiç bulunmadıysa yapışık biçime bak. Sona bırakılır:
+    # dört ve üç sayılı kodların bir kısmı bu desene de uyar, önce denenirse
+    # doğru şemayı gölgeler.
+    glued = collections.Counter()
+    for match in GLUED_RE.finditer(text):
+        if match.group(1) in SKILL_PREFIXES:
+            continue
+        if re.match(r"^\d", match.group(4).strip()):
+            continue
+        glued[match.group(1)] += 1
+    if glued:
+        return sorted(glued), 2
     return [], 0
 
 
@@ -96,7 +113,7 @@ def parse_outcomes(text: str, prefixes: str | list[str], segments: int) -> list[
     if isinstance(prefixes, str):
         prefixes = [prefixes]
     wanted = set(prefixes)
-    pattern = FOUR_RE if segments == 4 else THREE_RE
+    pattern = {4: FOUR_RE, 3: THREE_RE, 2: GLUED_RE}[segments]
     lines = text.splitlines()
     best: dict[str, dict] = {}
     index = 0
@@ -113,9 +130,14 @@ def parse_outcomes(text: str, prefixes: str | list[str], segments: int) -> list[
             grade, unit, order = int(head.group(2)), int(head.group(3)), int(head.group(4))
             code = f"{head.group(1)}.{head.group(2)}.{head.group(3)}.{head.group(4)}"
             title_parts = [head.group(5)]
-        else:
+        elif segments == 3:
             grade, unit, order = int(head.group(2)), None, int(head.group(3))
             code = f"{head.group(1)}.{head.group(2)}.{head.group(3)}"
+            title_parts = [head.group(4)]
+        else:
+            # Yapışık: TDE1.1 -> ön ek TDE, tema/sınıf 1, sıra 1.
+            grade, unit, order = int(head.group(2)), None, int(head.group(3))
+            code = f"{head.group(1)}{head.group(2)}.{head.group(3)}"
             title_parts = [head.group(4)]
 
         components: list[dict] = []

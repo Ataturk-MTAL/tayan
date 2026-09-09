@@ -10,7 +10,7 @@
  },
  "units": [
   {
-   "grade": null,
+   "grade": 1,
    "unit": 1,
    "kind": "TEMA",
    "title": "GİTAR ÇALMAYA GİRİŞ",
@@ -28,52 +28,238 @@
     "İÇERİK ÇERÇEVESİ": "Gitarın Tarihî Gelişimi Gitarın Bölümleri Gitarda Oturuş ve Tutuş Gitarda Sağ El Parmak İsimleri ve Sol El Parmak Numaraları Gitarı Akort Etme",
     "Anahtar Kavramlar": "akort, gitar, oturuş, sağ el, sol el, tutuş"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "SMGTR.1.1.1",
+     "order": 1,
+     "text": "Gitarın tarihî gelişimi hakkında bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gitarın tarihî gelişimi hakkında bilgi toplamak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği aracı kullanarak gitarın tarihî gelişimi ile ilgili bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Gitarın tarihî gelişimi ile ilgili bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Gitarın tarihî gelişimi ile ilgili ulaştığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "SMGTR.1.1.2",
+     "order": 2,
+     "text": "Gitarın yapısı ve bölümlerini çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gitarın yapısı ve bölümlerine ilişkin parçaları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Gitarın yapısı ve bölümlerine ilişkin parçalar arası ilişkileri belirler."
+      }
+     ]
+    },
+    {
+     "code": "SMGTR.1.1.3",
+     "order": 3,
+     "text": "Gitar çalmada doğru oturuş ve tutuş pozisyonunu gözlemleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gitar çalmada doğru oturuş ve tutuş pozisyonuna ilişkin ölçüt belirler."
+      },
+      {
+       "label": "b",
+       "text": "Gitar çalmada doğru oturuş ve tutuş pozisyonu hakkında uygun veri toplama araçları ile veri toplar."
+      },
+      {
+       "label": "c",
+       "text": "Gitar çalmada doğru oturuş ve tutuş pozisyonu hakkında topladığı verileri sınıflandırır ve kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "SMGTR.1.1.4",
+     "order": 4,
+     "text": "Sağ ve sol elde seslendirme parmaklarını tanıyabilme",
+     "components": []
+    },
+    {
+     "code": "SMGTR.1.1.5",
+     "order": 5,
+     "text": "Gitarın akort edilme sürecini çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gitarın akort edilecek tellerinin seslerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "Tellerdeki akort edilecek sesler ile bu seslerin akort cihazındaki simgesel karşılıkları arasındaki ilişkileri belirler."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 1,
    "unit": 2,
    "kind": "TEMA",
-   "title": "MÜZİKTE RÖNESANS DÖNEMİ, BAROK VE KLASİK DÖNEM",
-   "description": "Temada öğrencilerin Rönesans Dönemi, Barok ve Klasik Dönem ile ilgili genel özellikleri, eser formları ve bestecileri ile ilgili bilgi kazanmaları ve ilgili döneme ait düzeyine uygun eserler seslendirebilmeleri amaçlanmaktadır.",
-   "lesson_hours": 24,
+   "title": "GİTARDA TEMEL SES ÜRETİMİ",
+   "description": "Temada öğrencilerin temel ses üretiminde sağ ve sol elin teller üzerindeki konumu, görevi ve işlevlerini çözümleyebilmeleri ve birinci pozisyonda yer alan doğal sesleri çalabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 16,
    "sections": {
     "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
-    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama",
-    "EĞİLİMLER": "E1.1. Merak, E2.5. Oyunseverlik, E3.1. Muhakeme, E3.8. Soru Sorma",
-    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGTR.3.2.1 • Öğrencilerden Rönesans Dönemi müziği ile ilgili bilgi toplama çalışmalarında iş birliği yapabilecekleri kişi ve grupları tespit etmeleri istenir (SDB2.2). • Öğrencilerin birlikte gerçekleştirecekleri bilgi toplama çalışmalarında birbirlerine nazik davranmaları desteklenir (D4.1). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ • Öğrencilerden Rönesans Dönemi müziğine ait eser örneklerini kendi deneyim ve değerleriyle ilişkilendirerek yorumlamaları istenir (D7.1). • Öğrencilerin Rönesans Dönemi müziği bestecilerini farklılıklarıyla kabul etmeleri desteklenir (D15.1). • Öğrencilerin Rönesans Dönemi ve müziği ile ilgili görselleri anlayabilmeleri sağlanır (OB4). • Öğrencilerin Rönesans Dönemi müzik kültürünü kavramaları sağlanır (OB5). SMGTR.3.2.2 • Öğrencilerden Barok Dönem müziği ile ilgili bilgi toplama çalışmalarında iş birliği yapabilecekleri kişi ve grupları tespit etmeleri istenir (SDB2.2). • Öğrencilerin birlikte gerçekleştirecekleri bilgi toplama çalışmalarında birbirlerine nazik davranmaları teşvik edilir (D4.1). • Öğrencilerden Barok Dönem müziğine ait eser örneklerini kendi deneyim ve değerleriyle ilişkilendirerek yorumlamaları istenir (D7.1). • Öğrencilerin Barok Dönem müziği bestecilerini farklılıklarıyla kabul etmeleri desteklenir (D15.1). • Öğrencilerin Barok Dönem ve müziği ile ilgili görselleri anlayabilmeleri sağlanır (OB4). • Öğrencilerin Barok Dönem müzik kültürünü kavramaları sağlanır (OB5). SMGTR.3.2.3 • Öğrencilerden Klasik Dönem müziği ile ilgili bilgi toplama çalışmalarında iş birliği yapabilecekleri kişi ve grupları tespit etmeleri istenir (SDB2.2). • Öğrencilerden Klasik Dönem müziğine ait eser örneklerini kendi deneyim ve değerleriyle ilişkilendirerek yorumlamaları istenir (D7.1). • Öğrencilerin Klasik Dönem müziği bestecilerini farklılıklarıyla kabul etmeleri desteklenir (D15.1). • Öğrencilerin Klasik Dönem ve müziği ile ilgili görselleri anlayabilmeleri sağlanır (OB4). • Öğrencilerin Klasik Dönem müzik kültürünü kavramaları sağlanır (OB5). SMGTR.3.2.4 • Öğrencilerden Rönesans Dönemi, Barok ve Klasik Dönem müziklerinden oluşan eserlerin seslendirildiği dinletileri etkin bir şekilde dinlemeleri istenir (SDB2.1). • Öğrencilerin Rönesans Dönemi, Barok ve Klasik Dönem müziklerinde yaşanan değişimi fark ederek yeni bakış açılarını ve konuları öğrenmeye istekli olmaları sağlanır (SDB3.1). • Öğrencilerden Rönesans Dönemi, Barok ve Klasik Dönem müziklerine ait eser örneklerini inceleyip kendi deneyim ve değerleriyle ilişkilendirerek yorumlamaları istenir (D7.1). • Öğrencilerin Rönesans Dönemi, Barok ve Klasik Dönem müziklerinde yaşayan bestecilere saygı duymaları desteklenir (D14.3). • Öğrencilerin Rönesans Dönemi, Barok ve Klasik Dönem müziklerine ait eser, doküman ve nota kaynaklarına dijital ortamlardan ulaşmaları ve ulaştıkları bilgiler üzerinden çıkarım yapmaları teşvik edilir (OB2). • Öğrencilerden Rönesans Dönemi, Barok ve Klasik Dönem müziklerine ait eser örnekleri ile performans sergilemeleri istenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
-    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum",
-    "Değerler": "D4. Dostluk, D7. Estetik, D14. Saygı, D15. Sevgi",
-    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI İLİŞKİLER SBAB1.2. Sıralama ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
-    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGTR.3.2.1. Rönesans Dönemi müziği ile ilgili bilgi toplayabilme a) Rönesans Dönemi müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği aracı kullanarak Rönesans Dönemi müziği hakkındaki bilgileri bulur. c) Rönesans Dönemi müziği hakkındaki ulaşılan bilgileri doğrular. ç) Rönesans Dönemi müziği hakkındaki ulaşılan bilgileri kaydeder. SMGTR.3.2.2. Barok Dönem müziği ile ilgili bilgi toplayabilme a) Barok Dönem müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği aracı kullanarak Barok Dönem müziği hakkındaki bilgileri bulur. c) Barok Dönem müziği hakkındaki ulaşılan bilgileri doğrular. ç) Barok Dönem müziği hakkındaki ulaşılan bilgileri kaydeder. SMGTR.3.2.3. Klasik Dönem müziği ile ilgili bilgi toplayabilme a) Klasik Dönem müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği aracı kullanarak Klasik Dönem müziği hakkındaki bilgileri bulur. c) Klasik Dönem müziği hakkındaki ulaşılan bilgileri doğrular. ç) Klasik Dönem müziği hakkındaki ulaşılan bilgileri kaydeder. SMGTR.3.2.4. Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserler çalabilme a) Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserleri çözümler. b) Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserler çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserler çalabilmek için gitara özgü teknikleri kullanır. ç) Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserler çalarken müziksel bileşenleri uygular.",
-    "İÇERİK ÇERÇEVESİ": "Rönesans Dönemi Barok Dönem Klasik Dönem Rönesans Dönemi, Barok ve Klasik Dönem Eser Çalışması",
-    "Anahtar Kavramlar": "Barok Dönem, besteci, eser, Klasik Dönem, Rönesans Dönemi"
+    "KAVRAMSAL BECERİLER": "KB1. Temel Beceriler, KB2.4. Çözümleme",
+    "EĞİLİMLER": "E1.4. Kendine İnanma, E1.5. Kendine Güvenme, E2.2. Sorumluluk",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGTR.1.2.1 • Öğrencilerden temel ses üretiminde sağ elin teller üzerindeki görev ve işlevlerini çözümleyebilmek amacıyla hedeflerini belirlemeleri istenir (SDB1.2). • Öğrencilerin temel ses üretiminde sağ elin teller üzerindeki görev ve işlevlerini çözümleyebilmeleri için disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri teşvik edilir (D3.1). • Öğrencilerden temel ses üretiminde sağ elin teller üzerindeki görev ve işlevlerini çözümleyebilmeleri için belirledikleri aracı kullanarak konu ile ilgili bilgileri bulmaları istenir (OB1). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ SMGTR.1.2.2 • Öğrencilerden temel ses üretiminde sol elin teller üzerindeki görev ve işlevlerini çözümleyebilmek amacıyla hedeflerini belirlemeleri istenir (SDB1.2). • Öğrencilerin temel ses üretiminde sol elin teller üzerindeki görev ve işlevleri çözümleyebilmek için disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri teşvik edilir (D3.1). • Öğrencilerden temel ses üretiminde sol elin teller üzerindeki görev ve işlevlerini çözümleyebilmek için belirledikleri aracı kullanarak konu ile ilgili bilgileri bulmaları istenir (OB1). SMGTR.1.2.3 • Öğrencilerin temel ses üretiminde sağ ve sol el koordinasyonunu kullanabilme ile ilgili hedeflere ulaştıklarında kendilerini ödüllendirmeleri teşvik edilir (SDB1.2). • Öğrencilerin temel ses üretiminde sağ ve sol el koordinasyonunu kullanabilmeleri için verilen görevleri kuralına uygun olarak yerine getirmeleri sağlanır (D6.1). • Öğrencilerin estetik bakış açısıyla ses üretiminde sağ ve sol el koordinasyonunu kullanabilmeleri desteklenir (D7.2). • Öğrencilerin temel ses üretiminde sağ ve sol el koordinasyonunu kullanabilme çalışmalarında karşılaştıkları zorluklar ile ilgili sorun odaklı değil çözüm odaklı düşünmeleri desteklenir (D12.1). • Öğrencilerin temel ses üretiminde sağ ve sol el koordinasyonunu kullanabilmeleri ile ilgili bilgi ihtiyaçlarını fark etmeleri sağlanır (OB1). SMGTR.1.2.4 • Öğrencilerin gitar üzerinde birinci pozisyonda yer alan doğal sesleri çalabilme hedeflerine ulaşabilmeleri için motivasyonun gerekli bir içsel güç olduğunu anlamaları teşvik edilir (SDB1.2). • Öğrencilerin gitar üzerinde birinci pozisyonda yer alan doğal sesleri çalabilmeleri için düzenli çalışmanın başarı üzerindeki etkilerini fark etmeleri sağlanır (D3.2). • Öğrencilerin gitar üzerinde birinci pozisyonda yer alan doğal sesleri çalabilmeleri için yeni bilgi, tavsiye ve eleştirilere açık olmanın sağlayacağı olumlu etkileri fark etmeleri sağlanır (D10.1). • Öğrencilerin gitar üzerinde birinci pozisyonda yer alan doğal sesleri açıklayan görselleri tanımaları ve anlamaları desteklenir (OB4). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme)",
+    "Değerler": "D3. Çalışkanlık, D6. Dürüstlük, D7. Estetik, D10. Mütevazılık, D12. Sabır",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık BECERİLER ARASI İLİŞKİLER KB2.2. Gözlemleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGTR.1.2.1. Temel ses üretiminde sağ elin teller üzerindeki görev ve işlevlerini çözümleyebilme a) Temel ses üretiminde sağ elin teller üzerindeki görev ve işlevlerini belirler. b) Sağ elin teller üzerindeki görev ve işlevleri ile durumu arasındaki ilişkiyi belirler. SMGTR.1.2.2. Temel ses üretiminde sol elin teller üzerindeki görev ve işlevlerini çözümleyebilme a) Temel ses üretiminde sol elin teller üzerindeki görev ve işlevlerini belirler. b) Sol elin teller üzerindeki görev ve işlevleri ile durumu arasındaki ilişkiyi belirler. SMGTR.1.2.3. Temel ses üretiminde sağ ve sol el koordinasyonunu kullanabilme SMGTR.1.2.4. Gitarda birinci pozisyonda yer alan doğal sesleri çalabilme a) Birinci pozisyonda yer alan doğal sesleri çözümler. b) Birinci pozisyonda yer alan doğal sesleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Birinci pozisyonda yer alan doğal sesleri çalabilmek için gitara özgü teknikleri kullanır. ç) Birinci pozisyonda yer alan doğal sesleri çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Sağ Elin Görev ve İşlevleri Sol Elin Görev ve İşlevleri Sağ ve Sol Elin Birlikte Kullanımı Doğal Sesleri Çalabilme",
+    "Anahtar Kavramlar": "boş tel, gitar, klavye, p-i-m-a, sağ el, sol el, 1-2-3-4"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "SMGTR.1.2.1",
+     "order": 1,
+     "text": "Temel ses üretiminde sağ elin teller üzerindeki görev ve işlevlerini çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Temel ses üretiminde sağ elin teller üzerindeki görev ve işlevlerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "Sağ elin teller üzerindeki görev ve işlevleri ile durumu arasındaki ilişkiyi belirler."
+      }
+     ]
+    },
+    {
+     "code": "SMGTR.1.2.2",
+     "order": 2,
+     "text": "Temel ses üretiminde sol elin teller üzerindeki görev ve işlevlerini çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Temel ses üretiminde sol elin teller üzerindeki görev ve işlevlerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "Sol elin teller üzerindeki görev ve işlevleri ile durumu arasındaki ilişkiyi belirler."
+      }
+     ]
+    },
+    {
+     "code": "SMGTR.1.2.3",
+     "order": 3,
+     "text": "Temel ses üretiminde sağ ve sol el koordinasyonunu kullanabilme",
+     "components": []
+    },
+    {
+     "code": "SMGTR.1.2.4",
+     "order": 4,
+     "text": "Gitarda birinci pozisyonda yer alan doğal sesleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Birinci pozisyonda yer alan doğal sesleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Birinci pozisyonda yer alan doğal sesleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Birinci pozisyonda yer alan doğal sesleri çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Birinci pozisyonda yer alan doğal sesleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 1,
    "unit": 3,
    "kind": "TEMA",
-   "title": "GİTARDA BARE ÇALIŞMALARI VE FA MAJÖR-",
-   "description": "RE MİNÖR TONLARI Temada öğrencilerin gitarda küçük (yarım) bare ve büyük (tam) bare tekniği ve fa majör (F), re minör (Dm) tonlarını seslendirebilmeleri ile ilgili bilgi ve becerileri kazanmaları amaçlanmaktadır.",
-   "lesson_hours": 24,
+   "title": "DO MAJÖR-LA MİNÖR VE SOL MAJÖR-Mİ MİNÖR TONLARI",
+   "description": "Temada öğrencilerin gitar üzerinde do majör (C), la minör (Am), sol majör (G) ve mi minör (Em) tonlarına ait dizi, etüt ve eser çalabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 20,
    "sections": {
     "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
-    "KAVRAMSAL BECERİLER": "KB2.7. Karşılaştırma",
-    "EĞİLİMLER": "E3.3. Yaratıcılık, E3.8. Soru Sorma",
-    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGTR.2.3.1 • Öğrencilerden bare basabilme becerilerini geliştirmek için yapacakları etüt ve eser çalma çalışmalarını önceki bilgileriyle ilişkilendirerek sürdürmeleri istenir (SDB1.1). • Öğrencilerin çalacakları etüt ve eserlerde yer alan bareli bölümleri çalışırken sol el kullanımı ile ilgili karşılaşacakları yeni durumlara uyum sağlamaları desteklenir (SDB3.2). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ • Öğrencilerden bare çalışmaları için seslendirecekleri etüt ve eserlerde karşılaşacakları zorlukları aşmak için gayret göstermeleri istenir (D3.1). • Öğrencilerin bare çalışmaları için seslendirecekleri etüt ve eserlerde sol el kondisyonu ile ilgili yaşadıkları zorluklar karşısında sebat ederek çalışmalarını sürdürmeleri teşvik edilir (D12.3). • Öğrencilerin bare çalışmaları için gerekli etüt ve eserleri seslendirme faaliyetlerinde ergonomik risk faktörlerine karşı önlem almaları sağlanır (D13.4). • Öğrencilerin bare çalışmaları içeren farklı örnekleri incelemeleri istenerek konu ile ilgili bilgi ihtiyaçlarını fark etmeleri sağlanır (OB1). • Öğrencilerden gitar üzerinde doğru bir bare pozisyonunun nasıl olduğu ile alakalı verilen görselleri incelemeleri ve uygulama süreçlerine buradan edindikleri yorumu aktarmaları istenir (OB4). • Öğrencilerin bare pozisyonunu içeren bir eser ya da etüt ile performans sergilemeleri desteklenir (OB9). SMGTR.2.3.2 • Öğrencilerden fa majör ve re minör tonlarında yazılmış dizi, etüt ve eser çalma çalışmalarını önceki bilgileriyle ilişkilendirerek sürdürmeleri istenir (SDB1.1). • Öğrencilerin fa majör ve re minör tonlarında yazılmış dizi, etüt ve eser çalma çalışmalarında tonalite ile ilgili karşılaşacakları yeni durumlara uyum sağlamaları teşvik edilir (SDB3.2). • Öğrencilerden fa majör ve re minör tonlarında yazılmış etüt ve eserleri kendi deneyim ve değerleri ile ilişkilendirerek yorumlamaları istenir (D7.1). • Öğrencilerden fa majör ve re minör tonlarında yazılmış eser örnekleri incelemeleri istenerek konu ile ilgili bilgi ihtiyaçlarını fark etmeleri istenir (OB1). • Öğrencilerin fa majör ve re minör tonlarında yazılmış bir eser ya da etüt ile performans sergilemeleri desteklenir (OB9). SMGTR.2.3.3 • Öğrencilerden fa majör ve re minör dizilerinin akor yapıları ve ritim çalma çalışmalarını önceki bilgileriyle ilişkilendirerek karşılaştırma yapmaları istenir (SDB1.1). • Öğrencilerin fa majör ve re minör dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma etkinlikleri gerçekleştirirken karşılaşacakları zorlukları aşmak için gayret göstermeleri teşvik edilir (D3.1). • Öğrencilerin fa majör ve re minör akor yapılarını içeren eserler ile ritim çalma çalışmaları esnasında arkadaşlarının başarılarını takdir etmeleri teşvik edilir (D10.3). • Öğrencilerden fa majör ve re minör akor yapılarını içeren eserler ile ritim çalma performanslarında türkülerin gelecek nesillere aktarılması için sorumluluk almaları sağlanır (D19.3). • Öğrencilerden fa majör ve re minör akor yapılarını içeren eserler ile ritim çalma performansı sergilemeleri istenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
-    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB3.2. Esneklik",
-    "Değerler": "D3. Çalışkanlık, D7. Estetik, D10. Mütevazılık, D12. Sabır, D13. Sağlıklı Yaşam, D19. Vatanseverlik",
-    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI İLİŞKİLER KB2.2. Gözlemleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
-    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGTR.2.3.1. Eserlerde karşılaştığı bareli bölümleri çalabilme a) Bare çalışmalarında çalınacak eser ve etütleri çözümler. b) Bare çalışmalarına özgü duruş ve pozisyonu alır. c) Bare çalışmaları ile ilgili çalınacak eser ve etütlerde gitara özgü teknikleri kullanır. ç) Bare çalışmalarında müziksel bileşenleri uygular. SMGTR.2.3.2. Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çalabilme a) Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çözümler. b) Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır. ç) Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular. SMGTR.2.3.3. Fa majör (F) ve re minör (Dm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme a) Fa majör (F) ve re minör (Dm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler. b) Fa majör (F) ve re minör (Dm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler. c) Fa majör (F) ve re minör (Dm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler.",
-    "İÇERİK ÇERÇEVESİ": "Gitarda Bare Tekniği Fa Majör ve Re Minör Ses Dizileri Fa Majör ve Re Minör Akorları",
-    "Anahtar Kavramlar": "akor, dizi, fa majör (F), majör, minör, re minör (Dm), ritim, tam bare, yarım bare"
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.4. Kendine inanma, E1.5. Kendine Güvenme (Öz Güven)",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGTR.1.3.1 • Öğrencilerin do majör ve la minör tonlarında dizi, etüt veya eser seslendirme çalışmalarını sahip oldukları önceki bilgilerle ilişkilendirmeleri sağlanır (SDB1.1). • Öğrencilerin do majör ve la minör tonlarında dizi, etüt veya eser seslendirme çalışmalarında disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri teşvik edilir (D3.1). • Öğrencilerden do majör ve la minör tonlarında dizi, etüt veya eser seslendirme çalışmalarında sorumluluklarını yerine getirirken kararlı davranmaları istenir (D12.3). • Öğrencilerden do majör ve la minör tonlarında dizi, etüt veya eser seslendirme çalışmaları ile ilgili görevlerini zamanında ve eksiksiz yerine getirmeleri istenir (D16.3). • Öğrencilerin do majör ve la minör tonlarında dizi, etüt veya eser seslendirme çalışmalarında millî kimliklerini tanımaya yönelik eserler seçmeleri sağlanır (D19.2). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ • Öğrencilerin do majör ve la minör tonlarında dizi, etüt veya eser seslendirme çalışmaları ile ilgili eksik bilgilerini tamamlamak adına bilgi ihtiyaçlarını fark etmeleri sağlanır (OB1). • Öğrencilerin do majör ve la minör tonlarında dizi, etüt veya eser seslendirme çalışmaları ile ilgili dijital kaynaklardan gerekli bilgilere ulaşabilmeleri ve bu bilgiler üzerinden çıkarım yapabilmeleri sağlanır (OB2). SMGTR.1.3.2 • Öğrencilerin sol majör ve mi minör tonlarında dizi, etüt veya eser seslendirme çalışmalarını sahip oldukları önceki bilgilerle ilişkilendirmeleri sağlanır (SDB1.1). • Öğrencilerin sol majör ve mi minör tonlarında dizi, etüt veya eser seslendirme çalışmalarında disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri teşvik edilir (D3.1). • Öğrencilerden sol majör ve mi minör tonlarında dizi, etüt veya eser seslendirme çalışmalarında sorumluluklarını yerine getirirken kararlı davranmaları istenir (D12.3). • Öğrencilerden sol majör ve mi minör tonlarında dizi, etüt veya eser seslendirme çalışmaları ile ilgili görevlerini zamanında ve eksiksiz yerine getirmeleri istenir (D16.3). • Öğrencilerin sol majör ve mi minör tonlarında dizi, etüt veya eser seslendirme çalışmaları ile ilgili eksik bilgilerini tamamlamak adına bilgi ihtiyaçlarını fark etmeleri sağlanır (OB1). • Öğrencilerin sol majör ve mi minör tonlarında dizi, etüt veya eser seslendirme çalışmaları ile ilgili dijital kaynaklardan gerekli bilgilere ulaşabilmeleri ve bu bilgiler üzerinden çıkarım yapabilmeleri sağlanır (OB2). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık)",
+    "Değerler": "D3. Çalışkanlık, D12. Sabır, D16. Sorumluluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık BECERİLER ARASI İLİŞKİLER ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGTR.1.3.1. Do majör (C) ve la minör (Am) tonlarına ait dizi, etüt ve eserleri çalabilme a) Do majör (C) ve la minör (Am) tonlarına ait dizi, etüt ve eserleri çözümler. b) Do majör (C) ve la minör (Am) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonu alır. c) Do majör (C) ve la minör (Am) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır. ç) Do majör (C) ve la minör (Am) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular. SMGTR.1.3.2. Sol majör (G) ve mi minör (Em) tonlarına ait dizi, etüt ve eserleri çalabilme a) Sol majör (G) ve mi minör (Em) tonlarına ait dizi, etüt ve eserleri çözümler. b) Sol majör (G) ve mi minör (Em) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonu alır. c) Sol majör (G) ve mi minör (Em) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır. ç) Sol majör (G) ve mi minör (Em) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Do Majör ve La Minör Ses Dizileri Sol Majör ve Mi Minör Ses Dizileri",
+    "Anahtar Kavramlar": "dizi, do majör (C), mi minör (Em), la minör (Am), majör, minör, sol majör (G)"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "SMGTR.1.3.1",
+     "order": 1,
+     "text": "Do majör (C) ve la minör (Am) tonlarına ait dizi, etüt ve eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Do majör (C) ve la minör (Am) tonlarına ait dizi, etüt ve eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Do majör (C) ve la minör (Am) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Do majör (C) ve la minör (Am) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Do majör (C) ve la minör (Am) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMGTR.1.3.2",
+     "order": 2,
+     "text": "Sol majör (G) ve mi minör (Em) tonlarına ait dizi, etüt ve eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Sol majör (G) ve mi minör (Em) tonlarına ait dizi, etüt ve eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Sol majör (G) ve mi minör (Em) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Sol majör (G) ve mi minör (Em) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Sol majör (G) ve mi minör (Em) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 1,
    "unit": 4,
    "kind": "TEMA",
    "title": "ÇOK SESLİ ÇALMAYA GİRİŞ",
@@ -91,1226 +277,1123 @@
     "İÇERİK ÇERÇEVESİ": "Çok Sesli Çalımda Sağ ve Sol El Çalışmaları Çok Sesli Çalımda Aralık Çalışmaları Çok Sesli Çalımda Akor Çalışmaları Do Majör (C), La Minör (Am), Sol Majör (G) ve Mi Minör (Em) Akor Çalışmaları",
     "Anahtar Kavramlar": "akor, aralık, arpej, çok sesli müzik, do majör, la minör, mi minör, ritim, sol majör"
    },
-   "outcomes": []
-  }
- ],
- "unassigned_outcomes": [
-  {
-   "code": "SMGTR.1.1.1",
-   "grade": 1,
-   "unit": 1,
-   "order": 1,
-   "text": "Gitarın tarihî gelişimi hakkında bilgi toplayabilme",
-   "components": [
+   "outcomes": [
     {
-     "label": "a",
-     "text": "Gitarın tarihî gelişimi hakkında bilgi toplamak için kullanacağı araçları belirler."
+     "code": "SMGTR.1.4.1",
+     "order": 1,
+     "text": "Gitar ile çok sesli seslendirmede sağ el çalışmaları için kullanılan egzersiz, etüt ve eserleri okuyabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gitar ile çok sesli seslendirmede sağ el çalışmaları için kullanılan egzersiz, etüt ve eserlerin ritmik ve ezgisel bileşenlerini tanır."
+      },
+      {
+       "label": "b",
+       "text": "Gitar ile çok sesli seslendirmede sağ el çalışmaları için kullanılan egzersiz, etüt ve eserlerin ritmik ve ezgisel bileşenlerini ayırt eder."
+      },
+      {
+       "label": "c",
+       "text": "Gitar ile çok sesli seslendirmede sağ el çalışmaları için kullanılan egzersiz, etüt ve eserlerin ritmik ve ezgisel bileşenlerini uygular."
+      }
+     ]
     },
     {
-     "label": "b",
-     "text": "Belirlediği aracı kullanarak gitarın tarihî gelişimi ile ilgili bilgileri bulur."
+     "code": "SMGTR.1.4.2",
+     "order": 2,
+     "text": "Gitar ile çok sesli seslendirmede sol el çalışmaları için kullanılan egzersiz, etüt ve eserleri okuyabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gitar ile çok sesli seslendirmede sol el çalışmaları için kullanılan egzersiz, etüt ve eserlerin ritmik ve ezgisel bileşenlerini tanır."
+      },
+      {
+       "label": "b",
+       "text": "Gitar ile çok sesli seslendirmede sol el çalışmaları için kullanılan egzersiz, etüt ve eserlerin ritmik ve ezgisel bileşenlerini ayırt eder."
+      },
+      {
+       "label": "c",
+       "text": "Gitar ile çok sesli seslendirmede sol el çalışmaları için kullanılan egzersiz, etüt ve eserlerin ritmik ve ezgisel bileşenlerini uygular."
+      }
+     ]
     },
     {
-     "label": "c",
-     "text": "Gitarın tarihî gelişimi ile ilgili bilgileri doğrular."
+     "code": "SMGTR.1.4.3",
+     "order": 3,
+     "text": "Gitar ile çok sesli seslendirmede aralık çalışmaları için kullanılan egzersiz, etüt ve eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gitar ile çok sesli seslendirmede aralık çalışmaları için kullanılan egzersiz, etüt ve eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Gitar ile çok sesli seslendirmede aralık çalışmaları için kullanılan egzersiz, etüt ve eserleri seslendirirken gitara özgü tutuş ve duruş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Gitar ile çok sesli seslendirmede aralık çalışmaları için kullanılan egzersiz, etüt ve eserleri seslendirirken gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Gitar ile çok sesli seslendirmede aralık çalışmaları için kullanılan egzersiz, etüt ve eserleri seslendirirken müziksel bileşenleri uygular."
+      }
+     ]
     },
     {
-     "label": "ç",
-     "text": "Gitarın tarihî gelişimi ile ilgili ulaştığı bilgileri kaydeder."
+     "code": "SMGTR.1.4.4",
+     "order": 4,
+     "text": "Gitar ile çok sesli seslendirmede akor seslendirme için kullanılan egzersiz, etüt ve eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gitar ile çok sesli seslendirmede akor seslendirme çalışmaları için kullanılan egzersiz, etüt ve eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Gitar ile çok sesli seslendirmede akor seslendirme çalışmaları için kullanılan egzersiz, etüt ve eserleri seslendirirken gitara özgü tutuş ve duruş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Gitar ile çok sesli seslendirmede akor seslendirme çalışmaları için kullanılan egzersiz, etüt ve eserleri seslendirirken gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Gitar ile çok sesli seslendirmede akor seslendirme çalışmaları için kullanılan egzersiz, etüt ve eserleri seslendirirken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMGTR.1.4.5",
+     "order": 5,
+     "text": "Do majör (C), la minör (Am), sol majör (G) ve mi minör (Em) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Do majör (C), la minör (Am), sol majör (G) ve mi minör (Em) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Do majör (C), la minör (Am), sol majör (G) ve mi minör (Em) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler."
+      },
+      {
+       "label": "c",
+       "text": "Do majör (C), la minör (Am), sol majör (G) ve mi minör (Em) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ"
+      }
+     ]
     }
    ]
   },
   {
-   "code": "SMGTR.1.1.2",
-   "grade": 1,
-   "unit": 1,
-   "order": 2,
-   "text": "Gitarın yapısı ve bölümlerini çözümleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Gitarın yapısı ve bölümlerine ilişkin parçaları belirler."
-    },
-    {
-     "label": "b",
-     "text": "Gitarın yapısı ve bölümlerine ilişkin parçalar arası ilişkileri belirler."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.1.1.3",
-   "grade": 1,
-   "unit": 1,
-   "order": 3,
-   "text": "Gitar çalmada doğru oturuş ve tutuş pozisyonunu gözlemleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Gitar çalmada doğru oturuş ve tutuş pozisyonuna ilişkin ölçüt belirler."
-    },
-    {
-     "label": "b",
-     "text": "Gitar çalmada doğru oturuş ve tutuş pozisyonu hakkında uygun veri toplama araçları ile veri toplar."
-    },
-    {
-     "label": "c",
-     "text": "Gitar çalmada doğru oturuş ve tutuş pozisyonu hakkında topladığı verileri sınıflandırır ve kaydeder."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.1.1.4",
-   "grade": 1,
-   "unit": 1,
-   "order": 4,
-   "text": "Sağ ve sol elde seslendirme parmaklarını tanıyabilme",
-   "components": []
-  },
-  {
-   "code": "SMGTR.1.1.5",
-   "grade": 1,
-   "unit": 1,
-   "order": 5,
-   "text": "Gitarın akort edilme sürecini çözümleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Gitarın akort edilecek tellerinin seslerini belirler."
-    },
-    {
-     "label": "b",
-     "text": "Tellerdeki akort edilecek sesler ile bu seslerin akort cihazındaki simgesel karşılıkları arasındaki ilişkileri belirler."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.1.2.1",
-   "grade": 1,
-   "unit": 2,
-   "order": 1,
-   "text": "Temel ses üretiminde sağ elin teller üzerindeki görev ve işlevlerini çözümleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Temel ses üretiminde sağ elin teller üzerindeki görev ve işlevlerini belirler."
-    },
-    {
-     "label": "b",
-     "text": "Sağ elin teller üzerindeki görev ve işlevleri ile durumu arasındaki ilişkiyi belirler."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.1.2.2",
-   "grade": 1,
-   "unit": 2,
-   "order": 2,
-   "text": "Temel ses üretiminde sol elin teller üzerindeki görev ve işlevlerini çözümleyebilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Temel ses üretiminde sol elin teller üzerindeki görev ve işlevlerini belirler."
-    },
-    {
-     "label": "b",
-     "text": "Sol elin teller üzerindeki görev ve işlevleri ile durumu arasındaki ilişkiyi belirler."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.1.2.3",
-   "grade": 1,
-   "unit": 2,
-   "order": 3,
-   "text": "Temel ses üretiminde sağ ve sol el koordinasyonunu kullanabilme",
-   "components": []
-  },
-  {
-   "code": "SMGTR.1.2.4",
-   "grade": 1,
-   "unit": 2,
-   "order": 4,
-   "text": "Gitarda birinci pozisyonda yer alan doğal sesleri çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Birinci pozisyonda yer alan doğal sesleri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Birinci pozisyonda yer alan doğal sesleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Birinci pozisyonda yer alan doğal sesleri çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Birinci pozisyonda yer alan doğal sesleri çalarken müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.1.3.1",
-   "grade": 1,
-   "unit": 3,
-   "order": 1,
-   "text": "Do majör (C) ve la minör (Am) tonlarına ait dizi, etüt ve eserleri çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Do majör (C) ve la minör (Am) tonlarına ait dizi, etüt ve eserleri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Do majör (C) ve la minör (Am) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonu alır."
-    },
-    {
-     "label": "c",
-     "text": "Do majör (C) ve la minör (Am) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Do majör (C) ve la minör (Am) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.1.3.2",
-   "grade": 1,
-   "unit": 3,
-   "order": 2,
-   "text": "Sol majör (G) ve mi minör (Em) tonlarına ait dizi, etüt ve eserleri çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Sol majör (G) ve mi minör (Em) tonlarına ait dizi, etüt ve eserleri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Sol majör (G) ve mi minör (Em) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonu alır."
-    },
-    {
-     "label": "c",
-     "text": "Sol majör (G) ve mi minör (Em) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Sol majör (G) ve mi minör (Em) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.1.4.1",
-   "grade": 1,
-   "unit": 4,
-   "order": 1,
-   "text": "Gitar ile çok sesli seslendirmede sağ el çalışmaları için kullanılan egzersiz, etüt ve eserleri okuyabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Gitar ile çok sesli seslendirmede sağ el çalışmaları için kullanılan egzersiz, etüt ve eserlerin ritmik ve ezgisel bileşenlerini tanır."
-    },
-    {
-     "label": "b",
-     "text": "Gitar ile çok sesli seslendirmede sağ el çalışmaları için kullanılan egzersiz, etüt ve eserlerin ritmik ve ezgisel bileşenlerini ayırt eder."
-    },
-    {
-     "label": "c",
-     "text": "Gitar ile çok sesli seslendirmede sağ el çalışmaları için kullanılan egzersiz, etüt ve eserlerin ritmik ve ezgisel bileşenlerini uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.1.4.2",
-   "grade": 1,
-   "unit": 4,
-   "order": 2,
-   "text": "Gitar ile çok sesli seslendirmede sol el çalışmaları için kullanılan egzersiz, etüt ve eserleri okuyabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Gitar ile çok sesli seslendirmede sol el çalışmaları için kullanılan egzersiz, etüt ve eserlerin ritmik ve ezgisel bileşenlerini tanır."
-    },
-    {
-     "label": "b",
-     "text": "Gitar ile çok sesli seslendirmede sol el çalışmaları için kullanılan egzersiz, etüt ve eserlerin ritmik ve ezgisel bileşenlerini ayırt eder."
-    },
-    {
-     "label": "c",
-     "text": "Gitar ile çok sesli seslendirmede sol el çalışmaları için kullanılan egzersiz, etüt ve eserlerin ritmik ve ezgisel bileşenlerini uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.1.4.3",
-   "grade": 1,
-   "unit": 4,
-   "order": 3,
-   "text": "Gitar ile çok sesli seslendirmede aralık çalışmaları için kullanılan egzersiz, etüt ve eserleri çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Gitar ile çok sesli seslendirmede aralık çalışmaları için kullanılan egzersiz, etüt ve eserleri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Gitar ile çok sesli seslendirmede aralık çalışmaları için kullanılan egzersiz, etüt ve eserleri seslendirirken gitara özgü tutuş ve duruş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Gitar ile çok sesli seslendirmede aralık çalışmaları için kullanılan egzersiz, etüt ve eserleri seslendirirken gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Gitar ile çok sesli seslendirmede aralık çalışmaları için kullanılan egzersiz, etüt ve eserleri seslendirirken müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.1.4.4",
-   "grade": 1,
-   "unit": 4,
-   "order": 4,
-   "text": "Gitar ile çok sesli seslendirmede akor seslendirme için kullanılan egzersiz, etüt ve eserleri çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Gitar ile çok sesli seslendirmede akor seslendirme çalışmaları için kullanılan egzersiz, etüt ve eserleri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Gitar ile çok sesli seslendirmede akor seslendirme çalışmaları için kullanılan egzersiz, etüt ve eserleri seslendirirken gitara özgü tutuş ve duruş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Gitar ile çok sesli seslendirmede akor seslendirme çalışmaları için kullanılan egzersiz, etüt ve eserleri seslendirirken gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Gitar ile çok sesli seslendirmede akor seslendirme çalışmaları için kullanılan egzersiz, etüt ve eserleri seslendirirken müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.1.4.5",
-   "grade": 1,
-   "unit": 4,
-   "order": 5,
-   "text": "Do majör (C), la minör (Am), sol majör (G) ve mi minör (Em) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Do majör (C), la minör (Am), sol majör (G) ve mi minör (Em) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler."
-    },
-    {
-     "label": "b",
-     "text": "Do majör (C), la minör (Am), sol majör (G) ve mi minör (Em) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler."
-    },
-    {
-     "label": "c",
-     "text": "Do majör (C), la minör (Am), sol majör (G) ve mi minör (Em) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ"
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.2.1.1",
    "grade": 2,
    "unit": 1,
-   "order": 1,
-   "text": "Gitarda iki ses ve üç ses çıkıcı legato tekniğini çalabilme",
-   "components": [
+   "kind": "TEMA",
+   "title": "GİTARDA LEGATO TEKNİĞİ 1",
+   "description": "Temada öğrencilerin gitarda iki ses, üç ses ve dört ses çıkıcı, inici ve karma legato tekniği ile ilgili bilgi ve beceriler kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 10,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.3. Azim ve Kararlılık, E2.2. Sorumluluk, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGTR.2.1.1 • Öğrencilerden gitarda iki ses ve üç ses çıkıcı legato tekniğini geliştirmeleri amacıyla hedeflerini belirlemeleri istenir (SDB1.2). • Öğrencilerin iki ses ve üç ses çıkıcı legato tekniğini geliştirmeleri amacıyla başkalarını etkin şekilde dinlemeleri desteklenir (SDB2.1). • Öğrencilerden gitarda iki ses ve üç ses çıkıcı legato tekniğini geliştirmeleri amacıyla gayret göstermenin hedeflere ulaşma üzerindeki olumlu etkisini fark etmeleri istenir (D3.1). • Öğrencilerden gitarda iki ses ve üç ses çıkıcı legato tekniğini geliştirmeleri amacıyla verilen etüt ve egzersizler ile ilgili çalışmalarında kararlı davranmaları istenir (D12.3). • Öğrencilerin gitarda iki ses ve üç ses çıkıcı legato tekniğini geliştirmek amacıyla yapılacak çalışmaların zamanında ve eksiksiz yerine getirmeleri desteklenir (D16.3). • Öğrencilerden gitarda iki ses ve üç ses çıkıcı legato tekniğini geliştirmeleri amacıyla ihtiyaç duydukları bilgi ve becerileri fark etmeleri istenir (OB1). • Öğrencilerden gitarda iki ses ve üç ses çıkıcı legato tekniğini geliştirmeleri amacıyla dijital kaynaklar üzerinden görsel ve işitsel materyaller kullanmaları istenir (OB2). • Öğrencilerden gitarda iki ses ve üç ses çıkıcı legato tekniği içeren eser örneklerinin çözümlemeleri istenir (OB9). SMGTR.2.1.2 • Öğrencilerden gitarda iki ses ve üç ses inici legato tekniğini geliştirmeleri amacıyla hedeflerini belirlemeleri istenir (SDB1.2). • Öğrencilerin iki ses ve üç ses inici legato tekniğini geliştirmeleri amacıyla başkalarını etkin şekilde dinlemeleri desteklenir (SDB2.1). • Öğrencilerden gitarda iki ses ve üç ses inici legato tekniğini geliştirmeleri amacıyla gayret göstermenin hedeflere ulaşma üzerindeki olumlu etkisini fark etmeleri istenir (D3.1). • Öğrencilerden gitarda iki ses ve üç ses inici legato tekniğini geliştirmeleri amacıyla verilen etüt ve egzersizler ile ilgili çalışmalarında kararlı davranmaları istenir (D12.3). • Öğrencilerin gitarda iki ses ve üç ses inici legato tekniğini geliştirmeleri amacıyla yapacakları çalışmaları zamanında ve eksiksiz yerine getirmeleri desteklenir (D16.3). • Öğrencilerden gitarda iki ses ve üç ses inici legato tekniğini geliştirmeleri amacıyla ihtiyaç duyduğu bilgi ve becerileri fark etmeleri istenir (OB1). • Öğrencilerden gitarda iki ses ve üç ses inici legato tekniğini geliştirmeleri amacıyla dijital kaynaklar üzerinden görsel ve işitsel materyaller kullanmaları istenir (OB2). • Öğrencilerden gitarda iki ses ve üç ses inici legato tekniği içeren eser örneklerinin çözümlemeleri istenir (OB9). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ SMGTR.2.1.3 • Öğrencilerden gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini geliştirmeleri amacıyla hedeflerini belirlemeleri istenir (SDB1.2). • Öğrencilerin üç ses ve dört ses çıkıcı-inici legato tekniğini geliştirmeleri amacıyla başkalarını etkin şekilde dinlemeleri teşvik edilir (SDB2.1). • Öğrencilerden gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini geliştirmeleri amacıyla gayret göstermelerinin hedeflere ulaşma üzerindeki olumlu etkisini fark etmeleri istenir (D3.1). • Öğrencilerden gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini geliştirmeleri amacıyla verilen etüt ve egzersizlerle ilgili çalışmalarında kararlı davranmaları istenir (D12.3). • Öğrencilerin gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini geliştirmeleri amacıyla yapacakları çalışmaları zamanında ve eksiksiz yerine getirmeleri teşvik edilir (D16.3). • Öğrencilerden gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini geliştirmeleri amacıyla ihtiyaç duydukları bilgi ve becerileri fark etmeleri istenir (OB1). • Öğrencilerden gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini geliştirmeleri amacıyla dijital kaynaklar üzerinden görsel ve işitsel materyaller kullanmaları istenir (OB2). • Öğrencilerden gitarda üç ses ve dört ses çıkıcı-inici legato tekniği içeren eser örneklerini çözümlemeleri istenir (OB9). SMGTR.2.1.4 • Öğrencilerden gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini geliştirmeleri amacıyla hedeflerini belirlemeleri istenir (SDB1.2). • Öğrencilerin üç ses ve dört ses inici-çıkıcı legato tekniğini geliştirmeleri amacıyla başkalarını etkin şekilde dinlemeleri desteklenir (SDB2.1). • Öğrencilerden gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini geliştirmeleri amacıyla gayret göstermenin hedeflere ulaşma üzerindeki olumlu etkisini fark etmeleri istenir (D3.1). • Öğrencilerden gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini geliştirmeleri amacıyla verilen etüt ve egzersizlerle ilgili çalışmalarında kararlı davranmaları istenir (D12.3). • Öğrencilerin gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini geliştirmeleri amacıyla yapacakları çalışmaları zamanında ve eksiksiz yerine getirmeleri teşvik edilir (D16.3). • Öğrencilerden gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini geliştirmeleri amacıyla ihtiyaç duydukları bilgi ve becerileri fark etmeleri istenir (OB1). • Öğrencilerden gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini geliştirmeleri amacıyla dijital kaynaklar üzerinden görsel ve işitsel materyalleri kullanmaları istenir (OB2). • Öğrencilerden gitarda üç ses ve dört ses inici-çıkıcı legato tekniği içeren eser örneklerini çözümlemeleri istenir (OB9). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı YANSITMALARI cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D3. Çalışkanlık, D12. Sabır, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI İLİŞKİLER KB2.13. Yapılandırma ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGTR.2.1.1. Gitarda iki ses ve üç ses çıkıcı legato tekniğini çalabilme a) Gitarda iki ses ve üç ses çıkıcı legato tekniğini çözümler. b) Gitarda iki ses ve üç ses çıkıcı legato tekniğini çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Gitarda iki ses ve üç ses çıkıcı legato tekniğini çalabilmek için gitara özgü teknikleri kullanır. ç) Gitarda iki ses ve üç ses çıkıcı legato tekniği ile ilgili çalışmalarında müziksel bileşenleri kullanır. SMGTR.2.1.2. Gitarda iki ses ve üç ses inici legato tekniğini çalabilme a) Gitarda iki ses ve üç ses inici legato tekniğini çözümler. b) Gitarda iki ses ve üç ses inici legato tekniğini çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Gitarda iki ses ve üç ses inici legato tekniğini çalabilmek için gitara özgü teknikleri kullanır. ç) Gitarda iki ses ve üç ses inici legato tekniği ile ilgili çalışmalarında müziksel bileşenleri kullanır. SMGTR.2.1.3. Gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini çalabilme a) Gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini çözümler. b) Gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini çalabilmek için gitara özgü teknikleri kullanır. ç) Gitarda üç ses ve dört ses çıkıcı-inici legato tekniği ile ilgili çalışmalarında müziksel bileşenleri kullanır. SMGTR.2.1.4. Gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini çalabilme a) Gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini çözümler. b) Gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini çalabilmek için gitara özgü teknikleri kullanır. ç) Gitarda üç ses ve dört ses inici-çıkıcı legato tekniği ile ilgili çalışmalarında müziksel bileşenleri kullanır.",
+    "İÇERİK ÇERÇEVESİ": "Gitarda İki Ses ve Üç Ses Çıkıcı Legato Tekniği Gitarda İki Ses ve Üç Ses İnici Legato Tekniği Gitarda Üç Ses ve Dört Ses Çıkıcı-İnici Legato Tekniği Gitarda Üç Ses ve Dört Ses İnici-Çıkıcı Legato Tekniği",
+    "Anahtar Kavramlar": "çıkıcı, çıkıcı-inici, inici, inici-çıkıcı, legato ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ"
+   },
+   "outcomes": [
     {
-     "label": "a",
-     "text": "Gitarda iki ses ve üç ses çıkıcı legato tekniğini çözümler."
+     "code": "SMGTR.2.1.1",
+     "order": 1,
+     "text": "Gitarda iki ses ve üç ses çıkıcı legato tekniğini çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gitarda iki ses ve üç ses çıkıcı legato tekniğini çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Gitarda iki ses ve üç ses çıkıcı legato tekniğini çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Gitarda iki ses ve üç ses çıkıcı legato tekniğini çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Gitarda iki ses ve üç ses çıkıcı legato tekniği ile ilgili çalışmalarında müziksel bileşenleri kullanır."
+      }
+     ]
     },
     {
-     "label": "b",
-     "text": "Gitarda iki ses ve üç ses çıkıcı legato tekniğini çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+     "code": "SMGTR.2.1.2",
+     "order": 2,
+     "text": "Gitarda iki ses ve üç ses inici legato tekniğini çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gitarda iki ses ve üç ses inici legato tekniğini çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Gitarda iki ses ve üç ses inici legato tekniğini çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Gitarda iki ses ve üç ses inici legato tekniğini çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Gitarda iki ses ve üç ses inici legato tekniği ile ilgili çalışmalarında müziksel bileşenleri kullanır."
+      }
+     ]
     },
     {
-     "label": "c",
-     "text": "Gitarda iki ses ve üç ses çıkıcı legato tekniğini çalabilmek için gitara özgü teknikleri kullanır."
+     "code": "SMGTR.2.1.3",
+     "order": 3,
+     "text": "Gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Gitarda üç ses ve dört ses çıkıcı-inici legato tekniği ile ilgili çalışmalarında müziksel bileşenleri kullanır."
+      }
+     ]
     },
     {
-     "label": "ç",
-     "text": "Gitarda iki ses ve üç ses çıkıcı legato tekniği ile ilgili çalışmalarında müziksel bileşenleri kullanır."
+     "code": "SMGTR.2.1.4",
+     "order": 4,
+     "text": "Gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Gitarda üç ses ve dört ses inici-çıkıcı legato tekniği ile ilgili çalışmalarında müziksel bileşenleri kullanır."
+      }
+     ]
     }
    ]
   },
   {
-   "code": "SMGTR.2.1.2",
-   "grade": 2,
-   "unit": 1,
-   "order": 2,
-   "text": "Gitarda iki ses ve üç ses inici legato tekniğini çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Gitarda iki ses ve üç ses inici legato tekniğini çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Gitarda iki ses ve üç ses inici legato tekniğini çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Gitarda iki ses ve üç ses inici legato tekniğini çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Gitarda iki ses ve üç ses inici legato tekniği ile ilgili çalışmalarında müziksel bileşenleri kullanır."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.2.1.3",
-   "grade": 2,
-   "unit": 1,
-   "order": 3,
-   "text": "Gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Gitarda üç ses ve dört ses çıkıcı-inici legato tekniğini çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Gitarda üç ses ve dört ses çıkıcı-inici legato tekniği ile ilgili çalışmalarında müziksel bileşenleri kullanır."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.2.1.4",
-   "grade": 2,
-   "unit": 1,
-   "order": 4,
-   "text": "Gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Gitarda üç ses ve dört ses inici-çıkıcı legato tekniğini çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Gitarda üç ses ve dört ses inici-çıkıcı legato tekniği ile ilgili çalışmalarında müziksel bileşenleri kullanır."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.2.2.1",
-   "grade": 2,
-   "unit": 2,
-   "order": 1,
-   "text": "Etüt ve eserleri hız terimlerine uygun çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Hız terimlerini çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Hız terimleri ile ilgili çalışmalarında gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Hız terimleri ile ilgili çalışmalarında müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.2.2.2",
    "grade": 2,
    "unit": 2,
-   "order": 2,
-   "text": "Etüt ve eserleri gürlük terimlerine uygun çalabilme",
-   "components": [
+   "kind": "TEMA",
+   "title": "MÜZİKTE HIZ VE GÜRLÜK TERİMLERİ",
+   "description": "Temada öğrencilerin müzikte kullanılan hız, gürlük ve aksan terimlerini gitar ile çaldığı etüt ve eserlerde uygulama becerisi kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 10,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E2.5. Oyunseverlik, E3.1. Muhakeme",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGTR.2.2.1 • Öğrencilerden hız terimlerine uygun olarak seslendirecekleri etüt ve eser çalışmalarında eylemlerinin sonuçlarını ve kendilerini değerlendirmeleri istenir (SDB1.2). • Öğrencilerden hız terimlerine uygun olarak seslendirecekleri etüt ve eser çalışmalarında hedeflerine ulaşmak için bir yol haritası geliştirmeleri istenir (D3.2). • Öğrencilerin hız terimlerine uygun olarak seslendirecekleri etüt ve eser çalışmalarıyla ilgili karşılaşacakları zorluklarda çözüm odaklı düşünmeleri desteklenir (D12.1). • Öğrencilerden hız terimlerine uygun olarak seslendirecekleri etüt ve eser çalışmalarında özverili davranmaları istenir (D16.3). • Öğrencilerin eser ve etütleri hız terimlerine uygun seslendirebilmeleri için edindikleri bilgi ve becerileri kaydetmeleri desteklenir (OB1). • Öğrencilerden hız terimleri ile ilgili çalışmaları için yararlanacakları görsel ve işitsel materyallerden edindikleri dijital bilgiyi anlamlandırmaları istenir (OB2). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ • Öğrencilerden seslendirecekleri etüt ve eserlerde yer alan hız terimlerini çözümlemeleri ve bu terimlere uygun şekilde seslendirme yapmaları istenir (OB9). SMGTR.2.2.2 • Öğrencilerden gürlük terimlerine uygun olarak seslendirdikleri etüt ve eser çalışmalarını ve kendi performanslarını değerlendirmeleri istenir (SDB1.2). • Öğrencilerden gürlük terimlerine uygun olarak seslendirecekleri etüt ve eser çalışmalarında hedeflerine ulaşmak için bir yol haritası geliştirmeleri istenir (D3.2). • Öğrencilerin gürlük terimlerine uygun olarak seslendirecekleri etüt ve eser çalışmalarıyla ilgili karşılaşacakları zorluklarda çözüm odaklı düşünmeleri teşvik edilir (D12.1). • Öğrencilerden gürlük terimlerine uygun olarak seslendirecekleri etüt ve eser çalışmalarında özverili davranmaları istenir (D16.3). • Öğrencilerin eser ve etütleri gürlük terimlerine uygun seslendirebilmeleri için edindikleri bilgi ve becerileri kaydetmeleri desteklenir (OB1). • Öğrencilerden gürlük terimleri ile ilgili çalışmaları için yararlanacakları görsel ve işitsel materyallerden edindikleri dijital bilgiyi anlamlandırmaları istenir (OB2). • Öğrencilerden seslendirecekleri etüt ve eserlerde yer alan gürlük terimlerini çözümlemeleri ve bu terimlere uygun şekilde seslendirme yapmaları istenir (OB9). SMGTR.2.2.3 • Öğrencilerden vurgu (aksan) yapılması gereken notaları seslendirme çalışmalarında eylemlerinin sonuçlarını ve kendilerini değerlendirmeleri istenir (SDB1.2). • Öğrencilerden vurgu (aksan) yapılması gereken notaları seslendirme çalışmalarında hedeflerine ulaşmak için bir yol haritası geliştirmeleri istenir (D3.2). • Öğrencilerin vurgu (aksan) yapılması gereken notaları seslendirme çalışmaları ile ilgili karşılaşacakları zorluklarda çözüm odaklı düşünmeleri desteklenir (D12.1). • Öğrencilerden vurgu (aksan) yapılması gereken notaları seslendirme çalışmalarında vurgu yapılacak notalara dikkat ederek özverili davranmaları istenir (D16.3). • Öğrencilerin eser ve etütlerde yer alan vurgu (aksan) içeren notaları çalabilmeleri için edindikleri bilgi ve becerileri kaydetmeleri desteklenir (OB1). • Öğrencilerden vurgu (aksan) çalışmaları için yararlanacakları görsel ve işitsel materyallerden edindikleri dijital bilgiyi anlamlandırmaları istenir (OB2). • Öğrencilerden seslendirecekleri etüt ve eserlerde vurgu (aksan) içeren notaları çözümlemeleri ve bu vurgulama becerisini kullanarak seslendirme yapmaları istenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme)",
+    "Değerler": "D3. Çalışkanlık, D12. Sabır, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI İLİŞKİLER KB2.15. Yansıtma ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGTR.2.2.1. Etüt ve eserleri hız terimlerine uygun çalabilme a) Hız terimlerini çözümler. b) Gitara özgü duruş ve tutuş pozisyonunu alır. c) Hız terimleri ile ilgili çalışmalarında gitara özgü teknikleri kullanır. ç) Hız terimleri ile ilgili çalışmalarında müziksel bileşenleri uygular. SMGTR.2.2.2. Etüt ve eserleri gürlük terimlerine uygun çalabilme a) Gürlük terimlerini çözümler. b) Gitara özgü duruş ve tutuş pozisyonunu alır. c) Gürlük terimleri ile ilgili çalışmalarında gitara özgü teknikleri kullanır. ç) Gürlük terimleri ile ilgili çalışmalarında müziksel bileşenleri uygular. SMGTR.2.2.3. Etüt ve eserlerde vurgu (aksan) içeren notaları çalabilme a) Etüt ve eserlerde vurgu (aksan) içeren notaları çözümler. b) Gitara özgü duruş ve tutuş pozisyonunu alır. c) Vurgu (aksan) çalışmalarında gitara özgü teknikleri kullanır. ç) Vurgu (aksan) çalışmalarında müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Müzikte Hız Terimleri Müzikte Gürlük Terimleri Müzikte Aksan",
+    "Anahtar Kavramlar": "aksan, allegro (hızlı), andante (orta yavaş), forte (güçlü), mezzo (orta), moderato (orta çabuk), piano (zayıf)"
+   },
+   "outcomes": [
     {
-     "label": "a",
-     "text": "Gürlük terimlerini çözümler."
+     "code": "SMGTR.2.2.1",
+     "order": 1,
+     "text": "Etüt ve eserleri hız terimlerine uygun çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hız terimlerini çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Hız terimleri ile ilgili çalışmalarında gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Hız terimleri ile ilgili çalışmalarında müziksel bileşenleri uygular."
+      }
+     ]
     },
     {
-     "label": "b",
-     "text": "Gitara özgü duruş ve tutuş pozisyonunu alır."
+     "code": "SMGTR.2.2.2",
+     "order": 2,
+     "text": "Etüt ve eserleri gürlük terimlerine uygun çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gürlük terimlerini çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Gürlük terimleri ile ilgili çalışmalarında gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Gürlük terimleri ile ilgili çalışmalarında müziksel bileşenleri uygular."
+      }
+     ]
     },
     {
-     "label": "c",
-     "text": "Gürlük terimleri ile ilgili çalışmalarında gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Gürlük terimleri ile ilgili çalışmalarında müziksel bileşenleri uygular."
+     "code": "SMGTR.2.2.3",
+     "order": 3,
+     "text": "Etüt ve eserlerde vurgu (aksan) içeren notaları çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Etüt ve eserlerde vurgu (aksan) içeren notaları çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Vurgu (aksan) çalışmalarında gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Vurgu (aksan) çalışmalarında müziksel bileşenleri uygular."
+      }
+     ]
     }
    ]
   },
   {
-   "code": "SMGTR.2.2.3",
-   "grade": 2,
-   "unit": 2,
-   "order": 3,
-   "text": "Etüt ve eserlerde vurgu (aksan) içeren notaları çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Etüt ve eserlerde vurgu (aksan) içeren notaları çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Vurgu (aksan) çalışmalarında gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Vurgu (aksan) çalışmalarında müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.2.3.1",
    "grade": 2,
    "unit": 3,
-   "order": 1,
-   "text": "Eserlerde karşılaştığı bareli bölümleri çalabilme",
-   "components": [
+   "kind": "TEMA",
+   "title": "GİTARDA BARE ÇALIŞMALARI VE FA MAJÖR-",
+   "description": "RE MİNÖR TONLARI Temada öğrencilerin gitarda küçük (yarım) bare ve büyük (tam) bare tekniği ve fa majör (F), re minör (Dm) tonlarını seslendirebilmeleri ile ilgili bilgi ve becerileri kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 24,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB2.7. Karşılaştırma",
+    "EĞİLİMLER": "E3.3. Yaratıcılık, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGTR.2.3.1 • Öğrencilerden bare basabilme becerilerini geliştirmek için yapacakları etüt ve eser çalma çalışmalarını önceki bilgileriyle ilişkilendirerek sürdürmeleri istenir (SDB1.1). • Öğrencilerin çalacakları etüt ve eserlerde yer alan bareli bölümleri çalışırken sol el kullanımı ile ilgili karşılaşacakları yeni durumlara uyum sağlamaları desteklenir (SDB3.2). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ • Öğrencilerden bare çalışmaları için seslendirecekleri etüt ve eserlerde karşılaşacakları zorlukları aşmak için gayret göstermeleri istenir (D3.1). • Öğrencilerin bare çalışmaları için seslendirecekleri etüt ve eserlerde sol el kondisyonu ile ilgili yaşadıkları zorluklar karşısında sebat ederek çalışmalarını sürdürmeleri teşvik edilir (D12.3). • Öğrencilerin bare çalışmaları için gerekli etüt ve eserleri seslendirme faaliyetlerinde ergonomik risk faktörlerine karşı önlem almaları sağlanır (D13.4). • Öğrencilerin bare çalışmaları içeren farklı örnekleri incelemeleri istenerek konu ile ilgili bilgi ihtiyaçlarını fark etmeleri sağlanır (OB1). • Öğrencilerden gitar üzerinde doğru bir bare pozisyonunun nasıl olduğu ile alakalı verilen görselleri incelemeleri ve uygulama süreçlerine buradan edindikleri yorumu aktarmaları istenir (OB4). • Öğrencilerin bare pozisyonunu içeren bir eser ya da etüt ile performans sergilemeleri desteklenir (OB9). SMGTR.2.3.2 • Öğrencilerden fa majör ve re minör tonlarında yazılmış dizi, etüt ve eser çalma çalışmalarını önceki bilgileriyle ilişkilendirerek sürdürmeleri istenir (SDB1.1). • Öğrencilerin fa majör ve re minör tonlarında yazılmış dizi, etüt ve eser çalma çalışmalarında tonalite ile ilgili karşılaşacakları yeni durumlara uyum sağlamaları teşvik edilir (SDB3.2). • Öğrencilerden fa majör ve re minör tonlarında yazılmış etüt ve eserleri kendi deneyim ve değerleri ile ilişkilendirerek yorumlamaları istenir (D7.1). • Öğrencilerden fa majör ve re minör tonlarında yazılmış eser örnekleri incelemeleri istenerek konu ile ilgili bilgi ihtiyaçlarını fark etmeleri istenir (OB1). • Öğrencilerin fa majör ve re minör tonlarında yazılmış bir eser ya da etüt ile performans sergilemeleri desteklenir (OB9). SMGTR.2.3.3 • Öğrencilerden fa majör ve re minör dizilerinin akor yapıları ve ritim çalma çalışmalarını önceki bilgileriyle ilişkilendirerek karşılaştırma yapmaları istenir (SDB1.1). • Öğrencilerin fa majör ve re minör dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma etkinlikleri gerçekleştirirken karşılaşacakları zorlukları aşmak için gayret göstermeleri teşvik edilir (D3.1). • Öğrencilerin fa majör ve re minör akor yapılarını içeren eserler ile ritim çalma çalışmaları esnasında arkadaşlarının başarılarını takdir etmeleri teşvik edilir (D10.3). • Öğrencilerden fa majör ve re minör akor yapılarını içeren eserler ile ritim çalma performanslarında türkülerin gelecek nesillere aktarılması için sorumluluk almaları sağlanır (D19.3). • Öğrencilerden fa majör ve re minör akor yapılarını içeren eserler ile ritim çalma performansı sergilemeleri istenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB3.2. Esneklik",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik, D10. Mütevazılık, D12. Sabır, D13. Sağlıklı Yaşam, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI İLİŞKİLER KB2.2. Gözlemleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGTR.2.3.1. Eserlerde karşılaştığı bareli bölümleri çalabilme a) Bare çalışmalarında çalınacak eser ve etütleri çözümler. b) Bare çalışmalarına özgü duruş ve pozisyonu alır. c) Bare çalışmaları ile ilgili çalınacak eser ve etütlerde gitara özgü teknikleri kullanır. ç) Bare çalışmalarında müziksel bileşenleri uygular. SMGTR.2.3.2. Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çalabilme a) Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çözümler. b) Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır. ç) Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular. SMGTR.2.3.3. Fa majör (F) ve re minör (Dm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme a) Fa majör (F) ve re minör (Dm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler. b) Fa majör (F) ve re minör (Dm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler. c) Fa majör (F) ve re minör (Dm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler.",
+    "İÇERİK ÇERÇEVESİ": "Gitarda Bare Tekniği Fa Majör ve Re Minör Ses Dizileri Fa Majör ve Re Minör Akorları",
+    "Anahtar Kavramlar": "akor, dizi, fa majör (F), majör, minör, re minör (Dm), ritim, tam bare, yarım bare"
+   },
+   "outcomes": [
     {
-     "label": "a",
-     "text": "Bare çalışmalarında çalınacak eser ve etütleri çözümler."
+     "code": "SMGTR.2.3.1",
+     "order": 1,
+     "text": "Eserlerde karşılaştığı bareli bölümleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bare çalışmalarında çalınacak eser ve etütleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Bare çalışmalarına özgü duruş ve pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Bare çalışmaları ile ilgili çalınacak eser ve etütlerde gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Bare çalışmalarında müziksel bileşenleri uygular."
+      }
+     ]
     },
     {
-     "label": "b",
-     "text": "Bare çalışmalarına özgü duruş ve pozisyonu alır."
+     "code": "SMGTR.2.3.2",
+     "order": 2,
+     "text": "Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
     },
     {
-     "label": "c",
-     "text": "Bare çalışmaları ile ilgili çalınacak eser ve etütlerde gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Bare çalışmalarında müziksel bileşenleri uygular."
+     "code": "SMGTR.2.3.3",
+     "order": 3,
+     "text": "Fa majör (F) ve re minör (Dm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Fa majör (F) ve re minör (Dm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Fa majör (F) ve re minör (Dm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler."
+      },
+      {
+       "label": "c",
+       "text": "Fa majör (F) ve re minör (Dm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler."
+      }
+     ]
     }
    ]
   },
   {
-   "code": "SMGTR.2.3.2",
-   "grade": 2,
-   "unit": 3,
-   "order": 2,
-   "text": "Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Fa majör (F) ve re minör (Dm) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.2.3.3",
-   "grade": 2,
-   "unit": 3,
-   "order": 3,
-   "text": "Fa majör (F) ve re minör (Dm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Fa majör (F) ve re minör (Dm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler."
-    },
-    {
-     "label": "b",
-     "text": "Fa majör (F) ve re minör (Dm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler."
-    },
-    {
-     "label": "c",
-     "text": "Fa majör (F) ve re minör (Dm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.2.4.1",
-   "grade": 2,
-   "unit": 4,
-   "order": 1,
-   "text": "Re majör (D) ve si minör (Bm) tonlarına ait dizi, etüt ve eserleri çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Re majör (D) ve si minör (Bm) tonlarına ait dizi, etüt ve eserleri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Re majör (D) ve si minör (Bm) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Re majör (D) ve si minör (Bm) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Re majör (D) ve si minör (Bm) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.2.4.2",
    "grade": 2,
    "unit": 4,
-   "order": 2,
-   "text": "Re majör (D) ve si minör (Bm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme",
-   "components": [
+   "kind": "TEMA",
+   "title": "RE MAJÖR-Sİ MİNÖR VE LA MAJÖR-",
+   "description": "FA# MİNÖR TONLARI Temada öğrencilerin gitar üzerinde re majör (D), si minör (Bm), la majör (A) ve fa# minör (F#m) tonları ile ilgili uygulamalar yapabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 24,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB2.7. Karşılaştırma",
+    "EĞİLİMLER": "E1.3. Azim ve Kararlılık, E2.2. Sorumluluk, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGTR.2.4.1 • Öğrencilerden re majör ve si minör tonlarında yazılmış dizi, etüt ve eser çalma çalışmalarını önceki bilgileriyle ilişkilendirerek sürdürmeleri istenir (SDB1.1). • Öğrencilerin re majör ve si minör tonlarında yazılmış dizi, etüt ve eser çalma çalışmaları ile ilgili yaşadıkları zorlukların geçici olduğunu fark etmeleri sağlanır (D12.1). • Öğrencilerin re majör ve si minör tonlarında yazılmış dizi, etüt ve eser çalma çalışmalarında ergonomik risk faktörlerine karşı önlem almaları sağlanır (D13.4). • Öğrencilerden re majör ve si minör tonlarında yazılmış dizi, etüt ve eser çalma çalışmaları ile ilgili verilecek performans görevlerini zamanında ve eksiksiz yerine getirmeleri istenir (D16.3). • Öğrencilerin re majör ve si minör tonlarında yazılmış eser örnekleri incelemeleri istenerek konu ile ilgili bilgi ihtiyaçlarını fark etmeleri sağlanır (OB1). • Öğrencilerden re majör ve si minör tonlarında yazılmış bir eser ya da etüt ile performans sergilemeleri istenir (OB9). SMGTR.2.4.2 • Öğrencilerden re majör ve si minör dizilerinin akor yapıları ve ritim çalma çalışmalarını önceki bilgileriyle ilişkilendirerek karşılaştırma yapmaları istenir (SDB1.1). • Öğrencilerden küçük gruplar oluşturarak re majör ve si minör dizilerinin akor yapılarını karşılaştırmaları, her grubun belirli bir ritim kalıbıyla bu dizilere uygun kısa bir parça besteleyip seslendirmesi istenir (SDB2.2). • Öğrencilerden re majör ve si minör dizilerinin akor yapıları ve ritim çalma çalışmaları karşılaştırma konusunu eleştirel bakış açısıyla değerlendirmeleri istenir (D3.3). • Öğrencilerin küçük gruplar oluşturarak re majör ve si minör dizilerinin akor yapılarını karşılaştırmak için yapacakları çalışmalarda üzerlerine düşen görevleri kuralına uygun olarak yerine getirmeleri teşvik edilir (D6.1). • Öğrencilerden re majör ve si minör dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili ulaştıkları bilgileri sentezlemeleri istenir (OB1). SMGTR.2.4.3 • Öğrencilerden la majör ve fa# minör tonlarında yazılmış dizi, etüt ve eser çalma çalışmalarını önceki bilgileriyle ilişkilendirerek sürdürmeleri istenir (SDB1.1). • Öğrencilerin la majör ve fa# minör tonlarında yazılmış dizi, etüt ve eser çalma çalışmaları ile ilgili yaşadıkları zorlukların geçici olduğunu fark etmeleri desteklenir (D12.1). • Öğrencilerin la majör ve fa# minör tonlarında yazılmış dizi, etüt ve eser çalma çalışmalarında ergonomik risk faktörlerine karşı önlem almaları sağlanır (D13.4). • Öğrencilerden la majör ve fa# minör tonlarında yazılmış dizi, etüt ve eser çalma çalışmaları ile ilgili verilecek performans görevlerini zamanında ve eksiksiz yerine getirmeleri istenir (D16.3). • Öğrencilerin la majör ve fa# minör tonlarında yazılmış eser örnekleri incelemeleri istenerek konu ile ilgili bilgi ihtiyaçlarını fark etmeleri sağlanır (OB1). • Öğrencilerden la majör ve fa# minör tonlarında yazılmış bir eser ya da etüt ile performans sergilemeleri istenir (OB9). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ SMGTR.2.4.4 • Öğrencilerden la majör ve fa# minör dizilerinin akor yapıları ve ritim çalma çalışmalarını önceki bilgileriyle ilişkilendirerek karşılaştırma yapmaları istenir (SDB1.1). • Öğrencilerden küçük gruplar oluşturarak la majör ve fa# minör dizilerinin akor yapılarını karşılaştırmaları, her grubun belirli bir ritim kalıbıyla bu dizilere uygun kısa bir parça besteleyip seslendirmesi istenir (SDB2.2). • Öğrencilerden la majör ve fa# minör dizilerinin akor yapıları ve ritim çalma çalışmalarını karşılaştırma konusunu eleştirel bakış açısıyla değerlendirmeleri istenir (D3.3). • Öğrencilerin küçük gruplar oluşturarak la majör ve fa# minör dizilerinin akor yapılarını karşılaştırmak için yapacakları çalışmalarda üzerlerine düşen görevleri kuralına uygun olarak yerine getirmeleri teşvik edilir (D6.1). • Öğrencilerden la majör ve fa# minör dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili ulaştıkları bilgileri sentezlemeleri istenir (OB1). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ 2.3. 3. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D6. Dürüstlük, D12. Sabır, D13. Sağlıklı Yaşam, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI İLİŞKİLER KB2.2. Gözlemleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGTR.2.4.1. Re majör (D) ve si minör (Bm) tonlarına ait dizi, etüt ve eserleri çalabilme a) Re majör (D) ve si minör (Bm) tonlarına ait dizi, etüt ve eserleri çözümler. b) Re majör (D) ve si minör (Bm) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Re majör (D) ve si minör (Bm) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır. ç) Re majör (D) ve si minör (Bm) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular. SMGTR.2.4.2. Re majör (D) ve si minör (Bm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme a) Re majör (D) ve si minör (Bm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler. b) Re majör (D) ve si minör (Bm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler. c) Re majör (D) ve si minör (Bm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler. SMGTR.2.4.3. La majör (A) ve fa# minör (F#m) tonlarına ait dizi, etüt ve eserleri çalabilme a) La majör (A) ve fa# minör (F#m) tonlarına ait dizi, etüt ve eserleri çözümler. b) La majör (A) ve fa# minör (F#m) minör tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) La majör (A) ve fa# minör (F#m) minör tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır. ç) La majör (A) ve fa# minör (F#m) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular. SMGTR.2.4.4. La majör (A) ve fa# minör (F#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme a) La majör (A) ve fa# minör (F#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler. b) La majör (A) ve fa# minör (F#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler. c) La majör (A) ve fa# minör (F#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler.",
+    "İÇERİK ÇERÇEVESİ": "Re Majör ve Si Minör Ses Dizileri Re Majör ve Si Minör Akorları La Majör ve Fa# Minör Ses Dizileri La Majör ve Fa# Minör Akorları",
+    "Anahtar Kavramlar": "akor, bare, diyez, dizi, fa# minör (F#m), re majör (D), ritim, la majör (A), si minör (Bm) ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ"
+   },
+   "outcomes": [
     {
-     "label": "a",
-     "text": "Re majör (D) ve si minör (Bm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler."
+     "code": "SMGTR.2.4.1",
+     "order": 1,
+     "text": "Re majör (D) ve si minör (Bm) tonlarına ait dizi, etüt ve eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Re majör (D) ve si minör (Bm) tonlarına ait dizi, etüt ve eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Re majör (D) ve si minör (Bm) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Re majör (D) ve si minör (Bm) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Re majör (D) ve si minör (Bm) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
     },
     {
-     "label": "b",
-     "text": "Re majör (D) ve si minör (Bm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler."
+     "code": "SMGTR.2.4.2",
+     "order": 2,
+     "text": "Re majör (D) ve si minör (Bm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Re majör (D) ve si minör (Bm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Re majör (D) ve si minör (Bm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler."
+      },
+      {
+       "label": "c",
+       "text": "Re majör (D) ve si minör (Bm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler."
+      }
+     ]
     },
     {
-     "label": "c",
-     "text": "Re majör (D) ve si minör (Bm) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler."
+     "code": "SMGTR.2.4.3",
+     "order": 3,
+     "text": "La majör (A) ve fa# minör (F#m) tonlarına ait dizi, etüt ve eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "La majör (A) ve fa# minör (F#m) tonlarına ait dizi, etüt ve eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "La majör (A) ve fa# minör (F#m) minör tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "La majör (A) ve fa# minör (F#m) minör tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "La majör (A) ve fa# minör (F#m) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMGTR.2.4.4",
+     "order": 4,
+     "text": "La majör (A) ve fa# minör (F#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "La majör (A) ve fa# minör (F#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "La majör (A) ve fa# minör (F#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler."
+      },
+      {
+       "label": "c",
+       "text": "La majör (A) ve fa# minör (F#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler."
+      }
+     ]
     }
    ]
   },
   {
-   "code": "SMGTR.2.4.3",
-   "grade": 2,
-   "unit": 4,
-   "order": 3,
-   "text": "La majör (A) ve fa# minör (F#m) tonlarına ait dizi, etüt ve eserleri çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "La majör (A) ve fa# minör (F#m) tonlarına ait dizi, etüt ve eserleri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "La majör (A) ve fa# minör (F#m) minör tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "La majör (A) ve fa# minör (F#m) minör tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "La majör (A) ve fa# minör (F#m) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.2.4.4",
-   "grade": 2,
-   "unit": 4,
-   "order": 4,
-   "text": "La majör (A) ve fa# minör (F#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "La majör (A) ve fa# minör (F#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler."
-    },
-    {
-     "label": "b",
-     "text": "La majör (A) ve fa# minör (F#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler."
-    },
-    {
-     "label": "c",
-     "text": "La majör (A) ve fa# minör (F#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.3.1.1",
    "grade": 3,
    "unit": 1,
-   "order": 1,
-   "text": "Mi majör (E) ve do diyez minör (C#m) tonlarına ait dizi, etüt ve eserleri çalabilme",
-   "components": [
+   "kind": "TEMA",
+   "title": "Mİ MAJÖR-DO# MİNÖR VE Sİ MAJÖR-",
+   "description": "SOL# MİNÖR TONLARI Temada öğrencilerin gitar üzerinde mi majör (E), do# minör (C#m), si majör (B) ve sol# minör (G#m) tonları ile ilgili dizi, etüt ve eserler çalabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 24,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB2.7. Karşılaştırma",
+    "EĞİLİMLER": "E1.3. Azim ve Kararlılık, E2.2. Sorumluluk, E3.3. Soru Sorma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGTR.3.1.1 • Öğrencilerden mi majör ve do# minör tonlarında yazılmış dizi, etüt ve eser çalma çalışmalarını önceki bilgileriyle ilişkilendirerek sürdürmeleri istenir (SDB1.1). • Öğrencilerin mi majör ve do# minör tonlarında dizi, etüt veya eser seslendirme çalışmalarında disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri desteklenir (D3.1). • Öğrencilerden mi majör ve do# minör tonlarında dizi, etüt veya eser seslendirme çalışmalarında sorumluluklarını yerine getirirken kararlı davranmaları istenir (D12.3). • Öğrencilerden mi majör ve do# minör tonlarında dizi, etüt veya eser seslendirme çalışmaları ile ilgili görevlerini zamanında ve eksiksiz yerine getirmeleri istenir (D16.3). • Öğrencilerin mi majör ve do# minör tonlarında dizi, etüt veya eser seslendirme çalışmaları ile ilgili eksik bilgilerini tamamlamak adına bilgi ihtiyaçlarını fark etmeleri sağlanır (OB1). • Öğrencilerin mi majör ve do# minör tonlarında dizi, etüt veya eser seslendirme çalışmaları ile ilgili dijital kaynaklardan gerekli bilgilere ulaşabilmeleri ve bu bilgiler üzerinden çıkarım yapabilmeleri sağlanır (OB2). • Öğrencilerden mi majör ve do# minör tonlarında yazılmış bir eser ya da etüt ile performans sergilemeleri istenir (OB9). SMGTR.3.1.2 • Öğrencilerden mi majör ve do# minör dizilerinin akor yapıları ve ritim çalma çalışmalarını önceki bilgileriyle ilişkilendirerek karşılaştırma yapmaları istenir (SDB1.1). • Öğrencilerden küçük gruplar oluşturarak mi majör ve do# minör dizilerinin akor yapılarını karşılaştırmaları, her grubun belirli bir ritim kalıbıyla bu dizilere uygun kısa bir parça besteleyip seslendirmeleri istenir (SDB2.2). • Öğrencilerden mi majör ve do# minör dizilerinin akor yapıları ve ritim çalma çalışmalarını karşılaştırma konusunu eleştirel bakış açısıyla değerlendirmeleri istenir (D3.3). • Öğrencilerden mi majör ve do# minör dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili ulaştıkları bilgileri sentezlemeleri istenir (OB1). SMGTR.3.1.3 • Öğrencilerden si majör ve sol# minör tonlarında yazılmış dizi, etüt ve eser çalma çalışmalarını önceki bilgileriyle ilişkilendirerek sürdürmeleri istenir (SDB1.1). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ • Öğrencilerin si majör ve sol# minör tonlarında dizi, etüt veya eser seslendirme çalışmalarında disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri desteklenir (D3.1). • Öğrencilerden si majör ve sol# minör tonlarında dizi, etüt veya eser seslendirme çalışmalarında sorumluluklarını yerine getirirken kararlı davranmaları istenir (D12.3). • Öğrencilerden si majör ve sol# minör tonlarında dizi, etüt veya eser seslendirme çalışmaları ile ilgili görevlerini zamanında ve eksiksiz yerine getirmeleri istenir (D16.3). • Öğrencilerin si majör ve sol# minör tonlarında dizi, etüt veya eser seslendirme çalışmaları ile ilgili eksik bilgilerini tamamlamak adına bilgi ihtiyaçlarını fark etmeleri sağlanır (OB1). • Öğrencilerin si majör ve sol# minör tonlarında dizi, etüt veya eser seslendirme çalışmaları ile ilgili dijital kaynaklardan gerekli bilgilere ulaşabilmeleri ve bu bilgiler üzerinden çıkarım yapabilmeleri sağlanır (OB2). • Öğrencilerden si majör ve sol# minör tonlarında yazılmış bir eser ya da etüt ile performans sergilemeleri istenir (OB9). SMGTR.3.1.4 • Öğrencilerden si majör ve sol# minör dizilerinin akor yapıları ve ritim çalma çalışmalarını önceki bilgileriyle ilişkilendirerek karşılaştırma yapmaları istenir (SDB1.1). • Öğrencilerden küçük gruplar oluşturarak si majör ve sol# minör dizilerinin akor yapılarını karşılaştırmaları, her grubun belirli bir ritim kalıbıyla bu dizilere uygun kısa bir parça besteleyip seslendirmeleri istenir (SDB2.2). • Öğrencilerden si majör ve sol# minör dizilerinin akor yapıları ve ritim çalma çalışmalarını karşılaştırma konusunu eleştirel bakış açısıyla değerlendirmeleri istenir (D3.3). • Öğrencilerden si majör ve sol# minör dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili ulaştıkları bilgileri sentezlemeleri istenir (OB1). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D12. Sabır, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI İLİŞKİLER KB2.14. Yorumlama ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGTR.3.1.1. Mi majör (E) ve do diyez minör (C#m) tonlarına ait dizi, etüt ve eserleri çalabilme a) Mi majör (E) ve do diyez minör (C#m) tonlarına ait dizi, etüt ve eserleri çözümler. b) Mi majör (E) ve do diyez minör (C#m) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Mi majör (E) ve do diyez minör (C#m) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır. ç) Mi majör (E) ve do diyez minör (C#m) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular. SMGTR.3.1.2. Mi majör (E) ve do diyez minör (C#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme a) Mi majör (E) ve do diyez minör (C#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler. b) Mi majör (E) ve do diyez minör (C#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler. c) Mi majör (E) ve do diyez minör (C#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler. SMGTR.3.1.3. Si majör (B) ve sol diyez minör (G#m) tonlarına ait dizi, etüt ve eserleri çalabilme a) Si majör (B) ve sol diyez minör (G#m) tonlarına ait dizi, etüt ve eserleri çözümler. b) Si majör (B) ve sol diyez minör (G#m) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Si majör (B) ve sol diyez minör (G#m) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır. ç) Si majör (B) ve sol diyez minör (G#m) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular. SMGTR.3.1.4. Si majör (B) ve sol diyez minör (G#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme a) Si majör (B) ve sol diyez minör (G#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler. b) Si majör (B) ve sol diyez minör (G#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler. c) Si majör (B) ve sol diyez minör (G#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler.",
+    "İÇERİK ÇERÇEVESİ": "Mi Majör ve Do# Minör Ses Dizileri Mi Majör ve Do# Minör Akorları Si Majör ve Sol# Minör Ses Dizileri Si Majör ve sol# Minör Akorları",
+    "Anahtar Kavramlar": "akor, bare, diyez, dizi, do diyez minör (C#m), mi majör (E), ritim, si majör (B), sol diyez minör (G#m) ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ"
+   },
+   "outcomes": [
     {
-     "label": "a",
-     "text": "Mi majör (E) ve do diyez minör (C#m) tonlarına ait dizi, etüt ve eserleri çözümler."
+     "code": "SMGTR.3.1.1",
+     "order": 1,
+     "text": "Mi majör (E) ve do diyez minör (C#m) tonlarına ait dizi, etüt ve eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Mi majör (E) ve do diyez minör (C#m) tonlarına ait dizi, etüt ve eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Mi majör (E) ve do diyez minör (C#m) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Mi majör (E) ve do diyez minör (C#m) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Mi majör (E) ve do diyez minör (C#m) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
     },
     {
-     "label": "b",
-     "text": "Mi majör (E) ve do diyez minör (C#m) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+     "code": "SMGTR.3.1.2",
+     "order": 2,
+     "text": "Mi majör (E) ve do diyez minör (C#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Mi majör (E) ve do diyez minör (C#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Mi majör (E) ve do diyez minör (C#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler."
+      },
+      {
+       "label": "c",
+       "text": "Mi majör (E) ve do diyez minör (C#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler."
+      }
+     ]
     },
     {
-     "label": "c",
-     "text": "Mi majör (E) ve do diyez minör (C#m) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
+     "code": "SMGTR.3.1.3",
+     "order": 3,
+     "text": "Si majör (B) ve sol diyez minör (G#m) tonlarına ait dizi, etüt ve eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Si majör (B) ve sol diyez minör (G#m) tonlarına ait dizi, etüt ve eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Si majör (B) ve sol diyez minör (G#m) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Si majör (B) ve sol diyez minör (G#m) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Si majör (B) ve sol diyez minör (G#m) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
     },
     {
-     "label": "ç",
-     "text": "Mi majör (E) ve do diyez minör (C#m) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular."
+     "code": "SMGTR.3.1.4",
+     "order": 4,
+     "text": "Si majör (B) ve sol diyez minör (G#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Si majör (B) ve sol diyez minör (G#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Si majör (B) ve sol diyez minör (G#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler."
+      },
+      {
+       "label": "c",
+       "text": "Si majör (B) ve sol diyez minör (G#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler."
+      }
+     ]
     }
    ]
   },
   {
-   "code": "SMGTR.3.1.2",
-   "grade": 3,
-   "unit": 1,
-   "order": 2,
-   "text": "Mi majör (E) ve do diyez minör (C#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Mi majör (E) ve do diyez minör (C#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler."
-    },
-    {
-     "label": "b",
-     "text": "Mi majör (E) ve do diyez minör (C#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler."
-    },
-    {
-     "label": "c",
-     "text": "Mi majör (E) ve do diyez minör (C#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.3.1.3",
-   "grade": 3,
-   "unit": 1,
-   "order": 3,
-   "text": "Si majör (B) ve sol diyez minör (G#m) tonlarına ait dizi, etüt ve eserleri çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Si majör (B) ve sol diyez minör (G#m) tonlarına ait dizi, etüt ve eserleri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Si majör (B) ve sol diyez minör (G#m) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Si majör (B) ve sol diyez minör (G#m) tonlarına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Si majör (B) ve sol diyez minör (G#m) tonlarına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.3.1.4",
-   "grade": 3,
-   "unit": 1,
-   "order": 4,
-   "text": "Si majör (B) ve sol diyez minör (G#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili karşılaştırma yapabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Si majör (B) ve sol diyez minör (G#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili özellikleri belirler."
-    },
-    {
-     "label": "b",
-     "text": "Si majör (B) ve sol diyez minör (G#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili benzerlikleri listeler."
-    },
-    {
-     "label": "c",
-     "text": "Si majör (B) ve sol diyez minör (G#m) dizilerinin akor yapıları ve ritim çalma çalışmaları ile ilgili farklılıkları listeler."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.3.2.1",
-   "grade": 3,
-   "unit": 2,
-   "order": 1,
-   "text": "Rönesans Dönemi müziği ile ilgili bilgi toplayabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Rönesans Dönemi müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler."
-    },
-    {
-     "label": "b",
-     "text": "Belirlediği aracı kullanarak Rönesans Dönemi müziği hakkındaki bilgileri bulur."
-    },
-    {
-     "label": "c",
-     "text": "Rönesans Dönemi müziği hakkındaki ulaşılan bilgileri doğrular."
-    },
-    {
-     "label": "ç",
-     "text": "Rönesans Dönemi müziği hakkındaki ulaşılan bilgileri kaydeder."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.3.2.2",
    "grade": 3,
    "unit": 2,
-   "order": 2,
-   "text": "Barok Dönem müziği ile ilgili bilgi toplayabilme",
-   "components": [
+   "kind": "TEMA",
+   "title": "MÜZİKTE RÖNESANS DÖNEMİ, BAROK VE KLASİK DÖNEM",
+   "description": "Temada öğrencilerin Rönesans Dönemi, Barok ve Klasik Dönem ile ilgili genel özellikleri, eser formları ve bestecileri ile ilgili bilgi kazanmaları ve ilgili döneme ait düzeyine uygun eserler seslendirebilmeleri amaçlanmaktadır.",
+   "lesson_hours": 24,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E1.1. Merak, E2.5. Oyunseverlik, E3.1. Muhakeme, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGTR.3.2.1 • Öğrencilerden Rönesans Dönemi müziği ile ilgili bilgi toplama çalışmalarında iş birliği yapabilecekleri kişi ve grupları tespit etmeleri istenir (SDB2.2). • Öğrencilerin birlikte gerçekleştirecekleri bilgi toplama çalışmalarında birbirlerine nazik davranmaları desteklenir (D4.1). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ • Öğrencilerden Rönesans Dönemi müziğine ait eser örneklerini kendi deneyim ve değerleriyle ilişkilendirerek yorumlamaları istenir (D7.1). • Öğrencilerin Rönesans Dönemi müziği bestecilerini farklılıklarıyla kabul etmeleri desteklenir (D15.1). • Öğrencilerin Rönesans Dönemi ve müziği ile ilgili görselleri anlayabilmeleri sağlanır (OB4). • Öğrencilerin Rönesans Dönemi müzik kültürünü kavramaları sağlanır (OB5). SMGTR.3.2.2 • Öğrencilerden Barok Dönem müziği ile ilgili bilgi toplama çalışmalarında iş birliği yapabilecekleri kişi ve grupları tespit etmeleri istenir (SDB2.2). • Öğrencilerin birlikte gerçekleştirecekleri bilgi toplama çalışmalarında birbirlerine nazik davranmaları teşvik edilir (D4.1). • Öğrencilerden Barok Dönem müziğine ait eser örneklerini kendi deneyim ve değerleriyle ilişkilendirerek yorumlamaları istenir (D7.1). • Öğrencilerin Barok Dönem müziği bestecilerini farklılıklarıyla kabul etmeleri desteklenir (D15.1). • Öğrencilerin Barok Dönem ve müziği ile ilgili görselleri anlayabilmeleri sağlanır (OB4). • Öğrencilerin Barok Dönem müzik kültürünü kavramaları sağlanır (OB5). SMGTR.3.2.3 • Öğrencilerden Klasik Dönem müziği ile ilgili bilgi toplama çalışmalarında iş birliği yapabilecekleri kişi ve grupları tespit etmeleri istenir (SDB2.2). • Öğrencilerden Klasik Dönem müziğine ait eser örneklerini kendi deneyim ve değerleriyle ilişkilendirerek yorumlamaları istenir (D7.1). • Öğrencilerin Klasik Dönem müziği bestecilerini farklılıklarıyla kabul etmeleri desteklenir (D15.1). • Öğrencilerin Klasik Dönem ve müziği ile ilgili görselleri anlayabilmeleri sağlanır (OB4). • Öğrencilerin Klasik Dönem müzik kültürünü kavramaları sağlanır (OB5). SMGTR.3.2.4 • Öğrencilerden Rönesans Dönemi, Barok ve Klasik Dönem müziklerinden oluşan eserlerin seslendirildiği dinletileri etkin bir şekilde dinlemeleri istenir (SDB2.1). • Öğrencilerin Rönesans Dönemi, Barok ve Klasik Dönem müziklerinde yaşanan değişimi fark ederek yeni bakış açılarını ve konuları öğrenmeye istekli olmaları sağlanır (SDB3.1). • Öğrencilerden Rönesans Dönemi, Barok ve Klasik Dönem müziklerine ait eser örneklerini inceleyip kendi deneyim ve değerleriyle ilişkilendirerek yorumlamaları istenir (D7.1). • Öğrencilerin Rönesans Dönemi, Barok ve Klasik Dönem müziklerinde yaşayan bestecilere saygı duymaları desteklenir (D14.3). • Öğrencilerin Rönesans Dönemi, Barok ve Klasik Dönem müziklerine ait eser, doküman ve nota kaynaklarına dijital ortamlardan ulaşmaları ve ulaştıkları bilgiler üzerinden çıkarım yapmaları teşvik edilir (OB2). • Öğrencilerden Rönesans Dönemi, Barok ve Klasik Dönem müziklerine ait eser örnekleri ile performans sergilemeleri istenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum",
+    "Değerler": "D4. Dostluk, D7. Estetik, D14. Saygı, D15. Sevgi",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI İLİŞKİLER SBAB1.2. Sıralama ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGTR.3.2.1. Rönesans Dönemi müziği ile ilgili bilgi toplayabilme a) Rönesans Dönemi müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği aracı kullanarak Rönesans Dönemi müziği hakkındaki bilgileri bulur. c) Rönesans Dönemi müziği hakkındaki ulaşılan bilgileri doğrular. ç) Rönesans Dönemi müziği hakkındaki ulaşılan bilgileri kaydeder. SMGTR.3.2.2. Barok Dönem müziği ile ilgili bilgi toplayabilme a) Barok Dönem müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği aracı kullanarak Barok Dönem müziği hakkındaki bilgileri bulur. c) Barok Dönem müziği hakkındaki ulaşılan bilgileri doğrular. ç) Barok Dönem müziği hakkındaki ulaşılan bilgileri kaydeder. SMGTR.3.2.3. Klasik Dönem müziği ile ilgili bilgi toplayabilme a) Klasik Dönem müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği aracı kullanarak Klasik Dönem müziği hakkındaki bilgileri bulur. c) Klasik Dönem müziği hakkındaki ulaşılan bilgileri doğrular. ç) Klasik Dönem müziği hakkındaki ulaşılan bilgileri kaydeder. SMGTR.3.2.4. Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserler çalabilme a) Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserleri çözümler. b) Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserler çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserler çalabilmek için gitara özgü teknikleri kullanır. ç) Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserler çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Rönesans Dönemi Barok Dönem Klasik Dönem Rönesans Dönemi, Barok ve Klasik Dönem Eser Çalışması",
+    "Anahtar Kavramlar": "Barok Dönem, besteci, eser, Klasik Dönem, Rönesans Dönemi"
+   },
+   "outcomes": [
     {
-     "label": "a",
-     "text": "Barok Dönem müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler."
+     "code": "SMGTR.3.2.1",
+     "order": 1,
+     "text": "Rönesans Dönemi müziği ile ilgili bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Rönesans Dönemi müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği aracı kullanarak Rönesans Dönemi müziği hakkındaki bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Rönesans Dönemi müziği hakkındaki ulaşılan bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Rönesans Dönemi müziği hakkındaki ulaşılan bilgileri kaydeder."
+      }
+     ]
     },
     {
-     "label": "b",
-     "text": "Belirlediği aracı kullanarak Barok Dönem müziği hakkındaki bilgileri bulur."
+     "code": "SMGTR.3.2.2",
+     "order": 2,
+     "text": "Barok Dönem müziği ile ilgili bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Barok Dönem müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği aracı kullanarak Barok Dönem müziği hakkındaki bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Barok Dönem müziği hakkındaki ulaşılan bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Barok Dönem müziği hakkındaki ulaşılan bilgileri kaydeder."
+      }
+     ]
     },
     {
-     "label": "c",
-     "text": "Barok Dönem müziği hakkındaki ulaşılan bilgileri doğrular."
+     "code": "SMGTR.3.2.3",
+     "order": 3,
+     "text": "Klasik Dönem müziği ile ilgili bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Klasik Dönem müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği aracı kullanarak Klasik Dönem müziği hakkındaki bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Klasik Dönem müziği hakkındaki ulaşılan bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Klasik Dönem müziği hakkındaki ulaşılan bilgileri kaydeder."
+      }
+     ]
     },
     {
-     "label": "ç",
-     "text": "Barok Dönem müziği hakkındaki ulaşılan bilgileri kaydeder."
+     "code": "SMGTR.3.2.4",
+     "order": 4,
+     "text": "Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserler çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserler çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserler çalarken müziksel bileşenleri uygular."
+      }
+     ]
     }
    ]
   },
   {
-   "code": "SMGTR.3.2.3",
-   "grade": 3,
-   "unit": 2,
-   "order": 3,
-   "text": "Klasik Dönem müziği ile ilgili bilgi toplayabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Klasik Dönem müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler."
-    },
-    {
-     "label": "b",
-     "text": "Belirlediği aracı kullanarak Klasik Dönem müziği hakkındaki bilgileri bulur."
-    },
-    {
-     "label": "c",
-     "text": "Klasik Dönem müziği hakkındaki ulaşılan bilgileri doğrular."
-    },
-    {
-     "label": "ç",
-     "text": "Klasik Dönem müziği hakkındaki ulaşılan bilgileri kaydeder."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.3.2.4",
-   "grade": 3,
-   "unit": 2,
-   "order": 4,
-   "text": "Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserler çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserleri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserler çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserler çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Rönesans Dönemi, Barok ve Klasik Dönem müzikleri ile ilişkili eserler çalarken müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.3.3.1",
-   "grade": 3,
-   "unit": 3,
-   "order": 1,
-   "text": "Türk müziğinde kullanılan makam kavramını açıklayabilme",
-   "components": []
-  },
-  {
-   "code": "SMGTR.3.3.2",
-   "grade": 3,
-   "unit": 3,
-   "order": 2,
-   "text": "Çargâh makamına ait dizi, etüt ve eserler çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Çargâh makamına ait dizi, etüt ve eserleri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Çargâh makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Çargâh makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Çargâh makamına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri kullanır."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.3.3.3",
-   "grade": 3,
-   "unit": 3,
-   "order": 3,
-   "text": "Buselik makamına ait dizi, etüt ve eserler çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Buselik makamına ait dizi, etüt ve eserleri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Buselik makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Buselik makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Buselik makamına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri kullanır."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.3.3.4",
    "grade": 3,
    "unit": 3,
-   "order": 4,
-   "text": "Kürdi makamına ait dizi, etüt ve eserler çalabilme",
-   "components": [
+   "kind": "TEMA",
+   "title": "TÜRK MÜZİĞİNDE MAKAM KAVRAMI VE GİTARDA",
+   "description": "ÇARGÂH, BUSELİK, KÜRDİ MAKAMI Temada öğrencilerin Türk müziğinde makam kavramını açıklayabilmeleri ve gitar üzerinde çargâh, buselik, kürdi makamı ile ilgili çalma becerisi kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 20,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB1. Temel Beceriler",
+    "EĞİLİMLER": "E1.1. Merak, E3.2. Odaklanma, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGTR.3.3.1 • Öğrencilerden Türk müziğinde kullanılan makam kavramı ile ilgili öğrenecekleri bilgileri sahip oldukları önceki bilgilerle ilişkilendirmeleri istenir (SDB1.1). • Öğrencilerden Türk müziğinde kullanılan makam kavramının gelecek nesillere aktarılmasında sorumluluk üstlenmeleri istenir (D19.3). • Öğrencilerden Türk müziğinde kullanılan makam kavramı ile ilgili ulaştıkları bilgileri kaydetmeleri istenir (OB1). • Öğrencilerden Türk müziğinde kullanılan makam kavramını ele alarak kendi kültürlerini fark etmeleri istenir (OB5). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ SMGTR.3.3.2 • Öğrencilerin çargâh makamına ait dizi, etüt ve eserler çalabilme çalışmalarında değişimin gerektirdiği adımları atmaları için istekli olmaları sağlanır (SDB3.1). • Öğrencilerden çargâh makamına ait dizi, etüt ve eserleri çalarken kendi deneyim ve değerleri ile ilişkilendirerek yorumlamaları istenir (D7.1). • Öğrencilerin çargâh makamına ait dizi, etüt ve eserleri çalarken yeni bilgi, tavsiye ve eleştirilere açık olmaları teşvik edilir (D10.1). • Öğrencilerin çargâh makamına ait dizi, etüt ve eserleri çalarken görevlerini zamanında ve eksiksiz yerine getirmeleri teşvik edilir (D16.3). • Öğrencilerin çargâh makamına ait dizi, etüt ve eserleri çalarken kendi kültürlerini fark etmeleri sağlanır (OB5). • Öğrencilerden çargâh makamına eser örnekleri ile performans sergilemeleri istenir (OB9). SMGTR.3.3.3 • Öğrencilerin buselik makamına ait dizi, etüt ve eserler çalabilme çalışmalarında değişimin gerektirdiği adımları atmaları için istekli olmaları sağlanır (SDB3.1). • Öğrencilerden buselik makamına ait dizi, etüt ve eserleri çalarken kendi deneyim ve değerleri ile ilişkilendirerek yorumlamaları istenir (D7.1). • Öğrencilerin buselik makamına ait dizi, etüt ve eserleri çalarken yeni bilgi, tavsiye ve eleştirilere açık olmaları teşvik edilir (D10.1). • Öğrencilerin buselik makamına ait dizi, etüt ve eserleri çalarken görevlerini zamanında ve eksiksiz yerine getirmeleri desteklenir (D16.3). • Öğrencilerin buselik makamına ait dizi, etüt ve eserleri çalarken kendi kültürlerini fark etmeleri sağlanır (OB5). • Öğrencilerden buselik makamına ait eser örnekleri ile performans sergilemeleri istenir (OB9). SMGTR.3.3.4 • Öğrencilerin kürdi makamına ait dizi, etüt ve eserler çalabilme çalışmalarında değişimin gerektirdiği adımları atmaları için istekli olmaları sağlanır (SDB3.1). • Öğrencilerden kürdi makamına ait dizi, etüt ve eserleri çalarken kendi deneyim ve değerleri ile ilişkilendirerek yorumlamaları istenir (D7.1). • Öğrencilerin kürdi makamına ait dizi, etüt ve eserleri çalarken yeni bilgi, tavsiye ve eleştirilere açık olmaları teşvik edilir (D10.1). • Öğrencilerin kürdi makamına ait dizi, etüt ve eserleri çalarken görevlerini zamanında ve eksiksiz yerine getirmeleri desteklenir (D16.3). • Öğrencilerin kürdi makamına ait dizi, etüt ve eserleri çalarken kendi kültürlerini fark etmeleri sağlanır (OB5). • Öğrencilerden kürdi makamına ait eser örnekleri ile performans sergilemeleri istenir (OB9). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı YANSITMALARI cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ 2.4.4. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB3.1. Uyum",
+    "Değerler": "D7. Estetik, D10. Mütevazılık, D16. Sorumluluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI İLİŞKİLER KB2.2. Gözlemleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGTR.3.3.1. Türk müziğinde kullanılan makam kavramını açıklayabilme SMGTR.3.3.2. Çargâh makamına ait dizi, etüt ve eserler çalabilme a) Çargâh makamına ait dizi, etüt ve eserleri çözümler. b) Çargâh makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Çargâh makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır. ç) Çargâh makamına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri kullanır. SMGTR.3.3.3. Buselik makamına ait dizi, etüt ve eserler çalabilme a) Buselik makamına ait dizi, etüt ve eserleri çözümler. b) Buselik makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Buselik makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır. ç) Buselik makamına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri kullanır. SMGTR.3.3.4. Kürdi makamına ait dizi, etüt ve eserler çalabilme a) Kürdi makamına ait dizi, etüt ve eserleri çözümler. b) Kürdi makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Kürdi makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır. ç) Kürdi makamına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri kullanır.",
+    "İÇERİK ÇERÇEVESİ": "Makam Kavramı Çargâh Makamı Buselik Makamı Kürdi Makamı",
+    "Anahtar Kavramlar": "buselik, çargâh, kürdi, makam, Türk müziği"
+   },
+   "outcomes": [
     {
-     "label": "a",
-     "text": "Kürdi makamına ait dizi, etüt ve eserleri çözümler."
+     "code": "SMGTR.3.3.1",
+     "order": 1,
+     "text": "Türk müziğinde kullanılan makam kavramını açıklayabilme",
+     "components": []
     },
     {
-     "label": "b",
-     "text": "Kürdi makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+     "code": "SMGTR.3.3.2",
+     "order": 2,
+     "text": "Çargâh makamına ait dizi, etüt ve eserler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çargâh makamına ait dizi, etüt ve eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Çargâh makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Çargâh makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Çargâh makamına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri kullanır."
+      }
+     ]
     },
     {
-     "label": "c",
-     "text": "Kürdi makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
+     "code": "SMGTR.3.3.3",
+     "order": 3,
+     "text": "Buselik makamına ait dizi, etüt ve eserler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Buselik makamına ait dizi, etüt ve eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Buselik makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Buselik makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Buselik makamına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri kullanır."
+      }
+     ]
     },
     {
-     "label": "ç",
-     "text": "Kürdi makamına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri kullanır."
+     "code": "SMGTR.3.3.4",
+     "order": 4,
+     "text": "Kürdi makamına ait dizi, etüt ve eserler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kürdi makamına ait dizi, etüt ve eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Kürdi makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Kürdi makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Kürdi makamına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri kullanır."
+      }
+     ]
     }
    ]
   },
   {
-   "code": "SMGTR.4.1.1",
    "grade": 4,
    "unit": 1,
-   "order": 1,
-   "text": "Nihavent makamına ait dizi, etüt ve eserler çalabilme",
-   "components": [
+   "kind": "TEMA",
+   "title": "GİTARDA NİHAVENT VE HİCAZ MAKAMI",
+   "description": "Temada öğrencilerin gitar üzerinde nihavent ve hicaz makamı ile ilgili çalma becerisi kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma KAVRAMSAL BECERİLER",
+    "EĞİLİMLER": "E3.2. Odaklanma, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGTR.4.1.1 • Öğrencilerin nihavent makamına ait dizi, etüt ve eserler çalabilme çalışmalarında değişimin gerektirdiği adımları atmak için istekli davranmaları teşvik edilir (SDB3.1). • Öğrencilerden nihavent makamına ait dizi, etüt ve eserler çalabilme çalışmalarında geleneksel sanatlara ve yerel kültüre yönelik etkinliklere katılmaları istenir (D7.3). • Öğrencilerden nihavent makamına ait dizi, etüt ve eserler çalabilme çalışmalarında görevlerini zamanında ve eksiksiz yerine getirmeleri istenir (D16.3). • Öğrencilerin nihavent makamına ait dizi, etüt ve eserler çalabilme çalışmalarında bilgi parçaları arasında ilişki kurmaları desteklenir (OB1). • Öğrencilerin nihavent makamına ait dizi, etüt ve eserler çalabilme çalışmalarında kendi kültürlerini fark etmeleri teşvik edilir (OB5). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ SMGTR.4.1.2 • Öğrencilerin hicaz makamına ait dizi, etüt ve eserler çalabilme çalışmalarında öğrenmek istedikleri yeni bilgileri fark etmeleri teşvik edilir (SDB1.1). • Öğrencilerden hicaz makamına ait çalacakları eserleri seçerken vatanseverlik konulu eserler seçmeleri istenir (D19.1). • Öğrencilerin hicaz makamına ait dizi, etüt ve eserler çalabilme çalışmalarında bilgi parçaları arasında ilişki kurmaları desteklenir (OB1). • Öğrencilerin hicaz makamına ait dizi, etüt ve eserler çalabilme çalışmalarında kendi kültürlerini fark etmeleri teşvik edilir (OB5). • Öğrencilerin hicaz makamına ait dizi, etüt ve eserler çalabilme çalışmalarında temel sanat kavramlarını tanımaları desteklenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB3.1. Uyum",
+    "Değerler": "D7. Estetik, D16. Sorumluluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI İLİŞKİLER KB2.2. Gözlemleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGTR.4.1.1. Nihavent makamına ait dizi, etüt ve eserler çalabilme a) Nihavent makamına ait dizi, etüt ve eserleri çözümler. b) Nihavent makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Nihavent makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır. ç) Nihavent makamına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri kullanır. SMGTR.4.1.2. Hicaz makamına ait dizi, etüt ve eserler çalabilme a) Hicaz makamına ait dizi, etüt ve eserleri çözümler. b) Hicaz makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Hicaz makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır. ç) Hicaz makamına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri kullanır.",
+    "İÇERİK ÇERÇEVESİ": "Nihavent Makamı Hicaz Makamı",
+    "Anahtar Kavramlar": "hicaz, makam, nihavent, Türk müziği"
+   },
+   "outcomes": [
     {
-     "label": "a",
-     "text": "Nihavent makamına ait dizi, etüt ve eserleri çözümler."
+     "code": "SMGTR.4.1.1",
+     "order": 1,
+     "text": "Nihavent makamına ait dizi, etüt ve eserler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Nihavent makamına ait dizi, etüt ve eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Nihavent makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Nihavent makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Nihavent makamına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri kullanır."
+      }
+     ]
     },
     {
-     "label": "b",
-     "text": "Nihavent makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Nihavent makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Nihavent makamına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri kullanır."
+     "code": "SMGTR.4.1.2",
+     "order": 2,
+     "text": "Hicaz makamına ait dizi, etüt ve eserler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hicaz makamına ait dizi, etüt ve eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Hicaz makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Hicaz makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Hicaz makamına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri kullanır."
+      }
+     ]
     }
    ]
   },
   {
-   "code": "SMGTR.4.1.2",
-   "grade": 4,
-   "unit": 1,
-   "order": 2,
-   "text": "Hicaz makamına ait dizi, etüt ve eserler çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Hicaz makamına ait dizi, etüt ve eserleri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Hicaz makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Hicaz makamına ait dizi, etüt ve eserleri çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Hicaz makamına ait dizi, etüt ve eserleri çalarken müziksel bileşenleri kullanır."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.4.2.1",
-   "grade": 4,
-   "unit": 2,
-   "order": 1,
-   "text": "Romantik Dönem müziği ile ilgili bilgi toplayabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Romantik Dönem müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler."
-    },
-    {
-     "label": "b",
-     "text": "Belirlediği aracı kullanarak Romantik Dönem müziği hakkındaki bilgileri bulur."
-    },
-    {
-     "label": "c",
-     "text": "Romantik Dönem müziği hakkındaki ulaşılan bilgileri doğrular."
-    },
-    {
-     "label": "ç",
-     "text": "Romantik Dönem müziği hakkındaki ulaşılan bilgileri kaydeder."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.4.2.2",
    "grade": 4,
    "unit": 2,
-   "order": 2,
-   "text": "Çağdaş Dönem müziği ile ilgili bilgi toplayabilme",
-   "components": [
+   "kind": "TEMA",
+   "title": "MÜZİKTE ROMANTİK VE ÇAĞDAŞ DÖNEM",
+   "description": "Temada öğrencilerin Romantik ve Çağdaş Dönem ile ilgili genel özellikleri, eser formları ve bestecileri ile ilgili bilgi ve beceriler kazanmaları ve ilgili döneme ait düzeyine uygun eserler seslendirebilmeleri amaçlanmaktadır.",
+   "lesson_hours": 20,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E1.1. Merak, E2.5. Oyunseverlik, E3.1. Muhakeme, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGTR.4.2.1 • Öğrencilerin Romantik Dönem müziği ile ilgili bilgi toplarken arkadaşları ile ortaklıklar oluşturmaları desteklenir (SDB2.2). • Öğrencilerin birlikte gerçekleştirecekleri bilgi toplama çalışmalarında birbirlerine nazik davranmaları teşvik edilir (D4.1). • Öğrencilerin Romantik Dönem müziği ile ilgili bilgi toplarken dönemin sanat eserlerini inceleyerek sanatçıyla ilgili çıkarımlarda bulunmaları teşvik edilir (D7.1). • Öğrencilerin Romantik Dönem müziği ile ilgili bilgi toplarken dijital bilgiye erişim yollarını bilmeleri, sanatla toplum arasında ilişki kurmaları desteklenir (OB2, OB9). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ SMGTR.4.2.2 • Öğrencilerden Çağdaş Dönem müziği ile ilgili bilgi toplarken öğretmen ve arkadaşlarından gelen iletileri fark etmeleri istenir (SDB2.1). • Öğrencilerin Çağdaş Dönem müziği ile ilgili bilgi toplarken dönemin sanat eserlerini inceleyerek sanatçıyla ilgili çıkarımlarda bulunmaları teşvik edilir (D7.1). • Öğrencilerin Çağdaş Dönem müziği ile ilgili bilgi toplarken gördükleri görselleri tanımaları desteklenir (OB4). SMGTR.4.2.3 • Öğrencilerden Romantik ve Çağdaş Dönem müziği ile ilgili bilgi toplarken öğretmen ve arkadaşlarından gelen iletileri fark etmeleri istenir (SDB2.1). • Öğrencilerin Romantik ve Çağdaş Dönem müziği ile ilgili bilgi toplarken medeniyetin gelişiminde katkısı olan kişilerin değerlerini bilmeleri teşvik edilir (D15.2). • Öğrencilerin Romantik ve Çağdaş Dönem müziği ile ilgili bilgi toplarken kültürel benzerlik ve farklılıkları ayırt etmeleri desteklenir (OB5). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D4. Dostluk, D7. Estetik, D15. Sevgi",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI İLİŞKİLER KB2.7. Karşılaştırma, SBAB1.2. Sıralama ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGTR.4.2.1. Romantik Dönem müziği ile ilgili bilgi toplayabilme a) Romantik Dönem müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği aracı kullanarak Romantik Dönem müziği hakkındaki bilgileri bulur. c) Romantik Dönem müziği hakkındaki ulaşılan bilgileri doğrular. ç) Romantik Dönem müziği hakkındaki ulaşılan bilgileri kaydeder. SMGTR.4.2.2. Çağdaş Dönem müziği ile ilgili bilgi toplayabilme a) Çağdaş Dönem müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği aracı kullanarak Çağdaş Dönem müziği hakkındaki bilgileri bulur. c) Çağdaş Dönem müziği hakkındaki ulaştığı bilgileri doğrular. ç) Çağdaş Dönem müziği hakkındaki ulaştığı bilgileri kaydeder. SMGTR.4.2.3. Romantik ve Çağdaş Dönem müzikleri ile ilişkili eserler çalabilme a) Romantik ve Çağdaş Dönem müzikleri ile ilişkili eserleri çözümler. b) Romantik ve Çağdaş Dönem müzikleri ile ilişkili eserler çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Romantik ve Çağdaş Dönem müzikleri ile ilişkili eserler çalabilmek için gitara özgü teknikleri kullanır. ç) Romantik ve Çağdaş Dönem müzikleri ile ilişkili eserler çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Romantik Dönem Genel Özellikleri, Bestecileri ve Eser Örnekleri Çağdaş Dönem Genel Özellikleri, Bestecileri ve Eser Örnekleri",
+    "Anahtar Kavramlar": "besteci, Çağdaş Dönem, eser, Romantik Dönem"
+   },
+   "outcomes": [
     {
-     "label": "a",
-     "text": "Çağdaş Dönem müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler."
+     "code": "SMGTR.4.2.1",
+     "order": 1,
+     "text": "Romantik Dönem müziği ile ilgili bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Romantik Dönem müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği aracı kullanarak Romantik Dönem müziği hakkındaki bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Romantik Dönem müziği hakkındaki ulaşılan bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Romantik Dönem müziği hakkındaki ulaşılan bilgileri kaydeder."
+      }
+     ]
     },
     {
-     "label": "b",
-     "text": "Belirlediği aracı kullanarak Çağdaş Dönem müziği hakkındaki bilgileri bulur."
+     "code": "SMGTR.4.2.2",
+     "order": 2,
+     "text": "Çağdaş Dönem müziği ile ilgili bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çağdaş Dönem müziği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği aracı kullanarak Çağdaş Dönem müziği hakkındaki bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Çağdaş Dönem müziği hakkındaki ulaştığı bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Çağdaş Dönem müziği hakkındaki ulaştığı bilgileri kaydeder."
+      }
+     ]
     },
     {
-     "label": "c",
-     "text": "Çağdaş Dönem müziği hakkındaki ulaştığı bilgileri doğrular."
-    },
-    {
-     "label": "ç",
-     "text": "Çağdaş Dönem müziği hakkındaki ulaştığı bilgileri kaydeder."
+     "code": "SMGTR.4.2.3",
+     "order": 3,
+     "text": "Romantik ve Çağdaş Dönem müzikleri ile ilişkili eserler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Romantik ve Çağdaş Dönem müzikleri ile ilişkili eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Romantik ve Çağdaş Dönem müzikleri ile ilişkili eserler çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Romantik ve Çağdaş Dönem müzikleri ile ilişkili eserler çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Romantik ve Çağdaş Dönem müzikleri ile ilişkili eserler çalarken müziksel bileşenleri uygular."
+      }
+     ]
     }
    ]
   },
   {
-   "code": "SMGTR.4.2.3",
-   "grade": 4,
-   "unit": 2,
-   "order": 3,
-   "text": "Romantik ve Çağdaş Dönem müzikleri ile ilişkili eserler çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Romantik ve Çağdaş Dönem müzikleri ile ilişkili eserleri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Romantik ve Çağdaş Dönem müzikleri ile ilişkili eserler çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Romantik ve Çağdaş Dönem müzikleri ile ilişkili eserler çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Romantik ve Çağdaş Dönem müzikleri ile ilişkili eserler çalarken müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.4.3.1",
    "grade": 4,
    "unit": 3,
-   "order": 1,
-   "text": "Nihavent ve hicaz makamlarında özgün bir müziksel ürün oluşturabilme",
-   "components": [
+   "kind": "TEMA",
+   "title": "GİTARDA SÜSLEME VE ARMONİK (FLAJÖLE)",
+   "description": "TEKNİKLERİ Temada öğrencilerin gitarda çarpma, trill, mordant, grupetto ve flajöle teknikleri ile ilgili bilgi ve beceriler kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 18,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma KAVRAMSAL BECERİLER",
+    "EĞİLİMLER": "E1.3. Azim ve Kararlılık, E2.2. Sorumluluk, E3.1. Muhakeme, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMGTR.4.3.1 • Öğrencilerden nihavent ve hicaz makamlarında özgün bir müziksel ürün oluşturabilme çalışmalarında hedeflerine uygun planlama yapmaları istenir (SDB1.2). • Öğrencilerin nihavent ve hicaz makamlarında özgün bir müziksel ürün oluşturabilme çalışmalarında sebat etmeleri teşvik edilir (D12.3). • Öğrencilerin nihavent ve hicaz makamlarında özgün bir müziksel ürün oluşturabilme çalışmalarında bilgi parçaları arasında ilişki kurmaları teşvik edilir (OB1). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ SMGTR.4.3.2 • Öğrencilerin gitarda kullanılan süsleme teknikleri uygulamalarını çalabilme çalışmalarında değişimin gerektirdiği adımları atmaları için istekli davranmaları teşvik edilir (SDB3.1). • Öğrencilerin gitarda kullanılan süsleme teknikleri uygulamalarını çalabilme çalışmalarında disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri teşvik edilir (D3.1). • Öğrencilerden gitarda kullanılan süsleme teknikleri uygulamalarını çalabilme çalışmalarında görevlerini zamanında ve eksiksiz yerine getirmeleri istenir (D16.3). • Öğrencilerden gitarda kullanılan süsleme teknikleri uygulamalarını çalabilme çalışmalarında dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı YANSITMALARI cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB3.1. Uyum",
+    "Değerler": "D3. Çalışkanlık, D12. Sabır, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık BECERİLER ARASI İLİŞKİLER KB2.2. Gözlemleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGTR.4.3.1. Nihavent ve hicaz makamlarında özgün bir müziksel ürün oluşturabilme a) Nihavent ve hicaz makamlarında oluşturacağı müziksel ürünün kullanım amacını belirler. b) Nihavent ve hicaz makamlarında müziksel ürün oluşturmak için gerekli ögeleri seçer. c) Seçtiği ögelerle nihavent ve hicaz makamlarında özgün bir müziksel ürün oluşturur. SMGTR.4.3.2. Gitarda kullanılan süsleme teknikleri uygulamalarını çalabilme a) Gitarda kullanılan süsleme teknikleri uygulamalarını çözümler. b) Gitarda kullanılan süsleme teknikleri uygulamalarını çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Gitarda kullanılan süsleme teknikleri uygulamalarını çalabilmek için gitara özgü teknikleri kullanır. ç) Gitarda kullanılan süsleme teknikleri uygulamaları ile ilgili çalışmalarında müziksel bileşenleri kullanır.",
+    "İÇERİK ÇERÇEVESİ": "Gitarda Süsleme Teknikleri Nihavent ve Hicaz Eserler",
+    "Anahtar Kavramlar": "çarpma, hicaz ve nihavent, perde, süsleme, trill"
+   },
+   "outcomes": [
     {
-     "label": "a",
-     "text": "Nihavent ve hicaz makamlarında oluşturacağı müziksel ürünün kullanım amacını belirler."
+     "code": "SMGTR.4.3.1",
+     "order": 1,
+     "text": "Nihavent ve hicaz makamlarında özgün bir müziksel ürün oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Nihavent ve hicaz makamlarında oluşturacağı müziksel ürünün kullanım amacını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Nihavent ve hicaz makamlarında müziksel ürün oluşturmak için gerekli ögeleri seçer."
+      },
+      {
+       "label": "c",
+       "text": "Seçtiği ögelerle nihavent ve hicaz makamlarında özgün bir müziksel ürün oluşturur."
+      }
+     ]
     },
     {
-     "label": "b",
-     "text": "Nihavent ve hicaz makamlarında müziksel ürün oluşturmak için gerekli ögeleri seçer."
-    },
-    {
-     "label": "c",
-     "text": "Seçtiği ögelerle nihavent ve hicaz makamlarında özgün bir müziksel ürün oluşturur."
+     "code": "SMGTR.4.3.2",
+     "order": 2,
+     "text": "Gitarda kullanılan süsleme teknikleri uygulamalarını çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gitarda kullanılan süsleme teknikleri uygulamalarını çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Gitarda kullanılan süsleme teknikleri uygulamalarını çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Gitarda kullanılan süsleme teknikleri uygulamalarını çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Gitarda kullanılan süsleme teknikleri uygulamaları ile ilgili çalışmalarında müziksel bileşenleri kullanır."
+      }
+     ]
     }
    ]
   },
   {
-   "code": "SMGTR.4.3.2",
-   "grade": 4,
-   "unit": 3,
-   "order": 2,
-   "text": "Gitarda kullanılan süsleme teknikleri uygulamalarını çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Gitarda kullanılan süsleme teknikleri uygulamalarını çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Gitarda kullanılan süsleme teknikleri uygulamalarını çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Gitarda kullanılan süsleme teknikleri uygulamalarını çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Gitarda kullanılan süsleme teknikleri uygulamaları ile ilgili çalışmalarında müziksel bileşenleri kullanır."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.4.4.1",
-   "grade": 4,
-   "unit": 4,
-   "order": 1,
-   "text": "Düzeyine uygun deşifre parçalarını çalabilme",
-   "components": [
-    {
-     "label": "a",
-     "text": "Düzeyine uygun deşifre edilecek eseri çözümler."
-    },
-    {
-     "label": "b",
-     "text": "Düzeyine uygun deşifre eserini çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "Düzeyine uygun deşifre eserini çalabilmek için gitara özgü teknikler kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "Düzeyine uygun deşifre edilecek eseri çalarken müziksel bileşenleri uygular."
-    }
-   ]
-  },
-  {
-   "code": "SMGTR.4.4.2",
    "grade": 4,
    "unit": 4,
-   "order": 2,
-   "text": "İki gitar için yazılmış/düzenlenmiş eserlerden örnekler çalabilme",
-   "components": [
+   "kind": "TEMA",
+   "title": "DEŞİFRE ÇALIŞMALARI VE İKİ GİTAR UYGULAMALARI",
+   "description": "Temada öğrencilerin deşifre becerilerini geliştirmeleri, iki gitar eserinin müzikal ögeleri ve icra sürecine ilişkin bilgi ve becerileri kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 14,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E1.3. Azim ve Kararlılık, E2.1. Empati, E2.2. Sorumluluk",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALARi SMGTR.4.4.1 • Öğrencilerden düzeylerine uygun deşifre parçalarını çalabilme çalışmalarında sınıf arkadaşları ile yardımlaşmaları istenir (SDB2.2). • Öğrencilerin düzeylerine uygun deşifre parçalarını çalabilme çalışmalarında arkadaşlarının sorunlarını çözmek için çaba göstermeleri desteklenir (D4.1). • Öğrencilerin düzeylerine uygun deşifre parçalarını çalabilme çalışmalarında “söz hakkı vermek, söz kesmemek, etkin dinlemek” gibi etkili iletişim becerilerini kullanmaları desteklenir (D14.1). • Öğrencilerden düzeylerine uygun deşifre parçalarını çalabilme çalışmalarında dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ SMGTR.4.4.2 • Öğrencilerden iki gitar için yazılmış/düzenlenmiş eserlerden örnekler çalabilme çalışmalarında başkalarının anlattıklarını dinlemek için zaman ayırmaları istenir (SDB2.1). • Öğrencilerden iki gitar için yazılmış/düzenlenmiş eserlerden örnekler çalabilme çalışmalarında sanat eserini kendi deneyim ve değerleriyle ilişkilendirerek yorumlamaları istenir (D7.1). • Öğrencilerin iki gitar için yazılmış/düzenlenmiş eserlerden örnekler çalabilme çalışmalarında millî kimliklerini tanımaya yönelik eserler seçmeleri sağlanır (D19.2). • Öğrencilerin iki gitar için yazılmış/düzenlenmiş eserlerden örnekler çalabilme çalışmalarında temel sanat kavramlarını tanımaları desteklenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D4. Dostluk, D7. Estetik, D14. Saygı, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI İLİŞKİLER ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI GİTAR MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMGTR.4.4.1. Düzeyine uygun deşifre parçalarını çalabilme a) Düzeyine uygun deşifre edilecek eseri çözümler. b) Düzeyine uygun deşifre eserini çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) Düzeyine uygun deşifre eserini çalabilmek için gitara özgü teknikler kullanır. ç) Düzeyine uygun deşifre edilecek eseri çalarken müziksel bileşenleri uygular. SMGTR.4.4.2. İki gitar için yazılmış/düzenlenmiş eserlerden örnekler çalabilme a) İki gitar için yazılmış/düzenlenmiş eserlerden çalacağı eseri çözümler. b) İki gitar için yazılmış/düzenlenmiş eseri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır. c) İki gitar için yazılmış/düzenlenmiş eseri çalabilmek için gitara özgü teknikleri kullanır. ç) İki gitar için yazılmış/düzenlenmiş eseri çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Gitarda Deşifre İki Gitar Uygulamaları",
+    "Anahtar Kavramlar": "ikili (duo), nota, oda müziği, okuma"
+   },
+   "outcomes": [
     {
-     "label": "a",
-     "text": "İki gitar için yazılmış/düzenlenmiş eserlerden çalacağı eseri çözümler."
+     "code": "SMGTR.4.4.1",
+     "order": 1,
+     "text": "Düzeyine uygun deşifre parçalarını çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Düzeyine uygun deşifre edilecek eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Düzeyine uygun deşifre eserini çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Düzeyine uygun deşifre eserini çalabilmek için gitara özgü teknikler kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Düzeyine uygun deşifre edilecek eseri çalarken müziksel bileşenleri uygular."
+      }
+     ]
     },
     {
-     "label": "b",
-     "text": "İki gitar için yazılmış/düzenlenmiş eseri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
-    },
-    {
-     "label": "c",
-     "text": "İki gitar için yazılmış/düzenlenmiş eseri çalabilmek için gitara özgü teknikleri kullanır."
-    },
-    {
-     "label": "ç",
-     "text": "İki gitar için yazılmış/düzenlenmiş eseri çalarken müziksel bileşenleri uygular."
+     "code": "SMGTR.4.4.2",
+     "order": 2,
+     "text": "İki gitar için yazılmış/düzenlenmiş eserlerden örnekler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "İki gitar için yazılmış/düzenlenmiş eserlerden çalacağı eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "İki gitar için yazılmış/düzenlenmiş eseri çalabilmek için gitara özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "İki gitar için yazılmış/düzenlenmiş eseri çalabilmek için gitara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "İki gitar için yazılmış/düzenlenmiş eseri çalarken müziksel bileşenleri uygular."
+      }
+     ]
     }
    ]
   }
  ],
+ "unassigned_outcomes": [],
  "report": {
-  "units": 4,
-  "outcomes": 0,
-  "components": 0,
-  "orphan_outcomes": 51,
-  "gaps": [
-   {
-    "course": "Seçmeli Müzik Dersi (Gitar)",
-    "reason": "ünitesi bulunamayan çıktı",
-    "codes": [
-     "SMGTR.1.1.1",
-     "SMGTR.1.1.2",
-     "SMGTR.1.1.3",
-     "SMGTR.1.1.4",
-     "SMGTR.1.1.5",
-     "SMGTR.1.2.1",
-     "SMGTR.1.2.2",
-     "SMGTR.1.2.3",
-     "SMGTR.1.2.4",
-     "SMGTR.1.3.1",
-     "SMGTR.1.3.2",
-     "SMGTR.1.4.1",
-     "SMGTR.1.4.2",
-     "SMGTR.1.4.3",
-     "SMGTR.1.4.4",
-     "SMGTR.1.4.5",
-     "SMGTR.2.1.1",
-     "SMGTR.2.1.2",
-     "SMGTR.2.1.3",
-     "SMGTR.2.1.4",
-     "SMGTR.2.2.1",
-     "SMGTR.2.2.2",
-     "SMGTR.2.2.3",
-     "SMGTR.2.3.1",
-     "SMGTR.2.3.2",
-     "SMGTR.2.3.3",
-     "SMGTR.2.4.1",
-     "SMGTR.2.4.2",
-     "SMGTR.2.4.3",
-     "SMGTR.2.4.4",
-     "SMGTR.3.1.1",
-     "SMGTR.3.1.2",
-     "SMGTR.3.1.3",
-     "SMGTR.3.1.4",
-     "SMGTR.3.2.1",
-     "SMGTR.3.2.2",
-     "SMGTR.3.2.3",
-     "SMGTR.3.2.4",
-     "SMGTR.3.3.1",
-     "SMGTR.3.3.2",
-     "SMGTR.3.3.3",
-     "SMGTR.3.3.4",
-     "SMGTR.4.1.1",
-     "SMGTR.4.1.2",
-     "SMGTR.4.2.1",
-     "SMGTR.4.2.2",
-     "SMGTR.4.2.3",
-     "SMGTR.4.3.1",
-     "SMGTR.4.3.2",
-     "SMGTR.4.4.1",
-     "SMGTR.4.4.2"
-    ]
-   }
-  ]
+  "units": 15,
+  "outcomes": 51,
+  "components": 174,
+  "orphan_outcomes": 0,
+  "gaps": []
  }
 }

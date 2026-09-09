@@ -1497,7 +1497,31 @@
     "ÖĞRENME KANITLARI": "Öğrenme çıktıları; öğretmen gözlem formu, kontrol listesi, öz değerlendirme formu ve bü- (Ölçme ve tüncül dereceli puanlama anahtarı ile değerlendirilebilir. Değerlendirme) Öğrenciden eşlikli bir eser ya da etüdü (piyano veya ikinci kemanla) çalarak video kaydıyla sunması performans görevi olarak istenebilir. Bu performans görevi; teknik yeterlilik, birlikte çalma becerisi, müzikal uyum ve ifade yönünden bütüncül dereceli puanlama anahtarı ile değerlendirilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin ritim ve bona solfej çalışmalarında temel bilgileri bildikleri; ritim ve nota sürelerine sahip oldukları kabul edilir. Ön Değerlendirme Süreci Öğrencilere ikinci ve üçüncü pozisyonlara geçişi kolaylaştıracak parmak egzersizleri verilebilir. Öğrencilerden birinci pozisyondan ikinci ve üçüncü pozisyona geçiş çalışması yapmaları ve önceden belirlenmiş kısa etütleri bireysel olarak incelemeleri istenebilir. Köprü Kurma Öğrencilerin gittikleri konser veya dinletilerde eşlikli çalımlarda eserlerin suyun sakin akışı kadar ra­hat ve öz güvenli olarak seslendirildiğini ve akıcılığın daha rahat devam ettiğini fark etmeleri böylece eşlikli çalma ile bağlantı kurmaları sağlanabilir. Öğrenme-Öğretme Uygulamaları KMN.7.4.1 Etkileşimli tahta kullanılarak öğrencilere piyano eşlikli eserler dinletilir (OB2). Öğrencilerden dinledikleri eserler ile ilgili çözümlemeler yapmaları beklenir. Öğrencilerin düzeylerine uygun etüt ve eserler belirlenir. Öğrenciler, kemanda doğru duruş ve tutuş pozisyonunu alarak öğretmen eşliğinde etüt ve eser çalışmalarına geçer (OB1). Etüt ve eserin bona çalışmasını yaparak seslendirilecek olan etüt ve eserlerin çözümlenmesini yapar. Etüt ve eserler ile ilgili bona çalışmasını ritim hatası olmayacak şekilde tekrarlarla çalışır (D3.1). Etüt ve eserdeki ritim ve nota sürelerine odaklanır (E3.2). Ayna karşısında doğru duruş ve tutuşla kemanı alarak öğretmen eşliğinde etüt ve eser çalınır (SDB2.1). BİREYSEL ÇALGI EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI KEMAN MODÜLÜ Kemanda ayna karşısında doğru duruş ve tutuşu ayarladıktan sonra seçilen etüt ve eserleri çalmak için kemana özgü teknikleri piyano ile uyum içerisinde kullanmaları sağlanır. Grup çalışmaları verilerek öğrencilerden birbirleriyle iletişim kurmaları ve birbirlerine etüt ve eserler ile ilgili yardımcı olmaları istenir. Öğrencilerin kendilerini ifade etmeleri ve eserleri yorumlamaları sağlanır (E3.1). Yapılan eşlikli çalışmaların entonasyon ve müzikalite ile ritim becerilerinin gelişmesi açısından kendilerine büyük katkısı ola­cağı vurgulanır. Verilen etüt çalışmaları grup çalışmalarından sonra öğrencilerle tekrar çalınır ve öğrencilerden eşlikli olarak, çalgıya özgü teknikler kullanılarak çalmaları istenir. Bu çalışmalar esnasında gözlem formu ve dereceli pu­anlama anahtarı kullanılarak öğrenciler değerlendirilebilir (KB2.2). Öğrenciden eşlikli bir eser ya da etüdü piyano veya ikinci kemanla çalarak video kaydıyla sunması performans görevi istenebilir. Bu performans görevi; teknik yeterlilik, birlikte çalma becerisi, müzikal uyum ve ifade yönünden bütüncül dereceli puanlama anahtarı ile değerlendirilir.",
     "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilere çalacakları eser ve etütleri dinletilerek eserlerin nasıl çalındığına dikkat çekilebilir. Metronomda süreler hızlandırılarak, eşlikli parçaların nüanslarına dikkat edilerek sonatine eserlerden örnekler çaldırılabilir. Destekleme Öğrencilere uygun basit etütler belirlenerek eşlikli çalınabilir. Öğrencilere çaldığı etütlerle ilgili geri bildirimler vermesi sağlanabilir. Öğrenci ile çalınacak parça veya eser metronom hızı yavaş ayarlanarak ve ayna karşısında öğrencinin kendini gözlemlemesine izin verilerek yapılabilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. BİREYSEL ÇALGI EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI KEMAN MODÜLÜ"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "KMN.6.4.1",
+     "order": 1,
+     "text": "Kürdi, hicaz, mahur dizilerinde etüt ve eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Seviyesine uygun eşlikli etüt ve eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Doğru duruş ve tutuş pozisyonu alarak eşlikli etüt ve eserleri çalar."
+      },
+      {
+       "label": "c",
+       "text": "Çalgıya özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Ezgisel yapıya uygun olarak keman ve piyano eşlikli etüt ve eserleri çalar."
+      }
+     ]
+    }
+   ]
   },
   {
    "grade": 8,
@@ -1717,8 +1741,8 @@
  "unassigned_outcomes": [],
  "report": {
   "units": 31,
-  "outcomes": 51,
-  "components": 139,
+  "outcomes": 52,
+  "components": 143,
   "orphan_outcomes": 0,
   "gaps": []
  }

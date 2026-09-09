@@ -71,24 +71,6 @@ def download(url: str, target: Path) -> None:
         target.write_bytes(response.read())
 
 
-def unit_titles(courses: list[dict], course_url: str) -> dict[tuple[int, int], str]:
-    """dersler.json'daki ünite adlarını (sınıf, ünite no) ile eşler."""
-    titles: dict[tuple[int, int], str] = {}
-    course = next((c for c in courses if c["url"] == course_url), None)
-    if not course:
-        return titles
-    for grade in course["grades"]:
-        grade_no = re.match(r"(\d+)", grade["name"] or "")
-        if not grade_no:
-            continue
-        for category in grade["categories"]:
-            for unit in category["units"]:
-                number = re.match(r"\s*(\d+)\s*\.", unit["unit"] or "")
-                if number:
-                    titles[(int(grade_no.group(1)), int(number.group(1)))] = unit["unit"]
-    return titles
-
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-dir", type=Path, default=Path("data/tymm"))
@@ -151,45 +133,69 @@ def main() -> int:
             continue
 
         outcomes = parse_outcomes(text, prefixes, segments)
-        units = parse_units(text, prefix)
-        by_unit = {(u["grade"], u["unit"]): u for u in units}
-        for unit in units:
-            unit["outcomes"] = []
 
-        orphan_outcomes = []
-        for outcome in outcomes:
-            target = by_unit.get((outcome["grade"], outcome["unit"]))
-            if target is None:
-                # Ünite bloğu bulunamadı; çıktı KAYBOLMAZ, boşluk raporlanır.
-                orphan_outcomes.append(outcome)
-                continue
-            target["outcomes"].append(
-                {
-                    "code": outcome["code"],
-                    "order": outcome["order"],
-                    "text": outcome["text"],
-                    "components": outcome["components"],
-                }
-            )
-        if orphan_outcomes:
-            gaps.append({
-                "course": course["name"],
-                "reason": "ünitesi bulunamayan çıktı",
-                "codes": [o["code"] for o in orphan_outcomes],
-            })
-
-        # KAPSAMA DENETİMİ. Metinde geçen kod sayısı ile ayrıştırılan sayı
-        # eşleşmiyorsa sessiz kayıp var demektir — raporlanır, gizlenmez.
+        # KAPSAMA DENETİMİ. Metinde geçen kod kümesinden ayrıştırılan küme
+        # çıkarılır; fark raporlanır. Bu oturumdaki her sessiz kaybı bu
+        # denetim yakaladı — kaldırılmamalı.
         pattern = FOUR_RE if segments == 4 else THREE_RE
         scanned = {
-            ".".join(m.groups()[: segments])
+            ".".join(m.groups()[:segments])
             for m in pattern.finditer(text)
             if m.group(1) in set(prefixes)
         }
-        parsed = {o["code"] for o in outcomes}
-        missed = sorted(scanned - parsed)
+        missed = sorted(scanned - {o["code"] for o in outcomes})
         if missed:
-            gaps.append({"course": course["name"], "reason": "ayrıştırılamayan kod", "codes": missed})
+            gaps.append({
+                "course": course["name"],
+                "reason": "ayrıştırılamayan kod",
+                "codes": missed[:20],
+            })
+
+        units = parse_units(text, prefix or "")
+
+        # KONUMA DAYALI EŞLEŞTİRME. Çıktı, fiziksel olarak hangi ünite
+        # bloğunun içindeyse ona aittir. Önceki hâl (grade, unit) anahtarıyla
+        # eşleştiriyordu ve iki yerde çuvallıyordu: üç sayılı kodda ünite
+        # kademesi yok, bazı belgelerde de "N. SINIF" satırı hiç geçmediği için
+        # blokların sınıfı None kalıyordu. 1837 çıktı bu yüzden sahipsizdi.
+        # Blok = çıktının NEREDE işlendiği. Belge geneli = KANONİK tanım.
+        # Türkçe gibi derslerde tema bloğunda çıktı yalnız kod+ad olarak anılır,
+        # a/b/c süreç bileşenleri EK 1'de tanımlıdır. İkisi birleştirilmezse ya
+        # eşleme ya da bileşenler kaybolur.
+        canonical = {o["code"]: o for o in outcomes}
+
+        assigned: set[str] = set()
+        for unit in units:
+            unit_outcomes = parse_outcomes(unit["text"], prefixes, segments)
+            merged = []
+            for o in unit_outcomes:
+                source = canonical.get(o["code"], o)
+                # Blok metni daha dolgunsa onu tercih et; değilse kanonik olan.
+                text = o["text"] if len(o["text"]) >= len(source["text"]) else source["text"]
+                components = o["components"] or source["components"]
+                merged.append(
+                    {
+                        "code": o["code"],
+                        "order": o["order"],
+                        "text": text,
+                        "components": components,
+                    }
+                )
+            unit["outcomes"] = merged
+            assigned.update(o["code"] for o in unit_outcomes)
+            # Bloğun sınıfı yazılı değilse içindeki çıktının kodundan alınır;
+            # uydurulmaz, kodun kendisi söyler (MBU.5.1.1 -> 5. sınıf).
+            if unit["grade"] is None and unit_outcomes:
+                unit["grade"] = unit_outcomes[0]["grade"]
+            unit.pop("text", None)
+
+        orphan_outcomes = [o for o in outcomes if o["code"] not in assigned]
+        if orphan_outcomes:
+            gaps.append({
+                "course": course["name"],
+                "reason": "hiçbir ünite bloğunun içinde değil",
+                "codes": [o["code"] for o in orphan_outcomes][:20],
+            })
 
         # Ders dosyası HEMEN yazılır, bellekte biriktirilmez. 111 dersin
         # tamamını tutup sonda yazmak tepe belleği gereksiz şişiriyordu ve

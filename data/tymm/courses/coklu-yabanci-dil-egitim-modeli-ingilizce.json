@@ -1736,7 +1736,7 @@
   "gaps": [
    {
     "course": "Çoklu Yabancı Dil Eğitim Modeli İngilizce",
-    "reason": "ünitesi bulunamayan çıktı",
+    "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
      "ENG.1.2",
      "ENG.2.1",
@@ -1757,29 +1757,7 @@
      "ENG.5.15",
      "ENG.5.16",
      "ENG.6.1",
-     "ENG.6.2",
-     "ENG.6.3",
-     "ENG.6.4",
-     "ENG.6.5",
-     "ENG.6.6",
-     "ENG.6.7",
-     "ENG.6.8",
-     "ENG.7.1",
-     "ENG.7.2",
-     "ENG.7.3",
-     "ENG.7.4",
-     "ENG.7.5",
-     "ENG.7.6",
-     "ENG.7.7",
-     "ENG.7.8",
-     "ENG.8.1",
-     "ENG.8.2",
-     "ENG.8.3",
-     "ENG.8.4",
-     "ENG.8.5",
-     "ENG.8.6",
-     "ENG.8.7",
-     "ENG.8.8"
+     "ENG.6.2"
     ]
    }
   ]
