@@ -1,0 +1,872 @@
+{
+ "course": {
+  "id": 106,
+  "name": "Sosyal Bilim Çalışmaları Dersi",
+  "slug": "sosyal-bilim-calismalari-dersi",
+  "prefix": "SBÇ.I",
+  "kademe": 3,
+  "kademe_name": "Ortaöğretim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/sosyal-bilim-calismalari-dersi_20260828_161042_774.pdf"
+ },
+ "units": [
+  {
+   "grade": null,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "I. VE II. DÜNYA SAVAŞLARININ TOPLUMA YANSIMALARI",
+   "description": "Bu temada öğrencilerin, savaşların toplumların günlük yaşamlarını sosyal, kültürel ve ekonomik alanlarda büyük ölçüde etkilediğini; bu etkilerin olumlu ve olumsuz birçok değişime neden olduğunu fark etmeleri amaçlanmaktadır. Mustafa Kemal Atatürk’ün “Yurtta barış, dünyada barış!” veciz sözünden hareketle savaşların yarattığı yıkım ve acıların etkilerinin kavranması ve barışın korunmasının öneminin anlaşılması amaçlanmaktadır. ALAN SBAB3. Tarihsel Empati (SBAB3.1. Tarihsel Bağlamsallaştırma), SBAB4. Değişim ve BECERİLERİ Sürekliliği Algılama BECERİLER",
+   "lesson_hours": 10,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E2.2. Sorumluluk",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim, SDB2.2. İş Birliği Öğrenme Becerileri",
+    "Değerler": "D16. Sorumluluk, D19. Vatanseverlik, D20. Yardımseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık DİSİPLİNLER ARASI Coğrafya, Edebiyat, Sosyoloji",
+    "İLİŞKİLER": "BECERİLER ARASI SBAB10. Harita Becerisi (SBAB10.3. Haritadan Çıkarım Yapma) SOSYAL BİLİM ÇALIŞMALARI III DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI SBÇ.III.1.1. I. Dünya Savaşı’nın siyasi, sosyal ve ekonomik açılardan toplumlara VE SÜREÇ BİLEŞENLERİ yansımalarını dönemin şartları içinde değerlendirebilme a) I. Dünya Savaşı’nın siyasi, sosyal ve ekonomik açılardan toplumlara yansımalarını kanıtlara dayalı olarak analiz eder. b) I. Dünya Savaşı’nın siyasi, sosyal ve ekonomik açılardan toplumlara yansımalarını dönemin koşulları içinde fark eder. c) I. Dünya Savaşı’nın siyasi, sosyal ve ekonomik açılardan toplumlara yansımalarını günümüz koşullarıyla karşılaştırır. ç) I. Dünya Savaşı’nın siyasi, sosyal ve ekonomik açılardan toplumlara yansımalarını ait olduğu dönemin koşulları içerisinde açıklar. SBÇ.III.1.2. II. Dünya Savaşı’nın toplumlara etkilerini değişim ve süreklilik açısından algılayabilme a) II. Dünya Savaşı’nın toplumlara etkilerini siyasi, sosyal ve ekonomik açılardan karşılaştırır. b) II. Dünya Savaşı’nın toplumlara etkilerini siyasi, sosyal ve ekonomik açılardan sıralar. c) II. Dünya Savaşı’nın toplumlara etkilerini nedenleriyle ve sonuçlarıyla yorumlar. ç) II. Dünya Savaşı’nın toplumlara etkilerini değişik yönleriyle sentezler. d) II. Dünya Savaşı’nın toplumlara etkilerini değişim ve süreklilik açısından ele alarak kanıta dayalı öngörüde bulunur.",
+    "İÇERİK ÇERÇEVESİ": "I. Dünya Savaşı’nın Siyasi, Sosyal ve Ekonomik Açılardan Toplumlara Yansımaları II. Dünya Savaşı’nın Toplumlara Etkileri",
+    "Anahtar Kavramlar": "demografi, ekonomik kriz, insan hakları, seferberlik, sivil halk",
+    "ÖĞRENME KANITLARI": "Bu temadaki öğrenme çıktıları; açık uçlu sorular, balık kılçığı, grup değerlendirme formu, öz (Ölçme ve değerlendirme formu, yansıtma yazısı ve dereceli puanlama anahtarı ile değerlendirilebilir. Değerlendirme) Performans görevi olarak öğrencilerden savaş döneminde yaşayan bir kişinin gözünden uzakta olan bir yakınına (cephedeki oğluna, başka ülkede olan kardeşine, savaşa katılan eşine vb.) mektup yazmaları istenebilir. Yazacakları mektupta savaşın yıkıcı ve dönüştürücü etkilerine, duygusal durumlara ve günlük hayattaki değişimlere yer vermeleri istenebilir. Hazırlanan mektup; tarihsel bağlamsallaştırma, kaynak kullanımı, kaynağı yorumlama, özgünlük, empati, çıkarımda bulunma gibi ölçütlerden oluşan dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin savaşların sonucunda devletlerin yıkılabileceğini, sınırlarının ve rejimlerinin değişebileceğini bildikleri kabul edilmektedir. Savaşların toplumların günlük yaşamında olumlu ve olumsuz birçok sonuçları olabileceğini bildikleri kabul edilmektedir. SOSYAL BİLİM ÇALIŞMALARI III DERSİ ÖĞRETİM PROGRAMI Ön Değerlendirme Tema kapsamında öğrencilere aşağıdaki rehber sorular sorulabilir ve etkinlikler yaptırılabilir: Süreci Bir dünya savaşının sadece cephedeki askerleri değil toplumun her kesimini etkilediğini söyleyebilir miyiz? Neden? Bir ülkenin savaşa girmesi günlük yaşamı, aileleri, ekonomiyi ve eğitimi nasıl etkiler? “Dünya Savaşları ve Toplum ” merkeze yazılarak öğrencilerin zihin haritası oluşturmaları istenebilir. I. Dünya Savaşı ve II. Dünya Savaşı’na katılan toplumların ekonomisi, eğitimi, günlük yaşamı ile ilgili doğru yanlış kartları hazırlanarak öğrencilere uygulanabilir. Köprü Kurma Öğrencilere “Savaşlarla sınırlar değişince sınır dışında kalan topraklarda yaşayan insanların/toplumların yaşamı bu durumdan nasıl etkilenmiştir?” sorusu sorularak öğrencilerin görüşleri alınabilir. Öğrenme-Öğretme SBÇ.III.1.1 Uygulamaları Öğrencilere Osmanlı Devleti’nin I. Dünya Savaşı öncesindeki sınırlarını gösteren bir harita ile savaş sonrası kurulan Türkiye Cumhuriyeti’nin sınırlarını gösteren harita karşılaştırmalı olarak sunulur (SBAB10.3). Öğrencilerin toprak kayıplarının toplumun siyasi, sosyal ve ekonomik hayatında olan etkileri üzerine düşünmeleri sağlanır (E1.1). Öğrencilere I. Dünya Savaşı’nda ve savaş sonrasında toplumların durumu ile ilgili metin, görsel, dijital içerik vb. kaynaklar verilir (OB1, OB2). Öğrenciler gruplara ayrılır. Gruplara inceleme konuları olarak I. Dünya Savaşı sırası ve sonrasında toplumların siyasi yapısı, sosyal yaşamı ve ekonomik faaliyetleri başlıkları verilir. Her grup verilen kaynaklar üzerinden seçtikleri konu ile ilgili verileri inceler ve tespitlerini kanıta dayalı olarak analiz ederler (D16.3). Savaşın toplumlara yansımalarını dönemin koşulları içinde fark etmeleri sağlanır. Her grup bulgularını tabloya aktarır. Tabloda siyasi, sosyal ve ekonomik üç ana başlık altında I. Dünya Savaşı’nın toplumlara etkileri gösterilir. Öğrencilerin savaşların yol açtığı yıkımlar, yoksulluk ve insan kayıpları, göç ve demografik değişim, dayanışma ve vatanseverlik gibi değerlerin pekişmesi, kültür, edebiyat ve sanat üzerindeki etkileri üzerine bütüncül bir bakış açısı ile değerlendirme yapmaları sağlanır (D19.1, D20.2). Savaşların toplumlara etkilerini siyasi, sosyal ve ekonomik açılardan günümüz koşullarıyla karşılaştırmaları sağlanır. Öğrenciler savaşların toplumlara etkilerini dönemin koşullarıyla değerlendirir. Grupların iş birliği ve iletişimini değerlendirmek için grup değerlendirme formu kullanılır (SDB2.1). Performans görevi olarak öğrencilerden savaş döneminde yaşayan bir kişinin gözünden uzakta olan bir yakınına (cephedeki oğluna, başka ülkede olan kardeşine, savaşa katılan eşine vb.) mektup yazmaları istenebilir. Yazacakları mektupta savaşın yıkıcı ve dönüştürücü etkilerine duygusal durumlara ve günlük hayattaki değişimlere yer vermeleri istenir. Hazırlanan mektup tarihsel bağlamsallaştırma, kaynak kullanımı, kaynağı yorumlama, özgünlük, empati, çıkarımda bulunma gibi ölçütlerden oluşan dereceli puanlama anahtarı ile değerlendirilebilir. SBÇ.III.1.2 Öğrencilere “Savaşların toplum üzerindeki etkileri sizce yalnızca cepheyle mi sınırlı kalır?” vb. sorular sorularak konuya dikkat çekilir (E1.1). Öğrenciler gruplara ayrılır. Öğrenciler verilen kaynaklardan (akademik metinler, kitaplar, görseller ve dijital kaynaklar) yararlanarak savaşların yol açtığı yıkımları, insan hakları ihlalleri, küresel göç ve demografik değişimleri inceler. Savaşların kültür, edebiyat ve sanat üzerindeki yansımaları araştırılır. Bilimsel ve teknolojik gelişmelerin savaşlara ve topluma olumlu olumsuz etkileri değerlendirilir. Bu süreçte öğrencilerin savaşların siyasi, sosyal ve ekonomik etkilerini ve topluma olan yansımalarını sıralamaları istenir. Öğrencilerin elde ettikleri bilgileri neden-sonuç ilişkisi kurarak yorumlamaları sağlanır. Gruplardan savaşların öncesi ve sonrasındaki durumun farklılıklarını analiz etmeleri ve bunun sonucunda senteze ulaşmaları istenir. SOSYAL BİLİM ÇALIŞMALARI III DERSİ ÖĞRETİM PROGRAMI Elde edilen verilerden hareketle balık kılçığı tablosu hazırlar (E2.2, SDB2.1, SDB2.2). Öğrencilerden savaşların toplum yaşamına olan etkilerini göz önünde bulundurarak geleceğe dair öngörüde bulunacakları bir yansıtma yazısı yazmaları istenir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden I. Dünya Savaşı ve II. Dünya Savaşı’nın Türk toplumunda aile hayatında, ekonomide, eğitimde, günlük yaşamdaki değişime olan etkilerini benzerlik ve farklılıklar açısından karşılaştırmalı tablo oluşturmaları istenebilir. Öğrencilerden 1915 veya 1944 yılına ait bir haber teması seçerek (kıtlık, ekonomik sıkıntılar, göç, karne vb.) gazete sayfası hazırlamaları istenebilir. Destekleme Öğrencilerden I. Dünya Savaşı’nın Osmanlı toplumuna siyasi, sosyal ve ekonomik etkileri ile ilgili soru ve etkinliklerin olduğu bir çalışma yaprağını doldurmaları istenebilir. Öğrencilerden II. Dünya Savaşı’nın nedenlerine ve sonuçlarına ilişkin temel bilgilerin yer aldığı bilgi kartları oluşturmaları istenebilir. Öğrencilerden Varlık Vergisi, Millî Korunma Kanunu ve karne uygulamalarından birini seçerek kısa bir sunum hazırlamaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. SOSYAL BİLİM ÇALIŞMALARI III DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "XXI. YÜZYILDA BİLİM VE TEKNOLOJİ İLE DEĞİŞEN DÜNYA",
+   "description": "Bu temada öğrencilerin XXI. yüzyılda meydana gelen bilimsel ve teknolojik gelişmeleri, bilim ve teknolojinin sosyal bilim disiplinleriyle etkileşimini incelemeleri ve bilimsel gelişmeleri küresel sorunlar bağlamında değerlendirmeleri amaçlanmaktadır. Öğrencilerin bu gelişmelerin birey, toplum ve dünya üzerindeki etkilerini çok yönlü olarak değerlendirmeleri; bilim ve teknolojinin toplumsal değişim süreçlerindeki rolünü kavrayarak bilinçli ve sorumlu bireyler olarak hareket etmeleri hedeflenmektedir. ALAN SBAB4. Değişim ve Sürekliliği Algılama (SBAB4.2. Değişim ve Sürekliliği Neden BECERİLERİ Sonuçlarıyla Yorumlama) KAVRAMSAL KB2.8. Sorgulama BECERİLER",
+   "lesson_hours": 14,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E2.2. Sorumluluk, E3.1. Muhakeme, E3.8. Soru Sorma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), Öğrenme Becerileri SDB2.1. İletişim",
+    "Değerler": "D3. Çalışkanlık",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık DİSİPLİNLER ARASI Tarih, Sosyoloji, Fen Bilimleri",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.14. Yorumlama, KB2.13. Yapılandırma SOSYAL BİLİM ÇALIŞMALARI III DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI SBÇ.III.2.1. XXI. yüzyıldaki bilimsel ve teknolojik gelişmelerin toplum hayatına etkilerini VE SÜREÇ BİLEŞENLERİ değişim ve süreklilik açısından yorumlayabilme a) XXI. yüzyıldaki bilimsel ve teknolojik gelişmelerin toplum hayatına etkilerini inceler. b) XXI. yüzyıldaki bilimsel ve teknolojik gelişmelerin toplum hayatında etkilediği unsurları inceler. c) XXI. yüzyıldaki bilimsel ve teknolojik gelişmelerin toplum hayatına etkilerinin niteliğini sorgular. ç) XXI. yüzyıldaki bilimsel ve teknolojik gelişmelerin toplum hayatına etkilerinin nedenlerini ve sonuçlarını bağlamdan kopmadan yeniden ifade eder. SBÇ.III.2.2. XXI. yüzyılda bilim ve teknoloji ile dünyada meydana gelen değişimi sorgulayabilme a) XXI. yüzyılda bilim ve teknoloji ile dünyada meydana gelen değişim hakkında merak ettiği konuyu tanımlar. b) XXI. yüzyılda bilim ve teknoloji ile dünyada meydana gelen değişim hakkında sorular sorar. c) XXI. yüzyılda bilim ve teknoloji ile dünyada meydana gelen değişim hakkında bilgi toplar. ç) XXI. yüzyılda bilim ve teknoloji ile dünyada meydana gelen değişim hakkında topladığı bilgilerin doğruluğunu değerlendirir. d) XXI. yüzyılda bilim ve teknoloji ile dünyada meydana gelen değişim hakkında topladığı bilgiler üzerinden çıkarım yapar.",
+    "İÇERİK ÇERÇEVESİ": "XXI. Yüzyılda Bilimsel ve Teknolojik Gelişmelerin Toplumsal Yaşama Etkileri XXI. Yüzyılda Bilim ve Teknoloji İle Dünyada Meydana Gelen Değişim",
+    "Anahtar Kavramlar": "algoritma, bilim, dijitalleşme, inovasyon, sürdürülebilirlik, teknoloji, toplumsal değişim, yapay zekâ",
+    "ÖĞRENME KANITLARI": "Bu temadaki öğrenme çıktıları; balık kılçığı diyagramı, açık uçlu sorular, öz değerlendirme (Ölçme ve formu, çıkış kartı ve dereceli puanlama anahtarı ile değerlendirilebilir. Değerlendirme) Öğrencilere XXI. yüzyılda ortaya çıkan yeni meslekleri araştırarak (veri analisti, yapay zekâ mühendisi, e-sporcu vb.) bu mesleklerin hangi teknolojik gelişmelerle ortaya çıktığını, toplumsal yaşam ve eğitim üzerindeki etkilerini açıklayan bir sunum hazırlama performans görevi verilebilir. Hazırlanan sunum bilgi toplama, içerik, zaman yönetimi, kaynak ve görsel materyal kullanımı gibi ölçütlerden oluşan dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin bilim, teknoloji ve dijitalleşmenin toplumsal değişimle bağlantısını bildikleri ayrıca bu gelişmelerin birey ve toplum üzerindeki temel etkilerini tanıyıp ayırt edebildikleri kabul edilmektedir. Ön Değerlendirme Tema kapsamında öğrencilere aşağıdaki rehber sorular sorulabilir ve etkinlikler yaptırılabilir: Süreci Günlük yaşamınızda hangi teknolojik araçları kullanıyorsunuz? Bu araçların yaşamınızı kolaylaştırdığı veya zorlaştırdığı yönleri nelerdir? SOSYAL BİLİM ÇALIŞMALARI III DERSİ ÖĞRETİM PROGRAMI Dijitalleşmenin birey ve toplum üzerindeki etkilerini tartışmaları sağlanabilir. Dijitalleşmenin topluma etkileri ile ilgili kavram haritası hazırlamaları istenebilir. Köprü Kurma Öğrencilere tarih öncesi devirlerde insanların yaşamlarını sürdürmek için kullandıkları basit araç ve yöntemlere örnekler verilebilir. Buluşların günümüz teknolojik yeniliklerinin temelini oluşturduğu vurgulanabilir. Ardından “O dönemde insanların hayatını kolaylaştıran keşifler olmasaydı bugün hangi teknolojilere sahip olamazdık?” sorusu sorularak öğrencilerin görüşlerini belirtmeleri sağlanabilir. Öğrenme-Öğretme SBÇ.III.2.1 Uygulamaları Öğrencilere “Yapay zekâ ve otomasyonun gelişmesi, iş hayatında hangi köklü değişiklikleri beraberinde getirmiştir?” ve “Bilimsel gelişmeler toplumları sürekli dönüştürse de değişmeyen toplumsal ihtiyaçlar neler olabilir?” gibi sorular sorularak öğrencilerin dikkati konuya çekilir. Öğrencilerden güvenilir dijital kaynaklardan yararlanarak XXI. yüzyılda yaşanan bilimsel ve teknolojik gelişmeleri araştırmaları istenir. İletişim, sağlık, ulaşım, eğitim vb. alanlardaki gelişmelerin toplumsal yaşamdaki etkilerini bilgi toplayarak incelemeleri istenir (OB1, OB2). Öğrencilerin edindikleri bilgileri kendi gözlem ve deneyimleriyle ilişkilendirerek bilimsel ve teknolojik gelişmelerin günlük yaşam ve toplum hayatına etkilerini analiz etmeleri sağlanır (KB2.14, SDB1.1). İletişim (sosyal medya, mobil teknolojiler vb.), sağlık (yapay zekâ destekli tanı sistemleri, uzaktan sağlık hizmetleri vb.), ulaşım (otonom araçlar, hızlı trenler vb.), eğitim (uzaktan eğitim, akıllı tahta vb.) alanlarından örneklerle bu etkileri sınıflandırmaları istenir. Bu bağlamda öğrencilerin yaşam kalitesinin artması, sosyal izolasyon, dijital okuryazarlık gibi olumlu ve olumsuz etkileri sorgulamaları sağlanır (KB2.13, E3.1). Bu çalışma sayesinde öğrencilerin geçmişteki bilimsel gelişmelerle günümüzdeki yenilikler arasındaki süreklilik ve değişim ilişkisini neden-sonuç bağlamında yorumlamaları ve balık kılçığı diyagramı üzerinde göstermeleri istenir (SDB2.1). Öğrencilere saygı ve toplumsal sorumluluk gibi temel değerleri gözetmeleri gerektiği hatırlatılır (E2.2, D3.3). Yapılan çalışma sonucunda öğrencilerden çıkış kartı doldurmaları istenebilir. SBÇ.III.2.2 Öğrencilere XXI. yüzyılda gerçekleşen yapay zekâ, biyoteknoloji, genetik mühendisliği, dijital dönüşüm, yenilenebilir enerji, uzay araştırmaları ve veri bilimi gibi alanlardaki bilimsel ve teknolojik gelişmelere dair kısa metinler verilir. Bu metinler farklı sosyal bilim disiplinlerinden (sosyoloji, ekonomi, psikoloji, siyaset bilimi, iletişim, etik vb.) yazılmış örneklerle desteklenir. Öğrencilerin metinlerde ele alınan gelişmeleri incelemeleri istenir. Öğrenciler gruplara ayrılır. Her gruba yapay zekâ, uzay ve havacılık teknolojileri, sağlık ve biyoteknoloji, dijital haklar, uzaktan ve hibrit eğitim modelleri, siber güvenlik, iklim krizi ve yeşil teknolojiler, sanal ve artırılmış gerçeklik (VR/AR) gibi güncel konular verilerek öğrencilerden bilimsel ve teknolojik uygulamaların küresel değişime etkileri ile ilgili merak ettikleri bir konuyu tanımlamaları istenir. Tanımladıkları konuyla ilgili derinlemesine araştırma soruları hazırlamaları sağlanır. Sorular açık uçlu, neden-sonuç ilişkisi kurmaya yönelik olmalıdır (E1.1, E3.8). Gruplardan yazılı kaynaklar (raporlar, makaleler, istatistikler), görsel materyaller (belgeseller, infografikler), dijital medya haberleri gibi farklı türde kaynaklardan bilgi toplamaları istenir. Dijital kaynakları kullanırken dijital kimlik, site uzantısı (.gov, .edu, .org vb.) ve yayın tarihi gibi ölçütlerle kaynakların güvenilirliğini değerlendirmeleri istenir (OB1, OB2). Ulaştıkları bilgileri kaynaklardaki verilerle karşılaştırmaları istenir; bu süreçte bilgilerin doğruluğunu, geçerliliğini ve nesnelliğini araştırmacı ve sorgulayıcı bir bakış açısıyla değerlendirmeleri beklenir (D3.3, E3.10). Öğrencilerin metinlerde yer alan bilgileri örüntüler hâlinde sınıflandırmaları ve bu örüntülerden yola çıkarak XXI. yüzyıl bilim ve teknolojisinin gelecekteki toplumsal değişimlere nasıl yön verebileceğine dair SOSYAL BİLİM ÇALIŞMALARI III DERSİ ÖĞRETİM PROGRAMI çıkarımlarda bulunmaları istenir. Çıkarımlarını yazılı ya da görsel biçimde sunmaları sağlanarak sınıfta öğrenme galerisi tekniğiyle paylaşımlar yapılır. Öğrencilerin panodaki içeriklere yorum eklemeleri ve karşılıklı geri bildirimde bulunmaları sağlanır. Öz değerlendirme formu ile süreç değerlendirilebilir (SDB1.2). Öğrenmeler açık uçlu sorularla değerlendirilebilir. Performans görevi olarak öğrencilere; XXI. yüzyılda ortaya çıkan yeni meslekleri (veri analisti, yapay zekâ mühendisi, e-sporcu vb.) araştırmaları, bu mesleklerin hangi teknolojik gelişmelerle ortaya çıktığını ve toplumsal yaşam ile eğitim üzerindeki etkilerini açıklayan bir sunum hazırlamaları görevi verilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerin kendilerini bir bilim insanı olarak hayal ederek gelecekte toplumsal yaşamı etkileyebilecek bir teknolojik yenilik tasarlamaları ve bu yeniliği anlatan kısa bir hikâye, senaryo veya afiş hazırlamaları sağlanabilir. Öğrencilerden “XXI. Yüzyılın Bilim İnsanları” başlıklı bir duvar gazetesi veya dijital pano hazırlamaları istenebilir. Öğrencilerden 2050 yılındaki hayal ettikleri akıllı bir şehrin tasarımını yapmaları ve tasarımlarını poster, maket veya dijital çizim hâline getirirmeleri istenebilir. Destekleme Öğrencilerden seçtikleri bir bilim insanıyla ilgili bilgi kartı hazırlamaları ve bu kişinin toplumsal yaşam üzerindeki etkilerini açıklamaları istenebilir. Öğrencilerden seçtikleri bir teknolojik aleti tanıtan poster hazırlamaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. SOSYAL BİLİM ÇALIŞMALARI III DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "GÖÇ OLGUSUNU ANLAMAK",
+   "description": "Bu tema kapsamında öğrencilerden göç olgusunu ve göç olaylarının nedenlerini araştırmaları, göç hareketlerinin sonuçlarını incelemeleri beklenmektedir. Öğrencilerin süreç boyunca sorular sorarak bilgiye ulaşmaları, topladıkları bilgileri düzenleyip çözümlemeleri ve ulaştıkları sonuçları paylaşmaları hedeflenmektedir. ALAN SBAB8. Coğrafi Sorgulama BECERİLERİ BECERİLER",
+   "lesson_hours": 14,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E1.4. Kendine İnanma (Öz Yeterlilik), E2.2. Sorumluluk, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.5. Açık Fikirlilik, E3.7. Sistematiklik, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), Öğrenme Becerileri SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D3. Çalışkanlık, D5. Duyarlılık, D9. Merhamet, D14. Saygı, D20. Yardımseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık DİSİPLİNLER ARASI Coğrafya, Tarih, Sosyoloji",
+    "İLİŞKİLER": "BECERİLER ARASI KB3.3. Eleştirel Düşünme SOSYAL BİLİM ÇALIŞMALARI I DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI SBÇ.I.3.1. Göç olgusunu sorgulayabilme VE SÜREÇ BİLEŞENLERİ a) Göç olgusuna ilişkin sorular sorar. b) Göç olgusuna ilişkin bilgi toplar. c) Göç olgusuna ilişkin topladığı bilgileri düzenler. ç) Göç olgusuna ilişkin düzenlediği bilgileri çözümler. d) Göç olgusuna ilişkin çözümlediği bilgilerden çıkardığı sonuçları paylaşır. SBÇ.I.3.2. Göçün nedenlerini sorgulayabilme a) Göç olaylarının nedenlerine ilişkin sorular sorar. b) Göç olaylarının nedenleri ile ilgili bilgi toplar. c) Göç olaylarının nedenlerine ilişkin topladığı bilgileri düzenler. ç) Göç olaylarının nedenlerine ilişkin düzenlediği bilgileri çözümler. d) Göç olaylarının nedenlerine ilişkin çözümlediği bilgilerden çıkardığı sonuçları paylaşır. SBÇ.I.3.3. Göçlerin sonuçlarını sorgulayabilme a) Göçlerin sonuçlarına ilişkin sorular sorar. b) Göçlerin sonuçlarına ilişkin bilgi toplar. c) Göçlerin sonuçlarına ilişkin topladığı bilgileri düzenler. ç) Göçlerin sonuçlarına ilişkin düzenlediği bilgileri çözümler. d) Göçlerin sonuçlarına ilişkin çözümlediği bilgilerden çıkardığı sonuçları paylaşır.",
+    "İÇERİK ÇERÇEVESİ": "Göç Olgusu Göçlerin Nedenleri Göçlerin Sonuçları",
+    "Anahtar Kavramlar": "dağılış, göç, kitlesel hareketler, nüfus dağılışı, yer değiştirme",
+    "ÖĞRENME KANITLARI": "Bu temadaki öğrenme çıktıları; kavram karikatürü, zihin haritası, açık uçlu sorular, öz (Ölçme ve değerlendirme formu, performans görevi, analitik dereceli puanlama anahtarı, grup Değerlendirme) değerlendirme formu ve öğrenme günlüğü kullanılarak değerlendirilebilir. Performans görevi olarak öğrencilerden göç hareketleri sonucunda göç veren ve göç alan yerlerde meydana gelen değişimlerin önemini ortaya koyan bir gazete haberi yazmaları istenebilir. Performans görevi bilgi toplama, bilgileri düzenleme, haber oluşturma ve sunum yapma ölçütlerine göre değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin göç olayına katılan insanların herhangi bir sebepten ötürü göç ettiklerini bildiği kabul edilmektedir. Ön Değerlendirme Öğrencilerden göç olayına yönelik yakın çevrelerinden ya da basından örnekler vermeleri Süreci istenebilir. Öğrencilere “İnsanlar neden göç eder?” sorusu yöneltilerek cevapların tartışılması sağlanabilir. Göçlerin doğal nedenlerine ilişkin tablo oluşturma veya göçlerin bireysel nedenlerine ilişkin kelime ilişkilendirme testi hazırlama görevi verilebilir. SOSYAL BİLİM ÇALIŞMALARI I DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilerden dünyanın herhangi bir yerinde yakın zamanda meydana gelen veya Türkiye’de gerçekleşen göçlerin yol açtığı sorunları ve bu sorunlar karşısında geliştirilen çözüm önerileriyle ilgili düşüncelerini açıklamaları istenebilir. Öğrenme-Öğretme SBÇ.I.3.1 Uygulamaları Öğrencilerin göç ve göç türleri üzerine düşün-eşleş-paylaş tekniğinden yararlanarak düşünmeleri ve bu konuda sorular sormaları sağlanabilir. Öğrencilerin sorulardan yola çıkarak ilgili konularda güvenilir genel ağ kaynaklarından bilgi toplamaları istenir (OB2). Düşün-eşleş-paylaş tekniği kapsamında öğrencilerden söz konusu kavramlara ilişkin önce bireysel düşünmeleri, sonra bu düşünceleri arkadaşlarıyla paylaşarak ulaştıkları bilgileri düzenlemeleri ve ortak tanımlar oluşturmaları istenir. Oluşturulan tanımlardan yola çıkılarak ilgili kavramlara ilişkin bilgi paylaşımında bulunulur. Göçle ilgili kavramları araştırmada merakı ve disiplinli çalışmayı ön planda tutmanın amaca ulaşmayı kolaylaştırdığı belirtilir (D3.1, E1.1). Coğrafi sorgulama sürecinde birincil ve ikincil kaynak kullanmanın, belirlenen araçları sistematik şekilde kullanarak gerekli bilgilere ulaşmanın ve toplanan bilgileri doğrulayarak kaydetmenin önemi vurgulanır (D3.3, E1.4, E3.5, E3.7, OB1). SBÇ.I.3.2 Yakın zamanda gerçekleşen bir göç olayının nedenlerine ilişkin basında yer alan haberler üzerinden öğrencilerin çeşitli sorular hazırlaması sağlanır (E1.1, E3.8). Hazırlanan soruların göç eden insanları incitmeyecek, sevgi dolu ve vicdanlı cümlelerden oluşması gerektiği vurgulanır (D9.1). Öğrencilerden hazırlanan soruların içerikleriyle ilgili önceki bilgilerini gözden geçirmeleri ve önerilen kaynaklardan bilgi toplamaları istenir. Topladıkları bilgileri düzenlemeleri ve iş birlikli öğrenme yöntemiyle çözümlemeleri beklenir (SDB1.1, SDB1.2, SDB2.2). Bu kapsamda Takım-Oyun-Turnuva (TOT) yöntemi uygulanabilir (SDB2.1). Coğrafi sorgulama sürecinde farklı kaynaklardan faydalanmanın önemli olduğu ve kullanılan kaynaklardan elde edilen bilgilerin doğruluğunun sistematik olarak test edilmesi gerektiği vurgulanır (E1.4, E3.3, E3.5, D3.3). Göçlerin sosyal, ekonomik, doğal, siyasi nedenleri; göçlerde etkili olan itici ve çekici faktörler ile ilgili bilgiler toplanır. Toplanan bilgiler düzenlenerek çözümlenir ve ulaşılan sonuçlar paylaşılır (KB3.3, E3.7, OB1). Göçlerin etkileri incelenirken kitlesel göçler esnasında neler yapılması gerektiği ifade edilir (D5.1). Öğrenmeler, öğrenme günlüğü ile izlenebilir ve öğrencilere geri bildirim verilir. SBÇ.I.3.3 Öğrencilerin dikkatini çekmek amacıyla göçlerin sonuçlarının iki aşamada gösterildiği bir poster sunularak derse başlanır. Birinci aşamada göç veren yerlerde, ikinci aşamada göç alan yerlerde ne tür sonuçların olduğu ile ilgili görsellere yer verilir. Görseller belirlenirken göçe katılan her bir insanın değerli olduğu vurgulanır (D14.1). Öğrencilerin görselleri yorumlamaları ve görsellerde yer alan bilgiler arasında ilişki kurmaları sağlanır (OB1, OB4). Soru-cevap etkinliğiyle göçlerin sonuçları hakkında çıkarımlar yapılır (E1.1, E3.2). Söz konusu sorunlar iş birlikli öğrenme yöntemi kullanılarak incelenebilir. Bu kapsamda oluşturulan grupların göç veren ve göç alan yerlerde göçlerin sonuçlarına ilişkin çeşitli araştırma soruları hazırlamaları istenir. Bu sorular üzerinden bilgi toplanır, toplanan bilgiler sistematik şekilde düzenlenip çözümlenir (E3.7, E3.8, OB1). Çözümlenen bilgilerden sonuçlar çıkarılarak bu sonuçlar coğrafi temsil ve metinler şeklinde paylaşılır (KB3.3). Paylaşım sürecinde kullanılmak üzere her gruptan ele aldığı göçlerin sonuçlarına ilişkin bir kavram karikatürü hazırlaması istenebilir. Hazırlanan kavram karikatürlerinde göç alan yerlerde yaşayanların göç ile gelen mağdur insanların duygularını anlaması gerektiği vurgulanır (D20.2). Yapılan çalışmalar, öz değerlendirme ve grup değerlendirme formuyla değerlendirilerek öğrencilere geri bildirim verilir (SDB2.2, SDB3.3, E2.2). SOSYAL BİLİM ÇALIŞMALARI I DERSİ ÖĞRETİM PROGRAMI Performans görevi olarak öğrencilerden göçlerin olumsuz sonuçlarına karşı çözüm önerileri geliştirmeleri ve geliştirdikleri önerilerden yola çıkarak gazete haberi hazırlamaları istenebilir. Ürün, dereceli puanlama anahtarı ile değerlendirilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilere “Büyük göç hareketleri olmasaydı günümüz dünyası nasıl olurdu?” sorusundan hareketle bir araştırma yapma ve araştırma sonuçlarını raporlayarak sunma görevi verilebilir. Bunun yanı sıra öğrencilerden büyük göç hareketlerine hangi milletlerin katıldığını belirlemeleri istenebilir. Bu konuda araştırma görevi verilebilir. Ayrıca öğrencilere göç eden insanların yeni yaşam alanlarında karşılaşmaları muhtemel olan sorunların araştırılması görevi verilebilir. Öğrencilerin söz konusu araştırma görevlerini öğrenme profillerine göre farklı yollarla sunmalarına (rol oynama, eylem planı ve medya ürünü hazırlama, görsel ve sözlü sunum vb.) imkân sağlanır. Destekleme Öğrencilere ilgili konuda kitap okuma veya belgesel izleme görevi verilebilir. Öğrencilerden bu süreçle ilgili geri bildirim vermeleri istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. SOSYAL BİLİM ÇALIŞMALARI I DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 4,
+   "kind": "TEMA",
+   "title": "BEŞERÎ HAREKETLER",
+   "description": "Bu temada öğrencilerin göçlerin özelliklerini bilmeleri, göçleri birbirleriyle ilişkilerine göre gruplara ayırmaları ve insanlık tarihinde gerçekleşen büyük göç hareketlerinin nedenlerini sorgulamaları amaçlanmaktadır. ALAN SBAB8. Coğrafi Sorgulama BECERİLERİ KAVRAMSAL KB2.5. Sınıflandırma BECERİLER",
+   "lesson_hours": 10,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E1.4. Kendine İnanma (Öz Yeterlilik), E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği Öğrenme Becerileri",
+    "Değerler": "D5. Duyarlılık, D14. Saygı",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık DİSİPLİNLER ARASI Coğrafya, Sosyoloji",
+    "İLİŞKİLER": "BECERİLER ARASI SBAB11.2. Tablo, Grafik, Şekil ve/veya Diyagram Hazırlama SOSYAL BİLİM ÇALIŞMALARI I DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI SBÇ.I.4.1. Göçleri türlerine göre sınıflandırabilme VE SÜREÇ BİLEŞENLERİ a) Gerçekleşme durumuna göre göçleri belirler. b) Gerçekleşme durumuna göre göçleri ayrıştırır. c) Gerçekleşme durumuna göre göçleri tasnif eder. ç) Gerçekleşme durumuna göre göçleri etiketler. SBÇ.I.4.2. İnsanlık tarihinde gerçekleşen büyük göç hareketlerinin nedenlerini sorgulayabilme a) İnsanlık tarihinde gerçekleşen büyük göç hareketlerinin nedenlerine ilişkin sorular sorar. b) İnsanlık tarihinde gerçekleşen büyük göç hareketlerinin nedenlerine ilişkin bilgi toplar. c) İnsanlık tarihinde gerçekleşen büyük göç hareketlerinin nedenlerine ilişkin topladığı bilgileri düzenler. ç) İnsanlık tarihinde gerçekleşen büyük göç hareketlerinin nedenlerine ilişkin düzenlediği bilgileri çözümler. d) İnsanlık tarihinde gerçekleşen büyük göç hareketlerinin nedenlerine ilişkin çözümlediği bilgilerden çıkardığı sonuçları paylaşır.",
+    "İÇERİK ÇERÇEVESİ": "Göçlerin Sınıflandırılması Tarihteki Büyük Göç Hareketleri",
+    "Anahtar Kavramlar": "değişim, göç, göç hareketleri, göç türleri, göçlerin etkileri",
+    "ÖĞRENME KANITLARI": "Bu temadaki öğrenme çıktıları; yapılandırılmış grid, analitik dereceli puanlama anahtarı ve (Ölçme ve öz değerlendirme formuyla değerlendirilebilir. Değerlendirme) Performans görevi olarak öğrencilerden göçlerin olumsuz sonuçlarına karşı çözüm önerileri geliştirmeleri ve geliştirdikleri önerilerden yola çıkarak duvar gazetesi hazırlamaları istenebilir. Performans görevi; sorun belirleme, bilgi toplama, bilgileri düzenleme, çıkarım yapma, çözüm önerme ve gazete hazırlama ölçütlerine göre değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin göçlerdeki itici ve çekici faktörler ile göçün mekânsal etkisi hakkında bilgi sahibi oldukları kabul edilmektedir. Ön Değerlendirme Göçlerde etkili olan itici ve çekici faktörlere ilişkin metin, görsel ve videolar üzerinden Süreci soru-cevap etkinliği yapılabilir. Öğrencilere göçün itici ve çekici faktörlerine yönelik şema hazırlatılabilir veya göçün mekansal etkileri ile ilgili öğrencilerin düşüncelerini ifade etmesi sağlanabilir. Köprü Kurma Göç olayı ve tarihteki büyük göçlerle ilgili örnek görseller ve videolar incelenebilir, belirlenen okuma parçaları üzerinden değerlendirme yapılabilir. Öğrencilerden sunulan örneklerde göç olayının nasıl gerçekleştiğini son dönemlerde yaşanan göç olaylarından edindikleri bilgilere dayanarak betimlemeleri istenebilir. Bu şekilde öğrencilerin ön bilgileri harekete geçirilir ve kendi hayatları ile göç olayı arasında ilişki kurmaları sağlanabilir. SOSYAL BİLİM ÇALIŞMALARI I DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme SBÇ.I.4.1 Uygulamaları Öğrencilere göçlerle ilgili gazete haberi ve makale okuma, fotoğraf ve harita inceleme, sayısal veriler içeren tablo yorumlama gibi çalışmalar yaptırılabilir. Bu çalışmalar öğrenciler tarafından sunulabilir ve öğrencilerin seçtiği materyallerin incelenmesiyle derse başlanabilir. İncelenen materyaller bağlamında görüşlerin paylaşıldığı bir tartışma ortamı yapılandırılır (SDB2.1). Sınıf ortamında görüş paylaşımı yapılırken öğrencilerin toplumsal ve kitlesel sorunlarla ilgili sorumluluk sahibi olmaları gerektiği ve göçe katılan her bir insanın farklı kültür ve inançlara sahip olabileceği vurgulanır (D5.1, D14.3). Göç sınıflandırmasında yer alan kavramlar liste hâlinde karışık olarak paylaşılır (süresine göre göçler, mesafeye göre göçler, nedenlerine göre göçler, mevsimlik göç, sürekli göç, isteğe bağlı göç, zorunlu göç, yasa dışı göç, mübadele göçü ve beyin göçü). Bu liste ile ilgili öğrencilerin soru sormaları ve bilgi ihtiyaçlarını fark etmeleri sağlanır (E1.1, OB1). Bu kapsamda öğrencilerden, verilen göç sınıflandırma listesinde yer alan göç türlerini belirledikleri özelliklere göre sınıflandırmaları ve küçük gruplar içinde tartışmaları istenir (D5.3). Göçler, gerçekleşme durumlarına göre tasnif edilir ve etiketlenir (E3.7, SDB2.2, SBAB11.2). Öğrencilerin bu süreçteki öğrenmeleri yapılandırılmış gridle değerlendirilebilir. SBÇ.I.4.2 Öğrencilere dünya tarihinde görülmüş olan Türklerin Türkistan’dan Göçü, Kavimler Göçü ve Yeni Dünya’ya Göçler konularında hazırlanmış haritalar gösterilebilir. Öğrencilerin haritaları incelemeleri ve inceleme sonucunda büyük göçlerle ilgili sorular sormaları sağlanır. Bu göçlerin sebeplerinin neler olduğu öğrenciler tarafından araştırılır ve bunlarla ilgili bilgi toplanır (OB4, E1.1, E1.4). Yeni Dünya’ya yapılan göçlerde sömürgeciliğin etkisi sorgulanır. Dijital ortamda hazırlanan bir taslak ile ulaşılan bilgiler düzenlenir ve öğrencilere poster hazırlama görevi verilir (OB2). Düzenlenen bilgiler poster üzerinde çözümlenir. Öğrencilerin ürünleri, dereceleme anahtarı ile değerlendirilebilir ve öğrencilere geri bildirim verilir (SDB1.2). Performans görevi olarak öğrencilerden merak ettikleri bir göç türü ile ilgili kısa makale/ rapor yazmaları istenebilir. Performans görevi analitik dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilir (SDB1.2).",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilere güvenilir genel ağ kaynaklarından göç verilerini inceleme görevi verilebilir. Öğrencilerden ulaştıkları verilerden faydalanarak dünyada gerçekleşen göçlerin nedenleri ve sonuçları hakkında araştırma yapmaları istenebilir. Söz konusu araştırma görevlerinin tüm sınıf/okul ile paylaşılabilmesi için panel düzenlenebilir. Ayrıca öğrencilere en çok göç alan ülkeler ile en fazla göç veren ülkelerin ekonomik özelliklerini ve göç veren ülkelerin demografik özelliklerini araştırma görevleri verilebilir. Öğrencilerin söz konusu araştırma görevlerini tüm sınıf/okul ile paylaşabilmeleri için panel düzenlenebilir. Destekleme Konuya ilişkin göçle ilgili kısa bir video üzerinden çıkarım yapılması sağlanabilir. Öğrencilerden bu süreçle ilgili geri bildirim vermeleri istenebilir. Performans görevi mübadele göçleri ile ilgili bir sunum yapma şeklinde düzenlenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. SOSYAL BİLİM ÇALIŞMALARI I DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 5,
+   "kind": "TEMA",
+   "title": "ÖZGÜRLÜK VE SORUMLULUK İLİŞKİSİ",
+   "description": "Bu temada öğrencilerin özgürlük ve sorumluluk ilişkisine dair felsefi soru ve problemleri anlamaları, bu ilişki üzerine üretilmiş düşünce ve argümanları değerlendirmeleri amaçlanmaktadır. ALAN SBAB14. Felsefi Muhakeme (SBAB14.1. Felsefi Problemleri Anlama, SBAB14.2. Felsefi BECERİLERİ Düşünce ve Argümanları Değerlendirme) BECERİLER",
+   "lesson_hours": 10,
+   "sections": {
+    "EĞİLİMLER": "E3.1. Muhakeme, E3.5. Açık Fikirlilik, E3.7. Sistematiklik, E3.9. Şüphe Duyma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB1.3. Kendine Uyarlama Öğrenme Becerileri (Öz Yansıtma)",
+    "Değerler": "D5. Duyarlılık, D14. Saygı, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB5. Kültür Okuryazarlığı DİSİPLİNLER ARASI Tarih, Coğrafya, Sosyoloji, Felsefe",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.7. Karşılaştırma, KB2.10. Çıkarım Yapma, KB3.3. Eleştirel Düşünme SOSYAL BİLİM ÇALIŞMALARI III DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI SBÇ.III.5.1. Özgürlük ve sorumluluk ilişkisine dair felsefi soru ve problemleri anlayabilme VE SÜREÇ BİLEŞENLERİ a) Özgürlük ve sorumluluk kavramlarını açıklar. b) Özgürlük ve sorumluluk ilişkisine dair felsefi problemleri yaşamla ilişkilendirerek değerlendirir. SBÇ.III.5.2. Özgürlük ve sorumluluk ilişkisine dair felsefi düşünce ve argümanları değerlendirebilme a) Farklı dönem filozoflarının özgürlük ve sorumluluk ilişkisine dair düşüncelerini ifade eder. b) Filozofların probleme dair görüşleri arasındaki ilişkileri kurar. c) Özgürlük ve sorumluluk ilişkisine dair güncel düşünce biçimlerini sorgular. ç) Özgürlük ve sorumluluk ilişkisine dair güncel düşünce biçimlerinin tutarlılığını ve geçerliliğini inceler. d) Farklı dönem filozoflarının özgürlük ve sorumluluk ilişkisine dair düşüncelerini ve argümanlarını karşılaştırır.",
+    "İÇERİK ÇERÇEVESİ": "Özgürlük ve Sorumluluk İlişkisi Farklı Dönem Filozoflarının Özgürlük ve Sorumluluk İlişkisine Dair Argümanları Özgürlük ve Sorumluluk İlişkisine Dair Güncel Felsefi Yaklaşımlar",
+    "Anahtar Kavramlar": "irade, özgürlük, sorumluluk, vicdan",
+    "ÖĞRENME KANITLARI": "Bu temanın öğrenme çıktıları; açık uçlu sorular, yapılandırılmış grid, Venn şeması, kavram (Ölçme ve bulutu, kavram haritası, akran değerlendirme formu ve dereceli puanlama anahtarı Değerlendirme) ile değerlendirilebilir. Performans görevi olarak öğrencilerden “İnsan olmak: günümüz toplumunda özgürlük” başlıklı, görsel destekli poster ve kısa belgesel hazırlamaları istenebilir. Performans görevi dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin özgürlük ve sorumluluk kavramlarına dair ön bilgilerinin ve görüşlerinin olduğu, felsefe derslerinde işlenen temel felsefi bilgileri bildiği kabul edilir. Ön Değerlendirme Öğrencilerden “Özgürlük denince aklınıza ne geliyor?” ve “Özgürlükle başıboşluk arasında Süreci fark var mıdır?” sorularına kısa cevaplar vermeleri istenebilir. Cevaplarda geçen ortak kelimelerin kavram bulutu üzerinde gösterilmesi istenebilir. Köprü Kurma Öğrencilere özgürlük, başıboşluk, sorumluluk, irade vb. kavramlar arasındaki ilişkiyi imleyen temel sorular yöneltilerek öğrencilerin bu kavramları açıklamaları istenebilir. Öğrenme-Öğretme SBÇ.III.5.1 Uygulamaları Öğrencilere filozofların özgürlük anlayışını ve bu anlayışın dayandığı varsayımları içeren bilgi notları verilir (OB5). Notu okuyan öğrenciler gruplara ayrılarak “Sınırsız özgürlük olabilir mi?” ve “Bir çocuk seçimlerinde hangi yaştan itibaren özgür olabilir?” sorularından hareketle özgürlük ve sorumluluk ilişkisini tartışır (SDB2.1). Tartışmada beyin fırtınası tekniği kullanılabilir (D5, D14). Grupların kendi yaşamlarından örnekler vermeleri ve kendi cevaplarıyla filozofların yaklaşımı arasındaki benzerlikleri ve farklılıkları ortaya koymaları sağlanır. Bunun için Venn şeması kullanılabilir (SDB2.3, D14). Grupların verdiği örnekler akran değerlendirme formuyla değerlendirilir (OB1). SOSYAL BİLİM ÇALIŞMALARI III DERSİ ÖĞRETİM PROGRAMI SBÇ.III.5.2 Öğrenciler determinizm, indeterminizm, otodeterminizm, fatalizm ve liberteryanizm kavramlarını içeren kısa metinleri inceleyerek bu düşünceleri kendi ifadeleriyle açıklar ve metinlerde geçen kavramları tanımlar. Özgürlük kavramını bu ana görüşler üzerinden değerlendirir. Bunun için konuşma halkası yöntemi kullanılabilir (KB2.7). Öğrencilerden Parmenides, Platon, Diogenes, Farabi, İbn Rüşd, Hegel, Habermas ve Sartre arasından iki filozofu seçmeleri, bu iki filozofun özgürlük ve sorumluluk arasındaki ilişkiye dair görüşlerini ortaya koymaları istenir (E3.1). Bunun için akvaryum yöntemi kullanılabilir (E3.5). İki filozofun argümanları arasındaki ilişki karşılaştırılır (SDB2.2). Öğrencilerden özgürlük ve sorumluluk ilişkisine dair güncel yaklaşımları örnekler vererek tartışmaları istenir (D5, E3.9). Seçilen düşünceler sorgulanır ve bu düşüncelerle ilgili felsefi sorular üretilir. Bunun için beyin fırtınası yöntemi kullanılabilir (D16). Öğrencilerin özgürlük ve sorumluluk ilişkisine dair görüşleri eleştirel tutumla değerlendirmeleri sağlanır (KB3.3). Tutarlılık ve gerekçelendirme ölçütleri belirlenerek örnek metinlerde uygulanır (E3.7). Bunun için Sokratik sorgulama yöntemi kullanılabilir (OB2). Öğrenciler gruplara ayrılır ve tarihsel dönemlere göre özgürlük ve sorumluluk ilişkisine dair görüşler karşılaştırılır (KB2.10). Gruplardan argümanların ortak yanlarını belirlemeleri istenir (OB5). Bu etkinlikte çıkış kartı kullanılabilir (SDB1.3). Performans görevi olarak öğrencilerden “İnsan olmak: günümüz toplumunda özgürlük” konulu görsel destekli poster ve kısa belgesel hazırlamaları istenebilir. Performans görevi dereceli puanlama anahtarıyla değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Özgürlük ve sorumluluk ilişkisine dair kısa, felsefi deneme yazmaları istenebilir. Destekleme Özgürlük, irade, etik, sorumluluk gibi kavramlar basit tanımlarla açıklanır ve öğrencilerden bu kavramları eşleştirmeleri istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. SOSYAL BİLİM ÇALIŞMALARI III DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 6,
+   "kind": "TEMA",
+   "title": "SOSYAL DEĞİŞME VE KUŞAKLAR",
+   "description": "Bu temada öğrencilerin sosyal değişmenin kuşakların değer yargılarına etkisini çözümlemeleri ve sosyal değişme ile kuşaklar arasındaki ilişkiye dair eleştirel düşünmeleri amaçlanmaktadır. ALAN SBAB16. Eleştirel Sosyolojik Düşünme (KB2.4. Çözümleme, KB3.3. Eleştirel Düşünme) BECERİLERİ BECERİLER",
+   "lesson_hours": 6,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E2.1. Empati, E3.3. Yaratıcılık, E3.4. Gerçeği Arama, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık Öğrenme Becerileri",
+    "Değerler": "D3. Çalışkanlık, D14. Saygı, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı DİSİPLİNLER ARASI Felsefe, Tarih, Psikoloji, Sosyoloji",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.6. Bilgi Toplama, KB2.7. Karşılaştırma, KB2.10. Çıkarım Yapma, KB2.18. Tartışma SOSYAL BİLİM ÇALIŞMALARI II DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI SBÇ.II.6.1. Sosyal değişmenin kuşakların değer yargılarına etkisini çözümleyebilme VE SÜREÇ BİLEŞENLERİ a) Sosyal değişmenin kuşakların değer yargılarına etkisini belirler. b) Sosyal değişme ile kuşaklar arasındaki ilişkiyi belirler. SBÇ.II.6.2. Sosyal değişme ile kuşaklar arasındaki ilişkiye dair eleştirel düşünebilme a) Sosyal değişme ile kuşaklar arasındaki ilişkiyi sorgular. b) Sosyal değişme ile kuşaklar arasındaki ilişkiye dair akıl yürütür. c) Sosyal değişme ile kuşaklar arasındaki ilişkiye dair çıkarımlarını yansıtır.",
+    "İÇERİK ÇERÇEVESİ": "Sosyal Değişme ve Kuşaklar Değer Yargıları",
+    "Anahtar Kavramlar": "değer yargıları, gelenek, kuşak, sosyal değişme, teknoloji ve toplum, tüketim kültürü",
+    "ÖĞRENME KANITLARI": "Bu temadaki öğrenme çıktıları; açık uçlu sorular, karşılaştırma tablosu, analitik (Ölçme ve dereceli puanlama anahtarı, öz değerlendirme formu ve akran değerlendirme formu ile Değerlendirme) değerlendirilebilir. Performans görevi olarak öğrencilerden Türkiye’nin 20. yüzyıl başından günümüze kadar geçirdiği toplumsal ve siyasal dönüşümleri analiz ederek Türkiye’ye özgü kuşak tanımları geliştirdikleri bir rapor yazmaları istenebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Bu temada öğrencilerin kuşaklar arasında bazı farkların bulunduğuna dair gözlemleri olduğu kabul edilir. Ön Değerlendirme Öğrencilere “Kuşaklar arasındaki farklılıkların kaynağı nedir?”, “Teknolojik gelişmeler Süreci kuşakların düşünce yapısını ve yaşam tarzlarını nasıl şekillendiriyor olabilir?” soruları yöneltilerek öğrencilerden kuşaklar arası farklılıkların nedenlerini ortaya koymaları istenebilir. Köprü Kurma Öğrencilerden aile bireylerinden birinin (anneanne/dede, anne/baba vb.) gençlik dönemiyle kendi yaşamlarını giyim, müzik, iletişim, iş yaşamı, eğitim gibi başlıklarda karşılaştırmaları istenebilir. Elde edilen örnekler üzerinden “Yaş mı yoksa tarihsel deneyimler mi kuşakları belirler?” sorusu etrafında konuşma halkası düzenlenebilir. Öğrenme-Öğretme SBÇ.II.6.1 Uygulamaları Öğrenciler gruplara ayrılır ve bir kuşak (büyük kuşak, sessiz kuşak, baby boomers, X, Y, Z, Alfa vb.) seçilir. Seçilen kuşağın tipik özellikleri, değer yargıları ve bu yargıların nasıl oluştuğu gruplar tarafından araştırılır ve elde edilen bilgiler sunulur (E3.4, OB1). Sunumların ardından kuşaklar arası karşılaştırma yapılır. Bunun için karşılaştırma tablosu kullanılabilir (KB2.6, KB2.7, SDB2.2). Böylece sosyal değişmenin kuşaklara etkisinin belirlenmesi sağlanır. Öğrencilerden geçmiş dönemleri konu alan romanlar, filmler, belgeseller veya yazılı tarihî metinler gibi kültürel ürünleri incelemeleri istenir. Bu kaynaklardan yola çıkarak “Geçmişte hangi değerler önemliydi?”, “Toplum nasıldı?”, “Ne yenir, ne giyilirdi?”, “İletişim nasıldı?” gibi sorulara cevaplar aramaları beklenir. Bunun için konuşma halkası oluşturulabilir. Böylece öğrencilerin geçmişe dair değer yargılarını SOSYAL BİLİM ÇALIŞMALARI II DERSİ ÖĞRETİM PROGRAMI kültürel metinler aracılığıyla öğrenmeleri sağlanır (E2.1). Veriler doğrultusunda öğrencilerden sosyal değişimin etkilerini ve kuşaklar arasındaki ilişkiyi kültürel açıdan değerlendiren kısa bir metin yazmaları ve bunu sınıfta sunmaları istenir. Sunum sırasında nezaketli olunması, sorusu olanlara söz hakkı verilmesi ve etkin dinleme yapılması beklenir (D14.1, OB5). Süreç akran değerlendirme formu ile değerlendirilebilir. SBÇ.II.6.2 Sosyal değişme ile kuşaklar arasındaki ilişkiyi sorgulamaları amacıyla öğrencilere çeşitli tartışma soruları yöneltilir: “Zamanla toplum mu kuşakları yoksa kuşaklar mı toplumu değiştirir?”, “Teknoloji hayatımıza hız kazandırırken hangi alışkanlıklarımızı dönüştürdü?”, “Sosyal medya kuşaklar arası iletişimi güçlendiriyor mu koparıyor mu?”, “Geleneksel aile yapısı mı güçlüdür yoksa modern birey odaklı aile yapısı mı?”. Bu sorular aracılığıyla öğrencilerin farklı bakış açıları geliştirmeleri beklenir (KB2.18). Akvaryum tekniği kullanılarak küçük grup tartışmaları yapılır. Her gruptan, verilen bir tartışma başlığı üzerine savlar geliştirmeleri beklenir. Tartışma sonunda her öğrenciden sosyal değişmenin kuşaklar üzerindeki etkisine dair kısa bir değerlendirme yazısı yazması istenir (SDB2.3, E3.3). Her öğrenciden sosyal değişmenin etkilediği bir toplumsal alan seçmesi beklenir (iletişim, aile yapısı, eğitim, çalışma hayatı, tüketim alışkanlıkları, boş zaman faaliyetleri, kültürel üretim vb.). Seçilen alanda geçmişten günümüze meydana gelen değişim incelenir ve farklı kuşakların bu alandaki deneyimleri karşılaştırılır. Elde edilen bilgiler, görseller ve kısa açıklamalar içeren bir poster sunumuyla sınıfta paylaşılır. Sunumun sonunda bu değişimin nasıl değerlendirildiğinin ve kuşaklar arası ilişkilere etkisinin sözlü ve yazılı olarak ifade edilmesi beklenir (OB4, D16.3). Poster çalışması analitik dereceli puanlama anahtarı ile değerlendirilebilir. Performans görevi olarak öğrencilerden farklı ülkelerde siyasi ve toplumsal olaylara bağlı olarak kuşaklara verilen adlandırmaları incelemeleri, bu adlandırmalarda kullanılan tarihsel bağlamı ve olayları kavramaları istenir. Ardından Türkiye’nin 20. yüzyıl başından günümüze kadar geçirdiği toplumsal ve siyasal dönüşümleri analiz ederek Türkiye’ye özgü kuşak tanımları geliştirdikleri bir rapor yazmaları istenir. Bu süreçte öğrencilerin kuşakları belirleyen olayları tanımlamaları, bu olaylarla kuşak özellikleri arasında neden-sonuç ilişkileri kurmaları ve her kuşağa ait temel özellikleri ortaya koymaları beklenmektedir (E3.10, SDB2.3, D3.2, KB2.10). Rapor hem araştırmaya hem de öğrencilerin yaratıcılığına dayanmalı, her kuşak için yapılan adlandırmalar tarihsel gerekçelerle desteklenmeli ve kuşakların toplumsal özellikleri açık bir biçimde ifade edilmelidir. Rapor hazırlama sürecinde öğrencilerin görev ve sorumluluklarını planlamaları, bir yol haritası oluşturmaları ve zamanlarını etkili biçimde yönetmeleri beklenmektedir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden Türkiye’de modernleşme süreciyle birlikte kuşaklar arası farklılaşmayı analiz etmeleri istenebilir. Örneğin Tanzimat kuşağı, Cumhuriyet kuşağı ve günümüz kuşakları karşılaştırılabilir. Destekleme Kavramları basitleştirilmiş tanım kartlarıyla eşleştirme yaptırılabilir, grafik veya görsel destekli okuma parçaları verilebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. SOSYAL BİLİM ÇALIŞMALARI III DERSİ ÖĞRETİM PROGRAMI 2.3. SOSYAL BİLİM ÇALIŞMALARI III"
+   },
+   "outcomes": []
+  }
+ ],
+ "unassigned_outcomes": [
+  {
+   "code": "SBÇ.I.1.1",
+   "grade": 1,
+   "unit": null,
+   "order": 1,
+   "text": "Kültürel miras kavramını ve kültürel miras türlerini özetleyebilme",
+   "components": []
+  },
+  {
+   "code": "SBÇ.II.1.1",
+   "grade": 1,
+   "unit": null,
+   "order": 1,
+   "text": "Geçmişten günümüze başlıca ticaret yollarını ve güzergâhlarını değişim ve",
+   "components": []
+  },
+  {
+   "code": "SBÇ.III.1.1",
+   "grade": 1,
+   "unit": null,
+   "order": 1,
+   "text": "I. Dünya Savaşı’nın siyasi, sosyal ve ekonomik açılardan toplumlara",
+   "components": []
+  },
+  {
+   "code": "SBÇ.I.1.2",
+   "grade": 1,
+   "unit": null,
+   "order": 2,
+   "text": "İlk Çağ Anadolu medeniyet havzasından günümüze ulaşmış kültürel miras alanlarını kaynağa dayalı olarak yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İlk Çağ Anadolu medeniyet havzasından günümüze ulaşmış kültürel miras alanlarını farklı kaynaklardan inceler."
+    },
+    {
+     "label": "b",
+     "text": "İlk Çağ Anadolu medeniyet havzasından günümüze ulaşmış kültürel miras alanlarına ilişkin kaynaklarda verilen bilgileri bağlamdan kopmadan sözlü, yazılı ve görsel biçimlere dönüştürür."
+    },
+    {
+     "label": "c",
+     "text": "İlk Çağ Anadolu medeniyet havzasından günümüze ulaşmış kültürel miras alanlarını kendi ifadeleriyle yeniden yorumlar."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.II.1.2",
+   "grade": 1,
+   "unit": null,
+   "order": 2,
+   "text": "Ticaret yollarının kültürler arası etkileşime katkılarını özetleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Ticaret yollarının kültürler arası etkileşime sağladığı katkılarla ilgili çözümleme yapar."
+    },
+    {
+     "label": "b",
+     "text": "Ticaret yollarının kültürler arası etkileşime sağladığı katkıları sınıflandırır."
+    },
+    {
+     "label": "c",
+     "text": "Ticaret yollarının kültürler arası etkileşime sağladığı katkıları yorumlar."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.III.1.2",
+   "grade": 1,
+   "unit": null,
+   "order": 2,
+   "text": "II. Dünya Savaşı’nın toplumlara etkilerini değişim ve süreklilik açısından algılayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "II. Dünya Savaşı’nın toplumlara etkilerini siyasi, sosyal ve ekonomik açılardan karşılaştırır."
+    },
+    {
+     "label": "b",
+     "text": "II. Dünya Savaşı’nın toplumlara etkilerini siyasi, sosyal ve ekonomik açılardan sıralar."
+    },
+    {
+     "label": "c",
+     "text": "II. Dünya Savaşı’nın toplumlara etkilerini nedenleriyle ve sonuçlarıyla yorumlar."
+    },
+    {
+     "label": "ç",
+     "text": "II. Dünya Savaşı’nın toplumlara etkilerini değişik yönleriyle sentezler."
+    },
+    {
+     "label": "d",
+     "text": "II. Dünya Savaşı’nın toplumlara etkilerini değişim ve süreklilik açısından ele alarak kanıta dayalı öngörüde bulunur."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.I.1.3",
+   "grade": 1,
+   "unit": null,
+   "order": 3,
+   "text": "İlk Çağ’da Anadolu’daki medeniyetlerin siyasal, sosyal, ekonomik ve kültürel yapılarını kanıta dayalı olarak sorgulayabilme ve araştırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İlk Çağ’da Anadolu’daki medeniyetlerin siyasal, sosyal, ekonomik ve kültürel yapılarına ilişkin merak ettiği soruları sorar."
+    },
+    {
+     "label": "b",
+     "text": "İlk Çağ’da Anadolu’daki medeniyetlerin siyasal, sosyal, ekonomik ve kültürel yapıları hakkında farklı kaynaklardan bilgi toplar."
+    },
+    {
+     "label": "c",
+     "text": "İlk Çağ’da Anadolu’daki medeniyetlerin siyasal, sosyal, ekonomik ve kültürel yapıları ile ilgili verilen kaynakları inceler."
+    },
+    {
+     "label": "ç",
+     "text": "İlk Çağ’da Anadolu’daki medeniyetlerin siyasal, sosyal, ekonomik ve kültürel yapıları ile ilgili verilen kaynakları sorgular."
+    },
+    {
+     "label": "d",
+     "text": "İlk Çağ’da Anadolu’daki medeniyetlerin siyasal, sosyal, ekonomik ve kültürel yapıları ile ilgili verilen kaynakları yorumlar."
+    },
+    {
+     "label": "e",
+     "text": "İlk Çağ’da Anadolu’daki medeniyetlerin siyasal, sosyal, ekonomik ve kültürel yapıları ile ilgili kanıta dayalı ürün hazırlar ve bu ürünü paylaşır."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.I.2.1",
+   "grade": 2,
+   "unit": null,
+   "order": 1,
+   "text": "İslamiyet öncesi Türk devletlerinde toplumsal yaşam biçimlerindeki değişim ve",
+   "components": []
+  },
+  {
+   "code": "SBÇ.II.2.1",
+   "grade": 2,
+   "unit": null,
+   "order": 1,
+   "text": "Türk tarihindeki başkentlerin seçilme nedenlerini coğrafi ve stratejik açıdan",
+   "components": []
+  },
+  {
+   "code": "SBÇ.III.2.1",
+   "grade": 2,
+   "unit": null,
+   "order": 1,
+   "text": "XXI. yüzyıldaki bilimsel ve teknolojik gelişmelerin toplum hayatına etkilerini",
+   "components": []
+  },
+  {
+   "code": "SBÇ.I.2.2",
+   "grade": 2,
+   "unit": null,
+   "order": 2,
+   "text": "Türk töresinin toplumsal düzen ve devlet yönetimindeki rolünü sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Türk töresinin toplumsal düzen ve devlet yönetimindeki rolünü tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Türk töresinin toplumsal düzen ve devlet yönetimindeki rolü hakkında sorular sorar."
+    },
+    {
+     "label": "c",
+     "text": "Türk töresinin toplumsal düzen ve devlet yönetimindeki rolü hakkında farklı kaynaklar üzerinden konuya ilişkin bilgi toplar."
+    },
+    {
+     "label": "ç",
+     "text": "Türk töresinin toplumsal düzen ve devlet yönetimindeki rolü hakkında topladığı bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Türk töresinin toplumsal düzen ve devlet yönetimindeki rolü hakkında topladığı bilgiler üzerinden Türk töresinin toplumsal düzen ve devlet yönetimindeki rolüne ilişkin çıkarımlar yapar."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.II.2.2",
+   "grade": 2,
+   "unit": null,
+   "order": 2,
+   "text": "Türk tarihindeki başkentlerin toplumsal ve kültürel hayatını kanıta dayalı sorgulayabilme ve araştırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Türk tarihindeki başkentlerin toplumsal ve kültürel hayatıyla ilgili merak ettiği soruları sorar."
+    },
+    {
+     "label": "b",
+     "text": "Türk tarihindeki başkentlerin toplumsal ve kültürel hayatıyla ilgili kaynaklardan bilgi toplar."
+    },
+    {
+     "label": "c",
+     "text": "Türk tarihindeki başkentlerin toplumsal ve kültürel hayatıyla ilgili kaynakları inceler."
+    },
+    {
+     "label": "ç",
+     "text": "Türk tarihindeki başkentlerin toplumsal ve kültürel hayatıyla ilgili kaynakları sorgular."
+    },
+    {
+     "label": "d",
+     "text": "Türk tarihindeki başkentlerin toplumsal ve kültürel hayatıyla ilgili kaynakları yorumlar."
+    },
+    {
+     "label": "e",
+     "text": "Türk tarihindeki başkentlerin toplumsal ve kültürel hayatıyla ilgili kaynaklardan kanıta dayalı ürün oluşturur ve bunları paylaşır."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.III.2.2",
+   "grade": 2,
+   "unit": null,
+   "order": 2,
+   "text": "XXI. yüzyılda bilim ve teknoloji ile dünyada meydana gelen değişimi sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "XXI. yüzyılda bilim ve teknoloji ile dünyada meydana gelen değişim hakkında merak ettiği konuyu tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "XXI. yüzyılda bilim ve teknoloji ile dünyada meydana gelen değişim hakkında sorular sorar."
+    },
+    {
+     "label": "c",
+     "text": "XXI. yüzyılda bilim ve teknoloji ile dünyada meydana gelen değişim hakkında bilgi toplar."
+    },
+    {
+     "label": "ç",
+     "text": "XXI. yüzyılda bilim ve teknoloji ile dünyada meydana gelen değişim hakkında topladığı bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "XXI. yüzyılda bilim ve teknoloji ile dünyada meydana gelen değişim hakkında topladığı bilgiler üzerinden çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.I.2.3",
+   "grade": 2,
+   "unit": null,
+   "order": 3,
+   "text": "İslamiyet öncesi Türk toplumlarında kadın ve erkeğin görevlerini dönemin şartları içinde değerlendirebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İslamiyet öncesi Türk toplumlarında kadın ve erkeğin görevlerini kanıtlara dayalı analiz eder."
+    },
+    {
+     "label": "b",
+     "text": "İslamiyet öncesi Türk devletlerinde kadın ve erkeğin görevlerini, dönemin ve mekânın koşullarını dikkate alarak fark eder."
+    },
+    {
+     "label": "c",
+     "text": "İslamiyet öncesi Türk devletleri dönemlerinde kadın ve erkeğin görevleriyle ilgili durumu günümüz koşullarıyla karşılaştırır."
+    },
+    {
+     "label": "ç",
+     "text": "İslamiyet öncesi Türk devletleri dönemlerinde kadın ve erkeğin görevleriyle ilgili gelişmeleri, dönemin koşulları çerçevesinde açıklar."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.I.2.4",
+   "grade": 2,
+   "unit": null,
+   "order": 4,
+   "text": "Göktürk Yazıtlarına göre bağımsızlık ve liderlik anlayışlarını yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Göktürk Yazıtlarına göre bağımsızlık ve liderlik anlayışlarını verilen kaynaklardan inceler."
+    },
+    {
+     "label": "b",
+     "text": "Göktürk Yazıtlarına göre bağımsızlık ve liderlik anlayışlarını bağlamdan kopmadan sözlü ve yazılı biçimlere dönüştürür."
+    },
+    {
+     "label": "c",
+     "text": "Göktürk Yazıtlarına göre bağımsızlık ve liderlik anlayışlarını kendi cümleleriyle yeniden ifade eder."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.I.2.5",
+   "grade": 2,
+   "unit": null,
+   "order": 5,
+   "text": "Türklerin İslamiyet’i kabul süreci ve sonrasındaki döneme ait gelişmeleri kaynağa dayalı olarak yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Türklerin İslamiyet’i kabul süreci ve İslamiyet’i kabullerinden sonraki döneme ait tarihî gelişmeleri farklı kaynaklardan inceler."
+    },
+    {
+     "label": "b",
+     "text": "Türklerin İslamiyet’i kabul süreci ve İslamiyet’i kabullerinden sonraki döneme ait bilgileri bağlamdan kopmadan sözlü, yazılı ve görsel biçimlere dönüştürür."
+    },
+    {
+     "label": "c",
+     "text": "Türklerin İslam medeniyetine katkılarını kendi ifadeleriyle yorumlar."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.I.3.1",
+   "grade": 3,
+   "unit": null,
+   "order": 1,
+   "text": "Göç olgusunu sorgulayabilme",
+   "components": []
+  },
+  {
+   "code": "SBÇ.II.3.1",
+   "grade": 3,
+   "unit": null,
+   "order": 1,
+   "text": "Küreselleşme olgusunu sorgulayabilme",
+   "components": []
+  },
+  {
+   "code": "SBÇ.III.3.1",
+   "grade": 3,
+   "unit": null,
+   "order": 1,
+   "text": "Uluslararası sorunlar ile ilgili eleştirel düşünebilme",
+   "components": []
+  },
+  {
+   "code": "SBÇ.I.3.2",
+   "grade": 3,
+   "unit": null,
+   "order": 2,
+   "text": "Göçün nedenlerini sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Göç olaylarının nedenlerine ilişkin sorular sorar."
+    },
+    {
+     "label": "b",
+     "text": "Göç olaylarının nedenleri ile ilgili bilgi toplar."
+    },
+    {
+     "label": "c",
+     "text": "Göç olaylarının nedenlerine ilişkin topladığı bilgileri düzenler."
+    },
+    {
+     "label": "ç",
+     "text": "Göç olaylarının nedenlerine ilişkin düzenlediği bilgileri çözümler."
+    },
+    {
+     "label": "d",
+     "text": "Göç olaylarının nedenlerine ilişkin çözümlediği bilgilerden çıkardığı sonuçları paylaşır."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.II.3.2",
+   "grade": 3,
+   "unit": null,
+   "order": 2,
+   "text": "Küreselleşme sürecinde meydana gelen değişim ve sürekliliği algılayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Küreselleşme sürecinde meydana gelen değişiklikleri farklı disiplinler açısından karşılaştırır."
+    },
+    {
+     "label": "b",
+     "text": "Küreselleşme sürecinde meydana gelen değişiklikleri farklı disiplinler açısından sıralar."
+    },
+    {
+     "label": "c",
+     "text": "Küreselleşmenin zamansal değişimini neden ve sonuçlarıyla yorumlar."
+    },
+    {
+     "label": "ç",
+     "text": "Küreselleşme sürecinde meydana gelen değişiklikleri farklı disiplinler açısından sentezler."
+    },
+    {
+     "label": "d",
+     "text": "Küreselleşme kavramının geçmişteki ve bugünkü anlamlarına ilişkin bilgilere ve kendi gözlemlerine dayanarak öngörülerde bulunur."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.I.3.3",
+   "grade": 3,
+   "unit": null,
+   "order": 3,
+   "text": "Göçlerin sonuçlarını sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Göçlerin sonuçlarına ilişkin sorular sorar."
+    },
+    {
+     "label": "b",
+     "text": "Göçlerin sonuçlarına ilişkin bilgi toplar."
+    },
+    {
+     "label": "c",
+     "text": "Göçlerin sonuçlarına ilişkin topladığı bilgileri düzenler."
+    },
+    {
+     "label": "ç",
+     "text": "Göçlerin sonuçlarına ilişkin düzenlediği bilgileri çözümler."
+    },
+    {
+     "label": "d",
+     "text": "Göçlerin sonuçlarına ilişkin çözümlediği bilgilerden çıkardığı sonuçları paylaşır."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.II.4.1",
+   "grade": 4,
+   "unit": null,
+   "order": 1,
+   "text": "Küreselleşmenin boyutları hakkında bilgi becerilerin süreç bileşenlerini toplayabilme ifade eder.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Küreselleşmenin boyutlarıyla ilgili gerekli bilgilere ulaşmak için hangi araçları kullanacağını belirler. Öğrenme sürecinde ele"
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.I.4.1",
+   "grade": 4,
+   "unit": null,
+   "order": 1,
+   "text": "Göçleri türlerine göre sınıflandırabilme",
+   "components": []
+  },
+  {
+   "code": "SBÇ.III.4.1",
+   "grade": 4,
+   "unit": null,
+   "order": 1,
+   "text": "Uluslararası kuruluşların özelliklerini sorgulayabilme",
+   "components": []
+  },
+  {
+   "code": "SBÇ.I.4.2",
+   "grade": 4,
+   "unit": null,
+   "order": 2,
+   "text": "İnsanlık tarihinde gerçekleşen büyük göç hareketlerinin nedenlerini sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İnsanlık tarihinde gerçekleşen büyük göç hareketlerinin nedenlerine ilişkin sorular sorar."
+    },
+    {
+     "label": "b",
+     "text": "İnsanlık tarihinde gerçekleşen büyük göç hareketlerinin nedenlerine ilişkin bilgi toplar."
+    },
+    {
+     "label": "c",
+     "text": "İnsanlık tarihinde gerçekleşen büyük göç hareketlerinin nedenlerine ilişkin topladığı bilgileri düzenler."
+    },
+    {
+     "label": "ç",
+     "text": "İnsanlık tarihinde gerçekleşen büyük göç hareketlerinin nedenlerine ilişkin düzenlediği bilgileri çözümler."
+    },
+    {
+     "label": "d",
+     "text": "İnsanlık tarihinde gerçekleşen büyük göç hareketlerinin nedenlerine ilişkin çözümlediği bilgilerden çıkardığı sonuçları paylaşır."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.II.4.2",
+   "grade": 4,
+   "unit": null,
+   "order": 2,
+   "text": "Küreselleşmenin sonuçlarını sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Küreselleşmenin sonuçlarına ilişkin sorular sorar."
+    },
+    {
+     "label": "b",
+     "text": "Küreselleşmenin sonuçlarına ilişkin bilgi toplar."
+    },
+    {
+     "label": "c",
+     "text": "Küreselleşmenin sonuçlarına ilişkin topladığı bilgileri düzenler."
+    },
+    {
+     "label": "ç",
+     "text": "Küreselleşmenin sonuçlarına ilişkin düzenlediği bilgileri çözümler."
+    },
+    {
+     "label": "d",
+     "text": "Küreselleşmenin sonuçlarına ilişkin çözümlediği bilgilerden çıkardığı sonuçları paylaşır."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.I.5.1",
+   "grade": 5,
+   "unit": null,
+   "order": 1,
+   "text": "Doğa ve insan ilişkisine dair felsefi soru ve problemleri anlayabilme",
+   "components": []
+  },
+  {
+   "code": "SBÇ.II.5.1",
+   "grade": 5,
+   "unit": null,
+   "order": 1,
+   "text": "Bilgi, gerçeklik ve hakikate ilişkin felsefi problemleri anlayabilme",
+   "components": []
+  },
+  {
+   "code": "SBÇ.III.5.1",
+   "grade": 5,
+   "unit": null,
+   "order": 1,
+   "text": "Özgürlük ve sorumluluk ilişkisine dair felsefi soru ve problemleri anlayabilme",
+   "components": []
+  },
+  {
+   "code": "SBÇ.I.5.2",
+   "grade": 5,
+   "unit": null,
+   "order": 2,
+   "text": "Doğa ve insan ilişkisine dair felsefi düşünce ve argümanları değerlendirebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Farklı dönem filozoflarının doğa–insan ilişkisine dair düşüncelerini ifade eder."
+    },
+    {
+     "label": "b",
+     "text": "Filozofların görüşleri arasında ilişki kurar."
+    },
+    {
+     "label": "c",
+     "text": "Doğa ve insan ilişkisini ele alan güncel filozofların düşüncelerini çevre sorunları, çevre etiği ve sürdürülebilirlik bağlamında sorgular."
+    },
+    {
+     "label": "ç",
+     "text": "Doğa ve insan ilişkisini ele alan güncel filozofların düşünce biçimlerinin tutarlılığını ve geçerliliğini inceler."
+    },
+    {
+     "label": "d",
+     "text": "Farklı dönem filozoflarının doğa-insan ilişkisine dair düşüncelerini ve argümanlarını karşılaştırır."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.II.5.2",
+   "grade": 5,
+   "unit": null,
+   "order": 2,
+   "text": "Bilgi, gerçeklik ve hakikat kavramlarına dair felsefi düşünce ortaya koyabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Bilgi, gerçeklik ve hakikat kavramlarını felsefi bağlamda çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Bilgi, gerçeklik ve hakikat arasındaki ilişki üzerine özgün düşünceler oluşturur."
+    },
+    {
+     "label": "c",
+     "text": "Kendi özgün düşüncelerinden hareketle felsefi bir metin yazar."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.III.5.2",
+   "grade": 5,
+   "unit": null,
+   "order": 2,
+   "text": "Özgürlük ve sorumluluk ilişkisine dair felsefi düşünce ve argümanları değerlendirebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Farklı dönem filozoflarının özgürlük ve sorumluluk ilişkisine dair düşüncelerini ifade eder."
+    },
+    {
+     "label": "b",
+     "text": "Filozofların probleme dair görüşleri arasındaki ilişkileri kurar."
+    },
+    {
+     "label": "c",
+     "text": "Özgürlük ve sorumluluk ilişkisine dair güncel düşünce biçimlerini sorgular."
+    },
+    {
+     "label": "ç",
+     "text": "Özgürlük ve sorumluluk ilişkisine dair güncel düşünce biçimlerinin tutarlılığını ve geçerliliğini inceler."
+    },
+    {
+     "label": "d",
+     "text": "Farklı dönem filozoflarının özgürlük ve sorumluluk ilişkisine dair düşüncelerini ve argümanlarını karşılaştırır."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.I.6.1",
+   "grade": 6,
+   "unit": null,
+   "order": 1,
+   "text": "Topluma ve kültüre ilişkin unsurları çözümleyebilme",
+   "components": []
+  },
+  {
+   "code": "SBÇ.II.6.1",
+   "grade": 6,
+   "unit": null,
+   "order": 1,
+   "text": "Sosyal değişmenin kuşakların değer yargılarına etkisini çözümleyebilme",
+   "components": []
+  },
+  {
+   "code": "SBÇ.III.6.1",
+   "grade": 6,
+   "unit": null,
+   "order": 1,
+   "text": "Toplumsal bütünleşmeyi ve toplumsal çözülmeyi sorgulayabilme",
+   "components": []
+  },
+  {
+   "code": "SBÇ.I.6.2",
+   "grade": 6,
+   "unit": null,
+   "order": 2,
+   "text": "Toplumun ve kültürün temel unsurlarını sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Topluma ve kültüre ilişkin merak ettiği konuyu tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Topluma ve kültüre dair sorular sorar."
+    },
+    {
+     "label": "c",
+     "text": "Toplum ve kültür hakkında bilgi toplar."
+    },
+    {
+     "label": "ç",
+     "text": "Toplanan bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Toplanan bilgilerden toplum-kültür ilişkisine dair çıkarımlar oluşturur."
+    }
+   ]
+  },
+  {
+   "code": "SBÇ.II.6.2",
+   "grade": 6,
+   "unit": null,
+   "order": 2,
+   "text": "Sosyal değişme ile kuşaklar arasındaki ilişkiye dair eleştirel düşünebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Sosyal değişme ile kuşaklar arasındaki ilişkiyi sorgular."
+    },
+    {
+     "label": "b",
+     "text": "Sosyal değişme ile kuşaklar arasındaki ilişkiye dair akıl yürütür."
+    },
+    {
+     "label": "c",
+     "text": "Sosyal değişme ile kuşaklar arasındaki ilişkiye dair çıkarımlarını yansıtır."
+    }
+   ]
+  }
+ ],
+ "report": {
+  "units": 6,
+  "outcomes": 0,
+  "components": 0,
+  "orphan_outcomes": 38,
+  "gaps": [
+   {
+    "course": "Sosyal Bilim Çalışmaları Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "SBÇ.I.1.1",
+     "SBÇ.II.1.1",
+     "SBÇ.III.1.1",
+     "SBÇ.I.1.2",
+     "SBÇ.II.1.2",
+     "SBÇ.III.1.2",
+     "SBÇ.I.1.3",
+     "SBÇ.I.2.1",
+     "SBÇ.II.2.1",
+     "SBÇ.III.2.1",
+     "SBÇ.I.2.2",
+     "SBÇ.II.2.2",
+     "SBÇ.III.2.2",
+     "SBÇ.I.2.3",
+     "SBÇ.I.2.4",
+     "SBÇ.I.2.5",
+     "SBÇ.I.3.1",
+     "SBÇ.II.3.1",
+     "SBÇ.III.3.1",
+     "SBÇ.I.3.2",
+     "SBÇ.II.3.2",
+     "SBÇ.I.3.3",
+     "SBÇ.II.4.1",
+     "SBÇ.I.4.1",
+     "SBÇ.III.4.1",
+     "SBÇ.I.4.2",
+     "SBÇ.II.4.2",
+     "SBÇ.I.5.1",
+     "SBÇ.II.5.1",
+     "SBÇ.III.5.1",
+     "SBÇ.I.5.2",
+     "SBÇ.II.5.2",
+     "SBÇ.III.5.2",
+     "SBÇ.I.6.1",
+     "SBÇ.II.6.1",
+     "SBÇ.III.6.1",
+     "SBÇ.I.6.2",
+     "SBÇ.II.6.2"
+    ]
+   }
+  ]
+ }
+}

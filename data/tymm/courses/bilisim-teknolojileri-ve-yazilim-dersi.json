@@ -653,15 +653,6 @@
   "outcomes": 46,
   "components": 12,
   "orphan_outcomes": 0,
-  "gaps": [
-   {
-    "course": "Bilişim Teknolojileri ve Yazılım Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "BTY.5.2.1",
-     "BTY.5.2.4"
-    ]
-   }
-  ]
+  "gaps": []
  }
 }

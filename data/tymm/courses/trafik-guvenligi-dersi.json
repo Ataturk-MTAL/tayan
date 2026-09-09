@@ -215,13 +215,6 @@
      "TG.4.3.2",
      "TG.4.4.2"
     ]
-   },
-   {
-    "course": "Trafik Güvenliği Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "TG.4.4.1"
-    ]
    }
   ]
  }

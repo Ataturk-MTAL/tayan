@@ -40,6 +40,12 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from tymm_pdf_sections import parse_units  # noqa: E402
+from tymm_outcomes import (  # noqa: E402
+    FOUR_RE,
+    THREE_RE,
+    detect_scheme,
+    parse_outcomes,
+)
 from fetch_tymm_dersler import KADEME_NAMES  # noqa: E402
 
 USER_AGENT = "Mozilla/5.0 (compatible; tayan-tymm-fetch/1.0)"
@@ -47,18 +53,8 @@ REQUEST_TIMEOUT_S = 120
 
 # Çıktı kodu: <ÖNEK>.<sınıf>.<ünite>.<sıra>. Ön ek uzunluğu derse göre değişir
 # (FİZ, MAT, TÜR, T.C.İNK gibi), SABİTLENMEZ.
-OUTCOME_RE = re.compile(r"([A-ZÇĞİÖŞÜ][A-ZÇĞİÖŞÜ.]{1,9})\.(\d+)\.(\d+)\.(\d+)\.\s*(.*)$")
-CODE_SCAN_RE = re.compile(r"\b([A-ZÇĞİÖŞÜ][A-ZÇĞİÖŞÜ.]{1,9})\.(\d+)\.(\d+)\.(\d+)\b")
-COMPONENT_RE = re.compile(r"^\s*([a-zçğöşü])\)\s*(.+)$")
-
-# Çıktı bloğunu sonlandıran bölüm başlıkları.
-SECTION_RE = re.compile(
-    r"^\s*(İÇERİK ÇERÇEVESİ|Anahtar Kavramlar|ÖĞRENME|KANITLARI|FARKLILAŞTIRMA"
-    r"|BECERİLER|İLİŞKİLER|EĞİLİMLER|DEĞERLER|PROGRAMLAR|SOSYAL|ALAN|KAVRAMSAL"
-    r"|VE SÜREÇ|\d+\.\s*ÜNİTE)"
-)
-PAGE_NOISE_RE = re.compile(r"^\s*\d+\s*$|ÖĞRETİM PROGRAMI\s*$")
-
+# Desenler ve çıktı ayrıştırması tymm_outcomes modülünde; burada
+# tekrarlanmaz. Bu dosyanın işi indirme, birleştirme ve yazma.
 
 def collapse(text: str) -> str:
     """Satır kırılmalarını ve tire bölünmelerini toparlar."""
@@ -73,67 +69,6 @@ def download(url: str, target: Path) -> None:
     request = urllib.request.Request(safe, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(request, timeout=REQUEST_TIMEOUT_S) as response:
         target.write_bytes(response.read())
-
-
-def dominant_prefix(text: str) -> str | None:
-    """Belgede en sık geçen çıktı ön ekini bulur; ders kısaltmasını sabitlemez."""
-    counts = collections.Counter(m.group(1) for m in CODE_SCAN_RE.finditer(text))
-    return counts.most_common(1)[0][0] if counts else None
-
-
-def parse_outcomes(text: str, prefix: str) -> list[dict]:
-    lines = text.splitlines()
-    best: dict[str, dict] = {}
-    index = 0
-    while index < len(lines):
-        # DİKKAT: search, match DEĞİL. Her ünitenin İLK çıktısı bölüm etiketiyle
-        # aynı satırı paylaşır ("VE SÜREÇ BİLEŞENLERİ FİZ.9.1.1. ..."); satır
-        # başına çakılı bir desen onları sessizce düşürür.
-        head = OUTCOME_RE.search(lines[index])
-        if not head or head.group(1) != prefix:
-            index += 1
-            continue
-
-        code = f"{head.group(1)}.{head.group(2)}.{head.group(3)}.{head.group(4)}"
-        title_parts = [head.group(5)]
-        components: list[dict] = []
-        current: dict | None = None
-        index += 1
-
-        while index < len(lines):
-            line = lines[index]
-            if OUTCOME_RE.search(line) or SECTION_RE.match(line):
-                break
-            if PAGE_NOISE_RE.match(line):
-                index += 1
-                continue
-            component = COMPONENT_RE.match(line)
-            if component:
-                current = {"label": component.group(1), "text": [component.group(2)]}
-                components.append(current)
-            elif line.strip():
-                (current["text"] if current else title_parts).append(line.strip())
-            index += 1
-
-        entry = {
-            "code": code,
-            "grade": int(head.group(2)),
-            "unit": int(head.group(3)),
-            "order": int(head.group(4)),
-            "text": collapse(" ".join(title_parts)),
-            "components": [
-                {"label": c["label"], "text": collapse(" ".join(c["text"]))} for c in components
-            ],
-        }
-        # Aynı kod belgede birden çok geçer (tablo + özet + atıf). En dolgun
-        # geçişi sakla; çıplak atıflar düşük puan alıp elenir.
-        score = len(entry["text"]) + 50 * len(entry["components"])
-        if code not in best or score > best[code]["_score"]:
-            best[code] = {**entry, "_score": score}
-
-    for entry in best.values():
-        entry.pop("_score", None)
-    return sorted(best.values(), key=lambda e: (e["grade"], e["unit"], e["order"]))
 
 
 def unit_titles(courses: list[dict], course_url: str) -> dict[tuple[int, int], str]:
@@ -206,15 +141,16 @@ def main() -> int:
             continue
 
         text = txt_path.read_text(encoding="utf-8", errors="replace")
-        prefix = dominant_prefix(text)
-        if not prefix:
+        prefixes, segments = detect_scheme(text)
+        prefix = prefixes[0] if prefixes else None
+        if not prefixes:
             gaps.append({"course": course["name"], "reason": "kodlu çıktı bulunamadı"})
             print(f"  [{position}/{len(courses)}] {course['name'][:40]:<42} kod YOK", file=sys.stderr)
             if not args.keep_pdf:
                 pdf_path.unlink(missing_ok=True)
             continue
 
-        outcomes = parse_outcomes(text, prefix)
+        outcomes = parse_outcomes(text, prefixes, segments)
         units = parse_units(text, prefix)
         by_unit = {(u["grade"], u["unit"]): u for u in units}
         for unit in units:
@@ -244,10 +180,11 @@ def main() -> int:
 
         # KAPSAMA DENETİMİ. Metinde geçen kod sayısı ile ayrıştırılan sayı
         # eşleşmiyorsa sessiz kayıp var demektir — raporlanır, gizlenmez.
+        pattern = FOUR_RE if segments == 4 else THREE_RE
         scanned = {
-            f"{m.group(1)}.{m.group(2)}.{m.group(3)}.{m.group(4)}"
-            for m in CODE_SCAN_RE.finditer(text)
-            if m.group(1) == prefix
+            ".".join(m.groups()[: segments])
+            for m in pattern.finditer(text)
+            if m.group(1) in set(prefixes)
         }
         parsed = {o["code"] for o in outcomes}
         missed = sorted(scanned - parsed)
@@ -302,7 +239,7 @@ def main() -> int:
         parsed_count += 1
         print(
             f"  [{position}/{len(courses)}] {course['name'][:40]:<42} "
-            f"{prefix:<8} çıktı={len(outcomes):<4} bileşen="
+            f"{(prefix or '-'):<8} çıktı={len(outcomes):<4} bileşen="
             f"{sum(len(o['components']) for o in outcomes):<5} kayıp={len(missed)}",
             file=sys.stderr,
         )

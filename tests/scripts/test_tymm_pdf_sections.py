@@ -5,6 +5,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
 
 from tymm_pdf_sections import parse_units
+from tymm_outcomes import SKILL_PREFIXES, detect_scheme, parse_outcomes
 
 SAMPLE = """9. SINIF
 1. ÜNİTE: FİZİK BİLİMİ VE KARİYER KEŞFİ
@@ -128,6 +129,152 @@ class UnitHeaderVariantTest(unittest.TestCase):
 
     def test_unite_basliginda_kind_alani_dolu(self):
         self.assertEqual(parse_units(SAMPLE, "FİZ")[0]["kind"], "ÜNİTE")
+
+
+# Türkçe programları NOKTALI ön ek ve ÜÇ sayılı kod kullanıyor: "T.O.5.2." =
+# ön ek T.O (okuma), sınıf 5, sıra 2. Ünite kademesi yok. Dört sayılı kod
+# arayan bir tarayıcı bu derslerde hiçbir çıktı bulamıyordu — 31 dersin 27'si
+# bu yüzden boş kalmıştı.
+THREE_SEGMENT = """T.O.5.2. Akıcı okuyabilme
+   a) Metni uygun hızda okur.
+   b) Noktalama işaretlerine dikkat eder.
+T.O.5.3. Söz varlığını geliştirebilme
+   a) Bilmediği kelimeleri belirler.
+"""
+
+FOUR_SEGMENT = """FİZ.9.1.2. Fizik biliminin alt dallarını sınıflandırabilme
+   a) Alt dalların niteliklerini belirler.
+"""
+
+
+class OutcomeSchemeTest(unittest.TestCase):
+    def test_dort_sayili_sema_bulunur(self):
+        prefixes, segments = detect_scheme(FOUR_SEGMENT)
+        self.assertEqual(prefixes, ["FİZ"])
+        self.assertEqual(segments, 4)
+
+    def test_uc_sayili_sema_bulunur(self):
+        prefixes, segments = detect_scheme(THREE_SEGMENT)
+        self.assertEqual(prefixes, ["T.O"])
+        self.assertEqual(segments, 3)
+
+    def test_uc_sayili_kod_ayristirilir(self):
+        outcomes = parse_outcomes(THREE_SEGMENT, "T.O", 3)
+        self.assertEqual(len(outcomes), 2)
+        self.assertEqual(outcomes[0]["code"], "T.O.5.2")
+        self.assertEqual(outcomes[0]["grade"], 5)
+        self.assertIsNone(outcomes[0]["unit"])
+        self.assertEqual(outcomes[0]["order"], 2)
+        self.assertEqual(outcomes[0]["text"], "Akıcı okuyabilme")
+        self.assertEqual(len(outcomes[0]["components"]), 2)
+
+    def test_dort_sayili_kod_ayristirilir(self):
+        outcomes = parse_outcomes(FOUR_SEGMENT, "FİZ", 4)
+        self.assertEqual(outcomes[0]["code"], "FİZ.9.1.2")
+        self.assertEqual(outcomes[0]["grade"], 9)
+        self.assertEqual(outcomes[0]["unit"], 1)
+        self.assertEqual(outcomes[0]["order"], 2)
+
+
+# Bir ders BİRDEN FAZLA ön ek kullanabilir: Türkçe'de T.D (dinleme), T.O
+# (okuma), T.Y (yazma), T.K (konuşma) ayrı ayrı geçiyor. Yalnız baskın ön eki
+# almak Ortaokul Türkçe'de 444 koddan 93'ünü getiriyordu.
+MULTI_PREFIX = """T.O.5.2. Akıcı okuyabilme
+   a) Metni uygun hızda okur.
+T.D.5.1. Dinlediğini anlayabilme
+   a) Dinlediği metnin konusunu belirler.
+T.Y.5.3. Yazabilme
+   a) Yazma amacını belirler.
+"""
+
+# Beceri çerçevesinin kodları (D1.1, KB2.8, OB4.3) ÇIKTI DEĞİLDİR. Okul
+# Öncesi belgesinde bunlar çıktı sanılıp ön ek olarak seçilmişti.
+SKILL_CODE_NOISE = """D.1.1. Adalet değeri
+MYB.5.1. Motor beceriyi sergileyebilme
+   a) Hareketi uygular.
+MYB.5.2. Denge kurabilme
+   a) Dengeyi korur.
+"""
+
+
+class MultiPrefixTest(unittest.TestCase):
+    def test_tum_on_ekler_toplanir(self):
+        prefixes, segments = detect_scheme(MULTI_PREFIX)
+        self.assertEqual(segments, 3)
+        self.assertEqual(set(prefixes), {"T.O", "T.D", "T.Y"})
+
+    def test_tum_on_eklerin_ciktilari_ayristirilir(self):
+        prefixes, segments = detect_scheme(MULTI_PREFIX)
+        outcomes = parse_outcomes(MULTI_PREFIX, prefixes, segments)
+        self.assertEqual(len(outcomes), 3)
+        self.assertEqual({o["code"] for o in outcomes}, {"T.O.5.2", "T.D.5.1", "T.Y.5.3"})
+
+    def test_beceri_on_ekleri_cikti_sayilmaz(self):
+        prefixes, segments = detect_scheme(SKILL_CODE_NOISE)
+        self.assertNotIn("D", prefixes)
+        self.assertIn("MYB", prefixes)
+
+    def test_bilinen_beceri_on_ekleri_listelenmis(self):
+        for prefix in ("KB", "SDB", "OB", "D", "E"):
+            self.assertIn(prefix, SKILL_PREFIXES)
+
+
+# Dört sayılı belgelerde özet tablolarında bir sürü ÇIPLAK üç sayılı atıf var
+# ("FB.3.1" gibi). Toplam geçiş sayısına bakan bir seçim bunları görüp belgeyi
+# üç sayılı sanıyordu: FB.3.1.2. kodu FB.3.1 + metin "2 ..." diye kesiliyor,
+# süreç bileşenleri kayboluyordu (7608 -> 4106).
+FOUR_WITH_NOISE = """FB.3.1.1. Bilimsel gözlem yapabilme
+   a) Gözlem amacını belirler.
+FB.3.1.2. Sınıflandırabilme
+   a) Ölçüt belirler.
+FB.3.1.3. Çıkarım yapabilme
+   a) Veriye dayalı sonuç üretir.
+Özet tablo: FB.3.1 FB.3.1 FB.3.1 FB.3.1 FB.3.1 FB.3.1 FB.3.1 FB.3.1
+Devam: FB.3.2 FB.3.2 FB.3.2 FB.3.2 FB.3.2 FB.3.2 FB.3.2 FB.3.2
+"""
+
+
+class SchemeTieBreakTest(unittest.TestCase):
+    def test_ciplak_atiflar_semayi_dusurmez(self):
+        prefixes, segments = detect_scheme(FOUR_WITH_NOISE)
+        self.assertEqual(segments, 4)
+        self.assertEqual(prefixes, ["FB"])
+
+    def test_dort_sayili_ciktilar_butun_kalir(self):
+        prefixes, segments = detect_scheme(FOUR_WITH_NOISE)
+        outcomes = parse_outcomes(FOUR_WITH_NOISE, prefixes, segments)
+        self.assertEqual(len(outcomes), 3)
+        self.assertEqual(outcomes[0]["code"], "FB.3.1.1")
+        self.assertEqual(outcomes[0]["text"], "Bilimsel gözlem yapabilme")
+        self.assertEqual(sum(len(o["components"]) for o in outcomes), 3)
+
+
+# Sonunda nokta OLMAYAN dört sayılı atıflar ("FB.5.1.1" gibi, tablolarda bol)
+# üç sayılı desene de uyuyor: FB.5.1 + metin "1". Fen Bilimleri'nde bu sahte
+# eşleşmeler 182'ye 181 ile şemayı düşürüyor ve tüm süreç bileşenleri
+# kayboluyordu. İmza: üç sayılı eşleşmenin metni RAKAMLA başlar.
+TRUNCATED_FOUR = """FB.3.1.1. Bilimsel gözlem yapabilme
+   a) Gözlem amacını belirler.
+FB.3.1.2. Sınıflandırabilme
+   a) Ölçüt belirler.
+Tablo satırı FB.5.1.1
+Tablo satırı FB.5.1.2
+Tablo satırı FB.5.2.1
+Tablo satırı FB.5.2.2
+Tablo satırı FB.5.3.1
+"""
+
+
+class TruncatedReferenceTest(unittest.TestCase):
+    def test_noktasiz_dort_sayili_atif_semayi_dusurmez(self):
+        prefixes, segments = detect_scheme(TRUNCATED_FOUR)
+        self.assertEqual(segments, 4)
+
+    def test_bilesenler_korunur(self):
+        prefixes, segments = detect_scheme(TRUNCATED_FOUR)
+        outcomes = parse_outcomes(TRUNCATED_FOUR, prefixes, segments)
+        self.assertEqual(len(outcomes), 2)
+        self.assertEqual(sum(len(o["components"]) for o in outcomes), 2)
 
 
 if __name__ == "__main__":

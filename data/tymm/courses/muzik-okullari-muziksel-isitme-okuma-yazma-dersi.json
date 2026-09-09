@@ -2520,20 +2520,6 @@
   "outcomes": 92,
   "components": 249,
   "orphan_outcomes": 0,
-  "gaps": [
-   {
-    "course": "Müziksel İşitme, Okuma ve Yazma Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "MİOY.4.4.1",
-     "MİOY.4.4.2",
-     "MİOY.4.4.3",
-     "MİOY.7.1.1",
-     "MİOY.7.1.2",
-     "MİOY.7.1.3",
-     "MİOY.7.4.2"
-    ]
-   }
-  ]
+  "gaps": []
  }
 }

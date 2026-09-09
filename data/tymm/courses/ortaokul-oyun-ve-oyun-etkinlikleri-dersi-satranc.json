@@ -1,0 +1,893 @@
+{
+ "course": {
+  "id": 83,
+  "name": "Oyun ve Oyun Etkinlikleri Dersi (Satranç)",
+  "slug": "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-satranc",
+  "prefix": "OOEST",
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/oyun-ve-oyun-etkinlikleri-dersi-santranc_20260819_073719_347.pdf"
+ },
+ "units": [
+  {
+   "grade": null,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "SATRANCI TANIYALIM",
+   "description": "Bu temada öğrencilerin satranç oyununa yönelik farkındalık geliştirebilme, satranç oyununun bütüncül gelişime faydalarını sorgulayabilme ve Atatürk’ün satranç oyununa verdiği önemin farkına varmasına yönelik beceri geliştirmeleri amaçlanmaktadır. ALAN BECERİLERİ KAVRAMSAL KB1. Temel Beceriler, KB2.8. Sorgulama BECERİLER",
+   "lesson_hours": 2,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.1. İletişim, SDB2.2. İş Birliği, Öğrenme Becerileri SDB3.3. Sorumlu Karar Verme E YÖNELİK UYGULAMALAR OOEST.1.1 Sosyal-Duygusal Öğrencilerin satrançla ilgili temel kavram bilgilerini sorgulamaları istenir (SDB1.1). Öğrenme Becerileri/ Bilinen kavramlar not edilir. Daha sonra öğrencilerden bu kavramlar üzerinden bilmedikleri kavramları ve öğrenmek istedikleri kavramların neler olduğunu işaretlemeleri",
+    "Değerler": "D3. Çalışkanlık, D19. Vatanseverlik OB1. Bilgi Okuryazarlığı Becerileri BECERİLER ARASI İLİŞKİLER ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ OOEST.1.1. Satranç oyununu tanıyabilme. ÖĞRENME OOEST.1.2. Satranç oyununun bütüncül gelişime faydalarını sorgulayabilme. ÇIKTILARI VE a) Bütüncül gelişimi tanımlar. SÜREÇ b) Satranç oyununun bütüncül gelişime faydasına yönelik sorular sorar. BİLEŞENLERİ c) Soruların cevaplarına yönelik bilgiler toplar. d) Topladığı bilgileri değerlendirir. e) Ulaştığı bilgiler üzerinden satrancın bütüncül gelişime faydasına yönelik çıkarım yapar. OOEST.1.3. Güvenilir kaynaklardan elde ettiği bilgilerden hareketle Atartürk’ün satranç oyununa verdiği önemi açıklayabilme. / istenir (OB1). Okuryazarlık Öğrencilerden öğrenmek istedikleri ortak kavramlara göre gruplar oluşturmaları isteBecerileri nir. Ardından bu kavramlar üzerinde grup içinde konuşmaları ve ihtiyaç duyduklarında öğrenmek istedikleri kavramla ilgili diğer gruplardan yardım almaları sağlanır (D3.4, SDB2.2). OOEST.1.2 Öğrencilerin satrancın bütüncül gelişime faydalarına yönelik duygu ve düşüncelerini ifade etmeleri istenir (SDB2.1). Öğrencilerin zihninde satranç oyunu hakkında oluşan sorulara güvenilir bilgiye ulaşma yollarını kullanarak cevap bulmaları sağlanır (D3.3). Öğrencilerden belirlediği aracı kullanarak satranç oyununun faydalarına ilişkin bilgilere ulaşmaları istenir (OB1). OOEST.1.3 Öğrencilerden Atatürk’ün satranç oyununa verdiği önemi araştırıp öğrenmeleri istenir (D19.2). Öğrencilerden Atatürk’ün satranç oyununa verdiği önem ile ilgili bilgi edineceği güvenilir kaynağı belirlemeleri bu kaynaklardan elde ettikleri bilgileri doğrulamaları ve not etmeleri istenir (SDB3.3, OB1). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ",
+    "İÇERİK ÇERÇEVESİ": "Satranç Tarihi Atatürk ve Satranç Satrancın Faydaları Satranç Kuralları",
+    "Anahtar Kavramlar": "satranç, satrancın önemi, satranç oyun kuralları, bütüncül gelişim"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "SATRANÇ TAHTASI",
+   "description": "Bu temada öğrencilerin satranç tahtasını tanıma, tahtayı oyuncular arasına yerleştirme, kareleri isimlendirebilme ve merkez karelerin önemini fark edebilmeleri amaçlanmaktadır. ALAN SAB1. Sanatsal Algılama (SAB1.1. Sanatsal Gözlemleme) BECERİLERİ KAVRAMSAL KB1. Temel Beceriler, KB2.4. Çözümleme, KB2.7. Karşılaştırma BECERİLER",
+   "lesson_hours": 4,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.1. İletişim, SDB2.2. İş Birliği, Öğrenme Becerileri SDB2.3. Sosyal Farkındalık E YÖNELİK UYGULAMALAR OOEST.2.1 Sosyal-Duygusal Öğrencilerden gösterilen satranç tahtası görselini anlamaları, okumaları ve yorumlamaları istenir (OB4). Öğrenme Becerileri/ Öğrencilerin satranç tahtasını oluşturan bileşenlerin fark edilmesine yönelik verilen",
+    "Değerler": "D3. Çalışkanlık OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB7. Veri Okuryazarlığı Becerileri BECERİLER ARASI İLİŞKİLER ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ ÖĞRENME OOEST.2.1. Satranç tahtasını tanıma sürecinde tahtayı oluşturan bileşenleri gözlemleÇIKTILARI VE yebilme. SÜREÇ a) Tahta üzerindeki görsel bileşenleri fark eder. BİLEŞENLERİ b) Tahtayı oluşturan görsel bileşenleri ifade eder. OOEST.2.2. Satranç tahtasını, tahtanın köşe rengine ve siyah beyaz oyuncu yöününe dikkat ederek oyuncular arasına doğru yerleştirebilme. OOEST.2.3. Satranç tahtasında kare isimlendirilmesine yönelik çözümleme yapabilme. a) Satranç tahtasında yatay ve dikey isimleri belirler. b) Yatay ve dikey arasındaki ilişkiyi belirleyerek kare isimlendirmesi yapar. OOEST.2.4. Satranç tahtası üzerindeki merkez kareleri, oyun kontrolü ve bu karelerdeki taşların hareket alanı yönünden diğer karelerle karşılaştırabilme. a) Satranç tahtası üzerindeki merkez karelerle diğer karelerin özelliklerini oyun kontrolü ve oyuna hâkimiyet açısından belirler. b) Satranç tahtası üzerindeki merkez karelerle diğer karelerin benzerliklerini oyun kontrolü ve oyuna hâkimiyet açısından listeler. c) Satranç tahtası üzerindeki merkez karelerle diğer karelerin farklılıklarını oyun kontrolü ve oyuna hâkimiyet açısından listeler. / ipuçlarına dikkat etmeleri istenir (SDB2.3). Okuryazarlık Öğrencilerden satranç tahtasını oluşturan bileşenleri kendi cümleleri ile aktarmaları Becerileri istenir (OB1). OOEST.2.2 Öğrencilerden satranç tahtasındaki renk, sayı ve harf bileşenlerine dikkat ederek tahtanın oyuncular arasına yerleştirilmesinin bir kural dâhilinde olup olmayacağı yönünde sorgulama yapmaları istenir (D3.3). Öğrencilerin sorgulama ve araştırma sonucunda öğrendiği bilgilerden yola çıkarak satranç tahtasını oyuncular arasına doğru şekilde yerleştirmeleri istenir (SDB1.1). Öğrencilerden oyuncular arasına yerleştirilen satranç tahtasının konumunu eleştirel bir bakışla değerlendirerek yerleşimin doğru olup olmadığını kontrol etmeleri istenir (SDB1.1, OB4). OOEST.2.3 Satranç tahtasının üzerindeki harf ve sayıların kare isimlendirmesindeki önemine yönelik öğrencilerin düşüncelerini ifade etmeleri istenir (SDB2.1). Öğrencilerden kare isimlendirmesinin satranç oyunundaki yerini, önemini ve gerekli olup olmadığını eleştirel bir bakış açısıyla değerlendirmeleri istenir (D3.3). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ Öğrencilerden satranç tahtasındaki karelerin isimlendirilmesine ilişkin kapsamlı çıkarımlarda bulunmaları istenir (OB7). OOEST.2.4 Öğrencilerden satranç tahtasındaki merkez karelerin oyun kontrolü açısından diğer karelerden farklı yönlerini eleştirel bir bakış açısı ile değerlendirmeleri istenir (D3.3). Öğrencilerden merkez karedeki bir taş ile aynı taşın merkez kareler dışındaki bir karedeki hareket alanına yönelik düşünce geliştirmeleri ve bunları gurupla tartışmaları istenir (SDB2.2). Öğrencilerden merkez karede bulunan bir taş ile aynı taşın tahta kenarındaki konumunu karşılaştırarak merkez karelerin önemine ilişkin görsel inceleme yapmaları ve akıl yürüterek çıkarımlarda bulunmaları istenir (OB4). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ",
+    "İÇERİK ÇERÇEVESİ": "Satranç Tahtasının Özellikleri Satranç Tahtasını Yerleştirme Kare İsimlendirme Merkez Kareler",
+    "Anahtar Kavramlar": "satranç tahtası, merkez kareler, yatay-dikey-çapraz doğrultu"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "SATRANÇ TAŞLARI VE HAREKETLERİ",
+   "description": "Bu temada öğrencilerin satranç taşlarını tanıma, taşların hareket özelliklerini fark etme, rakibinin taşlarını kurala uygun alabilme ve taşlar arasında güç sıralaması yapabilmeleri amaçlanmaktadır. ALAN BECERİLERİ KAVRAMSAL KB1. Temel Beceriler, KB2.5. Sınıflandırma BECERİLER",
+   "lesson_hours": 6,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E3.1. Muhakeme",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB3.1. Uyum, Öğrenme Becerileri SDB3.3. Sorumlu Karar Verme D1. Adalet, D5. Duyarlılık, D6. Dürüstlük, D8. Mahremiyet, D9. Merhamet, D12. Sabır, E YÖNELİK OOEST.3.1 UYGULAMALAR Öğrencilerden her bir satranç taşının tahta üzerindeki kendine has hareket yeteneğini ve değerini sabırla inceleyerek hamlelerini bu kurallara göre dikkat ve kontrolle planlamaları istenir (SDB1.2). Sosyal-Duygusal Öğrencilerden satranç taşlarının kurallarla belirlenmiş özelliklerini ve sınırlarını kabul Öğrenme Becerileri/ edip bunlara sadık kalarak hem oyunun adaletine hem de rakibinin hamle haklarına saygı göstermesi istenir (D1.3, D14.1).",
+    "Değerler": "D14. Saygı, D16. Sorumluluk, D20. Yardımseverlik OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB7. Veri Okuryazarlığı Becerileri BECERİLER ARASI İLİŞKİLER ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ ÖĞRENME OOEST.3.1. Satranç taşlarını adlarına, başlangıç konumlarına ve hareket özelliklerine ÇIKTILARI VE göre tanıyabilme. SÜREÇ OOEST.3.2. Satranç tahtasının özelliklerinden ve taşların kendine özgü hareket kurallaBİLEŞENLERİ rından yola çıkarak kural dışı taş hareketlerini belirleyebilme. OOEST.3.3. Satranç oyununda rakip oyuncunun taşını kurallara uygun alma yöntemlerini açıklayabilme. OOEST.3.4. Satranç taşlarını hareket alanı, taşın değeri, konumu, şahın önemi gibi etkenleri göz önünde bulundurarak güçlerine göre sınıflandırabilme. a) Satranç taşlarının hareket alanından yola çıkarak taşların gücüne yönelik ölçütleri belirler. b) Satranç taşlarını güçlerine göre ayırır. c) Satranç taşlarını güçlerine göre sıralar. d) Satranç taşlarını güçlerine göre etiketler. / Öğrencilerden satranç taşlarının isimlerini, tahtadaki konumlarını ve stratejik güçlerini Okuryazarlık doğru sembol ve kurallarla çözümleyerek oyun diline aktarması istenir (OB1). Becerileri OOEST.3.2 Öğrencilerden satranç tahtasının dikey, yatay ve çapraz hatlarını analiz etmeleri istenir. Öğrencilerin her taşın kendine özgü hareket sınırlarına göre bir sonraki hamlelerini planlamaları ve dürtüsel davranmadan sakin bir şekilde vermeleri beklenir (SDB1.2). Her taşın tahta üzerindeki hareket özgürlüğünün ve sınırlarının farklı olduğunu kabul ederek oyun esnasında kuralları ihlal etmeden adil bir şekilde oynamaları ve taşların sorumluluğunu üstlenmeleri istenir (D1.2, D16.3). Öğrencilerden satranç taşlarının hareket alanlarına yönelik sunulan görselleri incelemeleri istenir (OB4). Öğrencilerin satranç tahtası üzerindeki harf ve sayı kombinasyonlarını taşların hareket biçimleriyle (düz, çapraz, L biçimi vb.) mekânsal olarak ilişkilendirerek doğru konumlandırmaları beklenir (OB1). Masa başında veya fiziki oyun alanında rakibinin kural dışı bir taş hareketi yaptığını tespit ettiğinde baskı kurmadan, nezaketle ve fikir belirtme hakkını adilce kullanarak durumu hakeme veya rakibine bildirmesi bunu yaparken rakibinin kişisel alanını ihlal etmeyecek bir üslup benimsemesi beklenir (D8.1, D8.4). Rakibinin oyun sırasında yaptığı kural dışı hamleleri veya hatalı hareketleri onu küçük düşürecek şekilde alay konusu yapmaması istenir (D8.4). Sınıf ve grup içi pratiklerde arkadaşının yaptığı kural dışı hamleyi fark ettiğinde, bunu bir galibiyet fırsatı olarak görmek yerine kuralın doğrusunu arkadaşıyla paylaşarak dayanışma göstermesi ve ortak öğrenme sürecine katkıda bulunması beklenir (D20.2). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ Satranç tahtası ve taşların hareket kurallarını kavramakta zorlanan arkadaşlarına kuralları ve kural dışı hamleleri anlatmak için gönüllü olması,sabırlı, yapıcı ve iyiliksever bir tutumla arkadaşının gelişimine karşılık beklemeden destek vermesi beklenir (D20.3, D20.4). OOEST.3.3 Öğrencilerden rakip oyuncunun taşını alırken kurallara uygun hamleler yapmaları, karşı tarafın stratejisini ve haklarını gözeterek oyunu sportmence ve saygı çerçevesinde sürdürmeleri beklenir (SDB3.1). Rakip taşı tahtadan alma eylemini açıklarken veya uygularken bunun oyunun kuralları dahilinde teknik bir hamle olduğunu içselleştirmesi rakibinin taşını alırken onu rencide edecek, incitecek kışkırtıcı tavırlardan kaçınarak vicdanlı, nazik ve şefkatli bir dil kullanması beklenir (D9.1, D9.2). Öğrencilerin taş alma yöntemlerini (taşın bulunduğu kareye yerleşme, piyonun çapraz alması vb.) uygularken kuralları esnetmeden, hakikate ve oyunun özgün doğrularına sadık kalarak süreci açıklamaları istenir (D6.2). Öğrenciler rakip oyuncunun taşını alırken duygularını dengeleyerek tepkilerini yönetir (D12.2). Öğrencilerin satrançta taş almanın kuramsal yöntemlerini ve istisnalarını (geçerken alma vb.) mantıksal bir sıra içinde, doğru satranç terminolojisini kullanarak ifade edebilmeleri beklenir (OB1). OOEST.3.4 Öğrencilerden taşların hareket kapasitelerini ve tahtadaki etki alanlarını nesnel ölçütlere göre değerlendirerek taşlar arasındaki güç ilişkilerini ve taşların stratejik önemlerini analiz etmeleri beklenir (SDB1.2). Öğrencilerden satranç taşlarının güç sıralamasını gerekçeleriyle açıklamaları istenir (SDB3.3). Öğrencilerden satranç taşlarının (vezirden piyona kadar) oyundaki değerini ve gücünü doğru değerlendirmeleri, farklı yeteneklerin bütüne katkısını adil bir bakış açısıyla kavramaları beklenir (D1.1). Öğrencilerin taşların hareket alanlarını nicel verilerle (örneğin piyon=1 puan, vezir=9 puan) ilişkilendirerek görece güç dengelerini değerlendirmeleri ve bunları niteliklerine göre sınıflandırmaları istenir (OB7). Piyon, at, fil, kale, vezir ve şahın konumsal değerlerini sınıflandırırken en küçük puanlı bir piyonun dahi oyundaki hayati rolünü fark etmesi gibi toplumdaki her bireyin de statüsü ne olursa olsun eşit derecede değerli ve saygıya değer olduğunu kavraması beklenir (D5.1). Taşların puan değerleri ve konum güçleri arasındaki farkları öğrenirken takımdaki veya gruptaki her taşın birbirini tamamladığı bilincinden hareketle, gerçek hayatta da dayanışmanın ve gerektiğinde topluluğun yararı için fedakârlık yapmanın önemini kavraması ve bu hususta farkındalık oluşturması beklenir (D20.2). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ",
+    "İÇERİK ÇERÇEVESİ": "Satranç Taşları ve Özellikleri Satrançta Taş Alma",
+    "Anahtar Kavramlar": "-"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 4,
+   "kind": "TEMA",
+   "title": "TAŞ İSTEME",
+   "description": "Bu temada öğrencilerin taş isteme hamlelerini normal hamlelerle karşılaştırma ve satrançta tehdit kavramını sorgulayabilmeleri amaçlanmaktadır. ALAN BECERİLERİ KAVRAMSAL KB2.7. Karşılaştırma, KB2.8. Sorgulama BECERİLER",
+   "lesson_hours": 6,
+   "sections": {
+    "EĞİLİMLER": "E3.8. Soru Sorma , E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme) Öğrenme Becerileri E YÖNELİK OOEST.4.1 UYGULAMALAR Öğrencilerden tahtada karşılaştıkları tehdit durumlarını panik yapmadan analiz etmeleri ve savunma ya da karşı hamlelerini kontrollü biçimde planlamaları beklenir (SDB1.2). Sosyal-Duygusal Öğrencilerden taş isteme hamlesinin normal hamleden farkını söylemeleri istenir Öğrenme Becerileri/ (SDB1.1).",
+    "Değerler": "D3. Çalışkanlık, D12. Sabır, D14. Saygı OB1. Bilgi Okuryazarlığı Becerileri BECERİLER ARASI İLİŞKİLER ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ ÖĞRENME OOEST.4.1. Satranç oyununda atak yaparak taş isteme hamlesini normal hamle ile karÇIKTILARI VE şılaştırabilme. SÜREÇ a) Taş isteme hamlesi ile normal hamlenin özelliklerini belirler. BİLEŞENLERİ b) Taş isteme hamlesinin normal hamle ile benzerliklerini listeler. c) Taş isteme hamlesinin normal hamleden farklarını listeler. OOEST.4.2. Satranç oyununda tehdit kavramını sorgulayabilme. a) Satranç oyununda tehdit kavramını tanımlar. b) Tehdit ile ilgili sorular sorar. c) Tehdit ile ilgili bilgi toplar. d) Toplanan bilgileri değerlendirir. e) Toplanan bilgiler üzerinden çıkarım yapar. / Öğrencilerin taş isteme hamlesiyle rakip üzerinde stratejik baskı kurarken nezaket kurallarına uymaları, oyun hakkını korumaları ve rakibin hamle özgürlüğüne saygı gösOkuryazarlık termeleri beklenir (D14.1). Becerileri Öğrencilerin sıradan bir konum değiştirme hamlesi ile taş isteme hamlesinin oluşturacağı taktiksel avantaj ve riskleri karşılaştırmaları ve bunları oyun stratejisiyle ilişkilendirmeleri beklenir (OB1). OOEST.4.2 Öğrencilerin tahtada karşılaştıkları tehdit durumlarını panik yapmadan analiz etmeleri, riskleri doğru değerlendirerek savunma veya karşı hamlelerini kontrollü biçimde planlamaları beklenir (SDB1.2). Öğrencilerin satrançta tehdit kavramına ilişkin edindikleri bilgileri kullanarak bu kavramın oyuna etkisini eleştirel bir bakış açısıyla değerlendirmeleri beklenir (D3.3). Öğrencilerin rakibin hamleleriyle kurduğu baskı ve tehdit pozisyonları karşısında oyun disiplinini koruyarak en uygun kurtuluş veya karşı stratejiyi bulana kadar sabırla düşünmeleri ve kararlılık göstermeleri beklenir (D12.1). Öğrencilerin akıl yürütme sonucunda tehdit hamlesine yönelik çıkarımlarını oyuna yansıtmaları, rakibin hamlesinin ardındaki görünmeyen veya gelecekte oluşabilecek tehlikeleri sorgulamaları ve hamlenin amacını eleştirel bir bakış açısıyla analiz etmeleri beklenir (OB1). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ",
+    "İÇERİK ÇERÇEVESİ": "Satrançta Hamle Taş İsteme Hamlesi Rakip taşı isteme Satrançta Tehditı Örtü Konumu Tehdit oluşturma",
+    "Anahtar Kavramlar": "açarak taş isteme, örtü, rakip taşı isteme, tehdit oluşturma"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 5,
+   "kind": "TEMA",
+   "title": "ŞAH VE MAT",
+   "description": "Bu temada öğrencilerin şah çekmeye yönelik akıl yürütebilme, tehdit altındaki şahı koruma yollarını bilme ve mat durumuna yönelik mantıksal denetleme yapmaları amaçlanmaktadır. ALAN BECERİLERİ KAVRAMSAL KB2.16. Muhakeme (Akıl Yürütme) (KB2.16.1. Tümevarımsal Akıl Yürütme), BECERİLER KB2.19. Mantıksal Denetleme, KB3.3. Eleştirel Düşünme",
+   "lesson_hours": 6,
+   "sections": {
+    "EĞİLİMLER": "E3.1. Muhakeme, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.2. İş Birliği, Öğrenme Becerileri SDB3.3. Sorumlu Karar Verme E YÖNELİK UYGULAMALAR OOEST.5.1 Öğrenme Becerileri/ Öğrencilerin farklı taşların şah çekme hamlelerindeki benzerlikleri ve özel durumları",
+    "Değerler": "D1. Adalet, D3. Çalışkanlık, D6. Dürüstlük, D8. Mahremiyet, D12. Sabır, D14. Saygı OB1. Bilgi Okuryazarlığı, OB7. Veri Okuryazarlığı Becerileri BECERİLER ARASI İLİŞKİLER ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ ÖĞRENME OOEST.5.1. Tümevarım yönteminden hareketle şah çekme tekniklerine yönelik akıl yüÇIKTILARI VE rütebilme. SÜREÇ a) Şah çekme tekniklerine yönelik gözlem yapar. BİLEŞENLERİ b) Şah çekme tekniklerine yönelik örüntü bulur. c) Şah çekme tekniklerine yönelik genelleme yapar. OOEST.5.2. Tehdit altındaki şahı korumaya yönelik eleştirel düşünebilme. a) Tehdit altındaki şahın durumunu sorgular. b) Şahı koruma yolları ile ilgili akıl yürütür. c) Akıl yürütme sonucunda ulaştığı çıkarımları oyuna yansıtır. OOEST.5.3. Satrançta mat durumunun mantıksal denetlemesini yapabilme. a) Satranç oyununda mat konumuna yönelik önermeler geliştirir. b) Mat durumundan kurtulmaya yönelik kuralları uygular. c) Oyunda mat konumunun oluşmasına yönelik yargıda bulunur. Şah Çekme ve Teknikleri / adım adım inceleyerek zihinsel odaklarını korumaları, aceleci genellemelerden kaçınOkuryazarlık maları ve bilişsel süreçlerini sakinlikle yönetmeleri istenir (SDB1.2). Becerileri Öğrencilerin şah çekme hamlesini yaparken söz ve davranışlarında tutarlılık göstermeleri beklenir (D6.2). Öğrencilerden tekil konumlardan genel şah çekme kurallarına ulaşmaya çalışırken karşılaştıkları karmaşık tahta dizilimleri karşısında pes etmeden sonuca ulaşana kadar sistematik bir şekilde zihinsel çaba göstermeleri beklenir (D3.1). Öğrencilerden farklı taşların oluşturduğu şah çekme türlerinin ortak özelliklerini ve geometrik örüntülerini analiz ederek betimlemeleri, tümevarımsal bir yaklaşımla bu verileri genel teknik kurallara dönüştürmeleri beklenir (OB7). OOEST.5.2 Öğrencilerin tehdit altındaki şahı korumaya yönelik düşünceler geliştirmeleri ve bu düşünceleri tartışmaları beklenir (SDB2.2). Öğrencilerin şahın tehdit altında olduğu kriz anlarında hamle seçeneklerini (şahı kaçmak, araya taş koymak veya tehdit eden taşı almak) çok boyutlu biçimde değerlendirmeleri, risk analizi yaparak oyunun geleceğini koruyacak en sorumlu ve mantıklı kararı seçmeleri beklenir (SDB3.3). Öğrencilerin şahın doğrudan saldırıya uğradığı baskı ve panik anlarında soğukkanlılıklarını koruyarak aceleci savunmalar yerine en güvenli kaçış veya koruma yöntemini bulana kadar sabırla pozisyonu incelemeleri beklenir (D12.1). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ Şahı tehdit altında olan rakibini baskı altına alacak kışkırtıcı sözler, jestler veya psikolojik zorbalık içeren davranışlardan kesinlikle kaçınması rakibin bu durum karşısında kurallara aykırı fiziki veya sözel bir baskısına maruz kaldığında ise sakince hakemden veya öğretmenden yardım istemesi beklenir (D8.4). Öğrencilerin tehdit altındaki şahı korumaya yönelik edindikleri bilgileri yorumlayarak mevcut konumdaki savunma seçeneklerini (savunma taşlarının rollerini ve etkinliklerini) eleştirel bir bakış açısıyla değerlendirmeleri, güçlü ve zayıf yönlerini analiz ederek şahı en etkili şekilde koruyacak hamleyi belirlemeleri beklenir (OB1). OOEST.5.3 Öğrencilerin oyunun bittiğini ilan etmeden önce şahın hiçbir kaçış karesinin kalmadığını, tehdidin engellenemediğini ve araya taş konulamadığını tüm yönleriyle denetlemeleri, doğruluğundan emin olarak sorumlu ve kesin bir karara varmaları beklenir (SDB3.3). Öğrencilerin mat durumunun gerçekleşip gerçekleşmediğini tarafsız ve hakkaniyetli biçimde kontrol etmeleri, kendi lehlerine aceleci bir galibiyet kararı vermekten kaçınmaları ve rakibin hakkını gözeterek oyunu adil şekilde sürdürmeleri beklenir (D1.1). Öğrencilerin mat durumunu rakibine nezaket kuralları çerçevesinde ifade etmeleri beklenir (D14.1). Öğrencilerin şah çekme pozisyonu ile mat pozisyonu arasındaki farkı satranç kuralları doğrultusunda mantıksal olarak denetlemeleri, tüm kurtuluş hamlelerinin imkânsızlığını eleştirel bir bakış açısıyla doğrulamaları beklenir (OB1). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ",
+    "İÇERİK ÇERÇEVESİ": "Şahı Koruma Mat Durumu Mattan Korunma",
+    "Anahtar Kavramlar": "mat, şah çekme, tehdit"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 6,
+   "kind": "TEMA",
+   "title": "SATRANÇTA HÜCUM VE SAVUNMA",
+   "description": "Bu temada öğrencilerin hamleleri hücum ve savunma olarak sınıflandırma, çatal ve şiş hamlelerine yönelik bilgi toplama ve çıkarım yapmaları amaçlanmaktadır. ALAN BECERİLERİ KAVRAMSAL KB2.5. Sınıflandırma, KB2.6. Bilgi Toplama BECERİLER",
+   "lesson_hours": 6,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak",
+    "PROGRAMLAR ARASI BİLEŞENLER": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme) Öğrenme Becerileri E YÖNELİK OOEST.6.1 UYGULAMALAR Öğrencilerin hücum ve savunma durumlarında farklı duygular yaşayabileceklerinin farkına varmaları beklenir (SDB1.1). Öğrencilerin tahta üzerindeki hamlelerin hücum ya da savunma amaçlı olduğunu ayırt Sosyal-Duygusal ederken aceleci ve dürtüsel yorumlardan kaçınmaları, her hamlenin ardındaki taktiksel Öğrenme Becerileri/ niyeti sakinlik ve zihinsel odaklanma ile analiz etmeleri beklenir (SDB1.2).",
+    "Değerler": "D1. Adalet, D3. Çalışkanlık, D6. Dürüstlük OB1. Bilgi Okuryazarlığı, OB7. Veri Okuryazarlığı Becerileri BECERİLER ARASI İLİŞKİLER ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ ÖĞRENME OOEST.6.1. Satrançta hücum ve savunmaya yönelik hamleleri sınıflandırabilme. ÇIKTILARI VE a) Hücum ve savunma hamlelerine yönelik ölçüt belirler. SÜREÇ b) Hücum ve savunmaya yönelik yapılan hamleleri ayrıştırır. BİLEŞENLERİ c) Hücum ve savunmaya yönelik hamleleri tasnif eder. d) Yapılan hamleyi hücum veya savunma hamlesi olarak etiketlendirir. OOEST.6.2. Çatal ve şiş hamlesine yönelik bilgi toplayabilme. a) Çatal ve şiş hamlesi hakkında bilgi toplamak için gerekli araçları belirler. b) Belirlediği aracı kullanarak konu hakkında bilgileri bulur. c) Çatal ve şiş hamlesi hakkında ulaşılan bilgileri doğrular. d) Çatal ve şiş hamlesi hakkında ulaşılan bilgileri kaydeder. / Öğrencilerin hücum ve savunmaya yönelik hamlelerinde doğru ve güvenilir olmaya özen göstermeleri beklenir (D6.2). Öğrencilerden hücum ve savunma hamlelerinin oyundaki rollerini değerlendirirken yalBecerileri nızca saldırı odaklı hamlelere değil savunma hamlelerine de stratejik önem vermeleri ve her iki hamle türünün değerini dengeli, tarafsız bir bakış açısıyla sınıflandırmaları istenir (D1.1). Öğrencilerin mevcut hamle seçeneklerinin oluşturduğu etkileri analiz ederek hücum ve savunma değişkenlerine göre sınıflandırmaları, bu taktiksel verileri işleyerek anlamlı bir hiyerarşi içinde gruplandırmaları beklenir (OB7). OOEST.6.2 Öğrencilerin çatal ve şiş gibi taktiksel hamlelerin kuramsal temellerini araştırırken dikkatlerini uzun süre konu üzerinde tutmaları, bilgi toplama sürecinde zihinsel yönetimlerini ve öğrenme disiplinlerini sürdürmeleri beklenir (SDB1.2). Öğrencilerden çatal ve şiş hamleleriyle ilgili bilgi toplamaları için takımlar oluşturarak verilen görevlere konuya uygun biçimde grupla çalışmaları istenir (D3.4). Öğrencilerin satranç kaynaklarından çatal ve şiş taktiklerine dair farklı kaynakları ve örnek diyagramları tararken özenli davranmaları, bu özel hamlelerin mantığını tam olarak kavrayana kadar kararlılıkla bilgi toplamaya devam etmeleri beklenir (D3.1). Öğrencilerin çatal ve şiş taktiklerinin tanımlarını, aralarındaki farkları ve hangi taşlarla nasıl uygulandıklarına dair teknik verileri güvenilir kaynaklardan toplamaları, edindikleri bilgileri kendi cümleleriyle özetlemeleri istenir (OB1). Öğrencilerin grup çalışması sonunda ulaştıkları bilgileri tablo hâline getirerek sergilemeleri istenir (OB7). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ",
+    "İÇERİK ÇERÇEVESİ": "Satrançta Hücum Çatal Hamlesi Satrançta Savunma Şiş Hamlesi",
+    "Anahtar Kavramlar": "çatal, hücum, savunma, şiş"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 7,
+   "kind": "TEMA",
+   "title": "BASİT MATLAR OPOZİSYON VE İKİ HAMLELİK MATLAR",
+   "description": "Bu temada öğrencilerin basit matları çözümleyebilme, opozisyon konumunu yorumlama, bir ve iki hamlelik matlarla ilgili fikir sahibi olma ve bunları eyleme dönüştürmeleri amaçlanmaktadır. ALAN SBAB5. Sosyal Katılım (SBAB5.5. Fikri Eyleme Dönüştürme) BECERİLERİ KB2.4. Çözümleme, KB2.14. Yorumlama BECERİLER -",
+   "lesson_hours": 7,
+   "sections": {
+    "EĞİLİMLER": "",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.2. İş Birliği, Öğrenme Becerileri SDB3.3. Sorumlu Karar Verme D3. Çalışkanlık, D12. Sabır E YÖNELİK UYGULAMALAR",
+    "Değerler": "OB1. Bilgi Okuryazarlığı, OB7. Veri Okuryazarlığı Becerileri BECERİLER ARASI İLİŞKİLER ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ ÖĞRENME OOEST.7.1. Satranç oyununda basit matlara yönelik çözümleme yapabilme. ÇIKTILARI VE a) Satranç oyununda basit matların çeşitlerini belirler. SÜREÇ b) Satranç oyununda basit matlar arasındaki ilişkileri belirler. BİLEŞENLERİ OOEST.7.2. Satrançta opozisyon konumunu yorumlayabilme. a) Satrançta opozisyonu ve opozisyonun mat yapmaya etkisini inceler. b) Opozisyonun mat yapmaya etkisini bağlamdan kopmadan açıklar. c) Opozisyonu ve opozisyonun anlamını kendi cümleleri ile yeniden ifade eder. OOEST.7.3. Kademeli olarak önce bir sonra iki hamlelik matlara yönelik fikirlerini eyleme dönüştürebilme. a) Kademeli olarak önce bir sonra iki hamlelik matlara yönelik plan yapar. b) Kademeli olarak önce bir sonra iki hamlelik matlara yönelik yapılan planı uygular. c) Uyguladığı planın oyuna etkisini değerlendirir. / rini çok boyutlu olarak incelemeleri, olası savunma risklerini analiz ederek mat hedefiOkuryazarlık ne ulaştıracak en doğru ve sorumlu hamleleri tercih etmeleri istenir (SDB3.3). Becerileri Öğrencilerin basit mat kalıplarına giden süreçte rakibin beklenmedik dirençleri veya hamleleri karşısında aceleci davranmayıp soğukkanlılıklarını korumaları, mat kurgusunu sabır ve kararlılıkla sonuna kadar sürdürmeleri beklenir (D12.1). Öğrencilerin tahta üzerinde oluşan taş dizilimlerini ve zayıf kareleri eleştirel bir süzgeçten geçirerek basit mat temalarıyla ilişkilendirmeleri, mevcut konumun şifrelerini çözerek teorik mat bilgilerini pratikle sentezlemeleri ve ulaştıkları bilgileri kullanarak mat yapmaya yönelik bütünsel bilgi oluşturmaları beklenir (OB1). OOEST.7.2 Öğrencilerin oyun sonu evresinde iki şahın karşı karşıya geldiği opozisyon konumunu acele etmeden, piyonların ve şahların gelecekteki konumlarını zihninde canlandırarak sabırla analiz etmeleri ve bilişsel odaklanmalarını sürdürmeleri istenir (SDB1.2). Öğrencilerin oyunu kazanmada opozisyon konumunun etkisini eleştirel bir bakış açısıyla değerlendirmeleri ve opozisyonun bilinçli, etkin bir bekleyiş süreci olduğunun farkına varmaları istenir (D3.3, D12.3). Öğrencilerin opozisyon avantajını elde etmek veya mevcut opozisyon baskısını kırmak için hamle sırasının önemini gözetmeleri, aceleci ve dikkatsiz kararlar vermekten kaçınmaları ve en doğru şah hamlesini bulana kadar sabırla pozisyonu incelemeleri istenir (D12.1). Öğrencilerin şahlar arasındaki tek veya çoklu kare boşluklarını (yakın/uzak opozisyon) ve tahta üzerindeki konumsal verileri analiz etmeleri, hamle sırasının oluşturacağı geometrik örüntüleri betimleyerek oyunun sonucuna etkisini yorumlamaları istenir (OB7). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ OOEST.7.3 Öğrencilerin zihninde tasarladıkları bir ve iki hamlelik mat kombinasyonlarını tahta üzerinde uygulamadan önce, dürtüsel ve aceleci hamlelerden kaçınmaları, rakibin olası gizli savunmalarını sakinlikle hesaplamaları ve bilişsel kontrollerini korumaları beklenir (SDB1.2). Öğrencilerin bir ve iki hamlelik matlara yönelik grup etkileşimi sonucu ortaya konan fikirleri örnek bir oyunda analiz etmeleri istenir (SDB2.2). Öğrencilerin mat hamlesini gerçekleştirmek için tahta üzerindeki tüm değişimleri kararlılıkla sınamaları, ilk denemede göremedikleri gizli kaçış yolları olsa bile pes etmeden en doğru mat eylemine ulaşana kadar zihinsel çaba göstermeleri istenir (D3.1). Öğrencilerin tahtadaki taşların konumlarından yola çıkarak kurguladıkları bir ve iki hamlelik mat fikirlerini pratik hamlelerle tahtaya yansıtmaları, teorik mat kalıpları bilgisiyle mevcut pozisyonu sentezleyerek mat yapmaya yönelik bütünsel bilgi oluşturmaları ve bunu eyleme dönüştürmeleri beklenir (OB1). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ",
+    "İÇERİK ÇERÇEVESİ": "Temel Matlar Opozisyon ve Önemi Bir ve İki Hamlelik Matlar",
+    "Anahtar Kavramlar": "çoban, merdiven, opozisyon, tembel",
+    "Sosyal-Duygusal Öğrenme Becerileri": "/ OOEST.7.1 Öğrencilerin merdiven matı, çoban matı gibi basit mat konumlarındaki hamle dizilimle-"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 8,
+   "kind": "TEMA",
+   "title": "TAŞ DEĞİŞİMLERİ VE FEDA",
+   "description": "Bu temada öğrencilerin taş değişim kurallarının farkına varma, taşların gücünden hareketle taş değişim kararı verme, taş fedasını açıklayabilme ve feda edeceği taşın oyuna etkisine yönelik çıkarım yapmaları amaçlanmaktadır. ALAN BECERİLERİ KAVRAMSAL KB1. Temel Beceriler, KB2.10. Çıkarım Yapma, KB3.1. Karar Verme BECERİLER",
+   "lesson_hours": 8,
+   "sections": {
+    "EĞİLİMLER": "E1.2. Bağımsızlık, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri D1. Adalet, D3. Çalışkanlık, D6. Dürüstlük, D8. Mahremiyet, D12. Sabır, D14. Saygı, E YÖNELİK UYGULAMALAR OOEST.8.1 Öğrencilerin taş değişimi yaparken ani ve dürtüsel kararlar vermek yerine aynı veya Sosyal-Duygusal farklı değerdeki taşların değişim kurallarını zihninde sakinlikle tartmaları ve bilişsel kontrollerini koruyarak süreci ifade etmeleri istenir (SDB1.2). Öğrenme Becerileri/ Öğrencilerin taş değişimi konusuna yönelik bilgilere ulaşırken izlediği yollarla ilgili ko-",
+    "Değerler": "D16. Sorumluluk OB1. Bilgi Okuryazarlığı Becerileri BECERİLER ARASI İLİŞKİLER ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ ÖĞRENME OOEST.8.1. Satrançta taş değişimi kuralını açıklayabilme. ÇIKTILARI VE OOEST.8.2. Satranç oyununda taşlar arasında taş değeri, konum güvenliği, şah tehdidi, SÜREÇ tempo ve sonraki hamle etkisi durumlarından hareketle taş değişimi yapmaya yönelik BİLEŞENLERİ karar verebilme. a) Satranç oyununda taş değişim kararına yönelik amacını belirler. b) Taş değişimi kararına yönelik bilgi toplar. c) Alternatif taş değişimi seçenekleri oluşturur. d) Alternatif seçenekler üzerinde mantıksal denetleme yapar. e) Taş değişimi kararına yönelik seçim yapar. f) Taş değişimi kararını oyun sürecine ve sonuç üzerine yansıtır. OOEST.8.3. Satrançta konumsal kazanç elde etmek üzere yapılan taş fedasını açıklayabilme. OOEST.8.4. Satrançta daha iyi bir konum elde etmek için feda edilecek taşın oyuna etkisini düşünerek çıkarım yapabilme. a) Mevcut bilgileri dâhilinde daha iyi bir konum elde etmek için feda edilecek taşın oyuna etkisi ile ilgili varsayımda bulunur. b) Feda edilecek taşın oyuna etkisi ile ilgili varsayımları listeler. c) Feda edilecek taşın oyuna etkisi ile ilgili varsayımları karşılaştırır. d) Feda edilecek taşın oyuna etkisi ile ilgili önerme sunar. e) Feda edilecek taşın oyuna etkisi ile ilgili önermeyi değerlendirir. / nuşmaları istenir (SDB1.1). Okuryazarlık Öğrencilerin eşit değerdeki taşların (örneğin fil ile atın veya kale ile kalenin) değişimi esnasında taşların oyuna sunduğu katkıyı ve kurallarla belirlenmiş puan değerlerini taBecerileri rafsız, dengeli ve hakkaniyetli bir bakış açısıyla açıklamaları beklenir (D1.1). Öğrencilerin satranç oyununda taş değişimi kuralının teorik temellerini, hangi taşların birbirine denk kabul edildiğini mantıksal bir sıra içinde özetleyerek kendi cümleleriyle açık ve anlaşılır biçimde ifade etmeleri istenir (OB1). OOEST.8.2 Öğrencilerin taş değişimi yapmadan önce tahtadaki genel güç dengesini, taşların puan değerlerini ve konumsal avantajlarını çok boyutlu olarak tartmaları, ani kazanç dürtüleriyle değil oyunun geleceğini düşünerek en sorumlu ve stratejik kararı vermeleri beklenir (SDB3.3). Öğrencilerin taş ve konum avantajını değerlendirirken taşların yalnızca teorik puanlarını değil mevcut pozisyona sundukları aktif katkıyı da tarafsız ve dengeli bir bakış açısıyla analiz ederek değişim kararlarını hakkaniyetli bir ölçüye oturtmaları istenir (D1.1). Öğrencilerin taş değişimlerine yönelik verdikleri kararların ve bu kararların oyun sonuna yansımalarına ilişkin sorumluluk almaları, ayrıca taş değişimlerinde aldıkları yanlış kararların telafisi için çaba göstermeleri istenir (D16.1). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ Öğrencilerin değişilmesi düşünülen taşların ortaya çıkardığı güç dengesini eleştirel bir süzgeçten geçirmeleri, olası bir taş değişiminin oyunun taş ve alan kontrolü üzerindeki net sonuçlarını analiz ederek kararlarını eyleme yansıtmaları istenir (OB1). OOEST.8.3 Öğrencilerin anlık taş kayıplarına karşı duydukları endişeyi kontrol altına almaları, taş fedasının ardındaki uzun vadeli mat kurgusunu veya konum avantajını zihninde sakinlikle yapılandırmaları ve feda kavramının mantığını ifade etmeleri istenir (SDB1.2, SDB1.1). Öğrencilerin daha büyük bir stratejik kazanç veya mat hedefi için geçici olarak taş kaybetmeyi (fedayı) göze alabilmenin gerektirdiği zihinsel dayanıklılığı kavramaları, aceleci kazanç hırslarından uzak durarak fedanın sabırla örülen mantığını açıklamaları ve taş fedasını çok yönlü bir bakış açısı geliştirerek bu bakış açısıyla feda edilecek taşın oyun sonuna etkisini değerlendirmeleri istenir (D12.1, D14.1, D3.3). Öğrencilerin satrançta taş fedasının tanımını, feda türlerini (konumsal feda, taktik feda) ve hangi amaçlarla yapıldığını teorik örnekler üzerinden sentezlemeleri, ulaştıkları bu teknik bilgileri mantıksal bir bütünlük içinde özetleyerek açıklamaları istenir (OB1). OOEST.8.4 Öğrencilerin feda edilmesi planlanan taşın tahtadan eksilmesinin ortaya çıkaracağı savunma zaaflarını ve saldırı potansiyellerini çok boyutlu olarak tartmaları, risk analizleri doğrultusunda oyunun kaderini etkileyecek en sorumlu ve mantıklı çıkarımı yapmaları istenir (SDB3.3). Öğrencilerin anlık taş kaybının getirdiği psikolojik baskı ve risk karşısında soğukkanlılıklarını korumaları, fedanın uzun vadeli konum üzerindeki net etkilerini tam olarak görene kadar sabırla derin değişim hesapları yapmaları ve fedaya yönelik edindikleri bilgileri eleştirel bir bakış açısıyla değerlendirerek fedaya yönelik aldıkları kararlarda tutarlı davranmaları beklenir (D12.1, D3.3, D6.2). Öğrencilerin feda edilecek taşın mevcut dinamik gücü ile feda sonrası elde edilecek alan ve tempo avantajını eleştirel bir süzgeçten geçirmeleri, sebep-sonuç ilişkileri kurarak fedanın oyuna yapacağı olumlu veya olumsuz etkilere yönelik mantıksal çıkarımlarda bulunmaları istenir (OB1). Taş fedası yapıp rakip konuma sızarken veya feda edilen taşı tahtadan uzaklaştırırken rakibinin bedensel ve mekânsal sınırlarına özen göstermesi hamle heyecanıyla rakibin kişisel alanını ihlal edecek fiziki temaslardan rahatsız edecek davranışlardan kaçınması beklenir (D8.4). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ",
+    "İÇERİK ÇERÇEVESİ": "Taşların Gücü Taş Fedası Satrançta Taş Değişimi",
+    "Anahtar Kavramlar": "feda, güç, taş değişimi"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 9,
+   "kind": "TEMA",
+   "title": "KURALLAR VE PUANLAMA",
+   "description": "Bu temada öğrencilerin rok hamlesini sorgulama, piyonu terfi ettirmeye yönelik bilgileri eyleme dönüştürme, oyun puanlamasının nasıl yapılacağını açıklama, adil bir oyun anlayışını benimseme, notasyon kâğıdını tanıma ve kullanmaları amaçlanmaktadır. ALAN SBAB5. Sosyal Katılım (SBAB5.5. Fikri Eyleme Dönüştürme), BECERİLERİ BEOSAB8. Adil Oyun Anlayışına Uygun Davranma KAVRAMSAL KB1. Temel Beceriler, KB2.8. Sorgulama BECERİLER",
+   "lesson_hours": 6,
+   "sections": {
+    "EĞİLİMLER": "E3.2. Odaklanma, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.2. İş Birliği, Öğrenme Becerileri SDB3.3. Sorumlu Karar Verme D1. Adalet, D3. Çalışkanlık, D4. Dostluk, D6. Dürüstlük, D12. Sabır, D14. Saygı, E YÖNELİK OOEST.9.1 UYGULAMALAR Öğrencilerin rok hamlesinin hem şahın güvenliği hem de kalelerin oyuna dahil edilmesi üzerindeki etkilerini çok boyutlu olarak ele almaları, erken veya geç rok atmanın getireceği riskleri analiz ederek oyunun geneli için en sorumlu stratejik tercihi sorgulamaları Sosyal-Duygusal ve rok hamlesinin oyuna ve oyun sonuna etkisine yönelik geliştirdikleri düşünceleri tarÖğrenme Becerileri/ tışmaları beklenir (SDB3.3, SDB2.2).",
+    "Değerler": "D15. Sevgi OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB7. Veri Okuryazarlığı Becerileri BECERİLER ARASI İLİŞKİLER ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ ÖĞRENME OOEST.9.1. Satrançta rok hamlesinin oyuna ve oyun sonuna etkisini sorgulayabilme. ÇIKTILARI VE a) Satrançta rok hamlesini tanımlar. SÜREÇ b) Rok hamlesi ile ilgili sorular sorar. BİLEŞENLERİ c) Rok hamlesi ile ilgili bilgi toplar. d) Rok hamlesi ile ilgili topladığı bilgilerin doğruluğunu değerlendirir. e) Toplanan bilgiler üzerinden rok hamlesinin yapılma amacına yönelik çıkarım yapar. OOEST.9.2. Satrançta kurallara uygun olarak piyonu terfi ettirme fikrini eyleme dönüştürebilme. a) Satranç oyununda piyonun terfi ettirilmesi ile ilgili plan yapar. b) Satranç oyununda piyonun terfi ettirilmesi ile ilgili yaptığı planı uygular. c) Satranç oyununda piyonun terfi ettirilmesi ile ilgili uyguladığı planı değerlendirir. OOEST.9.3. Oyun içi, maç sonu ve turnuva sonu puanlamaların nasıl yapıldığını açıklayabilme. OOEST.9.4. Satrançta adil oyun anlayışına uygun davranabilme. a) Satranç oyununda adil oyun anlayışını açıklar. b) Satranç oyununda adil oyun anlayışına uygun hareket eder. OOEST.9.5. Satrançta oyun süresince yaptığı hamleleri notasyon kâğıdına yazabilme. / Öğrencilerin merkezde kalan şahın ortaya çıkaracağı tehlikelere karşı aceleci kararlar vermek yerine rokun oyun sonundaki (şahın aktifleşmesi gereken dönemdeki) uzun vaOkuryazarlık deli etkilerini soğukkanlılıkla düşünmeleri ve en doğru anı sabırla sorgulamaları istenir Becerileri (D12.1). Öğrencilerin rok atılmış ve atılmamış pozisyonların güçlü ve zayıf yönlerini eleştirel bir süzgeçten geçirmeleri, bu özel hamlenin oyun ortasındaki hücum-savunma dengesi ile oyun sonundaki şah konumuna olan net etkilerini neden-sonuç ilişkileri içinde sorgulamaları istenir (OB1). OOEST.9.2 Öğrencilerin piyonu son yataya ulaştırma ve terfi ettirme sürecinde heyecanlarına yenik düşmeden, dürtüsel hamleler yerine rakibin olası engelleme çabalarını sakinlikle hesaplamaları ve bilişsel odaklanmalarını koruyarak düşüncelerini tahtaya yansıtmaları istenir (SDB1.2). Piyon terfi eylemini gerçekleştirirken oyunu yalnızca bir kazanma aracı olarak görmeyip, arkadaşıyla tahta başında geçirdiği nitelikli vakti ve kurduğu dostluk bağını her şeyin üstünde tutması istenir (D4.4). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ Öğrencilerin oyun sonunda piyonu geçer piyon hâline getirip terfi karesine ulaştırana kadar karşılarına çıkan tüm rakip engelleri ve şah baskılarını kararlılıkla aşmaları, hedefine ulaşana kadar zihinsel ve pratik çabalarını sebatla sürdürmeleri ve piyon terfisine yönelik yaptıkları planlamayı doğru zamanda uygulamanın oyuna etkisini fark etmeleri beklenir (D3.1, D3.2). Öğrencilerin piyonun son yataya bastığı anda hangi taşa (vezir, kale, fil, at) dönüşeceğine dair kuramsal kuralları mevcut konumsal ihtiyaçlarla sentezlemeleri ve matı en hızlı getirecek ya da pat durumunu engelleyecek doğru taşı seçerek kurallara uygun şekilde eyleme dönüştürmeleri istenir (OB1). OOEST.9.3 Öğrencilerin oyunun galibiyet, mağlubiyet, beraberlik (pat, yetersiz taş vb.) gibi farklı sonuçlanma durumlarına göre verilen puanları (1, 0, 0,5) sakinlikle ve zihinsel netlikle ayırt etmeleri, skor tablosuna yansıtılma sürecini bilişsel bir disiplinle ifade etmeleri beklenir (SDB1.2). Öğrencilerin oyunun galibiyet, mağlubiyet, beraberlik (pat, yetersiz taş vb.) gibi farklı sonuçlanma durumlarına göre verilen puanları (1, 0, 0,5) sakinlikle ve zihinsel netlikle ayırt etmeleri, skor tablosuna yansıtılma sürecini bilişsel bir disiplinle ifade etmeleri beklenir (D1.1). Öğrencilerin resmî satranç kurallarına göre oyun sonu skor ve puanlama sisteminin (galibiyete 1 puan, beraberliğe 0,5 puan verilmesi gibi) işleyişini kuramsal temelleriyle bir araya getirmeleri ve edindikleri bu teknik bilgileri mantıksal bir sıra içinde özetleyerek açıklamaları istenir (OB1, OB7). OOEST.9.4 Öğrencilerin oyun esnasında yaşadıkları heyecan, stres veya kaybetme kaygısını kontrol altına alarak kuralları ihlal edecek (dokunulan taşı oynamama, hamleyi geri alma vb.) fevri davranışlardan kaçınmaları, zihinsel disiplinlerini koruyarak centilmence hareket etmeleri istenir (SDB1.2). Öğrencilerin rakibinin hamle süresini engellemeden, taşları tahtaya kurallara uygun yerleştirerek ve hakem kararlarına saygı duyarak adil ve dürüst bir oyun sergilemeleri; hem galibiyette hem de mağlubiyette rakibin emeğine ve kişiliğine saygılı, adil bir tutum benimsemeleri beklenir (D1.3, D14.1, D6.1, D1.2). Öğrencilerin FIDE (Uluslararası Satranç Federasyonu) adil oyun kuralları ile etik ilkelerini derinlemesine kavramaları ve bu teorik ahlaki bilgileri turnuva veya dostluk maçlarındaki her hamlelerine, el sıkışma ve tebrik etme davranışlarına yansıtmaları istenir (OB1). Kazanma arzusunu sportmenliğin önüne geçirmeyerek adil oyunu koruma adına gerektiğinde özveri göstermesi mağlup olan rakibini veya arkadaşını tebrik edip ona moral vererek dostça destek olması beklenir (D15.4, D4.1). OOEST.9.5 Öğrencilerin oyunun heyecanına ve zaman baskısına kapılmadan, her hamleden hemen sonra dikkatlerini tahtadan notasyon kâğıdına kaydırabilmeleri, zihinsel disiplinlerini ve odaklanmalarını oyun sonuna kadar koruyarak hamleleri anlık olarak kaydetmeleri istenir (SDB1.2). Öğrencilerin hamleleri eksiksiz, okunaklı ve doğru bir şekilde yazarak oyunun gerçek seyrini dürüstçe kayıt altına almaları, ilerleyen hamlelerde oluşabilecek anlaşmazlıklara karşı güvenilir bir kanıt sunacak şekilde notasyon kâğıdını özenle tutmaları beklenir (D1.1,D3.1,D6.1). Öğrencilerin satranç oyununa yönelik edindikleri bilgi ve kurallardan hareketle oyuna ilişkin haklarını uygun şekilde kullanmaları beklenir (D1.1). Öğrencilerin oyunda güven kazanmanın oyuna etkisine yönelik duygu ve düşüncelerini ifade etmeleri istenir (D6.2). Öğrencilerin satrancın evrensel cebirsel notasyon sistemini, taş sembollerini, kare koordinatlarını, şah çekme ve mat işaretlerine yönelik verilen görselleri anlamaları ve yorumlamaları; notasyonu kurallara uygun şekilde kullanarak tahtadaki fiziksel hareketleri eş zamanlı olarak yazılı verilere dönüştürmeleri istenir (OB1, OB4). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ",
+    "İÇERİK ÇERÇEVESİ": "Rok hamlesi ve amacı Piyonu terfi ettirme Satrançta puanlama Rok hamlesinin yapılamayacağı durumlar Adil oyun anlayışı Notasyon kâğıdı ve Hamle yazımı",
+    "Anahtar Kavramlar": "hamle yazımı, notasyon, piyon terfi, puanlama, rok hamlesi"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 10,
+   "kind": "TEMA",
+   "title": "AÇMAZ, SALDIRI VE SATRANÇ SAATİ",
+   "description": "Bu temada öğrencilerin taş açmazına yönelik taktik ve strateji geliştirme, saldırının oyuna etkisini muhakeme edebilme ve satranç saatini kullanmaya yönelik beceri geliştirmeleri amaçlanmaktadır. ALAN BEOSAB3. Taktik ve Strateji Geliştirme BECERİLERİ KAVRAMSAL KB1. Temel Beceriler, BECERİLER KB2.16. Muhakeme (Akıl Yürütme) (KB2.16.1. Tümevarımsal Akıl Yürütme)",
+   "lesson_hours": 8,
+   "sections": {
+    "EĞİLİMLER": "E1.3. Azim ve Kararlılık, E1.5. Kendine Güvenme (Öz Güven)",
+    "PROGRAMLAR ARASI BİLEŞENLER": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri D1. Adalet, D3.Çalışkanlık, D5. Duyarlılık, D6. Dürüstlük, D9. Merhamet, D12. Sabır, E YÖNELİK OOEST.10.1 UYGULAMALAR Öğrencilerin satrançta açmazı bir problem olarak görmeleri ve çözümüne ilişkin fikir üretmeleri; tahta üzerinde mutlak veya göreceli açmaz konumları kurgularken ya da rakibin açmaz tehditlerinden sıyrılmaya çalışırken dürtüsel tepkilerden kaçınmaları, Sosyal-Duygusal hamlelerin derinliğini ve uzun vadeli sonuçlarını zihinsel odaklanma ve sakinlikle heÖğrenme Becerileri/ saplamaları istenir (SDB1.2, SDB3.3).",
+    "Değerler": "D14. Saygı, D20. Yardımseverlik OB1. Bilgi Okuryazarlığı, OB7. Veri Okuryazarlığı Becerileri BECERİLER ARASI İLİŞKİLER ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ ÖĞRENME OOEST.10.1. Satrançta açmaza yönelik taktik ve strateji geliştirebilme. ÇIKTILARI VE a) Açmaza giren taşın durumunu belirler. SÜREÇ b) Açmaz durumunun çözümüne ilişkin öneri geliştirir. BİLEŞENLERİ c) Çözüme ilişkin öneriyi uygular. OOEST.10.2. Satrançta taşa saldırı yapmaya yönelik gözlemlerden hareketle taşa saldırının oyuna etkisine yönelik akıl yürütebilme. a) Satrançta taşa saldırı yapmanın oyuna etkisine yönelik gözlem yapar. b) Satrançta taşa saldırı yapmanın oyuna etkisine yönelik örüntü bulur. c) Satrançta taşa saldırı yapmanın oyuna etkisine yönelik genelleme yapar. OOEST.10.3. Satranç saatini kullanabilme. / Öğrencilerin açmazdaki bir taşa yönelik baskıyı artırmak veya o taşı korumak amacıyla çok hamleli stratejik planlar geliştirirken, karşılarına çıkan karmaşık değişkenler karOkuryazarlık şısında pes etmeyip en etkili taktiksel çözümü bulana kadar zihinsel çabalarını sebatla Becerileri sürdürmeleri beklenir (D3.1). Öğrencilerin açmaz fikrini soyut bir kural olmaktan çıkararak aktif oyun pozisyonlarına uyarlamaları, rakip taşların geometrik bağlarını eleştirel bir süzgeçten geçirip yeni taktik kalıplar ve uzun vadeli oyun planları sentezleyerek tahtaya yansıtmaları istenir (OB1). Açmaz konusuyla ilgili soru çözümlerinde veya tahta başı egzersizlerinde tahtaya kalkarak arkadaşlarına örnek durumları göstermede ve taktikleri açıklamada gönüllü olması beklenir (D20.4). Rakibin taşını hareket ettiremez hale getiren açmaz taktiği uygularken bunu oyunun teknik ve stratejik bir kuralı olarak değerlendirmesi, rakibinin bu çaresiz konumundan yararlanırken onu alaycı veya incitici tavırlarla rencide etmekten kaçınarak insana değer veren bir duruş sergilemesi beklenir (D5.1). OOEST.10.2 Öğrencilerin rakip taşa yapılacak bir saldırının yalnızca anlık kazançlarını değil tahtanın genelinde ortaya çıkaracağı zayıflıkları ve karşı saldırı risklerini çok boyutlu olarak gözlemlemeleri, hamlenin getireceği sonuçları tartarak oyunun bütünü için en sorumlu ve mantıklı hamleye karar vermeleri istenir (SDB3.3). Öğrencilerin bir taşa saldırı planlarken veya rakibin saldırılarına karşı koyarken aceleci ve fevri tepkiler vermek yerine saldırının oyuna yapacağı uzun vadeli etkileri tam olarak kestirene kadar pozisyonu sabır ve soğukkanlılıkla analiz etmeleri istenir (D12.1). Öğrencilerin tahtadaki taşların konumsal ilişkilerini ve tempo avantajlarını eleştirel bir süzgeçten geçirmeleri; taşa yapılan saldırının alan kontrolü, savunma düzeni ve taşların etkinliği üzerindeki net etkilerine yönelik sebep-sonuç ilişkileri kurarak mantıksal akıl yürütebilmeleri istenir (OB1). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ Saldırı ve savunma dengesini analiz ederken tahtadaki her taşın birbirini koruma işlevini gerçek hayattaki dayanışma ile özdeşleştirmesi, arkadaşlarıyla yaptığı çalışmalarda fikirlerini paylaşarak ortak akıl yürütme sürecine katkı sunması beklenir (D20.2). Rakip veya partner öğrenci sürekli saldırı altında kalıp savunma yapmakta zorlandığında, maç sonrasında ona saldırılardan nasıl korunabileceğine dair yapıcı öneriler sunacak davranışlar sergilemesi beklenir (D20.3). OOEST.10.3 Öğrencilerin zaman baskısı altında kaldıkları anlarda yaşadıkları heyecan ve stresi kontrol altına alabilmeleri, hamlelerini tamamladıktan sonra panik yapmadan ve saatin mekanizmasına zarar vermeden düğmeye basabilmeleri, hamle süresi ile kalan zamanı bilişsel bir dengeyle yönetebilmeleri istenir (SDB1.2). Öğrencilerin satranç saatine yalnızca hamle yaptıkları elleriyle basmaları, rakibinin saati görmesini engelleyecek tutumlardan kaçınmaları ve zamanı bir baskı aracı olarak kullanmayıp rakibinin hakkına ve oyunun adaletine saygı duymaları istenir (D1.3, D14.3, D14.1, D6.1). Öğrencilerin saat ekranındaki dijital veya analog zaman göstergelerini anlık olarak analiz etmeleri, bu sayısal verilerden hareketle oyunun temposunu doğru okumaları ve teknik saat kurallarını pratik eyleme dönüştürmeleri beklenir (OB7). Zaman baskısı altında oynayan rakibinin heyecanını veya paniğini fırsat bilip gürültü yapmak ya da kışkırtıcı hareketlerde bulunmak yerine rakibinin durumu karşısında anlayışlı, şefkatli ve vicdanlı bir tutum sergileyerek oyun etiğinden ödün vermemesi beklenir (D9.2, D9.1). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ",
+    "İÇERİK ÇERÇEVESİ": "Satrançta Açma Satranç Saati Saldırının Oyuna Etkisi",
+    "Anahtar Kavramlar": "saat kullanımı, saldırı, satrançta açmaz, strateji, taktik"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 11,
+   "kind": "TEMA",
+   "title": "SATRANÇTA BERABERLİK VE AÇILIŞ",
+   "description": "Bu temada öğrencilerin beraberlik durumlarına yönelik çıkarım yapabilme ve temel açılış ilkelerini kullanarak taktik ve strateji geliştirmeleri amaçlanmaktadır. ALAN BEOSAB3. Taktik ve Strateji Geliştirme BECERİLERİ KAVRAMSAL KB2.10. Çıkarım Yapma BECERİLER",
+   "lesson_hours": 7,
+   "sections": {
+    "EĞİLİMLER": "E1.3. Azim ve Kararlılık, E1.5. Kendine Güvenme (Öz Güven)",
+    "PROGRAMLAR ARASI BİLEŞENLER": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme) Öğrenme Becerileri E YÖNELİK UYGULAMALAR",
+    "Değerler": "D1. Adalet, D3. Çalışkanlık, D4. Dostluk, D12. Sabır, D15. Sevgi OB1. Bilgi Okuryazarlığı Becerileri BECERİLER ARASI İLİŞKİLER ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ ÖĞRENME OOEST.11.1. Ön öğrenmelerden hareketle satrançta beraberlik durumlarına yönelik çıÇIKTILARI VE karım yapabilme. SÜREÇ a) Mevcut bilgisi dâhilinde beraberliğin ne olduğu hakkında varsayımda bulunur. BİLEŞENLERİ b) Beraberlik durumlarını listeler. c) Beraberlik durumlarını karşılaştırır. d) Beraberlik durumları hakkında önerme sunar. e) Beraberlik durumlarını değerlendirir. OOEST.11.2. Satrançta temel açılış ilkelerini kullanarak taktik ve strateji geliştirebilme. a) Satrançta temel açılış ilkelerinden hareketle taktiksel durum belirlemesi yapar. b) Belirlenen durumun çözümüne ilişkin öneri sunar. c) Taktiği uygular. / Öğrencilerin geçmiş maçlarda ve teorik derslerde edindikleri pat, yetersiz taş, üç konum tekrarı veya 50 hamle kuralı gibi ön öğrenmelerini yeni ve karmaşık pozisyonlara Okuryazarlık uyarlamaları, oyunun gidişatına göre kazanç zorlamak yerine beraberlik seçeneğini Becerileri sakinlikle değerlendirip bilişsel esneklik sergilemeleri beklenir (SDB1.2, SDB1.1). Öğrencilerin tahta üzerindeki pozisyonel dengeleri ve taşların durumunu tarafsız bir gözle analiz etmeleri, konumun nesnel olarak iki taraf için de kazanç barındırmadığını kabul ederek, hırsa kapılmadan hakkaniyetli ve dengeli bir yaklaşımla beraberlik çıkarımı yapmaları istenir (D1.1, D12.1). Öğrencilerin oyun sonunda yaşadıkları beraberlik ve kaybetme durumlarında tekrar denemenin sağlayacağı faydalara yönelik düşüncelerini ifade etmeleri beklenir (D3.1). Öğrencilerin mevcut oyun pozisyonunu hafızalarındaki kuramsal beraberlik kalıplarıyla eleştirel bir süzgeçten geçirerek karşılaştırmaları, hamlelerin ve taşların geometrik döngüsünü inceleyerek oyunun beraberlikle sonuçlanacağına dair mantıksal ve kurala dayalı çıkarımlarda bulunmaları, bu çıkarımlarını kendi cümleleriyle ifade etmeleri istenir (OB1). Galibiyete ulaşamadığı veya konumun berabere olduğunu fark ettiği anlarda gerçeği dürüstçe kabul ederek rakibine el uzatması sırf kazanma hırsıyla maçı anlamsızca uzatmayıp güvene dayalı sportmen bir ilişki kurması beklenir (D4.3, D15.4). OOEST.11.2 Öğrencilerin satranç temel açılış ilkelerini kullanarak seçtikleri stratejilerden faydalı olmayanları kullanmaktan vazgeçmeleri istenir (SDB1.2). Öğrencilerin oyunun başında erken ve plansız saldırılara girişmek yerine merkez kontrolü, hafif taşların gelişimi, şah güvenliği gibi temel açılış ilkelerine sadık kalmaları; oyun ortasına avantajlı geçebilmek için dürtülerini kontrol ederek sakinlikle taktik kurgular yapmaları istenir (SDB1.2). Öğrencilerin açılış aşamasında rakibin ezber bozan veya zorlayıcı hamlelerine karşı, doğru gelişim stratejisinden sapmadan ve disiplinlerini bozmadan esnek çözümler üretmeleri, sağlam bir konumsal altyapı kurana kadar zihinsel çabalarını kararlılıkla sürdürmeleri beklenir (D3.1). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ Öğrencilerin teorik açılış ilkelerini (merkezi ele geçirme, taşları aktif karelere konuşlandırma, tempo kayıplarından kaçınma) o anki dinamik tahta yapısıyla sentezlemeleri, bu kuramsal bilgileri rakipten gelebilecek zayıflıklara karşı uzun vadeli stratejik planlara ve taktiksel motiflere dönüştürmeleri istenir (OB1). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ",
+    "İÇERİK ÇERÇEVESİ": "Satrançta Beraberlik Yetersiz Güç Pat Durumu Satrançta Açılış ve Açılış İlkeleri",
+    "Anahtar Kavramlar": "açılış ilkeleri, pat durumu, yetersiz güç",
+    "Sosyal-Duygusal Öğrenme Becerileri": "/ OOEST.11.1"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 12,
+   "kind": "TEMA",
+   "title": "SATRANÇ KÜLTÜRÜ",
+   "description": "Bu temada öğrencilerin satrancın ülkemizdeki gelişimi ve satranç şampiyonlarına yönelik bilgi toplama, satranca yönelik edindiği öğrenmeleri çevrimiçi ortamlarda uygulama ve içerik üretmeleri amaçlanmaktadır. ALAN BTYAB1. Bilişim Teknolojilerini Kullanma (BTYAB1.2. Bilişim Teknolojileri ile Çalışma) BECERİLERİ SBAB2. Kanıta Dayalı Sorgulama ve Araştırma (SBAB2.2. Kaynaklardan Bilgi Toplama) KAVRAMSAL KB2.6. Bilgi Toplama BECERİLER",
+   "lesson_hours": 2,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, Öğrenme Becerileri SDB3.3. Sorumlu Karar Verme D1. Adalet, D2. Aile Bütünlüğü, D3. Çalışkanlık, D8. Mahremiyet, D14. Saygı, E YÖNELİK UYGULAMALAR OOEST.12.1 Öğrencilerin Türkiye’de satranç kültürünün yaygınlaşmasını, kurulan satranç kulüplerini ve başarıları araştırırken toplumsal gelişmeleri ve bu sürece emek vermiş tarihî Sosyal-Duygusal figürlerin rollerini anlamaları, elde ettikleri tarihsel birikimi çevreleriyle etkili bir dille Öğrenme Becerileri/ paylaşmaları istenir (SDB2.1).",
+    "Değerler": "D16. Sorumluluk, D19. Vatanseverlik OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık Becerileri BECERİLER ARASI İLİŞKİLER ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ ÖĞRENME OOEST.12.1. Satrancın ülkemizdeki gelişimine yönelik bilgi toplayabilme. ÇIKTILARI VE a) Satrancın ülkemizdeki gelişimi hakkında bilgi toplayabileceği araçları belirler. SÜREÇ b) Belirlediği araçları kullanarak satrancın gelişimine yönelik bilgilere ulaşır. BİLEŞENLERİ c) Ulaştığı bilgileri doğrular. d) Satrancın ülkemizdeki gelişimiyle ilgili ulaştığı bilgileri kaydeder. OOEST.12.2. Türkiye’den ve dünyadan seçilen birer satranç şampiyonu hakkında belirlenen ölçüte göre güvenilir kaynaklardan bilgi toplayabilme. a) Seçilen satranç şampiyonları hakkında araştırma yapacağı kaynakları belirler. b) Belirlediği kaynakları kullanarak bilgilere ulaşır. c) Kullanacağı kaynakların bilgi edineceği konuya uygunluğunu açıklar. d) Kullandığı kaynaklardan satranç şampiyonları ile ilgili edindiği bilgileri kaydeder. OOEST.12.3. Satranç oyununda edindiği bilgileri öğretmen denetimli ve güvenli çevrimiçi ortamlarda uygulayabilme. a) Satranç oyunu hakkında edindiği bilgileri öğretmen denetimli ve güvenli çevrimiçi ortamlarda uygulayabileceği araç ve teknolojileri belirler. b) Belirlediği araç ve teknolojileri kullanır. c) Kullandığı araç ve teknolojilerin oyun kazanma ve pratik yapmaya yönelik verimliliğini değerlendirir. / Öğrencilerin satrancın Osmanlı döneminden Cumhuriyet’e, federasyonun kuruluşunOkuryazarlık dan günümüz okul sporlarına uzanan ulusal gelişim serüvenini araştırmak için görev ve sorumluluk almaları; ülkemizin bu alandaki kültürel ve sportif mirasına değer vermeleri Becerileri ve uluslararası alanda ülkemizi temsil eden sporcularımızın başarılarına saygıyla yaklaşmaları beklenir (D19.1, D3.4, D16.3 ). Öğrencilerin Türkiye Satranç Federasyonu kaynakları, tarihî dokümanlar, makaleler ve dijital arşivler üzerinden satrancın ülkemizdeki gelişim kronolojisine yönelik güvenilir verileri tarayıp toplamaları, bu bilgileri doğruluk süzgecinden geçirerek anlamlı bir bütün hâlinde özetlemeleri istenir (OB1). Satrancın ülkemizdeki tarihi gelişimini ve kültürel köklerini araştırırken aile büyüklerinin (anne, baba, dede, nene vb.) varsa geçmişteki satranç hatıralarını, evdeki eski satranç takımlarını veya aile içi oyun geleneklerini sorgulaması bu sayede aile fertleriyle ortak bir kültürel paydada buluşarak aile içi iletişim duygusunu güçlendirmesi beklenir (D2.1, D2.3). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ OOEST.12.2 Öğrencilerin Türkiye’deki satranç şampiyonlarının (büyük ustalar, ulusal şampiyonlar vb.) hayatlarını ve başarılarını araştırırken bilginin doğruluğunu belirlenmiş nesnel ölçütler (akademik yayınlar, resmî federasyon kayıtları) çerçevesinde titizlikle tartmaları; bilgi kirliliğine yol açabilecek asılsız internet içeriklerini eleyerek en güvenilir ve doğru veriyi seçmeleri istenir (SDB3.3). Öğrencilerin dünya satranç şampiyonlarının [Wilhelm Steinitz’ten (Vilhem Şıtaynits) günümüze uzanan tarihsel süreçteki unvan sahiplerinin] kariyerlerini ve dönüm noktalarını araştırırken ulaştıkları kaynakların tarafsızlığını ve geçerliliğini çok boyutlu olarak tartmaları, doğrulanmamış popüler kültür iddialarını eleyerek en güvenilir ve doğru verileri seçmeleri istenir (SDB3.3). Öğrencilerin ülkemizin satranç tarihindeki şampiyonların başarılarını, ünvanlarını ve Türk satrancına katkılarını araştırmaları; bu konuda görev ve sorumluluk almaları, tarafsız ve hakkaniyetli bir yaklaşım sergilemeleri; sporcuların emeklerine, kazandıkları başarılara ve spora kattıkları değerlere saygı duyan bir dil kullanmaları beklenir (D1.1, D14.3, D3.4, D16.3). Öğrencilerin Türkiye Satranç Federasyonu (TSF) resmî web sitesi, FIDE sporcu profilleri, prestijli satranç arşivleri gibi güvenilir kaynakları kullanarak belirlenen ölçütlere (kronolojik sıra, ünvan türü, başarı derecesi vb.) uygun bilgileri tarayıp toplamaları; bu verileri doğruluk süzgecinden geçirerek yapılandırmaları istenir (OB1). Öğrencilerin dünya satranç şampiyonlarının bu ünvanı elde etmek ve korumak adına sergiledikleri yoğun zihinsel çabayı, ortaya koydukları teorik yenilikleri ve satranç tarihine bıraktıkları mirası nesnel bir bakışla incelemeleri; farklı dönemlerdeki şampiyonların spora verdikleri emeklere ve entelektüel başarılarına saygı duymaları beklenir (D14.3, D3.4, D16.3). Öğrencilerin FIDE resmî kayıtları, şampiyona kitapları, tarihî maç veri tabanları ve prestijli satranç ansiklopedileri gibi küresel kaynaklardan dünya şampiyonlarına ait biyografik ve istatistiksel verileri tarayıp toplamaları; elde ettikleri bu geniş bilgi havuzunu doğruluk süzgecinden geçirerek sistematik bir yapıda özetlemeleri istenir (OB1). Türkiye’den ve dünyadan satranç şampiyonlarının hayatlarını, çalışma disiplinlerini ve ailelerinin onlara sunduğu desteği araştırırken güvenilir kaynaklardan yararlanması edindiği ilham verici bilgileri aile bireyleriyle paylaşarak araştırma sürecinde aile içi dayanışmayı deneyimlemesi beklenir (D2.2). OOEST.12.3 Öğrencilerin çevrimiçi satranç platformlarında hamle yaparken veya rakipleriyle etkileşime girerken genel ağ ortamının getirdiği serbestliğe kapılmadan dürtülerini kontrol etmeleri, oyun stratejisine odaklanarak öğretmen rehberliğinde belirlenen dijital sınırlar içinde sakin ve disiplinli bir şekilde hareket etmeleri istenir (SDB1.2). Öğrencilerin dijital ortamlardaki karşılaşmalarda satranç motoru (yapay zekâ/analiz programı) kullanmak gibi dürüstlük dışı hiçbir hileli yönteme başvurmamaları ve rakibinin emeğine saygı duyarak güvenilir ve ahlaki açıdan temiz bir oyun sergilemeleri istenir (D1.3, D14.1). Öğrencilerin öğretmen denetimindeki güvenli çevrimiçi satranç arenalarını, turnuva odalarını ve analiz panellerini teknik kurallara uygun biçimde kullanmaları; siber güvenlik ve dijital netiket kurallarını ihlal etmeden teorik satranç bilgilerini sanal tahtaya başarıyla yansıtmaları istenir (OB2). Çevrimiçi satranç platformlarında kendi adını, soyadını, yaşını, okulunu veya iletişim bilgilerini paylaşmaktan kaçınması beklenir (D8.1). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI SATRANÇ MODÜLÜ",
+    "İÇERİK ÇERÇEVESİ": "Dünyada veTürkiye’de Satranç Çevrimiçi Satranç",
+    "Anahtar Kavramlar": "satranç tarihi, şampiyon oyuncular, çevrimiçi satranç"
+   },
+   "outcomes": []
+  }
+ ],
+ "unassigned_outcomes": [
+  {
+   "code": "OOEST.1.1",
+   "grade": 1,
+   "unit": null,
+   "order": 1,
+   "text": "Satranç oyununu tanıyabilme.",
+   "components": []
+  },
+  {
+   "code": "OOEST.1.2",
+   "grade": 1,
+   "unit": null,
+   "order": 2,
+   "text": "Satranç oyununun bütüncül gelişime süreç bileşenlerini ifade eder. BİLEŞENLERİ faydalarını sorgulayabilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Bütüncül gelişimi tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Satranç oyununun bütüncül gelişime faydasına yönelik sorular sorar."
+    },
+    {
+     "label": "c",
+     "text": "Soruların cevaplarına yönelik bilgiler toplar."
+    },
+    {
+     "label": "d",
+     "text": "Topladığı bilgileri değerlendirir."
+    },
+    {
+     "label": "e",
+     "text": "Ulaştığı bilgiler üzerinden satrancın bütüncül gelişime faydasına yönelik çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.1.3",
+   "grade": 1,
+   "unit": null,
+   "order": 3,
+   "text": "Güvenilir kaynaklardan elde ettiği bilgilerden hareketle Atartürk’ün satranç oyununa verdiği önemi açıklayabilme. Öğrenme-öğretme sürecinde Satranç Tarihi, Satranç Kuralları İÇERİK ele alınan bilgi kümesini (konuya/ ÇERÇEVESİ Satrancın Faydaları alt konuya ilişkin sınırlar) ifade eder. Atatürk ve Satranç Disipline ait başlıca anahtar kavbütüncül gelişim, satranç, ramları ifade eder.",
+   "components": []
+  },
+  {
+   "code": "OOEST.2.1",
+   "grade": 2,
+   "unit": null,
+   "order": 1,
+   "text": "Satranç tahtasını tanıma sürecinde tahtayı oluşturan bileşenleri gözlemleÇIKTILARI VE yebilme. SÜREÇ a) Tahta üzerindeki görsel bileşenleri fark eder. BİLEŞENLERİ b) Tahtayı oluşturan görsel bileşenleri ifade eder.",
+   "components": []
+  },
+  {
+   "code": "OOEST.2.2",
+   "grade": 2,
+   "unit": null,
+   "order": 2,
+   "text": "Satranç tahtasını, tahtanın köşe rengine ve siyah beyaz oyuncu yöününe dikkat ederek oyuncular arasına doğru yerleştirebilme.",
+   "components": []
+  },
+  {
+   "code": "OOEST.2.3",
+   "grade": 2,
+   "unit": null,
+   "order": 3,
+   "text": "Satranç tahtasında kare isimlendirilmesine yönelik çözümleme yapabilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Satranç tahtasında yatay ve dikey isimleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Yatay ve dikey arasındaki ilişkiyi belirleyerek kare isimlendirmesi yapar."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.2.4",
+   "grade": 2,
+   "unit": null,
+   "order": 4,
+   "text": "Satranç tahtası üzerindeki merkez kareleri, oyun kontrolü ve bu karelerdeki taşların hareket alanı yönünden diğer karelerle karşılaştırabilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Satranç tahtası üzerindeki merkez karelerle diğer karelerin özelliklerini oyun kontrolü ve oyuna hâkimiyet açısından belirler."
+    },
+    {
+     "label": "b",
+     "text": "Satranç tahtası üzerindeki merkez karelerle diğer karelerin benzerliklerini oyun kontrolü ve oyuna hâkimiyet açısından listeler."
+    },
+    {
+     "label": "c",
+     "text": "Satranç tahtası üzerindeki merkez karelerle diğer karelerin farklılıklarını oyun kontrolü ve oyuna hâkimiyet açısından listeler."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.3.1",
+   "grade": 3,
+   "unit": null,
+   "order": 1,
+   "text": "Satranç taşlarını adlarına, başlangıç konumlarına ve hareket özelliklerine ÇIKTILARI VE göre tanıyabilme.",
+   "components": []
+  },
+  {
+   "code": "OOEST.3.2",
+   "grade": 3,
+   "unit": null,
+   "order": 2,
+   "text": "Satranç tahtasının özelliklerinden ve taşların kendine özgü hareket kurallaBİLEŞENLERİ rından yola çıkarak kural dışı taş hareketlerini belirleyebilme.",
+   "components": []
+  },
+  {
+   "code": "OOEST.3.3",
+   "grade": 3,
+   "unit": null,
+   "order": 3,
+   "text": "Satranç oyununda rakip oyuncunun taşını kurallara uygun alma yöntemlerini açıklayabilme.",
+   "components": []
+  },
+  {
+   "code": "OOEST.3.4",
+   "grade": 3,
+   "unit": null,
+   "order": 4,
+   "text": "Satranç taşlarını hareket alanı, taşın değeri, konumu, şahın önemi gibi etkenleri göz önünde bulundurarak güçlerine göre sınıflandırabilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Satranç taşlarının hareket alanından yola çıkarak taşların gücüne yönelik ölçütleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Satranç taşlarını güçlerine göre ayırır."
+    },
+    {
+     "label": "c",
+     "text": "Satranç taşlarını güçlerine göre sıralar."
+    },
+    {
+     "label": "d",
+     "text": "Satranç taşlarını güçlerine göre etiketler."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.4.1",
+   "grade": 4,
+   "unit": null,
+   "order": 1,
+   "text": "Satranç oyununda atak yaparak taş isteme hamlesini normal hamle ile karÇIKTILARI VE şılaştırabilme. SÜREÇ a) Taş isteme hamlesi ile normal hamlenin özelliklerini belirler. BİLEŞENLERİ b) Taş isteme hamlesinin normal hamle ile benzerliklerini listeler.",
+   "components": [
+    {
+     "label": "c",
+     "text": "Taş isteme hamlesinin normal hamleden farklarını listeler."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.4.2",
+   "grade": 4,
+   "unit": null,
+   "order": 2,
+   "text": "Satranç oyununda tehdit kavramını sorgulayabilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Satranç oyununda tehdit kavramını tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Tehdit ile ilgili sorular sorar."
+    },
+    {
+     "label": "c",
+     "text": "Tehdit ile ilgili bilgi toplar."
+    },
+    {
+     "label": "d",
+     "text": "Toplanan bilgileri değerlendirir."
+    },
+    {
+     "label": "e",
+     "text": "Toplanan bilgiler üzerinden çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.5.1",
+   "grade": 5,
+   "unit": null,
+   "order": 1,
+   "text": "Tümevarım yönteminden hareketle şah çekme tekniklerine yönelik akıl yüÇIKTILARI VE rütebilme. SÜREÇ a) Şah çekme tekniklerine yönelik gözlem yapar. BİLEŞENLERİ b) Şah çekme tekniklerine yönelik örüntü bulur.",
+   "components": [
+    {
+     "label": "c",
+     "text": "Şah çekme tekniklerine yönelik genelleme yapar."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.5.2",
+   "grade": 5,
+   "unit": null,
+   "order": 2,
+   "text": "Tehdit altındaki şahı korumaya yönelik eleştirel düşünebilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Tehdit altındaki şahın durumunu sorgular."
+    },
+    {
+     "label": "b",
+     "text": "Şahı koruma yolları ile ilgili akıl yürütür."
+    },
+    {
+     "label": "c",
+     "text": "Akıl yürütme sonucunda ulaştığı çıkarımları oyuna yansıtır."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.5.3",
+   "grade": 5,
+   "unit": null,
+   "order": 3,
+   "text": "Satrançta mat durumunun mantıksal denetlemesini yapabilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Satranç oyununda mat konumuna yönelik önermeler geliştirir."
+    },
+    {
+     "label": "b",
+     "text": "Mat durumundan kurtulmaya yönelik kuralları uygular."
+    },
+    {
+     "label": "c",
+     "text": "Oyunda mat konumunun oluşmasına yönelik yargıda bulunur. Şah Çekme ve Teknikleri"
+    }
+   ]
+  },
+  {
+   "code": "OOEST.6.1",
+   "grade": 6,
+   "unit": null,
+   "order": 1,
+   "text": "Satrançta hücum ve savunmaya yönelik hamleleri sınıflandırabilme. ÇIKTILARI VE a) Hücum ve savunma hamlelerine yönelik ölçüt belirler. SÜREÇ b) Hücum ve savunmaya yönelik yapılan hamleleri ayrıştırır. BİLEŞENLERİ",
+   "components": [
+    {
+     "label": "c",
+     "text": "Hücum ve savunmaya yönelik hamleleri tasnif eder."
+    },
+    {
+     "label": "d",
+     "text": "Yapılan hamleyi hücum veya savunma hamlesi olarak etiketlendirir."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.6.2",
+   "grade": 6,
+   "unit": null,
+   "order": 2,
+   "text": "Çatal ve şiş hamlesine yönelik bilgi toplayabilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Çatal ve şiş hamlesi hakkında bilgi toplamak için gerekli araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği aracı kullanarak konu hakkında bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "Çatal ve şiş hamlesi hakkında ulaşılan bilgileri doğrular."
+    },
+    {
+     "label": "d",
+     "text": "Çatal ve şiş hamlesi hakkında ulaşılan bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.7.1",
+   "grade": 7,
+   "unit": null,
+   "order": 1,
+   "text": "Satranç oyununda basit matlara yönelik çözümleme yapabilme. ÇIKTILARI VE a) Satranç oyununda basit matların çeşitlerini belirler. SÜREÇ b) Satranç oyununda basit matlar arasındaki ilişkileri belirler. BİLEŞENLERİ",
+   "components": []
+  },
+  {
+   "code": "OOEST.7.2",
+   "grade": 7,
+   "unit": null,
+   "order": 2,
+   "text": "Satrançta opozisyon konumunu yorumlayabilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Satrançta opozisyonu ve opozisyonun mat yapmaya etkisini inceler."
+    },
+    {
+     "label": "b",
+     "text": "Opozisyonun mat yapmaya etkisini bağlamdan kopmadan açıklar."
+    },
+    {
+     "label": "c",
+     "text": "Opozisyonu ve opozisyonun anlamını kendi cümleleri ile yeniden ifade eder."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.7.3",
+   "grade": 7,
+   "unit": null,
+   "order": 3,
+   "text": "Kademeli olarak önce bir sonra iki hamlelik matlara yönelik fikirlerini eyleme dönüştürebilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Kademeli olarak önce bir sonra iki hamlelik matlara yönelik plan yapar."
+    },
+    {
+     "label": "b",
+     "text": "Kademeli olarak önce bir sonra iki hamlelik matlara yönelik yapılan planı uygular."
+    },
+    {
+     "label": "c",
+     "text": "Uyguladığı planın oyuna etkisini değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.8.1",
+   "grade": 8,
+   "unit": null,
+   "order": 1,
+   "text": "Satrançta taş değişimi kuralını açıklayabilme.",
+   "components": []
+  },
+  {
+   "code": "OOEST.8.2",
+   "grade": 8,
+   "unit": null,
+   "order": 2,
+   "text": "Satranç oyununda taşlar arasında taş değeri, konum güvenliği, şah tehdidi, SÜREÇ tempo ve sonraki hamle etkisi durumlarından hareketle taş değişimi yapmaya yönelik BİLEŞENLERİ karar verebilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Satranç oyununda taş değişim kararına yönelik amacını belirler."
+    },
+    {
+     "label": "b",
+     "text": "Taş değişimi kararına yönelik bilgi toplar."
+    },
+    {
+     "label": "c",
+     "text": "Alternatif taş değişimi seçenekleri oluşturur."
+    },
+    {
+     "label": "d",
+     "text": "Alternatif seçenekler üzerinde mantıksal denetleme yapar."
+    },
+    {
+     "label": "e",
+     "text": "Taş değişimi kararına yönelik seçim yapar."
+    },
+    {
+     "label": "f",
+     "text": "Taş değişimi kararını oyun sürecine ve sonuç üzerine yansıtır."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.8.3",
+   "grade": 8,
+   "unit": null,
+   "order": 3,
+   "text": "Satrançta konumsal kazanç elde etmek üzere yapılan taş fedasını açıklayabilme.",
+   "components": []
+  },
+  {
+   "code": "OOEST.8.4",
+   "grade": 8,
+   "unit": null,
+   "order": 4,
+   "text": "Satrançta daha iyi bir konum elde etmek için feda edilecek taşın oyuna etkisini düşünerek çıkarım yapabilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Mevcut bilgileri dâhilinde daha iyi bir konum elde etmek için feda edilecek taşın oyuna etkisi ile ilgili varsayımda bulunur."
+    },
+    {
+     "label": "b",
+     "text": "Feda edilecek taşın oyuna etkisi ile ilgili varsayımları listeler."
+    },
+    {
+     "label": "c",
+     "text": "Feda edilecek taşın oyuna etkisi ile ilgili varsayımları karşılaştırır."
+    },
+    {
+     "label": "d",
+     "text": "Feda edilecek taşın oyuna etkisi ile ilgili önerme sunar."
+    },
+    {
+     "label": "e",
+     "text": "Feda edilecek taşın oyuna etkisi ile ilgili önermeyi değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.9.1",
+   "grade": 9,
+   "unit": null,
+   "order": 1,
+   "text": "Satrançta rok hamlesinin oyuna ve oyun sonuna etkisini sorgulayabilme. ÇIKTILARI VE a) Satrançta rok hamlesini tanımlar. SÜREÇ b) Rok hamlesi ile ilgili sorular sorar. BİLEŞENLERİ",
+   "components": [
+    {
+     "label": "c",
+     "text": "Rok hamlesi ile ilgili bilgi toplar."
+    },
+    {
+     "label": "d",
+     "text": "Rok hamlesi ile ilgili topladığı bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "e",
+     "text": "Toplanan bilgiler üzerinden rok hamlesinin yapılma amacına yönelik çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.9.2",
+   "grade": 9,
+   "unit": null,
+   "order": 2,
+   "text": "Satrançta kurallara uygun olarak piyonu terfi ettirme fikrini eyleme dönüştürebilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Satranç oyununda piyonun terfi ettirilmesi ile ilgili plan yapar."
+    },
+    {
+     "label": "b",
+     "text": "Satranç oyununda piyonun terfi ettirilmesi ile ilgili yaptığı planı uygular."
+    },
+    {
+     "label": "c",
+     "text": "Satranç oyununda piyonun terfi ettirilmesi ile ilgili uyguladığı planı değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.9.3",
+   "grade": 9,
+   "unit": null,
+   "order": 3,
+   "text": "Oyun içi, maç sonu ve turnuva sonu puanlamaların nasıl yapıldığını açıklayabilme.",
+   "components": []
+  },
+  {
+   "code": "OOEST.9.4",
+   "grade": 9,
+   "unit": null,
+   "order": 4,
+   "text": "Satrançta adil oyun anlayışına uygun davranabilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Satranç oyununda adil oyun anlayışını açıklar."
+    },
+    {
+     "label": "b",
+     "text": "Satranç oyununda adil oyun anlayışına uygun hareket eder."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.9.5",
+   "grade": 9,
+   "unit": null,
+   "order": 5,
+   "text": "Satrançta oyun süresince yaptığı hamleleri notasyon kâğıdına yazabilme.",
+   "components": []
+  },
+  {
+   "code": "OOEST.10.1",
+   "grade": 10,
+   "unit": null,
+   "order": 1,
+   "text": "Satrançta açmaza yönelik taktik ve strateji geliştirebilme. ÇIKTILARI VE a) Açmaza giren taşın durumunu belirler. SÜREÇ b) Açmaz durumunun çözümüne ilişkin öneri geliştirir. BİLEŞENLERİ c) Çözüme ilişkin öneriyi uygular.",
+   "components": []
+  },
+  {
+   "code": "OOEST.10.2",
+   "grade": 10,
+   "unit": null,
+   "order": 2,
+   "text": "Satrançta taşa saldırı yapmaya yönelik gözlemlerden hareketle taşa saldırının oyuna etkisine yönelik akıl yürütebilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Satrançta taşa saldırı yapmanın oyuna etkisine yönelik gözlem yapar."
+    },
+    {
+     "label": "b",
+     "text": "Satrançta taşa saldırı yapmanın oyuna etkisine yönelik örüntü bulur."
+    },
+    {
+     "label": "c",
+     "text": "Satrançta taşa saldırı yapmanın oyuna etkisine yönelik genelleme yapar."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.10.3",
+   "grade": 10,
+   "unit": null,
+   "order": 3,
+   "text": "Satranç saatini kullanabilme.",
+   "components": []
+  },
+  {
+   "code": "OOEST.11.1",
+   "grade": 11,
+   "unit": null,
+   "order": 1,
+   "text": "Ön öğrenmelerden hareketle satrançta beraberlik durumlarına yönelik çıÇIKTILARI VE karım yapabilme. SÜREÇ a) Mevcut bilgisi dâhilinde beraberliğin ne olduğu hakkında varsayımda bulunur. BİLEŞENLERİ b) Beraberlik durumlarını listeler.",
+   "components": [
+    {
+     "label": "c",
+     "text": "Beraberlik durumlarını karşılaştırır."
+    },
+    {
+     "label": "d",
+     "text": "Beraberlik durumları hakkında önerme sunar."
+    },
+    {
+     "label": "e",
+     "text": "Beraberlik durumlarını değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.11.2",
+   "grade": 11,
+   "unit": null,
+   "order": 2,
+   "text": "Satrançta temel açılış ilkelerini kullanarak taktik ve strateji geliştirebilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Satrançta temel açılış ilkelerinden hareketle taktiksel durum belirlemesi yapar."
+    },
+    {
+     "label": "b",
+     "text": "Belirlenen durumun çözümüne ilişkin öneri sunar."
+    },
+    {
+     "label": "c",
+     "text": "Taktiği uygular."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.12.1",
+   "grade": 12,
+   "unit": null,
+   "order": 1,
+   "text": "Satrancın ülkemizdeki gelişimine yönelik bilgi toplayabilme. ÇIKTILARI VE a) Satrancın ülkemizdeki gelişimi hakkında bilgi toplayabileceği araçları belirler. SÜREÇ b) Belirlediği araçları kullanarak satrancın gelişimine yönelik bilgilere ulaşır. BİLEŞENLERİ",
+   "components": [
+    {
+     "label": "c",
+     "text": "Ulaştığı bilgileri doğrular."
+    },
+    {
+     "label": "d",
+     "text": "Satrancın ülkemizdeki gelişimiyle ilgili ulaştığı bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.12.2",
+   "grade": 12,
+   "unit": null,
+   "order": 2,
+   "text": "Türkiye’den ve dünyadan seçilen birer satranç şampiyonu hakkında belirlenen ölçüte göre güvenilir kaynaklardan bilgi toplayabilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Seçilen satranç şampiyonları hakkında araştırma yapacağı kaynakları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği kaynakları kullanarak bilgilere ulaşır."
+    },
+    {
+     "label": "c",
+     "text": "Kullanacağı kaynakların bilgi edineceği konuya uygunluğunu açıklar."
+    },
+    {
+     "label": "d",
+     "text": "Kullandığı kaynaklardan satranç şampiyonları ile ilgili edindiği bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "OOEST.12.3",
+   "grade": 12,
+   "unit": null,
+   "order": 3,
+   "text": "Satranç oyununda edindiği bilgileri öğretmen denetimli ve güvenli çevrimiçi ortamlarda uygulayabilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Satranç oyunu hakkında edindiği bilgileri öğretmen denetimli ve güvenli çevrimiçi ortamlarda uygulayabileceği araç ve teknolojileri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği araç ve teknolojileri kullanır."
+    },
+    {
+     "label": "c",
+     "text": "Kullandığı araç ve teknolojilerin oyun kazanma ve pratik yapmaya yönelik verimliliğini değerlendirir."
+    }
+   ]
+  }
+ ],
+ "report": {
+  "units": 12,
+  "outcomes": 0,
+  "components": 0,
+  "orphan_outcomes": 38,
+  "gaps": [
+   {
+    "course": "Oyun ve Oyun Etkinlikleri Dersi (Satranç)",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "OOEST.1.1",
+     "OOEST.1.2",
+     "OOEST.1.3",
+     "OOEST.2.1",
+     "OOEST.2.2",
+     "OOEST.2.3",
+     "OOEST.2.4",
+     "OOEST.3.1",
+     "OOEST.3.2",
+     "OOEST.3.3",
+     "OOEST.3.4",
+     "OOEST.4.1",
+     "OOEST.4.2",
+     "OOEST.5.1",
+     "OOEST.5.2",
+     "OOEST.5.3",
+     "OOEST.6.1",
+     "OOEST.6.2",
+     "OOEST.7.1",
+     "OOEST.7.2",
+     "OOEST.7.3",
+     "OOEST.8.1",
+     "OOEST.8.2",
+     "OOEST.8.3",
+     "OOEST.8.4",
+     "OOEST.9.1",
+     "OOEST.9.2",
+     "OOEST.9.3",
+     "OOEST.9.4",
+     "OOEST.9.5",
+     "OOEST.10.1",
+     "OOEST.10.2",
+     "OOEST.10.3",
+     "OOEST.11.1",
+     "OOEST.11.2",
+     "OOEST.12.1",
+     "OOEST.12.2",
+     "OOEST.12.3"
+    ]
+   }
+  ]
+ }
+}

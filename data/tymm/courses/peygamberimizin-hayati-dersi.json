@@ -1171,14 +1171,6 @@
   "outcomes": 37,
   "components": 120,
   "orphan_outcomes": 0,
-  "gaps": [
-   {
-    "course": "Peygamberimizin Hayatı Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "PH.8.2.2"
-    ]
-   }
-  ]
+  "gaps": []
  }
 }

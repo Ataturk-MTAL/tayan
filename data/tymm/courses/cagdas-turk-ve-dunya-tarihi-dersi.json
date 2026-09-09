@@ -1,0 +1,318 @@
+{
+ "course": {
+  "id": 109,
+  "name": "Çağdaş Türk ve Dünya Tarihi Dersi",
+  "slug": "cagdas-turk-ve-dunya-tarihi-dersi",
+  "prefix": "ÇTDT",
+  "kademe": 3,
+  "kademe_name": "Ortaöğretim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/cagdas-turk-ve-dunya-tarihi-dersi_20260901_151343_583.pdf"
+ },
+ "units": [
+  {
+   "grade": null,
+   "unit": 1,
+   "kind": "ÜNİTE",
+   "title": "YENİ DÜNYA DÜZENİNE DOĞRU (1919-1945)",
+   "description": "Bu ünitede öğrencilerin 1919-1945 yılları arasındaki siyasi, sosyal, ekonomik, bilimsel, teknolojik ve kültürel gelişmeler ile askerî mücadeleler konularıyla ilgili gerekli bilgi, beceri ve değerleri kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 20,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB3. Tarihsel Empati (SBAB3.1. Tarihsel Bağlamsallaştırma)",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme, KB2.14. Yorumlama",
+    "EĞİLİMLER": "E3.1. Muhakeme, E3.2. Odaklanma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.2. İş Birliği, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D1. Adalet, D15. Sevgi, D20. Yardımseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Coğrafya, Edebiyat, Ekonomi, Felsefe, Güzel Sanatlar, Hukuk, Psikoloji, Siyaset Bilimi, Sosyoloji, Uluslararası İlişkiler BECERİLER ARASI",
+    "İLİŞKİLER": "SBAB2.3. Kaynağı İnceleme ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "ÇTDT.1.1. 1919-1945 yılları arasındaki siyasi gelişmelerin ve askerî mücadelelerin Türk ve dünya tarihine etkilerini çözümleyebilme a) 1919-1945 yılları arasındaki siyasi gelişmelerin ve askerî mücadelelerin Türk ve dünya tarihine etkilerini belirler. b) 1919-1945 yılları arasındaki siyasi gelişmelerin ve askerî mücadelelerin Türk tarihine etkileri ile dünya tarihine etkilerini ilişkilendirir. ÇTDT.1.2. 1919-1945 yılları arasındaki sosyal ve ekonomik gelişmelerin meydana getirdiği insani krizleri tarihsel bağlamı içerisinde değerlendirebilme a) 1919-1945 yılları arasındaki sosyal ve ekonomik gelişmelerin meydana getirdiği insani krizleri kanıtlara dayalı analiz eder. b) 1919-1945 yılları arasındaki sosyal ve ekonomik gelişmelerin meydana getirdiği insani krizlerin yaşandığı dönemin koşullarını fark eder. c) 1919-1945 yılları arasındaki sosyal ve ekonomik gelişmelerin meydana getirdiği insani krizlerin yaşandığı dönemin koşullarını günümüz koşullarıyla karşılaştırır. ç) 1919-1945 yılları arasındaki sosyal ve ekonomik gelişmelerin meydana getirdiği insani krizleri ait olduğu dönemin koşulları içerisinde açıklar. ÇTDT.1.3. 1919-1945 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelerin toplum hayatına etkilerini yorumlayabilme a) 1919-1945 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelerin etkilerini inceler. b) 1919-1945 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelerin etkilerini bağlamdan kopmadan dönüştürür. c) 1919-1945 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelerin etkilerini yeniden ifade eder.",
+    "İÇERİK ÇERÇEVESİ": "1919-1945 Yılları Arasındaki Siyasi Gelişmeler ve Askerî Mücadeleler 1919-1945 Yılları Arasındaki Sosyal ve Ekonomik Gelişmeler 1919-1945 Yılları Arasındaki Bilimsel, Teknolojik ve Kültürel Gelişmeler",
+    "Anahtar Kavramlar": "doktrin, ekonomik buhran, emperyalizm, hiperenflasyon, ideoloji, mandater sistem, modernite, propaganda",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; bilgi görseli, çalışma yaprağı ve performans görevi ile de- (Ölçme ve ğerlendirilebilir. Değerlendirme) Öğrencilerden 1919-1945 yılları arasındaki siyasi gelişmelerin ve askerî mücadelelerin Türk ve dünya tarihine etkileri arasındaki ilişkiyi ortaya koymak amacıyla bilgi görseli hazırlamaları ve sunmaları istenebilir. Hazırlanan bilgi görseli ve sunumu dereceleme ölçeği ile değerlendirilebilir. Öğrencilere 1919-1945 yılları arasındaki sosyal ve ekonomik gelişmelerin meydana getirdiği insani krizler ile ilgili farklı soru türlerinin yer aldığı çalışma yaprağı verilebilir. Performans görevi olarak öğrencilerden 1919-1945 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelerin toplum hayatına etkilerine yönelik makale yazmaları istenebilir. Performans görevi; tarihsel bilginin doğruluğu, toplumsal etkinin yorumlanması, bilgiyi dönüştürme, kaynak kullanımı gibi ölçütlerden oluşan dereceli puanlama anahtarı ile değerlendirilebilir. Aynı dereceli puanlama anahtarı, grupların hem kendi çalışmalarını hem de diğer grupların çalışmalarını değerlendirmelerinde öz değerlendirme ve akran değerlendirme formu olarak kullanılabilir. ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin I. Dünya Savaşı’nın sonuçları ile ilgili temel bilgilere sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci Ünite kapsamında öğrencilere aşağıdaki rehber sorular sorulabilir. • I. Dünya Savaşı’nın siyasi ve askerî sonuçları neler olabilir? • I. Dünya Savaşı’nın sosyal ve ekonomik sonuçları neler olabilir? • I. Dünya Savaşı’nın teknolojik sonuçları neler olabilir? Ünite kapsamında öğrencilerin aşağıdaki etkinlikleri yapmaları sağlanabilir. • Öğrencilerden I. Dünya Savaşı’nın siyasi, askerî, sosyal, ekonomik ve teknolojik sonuçları ile ilgili zihin haritası hazırlamaları istenebilir. • 1919’dan önce Türkiye’de ve dünyada adından söz ettiren bilim insanı, sanatçı, mimar ve yazarların eserlerine dair oluşturulan bulmacayı çözmeleri istenebilir. Köprü Kurma Öğrencilerden Osmanlı Devleti’nde havacılığa yönelik yapılan çalışmaların günümüz Türk havacılık ve uzay sanayisinin gelişimine etkisini incelemeleri istenebilir. Cumhuriyet Dönemi’nde havacılık alanında yapılan çalışmaların günümüzde hava ve uzay temelli savunma teknolojilerinin gelişimi açısından taşıdığı önemi açıklamaları istenebilir. Öğrenme-Öğretme ÇTDT.1.1 Uygulamaları Öğrencilerden kavram öğretim materyalleri üzerinden konu içeriğinde geçen kavramların anlamlarını açıklamaları istenir. Öğrenciler, Paris Barış Konferansı’nı ve buna giden süreçte imzalanan gizli antlaşmaları; I. Dünya Savaşı sonunda imzalanan barış antlaşmalarını ve kalıcı barış arayışlarından biri olan Milletler Cemiyetinin kurulmasını; Locarno Antlaşması, Briand-Kellogg Paktı ve Litvinov Protokolü’nün imzalanmasını; SSCB’nin kurulması ve SSCB’nin kurulmasının Türk toplumlarında meydana getirdiği değişimi; Japonya’nın güçlenmesini; I. Dünya Savaşı ile II. Dünya Savaşı arasında etkili olan başlıca ideolojilerden sosyalizm, komünizm, faşizm ve Nazizm’i; II. Dünya Savaşı öncesi yaşanan gelişmeleri; II. Dünya Savaşı’nın nedenleri, II. Dünya Savaşı’nın başlaması ve savaşın seyrini değiştiren olaylardan Kuzey Afrika Harekâtı, Pearl Harbor Baskını, Stalingrad Kuşatması ve Normandiya Çıkarması’nı; savaş sırasında gerçekleştirilen önemli siyasi görüşmeler ile Hiroşima ve Nagazaki’ye atılan atom bombalarının yıkıcı etkilerini ve savaşın sona ermesini verilen farklı kaynaklar üzerinden inceler (SBAB2.3, E3.2). 1919-1945 yılları arasındaki siyasi gelişmelerin ve askerî mücadelelerin Türk ve dünya tarihine etkilerini belirler. Öğrencilerden devletler arasında savaşa neden olabilecek sorunları sağduyu ile çözmeye çalışmanın önemini Türk dış politikasından örneklerle açıklamaları istenir (D15.1). Modern kara, deniz ve hava hâkimiyeti teorilerine ilişkin bilgi kartları üzerinden öğrencilerin II. Dünya Savaşı’nın revizyonist devletleri tarafından benimsenen hâkimiyet teorilerini kavramaları sağlanır (OB1). Öğrencilerden 1919-1945 yılları arasındaki siyasi gelişmelerin ve askerî mücadelelerin Türk tarihine ve dünya tarihine etkileri arasındaki ilişkiyi ortaya koyan bilgi görseli hazırlamaları ve hazırladıkları bilgi görselini sunmaları istenir (SDB1.2). ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ DERSİ ÖĞRETİM PROGRAMI ÇTDT.1.2 Öğrencilerin verilen farklı kaynaklar üzerinden 1929 Dünya Ekonomik Buhranı’nı ve buhranın Türkiye’ye etkilerini, II. Dünya Savaşı sırasında Mihver ve Müttefik devletler tarafından yapılan insan hakları ihlallerinin meydana getirdiği insani krizleri incelemeleri ve bunları kanıtlara dayalı analiz etmeleri sağlanır (SBAB2.3, OB1). Bu süreçte öğrencilerden hak ve özgürlüklerini bilmelerinin ve korumalarının önemini açıklamaları istenir (D1.1). Öğrenciler, yaptıkları analizlerden hareketle dönemin koşullarını fark eder ve 1919-1945 yılları arasındaki sosyal ve ekonomik gelişmelerin yol açtığı insani krizlerin yaşandığı dönemin koşullarını günümüz koşullarıyla karşılaştırarak bu krizleri ait olduğu dönemin koşulları içerisinde açıklar (E3.1, SDB3.3). Öğrencilere 1919-1945 yılları arasındaki sosyal ve ekonomik gelişmelerin meydana getirdiği insani krizler ile ilgili soruların yer aldığı çalışma yaprağı verilir. ÇTDT.1.3 Öğrenciler verilen farklı kaynaklar üzerinden savaş teknolojisi, sağlık, mimarlık ve sanat alanlarındaki gelişmeler ile radyo, sinema ve televizyonun propaganda amaçlı kullanımının toplum hayatına etkilerini inceler (OB1, OB5). İlgili dönemdeki bilimsel, teknolojik ve kültürel gelişmelerin etkilerini özetler. Bilimsel bilginin insanların ve toplumların yararına kullanılmasının önemini açıklar (D20.3). Ulaştıkları bilgilerden hareketle 1919-1945 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelerin etkilerini nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder (E3.10). Öğrencilere 1919-1945 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelerin etkileri ile ilgili düşün-eşleş-paylaş uygulaması yaptırılabilir. Performans görevi olarak öğrencilerden gruplara ayrılmaları ve 1919-1945 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelerin toplum hayatına etkilerini ifade eden makale yazmaları istenir (SDB2.2).",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden Milletler Cemiyeti ile Birleşmiş Milletlerin yapısını ve faaliyetlerini karşılaştırarak işleyişlerini değerlendiren eleştirel bir makale yazmaları istenebilir. 1929 Dünya Ekonomik Buhranı ve etkileri ile ilgili animasyon hazırlamaları ve bu animasyonu sınıf ortamında sunmaları istenebilir. * Öğrenciler; II. Dünya Savaşı sırasında atom bombası kullanımının dünya düzenindeki siyasi, sosyal, ekonomik ve teknolojik etkileri ile ilgili araştırma yapmaları ve edindikleri bilgilerden hareketle belgesel hazırlayıp hazırladıkları belgeseli sınıfta sunmaları için yönlendirilebilir. Destekleme Öğrencilere 1919-1945 yılları arasındaki başlıca sosyal ve ekonomik gelişmeler tarihsel akış şeması veya bilgi görseli aracılığıyla sadeleştirilerek verilebilir ve öğrencilerden konu ile ilgili başlıca gelişmeleri listelemeleri istenebilir. Öğrencilere 1919-1945 yılları arasındaki başlıca siyasi gelişmeler ve askerî mücadelelerin Türk dünyasına etkileri listelenerek verilebilir. Öğrencilerden listelenen gelişmeleri öğretmenlerinden ve akranlarından yardım alarak ilgili eşleştirme tablosu üzerinde işaretlemeleri istenebilir. 1919-1945 yılları arasındaki dönemi yansıtan bir belgesel veya film izleyerek öğrendiklerini sınıfta paylaşmaları istenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 2,
+   "kind": "ÜNİTE",
+   "title": "SOĞUK SAVAŞ DÖNEMİ (1945-1991)",
+   "description": "Bu ünitede öğrencilerin 1945-1991 yılları arasındaki siyasi, sosyal, ekonomik, bilimsel, teknolojik ve kültürel gelişmeler ile askerî mücadeleler konularıyla ilgili gerekli bilgi, beceri ve değerleri kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 22,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB2. Kanıta Dayalı Sorgulama ve Araştırma (SBAB2.6. Kanıta Dayalı Ürün Oluşturma ve Paylaşma)",
+    "KAVRAMSAL BECERİLER": "KB2.8. Sorgulama, KB2.18. Tartışma",
+    "EĞİLİMLER": "E1.1. Merak, E3.1. Muhakeme, E3.2. Odaklanma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme Becerisi), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D1. Adalet, D9. Merhamet, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Coğrafya, Edebiyat, Ekonomi, Felsefe, Güzel Sanatlar, Hukuk, Psikoloji, Siyaset Bilimi, Sosyoloji, Uluslararası İlişkiler BECERİLER ARASI",
+    "İLİŞKİLER": "SBAB2.3. Kaynağı İnceleme, KB2.7. Karşılaştırma, KB2.14. Yorumlama ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "ÇTDT.2.1. Çift kutuplu dünya düzeninin 1945-1991 yılları arasında Türk ve dünya tarihindeki siyasi gelişmelere ve askerî mücadelelere etkisini sorgulayabilme a) Çift kutuplu dünya düzeninin 1945-1991 yılları arasındaki siyasi gelişmelere ve askerî mücadelelere etkisi hakkında merak ettiği konuyu belirler. b) İlgili konu hakkında sorular sorar. c) Farklı kaynaklar üzerinden konuya ilişkin bilgi toplar. ç) Topladığı bilgilerin doğruluğunu değerlendirir. d) Çift kutuplu dünya düzeninin 1945-1991 yılları arasındaki siyasi gelişmelere ve askerî mücadelelere etkileri hakkında topladığı bilgiler üzerinden çıkarım yapar. ÇTDT.2.2. Çift kutuplu dünya düzeninin 1945-1991 yılları arasında meydana gelen sosyal ve ekonomik gelişmelerdeki rolünü tartışabilme a) Çift kutuplu dünya düzeninin 1945-1991 yılları arasında meydana gelen sosyal ve ekonomik gelişmelerdeki rolüne ilişkin mantıksal temellendirme yapar. b) Çift kutuplu dünya düzeninin 1945-1991 yılları arasında meydana gelen sosyal ve ekonomik gelişmelerdeki rolüne ilişkin mantıksal çelişkileri ve tutarsızlıkları belirler. c) Çift kutuplu dünya düzeninin 1945-1991 yılları arasında meydana gelen sosyal ve ekonomik gelişmelerdeki rolünü gerekçeleriyle çürütür veya kabul eder. ÇTDT.2.3. 1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin oluşturduğu ürünleri paylaşabilme a) 1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin merak ettiği konuyu belirler. b) Araştırmasında belirlediği kaynaklardan 1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin bilgi toplar. c) 1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin belirlediği kaynakları inceleyerek araştırmasına dair bilgileri inceler. ç) 1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin kullanacağı kaynakların sınırlılığını sorgular. d) 1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin kaynaklardan araştırmasına uygun olarak belirlediği bilgileri yorumlar. e) 1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin kanıtlara dayanarak oluşturduğu araştırmasını paylaşır.",
+    "İÇERİK ÇERÇEVESİ": "1945-1991 Yılları Arasındaki Siyasi Gelişmeler ve Askerî Mücadeleler 1945-1991 Yılları Arasındaki Sosyal ve Ekonomik Gelişmeler 1945-1991 Yılları Arasındaki Bilimsel, Teknolojik ve Kültürel Gelişmeler",
+    "Anahtar Kavramlar": "çift kutuplu dünya düzeni, glastnost, güç dengesi, nükleer teknoloji, pakt, perestroyka, uzay yarışı ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; çıkış kartı (3-2-1 tekniği), tarihsel kaynak/kanıt analiz formu ve (Ölçme ve performans görevi ile değerlendirilebilir. Değerlendirme) Çift kutuplu dünya düzeninin 1945-1991 yılları arasında meydana gelen sosyal ve ekonomik gelişmelerdeki rolüne ilişkin ortaya atılan görüşlerin kabul edilebilirliğine yönelik yapılan sınıf içi tartışma süreci sonrasında öğrencilerin öğrenmeleri çıkış kartı ile değerlendirilebilir. Çift kutuplu dünya düzeninin 1945-1991 yılları arasında Türk ve dünya tarihindeki siyasi gelişmelere ve askerî mücadelelere etkisini ortaya koyan açıklamalı tarih şeridi hazırlamaları ve çalışmalarını sunmalarına yönelik bir performans görevi verilebilir. Hazırlanan açıklamalı tarih şeridi ve sunum; soru oluşturma, bilgi toplama, bilginin doğruluğu, kaynak çeşitliliği, çıkarımda bulunma vb. ölçütlerden oluşan dereceli puanlama anahtarı ile değerlendirilebilir. Performans görevi olarak öğrencilerden 1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelerle ilgili araştırma raporu hazırlamaları ve hazırladıkları araştırma raporunu sunmaları istenebilir. Hazırlanan araştırma raporu ve sunum; kaynaklardan bilgi toplama, kaynakların çeşitliliği ve güvenirliği, kaynakları yorumlama, sunum yapma, özgünlük vb. ölçütlerden oluşan dereceli puanlama anahtarıyla değerlendirilebilir. Ayrıca hazırlanan dereceli puanlama anahtarı grup değerlendirme formu ve araştırma sürecinde kullanılan kontrol listesi öz değerlendirme formu olarak kullanılabilir. Bununla birlikte, öğrencilerin kullandıkları kaynakların yürüttükleri araştırmaya olan katkısını değerlendirmek amacıyla tarihsel kaynak/kanıt analiz formu kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin siyasi akımları ve II. Dünya Savaşı’nın sonuçlarını bildikleri kabul edilmektedir. Ön Değerlendirme Süreci Ünite kapsamında öğrencilere aşağıdaki rehber sorular sorulabilir. • Siyasi akımların çift kutuplu dünya düzeninin oluşumuna etkileri neler olabilir? • II. Dünya Savaşı’nın toplumsal hayata etkileri hakkında neler söylenebilir? • Milletler Cemiyetinin çalışmalarına son verilerek Birleşmiş Milletlerin kurulma sürecine geçilmesinin gerekçeleri neler olabilir? Ünite kapsamında öğrencilerin aşağıdaki etkinlikleri yapmaları sağlanabilir. • Öğrencilerden savaşın yıkıcı etkilerinden hareketle barışın sağlanmasında uluslararası örgütlenme çabalarının önemine yönelik slogan oluşturmaları istenebilir. • “Soğuk savaş, demir perde, Doğu Bloku, Batı Bloku, Bağlantısızlar Hareketi, domino teorisi, beyin göçü, uzay yarışı” kavram ve terimleri verilerek öğrencilerden bunlara 1945-1991 dönemi ile ilgili duydukları farklı kavramları da eklemeleri ve bir kelime bulutu oluşturmaları istenebilir. Köprü Kurma Öğrencilerden II. Dünya Savaşı’nın sosyal ve ekonomik sonuçlarının günümüz toplum hayatına etkileri hakkında örnekler vermeleri istenebilir. ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları ÇTDT.2.1 Öğrencilerin grup çalışması yoluyla çift kutuplu dünya düzeninin II. Dünya Savaşı sonrasında oluşan güç dengesi (Birleşmiş Milletlerin kuruluşu, Doğu Bloku ve Batı Bloku’nun oluşumu, NATO’nun ve Varşova Paktı’nın kuruluşu, Kore Savaşı), Orta Doğu’nun yeniden şekillenmesi (İsrail’in kurulması, Suriye ve Irak’ta Baas rejimleri), Asya ve Afrika’daki sömürgecilik karşıtı bağımsızlık mücadeleleri, Bağlantısızlar Hareketi, Keşmir Sorunu, Küba Krizi, Vietnam Savaşı, İran İslam Devrimi, Sovyet Sosyalist Cumhuriyetler Birliği’nin Afganistan’ı işgali, İran-Irak Savaşı ile Türk dünyasındaki gelişmelere etkileri hakkında merak ettikleri bir konuyu belirlemeleri sağlanır (E1.1, SDB2.2). Gruplar, merak ettikleri konu hakkında sorular oluşturur. Oluşturdukları soruların cevaplarını bulmak için merak ettikleri konu hakkında yazılı, görsel, basılı ve dijital kaynaklar üzerinden bilgi toplar ve topladıkları bilgileri kaydeder (OB1, OB2, OB4). Araştırma sürecinde dijital ağ kaynaklarından bilgi kullanırken dijital kimliği veya kaynağın uzantısının güvenilirliğini dikkate alır. Öğrencilerin verilen farklı kaynaklar üzerinden çift kutuplu dünya düzeninin 1945-1991 yılları arasında Türk ve dünya tarihindeki siyasi gelişmelere ve askerî mücadelelere etkisini belirlemeleri sağlanır. Öğrenciler, örnek olaylardan hareketle sömürgecilik karşıtı bağımsızlık mücadelelerinin hukuka uygunluğunu ve ahlaki açıdan haklılığını değerlendirir (D1.3). Topladıkları bilgiler ile derste öğrendikleri bilgileri karşılaştırır (KB2.7, E3.10). Öğrendiklerinden hareketle çift kutuplu dünya düzeninin 1945-1991 yılları arasında Türk ve dünya tarihindeki siyasi gelişmelere ve askerî mücadelelere etkisine ilişkin çıkarım yapar (SDB3.3). Çıkarımlarından hareketle gruplardan çift kutuplu dünya düzeninin 1945-1991 yılları arasında Türk ve dünya tarihindeki siyasi gelişmelere ve askerî mücadelelere etkisini ortaya koyan açıklamalı tarih şeridi hazırlamaları ve çalışmalarını sunmaları istenir. ÇTDT.2.2 Öğrencilerden kavram öğretim materyalleri üzerinden konu içeriğinde geçen kavramların anlamlarını açıklamaları istenebilir. Öğrenciler verilen farklı kaynaklar üzerinden çift kutuplu dünya düzeninin Truman Doktrini, Molotov Planı, Marshall Planı, Fulbright Programı, Avrupa İktisadi İş Birliği Teşkilatı (Ekonomik İş Birliği ve Kalkınma Teşkilatı), COMECON [Council for Mutual Economic Assistance (Kansıl fır Myuçuel İkonamik Esistıns)/Karşılıklı Ekonomik Yardımlaşma Konseyi], Avrupa Kömür ve Çelik Topluluğu (Avrupa Ekonomik Topluluğu/Avrupa Topluluğu), Eisenhower (Ayzınhavır) Doktrini, öğrenci ve işçi hareketleri, 1973 Petrol Krizi ve Türk dünyasından Türkiye’ye olan göçler üzerindeki rolünü inceler (SBAB2.3). Örnek olaylardan hareketle Türk dünyasından Türkiye’ye olan göçler konusu ele alınırken insanlara karşı duyarlı davranmanın önemini ve gerekliliğini açıklar (D9.1). Öğrencilerden çift kutuplu dünya düzeninin sosyal ve ekonomik gelişmelerdeki rolünü kanıtlar sunarak ifade etmeleri istenir (SDB2.1, OB1). Öğrencilerin kanıtlar üzerinden çift kutuplu dünya düzeninin sosyal ve ekonomik gelişmelerdeki rolüne ilişkin olumlu ve olumsuz etkilerini belirlemeleri sağlanır (E3.2). Gruplara ayrılarak çift kutuplu dünya düzeninin 1945-1991 yılları arasında meydana gelen sosyal ve ekonomik gelişmelerdeki rolüne dair ortaya atılan görüşlerin kabul edilebilirliğine yönelik sınıf tartışması yapmaları sağlanır (SDB2.1). Tartışma süreci sonrasında öğrencilerden kendi öğrenmelerini çıkış kartı (3-2-1 tekniği) kullanarak değerlendirmeleri istenir (SDB1.2). ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ DERSİ ÖĞRETİM PROGRAMI ÇTDT.2.3 Grup çalışması yoluyla 1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin bir araştırma başlatılır. Öğrenciler 1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin başlıklardan merak ettiği konuyu belirler. Belirlediği konu hakkında sorular sorar. Araştırma sürecinin bilgi toplama aşaması dışındaki aşamaları sınıfta, öğretmen rehberliğinde ve grup çalışması şeklinde gerçekleştirilir. Öğrencilere araştırma sürecinin aşamalarını içeren kontrol listesi verilir. Kontrol listesi aracılığıyla öğrencilerin araştırma sürecinin basamaklarını takip etmeleri ve denetlemeleri sağlanır. Her grup için 1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelerden birini yansıtan araştırma konusu belirlenir. Bilgi toplama, kaynak inceleme ve kaynakları sorgulama süreçleri adımlar hâlinde yönergelerle işletilir. Gruplar, araştıracakları konuyla ilgili hangi kaynakları kullanacaklarını ve bu kaynaklara nerede ve nasıl ulaşacaklarını öğretmen rehberliğinde belirler. Kütüphaneler, müzeler, arşivler, tarihî mekânlar ve genel ağı ziyaret ederek araştırma konularıyla ilgili kaynaklardan bilgi toplar. Kaynaklara uygun sorular sorarak kaynağın birinci elden veya ikinci elden olup olmadığı; kaynağın yazılı, görsel, sayısal, dijital olarak türü; yazarı, tarihi, dijital kimliği, genel ağdaki uzantısı gibi temel unsurları belirler (OB.2). Topladığı bilgileri ilgili ve ilgisiz olarak ayrıştırdıktan sonra araştırma konusuna uygun olanları tespit eder. Kaynakları sorgularken kaynaklara ön yargı, çelişki veya tutarsızlık içeren ifadeleri ortaya çıkartacak sorular sorar (E3.10). Bu süreçte aynı konuyla ilgili farklı kaynakları karşılaştırarak konuya ilişkin farklı görüşleri belirler. Kaynağın içeriğini tutarsızlık açısından kontrol eder. Kaynaklarda yer alan olgu ve görüşleri ayırt eder. Kaynaklardaki bilgilerin güncel araştırmaları içerip içermediğini sorgular. Bu sorgulamalar sonucunda topladığı bilgilerin araştırma konusu için yeterliliğine yönelik çıkarımda bulunur. Topladığı bilgilerin sınırlı kalması durumunda farklı kaynaklara başvurarak yeniden bilgi toplayabilir. Öğrencilerden kullandığı kaynakların yaptığı araştırmaya katkısını değerlendirmek amacıyla tarihsel kaynak/kanıt analiz formunu doldurmaları istenir. Gruplar araştırmalarında kullanacağı bilgileri ana fikir, şahıslar, eserler, mekânlar, kurumlar bağlamında belirler. Bu bilgileri araştırma raporunda kullanmak amacıyla uygun yerlerde tarih şeridi, harita, tablo, grafik, bilgi görseli gibi görsel metinlere dönüştürür (OB4). Ulaştıkları bilgilerden hareketle kendi görüşlerini yansıtan yorumları oluşturur (SDB2.2). Öğrenciler kanıtlardan hareketle 1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin çıkarım yapar (E3.1, SDB3.3). Gruplar yaptıkları araştırmaları rapora dönüştürür. Öğrenciler araştırma raporunu hazırlarken uygun başlıklar bulur, hazırladığı görselleri (OB4) metnin içeriğine uygun biçimde kullanır, kaynaklara metin içinde atıf yapar ve kullandığı kaynakları kaynakçada gösterir. Gruplar sınıf içinde araştırma raporlarını sunar. Öğrenciler araştırmaları sırasında ulaştıkları bilgilerden hareketle bilim, sanat, spor ve kültür alanında ülkesini temsil edenleri rol modeli almanın önemini ve gerekliliğini örneklerle açıklar (D19.2). Sunum sonrasında grupların 1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmeleri karşılaştırarak yorumlamaları sağlanır (KB3.2). Araştırma raporlarının panel, seminer, bilim şöleni, proje fuarı veya dijital ortamlarda (OB2) sunularak paylaşılması istenir. ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden Soğuk Savaş Dönemi’nde Doğu Bloku ve Batı Bloku içinde kurulan uluslararası teşkilatlarla ilgili araştırma yaparak tanıtım filmi hazırlamaları istenebilir. * Öğrenciler, Avrupa Kömür Çelik Topluluğunun Avrupa Ekonomik Topluluğu ve Avrupa Topluluğuna dönüşmesi sürecini araştırarak bu birlikteliğin uluslararası ekonomi politiğe etkisi ile ilgili rapor hazırlamaları için yönlendirilebilir. * Öğrencileden 1945-1991 yılları arasında gerçekleşen bilimsel, teknolojik ve kültürel gelişmelere ilişkin bir bülten panosu/dijital pano hazırlamaları ve bunu sınıf ortamında sunmaları istenebilir. Destekleme Öğrencilerden tarih şeridi üzerinde verilen 1945-1991 yılları arasındaki siyasi ve askerî gelişmeler ile ilgili boş bırakılan yerleri doldurmaları istenebilir. 1945-1991 yılları arasını kapsayan siyasi harita üzerinde Doğu Bloku ve Batı Bloku ülkelerini göstermeleri istenebilir. Kore Savaşı hakkında MEB’in yönergelerine uygun; bilimsel, akademik, pedagojik ve hukuki sorunları olmayan bir film izletilerek izlenimlerini paylaşmaları istenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 3,
+   "kind": "ÜNİTE",
+   "title": "KÜRESELLEŞEN DÜNYA (1991 VE SONRASI)",
+   "description": "Bu ünitede öğrencilerin 1991 ve sonrasında yaşanan siyasi, sosyal, ekonomik, bilimsel, teknolojik ve kültürel gelişmeler ile askerî mücadeleler konularıyla ilgili gerekli bilgi, beceri ve değerleri kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 26,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB4. Değişim ve Sürekliliği Algılama (SBAB4.2. Değişim ve Sürekliliği Neden ve Sonuçlarıyla Yorumlama), SBAB17. Tarihsel Sorun Analizi ve Karar Verme",
+    "KAVRAMSAL BECERİLER": "KB 2.3. Özetleme",
+    "EĞİLİMLER": "E3.1. Muhakeme, E3.2. Odaklanma, E3.6. Analitiklik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.2 Esneklik, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D3. Çalışkanlık, D5. Duyarlılık, D9. Merhamet",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Biyoloji, Coğrafya, Edebiyat, Ekonomi, Felsefe, Güzel Sanatlar, Hukuk, Siyaset Bilimi, Sosyoloji, Uluslararası İlişkiler BECERİLER ARASI",
+    "İLİŞKİLER": "SBAB2.3. Kaynağı İnceleme, KB2.17. Değerlendirme ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "ÇTDT.3.1. 1991 ve sonrasında yaşanan siyasi gelişmelerin ve askerî mücadelelerin Türk ve dünya tarihine etkilerini özetleyebilme a) 1991 ve sonrasında yaşanan siyasi gelişmelerin ve askerî mücadelelerin Türk ve dünya tarihine etkileri ile ilgili çözümleme yapar. b) 1991 ve sonrasında yaşanan siyasi gelişmelerin ve askerî mücadelelerin Türk ve dünya tarihine etkileri ile ilgili sınıflandırma yapar. c) 1991 ve sonrasında yaşanan siyasi gelişmelerin ve askerî mücadelelerin Türk ve dünya tarihine etkilerini yorumlar. ÇTDT.3.2. 1991 ve sonrasında yaşanan sosyal ve ekonomik gelişmelerle ortaya çıkan sorunların çözümüne yönelik alternatif fikirler üretebilme a) 1991 ve sonrasında yaşanan sosyal ve ekonomik gelişmelerle ortaya çıkan bir sorunu belirleyerek çözümler. b) 1991 ve sonrasında yaşanan sosyal ve ekonomik gelişmelerle ilgili belirlediği bir sorunun çözümüne yönelik geliştirdikleri alternatif önerilerin olası sonuçlarını geçmişte yaşayan insanların yaptıkları uygulamalar ve aldıkları kararların sonuçlarıyla karşılaştırarak değerlendirir. ÇTDT.3.3. 1991 ve sonrasında yaşanan bilimsel, kültürel ve teknolojik gelişmelerin toplum hayatında meydana getirdiği değişim ve sürekliliği neden ve sonuçlarıyla yorumlayabilme a) 1991 ve sonrasında yaşanan bilimsel, kültürel ve teknolojik gelişmelerin toplum hayatında meydana getirdiği değişim ve sürekliliğe neden olan unsurları inceler. b) 1991 ve sonrasında yaşanan bilimsel, kültürel ve teknolojik gelişmelerin toplum hayatında meydana getirdiği değişim ve sürekliliğin etkilediği unsurları inceler. c) 1991 ve sonrasında yaşanan bilimsel, kültürel ve teknolojik gelişmelerin toplum hayatında meydana getirdiği değişim ve sürekliliğin etkilerinin niteliğini sorgular. ç) 1991 ve sonrasında yaşanan bilimsel, kültürel ve teknolojik gelişmelerin toplum hayatında meydana getirdiği değişim ve sürekliliğin nedenlerini ve sonuçlarını bağlamından kopmadan yeniden ifade eder.",
+    "İÇERİK ÇERÇEVESİ": "1991 ve Sonrasında Yaşanan Siyasi Gelişmeler ve Askerî Mücadeleler 1991 ve Sonrasında Yaşanan Sosyal ve Ekonomik Gelişmeler 1991 ve Sonrasında Yaşanan Bilimsel, Kültürel ve Teknolojik Gelişmeler",
+    "Anahtar Kavramlar": "asimetrik savaş, çok kutupluluk, deniz jeopolitiği, kültürel dönüşüm, küreselleşme, küresel göç, mülteci, neoliberal, siber tehdit, yapay zekâ ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; karşılaştırma tablosu, değişim ve süreklilik formu ve per- (Ölçme ve formans görevi ile değerlendirilebilir. Değerlendirme) Öğrencilerden 1991 ve sonrasında meydana gelen sosyal ve ekonomik gelişmelerle ortaya çıkan soruna yönelik geliştirdikleri alternatif çözüm önerilerini, aynı dönemde yaşayan insanların karar ve uygulamalarıyla karşılaştırarak karşılaştırma tablosu hazırlamaları istenebilir. 1991 ve sonrasında yaşanan bilimsel, kültürel ve teknolojik gelişmelerin toplum hayatındaki gelişimin neden ve sonuçlarına yönelik öğrenci yorumları için değişim ve süreklilik formu kullanılabilir. Öğrencilere 1991 ve sonrasında yaşanan siyasi gelişmelerin ve askerî mücadelelerin Türk ve dünya tarihine etkilerini yorumlayan bir sunum hazırlama ve çalışmalarını sunmaya yönelik bir performans görevi verilebilir. Hazırlanan sunum; tarihsel olayların çözümlenmesi, sınıflandırma, etkilerin yorumlanması, kaynak kullanımı vb. ölçütlerinden oluşan dereceli puanlama anahtarı ile değerlendirilebilir. Ayrıca hazırlanan dereceli puanlama anahtarı akran değerlendirme formu olarak kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin küreselleşme ve mülteci kavramları, ekonomik gelişmişlik, Türkiye’nin millî kalkınma hamleleri, bilgi ve iletişim teknolojilerine ait gelişmelerin toplum hayatına etkileri ve COVID-19 pandemisi hakkında temel bilgilere sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci Ünite kapsamında öğrencilere aşağıdaki rehber sorular sorulabilir. • Küreselleşmeyi ortaya çıkaran siyasi ve askerî etmenler neler olabilir? • Küreselleşmenin sosyal ve ekonomik hayat üzerindeki olumlu ve olumsuz etkileri neler olabilir? • Küreselleşmeyle birlikte bilimsel, kültürel ve teknolojik alanlarda hangi önemli değişimler meydana gelmiş olabilir? • Küresel dünyada bilgi ve iletişim teknolojilerine ait gelişmelerin günlük hayata etkilerine hangi örnekler verilebilir? Ünite kapsamında öğrencilerin aşağıdaki etkinlikleri yapmaları sağlanabilir. • Öğrencilerden Türkiye’nin en çok göç aldığı ülkelere yönelik bir göç haritası hazırlamaları istenebilir. • Bilimsel, kültürel ve teknolojik gelişmelere yönelik metafor ve analoji etkinliği yapmaları istenebilir. • Türkiye’nin kalkınma projelerine dair farklı alanlardan örnekler içeren bir poster hazırlamaları istenebilir. Köprü Kurma Öğrencilerden günümüzden hareketle yakın gelecekte bilim ve teknolojinin günlük yaşama etkisine dair fikir yürütmeleri istenebilir. Türkiye’de “Mavi Vatan”, “Gök Vatan”, “Siber Vatan”, “Yeşil Vatan” isimlendirmelerinin ortaya çıkma nedenleri hakkında beyin fırtınası yapmaları istenebilir. ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları ÇTDT.3.1 Öğrencilerden kavram öğretim materyalleri üzerinden konu içeriğinde geçen kavramların anlamlarını açıklamaları istenir. Öğrencilere 1991 ve sonrasında yaşanan siyasi gelişmelerin ve askerî mücadelelerin Türk ve dünya tarihine etkilerine yönelik sorular sorulur. Bu sorular çerçevesinde öğrenciler SSCB’nin dağılmasını ve Doğu Avrupa ülkelerindeki yönetim değişikliklerini, Türk cumhuriyetlerinin kuruluşunu, Türk dünyası ve Türkiye ilişkilerini, Karabağ Sorununu, Türk Devletleri Teşkilatına giden süreci, Balkanlar, Orta Doğu ve Asya’daki küresel aktörleri ve yerel güçlerin izlediği politikalar ile bu politikaların yol açtığı bölgesel sorunlardan I. Körfez Savaşı, II. Körfez Savaşı, Bosna Savaşı, Kosova Savaşı, Filistin ve Afganistan’da yaşanan çatışmaları; 11 Eylül saldırılarını, küresel terörün oluşturduğu asimetrik savaşı, Avrupa Birliği’nin (AB) uluslararası politikadaki yeri ve önemi (AB’nin genişlemesi) ile Arap Baharı’nın etkilerini verilen farklı kaynaklar üzerinden inceler (SBAB2.3, OB1). İlgili dönem çerçevesinde deniz jeopolitiğinin Türkiye ve dünya açısından anlamını değerlendirir (KB2.17, E3.10). Örnek olaylar üzerinden haksızlıklar karşısında haklı olanı savunmanın önemini açıklar (D9.1). 1991 ve sonrasında yaşanan siyasi gelişmelerin ve askerî mücadelelerin Türk ve dünya tarihine etkilerine yönelik soru-cevap etkinliği yapılır (SDB3.3). Öğrenciler, 1991 ve sonrasında yaşanan siyasi gelişmeleri ve askerî mücadeleleri Türk ve dünya tarihine etkileri bağlamında sınıflandırır (E3.1). Performans görevi olarak öğrencilerden 1991 ve sonrasında yaşanan siyasi gelişmelerin ve askerî mücade­lelerin Türk ve dünya tarihine etkilerini yorumlayan bir sunum hazırlamaları ve çalışmalarını sınıfta arkadaşlarıyla paylaşmaları istenir. ÇTDT.3.2 Öğrencilerin verilen farklı kaynaklar üzerinden neoliberal ekonomik politikalar, 2008 Küresel Ekonomik Krizi, küresel iklim krizi ve uluslararası göçler konularını incelemeleri sağlanır (SBAB2.3, OB1). Öğrencilerin gruplara ayrılmaları ve yaptıkları incelemelerden hareketle 1991 ve sonrasında yaşanan sosyal ve ekonomik gelişmelerle ortaya çıkan tarihsel bir sorunu belirleyerek tanımlamaları sağlanır (SDB2.2). Gruplar tanımladıkları tarihsel soruna ilişkin tarafların çıkar, değer ve bakış açılarını çözümler (SDB2.3). Tarihsel sorunun çözümü için yapılan uygulamaları ve alınan kararları değerlendirerek bunların güncel sorunların meydana gelmesine etkilerini ifade eder (E3.10). Örnek olaylar üzerinden günümüz dünya sorunlarının çözümünde etkin rol almanın gerekliliğini açıklar (D5.2). 1991 ve sonrasında yaşanan sosyal ve ekonomik gelişmelerle ortaya çıkan sorunların çözümüne yönelik alternatif öneriler geliştirir (SDB3.2, E3.6). Tanımladıkları tarihsel bir sorunu çözmeye yönelik geliştirdikleri alternatif çözüm önerilerinin olası sonuçları ile söz konusu dönemde yaşamış insanların yaptıkları uygulamalar ve aldıkları kararların sonuçlarını hazırladıkları alternatif çözüm önerilerini içeren karşılaştırmalı tabloyla değerlendirir (SDB3.3, E3.1). ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ DERSİ ÖĞRETİM PROGRAMI ÇTDT.3.3 Öğrencilerin verilen farklı kaynaklar üzerinden küreselleşmenin; popüler kültür araçlarının yaygınlaşmasının; uluslararası spor organizasyonları düzenlenmesinin; uydu, iletişim ve savunma teknolojisindeki gelişmeler ile coğrafi bilgi sistemlerinin; bilgisayar teknolojisindeki gelişmeler ve yapay zekâ uygulamalarının; biyoteknoloji ve etik, organ nakli, kök hücre ve DNA çalışmaları ile COVID-19 ve aşı çalışmaları gibi sağlık alanındaki gelişmelerin toplum hayatında meydana getirdiği değişim ve sürekliliğe neden olan unsurları incelemeleri sağlanır (OB1, E3.2). Öğrencilerden bilim, kültür ve teknoloji alanlarındaki güncel gelişmelerin insan ahlakına ve toplum hayatına etkilerini tartışmaları istenir (D3.3). Öğrenciler, öğrendikleri bilgilerden hareketle 1991 ve sonrasında yaşanan bilimsel, kültürel ve teknolojik gelişmelerin toplum hayatında meydana getirdiği değişim ve sürekliliğin etkilediği unsurları inceler (OB5). Yaptıkları incelemelerden hareketle 1991 ve sonrasında yaşanan bilimsel, kültürel ve teknolojik gelişmelerin toplum hayatında meydana getirdiği değişim ve sürekliliğin olumlu veya olumsuz etkilerini sorgular (SDB3.3, E3.10). Öğrendiklerinden yola çıkarak 1991 ve sonrasında yaşanan bilimsel, kültürel ve teknolojik gelişmelerin toplum hayatında meydana getirdiği değişim ve sürekliliğin nedenlerini ve sonuçlarını bağlamından kopmadan ifade eder (SDB2.1). Bu amaçla öğrencilerden 1991 ve sonrasında yaşanan bilimsel, kültürel ve teknolojik gelişmelerin toplum hayatındaki gelişimini konu edinen değişim ve süreklilik formunu doldurmaları ve formdaki bilgileri yorumlamaları istenir. ÇAĞDAŞ TÜRK VE DÜNYA TARİHİ DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden 1991’den günümüze kadar ortaya çıkan askerî mücadeleleri asimetrik savaş bağlamında değerlendirerek bu mücadelelerle ilgili bir rapor yazmaları istenebilir. Türkiye’nin AB’ye üyelik süreciyle ilgili bir açıklamalı tarih şeridi hazırlamaları istenebilir. * 1991 ve sonrasında ortaya çıkan başlıca önemli gelişmelerden (SSCB’nin dağılması, AB’nin genişlemesi, Arap Baharı, Asya’nın ekonomik yükselişi vb.) birini seçerek seçtiği gelişme karşısında ABD, Rusya Federasyonu, Çin, AB gibi devlet ve toplulukların siyasi, askerî ve ekonomik stratejilerini incelemeleri ve bu stratejilerin etkilerine yönelik Türkiye’nin geliştirebileceği politikalar hakkında senaryo oluşturmaları istenebilir. * Yapay zekâ uygulamasının Türkiye’nin gelecekteki sosyal ve kültürel hayatına etkisine yönelik anket çalışması yapmaları ve anket sonuçlarını sınıf ortamında paylaşmaları istenebilir. Destekleme 1991 ve sonrasında yaşanan başlıca siyasi gelişmeler ve askerî mücadeleler ile bu gelişmelere yönelik açıklamalar tablo üzerinde verilerek öğrencilerden bunları eşleştirmeleri istenebilir. Bilim ve Teknoloji Tarihi Müzesine sanal gezi yapmaları ve izlenimlerini paylaşmaları istenebilir. Öğretmeni ve arkadaşlarından yardım alarak 1991 ve sonrasında yaşanan sosyal ve ekonomik gelişmelerle ortaya çıkan sorunlar ve ilgili görselleri eşletirmeleri istenebilir. Seçecekleri teknolojik bir aletin gelişimi ile ilgili resimli tarih şeridi hazırlamaları istenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz."
+   },
+   "outcomes": []
+  }
+ ],
+ "unassigned_outcomes": [
+  {
+   "code": "ÇTDT.1.1",
+   "grade": 1,
+   "unit": null,
+   "order": 1,
+   "text": "1919-1945 yılları arasındaki siyasi gelişmebeceri ve becerilerin süreç lerin ve askerî mücadelelerin Türk ve dünya bileşenlerini ifade eder. tarihine etkilerini çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "1919-1945 yılları arasındaki siyasi gelişmelerin ve askerî mücadelelerin Türk ve dünya tarihine etkilerini belirler."
+    }
+   ]
+  },
+  {
+   "code": "ÇTDT.1.2",
+   "grade": 1,
+   "unit": null,
+   "order": 2,
+   "text": "1919-1945 yılları arasındaki sosyal ve ekonomik gelişmelerin meydana getirdiği insani krizleri tarihsel bağlamı içerisinde değerlendirebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "1919-1945 yılları arasındaki sosyal ve ekonomik gelişmelerin meydana getirdiği insani krizleri kanıtlara dayalı analiz eder."
+    },
+    {
+     "label": "b",
+     "text": "1919-1945 yılları arasındaki sosyal ve ekonomik gelişmelerin meydana getirdiği insani krizlerin yaşandığı dönemin koşullarını fark eder."
+    },
+    {
+     "label": "c",
+     "text": "1919-1945 yılları arasındaki sosyal ve ekonomik gelişmelerin meydana getirdiği insani krizlerin yaşandığı dönemin koşullarını günümüz koşullarıyla karşılaştırır."
+    },
+    {
+     "label": "ç",
+     "text": "1919-1945 yılları arasındaki sosyal ve ekonomik gelişmelerin meydana getirdiği insani krizleri ait olduğu dönemin koşulları içerisinde açıklar."
+    }
+   ]
+  },
+  {
+   "code": "ÇTDT.1.3",
+   "grade": 1,
+   "unit": null,
+   "order": 3,
+   "text": "1919-1945 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelerin toplum hayatına etkilerini yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "1919-1945 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelerin etkilerini inceler."
+    },
+    {
+     "label": "b",
+     "text": "1919-1945 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelerin etkilerini bağlamdan kopmadan dönüştürür."
+    },
+    {
+     "label": "c",
+     "text": "1919-1945 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelerin etkilerini yeniden ifade eder."
+    }
+   ]
+  },
+  {
+   "code": "ÇTDT.2.1",
+   "grade": 2,
+   "unit": null,
+   "order": 1,
+   "text": "Çift kutuplu dünya düzeninin 1945-1991 yılları arasında Türk ve dünya tarihindeki siyasi gelişmelere ve askerî mücadelelere etkisini sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Çift kutuplu dünya düzeninin 1945-1991 yılları arasındaki siyasi gelişmelere ve askerî mücadelelere etkisi hakkında merak ettiği konuyu belirler."
+    },
+    {
+     "label": "b",
+     "text": "İlgili konu hakkında sorular sorar."
+    },
+    {
+     "label": "c",
+     "text": "Farklı kaynaklar üzerinden konuya ilişkin bilgi toplar."
+    },
+    {
+     "label": "ç",
+     "text": "Topladığı bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Çift kutuplu dünya düzeninin 1945-1991 yılları arasındaki siyasi gelişmelere ve askerî mücadelelere etkileri hakkında topladığı bilgiler üzerinden çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "ÇTDT.2.2",
+   "grade": 2,
+   "unit": null,
+   "order": 2,
+   "text": "Çift kutuplu dünya düzeninin 1945-1991 yılları arasında meydana gelen sosyal ve ekonomik gelişmelerdeki rolünü tartışabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Çift kutuplu dünya düzeninin 1945-1991 yılları arasında meydana gelen sosyal ve ekonomik gelişmelerdeki rolüne ilişkin mantıksal temellendirme yapar."
+    },
+    {
+     "label": "b",
+     "text": "Çift kutuplu dünya düzeninin 1945-1991 yılları arasında meydana gelen sosyal ve ekonomik gelişmelerdeki rolüne ilişkin mantıksal çelişkileri ve tutarsızlıkları belirler."
+    },
+    {
+     "label": "c",
+     "text": "Çift kutuplu dünya düzeninin 1945-1991 yılları arasında meydana gelen sosyal ve ekonomik gelişmelerdeki rolünü gerekçeleriyle çürütür veya kabul eder."
+    }
+   ]
+  },
+  {
+   "code": "ÇTDT.2.3",
+   "grade": 2,
+   "unit": null,
+   "order": 3,
+   "text": "1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin oluşturduğu ürünleri paylaşabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin merak ettiği konuyu belirler."
+    },
+    {
+     "label": "b",
+     "text": "Araştırmasında belirlediği kaynaklardan 1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin bilgi toplar."
+    },
+    {
+     "label": "c",
+     "text": "1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin belirlediği kaynakları inceleyerek araştırmasına dair bilgileri inceler."
+    },
+    {
+     "label": "ç",
+     "text": "1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin kullanacağı kaynakların sınırlılığını sorgular."
+    },
+    {
+     "label": "d",
+     "text": "1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin kaynaklardan araştırmasına uygun olarak belirlediği bilgileri yorumlar."
+    },
+    {
+     "label": "e",
+     "text": "1945-1991 yılları arasındaki bilimsel, teknolojik ve kültürel gelişmelere ilişkin kanıtlara dayanarak oluşturduğu araştırmasını paylaşır."
+    }
+   ]
+  },
+  {
+   "code": "ÇTDT.3.1",
+   "grade": 3,
+   "unit": null,
+   "order": 1,
+   "text": "1991 ve sonrasında yaşanan siyasi gelişmelerin ve askerî mücadelelerin Türk ve dünya tarihine etkilerini özetleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "1991 ve sonrasında yaşanan siyasi gelişmelerin ve askerî mücadelelerin Türk ve dünya tarihine etkileri ile ilgili çözümleme yapar."
+    },
+    {
+     "label": "b",
+     "text": "1991 ve sonrasında yaşanan siyasi gelişmelerin ve askerî mücadelelerin Türk ve dünya tarihine etkileri ile ilgili sınıflandırma yapar."
+    },
+    {
+     "label": "c",
+     "text": "1991 ve sonrasında yaşanan siyasi gelişmelerin ve askerî mücadelelerin Türk ve dünya tarihine etkilerini yorumlar."
+    }
+   ]
+  },
+  {
+   "code": "ÇTDT.3.2",
+   "grade": 3,
+   "unit": null,
+   "order": 2,
+   "text": "1991 ve sonrasında yaşanan sosyal ve ekonomik gelişmelerle ortaya çıkan sorunların çözümüne yönelik alternatif fikirler üretebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "1991 ve sonrasında yaşanan sosyal ve ekonomik gelişmelerle ortaya çıkan bir sorunu belirleyerek çözümler."
+    },
+    {
+     "label": "b",
+     "text": "1991 ve sonrasında yaşanan sosyal ve ekonomik gelişmelerle ilgili belirlediği bir sorunun çözümüne yönelik geliştirdikleri alternatif önerilerin olası sonuçlarını geçmişte yaşayan insanların yaptıkları uygulamalar ve aldıkları kararların sonuçlarıyla karşılaştırarak değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "ÇTDT.3.3",
+   "grade": 3,
+   "unit": null,
+   "order": 3,
+   "text": "1991 ve sonrasında yaşanan bilimsel, kültürel ve teknolojik gelişmelerin toplum hayatında meydana getirdiği değişim ve sürekliliği neden ve sonuçlarıyla yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "1991 ve sonrasında yaşanan bilimsel, kültürel ve teknolojik gelişmelerin toplum hayatında meydana getirdiği değişim ve sürekliliğe neden olan unsurları inceler."
+    },
+    {
+     "label": "b",
+     "text": "1991 ve sonrasında yaşanan bilimsel, kültürel ve teknolojik gelişmelerin toplum hayatında meydana getirdiği değişim ve sürekliliğin etkilediği unsurları inceler."
+    },
+    {
+     "label": "c",
+     "text": "1991 ve sonrasında yaşanan bilimsel, kültürel ve teknolojik gelişmelerin toplum hayatında meydana getirdiği değişim ve sürekliliğin etkilerinin niteliğini sorgular."
+    },
+    {
+     "label": "ç",
+     "text": "1991 ve sonrasında yaşanan bilimsel, kültürel ve teknolojik gelişmelerin toplum hayatında meydana getirdiği değişim ve sürekliliğin nedenlerini ve sonuçlarını bağlamından kopmadan yeniden ifade eder."
+    }
+   ]
+  }
+ ],
+ "report": {
+  "units": 3,
+  "outcomes": 0,
+  "components": 0,
+  "orphan_outcomes": 9,
+  "gaps": [
+   {
+    "course": "Çağdaş Türk ve Dünya Tarihi Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "ÇTDT.1.1",
+     "ÇTDT.1.2",
+     "ÇTDT.1.3",
+     "ÇTDT.2.1",
+     "ÇTDT.2.2",
+     "ÇTDT.2.3",
+     "ÇTDT.3.1",
+     "ÇTDT.3.2",
+     "ÇTDT.3.3"
+    ]
+   }
+  ]
+ }
+}

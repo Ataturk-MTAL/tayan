@@ -36,7 +36,7 @@
     {
      "code": "MÜZ.9.1.1",
      "order": 1,
-     "text": "kurmayı ifade eder. yaşantılarının hayata geçirildiği Uygulamaları uygulamaları ifade eder. Seslendirme çalışmalarına başlamadan önce bedensel rahatlama hareketleri, nefes ve ses egzersizleri yaptırılarak öğrencilerin bedenini söylemeye hazır hâle getirmeleri sağlanır. İstiklal Marşı’nın ilk Akranlarından daha ileri iki kıtasının sözleri tahtaya yazılır veya dijital/teknodüzeydeki öğrencilere lojik araçlar aracılığıyla yansıtılır. genişletilmiş ve derinleÖğrenme profilleri bakımından farklılık gösteren öğrencilere FARKLILAŞTIRMA mesine öğrenme fırsatları yönelik çeşitli zenginleştirme sunan, onların bilgi ve beve desteklemeye ilişkin öğZenginleştirme Müzik aleti çalabilen öğrencilerin iki vuruşlu ölçü cerilerini geliştiren öğrenrenme-öğretme yaşantılarını türünde bildiği bir eseri müziksel bileşenlere uyame-öğretme yaşantılarını ifade eder. rak çalmaları istenebilir. Farklı notalar üzerine maifade eder. jör-minör diziler oluşturmaları istenebilir. Destekleme Hız ve gürlük terimleri, tekrar işaretleri, nota ve sus Öğrenme sürecinde daha süre değerleri, ölçü sayısı ve diziler ile ilgili dikkat fazla zamana ve tekrara çekici görsellerle sınıf panosu hazırlamaları isteneihtiyaç duyan öğrencileÖğretmenin ve programın bilir. re ortam, içerik, süreç ve güçlü ve iyileştirilmesi gereürün bağlamında uyarlanken yönlerinin öğretmenler ÖĞRETMEN mış öğrenme-öğretme tarafından değerlendirilmesini YANSITMALARI Programa yönelik görüş ve önerileriniz yaşantılarını ifade eder. ifade eder. için karekodu akıllı cihazınıza okutunuz. MÜZİK DERSİ ÖĞRETİM PROGRAMI 2. MÜZİK DERSİ ÖĞRETİM PROGRAMI’NDA YER ALAN FARKLI SINIF DÜZEYLERİNE AİT TEMALAR HAZIRLIK SINIFI 1. TEMA: MÜZİK DİLİ Bu temada İstiklal Marşı’nın müziksel söylenebilmesi, verilen eser üzerinde temel müzik yazı ve işaretlerine ilişkin kavramların çözümlenebilmesi amaçlanmaktadır. DERS SAATİ 12",
+     "text": "kurmayı ifade eder. yaşantılarının hayata geçirildiği Uygulamaları uygulamaları ifade eder. Seslendirme çalışmalarına başlamadan önce bedensel rahatlama hareketleri, nefes ve ses egzersizleri yaptırılarak öğrencilerin bedenini söylemeye hazır hâle getirmeleri sağlanır. İstiklal Marşı’nın ilk Akranlarından daha ileri iki kıtasının sözleri tahtaya yazılır veya dijital/teknodüzeydeki öğrencilere lojik araçlar aracılığıyla yansıtılır. genişletilmiş ve derinleÖğrenme profilleri bakımından farklılık gösteren öğrencilere FARKLILAŞTIRMA mesine öğrenme fırsatları yönelik çeşitli zenginleştirme sunan, onların bilgi ve beve desteklemeye ilişkin öğZenginleştirme Müzik aleti çalabilen öğrencilerin iki vuruşlu ölçü cerilerini geliştiren öğrenrenme-öğretme yaşantılarını türünde bildiği bir eseri müziksel bileşenlere uyame-öğretme yaşantılarını ifade eder. rak çalmaları istenebilir. Farklı notalar üzerine maifade eder. jör-minör diziler oluşturmaları istenebilir. Destekleme Hız ve gürlük terimleri, tekrar işaretleri, nota ve sus Öğrenme sürecinde daha süre değerleri, ölçü sayısı ve diziler ile ilgili dikkat fazla zamana ve tekrara çekici görsellerle sınıf panosu hazırlamaları isteneihtiyaç duyan öğrencileÖğretmenin ve programın bilir. re ortam, içerik, süreç ve güçlü ve iyileştirilmesi gereürün bağlamında uyarlanken yönlerinin öğretmenler ÖĞRETMEN mış öğrenme-öğretme tarafından değerlendirilmesini YANSITMALARI Programa yönelik görüş ve önerileriniz yaşantılarını ifade eder. ifade eder. için karekodu akıllı cihazınıza okutunuz. MÜZİK DERSİ ÖĞRETİM PROGRAMI 2. MÜZİK DERSİ ÖĞRETİM PROGRAMI’NDA YER ALAN FARKLI SINIF DÜZEYLERİNE AİT TEMALAR HAZIRLIK SINIFI",
      "components": []
     },
     {
@@ -574,14 +574,6 @@
   "outcomes": 41,
   "components": 0,
   "orphan_outcomes": 0,
-  "gaps": [
-   {
-    "course": "Müzik Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "MÜZ.1.2.7"
-    ]
-   }
-  ]
+  "gaps": []
  }
 }

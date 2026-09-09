@@ -3,7 +3,7 @@
   "id": 76,
   "name": "Matematik ve Bilim Uygulamaları Dersi",
   "slug": "ortaokul-matematik-ve-bilim-uygulamalari-dersi",
-  "prefix": "MBU.MU",
+  "prefix": "MBU.BU",
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/matematik-ve-bilim-uygulamalari-dersi_20260819_072414_252.pdf"
@@ -115,6 +115,14 @@
  ],
  "unassigned_outcomes": [
   {
+   "code": "MBU.BU.1.1.1",
+   "grade": 1,
+   "unit": 1,
+   "order": 1,
+   "text": "deneyimleri arasında bağ Öğrenme-Öğretme Evde gıda tüketimini içeren örnek olay verilerek öğile uyumlu öğrenme-öğretme kurmayı ifade eder. Uygulamaları rencilerin tartışmaları istenebilir (E1.1, SDB2.1). Evde yaşantılarının hayata geçirilgıda tüketimiyle ilgili merak ettikleri soruları sormaları diği uygulamaları ifade eder. istenir (E1.1, E3.8).Evde gıda tüketimine dikkat edip etmedikleri sorularak öğrencilerin deneyimlerini açıklamaları istenebilir (SDB1.1, SDB2.1, D17.1). Öğrenme profilleri bakımından farklılık gösteren Akranlarından daha ileri düöğrencilere yönelik çeşitli zeydeki öğrencilere genişFARKLILAŞTIRMA zenginleştirme ve desletilmiş ve derinlemesine öğrenme fırsatları sunan, teklemeye ilişkin öğrenZenginleştirme Gıda atığı miktarını en aza indirebilmek için uygulanaonların bilgi ve becerilerini bilir bir gıda tüketim planı hazırlamaları istenebilir. Hame-öğretme yaşantılarını geliştiren öğrenme-öğretme zırladıkları planı çevreleriyle paylaşarak uygulanması ifade eder. konusunda farkındalık oluşturmaları sağlanabilir. yaşantılarını ifade eder. Destekleme Günlük hayatında gıda israfını önleyebilecek uygulama Öğrenme sürecinde daha adımlarını belirleyerek posterle sunmaları istenebilir. fazla zaman ve tekrara Günlük hayatta ısı alışverişi içeren örneklere ilişkin dijiihtiyaç duyan öğrenciletal içeriklerle pekiştirme yapmaları sağlanabilir. re ortam, içerik, süreç ve Öğretmenin ve prograürün bağlamında uyarlanmın güçlü ve iyileştirilmesi mış öğrenme-öğretme yaÖĞRETMEN Programa yönelik görüş ve önerileriniz için karegereken yönlerinin öğretşantılarını ifade eder. menlerin kendileri taraYANSITMALARI kodu akıllı cihazınıza okutunuz. fından değerlendirilmesini ifade eder. ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI 2. MATEMATİK VE BİLİM UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI’NIN TEMALARI 2.1. I. DÜZEY MATEMATİK UYGULAMALARI MODÜLÜ’NÜN TEMALARI",
+   "components": []
+  },
+  {
    "code": "MBU.MU.1.1.1",
    "grade": 1,
    "unit": 1,
@@ -131,11 +139,27 @@
    "components": []
   },
   {
+   "code": "MBU.BU.1.1.2",
+   "grade": 1,
+   "unit": 1,
+   "order": 2,
+   "text": "Öğrencilere maddelerin sıcaklık değişiminin nelere bağlı olduğu hakkında açık uçlu sorular yöneltilebilir. Bu konuda merak ettiği soruları sormaları istenir (E1.1, E3.8). Günlük hayatta maddelerin ısı alması ya da ısı vermesi sonucunda maddelerde meydana gelen değişimler ile ilgili örnekler vermeleri istenir (D3.3). Öğrencilerin verilen örnekleri inceleyerek maddenin ısı alışverişine ilişkin niteliklerini tanımlamaları beklenir (OB1). Isı alışverişi yapan maddelerdeki değişimleri gözlemleyebilmeleri için sınıf ortamında gösteri deneyleri yapılabilir (E1.1, E3.6). Yapılan etkinliklerden yararlanarak grup olarak günlük hayatta ısı alışverişi içeren örneklerle ilgili veri toplamaları ve topladıkları bu verileri kaydederek raporlaştırmaları sağlanır (SDB2.2, KB2.6, OB7). Öğrencilerden verilen örnekler ve yapılan etkinliklerde meydana gelen değişimleri genleşme-büzülme ve hâl değişimi olaylarıyla ilişkilendirerek açıklamaları istenir (D3.3). Günlük hayatta ısı alışverişiyle gerçekleşen olaylara ait örnekler çeşitlendirilebilir. Sürecin tamamına ilişkin değerlendirmede eşleştirme testleri, tanılayıcı dallanmış ağaç, açık uçlu sorular vb. kullanılabilir.",
+   "components": []
+  },
+  {
    "code": "MBU.MU.1.1.3",
    "grade": 1,
    "unit": 1,
    "order": 3,
    "text": "Öğrencilere mutfak alışverişi veya yemek tarifi gibi günlük durumlarda kesirlerin kullanımına yönelik örnekler sunulur. Öğrencilerden verilen örnekleri inceleyerek bu örneklerde kesirlerin ve ölçme birimlerinin kullanımını belirlemeleri istenir. Ardından hazırlamak istedikleri yemekte kullanacakları malzemeler veya mutfak ihtiyaçları için yapacakları alışverişle ilgili bir liste oluşturmalarını içeren bir performans görevi verilebilir. İhtiyaçlar konusu sosyal bilgiler dersiyle ilişkilendirilebilir. Öğrencilerden hazırladıkları listeyi sınıf arkadaşlarına sunmaları ve performans görevi sürecinde sorumlu ve planlı davranmaları beklenir (SDB2.1, D3.2, E2.2). Daha sonra öğrencilerden hazırladıkları listeleri incelemeleri ve malzeme miktarlarını kütle ve sıvı ölçü birimleriyle belirttikten sonra, bu miktarları farklı kesir temsillerine dönüştürerek ifade etmeleri istenir. Ardından kesirleri kesir modellerini kullanarak (örneğin, sayı doğrusu, kare veya dikdörtgen alan modeli, kesir takımları) temsil etmeleri ve temsilleri ilişkilendirmeleri istenir (MAB3). Bu temsiller üzerinden sınıf tartışması yapılarak öğrencilerden kesir ve ölçme birimlerinin günlük eylemlerle ilişkisini nezaketli bir şekilde açıklamaları sağlanır (SDB2.1, D14.1, E2.2, E3.1). Performans görevleri süreç bileşenleri dikkate alınarak performans kriterlerini barındıran analitik dereceli puanlama anahtarı yardımıyla değerlendirilebilir. Öğrenme çıktısının sonunda açık uçlu sorulardan oluşan çalışma kâğıdı kullanılarak değerlendirme yapılabilir.",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.1.1.3",
+   "grade": 1,
+   "unit": 1,
+   "order": 3,
+   "text": "Öğrencilere basit elektrik devresi ile ilgili açık uçlu sorular sorulur. Öğrencilerden elektriğin kullanıldığı alanlar ile ilgili günlük hayattan örnekler vermeleri istenir (D3.3). Öğrencilerin sınıfta, basit elektrik devresi üzerinde, devre elemanlarının elektriği iletme durumlarını ve görevlerini ifade etmeleri sağlanabilir (E3.4). Elektriğin iletilmesi ve iletilmemesinin sağladığı yararları açıklamaları istenebilir. Bu süreçte evlerde kullanılan elektrikli aletlerin ortak özelliklerini bulmaları sağlanabilir (KB2.6, KB3.2, D3.4). Gruplara ayrılarak tartışma yöntemiyle basit elektrik devrelerinden hareketle evlerde kullanılan elektrikli aletlere ilişkin nitelikleri tanımlamaları beklenir (SDB2.2, OB1). Öğrenciler gruplara ayrılarak elektrikli ev aletlerinde elektrik çarpmasını önlemek için alınacak önlemlere yönelik veri toplamaları ve topladıkları verileri çalışma kâğıdına kaydetmeleri sağlanır (OB7). Öğrencilerden ulaştıkları verileri yorumlayıp değerlendirmeleri beklenir. Öğrencilerle birlikte elektrik çarpmalarını önlemeye yönelik alınacak tedbirler listelenir (E3.4, D16.3, SDB1.2, SDB3.3). Elektrik çarpması durumunda neler yapılacağına ilişkin açıklama yapılır. Sürecin değerlendirilmesinde tanılayıcı dallanmış ağaç, açık uçlu sorular vb. ölçme araçları kullanılabilir. ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI",
    "components": []
   },
   {
@@ -163,11 +187,27 @@
    "components": []
   },
   {
+   "code": "MBU.BU.1.2.1",
+   "grade": 1,
+   "unit": 2,
+   "order": 1,
+   "text": "Uygulamaları Öğrencilerden bilimin sağlıklı yaşamla ilişkisini örnek olay yöntemi ile tartışmaları istenir (SDB2.1, D14.1). Örnek olay çerçevesinde merak ettiği soruları sormaları istenir (E1.1, E3.8). Öğrencilere bilimin sağlıklı yaşamla ilişkisi konusunda bireysel ya da grup olarak poster, afiş, resim, rapor vb. hazırlamalarını içeren performans görevleri verilir (SDB1.2, SDB2.2). Bu süreçte görev bilinciyle hareket ederek sorumlu ve planlı davranmaları sağlanır (D3.2, E2.2, D16.3). Öğrencilerden hazırlayacakları performans görevi ile ilgili bilgilere ulaşmak için kullanacakları araçları belirlemeleri beklenir (KB3.1). Bilgiye ulaşmak için güvenilir genel ağ adresleri, basılı kaynaklar, alan uzmanlarıyla görüşme vb. farklı yöntemlerden yararlanmaları sağlanır (OB1, OB2, OB4). Bu süreçte gerçeği arama isteğiyle, merak ettikleri soruları sorarak güvenilir araçları belirlemeleri sağlanır (E3.4, E3.8). Belirledikleri aracı kullanarak bilimin sağlıklı yaşamla ilişkisi hakkında bilgi toplamaları istenir (OB1). Ulaştıkları bilgileri doğrulamaları beklenir. Bu doğrulama işlemini öğretmeninden, alan uzmanından vb. yardım alarak, arkadaşları ile tartışarak veya bilimsel kaynaklara başvurarak yürütmeleri sağlanır (D3.3, OB1). Doğruladıkları bilgileri kaydetmeleri istenir (OB1). Öğrencilerden doğruladıkları bilgileri kullanarak hazırladıkları bir poster, afiş, rapor vb. arkadaşlarına sunmaları istenir. Performans görevi süreci analitik dereceli puanlama anahtarı kullanılarak değerlendirilir. Yeterli ve dengeli beslenme, düzenli ve yeterli uyku, egzersiz yapma ve bağımlılıktan uzak durmanın sağlıklı yaşam için önemine değinilerek farkındalıklarının artırılması sağlanır (D13.1, D13.2, D13.3). Bu konuda günlük uygulamalarını değerlendirerek yanlış uygulamaları doğru olanlarla değiştirmeleri teşvik edilir (SDB1.2, E3.10, KB3.3). Sürecin tamamına ilişkin değerlendirmede tanılayıcı dallanmış ağaç, açık uçlu sorular vb. kullanılabilir.",
+   "components": []
+  },
+  {
    "code": "MBU.MU.1.2.2",
    "grade": 1,
    "unit": 2,
    "order": 2,
    "text": "Öğrencilerden uzunluk, zaman ve kütle ölçme birimlerinin sağlık ve spor alanında kullanıldığı problem durumlarına örnek vermeleri istenir. Öğrencilere merak ve ilgi uyandırıcı problemler sunulur (E1.1). Bu problemlerin seçiminde gerçek yaşam durumlarından yararlanılır. Örneğin sağlıklı bir yaşam sürebilmek için günde alınması gereken protein miktarı hesabı, haftalık yapılan spor verileri, olimpiyatlardaki koşuların istatistikleri ya da günde ne kadar egzersiz yapılmalı gibi gerçek yaşam durumları problem olarak sorulabilir (D13.1). Beslenme ve sağlık konulu bu tür problemler, fen bilimleri dersiyle ilişkilendirilebilir. Uzunluk, kütle, zaman vb. ölçülerinin birim dönüşümlerinin sağlanmasına yönelik çalışmalara yer verilir. Örneğin sporcuların koşu mesafeleri m ve km birimleriyle açıklanır. Benzer şekilde zaman ve kütle ölçme birimleriyle ilgili problemlere de yer verilir. Öğrencilerden problemlerin çözümü için öncelikle problemle ilgili matematiksel bileşenleri belirlemeleri istenir. Sağlık ve spor alanlarında kullanılan uzunluk, zaman ve kütle ölçme birimleri ile ilgili problemlerin çözümünde öğrencilerin verilen ve istenenleri belirlemeleri sağlanır. Daha sonra öğrencilerden verilen ve istenenler arasındaki işlem ilişkilerini tespit etmeleri beklenir. Bu süreçte problemdeki ilişkilere yönelik basit şekil ya da diyagram çizmeleri istenerek öğrencilerin problemi anlamaları sağlanır (OB4, MAB3). Böylece problemlerin anlaşılıp anlaşılmadığı değerlendirilebilir. Öğrencilerden problem bağlamlarını yorumlarken verilenleri belirleyerek bunları uygun matematiksel temsillere dönüştürebilmeleri ve problemi kendi ifadeleriyle açıklayabilmeleri beklenir. Problemlere yönelik matematiksel çözümler geliştirilirken öğrencilerden sonuca ilişkin tahminde bulunmaları ve stratejiler geliştirmeleri beklenir. Öğrencilerin çözüm stratejileri geliştirirken somut, sözel, sembolik, görsel (tablo, şekil gibi) farklı temsillerden yararlanmaları sağlanır. Bu temsiller bilgisayar, tablet, akıllı tahta araç ve teknolojilerinden yararlanarak oluşturabilir (OB2). Öğrencilerin seçtikleri farklı stratejiler ile problemleri çözmelerine fırsat verilir (SDB3.3). Çözüm stratejileri geliştirme ve uygulama sürecinde olumlu iletişim dili kullanarak iş birliği içinde grup çalışmaları yapmaları sağlanır (SDB2.1, SDB2.2). Öğrencilerden grup çalışmaları sırasında çözüm stratejilerini gözden geçirmeleri, çözüme ulaştırmayan stratejileri değiştirmeleri beklenir. Kullandıkları veya geliştirdikleri stratejileri gözden geçirip alternatif yollara ilişkin çıkarım ve değerlendirmeler yapmaları istenerek stratejilerini paylaşmalarına olanak sağlanır. Problem çözme sürecinde kullandıkları stratejilerin hangi tür problemlerde kullanılabileceğine dair genelleme yapmaları ve yaptıkları genellemelerin geçerliliğini matematiksel örneklerle değerlendirmeleri beklenir. Öğrencilerin benzer türde gerçek yaşam problemleri kurmaları ve problemlerin bağlamlarına yönelik yansıtmalar yapmaları da sağlanabilir (E3.1). Ayrıca çıkarımlarını değerlendirmeleri ve karar verme sürecine ait davranışlarının sorumluluğunu kabul etmeleri sağlanır (SDB1.2, SDB3.3, D16.3). Sağlık ve spor alanında kullanılan uzunluk, zaman ve kütle ölçme birimleri ile ilgili problemlerde öğrencilerin problem çözme sürecini değerlendirmede kontrol listesi kullanılabilir. Öğrenmelerin değerlendirilmesi için problem çözme süreçlerini kullanmaları gereken açık uçlu sorular kullanılabilir.",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.1.2.2",
+   "grade": 1,
+   "unit": 2,
+   "order": 2,
+   "text": "Öğrencilerden düzenli ve dengeli beslenmeyi olumsuz etkileyen durumları örnek olay yöntemi ile tartışmaları istenir (SDB2.1, D14.1, E3.10). Örnek olay çerçevesinde merak ettiği soruları sormaları istenir (E1.1, E3.8). Tartışma süreci için gruplara ayrılan öğrencilerin düzenli ve dengeli beslenmeyi olumsuz etkileyen durumlara yönelik mantıksal temellendirme yapmaları sağlanır (SDB2.1, SDB2.2, KB3.3, E3.1). Bu süreçte öğrencilerin grup içinde aktif olmaları, görev bilinciyle çalışmaları desteklenir (D3.2, E2.2, SDB2.2). Düzenli ve dengeli beslenmeyi olumsuz etkileyen durumlara yönelik mantıksal çelişkileri tespit etmeleri sağlanır (E3.6). Gruplarda ortaya çıkan fikirler sınıf tartışmasına açılır. Öğrencilerin düzenli ve dengeli beslenmeyi olumsuz etkileyen durumlara yönelik geçerli fikirleri belirleyerek çürütmeleri veya kabul etmeleri sağlanır (OB1, KB3.3, KB3.1). Ülkemizde görülen obezite ve beslenme bozukluklarına bağlı hastalıklara değinilir. Beslenme bozukluklarından obeziteye odaklanmaları istenir. Sağlıklı beslenme alışkanlıklarının sağlıklı yaşam için önemini kavramaları sağlanır (D13.4). Sürecin tamamına ilişkin açık uçlu sorular, tanılayıcı dallanmış ağaç vb. ölçme araçları değerlendirmeler için kullanılabilir. ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI",
    "components": []
   },
   {
@@ -179,11 +219,43 @@
    "components": []
   },
   {
+   "code": "MBU.BU.1.2.3",
+   "grade": 1,
+   "unit": 2,
+   "order": 3,
+   "text": "Bilimin spor dalları üzerindeki etkileri ile ilgili beyin fırtınası vb. tekniklerle öğrencilerin fikirleri alınabilir (SDB2.1, D14.1, E3.5). Bilimin spor dalları üzerindeki etkisine ilişkin grup tartışması tekniğinden faydalanılabilir (SDB2.1, SDB2.2). Öğrencilerin bilimin spor dalları üzerindeki etkisini inceleyerek nedensel ilişkileri ortaya koymaları sağlanır (KB3.3, OB1). Bilimin spor dalları üzerindeki etkilerine örnek olabilecek görseller öğrencilere inceletilir (OB4). Öğrencilerin örnekleri analiz etmesi ve bilimin spor dalları üzerindeki etkisini yorumlamaları sağlanır (OB1). Bilimin spor dalları üzerindeki etkileri konusunda elde edilen bilgileri uyumlu bir bütün olarak açıklamaları sağlanır (OB1). Spor dalları üzerinde bilimin önemli bir etkisinin olduğunu vurgulanır. Serbest dalış, dağcılık vb. alanlarda bilimsel verilerin nasıl kullanıldığından bahsedilir. Sürecin tamamı çalışma kâğıtları, açık uçlu sorular vb. ölçme araçlarıyla değerlendirilebilir.",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.1.2.4",
+   "grade": 1,
+   "unit": 2,
+   "order": 4,
+   "text": "Öğrencilerden spor dallarına örnekler vermeleri istenir. Spor dallarında kullanılan ekipmanlar hakkında açık uçlu sorular yöneltilebilir. Öğrencilere seçtikleri bir spor dalına ait ekipman tasarımının bilimle ilişkisine yönelik poster, afiş, rapor vb. hazırlamalarını içeren performans görevi verilir. Bu görev için öğrencilerin gruplara ayrılarak bir planlama yapmaları ve bu plana göre hareket etmeleri sağlanabilir (SDB2.2, D16.3, E2.2). Öğrencilerden seçtikleri spor dalına ait ekipman tasarımının bilimle ilişkisini araştırmak için kullanacakları araçları belirlemeleri beklenir (SDB3.3). Bilgiye ulaşmak için güvenilir genel ağ adresleri, basılı kaynaklar, alan uzmanlarıyla görüşme vb. farklı yöntemlerden yararlanılır (OB4, OB2, OB1). Belirledikleri aracı kullanarak seçtikleri spor dalına ait ekipman tasarımının bilimle ilişkisine yönelik bilgi toplamaları istenir (OB1). Öğrencilerden ulaştıkları bilgileri öğretmeninden, alan uzmanından vb. yardım alarak, arkadaşları ile tartışarak veya bilimsel kaynaklara başvurarak doğrulamaları beklenir (OB1). Seçtikleri spor dalına ait ekipman tasarımında kullanılan bilimsel altyapıyı açıklamaları sağlanır. Bu süreçte öğrencilerin açık fikirli davranmaları, bilimsel bakış açısıyla fikirlerini savunmaları sağlanır (E3.5, D3.3). Doğruladıkları bilgileri kaydetmeleri istenir (OB1). Öğrencilerden doğruladıkları bilgileri kullanarak hazırladıkları bir poster, afiş, rapor vb. arkadaşlarına sunmaları istenir. Bu görev bütüncül dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Yüzücü kıyafetlerinin, tenis raketlerinin, farklı spor dallarında kullanılan ayakkabılarının, badminton araç gereçlerinin vb. tasarımında bilimden nasıl yararlanıldığına değinilir. Sürecin tamamına ilişkin değerlendirmede eşleştirme testleri, tanılayıcı dallanmış ağaç, açık uçlu sorular vb. kullanılabilir.",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.1.2.5",
+   "grade": 1,
+   "unit": 2,
+   "order": 5,
+   "text": "Öğrencilere özel gereksinimli bir bireyin günlük hayatta karşılaştığı zorlukların neler olabileceği ile ilgili açık uçlu sorular sorulur. Öğrencilerden özel gereksinimli bir bireyin hayatını kolaylaştırmak için empatik yaklaşımla bilimsel bir model önermeleri istenir (E2.1, E3.3, E1.5). Gruplara ayrılan öğrencilerden iş birliği içinde mühendislik tasarım döngüsünü kullanılarak bir model tasarlamaları beklenir (SDB2.2, E3.3, E3.6). Süreçte düşüncelerini açık fikirlilikle ifade etmeleri, farklı fikirlere saygı duymaları ve yardımlaşmaları istenir (SDB2.1, E3.5, D14.1, D20.3). Model tasarlama sürecinde plan yapmaları ve planlarını zamanında ve eksiksiz yürütmeleri istenir (D3.2, D12.3, D16.3). Modellerini belirledikleri araç gereçlerden yola çıkarak estetik bakış açısıyla özgün ve bütüncül bir anlayışla tasarlamaları sağlanır (D7.1, OB1, E3.3). Tasarladıkları modelleri diğer modellerle karşılaştırarak tespit ettikleri hata ve eksiklikleri değerlendirip modellerini geliştirmeleri sağlanır (SDB1.3, D16.3, E3.1, KB2.14). Tasarlanan modeller analitik dereceli puanlama anahtarı ile değerlendirilebilir. Özel gereksinimli bireylere ihtiyaçları doğrultusunda yardım etmenin önemini farkederek bu konuda sorumlu davranmaları desteklenir (D9.1, SDB3.3). ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI",
+   "components": []
+  },
+  {
    "code": "MBU.MU.1.3.1",
    "grade": 1,
    "unit": 3,
    "order": 1,
    "text": "Uygulamaları Öğrencilere sanat eserlerinde simetrinin kullanım alanları ile ilgili görseller sunularak veya dijital ortamda sanal müze gezisi yapmaları sağlanarak dikkatleri çekilebilir (OB2, OB4). Bu süreçte “Okul Dışı Öğrenme Ortamları” genel ağ sayfasından da yararlanılabilir. Öğrencilere kilim, çini, ebru, mimari vb. sanat eserlerindeki simetrik durumlar sunulabilir (D7.1). Sunulan görseller veya sanal müze gezisindeki eserlerdeki simetrinin kullanım alanlarını belirlemeleri beklenir. İncelenen sanat eserlerinde simetrinin kullanımına yönelik \"Sanat eserlerinde simetrinin kullanım nedeni nedir?”, “Simetri kullanımının sanat eserlerine katkısı nedir?\" vb. sorular sormaları sağlanır (E3.8). Öğrencilerin sanat eserlerinde ve hologram gibi tekniklerde simetrinin kullanımına dair bilgi toplamaları istenir. Bilgi toplarken dijital platform, görsel ve basılı kaynaklar, vb. yararlanmaları sağlanır (OB2). Elde ettikleri bilgileri görsel, yazılı veya sözlü sunum tekniklerini kullanarak ifade etmeleri ve bu bilgilerin doğruluğunu simetri özelliklerini kullanarak etkin bir tartışma ortamında eleştirel bakış açısı ile değerlendirmeleri sağlanır (SDB2.1, E3.1, E3.10, KB2.9). Örneğin “İncelediğim sanat eserlerinden bazıları simetri özelliği taşıyordu bazıları taşımıyordu.” vb. Daha sonra inceledikleri sanat eserlerinin simetrik olup olmadığına dair çıkarım yapmaları sağlanır. Örneğin “Bu eser simetriktir çünkü sağ ve sol tarafları birbirinin eşidir.” vb. (KB2.10). Öğrencilere simetri ile ilgili öğrendiği bilgileri kullanarak özgün bir tasarım hazırlamalarına yönelik performans görevi verilebilir (SDB1.2, D7.2, E3.3). Bu performans ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. Öğrenme çıktısı sonunda kontrol listesi kullanılarak değerlendirme yapılabilir.",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.1.3.1",
+   "grade": 1,
+   "unit": 3,
+   "order": 1,
+   "text": "Uygulamaları Çeşitli sanat dallarından görseller sınıfa getirilerek veya dijital kaynaklarla sunularak öğrencilerin görselleri incelemeleri sağlanabilir (OB2, OB4, OB9, E3.2). Öğrencilere sanat dalları ve sanat dallarında bilimin kullanımı hakkında açık uçlu sorular yöneltilebilir. Öğrencilerin merak ettikleri soruları sormaları istenebilir (E1.1, E3.8). Görsellerde verilen sanat dallarında bilimin kullanımına yönelik nitelikleri tanımlamaları beklenir. Öğrencilerden sanat dallarında bilimin kullanımına yönelik bilgi toplamaları ve topladıkları bu bilgileri kaydetmeleri istenir (OB1). Kaydettikleri bilgiler çerçevesinde benzer durumlara ilişkin günlük yaşantılarından örneklendirme yapmaları istenir (E2.2, D3.3). Sanat dallarında bilimin kullanımına yönelik topladıkları verileri örneklerle ilişkilendirerek açıklamaları istenir (SDB3.3, D3.3). Bu açıklamaları posterle sunmaları istenebilir. Hazırlanan posterler analitik dereceli puanlama anahtarı ile değerlendirilebilir. Sürecin tamamına ilişkin değerlendirmede tanılayıcı dallanmış ağaç, açık uçlu sorular vb. kullanılabilir.",
    "components": []
   },
   {
@@ -195,11 +267,27 @@
    "components": []
   },
   {
+   "code": "MBU.BU.1.3.2",
+   "grade": 1,
+   "unit": 3,
+   "order": 2,
+   "text": "Öğrencilerden geleneksel Türk sanatları ile ilgili örnekler vermeleri istenir (OB5, D19.3). Geleneksel Türk sanatlarının oluşturulmasında ışık, gölge, renk, hacim vb. bilimsel kavramlar ile ilgili açık uçlu sorular yöneltilebilir. Öğrencilere geleneksel Türk sanatlarının oluşturulmasında bilimsel kavramların etkisine ilişkin araştırma yaparak bireysel ya da grup olarak poster, afiş, resim vb. hazırlamalarını içeren performans görevi verilir (SDB2.2, OB1, OB9). Öğrencilerden hazırlayacakları performans görevi ile ilgili bilgilere ulaşmak için kullanacakları araçları belirlemeleri istenir (SDB3.3, D3.3). Bilgiye ulaşmak için güvenilir genel ağ adresleri, basılı kaynaklar, alan uzmanlarıyla görüşme vb. farklı yöntemlerden yararlanmaları istenir (OB1, OB2, D3.3). Bu süreçte gerçeği arama isteğiyle merak ettiği soruları sorarak hareket etmeleri beklenir (E1.1, E3.4, E3.8). Belirledikleri aracı kullanarak geleneksel Türk sanatlarının oluşturulmasında bilimsel kavramların etkisine ilişkin bilgi toplamaları istenir (OB7). Öğrencilerden ulaştıkları bilgileri öğretmeninden, alan uzmanından vb. yardım alarak, arkadaşları ile tartışarak veya bilimsel kaynaklara başvurarak doğrulamaları sağlanır (KB3.3, OB1, D16.3, E3.4). Doğruladıkları bilgileri kaydetmeleri istenir (OB1). Güvenilir genel ağ adreslerinden yararlanma, dijital sunum, video hazırlama noktasında bilişim teknolojileri ve yazılım dersiyle ilişki kurulabilir (OB2). Doğruladıkları bilgileri kullanarak hazırladıkları poster, afiş, resim vb. olarak sunmaları istenebilir. Geleneksel Türk sanatlarının oluşturulmasında bilimsel kavramların etkisini fark etmeleri sağlanır. Geleneksel Türk sanatlarına hat, tezhip, minyatür, ebru, cam işleme, seramik, çini, çömlek, dokuma vb. değinilir. Bu sanat türlerinde ışık, gölge, renk, hacim vb. bilimsel kavramlardan nasıl faydalanıldığı kısaca açıklanır. Geleneksek Türk sanatlarının kültürümüzdeki önemi vurgulanarak bu konuda örnek eserler gösterilebilir (OB5, OB9, D14.3). Performans görevi süreci analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Sürecin tamamına ilişkin değerlendirmede açık uçlu sorular, eşleştirme testleri vb. kullanılabilir. ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI",
+   "components": []
+  },
+  {
    "code": "MBU.MU.1.3.3",
    "grade": 1,
    "unit": 3,
    "order": 3,
    "text": "Öğrencilere sanat eserlerinde geometrik şekil ve cisimlerin kullanım alanlarına yönelik açık uçlu sorular sorularak tartışma ortamı oluşturulur (SDB2.1, E3.10). Örneğin “Geometrik şekil ve cisim modelleri kullanılarak oluşturulan sanat eserlerine örnekler verebilir misiniz?” gibi sorularla öğrencinin merak duygusu artırılabilir (E1.1). Öğrencilere sanatta geometrik şekil ve cisimlerin kullanım alanlarına ilişkin bireysel ya da grup olarak poster, afiş, rapor vb. hazırlayacakları bir performans görevi verilir. Öğrencilerden hazırlayacakları performans görevi ile ilgili bilgilere ulaşmak için kullanacakları araçları belirlemeleri beklenir. Bilgiye ulaşmak için güvenilir genel ağ adresleri, basılı kaynaklar, alan uzmanlarıyla görüşme vb. farklı yöntemlerden yararlanmaları sağlanır (OB1, OB2). Bu süreçte gerçeği arama isteğiyle merak ettikleri soruları sorarak güvenilir araçları belirlemeleri sağlanır (E3.4, E3.8). Belirledikleri aracı kullanarak geometrik cisim ve şekillerin kullanım alanları hakkında bilgi toplamaları istenir (OB7). Ulaştıkları bilgileri doğrulamaları beklenir. Bu doğrulama işlemini öğretmeninden, alan uzmanından vb. yardım alarak, arkadaşları ile tartışarak veya bilimsel kaynaklara başvurarak yürütmeleri sağlanır (D3.3, OB7, OB1). Doğruladıkları bilgileri kaydetmeleri istenir (OB1). Kaydedilen bilgiler dijital sunum, poster, afiş vb. yöntemlerle sunulabilir (OB2, SDB2.1). Süreçte görev bilinciyle hareket ederek sorumlu ve planlı davranmaları sağlanır (D3.2, D16.3, E2.2). Performans görevi sürecini değerlendirmek için analitik dereceli puanlama anahtarı kullanılabilir. Öğrenme durumlarını değerlendirmek için açık uçlu sorular vb. kullanılabilir.",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.1.3.3",
+   "grade": 1,
+   "unit": 3,
+   "order": 3,
+   "text": "Öğrencilerden mimaride bilimin kullanımına ilişkin bir durumu örnek olay yöntemi ile tartışmaları istenir (KB3.3, SDB2.2, E3.10). Mimaride bilimin kullanıldığı köprü, tünel, cami, gökdelen, stadyum, baraj vb. yapılar ve Mimar Sinan’ın Türk kültürüne ait eserlerinden örnekler ile ilgili açık uçlu sorular yöneltilebilir. Öğrencilere mimaride bilimin kullanımına ilişkin bireysel ya da grup olarak araştırma yapmaları ve poster, afiş, resim, video, sunu vb. şeklinde sunmalarını içeren performans görevi verilir (SDB2.1, SDB2.2, OB1, OB4, OB9). Öğrencilerden hazırlayacakları performans görevi ile ilgili bilgilere ulaşmak için kullanacakları araçları belirlemeleri istenir (SDB3.3, D3.3). Bilgiye ulaşmak için güvenilir genel ağ adresleri, basılı kaynaklar, alan uzmanlarıyla görüşme vb. farklı yöntemlerden yararlanılır (OB1, OB2, OB4). Bu süreçte “Okul Dışı Öğrenme Ortamları” genel ağ sayfasından da yararlanılabilir. Araştırma sürecinde gerçeği arama isteğiyle merak ettiği soruları sorarak hareket etmeleri beklenir (OB1, OB2, E1.1, E3.4, E3.8). Belirledikleri aracı kullanarak mimaride bilimin kullanımına ilişkin bilgi toplamaları istenir (OB7). Öğrencilerden ulaştıkları bilgileri öğretmeninden, alan uzmanından vb. yardım alarak, arkadaşları ile tartışarak veya bilimsel kaynaklara başvurarak doğrulamaları istenir (OB1, E3.4, D16.3). Bu süreçte öğrencilerin açık fikirli davranmaları, bilimsel bakış açısıyla fikirlerini savunmaları sağlanır (D3.3). Doğruladıkları bilgileri kaydetmeleri istenir (OB1). Güvenilir genel ağ adreslerinden yararlanma, dijital sunum, video hazırlama noktasında bilişim teknolojileri ve yazılım dersiyle ilişki kurulabilir (OB2). Doğruladıkları bilgileri seçtikleri sunum yöntemiyle arkadaşlarına sunmaları istenir. Ülkemizde bulunan millî kültürümüze ait yapılarda bilimden nasıl faydalanıldığına değinilir (D19.3). Bu yapılarda ısı kontrolü, aydınlatma tasarımı, ses izolasyonu, malzeme seçimi, enerji verimi, sürdürülebilirlik, işlevsellik ve estetik açıdan nelerin dikkate alındığı kısaca açıklanır. Performans görevi süreci analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Sürecin tamamına ilişkin değerlendirmede açık uçlu sorular, tanılayıcı dallanmış ağaç vb. kullanılabilir.",
    "components": []
   },
   {
@@ -211,11 +299,27 @@
    "components": []
   },
   {
+   "code": "MBU.BU.1.3.4",
+   "grade": 1,
+   "unit": 3,
+   "order": 4,
+   "text": "Öğrencilere tiyatro salonlarına ait görseller inceletilebilir (KB2.2, OB4, OB9). Tiyatro sahnelerinin aydınlatılması hakkında açık uçlu sorular yöneltilebilir. Öğrencilere tiyatro sahnelerinde ışık kullanım tekniklerine ilişkin bireysel ya da grup olarak poster, afiş vb. hazırlamalarını içeren performans görevleri verilir (SDB2.1, SDB2.2, OB1, OB9). Öğrencilerden tiyatro sahnelerinde kullanılan ışık tekniklerini araştırmak için kullanacakları kaynakları belirlemeleri beklenir (SDB3.3, D3.3). Bilgiye ulaşmak için güvenilir genel ağ adresleri, basılı kaynaklar, alan uzmanlarıyla görüşme vb. farklı yöntemlerden yararlanabilirler (OB1, OB2, OB4). Bu süreçte gerçeği arama isteğiyle merak ettiği soruları sorarak hareket etmeleri beklenir (E3.4, E3.8). Belirledikleri aracı kullanarak tiyatro sahnelerinde ışık kullanım tekniklerine ilişkin bilgi toplamaları istenir (OB7). Öğrencilerden ulaştıkları bilgileri öğretmeninden, alan uzmanından vb. yardım alarak, arkadaşları ile tartışarak veya bilimsel kaynaklara başvurarak doğrulamaları beklenir (KB3.3, OB1, E3.4). Doğruladıkları bilgileri kaydetmeleri istenir (OB1). Güvenilir genel ağ adreslerinden yararlanma, dijital sunum, video hazırlama noktasında bilişim teknolojileri ve yazılım dersiyle ilişki kurulabilir (OB2). Doğruladıkları bilgileri seçtikleri sunum yöntemini kullanarak arkadaşlarıyla paylaşmaları istenir. Işığın tiyatroda kullanımı kısaca açıklanır. Performans görevi süreci analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Sürecin tamamına ilişkin değerlendirmede açık uçlu sorular, tanılayıcı dallanmış ağaç vb. kullanılabilir. ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI",
+   "components": []
+  },
+  {
    "code": "MBU.MU.1.4.1",
    "grade": 1,
    "unit": 4,
    "order": 1,
    "text": "Uygulamaları Öğrencilere nokta, doğru, doğru parçası, ışın, açı ve çemberin doğadan seçilen örneklerini içeren görseller sunularak incelenmesi sağlanır (E1.1, OB4). Görseller dijital ortamda da gösterilebilir (OB2). Daha sonra öğrencilerden, inceledikleri örneklerden hareketle nokta, doğru, doğru parçası, ışın,açı ve çember kavramlarını modelleyerek bu kavramların özelliklerini açıklayacakları poster, afiş, resim, rapor vb. hazırlamalarını içeren bir performans görevi verilir. Performans görevini grup ya da bireysel olarak yapabilecekleri belirtilir. Performans görevi hazırlama sürecinde sorumlu ve planlı davranmaları sağlanır (D3.2, E2.2). Performans görevi analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Ayrıca süreç çalışma kâğıdı ile değerlendirilebilir. ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.1.4.1",
+   "grade": 1,
+   "unit": 4,
+   "order": 1,
+   "text": "Uygulamaları Öğrencilerden doğada gerçekleşen olayların bilimle ilişkisine yönelik bir durumu örnek olay yöntemi ile tartışmaları istenir (KB3.3, SDB2.1, SDB2.2, E3.10). Örnek olay çerçevesinde merak ettiği soruları sormaları istenir (E1.1, E3.8). Kuşların uçmak için kemiklerinin ince ve boşluklu yapıda olması, penguenlerin ısınmak için daire şeklinde durup yer değiştirmesi vb. farklı durum örnekleri sunularak doğa ve bilim arasında ilişki kurmaları sağlanabilir. Öğrencilere doğada gerçekleşen olayların bilimle ilişkisine yönelik bireysel ya da grup olarak poster, afiş vb. hazırlamalarını içeren performans görevi verilir (SDB2.1, SDB2.2, OB1). Öğrencilerden doğada gerçekleşen olaylardan birini seçerek bu olayın bilimle ilişkisini araştırmak için kullanacakları kaynakları belirlemeleri istenir (SDB3.3). Bilgiye ulaşmak için güvenilir genel ağ adresleri, basılı kaynaklar, alan uzmanlarıyla görüşme vb. farklı yöntemlerden yararlanılır (OB1, OB2). Bu süreçte gerçeği arama isteğiyle merak ettiği soruları sorarak hareket etmeleri beklenir (E3.4, E3.8). Belirledikleri aracı kullanarak doğada gerçekleşen seçtikleri olayın bilimle ilişkisine yönelik bilgi toplamaları istenir (OB1). Öğrencilerden ulaştıkları bilgileri öğretmeninden, alan uzmanından vb. yardım alarak, arkadaşları ile tartışarak veya bilimsel kaynaklara başvurarak doğrulamaları beklenir (KB3.3, OB1). Doğruladıkları bilgileri kaydetmeleri istenir (OB1). Ardından doğruladıkları bilgileri poster, rapor vb. olarak arkadaşlarıyla paylaşmaları istenir. Öğrencilerin doğada gerçekleşen olayların bilimle ilişkisini fark etmeleri sağlanır (E3.10). Performans görevi süreci analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Öğrencilerden gelen örnek durum ve olaylar kısaca özetlenir. Sürecin tamamına ilişkin değerlendirmede açık uçlu sorular, tanılayıcı dallanmış ağaç vb. kullanılabilir.",
    "components": []
   },
   {
@@ -227,11 +331,27 @@
    "components": []
   },
   {
+   "code": "MBU.BU.1.4.2",
+   "grade": 1,
+   "unit": 4,
+   "order": 2,
+   "text": "Öğrencilere biyomimikri hakkında açık uçlu sorular yöneltilebilir. Biyomimikri kavramı açıklanır. Öğrencilerden biyomimikrinin kullanıldığı ürünlere örnekler vermeleri istenir (OB4, E1.1, E1.5). Öğrencilerin biyomimikrinin kullanıldığı ürünleri fark etmeleri sağlanır (E3.10). Öğrencilerin biyomimikrinin kullanıldığı ürünlere yönelik bireysel ya da grup olarak poster vb. hazırlama performans görevi verilir (SDB2.1, SDB2.2, OB1). Öğrencilerden biyomimikrinin kullanıldığı ürünleri araştırmak için kullanacakları kaynakları belirlemeleri istenir (SDB3.3, D16.3). Bilgiye ulaşmak için güvenilir genel ağ adresleri, basılı kaynaklar, alan uzmanıyla görüşme vb. farklı yöntemlerden yararlanılır (OB1, OB2). Bu süreçte gerçeği arama isteğiyle merak ettiği soruları sorarak hareket etmeleri beklenir (E3.4, E3.8). Belirledikleri kaynakları kullanarak biyomimikrinin kullanıldığı ürünlere yönelik bilgi toplamaları istenir (OB7). Öğrencilerden ulaştıkları bilgileri öğretmeninden, alan uzmanından vb. yardım alarak, arkadaşları ile tartışarak veya bilimsel kaynaklara başvurarak doğrulamaları beklenir (KB3.3, OB1). Doğruladıkları bilgileri kaydetmeleri istenir (OB1). Doğruladıkları bilgileri poster vb. olarak sunmaları beklenir. Güvenilir genel ağ adreslerinden yararlanma, dijital sunum, video hazırlama noktasında bilişim teknolojileri ve yazılım dersiyle ilişki kurulur (OB2). Pıtrak tohumundan ilham alınarak cırtcırt, günebakan bitkisinden ilham alınarak güneş paneli, yalıçapkını kuşundan ilham alınarak hızlı tren, kambur balina yüzgeçlerinden ilham alınarak rüzgâr türbini tasarlanması vb. biyomimikri örneklerine değinilir. Doğadan ilham almanın sağladığı faydalar vurgulanır. Performans görevi analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Sürecin tamamına ilişkin değerlendirmede açık uçlu sorular, tanılayıcı dallanmış ağaç vb. ölçme araçları kullanılabilir.",
+   "components": []
+  },
+  {
    "code": "MBU.MU.1.4.3",
    "grade": 1,
    "unit": 4,
    "order": 3,
    "text": "Öğrencilere alan hesaplamaya yönelik merak ve ilgi uyandıran bir problem durumu sunulur (E1.1). Bu problemin seçiminde günlük hayat durumlarından yararlanılır. “Okul bahçesinin bir bölümüne çim ekmek istiyorsunuz. Çim ekmek istediğiniz bu bölüm kare ve dikdörtgenin birleşiminden oluşan bir şekle sahip. Çim ekeceğiniz bölümün alanını nasıl hesaplarsınız?” gibi sorular sorulur. Bu sorular aracılığıyla çokgenlerin birleşiminden oluşan şekillerin alanını hesaplamak için hangi bilgilere ihtiyaç duyulacağı düşündürülerek tartışma ortamı oluşturulur (SDB2.1, E3.1, E3.10). Öğrencilerin konu hakkındaki düşünceleri alınır (SDB2.1). Çokgenlerin birleşiminde kare ve dikdörtgen ile sınırlı kalınmalıdır. Çokgenlerin birleşimden oluşan şekillerle ilgili problemlerde yaklaşık alan bulunurken birim kareden yararlanılarak çözülebilecek problemler kurgulanmalıdır. Alan problemlerinin çözümünde öğrencilerden problemi anlayarak verilen ve istenenleri belirlemeleri beklenir. Daha sonra öğrencilerden verilen ve istenenler arasındaki işlem ilişkilerini tespit etmeleri beklenir. Öğrencilerin problemdeki şekli kareli kâğıda veya dijital ortama aktarmaları, şekli uygun matematiksel temsillerle göstermeleri, problemi kendi ifadeleriyle açıklamaları istenir (MAB3, OB2, OB4). Öğrencilerin problem çözme adımına geçmeden önce problemin çözümüne yönelik tahminde bulunmaları istenir.Problemin çözümüne yönelik yolları geliştirirken farklı temsillerden ya da matematiksel araç ve teknolojiden yararlanmaları konusunda teşvik edilir (MAB3, MAB5). Öğrencilerin strateji geliştirmelerini desteklemek ve geliştirdikleri stratejileri kullanmalarını sağlamak için problem çözme sürecinde grup çalışmaları yapmaları sağlanabilir (SDB2.1, SDB2.2). Gruplar öğrencilerin akademik başarıları ve sosyal dinamikleri dikkate alınarak oluşturulur (SDB2.2). Öğrenciler, belirledikleri stratejileri kullanarak problemleri çözmeye ve çözüme ulaşamadıkları durumlarda farklı stratejiler kullanmaya teşvik edilir (SDB3.2). Problem çözümlerinin ardından öğrencilerin çözüm yollarını kontrol etmeleri sağlanır (E3.7, E3.10). Öğrencilerden problem çözümlerindeki işlemlere yönelik tahmin ve stratejilerini gözden geçirmeleri, örneğin “Köşedeki yarım kareleri birleştirirsem ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI saymam daha kolay olur.” vb. kısa yollara ilişkin çıkarım ve değerlendirmeler yapmaları beklenir (SDB1.2, E3.1). Ayrıca problemi çözerken ne gibi stratejiler geliştirdikleri ve bu stratejilerin problemin çözümünü nasıl kolaylaştırdığı konusunda tartışma ortamı oluşturulur (SDB2.1, E3.10). Daha sonra çözüm stratejileri ile ilgili öğrencilerin değerlendirmeler yapmaları sağlanır (KB3.3). Öğrencilerden çözüm sürecinde yararlandıkları stratejilerin hangi tür problemlerde kullanılabileceğine dair genelleme yapmaları, bu genellemelerin geçerliliğini matematiksel örneklerle değerlendirmeleri beklenir. Bu değerlendirmelerde öğrencilerin farklı stratejiler kullanabilecekleri problem kurma çalışmaları yapmaları sağlanabilir. Öğrencilerin alan problemlerini çözme becerilerini değerlendirmek amacıyla süreçte ve öğrenme çıktısının sonunda açık uçlu sorulardan oluşan çalışma kâğıdı kullanılabilir. Öğretim süreçlerinde farklı akademik başarıya sahip öğrencilerin eşleştirilmesiyle yardımlaşarak çalışmaları sağlanarak akran öğrenmelesi desteklenebilir (SDB2.2, D20.4). Performans görevi olarak öğrencilere günlük hayatta karşılaşabilecekleri problemler verilerek çözüme yönelik farklı stratejiler geliştirmeleri, geliştirdikleri problem çözümleri ile ilgili sunum hazırlamaları ve arkadaşlarına sunmaları istenebilir (OB2). Bu görev, süreç bileşenleri dikkate alınarak performans kriterlerini barındıran analitik dereceli puanlama anahtarı yardımıyla değerlendirilebilir. Yapılan grup çalışmaları öğretmen tarafından grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrenme çıktısı sonunda öğrencilerin problem çözme becerilerine ilişkin güçlü ve zayıf yönlerini tanımaları amacıyla öz değerlendirme formu da kullanılabilir.",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.1.4.3",
+   "grade": 1,
+   "unit": 4,
+   "order": 3,
+   "text": "Öğrencilere biyomimikrinin sağladığı faydaların neler olduğu sorulabilir (E1.1, E3.5). Öğrencilerin konuya ilişkin görüşleri alınır. Gruplara ayrılan öğrencilerden altı şapkalı tartışma ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI yöntemiyle teknolojide biyomimikrinin kullanımının sağladığı faydaları tartışmaları istenir (SDB2.1, SDB2.2, KB3.3). Öğrencilerin teknolojide biyomimikrinin kullanımına ilişkin mantıksal temellendirme yapmaları sağlanır. Ardından öğrencilerin görüşlerine ilişkin mantıksal çelişki veya tutarsızlıkları tespit etmeleri istenir. Bu süreçte açık fikirli olmaları ve kendi görüşlerini eleştirel bir şekilde değerlendirebilmeleri desteklenir (E3.5, E3.10). Tartışma sonunda teknolojide biyomimikrinin kullanımının sağladığı faydalara ilişkin ulaşılan görüşleri çürütmeleri veya kabul etmeleri beklenir (E3.10, KB3.1, KB3.3). Tartışma süreci kontrol listesiyle değerlendirilebilir. Doğadan ilham almanın enerji verimliliği konusundaki faydaları vurgulanır. Biyomimikri sayesinde teknolojik gelişmelerin daha işlevsel ilerlediği ifade edilir. Doğa sevgisi ve doğada var olan sistemlere saygı duymaları sağlanır (D14.3). Sürece ilişkin değerlendirme için eşleştirme testi, yapılandırılmış grid vb. kullanılabilir.",
    "components": []
   },
   {
@@ -243,6 +363,14 @@
    "components": []
   },
   {
+   "code": "MBU.BU.1.4.4",
+   "grade": 1,
+   "unit": 4,
+   "order": 4,
+   "text": "Öğrencilerden günlük hayatta karşılaşılan biyomimikri uygulamalarına örnek vermeleri istenir (E1.1, E1.5). Günlük hayatta karşılaştıkları bir probleme çözüm üretmek için doğadan ilham alan inovatif bir bilimsel model tasarlamaları istenir (KB3.2, E3.3, D7.3). Model tasarım sürecinde gruplara ayrılıp iş birliği içerisinde yardımlaşarak çalışmaları teşvik edilir (SDB2.1, SDB2.2, D14.1, D20.1). Yenilikçi ve özgün bir model oluşturmaları beklenir (E3.3, E3.6). Mühendislik tasarım döngüsünü kullanarak model oluşturma süreçlerini yapılandırmaları istenir (D16.3, KB3.3, E3.7). Bilimsel model tasarlama sürecinde bir planlama yaparak planlarını zamanında ve eksiksiz yürütmeleri istenir (D3.3, D16.3, E2.2). Öğrencilerin belirledikleri araç gereçlerden yola çıkarak estetik bakış açısı, bütüncül bir anlayışla bir modeli önermeleri sağlanır (D7.1, OB1, E3.3, E3.10). Tasarladıkları modelleri arkadaşlarına sunmaları, diğer modellerle karşılaştırarak tespit edilen hata ve eksiklikleri gelişim fırsatı olarak değerlendirip geliştirmeleri sağlanır (KB3.1, KB3.3, SDB1.3, D16.3). Süreç, kontrol listesi veya analitik dereceli puanlama anahtarlarıyla değerlendirilebilir.",
+   "components": []
+  },
+  {
    "code": "MBU.MU.1.5.1",
    "grade": 1,
    "unit": 5,
@@ -251,11 +379,27 @@
    "components": []
   },
   {
+   "code": "MBU.BU.1.5.1",
+   "grade": 1,
+   "unit": 5,
+   "order": 1,
+   "text": "Uygulamaları Günlük hayatta karşılaştıkları mesleklerin neler olduğuna dair beyin fırtınası vb. teknikler kullanılarak öğrencilerin meslek türlerini belirlemeleri sağlanır (KB3.3, E3.5). Bu meslek gruplarında bilimden nasıl faydalanıldığı sorularak öğrencilerden gelen yanıtlar alınır (E3.5). Belirledikleri mesleklerde bilimin yeri konusunda öğrencilerin dijital platformlar, basılı ve görsel kaynaklar vb. araştırma yapmaları beklenir (OB1, OB2, OB4, E3.4). Öğrencilerden konu ile ilgili mantıksal temellendirmeler yapmaları istenir (E3.1, E3.10, SDB3.3). Bu aşamada sınıfta gruplara ayrılarak takım çalışması içinde münazara, altı şapkalı düşünme vb. yöntemler kullanılabilir (SDB2.1, SDB2.2, D3.3). Bu süreçte arkadaşlarına karşı saygılı davranmaları ve sorumluluk bilinciyle hareket etmeleri desteklenebilir (D14.1, D16.3). Özellikle bilimsel gelişmelerin meslekler üzerindeki etkilerine değinilir. Bu temellerde mantıksal çelişkileri tespit etmeleri beklenir (KB3.2, SDB3.3). Bu süreçte öğrencilerin açık fikirli davranmaları, saygı çerçevesinde fikir üretmeleri, nezaketle fikirlerini savunmaları sağlanır (D14.1, E3.5). Tartışma sonunda günlük hayatında karşılaştığı mesleklerde bilimin yeri konusunda geçerli fikirleri çürütmeleri veya kabul etmeleri beklenir (SDB3.3). Bu noktada bilimsel gelişmeler ışığında geleceğin meslekleri üzerinde düşünmeleri sağlanır. Tartışma ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI süreci analitik dereceli puanlama anahtarıyla değerlendirilebilir. Sürecin tamamına ilişkin değerlendirmede açık uçlu sorular, eşleştirme testleri, yapılandırılmış grid vb. araçlar kullanılabilir.",
+   "components": []
+  },
+  {
    "code": "MBU.MU.1.5.2",
    "grade": 1,
    "unit": 5,
    "order": 2,
    "text": "Öğrencilere meslek gruplarında kesirlerin farklı gösterimleri (tam sayılı, ondalık, yüzde) ve ölçme türlerinin kullanımları ile ilgili örnekler sunulur. Örneğin “bir futbol istatistik tablosunda oyuncuların pas başarı yüzdeleri”, “bir terzinin kumaş ölçülerini yazdığı not defteri” vb.. Bu örnekleri incelemeleri sağlanarak görüşleri alınır (SDB2.1). Daha sonra öğrencilere “Hangi mesleklerde kesirler, ondalık kesirler ve yüzdeler sıklıkla kullanılır?” , ”Meslek grupları genellikle hangi ölçme türlerinden yararlanıyor?” vb. sorular sorularak tartışma ortamı oluşturulur (SDB2.1, E3.10). Tartışma esnasında aşçı, marangoz terzi vb. meslek gruplarında kullanılan kesir ve ölçme türlerine vurgu yapılır. Öğrencilere meslek gruplarında kesirlerin farklı gösterimleri ve ölçme türlerinin kullanımı ile ilgili bireysel ya da grup olarak poster, afiş, resim, rapor vb. hazırlamalarını içeren performans görevleri verilir. Poster, afiş vb. tasarımı noktasında görsel sanatlar dersinden faydalanılabilir (OB4). Öğrencilerden hazırlayacakları performans görevi ile ilgili bilgilere ulaşmak için kullanacakları araçları belirlemeleri beklenir. Bilgiye ulaşmak için güvenilir genel ağ adresleri, basılı kaynaklar, alan uzmanlarıyla görüşme vb. farklı yöntemlerden yararlanmaları sağlanır (OB1, OB2). Bilgi toplarken güvenilir araçları belirlemeleri beklenir. Belirledikleri aracı kullanarak meslek gruplarında kesirlerin farklı gösterimleri ve ölçme türlerinin kullanımı ile ilgili bilgi toplamaları istenir. Ulaştıkları bilgileri doğrulamaları beklenir (E3.1, E3.10). Bu doğrulama sürecinde öğretmeninden, alan uzmanından vb. yardım almaları, arkadaşları ile tartışmaları veya bilimsel kaynaklara başvurmaları desteklenir (E3.10, D3.3, OB1). Doğruladıkları bilgileri kaydetmeleri ve poster, afiş vb. şeklinde organize ederek sunmaları istenir (SDB2.1, OB1). Performans görevi hazırlama sürecinde sorumlu ve planlı davranmaları sağlanır (D3.2, E2.2). Performans görevi analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Öğrenme çıktısı sonunda açık uçlu sorular vb. kullanılarak değerlendirme yapılabilir.",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.1.5.2",
+   "grade": 1,
+   "unit": 5,
+   "order": 2,
+   "text": "Öğrencilere yeşil mesleklerin neler olduğuna ilişkin açık uçlu sorular yöneltilebilir (E1.1). Bu süreçte beyin fırtınası yönteminden faydalanılabilir. Öğrencilere yeşil mesleklerin neler olduğuna yönelik bireysel ya da grup olarak poster, afiş, rapor vb. hazırlama performans görevleri verilir (SDB2.1, SDB2.2, OB1, D3.2). Öğrencilerden yeşil meslekleri araştırmak için kullanacakları kaynakları belirlemeleri beklenir (SDB3.3). Bilgiye ulaşmak için güvenilir genel ağ adresleri, basılı kaynaklar, alan uzmanlarıyla görüşme vb. farklı yöntemlerden yararlanmaları istenir (OB1, OB2). Bu süreçte gerçeği arama isteğiyle merak ettiği soruları sorarak hareket etmeleri beklenir (E3.4, E3.8). Belirledikleri kaynakları kullanarak yeşil mesleklere yönelik bilgi toplamaları istenir (OB7, OB8). Öğrencilerden ulaştıkları bilgileri öğretmeninden, alan uzmanından vb. yardım alarak, arkadaşları ile tartışarak veya bilimsel kaynaklara başvurarak doğrulamaları beklenir (KB3.3, OB1, E3.5, E3.10). Doğruladıkları bilgileri kaydetmeleri istenir (OB1). Öğrencilerin yeşil mesleklerde kullanılan bilimsel uygulamaları fark etmeleri sağlanır (E3.10). Doğruladıkları bilgileri poster, rapor vb. olarak arkadaşlarıyla paylaşmaları sağlanır (SDB2.1, E2.2, OB4). Performans görevi süreci analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Yeşil mesleklere kentsel tarımcılık, geri dönüşüm uzmanlığı, doğa bilimleri uzmanlığı, solar teknisyenlik, dalga enerjisi üreticiliği, temiz otomobil mühendisliği vb. değinilir. Bu mesleklerin sürdürülebilir bir dünya için önemi vurgulanarak farkındalık geliştirmeleri desteklenir (OB8, D5.2, D16.2). Sürecin tamamına ilişkin değerlendirmede açık uçlu sorular, çalışma kâğıtları, tanılayıcı dallanmış ağaç vb. kullanılabilir.",
    "components": []
   },
   {
@@ -275,11 +419,27 @@
    "components": []
   },
   {
+   "code": "MBU.BU.2.1.1",
+   "grade": 2,
+   "unit": 1,
+   "order": 1,
+   "text": "Uygulamaları Günlük hayatta ışığın yansımasının kullanıldığı alanlara yönelik mevcut bilgileri açık uçlu sorularla açığa çıkarılabilir. Bu aşamada öğrencilerden konuya ilişkin merak ettikleri soruları sormaları istenir (E1.1, E3.8). Öğrencilere günlük hayatta ışığın yansımasının kullanıldığı alanların neler olabileceği ile ilgili bireysel ya da grup olarak hazırlayabilecekleri poster, afiş, rapor vb. performans görevleri verilir (SDB2.2, SDB2.1, OB1). Performans görevi sürecinde planlı davranmaları, iş birliği içinde çalışmaları ve sorumluluk bilinciyle hareket etmeleri desteklenir (SDB1.2, E2.2, E3.7). Günlük hayatta ışığın yansımasının kullanıldığı alanlar ile ilgili bilgilere ulaşmak için kullanacakları araçları belirlemeleri beklenir (E2.2, SDB3.3, D3.3). Bu araçlar genel ağ adresleri, basılı kaynaklar, dijital içerikler, yazılı ve görsel kaynaklar olabilir (OB1, OB2, OB4). Belirledikleri araçları kullanarak günlük hayatta ışığın yansımasının kullanıldığı alanlara yönelik bilgi toplamaları istenir (OB1, E3.4). Bu aşamada ışığın yansımasının sürdürülebilirliğe katkısına değinilmesi beklenir (OB8, D5.2). Ulaştıkları bilgileri doğrulamaları istenir. Bu doğrulama işlemini öğretmeninden, alan uzmanından vb. yardım alarak, arkadaşları ile tartışarak veya bilimsel kaynaklara başvurarak yürütmeleri sağlanır (D3.3, OB1). Doğruladıkları bilgileri kaydetmeleri istenir (OB1). Güvenilir genel ağ adreslerinden yararlanma, dijital sunum, video hazırlama noktasında bilişim teknolojileri dersiyle ilişki kurulur (OB2). Doğruladıkları bilgileri kullanarak hazırladıkları poster, afiş, rapor vb. sunmaları beklenir. Performans görevi süreci analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Sürecin tamamına ilişkin değerlendirmede tanılayıcı dallanmış ağaç, açık uçlu sorular vb. kullanılabilir.",
+   "components": []
+  },
+  {
    "code": "MBU.MU.2.1.2",
    "grade": 2,
    "unit": 1,
    "order": 2,
    "text": "Öğrencilere günlük hayatta rasyonel sayılarla dört işlem gerektiren durumlarla nerelerde karşılaştıklarına ilişkin açık uçlu sorular sorulabilir. Bu sorular aracılığıyla günlük hayatta rasyonel sayılarla dört işlem gerektiren durumlar ile ilgili tartışma ortamı oluşturulur (SDB2.1). Rasyonel sayılarla dört işlem gerektiren problemlerinin seçiminde günlük hayat durumlarına (yemek yapımı, ev ekonomisi, alışveriş, paylaşım, ölçme-dönüşüm, kar-zarar, zaman-hız-mesafe vb.) yer verilir (OB3). Günlük hayatta rasyonel sayılarla dört işlem gerektiren problemler hem kesirlerin farklı gösterimlerini hem de tam sayılarla yapılan toplama, çıkarma, çarpma ve bölme işlemlerini içerebilir. Rasyonel sayılarla dört işlem gerektiren problemlerin çözümünde öğrencilerden problemi anlayarak verilenleri ve istenenleri belirlemeleri istenir (E3.1). Daha sonra verilenlerin ve istenenlerin gerektirdiği işlemler arasındaki ilişkiyi tespit etmeleri beklenir. Bu süreçte öğrencilerden problem bağlamıyla ilişkili verileri tablo, sayı doğrusu, kesir modeli veya sembolik gösterim vb. uygun matematiksel temsillere dönüştürmeleri ve bu temsilleri kullanarak problemi kendi ifadeleriyle açıklamaları istenir (MAB3, SDB2.1). Problemlere yönelik çözümlere geçmeden önce öğrencilerden sonuca yönelik tahminlerde bulunmaları ve problemin çözümüne ilişkin stratejiler geliştirmeleri beklenir (E3.1). Öğrenciler, bu stratejileri geliştirirken farklı temsillerden (tablo ve sayı doğrusu vb.) veya matematiksel araç ve teknolojilerden yararlanmaları için teşvik edilir (MAB3, MAB5). Öğrencilerin strateji geliştirmelerini desteklemek ve geliştirdikleri stratejileri kullanmalarını sağlamak için problem çözme sürecinde grup çalışmaları yapmaları sağlanabilir (SDB2.1, SDB2.2). Gruplar öğrencilerin akademik başarıları ve sosyal dinamikleri dikkate alınarak oluşturulabilir (SDB2.2). Öğrenciler, belirledikleri stratejileri kullanarak problemleri çözmeye ve çözüme ulaşamadıkları durumlarda farklı stratejiler kullanmaya ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI teşvik edilir (E3.10). Problem çözümlerinin ardından öğrencilerin çözüm yollarını kontrol etmeleri sağlanır (SDB1.2). Öğrencilerden problem çözümlerindeki işlemlere yönelik tahmin stratejilerini gözden geçirmeleri, kısa yollara ilişkin çıkarım ve değerlendirmeler yapmaları beklenir. Ayrıca problemi çözerken ne gibi stratejiler geliştirdikleri ve bu stratejilerin problemin çözümünü nasıl kolaylaştırdığı konusunda tartışmaları sağlanarak görüşlerini ifade etmelerine ve karşılaştırmalarına olanak tanınabilir (SDB2.1, E3.1). Daha sonra öğrencilerin çözüm stratejileri ile ilgili değerlendirmeler yapmaları sağlanır (E3.1, D3.2). Öğrencilerden çözüm sürecinde kullandıkları stratejilerden hangi tür problemlerde yararlanabileceklerine dair genelleme yapmaları, bu genellemelerin geçerliliğini matematiksel örneklerle değerlendirmeleri beklenir. Bu değerlendirmelerde öğrencilerin farklı stratejiler kullanabilecekleri problem kurma çalışmaları yapmaları sağlanabilir. Öğretim süreçlerinde farklı akademik başarıya sahip öğrencilerin eşleştirilmesiyle akran öğrenmeleri desteklenebilir (SDB2.2, D20.2). Performans görevi olarak günlük hayat durumlarında karşılaşılabilecek problemler verilerek öğrencilerden çözüme yönelik farklı stratejiler geliştirmeleri, geliştirdikleri problem çözümleri ile ilgili sunum hazırlamaları ve bunları arkadaşlarına sunmaları istenebilir (SDB2.1, D16.3). Bu görev sırasında güvenilir genel ağdan yararlanmaları desteklenebilir (OB2). Bu görev süreç bileşenleri dikkate alınarak performans kriterlerini barındıran analitik dereceli puanlama anahtarı yardımıyla değerlendirilebilir. Yapılan grup çalışmaları öğretmen tarafından grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrenme durumları açık uçlu sorular vb. ile değerlendirilebilir.",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.2.1.2",
+   "grade": 2,
+   "unit": 1,
+   "order": 2,
+   "text": "Öğrencilere günlük hayatta kullanılan elektrikli ev aletleri sorulur. Öğrencilerden sık kullanılan elektrikli ev aletleri ile ilgili örnekler vermeleri istenebilir (E1.5). Bu aletlerde enerji tasarrufuna ilişkin teknolojik uygulamalar olup olmadığı sorgulanır (E1.1, E3.4). Elektrikli ev aletlerinde elektrik tasarrufu için ne tür teknolojik uygulamaların olduğu sorularak akıl yürütmeleri sağlanır (E3.4, E3.5, E3.6). Öğrencilerin elektrikli ev aletlerinde elektrik tasarrufu için geliştirilen teknolojik uygulamalara ilişkin nitelikleri tanımlamaları istenir (E3.4). Ardından öğrencilerin gruplara ayrılıp elektrikli ev aletlerinde elektrik tasarrufu için geliştirilen teknolojik uygulamalara yönelik araştırma yaparak veri toplamaları ve kaydetmeleri istenir (SDB2.1, SDB2.2, D16.3, OB1). Bu süreçte güvenilir genel ağ, basılı kaynaklar vb. yararlanmaları desteklenir (OB1, E3.4). Araştırma sonucunda ulaştıkları verileri sınıf ortamında tartışmaları ve yorumlayarak değerlendirmeleri istenir (E3.5, D14.1). Ev aletlerinde kullanılan akıllı termostat, zaman ayarlı çalıştırma, ledler, hareket sensörleri vb. teknolojik uygulamalardan bahsedilir. Elektrik tasarrufunun, israfı azaltma ve ülke kaynaklarını koruma açısından önemi vurgulanarak farkındalıkları artırılır (D17. 2, D19.3). Elektrik tasarrufu için alınabilecek önlemler öğrencilerle birlikte kısaca özetlenir (OB3, D17.1, SDB3.3). Bu önlemler sayesinde kaynakları tasarruflu kullanmanın aile ve ülke bütçesine katkısını açıklamaları sağlanır (OB3, OB6, D17.1, D19.3). Sürecin tamamına ilişkin değerlendirmede çalışma kâğıdı, açık uçlu sorular, eşleştirme testleri vb. kullanılabilir.",
    "components": []
   },
   {
@@ -291,11 +451,27 @@
    "components": []
   },
   {
+   "code": "MBU.BU.2.1.3",
+   "grade": 2,
+   "unit": 1,
+   "order": 3,
+   "text": "Öğrencilerin günlük hayatta tesadüfi keşfedilen buluşların bilime katkısına yönelik mevcut bilgileri açık uçlu sorularla açığa çıkarılabilir (E1.1). Ardından günlük hayatta tesadüfi keşfedilen buluşların bilime katkısı ile ilgili bireysel ya da grup olarak hazırlayabilecekleri broşür, poster, afiş, resim, rapor vb. performans görevi verilir (SDB2.1, SDB2.2, OB1). Bu süreçte röntgen, mikrodalga fırın vb. buluşları araştırmaları sağlanır (E3.4, D3.3, E2.2). Buluşların bilime katkısı ile ilgili bilgilere ulaşmak için kullanacakları araçları belirlemeleri istenir (SDB3.3, D3.3). Bu araçlar genel ağ adresleri, basılı kaynaklar, dijital içerikler, yazılı ve ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI görsel kaynaklar olabilir (OB1, OB2, OB4). Belirledikleri araçları kullanarak günlük hayatta tesadüfi keşfedilen buluşların bilime katkısına yönelik bilgi toplamaları istenir (OB1, D16.3). Ulaştıkları bilgileri doğrulamaları beklenir. Bu doğrulama işlemini öğretmeninden, alan uzmanından vb. yardım alarak, arkadaşları ile tartışarak veya bilimsel kaynaklara başvurarak yürütmeleri sağlanır (D3.3, OB1). Doğruladıkları bilgileri kaydetmeleri istenir (OB1). Ardından broşür, poster vb. yöntemlerle arkadaşlarına sunmaları beklenir. Güvenilir genel ağ adreslerinden yararlanma, dijital sunum, video hazırlama noktasında bilişim teknolojileri dersiyle ilişki kurulur (OB2). Tesadüfen keşfedilen buluş örnekleri çeşitlendirilerek sunulur. Bu buluşların ortaya çıkmasında bilimsel bakış açısının etkili olduğu vurgulanarak bilim insanın özelliklerine değinilir. Bilim insanlarının bilimsel çalışmalardaki özverilerinin değerinden bahsedilerek bu çalışmalara gereken önemi vermeleri desteklenir (D14.1, D16.3). Performans görevi süreci analitik dereceli puanlama anahtarı kullanılarak değerlendirilir. Sürecin tamamına ilişkin değerlendirmede tanılayıcı dallanmış ağaç, açık uçlu sorular vb. kullanılabilir.",
+   "components": []
+  },
+  {
    "code": "MBU.MU.2.2.1",
    "grade": 2,
    "unit": 2,
    "order": 1,
    "text": "Uygulamaları Öğrencilere “Sağlık ve spor alanlarında sıvı ölçme birimlerini kullanmak neden önemlidir?” vb. sorular yöneltilerek görüşlerinin alındığı bir tartışma ortamı oluşturulur (SDB2.1). Tartışma esnasında günlük hayatta karşılaşabilecekleri ilaç, kozmetik, sıvı gıda vb. ürünler üzerinden sıvı ölçme birimlerinin sağlık ve spor alanındaki kullanım alanlarına dikkat çekilir (E1.1). Öğrencilere sıvı ölçme birimlerinin sağlık ve spor alanlarındaki kullanım alanlarıyla ilgili bilgi toplamalarını ve ulaştıkları bilgileri poster, afiş, resim, rapor vb. olarak sunmalarını içeren performans görevi verilir (SDB2.1, OB4). Bu süreçte bireysel çalışma ya da grup olarak çalışmaları sağlanır (SDB2.2). Performans görevi hazırlama sürecinde öğrencilerden sorumlu ve planlı davranmaları sağlanır (D3.2, E2.2).Öğrencilerden konuya ilişkin bilgi edinebilmeleri için güvenilir araçları (genel ağ adresleri, basılı kaynaklar, alan uzmanlarıyla görüşme vb.) belirlemeleri beklenir (OB1, OB2). Belirledikleri bilgi edinme yolları aracılığıyla ölçme birimlerinin sağlık ve spor alanlarındaki kullanım alanları hakkında bilgileri bulmaları beklenir. Öğrencilerden ulaştıkları bilgileri öğretmenlerinden, alan uzmanlarından, bilimsel kaynaklardan yararlanarak ya da arkadaşları ile tartışarak doğrulamaları beklenir (E3.10, OB1). Doğruladıkları bilgileri kaydedip poster, afiş, rapor vb. olarak düzenlemeleri ve sunmaları istenir (SDB2.1, OB1, OB7). Bu süreçte öğrencilerden birbirlerini saygı çerçevesinde dinlemeleri, görüşlerini belirtirken empatik yaklaşmaları sağlanır (SDB2.1, D14.1, E2.1). Elde edilen sonuçlara dayalı olarak öğrencilere geri bildirim verilir. Öğrencilerin hazırladıkları poster, afiş, resim, rapor vb. süreç bileşenlerinin yer aldığı performans kriterlerini barındıran analitik dereceli puanlama anahtarı ile değerlendirilebilir. Değerlendirmede çeşitlilik sağlamak için öz değerlendirme, akran değerlendirme formları da kullanılabilir. Öğrenme çıktısının sonunda açık uçlu sorulardan oluşan çalışma kâğıdı kullanılabilir.",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.2.2.1",
+   "grade": 2,
+   "unit": 2,
+   "order": 1,
+   "text": "Uygulamaları Bağımlılıkla ilgili açık uçlu sorular sorularak öğrencilerden kişilerin nelere bağımlı olunabileceğine yönelik örnekler vermeleri istenir (E3.8, E1.5, SDB2.1). Öğrencilerin bağımlı bireylerin yaşadıkları sorunların neler olabileceği ile ilgili düşünmeleri sağlanır (KB3.3, SDB2.3, E3.10). Öğrencilerin bağımlılıkla mücadele kavramına ilişkin nitelikleri tanımlamaları istenir. Öğrenciler gruplara ayrılarak tütün, teknoloji ve kumar bağımlılığının kişiye bedensel ve ruhsal olarak etkileri ile bu bağımlılıklardan korunmak için neler yapılabileceği ve bu konuda bilimin rolüne ilişkin veri toplamaları ve kaydetmeleri istenir (E1.1, OB1). Bu süreçte güvenilir genel ağ adresleri, basılı kaynaklar vb. yararlanabilecekleri belirtilir (OB1, OB2, E3.4). Ardından ulaştıkları verileri sınıf ortamında tartışmaları ve yorumlayarak değerlendirmeleri istenir (E3.5, D14.1). Bilimin bağımlılıkla mücadele konusunda ne gibi çözümler ürettiğini; tütün, teknoloji ve kumar bağımlılıklarının insan sağlığına etkileri ve bu bağımlılıklardan korunmak için yapılması gerekenleri öğrencilerin yorumlaması beklenir (E3.6, E2.2, D16.3). Bağımlılıktan uzak durarak sağlıklı yaşama özen göstermeleri desteklenir (SDB1.3, D5.2, D13.3). Yeşilayın bağımlılıkla mücadeledeki işlevi vurgulanarak öğrencilerin bu çalışmaların önemini içselleştirmeleri desteklenir (SDB2.3, D3.3). Ayrıca Sağlık Bakanlığının bağımlıkla mücadele için hazırladığı uygulamalara değinilir (SDB2.3). Tütün, teknoloji ve kumar bağımlılıklarından korunmak için yapılması gerekenler ile ilgili bireysel ya da grup olarak hazırlayabilecekleri poster, afiş, broşür vb. performans görevleri verilebilir (SDB1.2, SDB2.1, SDB2.2, KB2.5). Performans görevi analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Sürecin tamamına ilişkin değerlendirmede tanılayıcı dallanmış ağaç, açık uçlu sorular vb. kullanılabilir.",
    "components": []
   },
   {
@@ -307,11 +483,27 @@
    "components": []
   },
   {
+   "code": "MBU.BU.2.2.2",
+   "grade": 2,
+   "unit": 2,
+   "order": 2,
+   "text": "Uygun aydınlatma kavramı sorularak fikirleri alınır. Ardından uygun aydınlatmada ışığın rengi, yayılması, yönü ve miktarının doğru bir şekilde ayarlanmasının etkili olduğuna değinilir. Öğrencilere uygun aydınlatmanın nerelerde kullanılabileceğine yönelik açık uçlu sorular sorulur (E1.1). Ayrıca uygun aydınlatma kullanımının sağlık üzerindeki etkisi ile ilgili düşünmeleri istenir (E3.5, E3.10, D13.4). Öğrencilere uygun aydınlatma kullanımının sağlık üzerindeki etkisi ile ilgili bireysel ya da grup olarak poster, afiş, resim, rapor vb. hazırlamalarını içeren performans görevleri verilir (SDB1.2, SDB2.2). Bu süreçte görev bilinciyle hareket ederek sorumlu ve planlı davranmaları sağlanır (D3.2, E2.2, D16.3). Uygun aydınlatma kullanımının sağlık üzerindeki etkisi ile ilgili bilgilere ulaşmak için kullanacağı araçları belirlemeleri istenir (SDB3.3, D3.3, D16.3). Bu araçlar dijital içerikler, yazılı ve görsel kaynaklar olabilir (OB1, OB2, OB4). Uygun aydınlatma kullanımının sağlık üzerindeki etkileri ile ilgili ulaştıkları bilgileri arkadaşları ile tartışarak, öğretmeninden yardım alarak veya bilimsel kaynaklara başvurarak doğrulamaları istenir (OB1, D14.1, E3.4, SDB2.1). Doğruladığı bilgileri kaydedetmeleri ve raporlaştırarak sunmaları istenir (SDB2.1). Uygun aydınlatmanın uyku düzeni, çalışma verimi, bağışıklık sistemi, göz ve ruh sağlığı üzerinde etkileri olduğuna değinilir (D13.4, E3.4). Hazırlanan ürünler bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. Sürecin tamamına ilişkin değerlendirmede tanılayıcı dallanmış ağaç, açık uçlu sorular, eşleştirme testleri vb. kullanılabilir.",
+   "components": []
+  },
+  {
    "code": "MBU.MU.2.2.3",
    "grade": 2,
    "unit": 2,
    "order": 3,
    "text": "Öğrencilerden sağlık ve sporla bağlantılı olarak günlük hayatta karşılaşabilecekleri yüzde hesaplama durumlarına dair örnekler vermeleri istenir (E1.1). Bu örneklerden yola çıkılarak öğrencilerin sağlık ve spor alanında problem durumları ile ilgili görüşlerini ifade etmeleri sağlanır. Problemler, spor müsabakalarındaki atışların isabet yüzdesi, sağlıklı bir insanın vücudundaki yağ oranı, paketli ürünlerin içerdiği maddelerin miktarları vb. durumları içermesine dikkat edilir (D13.2). Bu problem durumları aracılığıyla beden eğitimi ve spor dersi ile ilişki kurulabilir. Ayrıca bir çokluğu belirli bir yüzde ile artırmaya veya azaltmaya yönelik hesaplamaların yapıldığı çalışmalara da yer verilmelidir. Örneğin “Bir sporcu, günlük alması gereken kalorinin %60'ını karbohidratlardan, %25'ini proteinlerden ve geri kalanını yağlardan almaktadır. Sporcunun günlük kalori ihtiyacı 2500 kcal olduğuna göre her bir besin grubundan alması gereken kalori miktarları nedir?” vb. problemler kurgulanabilir. Problemlerin, öğrencilerin problem çözme becerilerini geliştirmenin yanı sıra sağlık bilinci kazanmalarına özen gösterilmelidir (D13.1). Öğrencilerden problemlerin çözümü için öncelikle problemle ilgili matematiksel bileşenleri belirlemeleri istenir. Sağlık ve spor ile ilgili yüzde problemlerinin çözümünde öğrencilerin verilenler ve istenenleri belirlemeleri beklenir. Daha sonra öğrencilerden verilenler ve istenenler arasındaki işlem ilişkilerini tespit etmeleri beklenir. Bu süreçte problemdeki ilişkilere yönelik şekil ya da diyagram çizmeleri istenerek öğrencilerin problemi anlamaları sağlanabilir (OB4). Böylece problemlerin anlaşılıp anlaşılmadığı değerlendirilebilir. Öğrencilerden problem bağlamlarını yorumlarken verilenleri belirleyip uygun matematiksel temsillere dönüştürmeleri ve problemi kendi ifadeleriyle açıklamaları beklenir. Problemlere yönelik matematiksel çözümler geliştirilirken öğrencilerden sonuca ilişkin tahminde bulunmaları ve stratejiler geliştirmeleri beklenir. Öğrencilerin çözüm stratejileri geliştirirken farklı temsillerden (tablo ve grafik vb.) yararlanmaları sağlanır (MAB3). Öğrencilerin seçtikleri farklı stratejiler ile problemleri çözmelerine fırsat verilir. Çözüm stratejileri geliştirme ve uygulama sürecinde iş birliği içinde grup çalışmaları yapmaları sağlanabilir (SDB2.1, SDB2.2). Öğrencilerden problem çözme stratejilerini gözden geçirmeleri, çözüme ulaştırmayan stratejileri değiştirmeleri beklenir (SDB1.2, E3.1, KB3.3). Kullandıkları veya geliştirdikleri stratejileri gözden geçirip alternatif yollara ilişkin çıkarım ve değerlendirmeler yapmaları istenerek stratejilerini paylaşmalarına olanak sağlanır. Problem çözme sürecinde kullandıkları stratejilerin hangi tür problemlerde kullanılabileceğine dair genelleme yapmaları ve yaptıkları genellemelerin geçerliliğini matematiksel örneklerle değerlendirmeleri beklenir. Öğrencilerin benzer türde günlük hayat problemleri kurmaları ve problemlerin bağlamlarına yönelik yansıtmalar yapmaları da sağlanır. Ayrıca çıkarımlarını değerlendirmeleri ve karar verme sürecine ait davranışlarının sorumluluğunu kabul etmeleri sağlanır (SDB3.3, D16.3, E3.10). Sağlık ve spor alanında kullanılan uzunluk, zaman ve kütle ölçme birimleri ile ilgili problemlerde öğrencilerin problem çözme sürecini değerlendirmelerine yönelik kontrol listesi hazırlanabilir. Öğrenme durumlarının değerlendirilmesinde açık uçlu sorular kullanılabilir. ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.2.2.3",
+   "grade": 2,
+   "unit": 2,
+   "order": 3,
+   "text": "Öğrencilere teknolojik gelişmeler ile ilgili açık uçlu sorular yöneltilir. Teknolojik gelişmelerin spor alanındaki etkilerinin neler olabileceği sorularak öğrencilerin örnekler vermesi istenir. Teknolojik gelişmelerin spor alanındaki etkisine ilişkin grup tartışması yöntemlerinden altı şapkalı düşünme tekniğinden faydalanılabilir (SDB2.1, SDB2.2, SDB3.3). Bu süreçte öğrencilerden açık fikirli davranmaları sağlanır (E3.5, D6.1). Öğrencilerin konu hakkındaki görüşlerini mantıksal olarak ifade etmeleri istenir (SDB2.1). Bu aşamada ortaya çıkan fikirleri eleştirel bakış açısıyla irdeleyerek kendi görüşleri hakkında düşünmeleri sağlanır (KB3.3, E3.10, SDB1.2). Teknolojik gelişmelerin spor alanına etkisine yönelik mantıksal çelişkileri tespit etmeleri beklenir (SDB3.3, E3.4, E3.1). Teknolojik gelişmelerin spor alanına etkisine ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI ilişkin geçerli fikirleri kabul eder (SDB3.3). Bu süreçte öğrencilerin açık fikirli davranmaları, araştırmacı ve sorgulayıcı bakış açısıyla fikirlerini savunmaları sağlanır (E3.5, D3.3). Süreç sonunda ulaşılan fikirler değerlendirilerek çürütülmesi veya kabul edilmesi sağlanır (OB1, D3.3, E2.2). Teknolojik gelişmelerin spor alanındaki uygulamaları tanıtılır (OB2). Paralimpik oyunlardaki yarışmalarda kullanılan tekerlekli sandalye, koşu bacakları, akıllı boneler vb. araçlara değinilir. Tartışma sürecini değerlendirmede grup değerlendirme formu kullanılır (SDB2.2). Sürecin tamamına ilişkin değerlendirmede tanılayıcı dallanmış ağaç, yapılandırılmış grid, açık uçlu sorular vb. kullanılabilir.",
    "components": []
   },
   {
@@ -323,11 +515,27 @@
    "components": []
   },
   {
+   "code": "MBU.BU.2.3.1",
+   "grade": 2,
+   "unit": 3,
+   "order": 1,
+   "text": "Uygulamaları Teknolojik gelişmelerin sanat dalları üzerindeki etkisi hakkında sorular sorularak öğrencilerin dikkati konuya çekilir. Teknolojik gelişmelerin sanat dalları üzerindeki etkisinin neler olduğunu ortaya koymak için tartışma yöntemlerinden vızıltı grupları, panel vb. biri kullanılabilir (SDB2.1, SDB2.2, D14.1). Bu süreçte öğrencilerin tarafsız davranmaları sağlanır (E3.10, D6.1). Konu hakkında merak ettiklerini sormaları beklenir (E1.1, E3.8). Öğrencilerden teknolojik gelişmelerin sanat dalları üzerindeki etkileri ile ilgili görüşlerini mantıksal açıdan ifade etmeleri istenir (OB1, KB2.8, KB2.19). Açık uçlu sorularla öğrencilerin teknolojik gelişmelerin sanat dalları üzerindeki etkileri hakkında daha fazla düşünmeleri sağlanabilir. Konuyla ilgili görüşlerini etkin bir şekilde ifade etmeleri beklenir (SDB2.1, KB2.13, KB2.14). Görüşlerini ifade ederken empati kurmaları, arkadaşlarına karşı nezaketli davranmaları desteklenir (E2.1, D12.2, D14.1). Teknolojik gelişmelerin sanat dalları üzerindeki etkisi hakkında kendi görüşleri ile arkadaşlarının görüşleri arasındaki mantıksal çelişkileri tespit etmeleri istenir (KB2.17, OB1). Öğrencilerin teknolojik gelişmelerin sanat dalları üzerindeki etkilerini avantaj ve dezavantaj yönünden değerlendirerek ortaya çıkan fikirleri çürütmeleri ya da kabul etmeleri sağlanır (OB1). Geleneksel sanat üretimi, mekanik üretim ve dijital üretim olarak teknoloji bağlamında sanattaki dönüşüm kısaca açıklanır. Yapay zekâ, veri ve algoritma tabanlı çalışmalar, sosyal medya vb. sanatla ilişkisini fark etmeleri sağlanır. Sürecin tamamına ilişkin değerlendirmede açık uçlu sorular, tanılayıcı dallanmış ağaç vb. kullanılabilir.",
+   "components": []
+  },
+  {
    "code": "MBU.MU.2.3.2",
    "grade": 2,
    "unit": 3,
    "order": 2,
    "text": "Öğrencilere, çokgen ve çemberden oluşan bir bölge gösterilerek bu bölgenin alanının nasıl hesaplanacağı sorulur. Böylece öğrencilerin merak duyguları harekete geçirilerek tartışma ortamı oluşturulabilir (E1.1). Bu şekiller cami, geleneksel Türk hamamı, kervansaray ve bedestenlerde kullanılan süslemeler olabilir (OB9). Tartışma esnasında sanat eserlerindeki geometrik şekillerin estetik ve akustiğin oluşumuna katkısına değinilir. Problemler oluşturulurken gerçek yaşam ya da matematiksel durumlardan yararlanılabilir. Örneğin “Bir tiyatro sahnesinin dikdörtgen şeklindeki fonuna daire şeklinde ışıklı bir dekor yerleştirilmiştir. Dikdörtgen fonun boyutları 12 m × 6 m, daire şeklindeki dekorun çapı 4 metredir. Buna göre fonda dekor yerleştirilebilecek ne kadar alan kalmıştır?” vb. problemler kullanılabilir. Çokgen ve çember kullanılarak oluşturulan şekillerin alanlarını bulmayı gerektiren problemleri çözerken öğrencilerden problemdeki verilenler ve istenenleri belirlemeleri istenir. Daha sonra verilenler ve istenenler arasındaki işlem ilişkilerini tespit etmeleri beklenir. Bu süreçte problemdeki ilişkilere yönelik şekil ya da diyagram çizmeleri istenerek öğrencilerin problemi anlamaları sağlanır (OB4). Böylece problemlerin anlaşılıp anlaşılmadığı değerlenORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI dirilebilir. Öğrencilerden problem bağlamlarını yorumlarken verilenleri belirleyerek uygun matematiksel temsillere dönüştürmeleri ve problemi kendi ifadeleriyle açıklamaları beklenir (MAB3). Problemlere yönelik matematiksel çözümler üretilirken öğrencilerden sonuca ilişkin tahminde bulunmaları ve stratejiler geliştirmeleri beklenir (E3.6). Öğrencilerin çözüm stratejileri geliştirirken farklı temsillerden (tablo, grafik vb.) yararlanmaları sağlanır (MAB3). Öğrencilerin seçtikleri farklı stratejiler ile problemleri çözmelerine fırsat verilir. Çözüm stratejileri geliştirme ve uygulama sürecinde iş birliği içinde grup çalışmaları yapmaları sağlanabilir (SDB2.2). Öğrencilerden grup çalışmaları sırasında çözüm stratejilerini gözden geçirmeleri, çözüme ulaştırmayan stratejileri değiştirmeleri beklenir (SDB1.2). Kullandıkları veya geliştirdikleri stratejileri gözden geçirip alternatif yollara ilişkin çıkarım ve değerlendirmeler yapmaları istenerek stratejilerini paylaşmalarına olanak tanınır. Problem çözme sürecinde kullandıkları stratejilerin hangi tür problemlerde kullanılabileceğine dair genelleme yapmaları ve yaptıkları genellemelerin geçerliliğini matematiksel örneklerle değerlendirmeleri beklenir. Öğrencilerden çokgen ve çemberden oluşan bir bölgenin alan hesaplamasıyla ilgili problemler kurmaları ve problemlerin bağlamlarına yönelik yansıtmalar yapmaları beklenir. Ayrıca çıkarımlarını değerlendirmeleri ve karar verme sürecine ait davranışlarının sorumluluğunu kabul etmeleri desteklenir (SDB3.3, D16.1). Çokgen ve çember kullanılarak oluşturulan şekillerin alanlarını bulmayı gerektiren problemlerin çözümünde öğrencilerin problem çözme sürecinin değerlendirilmesine yönelik kontrol listesi kullanılabilir. Problem çözme sürecinin değerlendirilmesinde öz değerlendirme formu da kullanılabilir. Öğrenme durumları açık uçlu sorularla değerlendirilebilir.",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.2.3.2",
+   "grade": 2,
+   "unit": 3,
+   "order": 2,
+   "text": "Öğrencilere tarihî eserlerden bilimden nasıl yararlanıldığına ilişkin açık uçlu sorular sorulur. Bu süreçte öğrencilerden bilimin kullanıldığı tarihî mimari eserlere örnekler verilerek öğrencilerin incelemeleri istenir (E1.1). Öğrencilerden tarihî bir mimari eserin günümüze kadar ulaşabilmesinde bilimin etkisine yönelik nitelikleri tanımlamaları istenir (OB1, D3.3, SDB3.3). Öğrencilerin tarihî bir mimari eserin günümüze kadar ulaşabilmesinde bilimin etkisine yönelik araştırma yapmaları sağlanır (OB1, OB5, OB7). Araştırma sürecinde öğrencilerin “Okul Dışı Öğrenme Ortamları” genel ağ sayfasından da yararlanmaları desteklenebilir. Daha sonra, araştırma yoluyla topladıkları verileri raporlaştırarak kaydetmeleri istenir (OB7, SDB3.3). Öğrencilerden kaydettikleri verileri yorumlayarak değerlendirmeleri istenir (OB7, KB2.14). Hazırlanan raporlar kontrol listesi ile değerlendirilebilir. Mimaride kullanılan mühendislik biliminden ve Mimar Sinan’ın bu konudaki çalışmalarından bahsedilir. Dünyaca ünlü eseri Selimiye Camii ve diğer eserlerindeki kullanılan bilimsel yöntemlerden bahsedilir. Sürecin tamamına ilişkin değerlendirmede açık uçlu sorular, kısa cevaplı testler, tanılayıcı dallanmış ağaç vb. kullanılabilir.",
    "components": []
   },
   {
@@ -339,11 +547,35 @@
    "components": []
   },
   {
+   "code": "MBU.BU.2.3.3",
+   "grade": 2,
+   "unit": 3,
+   "order": 3,
+   "text": "Öğrencilere tiyatro, opera vb. sahne sanatları hazırlanırken faydalanılan teknolojilerle ile ilgili açık uçlu sorular sorulur. Öğrencilere tiyatro, opera vb. sahne sanatları hazırlanırken faydalanılan teknolojilerle ile ilgili bireysel ya da grup olarak poster, afiş, resim, rapor vb. ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI hazırlamalarını içeren performans görevleri verilir (SDB1.2, OB1, E3.4). Bu süreçte görev bilinciyle hareket ederek sorumlu ve planlı davranmaları sağlanır (D3.3, E2.2, D16.3). Tiyatro, opera vb. sahne sanatları hazırlanırken faydalanılan teknolojilerle ile ilgili bilgilere ulaşmak için kullanacakları araçları belirlemeleri istenir (SDB3.3, D3.2). Bu araçlar dijital içerikler, yazılı ve görsel kaynaklar olabilir (OB1, OB2, OB5). Öğrenciler bilgi toplama sürecinde okul kütüphanesi, bilgisayar laboratuvarı vb. ortamları da kullanabilir. Tiyatro, opera vb. sahne sanatları hazırlanırken ses, ışık, yalıtım, akustik ile ilgili teknolojilerden yararlanıldığı bilgisine ulaşmaları sağlanır (D3.3, E3.4). Öğrencilerden tiyatro, opera vb. sahne sanatları hazırlanırken faydalanılan teknolojilerle ile ilgili ulaştıkları bilgileri arkadaşları ile tartışarak, öğretmeninden yardım alarak veya bilimsel kaynaklara başvurarak doğrulamaları istenir (OB1, D14.1). Doğruladıkları bilgileri kaydederek poster, afiş, resim, rapor vb. hazırlamaları sağlanır (OB1, D3.3, E3.7). Öğrencilerden doğruladıkları bilgileri kullanarak hazırladıkları bir poster, afiş, rapor vb. arkadaşlarına sunmaları istenir (SDB2.1). Öğrencilerin hazırladıkları poster, afiş, resim, rapor vb. analitik dereceli puanlama anahtarıi ile değerlendirilebilir. Sürecin tamamına ilişkin değerlendirmede açık uçlu sorular, tanılayıcı dallanmış ağaç vb. kullanılabilir.",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.2.3.4",
+   "grade": 2,
+   "unit": 3,
+   "order": 4,
+   "text": "Öğrencilere atık malzeme kullanımı ile ilgili açık uçlu sorular sorulur. Günlük yaşamda atık malzemelerin kullanıldığı alanların örneklendirilmesi istenebilir (E1.5). Öğrencilerden araştırmacı ve sorgulayıcı bir yaklaşımla atık malzemeler kullanarak tasarlanan sanat eseri örneklerini incelemeleri istenir (D3.3, E3.4, OB1, OB4). Sorgulama yaparken sanatta atık malzeme kullanımını çevre ile ilişkilendirmeleri sağlanır. Öğrencilerden sanatta atık malzeme kullanımının çevreye etkisine ilişkin nitelikleri tanımlamaları istenir (OB1, D3.4, SDB3.3). Sanatta atık malzeme kullanmanın çevre üzerindeki etkisine yönelik araştırma yaparak veri toplamaları beklenir (E2.2, E3.4). Sanatta atık malzeme kullanımının çevreye etkisine yönelik elde ettikleri verileri kaydetmeleri sağlanır (OB7, SDB3.3, D3.3). Kaydettikleri verileri yorumlayıp değerlendirmeleri istenir (OB7, KB2.14, KB2.17). Öğrencilerin sanatta kullanılan atık malzemelerin çevreye etkilerini sürdürülebilirlik açısından değerlendirmeleri sağlanır (OB8, E3.5, D5.2, D17.1). Ulaştıkları bilgileri raporlaştırmaları istenebilir. Öğrenci raporları kontrol listesi ile değerlendirilebilir. Atık malzemelerden üretilen resim, heykel vb. çalışmalara değinilir. İleri dönüşümün ne olduğuna ve çevreye etkisine değinilir (D5.2). Sıfır Atık Projesi kapsamında yapılan çalışmalardan örnekler sunularak projenin kapsamı ve ülkemizdeki atık yönetimi konusundaki önemi açıklanır (OB8, OB9, D19.3). Atıkları farklı şekillerde kullanarak doğaya bırakılmasının engellenebileceği ve bu durumun sürdürülebilir atık yönetimi adına olumlu uygulamalardan olduğunu kavramaları sağlanır (OB8, OB9, D5.2, D19.3). Öğrencilere atık malzemeleri kullanarak bir ürün tasarlamalarını içeren performans görevi verilebilir. Bu görev bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. Sürecin tamamına ilişkin değerlendirmede açık uçlu sorular, kısa cevaplı testler, tanılayıcı dallanmış ağaç vb. kullanılabilir.",
+   "components": []
+  },
+  {
    "code": "MBU.MU.2.4.1",
    "grade": 2,
    "unit": 4,
    "order": 1,
    "text": "Uygulamaları Doğadan nesneler (yaprak damarları, çam kozalakları, salyangoz kabuklarını vb.) getirilerek veya görselleri inceletilerek öğrencilerin bu nesnelerdeki örüntülere dikkatleri çekilebilir. İnceleme esnasında \"Bu şekillerin ortak özelliği nedir?\", \"Sence bu şekil tekrar ediyor mu?\" vb. sorular yöneltilerek tartışma ortamı oluşturulur (SDB2.1, E3.5). Tartışmalarla hem öğrencilerin doğadaki örüntülere karşı merakı artırılır hem de öğrencilerde örüntü farkındalığı oluşturulabilir (E1.1). İncelenen çam kozalağının pullarının yukardan aşağıya doğru sayıldığında pul sayıları arasındaki ilişkinin oluşturduğu örüntü görsel üzerinde gösterilir. Öğrencilerden doğadaki örüntü örneklerini (ayçiçeği, tuz kristalleri, ağaç dalları vb.) belirlemeleri istenir. Öğrencilerden doğadan gözlem yaparak (kuş tüyleri, kar tanesi şekilleri vb.) örüntü içeren doğal unsurları belirlemeleri beklenir (KB3.1, OB4). Öğrencilerin gözlem yapacakları durumlar için örüntü özelliğini ölçüt olarak belirlemeleri sağlanır. Doğadaki örüntü örneklerini gözlemlerken doğaya zarar vermemeleri gerektiği vurgulanarak fen bilimleri ve çevre eğitimi ve iklim değişikliği dersleri ile ilişki kurulabilir (D5.2, D15.2). Ayrıca doğada yer alan güzelliklerin, var olan çeşitliliğin korunması gerektiği ve bunun sürdürülebilir bir çevre için önemi vurgulanarak doğal güzellikleri koruma konusunda farkındalık oluşturmaları desteklenir (D5.2, D15.2, D16.3, OB8). Öğrencilerden çizerek ya da fotoğrafını çekerek gözlemledikleri örüntü modellerini belgelemeleri ve performans görevi olarak sunuma dönüştürmeleri istenebilir. Topladıkları örüntü modellerine ait verileri sınıfta arkadaşlarına sunmaları beklenebilir (SDB2.1). Topladıkları örüntü modellerini benzerliklerine göre (örüntülerdeki ilişkinin sayısal değeri vb.) sınıflandırarak kaydetmeleri istenir. Öğrencilerin sınıflandırdıkları örüntü modellerinden tablo oluşturmaları veya dijital bir sunum hazırlamaları sağlanır (OB2). Öğrencilerin sunumlarından yola çıkılarak sınıfta bir tartışma ortamı oluşturulup doğadaki örüntü modelleriyle ilgili düşüncelerini ifade etmeleri sağlanabilir (SDB2.1). Performans görevi analitik dereceli puanlama anahtarı yardımıyla değerlendirilebilir. Öğrenme çıktısı sonunda değerlendirme için açık uçlu sorular vb. kullanılabilir.",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.2.4.1",
+   "grade": 2,
+   "unit": 4,
+   "order": 1,
+   "text": "Uygulamaları Öğrencilere doğal sistemlerdeki organizmaların sağladığı süreçler ile ilgili açık uçlu sorular yöneltilebilir. Doğal sistemlerdeki organik maddelerin çürümesi ile atık oluşmadığına yönelik örnekler sunularak öğrencilerden incelemeleri istenebilir (KB2.2, D3.3, D12.3, E1.1, E3.2). Bu aşamada öğrencilerden gözlemlerinden yola çıkarak doğal sistemlerdeki süreçlerin niteliklerini tanımlamaları istenir (OB1, D3.2, SDB3.3). Doğal sistemlerde yer alan süreçlerdeki dönüşümlere yönelik veri toplayıp kaydetmeleri istenir (OB1, OB7, OB8, KB2.2, E3.7). Doğal sistemlerdeki süreçler sayesinde atığın oluşmadığını yorumlayarak değerlendirmeleri sağlanır (E3.10, KB2.14). Yorumları desteklemek için günlük yaşamdan örneklerle doğal sistemlerdeki organizmalar sayesinde atığın dönüştüğünü fark etmeleri sağlanır (SDB2.1, SDB1.3). Doğal süreçler, atık oluşumu vb. konulara kısaca değinilir. Çevresel sürdürülebilirlik için doğal süreçlerin önemini fark etmeleri sağlanır (OB8, D5.2). Kompost kavramı sorulararak öğrencilerin fikirleri alınır (E3.5). Ardından kavram kısaca açıklanır. Evde oluşan organik atıkları kompost olarak değerlendirebilecekleri belirtilir. Öğrencilere doğal sistemlerdeki süreçler sayesinde sürdürülebilirliğe katkı sağlayabilmek adına evdeki organik atıkları kullanarak bir kompost hazırlamalarını içeren performans görevi verilebilir. Performans görevi analitik dereceli puanlama anahtarıyla değerIendirilebilir. Sürecin tamamına ilişkin değerlendirmede açık uçlu sorular, kısa cevaplı testler vb. kullanılabilir.",
    "components": []
   },
   {
@@ -355,11 +587,27 @@
    "components": []
   },
   {
+   "code": "MBU.BU.2.4.2",
+   "grade": 2,
+   "unit": 4,
+   "order": 2,
+   "text": "Organik atık kavramı sorularak beyin fırtınası yöntemiyle öğrencilerin görüşleri alınır (SDB2.1, E3.5). Alınan yanıtlardan yola çıkılarak organik atık kavramı açıklanır. Günlük hayatta evde veya okulda ortaya çıkan atıklardan organik olanları belirlemeleri istenebilir (E1.6). Öğrencilerden günlük yaşamdaki uygulamalarında organik atıkları oluşturmaya ilişkin deneyimlerini gözden geçirmeleri istenir (SDB2.1, E3.2, E3.10). Günlük yaşamdaki uygulamalarında organik atıkları azaltmaya ilişkin deneyimlerine dayalı çıkarımda bulunmaları beklenir. Bunun için ayrılıp birleşme, vızıltı grupları vb. teknikler ile grup tartışması yaptırılır (KB2.18, SDB2.1, SDB2.2). Bu süreçte öğrencilerin açık fikirlilikle kendi davranışlarına ilişkin değerlendirme yapmaları, uygun yöntemleri kullanmaları ve tasarruflu davranma konusunda sorumluluk almaları sağlanır (SDB1.1, SDB1.2, D16.3, D17.2, E3.5). Öğrencilerin uygulamalarında organik atıkları azaltmaya ilişkin ulaşılan çıkarımları değerlendirmeleri sağlanır (KB3.1). Bu aşamada öğrencilerden empati kurmaları desteklenir (D14.1). Atık yönetiminin çevresel temizliğin yanında sürdürülebilirliğin parçası olduğunu ve doğayı koruma açısından önemli olduğunu fark etmeleri sağlanır (D9.3, D18.3, OB8). Bu konuda doğru davranış örnekleri listelenerek uygulama konusunda sorumluluk almalarının önemini kavramaları sağlanır (SDB2.3, SDB3.3, D5.1, D16.3). Öğrencilere evsel organik atıkları doğada olduğu gibi doğal süreçlere dâhil edebilmenin yolları sorulur (E3.6). Geri kazanım kavramı sorularak öğrencilerin görüşleri alınır. Ardından kavram açıklanır. Öğrencilerin organik atıkları değerlendirme yöntemlerine ilişkin fikirleri alınır (SDB2.1, E3.6, E3.10). Değerlendirme için açık uçlu sorular kullanılabilir.",
+   "components": []
+  },
+  {
    "code": "MBU.MU.2.4.3",
    "grade": 2,
    "unit": 4,
    "order": 3,
    "text": "Öğrencilerden doğadaki çevresi düzgün (petekler vb.) ve düzgün olmayan (yapraklar, çiçekler vb.) şekillere örnekler vermeleri istenir. Öğrencilere doğadaki düzgün ve düzgün olmayan şekil örnekleri (kar taneleri, arı kovanı, kaya parçalarının yüzleri, dağların yüzeyleri ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI vb.) gösterilerek inceletilir. Örnekler görsellerle çeşitlendirilebilir. Öğrencilerin bu örnekleri inceleyerek örneklerindeki düzgün ve düzgün olmayan şekillerin kenar ve açı özelliklerini belirlemeleri istenir (OB2). Öğrencilerin belirledikleri özellikleri kontrol ederek düzgün ve düzgün olmayan şekillerin benzer özelliklerini listelemeleri istenir. Örneğin \"arı peteği ve kırık bir cam parçasının sahip olduğu ortak özellikler: her ikisinin de bir çokgen olması, köşe ve kenarlara sahip olmalarıdır.\" Benzer özellikleri belirledikten sonra öğrencilerden düzgün ve düzgün olmayan şekillerin farklı özelliklerini listelemeleri beklenir. Örneğin \"arı peteğinin kenar uzunlukları ve açı ölçüleri birbirine eşittir. Ancak kırık cam parçasının kenar uzunlukları ve açı ölçüleri birbirinden farklıdır.\" Daha sonra öğrencilerin doğadaki düzgün ve düzgün olmayan şekillerin benzer ve farklı özelliklerini afiş, poster vb. şeklinde sunmalarını içeren performans görevi verilebilir. Bu performans görevini grup olarak yapmaları istenebilir (SDB2.2). Performans görevinde düzgün ve düzgün olmayan şekillerin benzerlik ve farklılıklarını açıklamaları istenir. Öğrencilerin performans görevini yerine getirmek için sorumluluk bilinciyle bir plan yapıp bu plana uygun ilerlemeleri sağlanabilir (SDB3.3, D3.2, D16.3, E2.2). Bu performans görevi, süreç bileşenleri dikkate alınarak performans kriterlerini barındıran bütüncül dereceli puanlama anahtarı yardımıyla değerlendirilebilir. Öğrenme çıktısı sonunda açık uçlu soru, doğru yanlış ve eşleştirme soruları kullanılarak değerlendirme yapılabilir.",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.2.4.3",
+   "grade": 2,
+   "unit": 4,
+   "order": 3,
+   "text": "Öğrencilerden uzay teknolojileri ile ilgili örnekler vermeleri istenir (E1.5, E3.5). Uzayda kullanılan teknolojilerin uzaya taşınması ve kullanım süreleri hakkında açık uçlu sorular yöneltilebilir. Öğrencilere uzayda sürdürülebilirlik ve çevreyi korumaya yönelik bireysel ya da grup olarak poster, afiş, resim, rapor vb. hazırlama performans görevleri verilir (SDB2.1, SDB2.2, OB1, OB8). Öğrencilerden hazırlayacakları performans görevi ile ilgili bilgilere ulaşmak için kullanacakları araçları belirlemeleri istenir (D3.3, SDB3.3, E2.2). Bilgiye ulaşmak için güvenilir genel ağ adresleri, basılı kaynaklar, alan uzmanlarıyla görüşme vb. farklı yöntemlerden yararlanmaları istenir (OB1, OB2, OB4). Bu süreçte gerçeği arama isteğiyle merak ettiği soruları sorarak hareket etmeleri beklenir (E3.4, E3.8). Belirledikleri araçları kullanarak uzayda sürdürülebilirlik ve çevre korumaya yönelik bilgi toplamaları istenir (OB1, D16.3, D19.3). Öğrencilerden ulaştıkları bilgileri öğretmeninden, alan uzmanından vb. yarORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI dım alarak, arkadaşları ile tartışarak veya bilimsel kaynaklara başvurarak doğrulamaları beklenir (KB2.18, OB1). Doğruladıkları bilgileri kaydetmeleri istenir (OB1, OB7). Öğrencilerden doğruladıkları bilgileri kullanarak hazırladıkları bir poster, afiş, rapor vb. arkadaşlarına sunmaları istenir (SDB2.1). Uzayda sürdürülebilirliğin çevreyi korumaya yönelik önemini fark etmeleri sağlanır (OB8, D18.3, SDB2.3). Performans görevi süreci analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Uzayda sürdürülebilirlik için yapay zekâdan yararlanılma durumu hakkındaki görüşleri sorgulanır. Uzay çalışmalarında yapay zekânın yerine değinilir. Sürecin tamamına ilişkin değerlendirmede açık uçlu sorular, eşleştirme testleri, kısa cevaplı testler vb. kullanılabilir.",
    "components": []
   },
   {
@@ -371,11 +619,27 @@
    "components": []
   },
   {
+   "code": "MBU.BU.2.5.1",
+   "grade": 2,
+   "unit": 5,
+   "order": 1,
+   "text": "Uygulamaları Öğrencilerden ülkemizin son yıllarda uzay çalışmaları ile ilgili yaptığı gelişmelere örnekler vermeleri istenir (E1.1, E1.5, D19.1). İlk Türk astronot ve uzay araştırmaları alanında çalışan kişilerin aldığı eğitimler ile ilgili açık uçlu sorular yöneltilebilir (D19.2). Öğrencilere uzay araştırmaları alanında çalışan bir meslek grubunu seçerek bu kişilerin aldığı eğitimlere ilişkin bireysel ya da grup olarak poster, afiş, resim, rapor vb. hazırlamalarına yönelik performans görevi verilir (SDB2.1, SDB2.2, OB1). Öğrencilerden hazırlayacakları performans görevi ile ilgili bilgilere ulaşmak için kullanacakları araçları belirlemeleri sağlanır (D3.3, SDB3.3, D16.3). Bilgiye ulaşmak için güvenilir genel ağ adresleri, basılı kaynaklar, alan uzmanlarıyla görüşme vb. farklı yöntemlerden yararlanmaları istenir (OB1, OB2, OB4). Bu süreçte gerçeği arama isteğiyle merak ettiği soruları sorarak hareket etmeleri beklenir (E3.4, E3.8). Belirledikleri araçları kullanarak uzay araştırmaları alanında seçtiği meslek grubunda çalışan kişilerin aldığı eğitimlere ilişkin bilgi toplamaları istenir (OB1, D16.3, D19.2). Öğrencilerden ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI ulaştıkları bilgileri öğretmeninden, alan uzmanından vb. yardım alarak, arkadaşları ile tartışarak veya bilimsel kaynaklara başvurarak doğrulamaları beklenir (OB1, E3.10). Doğruladıkları bilgileri kaydetmeleri istenir (OB1). Öğrencilerden hazırladıkları bir poster, afiş, rapor vb. arkadaşlarına sunmaları istenir (SDB2.1). Uzay araştırmaları alanında çalışan kişilerin aldığı eğitimlerin ve kendilerini bu alanda geliştirmelerinin önemini fark etmeleri sağlanır (SDB1.1, D3.3). Uzay araştırmaları alanında astronotlar, astronomlar, uzay araçları tasarlayan mühendisler, yazılımcılar vb. çeşitli meslek gruplarının bulunduğu vurgulanır. Yapay zekâ alanında gerçekleşen gelişmelerin sürece katkısına değinilir. Performans görevi süreci analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Sürecin tamamına ilişkin değerlendirmede açık uçlu sorular, kısa cevaplı testler vb. kullanılabilir.",
+   "components": []
+  },
+  {
    "code": "MBU.MU.2.5.2",
    "grade": 2,
    "unit": 5,
    "order": 2,
    "text": "Öğrencilerin geometrik şekil ve cisimlerden yararlanan mesleklere örnekler vermeleri istenir ve bu doğrultuda sınıfta bir tartışma ortamı oluşturulabilir. Tartışma sürecinde özellikle mimarlık, iç mimarlık ve mühendislik gibi mesleklerde geometrik şekil ve cisimlerin kullanım alanlarına değinmeleri sağlanır. Öğrencilerden geometrik şekil ve cisimlerin meslek gruplarındaki kullanım alanları ile poster, afiş, rapor vb. hazırlamalarını içeren perfromans görevi verilebilir. Bu süreçte gruplara ayrılarak çalışmaları desteklenebilir (SDB2.1, SDB2.2). Performans görevi sürecinde öğrencilerden sorumlu ve planlı davranmaları sağlanır (D3.2, E2.2). Geometrik şekil ve cisimlerin meslek gruplarındaki kullanım alanları ile ilgili bilgi edinebilmeleri için güvenilir araçları (genel ağ adresleri, basılı kaynaklar, alan uzmanlarıyla görüşme vb.) belirlemeleri beklenir (OB1, OB2). Belirledikleri bilgi edinme yolları aracılığıyla geometrik şekil ve cisimlerin meslek gruplarındaki kullanım alanları hakkında bilgi toplamaları istenir. Öğrencilerin ulaştıkları bilgileri öğretmenlerinden, alan uzmanlarından, bilimsel kaynaklardan yardım alarak ya da arkadaşları ile tartışarak doğrulamaları sağlanır (E3.4, E3.10, D3.3, OB1, OB7). Doğruladıkları bilgileri kaydederek poster, afiş, rapor vb. şeklinde düzenlemeleri ve sunmaları istenir (SDB2.1, OB1). Bu süreçte öğrencilerin birbirlerini saygılı bir şekilde dinlemeleri istenir (SDB2.1, D14.1). Öğretmen grup çalışmalarını grup değerlendirme formu kullanarak değerlendirebilir. Elde edilen sonuçlara dayalı olarak öğrencilere geri bildirim verilir. Öğrencilerin hazırladığı poster, afiş, resim ya da raporlar süreç bileşenlerinin yer aldığı performans kriterlerini barındıran analitik dereceli puanlama anahtarıyla değerlendirilebilir. Öz değerlendirme veya akran değerlendirme formuyla öğrencilerin de değerlendirme sürecine katılmaları desteklenebilir. Öğrenme çıktısının sonunda açık uçlu sorulardan oluşan çalışma kâğıdı kullanılabilir. ORTAOKUL MATEMATİK VE BİLİM UYGULAMALARI DERSI ÖĞRETİM PROGRAMI",
+   "components": []
+  },
+  {
+   "code": "MBU.BU.2.5.2",
+   "grade": 2,
+   "unit": 5,
+   "order": 2,
+   "text": "Bilimsel gelişmeler ışığında gelecekteki mesleklerin neler olabileceğine dair beyin fırtınası vb. teknikler kullanılarak öğrencilerin geleceğin mesleklerini belirlemeleri sağlanır (SDB2.1, SDB2.2, E3.5). Belirlenen geleceğin mesleklerine ulaşmak için hangi alanda eğitimler almaları gerektiği hakkında açık uçlu sorular yöneltilebilir. Bilimsel gelişmeler ışığında gelecekteki mesleklerin neler olabileceği konusunda öğrencilerin dijital platformlar, basılı ve görsel kaynaklar vb. araştırma yapmaları sağlanır (OB1, OB2, OB4). Araştırma sonuçlarını arkadaşlarıyla paylaşmaları istenir (SDB2.1, SDB2.2). Öğrencilerin geleceğin mesleklerine ilişkin mantıksal temellendirmeler yapmaları istenir (KB2.19, E3.6, D16.3). Bu aşamada sınıfta gruplara ayrılarak takım çalışması içinde münazara, küçük grup tartışması vb. yöntemler kullanılabilir (SDB2.1, SDB2.2, D16.3). Tartışma sırasında sabırlı ve olgun davranabilmeleri ve grup içinde tartışmalarda liderlik becerilerini geliştirmeleri sağlanır (D12.2, SDB1.1, E1.5). Bilimsel gelişmeler ışığında gelecekteki mesleklerin neler olabileceğine yönelik mantıksal çelişkileri tespit etmeleri beklenir (SDB3.3, E3.1, E3.10). Bu süreçte öğrencilerin açık fikirli davranmaları, saygı çerçevesinde fikir üretmeleri, nezaketle fikirlerini savunmaları sağlanır (D14.1, E3.5). Tartışma sonunda bilimsel gelişmeler ışığında gelecekteki mesleklerin neler olabileceğine ilişkin ulaşılan sonuçları çürütmeleri veya kabul etmeleri beklenir (E3.10). Geleceğin meslekleri olarak tanımlanan endüstriyel veri bilimciliği ve analistliği, yapay zekâ ve makine öğrenimi mühendisliği, yazılım mühendisliği, dijital tarım uzmanlığı, insan kaynakları uzmanlığı, dijital pazarlama uzmanlığı, dijital etik uzmanlığı, hukuk teknolojileri uzmanlığı, finansal yöneticilik, yenilenebilir enerji uzmanlığı, nanoteknoloji mühendisliği, siber güvenlik uzmanlığı, robotik mühendisliği vb. mesleklere değinilir. Bu noktada gelecekteki meslekler için hangi alanlarda eğitim almaları gerektiği üzerinde düşünmeleri sağlanır (SDB1.1, SDB1.2). Bu meslek gruplarının ülkemizin kalkınması için önemini fark etmeleri sağlanır (D16.3, D19.2). Tartışma süreci kontrol listesiyle değerlendirilebilir. Sürecin tamamına ilişkin değerlendirmede açık uçlu sorular, kısa cevaplı testler vb. kullanılabilir.",
    "components": []
   },
   {
@@ -399,45 +663,78 @@
   "units": 5,
   "outcomes": 0,
   "components": 0,
-  "orphan_outcomes": 35,
+  "orphan_outcomes": 68,
   "gaps": [
    {
     "course": "Matematik ve Bilim Uygulamaları Dersi",
     "reason": "ünitesi bulunamayan çıktı",
     "codes": [
+     "MBU.BU.1.1.1",
      "MBU.MU.1.1.1",
      "MBU.MU.1.1.2",
+     "MBU.BU.1.1.2",
      "MBU.MU.1.1.3",
+     "MBU.BU.1.1.3",
      "MBU.MU.1.1.4",
      "MBU.MU.1.1.5",
      "MBU.MU.1.2.1",
+     "MBU.BU.1.2.1",
      "MBU.MU.1.2.2",
+     "MBU.BU.1.2.2",
      "MBU.MU.1.2.3",
+     "MBU.BU.1.2.3",
+     "MBU.BU.1.2.4",
+     "MBU.BU.1.2.5",
      "MBU.MU.1.3.1",
+     "MBU.BU.1.3.1",
      "MBU.MU.1.3.2",
+     "MBU.BU.1.3.2",
      "MBU.MU.1.3.3",
+     "MBU.BU.1.3.3",
      "MBU.MU.1.3.4",
+     "MBU.BU.1.3.4",
      "MBU.MU.1.4.1",
+     "MBU.BU.1.4.1",
      "MBU.MU.1.4.2",
+     "MBU.BU.1.4.2",
      "MBU.MU.1.4.3",
+     "MBU.BU.1.4.3",
      "MBU.MU.1.4.4",
+     "MBU.BU.1.4.4",
      "MBU.MU.1.5.1",
+     "MBU.BU.1.5.1",
      "MBU.MU.1.5.2",
+     "MBU.BU.1.5.2",
      "MBU.MU.1.5.3",
      "MBU.MU.2.1.1",
+     "MBU.BU.2.1.1",
      "MBU.MU.2.1.2",
+     "MBU.BU.2.1.2",
      "MBU.MU.2.1.3",
+     "MBU.BU.2.1.3",
      "MBU.MU.2.2.1",
+     "MBU.BU.2.2.1",
      "MBU.MU.2.2.2",
+     "MBU.BU.2.2.2",
      "MBU.MU.2.2.3",
+     "MBU.BU.2.2.3",
      "MBU.MU.2.3.1",
+     "MBU.BU.2.3.1",
      "MBU.MU.2.3.2",
+     "MBU.BU.2.3.2",
      "MBU.MU.2.3.3",
+     "MBU.BU.2.3.3",
+     "MBU.BU.2.3.4",
      "MBU.MU.2.4.1",
+     "MBU.BU.2.4.1",
      "MBU.MU.2.4.2",
+     "MBU.BU.2.4.2",
      "MBU.MU.2.4.3",
+     "MBU.BU.2.4.3",
      "MBU.MU.2.5.1",
+     "MBU.BU.2.5.1",
      "MBU.MU.2.5.2",
+     "MBU.BU.2.5.2",
      "MBU.MU.2.5.3",
      "MBU.MU.2.5.4"
     ]

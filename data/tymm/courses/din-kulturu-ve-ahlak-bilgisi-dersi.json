@@ -2555,14 +2555,6 @@
   "outcomes": 96,
   "components": 312,
   "orphan_outcomes": 0,
-  "gaps": [
-   {
-    "course": "Din Kültürü ve Ahlak Bilgisi Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "DKAB.6.2.226"
-    ]
-   }
-  ]
+  "gaps": []
  }
 }

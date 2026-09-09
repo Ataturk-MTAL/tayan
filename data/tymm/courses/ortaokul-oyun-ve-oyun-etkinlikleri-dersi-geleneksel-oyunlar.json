@@ -1,0 +1,386 @@
+{
+ "course": {
+  "id": 82,
+  "name": "Oyun ve Oyun Etkinlikleri Dersi (Geleneksel Oyunlar)",
+  "slug": "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-geleneksel-oyunlar",
+  "prefix": "OOEGO",
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/oyun-ve-oyun-etkinlikleri-dersi-geleneksel-oyunlar_20260819_073604_446.pdf"
+ },
+ "units": [
+  {
+   "grade": null,
+   "unit": 1,
+   "kind": "ÜNİTE",
+   "title": "GELENEKSEL OYUN KÜLTÜRÜ VE UYGULAMA BECERİSİ",
+   "description": "Bu ünitede öğrencilerin geleneksel oyunların özelliklerini özetleyebilmeleri, geleneksel oyunlar ile günümüzde oynanan oyunlar arasındaki benzerlik ve farklılıkları karşılaştırabilmeleri, geleneksel oyunlar kapsamında hareket becerilerini sergilemenin yanı sıra taktik ve strateji becerilerini geliştirebilmeleri amaçlanmaktadır.",
+   "lesson_hours": 10,
+   "sections": {
+    "ALAN BECERİLERİ": "BEOSAB1. Hareketi Sergileme BEOSAB3. Taktik ve Strateji Geliştirme",
+    "KAVRAMSAL BECERİLER": "KB2.3. Özetleme, KB2.7. Karşılaştırma",
+    "EĞİLİMLER": "E1.1. Merak, E1.3. Azim ve Kararlılık, E1.5. Kendine Güvenme (Öz Güven), E2.5. Oyunseverlik, E3.1. Muhakeme, E3.2. Odaklanma , E3.5. Açık Fikirlilik, E3.6. Analitiklik, E3.7. Sistematiklik, E3.8. Soru Sorma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal Duygusal Öğrenme Becerileri SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3.Sosyal Farkındalık SDB3.3. Sorumlu Karar Verme E YÖNELİK UYGULAMALAR OOEGO.1.1 • Öğrencilerin seçilen geleneksel oyunlara ait görselleri inceleyerek oyunların temel unsurlarını belirlemeleri ve bu unsurlar arasındaki ilişkileri çözümlemeleri sağlanır (OB4). • Öğrencilerden buldukları temel unsurlardan yola çıkarak geleneksel oyunlar arasındaki benzerlik ve farklılıkları belirlemeleri beklenir (OB1). • Öğrencilerin inceledikleri oyunlardan elde ettikleri bilgileri tartışma yöntemiyle değerlendirerek yorumlamaları sağlanır (D3.3). • Bu süreçte geleneksel oyunların millî kültür içindeki yerini fark etmeleri ve bu kültürel mirasın yaşatılmasına yönelik sorumluluk üstlenmeleri desteklenir (D19.1). • Öğrencilerden geleneksel oyunların sosyal ve fiziksel gelişime katkılarını fark ederek bu oyunları akran grubu içerisinde kurallarına uygun şekilde sergilemeleri beklenir. Bu süreçte öğrencilerin eğitsel oyun yöntemi ile etkin katılım göstermeleri sağlanır (D13.2). OOEGO.1.2 • Öğrencilerin seçilen geleneksel oyunun geçmişte ve günümüzde oynanış şekillerinin yer aldığı görselleri inceleyerek oyunun özelliklerini belirlemeleri istenir (OB4). • Öğrencilerden buldukları özelliklerden yola çıkarak oyunun geçmişte ve günümüzde oynanış şekli ile ilgili benzerlik ve farklılıkları listelemeleri beklenir (OB1). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI GELENEKSEL OYUNLAR MODÜLÜ • Öğrencilerin karşılaştırma yaparken seçilen oyunun kültürel unsurlarını fark etmeleri sağlanır ve bu oyunları oynayarak belirledikleri unsurları uygulamaya yansıtmaları, oynadıkları oyunları değerlendirmeleri desteklenir (OB5). • Öğrencilerden geleneksel ve dijital oyunları; oynandıkları ortam, kullanılan araçlar, fiziksel hareket, sosyal etkileşim ve kültürel özellikler bakımından karşılaştırmaları istenir. Şehirleşme, oyun alanlarının değişmesi, teknoloji kullanımı ve günlük yaşam alışkanlıklarının çocukların oyun tercihleri üzerindeki etkilerini belirlemeleri sağlanır (SDB2.3, OB1). OOEGO.1.3 • Öğrencilerin koşma, sıçrama, yön değiştirme, denge kurma, eğilme, uzanma, atma ve yakalama gibi temel beden hareketlerini içeren geleneksel oyunlara etkin katılmaları, seçilen oyuna ait hareket becerilerini eğitsel oyun yöntemiyle doğru ve sıralı biçimde sergilemeleri sağlanır (D3.1, D13.2). • Öğrencilerden geleneksel oyunlardaki hareket becerilerini belirli basamaklar hâlinde sistematik biçimde göstermeleri beklenir. Bu süreçte öğrencilerin hareketleri doğru sıra ve teknikle uygulamaya dikkat etmeleri sağlanır (D3.2). • Değer telkini ve eğitsel oyun yöntemleri aracılığıyla öğrencilerin arkadaşlarına karşı nazik davranmaları ve onlarla vakit geçirmeyi önemsemeleri hedeflenir (D4.2, D4.4). • Öğrencilerin; hareket becerilerini sergilerken nazik ve ilkeli davranmanın, empati kurmanın ve etkili iletişim geliştirmenin oyunun ayrılmaz bir parçası olduğunu fark etmeleri ve bu değerleri davranışlarına yansıtmaları yaparak-yaşayarak öğrenme yaklaşımı doğrultusunda desteklenir (D14.1, D14.2). • Değer telkini ve eğitsel oyun yöntemleri aracılığıyla öğrencilerin geleneksel oyunlarda hareket becerilerini uygularken arkadaşlarına karşı anlayışlı ve barışçıl olmaları, onların başarısı ve mutluluğu için destekleyici bir tutum sergilemeleri hedeflenir (D15.1, D15.4). • Öğrencilerin oyun süreci boyunca hem kendi sınırlarını fark etmeleri hem de başkalarının kişisel özgürlük alanlarına saygı göstererek bu sınırları korumaya özen göstermeleri desteklenir (D8.1). • Öğrencilerden takım oyunlarında yardımlaşma ve iş birliği içinde hareket etmeleri, ihtiyaç duyduklarında takım arkadaşlarına destek olmaları, ortak hedef doğrultusunda sorumluluk almaları ve grup başarısına katkıda bulunmaları beklenir (D20.2, SDB2.1, SDB2.2). • Öğrencilerin hareket becerilerini sergilerken nazik ve ilkeli davranmanın, empati kurmanın ve etkili iletişim geliştirmenin oyunun ayrılmaz bir parçası olduğunu fark etmeleri ve bu değerleri davranışlarına yansıtmaları değer telkini yöntemi ile desteklenir (D14.1, D14.2). • Öğrencilerin oyun oynanan ortamın temizlik ve düzeninin yetersiz olmasının doğurabileceği sorunları belirlemeleri, bu konuda sorumluluk almaları ve süreçte tartışma yoluyla çözüm önerileri geliştirmeleri değer analizi yöntemiyle sağlanır (D18.2). • Öğrencilerin geleneksel oyunlarda kullanılan araç ve gereçleri ihtiyaçları doğrultusunda kullanmaları, mevcut malzemeleri koruyarak yeniden kullanmaları ve israf etmemeleri sağlanır (D17.1, D17.2). • Öğrencilerden geleneksel oyunlara özgü temel hareket becerilerini değişen oyun kuralları, grup dinamikleri, farklı zeminler gibi çeşitli durum ve ortamlarda esnek bir şekilde uygulamaları beklenir (D3.4). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI GELENEKSEL OYUNLAR MODÜLÜ OOEGO.1.4 • Öğrencilerden seçilen geleneksel oyunda bulunan taktiksel veya stratejik problemi belirlemeleri istenir (OB1). • Öğrencilerden belirledikleri taktiksel veya stratejik problemi çözmek için uygun taktik ve strateji üretmeleri beklenir (SDB3.3). • Öğrencilerden karar verme yöntemi ile seçecekleri taktik ya da stratejiyi belirlemeleri ve uygulamada dürüst, adil ve kurallara uygun bir tutum sergilemeleri beklenir (D1.2, D6.2). • Öğrencilerin geleneksel oyunlar sırasında strateji geliştirirken sergilenen nazik ve ilkeli tutumları rol oynama yöntemi ile içselleştirerek davranışa dönüştürmeleri hedeflenir (D14.1, D14.2). • Öğrencilerden arkadaşlarının ürettiği taktik ya da stratejiyi uygularken onların düşüncelerine saygı gösterip sürece katılmaları beklenir (SDB2.2). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI GELENEKSEL OYUNLAR MODÜLÜ",
+    "Değerler": "D1. Adalet, D3. Çalışkanlık, D4. Dostluk, D6. Dürüstlük, D8. Mahremiyet, D13. Sağlıklı Yaşam, D14. Saygı, D15. Sevgi, D17.Tasarruf, D18. Temizlik, D19. Vatanseverlik, D20. Yardımseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı , OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.4. Çözümleme, KB2.15. Yansıtma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI GELENEKSEL OYUNLAR MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "OOEGO.1.1. Geleneksel oyunların özelliklerini özetleyebilme a) Geleneksel oyunların temel unsurlarını analiz ederek çözümler. b) Geleneksel oyunların özelliklerini benzerlik ve farklılıklarına göre sınıflandırır. c) İncelediği oyunlardan elde ettiği bilgileri kendi cümleleriyle aktararak yorumlar. OOEGO.1.2. Geleneksel oyunlar ile günümüzde oynanan oyunları karşılaştırabilme a) Geleneksel oyunlar ile günümüzde oynanan oyunların özelliklerini belirler. b) Geleneksel oyunlar ile günümüzde oynanan oyunların özelliklerine ilişkin benzerlikleri listeler. c) Geleneksel oyunlar ile günümüzde oynanan oyunların özelliklerine ilişkin farklılıkları listeler. OOEGO.1.3. Geleneksel oyunlarda hareket becerilerini sergileyebilme a) Geleneksel oyunlarda kullanılan hareket becerilerini algılar. b) Geleneksel oyunlardaki hareket becerilerini basamaklar hâlinde gösterir. c) Geleneksel oyunlardaki hareket becerilerini farklı durum ve ortamlarda uygular. OOEGO.1.4. Geleneksel oyunlarda taktik ve strateji geliştirebilme a) Geleneksel oyunlarda karşılaşılan taktiksel veya stratejik problemi belirler. b) Belirlenen problemi veya durumu çözmek için uygun taktik veya strateji önerir. c) Seçtiği taktiği ya da stratejiyi uygular.",
+    "İÇERİK ÇERÇEVESİ": "Geleneksel Oyunların Özellikleri Geleneksel Oyunlar ile Günümüzde Oynanan Oyunları Karşılaştırma Geleneksel Oyunlarda Hareket Becerileri Geleneksel Oyunlarda Taktik ve Stratejiler",
+    "Anahtar Kavramlar": "geleneksel oyun, hareket becerisi, strateji, taktik"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 2,
+   "kind": "ÜNİTE",
+   "title": "GELENEKSEL OYUNLAR YOLUYLA KİŞİSEL VE SOSYAL",
+   "description": "GELİŞİM Bu ünitede öğrencilerin geleneksel oyunların kişisel ve sosyal gelişim üzerindeki etkilerini çözümlemeleri, bu oyunlara fiziksel olarak katılmaları, adil oyun anlayışına uygun davranmaları ve liderlik becerileri sergilemeleri beklenmektedir.",
+   "lesson_hours": 10,
+   "sections": {
+    "ALAN BECERİLERİ": "BEOSAB4. Fiziksel Aktiviteye Katılma, BEOSAB8. Adil Oyun Anlayışına Uygun Davranma, BEOSAB9. Takım/Grup Liderliği Sergileme",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme",
+    "EĞİLİMLER": "E1.1. Merak, E1.3. Azim ve Kararlılık, E1.4. Kendine İnanma (Öz Yeterlilik), E2.1 Empati, E2.2. Sorumluluk, E2.3. Girişkenlik, E2.4. Güven, E2.5. Oyunseverlik, E3.5. Açık Fikirlilik, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal Duygusal Öğrenme Becerileri SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği E YÖNELİK UYGULAMALAR OOEGO.2.1 • Öğrencilerin sağlıklı yaşam için gerekli adımlardan biri olan sportif etkinliklere katılmaları yaparak-yaşayarak öğrenme yöntemi doğrultusunda geleneksel oyunlar aracılığıyla sağlanır (D13.2). • Öğrencilerin bireysel farklılıkları ve ihtiyaçları göz önünde bulundurularak özel gereksinimli öğrencilerin oyunlara etkin ve güvenli katılımını destekleyen kapsayıcı oyun örneklerine yer verilir. Öğrencilerin birbirlerinin gereksinimlerini fark etmeleri ve iş birliği içinde hareket etmeleri desteklenir. Oyunların kuralları, süresi, alanı, araç gereçleri ve oyuncu rolleri; okulun imkânları ve öğrencilerin ihtiyaçları doğrultusunda uyarlanır (D5.1, SDB2.2). • Öğrencilerin temiz bir çevrenin oyun kalitesi ve kendi sağlıklarına etkilerini günlük yaşamla ilişkilendirmeleri; ev, sınıf, okul bahçesi gibi alanların düzenlenmesinde gönüllü görev alarak bu farkındalığı davranışa dönüştürmeleri soru-cevap ve tartışma teknikleri aracılığıyla sağlanır (D18.2). • Öğrencilerin geleneksel oyunlar üzerinden arkadaşlarına destek olmaları, etkili iletişim kurmaları, güvene dayalı ilişkiler geliştirmeleri ve akranlarıyla vakit geçirmeyi önemsemeleri değer telkini yöntemi aracılığıyla sağlanır (D4.1, D4.2, D4.3, D4.4). • Öğrencilerin oynanan geleneksel oyunların içeriğine göre nazik olmaları, ilkeli davranmaları, empati kurmaları ve etkili iletişim becerileri sergilemeleri eğitsel oyun yöntemiyle sağlanır (D14.1, D14.2). • Öğrencilerin oyun süreci boyunca hem kendi sınırlarını fark etmeleri hem de başkalarının kişisel özgürlük alanlarına saygı göstererek bu sınırları korumaya özen göstermeleri desteklenir. Süreçte öğrencilerin yaparak-yaşayarak öğrenme yöntemi çerçevesinde gerçek oyun durumları içerisinde deneyim ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI GELENEKSEL OYUNLAR MODÜLÜ kazanmaları sağlanır (D8.1). • Öğrencilerin eğitsel oyun yöntemi aracılığıyla oyunun kurallarına uymaları, düşünce, duygu ve davranışlarında öz denetim sağlayarak kontrollü bir tutum sergilemeleri hedeflenir (D12.2, D12.3). • Öğrencilerden oyun oynarken duygu ve düşüncelerini etkili bir şekilde ifade etmeleri ve arkadaşlarını etkin şekilde dinlemeleri beklenir (SDB2.1). • Öğrencilerin oynadığı geleneksel oyunların içeriğine göre ortak hedefler doğrultusunda takım oluşturmaları ya da bir takıma katılmaları amaçlanır (SDB2.2). • Öğrencilerden seçilen geleneksel oyunların amacı ve katılımcı sayısına uygun fiziksel etkinlikleri planlamaları beklenir. Bu süreçte oyunu daha iyi bilen öğrencilerin bilgi ve deneyimlerini arkadaşlarıyla paylaşarak onlara rehberlik etmeleri akran öğretimi yöntemiyle desteklenir (D3.2). • Öğrencilerin hazırlanan geleneksel oyun planını, oyunun kurallarına ve güvenlik prensiplerine sadık kalarak sahada uygulamaları ve süreci yönetmeleri amaçlanır (SDB1.2). • Öğrencilerin öğrendikleri geleneksel oyunlardan uygun olanları ev, park gibi okul dışındaki yerlerde güvenlik koşullarını gözeterek aileleri ve yakın çevreleriyle oynamaları teşvik edilir. Öğrencilerden bu oyunları günlük yaşamlarında hangi ortamda, kimlerle ve nasıl uygulayabileceklerini planlamaları beklenir (D13.2, SDB1.2). OOEGO.2.2 • Öğrencilerden geleneksel oyunların kişisel ve sosyal gelişime katkı sağlayan unsurları ile ilgili bir sunu hazırlamaları veya afiş tasarlamaları istenebilir (OB4). • Öğrencilere ev ortamının özellikleri ve güvenlik koşulları dikkate alınarak oynanabilecek geleneksel oyunlardan örnekler sunulur. Bu oyunların problem çözme ve strateji geliştirme gibi bilişsel; iletişim ve iş birliği gibi sosyal; duygu düzenleme ve sabretme gibi duygusal; el-göz koordinasyonu ve ince motor becerileri gibi fiziksel gelişim alanlarına katkılarını belirleyerek bu alanlar arasındaki ilişkileri açıklamaları sağlanır (SDB1.2). • Öğrencilerden afiş veya slayt çalışması için kullanacakları araçları belirlemeleri, gerekli bilgilere ulaşmaları ve ulaştıkları bilgilerle özgün bir ürün oluşturmaları istenir (OB1). • Öğrencilerden hazırladıkları çalışmada belirledikleri unsurlar arasındaki ilişkiyi analiz etmeleri ve bu unsurların bireysel gelişimleri üzerindeki etkilerini • Öğrencilerin afiş veya slayt çalışması hazırlama sürecinde araştırma-inceleme yoluyla hem veri toplama ve düzenleme hem de uygun görsel seçimi aşamalarında araştırmacı ve sorgulayıcı bir yaklaşım sergilemeleri sağlanır (D3.2, D3.3). • Öğrencilerden hazırladıkları afiş veya sunuyu sınıf arkadaşlarına sunmaları, sunum yaparken edindikleri bilgileri arkadaşlarına etkin bir şekilde aktarmaları, sunum yapan arkadaşlarını etkin bir şekilde dinlemeye özen göstermeleri beklenir (SDB2.1). • Öğrencilerden geleneksel oyunların yalnızca eğlenme amacı taşımadığını, aynı zamanda strateji geliştirme, akıl yürütme, karar verme ve problem çözme gibi üst düzey düşünme becerileri ile iletişim ve iş birliği becerilerini destekleyen bir öğrenme aracı olduğunu fark etmeleri beklenir. Öğrencilerin seçtikleri geleneksel oyunda bu becerileri gerektiren durumları belirlemeleri ve oyun ile beceriler arasındaki ilişkileri örneklerle açıklamaları sağlanır (SDB2.1, SDB2.2). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI GELENEKSEL OYUNLAR MODÜLÜ • Öğrencilerden seçilen geleneksel oyunları oynarken edindikleri bilgiler doğrultusunda hareket etmeleri beklenir (SDB1.2). OOEGO.2.3 • Öğrencilerden kendilerine sunulan oyun görselleri ve videoları adil oyun çerçevesinde yorumlamaları istenir (OB2, OB4). • Öğrencilerden rol oynama tekniğiyle geleneksel oyunlarda tarafsız ve adil davranmanın önemini kavramaları, oyun sırasında sorumluluklarını yerine getirerek adil oyun ilkelerini uygulamaları istenir (D1.2). • Öğrencilerin sorumluluk alma ve samimi tutum sergileme becerilerini uygulama içinde deneyimlemeleri eğitsel oyun yöntemi aracılığıyla sağlanır (D6.1). • Eğitsel oyun yöntemi aracılığıyla doğru ve güvenilir davranmanın oyuna ve arkadaşlık ilişkilerine katkısı üzerinde durulur, belirlenen dürüstlük ilkelerinin geleneksel oyunlar sürecinde davranışa dönüştürülmesi hedeflenir (D6.2). • Öğrencilerden verilen örnek olaylarla ilgili adil oyun anlayışına uygun akıl yürütmeleri ve ulaştıkları çıkarımları oynadıkları geleneksel oyunlara yansıtmaları beklenir (OB1). • Öğrencilerin adil oyun anlayışına yönelik iç motivasyon geliştirerek görev bilincine sahip olmaları hedeflenir (D16.3). • Öğrencilerden adil oyun anlayışı ile ilgili duygu ve düşüncelerini etkili bir şekilde ifade etmeleri ve arkadaşlarını etkin şekilde dinlemeleri beklenir (SDB2.1). • Öğrencilerden adil oyun anlayışı ile ilgili temel ilkelerin belirlenmesinde kendi görüş ve düşüncelerini farklı görüş ve düşünceleri dikkate alarak uyarlamaları beklenir (SDB2.2). OOEGO.2.4 • Öğrencilerden izletilen geleneksel oyun videolarından liderlikle ilgili çıkarımlarda bulunmaları beklenir (OB2). • Öğrencilerin üstlendikleri rolleri etkinlik sürecinde sergilerken hakkaniyetli, ölçülü ve dengeli davranmaları; görev dağılımında liyakati gözeterek hareket etmeleri hedeflenir (D1.2, D1.3, D1.4). • Öğrencilerden oynanan geleneksel oyun sürecinde duygu ve düşüncelerini sözlü ve sözsüz iletişim yollarıyla etkili biçimde ifade etmeleri beklenir (SDB2.1). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI GELENEKSEL OYUNLAR MODÜLÜ",
+    "Değerler": "D1. Adalet, D3. Çalışkanlık, D4. Dostluk, D5. Duyarlılık D6. Dürüstlük, D8. Mahremiyet, D12. Sabır, D13. Sağlıklı Yaşam, D14. Saygı, D16. Sorumluluk, D18. Temizlik,",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.10. Çıkarım Yapma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI GELENEKSEL OYUNLAR MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "OOEGO.2.1. Geleneksel oyunlar aracılığıyla fiziksel aktiviteye katılabilme a) Geleneksel oyunlar aracılığıyla fiziksel etkinlik ihtiyacını fark eder. b) Geleneksel oyunlarla katılacağı fiziksel etkinliği planlar. c) Geleneksel oyunlar aracılığıyla gerçekleştireceği fiziksel etkinlik planını uygular. OOEGO.2.2. Geleneksel oyunların kişisel ve sosyal gelişimdeki etkisini çözümleyebilme a) Geleneksel oyunların kişisel ve sosyal gelişime katkıda bulunan unsurlarını belirler. b) Belirlenen unsurlar arasındaki ilişkiyi ve gelişime olan etkilerini belirler. OOEGO.2.3. Geleneksel oyunlarda adil oyun anlayışına uygun davranabilme a) Geleneksel oyunlarda adil oyun anlayışının temel ilkelerini açıklar. b) Geleneksel oyunlarda adil oyun anlayışına uygun hareket eder. OOEGO.2.4. Geleneksel oyun etkinliklerinde liderlik sergileyebilme a) Geleneksel oyun etkinliğinde liderlik rollerini tanımlar. b) Tanımladığı liderlik rollerini etkinlik sürecinde gösterir.",
+    "İÇERİK ÇERÇEVESİ": "Geleneksel Oyunlar Aracılığıyla Fiziksel Aktiviteye Katılma Geleneksel Oyunların Kişisel ve Sosyal Gelişime Etkisi Geleneksel Oyunlarda Adil Oyun Anlayışı Geleneksel Oyun Etkinliklerinde Liderlik",
+    "Anahtar Kavramlar": "adil oyun, liderlik"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 3,
+   "kind": "ÜNİTE",
+   "title": "KÜLTÜRÜN YAŞATILMASINDA OYUNLARIN ROLÜ",
+   "description": "Öğrencilerin geleneksel oyunların toplumsal ve kültürel yaşamdaki yerini sorgulayarak bu oyunlara karşı farkındalık geliştirmeleri; ailelerinden ve yakın çevrelerinden edindikleri bilgiler doğrultusunda geçmişte oynanan oyunları tanımaları, bu oyunlardaki hareket becerilerini uygulamaları ve farklı yörelere ait geleneksel oyunları inceleyerek bu oyunlarda yer alan fiziksel becerileri sergilemeleri amaçlanmaktadır.",
+   "lesson_hours": 13,
+   "sections": {
+    "ALAN BECERİLERİ": "BEOSAB1. Hareketi Sergileme",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama, KB2.8. Sorgulama",
+    "EĞİLİMLER": "E1.1. Merak, E1.3. Azim ve Kararlılık, E1.4. Kendine İnanma (Öz Yeterlilik), E2.2. Sorumluluk, E2.3. Girişkenlik, E2.5. Oyunseverlik, E3.1. Muhakeme, E3.2. Odaklanma, E3.7. Sistematiklik, E3.8. Soru Sorma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal Duygusal Öğrenme Becerileri SDB1.2. Kendini Düzenleme, SDB2.1. İletişim, SDB2.3. Sosyal Farkındalık, SDB3.1. Uyum, SDB3.3. Sorumlu Karar Verme E YÖNELİK UYGULAMALAR OOEGO.3.1 • Öğrencilerden geleneksel oyunların toplumsal ve kültürel yaşamdaki önemi ile ilgili merak ettikleri konuları soru-cevap tekniğiyle tanımlamaları ve bu konular hakkında araştırma soruları hazırlamaları istenir (D3.3). • Öğrencilerden hazırladıkları sorular doğrultusunda bilgi toplamaları, bilgiye ulaşacakları araçları belirlemeleri, konuya ilişkin doğru ve güvenilir bilgilere ulaşmaları, bu bilgileri değerlendirip kaydetmeleri beklenir (OB1). • Öğrencilerden topladıkları bilgilerin doğruluk ve güvenirliğini değerlendirirken gerekçeli yargıda bulunmaları istenir (SDB.3.3). • Öğrencilerden topladıkları bilgiler ve yaptıkları çıkarımlar sonucunda geleneksel oyunların kültürel yaşamdaki önemini fark etmeleri beklenir (OB.5). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI GELENEKSEL OYUNLAR MODÜLÜ • Öğrencilerden geleneksel oyunların toplumsal ve kültürel yaşamdaki sosyal etkilerini fark ederek oyunların toplum üzerindeki önemini anlamaları istenir (SDB.2.3). • Öğrencilerden geleneksel oyunlar ile geleneksel sporların kurallar, kullanılan araçlar, fiziksel beceriler, toplumsal katılım ve kuşaktan kuşağa aktarılma bakımından örtüşen yönlerini incelemeleri istenir. Öğrencilerin bu oyun ve sporların yaşatılmasının kültürel mirasın korunmasına katkısına ilişkin çıkarım yapmaları sağlanır (D19.3, OB5). OOEGO.3.2 • Öğrencilerden ailesi ve yakın çevresinin geçmişte oynadıkları geleneksel oyunlarla ilgili bilgilere ulaşmak için bilgi toplayacakları araçları belirlemeleri beklenir. Bunun için öğrencilerden görüşme ya da anket tekniğini kullanmaları istenebilir (OB.1). • Öğrencilerden bilgiyi toplarken aile bireyleri ile iletişim kurabileceği ve onlarla vakit geçirebileceği bir yöntem seçmeleri istenir (D2.1, D2.3). • Öğrencilerin aile büyükleriyle görüşerek onların geçmişte oynadıkları geleneksel oyunları öğrenmeleri sağlanır. Bu süreçte geleneksel oyunların kuşaklar arasındaki kültür aktarımına katkısı ile aile bireylerinin birlikte nitelikli zaman geçirmesini sağlayan ve aile bağlarını güçlendiren yönleri üzerinde durulur (D2.1, D2.3, SDB2.1, OB5). • Öğrencilere aile bireylerinden topladıkları bilgiler doğrultusunda geleneksel oyunların kültürel bir miras olduğu ve korunması gerektiği vurgulanır (OB.5). • Öğrencilerin araştırma-sorgulama stratejisi ve değer analizi tekniği kapsamında ulaşılan bilgilerin doğruluğunu teyit ederken millî ve manevi değerlere duyarlı davranmaları hedeflenir (D14.3). • Öğrencilerden geleneksel oyunlar ile ilgili topladıkları bilgileri arkadaşları ile paylaşmaları istenir. Bu sayede öğrenciler millî ve manevi değerlerin gelecek nesillere aktarılmasında sorumluluk üstlenir (D19.3). • Öğrencilerden topladıkları bilgilerden hareketle belirledikleri geleneksel oyunları arkadaşlarıyla oynayarak deneyimlemeleri ve oyun sürecine aktif katılım sağlamaları beklenir (SDB1.2). OOEGO.3.3 • Öğrencilerden geleneksel oyunların hareket becerilerini ifade etmeleri istenir. Bunun için öğrencilere geleneksel oyunlarla ilgili video izletilebilir ya da görseller sunulabilir (OB.4). • Öğrencilerden ailesi ve yakın çevresinin oynadığı oyunlardaki hareket becerilerinin basamaklarını kendi cümleleri ile ifade etmeleri istenir (OB.1). • Okul imkânları ve öğrenci durumları göz önünde bulundurularak “Geleneksel Aile Oyunları Günü” gibi etkinlikler düzenlenebilir. Bu etkinlikler aracılığıyla aile bireylerinin çocuklarla oyun süreçlerine etkin katılımı, kuşaklar arası kültür aktarımının sürdürülmesi, aile içi iletişimin ve aile bağlarının güçlendirilmesi ile okul-aile iş birliğinin geliştirilmesi amaçlanır. Uygulamalar, Ailenin Güçlendirilmesi Vizyon Belgesi’nde aile bireylerinin birlikte nitelikli zaman geçirmelerine ve aile içi etkileşimin desteklenmesine yönelik belirlenen amaçlarla ilişkilendirilir (D2.1, D2.3, SDB2.1, OB5). • Öğrencilerin geleneksel oyunlardaki hareket becerilerini uygularken hem kendilerinin hem de arkadaşlarının kişisel özgürlük alanlarını korumaları, kişisel bilgilerin gizliliğine saygı göstermeleri ve kişisel sınırları ihlal etmemeleri yaparak-yaşayarak öğrenme yaklaşımıyla sağlanır. Süreçte eğitsel oyun yöntemi ve uygulama tekniği kullanılır (D8.1, D8.2). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI GELENEKSEL OYUNLAR MODÜLÜ • Öğrencilerden hareket becerilerini sergilerken yaşadıkları toplumun millî ve manevi değerlerini dikkate almaları ve bu değerleri davranışlarına yansıtmaları beklenir. Süreçte değer öğretimi yaklaşımı ve örnek olay tekniğinden yararlanılır (D14.3). • Öğrencilerden geleneksel oyunları oynarken arkadaşları ile etkili iletişim kurmaları beklenir (SDB2.1). • Öğrencilere geleneksel oyunların kültürel bir miras olduğu ve korunması gerektiği vurgulanır (OB.5). OOEGO.3.4 • Öğrencilere farklı yörelere ait geleneksel oyunların videoları izletilir (OB.2). • Öğrencilerden izledikleri videolardan yola çıkarak merak ettikleri geleneksel oyunları tanımlamaları ve bu oyunlar hakkında sorular sorarak gerekli bilgileri bulmaları beklenir (OB.1). • Öğrencilere izletilen videolarda yer alan yöresel oyunlarla ilgili merak duygusu uyandırılır. Süreçte soru-cevap tekniği kullanılır. Öğrencilerden araştırmak istedikleri bilgiye ulaşma yollarını belirlemeleri ve edindikleri bilgileri eleştirel bakış açısıyla değerlendirmeleri beklenir (D3.3). • Öğrencilerden farklı yörelere ait oyunların benzerlik ve farklılıklarını ayırt ederek farklı kültürleri keşfetmeleri beklenir (OB5). • Öğrencilerden farklı yörelere ait oyunları akran grubu içerisinde kurallarına uygun şekilde oynayarak deneyimlemeleri ve bu oyunların kültürel özelliklerini uygulama sürecine yansıtmaları beklenir. (SDB2.3). OOEGO.3.5 • Öğrencilerden farklı yörelere ait oyunlardaki hareket becerilerini algılamaları beklenir. Bunun için öğrencilere farklı yörelere ait oyunların görselleri verilir ve onlardan bu görselleri incelemeleri istenir (OB4). • Gözlem ve değer analizi tekniği aracılığıyla öğrencilerin hareket becerilerini sergiledikleri süreçte nezaket, ilkeli duruş, empati, etkili iletişim gibi kavramların ortak değerler olduğunu keşfetmelerine rehberlik edilir (D14.1, D14.2). • Öğrencilerden farklı yörelere ait hareketlerdeki farklılıkları anlayarak yeni hareketleri öğrenmeye istekli olmaları beklenir (SDB3.1). • Öğrencilerden farklı yörelerin oyunlarına ait izledikleri hareket becerilerini sergilemeleri ve sonrasında kendilerini değerlendirmeleri varsa düzeltilmesi gereken hareketleri yeniden yapmaları beklenir (SDB1.2). • Öğrencilerin farklı yörelere ait geleneksel oyunları sergilemeleri sürecinde üstlendikleri görevleri özveriyle yerine getirmelerine rehberlik edilir (D16.3). • Öğrencilerin eğitsel oyun yöntemiyle grup içi etkileşimlerde anlayışlı ve barışçıl bir tutum sergileyerek çatışmadan uzak bir oyun ortamı oluşturmaları hedeflenir (D15.1). • Öğrencilerin akran iletişiminde nezaket kurallarını benimsemeleri ve arkadaşlarıyla nitelikli vakit geçirmeyi önemsemeleri sağlanır. Süreçte model olma yöntemi ve rol oynama tekniğinden yararlanılır (D4.2, D4.4). • Öğrencilerde geleneksel oyunlardaki hareket becerilerinin uygulanması sürecinde kendisi ve başkalarının kişisel özgürlük alanlarını korumaları konusunda farkındalık oluşturulur. Bu süreçte yaparak-yaşayarak öğrenme yaklaşımı ve eğitsel oyun tekniği kullanılır (D8.1). • Öğrencilerin, arkadaşlarının kişisel sınırlarını ihlal etmemeye özen göstermeleri ve bu sınırlara saygı duymaları teşvik edilir. Süreçte tartışma yöntemi uygulanır (D8.2). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI GELENEKSEL OYUNLAR MODÜLÜ • Öğrencilerden geleneksel oyunlar aracılığıyla kültürel unsurları fark etmeleri, kültürel mirasımızı korumaları ve böylece kültürümüzü yaşatmaları beklenir (OB5). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI GELENEKSEL OYUNLAR MODÜLÜ",
+    "Değerler": "D2. Aile Bütünlüğü, D3. Çalışkanlık, D4. Dostluk, D8. Mahremiyet, D14. Saygı, D15. Sevgi, D16. Sorumluluk, D19.Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.15. Yansıtma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI GELENEKSEL OYUNLAR MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "OOEGO.3.1. Geleneksel oyunların toplumsal ve kültürel yaşamdaki önemini sorgulayabilme a) Geleneksel oyunların toplumsal ve kültürel yaşamdaki önemiyle ilgili merak ettiği konuyu tanımlar. b) Belirlediği konuya ilişkin araştırma sorularını sorar. c) Sorular doğrultusunda toplaması gereken bilgileri toplar. ç) Topladığı bilgilerin doğruluk ve güvenilirlik durumunu değerlendirir. d) Elde ettiği bilgilerin ışığında toplumsal ve kültürel yaşamdaki öneme ilişkin çıkarım yapar. OOEGO.3.2. Ailesinin ve yakın çevresinin geçmişte oynadığı geleneksel oyunlarla ilgili bilgi toplayabilme a) Geleneksel oyunlara ulaşmak için kullanacağı araçları belirler. b) Belirlediği aracı kullanarak geleneksel oyunlar hakkındaki bilgileri bulur. c) Geleneksel oyunlarla ilgili ulaşılan bilgileri doğrular. ç) Geleneksel oyunlar ile ilgili ulaşılan bilgileri kaydeder. OOEGO.3.3. Ailesi ve yakın çevresinin oynadığı geleneksel oyunlardaki hareket becerilerini sergileyebilme a) Geçmişte oynanan geleneksel oyunlarda kullanılan temel hareket becerilerini algılar. b) Ailesi ve yakın çevresinin oynadığı oyunlardaki hareket becerilerini basamaklar hâlinde sergiler. c) Ailesi ve yakın çevresinin oynadığı oyunlardaki hareket becerilerini uygular. OOEGO.3.4. Farklı yörelere ait geleneksel oyunları sorgulayabilme a) Farklı yörelere ait merak ettiği geleneksel oyunları tanımlar. b) Farklı yörelere ait oyunlar hakkında sorular sorar. c) Farklı yörelere ait geleneksel oyunlar hakkında bilgi toplar. ç) Farklı yörelere ait toplanan bilgilerin doğruluğunu değerlendirir. d) Farklı yörelere ait toplanan bilgilerin doğruluğu üzerinde çıkarım yapar. OOEGO.3.5. Farklı yörelere ait geleneksel oyunlardaki hareket becerilerini sergileyebilme a) Farklı yörelere ait oyunlardaki hareket becerilerini algılar. b) Farklı yörelere ait oyunlardaki hareket becerilerini basamaklar hâlinde sergiler. c) Farklı yörelere ait oyunlardaki hareket becerilerini uygular.",
+    "İÇERİK ÇERÇEVESİ": "Geleneksel Oyunların Toplumsal ve Kültürel Yaşamdaki Önemi Geleneksel Oyunlardaki Hareket Becerileri",
+    "Anahtar Kavramlar": "geleneksel oyun"
+   },
+   "outcomes": []
+  }
+ ],
+ "unassigned_outcomes": [
+  {
+   "code": "OOEGO.1.1",
+   "grade": 1,
+   "unit": null,
+   "order": 1,
+   "text": "Geleneksel oyunların özelliklerini özetleyebilme ifade eder.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Geleneksel oyunların temel unsurlarını (kurallar, malzeme, mekân, katılımcı sayısı vb.) analiz ederek çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Geleneksel oyunların özelliklerini benzerlik ve farklılıklarına göre sınıflandırır."
+    },
+    {
+     "label": "c",
+     "text": "İncelediği oyunlardan elde ettiği bilgileri kendi cümleleriyle aktararak yorumlar. İÇERİK ÇERÇEVESİ Geleneksel Oyunların Özellikleri Öğrenme sürecinde ele alınan bilgi kümesini (bölüm/konu/ Geleneksel Oyunlar ile Günümüzalt konuya ilişkin sınırları) ifade de Oynanan Oyunları Karşılaştırma eder. Geleneksel Oyunlarda Hareket Becerileri Geleneksel Oyunlarda Taktik ve Stratejiler Anahtar kavramlar geleneksel oyun, hareket beDisipline ait başlıca cerisi, strateji, taktik anahtar kavramları ifade eder. Öğrenme çıktıları, programlar PROGRAMLAR arası bileşenler arasında kurulan ARASI ve anlamlı ilişkilere dayanan BİLEŞENLERE öğrenme-öğretme sürecini YÖNELİK ifade eder. UYGULAMALAR OOEGO.1.1 • Öğrencilerden buldukları temel unsurlardan yola çıkarak geleneksel oyunlar arasındaki benzerlik ve farklılıkları belirlemeleri beklenir (OB1). Öğretmenin ve programın güçlü olan ve iyileştirilmesi ÖĞRETMEN gereken yönlerinin öğretmenler YANSITMALARI Programa yönelik görüş ve öneriletarafından değerlendirilmesini riniz için karekodu akıllı cihazınıza ifade eder. okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI GELENEKSEL OYUNLAR MODÜLÜ 2. OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI GELENEKSEL OYUNLAR MODÜLÜ’NDE YER ALAN ÜNİTELER"
+    }
+   ]
+  },
+  {
+   "code": "OOEGO.1.2",
+   "grade": 1,
+   "unit": null,
+   "order": 2,
+   "text": "Geleneksel oyunlar ile günümüzde oynanan oyunları karşılaştırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Geleneksel oyunlar ile günümüzde oynanan oyunların özelliklerini belirler."
+    },
+    {
+     "label": "b",
+     "text": "Geleneksel oyunlar ile günümüzde oynanan oyunların özelliklerine ilişkin benzerlikleri listeler."
+    },
+    {
+     "label": "c",
+     "text": "Geleneksel oyunlar ile günümüzde oynanan oyunların özelliklerine ilişkin farklılıkları listeler."
+    }
+   ]
+  },
+  {
+   "code": "OOEGO.1.3",
+   "grade": 1,
+   "unit": null,
+   "order": 3,
+   "text": "Geleneksel oyunlarda hareket becerilerini sergileyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Geleneksel oyunlarda kullanılan hareket becerilerini algılar."
+    },
+    {
+     "label": "b",
+     "text": "Geleneksel oyunlardaki hareket becerilerini basamaklar hâlinde gösterir."
+    },
+    {
+     "label": "c",
+     "text": "Geleneksel oyunlardaki hareket becerilerini farklı durum ve ortamlarda uygular."
+    }
+   ]
+  },
+  {
+   "code": "OOEGO.1.4",
+   "grade": 1,
+   "unit": null,
+   "order": 4,
+   "text": "Geleneksel oyunlarda taktik ve strateji geliştirebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Geleneksel oyunlarda karşılaşılan taktiksel veya stratejik problemi belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlenen problemi veya durumu çözmek için uygun taktik veya strateji önerir."
+    },
+    {
+     "label": "c",
+     "text": "Seçtiği taktiği ya da stratejiyi uygular."
+    }
+   ]
+  },
+  {
+   "code": "OOEGO.2.1",
+   "grade": 2,
+   "unit": null,
+   "order": 1,
+   "text": "Geleneksel oyunlar aracılığıyla fiziksel aktiviteye katılabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Geleneksel oyunlar aracılığıyla fiziksel etkinlik ihtiyacını fark eder."
+    },
+    {
+     "label": "b",
+     "text": "Geleneksel oyunlarla katılacağı fiziksel etkinliği planlar."
+    },
+    {
+     "label": "c",
+     "text": "Geleneksel oyunlar aracılığıyla gerçekleştireceği fiziksel etkinlik planını uygular."
+    }
+   ]
+  },
+  {
+   "code": "OOEGO.2.2",
+   "grade": 2,
+   "unit": null,
+   "order": 2,
+   "text": "Geleneksel oyunların kişisel ve sosyal gelişimdeki etkisini çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Geleneksel oyunların kişisel ve sosyal gelişime katkıda bulunan unsurlarını belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlenen unsurlar arasındaki ilişkiyi ve gelişime olan etkilerini belirler."
+    }
+   ]
+  },
+  {
+   "code": "OOEGO.2.3",
+   "grade": 2,
+   "unit": null,
+   "order": 3,
+   "text": "Geleneksel oyunlarda adil oyun anlayışına uygun davranabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Geleneksel oyunlarda adil oyun anlayışının temel ilkelerini açıklar."
+    },
+    {
+     "label": "b",
+     "text": "Geleneksel oyunlarda adil oyun anlayışına uygun hareket eder."
+    }
+   ]
+  },
+  {
+   "code": "OOEGO.2.4",
+   "grade": 2,
+   "unit": null,
+   "order": 4,
+   "text": "Geleneksel oyun etkinliklerinde liderlik sergileyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Geleneksel oyun etkinliğinde liderlik rollerini tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Tanımladığı liderlik rollerini etkinlik sürecinde gösterir."
+    }
+   ]
+  },
+  {
+   "code": "OOEGO.3.1",
+   "grade": 3,
+   "unit": null,
+   "order": 1,
+   "text": "Geleneksel oyunların toplumsal ve kültürel yaşamdaki önemini sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Geleneksel oyunların toplumsal ve kültürel yaşamdaki önemiyle ilgili merak ettiği konuyu tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği konuya ilişkin araştırma sorularını sorar."
+    },
+    {
+     "label": "c",
+     "text": "Sorular doğrultusunda toplaması gereken bilgileri toplar."
+    },
+    {
+     "label": "ç",
+     "text": "Topladığı bilgilerin doğruluk ve güvenilirlik durumunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Elde ettiği bilgilerin ışığında toplumsal ve kültürel yaşamdaki öneme ilişkin çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "OOEGO.3.2",
+   "grade": 3,
+   "unit": null,
+   "order": 2,
+   "text": "Ailesinin ve yakın çevresinin geçmişte oynadığı geleneksel oyunlarla ilgili bilgi toplayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Geleneksel oyunlara ulaşmak için kullanacağı araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği aracı kullanarak geleneksel oyunlar hakkındaki bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "Geleneksel oyunlarla ilgili ulaşılan bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "Geleneksel oyunlar ile ilgili ulaşılan bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "OOEGO.3.3",
+   "grade": 3,
+   "unit": null,
+   "order": 3,
+   "text": "Ailesi ve yakın çevresinin oynadığı geleneksel oyunlardaki hareket becerilerini sergileyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Geçmişte oynanan geleneksel oyunlarda kullanılan temel hareket becerilerini algılar."
+    },
+    {
+     "label": "b",
+     "text": "Ailesi ve yakın çevresinin oynadığı oyunlardaki hareket becerilerini basamaklar hâlinde sergiler."
+    },
+    {
+     "label": "c",
+     "text": "Ailesi ve yakın çevresinin oynadığı oyunlardaki hareket becerilerini uygular."
+    }
+   ]
+  },
+  {
+   "code": "OOEGO.3.4",
+   "grade": 3,
+   "unit": null,
+   "order": 4,
+   "text": "Farklı yörelere ait geleneksel oyunları sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Farklı yörelere ait merak ettiği geleneksel oyunları tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Farklı yörelere ait oyunlar hakkında sorular sorar."
+    },
+    {
+     "label": "c",
+     "text": "Farklı yörelere ait geleneksel oyunlar hakkında bilgi toplar."
+    },
+    {
+     "label": "ç",
+     "text": "Farklı yörelere ait toplanan bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Farklı yörelere ait toplanan bilgilerin doğruluğu üzerinde çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "OOEGO.3.5",
+   "grade": 3,
+   "unit": null,
+   "order": 5,
+   "text": "Farklı yörelere ait geleneksel oyunlardaki hareket becerilerini sergileyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Farklı yörelere ait oyunlardaki hareket becerilerini algılar."
+    },
+    {
+     "label": "b",
+     "text": "Farklı yörelere ait oyunlardaki hareket becerilerini basamaklar hâlinde sergiler."
+    },
+    {
+     "label": "c",
+     "text": "Farklı yörelere ait oyunlardaki hareket becerilerini uygular."
+    }
+   ]
+  }
+ ],
+ "report": {
+  "units": 3,
+  "outcomes": 0,
+  "components": 0,
+  "orphan_outcomes": 13,
+  "gaps": [
+   {
+    "course": "Oyun ve Oyun Etkinlikleri Dersi (Geleneksel Oyunlar)",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "OOEGO.1.1",
+     "OOEGO.1.2",
+     "OOEGO.1.3",
+     "OOEGO.1.4",
+     "OOEGO.2.1",
+     "OOEGO.2.2",
+     "OOEGO.2.3",
+     "OOEGO.2.4",
+     "OOEGO.3.1",
+     "OOEGO.3.2",
+     "OOEGO.3.3",
+     "OOEGO.3.4",
+     "OOEGO.3.5"
+    ]
+   }
+  ]
+ }
+}

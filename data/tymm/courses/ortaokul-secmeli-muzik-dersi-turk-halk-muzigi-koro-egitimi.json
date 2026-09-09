@@ -1,0 +1,903 @@
+{
+ "course": {
+  "id": 92,
+  "name": "Seçmeli Müzik Dersi (Türk Halk Müziği Koro)",
+  "slug": "ortaokul-secmeli-muzik-dersi-turk-halk-muzigi-koro-egitimi",
+  "prefix": "SMTHMK.I",
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/secmeli-muzik-dersi-turk-halk-muzigi-koro_20260819_075210_201.pdf"
+ },
+ "units": [
+  {
+   "grade": null,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "SES VE SES SAĞLIĞI",
+   "description": "Temada öğrencilerin insan sesinin oluşumu ile ilgili bilgi toplayabilmeleri, insan sesini fiziksel özelliklerine göre sınıflandırabilmeleri ve ses sağlığını korumak için dikkat edilmesi gereken unsurlar ile ilgili bilgi toplayabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 12,
+   "sections": {
+    "ALAN BECERİLERİ": "-",
+    "KAVRAMSAL BECERİLER": "KB2.5. Sınıflandırma, KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E1.1. Merak, E3.10. Eleştirel bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMTHMK.I.1.1 Öğrencilerin araştırma sürecinde görev paylaşımı yapmaları ve çalışmalarını planlı bir şekilde yürütmeleri sağlanarak öz denetimlerini geliştirmeleri desteklenir (D3.2). Öğrencilerden farklı kaynaklardan elde ettikleri bilgileri karşılaştırmaları, güvenilir bilgiye ulaşmaları ve bu bilgileri afiş hâlinde düzenlemeleri istenir (OB1). SMTHMK.I.1.2 Öğrenciler; dijital kaynaklardan ulaştıkları eserleri dinleme, insan sesinin fiziksel özelliklerine ilişkin gözlemler yapma ve elde ettikleri bilgileri sınıflandırma konularında teşvik edilir (OB2). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI TÜRK HALK MÜZİĞİ KORO MODÜLÜ SMTHMK.I.1.3 Öğrencilerin ses sağlığını korumaya yönelik alışkanlıklarını değerlendirmeleri sağlanarak ses kullanımına ilişkin farkındalık geliştirmeleri sağlanır (SDB1.1). Öğrencilerin çalışmalarında görev paylaşımı yapmaları, araştırma ve sunum süreçlerini planlamaları ve çalışmalarını düzenli bir şekilde yürütmeleri desteklenir (SDB1.2). Öğrencilerin ses sağlığını korumaya yönelik uygulamaları düzenli olarak sürdürmeleri desteklenerek sabırlı ve istikrarlı davranışlar geliştirmeleri teşvik edilir (D12.3). Öğrencilere ses sağlığını korumaya yönelik bilgi ve uygulamaları günlük yaşamlarına yansıtmaları konusunda rehberlik edilir (D13.2). Öğrencilerin seslerini korumaya yönelik gerekli önlemleri alma konusunda sorumluluk bilinci kazanmaları desteklenir (D16.1). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI TÜRK HALK MÜZİĞİ KORO MODÜLÜ I. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme)",
+    "Değerler": "D3. Çalışkanlık, D12. Sabır, D13. Sağlıklı Yaşam, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.4. Çözümleme, SAB6. Müziksel İşitme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI TÜRK HALK MÜZİĞİ KORO MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMTHMK.I.1.1. İnsanda ses oluşumu ile ilgili bilgi toplayabilme a) İnsanda ses oluşumu ile ilgili bilgiyi toplamak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak konu hakkında bilgileri bulur. c) İnsanda ses oluşumu ile ilgili ulaştığı bilgileri doğrular. ç) İnsanda ses oluşumu ile ilgili ulaştığı bilgileri kaydeder. SMTHMK.I.1.2. İnsan sesini fiziksel özelliklerine göre sınıflandırabilme a) İnsan sesinin fiziksel özelliklerine ilişkin değişkenleri belirler. b) İnsan sesini fiziksel özelliklerine göre ayırır. c) İnsan sesini fiziksel özelliklerine göre tasnif eder. ç) İnsan sesini fiziksel özelliklerine göre isimlendirir. SMTHMK.I.1.3. Ses sağlığını korumak için dikkat edilmesi gereken unsurlar ile ilgili bilgi toplayabilme a) Ses sağlığını korumak için dikkat edilmesi gereken unsurlar ile ilgili bilgi toplamak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak konu hakkında bilgileri bulur. c) Ses sağlığını korumak için dikkat edilmesi gereken unsurlar ile ilgili ulaştığı bilgileri doğrular. ç) Ses sağlığını korumak için dikkat edilmesi gereken unsurlar ile ilgili ulaştığı bilgileri kaydeder.",
+    "İÇERİK ÇERÇEVESİ": "İnsan Sesinin Oluşumu İnsan Sesinin Fiziksel Özellikleri Ses Sağlığı",
+    "Anahtar Kavramlar": "beslenme, ses, ses sağlığı"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "OZANLARIMIZ",
+   "description": "Temada öğrencilerin “ozan” kavramını açıklayabilmeleri ve yurdumuzun ozanları hakkında bilgi edinebilmeleri amaçlanmaktadır.",
+   "lesson_hours": 8,
+   "sections": {
+    "ALAN BECERİLERİ": "-",
+    "KAVRAMSAL BECERİLER": "KB1. Temel Beceriler, KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E1.1. Merak, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMTHMK.I.2.1 Öğrencilerin araştırmalarında hedef belirlemeleri ve süreci planlı bir şekilde yürütmeleri desteklenir (SDB1.2). Öğrencilerden ozanların kültürel miras içindeki rolünü tartışmaları ve düşüncelerini sınıf ortamında paylaşmaları istenir (SDB2.1). Öğrencilerin bilgi toplama sürecinde güvenilir kaynaklardan yararlanmaları ve dijital araçları kullanmaları sağlanır (OB1, OB2). Öğrenciler, elde ettikleri bilgilerden hareketle ozanların kültürel unsurlarını yorumlama ve kültürel mirasın aktarımındaki rollerine ilişkin farkındalık geliştirme konularında teşvik edilir (OB5). SMTHMK.I.2.2 Öğrencilerin grup çalışmalarında arkadaşlarıyla etkili iletişim kurmaları desteklenerek birlikte ve uyum içinde seslendirme yapmaları sağlanır (D4.2). Öğrencilerin millî, manevi ve kültürel değerlerin önemini kavramaları, bu değerlere saygı göstermeleri ve olumlu tutum geliştirmeleri sağlanır (D19.3). Öğrencilerin konuya ilişkin düşüncelerini paylaşmaları desteklenir (SDB2.1). Öğrencilerin güvenilir kaynaklardan yararlanarak yurdumuzun ozanları hakkında bilgi edinmelerine rehberlik edilir (OB1). Araştırma sürecinde öğrencilerin dijital kaynaklardan yararlanmaları desteklenir (OB2). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI TÜRK HALK MÜZİĞİ KORO MODÜLÜ I. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D4. Dostluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB5. Kültür Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "SAB6. Müziksel İşitme, TAB2. Okuma ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI TÜRK HALK MÜZİĞİ KORO MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMTHMK.I.2.1. Ozan kavramını açıklayabilme SMTHMK.I.2.2. Yurdumuzun ozanları hakkında bilgi toplayabilme a) Yurdumuzun ozanları hakkında bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak yurdumuzun ozanları hakkındaki bilgileri bulur. c) Yurdumuzun ozanları hakkında ulaştığı bilgileri doğrular. ç) Yurdumuzun ozanları hakkında ulaştığı bilgileri kaydeder.",
+    "İÇERİK ÇERÇEVESİ": "Yurdumuzun Ozanları",
+    "Anahtar Kavramlar": "âşık, halk şairi, ozan, sözlü gelenek"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "KORO BİLGİSİ",
+   "description": "Temada öğrencilerin “koro” kavramını tanımlayabilmeleri, koroyu yaş ve cinsiyet özelliklerine göre sınıflandırabilmeleri, birlikte söyleme kurallarını açıklayabilmeleri ve düzeylerine uygun türküler söyleyebilmeleri amaçlanmaktadır.",
+   "lesson_hours": 48,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB10. Müziksel Söyleme",
+    "KAVRAMSAL BECERİLER": "KB1. Temel Beceriler, KB2.5. Sınıflandırma",
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMTHMK.I.3.1 Öğrencilerin koro kavramına ilişkin ulaştıkları bilgileri farklı kaynaklardan karşılaştırmaları, güvenilir bilgiye ulaşmaları ve edindikleri bilgileri kendi tanımlarıyla ilişkilendirmeleri sağlanır (OB1). Öğrencilerin dijital kaynaklardan yararlanarak farklı koro örneklerini incelemeleri, elde ettikleri bilgileri paylaşmaları ve koro kavramına ilişkin çıkarımlarda bulunmaları desteklenir (OB2). SMTHMK.I.3.2 Öğrencilerin araştırma sürecinde farklı kaynaklardan ulaştıkları bilgileri karşılaştırmaları, bilimsel bilgiye ulaşmanın önemine ilişkin farkındalık geliştirmeleri ve çalışmalarını planlı bir şekilde yürütmeleri desteklenerek öz denetim becerilerini geliştirmeleri sağlanır (D3.2). Öğrenciler, koro içi ses grupları oluşturulurken veya solo bölümler paylaştırılırken liyakat ve adalet ilkelerine riayet eder ve arkadaşlarının haklarına saygı duyar (D1.4). SMTHMK.I.3.3 Öğrencilerin birlikte türkü söyleme sürecinde arkadaşlarıyla etkili iletişim kurmaları ve uyum içinde çalışma becerileri geliştirmeleri teşvik edilir (D4.2). Öğrencilerin grup çalışmalarında görev paylaşımı yapmaları, süreci planlamaları ve sorumluluklarını zamanında yerine getirmeleri desteklenir (SDB1.2). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI TÜRK HALK MÜZİĞİ KORO MODÜLÜ Öğrencilerin birlikte söyleme kurallarına ilişkin görüş ve düşüncelerini afiş çalışmaları ve sınıf içi paylaşımlar yoluyla ifade etmeleri gözetilir (SDB2.1). SMTHMK.I.3.4 Öğrenciler, Türk halk müziği eserlerini seslendirirken kendi ses özelliklerini performanslarına yansıtma ve bireysel müzikal ifade becerilerini geliştirme konularında teşvik edilir (SDB1.1). Öğrencilerin sınıfça seslendirilecek eserleri doğru teknik ve birlikte söyleme kurallarına uygun biçimde icra etmeleri desteklenir (OB9). Öğrencilerin koro çalışmalarında arkadaşlarıyla etkili iletişim kurmaları desteklenerek uyum içinde birlikte seslendirme becerilerini geliştirmeleri sağlanır (D4.2). Öğrencilerin düzenli tekrarlar yapmaları teşvik edilir, türküleri çalışmaları ve öğrenmelerini pekiştirmelerine olanak tanınır (D12.3). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI TÜRK HALK MÜZİĞİ KORO MODÜLÜ II. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D1. Adalet, D3. Çalışkanlık, D4. Dostluk, D12. Sabır",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "SAB6. Müziksel İşitme, FBAB1. Bilimsel Gözlem, SAB10. Müziksel Söyleme, KB2.4. Çözümleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI TÜRK HALK MÜZİĞİ KORO MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMTHMK.I.3.1. Koro kavramını tanımlayabilme SMTHMK.I.3.2. Koroyu yaş ve cinsiyet özelliklerine göre sınıflandırabilme a) Koroyu oluşturan değişkenleri belirler. b) Koroyu yaş özelliklerine göre ayırır. c) Koroyu yaş ve cinsiyet özelliklerine göre tasnif eder. ç) Koroyu yaş ve cinsiyet özelliklerine göre isimlendirir. SMTHMK.I.3.3. Birlikte söyleme kurallarını açıklayabilme SMTHMK.I.3.4. Düzeyine uygun türküler söyleyebilme a) Düzeyine uygun türküler seslendirmek için bedenini söylemeye hazır hâle getirir. b) Düzeyine uygun türküler seslendirirken uygun söyleme tekniklerini kullanır. c) Düzeyine uygun türküler seslendirirken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Koro Kavramı Koroların Sınıflandırılması Birlikte Söyleme Kuralları Birlikte Söyleyelim",
+    "Anahtar Kavramlar": "çocuk, erkek, gençlik, kadın, karma, koro, Türk halk müziği, türkü, yetişkin"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 4,
+   "kind": "TEMA",
+   "title": "TÜRK HALK MÜZİĞİNDE SOHBET GELENEĞİ",
+   "description": "Temada öğrencilerin Elâzığ kürsübaşı geleneğine, Şanlıurfa sıra gecesine ait türküleri dinleyebilmeleri ve söyleyebilmeleri amaçlanmaktadır.",
+   "lesson_hours": 20,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB9. Müziksel Dinleme, SAB10. Müziksel Söyleme",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMTHMK.IV.4.1 Öğrencilerin Elâzığ kürsübaşı geleneğine ait türkülere ilişkin düşüncelerini ifade etmeleri ve sınıf ortamında paylaşmaları sağlanır (SDB2.1). Öğrencilerin Elâzığ kürsübaşı geleneğine ait türküleri dinleme sürecinde bilişim teknolojilerini kullanmaları desteklenir (OB2). SMTHMK.IV.4.2 Öğrencilerin Elâzığ kürsübaşı geleneğine ait türküleri seslendirme sürecinde arkadaşlarıyla etkili iletişim kurmaları desteklenerek birlikte ve uyum içinde seslendirme yapmaları sağlanır (D4.2). Öğrencilere Elâzığ kürsübaşı geleneğine ait türküleri icra etmeleri sürecinde millî ve manevi değerlere saygı göstermeleri ve kültürel sürekliliğe katkıda bulunma bilinci geliştirmeleri konusunda rehberlik edilir (D14.3, D19.1). Öğrencilerin düzeylerine uygun Elâzığ kürsübaşı geleneğine ait türküleri doğru tekniklerle seslendirmeleri sağlanır (OB9). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI TÜRK HALK MÜZİĞİ KORO MODÜLÜ SMTHMK.IV.4.3 Öğrencilerin Şanlıurfa sıra gecesine ait türkülere yönelik öğrenme sürecinde hedef belirlemeleri, çalışmalarını planlamaları ve süreci düzenlemeleri desteklenir (SDB1.2). Öğrencilerin Şanlıurfa sıra gecesine ait türkülere ilişkin bilgi edinirken güvenilir kaynaklardan yararlanmaları sağlanır (OB1). Öğrencilerin Şanlıurfa sıra gecesine ait türküleri dinlemeleri sürecinde kültürel farkındalık geliştirmeleri, farklı kültürel ortamlara ilgi duymaları ve kültürel mirasın korunmasına yönelik duyarlılık geliştirmeleri desteklenir (OB5). SMTHMK.IV.4.4 Öğrencilerin Şanlıurfa sıra gecesine ait türküleri öğrenme sürecini planlı bir şekilde yürütmeleri desteklenir, böylece öz düzenleme becerilerini geliştirmelerine katkıda bulunulur (D3.2). Öğrencilerin etkinlik sürecinde arkadaşlarıyla etkili iletişim kurmaları desteklenerek eserleri uyum içinde seslendirmelerine rehberlik edilir (D4.2). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI TÜRK HALK MÜZİĞİ KORO MODÜLÜ IV. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D3. Çalışkanlık, D4. Dostluk, D14. Saygı, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "SAB6. Müziksel İşitme, SAB7. Müziksel Okuma, SBAB7. Mekânsal Düşünme, KB2.4. Çözümleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI TÜRK HALK MÜZİĞİ KORO MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMTHMK.IV.4.1. Elâzığ kürsübaşı geleneğine ait türküleri dinleyebilme a) Elâzığ kürsübaşı geleneğine ait türkülerin müziksel bileşenlerini tanır. b) Elâzığ kürsübaşı geleneğine ait türkülerin müziksel bileşenlerini ayırt eder. c) Elâzığ kürsübaşı geleneğine ait türkülerin müziksel bileşenlerini açıklar. SMTHMK.IV.4.2. Elâzığ kürsübaşı geleneğine ait türküleri söyleyebilme a) Elâzığ kürsübaşı geleneğine ait türküleri seslendirmek için bedenini söylemeye hazır hâle getirir. b) Elâzığ kürsübaşı geleneğine ait türküleri seslendirirken uygun söyleme tekniklerini kullanır. c) Elâzığ kürsübaşı geleneğine ait türküleri seslendirirken müziksel bileşenleri uygular. SMTHMK.IV.4.3. Şanlıurfa sıra gecesine ait türküleri dinleyebilme a) Şanlıurfa sıra gecesine ait türkülerin müziksel bileşenlerini tanır. b) Şanlıurfa sıra gecesine ait türkülerin müziksel bileşenlerini ayırt eder. c) Şanlıurfa sıra gecesine ait türkülerin müziksel bileşenlerini açıklar. SMTHMK.IV.4.4. Şanlıurfa sıra gecesine ait türküleri söyleyebilme a) Şanlıurfa sıra gecesine ait türküleri seslendirmek için bedenini söylemeye hazır hâle getirir. b) Şanlıurfa sıra gecesine ait türküleri seslendirirken uygun söyleme tekniklerini kullanır. c) Şanlıurfa sıra gecesine ait türküleri seslendirirken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Elâzığ Kürsübaşı Geleneğine Ait Türküler Şanlıurfa Sıra Gecesine Ait Türküler",
+    "Anahtar Kavramlar": "kürsübaşı, sıra gecesi, sohbet, Türk halk müziği, türkü"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 5,
+   "kind": "TEMA",
+   "title": "TASAVVUFİ TÜRK HALK MÜZİĞİ",
+   "description": "Temada öğrencilerin tasavvufi halk müziği geleneğine ait eserleri (nefes, semah) dinleyebilmeleri ve söyleyebilmeleri amaçlanmaktadır.",
+   "lesson_hours": 20,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB9. Müziksel Dinleme, SAB10. Müziksel Söyleme",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMTHMK.IV.5.1 Öğrencilerin nefes türüne ait eserlere ilişkin bilgi edinirken güvenilir kaynaklardan yararlanmaları sağlanır (OB1). Öğrencilerin nefes türüne ait eserler hakkında düşüncelerini ifade etmeleri ve sınıf ortamında paylaşmaları desteklenir (SDB2.1). SMTHMK.IV.5.2 Öğrencilerin nefes türündeki eserleri seslendirme sürecinde insan ilişkilerinde farklılıklara saygı, tevazu ve yapıcı bir tutum geliştirmeleri desteklenir (D10.3). SMTHMK.IV.5.3 Öğrencilerin semah türüne ait eserlere yönelik öğrenme sürecinde hedef belirlemeleri, çalışmalarını planlamaları ve öğrenme motivasyonlarını düzenlemeleri desteklenir (SDB1.2). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI TÜRK HALK MÜZİĞİ KORO MODÜLÜ Öğrencilerin bu eserleri dinlerken millî ve manevi değerlere saygı göstermeleri, kültürel süreklilik ve mirasa yönelik farkındalık ile koruma duyarlılığı geliştirmeleri desteklenir (D14.3, D19.1, OB5). Öğrencilerin semah türüne ait eserleri dinleme ve inceleme sürecinde bilişim teknolojilerini kullanmaları sağlanır (OB2). SMTHMK.IV.5.4 Öğrencilerin semah türüne ait öğrenme sürecini planlı bir şekilde yürütmeleri desteklenir, böylece öz düzenleme becerilerini geliştirmelerine katkıda bulunulur (D3.2). Öğrencilerin semah türündeki eserleri seslendirme sürecinde insan ilişkilerinde farklılıklara saygı, tevazu ve yapıcı bir tutum geliştirmeleri desteklenir (D10.3). Öğrencilerin düzeylerine uygun semah türüne ait eserleri doğru tekniklerle seslendirmeleri desteklenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz.",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D3. Çalışkanlık, D10. Mütevazılık, D14. Saygı, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "SAB6. Müziksel İşitme, SAB7. Müziksel Okuma, DAB6. Tatbik, KB2.4. Çözümleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI TÜRK HALK MÜZİĞİ KORO MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMTHMK.IV.5.1. Nefes türüne ait eserleri dinleyebilme a) Nefes türüne ait eserlerin müziksel bileşenlerini tanır. b) Nefes türüne ait eserlerin müziksel bileşenlerini ayırt eder. c) Nefes türüne ait eserlerin müziksel bileşenlerini açıklar. SMTHMK.IV.5.2. Nefes türüne ait eserleri söyleyebilme a) Nefes türüne ait eserleri seslendirmek için bedenini söylemeye hazır hâle getirir. b) Nefes türüne ait eserleri seslendirirken uygun söyleme tekniklerini kullanır. c) Nefes türüne ait eserleri seslendirirken müziksel bileşenleri uygular. SMTHMK.IV.5.3. Semah türüne ait eserleri dinleyebilme a) Semah türüne ait eserlerin müziksel bileşenlerini tanır. b) Semah türüne ait eserlerin müziksel bileşenlerini ayırt eder. c) Semah türüne ait eserlerin müziksel bileşenlerini açıklar. SMTHMK.IV.5.4. Semah türüne ait eserleri söyleyebilme a) Semah türüne ait eserleri seslendirmek için bedenini söylemeye hazır hâle getirir. b) Semah türüne ait eserleri seslendirirken uygun söyleme tekniklerini kullanır. c) Semah türüne ait eserleri seslendirirken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Nefes Türüne Ait Eserler Semah Türüne Ait Eserler",
+    "Anahtar Kavramlar": "nefes, semah, tür, Türk halk müziği"
+   },
+   "outcomes": []
+  }
+ ],
+ "unassigned_outcomes": [
+  {
+   "code": "SMTHMK.I.1.1",
+   "grade": 1,
+   "unit": null,
+   "order": 1,
+   "text": "İnsanda ses oluşumu ile ilgili bilgi toplayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İnsanda ses oluşumu ile ilgili bilgiyi toplamak için kullanacağı araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği araçları kullanarak konu hakkında bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "İnsanda ses oluşumu ile ilgili ulaştığı bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "İnsanda ses oluşumu ile ilgili ulaştığı bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.II.1.1",
+   "grade": 1,
+   "unit": null,
+   "order": 1,
+   "text": "Yöre kavramını açıklayabilme",
+   "components": []
+  },
+  {
+   "code": "SMTHMK.III.1.1",
+   "grade": 1,
+   "unit": null,
+   "order": 1,
+   "text": "Doğu Anadolu türkülerini dinleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Doğu Anadolu türkülerinin müziksel bileşenlerini tanır."
+    },
+    {
+     "label": "b",
+     "text": "Doğu Anadolu türkülerinin müziksel bileşenlerini ayırt eder."
+    },
+    {
+     "label": "c",
+     "text": "Doğu Anadolu türkülerinin müziksel bileşenlerini açıklar."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.IV.1.1",
+   "grade": 1,
+   "unit": null,
+   "order": 1,
+   "text": "Türk dünyası müzik kültürü hakkında bilgi toplayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Türk dünyası müzik kültürü hakkında bilgi toplamak için kullanacağı araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği araçları kullanarak Türk dünyası müzik kültürü ile ilgili bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "Türk dünyası müzik kültürü ile ilgili bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "Türk dünyası müzik kültürü ile ilgili ulaştığı bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.I.1.2",
+   "grade": 1,
+   "unit": null,
+   "order": 2,
+   "text": "İnsan sesini fiziksel özelliklerine göre ifade eder. sınıflandırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İnsan sesinin fiziksel özelliklerine ilişkin değişkenleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "İnsan sesini fiziksel özelliklerine göre ayırır."
+    },
+    {
+     "label": "c",
+     "text": "İnsan sesini fiziksel özelliklerine göre tasnif eder."
+    },
+    {
+     "label": "ç",
+     "text": "İnsan sesini fiziksel özelliklerine göre isimlendirir. Öğrenme-öğretme sürecinde ele alınan bilgi"
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.II.1.2",
+   "grade": 1,
+   "unit": null,
+   "order": 2,
+   "text": "Marmara türkülerini dinleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Marmara türkülerinin müziksel bileşenlerini tanır."
+    },
+    {
+     "label": "b",
+     "text": "Marmara türkülerinin müziksel bileşenlerini ayırt eder."
+    },
+    {
+     "label": "c",
+     "text": "Marmara türkülerinin müziksel bileşenlerini açıklar."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.III.1.2",
+   "grade": 1,
+   "unit": null,
+   "order": 2,
+   "text": "Doğu Anadolu türkülerini söyleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Doğu Anadolu türkülerini seslendirmek için bedenini söylemeye hazır hâle getirir."
+    },
+    {
+     "label": "b",
+     "text": "Doğu Anadolu türkülerini seslendirirken uygun söyleme tekniklerini kullanır."
+    },
+    {
+     "label": "c",
+     "text": "Doğu Anadolu türkülerini seslendirirken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.I.1.3",
+   "grade": 1,
+   "unit": null,
+   "order": 3,
+   "text": "Ses sağlığını korumak için dikkat edilmesi gereken unsurlar ile ilgili bilgi toplayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Ses sağlığını korumak için dikkat edilmesi gereken unsurlar ile ilgili bilgi toplamak için kullanacağı araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği araçları kullanarak konu hakkında bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "Ses sağlığını korumak için dikkat edilmesi gereken unsurlar ile ilgili ulaştığı bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "Ses sağlığını korumak için dikkat edilmesi gereken unsurlar ile ilgili ulaştığı bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.II.1.3",
+   "grade": 1,
+   "unit": null,
+   "order": 3,
+   "text": "Marmara türkülerini söyleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Marmara türkülerini seslendirmek için bedenini söylemeye hazır hâle getirir."
+    },
+    {
+     "label": "b",
+     "text": "Marmara türkülerini seslendirirken uygun söyleme tekniklerini kullanır."
+    },
+    {
+     "label": "c",
+     "text": "Marmara türkülerini seslendirirken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.I.2.1",
+   "grade": 2,
+   "unit": null,
+   "order": 1,
+   "text": "Ozan kavramını açıklayabilme",
+   "components": []
+  },
+  {
+   "code": "SMTHMK.II.2.1",
+   "grade": 2,
+   "unit": null,
+   "order": 1,
+   "text": "İç Anadolu türkülerini dinleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İç Anadolu türkülerinin müziksel bileşenlerini tanır."
+    },
+    {
+     "label": "b",
+     "text": "İç Anadolu türkülerinin müziksel bileşenlerini ayırt eder."
+    },
+    {
+     "label": "c",
+     "text": "İç Anadolu türkülerinin müziksel bileşenlerini açıklar."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.III.2.1",
+   "grade": 2,
+   "unit": null,
+   "order": 1,
+   "text": "Akdeniz türkülerini dinleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Akdeniz yöresine ait türkülerin müziksel bileşenlerini tanır."
+    },
+    {
+     "label": "b",
+     "text": "Akdeniz yöresine ait türkülerin müziksel bileşenlerini ayırt eder."
+    },
+    {
+     "label": "c",
+     "text": "Akdeniz yöresine ait türkülerin müziksel bileşenlerini açıklar."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.IV.2.1",
+   "grade": 2,
+   "unit": null,
+   "order": 1,
+   "text": "Türkmen türkülerini dinleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Türkmen türkülerinin müziksel bileşenlerini tanır."
+    },
+    {
+     "label": "b",
+     "text": "Türkmen türkülerinin müziksel bileşenlerini ayırt eder."
+    },
+    {
+     "label": "c",
+     "text": "Türkmen türkülerinin müziksel bileşenlerini açıklar."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.I.2.2",
+   "grade": 2,
+   "unit": null,
+   "order": 2,
+   "text": "Yurdumuzun ozanları hakkında bilgi toplayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Yurdumuzun ozanları hakkında bilgiye ulaşmak için kullanacağı araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği araçları kullanarak yurdumuzun ozanları hakkındaki bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "Yurdumuzun ozanları hakkında ulaştığı bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "Yurdumuzun ozanları hakkında ulaştığı bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.II.2.2",
+   "grade": 2,
+   "unit": null,
+   "order": 2,
+   "text": "İç Anadolu türkülerini söyleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İç Anadolu türkülerini seslendirmek için bedenini söylemeye hazır hâle getirir."
+    },
+    {
+     "label": "b",
+     "text": "İç Anadolu türkülerini seslendirirken uygun söyleme tekniklerini kullanır."
+    },
+    {
+     "label": "c",
+     "text": "İç Anadolu türkülerini seslendirirken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.III.2.2",
+   "grade": 2,
+   "unit": null,
+   "order": 2,
+   "text": "Akdeniz türkülerini söyleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Akdeniz yöresine ait türküleri seslendirmek için bedenini söylemeye hazır hâle getirir."
+    },
+    {
+     "label": "b",
+     "text": "Akdeniz yöresine ait türküleri seslendirirken uygun söyleme tekniklerini kullanır."
+    },
+    {
+     "label": "c",
+     "text": "Akdeniz yöresine ait türküleri seslendirirken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.IV.2.2",
+   "grade": 2,
+   "unit": null,
+   "order": 2,
+   "text": "Türkmen türkülerini söyleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Türkmen türkülerini seslendirmek için bedenini söylemeye hazır hâle getirir."
+    },
+    {
+     "label": "b",
+     "text": "Türkmen türkülerini seslendirirken uygun söyleme tekniklerini kullanır."
+    },
+    {
+     "label": "c",
+     "text": "Türkmen türkülerini seslendirirken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.I.3.1",
+   "grade": 3,
+   "unit": null,
+   "order": 1,
+   "text": "Koro kavramını tanımlayabilme",
+   "components": []
+  },
+  {
+   "code": "SMTHMK.II.3.1",
+   "grade": 3,
+   "unit": null,
+   "order": 1,
+   "text": "Güneydoğu Anadolu türkülerini dinleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Güneydoğu Anadolu türkülerinin müziksel bileşenlerini tanır."
+    },
+    {
+     "label": "b",
+     "text": "Güneydoğu Anadolu türkülerinin müziksel bileşenlerini ayırt eder."
+    },
+    {
+     "label": "c",
+     "text": "Güneydoğu Anadolu türkülerinin müziksel bileşenlerini açıklar."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.III.3.1",
+   "grade": 3,
+   "unit": null,
+   "order": 1,
+   "text": "Ege türkülerini dinleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Ege türkülerinin müziksel bileşenlerini tanır."
+    },
+    {
+     "label": "b",
+     "text": "Ege türkülerinin müziksel bileşenlerini ayırt eder."
+    },
+    {
+     "label": "c",
+     "text": "Ege türkülerinin müziksel bileşenlerini açıklar."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.IV.3.1",
+   "grade": 3,
+   "unit": null,
+   "order": 1,
+   "text": "Azerbaycan türkülerini dinleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Azerbaycan türkülerinin müziksel bileşenlerini tanır."
+    },
+    {
+     "label": "b",
+     "text": "Azerbaycan türkülerinin müziksel bileşenlerini ayırt eder."
+    },
+    {
+     "label": "c",
+     "text": "Azerbaycan türkülerinin müziksel bileşenlerini açıklar."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.I.3.2",
+   "grade": 3,
+   "unit": null,
+   "order": 2,
+   "text": "Koroyu yaş ve cinsiyet özelliklerine göre sınıflandırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Koroyu oluşturan değişkenleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Koroyu yaş özelliklerine göre ayırır."
+    },
+    {
+     "label": "c",
+     "text": "Koroyu yaş ve cinsiyet özelliklerine göre tasnif eder."
+    },
+    {
+     "label": "ç",
+     "text": "Koroyu yaş ve cinsiyet özelliklerine göre isimlendirir."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.II.3.2",
+   "grade": 3,
+   "unit": null,
+   "order": 2,
+   "text": "Güneydoğu Anadolu türkülerini söyleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Güneydoğu Anadolu türkülerini seslendirmek için bedenini söylemeye hazır hâle getirir."
+    },
+    {
+     "label": "b",
+     "text": "Güneydoğu Anadolu türkülerini seslendirirken uygun söyleme tekniklerini kullanır."
+    },
+    {
+     "label": "c",
+     "text": "Güneydoğu Anadolu türkülerini seslendirirken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.III.3.2",
+   "grade": 3,
+   "unit": null,
+   "order": 2,
+   "text": "Ege türkülerini söyleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Ege türkülerini seslendirmek için bedenini söylemeye hazır hâle getirir."
+    },
+    {
+     "label": "b",
+     "text": "Ege türkülerini seslendirirken uygun söyleme tekniklerini kullanır."
+    },
+    {
+     "label": "c",
+     "text": "Ege türkülerini seslendirirken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.IV.3.2",
+   "grade": 3,
+   "unit": null,
+   "order": 2,
+   "text": "Azerbaycan türkülerini söyleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Azerbaycan türkülerini seslendirmek için bedenini söylemeye hazır hâle getirir."
+    },
+    {
+     "label": "b",
+     "text": "Azerbaycan türkülerini seslendirirken uygun söyleme tekniklerini kullanır."
+    },
+    {
+     "label": "c",
+     "text": "Azerbaycan türkülerini seslendirirken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.I.3.3",
+   "grade": 3,
+   "unit": null,
+   "order": 3,
+   "text": "Birlikte söyleme kurallarını açıklayabilme",
+   "components": []
+  },
+  {
+   "code": "SMTHMK.I.3.4",
+   "grade": 3,
+   "unit": null,
+   "order": 4,
+   "text": "Düzeyine uygun türküler söyleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Düzeyine uygun türküler seslendirmek için bedenini söylemeye hazır hâle getirir."
+    },
+    {
+     "label": "b",
+     "text": "Düzeyine uygun türküler seslendirirken uygun söyleme tekniklerini kullanır."
+    },
+    {
+     "label": "c",
+     "text": "Düzeyine uygun türküler seslendirirken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.IV.4.1",
+   "grade": 4,
+   "unit": null,
+   "order": 1,
+   "text": "Elâzığ kürsübaşı geleneğine ait türküleri dinleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Elâzığ kürsübaşı geleneğine ait türkülerin müziksel bileşenlerini tanır."
+    },
+    {
+     "label": "b",
+     "text": "Elâzığ kürsübaşı geleneğine ait türkülerin müziksel bileşenlerini ayırt eder."
+    },
+    {
+     "label": "c",
+     "text": "Elâzığ kürsübaşı geleneğine ait türkülerin müziksel bileşenlerini açıklar."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.III.4.2",
+   "grade": 4,
+   "unit": null,
+   "order": 2,
+   "text": "Karadeniz türkülerini söyleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Karadeniz türkülerini seslendirmek için bedenini söylemeye hazır hâle getirir."
+    },
+    {
+     "label": "b",
+     "text": "Karadeniz türkülerini seslendirirken uygun söyleme tekniklerini kullanır."
+    },
+    {
+     "label": "c",
+     "text": "Karadeniz türkülerini seslendirirken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.IV.4.2",
+   "grade": 4,
+   "unit": null,
+   "order": 2,
+   "text": "Elâzığ kürsübaşı geleneğine ait türküleri söyleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Elâzığ kürsübaşı geleneğine ait türküleri seslendirmek için bedenini söylemeye hazır hâle getirir."
+    },
+    {
+     "label": "b",
+     "text": "Elâzığ kürsübaşı geleneğine ait türküleri seslendirirken uygun söyleme tekniklerini kullanır."
+    },
+    {
+     "label": "c",
+     "text": "Elâzığ kürsübaşı geleneğine ait türküleri seslendirirken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.IV.4.3",
+   "grade": 4,
+   "unit": null,
+   "order": 3,
+   "text": "Şanlıurfa sıra gecesine ait türküleri dinleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Şanlıurfa sıra gecesine ait türkülerin müziksel bileşenlerini tanır."
+    },
+    {
+     "label": "b",
+     "text": "Şanlıurfa sıra gecesine ait türkülerin müziksel bileşenlerini ayırt eder."
+    },
+    {
+     "label": "c",
+     "text": "Şanlıurfa sıra gecesine ait türkülerin müziksel bileşenlerini açıklar."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.IV.4.4",
+   "grade": 4,
+   "unit": null,
+   "order": 4,
+   "text": "Şanlıurfa sıra gecesine ait türküleri söyleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Şanlıurfa sıra gecesine ait türküleri seslendirmek için bedenini söylemeye hazır hâle getirir."
+    },
+    {
+     "label": "b",
+     "text": "Şanlıurfa sıra gecesine ait türküleri seslendirirken uygun söyleme tekniklerini kullanır."
+    },
+    {
+     "label": "c",
+     "text": "Şanlıurfa sıra gecesine ait türküleri seslendirirken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.IV.5.1",
+   "grade": 5,
+   "unit": null,
+   "order": 1,
+   "text": "Nefes türüne ait eserleri dinleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Nefes türüne ait eserlerin müziksel bileşenlerini tanır."
+    },
+    {
+     "label": "b",
+     "text": "Nefes türüne ait eserlerin müziksel bileşenlerini ayırt eder."
+    },
+    {
+     "label": "c",
+     "text": "Nefes türüne ait eserlerin müziksel bileşenlerini açıklar."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.IV.5.2",
+   "grade": 5,
+   "unit": null,
+   "order": 2,
+   "text": "Nefes türüne ait eserleri söyleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Nefes türüne ait eserleri seslendirmek için bedenini söylemeye hazır hâle getirir."
+    },
+    {
+     "label": "b",
+     "text": "Nefes türüne ait eserleri seslendirirken uygun söyleme tekniklerini kullanır."
+    },
+    {
+     "label": "c",
+     "text": "Nefes türüne ait eserleri seslendirirken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.IV.5.3",
+   "grade": 5,
+   "unit": null,
+   "order": 3,
+   "text": "Semah türüne ait eserleri dinleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Semah türüne ait eserlerin müziksel bileşenlerini tanır."
+    },
+    {
+     "label": "b",
+     "text": "Semah türüne ait eserlerin müziksel bileşenlerini ayırt eder."
+    },
+    {
+     "label": "c",
+     "text": "Semah türüne ait eserlerin müziksel bileşenlerini açıklar."
+    }
+   ]
+  },
+  {
+   "code": "SMTHMK.IV.5.4",
+   "grade": 5,
+   "unit": null,
+   "order": 4,
+   "text": "Semah türüne ait eserleri söyleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Semah türüne ait eserleri seslendirmek için bedenini söylemeye hazır hâle getirir."
+    },
+    {
+     "label": "b",
+     "text": "Semah türüne ait eserleri seslendirirken uygun söyleme tekniklerini kullanır."
+    },
+    {
+     "label": "c",
+     "text": "Semah türüne ait eserleri seslendirirken müziksel bileşenleri uygular."
+    }
+   ]
+  }
+ ],
+ "report": {
+  "units": 5,
+  "outcomes": 0,
+  "components": 0,
+  "orphan_outcomes": 36,
+  "gaps": [
+   {
+    "course": "Seçmeli Müzik Dersi (Türk Halk Müziği Koro)",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "SMTHMK.I.1.1",
+     "SMTHMK.II.1.1",
+     "SMTHMK.III.1.1",
+     "SMTHMK.IV.1.1",
+     "SMTHMK.I.1.2",
+     "SMTHMK.II.1.2",
+     "SMTHMK.III.1.2",
+     "SMTHMK.I.1.3",
+     "SMTHMK.II.1.3",
+     "SMTHMK.I.2.1",
+     "SMTHMK.II.2.1",
+     "SMTHMK.III.2.1",
+     "SMTHMK.IV.2.1",
+     "SMTHMK.I.2.2",
+     "SMTHMK.II.2.2",
+     "SMTHMK.III.2.2",
+     "SMTHMK.IV.2.2",
+     "SMTHMK.I.3.1",
+     "SMTHMK.II.3.1",
+     "SMTHMK.III.3.1",
+     "SMTHMK.IV.3.1",
+     "SMTHMK.I.3.2",
+     "SMTHMK.II.3.2",
+     "SMTHMK.III.3.2",
+     "SMTHMK.IV.3.2",
+     "SMTHMK.I.3.3",
+     "SMTHMK.I.3.4",
+     "SMTHMK.IV.4.1",
+     "SMTHMK.III.4.2",
+     "SMTHMK.IV.4.2",
+     "SMTHMK.IV.4.3",
+     "SMTHMK.IV.4.4",
+     "SMTHMK.IV.5.1",
+     "SMTHMK.IV.5.2",
+     "SMTHMK.IV.5.3",
+     "SMTHMK.IV.5.4"
+    ]
+   }
+  ]
+ }
+}

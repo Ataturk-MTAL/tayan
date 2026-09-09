@@ -652,14 +652,6 @@
   "outcomes": 21,
   "components": 23,
   "orphan_outcomes": 0,
-  "gaps": [
-   {
-    "course": "Beden Eğitimi ve Sporun Temelleri Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "BEST.7.2.1"
-    ]
-   }
-  ]
+  "gaps": []
  }
 }

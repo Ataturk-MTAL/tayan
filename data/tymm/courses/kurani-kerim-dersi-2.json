@@ -1359,14 +1359,6 @@
   "outcomes": 43,
   "components": 161,
   "orphan_outcomes": 0,
-  "gaps": [
-   {
-    "course": "Kur'an-ı Kerim Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "KK.7.4.1"
-    ]
-   }
-  ]
+  "gaps": []
  }
 }

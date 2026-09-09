@@ -562,13 +562,6 @@
      "SOS.12.1.2",
      "SOS.12.2.1"
     ]
-   },
-   {
-    "course": "Sosyoloji Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "SOS.11.3.1"
-    ]
    }
   ]
  }

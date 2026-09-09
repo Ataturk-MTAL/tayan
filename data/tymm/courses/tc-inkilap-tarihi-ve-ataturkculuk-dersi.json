@@ -3,7 +3,7 @@
   "id": 9,
   "name": "T.C. İnkılap Tarihi ve Atatürkçülük Dersi",
   "slug": "tc-inkilap-tarihi-ve-ataturkculuk-dersi",
-  "prefix": "İTA",
+  "prefix": "TA",
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/2024programink8Onayli.pdf"
@@ -167,6 +167,39 @@
    "components": []
   },
   {
+   "code": "TA.8.2.5",
+   "grade": 8,
+   "unit": 2,
+   "order": 5,
+   "text": "Birinci Dünya Savaşı’nın Türk toplumuna etkilerine yönelik bakış açısı geliştirebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Birinci Dünya Savaşı’nın toplumsal etkilerini kaynaklar üzerinden inceler."
+    },
+    {
+     "label": "b",
+     "text": "Birinci Dünya Savaşı’nın toplumsal etkilerine dair kaynaklardan elde ettiği bilgileri kendi cümleleriyle ifade eder."
+    },
+    {
+     "label": "c",
+     "text": "Birinci Dünya Savaşı’nın Türk toplumuna etkilerini kaynaklara dayalı olarak analiz eder. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI"
+    },
+    {
+     "label": "ç",
+     "text": "Birinci Dünya Savaşı’nın Türk toplumunda meydana getirdiği insani krizleri belirler."
+    },
+    {
+     "label": "d",
+     "text": "Birinci Dünya Savaşı’nın Türk toplumunda meydana getirdiği insani krizler ile günümüzdeki insani krizleri karşılaştırır."
+    },
+    {
+     "label": "e",
+     "text": "Birinci Dünya Savaşı’nın Türk toplumuna etkileri hakkında çıkarım yapar."
+    }
+   ]
+  },
+  {
    "code": "İTA.8.2.5",
    "grade": 8,
    "unit": 2,
@@ -248,7 +281,7 @@
   "units": 4,
   "outcomes": 0,
   "components": 0,
-  "orphan_outcomes": 15,
+  "orphan_outcomes": 16,
   "gaps": [
    {
     "course": "T.C. İnkılap Tarihi ve Atatürkçülük Dersi",
@@ -261,6 +294,7 @@
      "İTA.8.2.2",
      "İTA.8.2.3",
      "İTA.8.2.4",
+     "TA.8.2.5",
      "İTA.8.2.5",
      "İTA.8.3.1",
      "İTA.8.3.2",

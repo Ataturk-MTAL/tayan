@@ -34,6 +34,12 @@
    },
    "outcomes": [
     {
+     "code": "ÇT.3.1.1",
+     "order": 1,
+     "text": "Birlikte müzik çalmanın eski çağlara dayandı-",
+     "components": []
+    },
+    {
      "code": "Ç.T.3.1.1",
      "order": 1,
      "text": "Birlikte müzik çalmanın eski çağlara dayandığını açıklayabilme",
@@ -79,6 +85,12 @@
     "FARKLILAŞTIRMA": "Zenginleştirme Bu süreçte sınıfta dinletilen parçalardan daha fazla çalgı içeren bir şarkının çalgılarının belirlenmesi görevi verilebilir. Diğer çocuklar çalgı türlerini ayıran özellikleri listelerken bu öğrencilerden gerekçelerini de ekleyerek bir liste hazırlamaları istenebilir. Destekleme Bu süreçte çalgılardan oluşan görseller verilerek eşleştirmeleri istenebilir. Dinlenilen şarkılardaki bildikleri çalgıların listelenmesi istenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI"
    },
    "outcomes": [
+    {
+     "code": "ÇT.3.2.1",
+     "order": 1,
+     "text": "Çalgılar ve özelliklerini açıklayabilme",
+     "components": []
+    },
     {
      "code": "Ç.T.3.2.2",
      "order": 2,
@@ -290,7 +302,31 @@
     "ÖĞRENME KANITLARI": "Temada öğrenme çıktıları; birlikte çalma performans gözlem formu, öz değerlendirme (Ölçme ve formu ve akran değerlendirme formu kullanılarak ölçülebilir. Değerlendirme) Öğrencilerden performans görevi olarak çalgı toplulukları oluşturarak verilen şarkıları çalmaları istenebilir. Verilen performans görevi birlikte çalma performans gözlem formu ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin çalgılarında temel teknik becerilere sahip olduğu kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerden bireysel çalgılarında icra ettikleri eserlerden yola çıkarak toplu icra sürecinde dikkat edilmesi gereken unsurların neler olabileceğine yönelik görüşler alınır. Bir şarkıyı tek başına çalma ile birlikte çalma arasındaki farklar üzerine görüşler alınır. Köprü Kurma Toplu olarak çalarken herkesin uyum içinde olması gerektiği vurgulanır. Toplu çalmada birlikteliğin önemine dikkat çekilir. Futboldan örnek verilerek farklı disiplinlerle köprü kurmaya çalışılır. Öğrencilere; bir futbol takımında herkes farklı bir pozisyonda oynar ama kazanmak için uyum içinde çalışır, denir. Bir müzik topluluğunda olduğu gibi her müzisyen farklı bir çalgı çalar ama hep birlikte uyum içinde bütünü oluştururlar gibi örnek verilerek köprü kurması sağlanır. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları ÇT.4.2.1 İcra edilecek eserin notaları dağıtılır. Dinleme yapılırken öğrencilerin nota kağıdından takip etmeleri istenir (E3.2). Eserin öğretmen rehberliğinde basit deşifresi yapılır ve çalınacak eserin çözümlenmesi istenir (OB9). Öğrencilerden çalgılarında doğru duruş ve tutuş pozisyonları alması istenir. Tüm sınıf birlikte bir müzik aleti çalmaya başladığında öğretmen tüm öğrencilerin duruşlarını gözden geçirir. Doğru duruşa odaklanmak için öğretmen, öğrencilere sırasıyla yaklaşarak tutuş ve duruşlarını kontrol eder (E3.2). Öğrencilerin bireysel olarak çalgılarıyla deşifre sürecine devam etmeleri istenir. Öğrencilerden şarkıyı çalarken kullanacakları teknikleri belirlenmesi istenir. Öğretmen deşifre sürecinde öğrencilere rehberlik eder. Öğrenciler önce bireysel olarak çalgılarına özgü teknikleri çalıştıktan sonra öğretmen, grup hâlinde bu teknikleri uygulamaları için onlara rehberlik eder (SDB2.2). Bireysel çalışmalar sonlandıktan sonra öğretmenin belirleyeceği tempoda toplu çalma sürecine başlanır. Tempo arttırılarak şarkının doğru temposuna ulaşana kadar etüt şarkı, toplu bir şekilde etüt edilir (D3.4, D12.3). Öğrencilerin müziksel bileşenleri (ritim, ezgi, tempo, dinamikler vb.) doğru bir şekilde uygulamasına ve müziksel anlamda grup olarak bir bütün oluşturmasına dikkat edilir (SDB2.2). Öğrenciler, şarkıyı bitirip toplu çalmaya başladıklarında her bir öğrencinin müzikal anlamı ve duyguyu doğru bir şekilde yansıttığı öğretmen tarafından kontrol edilerek öğrencilere dönüt verilir. Bu süreç farklı şarkılar belirlenerek tekrar edilir. Öğrencilerden performans görevi olarak çalgı toplulukları oluşturarak verilen şarkıları çalmaları istenebilir. Verilen performans görevi, birlikte çalma performans gözlem formu ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir.",
     "FARKLILAŞTIRMA": "Zenginleştirme Öğrenciler, grup olarak çalmalarını izleyip değerlendirerek kendi performanslarını geliştirebilecekleri alanları belirleyebilirler. Öğrencilerden bir öz değerlendirme formu hazırlaması, grupla gösterdiği performansı raporlaması ve bu raporları biriktirerek kendine bir performans dosyası hazırlaması istenebilir. Destekleme Basitleştirilmiş ezgiler oluşturularak öğrencilerden etüt edilmesi istenebilir. Aynı zamanda öğretmen, öğrencilere müzikal ifadelerini geliştirmeleri için yapıcı geri bildirimler vererek grup içindeki uyum ve müzikal anlamı arttırmalarına yardımcı olabilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "ÇT.4.2.1",
+     "order": 1,
+     "text": "Tek sesli eserleri toplu çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Tek sesli toplu icrada çalınacak eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Tek sesli toplu icrada çalgıya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Tek sesli toplu icrada çalgılara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Tek sesli toplu icrada müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
   },
   {
    "grade": 4,
@@ -315,7 +351,50 @@
     "ÖĞRENME KANITLARI": "Temada öğrenme çıktıları; birlikte çalma performans gözlem formu, , öz değerlendirme (Ölçme ve formu, derecelendirme ölçeği ve akran değerlendirme formu kullanılarak ölçülebilir. Değerlendirme) Öğrencilerden ikili eser örnekleri bulup bu örnekleri sınıfta sunmaları, eserlerin hangi çalgılardan oluştuğunu ve müziksel bileşenlerini açıklamaları istenebilir. Derste çalınan eseri ve çalışmaları için öğretmenin verdiği şarkıyı öğrencilerin ikili topluluklar belirleyerek sınıfta çalmaları istenebilir. Verilen performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin birlikte çalma kurallarını bildiği kabul edilmektedir Ön Değerlendirme Süreci Öğrencilerden bildikleri ikili şarkıları ve ikili müzik topluluklarını yazmaları istenebilir. Bu şarkı ve topluluklar sınıfça listelenip değerlendirilebilir. Köprü Kurma Öğrencilere günlük yaşamlarında birlikte oyun oynarken nelere dikkat ettikleri sorulur. Alınan cevaplardan sonra öğretmen, öğrencilerin bir top oyunu düşünmelerini ister. Her çocuk kendi sırasını bekler ve topu doğru zamanda diğerine verir. Eğer herkes sırasını takip etmezse oyun aksar. İkili çalmanın da tıpkı böyle bir oyuna benzediği aktarılır. Bir öğrenci belirli bir melodiyi çaldığında diğer öğrenci doğru zamanda onun melodisine karşılık verir. Bunun birlikte çalmada koordinasyon ve uyum becerisini geliştiren bir süreç olduğu belirtilir. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları ÇT.4.2.1 Öğrencilere dinletilen ikili eserin temposu hızlı mı yoksa yavaş mı? Eser hangi ritmik yapıyı kullanıyor? Melodi nasıl ilerliyor? gibi sorular sorarak eser hakkında ilk gözlemleri yapmaları istenir (KB2.2). Öğrencilerin ikili eserler dinlerken müziksel bileşenleri fark etmesi, ,ayırt etmesi ve açıklaması, müziği daha derinlemesine anlaması sağlanır (E1.1). Dinlenen veya izlenen ikili eserler genellikle iki çalgının bir arada çaldığı, bazen vokal de içerebilen makamsal eserler sunulur. Bu eserde ritim nasıl kullanılıyor? İki çalgı birbirini takip ediyor mu, yoksa bağımsız mı çalıyor? gibi sorularla dinlenen eserlerin ritim ve melodi yönünden incelenmesi sağlanır (SDB2.1, OB9). Dinleme sürecine devam edilir ve \"Dinlediğiniz eserde dinamikler nasıl değişiyor, hangi bölümler daha güçlü çalınıyor, hangileri daha yumuşak?\" gibi sorular sorularak müzikal dinamikler incelenir (KB2.8). Son olarak \"Bu eserde çalgılar birbirine nasıl bağlı? Bir çalgı solo çalarken diğeri nasıl eşlik ediyor?\" gibi sorular sorularak öğrencilerin müzikal bileşenleri açıklaması istenir (SDB2.1, KB2.17). Performans görevi olarak öğrencilerden ikili eser örneklerinin sınıf ortamında sunulması ve eserlerin hangi çalgılardan oluştuğunun, müziksel bileşenlerinin açıklanması istenebilir. Verilen performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. ÇT.4.2.2 Öğrenciler çalgılarına ve düzeylerine göre ikili gruplara ayrılır. Hazırlanan eğitsel materyal notası dağıtılır. Öğretmen öncelikle ezgiyi çalarak öğrencilerden dikkatle takip etmeleri istenir (KB2.2). Gözlemlerden sonra çalınacak eserin çözümlenmesi istenir. Öğrenciler, çalgılarını doğru tutuş ve pozisyonuna alır. Ardından öğrencilerin bireysel olarak eseri deşifre etmesi istenir (D3.4, D16.3). Deşifre sürecinde öğretmen grupları gezerek öğrencilerin çalgılarına özgü doğru teknikleri kullandığına dikkat eder ve gerekli dönütleri yapar. Deşifre süreci bittikten sonra birlikte çalma aşamasına geçilir. Yavaş tempoda çalışmalar başlar (D12.2). Öğretmen her grubu ayrı ayrı tempo vererek çalıştırır (SDB2.2). İkili şarkılar çalarken senkronizasyonun, melodik yapıya uygun çalmanın, müziksel anlamı ve duyguyu doğru bir şekilde iletmenin önemi üzerinde durulur (D7.1). Müziksel bileşenlere dikkat ederek çalmaları istenir. Ders sonunda her grup çalışmalarını sınıfta sunar. Öğrencilere performans görevi olarak derste çalınan eseri ve öğretmenin çalışmaları için verdiği şarkıyı ikili topluluklar belirleyerek sınıfta birlikte çalma performans sergilemesi istenebilir. Verilen performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir.",
     "FARKLILAŞTIRMA": "Zenginleştirme Bu süreçte öğrenme ortamları öğrencilerin farklı öğrenme stillerine göre bireysel ve iş birlikçi çalışmalara katkı sağlayacak şekilde tasarlanabilir. İleri düzeyde hazırlanmış farklı ikili eser notasyonları dağıtılarak çalışılması istenebilir. Destekleme Çalınan eser, küçük birimlere ayrılarak yavaş tempoda etüt edilmesi istenebilir. İkili eserlerde iki çalgıcı arasındaki teknik yük paylaşılabilir. Örneğin bir çalgıcı hızlı pasajlar çalarken diğeri daha sakin bir tempo ile çalarak denge sağlayıcı çalışmalar yapılabilir. Bir öğrenci arpejlerle destek sağlarken diğeri belirgin ve net notalar çalarak dengeyi kuran alıştırmalar yapılabilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "ÇT.4.3.1",
+     "order": 1,
+     "text": "İkili eserler dinleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dinlediği ikili eserlerin müziksel bileşenlerini tanır."
+      },
+      {
+       "label": "b",
+       "text": "Dinlediği ikili eserlerin müziksel bileşenlerini ayırt eder."
+      },
+      {
+       "label": "c",
+       "text": "Dinlediği ikili eserlerin müziksel bileşenlerini açıklar."
+      }
+     ]
+    },
+    {
+     "code": "ÇT.4.3.2",
+     "order": 2,
+     "text": "İkili şarkılar çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "İkili şarkılarda çalacağı eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "İkili şarkılar çalarken çalgıya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "İkili şarkılar çalarken çalgıya özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "İkili şarkılar çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
   },
   {
    "grade": 4,
@@ -340,7 +419,50 @@
     "ÖĞRENME KANITLARI": "Temada öğrenme çıktıları; birlikte çalma performans gözlem formu, performans görevi, (Ölçme ve öz değerlendirme formu, derecelendirme ölçeği ve akran değerlendirme formu kullanılaDeğerlendirme) rak ölçülebilir. Öğrencilerden üçlü eser örnekleri istenerek bu örneklerin sınıf ortamında sunulması ve eserlerin hangi çalgılardan oluştuğunun, müziksel bileşenlerin açıklanması istenen bir performans görevi verilebilir. Derste çalınan eseri ve çalışmaları için öğretmenin verdiği şarkıyı öğrencilerin ikili topluluklar belirleyerek sınıfta çalmaları istenebilir. Verilen performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin ikili gruplar hâlinde birlikte çalma süreci gerçekleştirdiği kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere, Daha önce dinlediğiniz üçlü şarkılar nelerdir? Bildiğiniz veya izlediğiniz üçlü çalgı toplulukları nelerdir? gibi sorular sorulur. Köprü Kurma Öğrencilere bir okul projesinin üç kişilik gruplar hâlinde yapılacağı anlatılır. Her öğrencinin belirli bir konuda çalışacağı ancak projenin başarılı olabilmesi için herkesin iş birliği yapması gerektiği vurgulanır. Öğrencilerden grup projesinde her birinin farklı bölümleri tamamladığını ancak sonunda tüm parçaların bir araya gelerek bir bütün oluşturacağını düşünmeleri istenir. Üçlü eserlerde de benzer şekilde her çalgının kendi rolünü oynadığı ancak her birinin diğerine uyum sağlayarak bir bütünlük oluşturduğu ifade edilerek grup projesi ile eser arasındaki bağlantı kurulmaya çalışılır. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları ÇT.4.4.1 Öğrencilere daha önceden hazırlanan üçlü eser dinletilir. Dinlediğiniz üçlü eserde hangi çalgılar var? sorusu sorulur (KB2.8). Cevaplar yazılı olarak istenir. Farklı farklı eserler dinletilerek tekrarlanır. Belirlenen bir eserde; \"Ezgiyi hangi çalgı çalıyor?\" sorusu sorulur. Bu müzik hızlı mı yoksa yavaş mı çalıyor? Bir çalgı melodiyi çalarken diğer çalgılar ne yapıyor? gibi sorular sorularak müziksel bileşenler ayırt edilmeye çalışılır (KB2.1, OB9). Sorulan sorular sınıfta tartışılarak müziksel bileşenler açıklanır (KB2.18). Öğrencilerden dinledikleri eserdeki fark ettikleri müziksel bileşenleri yazmaları istenir (KB2.14). Performans görevi olarak öğrencilerden üçlü eser örnekleri istenerek bu örneklerin sınıf ortamında sunulması ve eserlerin hangi çalgılardan oluştuğunun, müziksel bileşenlerin açıklanması istenebilir. Verilen performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. ÇT.4.4.2 Öğrenciler üçlü gruplar hâlinde ayrılır. Çalınacak eserin notası yansıtılır. Öğretmen öncelikle ezgiyi deşifre ederek öğrencilerden dikkatle takip edilmesi istenir (KB2.2). Grup çalışmasından önce her öğrencinin bireysel olarak eseri deşifre etmesi istenir (E2.2, D16.3). Öğrencilerden çalınacak eserin çözümlenmesi istenir. Eser çözümleme sürecinde öğretmen öğrencilere rehberlik eder. Çözümleme tamamlandıktan sonra öğrencilerden eserin ezgisinin çalınması istenir. Öğretmen, öğrencilerin çalgılarına göre doğru tutuş ve pozisyon almasını ister. Çalma sürecine başlamadan önce çalgılarına özgü hangi teknikle çalınacağının belirlenmesi istenir. Öğretmen rehberliğinde bireysel deşifre süreci tamamlanır. Öğretmenin belirlediği tempoda birlikte çalma aşamasına geçilir. Öğretmen her grubu ayrı ayrı tempo vererek çalıştırır. Öğrencilerin topluluk içinde diğer çalgıları dikkatle dinlemeleri sağlanmalıdır (E2.1). Öğretmen, öğrencilerden çaldıkları parçayı diğer çalgılarla uyum içinde sürdürüp sürdürmediklerini gözlemlemelerini ister (SDB3.1). Deşifre ve çalma sürecinin sonunda ezgisel yapıya ve müziksel bileşenlere dikkat ederek çalınması istenir. Öğrencilere performans görevi olarak derste çalınan eseri ve öğretmenin çalışmaları için verdiği şarkıyı üçlü topluluklar belirleyerek sınıfta birlikte çalma performans sergilemesi istenebilir. Verilen performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir.",
     "FARKLILAŞTIRMA": "Zenginleştirme Bu süreçte üçlü şarkıları orta ve üst düzeye ayırıp öğrenci seviyelerine göre dağıtarak çalışılması istenebilir. Öğrenciler, belirli bir şarkının seslendirilmesinde grup liderliği yapabilir. Bir öğrenci grup içinde liderlik yaparak şarkının temposunu belirleyebilir, diğerlerini yönlendirebilir veya şarkının bölümleri arasında geçişler yapabilir. Destekleme Bu süreçte başlangıç ve orta düzey şarkıların farklı zorluklarını belirleyip öğrencileri seviyelerine göre gruplara ayırarak her grup için uygun bir şarkı seçilebilir. Her şarkı öğrencilerin seviyelerine göre düzenlenebilir. Örneğin başlangıç seviyesindeki öğrenciler için basit bir melodi, orta seviyedeki öğrenciler için harmoniler eklenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "ÇT.4.4.1",
+     "order": 1,
+     "text": "Üçlü grup eserleri dinleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dinlediği üçlü eserlerin müziksel bileşenlerini tanır."
+      },
+      {
+       "label": "b",
+       "text": "Dinlediği üçlü eserlerin müziksel bileşenlerini ayırt eder."
+      },
+      {
+       "label": "c",
+       "text": "Dinlediği üçlü eserlerin müziksel bileşenlerini açıklar."
+      }
+     ]
+    },
+    {
+     "code": "ÇT.4.4.2",
+     "order": 2,
+     "text": "Üçlü şarkılar çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Üçlü şarkılarda çalınacak eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Üçlü şarkı çalışmalarında çalgıya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Üçlü şarkılar çalarken çalgıya özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Üçlü şarkılar çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
   },
   {
    "grade": 5,
@@ -365,7 +487,50 @@
     "ÖĞRENME KANITLARI": "Temada öğrenme çıktıları; birlikte çalma performans gözlem formu, performans görevi, (Ölçme ve öz değerlendirme formu, derecelendirme ölçeği ve akran değerlendirme formu kullanılaDeğerlendirme) rak ölçülebilir. Öğrencilerden dörtlü eser örnekleri istenerek bu örneklerin sınıf ortamında sunulması ve eserlerin hangi çalgılardan oluştuğu, müziksel bileşenlerin açıklanması istenen bir performans görevi verilebilir. Derste çalınan eseri ve çalışmaları için öğretmenin verdiği şarkıyı öğrencilerin ikili topluluklar belirleyerek sınıfta çalmaları istenebilir. Verilen performans görevi analitik dereceli puanlama anahtarı ve birlikte çalma performans gözlem formu ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin çalgılarında orta düzeyde teknik becerilere sahip olduğu kabul edilmektedir. Öğrencilerin birlikte çalma düzeni ve kurallarını bildiği kabul edilmektedir. Ön Değerlendirme Süreci Ön değerlendirme sürecinde öğrencilere, Daha önce dinlediğiniz dörtlü şarkılar nelerdir? Bildiğiniz veya izlediğiniz dörtlü çalgı toplulukları nelerdir? gibi sorular sorulur. Köprü Kurma Öğrencilerin grup çalışması yaparken bir ekip oyununda veya projede nasıl birlikte çalıştıklarını, birbirlerinin fikirlerine nasıl saygı gösterdiklerini, ortak bir hedefe ulaşmak için nasıl koordine olunabileceğine ilişkin düşünmeleri istenir. Daha önce birlikte çalma etkinliklerindeki dikkat edilen hususların neler olduğuna yönelik sorular sorulur. Dörtlü çalgı toplulukları iletişim ve iş birliği gerektirdiği vurgulanır. Öğrencilerin müzikteki rol dağılımı (bir çalgıcının ana ezgiyi veya eşlik çalması) ile grup içinde dengeyi sağlama gerekliliği arasında nasıl bir paralellik kuracağına ilişkin tartışmaları istenir. Müziksel bir grup çalışması olarak, her bir müzisyen çalgısını kullanarak diğer müzisyenlerle uyum içinde çalışmanın ve çalmanın önemine dikkat çekilir. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları ÇT.5.1.1 Önceden belirlenen dörtlü eser dinletilmeye başlanır. Dinleme sürecinden sonra öğrencilere; Dinlenen dörtlü eser hızlı mı yavaş mı? Hangi tempo kullanılıyor? Eserin hangi bölümleri daha güçlü çalınıyor, hangileri daha yumuşak? Dinamikler nasıl değişiyor? Eserde ezgi nasıl ilerliyor? Ezgi hangi çalgıda yer alıyor? Çalgılar arasında nasıl bir senkronizasyon var? Çalgılar birbirini takip ediyor mu yoksa bağımsız mı çalıyor? gibi sorular sorularak dinleme sürecinde müziksel bileşenlerin fark edilmesi sağlanır (E1.1, E3.8, OB9, KB2.11). Verilen cevaplar tartışılarak öğretmen rehberliğinde uygun cevaplar belirlenir (KB2.18). Farklı bir şarkı daha dinletilerek benzer sorularla cevaplar alınır ve verilen cevaplar listelenerek müziksel bileşenler ayırt edilir. Farklı dörtlü şarkılar dinlenerek örnekler çoğaltılır. Örnek dinlemeler sonrası öğrencilerden dörtlü şarkılarda müziksel bileşenleri açıklamaları istenir (KB2.14). Öğrencilerden dörtlü eser örnekleri istenerek bu örneklerin sınıf ortamında sunulması ve eserlerin hangi çalgılardan oluştuğu, müziksel bileşenlerin açıklanması istenen bir performans görevi verilebilir. Verilen performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. ÇT.5.1.2 Öğretmen tarafından çalgı ve icra edilecek şarkının özellikleri dikkate alınarak dörtlü gruplar oluşturulur. Öğretmen, öğrencilerin düzeyine uygun belirlediği dörtlü şarkının notalarını dağıtır. Başlangıçta şarkının ezgisini yalnızca bir çalgıyla çalar. Öğretmen her notasyonu ayrı ayrı çalarak öğrencilerden çalınan şarkıyı nota üzerinden dikkatle takip etmeleri ve nota üzerinden gözlem yapmaları istenir (KB2.2). Dinleme ve izleme yapılarak öğrencilerin şarkıyı tanıması sağlanır. Öğrencilerden çalınacak eserin çözümlenmesi istenir. Ardından öğrencilerin kendi notasyonlarını bireysel olarak deşifre etmeleri istenir (E2.2, D16.3). Deşifre sürecinden önce öğrencilerin çalgılarında doğru tutuş ve pozisyonu almaları istenir. Deşifre süreci devam ederken öğretmen grupları kontrol ederek rehberlik eder. Bireysel deşifre süreci tamamlandıktan sonra toplu icra için öğretmen birlikte çalmada dikkat edilecek hususları hatırlatır. Ayrıca öğrencilerin çalgılarına özgü teknikleri doğru uygulaması istenir (SDB3.3). Yavaş tempoda toplu icra süreci öğretmen rehberliğinde başlatılır (D12.2). Çalışılan bölümler birleştirilerek şarkı tamamlanır. Öğretmen; doğru tempo, müzikal dinamikler, teknik gibi müziksel bileşenleri öğrencilerin doğru uygulamasını sağlar. Müziksel bileşenler tamamlandıktan sonra gruplar hâlinde şarkı icra edilir (SDB2.2). Öğrencilerden performans görevi olarak derste çalınan eseri ve öğretmenin çalışmaları için verdiği şarkıyı dörtlü topluluklar belirleyerek sınıfta sergilemeleri istenebilir. Verilen performans görevi analitik dereceli puanlama anahtarı ve birlikte çalma performans gözlem formu ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir.",
     "FARKLILAŞTIRMA": "Zenginleştirme Bu süreçte farklı dörtlü gruplar oluşturularak verilen yeni şarkının çalınması istenebilir. Dörtlü çalışmalarda öğrenciler arasında solo performanslara fırsat tanınabilir. Her öğrencinin şarkının bir kısmında solo olarak çalması sağlanarak grup içindeki çeşitliliği artırabilirsiniz. Solo pasajları, grup çalışmasıyla dengelenebilir. Destekleme Bu süreçte çalınan eserin bölümlere ayrılarak yavaş tempoda etüt edilmesi istenebilir. Farklı gruplara düzeye göre şarkıları verilebilir. Öğrenciler birbirlerine geri bildirimde bulunarak grup içindeki uyumu nasıl daha iyi sağlayacaklarını tartışabilirler. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "ÇT.5.1.1",
+     "order": 1,
+     "text": "Dörtlü grup eserleri dinleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dinlediği dörtlü eserlerin müziksel bileşenlerini fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Dinlediği dörtlü eserlerin müziksel bileşenlerini ayırt eder."
+      },
+      {
+       "label": "c",
+       "text": "Dinlediği dörtlü eserlerin müziksel bileşenlerini açıklar."
+      }
+     ]
+    },
+    {
+     "code": "ÇT.5.1.2",
+     "order": 2,
+     "text": "Dörtlü şarkılar çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dörtlü şarkılarda çalacağı eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Dörtlü şarkılar çalarken çalgıya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Dörtlü şarkılar çalarken çalgıya özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Dörtlü şarkılar çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
   },
   {
    "grade": 5,
@@ -390,7 +555,31 @@
     "ÖĞRENME KANITLARI": "Temada öğrenme çıktıları birlikte çalma performans gözlem formu, öz değerlendirme for- (Ölçme ve mu ve akran değerlendirme formu kullanılarak ölçülebilir. Değerlendirme) Öğrencilerden çalgı toplulukları oluşturarak basit usullerdeki şarkıları topluluk önünde sergilenmesi istenen bir performans görevi verilebilir. Verilen performans görevi birlikte çalma performans gözlem formu ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin küçük usulleri bildiği kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerden farklı zaman ölçülerinin ne olduğunu ve nasıl çalınmaları gerektiğini açıklamaları istenebilir. Bu doğrultuda özellikle 2/4, 3/4, 4/4 gibi basit usullere yönelik bilgileri ölçebilmek için \"3/4 zaman ölçüsünde hangi vuruşlar bulunur, 2/4 zaman ölçüsünde her ölçüde kaç vuruş vardır?\" gibi sorular sorulabilir. Köprü Kurma Öğrencilerin önceki öğrendiklerinden yola çıkarak birlikte çalmada usulün önemi üzerine düşünceleri alınır. Öğrencinin günlük hayatındaki adımlarını düşünmesi istenir. Yürürken atılan bu adımların birbiriyle uyumlu bir şekilde ritmik olarak atıldığı ifade edilir. Öğrencilerin nasıl yürüdükleri, yürürken attıkları adım uyumlarına ilişkin sorular yöneltilir. Sağ-sol, sağ-sol şeklinde yürümek, 2/4 usulüne benzer bir yapıda olduğu örneği verilerek köprü kurulur. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları ÇT.5.2.1 Öğrencilere uygun zorluk seviyesindeki okul şarkıları dağıtılır. Şarkıların, kısa ezgilerden oluşan basit parçalar olmasına özen gösterilir. Şarkılar, 2/4, 3/4, 4/4 gibi küçük usullerden oluşmaktadır. İcra ve deşifre süreci öncesinde öğrencilerin doğru tutuş ve uygun pozisyon almaları sağlanır. Öğrencilerin çalgılarını doğru şekilde tuttuklarından emin olduktan sonra grup hâlinde tutuş pozisyonunu pekiştiren egzersizler yapılır. Her bir öğrencinin doğru tutuşu yapıp yapmadığı kontrol edilir. İlk olarak 2/4 usulde belirlenen öğrenci düzeyine uygun okul şarkısı öğrencilere dağıtılır. Şarkının notaları öğrencilere gösterilir ve öğretmen, şarkının temel ritmik ve ezgi yapısını açıklayarak deşifreye başlar. Öğrencilerle birlikte şarkının ritmi, notaları ve ezgisel yapısı analiz edilir. Öğrencilerin çalgılarına özgü doğru teknikle deşifre sürecini gerçekleştirmeleri istenir. Çalışmaya şarkının yavaş tempoda adım adım çalınmasıyla başlanır (D3.2). Yavaş tempoda çalarken öğretmen; öğrencilerin ritme, doğru nota değerlerine ve tutuş tekniklerine odaklanmalarını sağlar (E3.2). Tempoyu artırmak için öğrencilerle birlikte pratik yapılarak doğru hızda çalabilmeleri sağlanır. Grup çalışmasında her öğrenci, diğerlerinin çaldığına dikkat etmelidir (D3.4, E2.2). Öğrenciler arasında müzikal iletişimi artırmak için birbirlerini dinleme çalışmaları yapılır (KB2.2, D4.2). Öğrencilerden birbirlerini dinleyerek uyum içinde çalmaları istenir (SDB2.1, E2.1). Şarkının doğru temposuna ulaşana kadar çalışmaya devam edilir. Öğrenciler, deşifre sürecinden sonra çalınacak şarkıyı birkaç kere pratik ederler (OB9). Sonrasında tüm grup birlikte çalmaya çalışır ve öğretmen her öğrenciyi yönlendirerek, müziksel bileşenlere dikkat ederek gerekli dönütlerde bulunur (SDB2.2). 3/4 ve 4/4 usulde belirlenen okul şarkılarıyla aynı işlem süreçleriyle çalışmalar yapılır. Öğrencilerden çalgı toplulukları oluşturarak basit usullerdeki şarkıları topluluk önünde sergilenmesi istenen bir performans görevi verilebilir. Verilen performans görevi birlikte çalma performans gözlem formu ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir.",
     "FARKLILAŞTIRMA": "Zenginleştirme Bu süreçte orta ve zor seviyede küçük usullerde ve tempolarda şarkılar dağıtılarak çalışma yapılabilir. Öğrenciler, tek sesli bir parça çalarken belirli bölümlerde doğaçlama yapmalarına olanak tanıyabilirsiniz. Örneğin melodinin bir kısmı belirli bir kalıp üzerinde oynanabilir veya ezgi üzerinde serbestçe çalışarak farklı varyasyonlar oluşturabilirler. Destekleme Çalışılan eserlerin daha yavaş tempoda çalınması için yönlendirilebilir. Seviyeye göre farklı tempo ve küçük usullerde şarkı notaları oluşturulabilir. Öğrenciler, parçayı farklı hızlarda çalmayı deneyebilirler. Örneğin yavaş çalarken her notaya daha fazla dikkat ederken, hızlı çalarken ritmi ve tekniği koruma üzerine çalışabilirler. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "ÇT.5.2.1",
+     "order": 1,
+     "text": "Tek sesli küçük usullerdeki eserleri toplu çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Küçük usullerdeki eserleri toplu eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "\u0007Küçük usullerdeki eserleri toplu çalmada çalgıya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Küçük usullerdeki eserleri toplu çalarken çalgıya özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Küçük usullerdeki eserleri toplu çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
   },
   {
    "grade": 5,
@@ -511,7 +700,31 @@
     "ÖĞRENME KANITLARI": "Temada öğrenme çıktıları birlikte çalma performans gözlem formu, öz değerlendirme for- (Ölçme ve mu ve akran değerlendirme formu kullanılarak ölçülebilir. Değerlendirme) Öğrencilere çalgı toplulukları oluşturarak bileşik usullerdeki şarkıları topluluk önünde sergilenmesi istenen bir performans görevi verilebilir. Verilen performans görevi birlikte çalma performans gözlem formu ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin büyük usulleri bildiği kabul edilmektedir. Öğrencilerin çalgılarında büyük usullerde eserler çaldığı kabul edilmektedir. Ön Değerlendirme Süreci \"5/8, 7/8, 9/8 zaman ölçüsünde hangi vuruşlar bulunur, bu ölçüde kaç vuruş vardır?\" gibi sorular sorularak öğrencilerin bilgileri değerlendirilebilir. Köprü Kurma Öğrencinin günlük hayatında dinlediği türkülerin adlarını söylemesi istenir. Türküler listelenerek dinleme yapılır ve bileşik usullerde olanların hangileri olabileceği üzerine sorular sorulur. Dinledikleri şarkı ya da türkülerde bileşik usuller olanların fark edilmesi sağlanarak köprü kurulması sağlanır. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları ÇT.6.1.1 5/8, 7/8, 9/8'lik usuller listelenir. Örnek dinlemeler yapılır. “Hangi usulde?” adlı küçük bir dinleme oyunu kurgulanır. Dinlenen eserin hangi usulde olduğu tahmin edilmeye çalışılır (KB2.11). Öğrencilere seviyelerine uygun büyük usuldeki 5/8’lik türkü dağıtılır. Öğretmen notası yansıtılan türkü hakkında bilgilendirmelerde bulunur ve eserin çözümlenmesi istenir (OB9). Öğretmen, öğrencilerin ritmik yönden gözlem yapmasını ister (KB2.2). Ardından öğrencilerden bireysel olarak deşifre etmeleri istenir (E2.2). Deşifre sürecinde öğrencilerin doğru tutuş ve uygun pozisyon almaları sağlanır (D7.2). Öğretmen, şarkının temel ritmik ve ezgi yapısını açıklayarak deşifreye başlar. Şarkının ritmi, notaları ve ezgisel yapısı analiz edilir. Öğrencilerin çalgılarına özgü doğru teknikle bireysel deşifre sürecini gerçekleştirmeleri istenir. Öğrencilerin görevini yerine getirirken özverili davranmaları beklenir (D16.3). Çalışmaya şarkının yavaş tempoda adım adım çalınmasıyla başlanır (D12.2). Yavaş tempoda çalarken öğretmen; öğrencilerin ritme, doğru nota değerlerine ve tutuş tekniklerine odaklanmalarını sağlar (E3.2, SDB1.2). Tempoyu artırmak için öğrencilerle birlikte pratik yapılarak doğru hızda çalabilmeleri sağlanır. Türkünün doğru temposuna ulaşana kadar çalışmaya devam edilir. Doğru tempoya gelindikten sonra öğrenciler çalarken müziksel bileşenleri uygular. Gruplar hâlinde performans sergilenir (SDB2.2, D3.4). Öğretmen birlikte çalma performans gözlem formuna göre değerlendirmelerde bulunur. 5/8, 7/8 ve 9/8 usulde belirlenen farklı türkülerle benzer çalışmalar yapılır. Öğrencilere çalgı toplulukları oluşturarak büyük usullerdeki şarkıları topluluk önünde sergilenmesi istenen bir performans görevi verilebilir. Verilen performans görevi birlikte çalma performans gözlem formu ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir.",
     "FARKLILAŞTIRMA": "Zenginleştirme Bu süreçte orta ve zor seviyede 5/8, 7/8, 9/8'lik usullerde ve tempolarda şarkılar dağıtılarak çalışma yapılabilir. Öğrencilerle her zaman ölçüsünün belirli vurgularına ve zayıf vuruşlarına dikkat ederek çalışmalar yapılabilir. Toplu çalışmalarda doğru vurgulara odaklanmak, gruptaki herkesin uyum içinde çalmasını sağlayabilir. Öğrencilere ritim ve vurgular üzerine egzersizler verilerek bu vurguları çalışmaları istenebilir. Destekleme Bu süreçte çalınan eserlerin daha yavaş tempoda çalınması için yönlendirilebilir. Seviyeye göre farklı tempo ve 5/8, 7/8, 9/8'lik usullerde şarkı notaları oluşturulabilir. Öğrencilere büyük usulün temel ritmik kalıplarını (2+2+2 veya 3+3) çalışarak zaman ölçüsünü daha iyi kavrayabilmeleri adına rehberlik yapılabilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "ÇT.6.1.1",
+     "order": 1,
+     "text": "5/8, 7/8, 9/8'lik usullerdeki eserleri toplu olarak birlikte çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "5/8, 7/8, 9/8'lik usullerdeki eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "5/8, 7/8, 9/8'lik usullerdeki eserleri toplu çalmada çalgıya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "5/8, 7/8, 9/8'lik usullerdeki eserleri toplu icra ederken çalgılara özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "5/8, 7/8, 9/8'lik usullerdeki eserleri toplu icra ederken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
   },
   {
    "grade": 6,
@@ -631,7 +844,31 @@
     "ÖĞRENME KANITLARI": "Temada öğrenme çıktıları; birlikte çalma performans gözlem formu, öğrenci ürün dosyası, (Ölçme ve öz değerlendirme formu, derecelendirme ölçeği ve akran değerlendirme formu kullanılaDeğerlendirme) rak ölçülebilir. Öğrencilere derste çalınan nihavend makamındaki eserleri ve öğretmenin çalışmaları için verdiği eserleri topluluklar hâlinde sınıfta sunmaları istenen bir performans görevi verilebilir. Verilen performans görevi analitik dereceli puanlama anahtarı ve birlikte çalma performans gözlem formu ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin nihavend makam dizisini teoride ve çalgısında bildiği kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere nihavend makamına yönelik bilgi ve uygulama düzeylerini ölçebilmek için aşağıdaki sorular sorulabilir: • Dinlediğiniz nihavend makamındaki türküler nelerdir? • Nihavend makam dizisini söyleyebilir misiniz? • Nihavend makam dizisini çalgınızda icra edebilir misiniz? Köprü Kurma Öğrencilere halk müziği şarkılarıyla bağlantı kurularak nihavend makamının duygusal yapısına ilişkin sorular sorulur. \"Çökertme\", \"Benim Dünyam\" veya yerel türküler üzerinden çalışarak öğrencilerin müziği kendi kültürel bağlamlarına yerleştirmeleri sağlanır. Bu tür şarkılar, makamın duygusal yoğunluğunu günlük yaşamla ilişkilendirir. Nihavend makamı, genellikle halk ve tasavvuf müziğiyle iç içe geçtiği için bu gelenekler tanıtılarak köprü kurulur. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları ÇT.6.4.1 Öncelikle öğrencilere nihavend makamı dizisinin temel özellikleri hakkında kısa bir hatırlatma yapılır. Öğrenciler, çalgı gruplarına ayrılır. Her grup farklı bir çalgı grubunu temsil eder. Örneğin bir grup vurmalı çalgılar (davul, darbuka gibi), diğer grup melodik çalgılar (keman, flüt, gitar gibi) ile çalışacaktır. Çalışılacak olan nihavend makamındaki türkü hakkında bilgi verilir ve öğrencilerin parçayı nota üzerinden incelemeleri istenir (KB2.2, OB9). Eserin çözümlenmesi istenir. Bu aşamada türkünün trafiği, ezgi ve ritmin nasıl ilerleyeceği hakkında öğrencilere bilgi verilir. Nota üzerinde yapılan inceleme ile öğrenciler, eserin yapısını kavramaya başlarlar. Öğretmen türküyü yavaşça icra eder ve öğrencilerden ezgiyi bireysel olarak deşifre etmelerini ister (E2.2). Öğrencilerin çalgılarının doğru duruş ve tutuş pozisyonu alması sağlanır. Öğretmen, her grubun tekniklerini kontrol eder ve deşifre sürecine devam edilmesi için gereken yönlendirmeleri yapar. Öğrenciler, her ölçüyü doğru bir şekilde çalmaya odaklanarak ilerlerken öğretmen grupları gezerek her öğrencinin doğru bir teknikle çaldığını kontrol eder. Bu süreçte öğretmen geri bildirimde bulunarak öğrencilerin hatalarını düzeltmelerini sağlar. Teknik düzeltmeler yapıldıktan sonra grup olarak toplu çalma sürecine geçilir. Öğrenciler, öğretmenin belirlediği yavaş tempoda önce parçayı çalmaya başlarlar (D12.3). Bu noktada öğrencilerin birbirleriyle uyum içinde hareket etmeleri çok önemlidir. Öğretmen, grup çalışmalarında öğrencilerin ritmi ve ezgiyi uyumlu bir şekilde takip etmelerine dikkat eder ve her bir öğrencinin diğer çalgılarla uyum içinde çalması gerektiğini vurgular (SDB2.1). Öğrencilerin topluluk olarak çalmaya başladıklarında bir takım gibi hareket etmeleri, birbirlerini dinlemeleri ve müziksel bileşenlere dikkat etmeleri sağlanır (SDB2.2). Belirlenen tempoya ulaşıldığında öğrenciler grup hâlinde canlı performans sergilemeye başlarlar (D3.4). Öğretmen; her grubun çalmış olduğu parçayı değerlendirirken duruş ve tutuş, tekniği doğru uygulama, ezgisel yapı, müzikal ifade gibi unsurları dikkate alır. Öğrencilere derste çalınan nihavent makamındaki eserleri ve öğretmenin çalışmaları için verdiği eserleri topluluklar hâlinde sınıfta sunmaları istenen bir performans görevi verilebilir. Verilen performans görevi analitik dereceli puanlama anahtarı ve birlikte çalma performans gözlem formu ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir.",
     "FARKLILAŞTIRMA": "Zenginleştirme Bu süreçte nihavend makamında farklı türküler verilerek düzeye göre oluşturulan farklı çalgı topluluklarıyla çalışılması istenebilir. Nihavend makamındaki şarkılar, duygusal açıdan yükselebilen ve alçalan bölümleri içeren kısımlar, müzikal dinamikler göz önünde bulundurularak grup içerisinde çalışılabilir. Destekleme Bu süreçte nihavend makamındaki türkülerin yavaş tempoda çalınması istenebilir. Basitleştirilmiş türküler verilerek çalışmalar yapılabilir. Nihavend makamındaki eserlerde ana tema veya melodinin tekrar edilmesi, şarkının önemli noktalarını vurgulayan grup çalışması yapılabilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "ÇT.6.4.1",
+     "order": 1,
+     "text": "Nihavend makamı dizisindeki eserleri toplu çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Nihavend makamı dizisindeki çalınacak eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "\u0007Nihavend makamı dizisindeki eserleri toplu çalarken çalgıya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "\u0007Nihavend makamı dizisindeki eserleri toplu çalarken çalgıya özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "\u0007Nihavend makamı dizisindeki eserleri toplu çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
   },
   {
    "grade": 7,
@@ -655,7 +892,50 @@
     "ÖĞRENME KANITLARI": "Temada öğrenme çıktıları; birlikte çalma performans gözlem formu, performans görevi, (Ölçme ve öz değerlendirme formu, derecelendirme ölçeği ve akran değerlendirme formu kullanılaDeğerlendirme) rak ölçülebilir. Öğrencilere beşli eser örnekleri bularak bu örnekleri sınıf ortamında sunmaları, eserlerin hangi çalgılardan oluştuğunu ve müziksel bileşenlerini açıklamaları performans görevi olarak verilebilir. Derste çalınan eseri ve çalışmaları için öğretmenin verdiği şarkıyı öğrencilerin ikili topluluklar belirleyerek sınıfta çalmaları istenebilir. Verilen performans görevi analitik dereceli puanlama anahtarı ve birlikte çalma performans gözlem formu ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin üçlü şarkıları çaldığı kabul edilmektedir. Öğrencilerin orta düzeyde çalgılarına ait teknikleri bildiği kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere, Daha önce dinlediğiniz beşli şarkılar nelerdir? Bildiğiniz veya izlediğiniz beşli çalgı toplulukları nelerdir? gibi sorular sorulabilir. Köprü Kurma Beşli grup icrasında dörtlü, üçlü iki icralarda olduğu gibi öğrencilere grup çalışmalarında rollerin neler olduğu sorulur. Bir grup içinde liderlik ve takipçilik becerilerini denemek, öğrencilerin sosyal rollerini anlamak gibi süreçler üzerine öğrencilerden düşünceler alınır. Öğrencilerin şarkıyı çalarken bazen lider pozisyonunda olacakları, bazen ise diğerlerinin izlediği bir takipçi rolü üstlenecekleri vurgulanır. Öğrencilere bir grup çalışmasında hem liderlik yapabileceklerini hem de başkalarına rehberlik edebilecekleri örnekler verilerek köprü kurulur. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları ÇT.7.1.1 Öğrencilere farklı beşli eserler dinletilir. Bu eserlerin farklı müziksel bileşenleri (melodi, ritim, tempo, dinamik, ton, tını, armoni) hakkında genel bilgi verilir (OB1). Eserler dinlenirken öğrenciler bu bileşenleri fark etmeye yönelik sorularla yönlendirilir (KB2.11). Eser sonrası öğrenciler gruplara ayrılır ve dinledikleri eserin müzikal bileşenlerini tartışarak nasıl hissettiklerini ve ne fark ettiklerini paylaşır (SDB2.3, KB2.18). Öğrencilere bir beşli eserin çeşitli bölümleri (bir orkestra parçası) dinletilir. Öğrenciler, hangi enstrümanların hangi müziksel bileşenleri ürettiğini ayırt etmeye çalışır. Öğrencilere \"Bu eserde davul hangi rolü oynuyor?\" veya \"Sazlar ne tür bir armoni oluşturuyor?\" gibi sorular yöneltilir (E3.8). Öğrencilerden dinledikleri beşli eserin müzikal bileşenleri hakkında yazılı veya sözlü açıklamalar yapmaları istenir (KB2.14). Öğrencilere beşli eser örnekleri bularak bu örnekleri sınıf ortamında sunmaları, eserlerin hangi çalgılardan oluştuğunu ve müziksel bileşenlerini açıklamaları performans görevi olarak verilebilir. Verilen performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. ÇT.7.1.2 Öğretmen, çalgı ve icra edilecek şarkının özelliklerine göre beşli gruplar oluşturur. Öğrencilerin düzeyine uygun olarak öğretmen belirlediği şarkının notalarını dağıtır. Başlangıçta, şarkının ezgisi yalnızca bir çalgıyla çalınarak öğrencilere tanıtılır. Öğrencilerden bu çalınan şarkıyı nota üzerinden dikkatle takip etmeleri istenir (SDB2.1, E3.2). Dinleme ve izleme yoluyla öğrencilerin şarkıyı tanıması sağlanır. Öğretmen yalnızca bir çalgı (piyano, gitar veya başka bir çalgı) ile şarkıyı çalar. Şarkının müzikal yapısının belirli bölümleri (melodi, armoni, ritim) üzerinde durularak öğrencilerden şarkıyı nota üzerinden dikkatle gözlem yapmaları istenir. Eserin çözümlenmesi istenir (KB2.2). Dinleme aşamasının ardından öğrencilerden bireysel olarak kendi notalarını deşifre etmeleri istenir (E2.2). Şarkının her bir bölümüne ait notaların öğrenciler tarafından çözümlenmesi sağlanır. Bu süreçte öğretmen her bir öğrencinin çalışmasını kontrol eder ve gerektiğinde rehberlik eder. Deşifre sürecine başlamadan önce her öğrenci çalgısına özgü doğru tutuş ve pozisyonu alır. Öğretmen, öğrencilerin enstrümanlarını doğru bir şekilde tutmalarını sağlar. Öğrencilere çalgılarını doğru tutmaları ve çalma pozisyonlarını düzgün bir şekilde almaları hatırlatılır. Deşifre süreci tamamlandıktan sonra öğretmen, öğrencilerin birlikte çalma sürecinde dikkat etmeleri gereken müzikal hususları hatırlatır. Öğrencilerin çalgılarına özgü teknikleri doğru bir şekilde kullanmaları istenir. Öğrencilere doğru tempo, dinamikler ve müzikal ifadelerin (legato, staccato, crescendo) nasıl uygulanması gerektiği açıklanır. Öğrenciler, şarkıyı topluca çalmadan önce öğretmen rehberliğinde yavaş tempoda çalışmaya başlarlar. Yavaş tempo, her öğrencinin şarkıyı doğru ve dikkatli bir şekilde çalmasına olanak tanır (E3.2, D12.3). Öğretmen, öğrencilerin ritmik doğruluğunu, çalgılarının uyumunu ve tekniklerini gözlemler. Öğrenciler, şarkıyı topluca çalarken öğretmen gruptaki her öğrenciyi izler ve gerekirse düzeltmeler yapar. Yavaş tempo çalışmasından sonra şarkı hızlandırılır. Öğrenciler; doğru tempo, müzikal dinamikler, teknik kullanımı gibi müziksel bileşenleri uygulayarak şarkıyı çalmaya devam ederler. Öğrenciler, bir arada grup hâlinde şarkıyı çalarak tüm müzikal bileşenleri birleştirirler. Öğretmen, grup performansını izler ve müzikal uyum hakkında geri bildirimlerde bulunur (SDB2.2). Çalışılan bölümler tamamlandıktan sonra şarkı birleştirilir ve tüm grup tarafından birlikte icra edilir (D3.4). Bu aşamada öğretmen, çalgıların birbiriyle uyumunu kontrol eder ve her bir öğrencinin doğru teknikleri ve ifadeleri kullanıp kullanmadığına yönelik geri bildirimlerde bulunur. Öğrencilerden performans görevi olarak derste çalınan eseri ve öğretmenin çalışmaları için verdiği şarkıyı beşli topluluklar belirleyerek sınıfta sunulması istenebilir. Verilen performans görevi analitik dereceli puanlama anahtarı ve birlikte çalma performans gözlem formu ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI",
     "FARKLILAŞTIRMA": "Zenginleştirme Bu süreçte beşli şarkıları orta ve üst düzeye ayırıp öğrenci seviyelerine göre farklı topluluklar oluşturularak çalışılması istenebilir. Grup üyeleri, türkünün ezgisini çalarken diğer öğrenciler destekleyici akorlar veya harmonilerle arka planda yer alacak çalışmalar yapılabilir. Grup üyeleri, şarkının yapısını değiştirmek veya farklı bölümler arasında geçişler yapmak için doğaçlama bölümler veya tekrarlar ekleyebilirler. Destekleme Bu süreçte çalınan beşli eserin bölümler hâlinde yavaş tempoda etüt edilmesi istenebilir. Bazı bölümlerde belirli bir öğrencinin (genellikle ritim çalan kişi) güçlü vurgular yaparak tüm grubu yönlendirmesi gerekebilir. Özellikle ağır tempolu bölümlerde ritimle birlikte tüm grubun uyum içinde çalmasını sağlamak için çalışmalar yapılabilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "ÇT.7.1.1",
+     "order": 1,
+     "text": "Beşli grup eserleri dinleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dinlediği beşli eserlerin müziksel bileşenlerini fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Dinlediği beşli eserlerin müziksel bileşenlerini ayırt eder."
+      },
+      {
+       "label": "c",
+       "text": "Dinlediği beşli eserin müziksel bileşenlerini açıklar."
+      }
+     ]
+    },
+    {
+     "code": "ÇT.7.1.2",
+     "order": 2,
+     "text": "Beşli şarkıları toplu çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Beşli çalınacak eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Beşli şarkılar çalarken çalgıya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Beşli şarkılar çalarken çalgıya özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Beşli şarkılar çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
   },
   {
    "grade": 7,
@@ -775,7 +1055,31 @@
     "ÖĞRENME KANITLARI": "Temada öğrenme çıktıları; birlikte çalma performans gözlem formu, öğrenci ürün dosyası, (Ölçme ve öz değerlendirme formu, derecelendirme ölçeği ve akran değerlendirme formu kullanılaDeğerlendirme) rak değerlendirilebilir. Öğrencilere derste çalınan hüseyni makamındaki eserleri ve öğretmenin çalışmaları için verdiği eserleri topluluklar hâlinde sınıfta sunmaları istenen bir performans görevi verilebilir. Verilen performans görevi analitik dereceli puanlama anahtarı ve birlikte çalma performans gözlem formu ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin hüseyni makam dizisine teoride ve çalgısında bildiği kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere hüseyni makamıyla ilgili aşağıdaki sorular sorulur: • Hüseyni makamı hakkında ne biliyorsunuz? • Hüseyni makam dizisini çalgınızda icra edebiliyor musunuz? • Hüseyni makamı ne tür bir duyguyu ifade eder? • Hüseyni makamının temposu sizce nasıl olur? Yavaş mı hızlı mı? Köprü Kurma Daha önce çalışılan makamlar ve hissettirdiklerinden yola çıkılarak hüseyni makamının örnekleri verilir. Dinletilen hüseyni makamındaki eserlerin hissettirdikleri üzerine düşünceler alınır. Hüseyni makamının hüzünlü yapısından bahsedilerek öğrencilerle birlikte, günlük yaşamda mutlu oldukları anlar konuşularak köprü kurulur. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları ÇT.7.4.1 Hüseyni makamının dizisi öğrencilere açıklanır ve porte üzerinde gösterilir. Öğrencilerin hüseyni makamının dizisini görsel olarak inceleyerek hatırlamaları sağlanır. Öğretmen, hüseyni makamının dizisini çalarak öğrencilerine makamın seslerini ve duygusunu ifade eder. Öğretmen, ders için belirlenen hüseyni makamında icra edilecek olan türkü hakkında bilgi verir (OB1). Öğrencilere eserin notaları dağıtılır. Nota üzerinden inceleme yapılması istenir. Öğretmen, eserin ezgisini yavaşça çalarak öğrencilerden nota üzerinden takip etmelerini ister. Eserin çözümlenmesi istenir (E3.2). Bu süreçte bölüm bölüm gözlemler yapılır (KB2.2). Öğrenciler, eserin ilk bölümlerini yavaşça çalma sürecine başlarlar. Öğretmen, öğrencilerin çalgılarını doğru tutuş ve duruş pozisyonu almalarını ister (D7.2). Öğrenciler, çalacakları eserde kullanacakları çalgıya özgü teknikleri belirler ve öğretmen, öğrencilerin çalarken doğru teknikleri kullanmalarını sağlar. Öğrenciler, çalarken yaptıkları hatalar konusunda öğretmeninden geri bildirim alır. Öğrenciler, eserin ölçülerine uygun bireysel olarak çalışırlar (E2.2, D3.2). Her ölçüde doğru notaların çalındığından emin olunur. Öğrenciler, farklı hızlarda çalışarak eserin temposunu ve dinamiklerini keşfederler. Öğretmen, farklı tempolarda çalma konusunda rehberlik eder. Öğrencilerin çaldıkları eserin temposunu, dinamiklerini ve ezgisel yapısını doğru şekilde uygulayarak müziksel bileşenlere dikkat etmeleri sağlanır. Öğrenciler, birbirlerinin teknik ve müzikal ifadelerini gözlemler ve uyum içinde çalmaya çalışırlar (SDB2.1). Öğretmen rehberlik ederek geri bildirimlerde bulunur. Öğrencilerden aynı tempoda ve müzikal dinamiklere uygun olarak çalmaları istenir. Öğrenciler, birlikte çalarken iletişim hâlinde olmayı ve uyum sağlamayı öğrenirler (SDB2.2). Öğrenciler, rast makamında çalıştıkları eseri gruplar hâlinde çalarak canlı performans sergilerler (D3.4). Öğretmen; öğrencilere doğru duruş ve tutuş, teknik kullanım, ezgisel yapı ve müzikal ifade açısından dönütler verir. Öğrencilere derste çalınan hüseyni makamındaki eserleri ve öğretmenin çalışmaları için verdiği eserleri topluluklar hâlinde sınıfta sunmaları istenen bir performans görevi verilebilir. Verilen performans görevi analitik dereceli puanlama anahtarı ve birlikte çalma performans gözlem formu ile değerlendirilebilir. Öğrencilerin kendilerini değerlendirmesi için öz değerlendirme formu, birbirlerini değerlendirmeleri için akran değerlendirme formu kullanılabilir.",
     "FARKLILAŞTIRMA": "Zenginleştirme Bu süreçte hüseyni makamında farklı türküler verilerek düzeye göre oluşturulan topluluklarla çalışılması istenebilir. Toplu icra çalışmaları sırasında bir çalgı doğaçlama yapabilir ve diğer çalgılar buna destek olabilir. Rast makamındaki bir şarkıya solo performanslar eklenebilir. Solo bölümlerde diğer çalgılar solo yapan çalgıya uygun bir arka plan sağlayan farklı çeşitlemeler içeren çalışmalar yapılabilir. Destekleme Bu süreçte çalınan türkülerde kullanılan zaman ölçülerini ve ritmik kalıpları doğru bir şekilde öğrenmek için ritmik alıştırmalar yapılabilir. Ritmin ve ezginin uyumlu olabilmesi için öğrenciler metronom eşliğinde çalışabilirler. Basitleştirilmiş türküler verilerek çalışmalar yapılabilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "ÇT.7.4.1",
+     "order": 1,
+     "text": "Hüseyni makam dizisindeki eserleri toplu çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hüseyni makam dizisindeki eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "\u0007Hüseyni makam dizisindeki eserleri toplu çalarken çalgıya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "\u0007Hüseyni makam dizisindeki eserleri toplu çalarken çalgıya özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Hüseyni makam dizisindeki eserleri toplu çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
   },
   {
    "grade": 8,
@@ -800,6 +1104,48 @@
     "FARKLILAŞTIRMA": "Zenginleştirme Bu süreçte öğrencilerden çalışılan eserlerin; hangi çalgıların eserdeki eksiklikleri tamamlayacağı, hangi bölümlerin daha fazla tınılı olacağı üzerine fikirler üretmeleri istenebilir. Öğrenciler, şarkının temposunu veya dinamiklerini değiştirerek yeni versiyonlar oluşturabilirler. Örneğin bir bölümde hızlandırarak veya yavaşlatarak müzikal bir farklılık yaratabilirler. Destekleme Bu süreçte öğrencilere müzikal gelişimlerini destekleyecek teknik yardımcı materyaller sunulabilir. Örneğin metronom kullanımı, ritim egzersizleri veya belirli müzikal pasajların notalarının olduğu materyaller sunulabilir. Ayrıca şarkıların ve eserlerin çeşitli versiyonlarını dinleyerek öğrencilerden incelenmesi istenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ÇALGI TOPLULUKLARI DERSİ ÖĞRETİM PROGRAMI"
    },
    "outcomes": [
+    {
+     "code": "ÇT.8.1.1",
+     "order": 1,
+     "text": "Altılı grup eserleri dinleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dinlediği altılı eserlerin müziksel bileşenlerini fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Dinlediği altılı eserlerin müziksel bileşenlerini ayırt eder."
+      },
+      {
+       "label": "c",
+       "text": "Dinlediği altılı eserin müziksel bileşenlerini açıklar."
+      }
+     ]
+    },
+    {
+     "code": "ÇT.8.1.2",
+     "order": 2,
+     "text": "Altılı şarkıları toplu çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Altılı çalınacak eserleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Altılı şarkılar çalarken çalgıya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Altılı şarkılar çalarken çalgıya özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Altılı şarkılar çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
     {
      "code": "Ç.T.8.1.2",
      "order": 2,
@@ -954,17 +1300,9 @@
  "unassigned_outcomes": [],
  "report": {
   "units": 24,
-  "outcomes": 20,
-  "components": 51,
+  "outcomes": 37,
+  "components": 106,
   "orphan_outcomes": 0,
-  "gaps": [
-   {
-    "course": "Çalgı Toplulukları Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "Ç.T.8.2.1"
-    ]
-   }
-  ]
+  "gaps": []
  }
 }

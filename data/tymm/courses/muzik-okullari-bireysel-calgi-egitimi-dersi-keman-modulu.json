@@ -1720,16 +1720,6 @@
   "outcomes": 51,
   "components": 139,
   "orphan_outcomes": 0,
-  "gaps": [
-   {
-    "course": "Bireysel Çalgı Eğitimi Dersi-Keman Modülü",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "KMN.5.2.2",
-     "KMN.6.2.2",
-     "KMN.7.4.1"
-    ]
-   }
-  ]
+  "gaps": []
  }
 }

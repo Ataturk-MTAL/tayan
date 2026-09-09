@@ -1,0 +1,180 @@
+{
+ "course": {
+  "id": 94,
+  "name": "Spor ve Fiziki Etkinlikler Dersi",
+  "slug": "ortaokul-spor-ve-fiziki-etkinlikler-dersi",
+  "prefix": "SFE",
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/spor-ve-fiziki-etkinlikler-dersi_20260819_075451_091.pdf"
+ },
+ "units": [],
+ "unassigned_outcomes": [
+  {
+   "code": "SFE.1.1",
+   "grade": 1,
+   "unit": null,
+   "order": 1,
+   "text": "Seçilen spor branşının tarihsel gelişimini özetleyebilme amaçlanan bilgi, beceri ve becerilerin süreç bileşenlerini a) Seçilen spor branşının tarihsel gelişimini çözümler. ifade eder. b) Seçilen spor branşının gelişim sürecinde yer alan önemli dönem ve gelişmeleri sınıflandırır.",
+   "components": [
+    {
+     "label": "c",
+     "text": "Seçilen spor branşının gelişimini etkileyen faktörleri neden sonuç ilişkileriyle yorumlar. İÇERİK ÇERÇEVESİ Spor Branşının Tarihi Öğrenme-öğretme sürecinde ele alınan bilgi kümesini (konuya/ Spor Branşının Kuralları alt konuya ilişkin sınırlar) ifade eder. Disipline ait başlıca"
+    }
+   ]
+  },
+  {
+   "code": "SFE.1.2",
+   "grade": 1,
+   "unit": null,
+   "order": 2,
+   "text": "Seçilen spor branşının kurallarını çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Seçilen spor branşının kurallarını oluşturan temel ögeleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Seçilen spor branşının kuralları arasındaki mantıksal ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SFE.2.1",
+   "grade": 2,
+   "unit": null,
+   "order": 1,
+   "text": "Seçilen spor branşında güvenli ortam oluşturabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Seçilen spor branşında ortaya çıkabilecek riskleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği risklere karşı önleyici tedbirler alır."
+    }
+   ]
+  },
+  {
+   "code": "SFE.2.2",
+   "grade": 2,
+   "unit": null,
+   "order": 2,
+   "text": "Seçilen spor branşına özgü hareket becerilerini sergileyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Seçilen spor branşına özgü hareket becerilerini algılar."
+    },
+    {
+     "label": "b",
+     "text": "Seçilen spor branşına özgü hareket becerisinin basamaklarını gösterir."
+    },
+    {
+     "label": "c",
+     "text": "Seçilen spor branşına özgü hareket becerilerini oyun, yarışma veya antrenman ortamlarında uygular."
+    }
+   ]
+  },
+  {
+   "code": "SFE.2.3",
+   "grade": 2,
+   "unit": null,
+   "order": 3,
+   "text": "Seçilen spor branşına özgü fiziksel uygunluğu sağlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Seçilen spor branşına özgü fiziksel uygunluk bileşenlerini açıklar."
+    },
+    {
+     "label": "b",
+     "text": "Seçilen spor branşına yönelik fiziksel uygunluk bileşenlerini geliştirmeye yönelik hareketleri (sürat koşusu, denge egzersizi vb.) uygular."
+    },
+    {
+     "label": "c",
+     "text": "Seçilen spor branşına özgü fiziksel uygunluk bileşenlerini geliştirir."
+    }
+   ]
+  },
+  {
+   "code": "SFE.3.1",
+   "grade": 3,
+   "unit": null,
+   "order": 1,
+   "text": "Seçilen Spor branşına özgü taktik ve strateji geliştirebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Seçilen spor branşına özgü taktiksel ve stratejik problemleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Seçilen spor branşına özgü belirlenen taktiksel ve stratejik duruma yönelik çözüm önerileri sunar."
+    },
+    {
+     "label": "c",
+     "text": "Seçilen spor branşına özgü geliştirilen taktik veya stratejiyi oyun ve yarışma ortamında uygular."
+    }
+   ]
+  },
+  {
+   "code": "SFE.3.2",
+   "grade": 3,
+   "unit": null,
+   "order": 2,
+   "text": "Seçilen spor branşında adil oyun anlayışına uygun davranabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Seçilen spor branşında adil oyun ilkelerini açıklar."
+    },
+    {
+     "label": "b",
+     "text": "Seçilen spor branşında adil oyun anlayışına uygun davranır."
+    }
+   ]
+  },
+  {
+   "code": "SFE.3.3",
+   "grade": 3,
+   "unit": null,
+   "order": 3,
+   "text": "Seçilen spor branşında takım/grup liderliği sergileme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Seçilen spor branşında takım/grup liderliği özelliklerini tanır."
+    },
+    {
+     "label": "b",
+     "text": "Seçilen spor branşında takım/grup liderliği özelliklerini gösterir."
+    }
+   ]
+  }
+ ],
+ "report": {
+  "units": 0,
+  "outcomes": 0,
+  "components": 0,
+  "orphan_outcomes": 8,
+  "gaps": [
+   {
+    "course": "Spor ve Fiziki Etkinlikler Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "SFE.1.1",
+     "SFE.1.2",
+     "SFE.2.1",
+     "SFE.2.2",
+     "SFE.2.3",
+     "SFE.3.1",
+     "SFE.3.2",
+     "SFE.3.3"
+    ]
+   }
+  ]
+ }
+}

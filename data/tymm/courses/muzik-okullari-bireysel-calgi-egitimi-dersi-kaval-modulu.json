@@ -1532,14 +1532,6 @@
   "outcomes": 61,
   "components": 87,
   "orphan_outcomes": 0,
-  "gaps": [
-   {
-    "course": "Bireysel Çalgı Eğitimi Dersi-Kaval Modülü",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "KVL.1.2.1"
-    ]
-   }
-  ]
+  "gaps": []
  }
 }

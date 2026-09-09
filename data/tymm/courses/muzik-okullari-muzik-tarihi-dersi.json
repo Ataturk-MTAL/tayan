@@ -1600,14 +1600,6 @@
   "outcomes": 72,
   "components": 171,
   "orphan_outcomes": 0,
-  "gaps": [
-   {
-    "course": "Müzik Tarihi Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "MT.7.2.4"
-    ]
-   }
-  ]
+  "gaps": []
  }
 }

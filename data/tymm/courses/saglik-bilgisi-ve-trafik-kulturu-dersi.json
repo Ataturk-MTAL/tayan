@@ -1,0 +1,629 @@
+{
+ "course": {
+  "id": 113,
+  "name": "Sağlık Bilgisi ve Trafik Kültürü Dersi",
+  "slug": "saglik-bilgisi-ve-trafik-kulturu-dersi",
+  "prefix": "SBTK",
+  "kademe": 3,
+  "kademe_name": "Ortaöğretim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/saglik-bilgisi-ve-trafik-kulturu-dersi_20260908_183434_364.pdf"
+ },
+ "units": [
+  {
+   "grade": null,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "SAĞLIKLI İNSAN VE TOPLUM",
+   "description": "Bu temada sağlık ve sağlığın toplum üzerindeki etkileri, halk sağlığı ve sağlık hizmetleri, kişisel hijyen, hastalıklar, engellilik , ilaçlar ve sağlıkta biyopsikososyal yaklaşım ele alınacaktır. Bu temanın sonunda öğrencilerin bu konularla ilgili gerekli bilgi, beceri ve değerleri kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 8,
+   "sections": {
+    "ALAN BECERİLERİ": "BEOSAB10. Güvenli Ortam Oluşturma",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama, KB2.8. Sorgulama, KB2.14. Yorumlama Becerisi, KB3.3. Eleştirel Düşünme",
+    "EĞİLİMLER": "E1.1. Merak, E3.1. Muhakeme, E3.4. Gerçeği Arama",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık",
+    "Değerler": "D3. Çalışkanlık, D13. Sağlıklı Yaşam, D14. Saygı, D16. Sorumluluk, D18. Temizlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.7. Karşılaştırma, KB2.10. Çıkarım Yapma, KB2.15. Yansıtma SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI SBTK.1.1. Sağlığı etkileyen faktörlerin toplum sağlığı üzerindeki etkilerini sorgulayabilme VE SÜREÇ BİLEŞENLERİ a) Sağlığa ve sağlığı etkileyen faktörlere ilişkin merak ettiği konuyu tanımlar. b) Sağlığı etkileyen faktörlerin toplum sağlığı üzerindeki etkileriyle ilgili sorular sorar. c) Sağlığı etkileyen faktörlerin toplum sağlığı üzerindeki etkileri hakkında bilgi toplar. ç) Sağlığı etkileyen faktörlerin toplum sağlığı üzerindeki etkileri hakkında toplanan bilgilerin doğruluğunu değerlendirir. d) Sağlığı etkileyen faktörlerin toplum sağlığı üzerindeki etkileri hakkında toplanan bilgiler üzerinden çıkarım yapar. SBTK.1.2. Halk sağlığı ve sağlık hizmetleri ile ilgili bilgi toplayabilme a) Halk sağlığı ve sağlık hizmetleri ile ilgili istenen bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği aracı kullanarak halk sağlığı ve sağlık hizmetleri ile ilgili bilgileri bulur. c) Halk sağlığı ve sağlık hizmetleri ile ilgili ulaşılan bilgileri doğrular. ç) Halk sağlığı ve sağlık hizmetleri ile ilgili ulaşılan bilgileri kaydeder. SBTK.1.3. Kişisel hijyen ve temizliğin sağlığa etkileri ile ilgili eleştirel düşünebilme a) Kişisel hijyen ve temizliğin sağlığa etkilerini sorgular. b) Kişisel hijyen ve temizliğin sağlığa etkileri hakkında akıl yürütür. c) Kişisel hijyen ve temizliğin sağlığa etkileri ile ilgili akıl yürütmeyle ulaştığı çıkarımları yansıtır. SBTK.1.4. Hastalıklar ve engellilik ile ilgili güvenli ortam oluşturabilme a) Hastalıklar ve engellilik ile ilgili riskleri tanımlar. b) Hastalık ve engellilik ile ilgili riskleri önleyici tedbirler alır. SBTK.1.5. İlaçlar ve ilaçların etkileri ile ilgili bilgi toplayabilme a) İlaçlar ve ilaçların etkileri ile ilgili istenen bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği aracı kullanarak ilaçlar ve ilaçların etkileri ile ilgili bilgileri bulur. c) İlaçlar ilaçların etkileri ile ilgili ulaşılan bilgileri doğrular. ç) İlaçlar ve ilaçların etkileri ile ilgili ulaşılan bilgileri kaydeder. SBTK.1.6. Psikolojinin biyopsikososyal yaklaşımı doğrultusunda, bireyin zihinsel, duygusal ve davranışsal süreçlerinin sağlık üzerindeki etkilerini değerler ve maneviyat çerçevesinde yorumlayabilme a) Psikoloji ile sağlık arasındaki ilişkiyi, bireyin zihinsel, duygusal ve davranışsal süreçlerinin sağlık üzerindeki etkilerine değerler ve maneviyat çerçevesinde odaklanarak inceler. b) Bireyin zihinsel, duygusal ve davranışsal süreçlerinin sağlık üzerindeki etkilerini değerler ve maneviyat çerçevesiyle ilişkilendirerek biyopsikososyal yaklaşım doğrultusunda bağlamdan kopmadan dönüştürür. c) Bireyin zihinsel, duygusal ve davranışsal süreçlerinin sağlık üzerindeki etkilerini değerler ve maneviyat çerçevesinde nesnel, doğru ve anlamı değişmeyecek biçimde yeniden ifade eder.",
+    "İÇERİK ÇERÇEVESİ": "Sağlık ve Sağlığın Toplum Üzerindeki Etkileri Halk Sağlığı ve Sağlık Hizmetleri Kişisel Hijyen ve Temizlik Hastalıklar ve Engellilik İlaçlar Sağlıkta Biyopsikososyal Yaklaşım",
+    "Anahtar Kavramlar": "toplum sağlığı, otoimmün hastalıklar, enfeksiyon SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME Öğrenme çıktıları; poster, afiş, çalışma kâğıdı, broşür, bilgi görseli (infografik), öğrenme KANITLARI günlüğü, yansıtma notu, grup değerlendirme formu, performans görevi, bütüncül dereceli (Ölçme ve puanlama anahtarı, analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Değerlendirme) Performans görevi olarak öğrencilerden toplum sağlığına faydalı olabilmek için ilaçların doğru kullanımının önemini ve akılcı ilaç kullanımını kapsayan bir broşür hazırlamaları istenebilir. Broşür, analitik veya bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. Dereceli puanlama anahtarında “içerik doğruluğu, hedefe uygunluk, özgünlük, görsel tasarım ve düzen ” gibi ölçütlere yer verilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin; sağlık kavramını, sağlıklı büyüme ve gelişmeyi, küresel iklim değişikliği ve biyoçeşitliliği tehdit eden faktörleri, temizlik ve kişisel bakımı, ağız ve diş sağlığını ve engellilik konularını öğrendikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere “Günlük yaşamınızda sağlıklı olmak ve hijyen kurallarına uymak için hangi alışkanlıkları edinmeniz gerektiğini düşünüyorsunuz?’’, “Yaşadığınız çevrede sağlığınızı etkileyebilecek faktörler nelerdir?’’, “Engelli bireylerin günlük yaşamda karşılaştıkları zorlukları en aza indirmek için hangi teknolojiler kullanılabilir veya hangi düzenlemeler yapılabilir?” gibi sorular sorulabilir. Köprü Kurma Bilimsel ve teknolojik gelişmeler, çevresel etkiler ve toplumsal farkındalık; bütüncül bir yaklaşımla birey ve toplum sağlığını belirleyen unsurlar olarak vurgulanabilir. Birey ve toplumsal sağlığı ilgilendiren güncel haberler paylaşılabilir. Öğrenme-öğretme Uygulamaları SBTK.1.1 Öğrencilerin sağlık ve sağlığı etkileyen faktörler ile ilgili bir video, sunu veya animasyon izlemeleri sağlanır. Bu süreçte genetik, sosyoekonomik ve çevresel faktörlere değinilir. Bu süreçte SİM (Sürekli İzleme Merkezi) Projesi ve MELBES’in Geliştirilmesi projesine yer verilebilir, çevre felaketlerine örnekler verilerek bu felaketlerin canlılar üzerindeki etkilerinden de bahsedilebilir. Öğrencilerden, izledikleri içerik ve içerikte yer alan görsellerden yola çıkarak sağlığa ve sağlığı etkileyen faktörlere ilişkin merak ettikleri konuyu tanımlamaları beklenir. (OB4, E1.1). Öğrencilerden öğrenme günlüğü tutmaları istenir. Öğrencilerden sağlık ve sağlığı etkileyen faktörler ile ilgili sorular oluşturmaları, oluşturdukları soruları öğrenme günlüğüne kaydetmeleri istenir. Öğrencilerden oluşturdukları soruların cevaplarını bulmak için güvenilir kaynaklardan bilgi toplamaları ve bu bilgileri öğrenme günlüğüne not etmeleri istenir. (E3.4). Öğrencilerden bilgilerin güncel ve bilimsel olmasına dikkat etmeleri istenir (D3.3). Toplanan bilgilerin doğruluğu öğretmen rehberliğinde değerlendirilir. Varsa eksik ve hatalar düzeltilir. Doğruluğu değerlendirilen bilgiler öğrenme günlüğüne kaydedilir. Öğrencilerin toplanan bilgiler doğrultusunda sağlığı etkileyen faktörlerin toplumsal sağlık üzerindeki etkileri hakkında çıkarımlar yapması beklenir (KB2.10, OB1). Öğrencilerin yaptıkları çıkarımları öğrenme günlüğüne kaydetmeleri istenir. Öğrenme günlüğü bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. SBTK.1.2 Öğrencilere “Sağlık hizmetlerinin toplum sağlığı üzerindeki rolü nedir?’’, “Sağlık sistemindeki iyileştirmeler, toplumun genel sağlığını olumlu yönde nasıl nasıl etkileyebilir?”, “Erken teşhisin önemi kapsamında okul sağlığı taramaları ile toplum temelli tarama programlarının (çocukluk çağı ve evlilik öncesi) birey ve toplum sağlığına etkileri nelerdir?” gibi merak uyandırıcı sorular sorularak halk sağlığı ve sağlık hizmetleri hakkında bilgi ihtiyaçlarını fark etmeleri sağlanır (E1.1). Öğretmen rehberliğinde heterojen gruplar oluşturulur. Gruplardan bu soruların cevaplarını bulmak için kullanacakları araçları belirlemeleri istenir. SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI Gruplar belirledikleri araçları kullanarak sağlık hizmetlerinin sınıflandırılması konusunda bilgi toplar. Bu süreçte öğrencilerin sorumluluk alarak araştırmalarını planlı ve düzenli bir şekilde yürütmeleri sağlanır (D3.2, D.16.3, SDB2.2). Öğrencilerden halk sağlığı ve sağlık hizmetlerinin sınıflandırılmasıyla ilgili ulaştıkları bilgileri öğretmen gözetiminde güvenilir kaynaklardan doğrulamaları istenir (E3.4). Bu süreçte yapay zekânın yaygınlaşması ve kişilerin yaşadıkları sağlık problemleri karşısında yapay zekâya başvurması sonucu ortaya çıkabilecek olumsuz durumların oluşturabileceği tehlikelere değinilerek uygun sağlık kuruluşlarına gidilmesi gerektiği vurgulanabilir. Doğrulama sonucunda elde edilen bilgiler kaydedilir. Gruplardan halk sağlığı ve sağlık hizmetleri ile ilgili toplanan bilgilerin bir sunu hâlinde aktarılması için bilgilendirici bir poster veya bilgi görseli hazırlaması istenebilir (OB1). Hazırlanan poster veya bilgi görseli analitik dereceli puanlama anahtarı ile değerlendirilebilir. Süreçte grup değerlendirme formu da kullanılarak değerlendirmede çeşitlilik sağlanabilir. SBTK.1.3 “Hijyen yetersizliği ne gibi sağlık problemlerine yol açabilir?’’, “Temizlik alışkanlıkları sağlık sorunlarını önlemede nasıl bir rol oynar?”, “Kişisel hijyen ve temizlik alışkanlıkları, bireylerin uzun vadede sağlık durumunu nasıl etkiler?” gibi sorular sorularak öğrencilerin merak duyguları harekete geçirilir (E1.1). Öğrencilerden kişisel hijyenin ve temizliğin sağlığa olan etkilerini sorgulamaları beklenir (D18.1, E3.4). Öğrencilere kişisel hijyen ve temizlik yetersizliğinin cilt, saç, tırnak, diş, kulak ve göz bakımı açısından sağlık üzerindeki etkileri hakkında örnek olay verilir. Verilen örnek olay üzerine öğrencilerin akıl yürütmeleri istenir (E3.1). Öğrencilerden akıl yürütmeyle ulaştıkları çıkarımları yansıtabileceği bir yansıtma notu yazmaları beklenir (KB2.10, KB2.15). Yansıtma notu bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. SBTK.1.4 Öğrenme-öğretme sürecinde kullanılacak ayrılıp birleşme tekniği için öğrenciler beşer kişilik heterojen gruplara ayrılır. Grup üyelerinin her birinin enfeksiyon hastalıkları, salgınlar ve etkileri; kardiyovasküler hastalıklar, diyabet ve kanser; yaygın görülen kalıtsal hastalıklar ile akraba evliliklerinin genetik riskleri ve genetik danışmanlık, otoimmün hastalıklar; diğer hastalıklar (sinir sistemi, sindirim, dolaşım, üriner ve üreme hastalıkları) ve engellilik konularından birini seçmesi sağlanır.Her grupta aynı hastalık türlerinde çalışacak öğrenciler bir araya getirilerek bir uzmanlık grubu oluşturulur (SDB2.1, SDB2.2, D16.3). Uzmanlık grupları, ilgili bilgilere ulaşmak için kullanacakları araçları belirler. Gruplardan belirledikleri araçları kullanarak hastalıkların sebeplerine; hastalıklardan korunma, hastalıkları önleme ve rehabilitasyon yollarına ilişkin bilgi toplamaları istenir. Bu süreçte hastalıklarda erken teşhisin önemi vurgulanabilir. Gruplar tarafından hastalıklara ilişkin derlenen bilgiler güvenilir kaynaklardaki bilgilerle karşılaştırılır, yanlış ve doğru bilgiler ayırt edilir, yanlışlar düzeltilerek doğru bilgiye ulaşılır ve ulaşılan bilgiler kaydedilir. Öğrenciler uzmanlık grubunda ilgili bilgilere ulaştıktan sonra esas gruplarına döner. Her grup üyesi, ulaştığı bilgilerle diğer grup üyelerini bilgilendirir. Grup olarak edindikleri bilgilerden yola çıkarak hastalıklar ve engellilik ile ilgili riskleri tanımlar. Riskleri önleyen veya azaltan uygulama ve davranışları belirleyerek diğer gruplarla karşılaştırır. Karşılaştırma sonunda ortak bir liste oluşturulur (OB1, KB2.7). Bu süreçte engelli bireylerin toplumsal yaşama tam katılımını desteklemek amacıyla farkındalık çalışmalarından ve engelli haklarını güçlendiren politikalardan bahsedilebilir. Öğrenciler hastalıklar ve engellilikle ilgili sağlığı korumak ve sağlık şartlarını iyileştirmek için kişisel sorumluluk alacağı adımları belirleyerek gerçek yaşamda uygulamaları ve önleyici tedbirler almaları için teşvik edilir. Ayrıca öğrencilerin hasta, yaşlı ve engelli kişilerle ilgilenmeleri ve onları maddi-manevi yönden desteklemeleri teşvik edilir. Öğrencilere hastalıklar ve engellilikle ilgili riskleri ve bu risklere karşı alınabilecek önleyici tedbirleri içeren çalışma kâğıtları verilebilir. Bu çalışma kâğıtları, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI SBTK.1.5 Öğrencilere “Akılcı ilaç kullanımı neden önemlidir?”, ‘“Bilinçsiz ilaç kullanımının riskleri nelerdir?” gibi merak uyandırıcı sorular sorularak akılcı ilaç (antibiyotik, ağrı kesici vb.) kullanımının önemi hakkında bilgi ihtiyaçlarını fark etmeleri sağlanır (E1.1). Öğrencilerden bu soruların cevaplarını bulmak için kullanacakları araçları belirlemeleri istenir. Öğrenciler belirledikleri araçları kullanarak akılcı ilaç kullanımı, reçeteli ilaç kullanımı, ilaçların doğru kullanımı, ilaçların yan etkileri, dozları ve bilinçsiz ilaç kullanımının riskleri gibi konularda bilgi toplar. Bu süreçte öğrencilerin sorumluluk alarak araştırmalarını planlı ve düzenli bir şekilde yürütmeleri sağlanır (D3.2, D16.3). Öğrencilerden ulaştıkları bilgileri öğretmen gözetiminde güvenilir kaynaklardan doğrulamaları istenir (E3.4). Doğrulama sonucunda elde edilen bilgiler kaydedilir. Öğrencilere ilaçlar ve ilaçların etkileri ile ilgili doğrulanan bilgilerin yer aldığı bir broşür hazırlama performans görevi olarak verilir (D13.4, OB1). Broşür, analitik veya bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. SBTK.1.6 Öğrenme sürecinde örnek olay yöntemi uygulanarak psikoloji, maneviyat ve sağlık arasındaki etkileşimin yorumlanması sağlanır. Öğrencilere kısa metinler ve örnek olaylar sunulur (OB1). Öğrencilerden bu örnekleri incelemeleri ve metinlerde yer alan durumları farklı yönleriyle manevi değerlere duyarlı davranarak analiz etmeleri istenir (D14.3). Bu süreçte “Bu durum, size ne düşündürdü ve neler hissettirdi?”, “Bu durum davranışlarınıza yansır?” ve “Bu durumun sosyal yaşam ve bedensel durumunuzla ilişkisi nasıl olabilir?” gibi sorular yöneltilerek ele öğrencilerin belirtilen durumları çok boyutlu olarak almaları sağlanır. Ardından öğrencilerden, inceledikleri örneklerde bireyin düşünce, duygu ve davranışlarına ilişkin unsurları belirlemeleri ve bu unsurlar arasındaki etkileşimi açıklamaları istenir. Öğrencilerin bu etkileşimi biyopsikososyal yaklaşım çerçevesinde anlamlandırmalarına rehberlik edilir. Öğrenciler bu etkileşimin bireyin sağlığı ile nasıl ilişkili olabileceğini biyopsikososyal yaklaşım çerçevesinde bağlamdan kopmadan dönüştürür (SDB2.3). Öğrenciler ele alınan durumları kendi ifadeleriyle nesnel, doğru ve anlamı değiştirmeyecek biçimde yeniden ifade eder ve psikoloji, maneviyat ve sağlık arasındaki ilişkiye yönelik yansıtıcı not oluşturur (SDB1.3). Hazırlanan yansıtıcı not bütüncül dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Kentsel atık su arıtma tesislerinin biyorafineri değerlendirme potansiyelinin belirlenmesine yönelik öğrencilere proje görevi verilebilir, öğrencilerden konuya ilişkin broşür hazırlamaları istenebilir. Sağlığı etkileyen genetik, çevresel, davranışsal ve sosyoekonomik faktörlerin toplum sağlığı üzerindeki uzun vadeli etkilerini araştırarak sağlık eşitsizliklerini azaltmaya yönelik bilimsel temelli çözüm önerileri geliştirmeleri istenebilir. Kişisel hijyen ile enfeksiyon hastalıkları arasındaki ilişkiyi gösteren Web 2.0 araçları ile poster hazırlamaları istenebilir. Öğrencilerin okullarda “Engelli Bireyleri Anlamak” adlı sosyal sorumluluk projesi tasarlayarak uygulamaları da istenebilir. Türkiye’de akılcı ilaç kullanımı ile ilgili alan yazını taraması istenebilir. Destekleme Öğrencilere sağlığın tanımı, sağlığı etkileyen faktörler, toplum sağlığı ve halk sağlığı hakkında temel bilgiler sunmak amacıyla basit ve anlaşılır yazılı kaynaklar verilebilir. Kişisel hijyen ve temizliğin önemi ile ilgili enfeksiyonları önleme, hastalıklardan korunma, toplum sağlığına katkı, diş sağlığının önemi, çocuklar ve yaşlılar için hijyen hakkında açıklayıcı örnekler verilebilir. Öğrencilere ilaçlar ve ilaçların etkileri hakkında temel bilgiler verilebilir. İşitme engelli öğrenciler için eşleştirme kartları veya infografikler de kullanılabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "SAĞLIKLI YAŞAM ALIŞKANLIKLARI",
+   "description": "Bu temada fiziksel aktivite ve sağlık, uyku düzeni, sağlıklı beslenme, gıda kaynaklı hastalıkları önleme konuları ele alınacaktır. Tema sonunda öğrencilerin bu konularla ilgili gerekli bilgi, beceri ve değerleri kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 7,
+   "sections": {
+    "ALAN BECERİLERİ": "-",
+    "KAVRAMSAL BECERİLER": "KB2.8. Sorgulama, KB2.13. Yapılandırma, KB3.2. Problem Çözme, KB3.3. Eleştirel Düşünme",
+    "EĞİLİMLER": "E1.1. Merak, E1.4. Kendine İnanma (Öz Yeterlilik), E3.3. Yaratıcılık, E3.4. Gerçeği Arama, E3.6. Analitiklik, E3.8. Soru Sorma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D13. Sağlıklı Yaşam, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Beden Eğitimi ve Spor, Biyoloji BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.3. Özetleme, KB2.6. Bilgi Toplama, KB2.10. Çıkarım Yapma, KB2.12. Mevcut Bilgiye/ Veriye Dayalı Tahmin Etme KB2.15. Yansıtma SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SBTK.2.1. Fiziksel aktivitenin sağlık üzerindeki etkilerine yönelik eleştirel düşünebilme a) Fiziksel aktivitenin sağlık üzerindeki etkilerini sorgular. b) Fiziksel aktivitenin sağlık üzerindeki etkileri hakkında akıl yürütür. c) Fiziksel aktivitenin sağlık üzerindeki etkilerine dair akıl yürütmeyle ulaştığı çıkarımları yansıtır. SBTK.2.2. Uykunun sağlık üzerindeki etkilerini sorgulayabilme a) Uyku döngüsünü, uyku kalitesini ve uyku kalitesine etki eden faktörleri kendi ifadeleri ile tanımlar. b) Uyku döngüsü ve kalitesinin sağlık üzerindeki etkileriyle ilgili soru sorar. c) Uyku döngüsü ve kalitesinin sağlık üzerindeki etkileri hakkında bilgi toplar. ç) Uyku döngüsü ve kalitesinin sağlık üzerindeki etkileri hakkında toplanan bilgileri değerlendirir. d) Uyku döngüsü ve kalitesinin sağlık üzerindeki etkileri hakkında toplanan bilgilerle ilgili çıkarım yapar. SBTK.2.3. Beslenme davranışlarını yapılandırabilme a) Beslenme davranışlarını inceleyerek nedensel ya da mantıksal ilişkiler ortaya koyar. b) Tespit ettiği ilişkilerle ilgili ön bilgilerden yararlanarak uyumlu bir beslenme düzeni bütünü oluşturur. SBTK.2.4. Gıda kaynaklı hastalıklara ilişkin problemleri çözebilme a) Besin güvenliğini, gıda kaynaklı hastalıkları, gıda katkı maddelerini, alerji ve intoleransları tanımlayarak bunların sağlık üzerindeki etkilerine yönelik problemleri yapılandırır. b) Besin güvenliğini, gıda kaynaklı hastalıkları, gıda katkı maddelerini, alerji ve intoleransları tanımlayarak bunların sağlık üzerindeki etkilerine yönelik problemleri özetler. c) Besin güvenliğini, gıda kaynaklı hastalıkları, gıda katkı maddelerini, alerji ve intoleransları tanımlayarak bunların sağlık üzerindeki etkilerine yönelik problemlerin çözümü için mevcut bilgiye dayalı tahminde bulunur. ç) Besin güvenliğini, gıda kaynaklı hastalıkları, gıda katkı maddelerini, alerji ve intoleransları tanımlayarak bunların sağlık üzerindeki etkilerine yönelik problemlerin çözümü için önermeler üzerinden akıl yürütür. d) Besin güvenliğini, gıda kaynaklı hastalıkları, gıda katkı maddelerini, alerji ve intoleransları tanımlayarak bunların sağlık üzerindeki etkilerine yönelik problemlerin çözümüne ilişkin değerlendirmede bulunur.",
+    "İÇERİK ÇERÇEVESİ": "Fiziksel Aktivite ve Sağlık Uyku Düzeni ve Sağlık Beslenme Gıda Kaynaklı Hastalıkları Önleme",
+    "Anahtar Kavramlar": "egzersiz, uyku, obezite, beslenme planı, besin alerjisi, gıda intoleransı SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; öğrenme günlüğü, açık uçlu sorular, performans görevi, bütüncül dere- (Ölçme ve celi puanlama anahtarı kullanılarak değerlendirilebilir. Değerlendirme) Performans görevi olarak öğrencilerden gıda kaynaklı hastalıkların sebeplerini ve bu hastalıkları önlemek için etkili çözümler geliştirebilecekleri bir rapor hazırlamaları istenebilir. Hazırlanan raporda araştırma yapma, gıda kaynaklı hastalıkların sebepleri, gıda kaynaklı hastalıkları önleme yöntemleri, öneriler ve çözüm planı hazırlama gibi bölümlere yer verilebilir. Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. Analitik dereceli puanlama anahtarında “araştırma derinliği, sebep-sonuç ilişkisi, çözüm önerileri ve rapor düzeni” gibi ölçütlere yer verilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin yeterli ve dengeli beslenmeyi, sağlıklı ve sağlıksız besinleri ayırt etmeyi, uyku ve sporun sağlığa faydalarını, yeterli ve düzenli uyku alışkanlığını öğrendikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerden yaşlarına ve yaşam tarzlarına uygun fiziksel aktiviteler, düzenli uyku alışkanlığının sağlığa faydaları, besin güvenliği ve gıda katkı maddelerinin sağlık üzerindeki etkileri konusundaki düşüncelerini sözlü olarak ifade etmeleri istenebilir. Köprü Kurma Fiziksel aktivite olanakları, uyku düzeni, yaşa uygun beslenme ve gıda güvenliği gibi günlük yaşamı doğrudan etkileyen unsurların önemi vurgulanabilir. Öğrenme-öğretme Uygulamaları SBTK.2.1 Öğrencilere düzenli fiziksel aktivitenin vücut üzerindeki etkileriyle ilgili kısa bir video veya animasyon izletilir ya da bir sunum yapılır. Video, animasyon veya sunu; fiziksel aktivitenin zihinsel sağlık başta olmak üzere beden sağlığına etkilerini içeren gerçek hayattan örneklerle desteklenir. Öğrencilere “Düzenli egzersiz zihin sağlığını nasıl etkiler?”, Düşük, orta, yüksek şiddetli fiziksel aktivite türlerinin sağlık üzerine etkileri nelerdir? gibi sorular sorulur. Öğrencilerden izledikleri içerikten yola çıkarak fiziksel aktivitenin sağlık üzerindeki etkilerini sorgulamaları istenir. Öğrencilerden fiziksel aktivitenin önemi ve bileşenleri, fiziksel aktivite programı oluşturma, yaşa ve yaşam tarzına uygun egzersiz konuları ile ilgili araştırma yapmaları istenir (D3.3, E1.1). Öğrencilerden güvenilir kaynaklardan elde edilen bilgiler doğrultusunda fiziksel aktivitenin sağlık üzerindeki olumlu ve yanlış yapılması halinde olumsuz etkileri hakkında akıl yürüterek çıkarımlarda bulunmaları beklenir (KB2.10). Öğrencilerden yaptıkları çıkarımlardan yola çıkarak kendi yaşam tarzlarına ve sağlık durumlarına uygun yedi günlük fiziksel aktivite programı hazırlamaları istenir (D16.3). Öğrencilerden kendi hazırladıkları programı uygulayıp, deneyimlerini ve gözlemlerini raporlaştırarak yansıtmaları istenir. Rapor analitik dereceli puanlama anahtarı ile değerlendirilebilir. Dereceli puanlama anahtarındaki değerlendirme basamaklarında “katılım ve devamlılık, egzersiz teknikleri, fiziksel performans, motivasyon, ilerleme ve gelişim” gibi ölçütlere yer verilebilir (KB2.15, D13.2). SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI SBTK.2.2 Öğrencilere uyku döngüsünü ve kalitesini içeren bir sunu/video/animasyon izletilir. Öğrencilerin izledikleri sunudan/videodan/animasyondan yola çıkarak uyku döngüsünü, uyku kalitesini ve uyku kalitesine etki eden faktörleri kendi ifadeleri ile tanımlamaları beklenir (E3.3). Öğrencilerden uyku hakkında merak ettikleri noktaları belirleyerek uyku döngüsünün aşamaları, egzersiz ve uyku ilişkisi, uyku süresi ve kalitesi ile ilgili sorular oluşturması beklenir (E3.8). Bu sorular aracılığıyla öğrencilerin uyku döngüsü ve kalitesi ile sağlıklı yaşam arasındaki ilişkiyi sorgulamaları sağlanır (E1.1, OB4). Öğrencilerin sordukları sorulara cevap bulabilmeleri amacıyla güvenilir kaynaklardan bilgi toplamaları sağlanır (KB2.6). Toplanan bilgilerin doğruluğu öğretmen rehberliğinde değerlendirilir (OB1). Öğrencilerden doğruluğunu değerlendirdiği bilgilerden yola çıkarak kendi uyku döngüsünün nasıl işlediği, uyku hijyeninin uyku kalitesi üzerindeki etkileri, egzersiz yapmanın uyku düzenine katkıları ve uyku düzeninin fiziksel ve zihinsel sağlık üzerindeki etkileri gibi konular üzerinde çıkarımlarda bulunmaları beklenir (E3.10, KB2.10). Öğrencilerden uyku döngüsü, uyku hijyeni ve uyku düzeninin sağlık üzerindeki etkileriyle ilgili öğrendiklerini, süreç boyunca sordukları ve yanıtladıkları soruları, ayrıca edindikleri bilgilerin doğruluğunu nasıl değerlendirdiklerini içeren bireysel bir öğrenme günlüğü oluşturmaları istenir (D16.3). Öğrenme günlüğü, bütüncül dereceli puanlama anahtarıyla değerlendirilebilir. SBTK.2.3 Sınıfa su, meyve suyu, sandviç gibi paketli yiyecek ve içecekler getirilir; bu gıda maddelerinin etiketleri incelenip etiketlerdeki ortak ve farklı içerikler belirlenir. Öğrencilerden etiketlerde yer alan karbohidrat, yağ, protein, vitamin, mineral, su gibi temel besin maddeleriyle ilgili araştırma yaparak bilgi toplamaları istenir (E3.4, KB2.6). Topladıkları bilgilerden yola çıkarak temel besin maddelerinin insan sağlığı için önemini ve sağlıklı beslenmeyle ilişkisini ifade etmeleri istenir (D13.1). Bu süreçte yeme bozukluklarının türleri, nedenleri, risk faktörleri, kalori ve enerji dengesi, Beden kütle indeksi (BKİ) ve obezite kavramları arasında mantıksal ilişkiler ortaya koymaları beklenir (OB1). Öğrencilerden kilo kontrolü ve sağlıklı yaşam için beslenme önerileri ile ilgili fikirlerini söylemeleri istenir (SDB2.1). Beden kütle indeksini hesaplayıp yorumlamaları, kendilerine kısa ve uzun vadeli hedefler belirlemeleri beklenir. Besinlerin işlevlerini dikkate alarak öğrencilerden menüler hazırlamaları, kısa ve uzun vadeli hedefler için uygun adımlar atmaları istenir (E1.4). Bu menüleri hazırlama aşamasında öğrencilerden günlük ihtiyaç duyulan besin ögelerini göz önünde bulundurarak dengeli bir beslenme planı oluşturmaları ve hazırladıkları menüleri uygulayarak kısa ve uzun vadeli hedeflere ulaşmaları beklenir. Oluşturdukları beslenme planı, bütüncül dereceli puanlama anahtarıyla değerlendirilebilir. Dereceli puanlama anahtarındaki değerlendirme basamaklarında “vitamin ve mineral dengesi, makro besin (karbohidrat, protein, yağ), çeşitlilik ve besin kaynakları” gibi ölçütlere yer verilebilir. SBTK.2.4 Öğretmen tarafından heterojen gruplar oluşturulur. Gruplara gıda güvenliği, gıda kaynaklı hastalıklar, gıda alerjileri ve intoleransları ile gıda katkı maddeleri konularına ilişkin farklı örnek olaylar verilir. Gruplardan bu örnek olayları analiz ederek gıda hijyenine uyulmaması, uygun saklama koşullarının sağlanmaması ve katkı maddelerinin bilinçsizce kullanılması gibi gıda güvenliği ihlallerini ve bu ihlallerin yol açabileceği olumsuz sonuçları belirlemeleri istenir (E3.6). Öğrencilerden belirledikleri problemlerin oluşma nedenlerini grup arkadaşlarıyla tartışarak özetlemeleri beklenir (SDB2.2, KB2.3). SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI Öğrencilerden problemin çözümüne yönelik mevcut bilgilerine dayanarak tahminde bulunmaları istenir (KB2.12). Öğrencilerden gıda kaynaklı hastalıkları önlemek için alınabilecek önlemleri sıralamaları, alerjenler ve katkı maddelerinin güvenli tüketimi konusunda öneriler geliştirmeleri, gıda hijyen kurallarının ihmal edilmesi durumunda karşılaşılabilecek sağlık sorunları ile ilgili akıl yürütmeleri beklenir. Öğrenciler tarafından örnek olaylarda bulunan problemlerin çözümüne ilişkin değerlendirmeler yapılır (D13.1). Performans görevi olarak öğrencilerden gıda kaynaklı hastalıkların sebeplerini ve bu hastalıkları önlemek için etkili çözümler geliştirebilecekleri bir rapor hazırlamaları istenebilir. Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Fiziksel aktivite seviyesini (PAL) hesaplayarak kendi yaş ve yaşam tarzına uygun fiziksel aktivite programı oluşturmaları istenebilir. Öğrencilere uykunun hem bilişsel gelişimde hem de sağlıkta etkin bir rol oynadığına dair bilişsel sinir bilim perspektifinde araştırma görevi verilebilir. Çevrim içi anket programlarını kullanarak beslenme okur yazarlılıklarını belirlemelerine yönelik anket uygulama görevi verilebilir. Öğrencilerden tarımda kullanılan kimyasalların gıda güvenliği üzerindeki etkilerini araştırmaları ve çevresel sürdürülebilirlik ile sağlık arasında ilişki kurmaları istenebilir. Destekleme Öğrencilere uyku, uyku hijyeni ve uyku döngüsü ile ilgili temel bilgiler verilebilir. Sağlıklı beslenme alışkanlıkları, ağırlık yönetimi farkındalığı ve doğru yeme davranışlarının yaşam boyu sürdürülebilmesi ile ilgili içerikler, video ve görsel araçlarla desteklenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "ERGENLIK VE SOSYAL YAŞAM",
+   "description": "Bu temada ergenlik, stres yönetimi ve bağımlılıklar ele alınacaktır. Tema sonunda öğrencilerin bu konularla ilgili gerekli bilgi, beceri ve değerleri kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 5,
+   "sections": {
+    "ALAN BECERİLERİ": "-",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme, KB3.2. Problem Çözme, KB3.3. Eleştirel Düşünme",
+    "EĞİLİMLER": "E3.1. Muhakeme, E3.6. Analitiklik, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim",
+    "Değerler": "D13. Sağlıklı Yaşam, D14.Saygı",
+    "Okuryazarlık Becerileri": "OB4. Görsel Okuryazarlık",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Psikoloji BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.3. Özetleme, KB2.12. Mevcut Bilgiye/Veriye Dayalı Tahmin Etme, KB2.10. Çıkarım Yapma SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SBTK.3.1. Ergenlik döneminde gerçekleşen fiziksel ve sosyal-duygusal değişimleri çözümleyebilme a) Ergenlik döneminde gerçekleşen fiziksel ve sosyal-duygusal değişimleri belirler. b) Ergenlik döneminde gerçekleşen fiziksel ve sosyal-duygusal değişimler arasındaki ilişkileri belirler. SBTK.3.2. Stres ve stres kaynaklarına ilişkin problem çözebilme a) Stres ve stres kaynaklarına ilişkin problemleri yapılandırır. b) Stres ve stres kaynaklarına ilişkin problemleri özetler. c) Stres ve stres kaynaklarına ilişkin problemlerin çözümüne yönelik mevcut bilgiye dayalı tahminde bulunur. ç) Stres ve stres kaynaklarına ilişkin problemlerin çözümüne yönelik önermeler üzerinden akıl yürütür. d) Stres ve stres kaynaklarına ilişkin problemlerin çözümüne yönelik değerlendirmede bulunur. SBTK.3.3. Bağımlılığın birey, aile ve toplum üzerindeki etkilerine yönelik eleştirel düşünebilme a) Bağımlılığın birey, aile ve toplum üzerindeki etkilerini sorgular. b) Bağımlılığın birey, aile ve toplum üzerindeki etkileri hakkında akıl yürütür. c) Bağımlılığın birey, aile ve toplum üzerindeki etkilerine yönelik akıl yürüterek ulaştığı çıkarımları yansıtır.",
+    "İÇERİK ÇERÇEVESİ": "Ergenlik Stres Yönetimi Bağımlılıklar",
+    "Anahtar Kavramlar": "akran zorbalığı, siber zorbalık, stres kaynakları, teknolojik stres, stres yönetimi, kimyasal bağımlılıklar, davranışsal bağımlılıklar",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; ilişki diyagramı, çalışma kâğıdı, açık uçlu sorular, rapor, sunu, perfor- (Ölçme ve mans görevi, analitik dereceli puanlama anahtarı, bütüncül dereceli puanlama anahtarı Değerlendirme) kullanılarak değerlendirilebilir. Performans görevi olarak öğrencilerden bağımlılık ve bağımlılığın birey, aile ve toplum üzerindeki olumsuz etkilerini ile bu etkilerin önlenmesine yönelik çözüm önerilerini içeren bir rapor ya da sunu hazırlamaları istenebilir. Bu performans görevi, analitik dereceli puanlama anahtarı ile değerlendirilebilir. Dereceli puanlama anahtarında ‘içerik doğruluğu, kaynak kullanımı, dil ve anlatım, özgünlük’ gibi ölçütlere yer verilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin çocukluktan ergenliğe geçişte oluşan bedensel ve ruhsal değişimleri; iletişim kavramını; alkol, tütün, sosyal medya bağımlılığını öğrendikleri kabul edilmektedir. SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI Ön Değerlendirme Süreci Öğrencilere “Çocukluktan ergenliğe geçişte oluşan bedensel ve ruhsal değişimler neler olabilir?”, “Bir arkadaşının moralinin bozuk olduğunu fark ettiğinde ne yaparsın?”, “Ekip çalışmasında bir sorun yaşanıyor, nasıl bir çözüm önerirsin?”, “Bağımlılık hangi fiziksel, duygusal ve sosyal sorunlara yol açabilir?”, “Sosyal medya bağımlılığının günlük yaşama etkileri neler olabilir?” gibi sorular sorulabilir. Köprü Kurma Ergenlik dönemindeki bireyler için ilgili bakanlıkların sunduğu gençlik merkezleri, spor–sanat kulüpleri ve gönüllülük programlarından örnekler verilebilir. Bu programların olumlu tutum geliştirmeye etkisi tartışılabilir. Öğrenme-öğretme Uygulamaları SBTK.3.1 Öğrencilere ergenlik döneminde yaşanan fiziksel ve sosyal-duygusal değişimleri anlamalarına yönelik bir değişim kontrol listesi verilir. Öğrencilerin kendilerinde fark ettikleri değişimleri bu listeye kaydetmeleri ve bu değişimleri belirlemeleri istenir. Öğrencilerden ‘’Fiziksel değişimler sosyal ve duygusal değişimleri nasıl etkileyebilir?’’, ‘’Duygu durumu değişimleri arkadaş ilişkilerini nasıl etkileyebilir?’’, ‘’Ergenlikte yaşanan değişimlerle sağlıklı yaşam alışkanlıkları arasında nasıl bir ilişki vardır?’’ gibi sorular sorularak fiziksel ve sosyal-duygusal değişimler arasında ilişki kurmaları beklenir (SDB1.1). Bu ilişkiler göz önün­de bulundurularak değişimlerin neler olduğunu içeren ilişki diyagramı oluşturulur. Bu süreçte empati, ben dili, etkin dinleme ve beden dili gibi kavramlardan hareketle iletişimin günlük yaşamdaki rolü, akran zorbalığı ve siber zorbalığa karşı sağlıklı sınır koyma ve güvenli iletişim yöntemleri ile engellilik, göçmenlik, yoksulluk, çalışan gençler, tek ebeveynli aileye sahip gençler ve korunma altındaki gençlere yönelik farklılıklara saygı konuları üzerinde durulabilir. (E3.7). Oluşturulan diyagram, bütüncül dereceli puanlama anahtarıyla değerlendirilebilir. SBTK.3.2 Öğrencilere stresin fiziksel ve zihinsel sağlık üzerindeki etkileri, kaynağına göre farklı stres türleri, stres yönetiminde kullanılan teknikler gibi konulara ilişkin farklı örnek olaylar verilir. Öğrencilerden verilen örnek olayları analiz ederek stresin kaynağını ve birey üzerindeki etkilerini belirlemeleri istenir. Bu süreçte sınav kaygısı, bu kaygıyla başa çıkmada öğrencilerin yararlanabileceği psikososyal destek hizmetleri ve dijital çağın getirdiği teknolojik stres, dijital tü­kenmişlik, siber yorgunluk, nomofobi, FOMO [Fear of missingout/fiır of mising aut (günceli kaçırma korkusu)] gibi stres kaynaklarına değinilebilir. Stresin kontrol altına alınmadığında hangi fiziksel ve psikolojik problemlere yol açabileceği tartışılır. Öğrencilerin tartışma sırasında birbirlerinin fikirlerine saygılı olması beklenir (D14.1). Öğrencilerden, stresin bireysel ve çevresel kaynaklarını belirleyip problemi yapılandırmaları; ardından belirledikleri problemlerin oluşma nedenlerini tartışarak özetlemeleri beklenir (SDB2.1, KB2.3). Öğrencilerden problemin çözümüne yönelik mevcut bilgilerine dayanarak tahminde bulunmaları beklenir (KB2.12). Bu aşamada öğrencilerden stresin birey üzerindeki etkilerini sıralamaları, stresin uzun vadede sağlık üzerindeki olası zararlarını tespit etmeleri, stresi yönetmek için etkili ve bilimsel temelli yöntemler belirlemeleri, günlük yaşamda stresle başa çıkmak için uygulanabilecek stratejilere ilişkin önermeler oluşturmaları beklenir. Öğrencilerden oluşturdukları önermelerden yola çıkarak probleme yönelik akıl yürütmeleri ve problemlerin çözümüne ilişkin değerlendirmeler yapmaları istenir. Öğrencilerden kendi günlük yaşamlarında stresle nasıl baş ettiklerini gözden geçirmeleri, stresin fiziksel ve zihinsel sağlıklarına olan etkilerini fark etmeleri ve bu etkileri en aza indirmek için hangi önlemleri alabileceklerini ifade etmeleri istenir. Bu süreçte öğrencilerin kendi deneyimlerini analiz etmeleri beklenir (E3.6, SDB1.3). Stresle başa çıkma yöntemlerini içeren öz değerlendirme formunu doldurarak kendilerini değerlendirmeleri istenir. SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI Çalışma kâğıdı aracılığıyla öğrencilere stres kaynaklarının neler olduğu ve stresin fiziksel, zihinsel, sosyal ve duygusal gelişimde sağlığa etkilerini ifade edebilecekleri açık uçlu sorular sorulabilir. Öğrencilerin cevapları, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. SBTK.3.3. Öğrencilere; kimyasal bağımlılıklar (alkol, tütün ve madde) ve davranışsal bağımlılıklar (sosyal medya, genel ağ, kumar, dijital bağımlılık; kısa video izlenmesinin dikkat ve sinir sistemi üzerindeki olumsuz etkileri, çevrim içi oyunlardaki ödüllerin bağımlılık seviyesini artırması) konularını içeren sunu, belgesel, video veya animasyon izletilir. (OB4). Sokratik sorgulama tekniği kullanılarak öğrencilerden izledikleri içerik bağlamında bağımlılığı ve bağımlılığın birey, aile ve toplum üzerindeki etkilerini sorgulamaları beklenir (E3.1). Öğrencilerden, izledikleri içerikten hareketle bağımlılığın birey, aile ve toplum üzerindeki olumsuz etkileri ile bu etkilerin olası çözüm yolları hakkında akıl yürütmeleri ve bu akıl yürütmeden hareketle çıkarım yapmaları beklenir. (D13.3, KB2.10). Bu süreçte bağımlılıklar ile mücadele eden resmî kurumlardan bahsedilebilir. Öğrencilere bağımlılık ve bağımlılığın birey, aile ve toplum üzerindeki olumsuz etkileri ile bu etkilerin olası çözüm yollarına ilişkin akıl yürütmelerinden hareketle ulaştıkları çıkarımları yansıtan bir rapor ya da sunu hazırlamaları konusunda performans görevi verilebilir. Bu performans görevi, analitik dereceli puanlama anahtarıyla değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden ergenlik dönemindeki bedensel ve ruhsal değişimleri araştırarak bu değişimlerle sağlıklı başa çıkma yöntemlerini içeren dijital sunu hazırlamaları istenebilir. Genel ağ kullanımının sosyal kaygı ve akran ilişkileri açısından incelenmesine yönelik araştırma raporu istenebilir. Destekleme Ergenlik döneminde meydana gelen hormonal değişiklikler ve biyolojik süreçler ile ilgili basit ve anlaşılır görseller, videolar ve bilgi görselleri kullanılabilir. Stres yönetimi ve zorluklarla mücadele etme konusunda eğitsel film veya belgeseller izletilebilir. Öğrenciler tarafından etkili iletişimin unsurları konusunda basit düzeyde zihin haritası hazırlanabilir. Bağımlılık ve bağımlılık türleri konusunda dijital kaynaklardan belgesel veya eğitsel film izletilebilir. Bu öğrenme-öğretme uygulamalarında işitme engelli öğrenciler için alt yazılı görsel araçlara, görme engelli öğrenciler için ise daha çok işitsel araçlara yer verilebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 4,
+   "kind": "TEMA",
+   "title": "HAYAT KURTARAN BILGILER",
+   "description": "Bu temada ilk yardım, sağlık ve güvenli yaşamla ilgili konular ele alınacaktır. Tema sonunda öğrencilerin bu konulara ilişkin gerekli bilgi, beceri ve değerleri kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 6,
+   "sections": {
+    "ALAN BECERİLERİ": "BEOSAB10. Güvenli Ortam Oluşturma",
+    "KAVRAMSAL BECERİLER": "KB2.15. Yansıtma",
+    "EĞİLİMLER": "E2.2. Sorumluluk",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.2. İş Birliği",
+    "Değerler": "D20. Yardımseverlik, D13.Sağlıklı Yaşam, D9. Merhamet",
+    "Okuryazarlık Becerileri": "OB4. Görsel Okuryazarlık",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.5. Sınıflandırma, KB2.10. Çıkarım Yapma, KB2.17. Değerlendirme SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SBTK.4.1.İlk yardım bilgilerine dair deneyimleri yansıtabilme a) İlk yardım bilgilerine dair deneyimleri gözden geçirir. b) İlk yardım bilgilerine dair deneyimlerden hareketle çıkarımlar yapar. c) İlk yardım bilgilerine yönelik çıkarımları değerlendirir. SBTK.4.2.Sağlıklı ve güvenli yaşam için güvenli ortam oluşturabilme. a) Çevresindeki tehlikeleri ve riskleri belirler. b) Belirlediği tehlike ve risklere yönelik uygun koruyucu ve kontrol tedbirleri alır.",
+    "İÇERİK ÇERÇEVESİ": "İlk Yardım Sağlıklı ve Güvenli Yaşam",
+    "Anahtar Kavramlar": "yapay solunum, CPR (kardiyopulmoner resüsitasyon), iş sağlığı ve güvenliği",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; açık uçlu sorular, afiş/broşür, performans görevi, analitik dereceli pu- (Ölçme ve anlama anahtarı kullanılarak değerlendirilebilir. Değerlendirme) Performans görevi olarak öğrencilerden ilk yardım konusundaki bilgilerini, deneyimlerini ve bu alanda karşılaştıkları olaylara verdikleri tepkileri analiz etmeleri ve elde ettikleri bilgileri yazılı veya görsel materyallerle destekleyerek sunmaları istenebilir. Çalışmada ilk yardımın tanımı ve önemi, kişisel ilk yardım deneyimleri, temel ilk yardım, ilk yardım uygulamaları, ilk yardım bilgilerini geliştirme yolları gibi konulara yer verilebilir. Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. Dereceli puanlama anahtarında “ ilk yardım bilgilerinin doğruluğu ve kapsamı, kişisel deneyim, tepki analizi, sunumun biçimi ve materyal kullanımı, eleştirel düşünme ve yorumlama ve özgünlük” gibi ölçütlere yer verilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin hafif yaralanmalarda uygulanacak ilk yardım basamaklarını bildikleri, gerekli durumlarda 112 Acil Çağrı Merkezini aramaları gerektiğinin farkında oldukları ve günlük yaşamda alınması gereken güvenlik önlemlerine ilişkin temel becerileri edindikleri kabul edilmektedir. Ön Değerlendirme Süreci 112 Acil Çağrı Merkezinin gereksiz yere meşgul edilmesinin ne gibi sonuçlar doğurabileceği üzerine tartışmaları istenebilir, Ayrıca öğrencilere günlük yaşamda alınması gereken temel güvenlik önlemleriyle ilgili sorular sorulabilir. Köprü Kurma İlk yardım eğitiminin okul ve toplum yaşamındaki önemi vurgulanabilir. Öğrencilerden ilk yardım ve günlük yaşamda alınması gereken güvenlik önlemlerine ilişkin örnekler vermeleri beklenebilir. Öğrenme-öğretme SBTK.4.1 Uygulamaları Öğrencilere temel ilk yardım ve güvenlik konularını içeren eğitim videolarından kesitler izletilir, animasyonlar veya fotoğraflar paylaşılır. Öğrencilerden gördükleri veya izledikleri içeriklerden yola çıkarak temel ilk yardım kavramlarını tanımlamaları ve kendi deneyimleriyle ilişkilendirmeleri beklenir (OB4). Daha önce ilk yardım gerektiren bir olay yaşayıp yaşamadıkları, bu durumda nasıl bir tepki verdikleri ve mevcut bilgilerini nasıl kullandıkları hakkında düşünmeleri sağlanır (SDB1.3). Öğrenciler, öğretmen rehberliğinde heterojen gruplara ayrılır ve her gruba farklı acil durum senaryoları (boğulma, yanık, kesik, kırık, zehirlenme gibi) sunulur (SDB2.2). SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI Öğrencilerden ilk yardım bilgilerine yönelik kendi deneyimlerinden hareketle bu senaryolarda nasıl bir müdahale yapılarak yardım edilmesi gerektiğine dair çıkarım yapmaları istenir (D20.4, D9.3, KB2.10). İlk yardım teknikleri, simülasyon yöntemiyle öğrencilere uygulatılır ve öğrencilerden daha önce yaşadıkları ya da gözlemledikleri olaylarla bu müdahaleleri karşılaştırmaları istenir. Öğrencilerden ilk yardım bilgilerine yönelik ulaştıkları çıkarımları analiz ederek doğru ve yanlış müdahaleleri ayırt etmeye yönelik değerlendirme yapmaları istenir (KB2.17). Bu süreçte temel yaşam desteğinde OED cihazının kullanım basamakları tanıtılır, maket üzerinde veya simülasyon yöntemiyle CPR ve yapay solunum gibi uygulamalar gerçekleştirilir, öğrencilerin doğru uygulamalar yapıp yapmadıkları kontrol listesi kullanılarak tespit edilir. Öğrencilerden ilk yardım bilgilerini günlük hayatlarında nasıl kullanabilecekleri konusunda öneriler geliştirmeleri ve acil durumlara müdahale konusunda kendilerini değerlendirerek eksik yönlerini belirlemeleri beklenir (SDB1.1). Öğrencilerden anafilaksi, epileptik nöbet, hipoglisemi, astım atağı ve zehirlenmeler gibi okul ortamında karşılaşılabilecek acil durumlara yönelik temel farkındalık çalışmaları yapmaları istenebilir. Öğrencilere ilk yardımla ilgili deneyimlerini yansıtabilecekleri ve sunabilecekleri bir performans görevi verilebilir. Performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. SBTK.4.2 Öğrencilerin çevrelerinde karşılaşabileceği tehlike ve riskleri içeren animasyon, video veya sunu izlemeleri sağlanır. Öğrencilerden izledikleri içerikten yola çıkarak ıslak zemin, dağınık kablo, kimyasal madde, uygunsuz şekilde yük kaldırma, yetersiz aydınlatma, yangın ve yüksekten düşme gibi durumlarda tehlike ve riskleri belirlemeleri ve risk türlerini (fiziksel, kimyasal, ergonomik, biyolojik) sınıflandırmaları istenir (KB2.5). Bu süreçte risk kontrol tedbirlerine değinilir. Öğrenciler, öğretmen rehberliğinde heterojen gruplara ayrılır. Gruplardan belirledikleri ve sınıflandırdıkları tehlike ve riskleri, risk kontrol tedbirleriyle ilişkilendirerek tehlikeyi kaynağında yok etme, tehlike kaynağını ikame etme (değiştirme), mühendislik çözümleri, idari kontroller ve gerekli durumlarda kişisel koruyucu donanım kullanımı gibi temel prensipleri göz önünde bulundurarak hangi kontrol tedbirlerinin neden daha uygun olduğuna ilişkin önceliklendirilmiş bir “Tehlike ve Risk Kontrol Tedbiri” listesi geliştirmeleri beklenir. Oluşturulan listelerin uygulanacak tedbir ve gerekçelerin doğruluğu öğretmen rehberliğinde değerlendirilir. Gruplardan sorumluluk alarak her bir tehlike, risk ve tedbirlere yönelik farkındalık afiş/broşürü hazırlayarak okul panosunda sergilemeleri istenebilir (D13.4, SDB2.2, E2.2). Hazırlanan afiş/broşür bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. Süreç öğrencilerin çevrelerindeki tehlikeleri tanımalarına, risk analizi yapmalarına ve güvenli davranış geliştirmelerine katkı sağlayarak iş risk kontrol tedbirleri ile ilgili farkındalığının erken yaşta gelişmesine destek olur.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerin acil durumlar karşısında doğru ve hızlı müdahale becerilerini geliştirmek amacıyla sanal simülasyonlar veya artırılmış gerçeklik (AR) uygulamaları kullanılabilir. Öğrencilerden sağlıklı ve güvenli yaşam için farkındalık oluşturacak bir proje hazırlamaları istenebilir. Destekleme Öğrencilere ilk yardım uygulamaları ile ilgili videolar izletilebilir. Öğrencilerden tehlike, risk, önleyici tedbir ve koruyucu donanım ilişkisini gösteren kavram haritası hazırlamaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 5,
+   "kind": "TEMA",
+   "title": "GÜVENLI ULAŞIM VE TRAFIK BILINCI",
+   "description": "Bu temada trafik kültürü, trafikte güvenlik, yaya, yolcu ve sürücü olarak uyulması gereken kurallar, trafik ve çevre içeriği ele alınacaktır. Tema sonunda öğrencilerin bu konularla ilgili gerekli bilgi, beceri ve değerleri kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 9,
+   "sections": {
+    "ALAN BECERİLERİ": "-",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama, KB2.8. Sorgulama, KB2.16.1. Tümevarımsal Akıl Yürütme, KB3.3. Eleştirel Düşünme",
+    "EĞİLİMLER": "E1.1. Merak, E2.1.Empati, E2.2. Sorumluluk, E3.3. Yaratıcılık, E3.4. Gerçeği Arama, E3.7. Sistematiklik, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2 İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.2. Esneklik",
+    "Değerler": "D5. Duyarlılık, D14. Saygı, D16. Sorumluluk, D18. Temizlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB7. Veri Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.10. Çıkarım Yapma, KB2.18. Tartışma SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SBTK.5.1. Trafikteki tutum ve davranışlarda etkili iletişimin toplum üzerindeki etkisine yönelik eleştirel düşünebilme a) Trafikteki tutum ve davranışlarda etkili iletişim durumlarını sorgular. b) Trafikteki tutum ve davranışlarda etkili iletişimin toplum üzerindeki etkileri hakkında akıl yürütür. c) Trafikteki tutum ve davranışlarda etkili iletişimin toplum üzerindeki etkileri hakkında akıl yürütmeyle ulaştığı çıkarımları davranışlarına yansıtır. SBTK.5.2. Trafik güvenliği bilincinin insan hayatına etkilerini sorgulayabilme a) Trafik güvenliği bilincinin insan hayatına etkilerini kendi ifadeleri ile tanımlar. b) Trafik güvenliği bilincinin insan hayatına etkileri ile ilgili sorular sorar. c) Trafik güvenliği bilincinin insan hayatına etkileri ile ilgili bilgi toplar. ç) Trafik güvenliği bilincinin insan hayatına etkileriyle ilgili topladığı bilgilerin doğruluğunu değerlendirir. d) Trafik güvenliği bilincinin insan hayatına etkileriyle ile ilgili topladığı bilgiler üzerinden çıkarım yapar. SBTK.5.3. Yaya güvenliği ile ilgili bilgi toplayabilme a) Yaya güvenliği ile ilgili bilgilere ulaşmak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak yaya güvenliği hakkındaki bilgileri bulur. c) Yaya güvenliği ile ilgili ulaşılan bilgileri doğrular. ç) Yaya güvenliği ile ilgili ulaşılan bilgileri kaydeder. SBTK.5.4. Yolcu güvenliği ile ilgili bilgi toplayabilme a) Yolcu güvenliği ile ilgili bilgilere ulaşmak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak yolcu güvenliği hakkındaki bilgileri bulur. c) Yolcu güvenliği ile ilgili ulaşılan bilgileri doğrular. ç) Yolcu güvenliği ile ilgili ulaşılan bilgileri kaydeder. SBTK.5.5. Sürücü güvenliği ile ilgili bilgi toplayabilme a) Sürücü güvenliği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak sürücü güvenliği hakkındaki bilgileri bulur. c) Sürücü güvenliği ile ilgili ulaşılan bilgileri doğrular. ç) Sürücü güvenliği ile ilgili ulaşılan bilgileri kaydeder. SBTK.5.6. Trafiğin çevre üzerindeki etkileri ile ilgili tümevarımsal akıl yürütebilme a) Trafiğin çevre üzerindeki etkileri ile ilgili gözlem yapar. b) Trafiğin çevre üzerindeki etkileri ile ilgili örüntüler bulur. c) Trafiğin çevre üzerindeki etkileri ile ilgili genellemeler yapar.",
+    "İÇERİK ÇERÇEVESİ": "Trafik Kültürü Trafik Güvenliği Yaya Güvenliği Yolcu Güvenliği Sürücü Güvenliği Trafik ve Çevre",
+    "Anahtar Kavramlar": "trafikte etkili iletişim, mikromobilite, trafik yoğunluğu, hava kirliliği, gürültü kirliliği SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; poster, broşür, rapor, zihin haritası, açık uçlu sorular, vaka analizi, grup (Ölçme ve değerlendirme formu, performans görevi, bütüncül dereceli puanlama anahtarı, analitik Değerlendirme) dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Performans görevi olarak öğrencilerden sürücü güvenliği ile ilgili bilgilerin yer aldığı bir broşür hazırlamaları istenebilir. Performans görevi, analitik dereceli puanlama anahtarıyla değerlendirilebilir. Dereceli puanlama anahtarında “içerik doğruluğu, hedef kitleye uygunluk, özgünlük, görsel tasarım ve düzen ” gibi ölçütlere yer verilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin trafikteki tutum ve davranışlarda etkili iletişim, trafik güvenliği bilinci; yaya, yolcu ve sürücü güvenliği, toplu taşıma araçlarını kullanırken uyulması gereken temel kurallar ve trafiğin çevre üzerindeki etkileri konularında temel bilgilerinin olduğu kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere “Trafikte güvenliğin sağlanması için kullanılan güvenlik ekipmanları nelerdir?’’, “Yayaların trafik kurallarına uyarak güvenli bir şekilde hareket etmeleri neden önemlidir?”, ‘’Bir otobüste veya arabada yolcu olarak emniyet kemeri takmak neden önemlidir?”, “Toplu taşıma araçlarını kullanırken uyulması gereken kurallar nelerdir?’’ gibi sorular sorulabilir. Köprü Kurma Yayaların bireysel olarak yaptığı davranışların oluşturduğu risklerle farklı ulaşım türlerinde yolcu güvenliğini sağlamak amacıyla geliştirilen yasal ve teknolojik önlemler arasında anlamlı bir ilişki kurulabilir. Öğrenme-öğretme Uygulamaları SBTK.5.1 Öğrencilere trafikte beden dilini doğru kullanma ve sözlü iletişim gibi iletişim becerilerinin yanı sıra hoşgörü, sabretme, empati, nezaket, saygı ve anlayışın önemi vurgulanır. Ayrıca trafikte etkili iletişim eksikliğinin neden olduğu durumlar vurgulanır ve bu konuyla ilgili trafik güvenliği kapsamında hazırlanan kısa videolar izletilir (OB4). Öğrencilerden sosyal farkındalıklarını geliştirmek amacıyla videolardaki olumlu ve olumsuz iletişim durumlarını sorgulayarak nezaket kurallarına uygun bir şekilde ifade etmeleri istenir (SDB2.3, D14.1). Öğrencilere izledikleri kısa video ve günlük yaşamlarında trafikte gözlemledikleri tutum ve davranışlardan yola çıkılarak olumlu ya da olumsuz iletişim örneklerinin topluma etkileri hakkında “Trafikte etkili iletişim neden önemlidir?” ve “Etkili iletişim, güvenlik ve huzur için nasıl bir katkı sağlar?” gibi sorular sorularak tartışmaları beklenir (SDB2.1). Öğrencilerden trafikteki tutum ve davranışlarda etkili iletişimin topluma etkileri hakkında akıl yürütmeleri istenir (D5.1). Öğrencilerden akıl yürütme yoluyla ulaştıkları çıkarımlardan hareketle bir hafta boyunca diğer yol kullanıcılarıyla saygı, empati ve anlayış çerçevesinde iletişim kurmaya özen göstermeleri istenir (E2.1). Trafikte etkili iletişimin oluşturduğu güvenli ve uyumlu ortamı fark etmeleri ve bu anlayışı kendi davranışlarına yansıtmaları beklenir. Öğrencilerin sabırlı, nezaketli ve saygılı bir şekilde hareket etmeleri ve çevrelerine olumlu örnek olmaları teşvik edilir. (SDB1.3, D14.1) Öğrencilerin bu deneyimlerini yansıtıcı günlüğe yazarak yaya geçitlerinde sürücülerle karşılıklı saygı ve anlayışa dayalı iletişim kurma, trafik kurallarına uyma ve sorumluluk bilinciyle hareket etme yoluyla hem bireysel hem de toplumsal güvenliğin artırılmasına yönelik olumlu tutum ve alışkanlıklar geliştirmeleri beklenir (SDB2.1, D16.2). SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI Hazırlanan yansıtıcı günlük bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. SBTK.5.2 Öğrencilerin trafik güvenliği bilincinin insan hayatına katkılarını ele alan bir video veya sunu izlemeleri sağlanır (OB4). Bu materyalde emniyet kemeri, kask, can yeleği gibi ekipmanların kazalardaki hayat kurtarıcı etkisinden söz edilebilir. Videodan ve sunudan hareketle öğrencilerden trafik güvenliği bilincini kendi ifadeleri ile tanımlamaları ve bu bilincin insan hayatına katkılarını belirlemeleri istenir (E3.3). Öğrencilerden trafik güvenliği bilincinin insan hayatına katkılarını anlamaları amacıyla konuyla ilgili sorular hazırlayarak soru sormaları istenir (E3.8). Öğrencilerin sordukları sorular sınıf ortamında tartışılarak konunun farklı yönleri ele alınır (SDB2.1, KB2.18). Bu süreçte trafikte karşılaşılabilecek acil durumlarda hangi kurum ve kuruluşlara başvurulması gerektiğine değinilebilir. Öğrencilerden trafik güvenliği bilincinin insan hayatına katkılarını destekleyen verileri ve gerçek hayat örneklerini araştırarak bilgi toplamaları istenir. Bu süreçte öğrenciler, güvenilir kaynaklardan yararlanma hususunda teşvik edilir. Öğrencilerden topladıkları bilgilerin doğruluğunu güvenilir kaynaklardan karşılaştırarak değerlendirmeleri istenir. Elde edilen bilgilerden hareketle trafik güvenliği bilincinin insan hayatına katkıları konusunda çıkarım yapmaları sağlanır (KB2.10). Öğrencilerden bu çıkarımlarını içeren trafik güvenliği posteri hazırlaması istenebilir. Hazırlanan poster analitik dereceli puanlama ile değerlendirilebilir. SBTK.5.3 Öğrencilere “Yaya olarak uyulması gereken kurallar nelerdir?” sorusu sorularak merak duymaları ve kendi bilgi ihtiyaçlarını fark etmeleri sağlanır (E1.1). Öğrenciler öğretmen rehberliğinde gruplara ayrılır. Gruplardan yaya güvenliği ile ilgili bilgiye ulaşmak için kullanabilecekleri araçları belirlemeleri istenir (SDB2.2). Bu süreçte yaya geçidi ve kaldırım kullanmamak, kaldırımda yürürken telefonla ilgilenmek ya da kulaklık kullanımı nedeniyle çevreden gelen uyarı ve işaretleri duyamamak gibi durumların oluşturabileceği olası riskler üzerinde durulabilir. Grupların belirledikleri araçları kullanarak yaya olarak uyulması gereken kurallar hakkında bilgileri bulmaları istenir (E3.4). Bu süreçte öğrenciler, sorumluluk alarak araştırmalarını planlı, düzenli, zamanında ve eksiksiz bir şekilde yürütmeleri hususunda teşvik edilir (D16.3). Öğrencilerden güvenli yaya geçişleri, trafik ışıklarının kullanımı, yayaların dikkat etmesi gereken trafik levhaları gibi konularda bilgi toplaması beklenir. Gruplardan yaya olarak uyulması gereken kurallar hakkında ulaştıkları bilgileri öğretmen gözetiminde güvenilir kaynaklardan doğrulamaları istenir. Öğrencilere güvenilir bilgi kaynaklarının nasıl seçileceği ve bilgilerin nasıl doğrulanacağı konusunda rehberlik edilir.Öğrencilerden doğruluğunu teyit ettikleri bilgileri kaydetmeleri istenir.Gruplardan ulaştıkları bilgilerden yola çıkarak sistematik şekilde yaya güvenliği ile ilgili bir rapor hazırlaması istenir (E3.7, OB1). Hazırlanan rapor, bütüncül puanlama anahtarları ile değerlendirilebilir. Süreçte grup değerlendirme formu da kullanılarak değerlendirmede çeşitlilik sağlanabilir. SBTK.5.4 Öğrencilere “Güvenli yolculukta (kara, hava, deniz) yolcu olarak uyulması gereken kurallar nelerdir?” gibi merak uyandıran sorularla öğrencilerin kendi bilgi ihtiyaçlarını fark etmeleri sağlanır (E1.1). Öğrencilerden yolcu güvenliği ile ilgili bilgiye ulaşmak için kullanabilecekleri araçları belirlemeleri istenir. Öğrencilerden belirledikleri araçları kullanarak kara, hava, deniz yolu taşıtlarında uyulması gereken kurallar konusunda doğruya ulaşmak için kararlılıkla hareket etmeleri ve bilgi toplamaları istenir (E3.4). Bu süreçte öğrenciler, sorumluluk alarak araştırmaların zamanında ve eksiksiz bir şekilde yürütülmesi hususunda teşvik edilir (D16.3). SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI Öğrencilerin yolcu olarak uyulması gereken kurallar hakkında ulaştıkları bilgileri öğretmen gözetiminde güvenilir kaynaklardan doğrulamaları istenir (E3.4). Öğretmen, güvenilir bilgi kaynaklarının nasıl seçileceği ve bilgilerin nasıl doğrulanacağı konusunda öğrencilere rehberlik eder. Doğruluğunu teyit ettikleri bilgileri düzenleyen öğrenciler bu bilgileri kaydeder. Öğrencilerden ulaştıkları bilgilerden yola çıkarak yolcu güvenliği ile ilgili sistematik bir şekilde zihin haritası hazırlaması istenir (E3.7, OB1). Hazırlanan zihin haritası, bütüncül puanlama anahtarları ile değerlendirilebilir. SBTK.5.5 Öğrencilerin “Bisiklet, elektrikli skuter, motosiklet gibi araçları kullanırken hangi güvenlik kurallarına uyulmalıdır?” gibi sorularla merak duymaları ve kendi bilgi ihtiyaçlarını fark etmeleri sağlanır (E1.1). Öğrencilerden yaşına uygun araçları (bisiklet, elektrikli skuter, motosiklet) kullanırken uyulması gereken kurallar ile ilgili bilgiye ulaşmak için kullanabilecekleri araçları belirlemesi istenir. Öğrenciler belirledikleri araçları kullanarak bisiklet, elektrikli skuter, motosiklet gibi araçları kullanırken uyulması gereken güvenlik kuralları hakkında bilgilere ulaşır. Bu süreçte öğrencilerin, sorumluluk almaları sağlanarak araştırmalarını zamanında ve eksiksiz bir şekilde yürütmeleri istenir (D16.3). Öğrencilerin yaşına uygun araçları (bisiklet, elektrikli skuter, motosiklet) kullanırken uyulması gereken kurallar hakkında ulaştıkları bilgileri öğretmen gözetiminde güvenilir kaynaklardan doğrulamaları istenir (E3.4). Öğretmen, güvenilir bilgi kaynaklarının nasıl seçileceği ve bilgilerin nasıl doğrulanacağı konusunda öğrencilere rehberlik eder. Öğrencilerden doğruluğunu teyit ettikleri bilgileri kaydetmeleri beklenir. Öğrencilere ulaştıkları bilgilerden yola çıkarak sistematik şekilde sürücü güvenliği ile ilgili bir broşür hazırlama performans görevi verilir (E3.7, OB1). Hazırlanan performans görevi analitik dereceli puanlama anahtarı ile değerlendirilebilir. SBTK.5.6 Mikromobilite projesine dikkat çekilir. Öğrencilerden okul çevresinde veya yaşadıkları bölgede trafiğin çevresel etkilerini gözlemlemeleri istenir. Bu süreçte elektrikli skuter, bisiklet, motosiklet gibi araçları kullanmanın çevre temizliği ve sürdürülebilirlik açısından önemi üzerinde durulur (D18.3). Öğrencilerden hava kirliliği (egzoz dumanı), gürültü kirliliği (korna sesi, motor sesleri) ve trafik yoğunluğunun doğaya etkilerinin (yeşil alanların azalması) yer aldığı gözlem formunu sorumluluk bilinciyle doldurmaları istenir (E2.2). Öğrencilerden topladıkları gözlem verilerini kullanarak trafik yoğunluğunun hava kirliliğine, gürültü seviyesine ve doğaya etkisine ilişkin örüntüler bulması ve bu örüntülere dayanarak genel sonuçlar çıkarması istenir (D5.2, OB7). Öğrencilerin hava kirliliği, gürültü kirliliği ve trafik yoğunluğunun doğaya etkileri konusunda ulaştıkları genellemelerden yola çıkarak trafiğin çevresel etkilerini azaltmak için özgün çözüm önerileri geliştirmesi beklenir (SDB3.2, E3.3, D18.3). Öğrenciler yaşadıkları şehir, ülke ve dünya genelindeki trafik sorunlarını inceleyerek çevresel etkileri analiz edebilecekleri vaka analizi çalışması yapmaları konusunda teşvik edilir. Yapılan çalışma bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. SAĞLIK BİLGİSİ VE TRAFİK KÜLTÜRÜ DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden trafikteki tutum ve davranışlarda etkili iletişim üzerine bir sosyal sorumluluk projesi ya da gece yaya geçitlerinin yaya geçişi sırasında aydınlatılmasına yönelik bir proje tasarlamaları istenebilir. Öğrenciler tarafından “Trafikte Güvenli Yaya Olmak” temasıyla web 3.0 araçları kullanılarak bilgilendirici ve dikkat çekici posterler tasarlanabilir. Sensör teknolojilerinin trafik güvenliğindeki uygulama alanları ile ilgili araştırma yapmaları istenebilir. Öğrencilere yaya ve araç trafiğinin yoğun olduğu yerlerde trafik ışıklarının yanma sürelerini ayarlayan yapay zekâ uygulamaları ile ilgili proje verilebilir. Öğrencilerden yaya ve araç trafiğinin yoğun olduğu yerlerde elektrik üreten mekanizmalar ile ilgili alan yazını taraması yaparak broşür hazırlamaları istenebilir. Destekleme Trafikteki iletişimi olumsuz yönde etkileyen tutum ve davranışlar ile bunların topluma etkileri hakkında bilgiler verilebilir. Öğrencilere trafikteki tutum ve davranışlarla ilgili kamu spotları izletilebilir. Gerçek yaşamdan örnek olaylar verilerek emniyet kemeri takmanın, kask kullanmanın veya can yeleği giymenin ne kadar basit ve yaşamsal öneme sahip davranışlar oldukları kavratılabilir. Öğrencilerden okul çevresindeki yaya geçitlerini ve trafik ışıklarını gözlemlemeleri istenir, sınıf ortamında burada uyulması gereken kurallarla ilgili duygu ve düşüncelerini paylaşmaları için ortam oluşturulur. Öğrencilerle yaya olarak uyulması gereken kurallar ve güvenli yolculukta yolcu olarak uyulması gereken kurallarla ilgili “Yaya ve Yolcu Olarak Sorumluluklarım” adlı kartın hazırlanması sağlanır. Bu kartta öğrencilerin güvenli yaya geçitleri, trafik ışıklarının kullanımı, emniyet kemeri takma, kask takma ve can yeleği kullanma gibi konuların yer almasına dikkat edilir. Öğrencilere trafik yoğunluğunun doğaya etkilerini gösteren eğitsel film veya belgeseller izletilebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz."
+   },
+   "outcomes": []
+  }
+ ],
+ "unassigned_outcomes": [
+  {
+   "code": "SBTK.1.1",
+   "grade": 1,
+   "unit": null,
+   "order": 1,
+   "text": "Sağlığı etkileyen faktörlerin toplum sağlığı numarası ve becerilerin süreç bileüzerindeki etkilerini sorgulayabilme şenlerini ifade eder.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Sağlığa ve sağlığı etkileyen faktörlere ilişkin merak ettiği konuyu tanımlar."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.1.2",
+   "grade": 1,
+   "unit": null,
+   "order": 2,
+   "text": "Halk sağlığı ve sağlık hizmetleri ile ilgili bilgi toplayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Halk sağlığı ve sağlık hizmetleri ile ilgili istenen bilgiye ulaşmak için kullanacağı araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği aracı kullanarak halk sağlığı ve sağlık hizmetleri ile ilgili bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "Halk sağlığı ve sağlık hizmetleri ile ilgili ulaşılan bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "Halk sağlığı ve sağlık hizmetleri ile ilgili ulaşılan bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.1.3",
+   "grade": 1,
+   "unit": null,
+   "order": 3,
+   "text": "Kişisel hijyen ve temizliğin sağlığa etkileri ile ilgili eleştirel düşünebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Kişisel hijyen ve temizliğin sağlığa etkilerini sorgular."
+    },
+    {
+     "label": "b",
+     "text": "Kişisel hijyen ve temizliğin sağlığa etkileri hakkında akıl yürütür."
+    },
+    {
+     "label": "c",
+     "text": "Kişisel hijyen ve temizliğin sağlığa etkileri ile ilgili akıl yürütmeyle ulaştığı çıkarımları yansıtır."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.1.4",
+   "grade": 1,
+   "unit": null,
+   "order": 4,
+   "text": "Hastalıklar ve engellilik ile ilgili güvenli ortam oluşturabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Hastalıklar ve engellilik ile ilgili riskleri tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Hastalık ve engellilik ile ilgili riskleri önleyici tedbirler alır."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.1.5",
+   "grade": 1,
+   "unit": null,
+   "order": 5,
+   "text": "İlaçlar ve ilaçların etkileri ile ilgili bilgi toplayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İlaçlar ve ilaçların etkileri ile ilgili istenen bilgiye ulaşmak için kullanacağı araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği aracı kullanarak ilaçlar ve ilaçların etkileri ile ilgili bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "İlaçlar ilaçların etkileri ile ilgili ulaşılan bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "İlaçlar ve ilaçların etkileri ile ilgili ulaşılan bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.1.6",
+   "grade": 1,
+   "unit": null,
+   "order": 6,
+   "text": "Psikolojinin biyopsikososyal yaklaşımı doğrultusunda, bireyin zihinsel, duygusal ve davranışsal süreçlerinin sağlık üzerindeki etkilerini değerler ve maneviyat çerçevesinde yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Psikoloji ile sağlık arasındaki ilişkiyi, bireyin zihinsel, duygusal ve davranışsal süreçlerinin sağlık üzerindeki etkilerine değerler ve maneviyat çerçevesinde odaklanarak inceler."
+    },
+    {
+     "label": "b",
+     "text": "Bireyin zihinsel, duygusal ve davranışsal süreçlerinin sağlık üzerindeki etkilerini değerler ve maneviyat çerçevesiyle ilişkilendirerek biyopsikososyal yaklaşım doğrultusunda bağlamdan kopmadan dönüştürür."
+    },
+    {
+     "label": "c",
+     "text": "Bireyin zihinsel, duygusal ve davranışsal süreçlerinin sağlık üzerindeki etkilerini değerler ve maneviyat çerçevesinde nesnel, doğru ve anlamı değişmeyecek biçimde yeniden ifade eder."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.2.1",
+   "grade": 2,
+   "unit": null,
+   "order": 1,
+   "text": "Fiziksel aktivitenin sağlık üzerindeki etkilerine yönelik eleştirel düşünebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Fiziksel aktivitenin sağlık üzerindeki etkilerini sorgular."
+    },
+    {
+     "label": "b",
+     "text": "Fiziksel aktivitenin sağlık üzerindeki etkileri hakkında akıl yürütür."
+    },
+    {
+     "label": "c",
+     "text": "Fiziksel aktivitenin sağlık üzerindeki etkilerine dair akıl yürütmeyle ulaştığı çıkarımları yansıtır."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.2.2",
+   "grade": 2,
+   "unit": null,
+   "order": 2,
+   "text": "Uykunun sağlık üzerindeki etkilerini sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Uyku döngüsünü, uyku kalitesini ve uyku kalitesine etki eden faktörleri kendi ifadeleri ile tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Uyku döngüsü ve kalitesinin sağlık üzerindeki etkileriyle ilgili soru sorar."
+    },
+    {
+     "label": "c",
+     "text": "Uyku döngüsü ve kalitesinin sağlık üzerindeki etkileri hakkında bilgi toplar."
+    },
+    {
+     "label": "ç",
+     "text": "Uyku döngüsü ve kalitesinin sağlık üzerindeki etkileri hakkında toplanan bilgileri değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Uyku döngüsü ve kalitesinin sağlık üzerindeki etkileri hakkında toplanan bilgilerle ilgili çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.2.3",
+   "grade": 2,
+   "unit": null,
+   "order": 3,
+   "text": "Beslenme davranışlarını yapılandırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Beslenme davranışlarını inceleyerek nedensel ya da mantıksal ilişkiler ortaya koyar."
+    },
+    {
+     "label": "b",
+     "text": "Tespit ettiği ilişkilerle ilgili ön bilgilerden yararlanarak uyumlu bir beslenme düzeni bütünü oluşturur."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.2.4",
+   "grade": 2,
+   "unit": null,
+   "order": 4,
+   "text": "Gıda kaynaklı hastalıklara ilişkin problemleri çözebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Besin güvenliğini, gıda kaynaklı hastalıkları, gıda katkı maddelerini, alerji ve intoleransları tanımlayarak bunların sağlık üzerindeki etkilerine yönelik problemleri yapılandırır."
+    },
+    {
+     "label": "b",
+     "text": "Besin güvenliğini, gıda kaynaklı hastalıkları, gıda katkı maddelerini, alerji ve intoleransları tanımlayarak bunların sağlık üzerindeki etkilerine yönelik problemleri özetler."
+    },
+    {
+     "label": "c",
+     "text": "Besin güvenliğini, gıda kaynaklı hastalıkları, gıda katkı maddelerini, alerji ve intoleransları tanımlayarak bunların sağlık üzerindeki etkilerine yönelik problemlerin çözümü için mevcut bilgiye dayalı tahminde bulunur."
+    },
+    {
+     "label": "ç",
+     "text": "Besin güvenliğini, gıda kaynaklı hastalıkları, gıda katkı maddelerini, alerji ve intoleransları tanımlayarak bunların sağlık üzerindeki etkilerine yönelik problemlerin çözümü için önermeler üzerinden akıl yürütür."
+    },
+    {
+     "label": "d",
+     "text": "Besin güvenliğini, gıda kaynaklı hastalıkları, gıda katkı maddelerini, alerji ve intoleransları tanımlayarak bunların sağlık üzerindeki etkilerine yönelik problemlerin çözümüne ilişkin değerlendirmede bulunur."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.3.1",
+   "grade": 3,
+   "unit": null,
+   "order": 1,
+   "text": "Ergenlik döneminde gerçekleşen fiziksel ve sosyal-duygusal değişimleri çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Ergenlik döneminde gerçekleşen fiziksel ve sosyal-duygusal değişimleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Ergenlik döneminde gerçekleşen fiziksel ve sosyal-duygusal değişimler arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.3.2",
+   "grade": 3,
+   "unit": null,
+   "order": 2,
+   "text": "Stres ve stres kaynaklarına ilişkin problem çözebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Stres ve stres kaynaklarına ilişkin problemleri yapılandırır."
+    },
+    {
+     "label": "b",
+     "text": "Stres ve stres kaynaklarına ilişkin problemleri özetler."
+    },
+    {
+     "label": "c",
+     "text": "Stres ve stres kaynaklarına ilişkin problemlerin çözümüne yönelik mevcut bilgiye dayalı tahminde bulunur."
+    },
+    {
+     "label": "ç",
+     "text": "Stres ve stres kaynaklarına ilişkin problemlerin çözümüne yönelik önermeler üzerinden akıl yürütür."
+    },
+    {
+     "label": "d",
+     "text": "Stres ve stres kaynaklarına ilişkin problemlerin çözümüne yönelik değerlendirmede bulunur."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.3.3",
+   "grade": 3,
+   "unit": null,
+   "order": 3,
+   "text": "Öğrencilere; kimyasal bağımlılıklar (alkol, tütün ve madde) ve davranışsal bağımlılıklar (sosyal medya, genel ağ, kumar, dijital bağımlılık; kısa video izlenmesinin dikkat ve sinir sistemi üzerindeki olumsuz etkileri, çevrim içi oyunlardaki ödüllerin bağımlılık seviyesini artırması) konularını içeren sunu, belgesel, video veya animasyon izletilir. (OB4). Sokratik sorgulama tekniği kullanılarak öğrencilerden izledikleri içerik bağlamında bağımlılığı ve bağımlılığın birey, aile ve toplum üzerindeki etkilerini sorgulamaları beklenir (E3.1). Öğrencilerden, izledikleri içerikten hareketle bağımlılığın birey, aile ve toplum üzerindeki olumsuz etkileri ile bu etkilerin olası çözüm yolları hakkında akıl yürütmeleri ve bu akıl yürütmeden hareketle çıkarım yapmaları beklenir. (D13.3, KB2.10). Bu süreçte bağımlılıklar ile mücadele eden resmî kurumlardan bahsedilebilir. Öğrencilere bağımlılık ve bağımlılığın birey, aile ve toplum üzerindeki olumsuz etkileri ile bu etkilerin olası çözüm yollarına ilişkin akıl yürütmelerinden hareketle ulaştıkları çıkarımları yansıtan bir rapor ya da sunu hazırlamaları konusunda performans görevi verilebilir. Bu performans görevi, analitik dereceli puanlama anahtarıyla değerlendirilebilir.",
+   "components": []
+  },
+  {
+   "code": "SBTK.4.1",
+   "grade": 4,
+   "unit": null,
+   "order": 1,
+   "text": "İlk yardım bilgilerine dair deneyimleri yansıtabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İlk yardım bilgilerine dair deneyimleri gözden geçirir."
+    },
+    {
+     "label": "b",
+     "text": "İlk yardım bilgilerine dair deneyimlerden hareketle çıkarımlar yapar."
+    },
+    {
+     "label": "c",
+     "text": "İlk yardım bilgilerine yönelik çıkarımları değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.4.2",
+   "grade": 4,
+   "unit": null,
+   "order": 2,
+   "text": "Sağlıklı ve güvenli yaşam için güvenli ortam oluşturabilme.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Çevresindeki tehlikeleri ve riskleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği tehlike ve risklere yönelik uygun koruyucu ve kontrol tedbirleri alır."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.5.1",
+   "grade": 5,
+   "unit": null,
+   "order": 1,
+   "text": "Trafikteki tutum ve davranışlarda etkili iletişimin toplum üzerindeki etkisine yönelik eleştirel düşünebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Trafikteki tutum ve davranışlarda etkili iletişim durumlarını sorgular."
+    },
+    {
+     "label": "b",
+     "text": "Trafikteki tutum ve davranışlarda etkili iletişimin toplum üzerindeki etkileri hakkında akıl yürütür."
+    },
+    {
+     "label": "c",
+     "text": "Trafikteki tutum ve davranışlarda etkili iletişimin toplum üzerindeki etkileri hakkında akıl yürütmeyle ulaştığı çıkarımları davranışlarına yansıtır."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.5.2",
+   "grade": 5,
+   "unit": null,
+   "order": 2,
+   "text": "Trafik güvenliği bilincinin insan hayatına etkilerini sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Trafik güvenliği bilincinin insan hayatına etkilerini kendi ifadeleri ile tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Trafik güvenliği bilincinin insan hayatına etkileri ile ilgili sorular sorar."
+    },
+    {
+     "label": "c",
+     "text": "Trafik güvenliği bilincinin insan hayatına etkileri ile ilgili bilgi toplar."
+    },
+    {
+     "label": "ç",
+     "text": "Trafik güvenliği bilincinin insan hayatına etkileriyle ilgili topladığı bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Trafik güvenliği bilincinin insan hayatına etkileriyle ile ilgili topladığı bilgiler üzerinden çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.5.3",
+   "grade": 5,
+   "unit": null,
+   "order": 3,
+   "text": "Yaya güvenliği ile ilgili bilgi toplayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Yaya güvenliği ile ilgili bilgilere ulaşmak için kullanacağı araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği araçları kullanarak yaya güvenliği hakkındaki bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "Yaya güvenliği ile ilgili ulaşılan bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "Yaya güvenliği ile ilgili ulaşılan bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.5.4",
+   "grade": 5,
+   "unit": null,
+   "order": 4,
+   "text": "Yolcu güvenliği ile ilgili bilgi toplayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Yolcu güvenliği ile ilgili bilgilere ulaşmak için kullanacağı araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği araçları kullanarak yolcu güvenliği hakkındaki bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "Yolcu güvenliği ile ilgili ulaşılan bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "Yolcu güvenliği ile ilgili ulaşılan bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.5.5",
+   "grade": 5,
+   "unit": null,
+   "order": 5,
+   "text": "Sürücü güvenliği ile ilgili bilgi toplayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Sürücü güvenliği ile ilgili bilgiye ulaşmak için kullanacağı araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği araçları kullanarak sürücü güvenliği hakkındaki bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "Sürücü güvenliği ile ilgili ulaşılan bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "Sürücü güvenliği ile ilgili ulaşılan bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "SBTK.5.6",
+   "grade": 5,
+   "unit": null,
+   "order": 6,
+   "text": "Trafiğin çevre üzerindeki etkileri ile ilgili tümevarımsal akıl yürütebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Trafiğin çevre üzerindeki etkileri ile ilgili gözlem yapar."
+    },
+    {
+     "label": "b",
+     "text": "Trafiğin çevre üzerindeki etkileri ile ilgili örüntüler bulur."
+    },
+    {
+     "label": "c",
+     "text": "Trafiğin çevre üzerindeki etkileri ile ilgili genellemeler yapar."
+    }
+   ]
+  }
+ ],
+ "report": {
+  "units": 5,
+  "outcomes": 0,
+  "components": 0,
+  "orphan_outcomes": 21,
+  "gaps": [
+   {
+    "course": "Sağlık Bilgisi ve Trafik Kültürü Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "SBTK.1.1",
+     "SBTK.1.2",
+     "SBTK.1.3",
+     "SBTK.1.4",
+     "SBTK.1.5",
+     "SBTK.1.6",
+     "SBTK.2.1",
+     "SBTK.2.2",
+     "SBTK.2.3",
+     "SBTK.2.4",
+     "SBTK.3.1",
+     "SBTK.3.2",
+     "SBTK.3.3",
+     "SBTK.4.1",
+     "SBTK.4.2",
+     "SBTK.5.1",
+     "SBTK.5.2",
+     "SBTK.5.3",
+     "SBTK.5.4",
+     "SBTK.5.5",
+     "SBTK.5.6"
+    ]
+   }
+  ]
+ }
+}

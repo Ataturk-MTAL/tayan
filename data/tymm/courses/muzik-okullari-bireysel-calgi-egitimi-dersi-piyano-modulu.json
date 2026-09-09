@@ -2006,14 +2006,6 @@
   "outcomes": 62,
   "components": 222,
   "orphan_outcomes": 0,
-  "gaps": [
-   {
-    "course": "Bireysel Çalgı Eğitimi Dersi-Piyano Modülü",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "PYN.8.3.1"
-    ]
-   }
-  ]
+  "gaps": []
  }
 }
