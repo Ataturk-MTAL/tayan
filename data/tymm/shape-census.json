@@ -1,0 +1,7414 @@
+{
+ "source": {
+  "name": "TYMM ders programı PDF'lerindeki kod şekilleri",
+  "measured_at": "2026-09-09",
+  "generator": "scripts/build_tymm_shape_manifest.py",
+  "note": "ÖLÇÜLEN. Elle düzenlenmez; PDF'lerden yeniden üretilir."
+ },
+ "report": {
+  "courses": 111,
+  "shapes": 642
+ },
+ "courses": {
+  "astronomi-ve-uzay-bilimleri-dersi": [
+   {
+    "prefix": "AST",
+    "scheme": "noktalı-3",
+    "count": 50,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 50,
+    "sample": "AST.1.1. Astronominin bilimsel düşüncenin ge-"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 14,
+    "nested": 1,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 13,
+    "sample": "KB2.3. Özetleme, KB2.4. Çözümleme, KB2.8. Sorgu-                  zihinsel faali",
+    "shadow_of": "KB/yapışık-3"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 3,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 3,
+    "sample": "KB2.16.1.                  ürünü olarak işe koşulan"
+   }
+  ],
+  "beden-egitimi-ve-oyun-dersi": [
+   {
+    "prefix": "BEO",
+    "scheme": "noktalı-4",
+    "count": 106,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 106,
+    "sample": "BEO.1.1.1. Oyunlarda hareket kavramlarını"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 43,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 43,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık),"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 15,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 15,
+    "sample": "KB2.18. Tartışma, TAB3. Konuşma,"
+   },
+   {
+    "prefix": "BEO",
+    "scheme": "noktalı-3",
+    "count": 118,
+    "nested": 106,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 12,
+    "sample": "BEO.4.1. Hareket",
+    "shadow_of": "BEO/noktalı-4"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 6,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 6,
+    "sample": "SBAB5.2. Grup Dinamiğini Sağlama"
+   }
+  ],
+  "beden-egitimi-ve-spor-dersi": [
+   {
+    "prefix": "BES",
+    "scheme": "noktalı-4",
+    "count": 70,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 70,
+    "sample": "BES.9.1.1. Hayat boyu egzersiz alışkanlığı edinmenin sağlığa etkilerini yorumlay"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 18,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 18,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği"
+   },
+   {
+    "prefix": "BES.H",
+    "scheme": "noktalı-3",
+    "count": 12,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 12,
+    "sample": "BES.H.1.1. Fiziksel etkinliğin beden ve ruh sağlığına etkisini yorumlayabilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 9,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 9,
+    "sample": "KB2.14. Yorumlama"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SBAB11.2. Tablo, Grafik, Şekil ve/veya Diyagram Hazırlama"
+   },
+   {
+    "prefix": "BES",
+    "scheme": "noktalı-3",
+    "count": 70,
+    "nested": 70,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "BES.9.1.1. Hayat boyu egzersiz alışkanlığı edinmenin sağlığa etkilerini yorumlay",
+    "shadow_of": "BES/noktalı-4"
+   }
+  ],
+  "beden-egitimi-ve-spor-temel-egitim": [
+   {
+    "prefix": "BES",
+    "scheme": "noktalı-4",
+    "count": 113,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 113,
+    "sample": "BES.5.1.1. Fiziksel aktiviteler sırasında vücudunda"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 52,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 52,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık),                        ifade eder."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 29,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 29,
+    "sample": "KB2.4. Çözümleyebilme,                       ve karmaşık süreçleri"
+   },
+   {
+    "prefix": "BES",
+    "scheme": "noktalı-3",
+    "count": 119,
+    "nested": 113,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 5,
+    "sample": "BES.5.1. Hareket ve                BES.6.1. Sağlıkla İlgili     BES.7.1. Perform",
+    "shadow_of": "BES/noktalı-4"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 4,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 4,
+    "sample": "SBAB5.2. Grup Dinamiğini Sağlama"
+   }
+  ],
+  "beden-egitimi-ve-sporun-temelleri-dersi": [
+   {
+    "prefix": "BEST",
+    "scheme": "noktalı-4",
+    "count": 35,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 35,
+    "sample": "BEST.5.1.1.\n                                                          Beden eğit"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 24,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 24,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.2. İş"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 22,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 22,
+    "sample": "KB2.8. Sorgulama                             zihinsel faaliyetlerin bir"
+   },
+   {
+    "prefix": "BEST",
+    "scheme": "noktalı-3",
+    "count": 42,
+    "nested": 35,
+    "truncated": 7,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "BEST.5.1.1.",
+    "shadow_of": "BEST/noktalı-4"
+   }
+  ],
+  "bilisim-teknolojileri-ve-yazilim-dersi": [
+   {
+    "prefix": "BTY",
+    "scheme": "noktalı-4",
+    "count": 86,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 86,
+    "sample": "BTY.5.1.1. Günlük yaşamda kullanılan bilişim teknolojile-"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 28,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 28,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 20,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 20,
+    "sample": "KB2.3. Özetleme, KB2.4. Çözümleme, KB2.8 Sor-                      eyleme dönüşt"
+   },
+   {
+    "prefix": "BTYAB",
+    "scheme": "yapışık-2",
+    "count": 16,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 16,
+    "sample": "BTYAB4.1. Tasarım Araç, Teknoloji ve Yöntemlerinden"
+   },
+   {
+    "prefix": "BTY",
+    "scheme": "yapışık-3",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "BTY6.6.3. Blok tabanlı ortamda yapay zekâ destekli ürün ortaya koyabilme"
+   },
+   {
+    "prefix": "YAB",
+    "scheme": "yapışık-2",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "YAB3.3. Yazılım Geliştirme Sürecini Yönetme)"
+   },
+   {
+    "prefix": "E",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "E.1.1. Merak, E3.3. Yaratıcılık, E3.8. Soru Sorma"
+   },
+   {
+    "prefix": "BTY",
+    "scheme": "noktalı-3",
+    "count": 95,
+    "nested": 86,
+    "truncated": 9,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "BTY.5.1.1. Günlük yaşamda kullanılan bilişim teknolojile-",
+    "shadow_of": "BTY/noktalı-4"
+   },
+   {
+    "prefix": "BTY",
+    "scheme": "yapışık-2",
+    "count": 5,
+    "nested": 2,
+    "truncated": 3,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "BTY6.4.2",
+    "shadow_of": "BTY/yapışık-3"
+   }
+  ],
+  "biyoloji-dersi": [
+   {
+    "prefix": "BİY",
+    "scheme": "noktalı-4",
+    "count": 75,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 75,
+    "sample": "BİY.9.1.1. Biyolojideki dönüm noktalarının insan hayatına katkılarını sorgulayab"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 22,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 22,
+    "sample": "KB2.6. Bilgi Toplama                                         eyleme dönüştürürke"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 12,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 12,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme)"
+   },
+   {
+    "prefix": "BİY",
+    "scheme": "noktalı-3",
+    "count": 150,
+    "nested": 75,
+    "truncated": 75,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "BİY.9.1.1).                      deneyimleri arasında bağ",
+    "shadow_of": "BİY/noktalı-4"
+   }
+  ],
+  "cagdas-turk-ve-dunya-tarihi-dersi": [
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 8,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 8,
+    "sample": "SBAB3.1. Tarihsel Bağlam-"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.2.            ifade eder."
+   },
+   {
+    "prefix": "ÇTDT",
+    "scheme": "noktalı-3",
+    "count": 10,
+    "nested": 0,
+    "truncated": 8,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "ÇTDT.2.1. Çift kutuplu dünya düzeninin 1945-1991 yılları arasında Türk ve dünya "
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "KB2.4. Çözümleme, KB2.14. Yorumlama"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "boşluklu-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "KB 2.3. Özetleme"
+   },
+   {
+    "prefix": "KKB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "KKB2.4. Çözümleme, KB2.14. Yorumlama                            faaliyetlerin bi"
+   }
+  ],
+  "cocuklarda-atletik-performans-uygulamalari-dersi": [
+   {
+    "prefix": "ÇAPU",
+    "scheme": "noktalı-4",
+    "count": 64,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 64,
+    "sample": "ÇAPU.5.1.1. Dengenin sportif performans üzerindeki"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 23,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 23,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzen­leme) SDB1.3."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 19,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 19,
+    "sample": "KB2.3. Özetleme, KB2.17. Değerlendirme                          zihinsel faaliye"
+   },
+   {
+    "prefix": "E",
+    "scheme": "noktalı-3",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "E.1.1. Merak, E3.6. Analitiklik, E3.7. Sistematiklik           ifade eder."
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "boşluklu-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SDB 3.1. Uyum, SDB3.2. Esneklik, SDB3.3. Sorumlu"
+   },
+   {
+    "prefix": "ÇAPU",
+    "scheme": "noktalı-3",
+    "count": 64,
+    "nested": 64,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "ÇAPU.5.1.1. Dengenin sportif performans üzerindeki",
+    "shadow_of": "ÇAPU/noktalı-4"
+   }
+  ],
+  "cografya-dersi": [
+   {
+    "prefix": "COĞ",
+    "scheme": "noktalı-4",
+    "count": 85,
+    "nested": 0,
+    "truncated": 8,
+    "inner": 0,
+    "labelled": 0,
+    "free": 77,
+    "sample": "COĞ.9.1.1. Coğrafya biliminin konusu ve bölümlerini"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 65,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 65,
+    "sample": "SBAB7.11. Mekânda De-"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 63,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 63,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 48,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 48,
+    "sample": "KB2.4. Çözümleme, KB2.6. Bilgi Toplama                       eyleme dönüştürürke"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "KB.2.7. Karşılaştırma), SBAB7. Mekânsal Düşünme (SBAB7.4. Mekânları"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "boşluklu-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "KB 2.5. Sınıflandırma"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "boşluklu-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SBAB 1.2. Sıralama)"
+   },
+   {
+    "prefix": "COĞ",
+    "scheme": "noktalı-3",
+    "count": 167,
+    "nested": 82,
+    "truncated": 85,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "COĞ.11.1.1.",
+    "shadow_of": "COĞ/noktalı-4"
+   }
+  ],
+  "coklu-yabanci-dil-egitim-modeli-almanca": [
+   {
+    "prefix": "DE",
+    "scheme": "alanlı-5",
+    "count": 264,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 264,
+    "sample": "DE.5.1.H1.1. – Vorbereitung auf den Prozess für Hör/Sehverstehen"
+   },
+   {
+    "prefix": "KK",
+    "scheme": "yapışık-2",
+    "count": 226,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 226,
+    "sample": "KK2.2.Beobachtungsfähigkeit"
+   },
+   {
+    "prefix": "SELK",
+    "scheme": "yapışık-2",
+    "count": 164,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 164,
+    "sample": "SELK1.1. Selbstwahrnehmungskompetenz                   und Lernen entwickelt"
+   },
+   {
+    "prefix": "DE",
+    "scheme": "alanlı-4",
+    "count": 159,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 159,
+    "sample": "DE.5.1.H1.\nVORBEREITUNG AUF DAS HÖR- UND SEHVERSTEHEN:"
+   },
+   {
+    "prefix": "DE",
+    "scheme": "noktalı-3",
+    "count": 529,
+    "nested": 423,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 106,
+    "sample": "DE.5.6.H1",
+    "shadow_of": "DE/alanlı-5"
+   },
+   {
+    "prefix": "SP",
+    "scheme": "yapışık-2",
+    "count": 59,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 59,
+    "labelled": 0,
+    "free": 0,
+    "sample": "SP3.1. – Vorbereitung auf den Sprechprozess"
+   }
+  ],
+  "coklu-yabanci-dil-egitim-modeli-ingilizce": [
+   {
+    "prefix": "ENG",
+    "scheme": "alanlı-4",
+    "count": 1128,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 1,
+    "free": 1128,
+    "sample": "ENG.2.1.L1. Students can"
+   },
+   {
+    "prefix": "ENG",
+    "scheme": "yapışık-2",
+    "count": 744,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 744,
+    "sample": "ENG5.1.L1."
+   },
+   {
+    "prefix": "CS",
+    "scheme": "yapışık-2",
+    "count": 714,
+    "nested": 29,
+    "truncated": 349,
+    "inner": 0,
+    "labelled": 0,
+    "free": 336,
+    "sample": "CS2.1. Conflict Resolution Skill, CS2.2. Observation          the learning-teach",
+    "shadow_of": "CS/yapışık-3"
+   },
+   {
+    "prefix": "SELS",
+    "scheme": "yapışık-2",
+    "count": 165,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 165,
+    "sample": "SELS1.1. Self-Awareness Skill, SELS1.2. Self-"
+   },
+   {
+    "prefix": "CS",
+    "scheme": "yapışık-3",
+    "count": 66,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 66,
+    "sample": "CS2.16.1. Inductive"
+   },
+   {
+    "prefix": "ENG",
+    "scheme": "noktalı-3",
+    "count": 1130,
+    "nested": 1128,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "ENG.5.1.P1 \u0007Students can select and use the target phonological elements of the ",
+    "shadow_of": "ENG/alanlı-4"
+   }
+  ],
+  "demokrasi-ve-insan-haklari-dersi": [
+   {
+    "prefix": "DİH",
+    "scheme": "yapışık-2",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "DİH1.1. Demokrasinin tarihsel gelişiminde yaşanan"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "KB2.17. Değerlendirme), SBAB3. Tarihsel Empati                    gerektirmeden "
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 5,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 5,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 4,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 4,
+    "sample": "SBAB3.1. Tarihsel Bağlamsallaştırma)                              ve gözlenebile"
+   }
+  ],
+  "din-kulturu-ve-ahlak-bilgisi-dersi-2": [
+   {
+    "prefix": "DKAB",
+    "scheme": "noktalı-4",
+    "count": 75,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 75,
+    "sample": "DKAB.9.1.1. İnsanın yaratılışını ve özelliklerini"
+   },
+   {
+    "prefix": "DAB",
+    "scheme": "yapışık-2",
+    "count": 37,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 37,
+    "sample": "DAB4.1. Müşahede Etme)"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 31,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 31,
+    "sample": "KB2.15. Yansıtma, KB3.3. Eleştirel"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 23,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 23,
+    "sample": "SDB1.3. Kendine Uyarlama (Öz Yansıtma),"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "KB2.16.3. Analojik Akıl Yürütme"
+   },
+   {
+    "prefix": "DKAB",
+    "scheme": "noktalı-3",
+    "count": 149,
+    "nested": 75,
+    "truncated": 74,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "DKAB.9.1.1. İnsanın yaratılışını ve özelliklerini",
+    "shadow_of": "DKAB/noktalı-4"
+   }
+  ],
+  "din-kulturu-ve-ahlak-bilgisi-dersi": [
+   {
+    "prefix": "DKAB",
+    "scheme": "noktalı-4",
+    "count": 99,
+    "nested": 0,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 98,
+    "sample": "DKAB.4.1.1. Öğrenme çıktı"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 48,
+    "nested": 1,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 47,
+    "sample": "KB2.6. Bilgi Toplama, KB2.14. Yorumlama,",
+    "shadow_of": "KB/yapışık-3"
+   },
+   {
+    "prefix": "DAB",
+    "scheme": "yapışık-2",
+    "count": 29,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 29,
+    "sample": "DAB3.1. Dinî Kavramları Ayırt"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 27,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 27,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık),"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "KB2.16.2.Tümdengelimsel Akıl Yürütme)"
+   },
+   {
+    "prefix": "E",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "E.3.6. Analitiklik"
+   },
+   {
+    "prefix": "DKAB",
+    "scheme": "noktalı-3",
+    "count": 195,
+    "nested": 99,
+    "truncated": 96,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "DKAB.4.1.1. Öğrenme çıktı",
+    "shadow_of": "DKAB/noktalı-4"
+   }
+  ],
+  "felsefe-dersi": [
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 29,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 29,
+    "sample": "KB2.4. Çözümleme, KB2.5. Sınıflandırma, KB2.7."
+   },
+   {
+    "prefix": "FEL",
+    "scheme": "noktalı-4",
+    "count": 24,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 24,
+    "sample": "FEL.10.1.1.\n     beceri ve becerilerin süreç"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 18,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 18,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme Becerisi),"
+   },
+   {
+    "prefix": "FEL",
+    "scheme": "noktalı-3",
+    "count": 46,
+    "nested": 24,
+    "truncated": 22,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "FEL.10.1.1.",
+    "shadow_of": "FEL/noktalı-4"
+   }
+  ],
+  "fen-bilimleri-dersi": [
+   {
+    "prefix": "FB",
+    "scheme": "noktalı-4",
+    "count": 181,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 181,
+    "sample": "FB.5.1.1. Güneş’in yapısı ve dönme hareketi ile ilgili"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 102,
+    "nested": 3,
+    "truncated": 10,
+    "inner": 0,
+    "labelled": 0,
+    "free": 89,
+    "sample": "KB2.6. Bilgi Toplama                                                    becerile",
+    "shadow_of": "KB/yapışık-3"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 78,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 78,
+    "sample": "SDB1.2. Öz Düzenleme (Öz Düzenleme)                                    okuryazar"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 11,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 11,
+    "sample": "KB2.16.1. Tümeva-"
+   },
+   {
+    "prefix": "SD",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SD51.1. Kendini Tanıma (Öz Farkındalık)                               becerileri"
+   },
+   {
+    "prefix": "FB",
+    "scheme": "noktalı-3",
+    "count": 363,
+    "nested": 181,
+    "truncated": 182,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "FB.5.1.1",
+    "shadow_of": "FB/noktalı-4"
+   }
+  ],
+  "fizik-dersi": [
+   {
+    "prefix": "FİZ",
+    "scheme": "noktalı-4",
+    "count": 108,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 108,
+    "sample": "FİZ.9.2.2. Skaler ve vektörel nicelikleri karşılaş-"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 40,
+    "nested": 3,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 36,
+    "sample": "KB2.7. Karşılaştırma                                            eyleme dönüştürü",
+    "shadow_of": "KB/yapışık-3"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 35,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 35,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "KB2.16.1. Tü-"
+   },
+   {
+    "prefix": "FİZ",
+    "scheme": "noktalı-3",
+    "count": 214,
+    "nested": 108,
+    "truncated": 106,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "FİZ.9.2.2. Skaler ve vektörel nicelikleri karşılaş-",
+    "shadow_of": "FİZ/noktalı-4"
+   }
+  ],
+  "gorsel-sanatlar-dersi-temel-egitim": [
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 121,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 121,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Dü-"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 95,
+    "nested": 1,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 93,
+    "sample": "KB2.8. Sorgulama                                                        eyleme d",
+    "shadow_of": "KB/yapışık-3"
+   },
+   {
+    "prefix": "GS",
+    "scheme": "noktalı-4",
+    "count": 86,
+    "nested": 0,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 85,
+    "sample": "GS.8.7.1. Kent kültürü ve müzeler arasındaki ilişkileri sor-"
+   },
+   {
+    "prefix": "SAB",
+    "scheme": "yapışık-2",
+    "count": 9,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 9,
+    "sample": "SAB1.2. Sanatsal Karşılaştırma"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "KB2.16.1. Tümevarımsal Akıl Yürütme, KB2.16.2. Tümdengelimsel Akıl Yürütme,"
+   },
+   {
+    "prefix": "GS",
+    "scheme": "noktalı-3",
+    "count": 172,
+    "nested": 86,
+    "truncated": 86,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "GS.8.7.1. Kent kültürü ve müzeler arasındaki ilişkileri sor-",
+    "shadow_of": "GS/noktalı-4"
+   }
+  ],
+  "gorsel-sanatlar-dersi": [
+   {
+    "prefix": "GS",
+    "scheme": "noktalı-4",
+    "count": 188,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 188,
+    "sample": "GS.9.1.1. Sanat dalları ile ilgili görsel kılavuz"
+   },
+   {
+    "prefix": "SAB",
+    "scheme": "yapışık-2",
+    "count": 56,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 56,
+    "sample": "SAB4.1.\n                                                              Sanatsal Ü"
+   },
+   {
+    "prefix": "GS.H",
+    "scheme": "noktalı-3",
+    "count": 48,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 48,
+    "sample": "GS.H.1.1. Deyim ve atasözlerini konu alan karikatür tasarlayabilme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 22,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 22,
+    "sample": "SDB2.2. İş Birliği, SDB2.1. İletişim"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 21,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 21,
+    "sample": "KB2.8. Sorgulama"
+   },
+   {
+    "prefix": "GS",
+    "scheme": "noktalı-3",
+    "count": 189,
+    "nested": 188,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "GS.9.1.1. Sanat dalları ile ilgili görsel kılavuz",
+    "shadow_of": "GS/noktalı-4"
+   }
+  ],
+  "hayat-bilgisi-dersi": [
+   {
+    "prefix": "HB",
+    "scheme": "noktalı-4",
+    "count": 73,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 73,
+    "sample": "HB.1.4.4. Millî gün ve bayramlarda yaşadığı duyguları ifade"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 25,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 25,
+    "sample": "KB2.4. Çözümleme                        fikirleri ve karmaşık süreçleri eyleme"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 15,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 15,
+    "sample": "SBAB2.1. Meraka Dayalı Soru Sorma)"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 15,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 15,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.1. İletişim, SDB2.2. İş Birliği, S"
+   },
+   {
+    "prefix": "SAB",
+    "scheme": "yapışık-2",
+    "count": 3,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 3,
+    "sample": "SAB3.1. Sanatsal Betimleme)"
+   },
+   {
+    "prefix": "HB",
+    "scheme": "noktalı-3",
+    "count": 139,
+    "nested": 73,
+    "truncated": 66,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "HB.1.4.4. Millî gün ve bayramlarda yaşadığı duyguları ifade",
+    "shadow_of": "HB/noktalı-4"
+   },
+   {
+    "prefix": "HB",
+    "scheme": "boşluklu-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "HB 2.5.2"
+   }
+  ],
+  "iklim-cevre-ve-yenilikci-cozumler-dersi": [
+   {
+    "prefix": "İÇYÇ",
+    "scheme": "noktalı-3",
+    "count": 18,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 18,
+    "sample": "İÇYÇ.1.1. Küresel iklim sisteminde meydana gelen değişiklikleri yorumlayabilme"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 13,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 13,
+    "sample": "SBAB4.2.\nrılan becerileri ifade eder.                            Değişim ve Sür"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "KB2.3. Özetleme, KB2.4. Çözümleme, KB2.7. Karşı-              eyleme dönüştürürk"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "KB2.16.2. Tümdengelimsel Akıl"
+   }
+  ],
+  "ilkokul-matematik-dersi": [
+   {
+    "prefix": "MAT",
+    "scheme": "noktalı-4",
+    "count": 112,
+    "nested": 0,
+    "truncated": 3,
+    "inner": 0,
+    "labelled": 0,
+    "free": 109,
+    "sample": "MAT.1.1.1. Rakamları ve 20’ye kadar olan sayıları (20 dâhil), niceliklerin büyük"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 47,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 47,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 52,
+    "nested": 3,
+    "truncated": 3,
+    "inner": 0,
+    "labelled": 0,
+    "free": 46,
+    "sample": "KB2.4. Çözümleme, KB2.7. Karşılaş-             edinilen ve gözlenebilen temel be",
+    "shadow_of": "KB/yapışık-3"
+   },
+   {
+    "prefix": "MAT",
+    "scheme": "noktalı-3",
+    "count": 254,
+    "nested": 112,
+    "truncated": 112,
+    "inner": 0,
+    "labelled": 0,
+    "free": 30,
+    "sample": "MAT.1.1. Sayılar ve               MAT.2.1. Sayılar ve           MAT.3.1. Sayılar",
+    "shadow_of": "MAT/noktalı-4"
+   },
+   {
+    "prefix": "MAB",
+    "scheme": "yapışık-2",
+    "count": 25,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 25,
+    "sample": "MAB3.1. Matematiksel                      Disipline özgü şekilde yapılandırılan"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 6,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 6,
+    "sample": "KB2.16.2.\n                      becerilerini ifade eder.                        "
+   }
+  ],
+  "ilkokul-turkce-dersi": [
+   {
+    "prefix": "T.D",
+    "scheme": "noktalı-3",
+    "count": 138,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 138,
+    "sample": "T.D.1.3. T: Türkçe (Ders adı), D: Dinleme/İzleme, K: Konuşma, O: Okuma, Y: Yazma"
+   },
+   {
+    "prefix": "T.O",
+    "scheme": "noktalı-3",
+    "count": 126,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 126,
+    "sample": "T.O.1.1. Okuma sürecini yönetebilme"
+   },
+   {
+    "prefix": "T.Y",
+    "scheme": "noktalı-3",
+    "count": 125,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 125,
+    "sample": "T.Y.1.1. Yazılı anlatım becerilerini yönetebilme"
+   },
+   {
+    "prefix": "T.K",
+    "scheme": "noktalı-3",
+    "count": 122,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 122,
+    "sample": "T.K.1.2. Konuşmalarında içerik oluşturabilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 120,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 120,
+    "sample": "KB2.4. Çözümleme, KB2.7. Karşılaştırma"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 44,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 44,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık),"
+   }
+  ],
+  "ingilizce-dersi-9-12": [
+   {
+    "prefix": "ENG",
+    "scheme": "alanlı-4",
+    "count": 1440,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1440,
+    "sample": "ENG.9.1.L1. Students can prepare and get ready for listening (to)/watching about"
+   },
+   {
+    "prefix": "CS",
+    "scheme": "yapışık-2",
+    "count": 542,
+    "nested": 60,
+    "truncated": 270,
+    "inner": 0,
+    "labelled": 0,
+    "free": 212,
+    "sample": "CS2.1. Conflict Resolution Skill, CS2.2. Observation                not directly",
+    "shadow_of": "CS/yapışık-3"
+   },
+   {
+    "prefix": "SELS",
+    "scheme": "yapışık-2",
+    "count": 125,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 125,
+    "sample": "SELS1.1. Self-Awareness Skill, SELS1.2. Self-                    the learning-te"
+   },
+   {
+    "prefix": "CS",
+    "scheme": "yapışık-3",
+    "count": 60,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 60,
+    "sample": "CS2.16.1. Inductive Reasoning Skill, CS2.16.2. Deductive"
+   },
+   {
+    "prefix": "ENG",
+    "scheme": "noktalı-3",
+    "count": 1441,
+    "nested": 1440,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "ENG.10.7.S5.",
+    "shadow_of": "ENG/alanlı-4"
+   }
+  ],
+  "ingilizce-dersi-hazirlik-12": [
+   {
+    "prefix": "ENG",
+    "scheme": "alanlı-4",
+    "count": 1530,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1530,
+    "sample": "ENG.9.1.L1.Students can prepare and get ready for listening (to)/watching about "
+   },
+   {
+    "prefix": "CS",
+    "scheme": "yapışık-2",
+    "count": 872,
+    "nested": 96,
+    "truncated": 432,
+    "inner": 0,
+    "labelled": 0,
+    "free": 344,
+    "sample": "CS2.1. Conflict Resolution Skill, CS2.2. Observation           Refers to the fie",
+    "shadow_of": "CS/yapışık-3"
+   },
+   {
+    "prefix": "SELS",
+    "scheme": "yapışık-2",
+    "count": 197,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 197,
+    "sample": "SELS1.1. Self-Awareness Skill, SELS1.2. Self-                 the teaching-learn"
+   },
+   {
+    "prefix": "CS",
+    "scheme": "yapışık-3",
+    "count": 96,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 96,
+    "sample": "CS2.16.1. Inductive Reasoning Skill, CS2.16.2. Deductive"
+   },
+   {
+    "prefix": "ENG",
+    "scheme": "noktalı-3",
+    "count": 1532,
+    "nested": 1530,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "ENG.11.6.W1.",
+    "shadow_of": "ENG/alanlı-4"
+   },
+   {
+    "prefix": "EENG",
+    "scheme": "alanlı-4",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "EENG.11.1.W6. Students can reconstruct their writing about the current theme on "
+   },
+   {
+    "prefix": "EN",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "EN10.4.S3. Students can produce meaningful and accurate spoken content related t"
+   },
+   {
+    "prefix": "EENG",
+    "scheme": "noktalı-3",
+    "count": 2,
+    "nested": 2,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "EENG.11.1.W6. Students can reconstruct their writing about the current theme on ",
+    "shadow_of": "EENG/alanlı-4"
+   }
+  ],
+  "ingilizce-dersi-temel-egitim": [
+   {
+    "prefix": "ENG",
+    "scheme": "alanlı-4",
+    "count": 1582,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 1,
+    "free": 1582,
+    "sample": "ENG.2.1.L1. \u0007Pupils can"
+   },
+   {
+    "prefix": "ENG",
+    "scheme": "yapışık-2",
+    "count": 776,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 1,
+    "free": 776,
+    "sample": "ENG3.1.PC1. Pupils become familiar with model/example content through repetition"
+   },
+   {
+    "prefix": "CS",
+    "scheme": "yapışık-2",
+    "count": 854,
+    "nested": 59,
+    "truncated": 397,
+    "inner": 0,
+    "labelled": 0,
+    "free": 398,
+    "sample": "CS2.2. Observation Skill, CS2.3. Summarising Skill,           Refers to the fiel",
+    "shadow_of": "CS/yapışık-3"
+   },
+   {
+    "prefix": "SELS",
+    "scheme": "yapışık-2",
+    "count": 204,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 204,
+    "sample": "SELS1.1. Self-Awareness Skill, SELS1.2. Self-"
+   },
+   {
+    "prefix": "CS",
+    "scheme": "yapışık-3",
+    "count": 91,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 91,
+    "sample": "CS2.16.2. Deductive Reasoning Skill, CS2.16.3. Analogical Reasoning Skill,"
+   },
+   {
+    "prefix": "ENG",
+    "scheme": "noktalı-3",
+    "count": 1611,
+    "nested": 1583,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 28,
+    "sample": "ENG.3.4.L1",
+    "shadow_of": "ENG/alanlı-4"
+   },
+   {
+    "prefix": "ENG",
+    "scheme": "noktalı-4",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "ENG.3.1.6.R2."
+   }
+  ],
+  "insan-haklari-vatandaslik-ve-demokrasi-dersi": [
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 37,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 37,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.1. İletişim, SDB2.2. İş Birliği"
+   },
+   {
+    "prefix": "İHVD",
+    "scheme": "noktalı-4",
+    "count": 33,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 33,
+    "sample": "İHVD.4.1.2.)"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 15,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 15,
+    "sample": "KB2.14. Yorumlama (İHVD.4.1.3.)"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 4,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 4,
+    "sample": "SBAB2.6. Kanıta Dayalı Ürün Oluşturma"
+   },
+   {
+    "prefix": "İHVD",
+    "scheme": "noktalı-3",
+    "count": 33,
+    "nested": 33,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "İHVD.4.1.2.)",
+    "shadow_of": "İHVD/noktalı-4"
+   }
+  ],
+  "islam-bilim-tarihi-dersi": [
+   {
+    "prefix": "İBT",
+    "scheme": "noktalı-3",
+    "count": 30,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 30,
+    "sample": "İBT.1.1. İslam biliminin temel kavramları ve ge-"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 20,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 20,
+    "sample": "SBAB2.3. Kaynağı İnceleme, SBAB2.5. Kaynağı"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 18,
+    "nested": 2,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 16,
+    "sample": "KB2.14. Yo-                 Karmaşık bir süreç",
+    "shadow_of": "KB/yapışık-3"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "KB2.16.3. Analojik Akıl Yürütme)"
+   }
+  ],
+  "kapsamli-spor-egitimi-dersi": [
+   {
+    "prefix": "KSE",
+    "scheme": "noktalı-3",
+    "count": 43,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 43,
+    "sample": "KSE.1.1. Bireysel sporlarda seçilen spor branşının"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 15,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 15,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme Beceri-                  becerilerini if"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 5,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 5,
+    "sample": "KB2.2. Gözlemleme,"
+   }
+  ],
+  "kimya-dersi": [
+   {
+    "prefix": "KİM",
+    "scheme": "noktalı-4",
+    "count": 94,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 94,
+    "sample": "KİM.9.1.7. İyon oluşumuna ilişkin tümevarımsal akıl"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 36,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 36,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 33,
+    "nested": 2,
+    "truncated": 5,
+    "inner": 0,
+    "labelled": 0,
+    "free": 26,
+    "sample": "KB2.4. Çözümleme, KB3.2. Problem Çözme                             eyleme dönüşt",
+    "shadow_of": "KB/yapışık-3"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "KB2.16.2. Tümdengelimsel"
+   },
+   {
+    "prefix": "KİM",
+    "scheme": "noktalı-3",
+    "count": 188,
+    "nested": 94,
+    "truncated": 94,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "KİM.9.1.7. İyon oluşumuna ilişkin tümevarımsal akıl",
+    "shadow_of": "KİM/noktalı-4"
+   }
+  ],
+  "kurani-kerim-dersi-2": [
+   {
+    "prefix": "KK",
+    "scheme": "noktalı-4",
+    "count": 44,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 44,
+    "sample": "KK.9.1.1. Kur’an-ı Kerim okumanın önemi ile"
+   },
+   {
+    "prefix": "DAB",
+    "scheme": "yapışık-2",
+    "count": 20,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 20,
+    "sample": "DAB1.1. Kur’an-ı            Karmaşık bir süreç"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 20,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 20,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.1."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "KB2.6. Bilgi Toplama                          zihinsel faaliyetlerin bir"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SDB.1.3. Kendine Uyarlama (Öz Yansıtma),"
+   },
+   {
+    "prefix": "KK",
+    "scheme": "noktalı-3",
+    "count": 88,
+    "nested": 44,
+    "truncated": 44,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "KK.9.1.1. Kur’an-ı Kerim okumanın önemi ile",
+    "shadow_of": "KK/noktalı-4"
+   }
+  ],
+  "kurani-kerim-dersi": [
+   {
+    "prefix": "KK",
+    "scheme": "noktalı-4",
+    "count": 83,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 83,
+    "sample": "KK.5.1.1. Kur’an-ı Kerim’i öğrenmenin önemini ve"
+   },
+   {
+    "prefix": "DAB",
+    "scheme": "yapışık-2",
+    "count": 30,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 30,
+    "sample": "DAB7.1. Telaffuz Etme,                         Disipline özgü şekilde"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 23,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 23,
+    "sample": "KB2.4. Çözümleme,"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 23,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 23,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme),"
+   },
+   {
+    "prefix": "TAB",
+    "scheme": "yapışık-2",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "TAB3.2. İçerik Oluşturma)"
+   },
+   {
+    "prefix": "KK",
+    "scheme": "noktalı-3",
+    "count": 167,
+    "nested": 83,
+    "truncated": 84,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "KK.5.1.1. Kur’an-ı Kerim’i öğrenmenin önemini ve",
+    "shadow_of": "KK/noktalı-4"
+   }
+  ],
+  "mantik-dersi": [
+   {
+    "prefix": "MAN",
+    "scheme": "noktalı-3",
+    "count": 18,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 18,
+    "sample": "MAN.1.1. Mantığı formel bir bilim olarak sorgula-"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 17,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 17,
+    "sample": "KB2.3. Özetleme, KB2.8. Sorgulama,                                 ve karmaşık s"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 8,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 8,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği,"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SBAB12.1. Akıl Yürütme Biçimlerini Uygulama,"
+   }
+  ],
+  "matematik-dersi": [
+   {
+    "prefix": "MAT",
+    "scheme": "noktalı-4",
+    "count": 77,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 77,
+    "sample": "MAT.9.1.1. Gerçek sayıların üslü ve köklü gösterimleriyle yapılan işlemlere dair"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 48,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 48,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.2. İş Birliği, SDB3.2. Esneklik"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 31,
+    "nested": 3,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 28,
+    "sample": "KB2.4. Çözümleme, KB2.10. Çıkarım Yapma, KB2.20. Sentezleme",
+    "shadow_of": "KB/yapışık-3"
+   },
+   {
+    "prefix": "MAT",
+    "scheme": "noktalı-3",
+    "count": 179,
+    "nested": 77,
+    "truncated": 75,
+    "inner": 0,
+    "labelled": 0,
+    "free": 27,
+    "sample": "MAT.9.1. SAYILAR                                                  4             ",
+    "shadow_of": "MAT/noktalı-4"
+   },
+   {
+    "prefix": "MAT.H",
+    "scheme": "noktalı-3",
+    "count": 11,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 11,
+    "sample": "MAT.H.1.1. Doğrusal ilişkiler içeren problemlerin çözümlerinde matematiksel araç"
+   },
+   {
+    "prefix": "MAB",
+    "scheme": "yapışık-2",
+    "count": 8,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 8,
+    "sample": "MAB5.1. Matematiksel Araç ve Tekno-"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 6,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 6,
+    "sample": "KB2.16.1. Tümevarımsal Akıl Yürütme, KB2.16.3. Analojik Akıl Yürütme"
+   },
+   {
+    "prefix": "MAT",
+    "scheme": "boşluklu-2",
+    "count": 2,
+    "nested": 0,
+    "truncated": 2,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "MAT 11.1.2"
+   }
+  ],
+  "matematik-uygulamalari-dersi": [
+   {
+    "prefix": "MAT.U",
+    "scheme": "noktalı-4",
+    "count": 23,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 23,
+    "sample": "MAT.U.1.1.1. Strateji ve zekâ oyunlarında karşıla-"
+   },
+   {
+    "prefix": "MAT.U",
+    "scheme": "noktalı-3",
+    "count": 61,
+    "nested": 23,
+    "truncated": 23,
+    "inner": 0,
+    "labelled": 0,
+    "free": 15,
+    "sample": "MAT.U.1.1. Strateji ve Zekâ Oyunlarının Matematiği              MAT.U.2.1. Sağlı",
+    "shadow_of": "MAT.U/noktalı-4"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 17,
+    "nested": 0,
+    "truncated": 2,
+    "inner": 0,
+    "labelled": 0,
+    "free": 15,
+    "sample": "KB3.1. Karar Verme                                           faaliyetlerin bir ü"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 13,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 13,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal"
+   },
+   {
+    "prefix": "MAB",
+    "scheme": "yapışık-2",
+    "count": 9,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 9,
+    "sample": "MAB2.1. Mate-"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 4,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 4,
+    "sample": "KB2.16.3. Analojik"
+   }
+  ],
+  "muzik-dersi-temel-egitim": [
+   {
+    "prefix": "MÜZ",
+    "scheme": "noktalı-4",
+    "count": 207,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 207,
+    "sample": "MÜZ.1.1.1. İstiklâl Marşı’nın başlıca ögelerini çözümleyebilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 33,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 33,
+    "sample": "KB2.4. Çözümleme Becerisi, KB2.7. Karşılaştırma                  eyleme dönüştür"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 28,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 28,
+    "sample": "SDB2.1. İletişim Becerisi, SDB2.2. İş Birliği Becerisi          ifade eder."
+   },
+   {
+    "prefix": "E",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "E.1.6. Seçicilik, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.8. Soru Sorma"
+   },
+   {
+    "prefix": "MÜZ",
+    "scheme": "noktalı-3",
+    "count": 208,
+    "nested": 207,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "MÜZ.1.1.1. İstiklâl Marşı’nın başlıca ögelerini çözümleyebilme",
+    "shadow_of": "MÜZ/noktalı-4"
+   },
+   {
+    "prefix": "MÜZ",
+    "scheme": "boşluklu-2",
+    "count": 5,
+    "nested": 0,
+    "truncated": 5,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "MÜZ 5.1.3."
+   }
+  ],
+  "muzik-dersi": [
+   {
+    "prefix": "MÜZ",
+    "scheme": "noktalı-4",
+    "count": 84,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 84,
+    "sample": "MÜZ.9.1.1. İstiklal Marşı’nı müziksel söyleyebilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 24,
+    "nested": 1,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 23,
+    "sample": "KB2.4. Çözümleme, KB2.5. Sınıflandırma,                              eyleme dönü",
+    "shadow_of": "KB/yapışık-3"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 23,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 23,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık),"
+   },
+   {
+    "prefix": "MÜZ.HAZ",
+    "scheme": "noktalı-3",
+    "count": 14,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 14,
+    "sample": "MÜZ.HAZ.1.1. İstiklal Marşı’nı müziksel söyleyebilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "KB2.16.1. Tümevarımsal Akıl Yürütme"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "SBAB4.2. Değişim ve"
+   },
+   {
+    "prefix": "MÜZ",
+    "scheme": "noktalı-3",
+    "count": 84,
+    "nested": 84,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "MÜZ.9.1.1. İstiklal Marşı’nı müziksel söyleyebilme",
+    "shadow_of": "MÜZ/noktalı-4"
+   }
+  ],
+  "muzik-okullari-beden-egitimi-oyun-muzik-dersi": [
+   {
+    "prefix": "BOM",
+    "scheme": "noktalı-4",
+    "count": 133,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 133,
+    "sample": "BOM.1.1.3. Kişisel ve genel alanını çözümleyebilme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 37,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 37,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal         ifade eder."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 31,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 31,
+    "sample": "KB2.2. Gözlemleme, KB2.4.               zihinsel faaliyetlerin bir"
+   },
+   {
+    "prefix": "BOM",
+    "scheme": "noktalı-3",
+    "count": 274,
+    "nested": 133,
+    "truncated": 133,
+    "inner": 0,
+    "labelled": 0,
+    "free": 8,
+    "sample": "BOM.1.1. Hareket                    BOM.2.1. Sağlığım İçin      BOM.3.1. Hareket",
+    "shadow_of": "BOM/noktalı-4"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "noktalı-3",
+    "count": 3,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 3,
+    "sample": "KB.2.20. Sentezleme"
+   }
+  ],
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-baglama-modulu": [
+   {
+    "prefix": "BAĞL",
+    "scheme": "noktalı-4",
+    "count": 37,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 37,
+    "sample": "BAĞL.1.1.1. Çalgıları tanıyabilme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 29,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 29,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "KB2.2. Gözlemleme"
+   },
+   {
+    "prefix": "BAĞL",
+    "scheme": "noktalı-3",
+    "count": 74,
+    "nested": 37,
+    "truncated": 37,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "BAĞL.1.1.1. Çalgıları tanıyabilme",
+    "shadow_of": "BAĞL/noktalı-4"
+   }
+  ],
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-flut-modulu": [
+   {
+    "prefix": "FLT",
+    "scheme": "noktalı-4",
+    "count": 59,
+    "nested": 0,
+    "truncated": 2,
+    "inner": 0,
+    "labelled": 0,
+    "free": 57,
+    "sample": "FLT.1.1.1. Çalgıları tanıyabilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 33,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 33,
+    "sample": "KB2.2. Gözlemleme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 30,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 30,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum"
+   },
+   {
+    "prefix": "E",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "E.1.1. Merak, E1.4. Kendine İnanma (Öz Yeterlilik)"
+   },
+   {
+    "prefix": "FLT",
+    "scheme": "noktalı-3",
+    "count": 123,
+    "nested": 59,
+    "truncated": 64,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "FLT.1.1.1. Çalgıları tanıyabilme",
+    "shadow_of": "FLT/noktalı-4"
+   }
+  ],
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-gitar-modulu": [
+   {
+    "prefix": "GTR",
+    "scheme": "noktalı-4",
+    "count": 39,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 39,
+    "sample": "GTR.1.1.1. Çalgıları tanıyabilme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 32,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 32,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 29,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 29,
+    "sample": "KB2.2. Gözlemleme"
+   },
+   {
+    "prefix": "OB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "OB1.1. Bilgi Okuryazarlığı (Bilgi İhtiyacını Fark Etme)"
+   },
+   {
+    "prefix": "GTR",
+    "scheme": "noktalı-3",
+    "count": 78,
+    "nested": 39,
+    "truncated": 39,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "GTR.1.1.1. Çalgıları tanıyabilme",
+    "shadow_of": "GTR/noktalı-4"
+   }
+  ],
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-kanun-modulu": [
+   {
+    "prefix": "KNN",
+    "scheme": "noktalı-4",
+    "count": 41,
+    "nested": 0,
+    "truncated": 3,
+    "inner": 0,
+    "labelled": 0,
+    "free": 38,
+    "sample": "KNN.1.1.1. Çalgıları tanıyabilme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 34,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 34,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 20,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 20,
+    "sample": "KB2.2. Gözlemleme"
+   },
+   {
+    "prefix": "KNN",
+    "scheme": "noktalı-3",
+    "count": 80,
+    "nested": 41,
+    "truncated": 37,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "KNN.2.1. Boşluksuz mandal gruplarını sınıflandırabilme",
+    "shadow_of": "KNN/noktalı-4"
+   },
+   {
+    "prefix": "KNN",
+    "scheme": "yapışık-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "KNN1.2.1. Çalgıların seslerini ayırt edebilme"
+   },
+   {
+    "prefix": "KNN",
+    "scheme": "yapışık-2",
+    "count": 4,
+    "nested": 1,
+    "truncated": 3,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "KNN1.1.1",
+    "shadow_of": "KNN/yapışık-3"
+   }
+  ],
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-kaval-modulu": [
+   {
+    "prefix": "KVL",
+    "scheme": "noktalı-4",
+    "count": 84,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 84,
+    "sample": "KVL.1.1.1. Çalgıları tanıyabilme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 30,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 30,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 22,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 22,
+    "sample": "KB2.2. Gözlemleme"
+   },
+   {
+    "prefix": "KVL",
+    "scheme": "noktalı-3",
+    "count": 122,
+    "nested": 84,
+    "truncated": 38,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "KVL.1.1.1. Çalgıları tanıyabilme",
+    "shadow_of": "KVL/noktalı-4"
+   }
+  ],
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-keman-modulu": [
+   {
+    "prefix": "KMN",
+    "scheme": "noktalı-4",
+    "count": 54,
+    "nested": 0,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 53,
+    "sample": "KMN.1.1.1. Çalgıları tanıyabilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 42,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 42,
+    "sample": "KB2.2. Gözlemleme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 31,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 31,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum"
+   },
+   {
+    "prefix": "KMN",
+    "scheme": "noktalı-3",
+    "count": 106,
+    "nested": 54,
+    "truncated": 52,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "KMN.1.1.1. Çalgıları tanıyabilme",
+    "shadow_of": "KMN/noktalı-4"
+   }
+  ],
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-ney-modulu": [
+   {
+    "prefix": "NEY",
+    "scheme": "noktalı-4",
+    "count": 53,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 53,
+    "sample": "NEY.1.1.1. Çalgıları tanıyabilme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 32,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 32,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 25,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 25,
+    "sample": "KB2.2. Gözlemleme"
+   },
+   {
+    "prefix": "EY",
+    "scheme": "noktalı-4",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "EY.7.1.1. Farklı nota sürelerinde yazılmış etütleri non legato çalabilme"
+   },
+   {
+    "prefix": "OB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "OB1.1. Bilgi Okuryazarlığı (Bilgi İhtiyacını Fark Etme)"
+   },
+   {
+    "prefix": "NEY",
+    "scheme": "noktalı-3",
+    "count": 115,
+    "nested": 53,
+    "truncated": 62,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "NEY.1.1.1. Çalgıları tanıyabilme",
+    "shadow_of": "NEY/noktalı-4"
+   },
+   {
+    "prefix": "EY",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 1,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "EY.7.1.1. Farklı nota sürelerinde yazılmış etütleri non legato çalabilme",
+    "shadow_of": "EY/noktalı-4"
+   },
+   {
+    "prefix": "NEY",
+    "scheme": "boşluklu-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "NEY 2.4.1. Doğru oturma pozisyonunda baş ve boyunun alması gereken şekli yorumla"
+   }
+  ],
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-piyano-modulu": [
+   {
+    "prefix": "PYN",
+    "scheme": "noktalı-4",
+    "count": 64,
+    "nested": 0,
+    "truncated": 2,
+    "inner": 0,
+    "labelled": 0,
+    "free": 62,
+    "sample": "PYN.1.1.1. Çalgıları tanıyabilme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 25,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 25,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 6,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 6,
+    "sample": "KB2.2. Gözlemleme"
+   },
+   {
+    "prefix": "OB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "OB1.1. Bilgi Okuryazarlığı"
+   },
+   {
+    "prefix": "PYN",
+    "scheme": "noktalı-3",
+    "count": 127,
+    "nested": 64,
+    "truncated": 63,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "PYN.1.1.1. Çalgıları tanıyabilme",
+    "shadow_of": "PYN/noktalı-4"
+   }
+  ],
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-ud-modulu": [
+   {
+    "prefix": "UD",
+    "scheme": "noktalı-4",
+    "count": 35,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 35,
+    "sample": "UD.1.1.1. Çalgıları tanıyabilme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 27,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 27,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 25,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 25,
+    "sample": "KB2.2. Gözlemleme"
+   },
+   {
+    "prefix": "E",
+    "scheme": "noktalı-3",
+    "count": 4,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 4,
+    "sample": "E.1.5. Kendine Güvenme (Öz Güven),E2.2. Sorumluluk, E2.5. Oyunseverlik"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SDB.3.2. Esneklik"
+   },
+   {
+    "prefix": "TAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "TAB2.4. Okuma (KB2.4. Çözümleme)"
+   },
+   {
+    "prefix": "UD",
+    "scheme": "noktalı-3",
+    "count": 69,
+    "nested": 35,
+    "truncated": 34,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "UD.1.1.1. Çalgıları tanıyabilme",
+    "shadow_of": "UD/noktalı-4"
+   },
+   {
+    "prefix": "UD",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "UD1.3.1"
+   }
+  ],
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-viyola-modulu": [
+   {
+    "prefix": "VİY",
+    "scheme": "noktalı-4",
+    "count": 43,
+    "nested": 0,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 42,
+    "sample": "VİY.1.1.1. Çalgıları tanıyabilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 31,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 31,
+    "sample": "KB2.2. Gözlemleme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 27,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 27,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum"
+   },
+   {
+    "prefix": "OB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "OB1.2. Bilgiyi Toplama, OB2. Dijital Okuryazarlık"
+   },
+   {
+    "prefix": "VİY",
+    "scheme": "noktalı-3",
+    "count": 68,
+    "nested": 43,
+    "truncated": 25,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "VİY.1.1.1. Çalgıları tanıyabilme",
+    "shadow_of": "VİY/noktalı-4"
+   }
+  ],
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-viyolonsel-modulu": [
+   {
+    "prefix": "VLS",
+    "scheme": "noktalı-4",
+    "count": 51,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 51,
+    "sample": "VLS.1.1.1. Çalgıları tanıyabilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 36,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 36,
+    "sample": "KB2.2. Gözlemleme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 27,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 27,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum"
+   },
+   {
+    "prefix": "VLS",
+    "scheme": "noktalı-3",
+    "count": 102,
+    "nested": 51,
+    "truncated": 51,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "VLS.1.1.1. Çalgıları tanıyabilme",
+    "shadow_of": "VLS/noktalı-4"
+   }
+  ],
+  "muzik-okullari-bireysel-ses-egitimi-dersi": [
+   {
+    "prefix": "BSE",
+    "scheme": "noktalı-4",
+    "count": 95,
+    "nested": 0,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 94,
+    "sample": "BSE.1.1.4. Çevresinde duyduğu düzenli, düzensiz, uyumlu"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 40,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 40,
+    "sample": "KB2.4. Çözümleme,                     eyleme dönüştürürken"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 39,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 39,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.1."
+   },
+   {
+    "prefix": "BSE",
+    "scheme": "noktalı-3",
+    "count": 201,
+    "nested": 95,
+    "truncated": 95,
+    "inner": 0,
+    "labelled": 0,
+    "free": 11,
+    "sample": "BSE.1.1. Ses",
+    "shadow_of": "BSE/noktalı-4"
+   }
+  ],
+  "muzik-okullari-calgi-topluluklari-dersi": [
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 31,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 31,
+    "sample": "KB2.4. Çözümleme                                   zihinsel faaliyetlerin bir"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 25,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 25,
+    "sample": "SDB2.2. İş Birliği, SDB3.1. Uyum"
+   },
+   {
+    "prefix": "Ç.T",
+    "scheme": "noktalı-4",
+    "count": 20,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 20,
+    "sample": "Ç.T.3.1.1. Birlikte müzik çalmanın eski çağlara dayandığını açıklayabilme"
+   },
+   {
+    "prefix": "ÇT",
+    "scheme": "noktalı-4",
+    "count": 17,
+    "nested": 0,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 16,
+    "sample": "ÇT.3.1.1. Birlikte müzik çalmanın eski çağlara dayandı-"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "boşluklu-2",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "SDB 2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum"
+   },
+   {
+    "prefix": "Ç.T",
+    "scheme": "noktalı-3",
+    "count": 38,
+    "nested": 20,
+    "truncated": 18,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "Ç.T.3.1.1",
+    "shadow_of": "Ç.T/noktalı-4"
+   },
+   {
+    "prefix": "ÇT",
+    "scheme": "noktalı-3",
+    "count": 34,
+    "nested": 17,
+    "truncated": 17,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "ÇT.3.1.1. Birlikte müzik çalmanın eski çağlara dayandı-",
+    "shadow_of": "ÇT/noktalı-4"
+   }
+  ],
+  "muzik-okullari-koro-repertuvar-dersi": [
+   {
+    "prefix": "KOREP",
+    "scheme": "noktalı-4",
+    "count": 117,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 117,
+    "sample": "KOREP.1.3.1. Repertuvar kavramını açıklayabilme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 41,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 41,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.1."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 11,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 11,
+    "sample": "KB2.4. Çözümleme, KB2.7. Karşılaştırma"
+   },
+   {
+    "prefix": "KOREP",
+    "scheme": "noktalı-3",
+    "count": 242,
+    "nested": 117,
+    "truncated": 117,
+    "inner": 0,
+    "labelled": 0,
+    "free": 8,
+    "sample": "KOREP.1.1. Koroyu              KOREP.2.1. Koroyu              KOREP.3.1. Koroyu ",
+    "shadow_of": "KOREP/noktalı-4"
+   },
+   {
+    "prefix": "SAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SAB4.2. Sanatsal Ürün Oluşturma, TAB4.2. İçerik Oluşturma"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SBAB1.2. Sıralama"
+   }
+  ],
+  "muzik-okullari-muzik-kulturu-dersi": [
+   {
+    "prefix": "MK",
+    "scheme": "noktalı-4",
+    "count": 27,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 27,
+    "sample": "MK.3.1.2. Müzik kültürünün oluşumunu sorgulayabilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 11,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 11,
+    "sample": "KB2.8. Sorgulama                                               zihinsel faaliyet"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 8,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 8,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği"
+   },
+   {
+    "prefix": "MK",
+    "scheme": "noktalı-3",
+    "count": 56,
+    "nested": 27,
+    "truncated": 27,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "MK.3.1. Müzik Kültürünü         MK.3.2. Müzik Kültürümü          MK.3.3. Ülkemiz",
+    "shadow_of": "MK/noktalı-4"
+   }
+  ],
+  "muzik-okullari-muzik-tarihi-dersi": [
+   {
+    "prefix": "MT",
+    "scheme": "noktalı-4",
+    "count": 73,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 73,
+    "sample": "MT.5.2.1. İlk uygarlıklarda müzik yapma ihtiyacının"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 23,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 23,
+    "sample": "KB2.6. Bilgi Toplama, KB2.14. Yorumlama                       zihinsel faaliyetl"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 20,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 20,
+    "sample": "SBAB3.1. Tarihsel Bağlamsallaştırma)"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 17,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 17,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği"
+   },
+   {
+    "prefix": "MT",
+    "scheme": "noktalı-3",
+    "count": 152,
+    "nested": 73,
+    "truncated": 75,
+    "inner": 0,
+    "labelled": 0,
+    "free": 4,
+    "sample": "MT.5.1. Müzik Tarihini          MT.6.1. Türk Halk              MT.7.1. Türk Sana",
+    "shadow_of": "MT/noktalı-4"
+   }
+  ],
+  "muzik-okullari-muziksel-isitme-okuma-yazma-dersi": [
+   {
+    "prefix": "MİOY",
+    "scheme": "noktalı-4",
+    "count": 98,
+    "nested": 0,
+    "truncated": 3,
+    "inner": 0,
+    "labelled": 0,
+    "free": 95,
+    "sample": "MİOY.1.1.1. Müziği tanıyabilme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 37,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 37,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.1. İletişim,"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 9,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 9,
+    "sample": "KB2.20. Sentezleme"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 3,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 3,
+    "sample": "SBAB11.1. Tablo, Grafik, Şekil ve/veya Diyagram Okuma ve Yorumlama, KB2.11. Gözl"
+   },
+   {
+    "prefix": "TAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "TAB4.2.İçerik Oluşturma, SBAB11.1. Tablo, Grafik, Şekil ve/veya Diyagram Okuma v"
+   },
+   {
+    "prefix": "MİOY",
+    "scheme": "noktalı-3",
+    "count": 198,
+    "nested": 98,
+    "truncated": 100,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "MİOY.1.1.1. Müziği tanıyabilme",
+    "shadow_of": "MİOY/noktalı-4"
+   },
+   {
+    "prefix": "MİOY",
+    "scheme": "yapışık-2",
+    "count": 2,
+    "nested": 0,
+    "truncated": 2,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "MİOY4.4.2"
+   }
+  ],
+  "muzik-okullari-turk-muzigi-teori-uygulamasi-dersi": [
+   {
+    "prefix": "TMT",
+    "scheme": "yapışık-3",
+    "count": 81,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 81,
+    "sample": "TMT2.1.2.\n                        Öğrencilerin Türk müziği enstrümanlarından bir"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 27,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 27,
+    "sample": "SDB2.1. İletişim, SDB3.1. Uyum"
+   },
+   {
+    "prefix": "TMT",
+    "scheme": "noktalı-4",
+    "count": 26,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 26,
+    "sample": "TMT.1.1.1. Müziği tanımlayabilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 16,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 16,
+    "sample": "KB2.5. Sınıflandırma, KB2.7. Karşılaştırma"
+   },
+   {
+    "prefix": "TAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "TAB4.2.İçerik Oluşturma)"
+   },
+   {
+    "prefix": "TMT",
+    "scheme": "yapışık-2",
+    "count": 81,
+    "nested": 81,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "TMT2.1.2.",
+    "shadow_of": "TMT/yapışık-3"
+   },
+   {
+    "prefix": "TMT",
+    "scheme": "noktalı-3",
+    "count": 26,
+    "nested": 26,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "TMT.1.1.1. Müziği tanımlayabilme",
+    "shadow_of": "TMT/noktalı-4"
+   }
+  ],
+  "okul-oncesi": [
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 346,
+    "nested": 14,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 332,
+    "sample": "KB1.1. Saymak",
+    "shadow_of": "KB/yapışık-3"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 330,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 330,
+    "sample": "SDB2.1. İletişim Becerisi"
+   },
+   {
+    "prefix": "OB",
+    "scheme": "yapışık-2",
+    "count": 212,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 212,
+    "sample": "OB4.1. Görseli Anlama” bütünleşik becerisi için yapılacak değerlendirmede alınac"
+   },
+   {
+    "prefix": "HSAB",
+    "scheme": "yapışık-2",
+    "count": 95,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 95,
+    "sample": "HSAB1.1. SB.1 Yer değiştirme                                           a. Farklı"
+   },
+   {
+    "prefix": "TAB",
+    "scheme": "yapışık-2",
+    "count": 91,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 91,
+    "sample": "TAB1.1.SB1. Seçim yapmak"
+   },
+   {
+    "prefix": "MAB",
+    "scheme": "yapışık-2",
+    "count": 55,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 55,
+    "sample": "MAB6.1.SB1. Belirli aralıktaki sayılarla ritmik saymak                          "
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 52,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 52,
+    "sample": "SBAB1.2.SB1. Olay/dönem/kavramları kronolojik          SAB.2.Kendisine/ailesine/"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 15,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 15,
+    "sample": "KB2.16.1.SB1.) .Çocuklar süreçte sanatçıya"
+   },
+   {
+    "prefix": "TAEOB",
+    "scheme": "yapışık-2",
+    "count": 15,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 15,
+    "sample": "TAEOB1.1. Görsel sembolleri okumak          TAEOB.1. Yazı farkındalığına ilişkin"
+   },
+   {
+    "prefix": "HSAB",
+    "scheme": "boşluklu-2",
+    "count": 13,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 13,
+    "sample": "HSAB 2.5. SB1. Kendisi ve"
+   },
+   {
+    "prefix": "MSB",
+    "scheme": "yapışık-2",
+    "count": 12,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 12,
+    "sample": "MSB2.1.SB1."
+   },
+   {
+    "prefix": "MÇB",
+    "scheme": "yapışık-2",
+    "count": 12,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 12,
+    "sample": "MÇB3.1.SB1. Çalmayı   MÇB.1. Çalacağı çalgılara/ritimlere/ezgilere dair duygu"
+   },
+   {
+    "prefix": "MDB",
+    "scheme": "yapışık-2",
+    "count": 9,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 9,
+    "sample": "MDB1.1.SB1.           dinleyebilme"
+   },
+   {
+    "prefix": "MHB",
+    "scheme": "yapışık-2",
+    "count": 9,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 9,
+    "sample": "MHB4.1. Hareket ve dans etme"
+   },
+   {
+    "prefix": "MYB",
+    "scheme": "yapışık-2",
+    "count": 6,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 6,
+    "sample": "MYB5.1.SB1. Müziksel     MYB.1. Müziksel deneyimlerinden yola çıkarak müziksel ü"
+   },
+   {
+    "prefix": "TAK",
+    "scheme": "yapışık-2",
+    "count": 4,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 4,
+    "sample": "TAK3.1. Konuşmayı Yönetme"
+   },
+   {
+    "prefix": "D",
+    "scheme": "noktalı-4",
+    "count": 3,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 3,
+    "sample": "D.12.1.3. Beklemekte zorlandığı durumlarda dikkatini farklı bir işe yönlendirir."
+   },
+   {
+    "prefix": "E",
+    "scheme": "noktalı-3",
+    "count": 3,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 3,
+    "sample": "E.1.1.). Selamlama ifadelerini içeren bir hikâyeden hareketle konuşma halkası,"
+   },
+   {
+    "prefix": "MHBB",
+    "scheme": "yapışık-2",
+    "count": 3,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 3,
+    "sample": "MHBB4.1.SB3. Hareket                                                            "
+   },
+   {
+    "prefix": "MYB",
+    "scheme": "noktalı-3",
+    "count": 3,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 3,
+    "sample": "MYB.5.1. Yaratıcılık"
+   },
+   {
+    "prefix": "OB",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "OB.4.3. Görsel Hakkında Eleştirel Düşünme"
+   },
+   {
+    "prefix": "SSDB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SSDB2.1.SB4. Grup iletişimine katılmak"
+   },
+   {
+    "prefix": "TA",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "TA3.2.SB3. Karşılaştırmak                                               c. Konuş"
+   },
+   {
+    "prefix": "D",
+    "scheme": "noktalı-3",
+    "count": 3,
+    "nested": 3,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "D.12.1.3. Beklemekte zorlandığı durumlarda dikkatini farklı bir işe yönlendirir.",
+    "shadow_of": "D/noktalı-4"
+   }
+  ],
+  "ortaokul-afet-bilinci-dersi": [
+   {
+    "prefix": "AB",
+    "scheme": "noktalı-4",
+    "count": 23,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 23,
+    "sample": "AB.1.1.1. Afet ile ilgili temel kavramlar hakkında bilgi"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 18,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 18,
+    "sample": "KB2.5. Sınıflandırma,                                               zihinsel faa"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 6,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 6,
+    "sample": "SBAB5.5. Fikri Eyleme Dönüştürme"
+   },
+   {
+    "prefix": "AB",
+    "scheme": "noktalı-3",
+    "count": 51,
+    "nested": 23,
+    "truncated": 28,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "AB.1.1.1",
+    "shadow_of": "AB/noktalı-4"
+   }
+  ],
+  "ortaokul-ahlak-ve-vatandaslik-egitimi-dersi": [
+   {
+    "prefix": "AVE",
+    "scheme": "noktalı-4",
+    "count": 22,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 22,
+    "sample": "AVE.1.1.1. Ahlaka ilişkin temel kavramlar ve ahlakın"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 17,
+    "nested": 1,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 16,
+    "sample": "KB2.14. Yorumlama                                                        süreçle",
+    "shadow_of": "KB/yapışık-3"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 16,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 16,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık,"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 5,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 5,
+    "sample": "SBAB2.2. Kay-"
+   },
+   {
+    "prefix": "E",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "E.3.8. Soru Sorma"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "KB2.16.3. Analojik Akıl Yürütme, KB2.8. Sorgulama"
+   },
+   {
+    "prefix": "AVE",
+    "scheme": "noktalı-3",
+    "count": 58,
+    "nested": 22,
+    "truncated": 36,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "AVE.1.1.1                            AVE.1.1.1",
+    "shadow_of": "AVE/noktalı-4"
+   }
+  ],
+  "ortaokul-cevre-egitimi-ve-iklim-degisikligi-dersi": [
+   {
+    "prefix": "ÇEİD",
+    "scheme": "noktalı-3",
+    "count": 26,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 26,
+    "sample": "ÇEİD.1.1.\n                                           Ders Kodu"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 18,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 18,
+    "sample": "KB2.18. Tartışma                                                    len temel be"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 17,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 17,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1."
+   }
+  ],
+  "ortaokul-dijital-sanatlar-dersi": [
+   {
+    "prefix": "DS",
+    "scheme": "noktalı-4",
+    "count": 25,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 25,
+    "sample": "DS.1.1.1. Dijital sanatlara ilişkin temel kavram ve özel-"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 12,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 12,
+    "sample": "KB2.8. Sorgulama                                                 leri eyleme dön"
+   },
+   {
+    "prefix": "BTYAB",
+    "scheme": "yapışık-2",
+    "count": 11,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 11,
+    "sample": "BTYAB1.1. Bilişim"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 11,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 11,
+    "sample": "SDB2.2. İş Birliği Yapma, SDB2.3. Sosyal Farkındalık"
+   },
+   {
+    "prefix": "SAB",
+    "scheme": "yapışık-2",
+    "count": 8,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 8,
+    "sample": "SAB3.3. Sanatsal Yorumlama)                                  meden edinilen, göz"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "KB.3.1. Karar Verme, KB2.18. Tartışma"
+   },
+   {
+    "prefix": "DS",
+    "scheme": "noktalı-3",
+    "count": 56,
+    "nested": 25,
+    "truncated": 31,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "DS.1.1.1, DS.1.1.2",
+    "shadow_of": "DS/noktalı-4"
+   }
+  ],
+  "ortaokul-dusunme-egitimi-dersi": [
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 19,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 19,
+    "sample": "KB2.6. Bilgi Toplama, KB2.8. Sorgulama                     beceriler ile soyut f"
+   },
+   {
+    "prefix": "DE",
+    "scheme": "noktalı-4",
+    "count": 17,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 17,
+    "sample": "DE.1.1.1. Düşünme süreci ve diğer zihinsel etkinlikler hak-"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 16,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 16,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık),"
+   },
+   {
+    "prefix": "DE",
+    "scheme": "noktalı-3",
+    "count": 42,
+    "nested": 17,
+    "truncated": 25,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "DE.1.1.1           DE.1.2.1              DE.1.3.1             DE.1.4.1",
+    "shadow_of": "DE/noktalı-4"
+   },
+   {
+    "prefix": "DE",
+    "scheme": "boşluklu-2",
+    "count": 3,
+    "nested": 0,
+    "truncated": 3,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "DE 2.4.1"
+   }
+  ],
+  "ortaokul-geleneksel-sanatlar-dersi": [
+   {
+    "prefix": "GS",
+    "scheme": "noktalı-4",
+    "count": 26,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 26,
+    "sample": "GS.1.1.1. Dokuma sanatı hakkında bilgi toplayabilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 14,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 14,
+    "sample": "KB2.6. Bilgi Toplama"
+   },
+   {
+    "prefix": "SAB",
+    "scheme": "yapışık-2",
+    "count": 11,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 11,
+    "sample": "SAB2.1. Görsel Mesajı Algılama), SAB4. Sanatsal Üretim Yap-"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 11,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 11,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği"
+   },
+   {
+    "prefix": "GS",
+    "scheme": "noktalı-3",
+    "count": 52,
+    "nested": 26,
+    "truncated": 26,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "GS.1.1.1. Dokuma sanatı hakkında bilgi toplayabilme",
+    "shadow_of": "GS/noktalı-4"
+   }
+  ],
+  "ortaokul-gorgu-kurallari-ve-nezaket-dersi": [
+   {
+    "prefix": "GKN",
+    "scheme": "noktalı-4",
+    "count": 21,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 21,
+    "sample": "GKN.1.1.1. Görgü kuralları ve nezaket ile ilgili temel kavramlar"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 18,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 18,
+    "sample": "KB2.6. Bilgi toplama, KB2.14.Yorumlama                        ve karmaşık süreçl"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 17,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 17,
+    "sample": "SDB1.3. Kendine Uyarlama (Öz Yansıtma),                     değerleri ve okuryaz"
+   },
+   {
+    "prefix": "GKN",
+    "scheme": "noktalı-3",
+    "count": 47,
+    "nested": 21,
+    "truncated": 26,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "GKN.1.1.1",
+    "shadow_of": "GKN/noktalı-4"
+   }
+  ],
+  "ortaokul-halk-oyunlari-dersi": [
+   {
+    "prefix": "HO",
+    "scheme": "noktalı-3",
+    "count": 13,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 13,
+    "sample": "HO.1.2. \u0007Seçilen halk oyunlarının ortaya çıkış hikâyele-"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 5,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 5,
+    "sample": "KB2.14.Yorumlama                          ve karmaşık süreçleri"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 5,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 5,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık),                   ifade eder."
+   }
+  ],
+  "ortaokul-hukuk-ve-adalet-dersi": [
+   {
+    "prefix": "HA",
+    "scheme": "noktalı-3",
+    "count": 13,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 13,
+    "sample": "HA.1.1. Hukuk, eşitlik ve adalet kavramları arasındaki iliş-"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 11,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 11,
+    "sample": "KB2.4. Çözümleme, KB2.18. Tartışma,"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "SDB2.1. İletişim, SDB2.3. Sosyal Farkındalık"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "boşluklu-2",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "KB 2.7. Karşılaştırma"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "KB2.16.3. Analojik Akıl Yürütme"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SBAB2.6. Kanıta Dayalı Ürün Oluşturma ve"
+   }
+  ],
+  "ortaokul-kultur-ve-medeniyetimize-yon-verenler-dersi": [
+   {
+    "prefix": "KMYV",
+    "scheme": "noktalı-4",
+    "count": 19,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 19,
+    "sample": "KMYV.1.1.1. Kültür ve medeniyet arasındaki ilişkiyi yorumlayabil-"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 16,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 16,
+    "sample": "KB2.14. Yorumlama"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 9,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 9,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.3. Sorumlu Karar Verme"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 5,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 5,
+    "sample": "SBAB2.1. Meraka Dayalı Soru Sorma,"
+   },
+   {
+    "prefix": "KMYV",
+    "scheme": "noktalı-3",
+    "count": 37,
+    "nested": 19,
+    "truncated": 18,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "KMYV.1.1.1. Kültür ve medeniyet arasındaki ilişkiyi yorumlayabil-",
+    "shadow_of": "KMYV/noktalı-4"
+   }
+  ],
+  "ortaokul-masal-ve-destanlarimiz-dersi": [
+   {
+    "prefix": "MD",
+    "scheme": "noktalı-4",
+    "count": 41,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 41,
+    "sample": "MD.1.1.1. Masal türü hakkında anlam"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 19,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 19,
+    "sample": "KB2.4. Çözümleme, KB2.6. Bilgi Toplama,"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 11,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 11,
+    "sample": "SDB1.3. Kendine Uyarlama (Öz Yansıtma),                    yapmak, destekleyici "
+   },
+   {
+    "prefix": "E",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "E.1.6. Seçicilik, E2.2. Sorumluluk, E3.1. Muhakeme, E3.3. Yaratıcılık,"
+   },
+   {
+    "prefix": "MD",
+    "scheme": "noktalı-3",
+    "count": 102,
+    "nested": 41,
+    "truncated": 61,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "MD.1.1.1         MD.1.2.1                      MD.2.1.1        MD.2.2.1",
+    "shadow_of": "MD/noktalı-4"
+   }
+  ],
+  "ortaokul-matematik-dersi": [
+   {
+    "prefix": "MAT",
+    "scheme": "noktalı-4",
+    "count": 101,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 101,
+    "sample": "MAT.5.1.1. Altı basamaklı sayıları okuma ve yazmayı daha"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 53,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 53,
+    "sample": "SDB2.2. İş Birliği, SDB3.2. Esneklik                         ifade eder."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 49,
+    "nested": 6,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 43,
+    "sample": "KB2.9. Genelleme                                              eyleme dönüştürürk",
+    "shadow_of": "KB/yapışık-3"
+   },
+   {
+    "prefix": "MAT",
+    "scheme": "noktalı-3",
+    "count": 237,
+    "nested": 101,
+    "truncated": 99,
+    "inner": 0,
+    "labelled": 0,
+    "free": 37,
+    "sample": "MAT.5.1. Sayılar ve          MAT.6.1. Sayılar ve           MAT.7.1. Sayılar ve  ",
+    "shadow_of": "MAT/noktalı-4"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 6,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 6,
+    "sample": "KB2.16.1.Tümevarımsal Akıl Yürütme) , KB2.17. Değerlendirme"
+   },
+   {
+    "prefix": "MAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "MAB5.1. Matematiksel Araç ve Teknolo-"
+   },
+   {
+    "prefix": "MAT",
+    "scheme": "boşluklu-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "MAT 8.5.1"
+   }
+  ],
+  "ortaokul-matematik-ve-bilim-uygulamalari-dersi": [
+   {
+    "prefix": "MBU.MU",
+    "scheme": "noktalı-4",
+    "count": 70,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 70,
+    "sample": "MBU.MU.1.1.1. Günlük hayatta matematiğin kullanım alanlarına yönelik bilgi topla"
+   },
+   {
+    "prefix": "MBU.BU",
+    "scheme": "noktalı-4",
+    "count": 69,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 69,
+    "sample": "MBU.BU.1.1.1.\n                                          Ders Kodu               "
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 42,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 42,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Ken-"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 38,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 38,
+    "sample": "KB2.6. Bilgi Toplama, KB3.2. Problem Çözme"
+   },
+   {
+    "prefix": "MBU.MU",
+    "scheme": "noktalı-3",
+    "count": 70,
+    "nested": 70,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "MBU.MU.1.1.1. Günlük hayatta matematiğin kullanım alanlarına yönelik bilgi topla",
+    "shadow_of": "MBU.MU/noktalı-4"
+   },
+   {
+    "prefix": "MBU.BU",
+    "scheme": "noktalı-3",
+    "count": 69,
+    "nested": 69,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "MBU.BU.1.1.1.",
+    "shadow_of": "MBU.BU/noktalı-4"
+   }
+  ],
+  "ortaokul-medya-okuryazarligi-dersi": [
+   {
+    "prefix": "MOY",
+    "scheme": "noktalı-3",
+    "count": 34,
+    "nested": 0,
+    "truncated": 2,
+    "inner": 0,
+    "labelled": 0,
+    "free": 32,
+    "sample": "MOY.1.2. Medyanın birey ve toplum üzerindeki"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 15,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 15,
+    "sample": "KB2.3. Özetleme                                                             Karm"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık                           okuryaz"
+   },
+   {
+    "prefix": "BTYAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "BTYAB4.1. Tasarım Araç, Teknoloji ve Yöntemlerinden"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SBAB2.4. Kaynağı Sorgulama)"
+   }
+  ],
+  "ortaokul-okul-temelli-sosyal-sorumluluk-calismalari-dersi": [
+   {
+    "prefix": "OTSSÇ",
+    "scheme": "noktalı-4",
+    "count": 46,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 46,
+    "sample": "OTSSÇ.1.1.1. Sosyal sorumluluk ile ilgili kavramları çözümleyebilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 37,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 37,
+    "sample": "KB2.4. Çözümleme,                                      zihinsel faaliyetlerin bi"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 22,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 22,
+    "sample": "SDB2.3. Sosyal Farkındalık"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 18,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 18,
+    "sample": "SBAB2.6. Kanıta Dayalı Ürün"
+   },
+   {
+    "prefix": "OTSSÇ",
+    "scheme": "noktalı-3",
+    "count": 93,
+    "nested": 46,
+    "truncated": 47,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "OTSSÇ.1.1.1",
+    "shadow_of": "OTSSÇ/noktalı-4"
+   }
+  ],
+  "ortaokul-okuma-becerileri-dersi": [
+   {
+    "prefix": "OB",
+    "scheme": "noktalı-3",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "OB.1.1. Akıcı okuma sürecini yansıtabilme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık),"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 9,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 9,
+    "sample": "KB2.4. Çözümleme, KB2.8. Sorgulama,                            gerektirmeden edi"
+   },
+   {
+    "prefix": "TAB",
+    "scheme": "yapışık-2",
+    "count": 4,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 4,
+    "sample": "TAB2.2. Anlam Oluşturma)"
+   }
+  ],
+  "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-drama": [
+   {
+    "prefix": "OOED",
+    "scheme": "noktalı-4",
+    "count": 48,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 48,
+    "sample": "OOED.2.2.1. Drama sürecinde duyularını etkin biçimde"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 24,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 24,
+    "sample": "KB2.4. Çözümleme                                                       bütünleşi"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 24,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 24,
+    "sample": "SDB1.3. Kendine Uyarlama (Öz Yansıtma),"
+   },
+   {
+    "prefix": "SAB",
+    "scheme": "yapışık-2",
+    "count": 12,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 12,
+    "sample": "SAB4.2. Sanatsal Ürün Oluşturma),"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "SBAB5.1. Sosyal Temas Oluşturma)"
+   },
+   {
+    "prefix": "OOED",
+    "scheme": "noktalı-3",
+    "count": 139,
+    "nested": 48,
+    "truncated": 91,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "OOED.1.1.1",
+    "shadow_of": "OOED/noktalı-4"
+   }
+  ],
+  "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-geleneksel-oyunlar": [
+   {
+    "prefix": "OOEGO",
+    "scheme": "noktalı-3",
+    "count": 14,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 14,
+    "sample": "OOEGO.1.1. Geleneksel oyunların özelliklerini özetleyebilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "KB2.3. Özetleme                                  beceriler ile soyut fikirleri"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 6,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 6,
+    "sample": "SDB2.1. İletişim Becerisi,"
+   }
+  ],
+  "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-satranc": [
+   {
+    "prefix": "OOEST",
+    "scheme": "noktalı-3",
+    "count": 41,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 41,
+    "sample": "OOEST.1.1. Satranç oyununu tanıyabilme."
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 24,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 24,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık)"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 14,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 14,
+    "sample": "KB2.8. Sorgulama"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 3,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 3,
+    "sample": "SBAB5.5. Fikri Eyleme Dönüştürme)"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "KB2.16.1. Tümevarımsal Akıl Yürütme),"
+   },
+   {
+    "prefix": "BTYAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "BTYAB1.2. Bilişim Teknolojileri ile Çalışma)"
+   },
+   {
+    "prefix": "SAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SAB1.1. Sanatsal Gözlemleme)"
+   }
+  ],
+  "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-zeka-oyunlari": [
+   {
+    "prefix": "OOEZO",
+    "scheme": "noktalı-4",
+    "count": 60,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 60,
+    "sample": "OOEZO.1.1.1.\n\n                                                               OOE"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 24,
+    "nested": 1,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 23,
+    "sample": "KB2.13. Yapılandırma",
+    "shadow_of": "KB/yapışık-3"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 15,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 15,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık)"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "SBAB12.1.\n           BECERİLERİ     Akıl Yürütme Biçimlerini Uygulama)"
+   },
+   {
+    "prefix": "MAB",
+    "scheme": "yapışık-2",
+    "count": 6,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 6,
+    "sample": "MAB2.1. Matematiksel Çözümler Geliştirme)"
+   },
+   {
+    "prefix": "SAB",
+    "scheme": "yapışık-2",
+    "count": 6,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 6,
+    "sample": "SAB2.1. Görsel Mesajı Algılama )         ilişkilendirilerek kullanı­"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 4,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 4,
+    "sample": "KB2.16.1. Tümevarımsal Akıl Yürütme)     faaliyetlerin bir ürünü ola-"
+   },
+   {
+    "prefix": "TAB",
+    "scheme": "yapışık-2",
+    "count": 3,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 3,
+    "sample": "TAB2.2. Anlam Oluşturma)"
+   },
+   {
+    "prefix": "BTYAB",
+    "scheme": "yapışık-2",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "BTYAB4.1. Tasarım Araç, Teknoloji ve Yöntemlerin-"
+   },
+   {
+    "prefix": "TSRMAB",
+    "scheme": "yapışık-2",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "TSRMAB1.2. Tasarımı Ürüne Dönüştürme)"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "KB.2.15. Yansıtma"
+   },
+   {
+    "prefix": "OOEZO",
+    "scheme": "noktalı-3",
+    "count": 117,
+    "nested": 60,
+    "truncated": 57,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "OOEZO.1.1.1.",
+    "shadow_of": "OOEZO/noktalı-4"
+   }
+  ],
+  "ortaokul-proje-tasarimi-ve-uygulamalari-dersi": [
+   {
+    "prefix": "PTU",
+    "scheme": "noktalı-3",
+    "count": 17,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 17,
+    "sample": "PTU.1.1. Bilim, bilgi, araştırma ve proje kavramlarını sorgu-"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 12,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 12,
+    "sample": "KB2.5. Sınıflandırma, KB2.6. Bilgi Toplama,                  eyleme dönüştürürke"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 6,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 6,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.3. Sorumlu"
+   },
+   {
+    "prefix": "BTYAB",
+    "scheme": "yapışık-2",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "BTYAB5.3. Bulgulara Ulaşma),"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SBAB4.3. Değişim ve Sürekliliğe Dair Kanıta Dayalı"
+   },
+   {
+    "prefix": "SBSB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SBSB5.3. Fikir Üretme)"
+   },
+   {
+    "prefix": "TSRMAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "TSRMAB1.2. Tasarımı Ürüne Dönüştürme)"
+   }
+  ],
+  "ortaokul-robotik-kodlama-dersi": [
+   {
+    "prefix": "RK",
+    "scheme": "yapışık-3",
+    "count": 22,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 22,
+    "sample": "RK1.1.1. Robotik sistemlere ilişkin temel kavramları sınıf-"
+   },
+   {
+    "prefix": "BTYAB",
+    "scheme": "yapışık-2",
+    "count": 16,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 16,
+    "sample": "BTYAB1.1.\n     pılandırılan becerileri ifade            BECERİLERİ"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB3.1."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 8,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 8,
+    "sample": "KB2.7. Karşılaştırma"
+   },
+   {
+    "prefix": "RK",
+    "scheme": "yapışık-2",
+    "count": 43,
+    "nested": 22,
+    "truncated": 21,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "RK1.1.1. Robotik sistemlere ilişkin temel kavramları sınıf-",
+    "shadow_of": "RK/yapışık-3"
+   },
+   {
+    "prefix": "RK",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "RK.2.4.2"
+   }
+  ],
+  "ortaokul-secmeli-muzik-dersi-baglama": [
+   {
+    "prefix": "SMBAĞ",
+    "scheme": "noktalı-4",
+    "count": 22,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 22,
+    "sample": "SMBAĞ.1.2.2. Bağlamada perdelerin yerlerini belirleyebilme        çıktısının sır"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "KB2.6. Bilgi Toplama                             ve karmaşık süreçleri"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim becerilerini ifade ed"
+   },
+   {
+    "prefix": "SMBAĞ",
+    "scheme": "noktalı-3",
+    "count": 46,
+    "nested": 22,
+    "truncated": 22,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "SMBAĞ.1.1. Bağlamanın          SMBAĞ.2.1. Bağlamada          SMBAĞ.3.1. Bağlamad",
+    "shadow_of": "SMBAĞ/noktalı-4"
+   }
+  ],
+  "ortaokul-secmeli-muzik-dersi-genel-muzik-egitimi": [
+   {
+    "prefix": "SMGME",
+    "scheme": "noktalı-4",
+    "count": 37,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 37,
+    "sample": "SMGME.1.1.1. Farklı türdeki eserleri dinleyebilme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 11,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 11,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık),"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 4,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 4,
+    "sample": "KB2.7. Karşılaştırma"
+   },
+   {
+    "prefix": "SMGME",
+    "scheme": "noktalı-3",
+    "count": 76,
+    "nested": 37,
+    "truncated": 37,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "SMGME.1.1. Dinleme,               SMGME.2.1. Dinleme,                 SMGME.3.1.",
+    "shadow_of": "SMGME/noktalı-4"
+   }
+  ],
+  "ortaokul-secmeli-muzik-dersi-gitar-egitimi": [
+   {
+    "prefix": "SMGTR",
+    "scheme": "noktalı-4",
+    "count": 51,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 51,
+    "sample": "SMGTR.1.1.1. Gitarın tarihî gelişimi hakkında bilgi toplayabilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 24,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 24,
+    "sample": "KB2.2. Gözlemleme,                                ile soyut fikirleri ve karmaşı"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 17,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 17,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık),"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SBAB1.2. Sıralama"
+   },
+   {
+    "prefix": "SMGTR",
+    "scheme": "noktalı-3",
+    "count": 103,
+    "nested": 51,
+    "truncated": 52,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "SMGTR.1.1.1",
+    "shadow_of": "SMGTR/noktalı-4"
+   }
+  ],
+  "ortaokul-secmeli-muzik-dersi-keman-egitimi": [
+   {
+    "prefix": "SMKMN",
+    "scheme": "noktalı-4",
+    "count": 64,
+    "nested": 0,
+    "truncated": 4,
+    "inner": 0,
+    "labelled": 0,
+    "free": 60,
+    "sample": "SMKMN.1.1.1. Kemanın tarihsel gelişimi hakkında bilgi toplayabilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 17,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 17,
+    "sample": "KB2.2. Gözlemleme,              eyleme dönüştürürken"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 16,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 16,
+    "sample": "SDB1.2. Kendini Düzenleme"
+   },
+   {
+    "prefix": "SMKMN",
+    "scheme": "noktalı-3",
+    "count": 128,
+    "nested": 64,
+    "truncated": 64,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "SMKMN.1.1.1. Kemanın tarihsel gelişimi hakkında bilgi toplayabilme",
+    "shadow_of": "SMKMN/noktalı-4"
+   }
+  ],
+  "ortaokul-secmeli-muzik-dersi-piyano-egitimi": [
+   {
+    "prefix": "SMPYN",
+    "scheme": "noktalı-4",
+    "count": 40,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 40,
+    "sample": "SMPYN.1.2.1. Temel kavramlar ve notaları tanımlayabilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 15,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 15,
+    "sample": "KB2.4. Çözümleme                                     gerektirmeden edinilen"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 13,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 13,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.1. İletişim"
+   },
+   {
+    "prefix": "SMPYN",
+    "scheme": "noktalı-3",
+    "count": 79,
+    "nested": 40,
+    "truncated": 39,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "SMPYN.1.2.1. Temel kavramlar ve notaları tanımlayabilme",
+    "shadow_of": "SMPYN/noktalı-4"
+   },
+   {
+    "prefix": "SMPYN",
+    "scheme": "boşluklu-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "SMPYN 3.1.3"
+   }
+  ],
+  "ortaokul-secmeli-muzik-dersi-turk-halk-muzigi-koro-egitimi": [
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 26,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 26,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini"
+   },
+   {
+    "prefix": "SMTHMK.IV",
+    "scheme": "noktalı-3",
+    "count": 13,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 13,
+    "sample": "SMTHMK.IV.1.1. Türk dünyası müzik kültürü hakkında bilgi toplayabilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "KB2.5. Sınıflandırma, KB2.6. Bilgi Toplama                        eyleme dönüştü"
+   },
+   {
+    "prefix": "SMTHMK.I",
+    "scheme": "noktalı-3",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "SMTHMK.I.1.2. İnsan sesini fiziksel özelliklerine göre"
+   },
+   {
+    "prefix": "SMTHMK.II",
+    "scheme": "noktalı-3",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "SMTHMK.II.1.1. Yöre kavramını açıklayabilme"
+   },
+   {
+    "prefix": "SMTHMK.III",
+    "scheme": "noktalı-3",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "SMTHMK.III.1.1. Doğu Anadolu türkülerini dinleyebilme"
+   }
+  ],
+  "ortaokul-secmeli-muzik-dersi-ud-egitimi": [
+   {
+    "prefix": "SMUD",
+    "scheme": "noktalı-4",
+    "count": 33,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 33,
+    "sample": "SMUD.1.1.1. Udun tarihi ve Türk müziğindeki yeri              çıktısının sırası"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 19,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 19,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 11,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 11,
+    "sample": "KB2.4.Çözümleme,                        süreçleri eyleme"
+   },
+   {
+    "prefix": "SMUD",
+    "scheme": "noktalı-3",
+    "count": 67,
+    "nested": 33,
+    "truncated": 33,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SMUD.1.1. Udun Temel                SMUD. 2.1. Teknik                  SMUD. 3.1",
+    "shadow_of": "SMUD/noktalı-4"
+   }
+  ],
+  "ortaokul-spor-ve-fiziki-etkinlikler-dersi": [
+   {
+    "prefix": "SFE",
+    "scheme": "noktalı-3",
+    "count": 9,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 9,
+    "sample": "SFE.1.1. Seçilen spor branşının tarihsel gelişimini özetleyebilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 5,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 5,
+    "sample": "KB2.3. Özetleme,                                  beceriler ile soyut fikirleri"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 5,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 5,
+    "sample": "SDB1.1. Kendini Tanıma (Öz"
+   }
+  ],
+  "ortaokul-temel-yasam-becerileri-dersi": [
+   {
+    "prefix": "TYB",
+    "scheme": "noktalı-4",
+    "count": 52,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 52,
+    "sample": "TYB.1.1.1., TYB.1.1.2.        2             9            25"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 20,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 20,
+    "sample": "KB2.7. Karşılaştırma, KB2.15. Yansıtma,                            zihinsel faal"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 15,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 15,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Far-"
+   },
+   {
+    "prefix": "BTYAB",
+    "scheme": "yapışık-2",
+    "count": 4,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 4,
+    "sample": "BTYAB6.1. Dijital Güvenlik Önlemlerini"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "SBAB5.3. Fikir Üretme)"
+   },
+   {
+    "prefix": "TYB",
+    "scheme": "noktalı-3",
+    "count": 84,
+    "nested": 52,
+    "truncated": 32,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "TYB.1.1.1., TYB.1.1.2.        2             9            25",
+    "shadow_of": "TYB/noktalı-4"
+   }
+  ],
+  "ortaokul-turk-sosyal-hayatinda-aile-dersi": [
+   {
+    "prefix": "TSHA",
+    "scheme": "noktalı-3",
+    "count": 16,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 16,
+    "sample": "TSHA.1.1.\nHedeflenen öğrenci profili ve                                     Öğre"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 11,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 11,
+    "sample": "KB2.14. Yorumlama, KB2.3. Özetleme,                                   aliyetleri"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 9,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 9,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzen-"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 4,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 4,
+    "sample": "SBAB5.3. Fikir Üretme)"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "KB2.16.1. Tü-"
+   }
+  ],
+  "ortaokul-turkce-dersi": [
+   {
+    "prefix": "T.D",
+    "scheme": "noktalı-3",
+    "count": 376,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 376,
+    "sample": "T.D.5.12.                                   T.D.6.12.                           "
+   },
+   {
+    "prefix": "T.O",
+    "scheme": "noktalı-3",
+    "count": 349,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 349,
+    "sample": "T.O.5.2. Akıcı okuyabilme"
+   },
+   {
+    "prefix": "T.Y",
+    "scheme": "noktalı-3",
+    "count": 312,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 312,
+    "sample": "T.Y.5.16., T.Y.6.18., T.Y.7.19., T.Y.8.20.) öğrenme çıktısına"
+   },
+   {
+    "prefix": "T.K",
+    "scheme": "noktalı-3",
+    "count": 290,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 290,
+    "sample": "T.K.5.1.) öğren-                   edinilecek bilgi ve beceriler"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 106,
+    "nested": 1,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 105,
+    "sample": "KB2.4. Çözümleme,",
+    "shadow_of": "KB/yapışık-3"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 62,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 62,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği"
+   },
+   {
+    "prefix": "DYS.DO",
+    "scheme": "noktalı-3",
+    "count": 61,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 61,
+    "sample": "DYS.DO.5.1.)."
+   },
+   {
+    "prefix": "DYS.KY",
+    "scheme": "noktalı-3",
+    "count": 19,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 19,
+    "sample": "DYS.KY.5.6.)."
+   },
+   {
+    "prefix": "DO",
+    "scheme": "noktalı-3",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "DO.6.10.; DYS.KY.6.6.)."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 4,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 4,
+    "sample": "KB2.16.3. Analojik Akıl Yü-"
+   },
+   {
+    "prefix": "KY",
+    "scheme": "noktalı-3",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "KY.8.4.)."
+   },
+   {
+    "prefix": "S.DO",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "S.DO.6.6. Söz varlığı ve dil yapılarının birleşmesinde          DYS.KY.6.2. Söz "
+   }
+  ],
+  "ortaokul-yapay-zeka-uygulamalari-dersi": [
+   {
+    "prefix": "YZU",
+    "scheme": "yapışık-3",
+    "count": 15,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 15,
+    "sample": "YZU1.1.1. Yapay zekâya ilişkin temel kavramları sorgulayabilme"
+   },
+   {
+    "prefix": "BTYAB",
+    "scheme": "yapışık-2",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "BTYAB1.1. Bilişim Teknolojilerini Sınıflandırma),"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 6,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 6,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB3.3."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 5,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 5,
+    "sample": "KB2.8. Sorgulama                                          süreçleri eyleme dönüş"
+   },
+   {
+    "prefix": "YAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "YAB3.2. Yazılım Geliştirme Sürecinde Kullanılan Bileşen/Yapı/Yöntemlerinden Yara"
+   },
+   {
+    "prefix": "YZU",
+    "scheme": "noktalı-4",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "YZU.1.1.1. Yapay zekâya ilişkin temel kavramları sorgulaya­"
+   },
+   {
+    "prefix": "YZU",
+    "scheme": "yapışık-2",
+    "count": 29,
+    "nested": 15,
+    "truncated": 14,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "YZU1.1.1. Yapay zekâya ilişkin temel kavramları sorgulayabilme",
+    "shadow_of": "YZU/yapışık-3"
+   },
+   {
+    "prefix": "YZU",
+    "scheme": "noktalı-3",
+    "count": 3,
+    "nested": 1,
+    "truncated": 2,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "YZU.1.1.1. Yapay zekâya ilişkin temel kavramları sorgulaya­",
+    "shadow_of": "YZU/noktalı-4"
+   }
+  ],
+  "ortaokul-yazarlik-ve-yazma-becerileri-dersi": [
+   {
+    "prefix": "YYB",
+    "scheme": "noktalı-4",
+    "count": 21,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 21,
+    "sample": "YYB.1.1.1. Yazma sürecini yönetebilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 14,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 14,
+    "sample": "KB2.4. Çözümleme, KB2.10. Çıkarım Yapma,                       eyleme dönüştürür"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 14,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 14,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık),"
+   },
+   {
+    "prefix": "TAB",
+    "scheme": "yapışık-2",
+    "count": 6,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 6,
+    "sample": "TAB4.1. Yazmayı Yönetme,"
+   },
+   {
+    "prefix": "YYB",
+    "scheme": "noktalı-3",
+    "count": 45,
+    "nested": 21,
+    "truncated": 24,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "YYB.1.1.1                                          YYB.2.1.1",
+    "shadow_of": "YYB/noktalı-4"
+   }
+  ],
+  "oyun-ve-taktiksel-farkindalik-dersi": [
+   {
+    "prefix": "OTF",
+    "scheme": "noktalı-4",
+    "count": 57,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 57,
+    "sample": "OTF.5.2.1. Oyunları özelliklerine göre sınıflandırabilme"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 21,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 21,
+    "sample": "KB2.5. Sınıflandırma                                            ve karmaşık süre"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 19,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 19,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2."
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "SBAB1.2. Sıralama"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SBAB.6.2. Kaynakları Yönetme"
+   },
+   {
+    "prefix": "OTF",
+    "scheme": "noktalı-3",
+    "count": 58,
+    "nested": 57,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "OTF.5.2.1. Oyunları özelliklerine göre sınıflandırabilme",
+    "shadow_of": "OTF/noktalı-4"
+   }
+  ],
+  "peygamberimizin-hayati-dersi-2": [
+   {
+    "prefix": "PH",
+    "scheme": "noktalı-4",
+    "count": 39,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 39,
+    "sample": "PH.12.3.1. Veda Haccı’nın önemini çözümleye-"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 20,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 20,
+    "sample": "KB2.4. Çözümleme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 17,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 17,
+    "sample": "SDB2.1. İletişim"
+   },
+   {
+    "prefix": "DAB",
+    "scheme": "yapışık-2",
+    "count": 15,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 15,
+    "sample": "DAB3.1. Dinî Kavramları Ayırt Etme)"
+   },
+   {
+    "prefix": "TAB",
+    "scheme": "yapışık-2",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "TAB3.2. İçerik Oluşturma)"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SBAB1.2. Sıralama)"
+   },
+   {
+    "prefix": "PH",
+    "scheme": "noktalı-3",
+    "count": 78,
+    "nested": 39,
+    "truncated": 39,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "PH.12.3.1. Veda Haccı’nın önemini çözümleye-",
+    "shadow_of": "PH/noktalı-4"
+   }
+  ],
+  "peygamberimizin-hayati-dersi": [
+   {
+    "prefix": "PH",
+    "scheme": "noktalı-4",
+    "count": 38,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 38,
+    "sample": "PH.6.1.1. Peygamberimizin gençlik yıllarındaki ah-            Öğrenme çıktısıyla"
+   },
+   {
+    "prefix": "DAB",
+    "scheme": "yapışık-2",
+    "count": 17,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 17,
+    "sample": "DAB4.5. İdrak Etme)                     ve gözlenebilen temel"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 17,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 17,
+    "sample": "KB2.14. Çözümleme                                       eyleme dönüştürürken"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 17,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 17,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme Becerisi), SDB2.1. İletişim"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 3,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 3,
+    "sample": "SBAB10.2. Haritayı Çözümleme)"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "KB2.16.2. Tümdengelimsel Akıl Yürütme"
+   },
+   {
+    "prefix": "PH",
+    "scheme": "noktalı-3",
+    "count": 76,
+    "nested": 38,
+    "truncated": 38,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "PH.6.1.1. Peygamberimizin gençlik yıllarındaki ah-            Öğrenme çıktısıyla",
+    "shadow_of": "PH/noktalı-4"
+   },
+   {
+    "prefix": "P.H",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "P.H.6.1.1"
+   }
+  ],
+  "psikoloji-dersi": [
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 17,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 17,
+    "sample": "KB2.3. Özetleme, KB2.7. Karşılaştırma                                beceriler i"
+   },
+   {
+    "prefix": "PSK",
+    "scheme": "noktalı-3",
+    "count": 15,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 15,
+    "sample": "PSK.2.1. Gelişim psikolojisinin temel kavramları-"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 12,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 12,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2.                   ve okuryazarl"
+   }
+  ],
+  "ritim-egitimi-ve-halk-oyunları-dersi": [
+   {
+    "prefix": "RİHO",
+    "scheme": "noktalı-4",
+    "count": 41,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 41,
+    "sample": "RİHO.5.1.1.\n     öğretme yaşantılarının                                   Öğrenc"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 21,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 21,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.1. İletişim, SDB2.2."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 11,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 11,
+    "sample": "KB2.7. Karşılaştırma                               faaliyetlerin bir ürünü"
+   },
+   {
+    "prefix": "RİHO",
+    "scheme": "noktalı-3",
+    "count": 41,
+    "nested": 41,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "RİHO.5.1.1.",
+    "shadow_of": "RİHO/noktalı-4"
+   }
+  ],
+  "saglik-bilgisi-ve-trafik-kulturu-dersi": [
+   {
+    "prefix": "SBTK",
+    "scheme": "noktalı-3",
+    "count": 23,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 23,
+    "sample": "SBTK.1.1. Sağlığı etkileyen faktörlerin toplum sağlığı        numarası"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 14,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 14,
+    "sample": "KB2.6. Bilgi Toplama, KB2.8. Sorgulama, KB2.14. Yo-"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 8,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 8,
+    "sample": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İleti-           okuryazarlık be"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "KB2.16.1. Tümevarımsal Akıl Yürütme, KB3.3."
+   }
+  ],
+  "sehrimiz-dersi": [
+   {
+    "prefix": "Ş",
+    "scheme": "noktalı-3",
+    "count": 26,
+    "nested": 0,
+    "truncated": 2,
+    "inner": 0,
+    "labelled": 0,
+    "free": 24,
+    "sample": "Ş.5.1., Ş.5.2."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 17,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 17,
+    "sample": "KB2.3. Özetleme                                        eyleme dönüştürürken"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 8,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 8,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği,"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 5,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 5,
+    "sample": "SBAB5.3. Fikir Üretme)"
+   }
+  ],
+  "sosyal-bilgiler-dersi": [
+   {
+    "prefix": "SB",
+    "scheme": "noktalı-4",
+    "count": 72,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 72,
+    "sample": "SB.4.1.1. Sosyal bilgiler dersinin hayatına sunacağı katkıları"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 56,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 56,
+    "sample": "KB2.14. Yorumlama                                                  yut fikirleri"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 39,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 39,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.1. İletişim,"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 32,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 32,
+    "sample": "SBAB5.3. Fikir Üretme)                      rileri ifade eder."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "KB2.16.2. Tümdengelimsel Akıl Yürütme)"
+   },
+   {
+    "prefix": "SB",
+    "scheme": "noktalı-3",
+    "count": 142,
+    "nested": 72,
+    "truncated": 70,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "SB.4.1.1. Sosyal bilgiler dersinin hayatına sunacağı katkıları",
+    "shadow_of": "SB/noktalı-4"
+   }
+  ],
+  "sosyal-bilim-calismalari-dersi": [
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 25,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 25,
+    "sample": "KB2.6. Bilgi Toplama                                       süreçleri eyleme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 25,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 25,
+    "sample": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.3.           okuryazarlık becerilerin"
+   },
+   {
+    "prefix": "SBÇ.I",
+    "scheme": "noktalı-3",
+    "count": 17,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 17,
+    "sample": "SBÇ.I.1.1. Kültürel miras kavramını ve kültürel miras türlerini özetleyebilme"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 13,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 13,
+    "sample": "SBAB2.5. Kaynağı Yorumlama)"
+   },
+   {
+    "prefix": "SBÇ.II",
+    "scheme": "noktalı-3",
+    "count": 13,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 13,
+    "sample": "SBÇ.II.4.1. Küreselleşmenin boyutları hakkında bilgi"
+   },
+   {
+    "prefix": "SBÇ.III",
+    "scheme": "noktalı-3",
+    "count": 9,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 9,
+    "sample": "SBÇ.III.1.1. I. Dünya Savaşı’nın siyasi, sosyal ve ekonomik açılardan toplumlara"
+   },
+   {
+    "prefix": "BTYAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "BTYAB5.2. Verileri Toplama ve Düzenleme, BTYAB5.4. Bulguları"
+   }
+  ],
+  "sosyoloji-dersi": [
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 28,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 28,
+    "sample": "KB2.4.              ve gözlenebilen temel"
+   },
+   {
+    "prefix": "SOS",
+    "scheme": "noktalı-4",
+    "count": 21,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 21,
+    "sample": "SOS.11.1.1. Sosyolojinin doğuş sürecini tarihsel"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "SDB1.3. Kendine Uyarlama (Öz Yansıtma),"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 3,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 3,
+    "sample": "SBAB3.1. Tarihsel Bağlam-"
+   },
+   {
+    "prefix": "SOS",
+    "scheme": "noktalı-3",
+    "count": 43,
+    "nested": 21,
+    "truncated": 22,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "SOS.11.1.1. Sosyolojinin doğuş sürecini tarihsel",
+    "shadow_of": "SOS/noktalı-4"
+   }
+  ],
+  "tarih-dersi": [
+   {
+    "prefix": "TAR",
+    "scheme": "noktalı-4",
+    "count": 39,
+    "nested": 0,
+    "truncated": 10,
+    "inner": 0,
+    "labelled": 0,
+    "free": 29,
+    "sample": "TAR.9.1.1. Tarih öğrenmenin bireye ve topluma               numarası"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 29,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 29,
+    "sample": "SBAB2.5. Kaynağı Yorumlama), SBAB2. Kanıta Da-             Karmaşık bir süreç"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 24,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 24,
+    "sample": "KB2.17. Değerlendirme)                                  beceriler ile soyut fiki"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 18,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 18,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.2.         ifade eder."
+   },
+   {
+    "prefix": "TAR",
+    "scheme": "noktalı-3",
+    "count": 77,
+    "nested": 39,
+    "truncated": 38,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "TAR.9.1.1. Tarih öğrenmenin bireye ve topluma               numarası",
+    "shadow_of": "TAR/noktalı-4"
+   }
+  ],
+  "tc-inkilap-tarihi-ve-ataturkculuk-dersi-2": [
+   {
+    "prefix": "İTA",
+    "scheme": "noktalı-4",
+    "count": 17,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 17,
+    "sample": "İTA.12.1.1. Mustafa Kemal Paşa’nın kişilik özellik-"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 13,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 13,
+    "sample": "KB2.17. Değerlendirme),                       gerektirmeden edinilen"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 13,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 13,
+    "sample": "SBAB2.1. Meraka Dayalı Soru Sorma, SBAB2.3. Kay-"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2.                    ifade eder."
+   },
+   {
+    "prefix": "İTA",
+    "scheme": "noktalı-3",
+    "count": 34,
+    "nested": 17,
+    "truncated": 17,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "İTA.12.1.1. Mustafa Kemal Paşa’nın kişilik özellik-",
+    "shadow_of": "İTA/noktalı-4"
+   }
+  ],
+  "tc-inkilap-tarihi-ve-ataturkculuk-dersi": [
+   {
+    "prefix": "İTA",
+    "scheme": "noktalı-4",
+    "count": 30,
+    "nested": 0,
+    "truncated": 1,
+    "inner": 0,
+    "labelled": 0,
+    "free": 29,
+    "sample": "İTA.8.1.1. Öğrencilerin Osmanlı Devleti’nin XIX-"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "KB2.14.Yorumlama)"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "SBAB1.2. Sıralama, SBAB10.1. Harita Okuma, SBAB10.3. Haritadan Çıkarım Yapma"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 6,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 6,
+    "sample": "SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık,"
+   },
+   {
+    "prefix": "TA",
+    "scheme": "noktalı-4",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "TA.8.2.5. Birinci Dünya Savaşı’nın Türk toplumuna etkilerine yönelik bakış açısı"
+   },
+   {
+    "prefix": "İTA",
+    "scheme": "noktalı-3",
+    "count": 48,
+    "nested": 30,
+    "truncated": 18,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "İTA.8.1.1)",
+    "shadow_of": "İTA/noktalı-4"
+   },
+   {
+    "prefix": "TA",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 1,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "TA.8.2.5. Birinci Dünya Savaşı’nın Türk toplumuna etkilerine yönelik bakış açısı",
+    "shadow_of": "TA/noktalı-4"
+   }
+  ],
+  "teknoloji-tasarim-dersi": [
+   {
+    "prefix": "TT",
+    "scheme": "noktalı-4",
+    "count": 91,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 91,
+    "sample": "TT.8.2.1. Tanıtım ve pazarlama teknik ve stratejileri hak-"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 36,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 36,
+    "sample": "KB2.6. Bilgi Toplama                                         eyleme dönüştürürke"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 35,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 35,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2."
+   },
+   {
+    "prefix": "TSRMAB",
+    "scheme": "yapışık-2",
+    "count": 9,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 9,
+    "sample": "TSRMAB2.2. Analoji Yapabilme),"
+   },
+   {
+    "prefix": "TT",
+    "scheme": "yapışık-3",
+    "count": 5,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 5,
+    "sample": "TT7.5.1. Mekânsal analoji yapabilme"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "SBAB7.9. Mekânsal Analoji Yapma), SAB1. Sanatsal Algılama,"
+   },
+   {
+    "prefix": "SAB",
+    "scheme": "yapışık-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SAB1.1. Sanatsal Gözlemleme),"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "noktalı-3",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SDB.2.3. Sosyal Farkındalık, SDB3.3. Sorumlu Karar Verme"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "boşluklu-2",
+    "count": 1,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 1,
+    "sample": "SDB 3.3. Sorumlu Karar Verme"
+   },
+   {
+    "prefix": "TT",
+    "scheme": "noktalı-3",
+    "count": 91,
+    "nested": 91,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "TT.8.2.1. Tanıtım ve pazarlama teknik ve stratejileri hak-",
+    "shadow_of": "TT/noktalı-4"
+   },
+   {
+    "prefix": "TT",
+    "scheme": "boşluklu-2",
+    "count": 8,
+    "nested": 0,
+    "truncated": 8,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "TT 7.9.1. Yapay zekâ kavramını, algoritmalarını, avantaj ve dezavantajlarını sor"
+   },
+   {
+    "prefix": "TT",
+    "scheme": "yapışık-2",
+    "count": 5,
+    "nested": 5,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "TT7.5.1. Mekânsal analoji yapabilme",
+    "shadow_of": "TT/yapışık-3"
+   }
+  ],
+  "temel-matematik-dersi": [
+   {
+    "prefix": "MAT.T",
+    "scheme": "noktalı-4",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "MAT.T.11.1.1. Niceliklerin doğru orantılı değişimlerini gerçek sayılarda tanımlı"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 8,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 8,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme)"
+   },
+   {
+    "prefix": "MAT.T",
+    "scheme": "noktalı-3",
+    "count": 26,
+    "nested": 10,
+    "truncated": 10,
+    "inner": 0,
+    "labelled": 0,
+    "free": 6,
+    "sample": "MAT.T.11.1. NİCELİKLER VE DEĞİŞİMLER                                    3       ",
+    "shadow_of": "MAT.T/noktalı-4"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 4,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 4,
+    "sample": "KB2.14. Yorumlama"
+   },
+   {
+    "prefix": "T.MAT",
+    "scheme": "noktalı-4",
+    "count": 2,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 2,
+    "sample": "T.MAT.11.2.1. Üçgenlerde açı, benzerlik ve alan özelliklerinden yola çıkarak dör"
+   },
+   {
+    "prefix": "T.MAT",
+    "scheme": "noktalı-3",
+    "count": 4,
+    "nested": 2,
+    "truncated": 2,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "T.MAT.11.2.1. Üçgenlerde açı, benzerlik ve alan özelliklerinden yola çıkarak dör",
+    "shadow_of": "T.MAT/noktalı-4"
+   }
+  ],
+  "trafik-guvenligi-dersi": [
+   {
+    "prefix": "TG",
+    "scheme": "noktalı-4",
+    "count": 24,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 24,
+    "sample": "TG.4.1.1. Trafik ile ilgili temel kavramlar hakkında bilgi"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 12,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 12,
+    "sample": "KB2.6. Bilgi Toplama, KB2.5. Sınıflandırma,                 beceriler ile soyut "
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 6,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 6,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme),"
+   },
+   {
+    "prefix": "TG",
+    "scheme": "noktalı-3",
+    "count": 26,
+    "nested": 24,
+    "truncated": 2,
+    "inner": 0,
+    "labelled": 0,
+    "free": 0,
+    "sample": "TG.4.1.1. Trafik ile ilgili temel kavramlar hakkında bilgi",
+    "shadow_of": "TG/noktalı-4"
+   }
+  ],
+  "turk-dili-ve-edebiyati-dersi": [
+   {
+    "prefix": "TDE",
+    "scheme": "yapışık-2",
+    "count": 382,
+    "nested": 65,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 317,
+    "sample": "TDE1.1. Dinlemeyi/İzlemeyi Yönetebilme",
+    "shadow_of": "TDE/yapışık-3"
+   },
+   {
+    "prefix": "TDE",
+    "scheme": "yapışık-3",
+    "count": 65,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 64,
+    "free": 65,
+    "sample": "TDE1.1.1. Seçim yapar."
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 44,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 44,
+    "sample": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2."
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 28,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 28,
+    "sample": "KB2.4. Çözümleme, KB2.9. Genelleme, KB2.10."
+   },
+   {
+    "prefix": "E",
+    "scheme": "noktalı-3",
+    "count": 10,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 10,
+    "sample": "E.1.6. Seçicilik, E2.1. Empati, E2.3."
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "boşluklu-2",
+    "count": 9,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 9,
+    "sample": "SDB 2.1. İleti-"
+   }
+  ],
+  "turk-kultur-ve-medeniyet-tarihi-dersi": [
+   {
+    "prefix": "TKMT",
+    "scheme": "boşluklu-2",
+    "count": 8,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 8,
+    "sample": "TKMT 1.1. Türkistan’dan Türkiye’ye Türk devletlerinin"
+   },
+   {
+    "prefix": "KB",
+    "scheme": "yapışık-2",
+    "count": 7,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 7,
+    "sample": "KB2.3. Özetleme                                                    dönüştürürken"
+   },
+   {
+    "prefix": "SDB",
+    "scheme": "yapışık-2",
+    "count": 5,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 5,
+    "sample": "SDB1.2. Kendini Düzenleme (Öz Düzenleme),"
+   },
+   {
+    "prefix": "SBAB",
+    "scheme": "yapışık-2",
+    "count": 4,
+    "nested": 0,
+    "truncated": 0,
+    "inner": 0,
+    "labelled": 0,
+    "free": 4,
+    "sample": "SBAB3.1. Tarihsel"
+   }
+  ]
+ }
+}

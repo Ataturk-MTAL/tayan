@@ -1,0 +1,250 @@
+{
+ "course": {
+  "id": 73,
+  "name": "Halk Oyunları Dersi",
+  "slug": "ortaokul-halk-oyunlari-dersi",
+  "prefix": "HO",
+  "shapes": [
+   "HO/noktalı-3"
+  ],
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/halk-oyunlari-dersi_20260819_071852_879.pdf"
+ },
+ "units": [],
+ "unassigned_outcomes": [
+  {
+   "code": "HO.1.1",
+   "grade": 1,
+   "unit": null,
+   "field": null,
+   "order": 1,
+   "text": "ramlar arası bileşenler BİLEŞENLERE YÖNELİK • Seçilen halk oyunlarının hikâyelerini arasında kurulan ve UYGULAMALAR anlamlı ilişkilere dayainceleyen öğrencilerin bu hikâyelerin nan öğrenme-öğretme anlamını koruyarak farklı biçimlerde sürecini ifade eder. ifade etmeleri sağlanır. Öğrencilerin kültürel kavramları tanımaları, halk oyunları aracılığıyla kültür unsurlaÖğretmenin ve rını fark etmeleri desteklenir (OB5). programın güçlü ve iyileştirilmesi gereken ÖĞRETMEN Programa yönelik görüş ve önerileriniz yönlerinin öğretmenlerin YANSITMALARI için karekodu akıllı cihazınıza okutunuz. kendileri tarafından değerlendirilmesini ifade eder. ORTAOKUL HALK OYUNLARI DERSİ ÖĞRETİM PROGRAMI 2. HALK OYUNLARI DERSİ ÖĞRETİM PROGRAMI’NIN TEMALARI",
+   "components": []
+  },
+  {
+   "code": "HO.1.2",
+   "grade": 1,
+   "unit": null,
+   "field": null,
+   "order": 2,
+   "text": "\u0007Seçilen halk oyunlarının ortaya çıkış hikâyelesonunda öğrenciye VE rini yorumlayabilme kazandırılması amaçlanan SÜREÇ BİLEŞENLERİ a) Seçilen halk oyunlarının hikâyelerini inceler. bilgi, beceri ve becerilerin süreç bileşenlerini ifade b) Seçilen halk oyunlarının hikâyelerini bağlaeder. mından kopmadan yazılı, görsel veya dijital ürünlere dönüştürür.",
+   "components": [
+    {
+     "label": "c",
+     "text": "Seçilen halk oyunlarının hikâyelerini anlamını değiştirmeden yeniden ifade eder. Öğrenme-öğretme sürecinde ele alınan"
+    }
+   ]
+  },
+  {
+   "code": "HO.1.3",
+   "grade": 1,
+   "unit": null,
+   "field": null,
+   "order": 3,
+   "text": "Farklı ölçü ve tartım kalıplarına göre ritmik hareket edebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Farklı ölçü ve tartım kalıplarına ilişkin ritmi algılar."
+    },
+    {
+     "label": "b",
+     "text": "Farklı ölçü ve tartım kalıplarına uygun ritmik hareket eder."
+    },
+    {
+     "label": "c",
+     "text": "Farklı ölçü ve tartım kalıplarına uygun hareket becerilerini sergiler."
+    }
+   ]
+  },
+  {
+   "code": "HO.1.4",
+   "grade": 1,
+   "unit": null,
+   "field": null,
+   "order": 4,
+   "text": "Basit ölçülü ritim kalıplarıyla ritmik hareket edebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Ritmik çalışmalarla basit ölçülü ritim kalıplarını algılar."
+    },
+    {
+     "label": "b",
+     "text": "Basit ölçülü ritim kalıplarıyla yapılan temel halk oyunları adımlama çalışmalarında ritme uygun hareket eder."
+    },
+    {
+     "label": "c",
+     "text": "Basit ölçülü ritim kalıpları ve müzik eşliğinde seçilen halk oyunlarını sergiler."
+    }
+   ]
+  },
+  {
+   "code": "HO.1.5",
+   "grade": 1,
+   "unit": null,
+   "field": null,
+   "order": 5,
+   "text": "Birleşik ölçülü ritim kalıplarıyla ritmik hareket edebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Ritmik çalışmalarla birleşik ölçülü ritim kalıplarını algılar."
+    },
+    {
+     "label": "b",
+     "text": "Birleşik ölçülü ritim kalıplarıyla yapılan halk oyunları çalışmalarında ritme uygun hareket eder."
+    },
+    {
+     "label": "c",
+     "text": "Birleşik ölçülü ritim kalıpları ile seçilen halk oyunlarının adımlamalarını sergiler."
+    }
+   ]
+  },
+  {
+   "code": "HO.1.6",
+   "grade": 1,
+   "unit": null,
+   "field": null,
+   "order": 6,
+   "text": "Seçilen halk oyununda ritmik hareket edebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Seçilen halk oyununun ritmini algılar."
+    },
+    {
+     "label": "b",
+     "text": "Seçilen halk oyununa uygun ritmik hareket eder."
+    },
+    {
+     "label": "c",
+     "text": "Seçilen halk oyununun hareket becerilerini sergiler."
+    }
+   ]
+  },
+  {
+   "code": "HO.2.1",
+   "grade": 2,
+   "unit": null,
+   "field": null,
+   "order": 1,
+   "text": "\u0007Farklı kültürlere, yörelere ve ülkelere ait halk oyunlarının hareketlerini, ritmik yapısını ve kültürel bağlamlarını karşılaştırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Farklı kültürlere ve yörelere ait halk oyunlarının hareketlerini, ritmik yapısını ve kültürel bağlamlarına ilişkin özellikleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Farklı kültürlere ve yörelere ait halk oyunlarının hareketlerini, ritmik yapısını ve kültürel bağlamlarına ilişkin benzerlikleri listeler."
+    },
+    {
+     "label": "c",
+     "text": "Farklı kültürlere ve yörelere ait halk oyunlarının hareketlerini, ritmik yapısını ve kültürel bağlamlarına ilişkin farklılıkları listeler."
+    }
+   ]
+  },
+  {
+   "code": "HO.2.2",
+   "grade": 2,
+   "unit": null,
+   "field": null,
+   "order": 2,
+   "text": "Farklı kültürlere ve yörelere ait halk oyunlarına özgü ritmik hareket edebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Seçilen halk oyunlarında müziğe ve harekete ilişkin ritmi algılar."
+    },
+    {
+     "label": "b",
+     "text": "Seçilen halk oyunlarında ritme uygun hareket eder."
+    },
+    {
+     "label": "c",
+     "text": "Seçilen halk oyunlarında ritmik hareket becerilerini sergiler."
+    }
+   ]
+  },
+  {
+   "code": "HO.2.3",
+   "grade": 2,
+   "unit": null,
+   "field": null,
+   "order": 3,
+   "text": "\u0007Farklı kültürlere ve yörelere ait halk oyunlarına özgü çalışmalarda eşle/grupla hareket edebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Seçilen halk oyunlarına özgü çalışmalarda eşle/grupla hareket ederken rollerini tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Seçilen halk oyunlarına özgü çalışmalarda eşle/grupla hareket ederken rollerini yerine getirir."
+    },
+    {
+     "label": "c",
+     "text": "Seçilen halk oyunlarına özgü çalışmalarda eşle/grupla uyumlu hareket eder."
+    }
+   ]
+  },
+  {
+   "code": "HO.3.1",
+   "grade": 3,
+   "unit": null,
+   "field": null,
+   "order": 1,
+   "text": "Seçilen halk oyunlarında koreografi ve sahnelemeye yönelik bileşenleri açıklayabilme",
+   "components": []
+  },
+  {
+   "code": "HO.3.2",
+   "grade": 3,
+   "unit": null,
+   "field": null,
+   "order": 2,
+   "text": "Seçilen halk oyununun sahneleme sürecinde eşle/grupla hareket edebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Seçilen halk oyununun sahneleme sürecinde ritim ve ezgi eşliğinde eşle/grupla hareket ederken rollerini tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Seçilen halk oyununun sahneleme sürecinde ritim ve ezgi eşliğinde eşle/grupla hareket ederken rollerini yerine getirir."
+    },
+    {
+     "label": "c",
+     "text": "Seçilen halk oyununun sahneleme sürecinde ritim ve ezgi eşliğinde eşle/grupla uyumlu hareket eder."
+    }
+   ]
+  }
+ ],
+ "report": {
+  "units": 0,
+  "outcomes": 0,
+  "components": 0,
+  "orphan_outcomes": 11,
+  "gaps": [
+   {
+    "course": "Halk Oyunları Dersi",
+    "reason": "hiçbir ünite bloğunun içinde değil",
+    "codes": [
+     "HO.1.1",
+     "HO.1.2",
+     "HO.1.3",
+     "HO.1.4",
+     "HO.1.5",
+     "HO.1.6",
+     "HO.2.1",
+     "HO.2.2",
+     "HO.2.3",
+     "HO.3.1",
+     "HO.3.2"
+    ]
+   }
+  ]
+ }
+}

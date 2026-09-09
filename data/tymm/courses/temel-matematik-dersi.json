@@ -1,0 +1,505 @@
+{
+ "course": {
+  "id": 112,
+  "name": "Temel Matematik Dersi",
+  "slug": "temel-matematik-dersi",
+  "prefix": "MAT.T",
+  "shapes": [
+   "MAT.T/noktalı-4",
+   "T.MAT/noktalı-4"
+  ],
+  "kademe": 3,
+  "kademe_name": "Ortaöğretim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/temel-matematik-dersi_20260901_152050_706.pdf"
+ },
+ "units": [
+  {
+   "grade": 11,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "NİCELİKLER VE DEĞİŞİMLER",
+   "description": "Nicelikler ve Değişimler temasında öğrencilerin niceliklerin doğru orantılı değişimlerini gerçek sayılarda tanımlı f(x) = ax, ters orantılı değişimlerini ℝ - {0} da tanımlı g(x) = b x fonksiyonları bağlamında yorumlayabilmeleri; f(x) = ax veya g(x) = b fonksiyonları ile x ifade edilebilen denklem ve eşitsizlikleri içeren problemleri çözebilmeleri amaçlanmaktadır.",
+   "lesson_hours": 26,
+   "sections": {
+    "ALAN BECERİLERİ": "MAB2. Matematiksel Problem Çözme",
+    "KAVRAMSAL BECERİLER": "KB2.14. Yorumlama",
+    "EĞİLİMLER": "E3.6. Analitiklik, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme)",
+    "Değerler": "D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB3. Finansal Okuryazarlık, OB4. Görsel Okuryazarlık",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Coğrafya, Ekonomi, Fizik, Kimya BECERİLER ARASI",
+    "İLİŞKİLER": "MAB3. Matematiksel Temsil, MAB5. Matematiksel Araç ve Teknoloji ile Çalışma ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "MAT.T.11.1.1. Niceliklerin doğru orantılı değişimlerini gerçek sayılarda tanımlı f(x) = ax fonksiyonları bağlamında yorumlayabilme a) Niceliklerin doğru orantılı değişimlerini grafik veya tablo kullanarak inceler. b) Niceliklerin doğru orantılı değişimlerini gerçek sayılarda tanımlı f(x) = ax fonksiyonlarına dönüştürür. c) Niceliklerin doğru orantılı değişimleri ile gerçek sayılarda tanımlı f(x) = ax fonksiyonlarının eğimi ve nitel özellikleri (işareti, sıfırı, artanlığı-azalanlığı) arasındaki ilişkileri sözel olarak ifade eder. MAT.T.11.1.2. Niceliklerin ters orantılı değişimlerini ℝ - {0} da tanımlı g(x) = b fonksix yonları bağlamında yorumlayabilme a) Niceliklerin ters orantılı değişimlerini grafik veya tablo kullanarak inceler. b) Niceliklerin ters orantılı değişimlerini ℝ - {0} da tanımlı g(x) = b fonksiyonlarına x dönüştürür. c) Niceliklerin ters orantılı değişimleri ile ℝ - {0} da tanımlı g(x) = b fonksiyonlax rındaki a değeri ve fonksiyonların nitel özellikleri (işareti, artanlığı-azalanlığı) arasındaki ilişkileri sözel olarak ifade eder. MAT.T.11.1.3. Gerçek sayılarda tanımlı f(x) = ax veya ℝ - {0} da tanımlı g(x) = b fonkx siyonları ile ifade edilebilen denklem ve eşitsizlikleri içeren problemleri çözebilme a) Gerçek sayılarda tanımlı f(x) = ax veya ℝ - {0} da tanımlı g(x) = b fonksiyonları x ile ifade edilebilen denklem ve eşitsizliklere ilişkin matematik­sel bileşenleri (niceliklerdeki değişim miktarı, artma-azalma oranı gibi) matematiksel temsilleri kullanarak belirler. b) Gerçek sayılarda tanımlı f(x) = ax veya ℝ - {0} da tanımlı g(x) = b fonksiyonları x ile ifade edilebilen denklem ve eşitsizliklere ilişkin matematik­sel bileşenlerin aralarındaki ilişkileri belirler. c) Gerçek sayılarda tanımlı f(x) = ax veya ℝ - {0} da tanımlı g(x) = b fonksiyonlax rı ile ifade edilebilen denklem ve eşitsizliklerin problem bağla­mındaki temsillerini farklı temsillere dönüştürür. ç) Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder. d) Elde ettiği ve yorumladığı farklı temsillere dayalı problemin çözümü için strateji oluşturur. e) Belirlediği stratejiyi uygulayarak problemi çözer. f) Elde ettiği çözümü uygun yöntemleri seçerek doğrular.",
+    "İÇERİK ÇERÇEVESİ": "• Gerçek SayılardaTanımlı f(x) = ax Fonksiyonları • ℝ - {0} da Tanımlı g(x) = b Fonksiyonları x • Fonksiyonlardan Elde Edilen Denklem ve Eşitsizlikler Genellemeler • Gerçek yaşam durumları, fonksiyonlarla modellenebilir. • Niceliklerin doğru orantılı ve ters orantılı değişimleri fonksiyonlarla temsil edilebilir. • Fonksiyon grafikleri, cebirsel denklem ile eşitsizliklerin incelenmesi ve yorumlanmasının temel araçlarından biridir.",
+    "Anahtar Kavramlar": "artanlık-azalanlık, değişken, doğru orantı, doğrusal fonksiyon, doğrusal ilişki, eğim, fonksiyonun işareti, kök, orantı sabiti, ters orantı Sembol ve Gösterimler f(x) = ax, g(x) = b x ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; çalışma kâğıdı, açık uçlu sorular, araştırma ödevi ve performans görevi (Ölçme ve ile değerlendirilebilir. Değerlendirme) Öğrencilere gerçek sayılarda tanımlı f(x) = ax ve ℝ - {0} da tanımlı g(x) = b fonksiyonx larının nitel özellikleriyle matematiksel temsilleri arasındaki ilişkilere yönelik açık uçlu soruların yer aldığı çalışma kâğıdı verilebilir. Çalışma kâğıdında ortaya çıkan sonuçlar, analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Öğrencilere ekonomi, fizik, kimya, coğrafya alanlarına ilişkin gerçek yaşam durumlarında karşılaşılan gerçek sayılarda tanımlı f(x) = ax ve ℝ - {0} da tanımlı g(x) = b fonksix yonları ile modellenebilen örneklerin belirlenmesine yönelik bir araştırma ödevi verilebilir. Verilen araştırma ödevi, içerik ve sunum süreçlerini içeren derecelendirme ölçeğiyle değerlendirilebilir. Gerçek sayılarda tanımlı f(x) = ax ve ℝ - {0} da tanımlı g(x) = b fonksiyonları ile ifade x edilebilen denklem ve eşitsizlikleri kullanmayı gerektiren gerçek yaşam problemlerinde öğrencilerin problemi matematiksel temsillere dönüştürebilme, uygun çözüm stratejileri oluşturabilme, çözümlerini kontrol edebilme becerilerini değerlendirmek amacıyla öğrencilere verilen performans görevi analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin bir cebirsel ifadenin değerini değişkenin alacağı farklı sayı değerleri için hesaplayabildiği, dik koordinat sistemini tanıdığı, sıralı ikilileri bu düzlemde gösterebildiği, 9. sınıfta öğrendikleri bilgilerden hareketle doğrusal fonksiyonlardaki niceliklerin birbirine bağlı değişimlerini fark edebildiği, cebirsel ve grafik temsilleri üzerinden gerçek sayılarda tanımlı f(x) = ax fonksiyonlarının nitel özelliklerini ve eğimini inceleyebildiği, bu fonksiyonların nitel özelliklerine dair çıkarımlar yapabildiği, bu fonksiyonların cebirsel ve grafik temsili arasında geçiş yapabildiği kabul edilmektedir. Benzer şekilde öğrencilerin 10. sınıfta öğrendikleri bilgilerden hareketle cebirsel ve grafik temsilleri üzerinden ℝ - {0} da tanımlı g(x) = b fonksiyonlarının nitel özellikx lerini inceleyebildiği, bu fonksiyonların nitel özelliklerine dair çıkarımlar yapabildiği, bu fonksiyonların cebirsel ve grafik temsili arasında geçiş yapabildiği kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerin dik koordinat sisteminin özelliklerine dair ön bilgilerini, 9. sınıfta öğrendikleri gerçek sayılarda tanımlı f(x) = ax fonksiyonları ve bu fonksiyonların matematiksel temsilleri ve nitel özellikleri ile ilgili sahip oldukları bilgi ve beceri düzeylerini, olası kavram yanılgılarını, ilgi ve ihtiyaçlarını tespit etmek için hazır bulunuşluk testleri yapılabilir. Ayrıca bu bilgi ve becerileri belirleyebilmek için öğrencilere gerçek yaşam durumu örneklerini içeren açık uçlu sorular sorulabilir. Öğrencilerin 10. sınıfta öğrendikleri ℝ - {0} da tanımlı g(x) = b fonksiyonlarının max tematiksel temsilleri ve nitel özelliklerine ilişkin sahip oldukları bilgi ve beceri düzeylerini, olası kavram yanılgılarını, ilgi ve ihtiyaçlarını tespit etmek amacıyla soru cevap tekniği uygulanabilir. Bu süreçte ℝ - {0} da tanımlı g(x) = b fonksiyonlarının matematik yazılımx ları kullanılarak çizilen grafik temsillerinden yararlanılabilir. ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilere önceki öğrenmelerine dayanarak fikir yürütmeleri mümkün olan doğru, doğrunun eğimi, doğrusal ilişki, doğrusallık kavramlarına ilişkin sorular sorulabilir. Öğrencilere niceliklerin doğru orantılı değişimlerine yönelik (sabit bir hızla hareket eden aracın hızına bağlı olarak belirli bir sürede aldığı yolun nasıl değişeceği, belirli bir yoğunluğa sahip maddenin kütlesindeki değişime göre hacminin nasıl değişeceği gibi) sorular sorulabilir. Benzer şekilde öğrencilerden niceliklerin ters orantılı değişimlerine yönelik (bir hareketlinin hızındaki değişime göre belirli uzaklıktaki bir noktaya ulaşma süresinin nasıl değişeceği, bir musluktan birim zamanda akan su miktarındaki değişime göre bu musluğun doldurduğu deponun dolma süresinin nasıl değişeceği gibi) sorular sorulabilir. Sorulara verilen cevaplar sınıf ortamında tartışılabilir. Böylelikle öğrencilerin niceliklerin doğru orantılı veya ters orantılı değişimlerine ilişkin ön bilgileri değerlendirilebilir ve desteklenebilir. Öğrenme-Öğretme Uygulamaları MAT.T.11.1.1 Gerçek yaşam durumlarında karşılaşılan doğru orantılı değişimlere ilişkin nicelikler, hazırlanan tablolara işlenir. Tablolardan elde edilen verilerden hareketle dik koordinat sisteminde grafik çizimi yapılır (MAB3). Tablo veya grafikler yardımıyla niceliklerin doğru orantılı değişimleri incelenir (OB4). Elde edilen verilerden hareketle niceliklerin doğru orantılı değişimleri gerçek sayılarda tanımlı f(x) = ax fonksiyonlarına dönüştürülür. Örneğin yoğunluğu 2 kg/m3 olan bir maddenin kütlesinin değişimine bağlı olarak hacminde meydana gelen değişim, hazırlanan tablo ve grafik kullanılarak incelenir (MAB3). Elde edilen grafikten hareketle maddenin kütlesinin hacmine oranının sabit bir değere eşit olacağı görülür ve maddenin hacmine göre kütlesini veren uygun koşullarda tanımlı f(x) = 2x fonksiyonu elde edilir. f(x) = ax fonksiyonlarındaki a eğim değeri ile orantı sabitinin ilişkilendirilmesi sürecinde matematik yazılımları veya diğer çevrim içi araçların etkin şekilde kullanılması sağlanır (OB2, MAB5). Öğrencilerin gerçek sayılarda tanımlı f(x) = ax fonksiyonlarının grafiğinden ve tablo verilerinden yararlanarak “Doğru orantılı değişimlerde, değişimleri temsil eden fonksiyonun eğim değeri orantı sabitine eşit olur.“, “Bir hareketlinin sabit bir hızla zamana bağlı alacağı yolu veren fonksiyon artandır.“ gibi açıklamalar yapmaları beklenir. Böylelikle gerçek sayılarda tanımlı f(x) = ax fonksiyonlarının eğiminin ve nitel özelliklerinin niceliklerin doğru orantılı değişimleri ile ilişkilendirilmesi sağlanır. MAT.T.11.1.2 Niceliklerin ters orantılı değişimlerini ℝ - {0} da tanımlı g(x) = b fonksiyonları bağlax mında yorumlayabilme süreçleri, niceliklerin doğru orantılı değişimlerini gerçek sayılarda tanımlı f(x) = ax fonksiyonları bağlamında yorumlayabilme süreçleri ile benzer şekilde gerçekleştirilir. Burada özel olarak niceliklerin ters orantılı değişimlerine göre oluşturulan tablolar ve çizilen grafiklerden hareketle elde edilen orantı sabiti ℝ - {0} da tanımlı g(x) = b fonksix yonlarındaki b = x . g(x) değeri ile ilişkilendirilir. Örneğin bir atletin 100 metre uzunluğundaki bir yarışı bitirme süresi x saniye kabul edilir. Atletin yarış boyunca ortalama hızını veren g fonksiyonu için orantı sabiti b = 100 olarak belirlenir. Bu durumda pozitif gerçek sayılarda tanımlı f fonksiyonu g(x) = 100 olarak x bulunur. Öğrencilerin ℝ - {0} da tanımlı g(x) = b fonksiyonlarının grafiğinden ve tablo x veri­lerinden yararlanarak “Ters orantılı değişimlerde, değişimleri temsil eden fonksiyonda x . g(x) = b değeri orantı sabitine eşit olur.“, “Bir atletin belirli bir uzunluktaki yarışı bitirme süresine bağlı ortalama hızını veren fonksiyon azalandır.“ gibi açıklamalar yapmaları beklenir. Böylelikle ℝ - {0} da tanımlı g(x) = b fonksiyonlarının nitel özelliklerinin niceliklerin x ters orantılı değişimleri ile ilişkilendirilmesi sağlanır. ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI MAT.T.11.1.3 Gerçek sayılarda tanımlı f(x) = ax veya ℝ - {0} da tanımlı g(x) = b fonksiyonları ile ifade x edilebilen denklem ve eşitsizlikleri içeren problemler coğrafya (harita-ölçek ilişkisi), ekonomi (bir ürünün talep-fiyat eğrisi), fizik (kuvvet, hareket) ve kimya (yoğunluk, çözünürlük miktarı) gibi bağlamlarda incelenir (OB3). Bu problemlerde denklem ve eşitsizliklere ilişkin bağımlı-bağımsız değişken, orantı sabiti, eğim ve çözüm kümesi gibi matematiksel bileşenler belirlenir. Bu bileşenlerin aralarındaki ilişkiler kullanılarak f(x) = k, f(x) > k, f(x) ≤ k, g(x) = k, g(x) > k, g(x) ≤ k, f(x) < g(x) gibi denklem ve eşitsizliklerin tanımlanması sağlanır. Örneğin coğrafyada 1/10 000 ölçekli bir haritada iki şehir arasındaki bilinen harita uzaklığına göre bu iki şehir arasındaki gerçek uzaklığın bulunmasına veya yorumlanmasına ilişkin problemler pozitif gerçek sayılarda tanımlı f(x) = 10 000x fonksiyonu kullanılarak incelenebilir. Benzer şekilde A ve B şehirlerini bağlayan bir yolun üzerinde bulunan, birbirlerine doğru zıt yönlerde 80 km/sa. ve 120 km/sa. sabit hızlarla hareket eden iki hareketlinin başlangıçta aralarındaki uzaklığın 600 km olduğu bir problem durumu incelenebilir. Bu hareketlilerin kaç saat sonra karşılaşacakları, hareket süresi ile hareketlilerin aldığı toplam yol arasındaki doğru orantılı ilişkiden yola çıkılarak elde edilir. Uygun tanım aralığına sahip f(x) = 200x (süreye bağlı hareketlilerin aldığı toplam yol fonksiyonu) yardımıyla f(t) = 600 eşitliğini sağlayan t hareket süresi değeri 200t = 600 denklemi çözülerek bulunur. Bunun dışında bu problem durumunda iki hareketlinin ilk kez karşılaştıkları ana kadar hangi zaman diliminde aralarındaki mesafenin 100 km’den daha az olacağı eşitsizlik kullanılarak incelenebilir. Ekonomide bir malın Türk lirası cinsinden fiyatına göre o malın talep edilen miktarını modelleyen pozitif gerçek sayılarda tanımlı g(x) = 2000 gibi fonksiyonlarla ifade edilebilen denklem ve eşitsizlikler x oluşturulabilir (OB3). Bu denklem ve eşitsizlikler kullanılarak bir malın Türk lirası cinsinden fiyatı ile talep miktarı arasında oluşabilecek ters orantılı ilişki incelenir. Elde edilen denklem ve eşitsizliklerin matematiksel temsilleri arasında (sözel, tablo, grafik, cebirsel) dönüşüm yapılır (MAB3). Öğrencilerin problemin gerektirdiği temsiller arası geçişleri yapabilmesi ve problem çözümlerine analitik ve sistematik bir şekilde yaklaşabilmesi için elektronik tablolardan ve matematik yazılımlarından yararlanılır (OB2, E3.6, E3.7, MAB5). Verilen problem durumlarına ilişkin denklem ve eşitsizliklerin çözümlerine ulaşabilmeleri için öğrencilerin belirli değerlerle denklem veya eşitsizliği test etme, orantı sabitini belirleme, gerçek sayılarda tanımlı f(x) = ax veya ℝ - {0} da tanımlı g(x) = b fonksiyonlarındaki x a ve b değerleri ile orantı sabitini ilişkilendirmeleri beklenir. Bunun için öğrencilerin elektronik tablolardan ve grafik temsilinden yararlanma gibi farklı yöntemleri kullanmaları teşvik edilir (OB2, MAB5). Verilen farklı problem durumlarında uygun bir strateji seçilerek denklem ve eşitsizlikler çözülür. Fonksiyon grafiklerinin kullanılması ve matematik yazılımlarından yararlanılması gibi farklı yöntemlerle çözümlerin doğruluğunun kontrol edilmesi sağlanır (OB2, MAB5). Bu sürecin sonunda öğrenciler, öğrendiklerini öz değerlendirme formu kullanarak değerlendirebilir (SDB1.2). Öğrencilere gerçek sayılarda tanımlı f(x) = ax veya ℝ - {0} da tanımlı g(x) = b fonksiyonları ile ifade edilebilen gerçek yaşam problemleri belirlemeye x ve çözmeye yönelik performans görevi verilebilir. Öğrencilerin verilen performans görevini zamanında ve eksiksiz teslim etmeleri beklenir (D16.3). ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilere niceliklerin doğru orantılı veya ters orantılı değişimlerini cebirsel olarak ifade edebilme, grafik temsillerini ortaya koyabilme ve yorumlayabilmeye yönelik kişiselleştirilmiş geri bildirimler verilerek değerlendirmeler yapılabilir. İş birlikli öğrenme temelinde öğrencilere gerçek yaşam durumlarında doğru orantılı veya ters orantılı ilişkileri tartışabileceği, grafik yorumlarını yapabileceği grup çalışmaları, ortak sunumlar ve projeler yaptırılabilir. Ekonomi, fizik, kimya gibi farklı disiplinlerde geçen doğru orantılı veya ters orantılı ilişkilerin bulunduğu durumların keşfedilmesine ve bu durumların matematiksel temsillerle ilişkilendirilmesine yönelik görevler verilebilir. Öğrencilere doğrusal fonksiyonlara ilişkin bilgi ve becerilerini kullanabilecekleri (elektronik tablo hazırlama, matematik yazılım programları kullanma gibi) farklı uygulamalar yaptırılabilir. Destekleme Öğrencilere gerçek yaşamla ilişkili örneklerden hareketle niceliklerin doğru orantılı değişimlerini gerçek sayılarda tanımlı f(x) = ax fonksiyonları, ters orantılı değişimlerini ℝ - {0} da tanımlı g(x) = b fonksiyonları bağlamında yorumlayabilmeye yönelik, kişiselleştirilx miş geri bildirimler verilerek değerlendirmeler yapılabilir. Öğrencilere gerçek sayılarda tanımlı f(x) = ax ve ℝ - {0} da tanımlı g(x) = b fonksiyonları x ile ifade edilebilen denklem ve eşitsizlikleri kullanmayı gerektiren gerçek yaşam problemleri ile ilgili performans görevleri için daha fazla zaman verilerek geri bildirimlerde ve değerlendirmelerde çoklu ortam (sözlü, yazılı, görsel gibi) kullanılabilir. Öğrenciler için bireysel ihtiyaçlarına uygun hedefler belirlenerek bireyselleştirilmiş öğrenme planları oluşturulabilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "MAT.T.11.1.1",
+     "order": 1,
+     "text": "Niceliklerin doğru orantılı değişimlerini gerçek sayılarda tanımlı f(x) = ax fonksiyonları bağlamında yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Niceliklerin doğru orantılı değişimlerini grafik veya tablo kullanarak inceler."
+      },
+      {
+       "label": "b",
+       "text": "Niceliklerin doğru orantılı değişimlerini gerçek sayılarda tanımlı f(x) = ax fonksiyonlarına dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Niceliklerin doğru orantılı değişimleri ile gerçek sayılarda tanımlı f(x) = ax fonksiyonlarının eğimi ve nitel özellikleri (işareti, sıfırı, artanlığı-azalanlığı) arasındaki ilişkileri sözel olarak ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "MAT.T.11.1.2",
+     "order": 2,
+     "text": "Niceliklerin ters orantılı değişimlerini ℝ - {0} da tanımlı g(x) = b fonksix yonları bağlamında yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Niceliklerin ters orantılı değişimlerini grafik veya tablo kullanarak inceler."
+      },
+      {
+       "label": "b",
+       "text": "Niceliklerin ters orantılı değişimlerini ℝ - {0} da tanımlı g(x) = b fonksiyonlarına x dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Niceliklerin ters orantılı değişimleri ile ℝ - {0} da tanımlı g(x) = b fonksiyonlax rındaki a değeri ve fonksiyonların nitel özellikleri (işareti, artanlığı-azalanlığı) arasındaki ilişkileri sözel olarak ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "MAT.T.11.1.3",
+     "order": 3,
+     "text": "Gerçek sayılarda tanımlı f(x) = ax veya ℝ - {0} da tanımlı g(x) = b fonkx siyonları ile ifade edilebilen denklem ve eşitsizlikleri içeren problemleri çözebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gerçek sayılarda tanımlı f(x) = ax veya ℝ - {0} da tanımlı g(x) = b fonksiyonları x ile ifade edilebilen denklem ve eşitsizliklere ilişkin matematik­sel bileşenleri (niceliklerdeki değişim miktarı, artma-azalma oranı gibi) matematiksel temsilleri kullanarak belirler."
+      },
+      {
+       "label": "b",
+       "text": "Gerçek sayılarda tanımlı f(x) = ax veya ℝ - {0} da tanımlı g(x) = b fonksiyonları x ile ifade edilebilen denklem ve eşitsizliklere ilişkin matematik­sel bileşenlerin aralarındaki ilişkileri belirler."
+      },
+      {
+       "label": "c",
+       "text": "Gerçek sayılarda tanımlı f(x) = ax veya ℝ - {0} da tanımlı g(x) = b fonksiyonlax rı ile ifade edilebilen denklem ve eşitsizliklerin problem bağla­mındaki temsillerini farklı temsillere dönüştürür."
+      },
+      {
+       "label": "ç",
+       "text": "Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder."
+      },
+      {
+       "label": "d",
+       "text": "Elde ettiği ve yorumladığı farklı temsillere dayalı problemin çözümü için strateji oluşturur."
+      },
+      {
+       "label": "e",
+       "text": "Belirlediği stratejiyi uygulayarak problemi çözer."
+      },
+      {
+       "label": "f",
+       "text": "Elde ettiği çözümü uygun yöntemleri seçerek doğrular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 11,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "GEOMETRİK ŞEKİLLER",
+   "description": "Geometrik Şekiller temasında öğrencilerin üçgenlerde açı, benzerlik ve alan özelliklerinden yola çıkarak dörtgenlerin kenar, açı, köşegen, simetri ve alan özellikleri ile çokgenlerin kenar, açı ve köşegen özelliklerine ilişkin çıkarım yapabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 26,
+   "sections": {
+    "ALAN BECERİLERİ": "-",
+    "KAVRAMSAL BECERİLER": "KB2.10. Çıkarım Yapma",
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Öz Güven/Kendine Güvenme, E1.6. Seçicilik, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim , SDB2.2. İş Birliği",
+    "Değerler": "D5. Duyarlılık, D14. Saygı, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Görsel Sanatlar, Mimarlık BECERİLER ARASI",
+    "İLİŞKİLER": "MAB2. Matematiksel Problem Çözme, MAB3. Matematiksel Temsil, MAB5. Matematiksel Araç ve Teknoloji ile Çalışma ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "T.MAT.11.2.1. Üçgenlerde açı, benzerlik ve alan özelliklerinden yola çıkarak dörtgenlerin açı, kenar, köşegen, simetri ve alan özelliklerine ilişkin çıkarım yapabilme a) Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin varsayımlarda bulunur. b) Varsayımlarını kullanarak dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin örüntüleri geneller. c) Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin varsayımları ile genellemelerini karşılaştırır. ç) Elde ettiği genellemeleri kullanarak dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin önermeler sunar. d) Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin sunduğu önermeleri farklı problemlere ve yeni durumlara uyarlayarak değerlendirir. T.MAT.11.2.2. Çokgenlerin kenar, açı ve köşegen özelliklerine dair çıkarım yapabilme a) Çokgenlerin kenar, açı ve köşegen özelliklerine dair varsayımlarda bulunur. b) Varsayımlarını kullanarak çokgenlerin kenar, açı ve köşegen özelliklerine ilişkin örüntüleri geneller. c) Çokgenlerin kenar, açı ve köşegen özelliklerine ilişkin genellemelerini varsayımları ile karşılaştırır. ç) Elde ettiği genellemeleri kullanarak çokgenlerin kenar, açı ve köşegen özelliklerine ilişkin önermeler sunar. d) Çokgenlerin kenar, açı ve köşegen özelliklerine ilişkin sunduğu önermeleri problem durumlarına uyarlayarak kullanışlılık açısından değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "• Dörtgenlerin Açı, Kenar, Köşegen, Simetri ve Alan Özellikleri • Çokgenlerin Özellikleri Genellemeler • Çokgenlerin özellikleri ve çokgenlere ilişkin bağıntılar, çokgenlerin üçgenlere parçalanarak incelenmesi ile elde edilebilir. • Dörtgenler arasındaki ilişkiler, dörtgenlerin temel elemanları ya da köşegen ve simetri gibi özellikleri kullanılarak oluşturulur.",
+    "Anahtar Kavramlar": "çokgen, deltoid, dışbükey çokgen, dikdörtgen, düzgün çokgen, eşkenar dörtgen, kare, köşegen, paralelkenar, simetri, yamuk Sembol ve Gösterimler ⊥ , //, AB, [AB], |AB|, A(ABCD), Ç(ABCD)",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; açık uçlu sorular, doğru-yanlış soruları, kısa cevaplı sorular, çalışma (Ölçme ve kâğıtları, kavram haritası, tanılayıcı dallanmış ağaç ve performans görevi kullanılarak deDeğerlendirme) ğerlendirilebilir. Öğrencilerin çokgenler ve dörtgenlere dair yaptıkları çıkarımlara ilişkin bilgi ve becerilerini konuyla ilgili farklı problem durumları oluşturmalarını ve problemlerin çözümü için kullanmalarını sağlayacak bir performans görevi verilebilir. Öğrencilerin çalışmaları, analitik dereceli puanlama anahtarı ile değerlendirilebilir. ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin 9. sınıfta üçgenin temel elemanlarının özelliklerine ilişkin çıkarım yapabildikleri, 10. sınıfta üçgenin yardımcı elemanlarına dair özellikler ve üçgenin alanıyla ilgili çıkarımlarda bulunarak problem çözebildikleri kabul edilmektedir. Ayrıca öğrencilerin 9. sınıfta üçgende eşlik ve benzerliğe dair çıkarımlarda bulunarak eşlik ve benzerlikle ilgili çıkarımlarını geometrik problemlerin çözümünde kullanabildikleri kabul edilmektedir. Bunun yanı sıra öğrencilerin önceki sınıflarda dörtgenlerin özellikleriyle ilgili edindiği bilgilerden hareketle paralelkenar, eşkenar dörtgen, yamuk, dikdörtgen ve karenin alan bağıntılarına ilişkin çıkarım yapabildikleri ve çokgenlere ilişkin edindikleri deneyimleri yansıtabildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere yöneltilen sorularla onların çokgen ve dörtgenlerle ilgili önceki sınıflarda edindikleri bilgilere dair değerlendirme yapılabilir. Benzer şekilde üçgenin temel ve yardımcı elemanları ile üçgende eşlik ve benzerliğe ilişkin sorularla da öğrencilerin bu konularla ilgili bilgileri değerlendirilebilir. Öğrencilerin sorulara verdikleri cevaplarla öğrenme eksiklikleri ve yanlış anlamaları belirlenir, varsa giderilmesi için uygun görev ve yöntemler (soru cevap, karşıt örnek verme gibi) kullanılabilir. Köprü Kurma Öğrencilerden ortaokulda, 9 ve 10. sınıf seviyesinde öğrendikleri üçgenle ilgili bilgilerinin üzerine çokgenlerin ve dörtgenlerin özelliklerini inşa etmeleri beklenebilir. Öğrencilerin üçgenleri bir araya getirerek oluşturulabilecek şekillerle ilgili sınıf tartışmaları yapmaları sağlanabilir. Verilen şekillerin üçgenlere ayrılmaları sağlanarak da dörtgenlerin özelliklerinin yapılandırılmasına yönelik ön hazırlıklar yapılabilir. Köprü ya da farklı yapılarda üçgen modellerinin bir araya gelmesiyle oluşan şekil modeller de bu bağlamda incelenebilir. Üçgen ve dörtgenlerin kenarları, açıları ve özelliklerinden yola çıkılarak diğer çokgenlerin özelliklerinin de benzer şekilde yapılandırılması beklenebilir. Öğrenme-Öğretme Uygulamaları T.MAT.11.2.1 Öğrencilerin önceki sınıf düzeylerinden bildikleri dörtgenlerin temel özelliklerinden (iç açı, dış açı, kenar sayısı, köşegen sayısı) yola çıkılarak yapılan örnek çizimlerle bir dörtgenin başka bir temel özelliğinin dışbükeylik-içbükeylik olduğuna dair açıklamalar yapılır. Bu çıktıda sadece dışbükey dörtgenlere ait özellikler incelenir. Öğrencilerin farklı dörtgenlere ait örnekleri inceleyerek her bir dörtgenin açı, kenar ve köşegen özellikleri ile ilgili varsayımda bulunması sağlanır. Dörtgen örnekleri, çalışma kâğıdı veya matematik yazılımları kullanılarak sunulur (MAB5). Örneklerin matematik yazılımları kullanılarak sunulmasıyla öğrencilerin dijital araçlarla çalışabilme becerilerinin gelişimi de desteklenir (OB2). Öğrenciler, örnekler üzerinden elde ettikleri varsayımlarından genellemeler yapar. Bu süreçte öğrencilerin kendi fikirlerinden anlamlı ve etkili olanları ayırt etmeleri, arkadaşlarının görüşleriyle ilgili düşüncelerini paylaşmaları desteklenmelidir (E1.6, SDB2.1). Öğrencilerden ulaşılan genellemelerin varsayımlarını karşılayıp karşılamadığını belirleyerek genellemelerini önermeler (“Eşkenar dörtgenin köşegenleri açıortaydır.”, “Yamuğun köşegenleri birbirini oranlı olarak böler.” gibi) olarak ifade etmesi istenir. Önermelerin değerlendirilmesi sürecinde öğrencilerin sunulan önermeleri dörtgenlere ilişkin başka özelliklerin belirlenmesinde kullanması beklenir. Benzer bir çıkarım yapma süreci işletilerek, öğrencilerin üçgene ilişkin bilgilerini kullanarak ve farklı dörtgen örnekleri üzerinde çalışmalar yaparak dörtgenlerin simetri (“Paralelkenarın simetri ekseni yoktur.”, “Karenin köşegenleri simetri eksenidir.” gibi) ve alan (“Dörtgenin alanı, köşegen uzunlukları ile köşegenleri arasındaki açının sinüsünün çarpımının yarısına eşittir.” gibi) özelliklerine ilişkin çıkarımlarda bulunması sağlanır. ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI Bunun yanı sıra öğrencilerden dörtgenle ve üçgenle ilgili çıkarım ve değerlendirmelerini (üçgende benzerlik koşulları ve alan bağıntıları, Pisagor teoremi gibi) kullanarak dörtgenlere ilişkin başka çıkarımlara (“Paralelkenarın köşegenleri alanını dört eş parçaya ayırır.” gibi), özel dörtgenlerden biri olan deltoidin tanımına ve deltoidin açı, köşegen, simetri ve alan özelliklerine öğretmen rehberliğinde ulaşmaları beklenir. Elde ettikleri önermeler farklı problem durumlarına uyarlanarak önermelerin kullanışlılık açısından değerlendirilmesi de sağlanır (MAB2). Dörtgenlere ilişkin bu değerlendirme sürecinde sınıf gruplara ayrılarak farklı problem durumlarında öğrencilerin birlikte çalışmaları desteklenir (SDB2.2). Öğrencilerin dörtgenlerin özelliklerine dair bilgi ve çıkarımlarının değerlendirilmesi; tanılayıcı dallanmış ağaç, kısa cevaplı sorular ya da doğru-yanlış soruları kullanılarak yapılabilir. T.MAT.11.2.2 Öğrencilerin önceki sınıf düzeylerinden bildikleri çokgen tanımından, çokgenlerin kenar sayılarına göre isimlendirilmesinden ve özelliklerinden yola çıkılarak yapılan örnek çizimlerle çokgenlerin dışbükeylik-içbükeylik özelliklerine dair açıklamalar yapılır. Çokgenlerin bu özelliklere dayalı olarak da sınıflandırıldıkları açıklanır. Bu çıktıda sadece dışbükey çokgenlere ait özellikler incelenir. Öğrencilerde konuya dair merak uyandırmak için Farabi’nin dışbükey dörtgen, beşgen ve çokgenleri parçalayarak incelemesiyle ilişkili geometri çalışmalarından bahsedilir (E1.1). Farklı kenar sayısına sahip dışbükey çokgen örneklerini kullanarak öğrencilerin çokgenin bir köşesinden kaç köşegen çizilebileceğine ve bir köşeden çizilen köşegenlerle çokgenin kaç üçgene ayrılabileceğine dair varsayımlarda bulunmaları sağlanır. Öğrencilerden örnekler üzerinde yapacakları çizim ve incelemelerle varsayımlarını genellemelere dönüştürmeleri beklenir. Öğrencilerin bir tablo oluşturmaları ve sırasıyla üçgen, dörtgen, beşgen, altıgen ve yedigen için tespit ettikleri köşegen ve üçgen sayılarını belirlemeleri sağlanır (MAB3). Kenar sayısı verilen bir çokgenin bir köşesinden kaç tane köşegen çizilebileceği ve bu köşegenlerle çokgenin içinde kaç tane üçgen oluşabileceğine ilişkin genellemelere sınıf içi tartışma yoluyla ulaşmaları sağlanır. Öğrencilerden ulaşılan genellemeler ile varsayımlarını karşılaştırması ve ulaşılan genellemeleri önermeler (“Bir çokgenin iç bölgesinde belirli bir köşeden çizilen köşegen sayısının bir fazlası kadar üçgen oluşur.” gibi) olarak ifade etmesi istenir. Benzer bir çıkarım yapma süreci ile öğrencilerin çokgenin iç açılarının ölçüleri toplamını kenar sa­yısına bağlı olarak ifade etmeleri ve dış açılarının ölçüleri toplamının kenar sayısın­dan bağımsız olarak 360° olduğu sonucuna ulaşmaları beklenir. Öğrencilerin farklı kenar sayısına sahip çokgen örnekleri üzerinden sistematik biçimde ilerleyerek çokgenlerin özelliklerine ilişkin çıkarımda bulunmaları sağlanır (E3.7). Daha sonra öğrencilere düzgün çokgen tanımı hatırlatılır ve Ebu Sehl Kuhi’nin bazı düzgün çokgenlerin çizimine ilişkin yaptığı çalışmalarla ilgili bilgi verilir. Bunun yanı sıra Türk-İslam mimarisine ait, yapımında düzgün çokgenlerin (düzgün sekizgen ve düzgün altıgenin kullanımı gibi) kullanıldığı eserler incelenerek bu eserlerin yapımında kullanılan düzgün çokgenlerin nasıl ve neden kullanıldıklarına dair araştırma ödevi verilir. Öğrencilerin Türk-İslam kültürüne ilişkin yapacakları bu çalışmalarla kültürü oluşturan unsurları ve kendi kültürlerini fark etmeleri sağlanır. Bu sayede kültürel mirasa sahip çıkma duyarlılıkları da desteklenir (D5.2, OB5). Bu aşamada öğrencilerin çokgenlerin açı özelliklerine ilişkin çıkarımlarından hareketle düzgün çokgen tanımını da kullanarak bir düzgün çokgenin bir iç ve bir dış açısının ölçüsünü veren bağıntıları kenar sayısına bağlı olarak ifade etmeleri sağlanır. Böylece önceki bilgi ve çıkarımlarını kullanarak, yorumlayarak yeni sonuç ve çıkarımlara ulaşan öğrencilerin bilgi okuryazarlığı becerileri desteklenmiş olur (OB1). Çokgenlere ilişkin çıkarımların değerlendirilmesi bağlamında ayrıca ortaya konulan önermeler, farklı problem durumlarına uyarlanarak kullanışlılık açısından değerlendirilir (MAB2). Öğrencilere sunulacak problem durumlarında süsleme ve görsel sanatlar, mimari yapılar, yapıların yüzey kaplamaları ve doğada karşılaşılan örneklere yer verilir (OB4). Örnekler seçilirken Türk kültürüne ait yöresel halı dokuma örnekleriyle çokgenlerin süsleme sanatındaki kullanımları ele alınarak öğrencilerin kültürü oluşturan unsurlarla kendi kültürünün özelliklerini fark etmeleri sağlanır (OB5). Türk kültürüne ilişkin örnekler, öğrencilerin kültürel mirasa ilişkin duyarlılıklarını pekiştirir (D5.2, D14.3). Çokgenlere ilişkin değerlendirme sürecinde sınıf gruplara ayrılarak öğrencilerin farklı problem ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI durumlarına birlikte çözüm üretmeleri sağlanır (SDB2.2). Öğrencilerin grup çalışması içinde üzerine düşen görevleri yerine getirme çabası, sorumluluk bilincine sahip olmalarını ve öz güvenlerinin gelişimini de destekler (D16.3, E1.5). Öğrencilere çokgenler ve çokgenlerin özelliklerine ilişkin çıkarımlarının değerlendirilmesi için farklı soru türlerinin bulunduğu çalışma kâğıdı verilebilir. Ayrıca öğrencilerin çokgenler ve dörtgenlere dair edindikleri bilgi ve beceriler, konuyla ilgili farklı problem durumlarının oluşturulmasına ve problemlerin çözümüne ilişkin bir performans görevi ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden origamiyle düzgün çokgenler oluşturmaları ve katlamaların nasıl yapıldığı, neden o şekilde katlandığı gibi sorulara cevap vermeleri istenebilir. Ayrıca bu düzgün çokgenlerin ötelenmesi, yansıması ve dönmesinden yararlanarak çeşitli desenler elde etmeleri istenebilir. Bu desenler hazır kâğıtlarla yapılabileceği gibi dijital araçlarla da oluşturulabilir. Öğrencilerden doğadaki düzgün çokgen örnekleri (bal peteklerinin altıgen olması gibi) hakkında araştırma yaparak çalışmalarını özetlemek üzere afiş hazırlamaları ve bu afişleri sunmaları istenebilir. Olanaklar dâhilinde öğrencilerin afişi dijital ortamda geliştirmeleri ve sınıfla paylaşmaları sağlanabilir. Öğrencilere matematik yazılımları kullanılarak çokgenin kenar sayısının artmasıyla oluşan köşegen sayısı ve çokgenin içinde oluşan üçgen sayısındaki değişimleri gösteren bir çalışma ödevi verilerek öğrencilerin çalışmalarını sınıf arkadaşlarına sunmaları sağlanabilir. Öğrencilerden altın oranın ve yıldızın düzgün beşgenle ilişkisini, Mimar Sinan’ın eserlerinde beşgen kullanılarak oluşturulmuş geometrik desenleri ve Leonardo da Vinci’nin (Leyonardo da Vinçi) altın oranla ilgili yaptığı çalışmaları araştırmaları istenebilir. Destekleme Öğrencilerin konuya ilişkin içerik bilgisine ulaşmalarında ve hedeflenen becerileri kazanmalarında çoklu ortam araçları (cetvel, gönye, pergel gibi matematiksel araç gereç veya matematik yazılımları) kullanılabilir. Özellikle dijital etkileşimli içeriklerle uygulama yapma imkânı sağlanabilir. Öğrencilere temel bilgileri edinebilecekleri farklı görseller içeren çokgen örnekleri sunularak öğrencilerin akranlarıyla bu örneklere dair çıkarım yapma sürecine girmeleri desteklenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "T.MAT.11.2.1",
+     "order": 1,
+     "text": "Üçgenlerde açı, benzerlik ve alan özelliklerinden yola çıkarak dörtgenlerin açı, kenar, köşegen, simetri ve alan özelliklerine ilişkin çıkarım yapabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin varsayımlarda bulunur."
+      },
+      {
+       "label": "b",
+       "text": "Varsayımlarını kullanarak dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin örüntüleri geneller."
+      },
+      {
+       "label": "c",
+       "text": "Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin varsayımları ile genellemelerini karşılaştırır."
+      },
+      {
+       "label": "ç",
+       "text": "Elde ettiği genellemeleri kullanarak dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin önermeler sunar."
+      },
+      {
+       "label": "d",
+       "text": "Dörtgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine ilişkin sunduğu önermeleri farklı problemlere ve yeni durumlara uyarlayarak değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "T.MAT.11.2.2",
+     "order": 2,
+     "text": "Çokgenlerin kenar, açı ve köşegen özelliklerine dair çıkarım yapabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çokgenlerin kenar, açı ve köşegen özelliklerine dair varsayımlarda bulunur."
+      },
+      {
+       "label": "b",
+       "text": "Varsayımlarını kullanarak çokgenlerin kenar, açı ve köşegen özelliklerine ilişkin örüntüleri geneller."
+      },
+      {
+       "label": "c",
+       "text": "Çokgenlerin kenar, açı ve köşegen özelliklerine ilişkin genellemelerini varsayımları ile karşılaştırır."
+      },
+      {
+       "label": "ç",
+       "text": "Elde ettiği genellemeleri kullanarak çokgenlerin kenar, açı ve köşegen özelliklerine ilişkin önermeler sunar."
+      },
+      {
+       "label": "d",
+       "text": "Çokgenlerin kenar, açı ve köşegen özelliklerine ilişkin sunduğu önermeleri problem durumlarına uyarlayarak kullanışlılık açısından değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 11,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+   "description": "İstatistiksel Araştırma Süreci temasında öğrencilerin iki nicel değişken arasındaki ilişkililiğe odaklanan gerçek yaşam durumları bağlamında bir istatistiksel araştırma sürecini yürütebilmeleri amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "MAB4. Veri ile Çalışma ve Veriye Dayalı Karar Verme",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E3.7. Sistematiklik, E3.8. Soru Sorma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Öz Farkındalık/Kendini Tanıma, SDB2.1. İletişim",
+    "Değerler": "D5. Duyarlılık, D6. Dürüstlük, D8. Mahremiyet, D13. Sağlıklı Yaşam, D14. Saygı, D17. Tasarruf",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB3. Finansal Okuryazarlık",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "BECERİLER ARASI",
+    "İLİŞKİLER": "MAB3. Matematiksel Temsil, MAB5. Matematiksel Araç ve Teknoloji ile Çalışma ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "MAT.T.11.3.1. İki nicel değişkenli veri ile çalışabilme ve iki nicel değişken arasındaki ilişkililiğe dayalı karar verebilme a) İki nicel değişkenli veriye dayalı istatistiksel araştırma gerektiren gerçek yaşam durumlarını belirler. b) Bağlam içerisinde iki nicel değişken arasındaki ilişkililiğe odaklanan araştırma soruları oluşturur. c) İki nicel değişkenli hazır veri setinin nasıl elde edilmiş olabileceğini sorgular. ç) Elde edilen/verilen iki nicel değişkenli hazır veri setini analize hazırlar. d) Araştırma sorusu bağlamında elde edilen/verilen iki nicel değişkenli verileri analiz etmek için görselleştirme ve/veya özetleme [tablo, serpme diyagramı (saçılım grafiği), bölgelere göre sayım oranı, korelasyon katsayısı] araçlarından uygun olanı seçer. e) Araştırma sorusu bağlamında elde edilen verileri belirlediği araçlarla analiz eder. f) İki nicel değişkenli veri dağılımlarına dayalı istatistiksel araştırmadan elde edilen sonuçları yorumlar. g) İki nicel değişkenli veri dağılımlarına dayalı istatistiksel araştırmadan elde edilen sonuçları araştırma sorusu bağlamında değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "• İki Nicel Değişkenin İlişkililiğini İçeren İstatistiksel Problemi Oluşturma • Verileri Toplama ve Analize Hazır Hâle Getirme • Bulgulara Ulaşma ve Bulguları Yorumlama Genellemeler • Aynı gözlem birimlerinden elde edilen/toplanan verilerden hareketle oluşturulan iki nicel değişkenli dağılımlar, verilerin birlikte değişebilirliğindeki eğilimine ilişkin bilgi verir. • İki nicel değişken arasındaki ilişkililik, bu iki değişken arasındaki ilişkili olma durumunu ifade eder. • İki nicel değişken arasındaki doğrusal ilişkinin yönü ve gücü sayısal bir değer olan korelasyon katsayısı olarak ifade edilir. • İki nicel değişkenin ilişkili olması bu iki değişken arasında bir neden-sonuç ilişkisi olduğu anlamına gelmez.",
+    "Anahtar Kavramlar": "bölgelere göre sayım oranı, iki nicel değişken, ilişkililik, korelasyon katsayısı, serpme diyagramı (saçılım grafiği), tablo, veri dağılımları Sembol ve Gösterimler -",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; çalışma kâğıdı, kontrol listesi, kavram haritası ve performans görevi ile (Ölçme ve değerlendirilebilir. Değerlendirme) Öğrencilerden istatistiksel araştırma sürecinin bütününü değerlendirmeye yönelik bir kavram haritası oluşturmaları istenebilir. Öğrencilere iki nicel değişken arasındaki ilişkililiğe odaklanan istatistiksel araştırma sürecinin bütününü değerlendirmeye yönelik bir performans görevi verilebilir. Performans görevi, analitik veya bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. Bu performans görevinin sonunda öğrenciler elde ettikleri sonuçların benzerlik veya farklılıklarının nedenleri üzerine sınıf içi tartışma yapmalıdır. Öğrencilerin gruplarla yaptıkları sınıf içi tartışma etkinlikleri akran veya grup değerlendirme formları ile değerlendirilebilir. ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin 9. sınıfta öğrendikleri nicel veri dağılımlarına yönelik betimleme ve karşılaştırma gerektiren araştırma sorusu oluşturabildikleri, araştırma sorusu bağlamında toplanan/elde edilen nicel verileri analiz etmek için görselleştirme ve/veya özetleme araçları kullanabildikleri, nicel verileri analiz ederek yorumlayabildikleri kabul edilmektedir. Öğrencilerin 10. sınıfta öğrendikleri iki kategorik değişkenin ilişkililiğine dair araştırma sorusu oluşturabildikleri ve oluşturdukları sorular için veri toplayabildikleri/elde edebildikleri kabul edilmektedir. Elde ettikleri/topladıkları iki kategorik değişkenli verilerden hareketle verileri görselleştirebildikleri ve/veya özetleyebildikleri (toplam satır veya sütunlardaki göreli sıklıkları gösteren iki yönlü tablo, koşullu göreli sıklıkları gösteren sütun grafikleri, koşullu göreli sıklıklar gibi), değişebilirlik ve dağılım kavramlarını bildikleri ve verileri yorumlayabildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerin istatistiksel araştırma sürecinin bütününe ilişkin ön bilgilerini değerlendirmek amacıyla beyin fırtınası tekniği kullanılabilir. Öğrencilerin önceki sınıflardaki istatistiksel araştırma sürecine ilişkin deneyimlerini paylaşmaları istenerek istatistiksel araştırma sürecine yönelik ilgi ve merakları gözlemlenebilir. Bununla birlikte öğrencilere nicel verileri içeren bir bağlama yönelik açık uçlu sorular sorulabilir. Sorular öğrencilerin histogram, nokta grafiği, kutu grafiği gibi görselleştirme araçlarına ve aritmetik ortalama, ortanca, tepe değer, açıklık, standart sapma gibi özetleme araçlarına ilişkin bilgilerini inceleyecek şekilde tasarlanabilir. Bu süreç sonunda öğrencilere geri bildirim verilebilir. Köprü Kurma Öğrencilerden iki nicel değişken arasındaki ilişkililiğe odaklanan araştırma sorularını incelemeleri ve bu sorulara nasıl cevap verilebileceği üzerine düşünmeleri istenebilir. Araştırma sorularına cevap vermek için ortaokul ve 9. sınıfta öğrenilen çizgi grafiği, nokta grafiği, kök-yaprak gösterimi, histogram, kutu grafiği gibi araçların kullanılıp kullanılamayacağı tartışılabilir. Bu görselleştirme araçlarının her zaman yeterli olup olamayacağı ve yeni görselleştirme araçlarına ihtiyaç duyulacağı öğrencilere sorgulatılarak fark ettirilebilir. Öğrenme-Öğretme Uygulamaları MAT.T.11.3.1 İstatistiksel araştırma süreci; bağlamı belirleme, bağlama yönelik soru sorma, veri toplama planı yapma, verileri analize hazır hâle getirme, verileri analiz etme ve sonuçları yorumlama aşamalarının tamamını içerecek şekilde ele alınır. Bu sınıf seviyesinde öğrenciler iki nicel değişken içeren hazır veri setleriyle oluşturulan dağılımlarla istatistiksel araştırma sürecini yürütür. İki nicel değişkenli verilerdeki ilişkililiğe yönelik araştırma sorularına kaynaklık eden bağlamlar öğrencilerin ilgi duyduğu, merak ettiği gerçek yaşam durumlarını içermelidir. Toplumsal konulara yer verilmesi öğrencilerin etrafında olup bitenleri merak etmesini ve merak ettiği konular doğrultusunda sorular sormasını destekleyerek kendisine, topluma, çevreye ve canlılara karşı hassasiyetle yaklaşmasını sağlar (E1.1, E3.8, SDB1.1, D5.2). Öğrenciler bireysel çalışma veya grup çalışması ile belirledikleri gerçek yaşam durumlarını örümcek ağı gibi tekniklerle gösterebilir. Belirlenen gerçek yaşam durumları veri toplamayı gerektirip gerektirmeme ölçütüne göre sınıf içi tartışmayla incelenir. Bu süreçte öğrencilerin düşüncelerini ifade etmelerinin yanı sıra diğer arkadaşlarının düşüncelerini nazik bir şekilde dinleyerek onlarla empati kurabilmesine yönelik yönlendirmeler yapılır (SDB2.1, D14.1). ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI Öğrencilerin belirlenen bağlamlardan yola çıkarak merak ettikleri soruları ifade edebilmelerine izin verilir (E3.8). Bu aşamada örnek bir bağlamdan hareketle bir araştırma sorusu oluşturulabilir. Örneğin bireylerin kütlelerinin inceleneceği bir problemle başlanıp hangi değişkenlerin kütle ile ilişkili olabileceğine yönelik sınıf içi tartışma başlatılabilir. Uygun değişkenin belirlenmesi sürecinde öğrencilerin birbirlerinin fikirlerini dinlemeleri ve bu fikirlerden hareketle yorum yapabilmeleri sınıf içi tartışma ile desteklenir. Tartışma sırasında öğrencilerden farklı bakış açılarını dikkate almaları ve birbirleriyle etkili iletişim kurmaları beklenir (SDB2.1, D14.1). Bu tartışmanın sonunda öğrencilerle kütlenin boy, günlük ekmek tüketim miktarı, günlük yürüyüş süresi gibi değişkenlerle ilişkili olabileceğinden hareketle araştırma soruları oluşturulur. Öğrencilerin farklı bağlamlardan hareketle hazırladıkları araştırma sorularına ilişkin fikirlerini gerekçeleriyle tartışmaları ve bu tartışmalar sonucunda iki nicel değişkenli veri dağılımlarının ilişkililiğine odaklanan istatistiksel araştırma sorularına ulaşmaları sağlanır (SDB2.1). Ayrıca öğrencilerden farklı disiplinlerle ilişkili araştırma soruları hazırlamaları istenebilir. Örneğin öğrenciler; kişilerin gelir miktarları ile yaptıkları tasarruf miktarı arasında bir ilişkililik olup olmadığını, omurgalı hayvanların ağırlığı ile yaşam süreleri arasındaki ilişkililiği inceleyebilir (OB3). Bunun yanı sıra öğrencilerin bilinçli tüketici olmaya dikkat çekmek amacıyla “Ev yaşam alanı ile tüketilen elektrik miktarı arasında bir ilişkililik var mıdır?” şeklinde bir soru üzerinde tartışmaları sağlanabilir (OB3, D17.1). Bu süreçte öğrenciler tarafından hazırlanacak bazı araştırma soruları sağlıklı yaşama ilişkin duyarlılığı artırma amacı gözetebilir. Bireylerin spor yapma süresi ile kalp atış hızı arasındaki ilişki üzerine sınıf içi tartışma yapılarak öğrencilerin düşüncelerinin ortaya çıkarılması buna örnek gösterilebilir (SDB2.1, D13.2). Hazırlanan araştırma sorularına cevap bulabilmek amacıyla öğrencilerle veri toplama sürecine geçilir. Bu süreçte öğrencilerin verileri hazır veri kaynaklarından elde edebileceği ifade edilmelidir. Öğrencileri hazır veriye ulaşırken dijital kaynakları nasıl doğru kullanacaklarına dair bilgi sahibi olmalarına yönelik tartışmalar yapmaya teşvik edecek tasarımlar yapılmalıdır (OB2). Sınıf ortamına ve imkânlara bağlı olarak gerektiğinde hazır veriler öğrencilere sağlanır. Öğrencilerden elde ettikleri iki nicel değişkenli veri setlerini analize hazır hâle getirmeleri beklenir (OB1). Bu süreçte dijital araçlar oluşturulup kullanılabilir (OB2). Verileri elde ederken kişisel verilerin gizliliğine; tutarlı, tarafsız, doğru ve güvenilir olunmasına dikkat edilmesinin önemine vurgu yapılmalıdır (D6.2, D8.2). Ayrıca bu süreçte elde edilen verilerin araştırma sorusuna cevap vermesi ile elde edilen sonuçların evrene genellenip genellenemeyeceği, eleştirel bir bakış açısıyla tartışılmalıdır (E3.10). Örneğin A okulunda öğrenim gören 11. sınıf öğrencilerinden belirlenen bir örneklemden elde edilen sonuçlarla B okulunda öğrenim gören 11. sınıf öğrencilerinden elde edilen sonuçların benzerlik veya farklılık gösterip göstermeyeceği, bu sonuçların aynı ildeki tüm 11. sınıf öğrencilerine genellenip genellenemeyeceği tartışılır. Öğrenciler tarafından oluşturulan istatistiksel araştırma soruları ve elde edilen/verilen verilerin nasıl toplanmış olabileceği, istatistiksel araştırma sorusu ve veri toplama ölçütleri doğrultusunda oluşturulan kontrol listesiyle değerlendirilebilir. Öğrencilerden araştırma soruları bağlamında iki nicel değişken arasındaki ilişkililiği analiz edebilmek için görselleştirme ve özetleme araçlarından [tablo, serpme diyagramı (saçılım grafiği), bölgelere göre sayım oranı, korelasyon katsayısı] öncelikle tablo ile verileri gözlemlemeleri istenir (MAB3). Burada öğrencilerin bir değişkenin değerleri değişirken diğer değişkenin değerlerinin değişimine (veri setindeki değişkenlerin birlikte değişebilirliği) odaklanmaları sağlanır. Korelasyon katsayısının anlamlandırılabilmesi için istatistik yazılımları yardımıyla serpme diyagramı oluşturulur ve bölgelere göre sayım oranı hesaplanır (MAB5). İki değişkenin ilişkililiğinde aykırı değerlerin korelasyon katsayısını etkileyeceği dikkate alınmalıdır. ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI Analiz süreci tamamlandığında elde edilen sonuçlara ilişkin öğrencilerle sınıf içi tartışma yapılmalıdır. Öğrenciler, elde ettikleri sonuçları arkadaşlarıyla paylaşarak birbirlerinin düşüncelerini nazik bir şekilde dinlemenin yanı sıra sonuçları kendi sonuçları ve arkadaşlarınınkiyle karşılaştırabilir (SDB2.1, D14.1). Bu tartışma sürecinde öğrencilerden iki nicel değişken arasındaki doğrusal ilişkinin yönü (pozitif/negatif) ve gücüne (ilişki yok/zayıf/orta/güçlü) ilişkin yorum yapmaları istenir. Sonuçları yorumlarken öğrencilerin iki nicel değişkenli verilerde ortaya çıkan ilişkinin bir neden-sonuç ilişkisi olmadığını ayırt etmelerine yönelik çalışmalar yapılmalıdır. Analizler tamamlandıktan sonra öğrencilerden araştırma sorularına dönerek elde ettikleri sonuçlardan hareketle araştırma sorusuna cevap vermeleri beklenir. Bu süreçte öğrencilerin istatistiksel araştırma sürecinin bütün bileşenlerini sistematik bir şekilde gözden geçirmeleri desteklenir (E3.7). Araştırma sorularına verilecek cevapların istatistiksel ifadeler içermesi önemlidir. Bu süreçte öğrencilerin seçilen örneklem dağılımından hareketle evren dağılımı hakkında genellemeler yapmaları ve elde edilen sonuçları belirsizliği dikkate alan bir dille ifade etmeleri beklenir. Öğrencilere iki nicel değişken arasındaki ilişkililiğe odaklanan istatistiksel araştırma süreçlerinin bütününü değerlendirmeye yönelik bir performans görevi verilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden kendilerine verilen çok değişkenli veri setlerinden hareketle uygun iki nicel değişken belirleyerek bir araştırma sorusu hazırlamaları ve bu doğrultuda istatistiksel araştırma süreci tasarlayarak yürütmelerine yönelik proje hazırlamaları istenebilir. Öğrencilerin elde ettiği sonuçları sunum, poster, bilgi görseli gibi araçlarla veya dijital ortamlarda içerik oluşturarak diğer arkadaşları ile paylaşmaları, deneyimlerini ifade etmeleri sağlanabilir. Öğrencilerin korelasyonel araştırma yöntemi kullanılarak yapılmış bir bilimsel çalışmayı analiz etmesi ve arkadaşlarıyla tartışması istenebilir. Destekleme Öğrencilerin iki nicel değişkenin ilişkililiğini içeren istatistiksel araştırma sürecine dâhil olmaları için grup çalışması yapılabilir. Gruplar heterojen şekilde düzenlenerek öğrencilerin akran öğrenmesi ile istatistiksel araştırma sürecini anlamlandırması desteklenebilir. Öğrencilerden günlük yaşamlarında daha fazla karşılarına çıkma ihtimali olan nicel veri setlerinden (boy, sıcaklık değerleri gibi) hareketle araştırma sorusu oluşturmaları, veri toplamaları ve bu verileri analiz ederek yorumlamaları istenebilir. Öğrencilerin daha küçük veri setleri üzerine çalışmaları sağlanabilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "MAT.T.11.3.1",
+     "order": 1,
+     "text": "İki nicel değişkenli veri ile çalışabilme ve iki nicel değişken arasındaki ilişkililiğe dayalı karar verebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "İki nicel değişkenli veriye dayalı istatistiksel araştırma gerektiren gerçek yaşam durumlarını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlam içerisinde iki nicel değişken arasındaki ilişkililiğe odaklanan araştırma soruları oluşturur."
+      },
+      {
+       "label": "c",
+       "text": "İki nicel değişkenli hazır veri setinin nasıl elde edilmiş olabileceğini sorgular."
+      },
+      {
+       "label": "ç",
+       "text": "Elde edilen/verilen iki nicel değişkenli hazır veri setini analize hazırlar."
+      },
+      {
+       "label": "d",
+       "text": "Araştırma sorusu bağlamında elde edilen/verilen iki nicel değişkenli verileri analiz etmek için görselleştirme ve/veya özetleme [tablo, serpme diyagramı (saçılım grafiği), bölgelere göre sayım oranı, korelasyon katsayısı] araçlarından uygun olanı seçer."
+      },
+      {
+       "label": "e",
+       "text": "Araştırma sorusu bağlamında elde edilen verileri belirlediği araçlarla analiz eder."
+      },
+      {
+       "label": "f",
+       "text": "İki nicel değişkenli veri dağılımlarına dayalı istatistiksel araştırmadan elde edilen sonuçları yorumlar."
+      },
+      {
+       "label": "g",
+       "text": "İki nicel değişkenli veri dağılımlarına dayalı istatistiksel araştırmadan elde edilen sonuçları araştırma sorusu bağlamında değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 12,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "NİCELİKLER VE DEĞİŞİMLER",
+   "description": "Nicelikler ve Değişimler temasında öğrencilerin aritmetik ve geometrik dizilerin özelliklerine ilişkin muhakeme yapabilmeleri, gerçek sayılarda tanımlı fonksiyonlar ile gerçek sayı dizilerini karşılaştırabilmeleri, aritmetik ve geometrik diziler ile ifade edilebilen problemleri çözebilmeleri amaçlanmaktadır.",
+   "lesson_hours": 26,
+   "sections": {
+    "ALAN BECERİLERİ": "MAB1. Matematiksel Muhakeme, MAB2. Matematiksel Problem Çözme",
+    "KAVRAMSAL BECERİLER": "KB2.7. Karşılaştırma",
+    "EĞİLİMLER": "E1.1. Merak, E3.6. Analitiklik, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D14. Saygı, D16. Sorumluluk, D17. Tasarruf",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB3. Finansal Okuryazarlık, OB4. Görsel Okuryazarlık",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Biyoloji, Ekonomi BECERİLER ARASI",
+    "İLİŞKİLER": "MAB3. Matematiksel Temsil, MAB5. Matematiksel Araç ve Teknoloji ile Çalışma ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "MAT.T.12.1.1. Aritmetik ve geometrik dizilerin özelliklerine ilişkin muhakeme yapabilme a) Sayı örüntülerinin ardışık terimlerini belirler. b) Ardışık terimler arasındaki ortak fark/oran ilişkisini belirler. c) Sayı örüntülerinin her bir terimini belirlediği ortak farkı/oranı kullanarak ifade eder. ç) Ardışık terimler arasındaki ortak farkı/oranı sabit olan örüntülerin genel terimini aritmetik/geometrik dizi olarak açıklar. MAT.T.12.1.2. Gerçek sayılarda tanımlı fonksiyonlar ile gerçek sayı dizilerini karşılaştırabilme a) Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerini belirler. b) Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerine ilişkin benzerlikleri listeler. c) Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerine ilişkin farklılıkları listeler. MAT.T.12.1.3. Aritmetik ve geometrik diziler ile ifade edilebilen problemleri çözebilme a) Aritmetik ve geometrik diziler ile ifade edilebilen problemlere ilişkin matematik­sel bileşenleri (ardışık terimlerin ortak farkı veya ortak oranı gibi) tablo temsili kullanarak belirler. b) Aritmetik ve geometrik diziler ile ifade edilebilen problemlere ilişkin matematik­sel bileşenlerin aralarındaki ilişkileri belirler. c) Aritmetik ve geometrik dizilerin problem bağla­mındaki temsillerini farklı temsillere dönüştürür. ç) Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder. d) Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için strateji oluşturur. e) Belirlediği stratejiyi uygulayarak problemi çözer. f) Elde ettiği çözümü uygun yöntemleri seçerek doğrular.",
+    "İÇERİK ÇERÇEVESİ": "• Diziler • Aritmetik Diziler • Geometrik Diziler Genellemeler • Dizi; örüntü belirten, pozitif doğal sayılarda tanımlı bir fonksiyondur. • Dizi, örüntüleri incelemenin matematiksel araçlarından biridir. • Fonksiyonlar, niceliklerin birbirine bağlı değişimlerini temsil eder.",
+    "Anahtar Kavramlar": "aritmetik dizi, dizi, genel terim, geometrik dizi, monoton artan, monoton azalan, ortak fark, ortak oran, terim Sembol ve Gösterimler an ,(an ) ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; çalışma kâğıdı, performans görevi ile değerlendirilebilir. (Ölçme ve Öğrencilere farklı sayı örüntüsü örneklerinin yer aldığı bir çalışma kâğıdı verilebilir. ÖğrenDeğerlendirme) cilerden bu sayı örüntülerinden hangilerinin aritmetik veya geometrik dizi olduğunu belirlemeleri ve bu dizilerin genel terimlerini yazmaları istenir. Ortaya konan sonuçlar, analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonlar birlikte incelenip ilişki kurulduktan sonra öğrencilere bu dizi ve fonksiyonların gerçek yaşam durumlarına yansımalarını araştırmayı gerektiren bir performans görevi verilebilir. Performans görevleri, analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin ortaokul seviyesinde edindikleri bilgilerden sayı örüntüleri hakkında çıkarım yapabildikleri ve 9. sınıfta edindikleri bilgilerden hareketle üslü gösterimleri bildikleri ve bir gerçek sayının tam sayı kuvvetini bulabildikleri, doğrusal değişim içeren bir durumu doğrusal fonksiyonun cebirsel ifadesi olarak genelleyebildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere farklı sayı örüntüleri içeren çalışma kâğıtları verilerek örüntülerin farklı elemanlarını veya kuralını bulma çalışmaları yaptırılabilir. Tespit edilen hatalar veya öğrenme eksikliklerini gidermek için gerekli açıklama, hatırlatma ve kavramlar arası ilişkilendirmeler yapılabilir. Üslü işlemlerle ilgili bilgi, beceri ve kavram yanılgılarını tespit etmek için hazır bulunuşluk testi yapılabilir. Köprü Kurma Öğrencilerin örüntü bilgilerinden yararlanarak örüntünün terimlerinin bir dizi oluşturduğu fikri üzerine tartışmaları sağlanabilir. Doğrusal ilişki içeren bir gerçek yaşam durumundan elde edilen örüntünün tablo ve cebirsel temsilinin bulunması çalışmalarına yer verilerek bu ilişkiyi temsil eden fonksiyonun cebirsel ifadesi ile artış miktarı ve ilk terimi ilişkilendirilebilir. Doğrusal artış ile üstel artışın karşılaştırılması amacıyla uygun gerçek yaşam durumu örnekleri (her gün belirli bir sayfa sayısı kadar kitap okuma, bir pastayı dilimlere ayırma, kâğıt katlama gibi) incelenebilir. ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları MAT.T.12.1.1 Öğrenciler gruplara ayrılarak her gruba farklı sayı örüntüleri içeren çalışma kâğıdı verilir. Böylelikle öğrencilerin iletişim ve iş birliği becerilerinin geliştirilmesine olanak sağlanır (SDB2.2). Öğrencilerin sayı örüntülerindeki ardışık terimleri inceleyerek bu terimler arasındaki fark ya da orana odaklanmaları istenir. Her grubun kendi sayı örüntülerindeki ardışık terimler arasındaki aritmetik ilişkileri ortaya çıkarmaları istenir. Öğrencilerden ardışık terimleri arasındaki farkı ya da oranı sabit olan örüntüler ve terimler arasından bu tarz bir ilişki olmayan örüntüleri fark etmeleri beklenir. Bu örüntülerin terimlerini ifade etmek için adım sayısı “n” sayma sayısı olmak üzere, örüntünün n. teriminin an şeklinde temsil edildiği ifade edilerek farklı örnekler üzerinden örüntünün genel terimini bulmaya yönelik çalışmalar yapılır. Bu dizilerin genel terimlerinin elde edilen ortak fark/ortak oran ile ifade edileceği üzerinde durulur. Bu çalışma sürecinde öğrencilerin kendi düşüncelerini etkin bir şekilde ifade edebilmeleri, arkadaşlarıyla düşüncelerini paylaşabilmeleri ve diğerlerinin düşüncelerini saygı çerçevesinde dinleyerek sözlü/sözsüz iletişimde bulunabilmeleri desteklenir (SDB2.1, SDB2.2, D14.1). Ardışık terimler arasındaki fark sabit ise bu tür örüntülerin aritmetik dizi, ardışık terimler arasındaki oran sabit ise bu tür örüntülerin de geometrik dizi olarak adlandırıldığı belirtilir. Öğrencilerden farklı aritmetik ve geometrik dizi örnekleri sunmaları istenebilir. Öğrencilerin buldukları dizi örneklerinden seçilenler, dijital içerik üretme ve paylaşma becerilerini geliştirmelerine destek olacak biçimde çevrim içi araçlardan da yararlanılarak sergilenebilir (OB2, MAB5). MAT.T.12.1.2 Gerçek sayılarda tanımlı fonksiyonlar ile gerçek sayı dizilerinin özelliklerinin ilişkilendirilmesi için öğrencilere farklı fonksiyon ve dizi örnekleri sunulur. Örneğin uygun koşullarda tanımlı f(x) = 1 fonksiyonu ile ( an ) = ( 1 ) dizisi incelenir (OB1). f(x) = 1 fonksiyonunun x n x alacağı değerler ile ( an ) = ( 1 ) dizisinin terimlerinin karşılaştırılması sağlanır. Bu bağlamn da f(x) = 1 şeklinde tanımlanan fonksiyonun değerleri ile ( an ) = ( 1 ) dizisinin hangi x n terimlerinin eşleştiği sorusuna cevap aranır (E1.1, SDB2.1). Daha sonra fonksiyonun değer aralığında eşleşmeyen elemanların olup olmadığı sorularak bu elemanlardan bazılarının tanım aralığından yararlanılarak belirlenmesi istenir (D3.3). Fonksiyonların nitel özelliklerinden artanlık-azalanlık, dizilerde monoton artan-monoton azalan olarak ifade edilir. Benzerliklerin ve farklılıkların incelendiği fonksiyon ve dizi örnekleri incelenir. Fonksiyonlar ile gerçek sayı dizileri arasındaki ilişkiler; “Sayma sayılarında tanımlı fonksiyonlar, gerçek sayı dizileri olarak ifade edilir.”, “Diziler, tanım kümesi sayma sayıları olan fonksiyonlardır.” gibi çıkarımlarla ortaya konur. Öğrencilere bu çıktıya yönelik bir performans görevi verilir. MAT.T.12.1.3 Günlük yaşamda karşılaşılan düzenli birikim yapma, belirli aralıklarla nöbet tutma, belli bir yükseklikten serbest bırakılan topun her sıçramasının bir öncekinin yarısı kadar olma durumu gibi aritmetik veya geometrik diziler ile ifade edilebilen durumlar öncelikli olarak ele alınır (OB3, D17.3). Bu problemlerde elde edilen veriler hazırlanan tabloya işlenir. Tablo incelenerek sayı örüntüsü, terim değerleri gibi problemin çözümü için gerekli olan matematiksel bileşenler belirlenir (OB4). Elde edilen sayı örüntüsünün ardışık iki terimi arasındaki ortak fark/ortak oran belirlenip aritmetik dizinin/geometrik dizinin genel terimi yazılarak temsiller arasında dönüşüm yapılır (MAB3). Bu aşamada genel terimi bulunan aritmetik dizi/geometrik dizi bir fonksiyon olarak da ifade edilebilir. Öğrencilerin problemin gerektirdiği temsiller arası geçişleri yapabilmesi ve problem çözümlerine analitik ve sistematik bir şekilde yaklaşabilmesi için elektronik tablolardan veya matematik yazılımlarından yararlanılabilir (OB2, E3.6, E3.7, MAB5). ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI Verilen problemlerin çözümlerine ulaşabilmeleri için öğrencilerin gerçek sayılarda toplama ve çarpma işlemlerinin özelliklerinden ve elektronik tablolardan yararlanma gibi farklı yöntemleri kullanmaları teşvik edilir (OB2, MAB5). Ekonomide bir şirketin kazancının modellenmesi, biyolojide popülasyon tahmini gibi farklı disiplinlerde karşılaşılabilen problem durumları için uygun bir strateji seçilerek problemler çözülür. Belirli değerlerle çözümün doğruluğunu test etme, elektronik tablolardan veya matematik yazılımlarından yararlanma gibi farklı yöntemlerle çözümlerin doğruluğunun kontrol edilmesi sağlanır (OB2, MAB5). Öğrencilere aritmetik diziler veya geometrik diziler ile ifade edilebilen gerçek yaşam durumu problemleri belirlemeye ve bu problemleri çözmeye yönelik performans görevi verilebilir. Öğrencilerden verilen performans görevini zamanında ve eksiksiz teslim etmeleri beklenir (D16.3).",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden aritmetik ve geometrik diziler dışında farklı gerçek sayı dizilerini araştırmaları, bu dizilerin aritmetik ve geometrik diziler ile benzerlik ve farklılıklarını ortaya koymaları istenebilir. Rekürsif (öz yinelemeli) ve iteratif (yinelemeli) diziler ile bu dizilerin algoritma ve akış şemalarının yazımı araştırma ödevi olarak verilerek örnek uygulamalar istenebilir. Ayrıca aritmetik dizilerin öz yinelemeli dizilere dönüşen örneklerine yer verilebilir. Destekleme Aritmetik ve geometrik diziler konusuna ortaokulda öğrendikleri sayı örüntüleri hakkında yapılacak çalışmalarla başlanabilir. Öğrencilerden sınırlı sayıda elemanı olan sayı örüntülerini girdi (adım sayısı) ve çıktı (örüntünün elemanı) olarak elektronik tablolarda işleyerek örüntünün kuralını bulmaları ve bu fikri aritmetik ve geometrik dizilere uyarlamaları istenebilir. Aritmetik ve geometrik diziler ile ilgili basit aritmetik işlemler yapmayı gerektiren problemler tercih edilebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "MAT.T.12.1.1",
+     "order": 1,
+     "text": "Aritmetik ve geometrik dizilerin özelliklerine ilişkin muhakeme yapabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Sayı örüntülerinin ardışık terimlerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "Ardışık terimler arasındaki ortak fark/oran ilişkisini belirler."
+      },
+      {
+       "label": "c",
+       "text": "Sayı örüntülerinin her bir terimini belirlediği ortak farkı/oranı kullanarak ifade eder."
+      },
+      {
+       "label": "ç",
+       "text": "Ardışık terimler arasındaki ortak farkı/oranı sabit olan örüntülerin genel terimini aritmetik/geometrik dizi olarak açıklar."
+      }
+     ]
+    },
+    {
+     "code": "MAT.T.12.1.2",
+     "order": 2,
+     "text": "Gerçek sayılarda tanımlı fonksiyonlar ile gerçek sayı dizilerini karşılaştırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerine ilişkin benzerlikleri listeler."
+      },
+      {
+       "label": "c",
+       "text": "Gerçek sayı dizileri ve gerçek sayılarda tanımlı fonksiyonların özelliklerine ilişkin farklılıkları listeler."
+      }
+     ]
+    },
+    {
+     "code": "MAT.T.12.1.3",
+     "order": 3,
+     "text": "Aritmetik ve geometrik diziler ile ifade edilebilen problemleri çözebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Aritmetik ve geometrik diziler ile ifade edilebilen problemlere ilişkin matematik­sel bileşenleri (ardışık terimlerin ortak farkı veya ortak oranı gibi) tablo temsili kullanarak belirler."
+      },
+      {
+       "label": "b",
+       "text": "Aritmetik ve geometrik diziler ile ifade edilebilen problemlere ilişkin matematik­sel bileşenlerin aralarındaki ilişkileri belirler."
+      },
+      {
+       "label": "c",
+       "text": "Aritmetik ve geometrik dizilerin problem bağla­mındaki temsillerini farklı temsillere dönüştürür."
+      },
+      {
+       "label": "ç",
+       "text": "Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder."
+      },
+      {
+       "label": "d",
+       "text": "Elde ettiği ve yorumladığı farklı temsillere dayalı olarak problemin çözümü için strateji oluşturur."
+      },
+      {
+       "label": "e",
+       "text": "Belirlediği stratejiyi uygulayarak problemi çözer."
+      },
+      {
+       "label": "f",
+       "text": "Elde ettiği çözümü uygun yöntemleri seçerek doğrular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 12,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "GEOMETRİK ŞEKİLLER",
+   "description": "Geometrik Şekiller temasında öğrencilerin çemberin elemanlarını (kesen, kiriş, teğet, çap ve yay) çözümleyebilmeleri; çemberde açı, kiriş ve teğetin özelliklerine ilişkin çıkarım yapabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 26,
+   "sections": {
+    "ALAN BECERİLERİ": "-",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme, KB2.10. Çıkarım Yapma",
+    "EĞİLİMLER": "E2.1. Empati, E2.2. Sorumluluk",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D13. Sağlıklı Yaşam, D14. Saygı, D16. Sorumluluk, D17. Tasarruf",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB8. Sürdürülebilirlik Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Sağlık Bilimleri, Ziraat BECERİLER ARASI",
+    "İLİŞKİLER": "MAB2. Matematiksel Problem Çözme, MAB5. Matematiksel Araç ve Teknoloji ile Çalışma ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "MAT.T.12.2.1. Çemberle ilişkili elemanları (kesen, kiriş, teğet, çap, yay) çözümleyebilme a) Kesen, kiriş, teğet, çap ve yayı çemberin elemanları olarak belirler. b) Çemberde kesen, kiriş, teğet, çap ve yay arasındaki ilişkileri belirler. MAT.T.12.2.2. Çemberin açı, kiriş, teğet özellikleri ile ilgili çıkarım yapabilme a) Çemberde açı, kiriş ve teğetin özelliklerine ilişkin varsayımlarda bulunur. b) Varsayımlarından yararlanarak çemberde açı, kiriş ve teğetin özelliklerine ilişkin örüntüleri geneller. c) Genellemelerini varsayımlarıyla karşılaştırır. ç) Elde ettiği genellemelerden önermeler sunar. d) Önermelerini farklı problemlere ve yeni durumlara uyarlayarak kullanışlılığını değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Çemberde Açı, Kiriş, Teğet ve Bunların Özellikleri Genellemeler • Yarıçap, teğet doğrusuna teğet noktasında diktir. • Çapı gören çevre açının ölçüsü 90°dir. • Merkezden kirişe indirilen dikme, kirişi eşit uzunlukta iki parçaya ayırır.",
+    "Anahtar Kavramlar": "çap, çember, çemberde iç ve dış açı, çemberin uzunluğu, çevre açı, daire, dairenin alanı, daire dilimi, daire diliminin alanı, kesen, kiriş, kirişler dörtgeni, merkez açı, teğet, teğet-kiriş açı, teğet parçası, yay, yay uzunluğu ( ( Sembol ve Gösterimler r, R, AB, ABC, m(AB), π",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; çalışma kâğıdı, doğru-yanlış soruları, kısa cevaplı sorular, tanılayıcı dal- (Ölçme ve lanmış ağaç ve performans görevi ile değerlendirilebilir. Değerlendirme) Öğrencilere çemberde kesen, kiriş, teğet, çap ve yay arasındaki ilişkilere yönelik çalışma kâğıdı verilebilir. Yapılan çalışmalar, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. Çemberde açı, kiriş ve teğetin özellikleri ile çemberin uzunluğu ve dairenin alanına ilişkin farklı problemler çözmelerini gerektiren performans görevi verilebilir. Performans görevinde çözülen problemler; öz değerlendirme, akran değerlendirme formları ve analitik dereceli puanlama anahtarı kullanılarak değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin ortaokul düzeyinde çemberin uzunluğu ile çapı arasındaki ilişkilere yönelik çıkarımlar yapabildiği, çapı veya yarıçapı verilen bir çemberin uzunluğuyla ve daire diliminin alanıyla ilgili problemler çözebildiği kabul edilmektedir. Bunun yanı sıra öğrencilerin 9 ve 10. sınıfta çokgene, dörtgenin temel özelliklerine, üçgenin temel ve yardımcı elemanlarına ilişkin özellikler ile üçgende eşlik ve benzerliğe dair çıkarımlarda bulunabildiği; çıkarımlarına dair sonuçları farklı problem durumlarında kullanabildiği kabul edilmektedir. ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI Ön Değerlendirme Süreci Öğrencilerin çember, merkez, çap, yarıçap, çemberin uzunluğu ve dairenin alanı gibi konularla ilgili bilgilerine ilişkin hazır bulunuşlukları gözlemlenebilir. Bu süreçte soru cevap tekniği kullanılarak öğrencilerin çember ve çemberin özelliklerine ilişkin bilgileri değerlendirilebilir. Benzer şekilde üçgen ve dörtgenin temel özellikleri ile üçgende eşlik ve benzerliğe dair bilgileri de öğrencilerin sorulara verdikleri cevaplar değerlendirilerek kontrol edilebilir. Tüm ön değerlendirme süreci boyunca yapılan değerlendirmelerle öğrencilerin eksik veya hatalı öğrenmelerinin giderilmesi için gerekli çalışmalar yapılabilir. Çember ve çemberle ilgili kavramlara yönelik çalışmalarda öğrencilere çizimler yaptırılarak, matematik yazılımları kullandırılarak ve öğrencilerin sürece aktif katılımları sağlanarak öz güvenlerini geliştirmelerine yardımcı olunabilir. Köprü Kurma Üçgen ve dörtgende temel ve yardımcı elemanlara ilişkin özellikler ile üçgende eşlik ve benzerliğe dair çıkarım yapabilen öğrencilerin bu bilgileriyle çemberde çap, teğet, kiriş özelliklerine ilişkin edinilmesi beklenen bilgiler arasında ilişki kurmaları sağlanabilir. Ortaokulda öğrendikleri çap kavramından hareketle öğrencilere kiriş kavramı hatırlatılır ve doğruların çemberi iki noktada değil bir noktada kesme durumu inceletilebilir. Böylece öğrencilerin teğet kavramını fark etmeleri sağlanabilir. Öğrenme-Öğretme Uygulamaları MAT.T.12.2.1 Öğrencilerin ortaokulda öğrendiği çember, merkez, çap, yarıçap, çemberin uzunluğu ve dairenin alanı gibi konular üzerinde tekrar düşünmeleri sağlanır. Hastalıklardan korunmak için insanlar arasında 1,5 metre sosyal mesafenin korunması durumu, sürdürülebilirlik ve sağlıklı yaşam için motorlu taşıt kullanımının azaltılması, bisikletin aldığı yol ile tekerleğin çevresi arasındaki ilişki, sudan tasarruf için bahçe ve tarla gibi ziraat yapılan bölgelerde dairesel sulama sistemlerinin kullanılması gibi gerçek yaşam durumlarıyla çember ilişkilendirilir (OB8, D13.2, D16.2, D17.2, E2.1, E2.2). Öğrenciler gruplar hâlinde çalışarak matematik yazılımları, pergel, ölçüsüz cetvel (çizgeç) veya kâğıt katlama gibi matematiksel araç ve teknolojiler yardımıyla düzlemde çember ile doğrunun birbirlerine göre durumlarını değerlendirir (MAB5). Çemberi farklı şekillerde kesen doğrular oluşturulup teğet, kiriş, çap ve yay kavramları belirlenir. Çemberi kesen bir doğrunun çemberi kestiği noktalardan yararlanılarak kiriş, yay kavramları ile çembere bir noktada değen doğrudan yararlanılarak teğet kavramı incelenir. Sınıf içi tartışmalarla öğrencilerin grup iletişimine katılma, etkin dinleme ve düşüncelerini ifade etme süreçleri de dikkate alınarak çemberde kesen, kiriş, teğet, çap ve yay arasındaki ilişkilerin belirlenmesi sağlanır (SDB2.1, SDB2.2, D14.1). Öğrencilere çemberde kesen, kiriş, teğet, çap ve yay arasındaki ilişkilere yönelik farklı soru türlerini içeren çalışma kâğıdı verilebilir. MAT.T.12.2.2 Öğrencilerin matematik yazılımları veya pergel, ölçüsüz cetvel gibi matematiksel araç ve teknolojiler kullanarak çember ve çemberde açı, teğet ve kiriş özelliklerine ilişkin varsayımlarda bulunmaları sağlanır (MAB5). Bu varsayımlardan yararlanarak öğrencilerin çevre açı ve merkez açı arasındaki ilişkiye, teğet ve kirişler arasındaki özelliklere dair bazı genellemelere ulaşmaları istenir. Öğrencilerin varsayımlar oluşturma ve genellemelere ulaşma sürecinde dijital uygulamalar kullanmaları durumunda dijital okuryazarlık becerilerinin gelişimi de sağlanır (OB2). Bu genellemeler ile varsayımlarını bilimsel bir bakış açısıyla karşılaştırmaları beklenir (D3.3). Elde ettikleri genellemeleri kullanarak “Merkez açının ölçüsü, aynı yayı gören çevre açının ölçüsünün iki katıdır.”, “Kirişler dörtgeninde karşılıklı açıların ölçüleri toplamı eşit ve 180 derecedir.” gibi önermelerde bulunmaları; bu önermeleri yeni durumlara ve farklı problem durumlarına uyarlayarak değerlendirmeleri öğrencilerden beklenir (MAB2). ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI Öğrencilere elde ettikleri önermeleri kullanmalarını gerektiren farklı problem durumları sunularak önermelerin değerlendirmesi yapılır (MAB2). Bu tür problemlerin çözüm süreci öğrencilerin bilgiyi çözümleme, yorumlama ve sentezleme becerilerinin de gelişimini sağlar (OB1). Sunulan farklı problemlerde çember ve yay uzunlukları ile daire ve daire diliminin alanına ilişkin durumlar da ele alınır. Öğrencilerin çember ve özelliklerine dair bilgi ve çıkarımlarının değerlendirilmesi; tanılayıcı dallanmış ağaç, doğru-yanlış soruları ya da kısa cevaplı sorular kullanılarak yapılabilir. Öğrencilere çemberde açı, kiriş ve teğetin özellikleri ile çemberin uzunluğu ve dairenin alanına ilişkin farklı problemler çözmelerini gerektiren performans görevi verilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden çemberin çevresi ve dairenin alanı için yapacakları görsel ispatları açıklayan bir video ve benzeri dijital materyal oluşturmaları ve oluşturdukları materyalleri dijital ortamda paylaşmaları sağlanabilir. Dairenin alanı ve pi sayısı üzerine Arşimet’in yaptığı çalışmaların araştırılması istenebilir. Destekleme Konunun görsel ve işitsel materyaller kullanılarak, oyunlaştırılarak öğrencilere sunulmasına dikkat edilerek çıkarım yapma sürecinde kavramlar, ilişkilerin somutlaştırılması yoluyla verilebilir. Etkileşimli çevrim içi öğrenme uygulamaları kullanılarak öğrencilerin hedeflenen becerileri kazanmaları desteklenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "MAT.T.12.2.1",
+     "order": 1,
+     "text": "Çemberle ilişkili elemanları (kesen, kiriş, teğet, çap, yay) çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kesen, kiriş, teğet, çap ve yayı çemberin elemanları olarak belirler."
+      },
+      {
+       "label": "b",
+       "text": "Çemberde kesen, kiriş, teğet, çap ve yay arasındaki ilişkileri belirler."
+      }
+     ]
+    },
+    {
+     "code": "MAT.T.12.2.2",
+     "order": 2,
+     "text": "Çemberin açı, kiriş, teğet özellikleri ile ilgili çıkarım yapabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çemberde açı, kiriş ve teğetin özelliklerine ilişkin varsayımlarda bulunur."
+      },
+      {
+       "label": "b",
+       "text": "Varsayımlarından yararlanarak çemberde açı, kiriş ve teğetin özelliklerine ilişkin örüntüleri geneller."
+      },
+      {
+       "label": "c",
+       "text": "Genellemelerini varsayımlarıyla karşılaştırır."
+      },
+      {
+       "label": "ç",
+       "text": "Elde ettiği genellemelerden önermeler sunar."
+      },
+      {
+       "label": "d",
+       "text": "Önermelerini farklı problemlere ve yeni durumlara uyarlayarak kullanışlılığını değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 12,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "İSTATİSTİKSEL ARAŞTIRMA SÜRECİ",
+   "description": "İstatistiksel Araştırma Süreci temasında öğrencilerin 12. sınıf seviyesine kadar öğrendiği istatistik ve olasılık bilgilerini kullanabileceği hazır verilere dayalı istatistiksel araştırma tasarımı yapabilmeleri, istatistiksel araştırma sürecini yürütebilmeleri ve sonuçları paylaşabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "MAB4. Veri ile Çalışma ve Veriye Dayalı Karar Verme",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E3.7. Sistematiklik, E3.8. Soru Sorma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB1.3. Öz Yansıtma/Kendine Uyarlama, SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.1. Uyum, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D3. Çalışkanlık, D5. Duyarlılık , D14. Saygı, D20. Yardımseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Djital Okuryazarlık, OB3. Finansal Okuryazarlık, OB6. Vatandaşlık Okuryazarlığı, OB8. Sürdürülebilirlik Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Coğrafya, Ekonomi, Sosyoloji BECERİLER ARASI",
+    "İLİŞKİLER": "MAB3. Matematiksel Temsil, MAB5. Matematiksel Araç ve Teknoloji ile Çalışma ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "MAT.T.12.3.1. Toplumsal veya bilimsel durumlara ilişkin hazır veri ile çalışabilme ve hazır veriye dayalı karar verebilme a) İstatistiksel araştırma tasarlamayı gerektiren toplumsal veya bilimsel durumları belirler. b) Bağlam içerisinde ve tasarladığı istatistiksel araştırmaya yönelik veri dağılımlarını betimleyen, karşılaştıran veya değişkenler arasındaki ilişkililiğe odaklanan araştırma soruları oluşturur. c) Elde edilen/verilen hazır veri setinin nasıl elde edilmiş olabileceğini sorgular. ç) Elde edilen/verilen hazır veri setini analize hazırlar. d) Araştırma sorusu bağlamında verileri analiz etmek için görselleştirme ve/veya özetleme araçlarından uygun olanları seçer. e) Araştırma sorusu bağlamındaki verileri belirlediği araçlarla analiz eder. f) Tasarladığı istatistiksel araştırmadan elde ettiği çıktılardan hareketle sonuçları yorumlar. g) Tasarladığı istatistiksel araştırmadan elde edilen sonuçları araştırma sorusu bağlamında değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "• Betimleyen, Karşılaştıran ve İlişkililiği İçeren İstatistiksel Problemler Oluşturma • Verileri Toplama ve Analize Hazır Hâle Getirme • Bulgulara Ulaşma ve Bulguları Yorumlama Genellemeler • Veri dağılımları, verilerin değişebilirliği hakkında bilgi verir. • Örneklemin dağılımı, evrenin dağılımına ilişkin fikir verir. • Tek değişkenli verilerin dağılımlarını tanımlamada kullanılacak görsel ve özetler, ilgili dağılımın merkezinin nereye eğilim gösterdiğini ve nasıl yayıldığını belirlemede kullanılır. • Aynı gözlem birimlerinden elde edilen verilerden hareketle oluşturulan iki değişkenli (kategorik-kategorik, nicel-nicel) dağılımlar, verilerin birlikte değişebilirliğindeki eğilime ilişkin bilgi verir. • İki değişkenin ilişkili olması, bu iki değişken arasında bir neden-sonuç ilişkisi olduğu anlamına gelmez.",
+    "Anahtar Kavramlar": "istatistiksel araştırma tasarımları Sembol ve Gösterimler -",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; kontrol listesi ve proje ödevi ile değerlendirilebilir. (Ölçme ve Öğrencilere hazırladıkları istatistiksel araştırma tasarımlarının bütününü değerlendirDeğerlendirme) meye yönelik bir performans görevi verilebilir. Performans görevi, analitik veya bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. Bu performans görevinin sonunda öğrencilerin elde ettikleri sonuçların benzerlik veya farklılıklarının nedenleri üzerine sınıf içi tartışma yapılabilir. Öğrenciler, ürünlerini akran değerlendirme veya grup değerlendirme formu ile değerlendirebilir. ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin 9, 10 ve 11. sınıf boyunca öğrendikleri tek değişkenli (kategorik-nicel) ve iki değişkenli veri setleri ile çalışarak istatistiksel araştırma sürecini yürütebildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerin istatistiksel araştırma sürecinin bütününe ilişkin bilgilerini değerlendirmek amacıyla beyin fırtınası tekniği kullanılabilir. Öğrencilerin önceki sınıflarda edindikleri istatistiksel araştırma sürecine ilişkin deneyimleri paylaşmaları istenerek istatistiksel araştırma sürecine yönelik ilgi ve merakları gözlemlenebilir. Bununla birlikte öğrencilerin bu zamana kadar öğrendiklerine ilişkin kavram haritası oluşturmaları istenerek ön bilgileri ortaya çıkarılabilir. Köprü Kurma Öğrencilere çok değişken içeren bir veri seti sunulabilir. Bu veri seti üzerinden öğrencilerden önceki öğrendiklerini hatırlamaya yönelik incelemeler yapmaları istenebilir. Öğrencilerin önceki yıllarda öğrendiği tek değişkenli nicel veri dağılımlarını betimlemeyi ve karşılaştırmayı; iki değişkenli kategorik ya da nicel verilerdeki ilişkililiği ele almayı tek bir araştırmada kullanabileceğine yönelik tartışmalar yapılabilir. Öğrenme-Öğretme Uygulamaları MAT.T.12.3.1 İstatistiksel araştırma tasarımına kaynaklık edecek bağlamlar, öğrencilerin ilgi duyduğu veya merak ettiği toplumsal ve bilimsel durumlar; bireysel çalışmalar ya da iş birliğiyle grup çalışması yapılarak belirlenir (E1.1). Grup çalışmaları sürecinde fikirlerini arkadaşlarıyla paylaşarak uygunluğu üzerine öğrencilerin tartışmaları ve aktif rol almaları desteklenebilir (SDB2.2, D3.4). Belirlenen bağlamlardan yola çıkarak öğrenciler merak ettikleri soruları ifade eder. Bu aşamada öğrencilerle çok değişkenli veri setlerinden en fazla iki değişken içeren problemlerin neler olabileceği üzerine sınıf içi tartışma başlatılır (E3.8). Bu tartışmalarda uygun değişkenlerin nasıl belirleneceği üzerine öğrenciler, fikirlerini arkadaşlarıyla paylaşır. Öğrenciler, birbirlerinin fikirlerini saygı çerçevesinde dinleyerek değişkenleri belirler (SDB2.2, D14.1). Bu tartışmanın sonunda öğrenciler farklı bağlamlardan hareketle betimsel, karşılaştırma veya ilişkililiğe odaklanan istatistiksel araştırma sorularına ulaşır (SDB2.1). Sınıftaki grupların farklı türde araştırma sorularına odaklanması sağlanır. Öğrencilerden bu süreçte dünyaya ve topluma duyarlılığını, ekosistemin sürdürülebilirliğini yansıtabileceği farklı disiplinlere yönelik araştırma soruları hazırlamaları beklenir (SDB2.3, SDB3.3, OB8, D5.2). Örneğin hava kirliliği ve iklim değişikliğine, eriyen buzullara, deniz suyu sıcaklığının değişimine, çölleşmeye odaklanan (coğrafya); gelir dağılımı ve yaşam koşullarını, teknolojinin toplumsal etkisini (sosyoloji) veya yatırım ve tasarrufları inceleyen (ekonomi) araştırma soruları oluşturulabilir (OB3). Hazırlanan araştırma sorularına cevap bulabilmek amacıyla veri elde etme sürecine geçilir. Bu süreçte öğrencilerin hazır veriye hangi kaynaklardan nasıl ulaşabileceği üzerine sınıf içi tartışma yapılır (SDB2.1). Örneğin öğrenciler belirledikleri soruların bağlamı ile ilişkili olan kamu kurumlarının genel ağ adreslerini ziyaret ederek ihtiyaç duydukları hazır verilere ulaşabilir (OB1, OB6). Ayrıca belirledikleri sorular bağlamında dijital ortamlarda bu tür verileri nasıl elde edebilecekleri ile ilgili tartışmalar yapılır. Bu sayede öğrenciler, ulusal veya uluslararası resmî kanallar üzerinde dijital kaynaklardan hazır verileri elde edebilir (OB2). Sınıf ortamına ve imkânlara bağlı olarak gerektiğinde hazır veriler öğrencilere sağlanabilir. Öğrencilerin hazır veriye ait örneklemin genellemeyi hedeflediği evrene uygunluğunu olasılık bilgilerini kullanarak ve eleştirel bakarak tartışmaları sağlanır (E3.10). Elde edilen hazır verilerin belirlenen araştırma sorusuna cevap verebilecek değişkenleri içerip içermediği inceletilir. Öğrencilerden çalıştıkları hazır veriye göre araştırma sorularında gerekiyorsa uyarlama yapmaları beklenir (SDB3.1). ORTAÖĞRETİM TEMEL MATEMATİK DERSİ ÖĞRETİM PROGRAMI Öğrenciler tarafından oluşturulan istatistiksel araştırma soruları ve elde edilen/verilen verilerin nasıl toplanmış olabileceği, istatistiksel araştırma sorusu ve veri toplama ölçütleri doğrultusunda oluşturulan kontrol listesiyle değerlendirilebilir. Araştırma soruları bağlamında öğrencilerden betimsel, karşılaştırma veya ilişkililik içeren veri dağılımlarını analiz edebilmek için görselleştirme ve/veya özetleme araçlarından uygun olanları seçmeleri istenir (SDB1.2, MAB3). Seçilecek araç/araçlar, araştırma sorularına cevap verecek ve verileri analiz edecek nitelikte olmalıdır. Öğrencilerin istatistik yazılımlarını kullanarak görselleştirme ve/veya özetleme araçlarıyla verileri analiz etmeleri istenir (MAB5, OB2). Öğrencilerden elde ettikleri sonuçlardan hareketle araştırma sorusuna cevap vermeleri beklenir (SDB3.3). Bu süreçte öğrencilerin istatistiksel araştırma sürecinin bütün bileşenlerini sistematik bir şekilde gözden geçirmeleri sağlanır (E3.7). Araştırma sorularına verilecek cevapların istatistiksel bir dil içermesi önemlidir. Elde edilen sonuçlar doğrultusunda öğrencilerin seçilen örneklem dağılımından hareketle evren dağılımı hakkında çıkarımlar yapması ve elde edilen sonuçları belirsizliği dikkate alan bir dille ifade etmesi beklenir. Öğrenciler, elde ettikleri istatistiksel sonuç ve çıkarımlara dayalı olarak veri temelli argümanlar ve veriye dayalı çözüm önerileri geliştirebilir. İstatistiksel araştırma süreci kapsamında belirlemiş olduğu toplumsal veya bilimsel durumlarla (enerji tüketimi, kentlerde betonlaşma, iklim değişimi, ekonomik büyüme ve refah düzeyi gibi) ilgili veri temelli argümanlar ve yeni çözüm önerileri üretebilir, ilgili kamu kurumları ile iletişime geçebilir ya da ilgili sivil toplum kuruluşlarında çözüm önerilerini eyleme dönüştürebileceği gönüllü faaliyetlere katılabilir (OB6, OB8, D20.4). Öğrencilerden istatistiksel araştırma tasarlama, yürütme ve sonuçlarını paylaşma süreçlerinde bireysel deneyimlerini ve varsa yaşamış oldukları zorlukları günlük gibi araçlarla kayıt altına almaları istenebilir. Süreç boyunca kendi duygu, düşünce ve davranışlarını nasıl yönettiklerini ve bu zorluklarla nasıl başa çıktıklarını değerlendirmeleri istenebilir (SDB1.2, SDB1.3). Öğrencilere toplumsal veya bilimsel durumlara ilişkin hazır veri setlerine ulaşacakları şekilde istatistiksel araştırma süreci yürütecekleri bir performans görevi verilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden yürüttükleri istatistiksel araştırmaların sonuçlarına ilişkin çözüm önerilerini ilgili kuruma sunacak şekilde projelendirmesi istenebilir. Öğrencilere çok değişken içeren veri seti sunulup öğretmen tarafından seçilen bir değişkenin o veri setinde yer alan diğer değişkenlerden hangisi ile en ilişkili olduğu incelenebilir. Öğrencilerin seçilen değişkenlere yönelik istatistiksel araştırma tasarımları yapmaları beklenerek elde ettikleri sonuçları dijital araçlar yardımıyla paylaşmaları ve deneyimlerini ifade etmeleri istenebilir. Destekleme Hazır veri setlerinde daha az sayıda değişken olmasına ve bu değişkenlere ait veri sayısının daha az olmasına dikkat edilerek istatistiksel araştırma sürecinin yürütülmesi istenebilir. Elde edilen sonuçlar çeşitli görsel araçlar (sunum, bilgi görseli gibi) yardımıyla sınıf ortamında paylaşılabilir. İstatistiksel araştırma süreci; gruplar heterojen şekilde düzenlenerek, öğrencilerin ilgi ve ihtiyaçlarına uygun görevler verilmesi sağlanarak grup çalışması ile yürütülebilir. Akran öğrenmesi ve görev paylaşımları ile öğrencilerin istatistiksel araştırma tasarımlarını anlamlandırması desteklenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz."
+   },
+   "outcomes": [
+    {
+     "code": "MAT.T.12.3.1",
+     "order": 1,
+     "text": "Toplumsal veya bilimsel durumlara ilişkin hazır veri ile çalışabilme ve hazır veriye dayalı karar verebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "İstatistiksel araştırma tasarlamayı gerektiren toplumsal veya bilimsel durumları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlam içerisinde ve tasarladığı istatistiksel araştırmaya yönelik veri dağılımlarını betimleyen, karşılaştıran veya değişkenler arasındaki ilişkililiğe odaklanan araştırma soruları oluşturur."
+      },
+      {
+       "label": "c",
+       "text": "Elde edilen/verilen hazır veri setinin nasıl elde edilmiş olabileceğini sorgular."
+      },
+      {
+       "label": "ç",
+       "text": "Elde edilen/verilen hazır veri setini analize hazırlar."
+      },
+      {
+       "label": "d",
+       "text": "Araştırma sorusu bağlamında verileri analiz etmek için görselleştirme ve/veya özetleme araçlarından uygun olanları seçer."
+      },
+      {
+       "label": "e",
+       "text": "Araştırma sorusu bağlamındaki verileri belirlediği araçlarla analiz eder."
+      },
+      {
+       "label": "f",
+       "text": "Tasarladığı istatistiksel araştırmadan elde ettiği çıktılardan hareketle sonuçları yorumlar."
+      },
+      {
+       "label": "g",
+       "text": "Tasarladığı istatistiksel araştırmadan elde edilen sonuçları araştırma sorusu bağlamında değerlendirir."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "unassigned_outcomes": [],
+ "report": {
+  "units": 6,
+  "outcomes": 12,
+  "components": 60,
+  "orphan_outcomes": 0,
+  "gaps": []
+ }
+}

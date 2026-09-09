@@ -1,0 +1,1094 @@
+{
+ "course": {
+  "id": 81,
+  "name": "Oyun ve Oyun Etkinlikleri Dersi (Drama)",
+  "slug": "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-drama",
+  "prefix": "OOED",
+  "shapes": [
+   "OOED/noktalı-4"
+  ],
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/oyun-ve-oyun-etkinlikleri-dersi-drama_20260819_073410_377.pdf"
+ },
+ "units": [
+  {
+   "grade": 1,
+   "unit": 1,
+   "kind": "ÜNİTE",
+   "title": "DRAMA İLE TANIŞMA",
+   "description": "Bu ünitede öğrencinin drama çalışmalarına katılarak bireysel ve grup içindeki rollerini keşfetmesi, iletişim becerilerini geliştirmesi ve mekânın drama bağlamında önemini fark etmesi amaçlanmaktadır.",
+   "lesson_hours": 13,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB5. Sosyal Katılım (SBAB5.1. Sosyal Temas Oluşturma)",
+    "KAVRAMSAL BECERİLER": "KB1. Temel Beceriler, KB2.7. Karşılaştırma",
+    "EĞİLİMLER": "E1.1. Merak, E1.2. Bağımsızlık, E1.5. Kendine Güvenme (Öz Güven), E2.2. Sorumluluk, E2.3. Girişkenlik, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.5. Açık Fikirlilik, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık",
+    "Değerler": "D1. Adalet, D3. Çalışkanlık, D4. Dostluk, D5. Duyarlılık, D7. Estetik, D8. Mahremiyet, D10. Mütevazılık, D11. Özgürlük, D14. Saygı, D15. Sevgi, D16. Sorumluluk, D18. Temizlik /",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI • Öğrencilerden düzenlenecek canlandırma etkinliklerinde birlikte rol oynamaları ve doğaçlama yapmaları istenir (SDB2.2). • Öğrencilerin canlandırma ve oyun etkinliklerinde grup arkadaşlarına karşı anlayışlı ve saygılı davranmaları teşvik edilir (SDB2.3). • Öğrencilerin drama çalışmalarında çember oluşturmanın eşitlik kavramıyla olan ilişkisini fark ederek tartışmaları desteklenir (D1.3). • Öğrencilerin canlandırma ve oyun etkinliklerinde dayanışma içinde olmaları; etkili iletişim yoluyla sevgi, saygı ve güvene dayalı ilişkiler kurmaları desteklenir (D4.1). • Öğrencilerin drama ve oyun etkinliklerinde arkadaşlarına karşı nazik davranmaları teşvik edilir (D5.1). • Öğrencilerin drama ve oyun etkinliklerinde başkalarını rahatsız edecek davranışlardan uzak durmaları teşvik edilir. Öğrencilere özel hayatın gizliliğini ihlal edecek tutumlardan kaçınmaları konusunda farkındalık kazandırılır (D8.4). • Öğrencilerin drama ve oyun etkinliklerinde duygu, düşünce, inanç ve izlenimlerini özgürce ifade etmelerine fırsat verilir (D11.2). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ • Öğrencilerden drama etkinlikleri aracılığıyla her bireyin değerli ve önemli olduğunu fark etmeleri istenir (D14.2). • Öğrencilerden drama ve oyun etkinlikleri sırasında kendilerine ve arkadaşlarına dair özellikleri fark etmeleri, arkadaşlarıyla ortak yönlerini bulmaları, arkadaşlarına karşı anlayışlı olmaları istenir (OB1, D15.1). • Öğrencilerden drama kavramının anlamını araştırmaları ve edindikleri bilgileri defterlerine yazmaları istenir (OB1). • Öğrencilerden doğaçlama etkinlikleri yoluyla hem kendi özelliklerini hem de arkadaşlarının niteliklerini yansıtan performanslar sergilemeleri istenir (OB9). OOED.1.1.2 • Öğrencilerin oyun ve canlandırma sürecinde duygu ve düşüncelerini ifade etmeleri desteklenir (SDB2.1). • Öğrencilerin drama etkinlikleri sırasında görev ve sorumluluklarını kurallara uygun şekilde yerine getirmeleri teşvik edilir (D1.2). • Öğrencilerin drama ve oyun etkinliklerinde hem bedensel hem de mekânsal mahremiyete özen göstermelerinin önemi vurgulanır (D8.4). • Öğrencilerin drama çalışmalarında nezaket kurallarına uygun davranmaları teşvik edilir (D14.1). • Öğrencilerin drama mekânının temizliğine özen göstermeleri gerektiği vurgulanır (D18.2). • Öğrencilerin bulundukları mekânın olanaklarından yararlanarak mekânla uyumlu doğaçlamalar geliştirmeleri ve canlandırma yoluyla performans sergilemeleri desteklenir (OB9). OOED.1.1.3 • Öğrencilerin drama ve oyun etkinlikleri aracılığıyla jest, mimik ve beden dilini tanımaları sağlanır (SDB1.1). • Öğrencilerin oyun ve canlandırma sürecinde duygu ve düşüncelerini ifade etmeleri desteklenir (SDB2.1). • Öğrencilerden düzenlenecek canlandırma etkinliklerinde birlikte rol oynamaları ve doğaçlama yapmaları istenir (SDB2.2). • Öğrencilerin canlandırma ve oyun etkinliklerinde ön yargılardan uzak ve tarafsız bir tutum sergilemeleri teşvik edilir (D1.2). • Öğrencilerin canlandırma ve oyun etkinliklerinde iş birliği ve dayanışma içinde olmaları desteklenir. Etkili iletişim yoluyla sevgi, saygı ve güvene dayalı ilişkiler geliştirmeleri teşvik edilir (D4.1). • Öğrencilerin drama ve oyun etkinlikleri aracılığıyla sosyal ilişkilerinde kişisel sınırlarını belirlemeleri desteklenir (D8.1). • Öğrencilerin drama ve oyun etkinliklerinde özgünlüklerini yitirmeden bir grubun parçası olduklarını hissetmeleri ve bu yolla aidiyet duygusu geliştirmeleri desteklenir (D11.2). • Öğrencilerin arkadaşlarıyla ilişkilerini karşılıklı saygı temelinde değerlendirmeleri desteklenir (D14.2). • Öğrencilerden doğaçlamalarla grup etkileşimine ilişkin performans sergilemeleri istenir (OB9). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ OOED.1.1.4 • Öğrencilerden drama ve tiyatro arasındaki ilişkiyi inceleyerek duygu ve davranışlarını tiyatral ifadelere dönüştürmeleri istenir (SDB1.3). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde üstlendikleri görevleri yerine getirerek gruplarına katkıda bulunmaları teşvik edilir (SDB2.2). • Öğrencilerin drama ve tiyatro arasında ilişki kurarak üretkenliklerini geliştiren etkinliklere katılmaları desteklenir (D3.3). • Öğrencilerin drama etkinliklerinde estetik bir bakış açısıyla özgün ürünler ortaya koymaları desteklenir (D7.2). • Öğrencilerin drama etkinliklerine dayalı grup çalışmalarında uyumlu davranmaları teşvik edilir (D10.3). • Öğrencilerin oyun etkinliklerinde üstlendikleri görevleri zamanında ve eksiksiz yerine getirmeleri teşvik edilir (D16.3). • Öğrenciler, drama ve tiyatro arasındaki ilişkiye yönelik bilgi toplamak amacıyla kullanacakları araçları belirlemeye yönlendirilir. Öğrencilerin drama ve tiyatronun temel özelliklerini belirlemeleri, benzer ve farklı yönlerini kendi cümleleriyle ifade ederek karşılaştırmaları desteklenir (OB1, OB9). • Öğrenciler, Karagöz oyununu araştırmaya yönlendirilir. Öğrencilerin oyundaki tasvirlerin, perde arkası seslendirmelerin ve doğaçlama unsurlarının drama ile benzer ve farklı yönlerini tartışmaları desteklenir (OB5, OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ 1. DÜZEY",
+    "İLİŞKİLER": "KB2.15. Yansıtma, TAB1. Dinleme/İzleme, TAB3. Konuşma, TAB4. Yazma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ ÖĞRENME ÇIKTILARI VE OOED.1.1.1. Drama yoluyla kendisinin ve grup üyelerinin özelliklerini karşılaştırabilme SÜREÇ BİLEŞENLERİ a) Kendisinin ve grup üyelerinin özelliklerini belirler. b) Kendisinin ve grup üyelerinin özelliklerine ilişkin benzerlikleri sözlü olarak ifade eder. c) Kendisinin ve grup üyelerinin özelliklerine ilişkin farklılıkları sözlü olarak ifade eder. OOED.1.1.2. Drama çalışmalarında kullanılan mekânı tanıyabilme OOED.1.1.3. Drama yoluyla sosyal temas oluşturabilme a) Drama etkinlikleriyle grup etkileşimi başlatır. b) Jest, mimik ve beden dilini kullanarak grup etkileşimine katılır. c) Jest, mimik ve beden dilini kullanarak grup etkileşimine katkıda bulunur. ç) Grup etkileşiminin önemini değerlendirir. OOED.1.1.4. Drama ve tiyatro arasındaki genel özellikleri karşılaştırabilme a) Drama ve tiyatronun genel özelliklerini belirler. b) Drama ve tiyatro arasındaki benzer yönleri sıralar. c) Drama ve tiyatro arasındaki farklı yönleri sıralar.",
+    "İÇERİK ÇERÇEVESİ": "Dramayla Tanışma Dramayla Mekânı Tanıma Grup Etkileşimi Drama ve Tiyatro İlişkisi",
+    "Anahtar Kavramlar": "çember oluşturma, drama, etkileşim, grup, iletişim, mekân, oyun, rol, tanışma, tiyatro PROGRAMLAR ARASI OOED.1.1.1 BİLEŞENLERE YÖNELİK • Öğrencilerin drama ve oyun etkinlikleri aracılığıyla kendi özelliklerini ifade etUYGULAMALAR meleri desteklenir (SDB1.1). • Öğrencilerin canlandırma ve oyun etkinliklerinde hem kendilerine hem de grup üyelerine ilişkin duygu ve düşüncelerini açıkça ifade etmeleri destekleÖğrenme Becerileri/ nir (SDB2.1, D6.2)."
+   },
+   "outcomes": [
+    {
+     "code": "OOED.1.1.1",
+     "order": 1,
+     "text": "Drama yoluyla kendisinin ve grup üyelerinin özelliklerini karşılaştırabilme SÜREÇ BİLEŞENLERİ a) Kendisinin ve grup üyelerinin özelliklerini belirler.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Kendisinin ve grup üyelerinin özelliklerine ilişkin benzerlikleri sözlü olarak ifade eder."
+      },
+      {
+       "label": "c",
+       "text": "Kendisinin ve grup üyelerinin özelliklerine ilişkin farklılıkları sözlü olarak ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "OOED.1.1.2",
+     "order": 2,
+     "text": "Drama çalışmalarında kullanılan mekânı tanıyabilme",
+     "components": []
+    },
+    {
+     "code": "OOED.1.1.3",
+     "order": 3,
+     "text": "Drama yoluyla sosyal temas oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Drama etkinlikleriyle grup etkileşimi başlatır."
+      },
+      {
+       "label": "b",
+       "text": "Jest, mimik ve beden dilini kullanarak grup etkileşimine katılır."
+      },
+      {
+       "label": "c",
+       "text": "Jest, mimik ve beden dilini kullanarak grup etkileşimine katkıda bulunur."
+      },
+      {
+       "label": "ç",
+       "text": "Grup etkileşiminin önemini değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "OOED.1.1.4",
+     "order": 4,
+     "text": "Drama ve tiyatro arasındaki genel özellikleri karşılaştırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Drama ve tiyatronun genel özelliklerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "Drama ve tiyatro arasındaki benzer yönleri sıralar."
+      },
+      {
+       "label": "c",
+       "text": "Drama ve tiyatro arasındaki farklı yönleri sıralar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 2,
+   "kind": "ÜNİTE",
+   "title": "DUYU, UYUM VE GÜVEN",
+   "description": "Bu ünitede öğrencinin duyularını etkin bir biçimde kullanması, kendine ve arkadaşlarına güven duyarak uyum içinde doğaçlama yapması amaçlanmaktadır.",
+   "lesson_hours": 13,
+   "sections": {
+    "ALAN BECERİLERİ": "BEOSAB1. Hareketi Sergileme, BEOSAB5. Ritmik Hareket Etme, BEOSAB7. Eşle/Grupla Hareket Etme",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.5. Kendine Güvenme (Öz Güven), E2.4. Güven, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.5. Açık Fikirlilik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D3. Çalışkanlık, D4. Dostluk, D6. Dürüstlük, D7. Estetik, D8. Mahremiyet, D9. Merhamet, D10. Mütevazılık, D14. Saygı, D15. Sevgi, D16. Sorumluluk, D17. Tasarruf, D19. Vatanseverlik / maları teşvik edilir (D10.3).",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI • Öğrencilerin oyun ve canlandırma etkinliklerinde etkili iletişim kurmak amacıyla konuşan kişiyi sözünü kesmeden dikkatle dinlemeleri teşvik edilir (D14.1). • Oyun ve canlandırma etkinliklerinde öğrencilerin arkadaşlarını farklılıklarıyla kabul etmelerinin önemi vurgulanır (D15.1). • Öğrencilerin ninni, türkü, tekerleme, geleneksel oyun ezgileri gibi somut olmayan kültürel miras unsurlarını duyulara dayalı hareket çalışmalarında tanımaları ve bu unsurların yaşatılmasının önemini fark etmeleri sağlanır (D19.3). • Duyuları etkin kullanmaya yönelik doğaçlamalarla öğrencilerden performans sergilemeleri istenir (OB9). OOED.1.2.2 • Oyun ve canlandırma etkinliklerinde öğrencilerden arkadaşlarıyla görev paylaşımı yapmaları istenir (SDB2.2). • Öğrencilerin yeni veya belirsiz durumlar karşısında değişime açık ve istekli olmaları desteklenir (SDB3.1). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ • Öğrencilerin oyun ve canlandırma etkinliklerinde arkadaşlarıyla vakit geçirmekten keyif almaları teşvik edilir (D4.4). • Oyun ve canlandırma etkinliklerinde öğrencilerin hak ya da özgürlüklerden yararlanırken arkadaşlarının kişisel sınırlarını gözetmelerinin önemi vurgulanır (D8.4). • Öğrencilerin eşle veya grupla yapılan çalışmalarda arkadaşlarıyla uyum içinde hareket etmeleri desteklenir (D10.3). • Öğrencilerin oyun ve canlandırma etkinliklerinde etkili iletişim kurmak amacıyla konuşan kişiyi sözünü kesmeden dikkatle dinlemeleri teşvik edilir (D14.1). • Öğrencilerin drama sürecinde eşle veya grupla hareket ederken rollerini tanımlamaları, görev paylaşımına uygun biçimde rollerini yerine getirmeleri ve grup uyumunu gözeterek canlandırma yoluyla performans sergilemeleri desteklenir (OB9). OOED.1.2.3 • Öğrencilerin oyun ve canlandırma etkinliklerinde arkadaşlarıyla iş birliği yapmaları desteklenir (SDB2.2). • Öğrencilerin yeni veya belirsiz durumlar karşısında değişime açık ve istekli olmaları desteklenir (SDB3.1). • Öğrencilerin oyun ve canlandırma etkinliklerinde ortaya çıkan olumlu veya olumsuz sonuçların sorumluluğunu üstlenmeleri teşvik edilir (SDB3.3). • Öğrencilerin oyun ve canlandırma etkinliklerinde duygu ve düşüncelerini ifade etmeleri desteklenir (D6.2). • Oyun ve canlandırma etkinliklerinde öğrencilerin hak ya da özgürlüklerden yararlanırken arkadaşlarının kişisel sınırlarını gözetmelerinin önemi vurgulanır (D8.4). • Öğrencilerin eşli ve grupla gerçekleştirilen güven çalışmalarında yardıma ihtiyaç duyan arkadaşlarına destek olmaları sağlanır (D9.3). • Öğrencilerin oyun ve canlandırma etkinliklerinde etkili iletişim kurmak amacıyla konuşan kişiyi sözünü kesmeden dikkatle dinlemeleri teşvik edilir (D14.1). • Öğrencilerin oyun ve canlandırma etkinliklerinde üstlendikleri görevleri özveriyle yerine getirmeleri teşvik edilir (D16.3). • Öğrencilerden güven ve uyum kavramlarını araştırmaları ve bu kavramların anlamlarını defterlerine yazmaları istenir (OB1). • Doğaçlamalarla güven ve uyuma ilişkin öğrencilerden performans sergilemeleri istenir (OB9). OOED.1.2.4 • Öğrencilerden drama ile ritim arasındaki ilişkiyi inceleyerek duygu ve davranışlarını ritmik hareketlerle ifade etmeleri ve deneyimlerinden hareketle edebî metinler oluşturmaları istenir (SDB1.3). • Öğrencilerden rol oynama ve doğaçlama etkinliklerinde duygu ve düşüncelerini hem beden diliyle hem de sözlü olarak ifade etmeleri istenir (SDB2.1). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde üstlendikleri görevleri yerine getirerek gruplarına katkıda bulunmaları teşvik edilir (SDB2.2). • Öğrencilerin drama ile ritim arasında ilişki kurarak üretkenliklerini geliştiren etkinliklere katılmaları desteklenir (D3.3). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ • Öğrencilerin ritim etkinliklerinde uyumlu davranmaları teşvik edilir (D10.3). • Öğrencilere drama çalışmalarında zamanı verimli kullanabilmek için planlama yapmaları gerektiği hatırlatılır (D17.2). • Öğrenciler, drama ve ritim arasındaki ilişkiye yönelik bilgi toplamak amacıyla kullanacakları araçları belirlemeye yönlendirilir. Edindikleri bilgileri kendi cümleleriyle ifade etmeleri desteklenir (OB1). • Öğrencilerden drama ve ritim etkinlikleri yoluyla performans sergilemeleri istenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ 1. DÜZEY",
+    "İLİŞKİLER": "KB2.15. Yansıtma, TAB1. Dinleme/İzleme, TAB3. Konuşma, TAB4. Yazma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ OOED.1.2.1. Drama sürecinde duyularını etkin biçimde kullanarak hareketi sergileyebilme SÜREÇ BİLEŞENLERİ a) Duyularını etkin kullanacağı hareket becerilerini algılar. b) Drama etkinliklerinde duyularını etkin kullanarak hareket becerilerini gösterir. c) Duyulara dayalı hareket becerilerini drama etkinliklerinde uygular. OOED.1.2.2. Drama sürecinde eşle veya grupla uyumlu hareket edebilme a) Drama etkinliklerinde eşle veya grupla hareket ederken rollerini tanımlar. b) Grup içi görev paylaşımına uygun şekilde tanımlanan rolünü yerine getirir. c) Eşle veya grupla uyumlu hareket eder. OOED.1.2.3. Drama sürecinde eşle veya grupla güven ile hareket edebilme a) Drama etkinliklerinde eşle veya grupla hareket ederken rollerini tanımlar. b) Grup içi görev paylaşımına uygun şekilde tanımlanan rolünü yerine getirir. c) Eşle veya grupla güven ile hareket eder. OOED.1.2.4. Drama etkinliklerinde ritmik hareket edebilme a) Doğadaki çeşitli sesleri ve ritimleri algılar. b) Doğaçlamalarda ritimden yararlanarak hareket eder. c) Ritimli etkinliklerde bedeniyle doğaçlama yaparak hareket becerilerini sergiler.",
+    "İÇERİK ÇERÇEVESİ": "Duyuları Etkin Kullanma Uyum Çalışmaları Güven Çalışmaları Ritim Çalışmaları",
+    "Anahtar Kavramlar": "drama, duyular, grup, güven, ritim, uyum OOED.1.2.1 BİLEŞENLERE YÖNELİK • Drama sürecinde öğrencilerden sanatla bilinçli ve duyarlı bir ilişki kurmaları UYGULAMALAR için renk, desen, doku gibi duyusal ögeleri tanıyıp estetik algılarıyla olan ilişkiSosyal-Duygusal lerini sorgulamaları istenir (D7.1). Öğrenme Becerileri/ • Öğrencilerin drama etkinliklerine dayalı grup çalışmalarında uyumlu davran-"
+   },
+   "outcomes": [
+    {
+     "code": "OOED.1.2.1",
+     "order": 1,
+     "text": "Drama sürecinde duyularını etkin biçimde kullanarak hareketi sergileyebilme SÜREÇ BİLEŞENLERİ",
+     "components": [
+      {
+       "label": "a",
+       "text": "Duyularını etkin kullanacağı hareket becerilerini algılar."
+      },
+      {
+       "label": "b",
+       "text": "Drama etkinliklerinde duyularını etkin kullanarak hareket becerilerini gösterir."
+      },
+      {
+       "label": "c",
+       "text": "Duyulara dayalı hareket becerilerini drama etkinliklerinde uygular."
+      }
+     ]
+    },
+    {
+     "code": "OOED.1.2.2",
+     "order": 2,
+     "text": "Drama sürecinde eşle veya grupla uyumlu hareket edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Drama etkinliklerinde eşle veya grupla hareket ederken rollerini tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Grup içi görev paylaşımına uygun şekilde tanımlanan rolünü yerine getirir."
+      },
+      {
+       "label": "c",
+       "text": "Eşle veya grupla uyumlu hareket eder."
+      }
+     ]
+    },
+    {
+     "code": "OOED.1.2.3",
+     "order": 3,
+     "text": "Drama sürecinde eşle veya grupla güven ile hareket edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Drama etkinliklerinde eşle veya grupla hareket ederken rollerini tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Grup içi görev paylaşımına uygun şekilde tanımlanan rolünü yerine getirir."
+      },
+      {
+       "label": "c",
+       "text": "Eşle veya grupla güven ile hareket eder."
+      }
+     ]
+    },
+    {
+     "code": "OOED.1.2.4",
+     "order": 4,
+     "text": "Drama etkinliklerinde ritmik hareket edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Doğadaki çeşitli sesleri ve ritimleri algılar."
+      },
+      {
+       "label": "b",
+       "text": "Doğaçlamalarda ritimden yararlanarak hareket eder."
+      },
+      {
+       "label": "c",
+       "text": "Ritimli etkinliklerde bedeniyle doğaçlama yaparak hareket becerilerini sergiler."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 3,
+   "kind": "ÜNİTE",
+   "title": "DRAMA VE OYUN",
+   "description": "Bu ünitede öğrencinin drama ile oyun ilişkisini fark etmesi, oyunlara katılmaya istekli olması ve adil oyun anlayışına uygun davranması amaçlanmaktadır.",
+   "lesson_hours": 6,
+   "sections": {
+    "ALAN BECERİLERİ": "BEOSAB8. Adil Oyun Anlayışına Uygun Davranma",
+    "KAVRAMSAL BECERİLER": "KB2.7. Karşılaştırma",
+    "EĞİLİMLER": "E1.1. Merak, E1.2. Bağımsızlık, E1.4. Kendine İnanma (Öz Yeterlilik), E2.2. Sorumluluk, E2.4. Güven, E2.5. Oyunseverlik, E3.1. Muhakeme, E3.2. Odaklanma, E3.5. Açık Fikirlilik, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum",
+    "Değerler": "D1. Adalet, D4. Dostluk, D6. Dürüstlük, D8. Mahremiyet, D11. Özgürlük, D12. Sabır, D14. Saygı, D16. Sorumluluk / • Öğrencilerin arkadaşlarının fikir ve görüşlerine değer vermelerinin önemi vur-",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI gulanır (D4.4). • Öğrencilerden drama ve oyun süreçlerinde duygu, düşünce ve izlenimlerini özgürce ifade ederek tartışmaları istenir (D11.2). • Öğrencilerin oyun etkinliklerinde arkadaşlarına karşı nazik, duyarlı ve anlayışlı davranmaları gerektiği vurgulanır (D14.1). • Öğrencilerin oyun etkinliklerinde üstlendikleri görevleri zamanında ve eksiksiz yerine getirmeleri teşvik edilir (D16.3). • Öğrenciler, drama ve oyun süreçlerinin temel özelliklerine ilişkin bilgi toplamak amacıyla kullanacakları araçları belirlemeye yönlendirilir. Öğrencilerin edindikleri bilgileri kendi cümleleriyle ifade etmeleri desteklenir (OB1). • Öğrencilerden drama ve oyun etkinlikleri yoluyla performans sergilemeleri istenir (OB9). OOED.1.3.2 • Öğrencilerin grup çalışmaları aracılığıyla oyun ve canlandırma etkinliklerine katılmaları desteklenir (SDB2.1). • Grup çalışmaları aracılığıyla yardımlaşma ve takım çalışmasının önemi vurgulanır (SDB2.2). • Öğrencilerin oyun etkinliklerinde sorumluluk almaları ve adil davranmaları gerektiği vurgulanır (D1.2). • Öğrencilerden oyun etkinliklerinde arkadaşlarına karşı nazik davranmaları ve onlarla vakit geçirmeyi önemsemeleri istenir (D4.4). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ • Öğrencilerden oyun etkinliklerinde üzerlerine düşen görevleri kurallara uygun şekilde yerine getirmeleri istenir (D6.1). • Öğrencilere drama mekânlarında bedensel gizliliklerini korumaya özen göstermeleri ve başkalarını rahatsız edebilecek davranışlardan kaçınmaları gerektiği hatırlatılır (D8.4). • Öğrencilere oyun etkinliklerinde özgürlüklerini kullanırken arkadaşlarının özgürlük alanlarını ihlal etmemeleri gerektiği hatırlatılır (D11.3). • Öğrencilerin oyun oynarken oyunun kurallarına uymaları; düşünce, duygu ve davranışlarını kontrol etmeleri teşvik edilir (D12.2, D12.3). • Öğrencilerin oyunlar sırasında arkadaşlarına karşı nazik, duyarlı ve anlayışlı davranmaları gerektiği vurgulanır (D14.1). • Öğrencilerin oyun etkinliklerinde üstlendikleri görevleri zamanında ve eksiksiz biçimde yerine getirmeleri teşvik edilir (D16.3). • Öğrencilerden drama ve oyun etkinlikleri yoluyla performans sergilemeleri istenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ 1. DÜZEY",
+    "İLİŞKİLER": "KB2.14. Yorumlama, KB2.15. Yansıtma, TAB1. Dinleme/İzleme, TAB3. Konuşma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ OOED.1.3.1. Drama ve oyun süreçlerine ilişkin temel özellikleri karşılaştırabilme SÜREÇ BİLEŞENLERİ a) Drama ve oyun süreçlerine ilişkin temel özellikleri belirler. b) Drama ve oyun süreçlerine ilişkin benzer özellikleri sözlü olarak ifade eder. c) Drama ve oyun süreçlerine ilişkin farklı özellikleri sözlü olarak ifade eder. OOED.1.3.2. Drama sürecinde adil oyun anlayışına uygun davranabilme a) Oyun veya etkinliklerde başkalarının haklarına saygı göstermenin önemini açıklar. b) Oyun veya etkinliklerde adil oyun anlayışıyla uyum ve iş birliği içinde hareket eder.",
+    "İÇERİK ÇERÇEVESİ": "Drama ve Oyun İlişkisi Dramada Adil Oyun Anlayışı",
+    "Anahtar Kavramlar": "doğaçlama, etkinlik, kural, oyun, rol, saygı OOED.1.3.1 BİLEŞENLERE YÖNELİK • Öğrencilerin yeni veya belirsiz durumlar karşısında değişime açık ve istekli olUYGULAMALAR maları desteklenir (SDB3.1). Sosyal-Duygusal • Öğrencilerin duygu ve düşüncelerini beden diliyle ifade etmeleri desteklenir Öğrenme Becerileri/ (SDB2.1)."
+   },
+   "outcomes": [
+    {
+     "code": "OOED.1.3.1",
+     "order": 1,
+     "text": "Drama ve oyun süreçlerine ilişkin temel özellikleri karşılaştırabilme SÜREÇ BİLEŞENLERİ",
+     "components": [
+      {
+       "label": "a",
+       "text": "Drama ve oyun süreçlerine ilişkin temel özellikleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Drama ve oyun süreçlerine ilişkin benzer özellikleri sözlü olarak ifade eder."
+      },
+      {
+       "label": "c",
+       "text": "Drama ve oyun süreçlerine ilişkin farklı özellikleri sözlü olarak ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "OOED.1.3.2",
+     "order": 2,
+     "text": "Drama sürecinde adil oyun anlayışına uygun davranabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Oyun veya etkinliklerde başkalarının haklarına saygı göstermenin önemini açıklar."
+      },
+      {
+       "label": "b",
+       "text": "Oyun veya etkinliklerde adil oyun anlayışıyla uyum ve iş birliği içinde hareket eder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 4,
+   "kind": "ÜNİTE",
+   "title": "ROL OYNAMA VE DOĞAÇLAMA",
+   "description": "Bu ünitede öğrencinin rol oynama ve doğaçlamanın dramadaki önemini ve özelliklerini fark etmesi, canlandırmalarında doğaçlamanın temel özelliklerine göre hareket etmesi amaçlanmaktadır.",
+   "lesson_hours": 13,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB4. Sanatsal Üretim Yapma (SAB4.2. Sanatsal Ürün Oluşturma), SAB14. Sahneleme (SAB14.4. Rol Oynama), SBAB5. Sosyal Katılım (SBAB5.3. Fikir Üretme), SBAB5. Sosyal Katılım (SBAB5.5. Fikri Eyleme Dönüştürme)",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Öz Güven), E2.1. Empati, E2.2. Sorumluluk, E2.4. Güven, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.3. Yaratıcılık",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.2. Esneklik",
+    "Değerler": "D3. Çalışkanlık, D5. Duyarlılık, D7. Estetik, D10. Mütevazılık, D12. Sabır, D15. Sevgi, D16. Sorumluluk, D17. Tasarruf, D19. Vatanseverlik, D20. Yardımseverlik / • Öğrencilerin rol oynama ve doğaçlamanın özelliklerini incelemeleri ve bu tek-",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI niklerin drama sürecindeki önemini grup içinde tartışmaları desteklenir. Öğrencilerin edindikleri bilgileri estetik bir bakış açısıyla özgün canlandırmalara dönüştürmelerine fırsat verilir (D7.2, OB9). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde bencil davranışlardan kaçınmaları gerektiği vurgulanır (D10.3). • Öğrencilerden rol oynama ve doğaçlama etkinliklerinde arkadaşlarına karşı anlayışlı ve barışçıl davranışlar sergilemeleri istenir (D15.1). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde bilgi, zaman ve emeklerini iyiliğe dönüştürmekten mutluluk duymaları desteklenir (D20.4). • Öğrenciler, rol oynama ve doğaçlama etkinliklerine ilişkin bilgi toplamak amacıyla kullanacakları araçları belirlemeye yönlendirilir. Edindikleri bilgileri kendi cümleleriyle ifade etmeleri desteklenir (OB1). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ OOED.1.4.2 • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde arkadaşlarını dinlerken ne söyleyeceklerini düşünmekten çok ne söylediklerini anlamaya çalışmaları gerektiği vurgulanır (SDB2.1). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde ortaya çıkan eylemlerinin sonuçlarını değerlendirmeleri desteklenir (SDB2.2). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde ortaya çıkan yeni durumlara uyum sağlamaları desteklenir (SDB3.2). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde sabırlı ve anlayışlı davranmaları teşvik edilir (D12.3, D5.1). • Öğrencilerin rol oynama ve doğaçlamanın özelliklerini incelemeleri ve bu tekniklerin drama sürecindeki önemini grup içinde tartışmaları desteklenir. Öğrencilerin edindikleri bilgileri estetik bir bakış açısıyla özgün canlandırmalara dönüştürmelerine fırsat verilir (D7.2, OB9). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde bencil davranışlardan kaçınmaları gerektiği vurgulanır (D10.3). • Öğrencilerden rol oynama ve doğaçlama etkinliklerinde arkadaşlarına karşı anlayışlı ve barışçıl davranışlar sergilemeleri istenir (D15.1). • Öğrencilerden rol oynama ve doğaçlama etkinliklerinde millî gün ve bayramların toplumsal birlikteliğe katkısını canlandırmaları istenir (D19.2). • Öğrencilerden rol oynama ve doğaçlama etkinliklerinde dinî gün ve bayramların toplumsal dayanışmaya katkısını canlandırmaları istenir (D20.2). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde bilgi, zaman ve emeklerini iyiliğe dönüştürmekten mutluluk duymaları desteklenir (D20.4). • Öğrencilerden rol oynama ve doğaçlama etkinliklerine ilişkin performans sergilemeleri istenir (OB9). OOED.1.4.3 • Öğrencilerden drama ile edebî türler (masal, öykü, şiir) arasındaki ilişkiyi inceleyerek duygu ve davranışlarını özgün metinlere dönüştürmeleri istenir (SDB1.3). • Öğrencilerin drama ile edebî metinler arasında ilişki kurarak üretkenliklerini geliştiren etkinliklere katılmaları desteklenir (D3.3). • Öğrencilerin drama etkinliklerine dayalı grup çalışmalarında arkadaşlarının olumlu yönlerini takdir etmeleri teşvik edilir (D10.3). • Öğrencilerin oyun etkinliklerinde üstlendikleri görevleri zamanında ve eksiksiz yerine getirmeleri teşvik edilir (D16.3). • Öğrencilere drama çalışmalarında zamanı verimli kullanabilmek için planlama yapmaları gerektiği hatırlatılır (D17.2). • Öğrenciler, drama ile edebî metinler arasındaki ilişkiyi incelemek amacıyla kullanacakları bilgi toplama araçlarını belirlemeye yönlendirilir. Edindikleri bilgileri kendi cümleleriyle ifade etmeleri desteklenir (OB1). • Öğrencilerden okudukları edebî metinlerde kendi kültürlerine özgü değerleri, gelenekleri ve yaşam biçimlerini ayırt etmeleri istenir (OB5). • Öğrencilerden öykü, masal, şiir gibi edebî türlerde yer alan karakter, olay ve çatışma unsurlarından yararlanarak rol oynama çalışmaları gerçekleştirmeleri istenir (OB9). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ OOED.1.4.4 • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde üstlendikleri görevleri yerine getirerek gruplarına katkıda bulunmaları teşvik edilir (SDB2.2). • Öğrencilerin drama ile edebî metinler arasında ilişki kurarak üretkenliklerini geliştiren etkinliklere katılmaları desteklenir (D3.3). • Öğrencilerin drama etkinlikleri aracılığıyla estetik bir bakış açısı geliştirerek özgün ürünler ortaya koymaları desteklenir (D7.2). • Öğrencilerin drama etkinliklerine dayalı grup çalışmalarında olay ve durumlara ilişkin farklı bakış açılarına açık olmaları desteklenir (D10.3). • Öğrencilere drama çalışmalarında zamanı verimli kullanabilmek için planlama yapmaları gerektiği hatırlatılır (D17.2). • Öğrencilerden edebî metinler, sözlü gelenekler ve anlatılar aracılığıyla somut olmayan kültürel miras ögelerini (efsaneler, maniler, masallar) fark etmeleri ve bunları canlandırma süreçlerinde kullanmaları istenir (OB5). • Öğrencilerden doğaçlama yoluyla ortaya koydukları sanat ürünlerini çözümlemeleri istenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ 1. DÜZEY",
+    "İLİŞKİLER": "KB2.6. Bilgi Toplama, KB2.15. Yansıtma, TAB1. Dinleme/İzleme, TAB3. Konuşma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ OOED.1.4.1. Drama sürecinde rol oynama ve doğaçlamaya ilişkin fikir üretebilme SÜREÇ BİLEŞENLERİ a) Rol oynama ve doğaçlamanın özelliklerini fark eder. b) Rol oynama ve doğaçlamanın drama sürecindeki önemini inceler. c) Rol oynama ve doğaçlamalardan yararlanarak canlandırmalara dair fikir üretir. OOED.1.4.2. Drama sürecinde rol oynama ve doğaçlamayla fikri eyleme dönüştürebilme a) Canlandırma süreçlerini rol oynama ve doğaçlama ilkelerine göre planlayarak yapar. b) Canlandırma süreçlerinde rol oynama ve doğaçlama ilkelerini uygular. c) Üstlendiği rolün rol oynama ve doğaçlama ilkelerine uygunluğunu değerlendirir. OOED.1.4.3. Edebî türlerden yararlanarak canlandırma teknikleri aracılığıyla rol oynayabilme a) Öykü, masal, şiir gibi edebî türleri inceler. b) Öykü, masal, şiir gibi edebî türlerden yararlanarak rol oynama çalışmaları yapar. OOED.1.4.4. Doğaçlamalardan yola çıkarak edebî metinler oluşturabilme a) Drama sürecindeki doğaçlamalarda ortaya çıkan karakter, olay örgüsü ve çatışma unsurlarını belirler. b) Drama sürecindeki yaşantı, çatışma veya temayı öykü, masal, şiir gibi edebî metinlere dönüştürür.",
+    "İÇERİK ÇERÇEVESİ": "Rol Oynama ve Doğaçlama Rol Oynama ve Doğaçlama Teknikleri Edebî Türlerden Yararlanarak Rol Oynama Doğaçlamalardan Edebî Metin Oluşturma çatışma, doğaçlama, edebî metin, kendiliğindenlik, masal, mış gibi yapma, öykü, rol oyna-",
+    "Anahtar Kavramlar": "ma, rolde kalma, şiir OOED.1.4.1 BİLEŞENLERE YÖNELİK • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde duygu ve düşüncelerini UYGULAMALAR hem beden diliyle hem de sözlü olarak ifade etmeleri desteklenir (SDB2.1). Sosyal-Duygusal • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde üstlendikleri görevleri Öğrenme Becerileri/ yerine getirerek gruplarına katkıda bulunmaları teşvik edilir (SDB2.2)."
+   },
+   "outcomes": [
+    {
+     "code": "OOED.1.4.1",
+     "order": 1,
+     "text": "Drama sürecinde rol oynama ve doğaçlamaya ilişkin fikir üretebilme SÜREÇ BİLEŞENLERİ",
+     "components": [
+      {
+       "label": "a",
+       "text": "Rol oynama ve doğaçlamanın özelliklerini fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Rol oynama ve doğaçlamanın drama sürecindeki önemini inceler."
+      },
+      {
+       "label": "c",
+       "text": "Rol oynama ve doğaçlamalardan yararlanarak canlandırmalara dair fikir üretir."
+      }
+     ]
+    },
+    {
+     "code": "OOED.1.4.2",
+     "order": 2,
+     "text": "Drama sürecinde rol oynama ve doğaçlamayla fikri eyleme dönüştürebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Canlandırma süreçlerini rol oynama ve doğaçlama ilkelerine göre planlayarak yapar."
+      },
+      {
+       "label": "b",
+       "text": "Canlandırma süreçlerinde rol oynama ve doğaçlama ilkelerini uygular."
+      },
+      {
+       "label": "c",
+       "text": "Üstlendiği rolün rol oynama ve doğaçlama ilkelerine uygunluğunu değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "OOED.1.4.3",
+     "order": 3,
+     "text": "Edebî türlerden yararlanarak canlandırma teknikleri aracılığıyla rol oynayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Öykü, masal, şiir gibi edebî türleri inceler."
+      },
+      {
+       "label": "b",
+       "text": "Öykü, masal, şiir gibi edebî türlerden yararlanarak rol oynama çalışmaları yapar."
+      }
+     ]
+    },
+    {
+     "code": "OOED.1.4.4",
+     "order": 4,
+     "text": "Doğaçlamalardan yola çıkarak edebî metinler oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Drama sürecindeki doğaçlamalarda ortaya çıkan karakter, olay örgüsü ve çatışma unsurlarını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Drama sürecindeki yaşantı, çatışma veya temayı öykü, masal, şiir gibi edebî metinlere dönüştürür."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 5,
+   "kind": "ÜNİTE",
+   "title": "DRAMA VE DİĞER SANATLAR",
+   "description": "Bu ünitede öğrencinin çeşitli sanat dallarıyla dramanın ilişkisini fark etmesi, bu sanat dallarından doğaçlamalarında yararlanması, maske ve kukla aracılığıyla drama sürecini yapılandırabilmesi amaçlanmaktadır.",
+   "lesson_hours": 13,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB4. Sanatsal Üretim Yapma (SAB4.1. Sanatsal Ürün Tasarlama), SAB4. Sanatsal Üretim Yapma (SAB4.2. Sanatsal Ürün Oluşturma), SAB14. Sahneleme (SAB14.4. Rol Oynama)",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Öz Güven), E2.2. Sorumluluk, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.3. Yaratıcılık",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik, D10. Mütevazılık, D12. Sabır, D14. Saygı, D16. Sorumluluk, D17. Tasarruf / • Öğrencilerin drama ile maske arasında ilişki kurarak üretkenliklerini geliştiren",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI etkinliklere katılmaları desteklenir (D3.3). • Öğrencilerin estetik bir bakış açısıyla drama etkinliklerinde özgün ürünler ortaya koymaları desteklenir (D7.2). • Öğrencilerin drama etkinliklerine dayalı grup çalışmalarında arkadaşlarına karşı sabırlı, nazik ve anlayışlı davranmaları teşvik edilir (D10.3, D12.3). • Öğrencilerin oyun etkinliklerinde üstlendikleri görevleri zamanında ve eksiksiz yerine getirmeleri teşvik edilir (D16.3). • Öğrencilere drama çalışmalarında zamanı verimli kullanabilmek için planlama yapmaları gerektiği hatırlatılır (D17.2). • Öğrencilerin maske oluşturma süreçlerinde mevcut materyalleri verimli kullanmaları ve kullanım ömrünü tamamlamış ürünleri yeni bir amaçla değerlendirmeleri teşvik edilir (D17.3). • Öğrenciler, drama ve maske arasındaki ilişkiye yönelik bilgi toplamak amacıyla kullanacakları araçları belirlemeye yönlendirilir. Öğrencilerin edindikleri bilgileri kendi cümleleriyle ifade etmeleri desteklenir (OB1). • Öğrencilere yaptıkları maskelerden yararlanarak geliştirdikleri karakterleri özgün bir hikâye içinde canlandırma fırsatı verilir (OB9). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ OOED.1.5.2 • Öğrencilerden drama ve kukla çalışmaları arasındaki ilişkiyi inceleyerek duygu ve davranışlarını özgün canlandırmalarla ifade etmeleri istenir (SDB1.3). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde üstlendikleri görevleri yerine getirerek gruplarına katkıda bulunmaları teşvik edilir (SDB2.2). • Öğrencilerden drama ile kukla sanatı arasındaki ilişkiyi kavrayarak üretkenliklerini geliştirmeye yönelik etkinliklerde yer almaları istenir (D3.3). • Öğrencilerin drama etkinliklerinde estetik bir bakış açısıyla özgün ürünler ortaya koymaları desteklenir (D7.2). • Öğrencilerin drama temelli grup çalışmalarında yeni bilgi ve fikirlere, yapıcı öneri ve eleştirilere açık olmaları desteklenir (D10.1). • Öğrencilere drama çalışmalarında zamanı verimli kullanabilmek için planlama yapmaları gerektiği hatırlatılır (D17.2). • Öğrencilerin kukla oluşturma süreçlerinde mevcut materyalleri verimli kullanmaları ve kullanım ömrünü tamamlamış ürünleri yeni bir amaçla değerlendirmeleri teşvik edilir (D17.3). • Öğrenciler, drama ve kukla arasındaki ilişkiye yönelik bilgi toplamak amacıyla kullanacakları araçları belirlemeye yönlendirilir. Edindikleri bilgileri kendi cümleleriyle ifade etmeleri desteklenir (OB1). • Öğrencilerden kukla yaparak veya kullanarak geliştirdikleri karakteri özgün bir anlatı eşliğinde canlandırmaları istenir (OB9). OOED.1.5.3 • Öğrencilerin drama ile görsel sanatlar arasındaki ilişkiyi keşfederek duygu ve davranışlarını sanatsal ürünlere dönüştürmeleri desteklenir (SDB1.3). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde üstlendikleri görevleri yerine getirerek gruplarına katkıda bulunmaları teşvik edilir (SDB2.2). • Öğrencilerin drama ve görsel sanatlar arasında ilişki kurarak üretkenliklerini geliştiren etkinliklere katılmaları desteklenir (D3.3). • Öğrencilerin drama temelli grup çalışmalarında ihtiyaç duyduklarında arkadaşlarından yardım istemeleri gerektiği vurgulanır (D10.1). • Öğrencilerin oyun etkinliklerinde üstlendikleri görevleri zamanında ve eksiksiz yerine getirmeleri teşvik edilir (D16.3). • Öğrencilerin drama etkinliklerinde ihtiyaç duyduklarından fazla materyal almamaları gerektiği vurgulanır (D17.2). • Öğrencilerin görsel sanat ürünü oluşturma süreçlerinde mevcut materyalleri verimli kullanmaları ve kullanım ömrünü tamamlamış ürünleri yeni bir amaçla değerlendirmeleri teşvik edilir (D17.3). • Öğrenciler, drama ve görsel sanatlar arasındaki ilişkiye yönelik bilgi toplamak amacıyla kullanacakları araçları belirlemeye yönlendirilir. Edindikleri bilgileri kendi cümleleriyle ifade etmeleri desteklenir (OB1). • Öğrencilerden drama etkinliklerinde duygu ve düşüncelerini ifade etmek amacıyla görsellerden yararlanmaları istenir (OB4). OOED.1.5.4 • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde üstlendikleri görevleri yerine getirerek gruplarına katkıda bulunmaları teşvik edilir (SDB2.2). • Öğrencilerin drama etkinliklerinde estetik bir bakış açısıyla özgün ürünler ortaya koymaları desteklenir (D7.2). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ • Öğrencilerin drama ve görsel sanatlar arasında ilişki kurarak üretkenliklerini geliştiren etkinliklere katılmaları desteklenir (D3.3). • Öğrencilere drama temelli grup etkileşimlerinde ön yargılardan uzak bir tutum benimsemeleri gerektiği hatırlatılır (D10.3). • Öğrencilerin görsel sanat ürünlerine yönelik eleştirileri saygı çerçevesinde karşılamaları desteklenir (D14.1). • Öğrencilere drama çalışmalarında zamanı verimli kullanabilmeleri için plan yapmaları gerektiği hatırlatılır (D17.2). • Öğrencilerden drama çalışmalarında doğaçlama tekniklerini kullanarak özgün görseller oluşturmaları istenir (OB4). • Öğrencilerden doğaçlamalar yoluyla ulaştıkları fikirleri resim, kolaj veya doğal malzemeler kullanarak özgün sanatsal ürünlere dönüştürmeleri ve bu ürünleri incelemeleri istenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ 1. DÜZEY",
+    "İLİŞKİLER": "KB2.15. Yansıtma, TAB1. Dinleme/İzleme, TAB3. Konuşma, TAB4. Yazma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ OOED.1.5.1. Canlandırılacak karakterin özelliklerini yansıtan özgün maske tasarlayaSÜREÇ BİLEŞENLERİ bilme a) Drama karakterinin özelliklerini maske tasarlayarak inceler. b) Tasarladığı maskeden yararlanarak drama karakterinin özelliklerini canlandırmalar yoluyla ifade eder. OOED.1.5.2. Canlandırılacak karakterin özelliklerini yansıtan özgün kukla oluşturabilme a) Drama karakterinin özelliklerini kukla tasarlayarak ifade eder. b) Kukla tasarımını drama karakterinin özelliklerini yansıtacak biçimde sanatsal ürüne dönüştürür. OOED.1.5.3. Görsel sanat ürünlerini kullanarak canlandırmalar yoluyla rol oynayabilme a) Görsel sanat ürünündeki tema, karakter, olay örgüsü ile rolün gerektirdiği bileşenler arasındaki ilişkiyi inceler. b) Görsel sanat ürününün temasına, karakterine, olay örgüsüne uygun olarak canlandırma çalışmaları yapar. OOED.1.5.4. Drama yoluyla görsel sanat ürünü oluşturabilme a) Görsel sanat ürünündeki konu veya kavramı canlandırmalarla ifade eder. b) Doğaçlamalar yoluyla konu veya kavramı resim, kolaj, doğal malzemeler aracılığıyla sanatsal ürüne dönüştürür.",
+    "İÇERİK ÇERÇEVESİ": "Drama ve Maske İlişkisi Drama ve Kukla İlişkisi Drama ve Görsel Sanatlar İlişkisi Drama Yoluyla Görsel Sanat Ürünü Oluşturma canlandırma, doğaçlama, görsel sanatlar, kolaj, kukla, maske, resim, rol oynama, sanat-",
+    "Anahtar Kavramlar": "sal ürün PROGRAMLAR ARASI OOED.1.5.1 BİLEŞENLERE YÖNELİK • Öğrencilerin drama ve maske arasındaki ilişkiyi inceleyerek duygu ve davraUYGULAMALAR nışlarını canlandırmalar yoluyla ifade etmeleri desteklenir (SDB1.3). Sosyal-Duygusal • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde üstlendikleri görevleri Öğrenme Becerileri/ yerine getirerek gruplarına katkıda bulunmaları teşvik edilir (SDB2.2)."
+   },
+   "outcomes": [
+    {
+     "code": "OOED.1.5.1",
+     "order": 1,
+     "text": "Canlandırılacak karakterin özelliklerini yansıtan özgün maske tasarlayaSÜREÇ BİLEŞENLERİ bilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Drama karakterinin özelliklerini maske tasarlayarak inceler."
+      },
+      {
+       "label": "b",
+       "text": "Tasarladığı maskeden yararlanarak drama karakterinin özelliklerini canlandırmalar yoluyla ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "OOED.1.5.2",
+     "order": 2,
+     "text": "Canlandırılacak karakterin özelliklerini yansıtan özgün kukla oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Drama karakterinin özelliklerini kukla tasarlayarak ifade eder."
+      },
+      {
+       "label": "b",
+       "text": "Kukla tasarımını drama karakterinin özelliklerini yansıtacak biçimde sanatsal ürüne dönüştürür."
+      }
+     ]
+    },
+    {
+     "code": "OOED.1.5.3",
+     "order": 3,
+     "text": "Görsel sanat ürünlerini kullanarak canlandırmalar yoluyla rol oynayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Görsel sanat ürünündeki tema, karakter, olay örgüsü ile rolün gerektirdiği bileşenler arasındaki ilişkiyi inceler."
+      },
+      {
+       "label": "b",
+       "text": "Görsel sanat ürününün temasına, karakterine, olay örgüsüne uygun olarak canlandırma çalışmaları yapar."
+      }
+     ]
+    },
+    {
+     "code": "OOED.1.5.4",
+     "order": 4,
+     "text": "Drama yoluyla görsel sanat ürünü oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Görsel sanat ürünündeki konu veya kavramı canlandırmalarla ifade eder."
+      },
+      {
+       "label": "b",
+       "text": "Doğaçlamalar yoluyla konu veya kavramı resim, kolaj, doğal malzemeler aracılığıyla sanatsal ürüne dönüştürür."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 6,
+   "kind": "ÜNİTE",
+   "title": "DRAMA VE TOPLUM",
+   "description": "Bu ünitede öğrencinin toplumsal sorunlarla ilgili farkındalık ve duyarlılık geliştirmesi, bu durumlardan hareketle doğaçlamalar kurgulaması amaçlanmaktadır.",
+   "lesson_hours": 6,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB5. Sosyal Katılım (SBAB5.3. Fikir Üretme), SAB14. Sahneleme (SAB14.4. Rol Oynama)",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E2.1. Empati, E2.2. Sorumluluk, E2.3. Girişkenlik, E3.1. Muhakeme, E3.3. Yaratıcılık, E3.4. Gerçeği Arama, E3.5. Açık Fikirlilik, E3.8. Soru Sorma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.3. Sosyal Farkındalık, SDB3.2. Esneklik",
+    "Değerler": "D1. Adalet, D2. Aile Bütünlüğü, D4. Dostluk, D5. Duyarlılık, D8. Mahremiyet, D9. Merhamet, D11. Özgürlük, D13. Sağlıklı Yaşam, D14. Saygı, D16. Sorumluluk, D20. Yardımseverlik / • Öğrencilerin arkadaşlarının özgürlüklerini ihlal etmemeye, kişisel sınırlarına",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı, OB6. Vatandaşlık Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI saygı duymaya ve drama alanında güvenli bir etkileşim alanı oluşturmaya dikkat etmeleri gerektiği belirtilir (D8.1). • Öğrencilerden toplumsal yaşam durumlarını drama çalışmalarıyla ele alırken kişisel ve toplumsal haklara saygı göstermeleri gerektiğini fark etmeleri istenir (D11.3). • Öğrencilerin toplumsal yaşam durumlarını drama çalışmalarıyla ele alırken insan sağlığının önemini sorgulamaları ve tartışmaları desteklenir (D13.4). • Öğrenciler, drama ve toplumsal yaşam arasındaki ilişkiye yönelik bilgi toplamak amacıyla kullanacakları araçları belirlemeye yönlendirilir. Edindikleri bilgileri kendi cümleleriyle ifade etmeleri desteklenir (OB1). • Öğrencilerden drama ve oyun etkinlikleri aracılığıyla toplumsal yaşamdaki durumları canlandırarak performans sergilemeleri istenir (OB9). OOED.1.6.2 • Öğrencilerin drama çalışmaları yoluyla toplumsal yaşamda karşılaştıkları güçlüklerle başa çıkmak için çaba göstermeleri desteklenir (SDB3.2). • Öğrencilerin drama çalışmaları yoluyla sevgi ve saygıya dayalı iletişimin aile huzuruna katkısını ortaya koymaları desteklenir (D2.3). • Öğrencilerin drama çalışmaları sürecinde ortak hedeflere ulaşmak için arkadaşlarıyla dayanışma içinde olmaları gerektiği vurgulanır (D4.1, D20.2). • Öğrencilere Nevruz, Hıdırellez gibi mevsimlik bayramlar ile imece geleneğini drama yoluyla canlandırma fırsatı verilir. Bu kültürel değerlerin toplumsal birlikteliğe ve huzura katkılarını tartışmaları desteklenir (D4.1, OB5). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ • Öğrencilerin toplumsal sorunların çözümüne katkı sunmak amacıyla sorumluluk üstlenmeleri teşvik edilir (D5.1). • Öğrencilerin toplumsal yaşam durumlarını drama yoluyla ele alırken herkesin hata yapabileceğini kabul etmeleri desteklenir (D9.2). • Öğrencilerden drama çalışmaları aracılığıyla insanların farklı kültürlere ve inançlara sahip olabileceğini fark etmeleri istenir (D14.3). • Öğrencilerin drama çalışmaları yoluyla toplumsal sorunların çözümüne yönelik öneriler sunmaları desteklenir (D16.2). • Öğrencilerden toplumsal yaşamla ilgili durumlarda drama çalışmaları aracılığıyla empati kurmaları istenir (OB5). • Öğrencilerin toplumsal yaşam durumlarında drama çalışmaları aracılığıyla farklılıklara saygı duymaları gerektiği vurgulanır (OB6). • Öğrencilerden drama ve oyun etkinlikleri yoluyla toplumsal duyarlılık ve farkındalık içeren konularda performans sergilemeleri istenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ 1. DÜZEY",
+    "İLİŞKİLER": "KB2.14. Yorumlama, KB2.15. Yansıtma, TAB1. Dinleme/İzleme, TAB3. Konuşma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ OOED.1.6.1. Drama etkinliklerinde toplumsal yaşamdaki durumlar ile ilgili rol oynayabilme SÜREÇ BİLEŞENLERİ a) Toplumsal yaşam durumlarının drama ile ilişkisini sorgular ve tartışır. b) Toplumsal yaşam durumlarına ilişkin ön bilgilerini kullanarak doğaçlamalar yoluyla rol çalışmaları gerçekleştirir. OOED.1.6.2. Toplumsal farkındalığa ve duyarlılığa ilişkin drama etkinlikleriyle fikir üretebilme a) Toplumsal sorunları drama etkinlikleriyle fark eder. b) Toplumsal farkındalığa ve duyarlılığa ilişkin deneyimlerini özgün yollarla inceler. c) Empati, birlikte yaşam, başkalarına saygı, demokratik tutum konularına ilişkin doğaçlama tekniğiyle fikir üretir.",
+    "İÇERİK ÇERÇEVESİ": "Drama ve Toplumsal Yaşam İlişkisi Drama ile Toplumsal Farkındalık ve Duyarlılık İlişkisi başkalarına saygı, birlikte yaşam, demokratik tutum, doğaçlama, duyarlılık, empati, fark-",
+    "Anahtar Kavramlar": "lılıklar, toplumsal yaşam PROGRAMLAR ARASI OOED.1.6.1 BİLEŞENLERE YÖNELİK • Öğrencilerin drama çalışmalarıyla okullarının, yaşadıkları toplumun veya dünUYGULAMALAR yanın bir sorununu tartışarak keşfetmeleri desteklenir (SDB2.3). • Öğrencilerin drama çalışmalarında toplumsal karar alma süreçlerinde farklı görüşlerin varlığını kabul etmeleri desteklenir (D1.2). Öğrenme Becerileri/"
+   },
+   "outcomes": [
+    {
+     "code": "OOED.1.6.1",
+     "order": 1,
+     "text": "Drama etkinliklerinde toplumsal yaşamdaki durumlar ile ilgili rol oynayabilme SÜREÇ BİLEŞENLERİ",
+     "components": [
+      {
+       "label": "a",
+       "text": "Toplumsal yaşam durumlarının drama ile ilişkisini sorgular ve tartışır."
+      },
+      {
+       "label": "b",
+       "text": "Toplumsal yaşam durumlarına ilişkin ön bilgilerini kullanarak doğaçlamalar yoluyla rol çalışmaları gerçekleştirir."
+      }
+     ]
+    },
+    {
+     "code": "OOED.1.6.2",
+     "order": 2,
+     "text": "Toplumsal farkındalığa ve duyarlılığa ilişkin drama etkinlikleriyle fikir üretebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Toplumsal sorunları drama etkinlikleriyle fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Toplumsal farkındalığa ve duyarlılığa ilişkin deneyimlerini özgün yollarla inceler."
+      },
+      {
+       "label": "c",
+       "text": "Empati, birlikte yaşam, başkalarına saygı, demokratik tutum konularına ilişkin doğaçlama tekniğiyle fikir üretir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 7,
+   "kind": "ÜNİTE",
+   "title": "DRAMA VE OKUL DIŞI ÖĞRENME ORTAMLARI",
+   "description": "Bu ünitede öğrencinin okul dışı ortamlarda da drama çalışmaları gerçekleştirilebileceğinin farkına varması amaçlanmaktadır.",
+   "lesson_hours": 4,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB5. Sosyal Katılım (SBAB5.3. Fikir Üretme)",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E2.3. Girişkenlik, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.3. Yaratıcılık",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK OOED.1.7.1 UYGULAMALAR • Öğrencilerin drama çalışmaları aracılığıyla okul dışı öğrenme ortamlarında gerçekleştirilecek iş birliği için uygun koşulları belirlemeleri desteklenir (SDB2.2). Öğrenme Becerileri/ • Öğrencilerden drama çalışmaları aracılığıyla okul dışı öğrenme ortamlarında",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık",
+    "Değerler": "D5. Duyarlılık, D7. Estetik, D8. Mahremiyet, D14. Saygı, D16. Sorumluluk, D17. Tasarruf, D19. Vatanseverlik / farklı normları gözlemlemeleri istenir (SDB2.3).",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı BECERİLER ARASI • Öğrencilerin okul dışı öğrenme ortamlarında çevre sorunlarına yol açabilecek davranışlardan kaçınmaları gerektiği vurgulanır (D5.2). • Öğrencilerin okul dışı öğrenme ortamlarında görsel sanatlar, mimari, müzik, edebiyat gibi alanlardaki estetik unsurları fark etmeleri desteklenir. Bu unsurlardan yararlanarak yaşamlarını zenginleştirmeleri teşvik edilir (D7.3). • Öğrencilerin okul dışı öğrenme ortamlarında başkalarını rahatsız edecek davranışlardan kaçınmaları ve görgü kurallarına uygun hareket etmeleri gerektiği vurgulanır (D8.4, D14.1). • Öğrencilerin okul dışı öğrenme ortamlarında kamu mallarını ya da ortak yaşam alanlarını özenli ve temiz kullanmaları gerektiği vurgulanır (D16.2). • Öğrencilerin okul dışı öğrenme ortamlarındaki doğal kaynakları ve ortak kullanım araçlarını amacına uygun biçimde kullanmaları teşvik edilir (D17.2). • Öğrencilerin okul dışı öğrenme ortamlarında ülke varlıklarını koruma bilinciyle hareket etmeleri teşvik edilir (D19.3). • Öğrenciler okul dışı öğrenme ortamlarında drama çalışmalarının gerçekleştirilebileceği mekânlara ilişkin bilgi toplamaya yönlendirilir. Öğrencilerin topladıkları bilgilerden yararlanarak bu mekânlarda gerçekleştirilebilecek doğaçlama çalışmalarına ilişkin fikir üretmeleri desteklenir (OB1). • Öğrencilerin okul dışı öğrenme ortamlarında kültürel mirası koruma bilinciyle hareket etmeleri teşvik edilir (OB5). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ 2. DÜZEY",
+    "İLİŞKİLER": "KB2.2. Gözlemleme, KB2.15. Yansıtma, TAB4. Yazma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ OOED.1.7.1. Okul dışı öğrenme ortamlarının özelliklerinden yararlanarak drama çalışmaSÜREÇ BİLEŞENLERİ larına ilişkin fikir üretebilme a) Okul dışı öğrenme ortamlarının drama çalışmalarında kullanılabilecek özelliklerini fark eder. b) Müze, kütüphane, park, orman, meydan, tarihî çarşı gibi okul dışı öğrenme ortamlarında gerçekleştirilen drama etkinliklerine ilişkin deneyimlerini inceler. c) Okul dışı öğrenme ortamlarının özelliklerinden yararlanarak doğaçlama çalışmalarına ilişkin fikir üretir.",
+    "İÇERİK ÇERÇEVESİ": "Drama ve Okul Dışı Öğrenme Ortamları",
+    "Anahtar Kavramlar": "doğaçlama, kütüphane, müze, okul dışı ortam, orman, park, rol oynama"
+   },
+   "outcomes": [
+    {
+     "code": "OOED.1.7.1",
+     "order": 1,
+     "text": "Okul dışı öğrenme ortamlarının özelliklerinden yararlanarak drama çalışmaSÜREÇ BİLEŞENLERİ larına ilişkin fikir üretebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Okul dışı öğrenme ortamlarının drama çalışmalarında kullanılabilecek özelliklerini fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Müze, kütüphane, park, orman, meydan, tarihî çarşı gibi okul dışı öğrenme ortamlarında gerçekleştirilen drama etkinliklerine ilişkin deneyimlerini inceler."
+      },
+      {
+       "label": "c",
+       "text": "Okul dışı öğrenme ortamlarının özelliklerinden yararlanarak doğaçlama çalışmalarına ilişkin fikir üretir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 1,
+   "kind": "ÜNİTE",
+   "title": "DRAMA İLE TANIŞMA",
+   "description": "Bu ünitede öğrencinin drama çalışmalarına etkin katılması, kullanılan mekânı tanıyabilmesi, kendisinin ve grup üyelerinin özelliklerini karşılaştırabilmesi ve sosyal temas oluşturabilmesi amaçlanmaktadır.",
+   "lesson_hours": 8,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB5. Sosyal Katılım (SBAB5.1. Sosyal Temas Oluşturma)",
+    "KAVRAMSAL BECERİLER": "KB1. Temel Beceriler, KB2.7. Karşılaştırma",
+    "EĞİLİMLER": "E1.1. Merak, E1.2. Bağımsızlık, E1.5. Kendine Güvenme (Öz Güven), E2.3. Girişkenlik, E2.5. Oyunseverlik, E3.5. Açık Fikirlilik, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık",
+    "Değerler": "D1. Adalet, D4. Dostluk, D5. Duyarlılık, D6. Dürüstlük, D8. Mahremiyet, D11. Özgürlük, D14. Saygı, D15. Sevgi, D18. Temizlik / nir (SDB2.1, D6.2).",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI • Öğrencilerden düzenlenecek canlandırma etkinliklerinde birlikte rol oynama ve doğaçlama yapmaları istenir (SDB2.2). • Öğrencilerin canlandırma ve oyun etkinliklerinde grup arkadaşlarına karşı anlayışlı ve saygılı davranmaları teşvik edilir (SDB2.3). • Öğrencilerin canlandırma ve oyun etkinliklerinde arkadaşları arasında fiziksel ya da sosyal özelliklerine göre ayrım yapmaktan kaçınmaları teşvik edilir. Arkadaşlarını tutum ve davranışlarına göre değerlendirmeleri desteklenir (D1.1). • Öğrencilerin drama çalışmalarında çember oluşturma ile eşitlik arasındaki ilişkiyi fark etmeleri ve bu ilişkiyi tartışmaları desteklenir (D1.3). • Öğrencilerin canlandırma ve oyun etkinliklerinde dayanışma içinde hareket etmeleri teşvik edilir. Etkili iletişim yoluyla sevgi, saygı ve güvene dayalı ilişkiler kurmaları desteklenir (D4.1). • Öğrencilerden drama ve oyun etkinliklerinde arkadaşlarına karşı nazik davranmaları istenir (D5.1). • Öğrencilerin drama ve oyun etkinliklerinde arkadaşlarının özel hayatını ve kişisel kusurlarını irdelemekten kaçınmalarının önemi vurgulanır. Bunun yerine arkadaşlarına karşı saygılı ve gizliliğe duyarlı bir tutum geliştirmeleri desteklenir (D8.4). • Öğrencilerin drama ve oyun etkinliklerinde duygu, düşünce, inanç ve izlenimlerini özgürce ifade etmeleri desteklenir (D11.2). • Öğrencilerden drama etkinlikleri aracılığıyla her bireyin değerli ve önemli olduğunu fark etmeleri istenir (D14.2). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ • Öğrencilerin drama ve oyun etkinlikleri sırasında kendilerine ve arkadaşlarına dair özellikleri fark etmeleri, arkadaşlarıyla ortak yönlerini bulmaları, arkadaşlarına karşı anlayışlı davranışlar sergilemeleri istenir (OB1, D15.1). • Öğrencilerden drama kavramının anlamını araştırmaları ve edindikleri bilgileri defterlerine yazmaları istenir (OB1). • Öğrencilerden doğaçlama etkinlikleri yoluyla hem kendi özelliklerini hem de arkadaşlarının niteliklerini yansıtan performanslar sergilemeleri istenir (OB9). OOED.2.1.2 • Öğrencilerin oyun ve canlandırma sürecinde duygu ve düşüncelerini ifade etmeleri desteklenir (SDB2.1). • Öğrencilerin drama etkinliklerinde görev ve sorumluluklarını kurallara uygun biçimde yerine getirmeleri teşvik edilir (D1.2). • Drama ve oyun etkinliklerinde öğrencilerin bedensel ve mekânsal mahremiyete özen göstermelerinin önemi vurgulanır (D8.4). • Öğrencilerin drama çalışmalarında nezaket kurallarına uygun davranmaları teşvik edilir (D14.1). • Öğrencilerin drama mekânının temizliğine özen göstermeleri gerektiği vurgulanır (D18.2). • Öğrencilerin bulundukları mekânın sunduğu olanaklardan drama sürecinde yararlanmaları desteklenir. Öğrencilere mekânla uyumlu doğaçlamalar geliştirme ve canlandırma yoluyla performans sergileme fırsatları verilir (OB9). OOED.2.1.3 • Öğrencilerin drama ve oyun etkinlikleri aracılığıyla jest, mimik ve beden dilini tanımaları desteklenir (SDB1.1). • Öğrencilerin oyun ve canlandırma sürecinde duygu ve düşüncelerini özgürce ifade etmeleri desteklenir (SDB2.1). • Öğrencilerden düzenlenecek canlandırma etkinliklerinde birlikte rol oynamaları ve doğaçlama yapmaları istenir (SDB2.2). • Öğrencilerin canlandırma ve oyun etkinliklerinde ön yargılardan uzak ve tarafsız bir tutum sergilemeleri teşvik edilir (D1.2). • Öğrencilerin canlandırma ve oyun etkinliklerinde iş birliği ve dayanışma içinde hareket etmeleri desteklenir. Etkili iletişim yoluyla sevgi, saygı ve güvene dayalı ilişkiler geliştirmeleri teşvik edilir (D4.1). • Öğrencilerin drama ve oyun etkinlikleri aracılığıyla sosyal ilişkilerindeki kişisel sınırlarını belirlemelerine rehberlik edilir (D8.1). • Öğrencilerin drama ve oyun etkinliklerinde özgünlüklerini koruyarak kendilerini grubun bir parçası olarak hissetmelerine ve aidiyet duygusu geliştirmelerine uygun ortam oluşturulur (D11.2). • Öğrencilerin drama yoluyla arkadaşlarıyla ilişkilerini karşılıklı saygı temeline dayandırarak değerlendirmeleri desteklenir (D14.2). • Öğrencilerden doğaçlamalarla grup etkileşimine ilişkin performans sergilemeleri istenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ 2. DÜZEY",
+    "İLİŞKİLER": "KB2.15. Yansıtma, TAB1. Dinleme/İzleme, TAB3. Konuşma, TAB4. Yazma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ OOED.2.1.1. Drama yoluyla kendisinin ve grup üyelerinin özelliklerini karşılaştırabilme SÜREÇ BİLEŞENLERİ a) Kendisinin ve grup üyelerinin özelliklerini belirler. b) Kendisinin ve grup üyelerinin özelliklerine ilişkin benzerlikleri sözlü olarak ifade eder. c) Kendisinin ve grup üyelerinin özelliklerine ilişkin farklılıkları sözlü olarak ifade eder. OOED.2.1.2. Drama çalışmalarında kullanılan mekânı tanıyabilme OOED.2.1.3. Drama yoluyla sosyal temas oluşturabilme a) Drama etkinlikleriyle grup etkileşimi başlatır. b) Jest, mimik, beden dilini kullanarak grup etkileşimine katılır. c) Jest, mimik, beden dilini kullanarak grup etkileşimine katkıda bulunur. ç) Grup etkileşiminin önemini değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Dramayla Tanışma Dramayla Mekânı Tanıma Grup Etkileşimi",
+    "Anahtar Kavramlar": "çember oluşturma, drama, etkileşim, grup, iletişim, mekân, oyun, rol, tanışma PROGRAMLAR ARASI OOED.2.1.1 BİLEŞENLERE YÖNELİK • Öğrencilerden drama ve oyun etkinlikleri aracılığıyla kendi özelliklerini fark UYGULAMALAR etmeleri istenir (SDB1.1). Sosyal-Duygusal • Öğrencilerin canlandırma ve oyun etkinliklerinde hem kendilerine hem de Öğrenme Becerileri/ grup üyelerine ilişkin duygu ve düşüncelerini açıkça ifade etmeleri destekle-"
+   },
+   "outcomes": [
+    {
+     "code": "OOED.2.1.1",
+     "order": 1,
+     "text": "Drama yoluyla kendisinin ve grup üyelerinin özelliklerini karşılaştırabilme SÜREÇ BİLEŞENLERİ",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kendisinin ve grup üyelerinin özelliklerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "Kendisinin ve grup üyelerinin özelliklerine ilişkin benzerlikleri sözlü olarak ifade eder."
+      },
+      {
+       "label": "c",
+       "text": "Kendisinin ve grup üyelerinin özelliklerine ilişkin farklılıkları sözlü olarak ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.1.2",
+     "order": 2,
+     "text": "Drama çalışmalarında kullanılan mekânı tanıyabilme",
+     "components": []
+    },
+    {
+     "code": "OOED.2.1.3",
+     "order": 3,
+     "text": "Drama yoluyla sosyal temas oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Drama etkinlikleriyle grup etkileşimi başlatır."
+      },
+      {
+       "label": "b",
+       "text": "Jest, mimik, beden dilini kullanarak grup etkileşimine katılır."
+      },
+      {
+       "label": "c",
+       "text": "Jest, mimik, beden dilini kullanarak grup etkileşimine katkıda bulunur."
+      },
+      {
+       "label": "ç",
+       "text": "Grup etkileşiminin önemini değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 2,
+   "kind": "ÜNİTE",
+   "title": "DUYU, UYUM VE GÜVEN",
+   "description": "Bu ünitede öğrencinin duyularını kullanarak grupla iş birliği içinde özgün ürünler ortaya koyması ve güven çalışmalarına katılabilmesi amaçlanmaktadır.",
+   "lesson_hours": 12,
+   "sections": {
+    "ALAN BECERİLERİ": "BEOSAB1. Hareketi Sergileme, BEOSAB5. Ritmik Hareket Etme, BEOSAB7. Eşle/Grupla Hareket Etme",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme",
+    "EĞİLİMLER": "E1.5. Kendine Güvenme (Öz Güven), E2.4. Güven, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.5. Açık Fikirlilik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK OOED.2.2.1 UYGULAMALAR • Öğrencilerden drama sürecinde sanatla bilinçli ve duyarlı bir ilişki kurmaları için renk, desen, doku gibi duyusal ögeleri tanıyıp estetik algılarıyla olan ilişkilerini sorgulamaları istenir (D7.1). Öğrenme Becerileri/ • Öğrencilerin drama etkinliklerine dayalı grup çalışmalarında uyumlu davran-",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D3. Çalışkanlık, D4. Dostluk, D6. Dürüstlük, D7. Estetik, D8. Mahremiyet, D9. Merhamet, D10. Mütevazılık, D14. Saygı, D15. Sevgi, D16. Sorumluluk, D17. Tasarruf, D19. Vatanseverlik / maları teşvik edilir (D10.3).",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI • Öğrencilerin oyun ve canlandırma etkinliklerinde etkili iletişim kurmak amacıyla konuşan kişiyi sözünü kesmeden dikkatle dinlemeleri teşvik edilir (D14.1). • Öğrencilerin oyun ve canlandırma etkinliklerinde arkadaşlarını farklılıklarıyla kabul etmeleri gerektiği üzerinde durulur (D15.1). • Öğrencilerin ninni, türkü, tekerleme, geleneksel oyun ezgileri gibi somut olmayan kültürel miras unsurlarını duyulara dayalı hareket çalışmalarında tanımaları ve bu unsurların yaşatılmasının önemini fark etmeleri sağlanır (D19.3). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ • Öğrencilerden duyuları etkin kullanmaya yönelik doğaçlamalarla performans sergilemeleri istenir (OB9). OOED.2.2.2 • Öğrencilerden oyun ve canlandırma etkinliklerinde arkadaşlarıyla görev paylaşımı yapmaları istenir (SDB2.2). • Öğrencilerin yeni veya belirsiz durumlar karşısında değişime açık ve istekli olmaları desteklenir (SDB3.1). • Öğrencilerin oyun ve canlandırma etkinliklerinde arkadaşlarıyla birlikte olmaktan keyif alabilecekleri olumlu bir ortam oluşturulur (D4.4). • Öğrencilerin oyun ve canlandırma etkinliklerinde hak ya da özgürlüklerden yararlanırken arkadaşlarının kişisel sınırlarını gözetmeleri gerektiği vurgulanır (D8.4). • Öğrencilerin oyun ve canlandırma etkinliklerinde etkili iletişim kurmak amacıyla konuşan kişiyi sözünü kesmeden dikkatle dinlemeleri teşvik edilir (D14.1). • Öğrencilerin drama sürecinde eşle veya grupla hareket ederken rollerini tanımlamaları ve görev paylaşımına uygun biçimde rollerini yerine getirmeleri desteklenir. Öğrencilerin grup uyumunu gözeterek performans sergilemelerine fırsat verilir (OB9). OOED.2.2.3 • Öğrencilerden oyun ve canlandırma etkinliklerinde arkadaşlarıyla iş birliği yapmaları istenir (SDB2.2). • Öğrencilerin yeni veya belirsiz durumlar karşısında değişime açık ve istekli olmaları desteklenir (SDB3.1). • Öğrencilerin oyun ve canlandırma etkinliklerinde ortaya çıkan olumlu veya olumsuz sonuçların sorumluluğunu üstlenmeleri teşvik edilir (SDB3.3). • Öğrencilerin oyun ve canlandırma etkinliklerinde duygu ve düşüncelerini özgürce ifade etmeleri desteklenir (D6.2). • Öğrencilerin oyun ve canlandırma etkinliklerinde hak ya da özgürlüklerden yararlanırken arkadaşlarının kişisel sınırlarını gözetmeleri gerektiği vurgulanır (D8.4). • Öğrencilerin eşli ve grupla gerçekleştirilen güven çalışmalarında yardıma ihtiyaç duyan arkadaşlarına destek olmaları sağlanır (D9.3). • Öğrencilerin oyun ve canlandırma etkinliklerinde etkili iletişim kurmak amacıyla konuşan kişiyi sözünü kesmeden dikkatle dinlemeleri teşvik edilir (D14.1). • Öğrencilerin oyun ve canlandırma etkinliklerinde üstlendikleri görevleri özveriyle yerine getirmeleri teşvik edilir (D16.3). • Öğrencilerden güven ve uyum kavramlarını araştırmaları ve bu kavramların anlamlarını defterlerine yazmaları istenir (OB1). • Öğrencilerden doğaçlamalarla güven ve uyuma ilişkin performans sergilemeleri istenir (OB9). OOED.2.2.4 • Öğrencilerin oyun ve canlandırma etkinliklerinde ortaya çıkan olumlu veya olumsuz sonuçların sorumluluğunu üstlenmeleri teşvik edilir (SDB3.3). • Öğrencilerin güven çalışmalarında gerçekleştirdikleri eylemlerin sonuçlarını değerlendirmelerine rehberlik edilir (SDB2.2). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ • Öğrencilerin oyun ve canlandırma etkinliklerinde duygu ve düşüncelerini özgürce ifade etmeleri desteklenir (D6.2). • Öğrencilerin oyun ve canlandırma etkinliklerinde hak veya özgürlüklerden yararlanırken arkadaşlarının kişisel sınırlarını gözetmeleri gerektiği vurgulanır (D8.4). • Öğrencilerin oyun ve canlandırma etkinliklerinde sorumluluklarını yerine getirmeye yönelik iç motivasyon geliştirmeleri desteklenir (D16.3). • Öğrencilerden güven ve uyum kavramlarını araştırmaları ve bu kavramların anlamlarını defterlerine yazmaları istenir (OB1). • Öğrencilerden doğaçlamalarla güven ve uyuma ilişkin performans sergilemeleri istenir (OB9). OOED.2.2.5 • Öğrencilerden drama ile ritim arasındaki ilişkiyi inceleyerek duygu ve davranışlarını ritmik hareketlerle ifade edip metinlere dönüştürmeleri istenir (SDB1.3). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde duygu ve düşüncelerini hem beden diliyle hem de sözlü olarak ifade etmeleri desteklenir (SDB2.1). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde üstlendikleri görevleri yerine getirerek gruplarına katkıda bulunmaları teşvik edilir (SDB2.2). • Öğrencilerin drama ile ritim arasında ilişki kurarak üretkenliklerini geliştiren etkinliklere katılmaları desteklenir (D3.3). • Öğrencilerin drama etkinliklerinde estetik bir bakış açısıyla özgün ürünler ortaya koymaları desteklenir (D7.2). • Öğrencilerin drama etkinliklerine dayalı grup çalışmalarında uyumlu davranmaları teşvik edilir (D10.3). • Öğrencilere drama çalışmalarında zamanı verimli kullanabilmek için planlama yapmaları gerektiği hatırlatılır (D17.2). • Öğrenciler, drama ve ritim arasındaki ilişkiye yönelik bilgi toplamak amacıyla kullanacakları araçları belirlemeye yönlendirilir. Öğrencilerin edindikleri bilgileri kendi cümleleriyle ifade etmeleri desteklenir (OB1). • Öğrencilerden drama ve ritim etkinlikleri yoluyla performans sergilemeleri istenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ 2. DÜZEY",
+    "İLİŞKİLER": "KB2.15. Yansıtma, TAB1. Dinleme/İzleme, TAB3. Konuşma, TAB4. Yazma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ OOED.2.2.1. Drama sürecinde duyularını etkin biçimde kullanarak hareketi sergileyeSÜREÇ BİLEŞENLERİ bilme a) Duyularını etkin kullanacağı hareket becerilerini algılar. b) Drama etkinliklerinde duyularını etkin kullanarak hareket becerilerini gösterir. c) Duyulara dayalı hareket becerilerini drama etkinliklerinde uygular. OOED.2.2.2. Drama sürecinde eşle veya grupla uyumlu hareket edebilme a) Drama etkinliklerinde eşle veya grupla hareket ederken rollerini tanımlar. b) Grup içi görev paylaşımına uygun şekilde tanımlanan rolünü yerine getirir. c) Eşle veya grupla uyumlu hareket eder. OOED.2.2.3. Drama sürecinde eşle veya grupla güven ile hareket edebilme a) Drama etkinliklerinde eşle veya grupla hareket ederken rollerini tanımlar. b) Grup içi görev paylaşımına uygun şekilde tanımlanan rolünü yerine getirir. c) Eşle veya grupla güven ile hareket eder. OOED.2.2.4. Güveni etkileyen faktörleri drama yoluyla çözümleyebilme a) Drama çalışmalarıyla güveni etkileyen faktörleri belirler. b) Drama çalışmalarıyla güveni etkileyen faktörler arasındaki ilişkiyi inceler. OOED.2.2.5. Drama etkinliklerinde ritmik hareket edebilme a) Müziğe ve ritme uygun devinimler geliştirerek müzik ve ritimle uyumunu algılar. b) Ritimli etkinliklerde bedeniyle doğaçlamalar yaparak hareket eder. c) Doğaçlamalarda ritimden yararlanarak hareket becerisini sergiler.",
+    "İÇERİK ÇERÇEVESİ": "Duyuları Etkin Kullanma Uyum Çalışmaları Güven Çalışmaları Güveni Etkileyen Faktörler Ritim Çalışmaları",
+    "Anahtar Kavramlar": "doğaçlama, drama, duyu, grup, güven, hareket, müzik, ritim, ritmik hareket, rol, uyum"
+   },
+   "outcomes": [
+    {
+     "code": "OOED.2.2.1",
+     "order": 1,
+     "text": "Drama sürecinde duyularını etkin biçimde becerilerin süreç bileşenlerini ifade eder. kullanarak hareketi sergileyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Duyularını etkin kullanacağı hareket becerilerini algılar."
+      },
+      {
+       "label": "b",
+       "text": "Drama etkinliklerinde duyularını etkin kullanarak hareket becerilerini gösterir."
+      },
+      {
+       "label": "c",
+       "text": "Duyulara dayalı hareket becerilerini drama etkinliklerinde uygular."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.2.2",
+     "order": 2,
+     "text": "Drama sürecinde eşle veya grupla uyumlu hareket edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Drama etkinliklerinde eşle veya grupla hareket ederken rollerini tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Grup içi görev paylaşımına uygun şekilde tanımlanan rolünü yerine getirir."
+      },
+      {
+       "label": "c",
+       "text": "Eşle veya grupla uyumlu hareket eder."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.2.3",
+     "order": 3,
+     "text": "Drama sürecinde eşle veya grupla güven ile hareket edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Drama etkinliklerinde eşle veya grupla hareket ederken rollerini tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Grup içi görev paylaşımına uygun şekilde tanımlanan rolünü yerine getirir."
+      },
+      {
+       "label": "c",
+       "text": "Eşle veya grupla güven ile hareket eder."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.2.4",
+     "order": 4,
+     "text": "Güveni etkileyen faktörleri drama yoluyla çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Drama çalışmalarıyla güveni etkileyen faktörleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Drama çalışmalarıyla güveni etkileyen faktörler arasındaki ilişkiyi inceler."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.2.5",
+     "order": 5,
+     "text": "Drama etkinliklerinde ritmik hareket edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Müziğe ve ritme uygun devinimler geliştirerek müzik ve ritimle uyumunu algılar."
+      },
+      {
+       "label": "b",
+       "text": "Ritimli etkinliklerde bedeniyle doğaçlamalar yaparak hareket eder."
+      },
+      {
+       "label": "c",
+       "text": "Doğaçlamalarda ritimden yararlanarak hareket becerisini sergiler."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 3,
+   "kind": "ÜNİTE",
+   "title": "DRAMA VE OYUN",
+   "description": "Bu ünitede öğrencinin drama yoluyla problem çözme becerisini kazanması, farklı stratejiler belirlemesi, arkadaşlarına karşı demokratik tutum geliştirmesi amaçlanmaktadır.",
+   "lesson_hours": 10,
+   "sections": {
+    "ALAN BECERİLERİ": "BEOSAB3. Taktik ve Strateji Geliştirme, BEOSAB8. Adil Oyun Anlayışına Uygun Davranma",
+    "KAVRAMSAL BECERİLER": "KB1. Temel Beceriler, KB2.13. Yapılandırma",
+    "EĞİLİMLER": "E1.1. Merak, E1.2. Bağımsızlık, E1.4. Kendine İnanma (Öz Yeterlilik), E2.2. Sorumluluk, E2.4. Güven, E2.5. Oyunseverlik, E3.1. Muhakeme, E3.2. Odaklanma, E3.5. Açık Fikirlilik, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK OOED.2.3.1 UYGULAMALAR • Öğrencilerin oyun içinde taktik ve strateji geliştirirken zor durumlara farklı çözümler bulmaları desteklenir (SDB3.2). • Öğrencilerin oyun etkinliklerinde arkadaşlarına destek olmaları ve arkadaşlaÖğrenme Becerileri/ rıyla etkili iletişim kurmaları teşvik edilir (D4.1, D4.2).",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.2. Esneklik",
+    "Değerler": "D1. Adalet, D3. Çalışkanlık, D4. Dostluk, D5. Duyarlılık, D6. Dürüstlük, D8. Mahremiyet, D11. Özgürlük, D12. Sabır, D14. Saygı, D16. Sorumluluk /",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI • Öğrencilerin oyun etkinliklerinde sorumluluk almaları ve adil davranmaları gerektiği vurgulanır (D1.2). • Öğrencilerden oyun etkinliklerinde taktik ve strateji geliştirirken aktif rol almaları istenir (D3.4). • Öğrencilerden drama çalışmalarında edindikleri bilgileri kendi cümleleriyle ifade etmeleri istenir (OB1). • Öğrencilerden drama ve oyun etkinlikleri yoluyla performans sergilemeleri istenir (OB9). OOED.2.3.2 • Öğrencilerden kurallı oyunları oluştururken arkadaşlarıyla görev paylaşımı yapmaları istenir (SDB2.2). • Öğrencilerden oyun etkinliklerinde arkadaşlarına karşı nazik davranmaları ve onlarla vakit geçirmeyi önemsemeleri istenir (D4.4). • Öğrencilerin oyun etkinliklerinde kendilerine yapılmasını istemedikleri davranışları başkalarına yapmaktan kaçınmalarının önemi vurgulanır (D5.1). • Öğrencilerden drama çalışmalarında edindikleri bilgileri kendi cümleleriyle ifade etmeleri istenir (OB1). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ • Öğrencilerden drama ve oyun etkinlikleri yoluyla performans sergilemeleri istenir (OB9). OOED.2.3.3 • Öğrencilerin oyun veya yaşamdaki rolleri incelerken duygu, düşünce ve davranışlarına ilişkin değerlendirmelerinden yeni durumlara uyum sağlama sürecinde yararlanmaları desteklenir (SDB1.3). • Öğrencilerin oyun ve canlandırmalarda ortaya çıkan toplumsal sorunların çözümüne yönelik öneriler sunmaları desteklenir (D16.2). • Öğrencilerden drama çalışmalarında edindikleri bilgileri kendi cümleleriyle ifade etmeleri istenir (OB1). • Öğrencilerden drama ve oyun etkinlikleri yoluyla performans sergilemeleri istenir (OB9). OOED.2.3.4 • Öğrencilerin grup çalışmaları aracılığıyla oyun ve canlandırma etkinliklerine katılmaları istenir (SDB2.1). • Grup çalışmaları aracılığıyla yardımlaşma ve takım çalışmasının önemi vurgulanır (SDB2.2). • Öğrencilerin oyun etkinliklerinde sorumluluk almaları ve adil davranmaları gerektiği vurgulanır (D1.2). • Öğrencilerden oyun etkinliklerinde arkadaşlarına karşı nazik davranmaları ve onlarla vakit geçirmeyi önemsemeleri istenir (D4.2, D4.4). • Öğrencilerden oyun etkinliklerinde üzerlerine düşen görevleri kurallara uygun şekilde yerine getirmeleri istenir (D6.1). • Öğrencilere drama mekânlarında bedensel gizliliklerini korumaya özen göstermeleri ve başkalarını rahatsız edebilecek davranışlardan kaçınmaları gerektiği hatırlatılır (D8.4). • Öğrencilere oyun etkinliklerinde özgürlüklerini kullanırken arkadaşlarının özgürlük alanlarını ihlal etmemeleri gerektiği hatırlatılır (D11.3). • Öğrencilerin oyun sırasında oyun kurallarına uymalarına rehberlik edilir. Düşünce, duygu ve davranışlarını yöneterek öz denetim geliştirmeleri desteklenir (D12.2, D12.3). • Öğrencilerin oyunlar sırasında arkadaşlarına karşı nazik, duyarlı ve anlayışlı davranmaları gerektiği vurgulanır (D14.1). • Öğrencilerin oyun etkinliklerinde üstlendikleri görevleri zamanında yerine getirmelerine rehberlik edilir. Üstlendikleri görevleri eksiksiz biçimde tamamlamaları desteklenir (D16.3). • Öğrencilerden drama ve oyun etkinlikleri yoluyla performans sergilemeleri istenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ 2. DÜZEY",
+    "İLİŞKİLER": "KB2.15. Yansıtma, TAB1. Dinleme/İzleme, TAB3. Konuşma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ OOED.2.3.1. Oyun içinde strateji geliştirebilme SÜREÇ BİLEŞENLERİ a) Oyun içinde strateji geliştirmeyi gerektiren durumu belirler. b) Oyun içinde belirlediği durumun çözümüne yönelik farklı strateji önerileri sunar. c) Oyun içinde belirlediği farklı stratejileri uygular. OOED.2.3.2. Kurallı oyunlar oluşturabilme OOED.2.3.3. Oyunda yer alan rolleri yaşamdaki rollerle yapılandırabilme a) Oyunda yer alan rolleri inceleyerek yaşamdaki rollerle ilişkisini ortaya koyar. b) Oyunda yer alan rollerden yararlanarak oyun, rol ve yaşam ilişkisine dönük uyumlu bir bütün oluşturur. OOED.2.3.4. Drama sürecinde adil oyun anlayışına uygun davranabilme a) Oyun ve etkinliklerde bireysel farklılıklara ve başkalarının haklarına saygı göstermenin önemini açıklar. b) Oyun ve etkinliklerde adil oyun anlayışıyla uyum ve iş birliği içinde hareket eder.",
+    "İÇERİK ÇERÇEVESİ": "Oyun İçinde Strateji Geliştirme Kurallı Oyunlar Oyun, Rol ve Yaşam İlişkisi Dramada Adil Oyun Anlayışı",
+    "Anahtar Kavramlar": "doğaçlama, etkinlik, kural, oyun, rol, saygı, strateji"
+   },
+   "outcomes": [
+    {
+     "code": "OOED.2.3.1",
+     "order": 1,
+     "text": "Oyun içinde strateji geliştirebilme SÜREÇ BİLEŞENLERİ",
+     "components": [
+      {
+       "label": "a",
+       "text": "Oyun içinde strateji geliştirmeyi gerektiren durumu belirler."
+      },
+      {
+       "label": "b",
+       "text": "Oyun içinde belirlediği durumun çözümüne yönelik farklı strateji önerileri sunar."
+      },
+      {
+       "label": "c",
+       "text": "Oyun içinde belirlediği farklı stratejileri uygular."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.3.2",
+     "order": 2,
+     "text": "Kurallı oyunlar oluşturabilme",
+     "components": []
+    },
+    {
+     "code": "OOED.2.3.3",
+     "order": 3,
+     "text": "Oyunda yer alan rolleri yaşamdaki rollerle yapılandırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Oyunda yer alan rolleri inceleyerek yaşamdaki rollerle ilişkisini ortaya koyar."
+      },
+      {
+       "label": "b",
+       "text": "Oyunda yer alan rollerden yararlanarak oyun, rol ve yaşam ilişkisine dönük uyumlu bir bütün oluşturur."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.3.4",
+     "order": 4,
+     "text": "Drama sürecinde adil oyun anlayışına uygun davranabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Oyun ve etkinliklerde bireysel farklılıklara ve başkalarının haklarına saygı göstermenin önemini açıklar."
+      },
+      {
+       "label": "b",
+       "text": "Oyun ve etkinliklerde adil oyun anlayışıyla uyum ve iş birliği içinde hareket eder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 4,
+   "kind": "ÜNİTE",
+   "title": "ROL OYNAMA VE DOĞAÇLAMA",
+   "description": "Bu ünitede öğrencinin doğaçlamalarında rol oynamanın ilkelerini de göz önünde bulundurarak canlandırmalarında drama tekniklerini kullanması amaçlanmaktadır.",
+   "lesson_hours": 10,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB4. Sanatsal Üretim Yapma (SAB4.2. Sanatsal Ürün Oluşturma), SAB14. Sahneleme (SAB14.4. Rol Oynama), SBAB5. Sosyal Katılım (SBAB5.5. Fikri Eyleme Dönüştürme)",
+    "KAVRAMSAL BECERİLER": "KB2.13. Yapılandırma",
+    "EĞİLİMLER": "E1.2. Bağımsızlık, E1.4. Kendine İnanma (Öz Yeterlilik), E2.1. Empati, E2.2. Sorumluluk, E2.4. Güven, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.3. Yaratıcılık",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK OOED.2.4.1 UYGULAMALAR • Öğrencilerin rol oynama ve doğaçlama etkinliklerine başlamadan önce dikkatlerini dağıtabilecek etkenleri belirlemeleri desteklenir (SDB1.2). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde duygu ve düşüncelerini Öğrenme Becerileri/ hem beden diliyle hem de sözlü olarak ifade etmeleri desteklenir (SDB2.1).",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.2. Esneklik",
+    "Değerler": "D3. Çalışkanlık, D5. Duyarlılık, D7. Estetik, D10. Mütevazılık, D12. Sabır, D15. Sevgi, D16. Sorumluluk, D17. Tasarruf, D19. Vatanseverlik, D20. Yardımseverlik /",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde ortaya çıkan yeni durumlara uyum sağlamaları desteklenir (SDB3.2). • Öğrencilerden rol oynama ve doğaçlama etkinliklerinde estetik bakış açısıyla özgün ürünler ortaya koymaları istenir (D7.2). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde sabırlı ve anlayışlı davranmaları teşvik edilir (D12.3, D5.1). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde yeni bilgilere, fikirlere, yapıcı önerilere ve eleştirilere açık olmaları desteklenir (D10.1). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde karşılarındaki kişinin duygu ve düşüncelerini anlamak amacıyla onu dikkatle dinlemeleri gerektiği vurgulanır (D15.1). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde bilgi, zaman ve emeklerini iyiliğe dönüştürmekten mutluluk duymaları desteklenir (D20.4). • Öğrenciler, rol oynama ve doğaçlama etkinliklerine ilişkin bilgi toplamak amacıyla kullanacakları araçları belirlemeye yönlendirilir. Öğrencilerin edindikleri bilgileri kendi cümleleriyle ifade etmeleri desteklenir (OB1). OOED.2.4.2 • Öğrencilerin rol oynama ve doğaçlama etkinliklerine başlamadan önce farklı görüşleri dikkate alarak kendi düşüncelerini uyarlamaları desteklenir (SDB2.2). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde ortaya çıkan yeni durumlara uyum sağlamaları desteklenir (SDB3.2). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde sabırlı ve anlayışlı davranmaları teşvik edilir (D12.3, D5.1). • Öğrencilerden rol oynama ve doğaçlama etkinliklerinde estetik bakış açısıyla özgün ürünler ortaya koymaları istenir (D7.2). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde karşılarındaki kişinin duygu ve düşüncelerini anlamak amacıyla onu dikkatle dinlemeleri gerektiği vurgulanır (D15.1). • Öğrencilerden rol oynama ve doğaçlama etkinliklerinde millî gün ve bayramların toplumsal birlikteliğe katkısını canlandırmaları istenir (D19.2). • Öğrencilerden rol oynama ve doğaçlama etkinliklerinde dinî gün ve bayramların toplumsal dayanışmaya katkısını canlandırmaları istenir (D20.2). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde bilgi, zaman ve emeklerini iyiliğe dönüştürmekten mutluluk duymaları desteklenir (D20.4). • Öğrencilerden rol oynama ve doğaçlama etkinliklerine ilişkin performans sergilemeleri istenir (OB9). OOED.2.4.3 • Öğrencilerden drama ile farklı türde metinler (fıkra, günlük, anı, mektup) arasındaki ilişkiyi inceleyerek duygu ve davranışlarını farklı türde metinlere dönüştürmeleri istenir (SDB1.3). • Öğrencilerin drama ile farklı türde metinler arasında ilişki kurarak üretkenliklerini geliştiren etkinliklere katılmaları desteklenir (D3.3). • Öğrencilerin drama etkinliklerine dayalı grup çalışmalarında arkadaşlarının olumlu yönlerini takdir etmeleri teşvik edilir (D10.3). • Öğrencilerin oyun etkinliklerinde üstlendikleri görevleri zamanında ve eksiksiz yerine getirmeleri teşvik edilir (D16.3). • Öğrencilere drama çalışmalarında zamanı verimli kullanabilmek için planlama yapmaları gerektiği hatırlatılır (D17.2). • Öğrenciler, drama ile farklı türde metinler arasındaki ilişkiyi incelemek amacıyla kullanacakları bilgi toplama araçlarını belirlemeye yönlendirilir. Öğrencilerin edindikleri bilgileri kendi cümleleriyle ifade etmeleri desteklenir (OB1). • Öğrencilerin okudukları metinlerde kendi kültürlerine özgü değerleri, gelenekleri ve yaşam biçimlerini ayırt etmeleri desteklenir (OB5). • Öğrencilerden fıkra, günlük, anı, mektup gibi metinsel türlerde yer alan karakter, olay ve çatışma unsurlarından yararlanarak rol oynama çalışmaları gerçekleştirmeleri istenir (OB9). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ OOED.2.4.4 • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde üstlendikleri görevleri yerine getirerek gruplarına katkıda bulunmaları teşvik edilir (SDB2.2). • Öğrencilerin drama ile fıkra, günlük, anı, mektup gibi farklı türde metinler arasında ilişki kurarak üretkenliklerini geliştiren etkinliklere katılmaları desteklenir (D3.3). • Öğrencilerin drama etkinlikleri aracılığıyla estetik bir bakış açısı geliştirerek özgün ürünler ortaya koymaları desteklenir (D7.2). • Öğrencilerin drama etkinliklerine dayalı grup çalışmalarında olay ve durumlara ilişkin farklı bakış açılarına açık olmaları desteklenir (D10.3). • Öğrencilere drama çalışmalarında zamanı verimli kullanabilmek için planlama yapmaları gerektiği hatırlatılır (D17.2). • Öğrencilerin farklı türde metinler, sözlü gelenekler ve anlatılar aracılığıyla efsane, fıkra , mani gibi somut olmayan kültürel miras unsurlarını fark etmeleri ve bu unsurlardan canlandırma süreçlerinde yararlanmaları desteklenir (OB5). • Öğrencilerin doğaçlama yoluyla ortaya koydukları sanat ürünlerini çözümlemeleri desteklenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ 2. DÜZEY",
+    "İLİŞKİLER": "KB2.6. Bilgi Toplama, KB2.15. Yansıtma, TAB1. Dinleme/İzleme, TAB3. Konuşma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ ÖĞRENME ÇIKTILARI VE OOED.2.4.1. Drama sürecinde rol oynamayı ve doğaçlamayı yapılandırabilme SÜREÇ BİLEŞENLERİ a) Rol oynama ve doğaçlamayı inceleyerek bunların temel özelliklerini ortaya koyar. b) Rol oynama ve doğaçlamaya ilişkin özelliklerden yararlanarak drama açısından önemini ortaya koyar. OOED.2.4.2. Drama sürecinde rol oynama ve doğaçlamayla fikri eyleme dönüştürebilme a) Canlandırmalarını rol oynama ve doğaçlama ilkelerine göre planlayarak yapar. b) Canlandırmalarında drama tekniklerini uygular. c) Rol oynama ve doğaçlama çalışmalarındaki dramatik anları deneyimleriyle ilişkilendirerek değerlendirir. OOED.2.4.3. Metinsel türlerden yararlanarak canlandırma teknikleri aracılığıyla rol oynayabilme a) Fıkra, günlük, anı, mektup gibi metinsel türleri inceler. b) Fıkra, günlük, anı, mektup gibi metinsel türlerden yararlanarak rol oynama çalışmaları yapar. OOED.2.4.4. Doğaçlamalardan yola çıkarak farklı türde metinler oluşturabilme a) Drama sürecindeki doğaçlamalarda ortaya çıkan karakter, olay örgüsü ve çatışma unsurlarını belirler. b) Drama sürecindeki yaşantı, çatışma veya temayı fıkra, günlük, anı, mektup gibi farklı türde metinlere dönüştürür.",
+    "İÇERİK ÇERÇEVESİ": "Rol Oynama ve Doğaçlama Rol Oynama ve Doğaçlama Teknikleri Metinsel Türlerden Yararlanarak Rol Oynama Doğaçlamalardan Metin Oluşturma anı, anlatı, canlandırma, doğaçlama, donuk imge, fıkra, geriye dönüş, günlük, kendiliğin-",
+    "Anahtar Kavramlar": "denlik, liderin role girmesi, mektup, mış gibi yapma, rol içinde yazma, rol oynama, rolde kalma"
+   },
+   "outcomes": [
+    {
+     "code": "OOED.2.4.1",
+     "order": 1,
+     "text": "Drama sürecinde rol oynamayı ve doğaçlamayı yapılandırabilme SÜREÇ BİLEŞENLERİ a) Rol oynama ve doğaçlamayı inceleyerek bunların temel özelliklerini ortaya koyar.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Rol oynama ve doğaçlamaya ilişkin özelliklerden yararlanarak drama açısından önemini ortaya koyar."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.4.2",
+     "order": 2,
+     "text": "Drama sürecinde rol oynama ve doğaçlamayla fikri eyleme dönüştürebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Canlandırmalarını rol oynama ve doğaçlama ilkelerine göre planlayarak yapar."
+      },
+      {
+       "label": "b",
+       "text": "Canlandırmalarında drama tekniklerini uygular."
+      },
+      {
+       "label": "c",
+       "text": "Rol oynama ve doğaçlama çalışmalarındaki dramatik anları deneyimleriyle ilişkilendirerek değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.4.3",
+     "order": 3,
+     "text": "Metinsel türlerden yararlanarak canlandırma teknikleri aracılığıyla rol oynayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Fıkra, günlük, anı, mektup gibi metinsel türleri inceler."
+      },
+      {
+       "label": "b",
+       "text": "Fıkra, günlük, anı, mektup gibi metinsel türlerden yararlanarak rol oynama çalışmaları yapar."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.4.4",
+     "order": 4,
+     "text": "Doğaçlamalardan yola çıkarak farklı türde metinler oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Drama sürecindeki doğaçlamalarda ortaya çıkan karakter, olay örgüsü ve çatışma unsurlarını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Drama sürecindeki yaşantı, çatışma veya temayı fıkra, günlük, anı, mektup gibi farklı türde metinlere dönüştürür."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 5,
+   "kind": "ÜNİTE",
+   "title": "DRAMA VE DİĞER SANATLAR",
+   "description": "Bu ünitede öğrencinin çeşitli sanat dallarıyla dramanın ilişkisini kavrayıp özgün ürünler oluşturması amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB4. Sanatsal Üretim Yapma (SAB4.1. Sanatsal Ürün Tasarlama), SAB4. Sanatsal Üretim Yapma (SAB4.2. Sanatsal Ürün Oluşturma), SAB14. Sahneleme (SAB14.4. Rol Oynama)",
+    "KAVRAMSAL BECERİLER": "KB2.7. Karşılaştırma, KB2.13. Yapılandırma",
+    "EĞİLİMLER": "E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Öz Güven), E2.2. Sorumluluk, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.3. Yaratıcılık",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde üstlendikleri görevleri UYGULAMALAR yerine getirerek gruplarına katkıda bulunmaları teşvik edilir (SDB2.2). • Öğrencilerin drama, tuluat ve meddah arasında ilişki kurarak üretkenliklerini Sosyal-Duygusal geliştiren etkinliklere katılmaları desteklenir (D3.3). Öğrenme Becerileri/ • Öğrencilerin drama etkinliklerinde estetik bir bakış açısıyla özgün ürünler or-",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik, D8. Mahremiyet, D10. Mütevazılık, D11. Özgürlük, D12. Sabır, D14. Saygı, D16. Sorumluluk, D17. Tasarruf / taya koymaları desteklenir (D7.2).",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI • Öğrencilerin drama etkinliklerine dayalı grup çalışmalarında uyumlu davranmaları teşvik edilir (D10.3). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ • Öğrencilerin tuluat ve meddah çalışmalarında düşünce, inanç, duygu ve izlenimleri doğrultusunda harekete geçme cesareti göstermeleri desteklenir (D11.2). • Öğrencilerin oyun etkinliklerinde üstlendikleri görevleri zamanında ve eksiksiz yerine getirmeleri teşvik edilir (D16.3). • Öğrenciler, tuluat ve meddahlık geleneğiyle ilgili bilgi toplamak amacıyla kullanacakları araçları belirlemeye yönlendirilir. Öğrencilerin bu geleneklerin sahneleme, anlatı ve performans özelliklerini çözümleyerek sanatsal bir dille yorumlamaları desteklenir (OB1, OB5, OB9). • Öğrencilerin drama, tuluat ve meddahın temel özelliklerini inceleyerek bu sanatları benzerlikleri ve farklılıkları açısından karşılaştırmaları desteklenir (OB9). OOED.2.5.2 • Öğrencilerden drama ve maske arasındaki ilişkiyi inceleyerek duygu ya da düşüncelerini canlandırma yoluyla ifade etmeleri istenir (SDB1.3). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde üstlendikleri görevleri yerine getirerek gruplarına katkıda bulunmaları teşvik edilir (SDB2.2). • Öğrencilerin drama ile maske arasında ilişki kurarak üretkenliklerini geliştiren etkinliklere katılmaları desteklenir (D3.3). • Öğrencilerin drama etkinliklerinde estetik bir bakış açısıyla özgün ürünler ortaya koymaları desteklenir (D7.2). • Öğrencilerin drama etkinliklerine dayalı grup çalışmalarında arkadaşlarına karşı sabırlı, nazik ve anlayışlı davranmaları teşvik edilir (D10.3, D12.3). • Öğrencilerin oyun etkinliklerinde üstlendikleri görevleri zamanında ve eksiksiz yerine getirmeleri teşvik edilir (D16.3). • Öğrencilere drama çalışmalarında zamanı verimli kullanabilmek için planlama yapmaları gerektiği hatırlatılır (D17.2). • Öğrenciler, drama ve maske arasındaki ilişkiye yönelik bilgi toplamak amacıyla kullanacakları araçları belirlemeye yönlendirilir. Öğrencilerin edindikleri bilgileri kendi cümleleriyle ifade etmeleri desteklenir (OB1). • Öğrencilerin oluşturdukları veya kullandıkları maskelerden yararlanarak geliştirdikleri karakterleri özgün bir hikâye kurgusu içinde canlandırmalarına fırsat verilir (OB9). OOED.2.5.3 • Öğrencilerden drama ve kukla çalışmaları arasındaki ilişkiyi inceleyerek duygu ya da davranışlarını özgün canlandırmalarla ifade etmeleri istenir (SDB1.3). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde üstlendikleri görevleri yerine getirerek gruplarına katkıda bulunmaları teşvik edilir (SDB2.2). • Öğrencilerden drama ile kukla sanatı arasındaki ilişkiyi kavrayarak üretkenliklerini geliştirmeye yönelik etkinliklerde yer almaları istenir (D3.3). • Öğrencilerin drama etkinliklerinde estetik bir bakış açısıyla özgün ürünler ortaya koymaları desteklenir (D7.2). • Öğrencilerin drama temelli grup çalışmalarında yeni bilgilere, fikirlere, tavsiyelere ve eleştirilere açık olmaları desteklenir (D10.1). • Öğrencilere drama çalışmalarında zamanı verimli kullanabilmek için planlama yapmaları gerektiği hatırlatılır (D17.2). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ • Öğrenciler, drama ve kukla arasındaki ilişkiye yönelik bilgi toplamak amacıyla kullanacakları araçları belirlemeye yönlendirilir. Öğrencilerin edindikleri bilgileri kendi cümleleriyle ifade etmeleri desteklenir (OB1). • Öğrencilerin oluşturdukları veya kullandıkları kuklalardan yararlanarak geliştirdikleri karakterleri özgün bir anlatı eşliğinde canlandırmalarına fırsat verilir (OB9). OOED.2.5.4 • Öğrencilerin drama ile görsel sanatlar arasındaki ilişkiyi keşfederek duygu ve davranışlarını sanatsal ürünlere dönüştürmeleri desteklenir (SDB1.3). • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde üstlendikleri görevleri yerine getirerek gruplarına katkıda bulunmaları teşvik edilir (SDB2.2). • Öğrencilerin drama ve görsel sanatlar arasında ilişki kurarak üretkenliklerini geliştiren etkinliklere katılmaları desteklenir (D3.3). • Öğrencilerin drama temelli grup çalışmalarında ihtiyaç duyduklarında arkadaşlarından yardım istemeleri gerektiği vurgulanır (D10.1). • Öğrencilerin oyun etkinliklerinde üstlendikleri görevleri zamanında ve eksiksiz yerine getirmeleri teşvik edilir (D16.3). • Öğrencilerin drama etkinliklerinde ihtiyaç duyduklarından fazla materyal almamaları gerektiği vurgulanır (D17.2). • Öğrenciler, drama ve görsel sanatlar arasındaki ilişkiye yönelik bilgi toplamak amacıyla kullanacakları araçları belirlemeye yönlendirilir. Öğrencilerin edindikleri bilgileri kendi cümleleriyle ifade etmeleri desteklenir (OB1). • Öğrencilerden drama etkinliklerinde duygu ve düşüncelerini ifade etmek amacıyla görsellerden yararlanmaları istenir (OB4). OOED.2.5.5 • Öğrencilerin rol oynama ve doğaçlama etkinliklerinde üstlendikleri görevleri yerine getirerek gruplarına katkıda bulunmaları teşvik edilir (SDB2.2). • Öğrencilerin drama etkinliklerinde estetik bir bakış açısıyla özgün ürünler ortaya koymaları desteklenir (D7.2). • Öğrencilerin drama ve görsel sanatlar arasında ilişki kurarak üretkenliklerini geliştiren etkinliklere katılmaları desteklenir (D3.3). • Öğrencilere drama temelli grup etkileşimlerinde ön yargılardan uzak bir tutum benimsemeleri gerektiği hatırlatılır (D10.3). • Öğrencilerin görsel sanat ürünlerine yönelik eleştirileri saygıyla karşılamaları desteklenir (D14.1). • Öğrencilere drama çalışmalarında zamanı verimli kullanabilmek için planlama yapmaları gerektiği hatırlatılır (D17.2). • Öğrencilerden drama çalışmalarında doğaçlama tekniklerini kullanarak özgün görseller oluşturmaları istenir (OB4). • Öğrencilerin doğaçlamalar yoluyla ulaştıkları fikirleri resim, kolaj veya doğal malzemeler kullanarak özgün sanatsal ürünlere dönüştürmeleri desteklenir. Öğrencilerin oluşturdukları ürünleri incelemelerine fırsat verilir (OB9). OOED.2.5.6 • Öğrencilerin bedenleri aracılığıyla heykel formları oluştururken duygu ve düşüncelerini beden dilleriyle uyumlu biçimde ifade etmeleri desteklenir (SDB2.1). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ • Öğrencilerin estetik bir bakış açısıyla bedenlerinden yararlanarak özgün heykel formları ortaya koymaları desteklenir (D7.2). • Öğrencilerin canlandırma çalışmaları sırasında sosyal ilişkilerindeki kişisel sınırlarını belirlemeleri desteklenir (D8.1). • Öğrencilerden drama ve heykel formları yoluyla performans sergilemeleri istenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ 2. DÜZEY",
+    "İLİŞKİLER": "KB2.15. Yansıtma, TAB1. Dinleme/İzleme, TAB3. Konuşma, TAB4. Yazma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ ÖĞRENME ÇIKTILARI VE OOED.2.5.1. Drama ile tuluatı ve meddahı karşılaştırabilme SÜREÇ BİLEŞENLERİ a) Tuluat ve meddahın özelliklerini belirler. b) Tuluat ve meddahın drama ile benzerliklerini sıralar. c) Tuluat ve meddahın drama ile farklılıklarını sıralar. OOED.2.5.2. Canlandırılacak karakterin özelliklerini yansıtan özgün maske tasarlayabilme a) Drama karakterinin özelliklerini maske tasarlayarak inceler. b) Tasarladığı maskeden yararlanarak drama karakterinin özelliklerini canlandırmalar yoluyla ifade eder. OOED.2.5.3. Canlandırılacak karakterin özelliklerini yansıtan özgün kukla oluşturabilme a) Drama karakterinin özelliklerini kukla tasarlayarak ifade eder. b) Kukla tasarımını drama karakterinin özelliklerini yansıtacak biçimde sanatsal ürüne dönüştürür. OOED.2.5.4. Görsel sanat ürünlerini kullanarak canlandırmalar yoluyla rol oynayabilme a) Görsel sanat ürünündeki tema, karakter, olay örgüsü ile rolün gerektirdiği bileşenler arasındaki ilişkiyi inceler. b) Görsel sanat ürününün temasına, karakterine, olay örgüsüne uygun olarak canlandırma çalışmaları yapar. OOED.2.5.5. Drama yoluyla görsel sanat ürünü oluşturabilme a) Görsel sanat ürünündeki konu veya kavramı doğaçlama tekniğiyle ifade eder. b) Doğaçlamalar yoluyla konu veya kavramı resim, kolaj, doğal malzemeler aracılığıyla sanat ürününe dönüştürür. OOED.2.5.6. Beden aracılığı ile heykel formları yapılandırabilme a) Beden aracılığıyla heykel formları ortaya koyar. b) Beden aracılığıyla heykel formlarından yararlanarak doğaçlama oluşturur.",
+    "İÇERİK ÇERÇEVESİ": "Drama ve Tuluat, Meddah İlişkisi Drama ve Maske İlişkisi Drama ve Kukla İlişkisi Drama ve Görsel Sanatlar İlişkisi Drama Yoluyla Görsel Sanat Ürünü Oluşturma Drama ve Heykel İlişkisi doğaçlama, görsel sanatlar, heykel, kukla, maske, meddah, somut olmayan kültürel mi-",
+    "Anahtar Kavramlar": "ras, tiyatro, tuluat OOED.2.5.1 • Öğrencilerden drama, tuluat ve meddah arasındaki ilişkiyi inceleyerek duygu ya da düşüncelerini tiyatral ifadelere dönüştürmeleri istenir (SDB1.3)."
+   },
+   "outcomes": [
+    {
+     "code": "OOED.2.5.1",
+     "order": 1,
+     "text": "Drama ile tuluatı ve meddahı karşılaştırabilme SÜREÇ BİLEŞENLERİ a) Tuluat ve meddahın özelliklerini belirler.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Tuluat ve meddahın drama ile benzerliklerini sıralar."
+      },
+      {
+       "label": "c",
+       "text": "Tuluat ve meddahın drama ile farklılıklarını sıralar."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.5.2",
+     "order": 2,
+     "text": "Canlandırılacak karakterin özelliklerini yansıtan özgün maske tasarlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Drama karakterinin özelliklerini maske tasarlayarak inceler."
+      },
+      {
+       "label": "b",
+       "text": "Tasarladığı maskeden yararlanarak drama karakterinin özelliklerini canlandırmalar yoluyla ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.5.3",
+     "order": 3,
+     "text": "Canlandırılacak karakterin özelliklerini yansıtan özgün kukla oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Drama karakterinin özelliklerini kukla tasarlayarak ifade eder."
+      },
+      {
+       "label": "b",
+       "text": "Kukla tasarımını drama karakterinin özelliklerini yansıtacak biçimde sanatsal ürüne dönüştürür."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.5.4",
+     "order": 4,
+     "text": "Görsel sanat ürünlerini kullanarak canlandırmalar yoluyla rol oynayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Görsel sanat ürünündeki tema, karakter, olay örgüsü ile rolün gerektirdiği bileşenler arasındaki ilişkiyi inceler."
+      },
+      {
+       "label": "b",
+       "text": "Görsel sanat ürününün temasına, karakterine, olay örgüsüne uygun olarak canlandırma çalışmaları yapar."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.5.5",
+     "order": 5,
+     "text": "Drama yoluyla görsel sanat ürünü oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Görsel sanat ürünündeki konu veya kavramı doğaçlama tekniğiyle ifade eder."
+      },
+      {
+       "label": "b",
+       "text": "Doğaçlamalar yoluyla konu veya kavramı resim, kolaj, doğal malzemeler aracılığıyla sanat ürününe dönüştürür."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.5.6",
+     "order": 6,
+     "text": "Beden aracılığı ile heykel formları yapılandırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Beden aracılığıyla heykel formları ortaya koyar."
+      },
+      {
+       "label": "b",
+       "text": "Beden aracılığıyla heykel formlarından yararlanarak doğaçlama oluşturur."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 6,
+   "kind": "ÜNİTE",
+   "title": "DRAMA VE TOPLUM",
+   "description": "Bu ünitede öğrencinin toplumsal sorunlarla ilgili farkındalık ve duyarlılık geliştirmesi, bu durumlardan hareketle doğaçlamalar kurgulaması amaçlanmaktadır.",
+   "lesson_hours": 8,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB14. Sahneleme (SAB14.4. Rol Oynama)",
+    "KAVRAMSAL BECERİLER": "KB2.13. Yapılandırma, KB3.3. Eleştirel Düşünme",
+    "EĞİLİMLER": "E1.1. Merak, E2.1. Empati, E2.2. Sorumluluk, E2.3. Girişkenlik, E3.1. Muhakeme, E3.3. Yaratıcılık, E3.4. Gerçeği Arama, E3.5. Açık Fikirlilik, E3.8. Soru Sorma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK OOED.2.6.1 UYGULAMALAR • Öğrencilerin drama çalışmalarıyla okullarının, yaşadıkları toplumun veya dünyanın bir sorununu tartışarak keşfetmeleri desteklenir (SDB2.3). • Öğrencilerin drama çalışmalarında toplumsal karar alma süreçlerindeki farklı Öğrenme Becerileri/ görüşleri kabul etmeleri desteklenir (D1.2).",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.3. Sosyal Farkındalık, SDB3.2. Esneklik, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D1. Adalet, D2. Aile Bütünlüğü, D4. Dostluk, D5. Duyarlılık, D8. Mahremiyet, D9. Merhamet, D11. Özgürlük, D13. Sağlıklı Yaşam, D14. Saygı, D16. Sorumluluk, D20. Yardımseverlik /",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı, OB6. Vatandaşlık Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI • Öğrencilerin arkadaşlarının özgürlüklerini ihlal etmemeye, kişisel sınırlarına saygı duymaya ve drama alanında güvenli bir etkileşim alanı oluşturmaya dikkat etmeleri gerektiği vurgulanır (D8.1). • Öğrencilerin toplumsal yaşam durumlarını drama çalışmalarıyla ele alırken kişisel ve toplumsal haklara saygı göstermeleri gerektiğini fark etmeleri sağlanır (D11.3). • Öğrencilerin toplumsal yaşam durumlarını drama çalışmalarıyla ele alırken insan sağlığının önemini sorgulamaları ve tartışmaları desteklenir (D13.4). • Öğrenciler, drama ve toplumsal yaşam arasındaki ilişkiye yönelik bilgi toplamak amacıyla kullanacakları araçları belirlemeye yönlendirilir. Öğrencilerin edindikleri bilgileri kendi cümleleriyle ifade etmeleri desteklenir (OB1). • Öğrencilerden drama ve oyun etkinlikleri aracılığıyla toplumsal yaşamdaki durumları canlandırarak performans sergilemeleri istenir (OB9). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ OOED.2.6.2 • Öğrencilerin drama sürecinde toplumsal farkındalık veya duyarlılıkla ilişkili problemleri tanımlamaları ve bu problemlere yönelik çözüm geliştirmeleri desteklenir (SDB3.3, D16.2). • Öğrencilerin drama çalışmaları aracılığıyla sevgi ve saygıya dayalı iletişimin aile huzuruna katkısını savunmaları desteklenir (D2.3). • Öğrencilerin drama çalışmaları yoluyla toplumsal sorunların çözümüne katkıda bulunmak üzere sorumluluk üstlenmeleri teşvik edilir (D5.1). • Öğrencilerin toplumsal yaşam durumlarında drama çalışmaları aracılığıyla farklılıklara saygı duymaları gerektiği vurgulanır (OB6). • Öğrencilerden drama ve oyun etkinlikleri yoluyla toplumsal duyarlılık ve farkındalık içeren konularda performans sergilemeleri istenir (OB9). OOED.2.6.3 • Öğrencilerin drama çalışmaları yoluyla toplumsal yaşamda karşılaştıkları güçlüklerle başa çıkmak için çaba göstermeleri desteklenir (SDB3.2). • Öğrencilerin drama çalışmaları sürecinde ortak hedeflere ulaşmak için arkadaşlarıyla dayanışma içinde olmaları gerektiği vurgulanır (D4.1, D20.2). • Öğrencilerin Nevruz, Hıdırellez gibi mevsimlik bayramlar ile imece geleneğini drama yoluyla canlandırmalarına fırsat verilir. Öğrencilerin bu kültürel değerlerin toplumsal birlikteliğe ve huzura katkılarını tartışmaları desteklenir (D4.1, OB5). • Öğrencilerin toplumsal yaşam durumlarını drama çalışmalarıyla ele alırken herkesin hata yapabileceğini kabul etmeleri desteklenir (D9.2). • Öğrencilerin drama çalışmaları aracılığıyla insanların farklı kültürlere ve inançlara sahip olabileceğini fark etmeleri sağlanır (D14.3). • Öğrencilerden toplumsal yaşamla ilgili durumlarda drama çalışmaları aracılığıyla empati kurmaları istenir (OB5). • Öğrencilerin toplumsal yaşam durumlarında drama çalışmaları aracılığıyla farklılıklara saygı duymaları gerektiği vurgulanır (OB6). • Öğrencilerden drama ve oyun etkinlikleri yoluyla farklılıklar, empati, birlikte yaşam, başkalarına saygı, demokratik tutum konularıyla ilgili doğaçlamalar oluşturmaları istenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ 2. DÜZEY",
+    "İLİŞKİLER": "KB2.14. Yorumlama, KB2.15. Yansıtma, TAB1. Dinleme/İzleme, TAB3. Konuşma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ ÖĞRENME ÇIKTILARI VE OOED.2.6.1. Drama etkinliklerinde toplumsal yaşamdaki durumlar ile ilgili rol oynayabilme SÜREÇ BİLEŞENLERİ a) Toplumsal yaşam durumlarının drama ile ilişkisini sorgular ve tartışır. b) Toplumsal yaşam durumlarına ilişkin ön bilgilerini kullanarak doğaçlamalar yoluyla rol çalışmaları gerçekleştirir. OOED.2.6.2. Toplumsal farkındalığı ve duyarlılığı drama etkinlikleriyle eleştirel düşünebilme a) Toplumsal farkındalık ve duyarlılık temasına ilişkin bir problemi rol oynama ve doğaçlama teknikleriyle sorgular. b) Drama süreciyle toplumsal farkındalığa ve duyarlılığa ilişkin sorgulanan problemle ilgili akıl yürütür. c) Toplumsal farkındalık ve duyarlılık temalı çalışmalardaki deneyimlerini doğaçlama tekniğiyle yansıtır. OOED.2.6.3. Toplumsal farkındalık ve duyarlılık temalı çalışmalardaki deneyimlerini yapılandırabilme a) Farkındalığa ve duyarlılığa ilişkin bir olay veya durumu inceleyerek özgün yollarla ortaya koyar. b) Farklılıklar, empati, birlikte yaşam, başkalarına saygı, demokratik tutum konularıyla ilgili ön bilgilerinden yararlanarak doğaçlamalar oluşturur.",
+    "İÇERİK ÇERÇEVESİ": "Drama ve Toplumsal Yaşam İlişkisi Drama ile Toplumsal Farkındalık ve Duyarlılık İlişkisi Toplumsal Durumlardan Doğaçlamalar Oluşturma başkalarına saygı, birlikte yaşam, demokratik tutum, doğaçlama, duyarlılık, empati, fark-",
+    "Anahtar Kavramlar": "lılıklar, toplumsal yaşam"
+   },
+   "outcomes": [
+    {
+     "code": "OOED.2.6.1",
+     "order": 1,
+     "text": "Drama etkinliklerinde toplumsal yaşamdaki durumlar ile ilgili rol oynayabilme SÜREÇ BİLEŞENLERİ a) Toplumsal yaşam durumlarının drama ile ilişkisini sorgular ve tartışır.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Toplumsal yaşam durumlarına ilişkin ön bilgilerini kullanarak doğaçlamalar yoluyla rol çalışmaları gerçekleştirir."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.6.2",
+     "order": 2,
+     "text": "Toplumsal farkındalığı ve duyarlılığı drama etkinlikleriyle eleştirel düşünebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Toplumsal farkındalık ve duyarlılık temasına ilişkin bir problemi rol oynama ve doğaçlama teknikleriyle sorgular."
+      },
+      {
+       "label": "b",
+       "text": "Drama süreciyle toplumsal farkındalığa ve duyarlılığa ilişkin sorgulanan problemle ilgili akıl yürütür."
+      },
+      {
+       "label": "c",
+       "text": "Toplumsal farkındalık ve duyarlılık temalı çalışmalardaki deneyimlerini doğaçlama tekniğiyle yansıtır."
+      }
+     ]
+    },
+    {
+     "code": "OOED.2.6.3",
+     "order": 3,
+     "text": "Toplumsal farkındalık ve duyarlılık temalı çalışmalardaki deneyimlerini yapılandırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Farkındalığa ve duyarlılığa ilişkin bir olay veya durumu inceleyerek özgün yollarla ortaya koyar."
+      },
+      {
+       "label": "b",
+       "text": "Farklılıklar, empati, birlikte yaşam, başkalarına saygı, demokratik tutum konularıyla ilgili ön bilgilerinden yararlanarak doğaçlamalar oluşturur."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 7,
+   "kind": "ÜNİTE",
+   "title": "DRAMA VE OKUL DIŞI ÖĞRENME ORTAMLARI",
+   "description": "Bu ünitede öğrencinin okul dışındaki mekânlarda çeşitli nesnelerden yola çıkarak doğaçlamalar yapması amaçlanmaktadır.",
+   "lesson_hours": 4,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB5. Sosyal Katılım (SBAB5.3. Fikir Üretme)",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E2.3. Girişkenlik, E2.5. Oyunseverlik, E3.2. Odaklanma, E3.3. Yaratıcılık",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK OOED.2.7.1 UYGULAMALAR • Öğrencilerin drama çalışmaları aracılığıyla okul dışı öğrenme ortamlarında gerçekleştirilecek iş birliği için uygun koşulları belirlemeleri desteklenir (SDB2.2). Öğrenme Becerileri/ • Öğrencilerin drama çalışmaları aracılığıyla okul dışı öğrenme ortamlarındaki",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık",
+    "Değerler": "D5. Duyarlılık, D7. Estetik, D8. Mahremiyet, D14. Saygı, D16. Sorumluluk, D17. Tasarruf, D19. Vatanseverlik / farklı normları gözlemlemeleri desteklenir (SDB2.3).",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı BECERİLER ARASI • Öğrencilerin okul dışı öğrenme ortamlarında çevre sorunlarına yol açabilecek davranışlardan kaçınmaları gerektiği vurgulanır (D5.2). • Öğrencilerin okul dışı öğrenme ortamlarında görsel sanatlar, mimari, müzik, edebiyat gibi alanlardaki estetik unsurları fark etmeleri desteklenir. Bu unsurlardan yararlanarak yaşamlarını zenginleştirmeleri teşvik edilir (D7.3). • Öğrencilerin okul dışı öğrenme ortamlarında başkalarını rahatsız edecek davranışlardan kaçınmaları ve görgü kurallarına uygun hareket etmeleri gerektiği vurgulanır (D8.4, D14.1). • Öğrencilerin okul dışı öğrenme ortamlarında kamu mallarını ya da ortak yaşam alanlarını özenli ve temiz kullanmaları gerektiği vurgulanır (D16.2). • Öğrencilerin okul dışı öğrenme ortamlarındaki doğal kaynakları ve ortak kullanım araçlarını amacına uygun ve özenli biçimde kullanmaları teşvik edilir (D17.2). • Öğrencilerin okul dışı öğrenme ortamlarında ülke varlıklarını koruma bilinciyle hareket etmeleri teşvik edilir (D19.3). • Öğrenciler okul dışı öğrenme ortamlarında drama çalışmalarının gerçekleştirilebileceği mekânlara ilişkin bilgi toplamaya yönlendirilir. Öğrencilerin topladıkları bilgilerden yararlanarak bu mekânlarda gerçekleştirilebilecek doğaçlama çalışmalarına ilişkin fikir üretmeleri desteklenir (OB1). • Öğrencilerin okul dışı öğrenme ortamlarında kültürel mirası koruma bilinciyle hareket etmeleri teşvik edilir (OB5). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ",
+    "İLİŞKİLER": "KB2.2. Gözlemleme, KB2.15. Yansıtma, TAB4. Yazma ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI DRAMA MODÜLÜ OOED.2.7.1. Okul dışı öğrenme ortamlarının özelliklerinden yararlanarak drama çalışmaSÜREÇ BİLEŞENLERİ larına ilişkin fikir üretebilme a) Okul dışı öğrenme ortamlarının drama çalışmalarında kullanılabilecek özelliklerini fark eder. b) Müze, kütüphane, park, orman, meydan, tarihî çarşı gibi okul dışı öğrenme ortamlarında gerçekleştirilen drama etkinliklerine ilişkin deneyimlerini inceler. c) Okul dışı öğrenme ortamlarının özelliklerinden yararlanarak doğaçlama çalışmalarına ilişkin fikir üretir.",
+    "İÇERİK ÇERÇEVESİ": "Drama ve Okul Dışı Öğrenme Ortamları",
+    "Anahtar Kavramlar": "doğaçlama, kütüphane, müze, okul dışı ortam, orman, park, rol oynama"
+   },
+   "outcomes": [
+    {
+     "code": "OOED.2.7.1",
+     "order": 1,
+     "text": "Okul dışı öğrenme ortamlarının özelliklerinden yararlanarak drama çalışmaSÜREÇ BİLEŞENLERİ larına ilişkin fikir üretebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Okul dışı öğrenme ortamlarının drama çalışmalarında kullanılabilecek özelliklerini fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Müze, kütüphane, park, orman, meydan, tarihî çarşı gibi okul dışı öğrenme ortamlarında gerçekleştirilen drama etkinliklerine ilişkin deneyimlerini inceler."
+      },
+      {
+       "label": "c",
+       "text": "Okul dışı öğrenme ortamlarının özelliklerinden yararlanarak doğaçlama çalışmalarına ilişkin fikir üretir."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "unassigned_outcomes": [],
+ "report": {
+  "units": 14,
+  "outcomes": 47,
+  "components": 109,
+  "orphan_outcomes": 0,
+  "gaps": []
+ }
+}

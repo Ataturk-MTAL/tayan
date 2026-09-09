@@ -59,3 +59,11 @@ apps/tayan-desktop/src-tauri/icons/StoreLogo.png
 /data/tymm/ders-beceri.json
 /data/tymm/ders-beceri.jsonl
 /data/tymm/ders-beceri.report.json
+
+# Python bytecode.
+__pycache__/
+*.pyc
+
+# Tek dosyalık ara çıktı; ders başına dosyalarla (data/tymm/courses/)
+# değiştirildi. Üretilebilir, sürümlenmez.
+/data/tymm/ogrenme-ciktilari.json

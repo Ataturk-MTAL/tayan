@@ -29,6 +29,13 @@ import urllib.request
 from collections import Counter
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from tymm_beceri_lines import (  # noqa: E402
+    normalize_ws,
+    split_code_line,
+    split_indicator,
+)
+
 BASE_URL = "https://tymm.meb.gov.tr"
 
 # Beceri çerçevesini taşıyan sayfalar. Sıra çıktıdaki set sırasını belirler:
@@ -67,6 +74,10 @@ HEADING_RE = re.compile(r"^(.+?)\s*\(([A-ZÇĞİÖŞÜ]{1,8}\d[\d.]*)\)\s*$")
 PREFIX_RE = re.compile(r"^([A-ZÇĞİÖŞÜ]{1,8})")
 TITLE_ABBR_RE = re.compile(r"\(([A-ZÇĞİÖŞÜ]{2,8})\)\s*$")
 SET_HEADER_RE = re.compile(r"^([A-ZÇĞİÖŞÜ]{2,8})\.\s*(\D.*)$")
+# Kodsuz gruplama kademesi: "Anlama Becerileri", "1.Alımlayıcı Beceriler".
+# Hangi becerinin hangi öbeğe düştüğünü SADECE bu satır söylüyor; kodda iz
+# yok. Cümle olmadığından gövdede nokta aramıyoruz.
+GROUP_RE = re.compile(r"^(?:\d+\.)?\s*([A-ZÇĞİÖŞÜ][^.]{2,45}Becerile(?:r|ri))$")
 TITLE_SUFFIX = " - Türkiye Yüzyılı Maarif Modeli"
 
 COMPONENT_MARKER = "Süreç bileşenleri"
@@ -98,7 +109,7 @@ def content_slice(lines: list[str]) -> list[str]:
         start = lines.index(READ_MORE_MARKER) + 1
 
     body = lines[start:]
-    first_code = next((i for i, line in enumerate(body) if CODE_RE.match(line)), None)
+    first_code = next((i for i, line in enumerate(body) if split_code_line(line)), None)
     if first_code is None:
         return body
 
@@ -111,7 +122,9 @@ def content_slice(lines: list[str]) -> list[str]:
 def page_title_of(lines: list[str]) -> str:
     for line in lines:
         if line and line != FOOTER_MARKER and "T.C." not in line:
-            return line.removesuffix(TITLE_SUFFIX).strip()
+            title = normalize_ws(line.removesuffix(TITLE_SUFFIX))
+            # "Türkçe Alan Becerileri (TAB)" -> kod, set alanında zaten var.
+            return TITLE_ABBR_RE.sub("", title).strip()
     return ""
 
 
@@ -157,25 +170,54 @@ def parse_page(path: str, lines: list[str]) -> list[dict]:
 
     anomalies: list[dict] = []
     heading_nodes: dict[str, str] = {}
+    heading_labels: dict[str, list[str]] = {}
+    heading_groups: dict[str, str] = {}
     last_heading: tuple[str, str] | None = None
     pending_descriptions: dict[str, str] = {}
     awaiting_description_for: str | None = None
+    group_label: str | None = None
 
-    for line in body:
+    def describe(target: str, text: str) -> None:
+        """Açıklamayı BİRİKTİRİR. Tek satır saklamak 9 düğümde açıklamayı ilk
+        parçada kesiyordu ("... kendini korumayı" / "kapsar.")."""
+        prior = pending_descriptions.get(target, "")
+        pending_descriptions[target] = normalize_ws(prior + " " + text)
+
+    for raw_line in body:
+        line = normalize_ws(raw_line)
         heading = HEADING_RE.match(line)
-        if heading and not CODE_RE.match(line):
-            awaiting_description_for = heading.group(2)
-            last_heading = (heading.group(2), heading.group(1).strip())
-            heading_nodes[heading.group(2)] = heading.group(1).strip()
+        if heading and not split_code_line(line):
+            code, label = heading.group(2), heading.group(1).strip()
+            awaiting_description_for = code
+            last_heading = (code, label)
+            heading_nodes.setdefault(code, label)
+            if group_label is not None:
+                heading_groups.setdefault(code, group_label)
+            if label not in heading_labels.setdefault(code, []):
+                heading_labels[code].append(label)
+            continue
+
+        # "Yabancı Dil Alan Becerileri (YDAB)" — setin GERÇEK adı. Sayfa
+        # başlığı iki seti birden anıyor ("... ve Yabancı Dil Destekleyici
+        # Beceriler"), o yüzden YDAB yanlış adla çıkıyordu. TITLE_ABBR_RE bu iş
+        # için tanımlanmıştı ama hiç çağrılmıyordu.
+        abbr = TITLE_ABBR_RE.search(line)
+        if abbr and not split_code_line(line) and not HEADING_RE.match(line):
+            code = abbr.group(1)
+            set_names[code] = TITLE_ABBR_RE.sub("", line).strip()
+            if code in sets:
+                sets[code]["name"] = set_names[code]
+            awaiting_description_for = None
             continue
 
         header = SET_HEADER_RE.match(line)
-        if header and not CODE_RE.match(line):
+        if header and not split_code_line(line):
             code, name = header.group(1), header.group(2).strip()
             set_names[code] = name
             if code in sets:
                 sets[code]["name"] = name
             current, in_components = None, False
+            awaiting_description_for = None
             continue
 
         # Süreç bileşeni iki biçimde gelir ve ikisi de bileşendir:
@@ -184,8 +226,33 @@ def parse_page(path: str, lines: list[str]) -> list[dict]:
         # DİKKAT: kodu COMPONENT_RE'den al. CODE_RE aynı satırda "KB2.1" verir
         # (harf olmayan kısımda durur) ve o kodla yapılan alt-düğüm sınaması
         # yanlışlıkla başarısız olur.
+        # GÖSTERGE KADEMESİ. SDB sayfası iki sütunlu tablo; sağ hücredeki
+        # <ul class="indicator-list"> ögeleri süreç bileşeninin ALTINDA ayrı
+        # bir kademedir. Etiketler satıra düzleştirilince her gösterge üst
+        # bileşenin kodunu taşıyor gibi görünüyordu: 36 bileşen 225 kayda
+        # şişmiş, G kodları tamamen kaybolmuştu.
+        indicator_code, indicator_text = split_indicator(line)
+        if indicator_code and current is not None:
+            awaiting_description_for = None
+            owner_code = indicator_code.rsplit(".", 1)[0]
+            for existing in current["components"]:
+                if existing["code"] == owner_code:
+                    existing.setdefault("indicators", []).append(
+                        {"code": indicator_code, "text": indicator_text}
+                    )
+                    break
+            else:
+                anomalies.append({
+                    "kind": "indicator_without_component",
+                    "code": indicator_code,
+                    "expected_parent": owner_code,
+                    "source_line": line,
+                })
+            continue
+
         component = COMPONENT_RE.match(line)
         if component and current is not None:
+            awaiting_description_for = None
             code = component.group(1) + "SB" + component.group(2)
             text = component.group(3).strip()
             if is_descendant(code, current["code"]):
@@ -203,9 +270,13 @@ def parse_page(path: str, lines: list[str]) -> list[dict]:
             })
             continue
 
-        node = CODE_RE.match(line)
+        # AYIRAÇ NOKTA DA OLABİLİR BOŞLUK DA:
+        #   KB2.8.Sorgulama Becerisi            (nokta)
+        #   DAB3.1 Dinî Kavramları Ayırt Etme   (boşluk, akordiyon başlığı)
+        # Yalnız noktayı bekleyen desen ikinci biçimdeki düğümleri atlıyordu.
+        node = split_code_line(line)
         if node:
-            code, name = node.group(1), node.group(2).strip()
+            code, name = node
             prefix = PREFIX_RE.match(code).group(1)
 
             if in_components and current is not None and is_descendant(code, current["code"]):
@@ -224,6 +295,8 @@ def parse_page(path: str, lines: list[str]) -> list[dict]:
                 code == last_heading[0] or is_descendant(code, last_heading[0])
             ):
                 entry["context"] = last_heading[1]
+            if group_label is not None:
+                entry["group"] = group_label
             ensure_set(prefix)["skills"].append(entry)
             by_code[code] = entry
             current, in_components = entry, False
@@ -232,15 +305,38 @@ def parse_page(path: str, lines: list[str]) -> list[dict]:
 
         if line == COMPONENT_MARKER:
             in_components = True
-            continue
-
-        if awaiting_description_for is not None:
-            pending_descriptions.setdefault(awaiting_description_for, line)
             awaiting_description_for = None
             continue
 
-        if current is not None and not in_components and not current["description"]:
-            current["description"] = line
+        group = GROUP_RE.match(line)
+        if group and line != page_title:
+            group_label = group.group(1).strip()
+            awaiting_description_for = None
+            continue
+
+        if awaiting_description_for is not None:
+            describe(awaiting_description_for, line)
+            continue
+
+        if current is not None and not in_components:
+            current["description"] = normalize_ws(current["description"] + " " + line)
+
+    # KANONİK AD. Kod satırı adı kısaltıyor ("FBAB1.Bilimsel Gözlem"), başlık
+    # tam adı taşıyor ("Bilimsel Gözlem Becerisi (FBAB1)"). Ders programları TAM
+    # adla atıf yapıyor, o yüzden eşleme kaçıyordu — 32 beceride.
+    # Yalnız başlık, mevcut adı UZATIYORSA değiştir: "SDB2.Sosyal Yaşam
+    # Becerileri" gibi kodu tekrarlayan başlıklar adı bozmasın.
+    for code, entry in by_code.items():
+        for label in heading_labels.get(code, []):
+            if label != entry["name"] and entry["name"] and label.startswith(entry["name"]):
+                entry["name"] = label
+                break
+        # Kaynak aynı kodu birden çok başlıkla anıyor (YDAB'de üç yaklaşım:
+        # Bütüncül / Yarı Bütüncül-Yarı Tümevarımsal / Tümevarımsal). Düğüm
+        # tek; diğer etiketler düşürülmek yerine yazılı kalır.
+        others = [l for l in heading_labels.get(code, []) if l != entry["name"]]
+        if others:
+            entry["also_titled"] = others
 
     # Bazı üst düzey beceriler (TAB1, MAB1, SBAB2, YDDB1 …) sayfada YALNIZ
     # başlıkta geçer, kendi kod satırları yoktur. Ders programları bu kodlara
@@ -264,6 +360,14 @@ def parse_page(path: str, lines: list[str]) -> list[dict]:
             "components": [],
             "from_heading": True,
         }
+        # Yalnız başlıkta geçen düğüm de gruplama kademesinin altındadır;
+        # TAB1 "Anlama Becerileri" öbeğinde ama kod satırı olmadığı için
+        # döngü içinde grup almıyordu.
+        if code in heading_groups:
+            entry["group"] = heading_groups[code]
+        others = [l for l in heading_labels.get(code, []) if l != entry["name"]]
+        if others:
+            entry["also_titled"] = others
         sets[prefix]["skills"].append(entry)
         by_code[code] = entry
 
@@ -281,6 +385,75 @@ def parse_page(path: str, lines: list[str]) -> list[dict]:
         }]
 
     return list(sets.values())
+
+
+def merge_sets(sets: list[dict]) -> tuple[dict[str, dict], dict]:
+    """Sayfa başına ayrıştırılmış setleri kod bazında birleştirir.
+
+    Aynı set birden fazla sayfada geçer: alan sayfaları kendi becerilerinin
+    yanında atıfta bulundukları KB kodlarını da basar. Kod bazında birleştir,
+    hangi sayfalarda geçtiğini kaydet.
+
+    DÜŞÜRME YOK. Aynı kodun ikinci geçişi eskiden sessizce atılıyordu; ölçüm:
+    34 düğüm ve 99 süreç bileşeni. Bunların 8'inde bileşen metni kanonik
+    sürümden FARKLIYDI — alan sayfası KB bileşenini kendi disiplinine göre
+    yeniden ifade ediyor ("Tarihsel kanıtı sorgulanacak duruma bağlamak").
+    Metin farklıysa varyant olarak saklanır, aynıysa yalnız sayılır.
+    """
+    merged: dict[str, dict] = {}
+    report = {"repeated_nodes": 0, "variant_nodes": 0}
+    shapes: dict[int, set[tuple[str, ...]]] = {}
+
+    for item in sets:
+        key = item["code"]
+        target = merged.get(key)
+        if target is None:
+            merged[key] = {
+                "code": key,
+                "name": item["name"],
+                "source_urls": [item["source_url"]],
+                "skills": list(item["skills"]),
+                # Anomaliler birleştirmede DÜŞÜYORDU: parse_page üretiyor ama
+                # main() kopyalamıyordu, çıktıda "anomalies" hiç görünmüyordu.
+                "anomalies": list(item.get("anomalies", [])),
+            }
+            continue
+
+        if item["source_url"] not in target["source_urls"]:
+            target["source_urls"].append(item["source_url"])
+        target["anomalies"].extend(item.get("anomalies", []))
+
+        by_code = {}
+        for existing in target["skills"]:
+            by_code.setdefault(existing["code"], existing)
+
+        for skill in item["skills"]:
+            canonical = by_code.get(skill["code"])
+            if canonical is None:
+                by_code[skill["code"]] = skill
+                target["skills"].append(skill)
+                continue
+            # Aynı biçim ikinci kez gelirse yeni bilgi yok. Sayfa KB2.8'i üç
+            # kez basabiliyor; üçünü de saklamak varyantı gürültüye boğar.
+            shape = tuple(c["text"] for c in skill["components"])
+            seen_shapes = shapes.setdefault(id(canonical), {
+                tuple(c["text"] for c in canonical["components"])
+            })
+            if shape in seen_shapes:
+                report["repeated_nodes"] += 1
+                continue
+            seen_shapes.add(shape)
+            variant = {
+                "source_url": item["source_url"],
+                "name": skill["name"],
+                "components": skill["components"],
+            }
+            if "context" in skill:
+                variant["context"] = skill["context"]
+            canonical.setdefault("variants", []).append(variant)
+            report["variant_nodes"] += 1
+
+    return merged, report
 
 
 def main() -> int:
@@ -329,29 +502,7 @@ def main() -> int:
                 file=sys.stderr,
             )
 
-    # Aynı set birden fazla sayfada geçebilir: alan sayfaları kendi becerilerinin
-    # yanında atıfta bulundukları KB kodlarını da basar. Kod bazında birleştir,
-    # beceriyi koduna göre tekilleştir, hangi sayfalarda geçtiğini kaydet.
-    merged: dict[str, dict] = {}
-    for item in sets:
-        key = item["code"]
-        target = merged.get(key)
-        if target is None:
-            merged[key] = {
-                "code": key,
-                "name": item["name"],
-                "source_urls": [item["source_url"]],
-                "skills": list(item["skills"]),
-            }
-            continue
-        if item["source_url"] not in target["source_urls"]:
-            target["source_urls"].append(item["source_url"])
-        seen = {k["code"] for k in target["skills"]}
-        for skill in item["skills"]:
-            if skill["code"] in seen:
-                continue
-            seen.add(skill["code"])
-            target["skills"].append(skill)
+    merged, merge_report = merge_sets(sets)
 
     for item in merged.values():
         item["skills"].sort(key=lambda k: [
@@ -385,6 +536,15 @@ def main() -> int:
             # üç öğretim yaklaşımı için). Hiçbiri atılmaz; ayırt edici bilgi
             # "context" alanındadır.
             "duplicate_codes": duplicate_codes,
+            # Kaynağın kendi tutarsızlıkları: yanlış üst koda yazılmış süreç
+            # bileşenleri, göstergesi sahipsiz kalan satırlar. Sayfa başına
+            # üretiliyordu ama birleştirme kopyalamadığı için çıktıya HİÇ
+            # ulaşmıyordu; tüketici yanlış kodu uyarısız doğru sanıyordu.
+            "anomalies": sum(len(s.get("anomalies", [])) for s in sets),
+            # Aynı kodun başka sayfadaki geçişi: metni aynıysa "repeated",
+            # farklıysa düğümün "variants" alanına yazıldı.
+            "repeated_nodes": merge_report["repeated_nodes"],
+            "variant_nodes": merge_report["variant_nodes"],
         },
         "source": {
             "name": "Türkiye Yüzyılı Maarif Modeli — Beceri Çerçevesi",
@@ -441,6 +601,20 @@ def main() -> int:
         "- Fiziksel Beceriler sayfası kodlanmış liste içermez; düz anlatımdır.",
         "- Kod ön ekleri 1-6 harf arasında değişir (`E`, `KB`, `SDB`, `BEOSAB`,",
         "  `TSRMAB`); ayrıştırıcı ön ek uzunluğunu sabitlemez.",
+        "- Alan sayfaları ödünç aldıkları `KB` kodlarının süreç bileşenlerini KENDİ",
+        "  disiplinlerine göre yeniden ifade ediyor (`Toplanan bilgiler üzerinde` /",
+        "  `üzerinden çıkarım yapmak`). Bu geçişler düşürülmez: bileşen metni",
+        "  farklıysa düğümün `variants` alanına yazılır, aynıysa yalnız sayılır",
+        "  (`report.repeated_nodes`).",
+        "- Kod satırı adı kısaltabiliyor (`FBAB1.Bilimsel Gözlem`); tam ad sayfa",
+        "  başlığındadır (`Bilimsel Gözlem Becerisi (FBAB1)`). Başlık adı mevcut adı",
+        "  UZATIYORSA kanonik ad odur; kalan başlıklar `also_titled` altındadır.",
+        "- Kodsuz gruplama kademesi (`Anlama Becerileri`, `Alımlayıcı Beceriler`)",
+        "  düğümün `group` alanına yazılır; kaynakta kodda izi yoktur.",
+        "- Kaynağın kendi tutarsızlıkları `anomalies` altındadır: bir süreç bileşeni",
+        "  içinde bulunduğu düğümden başka bir kod taşıyor (`DAB4.4` altında",
+        "  `DAB4.3.SB4`). Kod OLDUĞU GİBİ saklanır, sıra esas alınır, anomali",
+        "  bildirilir.",
     ]
     (args.out_dir / "SOURCES.md").write_text("\n".join(sources) + "\n", encoding="utf-8")
 

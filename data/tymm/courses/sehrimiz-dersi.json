@@ -1,0 +1,441 @@
+{
+ "course": {
+  "id": 95,
+  "name": "\"Şehrimiz ...\" Dersi",
+  "slug": "sehrimiz-dersi",
+  "prefix": "Ş",
+  "shapes": [
+   "Ş/noktalı-3"
+  ],
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/sehrimiz-dersi_20260819_075626_930.pdf"
+ },
+ "units": [
+  {
+   "grade": 1,
+   "unit": 1,
+   "kind": "ÜNİTE",
+   "title": "ŞEHİR VE MEDENİYET",
+   "description": "Bu ünitede öğrencilerin şehirleri meydana getiren coğrafi, tarihî, sosyal, kültürel, ekonomik, çevresel unsurları tanımaları ve bu unsurlar arasındaki ilişkileri kavrayarak yaşadıkları çevreye yönelik farkındalık geliştirmeleri amaçlanmaktadır. Ayrıca medeniyetlere yön vermiş şehirleri inceleyerek tarihsel ve kültürel mirasın önemini fark etmeleri, geçmişten günümüze şehirlerin gelişimini anlamaları hedeflenmektedir. Bu sayede öğrencilerin hem yaşadıkları çevreye hem insanlık tarihine karşı duyarlılık geliştirmeleri ve kültürel sürekliliğe katkıda bulunmaları amaçlanmaktadır. ALAN BECERİLERİ KAVRAMSAL KB2.3. Özetleme BECERİLER KB2.8. Sorgulama",
+   "lesson_hours": 8,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E2.2. Sorumluluk, E3.3. Yaratıcılık, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık Öğrenme Becerileri",
+    "Değerler": "D1. Adalet, D5. Duyarlılık, D7. Estetik, D8. Mahremiyet, D14. Saygı, D16. Sorumluluk, D19. Vatanseverlik Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER Sosyal Bilgiler ARASI İLİŞKİLER BECERİLER KB2.14. Yorumlama ARASI İLİŞKİLER ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE Ş.1.1. Şehrin oluşumunda etkili olan unsurları özetleyebilme SÜREÇ BİLEŞENLERİ a) Şehrin oluşumunda etkili olan unsurları çözümler. b) Şehrin oluşumunda etkili olan unsurları sınıflandırır. c) Şehrin oluşumunda etkili olan unsurları kendi cümleleri ile yorumlar. Ş.1.2. Medeniyetlere yön vermiş şehirlerin özelliklerini sorgulayabilme a) Medeniyete yön vermiş şehirlerin özellikleri ile ilgili merak ettiği konuları tanımlar. b) Medeniyete yön vermiş şehirlerin özellikleri hakkında sorular sorar. c) Medeniyete yön vermiş şehirlerin özellikleri hakkında bilgi toplar. ç) Medeniyete yön vermiş şehirlerin özellikleri hakkında topladığı bilgilerin doğruluğunu değerlendirir. d) Medeniyete yön vermiş şehirlerin özellikleri hakkında topladığı bilgilerden hareketle çıkarım yapar.",
+    "İÇERİK ÇERÇEVESİ": "Şehri Meydana Getiren Unsurlar Medeniyete Yön Veren Şehirler",
+    "Anahtar Kavramlar": "coğrafi, ekonomi, kültür, medeniyet, sosyal unsurlar, şehir, tarihî ÖĞRENME Bu ünitedeki öğrenme çıktıları çalışma yaprağı ve öz değerlendirme formu kullanılarak değerlendirilebilir. KANITLARI Performans görevi: Öğrencilerden yaşadıkları şehrin unsurlarını içeren afiş, poster veya dijital sunu hazırlamaları istenebilir. Bu görev öz değerlendirme formuyla değerlendirilebilir. (Ölçme ve Değerlendirme) ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin şehir kavramını bildikleri, yaşadıkları şehrin genel özelliklerine dair bilgi sahibi oldukları kabul edilmektedir. Ayrıca öğrencilerin tarihî ve önemli şehirlerin genel özelliklerine dair de bilgi sahibi oldukları kabul edilmektedir. Ön Değerlendirme Öğrencilerden şehir kavramının kendilerinde uyandırdığı çağrışımları ifade etmeleri istenebilir. Paylaşılan ifadelerden hareketle bir kelime bulutu oluşturmaları sağlanabilir. Süreci Öğrencilerden bildikleri veya daha önce duydukları tarihî ve önemli şehirleri düşünmeleri istenebilir. Bu şehirleri hangi özellikleriyle tanıdıklarını ve neden önemli bulduklarını ifade etmeleri sağlanabilir. Köprü Kurma Öğrencilerden yaşadıkları şehrin öne çıkan ve ayırt edici bir özelliğini örneklerle açıklamaları istenebilir. Bazı şehirlerin uzun yıllar boyunca önemini neden koruduğunu düşünmeleri istenebilir. Bu şehirleri diğer şehirlerden ayıran özelliklerin neler olabileceğini söylemeleri sağlanabilir. Öğrenme-Öğretme Ş.1.1 Uygulamaları Şehir, il, ilçe, mahalle, köy ve yayla kavramlarına kısaca değinilir. Öğrencilere bir şehrin oluşumunda etkili olan unsurları (coğrafi, tarihî, sosyal, kültürel, ekonomik, çevresel) tanıtan yazılı, görsel veya dijital kaynaklar sunulur (OB1, OB2, OB4). Sunulan kaynaklarda şehrin tarihî ve kültürel dokusunu yansıtan mekânlar kapsamında ibadethanelerin yanı sıra tarihî mezarlıklara da yer verilir. Bu mekânların şehir hafızası, kültürel miras ve geçmişle kurulan bağ açısından taşıdığı önem üzerinde durulur. Öğrencilerin sunulan kaynaklar yoluyla şehrin oluşumunda etkili olan unsurları çözümlemeleri sağlanır. Bu aşamada zihin haritası tekniğinden yararlanılabilir. Öğrenciler küçük gruplara ayrılır. Gruplarda öğrencilerin şehrin oluşumunda etkili olan unsurlar üzerine görüş alışverişinde bulunmaları, birbirlerini dinleyerek sağlıklı iletişim kurmaları ve verilen anlam çözümleme tablosu üzerinde iş birliği içinde sınıflandırma yapmaları sağlanır (SDB2.1, SDB2.2). Hazırlanan tablolar sınıf ortamında paylaşılır. Bu süreçte öğrencilerin ülkemizin doğal, tarihî ve kültürel mirasını tanımaları; bu mirası korumanın, ülke varlıklarına sahip çıkmanın ve bunları gelecek nesillere aktarmanın önemi üzerine tartışmaları sağlanır (D19.3). ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI Sınıfın farklı köşelerine bir şehrin oluşumunda etkili olan unsurlardan “coğrafi, tarihî, sosyal, kültürel, ekonomik ve çevresel” kavramlarının yazılı olduğu kâğıtlar asılır. Öğrencilere “Sizce bu unsurlardan hangisi şehir açsından daha önemlidir?” sorusuna cevap vermeleri ve bu doğrultuda ilgili kavramın yazılı olduğu köşeye gitmeleri istenir. Her köşede öğrencilerin bu unsur ve önemine ilişkin grup içi tartışma yapmaları sağlanır. Bu aşamada her öğrencinin farklı bir tercihte bulunabileceği, farklı düşüncelere sahip olsa da her ferdin karar alma ve fikir belirtme hakkının bulunduğu vurgulanarak öğrencilerin birbirlerinin görüşlerine saygı duymaları desteklenir (D8.1). Ulaştıkları sonuçları kendi ifadeleriyle sınıfla paylaşmaları istenir (SDB2.1, KB2.14). Şehrin oluşumunda etkili olan unsurların korunması, geliştirilmesi ve güzelleştirilmesinde bireylere düşen sorumluluklar vurgulanır. Öğrencilerin, üstlendikleri görevleri doğru ve zamanında yerine getirmeleri, ortaya çıkan sonuçları sahiplenmeleri ve gerektiğinde sorumluluk almaları desteklenir (E2.2). Ayrıca öğrencilerin farklı bakış açılarını dikkate alarak özgün fikirler ve çözüm önerileri geliştirmeleri teşvik edilir (E3.3). Bu süreçte çevreyi koruma ve güzelleştirmeye yönelik duyarlılık geliştirmelerine yönelik etkinliklere yer verilir (D5.2). Performans görevi olarak öğrencilerden yaşadıkları şehrin oluşumunda etkili olan unsurları içeren afiş, poster veya dijital sunu hazırlamaları istenebilir. Hazırlanan ürünler dereceli puanlama anahtarı ile değerlendirilebilir. Ayrıca öğrencilerden yaptıkları performans görevine ilişkin çalışmaları öz değerlendirme formuyla değerlendirmeleri istenebilir. Ş.1.2 Öğrenciler yazılı, görsel veya dijital kaynaklardan hareketle medeniyetlerin gelişiminde rol oynayan Medine, İstanbul, Paris, Semerkant, Buhara, Bağdat, Şam, Pekin gibi önemli şehirlerin özelliklerine ilişkin merak ettikleri konuları tanımlar (E1.1, OB1, OB2, OB4). Bu esnada öğrencilerin şehirlerin kültür, sanat, mimari ve medeniyete katkılarıyla ilgili dikkatlerini çeken yönleri fark etmeleri beklenir. Medeniyete yön veren şehirlerin insanlığa hak, eşitlik ve özgürlükler noktasında katkılarına örnekler verilir (D1.1). Öğrencilerden medeniyete yön vermiş şehirlerden birini seçmeleri ve seçtikleri şehrin kültür, sanat, mimari özellikleri ile medeniyete yaptığı katkılara ilişkin 5N1K tekniğini kullanarak sorular hazırlamaları istenir (E3.8). Hazırlanan soruların sınıf içinde paylaşılması, soru cevap etkinlikleri ve tartışmalar yoluyla öğrencilerin konuya ilişkin merak ettikleri noktaları derinleştirmeleri sağlanır. Öğrenciler ilgi alanları, tercihleri veya seçtikleri şehirler dikkate alınarak küçük gruplara ayrılır. Grupların ders kitabı, ansiklopedi, harita, görsel materyal ve güvenilir dijital kaynaklardan yararlanarak seçtikleri şehir hakkında bilgi toplamaları sağlanır (OB1). Bilgi toplama sürecinde öğrencilerden seçtikleri şehrin kültür, sanat veya mimari birikimini yansıtan bir eser ya da yapı belirlemeleri istenir. Öğrencilerin belirledikleri eser veya yapıyı biçim, renk, simetri ve özgünlük gibi estetik özellikler açısından incelemeleri; bu özelliklerin şehrin kültürel kimliğini nasıl yansıttığını açıklamaları sağlanır (D7.1). Bu süreçte öğrencilerin Okul Dışı Öğrenme Platformu’nu ziyaret etmeleri, “Okul Dışı Öğrenme Ortamlarını Keşfet” sayfasındaki harita üzerinden İstanbul’u seçmeleri, İstanbul’da yer alan okul dışı öğrenme ortamlarını görüntülemeleri ve şehrin medeniyet birikimini yansıtan tarihî, kültürel ve sanatsal mekânlara ilişkin sayfaları incelemeleri sağlanır. Bu aşamada kültürel mirasa saygı duymanın önemine yönelik soru cevap çalışması yapılır (D14.1). Kaynaklardan elde edilen bilgiler öğrenciler tarafından sınıfta sunulur. Sunum sürecinde verilen bilgilerin grup tartışması ve öğretmen geri bildirimleriyle doğrulanması, ardından değerlendirilmesi sağlanır (SDB2.1). Böylece öğrencilerin topladıkları bilgileri sorgulamaları ve anlamlandırmaları desteklenir. Grupların doğruladıkları bilgilerden hareketle elde ettikleri verileri birleştirerek şehrin medeniyet tarihindeki önemine ilişkin çıkarımlarda bulunmaları sağlanır (SDB2.3). Öğrencilerin şehirlerin öne çıkan özellikleri ile bu şehirlerin medeniyete olan katkıları arasında ilişki kurmaları desteklenir. Gruplardan ulaştıkları çıkarımları poster, dijital sunum, bilgi kartları veya maket hâline getirerek zamanında ve eksiksiz sunmaları istenir (E3.3, D16.3). Hazırlanan ürünler ve gerçekleştirilen sunumlar bütüncül dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden “2040’ta Şehrim” temasıyla şehri oluşturan unsurlarda yaşanabilecek değişimleri yorumlamaları istenebilir. Öğrencilerin bu değişimlere yönelik özgün koruma ve geliştirme önerilerini kısa bir gelecek senaryosu veya dijital sunu biçiminde paylaşmaları sağlanabilir. Ayrıca öğrencilerden merak ettikleri şehirlerden birini seçerek bu şehrin medeniyetler üzerindeki etkilerini, diğer şehirlerle ortak ve farklı yönlerini ve bu etkilerin mimari, kültürel, sanatsal veya bilimsel yapılara nasıl yansıdığını incelemeleri; ulaştıkları sonuçları bir gazete haberi biçiminde sunmaları istenebilir. Destekleme Öğrencilere şehirler ve şehirlerin özellikleri ile ilgili “bilgi kartları” hazırlatılarak şehir-özellik eşleştirme oyunu oynatılabilir. Öğrencilere medeniyete yön vermiş şehirlerin kültür, sanat, mimari ve bilim alanlarındaki katkılarını tanıtan kısa bilgi kartları verilebilir. Öğrencilerden bu kartlardan yararlanarak seçtikleri şehirle ilgili “turist rolü” üstlenmeleri ve şehrin öne çıkan bir mekânını ya da özelliğini birkaç cümleyle tanıtmaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "Ş.1.1",
+     "order": 1,
+     "text": "Şehrin oluşumunda etkili olan unsurları özetleöğrenciye kazandırılması VE yebilme amaçlanan bilgi, beceri ve SÜREÇ BİLEŞENLERİ a) Şehrin oluşumunda etkili olan unsurları çöbecerilerin süreç bileşenlerini zümler. ifade eder. b) Şehrin oluşumunda etkili olan unsurları sınıflandırır.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Şehrin oluşumunda etkili olan unsurları sınıflandırır."
+      },
+      {
+       "label": "c",
+       "text": "Şehrin oluşumunda etkili olan unsurları kendi cümleleri ile yorumlar."
+      }
+     ]
+    },
+    {
+     "code": "Ş.1.2",
+     "order": 2,
+     "text": "Medeniyetlere yön vermiş şehirlerin özelliklerini sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Medeniyete yön vermiş şehirlerin özellikleri ile ilgili merak ettiği konuları tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Medeniyete yön vermiş şehirlerin özellikleri hakkında sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Medeniyete yön vermiş şehirlerin özellikleri hakkında bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Medeniyete yön vermiş şehirlerin özellikleri hakkında topladığı bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Medeniyete yön vermiş şehirlerin özellikleri hakkında topladığı bilgilerden hareketle çıkarım yapar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 2,
+   "kind": "ÜNİTE",
+   "title": "ŞEHİRLERDEKİ TOPLUMSAL YAŞAM",
+   "description": "Bu ünitede öğrencilerin şehir yaşamında toplumsal kuralların önemini kavramaları; bu kuralların düzen, güvenlik ve dayanışma üzerindeki etkilerini fark etmeleri amaçlanmaktadır. Öğrencilerin şehirlerin sunduğu fırsatlar ile barındırdığı riskleri tanımaları ve bunların birey ve toplum yaşamına etkilerini değerlendirmeleri beklenmektedir. Ayrıca yaşadıkları şehirde uygulanabilecek sosyal sorumluluk çalışmalarına yönelik fikir üretebilmeleri hedeflenmektedir. ALAN SBAB5. Sosyal Katılım (SBAB5.3. Fikir Üretme) BECERİLERİ KAVRAMSAL KB2.8. Sorgulama BECERİLER KB2.3. Özetleme",
+   "lesson_hours": 9,
+   "sections": {
+    "EĞİLİMLER": "E3.3. Yaratıcılık, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.1. Uyum Öğrenme Becerileri",
+    "Değerler": "D1. Adalet, D5. Duyarlılık, D8. Mahremiyet, D16. Sorumluluk, D18. Temizlik Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER Sosyal Bilgiler, Türkçe ARASI İLİŞKİLER BECERİLER KB2.4. Çözümleme, KB2.10. Çıkarım Yapma ARASI İLİŞKİLER ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE Ş.2.1. Şehir yaşantısında toplumsal kurallara uymanın önemini sorgulayabilme SÜREÇ BİLEŞENLERİ a) Şehir yaşantısında toplumsal kurallara uymanın önemiyle ilgili merak ettiği konuları tanımlar. b) Şehir yaşantısında toplumsal kurallara uymanın önemiyle ilgili sorular sorar. c) Şehir yaşantısında toplumsal kurallara uymanın önemiyle ilgili bilgi toplar. ç) Şehir yaşantısında toplumsal kurallara uymanın önemiyle ilgili topladığı bilgilerin doğruluğunu değerlendirir. d) Şehir yaşantısında toplumsal kurallara uymanın önemiyle ilgili çıkarım yapar. Ş.2.2. Şehrin içerdiği fırsat ve riskleri özetleyebilme a) Şehrin içerdiği fırsat ve riskleri çözümler. b) Şehrin içerdiği fırsat ve riskleri sınıflandırır. c) Şehrin içerdiği fırsat ve riskleri kendi cümleleri ile yorumlar. Ş.2.3. Şehirlerde uygulanabilecek sosyal sorumluluk çalışmalarına yönelik fikir üretebilme a) Şehirlerde uygulanan sosyal sorumluluk çalışmalarını fark eder. b) Şehirlerde uygulanan sosyal sorumluluk çalışma örneklerini inceler. c) Şehirlerde uygulanabilecek sosyal sorumluluk çalışmalarına yönelik fikir üretir.",
+    "İÇERİK ÇERÇEVESİ": "Şehir ve Sosyal Yaşam Şehrin Fırsatları ve Riskleri Şehirde Sosyal Sorumluluk",
+    "Anahtar Kavramlar": "çevre bilinci, dayanışma, gönüllülük, risk, sosyal sorumluluk, yardımlaşma ÖĞRENME Bu ünitede yer alan öğrenme çıktıları; kontrol listesi, gözlem formu, anekdot kaydı, derecelendirme ölçekleri, grup değerlendirme formu, performans görevi vb. ölçme ve değerlendirme araçları kullanılarak değerlendiriKANITLARI lebilir. (Ölçme ve Performans görevi: Öğrencilerden şehir yaşantısında toplumsal kurallara uymanın önemi ile şehrin fırsat ve Değerlendirme) risklerini içeren sunum hazırlamaları; şiir, slogan, özlü söz veya hikâye yazmaları istenebilir. Öğrencilerin sunumları kontrol listesi veya derecelendirme ölçekleri ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin okul ve aile ortamındaki kuralları bildikleri, hak ve sorumluluklarının farkında oldukları; yaşadıkları şehrin sunduğu fırsatlar ile günlük yaşamda karşılaşılan bazı zorluklara ilişkin farkındalığa sahip oldukları ve çevrelerinde gerçekleştirilen bazı sosyal sorumluluk çalışmalarını gözlemledikleri kabul edilmektedir. Ön Değerlendirme Öğrencilere aile içindeki kurallar düşündürülerek bu kurallardan hareketle günlük yaşamda kurallara neden Süreci ihtiyaç duyulduğu sorulabilir. Öğrencilerden yaşadıkları şehrin kendilerine sunduğu fırsatları yaşamlarından örnekler vererek ifade etmeleri istenebilir. Öğrencilere “Çevrenizdeki insanların veya hayvanların yardıma ya da desteğe ihtiyaç duyduğu durumlarla karşılaştınız mı?”, “Hiç bir yardımlaşma veya çevre güzelleştirme etkinliğinde bulundunuz mu?” gibi açık uçlu sorular yöneltilebilir. Köprü Kurma Öğrencilerden “Okulumuz ve sınıfımızda hangi kurallar vardır?”, “Bu kurallar neden gereklidir?” gibi sorulara cevap vermeleri istenebilir. Öğrencilerden okul ve sınıf kurallarında olduğu gibi kuralların toplumsal yaşamın korunması ve sürdürülmesindeki önemini kendi cümleleriyle ifade etmeleri istenebilir. Şehir nüfusunun gelecek yıllarda hızla artacağı bilgisi verilerek öğrencilerin yaşadıkları şehrin kalabalık olmasının getireceği fırsat ve risklere ilişkin tahminlerini tabloya yazmaları sağlanabilir. Öğrencilerden yaşadıkları şehirde karşılaştıkları bir sosyal sorumluluk davranışını düşünmeleri istenir. Bu davranışın kime veya neye yardımcı olduğu, şehirde birlikte yaşamı nasıl etkilediği ve insanlarda hangi duygu ve düşünceleri oluşturduğu üzerine görüşlerini paylaşmaları istenebilir. ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Ş.2.1 Uygulamaları “Kurallar olmasaydı sınıfta nasıl bir ortam olurdu?” sorusu sorularak beyin fırtınası yapılabilir. Gönüllü öğrencilerden gruplar oluşturularak kurallı ve kuralsız ortamda yaşanabilecekler ile ilgili doğaçlama yapmaları istenir. Bu aşamada öğrencilerden ev, sınıf ve okul bahçesi gibi ortak alanların temiz tutulması gerektiğini fark etmeleri; park, kütüphane gibi ortak alanlarda ise başkalarının kişisel alanını koruyan ve ihlal eden davranışları ayırt ederek örneklerle açıklamaları istenir. Bu süreçte öğrencilerin sıra bekleme, yüksek sesle konuşmama, yerlere çöp atmama, trafik ışıklarına uyma, toplu taşıma araçlarında başkalarını rahatsız etmeme gibi günlük yaşamdan örnekler vermeleri üzerinden başkalarının haklarını gözetme, saygı, sorumluluk ve empati değerleriyle ilişki kurmaları sağlanır (D8.1, D18.2). Drama sonrası izlenen durumlar yorumlanırken konuşma halkası tekniği kullanılabilir. Öğrencilere yazılı, görsel veya dijital kaynaklar üzerinden şehir yaşantısındaki toplumsal kurallar ve bu kurallara uymanın önemi ile ilgili örnekler sunulur (OB1, OB2, OB4). İncelenen örneklerden hareketle öğrencilerden şehir yaşantısında toplumsal kuralların önemine yönelik merak ettiği konuları tanımlamaları istenir. Şehir yaşantısında toplumsal kurallara uymanın önemi ile ilgili soru ve cevaplar oluşturmak üzere zıt panel tekniği uygulanabilir. Öğrenciler soru ve cevap hazırlayan olmak üzere iki gruba ayrılır (SDB2.2). Öğrenciler şehir yaşamındaki toplumsal kurallar ve önemine ilişkin verilen yazılı, görsel kaynakları inceleyerek konuya ilişkin bilgi toplar (OB1, OB4). Topladıkları bilgilerden yararlanarak sorular ve cevaplarını hazırlar. Bu aşamada toplumsal kurallara uymanın herkes için ortak bir sorumluluk olduğu, şehir yaşamındaki yeni kural veya durumlara uyum sağlamanın gerekli olduğu vurgulanır (SDB2.3, SDB3.1). Ayrıca toplumsal yaşamda görev ve sorumlulukları kurallara uygun bir şekilde yerine getirmenin önemine dair günlük hayatlarından veya haber kaynaklarından örnek vermeleri istenir (D1.2). Hazırlık süreci tamamlandıktan sonra soru hazırlayan grup sorularını yöneltir, diğer grup soruları cevaplandırmaya çalışır (OB1). Şehir hayatında toplumsal kuralların önemiyle ilgili yazılı ve görsel kaynaklar incelenerek süreçte ulaşılan bilgilerin ve sorulara verilen cevapların doğruluğu değerlendirilir (OB1, OB4). Doğrulanan bilgilerden hareketle öğrencilerin şehir yaşamında toplumsal kurallara uymanın önemine yönelik çıkarımlar yapmaları sağlanır. Bu amaçla “Şehir yaşamında uyulması gereken en önemli kural nedir?” sorusu çerçevesinde pazar yeri tekniği uygulanabilir. Her bir öğrenci kendine göre önemli bulduğu bir kuralı kâğıda yazar, sınıf içinde dolaşarak arkadaşlarına bu kuralın önemine yönelik duygu ve düşüncelerini açıkça ifade eder.Görüşlerini gerekçelendirmeye çalışır (KB2.10). Performans görevi olarak öğrencilerden şehir yaşamında toplumsal kuralların önemine dikkat çekecek bir afiş hazırlamaları istenebilir. Öğrenci ürünleri dereceli puanlama anahtarı ile değerlendirilebilir. Ş.2.2 Öğrencilere şehir yaşamını ve köy yaşamını yansıtan iki görsel gösterilerek incelemeleri sağlanır (OB4). “Bu yerleşim alanlarından hangisinde yaşamak isterdiniz, neden?” sorusu yöneltilerek öğrenci görüşleri alınır. Öğrencilere şehir hayatının eğitim, sağlık, iş imkânları, kültürel ve sosyal fırsatları ile ulaşım, çevre kirliliği, trafik, gürültü, güvenlik vb. fırsat ve risklerine ilişkin yazılı, görsel, dijital kaynaklar sunulur (OB1, OB2, OB4). Öğrencilerden sunulan kaynaklardaki durumları analiz ederek şehir hayatının hangi fırsatları ve riskleri barındırdığına yönelik çözümleme yapmaları istenir (KB2.4). Bu süreçte vızıltı grupları uygulanabilir. Öğrenciler 6 kişilik gruplara ayrılarak topladıkları bilgileri grupta tartışır, risk ve fırsatları çözümler (SDB2.1, SDB2.2). Ulaşılan sonuçlar grup sözcüsü tarafından sınıfa sunulur. Bu süreçte fırsatlardan yararlanma ve risklerle başa çıkma konusunda topluma karşı görevlerini yerine getirmenin önemi üzerine görüş bildirmeleri sağlanır (D16.2). Öğrencilerden bireysel olarak şehir yaşamının fırsat ve risklerine yönelik “Şehrin Fırsatları” ve “Şehrin Riskleri” başlıklarını içeren bir sınıflama tablosu oluşturmaları istenir (E3.7, OB4). Oluşturulan bireysel tablolar büyük grup tartışması ile tek bir tablo hâline getirilir. Öğrencilerden bu tabloyu kendi cümleleriyle özetleyerek yorumlamaları istenir. Bu süreçte “ayrılıp birleşme” tekniği kullanılabilir. Bu aşamada şehrin içerdiği riskler karşısında toplumsal yaşamın korunması ve sürdürülmesi amacıyla toplumsal yardımlaşma ve dayanışma için düzenlenen etkinliklere katılmanın önemine yönelik çıkarımlarını ifade etmeleri sağlanır (D16.2). Süreçte soru cevap tekniğinden faydalanılabilir. Performans görevi olarak öğrencilerden yapılan tablo ve yorumlardan yola çıkarak şehrin fırsat ve risklerini içeren “Şehir Yaşamı Rehberi” konulu kısa sunular hazırlayarak sınıfta paylaşmaları istenebilir. Öğrencilerin sunumları kontrol listesi veya derecelendirme ölçekleri ile değerlendirilebilir. Ş.2.3 Öğrencilere yaşadıkları şehirde erişilebilirlik, çevrenin korunması, sokak hayvanlarının ihtiyaçları, yaşlıların toplumsal yaşama katılımı, kültürel mirasın korunması, yardımlaşma ve afetlere hazırlık gibi alanlarda gerçekleştirilen sosyal sorumluluk çalışmalarını tanıtan yazılı, görsel veya dijital kaynaklar sunulur (OB1, OB2, OB4). Sınıfın farklı bölümlerinde bu alanlara ilişkin görsellerin ve günlük yaşamdan alınmış kısa örnek olayların yer aldığı “Şehir Yaşamı İstasyonları” oluşturulur. Öğrenciler istasyonları dolaşarak ele alınan ihtiyacı, bu ihtiyaçtan etkilenenleri ve yapılabilecek sosyal sorumluluk çalışmalarını belirler. Ardından sosyal sorumluluk çalışmalarının şehirde birlikte yaşamaya sağladığı katkılar sınıfça değerlendirilir (D5.1). Öğrencilerin farklı şehirlerde gerçekleştirilen erişilebilir yaşam, çevre koruma, hayvanları koruma, kuşaklar arası dayanışma, kültürel mirası yaşatma ve afetlere hazırlık çalışmalarına ilişkin başarılı örnekleri incelemeleri sağlanır (OB1, OB2, OB4). Öğrencilerden örnekleri çalışmanın amacı, hitap ettiği ihtiyaç, yapılan faaliyetler, çalışmaya katılan kişi ve kurumlar ile topluma sağladığı katkılar bakımından incelemeleri istenir. İncelenen örneklerin ortak ve farklı yönleri sınıfça paylaşılır. ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI Öğrenciler ilgi duydukları bir sosyal sorumluluk alanına göre gruplara ayrılır. Her gruptan “Yaşadığımız şehirde ortak yaşamı güçlendirmek için nasıl bir sosyal sorumluluk çalışması yapabiliriz?” sorusuna cevap arayarak şehrin ihtiyaçlarından birine yönelik fikir üretmesi istenir (E3.3). Gruplar fikirlerinin amacını, kimlere veya neye yönelik olduğunu, yapılabilecek çalışmaları, iş birliği kurulabilecek kişi ve kurumları ve beklenen katkıları belirler. Geliştirilen fikirler afiş, broşür, poster veya dijital sunum hâline getirilerek sınıfta sergilenir (SDB2.1, SDB2.2). Öğrenciler öğrenme galerisi tekniğiyle çalışmaları inceler ve önerilerini diğer gruplarla paylaşır. Üretilen fikirler; ihtiyaca uygunluk, toplumsal yarar, uygulanabilirlik ve özgünlük ölçütlerini içeren dereceli puanlama anahtarıyla, grup içi iş birliği ise grup değerlendirme formuyla değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden toplumsal kuralların olmadığı bir şehir hayatını anlatan kısa bir hikâye yazmaları istenebilir. Öğrencilerden yaşadıkları şehir ile ülkemizdeki başka bir şehrin eğitim, sağlık, güvenli yaşam açısından fırsat ve risklerini karşılaştıran bir araştırma yapmaları istenebilir. Öğrencilerden yaşadıkları şehirde faaliyet gösteren bir belediye birimi, sivil toplum kuruluşu veya gönüllü grubu araştırmaları; bu kuruluşların şehirde hangi ihtiyaca çözüm ürettiğini incelemeleri ve elde ettikleri bilgileri yansıtan bir bilgi görseli hazırlamaları istenebilir. Destekleme Toplumsal kurallara uyulan ve uyulmayan durumları gösteren resimli kartlar kullanılarak öğrencilerden bu kartları “doğru davranış” ve “yanlış davranış” olarak gruplandırmaları istenebilir. Öğrencilerden şehir yaşamında kendilerini en çok mutlu eden veya en çok endişelendiren durumlardan birini yansıtan resim çizmeleri ve bu resimleri nedenleriyle açıklamaları istenebilir. Öğrencilerden çevre koruma, hayvanları koruma, yaşlılara destek, kültürel mirası koruma, yardımlaşma ve afet hazırlığı gibi sosyal sorumluluk alanlarını gösteren bilgi kartları hazırlamaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "Ş.2.1",
+     "order": 1,
+     "text": "Şehir yaşantısında toplumsal kurallara uymanın önemini sorgulayabilme SÜREÇ BİLEŞENLERİ a) Şehir yaşantısında toplumsal kurallara uymanın önemiyle ilgili merak ettiği konuları tanımlar.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Şehir yaşantısında toplumsal kurallara uymanın önemiyle ilgili sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Şehir yaşantısında toplumsal kurallara uymanın önemiyle ilgili bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Şehir yaşantısında toplumsal kurallara uymanın önemiyle ilgili topladığı bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Şehir yaşantısında toplumsal kurallara uymanın önemiyle ilgili çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "Ş.2.2",
+     "order": 2,
+     "text": "Şehrin içerdiği fırsat ve riskleri özetleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Şehrin içerdiği fırsat ve riskleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Şehrin içerdiği fırsat ve riskleri sınıflandırır."
+      },
+      {
+       "label": "c",
+       "text": "Şehrin içerdiği fırsat ve riskleri kendi cümleleri ile yorumlar."
+      }
+     ]
+    },
+    {
+     "code": "Ş.2.3",
+     "order": 3,
+     "text": "Şehirlerde uygulanabilecek sosyal sorumluluk çalışmalarına yönelik fikir üretebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Şehirlerde uygulanan sosyal sorumluluk çalışmalarını fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Şehirlerde uygulanan sosyal sorumluluk çalışma örneklerini inceler."
+      },
+      {
+       "label": "c",
+       "text": "Şehirlerde uygulanabilecek sosyal sorumluluk çalışmalarına yönelik fikir üretir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "unit": 3,
+   "kind": "ÜNİTE",
+   "title": "ŞEHRİMİ TANIYORUM",
+   "description": "Bu ünitede öğrencilerin yaşadıkları şehrin coğrafi özelliklerini tanımaları; yer şekilleri, doğal kaynaklar, iklim ve bitki örtüsünü sınıflandırarak aralarındaki ilişkileri kavramaları amaçlanmaktadır. Öğrencilerin farklı kaynaklardan bilgi toplayarak verileri analiz etmeleri ve görselleştirmeleri; doğanın insan yaşamına etkilerini neden-sonuç ilişkisi içinde değerlendirmeleri hedeflenmektedir. Bu süreçte çevresel farkındalık geliştirmeleri ve yaşadıkları şehrin doğal kimliğini bütüncül biçimde anlamlandırmaları beklenmektedir. ALAN SBAB7. Mekânsal Düşünme (SBAB7.2. Mekânın Coğrafi Koşullarını Tanımlama) BECERİLERİ KAVRAMSAL KB2.11. Gözleme Dayalı Tahmin Etme BECERİLER",
+   "lesson_hours": 15,
+   "sections": {
+    "EĞİLİMLER": "E3.3. Yaratıcılık, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim, SDB2.2. İş Birliği Öğrenme Becerileri",
+    "Değerler": "D6. Dürüstlük, D7. Estetik, D17. Tasarruf, D19. Vatanseverlik Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER Görsel Sanatlar, Sosyal Bilgiler, Türkçe ARASI İLİŞKİLER BECERİLER KB2.14. Yorumlama ARASI İLİŞKİLER ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE Ş.3.1. Yaşadığı şehrin coğrafi özelliklerini tanımlayabilme SÜREÇ BİLEŞENLERİ a) Yaşadığı şehrin coğrafi özelliklerini ayırt eder. b) Yaşadığı şehrin coğrafi özellikleriyle ilgili bilgi toplar. c) Yaşadığı şehrin coğrafi özelliklerini sınıflandırır. ç) Yaşadığı şehrin coğrafi özelliklerini görselleştirir. Ş.3.2. Yaşadığı şehrin coğrafi özelliklerinin şehir yaşamına etkileri hakkında gözleme dayalı tahminde bulunabilme a) Yaşadığı şehrin coğrafi özelliklerinin şehir yaşamına etkilerine ilişkin ön gözlemi ile deneyimini ilişkilendirir. b) Yaşadığı şehrin coğrafi özelliklerinin şehir yaşamına etkilerine ilişkin çıkarım yapar. c) Yaşadığı şehrin coğrafi özelliklerinin şehir yaşamına etkilerine ilişkin yargıda bulunur.",
+    "İÇERİK ÇERÇEVESİ": "Şehrimizin Coğrafi Özellikleri Şehrimizin Coğrafi Özelliklerinin Şehir Yaşamına Etkileri",
+    "Anahtar Kavramlar": "bitki örtüsü, iklim, yeryüzü şekilleri ÖĞRENME Bu ünitede yer alan öğrenme çıktıları; kontrol listesi, derecelendirme ölçekleri, kavram haritaları, gözlem formları, dereceli puanlama anahtarları, performans görevi vb. ölçme ve değerlendirme araçları kullanılaKANITLARI rak değerlendirilebilir. (Ölçme ve Performans görevi: Öğrencilerden yaşadıkları şehrin coğrafi özelliklerinden birini seçerek bu özelliğin insan Değerlendirme) yaşamı üzerindeki etkisini anlatan bir resim yapmaları veya hikâye yazmaları istenebilir. Hazırlanan çalışmalar dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin yönler, harita kullanımı, coğrafi unsurlar ve doğal çevre hakkında bilgi sahibi oldukları; beslenme, barınma ve giyinme gibi temel ihtiyaçların doğadan karşılandığını kavradıkları ve temel gözlem becerilerine sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerin Türkiye haritası üzerinde şehrin kurulduğu yeri incelemeleri ve şehrin konumu nedeni ile sahip olduğu coğrafi özelliklerin neler olabileceği hakkında bildiklerini söylemeleri istenebilir. Öğrencilere, insanların beslenme, giyinme ve barınma ihtiyaçlarını nasıl karşıladığına dair açık uçlu sorular sorularak doğa ve insan etkileşimi hakkında düşüncelerini ifade etmeleri istenebilir. Köprü Kurma Öğrencilerden yaşadıkları ilin coğrafi özelliklerini daha önce ziyaret ettikleri veya gezdikleri başka bir ilin coğrafi özellikleriyle karşılaştırmaları istenebilir. Öğrencilerden yaşadıkları çevrede insanların beslenme, giyim ve barınma ihtiyaçlarını farklı mevsimlerde nasıl karşıladıklarına ilişkin günlük yaşamdan örnekler vermeleri istenebilir. Öğrenme-Öğretme Ş.3.1 Uygulamaları Öğrencilerin, yaşadıkları şehre ait görsel ve haritaları incelemeleri sağlanır (OB4). İncelenen görsellerde yer alan coğrafi özellikleri (yer şekilleri, yer altı ve üstü doğal kaynakları, iklim ve bitki örtüsü) ayırt etmeleri ve bu özelliklere örnekler vermeleri istenir. Bitki örtüsü ele alınırken öğrencilerin yaşadıkları şehirde doğal olarak yetişen, yaygın görülen veya şehirle özdeşleşen bitki, çiçek ve ağaç türlerini belirlemeleri ve bu türlere örnekler vermeleri sağlanır. Öğrencilerin şehrin su varlığının yeterliliğini ve su kaynaklarının amacına uygun, özenli kullanılmasının önemini tartışmaları sağlanır (D17.2). Bu süreçte küçük grup tartışması tekniğinden yararlanılabilir. Öğrencilerden yazılı, görsel veya dijital kaynaklar üzerinden yaşadıkları şehrin coğrafi özellikleriyle ilgili bilgi toplamaları istenir (OB1, OB2, OB4). Bu süreçte öğrencilerin Okul Dışı Öğrenme Platformu’nu (https://okuldisiogrenme.eba.gov.tr/) ziyaret ederek “Okul Dışı Öğrenme Ortamlarını Keşfet” sayfasındaki harita üzerinde yaşadıkları ili seçmeleri, bu ildeki coğrafi özellikleri (yeryüzü şekilleri ile göl, akarsu, ova vb.) tanıtan sayfaları inceleyerek bilgi toplamaları sağlanır. Elde edilen bilgilerden hareketle öğrenciler, şehrin coğrafi özelliklerini yer şekilleri, yer altı ve yer üstü doğal kaynakları, iklim ve bitki örtüsü başlıkları altında sınıflandırır. Öğrencilerden sınıflandırma yaparken her bir özelliği uygun başlık altında, belirlenen ölçütlere göre ve sıra gözeterek tablo veya kavram ağına yerleştirmeleri istenerek onların bilgileri düzenli, tutarlı ve eksiksiz biçimde sınıflandırmaları sağlanır (E3.7). Ardından öğrencilerden oluşturdukları sınıflandırmayı şehirleriyle ilişkilendirmeleri istenir. Öğrenciler gruplara ayrılır. Öğrenci gruplarına boş bir şehir haritası verilir. Şehrin yer şekilleri, yer altı ve yer üstü doğal kaynakları, iklim ve bitki örtüsüyle ilgili konular gruplara dağıtılarak her gruba şehrin bir coğrafi özelliği verilir. Grupların kendilerine verilen coğrafi özelliği dilsiz şehir haritası üzerinde estetik unsurlara dikkat ederek görselleştirmeleri ve sunmaları sağlanır (D7.1). Bu süreçte öğrenciler arasında iletişim ve iş birliği desteklenir (SDB2.1, SDB2.2). Hazırlanan çalışmalar, kontrol listesi veya derecelendirme ölçeği ile değerlendirilebilir. Yaşadığı şehrin coğrafi özelliklerini tanımlayabilme süreci kontrol listesi ile izlenebilir. ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI Ş.3.2 Öğrencilerden yaşadığı şehrin coğrafi özelliklerinin şehir yaşamındaki hangi alanları nasıl etkilediğine ilişkin örnekler vermeleri istenir. Bu süreçte düşün-eşleş-paylaş tekniği kullanılabilir. Verilen yazılı, görsel veya dijital kaynaklar üzerinden öğrencilerin yaşadığı şehrin coğrafi özelliklerinin şehir yaşamındaki beslenme, giyim ve barınma alanlarındaki olumlu ve olumsuz etkilerini kendi gözlem ve deneyimleriyle ilişkilendirmeleri sağlanır (E3.3, OB1). Bu süreçte yöresel kültür unsurlarına sahip çıkmanın gerekliliğine yönelik duygu ve düşüncelerini açıkça ifade etmeleri sağlanır (D6.2, D19.3). Öğrencilerin, yaşadığı şehrin coğrafi özelliklerinin şehir yaşamına etkilerine ilişkin verilen olumlu ve olumsuz örnekleri inceleyerek bu etkileri kendi cümleleriyle ifade etmeleri sağlanır (KB2.14, SDB2.1). Bu ifadelerden hareketle öğrencilerin yaşadığı şehrin coğrafi özelliklerinin şehir yaşamı üzerindeki etkilerine yönelik çıkarımlarda bulunmaları sağlanır. Öğrenciler iki gruba ayrılır. “Yaşadığımız şehrin coğrafi özelliklerinin şehir yaşamı üzerinde olumlu etkileri daha fazladır.”, “Yaşadığımız şehrin coğrafi özelliklerinin şehir yaşamı üzerinde olumsuz etkileri daha fazladır.” önermeleri ile grup tartışması yapılarak öğrencilerin yaşadığı şehrin coğrafi özelliklerinin şehir yaşamıyla etkileşimine ilişkin yargıda bulunmaları sağlanır (SDB2.1). Öğrencilerden yaşadığı şehrin coğrafi özelliklerinden dolayı oluşmuş yöresel yemek, kıyafet veya konutları tanıtan afiş hazırlamaları istenir (E3.3). Hazırlanan afişler, kontrol listesi veya derecelendirme ölçeği ile değerlendirilebilir. Performans görevi olarak yaşadığı şehrin coğrafi özelliklerinden birini seçerek bu özelliğin şehir yaşamı üzerindeki etkisini anlatan resim yapmaları veya hikâye yazmaları istenebilir. Hazırlanan çalışmalar, dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Şehrin coğrafi özellikleri ile ilgili tanıtım broşürleri hazırlanabilir veya dijital sesli kitap oluşturulabilir. Öğrencilerden yaşadıkları şehrin coğrafi özelliklerinin şehir yaşamı üzerindeki olumlu ve olumsuz etkilerine ilişkin örnekleri; gözlem, aile ve çevre görüşmeleri, fotoğraflar, haritalar, yerel haberler ve dijital kaynaklardan yararlanarak incelemeleri ve bu incelemelerden hareketle ‘Şehrin Doğa Raporu’ adlı bir çalışma hazırlamaları istenebilir. Destekleme Öğrencilerin yaşadıkları şehre karşı aidiyet duygusunu geliştirmek amacıyla onlara şehrin yer şekilleri, su kaynakları, iklimi ve bitki örtüsünü tanıtan kısa bilgi kartları verilebilir. Öğrencilerden bu kartları uygun başlıklarla eşleştirmeleri; seçtikleri bir coğrafi özelliğin şehir yaşamındaki önemini açıklamaları, yaşadıkları çevrenin güçlü ve sınırlı yönlerini kabullenerek bu doğal özelliklerin korunmasına yönelik bireysel ve toplumsal sorumluluklarını belirlemeleri istenebilir. Ayrıca öğrencilerden doğanın insan yaşamı üzerindeki olumlu ve olumsuz etkilerini yansıtan resim çalışmaları yapmaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "Ş.3.1",
+     "order": 1,
+     "text": "Yaşadığı şehrin coğrafi özelliklerini tanımlayabilme SÜREÇ BİLEŞENLERİ a) Yaşadığı şehrin coğrafi özelliklerini ayırt eder.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Yaşadığı şehrin coğrafi özellikleriyle ilgili bilgi toplar."
+      },
+      {
+       "label": "c",
+       "text": "Yaşadığı şehrin coğrafi özelliklerini sınıflandırır."
+      },
+      {
+       "label": "ç",
+       "text": "Yaşadığı şehrin coğrafi özelliklerini görselleştirir."
+      }
+     ]
+    },
+    {
+     "code": "Ş.3.2",
+     "order": 2,
+     "text": "Yaşadığı şehrin coğrafi özelliklerinin şehir yaşamına etkileri hakkında gözleme dayalı tahminde bulunabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yaşadığı şehrin coğrafi özelliklerinin şehir yaşamına etkilerine ilişkin ön gözlemi ile deneyimini ilişkilendirir."
+      },
+      {
+       "label": "b",
+       "text": "Yaşadığı şehrin coğrafi özelliklerinin şehir yaşamına etkilerine ilişkin çıkarım yapar."
+      },
+      {
+       "label": "c",
+       "text": "Yaşadığı şehrin coğrafi özelliklerinin şehir yaşamına etkilerine ilişkin yargıda bulunur."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 4,
+   "unit": 4,
+   "kind": "ÜNİTE",
+   "title": "ŞEHRİMİN TARİHİ VE İDARİ YAPISI",
+   "description": "Bu ünitede öğrencilerin yaşadıkları şehrin kuruluşundan günümüze uzanan tarihsel gelişimini incelemeleri amaçlanmaktadır. Ayrıca öğrencilerin yaşadıkları şehrin idari yapısını ve demografik özelliklerini güvenilir kaynaklardan hareketle incelemeleri, elde ettikleri bilgileri karşılaştırmaları, doğrulamaları ve düzenlemeleri amaçlanmaktadır. Yerel yönetim yapısı ile nüfus özelliklerini analiz ederek yaşadıkları çevreyi daha bilinçli değerlendirmeleri ve etkin vatandaşlık anlayışı geliştirmeleri hedeflenmektedir. ALAN SBAB4. Değişim ve Sürekliliği Algılama Becerisi (SBAB4.2. Değişim ve Sürekliliği Neden ve Sonuçlarıyla BECERİLERİ Yorumlama) KAVRAMSAL KB2.6. Bilgi Toplama BECERİLER",
+   "lesson_hours": 10,
+   "sections": {
+    "EĞİLİMLER": "E3.7. Sistematiklik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık Öğrenme Becerileri",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik, D14. Saygı, D19. Vatanseverlik Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı, Becerileri OB6. Vatandaşlık Okuryazarlığı, OB7. Veri Okuryazarlığı DİSİPLİNLER Sosyal Bilgiler, Türkçe ARASI İLİŞKİLER BECERİLER ARASI İLİŞKİLER ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE Ş.4.1. Yaşadığı şehrin kuruluşundan günümüze tarihsel gelişimindeki değişim ve sürekliliği neden ve sonuçlarıyla yorumlayabilme SÜREÇ BİLEŞENLERİ a) Yaşadığı şehrin kuruluşundan günümüze tarihsel gelişimindeki değişim ve sürekliliğe neden olan unsurları inceler. b) Yaşadığı şehrin kuruluşundan günümüze tarihsel gelişimindeki değişim ve sürekliliğin etkilediği unsurları inceler. c) Yaşadığı şehrin kuruluşundan günümüze tarihsel gelişiminde yer alan değişim ve sürekliliğin etkilerinin niteliğini sorgular. ç) Yaşadığı şehrin kuruluşundan günümüze tarihsel gelişiminde yer alan değişim ve sürekliliğin nedenlerini ve sonuçlarını bağlamdan kopmadan yeniden ifade eder. Ş.4.2. Yaşadığı şehrin idari yapısı ve demografik özellikleri hakkında bilgi toplayabilme a) Yaşadığı şehrin idari yapısı ve demografik özellikleri hakkında bilgiye ulaşmak için kullanacağı kaynakları belirler. b) Yaşadığı şehrin idari yapısı ve demografik özellikleri ile ilgili bilgileri belirlediği kaynaklardan bulur. c) Yaşadığı şehrin idari yapısı ve demografik özellikleri hakkında ulaştığı bilgileri doğrular. ç) Yaşadığı şehrin idari yapısı ve demografik özellikleri hakkında ulaştığı bilgileri kaydeder.",
+    "İÇERİK ÇERÇEVESİ": "Geçmişten Günümüze Şehrimiz Şehrimizin İdari Yapısı ve Demografik Özellikleri",
+    "Anahtar Kavramlar": "belediye, idari yapı, kronoloji, tarihsel süreç, valilik ÖĞRENME Bu ünitede yer alan öğrenme çıktıları; kontrol listesi, derecelendirme ölçekleri, dereceli puanlama anahtarı (rubrik), performans görevi vb. ölçme ve değerlendirme araçları kullanılarak değerlendirilebilir. KANITLARI Performans görevi: Öğrencilerden şehrin idari yapısı ve demografik özelliklerini tanıtan bir sunu veya rapor (Ölçme ve hazırlamaları istenebilir. Hazırlanan ürünler kontrol listesi ile değerlendirilebilir. Değerlendirme) ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin yaşadıkları şehrin yaşadıkları şehirde tarihî yapılar, mahalleler, meydanlar veya önemli mekânlar bulunduğunu bildikleri, geçmiş ve günümüz arasında bazı değişimlerin yaşandığının farkında oldukları; ayrıca yaşadıkları şehrin idari birimleri (il, ilçe, belediye vb.) ile nüfusuna ilişkin temel bilgilere sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere “Şehrimiz zaman içinde değişiyor mu, yoksa bazı şeyler aynı mı kalıyor?” gibi açık uçlu sorular sorulabilir. Öğrencilere “Yaşadığınız şehir hangi idari birimlerden oluşur?”, “İliniz ve ilçenizin nüfusu hakkında ne biliyorsunuz?” gibi çeşitli sorular yöneltilebilir. Köprü Kurma Öğrencilerden yaşadıkları şehirde kendileri için kişisel bir anlamı veya hatırası bulunan bir mekânı (mahalle, park, meydan, tarihî yapı, okul çevresi, çarşı vb.) düşünmeleri istenir. Seçtikleri bu mekânın kendileri için neden önemli olduğu, geçmişte nasıl bir görünüme veya işleve sahip olabileceği ve gelecekte nasıl korunmasını ya da geliştirilmesini istedikleri üzerine düşüncelerini paylaşmaları istenebilir. Öğrencilere “Şehriniz büyüdükçe hangi ihtiyaçlar artar?” sorusu yöneltilerek nüfus artışı ile yönetim ve hizmetler arasında ilişki kurmaları istenebilir. Öğrenme-Öğretme Ş.4.1 Uygulamaları Öğrencilere yaşadıkları şehirde aynı meydan, cadde, mahalle veya yapının geçmişteki ve günümüzdeki durumunu gösteren fotoğraf, harita veya çizimler sunulur. Öğrencilerin görsellerdeki mekânları ve yapıları tanımaları (OB4), değişen ve değişmeden kalan özellikleri belirleyerek görselleri yorumlamaları sağlanır. Tarihî yapılar ve kent dokusundaki biçim, renk, desen, simetri gibi estetik özelliklerin zaman içindeki değişimini incelemeleri istenir (D7.1). Estetik niteliğini koruyan yapı ve çevreleri belirlemeleri ve bunları neden değerli bulduklarını açıklamaları sağlanır. Öğrenciler gruplara ayrılır. Şehrin kuruluşu ve tarihsel gelişimindeki başlıca dönüm noktalarını gösteren tarih şeritlerini, eski ve yeni haritaları, fotoğrafları, resmî belgeleri, seyahatnameleri veya yerel tarih çalışmalarını gibi kaynaklar öğrencilere sunulur (OB1). Öğrencilerden coğrafi koşullar, ekonomik faaliyetler, ulaşım imkânları, teknolojik gelişmeler veya doğa kaynaklı afetler gibi şehrin değişiminde etkili olan unsurları belirlemeleri istenir. Bulgularını düzenleyerek bir tabloya kaydetmeleri sağlanır (E3.7). Gruplardan belirledikleri nedenlerin şehrin yerleşim yapısı, mimarisi, ulaşımı, ekonomisi, kültürel yaşamı üzerindeki etkilerini araştırmaları istenir. Nedenler ile etkilenen unsurlar arasında bilgiye dayalı ilişkiler kurmaları sağlanır (OB1). Grup üyeleri arasında kaynak inceleme, kanıt seçme, ilişki kurma ve görselleştirme görevlerinin paylaşılması ve her öğrencinin ortak çalışmaya katkı sunması beklenir (SDB2.2). ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI Farklı yaş ve meslek grupları, göç edenler veya farklı dönemlerde şehirde yaşayan toplumsal gruplar üzerindeki etkilerinin aynı olmayabileceğini incelemeleri sağlanır.Farklı toplumsal grupların deneyimlerini ve bakış açılarını dikkate almaları istenir (SDB2.3). Kurdukları neden-sonuç ilişkilerini yansıtan bir bilgi görseli oluşturmaları sağlanır (OB1, OB4). Öğrencilerden belirledikleri etkileri kısa veya uzun süreli, doğrudan veya dolaylı, olumlu veya olumsuz sonuçları bakımından sorgulamaları istenir (E3.10). “Bu değişim şehirde yaşayan herkesi aynı şekilde etkilemiş midir?”, “Değişimin olumlu ve olumsuz sonuçları nelerdir?”, “Ortaya çıkan sonuçlar geçici mi, kalıcı mı olmuştur?” ve “Değişime rağmen varlığını sürdüren unsurlar nelerdir?” soruları üzerinde düşünmeleri sağlanır. Grupların ulaştıkları yargıları kullandıkları kanıtlarla birlikte sınıfa sunmaları istenir. Farklı görüşleri dikkatle dinlemeleri ve kendi görüşlerini anlaşılır biçimde ifade etmeleri sağlanır (SDB2.1). Tartışmalarda birbirlerinin sözünü kesmemeleri, farklı görüşlere saygı göstermeleri ve eleştirilerini nezaketli bir dille ifade etmeleri beklenir (D14.1). Yeni kanıtlarla karşılaştıklarında önceki yargılarını yeniden gözden geçirmeleri teşvik edilir (E3.10). Öğrencilerden topladıkları bilgilerden yararlanarak “Şehrimin Değişim ve Süreklilik Portresi” başlıklı açıklamalı bir dijital sunum veya kısa tarih anlatısı hazırlamaları istenir. Üründe şehrin başlıca dönüm noktalarına, değişimin nedenlerine, etkilediği unsurlara, etkilerin niteliğine ve geçmişten günümüze devam eden özelliklere yer vermeleri beklenir. Bilgileri tarihsel bağlamı ve kaynaklardaki anlamı değiştirmeden kendi ifadeleriyle yeniden açıklamaları sağlanır (OB1). Fotoğraf, harita veya diğer görselleri anlatımı destekleyecek ve doğru bilgi verecek biçimde kullanmaları istenir (OB4). Hazırlanan ürünlerde şehrin geçmişten günümüze ulaşan somut veya somut olmayan bir kültürel miras unsuruna yer verilmesi ve bu unsurun şehir kimliği açısından öneminin açıklanması sağlanır (OB5). Seçilen kültürel miras unsurunun korunarak gelecek kuşaklara aktarılmasının önemini ifade etmeleri beklenir (D19.3). Ayrıca şehrin mimarisinde veya kent dokusunda estetik açıdan değerli buldukları bir yapı ya da çevresel unsuru belirlemeleri; bu unsurdaki değişim ve sürekliliği biçim, uyum, veya özgünlük özellikleri açısından değerlendirmeleri istenir (D7.1). Estetik ve kültürel miras unsurlarının korunmasına yönelik farkındalık oluşturmak amacıyla hazırlanan ürünlerin okul veya sınıf ortamında paylaşılması sağlanır (D7.3). Süreç dereceli puanlama anahtarıyla değerlendirilebilir. Grup çalışmasındaki iletişim, görev paylaşımı ve katkı düzeyi gözlem formuyla izlenebilir. Ş.4.2 Öğrencilere “Yaşadığınız şehrin idari yapısı ve demografik özellikleri hakkında bilgi toplamak isteyen bir kişiye hangi kaynaklara başvurmasını önerirsiniz?” sorusu yöneltilerek düşüncelerini ifade etmeleri sağlanır (SDB2.1). Bu süreçte beyin fırtınası tekniğinden yararlanılabilir. Öğrencilerden gelen cevaplar sınıfça değerlendirilerek Türkiye İstatistik Kurumu, valilik, belediye ve ilgili kurumların resmî internet sayfaları ile bilimsel yayınlar ve kitaplar arasından kullanabilecekleri kaynakları belirlemeleri sağlanır (D3.3, OB1, OB4). Öğrenciler, belirledikleri kaynaklardan yaşadıkları şehrin idari birimleri ile bu birimlerin nüfus ve diğer demografik özelliklerine ilişkin bilgileri bulur (OB1, OB2). Bilgi toplama sürecinde resmî ve güncel kaynaklardan yararlanmaları, araştırdıkları konuyla doğrudan ilgili bilgileri seçmeleri ve başkalarının emeğine saygı duymaları sağlanır (D14.3). Öğrencilerin kullandıkları kaynakları not etmeleri istenir (OB1). Öğrenciler, ulaştıkları idari yapı ve demografik özelliklere ilişkin bilgileri farklı yazılı, görsel veya dijital kaynaklardaki bilgilerle karşılaştırarak doğrular (OB1, OB2, OB4). Bu süreçte kaynakların güvenilirliği ve güncelliği ile farklı kaynaklarda yer alan verilerin birbiriyle tutarlılığı incelenir. Öğrencilere yaşadıkları şehrin idari yapısı ve nüfusuna ilişkin yazılı, görsel veya dijital materyaller sunularak bilgileri teyit etmeleri sağlanır (OB1, OB2, OB4). Öğrenciler, doğruladıkları bilgileri kaynaklarını belirterek bilgi fişlerine kaydeder. Bilgi fişlerinden yararlanarak şehrin idari birimlerini gösteren bir yapı şeması ve demografik özelliklerini gösteren tek bir tablo oluşturur (OB1, OB6, OB7). Öğrencilerden bilgileri kendi ifadeleriyle düzenlemeleri, kaynak göstermeleri ve başkalarının emeğine saygı duymaları istenir. Öğrencilerin yaşadıkları şehrin idari yapısı ve demografik özellikleri hakkında bilgi toplama ile bu bilgileri bir ürüne dönüştürme süreçleri kontrol listesi ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden yaşadıkları şehrin tarihsel gelişiminde dönüm noktası oluşturan bir olayı seçmeleri ve bu olayın şehir üzerindeki etkilerini neden–sonuç ilişkisi içinde analiz etmeleri istenebilir. Ayrıca “Bu olay gerçekleşmeseydi şehrin bugünkü görünümü nasıl olurdu?” sorusu üzerinden alternatif bir tarih senaryosu oluşturmaları istenebilir. Öğrencilerden yaşadıkları şehrin idari yapısı ve nüfus özellikleriyle ilgili kavramlardan oluşan bir “şehir bulmacası” hazırlamaları istenebilir. Bulmacada “il, ilçe, mahalle, yerel yönetim, belediye, nüfus artışı, göç vb.” kavramlara yer verilebilir. Destekleme Şehrin tarihsel gelişimine ilişkin hazır zaman şeridi üzerinde eksik bırakılan yerleri tamamlamaları istenebilir. Örnek bir şehir üzerinden model tablo gösterilerek öğrencilerin kendi şehirlerine ait bilgileri aynı düzen içinde yerleştirmeleri istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "Ş.4.1",
+     "order": 1,
+     "text": "Yaşadığı şehrin kuruluşundan günümüze tarihsel gelişimindeki değişim ve sürekliliği neden ve sonuçlarıyla yorumlayabilme SÜREÇ BİLEŞENLERİ",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yaşadığı şehrin kuruluşundan günümüze tarihsel gelişimindeki değişim ve sürekliliğe neden olan unsurları inceler."
+      },
+      {
+       "label": "b",
+       "text": "Yaşadığı şehrin kuruluşundan günümüze tarihsel gelişimindeki değişim ve sürekliliğin etkilediği unsurları inceler."
+      },
+      {
+       "label": "c",
+       "text": "Yaşadığı şehrin kuruluşundan günümüze tarihsel gelişiminde yer alan değişim ve sürekliliğin etkilerinin niteliğini sorgular."
+      },
+      {
+       "label": "ç",
+       "text": "Yaşadığı şehrin kuruluşundan günümüze tarihsel gelişiminde yer alan değişim ve sürekliliğin nedenlerini ve sonuçlarını bağlamdan kopmadan yeniden ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "Ş.4.2",
+     "order": 2,
+     "text": "Yaşadığı şehrin idari yapısı ve demografik özellikleri hakkında bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yaşadığı şehrin idari yapısı ve demografik özellikleri hakkında bilgiye ulaşmak için kullanacağı kaynakları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yaşadığı şehrin idari yapısı ve demografik özellikleri ile ilgili bilgileri belirlediği kaynaklardan bulur."
+      },
+      {
+       "label": "c",
+       "text": "Yaşadığı şehrin idari yapısı ve demografik özellikleri hakkında ulaştığı bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Yaşadığı şehrin idari yapısı ve demografik özellikleri hakkında ulaştığı bilgileri kaydeder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 5,
+   "unit": 5,
+   "kind": "ÜNİTE",
+   "title": "ŞEHRİMDEKİ EKONOMİ",
+   "description": "Bu ünitede öğrencilerin yaşadıkları şehirdeki ekonomik faaliyetleri günlük yaşamla ilişkilendirerek tanımaları; tarım, sanayi, hizmet, enerji üretimi, madencilik, bilim ve teknoloji alanlarının şehir yaşamındaki yerini fark etmeleri amaçlanmaktadır. Öğrencilerin şehirde gerçekleştirilen ekonomik faaliyetlerin bireylerin yaşamı ve şehir düzeni üzerindeki etkilerini kavramaları beklenmektedir. Ayrıca öğrencilerin mobilya üretimi, terzilik, ayakkabıcılık, kuyumculuk gibi günümüz zanaat ve mesleklerinin; çinicilik, dokumacılık, halı-kilim üretimi, bakırcılık, ahşap işçiliği, keçecilik, ebru, hat, oymacılık, kakmacılık, telkâri ve tezhip gibi geleneksel zanaat ve sanatların yerel üretim, istihdam, kültürel mirasın yaşatılması ve şehir ekonomisi açısından önemini fark etmeleri hedeflenmektedir. Yaşadığı şehrin ekonomisine katkı sağlayan unsurları yorumlayabilmeleri amaçlanmaktadır. Bununla birlikte öğrencilerin şehirdeki ulaşım imkânlarını inceleyerek bu unsurların ekonomik ve sosyal yaşam üzerindeki etkilerini değerlendirmeleri hedeflenmektedir. ALAN BECERİLERİ KAVRAMSAL KB2.3. Özetleme BECERİLER KB2.8. Sorgulama KB2.14. Yorumlama",
+   "lesson_hours": 8,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E3.1. Muhakeme, E3.3. Yaratıcılık, E3.4. Gerçeği Arama",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim Öğrenme Becerileri",
+    "Değerler": "D11. Özgürlük, D14. Saygı Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER Görsel Sanatlar, Sosyal Bilgiler, Türkçe ARASI İLİŞKİLER BECERİLER ARASI İLİŞKİLER ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE Ş.5.1. Yaşadığı şehrin gelişiminde etkili olan ekonomik faaliyetleri özetleyebilme SÜREÇ BİLEŞENLERİ a) Yaşadığı şehrin gelişiminde etkili olan ekonomik faaliyetleri çözümler. b) Yaşadığı şehrin gelişiminde etkili olan ekonomik faaliyetleri sınıflandırır. c) Yaşadığı şehrin gelişiminde etkili olan ekonomik faaliyetleri yorumlar. Ş.5.2. Yaşadığı şehrin ekonomisine katkı sağlayan unsurları yorumlayabilme a) Yaşadığı şehrin ekonomisine katkı sağlayan unsurları inceler. b) Yaşadığı şehrin ekonomisine katkı sağlayan unsurları bağlamdan kopmadan dönüştürür. c) Yaşadığı şehrin ekonomisine katkı sağlayan unsurları nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder. Ş.5.3. Yaşadığı şehrin ulaşım imkânlarını sorgulayabilme a) Yaşadığı şehrin ulaşım imkânlarını tanımlar. b) Yaşadığı şehrin ulaşım imkânları hakkında sorular sorar. c) Yaşadığı şehrin ulaşım imkânları hakkında bilgi toplar. ç) Yaşadığı şehrin ulaşım imkânları hakkında topladığı bilgilerin doğruluğunu değerlendirir. d) Yaşadığı şehrin ulaşım imkânları hakkında topladığı bilgiler üzerinden çıkarım yapar.",
+    "İÇERİK ÇERÇEVESİ": "Şehrimdeki Ekonomik Faaliyetler Şehrimin Ekonomisine Katkı Sağlayan Unsurlar Şehrimdeki Ulaşım",
+    "Anahtar Kavramlar": "el sanatları, kültürel varlık, madencilik, sanayi, tarım, ticaret, ulaşım, zanaat ÖĞRENME Bu ünitede yer alan öğrenme çıktıları; kontrol listesi, gözlem formu, grup değerlendirme formları, dereceli puanlama anahtarı, derecelendirme ölçekleri, performans görevi vb. ölçme ve değerlendirme araçları kulKANITLARI lanılarak değerlendirilebilir. (Ölçme ve Performans görevi: Öğrencilerden yaşadıkları şehrin ekonomik faaliyetleri, turizm potansiyeli ve ulaşım Değerlendirme) imkânlarını bütüncül biçimde tanıtan bir şehir tanıtım rehberi hazırlamaları istenebilir. Hazırlanan ürünler derecelendirilmiş puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin ekonomik faaliyet kavramına ilişkin farkındalığa sahip oldukları, yaşadıkları şehirde doğal kaynaklar, ulaşım, pazar ve turizm gibi ekonomik unsurlarla günlük yaşamlarında karşılaştıkları; bu unsurların şehir ekonomisine katkı sağladığına ilişkin temel farkındalığa sahip oldukları, günlük yaşamda kullanılan ulaşım ve iletişim yolları ile bu araçların işlevleri hakkında bilgi sahibi oldukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerden günlük yaşamlarında karşılaştıkları ekonomik faaliyetlere örnekler vermeleri istenebilir. Verilen örneklerden hareketle bu faaliyetlerin hangi sektörle ilişkili olabileceğine dair düşüncelerini paylaşmaları sağlanabilir. Öğrencilere “Çevremizde gördüğümüz ekonomik faaliyetler şehirle nasıl ilişkilidir? Bir şehrin gelişmesinde ulaşımın rolü nedir? Doğal güzellikler ve kültürel değerler turizmi nasıl etkiler?” gibi açık uçlu sorular sorulabilir. Öğrencilerden günlük yaşamda kullandıkları ulaşım yolları ve araçlarına örnekler vermeleri istenebilir. Bu araçların hangi amaçlarla kullanıldığına ilişkin düşüncelerini paylaşmaları sağlanabilir. Köprü Kurma Öğrencilerden gün içinde kullandıkları ürün ve hizmetleri düşünmeleri istenir. Bu ürün ve hizmetlerin hangi ekonomik faaliyetler sayesinde kendilerine ulaştığı sorulabilir. Öğrencilere “Yaşadığınız şehirde hangi ekonomik faaliyetler yaygındır? Şehrinizde üretilen veya satılan önemli ürünler nelerdir? Şehrin ulaşım imkânları ekonomik faaliyetleri nasıl etkiler?” gibi açık uçlu sorular sorulabilir. Öğrencilere yaşadıkları bölgenin iklim/ yeryüzü şekilleri vb. özellikleri ile ulaşım imkânları arasında nasıl bir ilişki olduğuna yönelik açık uçlu sorular sorulabilir. Öğrenme-Öğretme Ş.5.1 Uygulamaları Öğrencilere yaşadıkları şehrin ekonomik faaliyetlerine ilişkin yazılı, görsel veya dijital kaynaklar sunulur (OB1, OB2, OB4). Bu süreçte tarım, sanayi ve hizmet sektörlerinin yanı sıra enerji üretimi, bilim, teknoloji, madencilik, zanaat ve el sanatlarına ilişkin örneklere de yer verilir. Öğrencilerden bu kaynakları incelemeleri istenir. İnceledikleri kaynaklarda yer alan bilgilerden hareketle öğrencilerin yaşadıkları şehirdeki ekonomik faaliyetlere ilişkin çözümleme yapmaları sağlanır. Öğrenciler edindikleri bilgilerden hareketle yaşadıkları şehirdeki ekonomik faaliyetleri belirler ve bu faaliyetleri tarım, sanayi ve hizmet sektörlerine göre sınıflandırır. Yapılan sınıflandırma öğrenciler tarafından tablo, grafik veya kavram ağı kullanılarak görselleştirilir (OB1, OB4). Böylece öğrencilerin yaşadıkları şehirde öne çıkan ekonomik faaliyetleri tanımaları, bu faaliyetler arasındaki benzerlik ve farklılıkları fark etmeleri, ekonomik hayatın temel sektörlerini ilişkilendirerek düzenlemeleri sağlanır. ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI “Şehrimiz ülke ekonomisine en çok tarım faaliyetleri ile mi katkıda bulunmaktadır?”, “Şehrimiz ülke ekonomisine en çok sanayi faaliyetleri ile mi katkıda bulunmaktadır?” gibi bir önerme seçilerek kâğıtlata yazılır. Kâğıtlara yazılan tutum ifadeleri (katılıyorum, kararsızım, katılmıyorum vb.) sınıfın farklı köşelerine asılarak görüş geliştirme tekniği uygulanabilir. Öğrencilerden kendi görüşlerine uygun tutum ifadesinin olduğu yerde toplanmaları, düşüncelerini özgürce ifade etmeleri ve farklı görüşleri dinleyerek ortak görüşlerini gerekçeleriyle paylaşmaları istenir (D11.2). “Şehrimizin ülke ekonomisine katkıları saymakla bitmez!” başlıklı bir gazete haberi sayfası hazırlamaları ve bu sayfayı görsellerle desteklemeleri istenir. Haber sayfasını oluştururken başlık, görsel düzen, içerik sıralaması ve öne çıkaracakları ekonomik faaliyetleri özgün biçimde belirlemeleri sağlanarak özgün düşünmeleri desteklenir (E3.3). Böylece yaşadıkları şehrin ekonomik faaliyetlerine ilişkin bilgileri özgün ve dikkat çekici bir biçimde sunmaları beklenir. Öğrencilerin hazırladıkları gazete sayfaları kontrol listesi veya derecelendirme ölçeği ile değerlendirilebilir. Yaşadığı şehrin gelişiminde etkili olan ekonomik faaliyetleri özetleyebilmeye dair süreç kontrol listesi ile izlenebilir. Ş.5.2 Öğrencilere yaşadıkları şehrin ekonomik imkânlarını (doğal kaynaklar, ulaşım ağları, pazar, turizm) ve bu imkânların şehir ekonomisine katkılarını yansıtan yazılı, görsel veya dijital kaynakları incelemeleri istenir (OB1, OB2, OB4). Bu süreçte öğrencilerin Okul Dışı Öğrenme Platformu’nu (okuldisiogrenme.eba.gov.tr) ziyaret ederek “Okul Dışı Öğrenme Ortamlarını Keşfet” sayfasındaki harita üzerinde yaşadıkları ili seçmeleri ve bu ildeki turizm potansiyelini (sağlık ve termal, kış, yaz, inanç turizmi vb.) tanıtan sayfaları incelemeleri sağlanır (E1.1). Öğrencilerden yaşadıkları şehirde doğal kaynaklar, ulaşım ağları, pazar ve turizm imkanlarının ekonomik faaliyetlere katkılarını belirlemeleri istenir. Öğrencilerden inceledikleri kaynaklardan yararlanarak şehrin doğal kaynak, ulaşım ağı, pazar ve turizm imkânlarının şehrin ekonomisine katkılarını kaydetmeleri istenir. Elde edilen bilgilerden yararlanarak öğrencilerden doğal kaynak, ulaşım ağı, pazar ve turizm imkanlarının yaşadıkları şehrin ekonomisine katkılarını yazılı metin, afiş, broşür gibi ürünlere dönüştürür (E3.3). Öğrencilerden elde ettikleri bilgilerden hareketle yaşadıkları şehrin ekonomik imkânlarını sorgulamaları; şehrin ekonomik açıdan güçlü yönlerini ve geliştirilmesi gereken yönlerini belirlemeleri istenir. “Şehrimizin ekonomik gelişimini desteklemek için neler yapılabilir?” sorusu üzerinde düşünmeleri ve önerilerini gerekçeleriyle açıklamaları sağlanır. Öğrencilerin hazırladıkları ürünü kullanarak şehrin ekonomik imkânlarının şehir ekonomisine katkılarını sınıf arkadaşlarına kendi cümleleriyle yeniden ifade etmeleri sağlanır (SDB2.1). Hazırlanan ürünler derecelendirme ölçeği ile değerlendirilebilir. Ş.5.3 Geçmişten günümüze ulaşım araçlarının gelişimini gösteren tarih şeritleri incelenerek ulaşım imkânlarının zaman içerisinde çeşitlenebileceği üzerinde durulur. Öğrencilerden yazılı, görsel veya dijital kaynaklardan yararlanarak yaşadıkları şehirde bulunan kara yolu, demir yolu, deniz yolu, hava yolu ve toplu taşıma imkânlarından şehre uygun olanları belirlemeleri ve temel özellikleriyle tanımlamaları istenir (OB1, OB2, OB4). Öğrencilerin yaşadıkları şehrin ulaşım imkânlarına ilişkin merak ettikleri konuları belirlemeleri ve bu konular hakkında sorular oluşturmaları sağlanır. Bu süreçte 5N1K tekniğinden yararlanılabilir. Öğrenciler, oluşturdukları sorular doğrultusunda yaşadıkları şehrin ulaşım imkânları hakkında bilgi toplar (OB1). Toplanan bilgilerin doğruluğu farklı kaynaklardan elde edilen verilerin karşılaştırılması, kaynakların güncellik ve güvenilirliklerinin incelenmesi yoluyla değerlendirilir. Öğrencilerin doğruladıkları bilgilerden hareketle ulaşım imkânlarının ticaret, turizm, üretim, pazar faaliyetleri ve şehir ekonomisi üzerindeki etkilerine ilişkin çıkarımlar yapmaları istenir (E3.4). Bu süreçte soru cevap tekniğinden faydalanılabilir. Öğrencilerden ulaştıkları çıkarımı ve çıkarımın dayandığı bilgileri paylaşmaları istenir. Öğrencilerden belirledikleri bir ulaşım güçlüğüne yönelik uygulanabilir bir öneri geliştirmeleri istenebilir. Öğrenciler önerilerini ve gerekçelerini kart veya afiş üzerine yazar. Çalışmalar sınıfın farklı bölümlerinde sergilenir. Öğrenciler gruplar hâlinde çalışmalar arasında dolaşarak önerileri inceler, soru sorar ve geri bildirimde bulunur. Bu aşamada pazar yeri tekniğinden yararlanılabilir. Öğrencilerin farklı görüşleri dinlemeleri ve görüşlerini saygılı bir dille paylaşmaları sağlanır (E3.1, SDB2.1, D14.1). Performans görevi olarak öğrencilerden yaşadıkları şehrin ekonomik faaliyetlerini, turizm, ulaşım, ticaret, üretim ve pazar imkânlarını birlikte ele alarak şehrin ekonomik potansiyelini tanıtan bütüncül bir ürün hazırlamaları istenebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden şehirde öne çıkan bir ekonomik faaliyet alanını yansıtan fotoğraflar çekmeleri ve bu fotoğraflardan oluşan “Şehrimin Ekonomi Albümü” adlı kısa bir çalışma hazırlamaları istenebilir. Öğrencilerin albümde yer alan her fotoğrafın altına ilgili ekonomik faaliyeti tanıtan kısa açıklamalar yazmaları sağlanabilir. Öğrencilerden şehrin doğal kaynak, ulaşım, pazar ve turizm imkânlarını inceleyerek ekonomik açıdan güçlü ve geliştirilmesi gereken yönlerini açıklayan kısa bir rapor oluşturmaları istenebilir. Ulaşım imkânlarında yaşanabilecek gelişmelere yönelik bir sunum hazırlamaları istenebilir. Ulaşım ile ilgili bir sorunun ilgili birimlere bildirilmesine yönelik dilekçe yazma etkinliği gerçekleştirilebilir. Valiliğe veya kaymakamlığa şehrin ulaşım imkânlarının geliştirilmesine yönelik fikirleri içeren öneri mesajları yazılabilir. Destekleme Ekonomik faaliyet örnekleri görsellerle somutlaştırılabilir. Öğrencilerden yaşadıkları şehrin ekonomik unsurlarını gösteren bilgi kartları hazırlamaları istenebilir. Yaşadığı şehirdeki ulaşım imkânlarına yönelik bilgi kartları hazırlamaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "Ş.5.1",
+     "order": 1,
+     "text": "Yaşadığı şehrin gelişiminde etkili olan ekonomik faaliyetleri özetleyebilme SÜREÇ BİLEŞENLERİ a) Yaşadığı şehrin gelişiminde etkili olan ekonomik faaliyetleri çözümler.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Yaşadığı şehrin gelişiminde etkili olan ekonomik faaliyetleri sınıflandırır."
+      },
+      {
+       "label": "c",
+       "text": "Yaşadığı şehrin gelişiminde etkili olan ekonomik faaliyetleri yorumlar."
+      }
+     ]
+    },
+    {
+     "code": "Ş.5.2",
+     "order": 2,
+     "text": "Yaşadığı şehrin ekonomisine katkı sağlayan unsurları yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yaşadığı şehrin ekonomisine katkı sağlayan unsurları inceler."
+      },
+      {
+       "label": "b",
+       "text": "Yaşadığı şehrin ekonomisine katkı sağlayan unsurları bağlamdan kopmadan dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Yaşadığı şehrin ekonomisine katkı sağlayan unsurları nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "Ş.5.3",
+     "order": 3,
+     "text": "Yaşadığı şehrin ulaşım imkânlarını sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yaşadığı şehrin ulaşım imkânlarını tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Yaşadığı şehrin ulaşım imkânları hakkında sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Yaşadığı şehrin ulaşım imkânları hakkında bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Yaşadığı şehrin ulaşım imkânları hakkında topladığı bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Yaşadığı şehrin ulaşım imkânları hakkında topladığı bilgiler üzerinden çıkarım yapar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 6,
+   "unit": 6,
+   "kind": "ÜNİTE",
+   "title": "ŞEHRİMDE SOSYAL VE KÜLTÜREL YAŞAM",
+   "description": "Bu ünitede öğrencilerin yaşadıkları şehirde gerçekleştirilen kültür, sanat ve spor faaliyetlerini fark etmeleri; bu faaliyetlerin şehrin sosyal ve ekonomik yaşamına katkılarını değerlendirmeleri amaçlanmaktadır. Öğrencilerin yaşadıkları şehrin kültürel miras unsurlarını tanımaları, kültürel mirasın korunmasının önemini kavramaları ve şehir kimliği ile ilişkisini fark etmeleri beklenmektedir. Ayrıca öğrencilerin şehirde yetişmiş önemli şahsiyetleri tanımaları, bu kişilerin şehre katkılarını değerlendirmeleri ve yaşadıkları şehrin kültürel yaşamını bütüncül biçimde anlamlandırmaları hedeflenmektedir. ALAN SBAB2. Kanıta Dayalı Sorgulama ve Araştırma (SBAB2.2. Kaynaklardan Bilgi Toplama) BECERİLERİ SBAB2. Kanıta Dayalı Sorgulama ve Araştırma (SBAB2.6. Kanıta Dayalı Ürün Oluşturma ve Paylaşma) KAVRAMSAL KB2.14. Yorumlama BECERİLER",
+   "lesson_hours": 18,
+   "sections": {
+    "EĞİLİMLER": "E2.2. Sorumluluk, E3.1. Muhakeme, E3.3. Yaratıcılık, E3.6. Analitiklik, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri",
+    "Değerler": "D2. Aile Bütünlüğü, D3. Çalışkanlık, D4. Dostluk, D5. Duyarlılık, D10. Mütevazılık, D13. Sağlıklı Yaşam, D19. Vatanseverlik Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER Beden Eğitimi ve Spor, Görsel Sanatlar, Müzik, Sosyal Bilgiler, Türkçe ARASI İLİŞKİLER BECERİLER KB2.11. Gözleme Dayalı Tahmin Etme ARASI İLİŞKİLER ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI Ş.6.1. Yaşadığı şehrin yetiştirdiği önemli şahsiyetler hakkında kaynaklardan bilgi toplayabilme SÜREÇ BİLEŞENLERİ a) Yaşadığı şehrin yetiştirdiği önemli şahsiyetler hakkında bilgi toplayabileceği kaynakları belirler. b) Belirlediği kaynaklardan yaşadığı şehrin yetiştirdiği önemli şahsiyetler hakkında bilgileri bulur. c) Yaşadığı şehrin yetiştirdiği önemli şahsiyetler hakkında bilgi topladığı kaynakların uygunluğunu açıklar. ç) Yaşadığı şehrin yetiştirdiği önemli şahsiyetler hakkında kaynaklardan ulaştığı bilgileri kaydeder. Ş.6.2. Yaşadığı şehrin kültür, sanat ve spor imkânlarının sosyal yaşam ve şehir gelişimi üzerindeki etkilerini yorumlayabilme a) Yaşadığı şehrin kültür, sanat ve spor imkânlarının bireyler arasındaki etkileşime, birlikte yaşama kültürüne ve sosyal katılıma katkılarını inceler. b) Yaşadığı şehrin kültür, sanat ve spor imkânlarının sosyal yaşam ve şehir gelişimi üzerindeki etkilerini bağlamdan kopmadan dönüştürür. c) Yaşadığı şehrin kültür, sanat ve spor imkânlarının sosyal yaşam ve şehir gelişimi üzerindeki etkilerini nesnel ve anlamı değiştirmeyecek şekilde yeniden ifade eder. Ş.6.3. Yaşadığı şehrin kültürel miras unsurlarına ilişkin kanıta dayalı ürün oluşturabilme ve paylaşabilme a) Yaşadığı şehrin kültürel miras unsurlarına yönelik incelediği kanıtlara dayanarak çıkarım yapar. b) Yaşadığı şehrin kültürel miras unsurlarına yönelik kanıtlardan elde ettiği çıkarım üzerine kendi görüşünü yansıtan bir ürün oluşturur. c) Yaşadığı şehrin kültürel miras unsurlarına yönelik oluşturduğu ürünleri paylaşır.",
+    "İÇERİK ÇERÇEVESİ": "Şehrimin Yetiştirdiği Önemli Şahsiyetler Şehrimdeki Sosyal ve Kültürel Faaliyetler Şehrimin Kültürel Mirası",
+    "Anahtar Kavramlar": "kültürel miras, müze, sanat, sergi, spor, şahsiyet, tarihî eser, tiyatro, UNESCO [Yunesko (Birleşmiş Milletler Eğitim, Bilim ve Kültür Kurumu)] ÖĞRENME Bu ünitede yer alan öğrenme çıktıları; kontrol listesi, dereceli puanlama anahtarı, derecelendirme ölçekleri, gözlem formları, performans görevi vb. ölçme ve değerlendirme araçları kullanılarak değerlendirilebilir. KANITLARI Performans görevi: Öğrencilerden yaşadıkları şehrin kültür, sanat ve spor imkânlarını, somut ve somut (Ölçme ve olmayan kültürel miras unsurlarını ve şehrin yetiştirdiği önemli şahsiyetleri tanıtan bir ürün hazırlamaları Değerlendirme) istenebilir. Hazırlanan ürünler derecelendirilmiş puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin kültür,sanat ve spor etkinliklerini tanıdıkları, yaşadıkları şehrin tarihî ve kültürel değerleri hakkında bilgi sahibi oldukları ve bireylerin çeşitli alanlarda topluma katkıda bulunabileceğini bildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere “Yaşadığınız şehirde tanınan önemli kişiler kimlerdir?”, “Bu kişiler hangi alanlarda tanınmıştır?” gibi açık uçlu sorular sorulabilir. Öğrencilerden kültür,sanat ve spor etkinliklerinin kendilerine ne çağrıştırdığını söylemeleri istenebilir. Bu kavramlara ilişkin örnekler vermeleri ve düşüncelerini paylaşmaları sağlanabilir. Öğrencilere yaşadıkları şehirde ilgilerini çeken ve yaşadıkları şehri diğer şehirlerden ayırdığını düşündükleri tarihî bir yapı, gelenek veya hikâyeyi anlatmaları istenebilir. Köprü Kurma Öğrencilere “Okulunuzun, mahallenizdeki bir caddenin veya kütüphanenin adını taşıdığı kişinin kim olduğunu hiç merak ettiniz mi?”, “Bu isimler oraya neden verilmiş olabilir?” soruları sorulabilir. Öğrencilerden yaşadıkları şehirde katıldıkları veya izledikleri kültür, sanat ve spor faaliyetlerine örnekler vermeleri istenebilir. Bu faaliyetlerin neden önemli olduğuna ilişkin düşüncelerini paylaşmaları sağlanabilir. Öğrencilere “Şehrinizde eski zamanlardan kaldığını düşündüğünüz yapılar hangileridir?” sorusu sorulabilir. Ayrıca öğrencilerden yaşadıkları yerde sürdürülen düğün veya doğum geleneklerinden örnekler vermeleri istenebilir. ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Ş.6.1 Uygulamaları Öğrencilerin yaşadığı şehrin yetiştirdiği önemli şahsiyetler hakkında bilgi toplamaları için başvurabilecekleri yazılı, görsel veya dijital kaynakları belirlemeleri istenir (OB1, OB2, OB4). Öğrenciler ilgi alanlarına göre gruplara ayrılır; halk şairleri, sanatçılar, bilim insanları, tarihî şahsiyetler gibi temalar belirlenir (SDB2.1, E3.6). Belirlenen kaynakları kullanarak seçtikleri önemli şahsiyetin hayatı, eserleri ve şehre katkıları hakkında yazılı, görsel ve dijital kaynaklardan bilgiler toplamaları istenir (OB2, OB4). Öğrencilerden aile bireyleriyle görüşerek yaşadıkları şehirde yetişmiş önemli şahsiyetlere ilişkin bildikleri kişi, olay veya anıları öğrenmeleri; edindikleri bilgileri diğer kaynaklardan ulaştıkları bilgilerle karşılaştırmaları istenir. Bu süreçte öğrencilerin Okul Dışı Öğrenme Platformu’nu (okuldisiogrenme.eba.gov.tr) ziyaret ederek “Okul Dışı Öğrenme Ortamlarını Keşfet” sayfasındaki harita üzerinde yaşadıkları ili seçmeleri, bu ildeki önemli şahsiyetlere ilişkin bilgi sunan sayfaları (tarihî şahsiyetlerin isimlerini taşıyan cami, türbe vb.) incelemeleri sağlanır. Elde ettikleri bilgilerden hareketle seçtikleri şahsiyetin şehir için önemini vurgulayan bir tanıtım çalışması hazırlayıp paylaşmaları sağlanır (D19.3). Öğrenciler, bir kaynakta buldukları bilgiyi başka bir kaynakla karşılaştırırlar. “Bu kaynak neden daha güvenilir?” sorusu üzerine tartışarak yazarın uzmanlığı, kaynağın güncelliği ve tarafsızlığı gibi kriterlere göre kaynak uygunluğunu açıklarlar (SDB3.3, E3.1). Çelişkili bilgiler olduğunda hangisinin neden daha doğru kabul edilebileceğine dair çıkarımlar yaparlar (E3.8). Bu süreçte doğru ve güvenilir bilgiye ulaşma konusunda araştırmacı ve sorgulayıcı olmanın önemi vurgulanır (D3.3). Öğrencilerin yaşadığı şehrin yetiştirdiği önemli şahsiyetler hakkında kaynaklardan ulaştığı bilgileri kaydetmeleri sağlanır. Öğrencilerden seçtikleri şahsiyetin biyografisini hazırlamaları ve sınıfta sunmaları istenir (OB1, E3.3). Hazırladıkları biyografileri aile bireyleriyle paylaşmaları ve ailelerinden aldıkları görüşler doğrultusunda çalışmalarını gözden geçirmeleri teşvik edilir. Sunumlarla ilgili fikir alışverişi yapılır. Öğrencilerin yeni bilgi, fikir, tavsiye ve eleştirilere açık olmaları, çalışmalarını değerlendirerek hata veya eksikliklerini düzeltmeleri teşvik edilir (D10.1). Hazırlanan biyografiler derecelendirme ölçeği ile sunumlar ise kontrol listesi ile değerlendirilebilir. Ş.6.2 Şehirde geçmişte düzenlenmiş veya düzenlenmesi planlanmış kültür, sanat, halk oyunları, yerel müzik ve spor faaliyetlerine ait gazete kupürü, dergi, afiş, web sayfası ve sosyal medya duyuruları inceletilerek öğrencilerin yaşadıkları şehirdeki sosyal yaşamı fark etmeleri sağlanır. Öğrencilerden verilen yazılı, görsel veya dijital kaynaklar üzerinden konser, yerel müzik dinletisi, halk oyunları gösterisi, tiyatro, müze etkinliği, kitap fuarı, festival, mahalle şenliği, spor turnuvası ve gençlik etkinliklerinin insanların bir araya gelmesine, iletişim kurmasına, dayanışma geliştirmesine ve şehir aidiyetinin güçlenmesine nasıl katkı sağladığını belirlemeleri istenir (OB1, OB2, OB4). Bu süreçte öğrencilerin Okul Dışı Öğrenme Platformu’nu (okuldisiogrenme.eba.gov.tr) ziyaret ederek yaşadıkları ildeki kültür, sanat ve spor merkezlerini incelemeleri sağlanır. Öğrencilerden bu mekânların yalnızca etkinlik yapılan yerler değil; insanların sosyalleştiği, ortak deneyimler paylaştığı, yerel ezgileri, halk oyunlarını ve şehir kültürünü yaşattığı alanlar olduğuna ilişkin çıkarımlar yapmaları beklenir. Öğrencilerden yakın çevrelerindeki kültür, sanat, halk oyunları, yerel müzik ve spor faaliyetlerinin çocuklar, gençler, yaşlılar ve farklı sosyal gruplar arasındaki etkileşimi nasıl artırdığına örnekler vermeleri istenir. Bu faaliyetlerin insanların birbirini tanımasına, birlikte vakit geçirmesine, dayanışma geliştirmesine ve toplumsal uyumu güçlendirmesine ilişkin görüşlerini ifade etmeleri sağlanır. Ayrıca öğrencilerden, yaşlıların ve özel gereksinimli bireylerin bu etkinliklere erişimini ve etkin katılımını desteklemenin şehirde birlikte yaşamaya katkısını örneklerle açıklamaları beklenir (D5.1). Ayrıca spor imkânlarının sağlıklı yaşam alışkanlıkları kazandırmanın yanında takım ruhu, iş birliği, paylaşma ve toplumsal uyum üzerindeki etkileri hakkında görüşlerini ifade etmeleri sağlanır (D13.2). Öğrencilerden okullarında yaşadıkları şehrin kültür, sanat, halk oyunları, yerel müzik ve spor faaliyetlerinden birine yönelik sosyal katılımı artıracak bir etkinlik planladıklarını düşünmeleri istenir. Drama etkinliği yaptırılarak öğrencilerin planladıkları etkinliğin öğrenciler, aileler ve mahalle halkı arasındaki etkileşimi nasıl güçlendireceğini gerekçeleriyle açıklamaları beklenir (E3.3). Drama sonrasında öğrenciler küçük gruplara ayrılır. Gruplardan, yaşadıkları şehrin kültür, sanat, halk oyunları, yerel müzik ve spor faaliyetlerinin sosyal yaşamı ve şehir gelişimini nasıl etkilediğini ele alan afiş, broşür, dijital sunu, kısa video veya haber metni hazırlamaları ve sınıfta sunmaları istenir (E2.2, SDB2.1). Sunumlar sırasında öğrencilerin etkili iletişim kurmaları, farklı görüşlere saygı göstermeleri ve ortak ürün oluşturmaları desteklenir (D4.2). Son aşamada gruplardan, yaşadıkları şehrin kültür, sanat, halk oyunları, yerel müzik ve spor imkânlarının insanların bir arada yaşama kültürüne, şehir aidiyetine ve sosyal dayanışmaya katkılarını kendi cümleleriyle ifade ettikleri kısa bir rapor veya değerlendirme metni hazırlamaları istenir (SDB2.2). Hazırlanan ürünler derecelendirme ölçeği ile değerlendirilebilir. Ş.6.3 Öğrencilerden UNESCO Dünya Kültürel Miras Türkiye Listesi’ni incelemeleri ve listede yer alan unsurlar hakkında bilgi ve deneyimlerini paylaşmaları istenir. Öğrencilere yaşadıkları şehrin somut ve somut olmayan kültürel miras unsurlarını içeren yazılı, görsel veya dijital kaynaklar sunulur (OB1, OB2, OB4). Bu süreçte öğrencilerin Okul Dışı Öğrenme Platformu’nu (okuldisiogrenme.eba.gov.tr) ziyaret ederek “Okul Dışı Öğrenme Ortamlarını Keşfet” sayfasındaki harita üzerinde yaşadıkları ili seçmeleri, bu ildeki somut olan ve olmayan kültürel miras unsurlarını (tarihî yapılar, kültür, sanat, mutfak, düğün, bayramlaşma, geleneksel çocuk oyunları, halk oyunları, türküler, oyuncak müzeleri ve merkezleri, cami, kervansaray, han, köprü, tarihî mezar vb.) tanıtan sayfaları incelemeleri sağlanır. Ayrıca öğrencilere yaşadıkları şehirde anlatılan veya şehirle ilişkilendirilen masal, efsane, halk hikâyesi ve diğer sözlü kültür ürünlerine ilişkin kaynaklar sunulur. ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI Öğrencilerden günlük yaşam deneyimleriyle ilişkilendirerek yaşadıkları şehirde sürdürülen düğün, doğum, bayramlaşma ve benzeri geleneklerin aile bireylerini bir araya getiren yönünü açıklamaları ve bu uygulamaların aile bağlarını güçlendirmedeki rolünü örneklerle ifade etmeleri istenir (KB2.11, D2.1). Öğrencilerden evde aile bireyleriyle yaşadıkları şehrin kültürel miras unsurları üzerine sohbet etmeleri; ailelerinin bildiği gelenekler, kültürel uygulamalar ve bu miras ögelerine ilişkin deneyimlerini öğrenmeleri istenir. Öğrendiklerini sınıfta paylaşmaları sağlanır. Öğrencilerden inceledikleri kaynaklardan hareketle kültürel miras ögelerinin önemine ilişkin çıkarımlarda bulunmaları ve bu çıkarımlarını sözlü olarak ifade etmeleri istenir (SDB2.1). Öğrencilerden inceledikleri kanıtlardan elde ettikleri çıkarımlardan hareketle kişisel görüşlerini yansıtan, yaşadıkları şehrin mirasını tanıtan ve korunmasının gerekliliğini açıklayan afiş, poster veya broşür hazırlamaları istenir (D19.3, SDB2.1). Hazırlanan ürünlerde öğrencilerin derledikleri yerel masal ve sözlü kültür ürünlerinden uygun örneklere yer vermeleri teşvik edilir. Ürünlerin hazırlanma sürecinde öğrenciler arasında bilgi paylaşımı ve iş birliği desteklenir (SDB2.2). Hazırladıkları afiş, poster veya broşürleri aile bireylerine tanıtmaları ve ailelerini yaşadıkları şehrin kültürel mirası hakkında bilgilendirmeleri teşvik edilir. Hazırlanan ürünlerin okul veya sınıf panosunda paylaşılması istenebilir. Ürünler bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. Performans görevi olarak öğrencilerden “Yaşadığım şehir dile gelse kendisini nasıl anlatırdı?” sorusundan hareketle “Şehir Dile Gelse” başlıklı bir sesli hikâye, kısa video veya dijital çizgi öykü hazırlamaları istenir. Öğrenciler, şehri anlatıcı olarak kurgulayarak kültür, sanat ve spor imkânlarını, somut ve somut olmayan kültürel mirasını ve yetiştirdiği önemli şahsiyetleri birbiriyle ilişkili biçimde tanıtır. Anlatıda, çevrelerinden derledikleri bir masal, efsane veya halk hikâyesine de yer verirler. Şehrin ağzından bu unsurların sosyal yaşama ve şehrin gelişimine katkıları ile korunarak geleceğe aktarılmasının önemi açıklanır. Kullanılan bilgi ve anlatıların kaynakları ürünün sonunda belirtilir. Ürünler dereceli puanlama anahtarıyla değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden seçtikleri şahsiyet adına bir anı günü programı veya sergi tasarımı planlamaları istenebilir. Öğrencilerden yaşadığı şehrin gelişimine katkıda bulunacak özgün kültür, sanat veya spor projesi hazırlamaları istenebilir. Öğrencilerden “turist rolü” üstlenerek yaşadıkları şehrin kültürel miras unsurlarını tanıtan kısa bir gezi rehberi hazırlamaları istenebilir. Bu süreçte öğrencilerin seçtikleri kültürel miras unsurlarını turistlerin ilgisini çekecek biçimde tanıtmaları ve bu rehberlerde kısa açıklamalara yer vermeleri sağlanabilir. Destekleme Şehirde iz bırakmış şahsiyetlere ilişkin kısa ve sadeleştirilmiş metinler sunularak öğrencilerden bu şahsiyetleri tanıtan bilgi kartları hazırlamaları istenebilir. Önemli şahsiyetlere ait fotoğraf-isim eşleştirme oyunları oynatılabilir. Yaşadığı şehrin kültür, sanat ve spor imkânlarını belirleyebileceği eşleştirme çalışmaları yapılabilir. Öğrencilerden şehirlerine ait folklorik ögeler ile dinî ve millî bayramlarda sürdürülen yerel uygulamalardan birini seçerek bu kültürel miras unsurunu koruma, sahiplenme ve yaşatma bilincini yansıtan kısa bir yazı yazmaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "Ş.6.1",
+     "order": 1,
+     "text": ", Ş.6.2. ORTAOKUL “ŞEHRİMİZ ...” DERSİ ÖĞRETİM PROGRAMI 1.3.3. “Şehrimiz ...” Dersi Öğretim Programı’nın 2 (İki) Ders Saati Olarak Okutulacağı Sınıflardaki Öğrenme Çıktıları Sayısı ve Süre Tablosu Öğrenme Süre ÜNİTE Çıktıları Yüzde Oranı Sayısı Ders Saati (%) 1. Şehir ve Medeniyet 2 10 13 2. Şehirlerdeki Toplumsal Yaşam 3 12 17 3. Şehrimi Tanıyorum 2 12 17 4. Şehrimin Tarihi ve İdari Yapısı 2 10 13 5. Şehrimdeki Ekonomi 3 12 17 6. Şehrimde Sosyal ve Kültürel Yaşam 3 12 17 Okul Temelli Planlama* 4 6 TOPLAM 15 72 100 * Zümre öğretmenler kurulu tarafından ders kapsamında yapılması kararlaştırılan okul dışı öğrenme etkinlikleri; yerel ça­lışmalar, sosyal etkinlikler, proje ve okuma çalışmaları, araştırma ve gözlem gibi çalışmalar için ayrılan süredir. Söz konusu çalışmalar için ayrılan süre, eğitim öğretim yılı başında planlanır ve yıllık planlarda ifade edilir. Eğitim-öğretim yılı başında yapılması kararlaştırılan çalışmalar; okulun, öğrencinin ve çevrenin ihtiyaçları dikkate alınarak yıl içerisinde güncellene­bilir. 1.3.4.“Şehrimiz ...” Dersi Öğretim Programı’nın 2 (İki) Ders Saati Olarak Okutulacağı Sınıflardaki Öğrenme Çıktıları Tablosu ÜNİTE ÖĞRENME ÇIKTISI",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yaşadığı şehrin yetiştirdiği önemli şahsiyetler hakkında bilgi toplayabileceği kaynakları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği kaynaklardan yaşadığı şehrin yetiştirdiği önemli şahsiyetler hakkında bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Yaşadığı şehrin yetiştirdiği önemli şahsiyetler hakkında bilgi topladığı kaynakların uygunluğunu açıklar."
+      },
+      {
+       "label": "ç",
+       "text": "Yaşadığı şehrin yetiştirdiği önemli şahsiyetler hakkında kaynaklardan ulaştığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "Ş.6.2",
+     "order": 2,
+     "text": "Yaşadığı şehrin kültür, sanat ve spor imkânlarının sosyal yaşam ve şehir gelişimi üzerindeki etkilerini yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yaşadığı şehrin kültür, sanat ve spor imkânlarının bireyler arasındaki etkileşime, birlikte yaşama kültürüne ve sosyal katılıma katkılarını inceler."
+      },
+      {
+       "label": "b",
+       "text": "Yaşadığı şehrin kültür, sanat ve spor imkânlarının sosyal yaşam ve şehir gelişimi üzerindeki etkilerini bağlamdan kopmadan dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Yaşadığı şehrin kültür, sanat ve spor imkânlarının sosyal yaşam ve şehir gelişimi üzerindeki etkilerini nesnel ve anlamı değiştirmeyecek şekilde yeniden ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "Ş.6.3",
+     "order": 3,
+     "text": "Yaşadığı şehrin kültürel miras unsurlarına ilişkin kanıta dayalı ürün oluşturabilme ve paylaşabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yaşadığı şehrin kültürel miras unsurlarına yönelik incelediği kanıtlara dayanarak çıkarım yapar."
+      },
+      {
+       "label": "b",
+       "text": "Yaşadığı şehrin kültürel miras unsurlarına yönelik kanıtlardan elde ettiği çıkarım üzerine kendi görüşünü yansıtan bir ürün oluşturur."
+      },
+      {
+       "label": "c",
+       "text": "Yaşadığı şehrin kültürel miras unsurlarına yönelik oluşturduğu ürünleri paylaşır."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "unassigned_outcomes": [],
+ "report": {
+  "units": 6,
+  "outcomes": 15,
+  "components": 51,
+  "orphan_outcomes": 0,
+  "gaps": []
+ }
+}

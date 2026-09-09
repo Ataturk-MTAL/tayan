@@ -1,0 +1,1128 @@
+{
+ "course": {
+  "id": 84,
+  "name": "Oyun ve Oyun Etkinlikleri Dersi (Zekâ Oyunları)",
+  "slug": "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-zeka-oyunlari",
+  "prefix": "OOEZO",
+  "shapes": [
+   "OOEZO/noktalı-4"
+  ],
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/oyun-ve-oyun-etkinlikleri-dersi-zeka-oyunlari_20260819_073852_194.pdf"
+ },
+ "units": [
+  {
+   "grade": 1,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "GEOMETRİK-MEKANİK OYUNLAR",
+   "description": "Temanın adını ifade eder. Temada öğrenilmesi amaçlanan Bu temada öğrencilerin uzamsal becerilerini geliştirmek ve bilgi ve becerilere yönelik açıklaonlara soyut düşünme becerisi edindirmek amaçlanmak­ mayı ifade eder. tadır. Temanın işleneceği süreyi ifade eder. Disipline özgü şekilde yapılandırılan becerileri ifade eder. BECERİLERİ Karmaşık bir süreç gerektirmeden edinilen ve gözKAVRAMSAL KB1. Temel Beceriler lenebilen temel beceriler BECERİLER ile soyut fikirleri ve karKB2.13. Yapılandırma maşık süreçleri eyleme KB2.16. Muhakeme (Akıl Yürütme) dönüştürürken zihinsel (KB2.16.1. Tümevarımsal Akıl Yürütme) faaliyetlerin bir ürünü olaÖğrenme-öğretme sürecinde rak işe koşulan bütünleşik ilişkilendirilen sahip olunan beE1.1. Merak, ve üst düzey düşünme cerilerin niyet, duyarlılık, isteklilik becerilerini ifade eder.",
+   "lesson_hours": 13,
+   "sections": {
+    "EĞİLİMLER": "E1.3. Azim ve Kararlılık ve değerlendirme ögeleri doğrulE3.2. Odaklanma tusunda gerekli durumlarda nasıl kullanıldığı ile ilgili zihinsel örünÖğrenme-öğretme süretüleri ifade eder. PROGRAMLAR cinde ilişkilendirilen sosARASI yal-duygusal öğrenme becerilerini, değerleri ve BİLEŞENLER okuryazarlık becerilerini Duyguları yönetmek, empati ifade eder. yapmak, destekleyici ilişkiler SosyalDuygusal kurmak ve sağlıklı bir benlik geÖğrenme SDB1.1. Kendini Tanıma (Öz Farkındalık) liştirmek için gerekli bilgi, beceBecerileri SDB3.2. Esneklik ri ve eğilimler bütününü ifade eder.",
+    "Değerler": "D2. Aile Bütünlüğü İnsani değerlerle birlikte D3. Çalışkanlık millî ve manevi değerleri D10.Mütevazılık ifade eder. D12. Sabır D14. Saygı D15. Sevgi D18. Temizlik Yeni durumlara uyum sağlamayı, Okuryazarlık OB1. Bilgi Okuryazarlığı değişimi fark etmeyi ve gelişen teknolojik yenilikleri günlük haBecerileri OB4. Görsel Okuryazarlık yatta uygulamayı sağlayan becerileri ifade eder. Öğrenme çıktılarında BECERİLER MAB1. Matematiksel Muhakeme kullanılmayan ancak öğ­ ARASI İLİŞKİLER (KB2.4. Çözümleme) renme-öğretme uygula­ SAB2. Görsel Mesajı Okuma malarında bu becerilerle (SAB2.1. Görsel Mesajı Algılama ) ilişkilendirilerek kullanı­ lan kavramsal becerileri ­ve alan becerilerini ifade eder. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ Öğrenme yaşantıları sonunda Disiplin kodu ÇIKTILARI VE Düzey sırası öğrenciye kazandırılması amaçSÜREÇ Programdaki tema sırası lanan bilgi, beceri ve becerilerin Temadaki öğrenme çıktısının sırası BİLEŞENLERİ süreç bileşenlerini ifade eder. OOEZO.1.1.1. OOEZO.1.1.1. Geometrik-mekanik oyunların temel kurallarını açıklayabilme. OOEZO.1.1.2. Geometrik şekilleri tanıyabilme. OOEZO.1.1.3. Başlangıç ve orta seviye geometrik-mekanik oyunlar oynayabilme. a) Geometrik-mekanik oyunlarını inceleyerek mantıksal ilişkiler ortaya koyar. b) Geometrik-mekanik oyunlarda tespit ettiği ilişkilerle ilgili ön bilgilerini kullanarak uyumlu bir bütün oluşturur. OOEZO.1.1.4. Üç boyutlu cisimler arasında hareket, ilişki ve örüntüyü açıklayabilme. OOEZO.1.1.5. Geometrik-mekanik oyunlarda duruma ilişkin tümevarımsal akıl yürütebilme. a) Geometrik-mekanik oyunlarda duruma ilişkin gözlem yapar. b) Geometrik-mekanik oyunlarda duruma ilişkin örüntüyü bulur. c) Geometrik-mekanik oyunlarda duruma ilişkin genelleme yapar. Öğrenme-öğretme sürecinde İÇERİK Tangram ve Çeşitleri Tetramino ele alınan bilgi kümesini (konuya/ alt konuya ilişkin sınırlar) ifade ÇERÇEVESİ Soma Küpleri Domino eder. Birim Küpler Tromino Mekanik Ayırma Oyunları Rubik küp Şekil Oluşturma Oyunları Pentomino Labirentler Mikado Düğüm Oyunları Yapbozlar Küp Sayma Oyunları Disipline ait başlıca anahtar kavAnahtar Kavramlar geometrik şekil, mekanik oyun, üç boyut, örüntü ramları ifade eder. Öğrenme çıktıları, programlar BİLEŞENLERE arası bileşenler arasında kuruYÖNELİK lan ve anlamlı ilişkilere dayanan UYGULAMALAR öğrenme-öğretme sürecini ifade eder. OOEZO.1.1.1 Öğrenme Öğrencilere geometrik-mekanik oyunların temel Becerileri/ kuralları video veya slayt ile açıklanır. Ayrıca öğren- / cilerin bu bilgileri kaydetmesi istenir (OB1). Öğrencilere izletilen video veya slaytla onlarda geBecerileri ometrik-mekanik oyunlara yönelik merak duygusu uyandırılır. Süreçte soru-cevap tekniği kullanılır. Öğrencilerden araştırmak istedikleri bilgiye ulaşma yollarını belirlemeleri ve edindikleri bilgileri eleştirel bakış açısıyla değerlendirmeleri istenir (D3.3). Öğretmenin ve programın güçlü Programa yönelik görüş ve iyileştirilmesi gereken yönÖĞRETMEN ve önerileriniz için lerinin öğretmenlerin kendileri YANSITMALARI karekodu tarafından değerlendirilmesini akıllı cihazınıza okutunuz. ifade eder. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ 2. OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ’NÜN DÜZEYLERİ 2.1. DÜZEY I DÜZEY I"
+   },
+   "outcomes": [
+    {
+     "code": "OOEZO.1.1.1",
+     "order": 1,
+     "text": "Geometrik-mekanik oyunların temel kurallarını açıklayabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.1.1.2",
+     "order": 2,
+     "text": "Geometrik şekilleri tanıyabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.1.1.3",
+     "order": 3,
+     "text": "Başlangıç ve orta seviye geometrik-mekanik oyunlar oynayabilme. BİLEŞENLERİ a) Geometrik-mekanik oyunlarını inceleyerek mantıksal ilişkiler ortaya koyar.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Geometrik-mekanik oyunlarını inceleyerek mantıksal ilişkiler ortaya koyar."
+      },
+      {
+       "label": "b",
+       "text": "Geometrik-mekanik oyunlarda tespit ettiği ilişkilerle ilgili ön bilgilerini kullanarak uyumlu bir bütün oluşturur."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.1.1.4",
+     "order": 4,
+     "text": "Üç boyutlu cisimler arasında hareket, ilişki ve örüntüyü açıklayabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.1.1.5",
+     "order": 5,
+     "text": "Geometrik-mekanik oyunlarda duruma ilişkin tümevarımsal akıl yürütebilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Geometrik-mekanik oyunlarda duruma ilişkin gözlem yapar."
+      },
+      {
+       "label": "b",
+       "text": "Geometrik-mekanik oyunlarda duruma ilişkin örüntüyü bulur."
+      },
+      {
+       "label": "c",
+       "text": "Geometrik-mekanik oyunlarda duruma ilişkin genelleme yapar. Öğrenme-öğretme sürecinde İÇERİK Tangram ve Çeşitleri Tetramino ele alınan bilgi kümesini (konuya/ alt konuya ilişkin sınırlar) ifade ÇERÇEVESİ Soma Küpleri Domino eder. Birim Küpler Tromino Mekanik Ayırma Oyunları Rubik küp Şekil Oluşturma Oyunları Pentomino Labirentler Mikado Düğüm Oyunları Yapbozlar Küp Sayma Oyunları Disipline ait başlıca anahtar kavAnahtar Kavramlar geometrik şekil, mekanik oyun, üç boyut, örüntü ramları ifade eder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "GEOMETRİK-MEKANİK OYUNLAR",
+   "description": "Bu temada öğrencilerin uzamsal becerilerini geliştirmek ve onlara soyut düşünme becerisi edindirmek amaçlanmak­tadır. BECERİLERİ KAVRAMSAL KB1. Temel Beceriler, KB2.13. Yapılandırma, BECERİLER KB2.16. Muhakeme (Akıl Yürütme) (KB2.16.1. Tümevarımsal Akıl Yürütme)",
+   "lesson_hours": 13,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E1.3. Azim ve Kararlılık, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB3.2. Esneklik Öğrenme Becerileri D2. Aile Bütünlüğü, D3. Çalışkanlık, D10. Mütevazılık, D12. Sabır, D14. Saygı, E YÖNELİK UYGULAMALAR OOEZO.1.1.1 Öğrenme Becerileri/ Öğrencilere geometrik-mekanik oyunların temel kuralları video veya slayt ile açıkla-",
+    "Değerler": "D15. Sevgi, D18. Temizlik OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık Becerileri BECERİLER MAB1. Matematiksel Muhakeme (KB2.4. Çözümleme) ARASI İLİŞKİLER SAB2. Görsel Mesajı Okuma (SAB2.1. Görsel Mesajı Algılama ) ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ ÖĞRENME OOEZO.1.1.1. Geometrik-mekanik oyunların temel kurallarını açıklayabilme. ÇIKTILARI VE OOEZO.1.1.2. Geometrik şekilleri tanıyabilme. SÜREÇ OOEZO.1.1.3. Başlangıç ve orta seviye geometrik-mekanik oyunlar oynayabilme. BİLEŞENLERİ a) Geometrik-mekanik oyunlarını inceleyerek mantıksal ilişkiler ortaya koyar. b) Geometrik-mekanik oyunlarda tespit ettiği ilişkilerle ilgili ön bilgilerini kullanarak uyumlu bir bütün oluşturur. OOEZO.1.1.4. Üç boyutlu cisimler arasında hareket, ilişki ve örüntüyü açıklayabilme. OOEZO.1.1.5. Geometrik-mekanik oyunlarda duruma ilişkin tümevarımsal akıl yürütebilme. a) Geometrik-mekanik oyunlarda duruma ilişkin gözlem yapar. b) Geometrik-mekanik oyunlarda duruma ilişkin örüntüyü bulur. c) Geometrik-mekanik oyunlarda duruma ilişkin genelleme yapar. / nır. Ayrıca öğrencilerin bu bilgileri kaydetmeleri istenir (OB1). Öğrencilere izletilen video veya slaytla onlarda geometrik-mekanik oyunlara yönelik Becerileri merak duygusu uyandırılır. Süreçte soru-cevap tekniği kullanılır. Öğrencilerden araştırmak istedikleri bilgiye ulaşma yollarını belirlemeleri ve edindikleri bilgileri eleştirel bakış açısıyla değerlendirmeleri istenir (D3.3). Öğrencilerin geometrik-mekanik oyunlarda öğrendiği bilgileri ailesiyle paylaşmaya istekli olmaları beklenir (D2.2). OOEZO.1.1.2 Öğrencilerin verilen geometrik parçaları dikkatli biçimde incelemeleri sağlanır. Ayrıca şekilleri tanıyıp sınıflandırarak ulaştıkları bilgileri kaydetmeleri istenir (OB1). Öğrencilerin inceledikleri oyunlardan elde ettikleri bilgileri tartışma yöntemiyle değerlendirip yorumlamaları sağlanır (D3.3). Öğrencilerin oyunlardan edindikleri bilgileri tartışırken birbirlerinin duygu ve düşüncelerini anlamak için dikkatle dinlemeleri gerektiği vurgulanır (D15.1). OOEZO.1.1.3 Öğrencilerin geometrik-mekanik oyunların parçaları arasındaki ilişkileri incelemeleri ve çözüm yollarını deneyerek uygun sonuca ulaşmaları istenir (SDB3.2). Öğrencilerin geometrik-mekanik oyunlarda başlangıç ve orta seviye oyun oynarken yaratıcılığını geliştirecek faaliyetlere katılmaları sağlanır (D3.3). Öğrencilerin geometrik-mekanik oyunlar oynarken mekânın temizliğine özen göstermeleri gerektiği vurgulanır (D18.2). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ OOEZO.1.1.4 Öğrencilerin geometrik-mekanik oyunlarda örüntü kavramını fark etmeleri sağlanır. Öğrenciler, bu kavramla ilgili daha önce edindikleri bilgileri gözden geçirir. Öğrenme sürecinde öğrenciler geometrik-mekanik oyunlarındaki üç boyutlu cisimlerin hareketi ile örüntü arasında ilişki kurar. Sürecin sonunda öğrencilerin geometrik-mekanik oyunlara ait üç boyutlu cisimlerin hareketini ve örüntüyü doğru ve anlamlı biçimde açıklamaları, öğrenme sürecinde kendi potansiyellerine güven duymaları beklenir (SDB1.1, D14.2). Öğrencilerin etkinliklerde arkadaşlarına karşı sabırlı olmaları, nazik davranmaları ve onların düşüncelerine anlayış göstermeleri beklenir (D10.3). OOEZO.1.1.5 Öğrencilerin geometrik-mekanik oyun etkinliklerindeki görselleri anlamını bozmadan kendi cümleleriyle yeniden ifade etmeleri istenir (OB4). Öğrencilerin geometrik-mekanik oyunlara yönelik örüntü bulma çalışmalarını kararlılıkla tamamlamaları beklenir (D12.3). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ DÜZEY I",
+    "İÇERİK ÇERÇEVESİ": "Tangram ve Çeşitleri Tetramino Labirentler Soma Küpleri Domino Düğüm Oyunları Birim Küpler Tromino Mikado Mekanik Ayırma Oyunları Rubik küp Küp Sayma Oyunları Şekil Oluşturma Oyunları Pentomino Yapbozlar",
+    "Anahtar Kavramlar": "geometrik şekil, mekanik oyun, üç boyut, örüntü"
+   },
+   "outcomes": [
+    {
+     "code": "OOEZO.1.1.1",
+     "order": 1,
+     "text": "Geometrik-mekanik oyunların temel kurallarını açıklayabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.1.1.2",
+     "order": 2,
+     "text": "Geometrik şekilleri tanıyabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.1.1.3",
+     "order": 3,
+     "text": "Başlangıç ve orta seviye geometrik-mekanik oyunlar oynayabilme. BİLEŞENLERİ a) Geometrik-mekanik oyunlarını inceleyerek mantıksal ilişkiler ortaya koyar.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Geometrik-mekanik oyunlarda tespit ettiği ilişkilerle ilgili ön bilgilerini kullanarak uyumlu bir bütün oluşturur."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.1.1.4",
+     "order": 4,
+     "text": "Üç boyutlu cisimler arasında hareket, ilişki ve örüntüyü açıklayabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.1.1.5",
+     "order": 5,
+     "text": "Geometrik-mekanik oyunlarda duruma ilişkin tümevarımsal akıl yürütebilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Geometrik-mekanik oyunlarda duruma ilişkin gözlem yapar."
+      },
+      {
+       "label": "b",
+       "text": "Geometrik-mekanik oyunlarda duruma ilişkin örüntüyü bulur."
+      },
+      {
+       "label": "c",
+       "text": "Geometrik-mekanik oyunlarda duruma ilişkin genelleme yapar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "SÖZEL OYUNLAR",
+   "description": "Bu temada öğrencilerin kelime ve cümle becerilerinin stratejiler kullanılarak geliştirilmesi amaçlanmaktadır. ALAN BEOSAB3. Taktik ve Strateji Geliştirme, SBAB12. Mantıksal Muhakeme (SBAB12.1. BECERİLERİ Akıl Yürütme Biçimlerini Uygulama) KB1. Temel Beceriler, KB2.12. Mevcut Bilgiye/Veriye Dayalı Tahmin Etme BECERİLER",
+   "lesson_hours": 11,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E3.2. Odaklanma, E3.3. Yaratıcılık",
+    "PROGRAMLAR ARASI BİLEŞENLER": "SDB2.1. İletişim, SDB3.2. Esneklik, SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri E YÖNELİK OOEZO.1.2.1 UYGULAMALAR Öğrencilere sözel oyunların temel kuralları video veya slayt ile açıklanır. Ayrıca öğrencilerin bu bilgileri kaydetmeleri istenir (OB1). Öğrenme Becerileri/ Öğrencilere izletilen video veya slaytla, onlarda sözel oyunlara yönelik merak duygusu",
+    "Değerler": "D2. Aile Bütünlüğü, D3.Çalışkanlık, D4.Dostluk, D11. Özgürlük, D12. Sabır / uyandırılır. Süreçte soru-cevap tekniği kullanılır. Öğrencilerden araştırmak istedikleri Okuryazarlık bilgiye ulaşma yollarını belirlemeleri ve edindikleri bilgileri eleştirel bakış açısıyla deBecerileri ğerlendirmeleri beklenir (D3.3). Öğrencilerin sözel oyunlarda öğrendiği bilgileri ailesiyle paylaşmaya istekli olmaları beklenir (D2.2). OOEZO.1.2.2 Öğrencilerin sözel oyunlardaki ses, hece ve kelime çalışmalarında verilen ipuçları arasındaki ilişkiyi öğrenmeleri beklenir (OB1). Öğrencilerin sözel oyunlarda özgün kelime oluşturmaları istenir. Özgün kelime oluştururken sebat etmeleri sağlanır (OB1, D12.3). Öğrencilerin sözel oyunlarda anlamlı kelime oluştururken Yaratıcılığını geliştirecek faaliyetlere katılmaları sağlanır (D3.3). Öğrencilerin sözel oyunlarda yeni bilgi ile ne yapacağına karar vermesi ve arkadaşlarıyla duygu ve düşüncelerini paylaşmaları sağlanır (OB7, D4.2). Öğrencilerden sözel oyunlar oynarken duygu ve düşüncelerini etkili bir şekilde ifade etmeleri ve arkadaşlarını etkin şekilde dinlemeleri beklenir (SDB2.1). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ OOEZO.1.2.3 Öğrencilerin başlangıç ve orta seviye sözel oyunlarda ulaştıkları değerlendirmeleri karşılaşacakları yeni oyunlara uyarlamaları beklenir (SDB3.3). OOEZO.1.2.4 Öğrencilerin sözel oyunlarda verilen ipuçlarına yönelik en uygun çözüm yollarını bulmaları istenir (SDB3.2). OOEZO.1.2.5 Öğrencilerden sözel oyunlarda belirlediği stratejinin uygulanmasında sorumluluk almaları istenir (D11.2). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ DÜZEY I",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB7. Veri Okuryazarlığı BECERİLER TAB2. Okuma (TAB2.2. Anlam Oluşturma) ARASI İLİŞKİLER SBAB1. Zamanı Algılama ve Kronolojik Düşünme (SBAB1.1. Dönüştürme) ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ ÖĞRENME OOEZO.1.2.1. Sözel oyunların kurallarını açıklayabilme. ÇIKTILARI VE OOEZO.1.2.2. Sözel oyunlara uygun kelimeler üretebilme. SÜREÇ OOEZO.1.2.3. Başlangıç ve orta seviye sözel oyunlarda akıl yürütme biçimlerini uygulaBİLEŞENLERİ yabilme. a) Başlangıç ve orta seviye sözel oyunlarda parçadan bütüne ilişki kurarak sonuca varır. b) Başlangıç ve orta seviye sözel oyunlarda genelden genele ilişki kurarak akıl yürütür. c) Başlangıç ve orta seviye sözel oyunlarda özelden özele ilişki kurarak akıl yürütür. d) Başlangıç ve orta seviye sözel oyunlara yönelik temel stratejileri kullanarak akıl yürütür. OOEZO.1.2.4. Sözel oyunlarda verilen ipuçlarıyla mantıksal çıkarımlar yapabilme. a) Sözel oyunlara ilişkin ön bilgileri kullanır. b) Sözel oyunlarda ön bilgilerden hareketle kurala dayalı alternatif çözümler üretir. c) Sözel oyunlarda sonuca yönelik yargıda bulunur. OOEZO.1.2.5. Sözel oyunlara özgü temel stratejileri kullanabilme. a) Sözel oyunun stratejik problem durumunu belirler. b) Sözel oyunda belirlenen problemin çözümüne ilişkin öneri sunar. c) Sözel oyunda belirlediği stratejiyi uygular.",
+    "İÇERİK ÇERÇEVESİ": "Anagram Şifre Oyunları Kelime Ağı Kelime Yerleştirme Sözcük Gruplama Kelime Avı Sözcük Yerleştirme",
+    "Anahtar Kavramlar": "anagram, kelime, şifre"
+   },
+   "outcomes": [
+    {
+     "code": "OOEZO.1.2.1",
+     "order": 1,
+     "text": "Sözel oyunların kurallarını açıklayabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.1.2.2",
+     "order": 2,
+     "text": "Sözel oyunlara uygun kelimeler üretebilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.1.2.3",
+     "order": 3,
+     "text": "Başlangıç ve orta seviye sözel oyunlarda akıl yürütme biçimlerini uygulaBİLEŞENLERİ yabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Başlangıç ve orta seviye sözel oyunlarda parçadan bütüne ilişki kurarak sonuca varır."
+      },
+      {
+       "label": "b",
+       "text": "Başlangıç ve orta seviye sözel oyunlarda genelden genele ilişki kurarak akıl yürütür."
+      },
+      {
+       "label": "c",
+       "text": "Başlangıç ve orta seviye sözel oyunlarda özelden özele ilişki kurarak akıl yürütür."
+      },
+      {
+       "label": "d",
+       "text": "Başlangıç ve orta seviye sözel oyunlara yönelik temel stratejileri kullanarak akıl yürütür."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.1.2.4",
+     "order": 4,
+     "text": "Sözel oyunlarda verilen ipuçlarıyla mantıksal çıkarımlar yapabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Sözel oyunlara ilişkin ön bilgileri kullanır."
+      },
+      {
+       "label": "b",
+       "text": "Sözel oyunlarda ön bilgilerden hareketle kurala dayalı alternatif çözümler üretir."
+      },
+      {
+       "label": "c",
+       "text": "Sözel oyunlarda sonuca yönelik yargıda bulunur."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.1.2.5",
+     "order": 5,
+     "text": "Sözel oyunlara özgü temel stratejileri kullanabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Sözel oyunun stratejik problem durumunu belirler."
+      },
+      {
+       "label": "b",
+       "text": "Sözel oyunda belirlenen problemin çözümüne ilişkin öneri sunar."
+      },
+      {
+       "label": "c",
+       "text": "Sözel oyunda belirlediği stratejiyi uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "AKIL YÜRÜTME VE İŞLEM OYUNLARI",
+   "description": "Bu temada öğrencilerin oyunlar aracılığıyla problem çözme, strateji geliştirme ve tümdengelim–tümevarıma dayalı akıl yürütme becerilerinin bütüncül olarak geliştirilmesi amaçlanmaktadır. ALAN SBAB12. Mantıksal Muhakeme (SBAB12.1. Akıl Yürütme Biçimlerini Uygulama) BECERİLERİ MAB2. Matematiksel Problem Çözme (MAB2.1. Matematiksel Çözümler Geliştirme) KB1. Temel Beceriler, KB2.11. Gözleme Dayalı Tahmin Etme BECERİLER",
+   "lesson_hours": 13,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "SDB2.1. İletişim, SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri E YÖNELİK OOEZO.1.3.1 UYGULAMALAR Öğrencilere akıl yürütme ve işlem oyunların temel kuralları video veya slayt ile açıklanır. Ayrıca öğrencilerin bu bilgileri kaydetmeleri istenir (OB1). Öğrencilerden akıl yürütme ve işlem oyunları etkinliklerinde aldıkları görevleri zamanında ve eksiksiz şekilde yerine getirmeleri beklenir (D16.3). Öğrenme Becerileri/ Akıl yürütme ve işlem oyunlarının genel kuralları açıklanırken öğrencilerden arkadaş-",
+    "Değerler": "D1. Adalet, D2. Aile Bütünlüğü, D3. Çalışkanlık, D11. Özgürlük, D16. Sorumluluk, / larının sözünü kesmemeleri ve onların konuşmalarının bitmesini beklemeleri istenir Okuryazarlık (SDB2.1). Becerileri Öğrencilerin akıl yürütme ve işlem oyunlarında öğrendiği bilgileri ailesiyle paylaşmaya istekli olmaları beklenir (D2.2). OOEZO.1.3.2 Öğrencilerin akıl yürütme ve işlem oyunlarında verilen ipuçlarından yola çıkarak problemin çözümüne ilişkin çıkarımda bulunmaları beklenir (SDB3.3). Öğrencilerin akıl yürütme ve işlem oyunlarında mantıksal çıkarım yaparken disiplinli ve istikrarlı çalışma alışkanlıkları kazanmaları için etkinliklere katılım sağlamaları beklenir (D3.1). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ OOEZO.1.3.3 Öğrencilerin başlangıç/orta seviye akıl yürütme ve işlem oyunlarında parçaları birleştirerek bir bütün oluşturmaları beklenir (OB1). Öğrencilerden akıl yürütme ve işlem oyunlarında kullandıkları stratejilere ilişkin kendi kararlarını almaları istenir (D11.2). OOEZO.1.3.4 Öğrencilerin akıl yürütme ve işlem oyunlarında verilen etkinliklerdeki ipuçlarından hareketle matematiksel işlem kullanarak ulaştığı çözümleri yansıtmaları beklenir (OB1). Öğrencilerden akıl yürütme ve işlem oyunlarında matematiksel çözümler geliştirirken karar verme sürecinde ön yargılı olmaktan kaçınmaları istenir (D1.4). Öğrencilerden akıl yürütme ve işlem oyunlarında matematiksel çözümler geliştirirken kurallara uyarak zamanı etkili kullanmaları istenir (D3.2). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ DÜZEY I",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı MAB1. Matematiksel Muhakeme (KB2.4. Çözümleme) BECERİLER ARASI İLİŞKİLER SBAB2.Kanıta Dayalı Sorgulama ve Araştırma (SBAB2.6. Kanıta Dayalı Ürün Oluşturma ve Paylaşma) ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ ÖĞRENME OOEZO.1.3.1. Akıl yürütme ve işlem oyunlarında verilen oyunun genel kurallarını açıklaÇIKTILARI VE yabilme. SÜREÇ OOEZO.1.3.2. Akıl yürütme ve işlem oyunlarında verilen ipuçlarından hareketle mantıksal BİLEŞENLERİ çıkarımlar yapabilme. a) Akıl yürütme ve işlem oyunlarında yaptığı gözlemleri bilgileri ile ilişkilendirir. b) Akıl yürütme ve işlem oyunlarında çözüme yönelik çıkarımlarda bulunur. c) Akıl yürütme ve işlem oyunlarında oyuna yönelik yargıda bulunur. OOEZO.1.3.3. Başlangıç ve orta seviye akıl yürütme ve işlem oyunlarında akıl yürütme, işlem strateji biçimlerini uygulayabilme. a) Başlangıç ve orta seviye akıl yürütme ve işlem oyunlarında parçadan bütüne ilişki kurarak sonuca varır. b) Başlangıç ve orta seviye akıl yürütme ve işlem oyunlarında genelden genele ilişki kurarak akıl yürütür. c) Başlangıç ve orta seviye akıl yürütme ve işlem oyunlarında genelden özele ilişki kurarak akıl yürütür. d) Başlangıç ve orta seviye akıl yürütme ve işlem oyunlarında özelden özele ilişki kurarak akıl yürütür. OOEZO.1.3.4. Akıl yürütme ve işlem oyunlarında matematiksel çözümler geliştirebilme. a) Akıl yürütme ve işlem oyunlarının çözümü için bir strateji oluşturur. b) Akıl yürütme ve işlem oyununda stratejiyi kullanarak problemi çözer. c) Akıl yürütme ve işlem oyununun çözümünü kontrol eder.",
+    "İÇERİK ÇERÇEVESİ": "Sudoku Amiral Battı Futoşiki Apartmanlar Abc Kadar Kolay Kakuro Çit Abc Bağlamaca İşlem Karesi Hazine Avı Kare Karalamaca Çarpmaca İşlem Tamamlama Bölmece Kapsül Sihirli Piramit Kendoku Yıldız Savaşları",
+    "Anahtar Kavramlar": "sudoku, çit, sihirli piramit, dört işlem"
+   },
+   "outcomes": [
+    {
+     "code": "OOEZO.1.3.1",
+     "order": 1,
+     "text": "Akıl yürütme ve işlem oyunlarında verilen oyunun genel kurallarını açıklaÇIKTILARI VE yabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.1.3.2",
+     "order": 2,
+     "text": "Akıl yürütme ve işlem oyunlarında verilen ipuçlarından hareketle mantıksal BİLEŞENLERİ çıkarımlar yapabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Akıl yürütme ve işlem oyunlarında yaptığı gözlemleri bilgileri ile ilişkilendirir."
+      },
+      {
+       "label": "b",
+       "text": "Akıl yürütme ve işlem oyunlarında çözüme yönelik çıkarımlarda bulunur."
+      },
+      {
+       "label": "c",
+       "text": "Akıl yürütme ve işlem oyunlarında oyuna yönelik yargıda bulunur."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.1.3.3",
+     "order": 3,
+     "text": "Başlangıç ve orta seviye akıl yürütme ve işlem oyunlarında akıl yürütme, işlem strateji biçimlerini uygulayabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Başlangıç ve orta seviye akıl yürütme ve işlem oyunlarında parçadan bütüne ilişki kurarak sonuca varır."
+      },
+      {
+       "label": "b",
+       "text": "Başlangıç ve orta seviye akıl yürütme ve işlem oyunlarında genelden genele ilişki kurarak akıl yürütür."
+      },
+      {
+       "label": "c",
+       "text": "Başlangıç ve orta seviye akıl yürütme ve işlem oyunlarında genelden özele ilişki kurarak akıl yürütür."
+      },
+      {
+       "label": "d",
+       "text": "Başlangıç ve orta seviye akıl yürütme ve işlem oyunlarında özelden özele ilişki kurarak akıl yürütür."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.1.3.4",
+     "order": 4,
+     "text": "Akıl yürütme ve işlem oyunlarında matematiksel çözümler geliştirebilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Akıl yürütme ve işlem oyunlarının çözümü için bir strateji oluşturur."
+      },
+      {
+       "label": "b",
+       "text": "Akıl yürütme ve işlem oyununda stratejiyi kullanarak problemi çözer."
+      },
+      {
+       "label": "c",
+       "text": "Akıl yürütme ve işlem oyununun çözümünü kontrol eder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 4,
+   "kind": "TEMA",
+   "title": "STRATEJİ OYUNLARI",
+   "description": "Bu temada öğrencilerin karşılıklı oyunlarda strateji geliştirmesi ve kişiler arası ilişkilerini geliştirmesi amaçlan­maktadır. BEOSAB3. Taktik ve Strateji Geliştirme BECERİLERİ KB1. Temel Beceriler, KB.2.15. Yansıtma BECERİLER",
+   "lesson_hours": 13,
+   "sections": {
+    "EĞİLİMLER": "E1.3. Azim ve Kararlılık, E2.2. Sorumluluk, E3.6. Analitiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "SDB2.2. İş Birliği, SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri D2. Aile Bütünlüğü, D3. Çalışkanlık , D4. Dostluk, D6. Dürüstlük, D10. Mütevazılık, E YÖNELİK UYGULAMALAR OOEZO.1.4.1 Öğrenme Becerileri/ Öğrencilere strateji oyunlarının temel kuralları video veya slayt ile açıklanır. Ayrıca",
+    "Değerler": "D16.Sorumluluk OB1. Bilgi Okuryazarlığı Becerileri BECERİLER MAB2. Matematiksel Problem Çözme (MAB2.1. Matematiksel Çözümler Geliştirme) ARASI İLİŞKİLER ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ ÖĞRENME OOEZO.1.4.1. Strateji oyunlarının temel kurallarını açıklayabilme. ÇIKTILARI VE OOEZO.1.4.2. Strateji oyunlarında başlangıç seviyesinde hamle planlaması yapabilme. SÜREÇ a) Strateji oyunlarında başlangıç seviyesindeki hamleleri gözden geçirir. BİLEŞENLERİ b) Strateji oyunlarında başlangıç seviyesindeki hamlelerden çıkarımlar yapar. c) Strateji oyunlarında başlangıç seviyesindeki hamleler üzerinden yaptığı çıkarımları değerlendirir ve hamleleri uygular. OOEZO.1.4.3. Strateji oyunlarına özgü temel stratejileri kullanabilme. a) Strateji oyununun taktiksel problem durumunu belirler. b) Strateji oyununda belirlenen temel stratejileri problemin çözümüne ilişkin öneri olarak sunar. c) Belirlediği temel strateji taktiğini uygular. OOEZO.1.4.4. Başlangıç ve orta seviye strateji oyunlarında taktik ve strateji geliştirebilme. a) Strateji oyununun stratejik problem durumunu belirler. b) Problemin çözümüne yönelik değerlendirme yapar. c) Stratejiyi uygular. / öğrencilerin bu bilgileri kaydetmeleri istenir (OB1). Okuryazarlık Öğrencilerin strateji oyunlarında verilen temel kuralların güvenirliğini ayırt ederek not Becerileri almaları istenir (D3.3). Öğrencilerin strateji oyunlarında öğrendiği bilgileri ailesiyle paylaşmaya istekli olmaları beklenir (D2.2). OOEZO.1.4.2 Öğrencilerden strateji oyunlarında not ettiği temel kurallardan yola çıkarak hamle yapmaları beklenir (OB1). Öğrencilerden strateji oyununda hamleler yaparken rakibine karşı nazik davranış sergilemeleri istenir (D4.2). OOEZO.1.4.3 Öğrencilerin strateji oyununda belirlediği taktiği uygularken olumlu/olumsuz sonuçları görerek sorumluluk almaları istenir (SDB3.3). Öğrencilerden strateji oyununda gösteriş ve övünmekten kaçınması istenir (D10.2). Öğrencilerden strateji oyunlarına özgü temel stratejileri kullanırken hile ve aldatmadan kaçınmaları istenir (D6.2). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ OOEZO.1.4.4 Öğrencilerden strateji oyununda problemin çözümü̈ için belirlediği taktikleri uygularken olumlu/olumsuz sonuçlarını görerek gerektiğinde taktiklerini değiştirmeleri beklenir (SDB3.3). Öğrencilerden strateji oyununda yanlış karar ve davranışlarının telafisi için çaba göstermeleri beklenir (D16.3). Öğrencilerin oynadığı strateji oyunlarının içeriğine göre ortak hedefler doğrultusunda takım oluşturmaları ya da bir takıma katılmaları beklenir (SDB2.2). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ DÜZEY I",
+    "İÇERİK ÇERÇEVESİ": "Go Dokuztaş Pentago Mangala Hedef5 Koridor Üçtaş Kulami Reversi Tic-Tac-Toe Nim Dama",
+    "Anahtar Kavramlar": "hamle, mangala, strateji, plan"
+   },
+   "outcomes": [
+    {
+     "code": "OOEZO.1.4.1",
+     "order": 1,
+     "text": "Strateji oyunlarının temel kurallarını açıklayabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.1.4.2",
+     "order": 2,
+     "text": "Strateji oyunlarında başlangıç seviyesinde hamle planlaması yapabilme. SÜREÇ a) Strateji oyunlarında başlangıç seviyesindeki hamleleri gözden geçirir. BİLEŞENLERİ",
+     "components": [
+      {
+       "label": "b",
+       "text": "Strateji oyunlarında başlangıç seviyesindeki hamlelerden çıkarımlar yapar."
+      },
+      {
+       "label": "c",
+       "text": "Strateji oyunlarında başlangıç seviyesindeki hamleler üzerinden yaptığı çıkarımları değerlendirir ve hamleleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.1.4.3",
+     "order": 3,
+     "text": "Strateji oyunlarına özgü temel stratejileri kullanabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Strateji oyununun taktiksel problem durumunu belirler."
+      },
+      {
+       "label": "b",
+       "text": "Strateji oyununda belirlenen temel stratejileri problemin çözümüne ilişkin öneri olarak sunar."
+      },
+      {
+       "label": "c",
+       "text": "Belirlediği temel strateji taktiğini uygular."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.1.4.4",
+     "order": 4,
+     "text": "Başlangıç ve orta seviye strateji oyunlarında taktik ve strateji geliştirebilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Strateji oyununun stratejik problem durumunu belirler."
+      },
+      {
+       "label": "b",
+       "text": "Problemin çözümüne yönelik değerlendirme yapar."
+      },
+      {
+       "label": "c",
+       "text": "Stratejiyi uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 5,
+   "kind": "TEMA",
+   "title": "HAFIZA OYUNLARI",
+   "description": "Bu temada öğrencilerin bilgiyi kısa süreli bellekten uzun süreli belleğe kalıcı biçimde aktarması amaçlan­maktadır. ALAN BECERİLERİ KB1. Temel Beceriler, KB2.4. Çözümleme, KB2.11. Gözleme Dayalı Tahmin Etme BECERİLER",
+   "lesson_hours": 9,
+   "sections": {
+    "EĞİLİMLER": "E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "SDB1.2. Kendini Düzenleme (Öz Düzenleme) Öğrenme Becerileri E YÖNELİK OOEZO.1.5.1 UYGULAMALAR Öğrencilere hafıza oyunlarının temel kuralları video veya slayt ile açıklanır. Ayrıca öğrencilerden bu bilgileri kaydetmeleri istenir (OB1). Öğrencilere hafıza oyunlarının temel kurallarının açıklanması sürecinde nezaket, ilkeli Öğrenme Becerileri/ duruş, empati, etkili iletişim gibi kavramların ortak değerler olduğunu keşfetmeleri",
+    "Değerler": "D2. Aile Bütünlüğü, D3. Çalışkanlık, D4.Dostluk, D12. Sabır, D14.Saygı / için rehberlik edilir (D14.1, D14.2). Okuryazarlık Öğrencilerden hafıza oyununda hamleler yaparken rakibine karşı nazik davranış serBecerileri gilemeleri istenir (D4.2). Öğrencilerin hafıza oyunlarında öğrendiği bilgileri ailesiyle paylaşmaya istekli olmaları beklenir (D2.2). OOEZO.1.5.2 Öğrencilerden hafıza oyununu oynarken kullandıkları stratejinin işe yarayıp yaramadığını değerlendirmeleri, hatırlamayı kolaylaştırmayan stratejileri fark ederek bunları değiştirmeleri ve daha etkili bir strateji denemeleri beklenir (SDB1.2). Öğrencilerden hafıza oyunlarında mevcut duruma yönelik çıkarım yaparken karşılaştıkları güçlükler nedeniyle süreci bırakmamaları ve yeni denemelerle çözüm üretmeye devam etmeleri beklenir (D12.1). Öğrencilerden hafıza oyunlarında kullanılan görselleri inceleyerek benzerlik ve farklılıkları belirlemeleri istenir (OB4). OOEZO.1.5.3 Öğrencilerden başlangıç ve orta düzey hafıza oyunlarında kullanılan görselleri dikkatle inceleyerek çözüme katkı sağlayacak bilgileri belirlemeleri istenir (OB4). Öğrencilerden başlangıç ve orta düzey hafıza oyunlarını çözümlerken belirledikleri işlem basamaklarını planlı bir biçimde uygulamaları istenir (D3.2). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ DÜZEY I",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık BECERİLER SAB2. Görsel Mesajı Okuma (SAB2.2. Görsel Mesajı Anlamlandırma) ARASI İLİŞKİLER ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ ÖĞRENME OOEZO.1.5.1. Hafıza oyunlarının temel kurallarını açıklayabilme. ÇIKTILARI VE OOEZO.1.5.2. Hafıza oyunlarında mevcut duruma ilişkin ön gözlemlerden yola çıkarak SÜREÇ çıkarım yapabilme ve buna ilişkin yargıda bulunabilme. BİLEŞENLERİ a) Hafıza oyunlarında mevcut duruma ilişkin ön gözlem yapar ve deneyimi ile ilişkilendirir. b) Hafıza oyunlarında mevcut duruma ilişkin çıkarımlar yapar. c) Hafıza oyunlarında mevcut duruma ilişkin yargıda bulunur. OOEZO.1.5.3. Başlangıç ve orta seviyede hafıza oyunlarını çözümleyebilme. a) Başlangıç ve orta seviyede hafıza oyunlarına ilişkin parçaları belirler. b) Başlangıç ve orta seviyede hafıza oyunlarında parçalar arasındaki ilişkileri belirler.",
+    "İÇERİK ÇERÇEVESİ": "Fark Bulma Oyunları Resim Hatırlama Saklı Objeleri Bulma Yön Bulma Nesneyi Tanıma Resim Eşleme Oyunları",
+    "Anahtar Kavramlar": "eşleştirme, hatırlama, yön bulma"
+   },
+   "outcomes": [
+    {
+     "code": "OOEZO.1.5.1",
+     "order": 1,
+     "text": "Hafıza oyunlarının temel kurallarını açıklayabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.1.5.2",
+     "order": 2,
+     "text": "Hafıza oyunlarında mevcut duruma ilişkin ön gözlemlerden yola çıkarak SÜREÇ çıkarım yapabilme ve buna ilişkin yargıda bulunabilme. BİLEŞENLERİ a) Hafıza oyunlarında mevcut duruma ilişkin ön gözlem yapar ve deneyimi ile ilişkilendirir.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Hafıza oyunlarında mevcut duruma ilişkin çıkarımlar yapar."
+      },
+      {
+       "label": "c",
+       "text": "Hafıza oyunlarında mevcut duruma ilişkin yargıda bulunur."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.1.5.3",
+     "order": 3,
+     "text": "Başlangıç ve orta seviyede hafıza oyunlarını çözümleyebilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Başlangıç ve orta seviyede hafıza oyunlarına ilişkin parçaları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Başlangıç ve orta seviyede hafıza oyunlarında parçalar arasındaki ilişkileri belirler."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 6,
+   "kind": "TEMA",
+   "title": "ZEKÂ SORULARI",
+   "description": "Bu temada öğrencilerin parçalardan ve verilerden yola çıkıp akıl yürütme becerilerini kullanarak anlamlı so­nuçlara ulaşması amaçlanmaktadır. ALAN BEOSAB3. Taktik ve Strateji Geliştirme BECERİLERİ KAVRAMSAL KB1. Temel Beceriler, KB2.16. Muhakeme (Akıl Yürütme) (KB2.16.2. Tümdengelimsel BECERİLER Akıl Yürütme), KB3.3. Eleştirel Düşünme",
+   "lesson_hours": 9,
+   "sections": {
+    "EĞİLİMLER": "E3.2. Odaklanma , E3.6. Analitiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "SDB3.2. Esneklik Öğrenme Becerileri E YÖNELİK OOEZO.1.6.1 UYGULAMALAR Öğrencilerden örnek zekâ sorularında yer alan verileri inceleyerek çözüm için gerekli olanları belirlemeleri istenir (OB7). Öğrencilerden zekâ sorularında aldığı kararları uygulamada cesur davranmaları isteÖğrenme Becerileri/ nir (D11.1).",
+    "Değerler": "D3. Çalışkanlık, D4. Dostluk, D11. Özgürlük, D12. Sabır / Öğrencilerin zekâ sorularını inceleyerek ortak hedeflere ulaşmak için arkadaşlarıyla Okuryazarlık dayanışma içinde olmaları beklenir (D4.1). Becerileri OOEZO.1.6.2 Öğrencilerden zekâ sorularında verilen yönergeler doğrultusunda çözüm stratejilerini gerektiğinde uyarlamaları ve çözüm sürecini buna göre sürdürmeleri istenir (SDB3.2). Öğrencilerden zekâ sorularını çözerken karşılaştıkları güçlükler karşısında çözüm arayışını sürdürmeleri ve farklı çözüm yolları denemeleri istenir (D12.1). OOEZO.1.6.3 Öğrencilerin zekâ sorularında temel stratejileri uygularken en uygun olan çözümü kolaylıkla seçmeleri beklenir (SDB3.2). OOEZO.1.6.4 Öğrencilerden zekâ sorularını çözerken soruda verilen bilgileri belirlemeleri, düzenlemeleri ve çözüm sürecinde kullanmaları istenir (OB7). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ Öğrencilerden zekâ sorularını çözerken ulaştıkları bilgileri eleştirel bir bakış açısıyla değerlendirerek bu bilgilerin çözüm için uygunluğunu belirlemeleri beklenir (D3.3). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ 2.2. DÜZEY II DÜZEY II",
+    "Okuryazarlık Becerileri": "OB7. Veri Okuryazarlığı BECERİLER MAB4. Veri ile Çalışma ve Veriye Dayalı Karar Verme (MAB4.2. Verileri Elde Etme ve ARASI İLİŞKİLER Analiz İçin Değerlendirme) TAB1. Dinleme/İzleme (KB2.4. Çözümleme) ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ ÖĞRENME OOEZO.1.6.1. Örnek zekâ sorularını inceleyerek, bu sorulara yönelik yapabileceklerini beÇIKTILARI VE lirleyebilme. SÜREÇ OOEZO.1.6.2. Zekâ sorularında verilen yönergelere ilişkin sorgulama, akıl yürütme ve BİLEŞENLERİ yansıtma yapabilme. a) Zekâ sorularında verilen yönergelerden hareketle zekâ sorusunu sorgular. b) Zekâ sorularında verilen yönergelerden hareketle zekâ sorusu ile ilgili akıl yürütür. c) Zekâ sorularında verilen yönergelerden hareketle zekâ sorusuna yönelik ulaştığı çıkarımları yansıtır. OOEZO.1.6.3. Zekâ sorunlarında kullanılan temel stratejileri uygulayabilme. a) Zekâ sorularında stratejik problem durumunu belirler. b) Zekâ sorularında belirlenen problemin çözümüne ilişkin öneri sunar. c) Belirlediği stratejiyi uygular. OOEZO.1.6.4. Başlangıç ve orta seviye zekâ sorularında duruma ilişkin tümdengelimsel akıl yürütebilme. a) Başlangıç ve orta seviye zekâ sorularında durumu belirler. b) Başlangıç ve orta seviye zekâ sorularında durumdan yola çıkarak bütün-bütün veya bütün-parça ilişkisi kurar. c) Başlangıç ve orta seviye zekâ sorularında genelden genele veya genelden özele çıkarım yapar.",
+    "İÇERİK ÇERÇEVESİ": "Kibrit Çöpleri Kurt, Kuzu ve Ot Yalancı-Doğrucu",
+    "Anahtar Kavramlar": "zekâ sorusu, analitik düşünce"
+   },
+   "outcomes": [
+    {
+     "code": "OOEZO.1.6.1",
+     "order": 1,
+     "text": "Örnek zekâ sorularını inceleyerek, bu sorulara yönelik yapabileceklerini beÇIKTILARI VE lirleyebilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.1.6.2",
+     "order": 2,
+     "text": "Zekâ sorularında verilen yönergelere ilişkin sorgulama, akıl yürütme ve BİLEŞENLERİ yansıtma yapabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Zekâ sorularında verilen yönergelerden hareketle zekâ sorusunu sorgular."
+      },
+      {
+       "label": "b",
+       "text": "Zekâ sorularında verilen yönergelerden hareketle zekâ sorusu ile ilgili akıl yürütür."
+      },
+      {
+       "label": "c",
+       "text": "Zekâ sorularında verilen yönergelerden hareketle zekâ sorusuna yönelik ulaştığı çıkarımları yansıtır."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.1.6.3",
+     "order": 3,
+     "text": "Zekâ sorunlarında kullanılan temel stratejileri uygulayabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Zekâ sorularında stratejik problem durumunu belirler."
+      },
+      {
+       "label": "b",
+       "text": "Zekâ sorularında belirlenen problemin çözümüne ilişkin öneri sunar."
+      },
+      {
+       "label": "c",
+       "text": "Belirlediği stratejiyi uygular."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.1.6.4",
+     "order": 4,
+     "text": "Başlangıç ve orta seviye zekâ sorularında duruma ilişkin tümdengelimsel akıl yürütebilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Başlangıç ve orta seviye zekâ sorularında durumu belirler."
+      },
+      {
+       "label": "b",
+       "text": "Başlangıç ve orta seviye zekâ sorularında durumdan yola çıkarak bütün-bütün veya bütün-parça ilişkisi kurar."
+      },
+      {
+       "label": "c",
+       "text": "Başlangıç ve orta seviye zekâ sorularında genelden genele veya genelden özele çıkarım yapar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "GEOMETRİK-MEKANİK OYUNLAR",
+   "description": "Bu temada öğrencilerin uzamsal beceriler geliştirmeleri, soyut düşünme becerisi kazanmaları ve kendine özgü stratejiler oluşturmaları amaçlanmaktadır. ALAN BECERİLERİ KB1. Temel Beceriler, KB2.13. Yapılandırma, KB2.20. Sentezleme BECERİLER",
+   "lesson_hours": 11,
+   "sections": {
+    "EĞİLİMLER": "E1.3. Azim ve Kararlılık, E3.2. Odaklanma, E3.3. Yaratıcılık",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB1.3. Kendine Uyarlama (Öz YansıtÖğrenme Becerileri ma) E OOEZO.2.1.1 YÖNELİK Öğrencilerden geometrik-mekanik oyunlarda geometrik şekil ve cisimleri görsel UYGULAMALAR özelliklerine göre ayırt etmeleri istenir. Ayrıca belirledikleri özelliklerden hareketle geometrik-mekanik oyunların oynanışına ilişkin benzerlik ve farklılıkları listelemeleri beklenir (OB1, OB4). OOEZO.2.1.2 Öğrenme Becerileri/ Öğrencilerden geometrik-mekanik oyunlarda bir problemle karşılaştıklarında önce-",
+    "Değerler": "D2. Aile Bütünlüğü, D3. Çalışkanlık, D5. Duyarlılık, D7. Estetik, D8. Mahremiyet Okuryazarlık OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB8. Sürdürülebilirlik OkuryazarBecerileri lığı BECERİLER MAB1. Matematiksel Muhakeme (KB2.4. Çözümleme) ARASI İLİŞKİLER SAB2. Görsel Mesajı Okuma (SAB2.1. Görsel Mesajı Algılama) TSRMAB1. Tasarım Ürünü Oluşturma (TSRMAB1.2. Tasarımı Ürüne Dönüştürme) ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ ÖĞRENME OOEZO.2.1.1. Geometrik-mekanik oyunlarda geometrik şekil ve cisimlerin özelliklerini ÇIKTILARI VE tanıyabilme. SÜREÇ OOEZO.2.1.2. Geometrik-mekanik oyunlarda uzamsal becerileri kullanabilme. BİLEŞENLERİ a) Geometrik ve mekanik oyunların mevcut durumunu inceleyerek oyuna yönelik hiyerarşik, nedensel ya da mantıksal ilişkileri ortaya koyar. b) Geometrik-mekanik oyunlarda tespit ettiği ilişkilerle ilgili ön bilgilerinden yararlanarak uyumlu bir bütün oluşturur. OOEZO.2.1.3. Geometrik-mekanik oyunlarda parçalar arasındaki ilişkileri kullanarak özgün bütün oluşturabilme. a) Geometrik-mekanik oyunlarda kullanacağı parçaları belirler. b) Geometrik-mekanik oyunlarda kullanacağı parçalar arasındaki ilişkileri kurar. c) Geometrik-mekanik oyunlarda kullanacağı parçaları kullanarak özgün bir bütün oluşturur. OOEZO.2.1.4. İleri seviye geometrik-mekanik oyunlar arasındaki ilişkileri kullanarak bu ilişkilerden uyumlu bir bütün oluşturabilme. a) Geometrik-mekanik oyunlarını inceleyerek mantıksal ilişkiler ortaya koyar. b) Geometrik-mekanik oyunlarda tespit ettiği ilişkilerle ilgili ön bilgilerini kullanarak uyumlu bir bütün oluşturur. OOEZO.2.1.5. Geri dönüşüm malzemeleri kullanarak özgün Geometrik-mekanik oyun oluşturabilme. a) Geometrik-mekanik oyunlarda kullanacağı geri dönüşüm malzemelerinin parçalarını belirler. b) Geri dönüşüm malzemelerinin parçalar arası ilişkilerini kurar. c) Geri dönüşüm malzemelerinin parçalarını birleştirerek özgün Geometrik-mekanik oyun oluşturur. OOEZO.2.1.6. Parçalar arası ilişki kurarak yeni Geometrik-mekanik oyunlar tasarlayabilme. a) Geometrik-mekanik oyunda kullanacağı parçaları belirler. b) Geometrik-mekanik oyunda kullanacağı parçalar arasında ilişki kurar. c) Geometrik-mekanik oyunda kullanacağı parçaları birleştirerek özgün bir bütün oluşturur. / ki denemelerinde işe yarayan/yaramayan çözüm yollarını değerlendirerek planlarını Okuryazarlık yeni duruma göre uyarlamaları istenir (SDB1.3). Becerileri ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ Öğrencilerden geometrik-mekanik oyunları oynarken kullanılan oyun materyallerindeki renk, biçim, desen ve düzen gibi estetik özellikleri öğrenmeleri ve oyun materyallerini özenli kullanmaları istenir (D7.3). OOEZO.2.1.3 Öğrencilerden geometrik-mekanik oyunlarda karşılaştıkları yeni problemlere yönelik özgün çözüm önerileri geliştirip uygulamaları beklenir (SDB1.3). Öğrencilerden geometrik-mekanik oyunlarda parçalar arasındaki ilişkileri inceleyerek özgün bir geometrik-mekanik oyun oluşturmaları istenir (OB4). Öğrencilerin geometrik-mekanik oyunlarda estetik bakış açısıyla özgün eserler ortaya koymaları istenir (D7.2). OOEZO.2.1.4 Öğrencilerden ileri seviye geometrik-mekanik oyunlarda parçaların biçim, yön ve konum özellikleri arasındaki ilişkileri inceleyerek parçaları uyumlu bir bütün oluşturacak şekilde bir araya getirmeleri istenir (OB4). Öğrencilerden ileri düzey geometrik-mekanik oyunlar arasındaki ilişkilerden yararlanarak çözüm planı oluşturmaları ve bu planı sistemli bir şekilde uygulamaları istenir (D3.2). OOEZO.2.1.5 Öğrencilerden geometrik-mekanik oyunlarda sürdürülebilir malzemeleri kullanarak özgün görsel tasarımlar oluşturmaları ve kullandıkları malzemelerin sürdürülebilirliğini dikkate almaları istenir (OB4, OB8). Öğrencilerden geometrik-mekanik oyunları tasarlarken geri dönüştürülebilir atık materyallerden yararlanarak çevreye duyarlı seçimler yapmaları istenir (D5.2). Öğrencilerden geri dönüştürülebilir malzemeler kullanılarak oyun hazırlanması sürecinde ailesi ile işbirliği yapması istenir (D2.4). Öğrencilerden geri dönüştürülebilir malzemeler kullanılarak oyun hazırlanması sürecinde kişisel eşyaları korumaya ve başkalarını rahatsız edecek davranışlarda bulunmamaya dikkat etmeleri istenir (D8.4). OOEZO.2.1.6 Öğrencilerden geometrik-mekanik oyunlarda yeni bir oyun tasarlamak amacıyla hedef belirlemeleri, kullanacakları materyalleri planlamaları, tasarım sürecine odaklanmaları ve oyunlarını tamamlamaları beklenir (SDB1.2). Öğrencilerden geometrik-mekanik oyunlarda farklı bilgi ve ipuçlarını ilişkilendirerek özgün çözümler geliştirmeleri istenir (OB1). Öğrencilerden geometrik-mekanik oyunlarda yeni oyun tasarlarken estetik bakış açısıyla özgün eserler ortaya koymaları istenir (D7.2). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ DÜZEY II",
+    "İÇERİK ÇERÇEVESİ": "Tangram ve Çeşitleri Tetramino Labirentler Soma Küpleri Domino Düğüm Oyunları Birim Küpler Tromino Mikado Mekanik Ayırma Oyunları Rubik Küp Küp Sayma Oyunları Şekil Oluşturma Oyunları Pentomino Yapbozlar",
+    "Anahtar Kavramlar": "tasarım, parça-bütün, geri dönüşüm"
+   },
+   "outcomes": [
+    {
+     "code": "OOEZO.2.1.1",
+     "order": 1,
+     "text": "Geometrik-mekanik oyunlarda geometrik şekil ve cisimlerin özelliklerini ÇIKTILARI VE tanıyabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.2.1.2",
+     "order": 2,
+     "text": "Geometrik-mekanik oyunlarda uzamsal becerileri kullanabilme. BİLEŞENLERİ a) Geometrik ve mekanik oyunların mevcut durumunu inceleyerek oyuna yönelik hiyerarşik, nedensel ya da mantıksal ilişkileri ortaya koyar.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Geometrik-mekanik oyunlarda tespit ettiği ilişkilerle ilgili ön bilgilerinden yararlanarak uyumlu bir bütün oluşturur."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.1.3",
+     "order": 3,
+     "text": "Geometrik-mekanik oyunlarda parçalar arasındaki ilişkileri kullanarak özgün bütün oluşturabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Geometrik-mekanik oyunlarda kullanacağı parçaları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Geometrik-mekanik oyunlarda kullanacağı parçalar arasındaki ilişkileri kurar."
+      },
+      {
+       "label": "c",
+       "text": "Geometrik-mekanik oyunlarda kullanacağı parçaları kullanarak özgün bir bütün oluşturur."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.1.4",
+     "order": 4,
+     "text": "İleri seviye geometrik-mekanik oyunlar arasındaki ilişkileri kullanarak bu ilişkilerden uyumlu bir bütün oluşturabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Geometrik-mekanik oyunlarını inceleyerek mantıksal ilişkiler ortaya koyar."
+      },
+      {
+       "label": "b",
+       "text": "Geometrik-mekanik oyunlarda tespit ettiği ilişkilerle ilgili ön bilgilerini kullanarak uyumlu bir bütün oluşturur."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.1.5",
+     "order": 5,
+     "text": "Geri dönüşüm malzemeleri kullanarak özgün Geometrik-mekanik oyun oluşturabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Geometrik-mekanik oyunlarda kullanacağı geri dönüşüm malzemelerinin parçalarını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Geri dönüşüm malzemelerinin parçalar arası ilişkilerini kurar."
+      },
+      {
+       "label": "c",
+       "text": "Geri dönüşüm malzemelerinin parçalarını birleştirerek özgün Geometrik-mekanik oyun oluşturur."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.1.6",
+     "order": 6,
+     "text": "Parçalar arası ilişki kurarak yeni Geometrik-mekanik oyunlar tasarlayabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Geometrik-mekanik oyunda kullanacağı parçaları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Geometrik-mekanik oyunda kullanacağı parçalar arasında ilişki kurar."
+      },
+      {
+       "label": "c",
+       "text": "Geometrik-mekanik oyunda kullanacağı parçaları birleştirerek özgün bir bütün oluşturur."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "SÖZEL OYUNLAR",
+   "description": "Bu temada öğrencilerin kelime ve cümle oluşturma becerilerini stratejiler kullanarak geliştirmesi ve bu gelişim doğrultusunda özgün oyun tasarlaması amaçlanmaktadır. ALAN BTYAB4. Dijital Ürün Geliştirme( BTYAB4.1. Tasarım Araç, Teknoloji ve YöntemlerinBECERİLERİ den Yararlanma), SBAB12. Mantıksal Muhakeme (SBAB12.1. Akıl Yürütme Biçimlerini Uygulama) KB1. Temel Beceriler, KB2.20. Sentezleme, KB3.1. Karar Verme BECERİLER",
+   "lesson_hours": 11,
+   "sections": {
+    "EĞİLİMLER": "E3.2. Odaklanma, E3.6. Analitiklik, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB3.2. Esneklik Öğrenme Becerileri E YÖNELİK UYGULAMALAR OOEZO.2.2.1 Öğrencilerden dünya genelinde oynanan sözel oyunlar ile bu alanda öne çıkan oyuncular hakkında güvenilir dijital kaynaklardan araştırma yapmaları, elde ettikleri bilgileri düzenleyerek kaydetmeleri istenir (OB1). Öğrenme Becerileri/ Öğrencilerden sözel oyunların tasarlanması veya oynanması sürecinde ortaya konan",
+    "Değerler": "D3. Çalışkanlık, D8. Mahremiyet, D14. Saygı, D17. Tasarruf / emeğe, başarıya ve fedakârlığa değer vermesi beklenir (D14.3). OOEZO.2.2.2 Becerileri Öğrencilerden sözel oyunların etkinliklerini çözerken karşılaştıkları güçlükler karşısında farklı çözüm yollarını denemeleri beklenir (SDB3.2). Öğrencilerden ileri seviye sözel oyunlarında akıl yürütürken zor durumları aşmak için gayret göstermesi beklenir (D3.1). OOEZO.2.2.3 Öğrencilerden sözel oyunlarda edindikleri bilgileri kullanarak alternatif çözüm seçenekleri hakkında akıl yürütmeleri, ulaştıkları çıkarımları değerlendirerek kararlarına ve çözüm sürecine yansıtmaları istenir (OB1). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ OOEZO.2.2.4 Öğrencilerden dijital teknolojilerden yararlanarak sözel oyunlara yönelik özgün tasarımlar oluşturmaları beklenir. Ayrıca dijital teknolojilerden yararlanarak sözel oyun tasarlarken amacına uygun dijital uygulama, görsel ve diğer dijital kaynakları belirlemeleri öğrencilerden istenir (OB2). Öğrencilerden sözel oyunlar hazırlarken dijital teknolojilerden yararlanmaları, kişisel bilgilerinin yer aldığı dijital araçları bilinçli ve güvenli bir şekilde kullanmaları istenir (D8.2). OOEZO.2.2.5 Öğrencilerden sözel oyunlarda yeni bir oyun tasarlamak amacıyla hedef belirlemesi, kullanacağı materyalleri planlaması ve süreci odaklanarak yönetip kendi oyununu tamamlaması beklenir (SDB1.2). Öğrencilerden kendilerine özgü bir oyun oluştururken mevcut materyal ve kaynakları israf etmeden verimli kullanmaları istenir (D17.3). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ DÜZEY II",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık BECERİLER BTYAB4. Dijital Ürün Geliştirme (BTYAB4.3. Ürün Geliştirme) ARASI İLİŞKİLER TAB1. Dinleme/İzleme (TAB1.2. Anlam Oluşturma) ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ ÖĞRENME OOEZO.2.2.1. Dünya genelinde oynanan sözel oyunları ve önemli oyuncuları tanıyabilme. ÇIKTILARI VE OOEZO.2.2.2. İleri seviye sözel oyunlarda akıl yürütme biçimlerini uygulayabilme. SÜREÇ a) İleri seviye sözel oyunlarda parçadan bütüne ilişki kurarak sonuca varır. BİLEŞENLERİ b) İleri seviye sözel oyunlarda genelden genele ilişki kurarak akıl yürütür. c) İleri seviye sözel oyunlarda genelden özele ilişki kurarak akıl yürütür. d) İleri seviye sözel oyunlarda özelden özele ilişki kurarak akıl yürütür. OOEZO.2.2.3. Sözel oyunlardaki yönergeler doğrultusunda oyuna yönelik verdiği kararın sonuçları üzerinde yansıtma yapabilme. a) Sözel oyunların çözümüne yönelik amaç belirler. b) Sözel oyunların çözümüne yönelik bilgi toplar. c) Sözel oyunların çözümüne yönelik alternatif seçenekler oluşturur. d) Alternatif seçeneklere yönelik mantıksal denetleme yapar. e) Alternatif seçenekler arasından doğruya yakın seçim yapar. f) Yaptığı seçimi ilgili sözel oyuna yansıtır. OOEZO.2.2.4. Dijital teknolojiden yararlanarak sözel oyunlar hazırlayabilme. a) Sözel oyun tasarımı sürecinde kullanılabilecek araç ve yöntemleri tanır. b) Tasarlayacağı oyuna uygun araç, teknoloji ve yöntemleri belirler. c) Tasarlayacağı oyuna uygun araç, teknoloji ve yöntemleri kullanır. d) Tasarlayacağı oyuna uygun araç, teknoloji ve yöntemleri değerlendirir. OOEZO.2.2.5. Yeni sözel oyunlar tasarlar. a) Oyun tasarımında dikkat edilecek hususları bilir. b) Sözel oyunlarda kullanılacak yöntem ve teknikleri belirler. c) Sözel oyunlarda kullanılacak yöntem ve teknikler arasında ilişki kurar. d) Sözel oyunlarda kullanılacak yöntem ve tekniklerden hareketle kendine özgü oyun oluşturur.",
+    "İÇERİK ÇERÇEVESİ": "Anagram Şifre Oyunları Kelime Ağı Kelime Yerleştirme Sözcük Gruplama Kelime Avı Sözcük Yerleştirme",
+    "Anahtar Kavramlar": "anagram, dijital, teknoloji, program, oyun tasarlama"
+   },
+   "outcomes": [
+    {
+     "code": "OOEZO.2.2.1",
+     "order": 1,
+     "text": "Dünya genelinde oynanan sözel oyunları ve önemli oyuncuları tanıyabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.2.2.2",
+     "order": 2,
+     "text": "İleri seviye sözel oyunlarda akıl yürütme biçimlerini uygulayabilme. SÜREÇ a) İleri seviye sözel oyunlarda parçadan bütüne ilişki kurarak sonuca varır. BİLEŞENLERİ b) İleri seviye sözel oyunlarda genelden genele ilişki kurarak akıl yürütür.",
+     "components": [
+      {
+       "label": "c",
+       "text": "İleri seviye sözel oyunlarda genelden özele ilişki kurarak akıl yürütür."
+      },
+      {
+       "label": "d",
+       "text": "İleri seviye sözel oyunlarda özelden özele ilişki kurarak akıl yürütür."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.2.3",
+     "order": 3,
+     "text": "Sözel oyunlardaki yönergeler doğrultusunda oyuna yönelik verdiği kararın sonuçları üzerinde yansıtma yapabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Sözel oyunların çözümüne yönelik amaç belirler."
+      },
+      {
+       "label": "b",
+       "text": "Sözel oyunların çözümüne yönelik bilgi toplar."
+      },
+      {
+       "label": "c",
+       "text": "Sözel oyunların çözümüne yönelik alternatif seçenekler oluşturur."
+      },
+      {
+       "label": "d",
+       "text": "Alternatif seçeneklere yönelik mantıksal denetleme yapar."
+      },
+      {
+       "label": "e",
+       "text": "Alternatif seçenekler arasından doğruya yakın seçim yapar."
+      },
+      {
+       "label": "f",
+       "text": "Yaptığı seçimi ilgili sözel oyuna yansıtır."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.2.4",
+     "order": 4,
+     "text": "Dijital teknolojiden yararlanarak sözel oyunlar hazırlayabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Sözel oyun tasarımı sürecinde kullanılabilecek araç ve yöntemleri tanır."
+      },
+      {
+       "label": "b",
+       "text": "Tasarlayacağı oyuna uygun araç, teknoloji ve yöntemleri belirler."
+      },
+      {
+       "label": "c",
+       "text": "Tasarlayacağı oyuna uygun araç, teknoloji ve yöntemleri kullanır."
+      },
+      {
+       "label": "d",
+       "text": "Tasarlayacağı oyuna uygun araç, teknoloji ve yöntemleri değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.2.5",
+     "order": 5,
+     "text": "Yeni sözel oyunlar tasarlar.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Oyun tasarımında dikkat edilecek hususları bilir."
+      },
+      {
+       "label": "b",
+       "text": "Sözel oyunlarda kullanılacak yöntem ve teknikleri belirler."
+      },
+      {
+       "label": "c",
+       "text": "Sözel oyunlarda kullanılacak yöntem ve teknikler arasında ilişki kurar."
+      },
+      {
+       "label": "d",
+       "text": "Sözel oyunlarda kullanılacak yöntem ve tekniklerden hareketle kendine özgü oyun oluşturur."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "AKIL YÜRÜTME VE İŞLEM OYUNLARI",
+   "description": "Bu temada öğrencilerin akıl yürüterek tümdengelim ve tümevarım becerileri geliştirmesi ve kendine özgü stratejiler kullanabilmesi amaçlanmaktadır. ALAN MAB2. Matematiksel Problem Çözme (MAB2.1. Matematiksel Çözümler Geliştirme BECERİLERİ SBAB12. Mantıksal Muhakeme (SBAB12.1. Akıl Yürütme Biçimlerini Uygulama) KB1. Temel Beceriler, KB2.14. Yorumlama BECERİLER",
+   "lesson_hours": 13,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E1.3. Azim ve Kararlılık, E1.4. Kendine İnanma (Öz Yeterlilik)",
+    "PROGRAMLAR ARASI BİLEŞENLER": "SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri E YÖNELİK OOEZO.2.3.1 Öğrencilerden dünya genelinde oynanan akıl yürütme ve işlem oyunları ile bu alanda UYGULAMALAR öne çıkan oyuncular hakkında güvenilir dijital kaynaklardan araştırma yapmaları, elde ettikleri bilgileri düzenleyerek kaydetmeleri istenir (OB1). Sosyal-Duygusal Öğrencilerden akıl yürütme ve işlem oyunlarında oyunun çözümünü kontrol ederken Öğrenme Becerileri/ olumsuz sonuçlanan durumlarda düşüncelerini değiştirmesi istenir (SDB3.3).",
+    "Değerler": "D2. Aile Bütünlüğü, D3. Çalışkanlık, D8. Mahremiyet, D11. Özgürlük, D17. Tasarruf Okuryazarlık OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB7. Veri Okuryazarlığı, OB8. SürBecerileri dürülebilirlik Okuryazarlığı BECERİLER MAB2. Matematiksel Problem Çözme (KB2.4. Çözümleme) ARASI İLİŞKİLER SBAB2. Kanıta Dayalı Sorgulama ve Araştırma (SBAB2.6. Kanıta Dayalı Ürün Oluşturma ve Paylaşma) ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ ÖĞRENME OOEZO.2.3.1. Dünya genelinde oynanan akıl yürütme ve işlem oyunlarını tanıyabilme. ÇIKTILARI VE OOEZO.2.3.2. Akıl yürütme ve işlem oyunlarında çözüm basamaklarını oyunun özelliğine SÜREÇ göre sıralayabilme. BİLEŞENLERİ OOEZO.2.3.3. İleri seviye akıl yürütme ve işlem oyunlarında akıl yürütme, işlem ve strateji biçimlerini uygulayabilme. a) İleri seviye akıl yürütme ve işlem oyunlarında parçadan bütüne ilişki kurarak sonuca varır. b) İleri seviye akıl yürütme ve işlem oyunlarında genelden genele ilişki kurarak akıl yürütür. c) İleri seviye akıl yürütme ve işlem oyunlarında genelden özele ilişki kurarak akıl yürütür. d) İleri seviye akıl yürütme ve işlem oyunlarında özelden özele ilişki kurarak akıl yürütür. OOEZO.2.3.4. Akıl yürütme ve işlem oyunlarında kendine özgü stratejiler geliştirir. a) Akıl yürütme ve işlem oyunlarının çözümü için bir strateji oluşturur. b) Stratejiyi kullanarak akıl yürütme ve işlem oyunu çözer. c) Akıl yürütme ve işlem oyununun çözümünü̈ kontrol eder. OOEZO.2.3.5. Geri dönüşüm malzemelerini kullanarak akıl yürütme ve işlem oyunu tasarlayabilme. a) Akıl yürütme ve işlem oyununun mevcut durumunu inceler. b) Akıl yürütme ve işlem oyununun mevcut yapısından kopmadan, geri dönüşüm malzemeleri kullanarak yeniden düzenler. c) Akıl yürütme ve işlem oyununun mevcut durumunu, nesnel ve doğru anlamını değiştirmeden, kendi cümleleriyle yeniden ifade eder. / Öğrencilerden dünyanın farklı coğrafyalarında oynanan akıl yürütme ve işlem oyunOkuryazarlık larına yönelik grup çalışması yapmaları ve hazırladıkları çalışmaları sunmaları istenir Becerileri (D3.4). OOEZO.2.3.2 Öğrencilerden akıl yürütme ve işlem oyunlarında çözüm basamaklarına ilişkin verileri sınıflandırarak işlem sürecine uygun hâle getirmeleri istenir (OB7). OOEZO.2.3.3 Öğrencilerden akıl yürütme ve işlem oyunlarının etkinliklerini çözerken tespit ettikleri ilişkileri bütünleştirmeleri ayrıca soruda verilen verileri belirleyip kullanmaları istenir. (OB7). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ OOEZO.2.3.4 Öğrencilerin akıl yürütme oyunlarında aldıkları kararları uygularken kararlılık göstermeleri beklenir (D11.2). OOEZO.2.3.5 Öğrencilerden akıl yürütme ve işlem oyunlarında sürdürülebilir malzemeler kullanarak özgün tasarımlar oluşturmaları istenir (OB4, OB8). Öğrencilerden geri dönüştürülebilir malzemeler kullanılarak hazırlanan oyunların oluşturulmasında harcanan emeğe ve kullanılan kaynaklara değer vermeleri beklenir (D17.3). Öğrencilerden geri dönüştürülebilir malzemeler kullanılarak oyun hazırlanması sürecinde kişisel eşyaları korumaya ve başkalarını rahatsız edecek davranışlarda bulunmamaya dikkat etmeleri istenir (D8.4). Öğrencilerden geri dönüştürülebilir malzemeler kullanılarak oyun hazırlanması sürecinde ailesi ile işbirliği yapması istenir (D2.4). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ DÜZEY II",
+    "İÇERİK ÇERÇEVESİ": "Sudoku Amiral Battı Futoşiki Apartmanlar Abc Kadar Kolay Kakuro Çit Abc Bağlamaca İşlem Karesi Hazine Avı Kare Karalamaca Çarpmaca İşlem Tamamlama Bölmece Kapsül Sihirli Piramit Kendoku Yıldız Savaşları",
+    "Anahtar Kavramlar": "tasarım, geri dönüşüm, matematiksel işlem"
+   },
+   "outcomes": [
+    {
+     "code": "OOEZO.2.3.1",
+     "order": 1,
+     "text": "Dünya genelinde oynanan akıl yürütme ve işlem oyunlarını tanıyabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.2.3.2",
+     "order": 2,
+     "text": "Akıl yürütme ve işlem oyunlarında çözüm basamaklarını oyunun özelliğine SÜREÇ göre sıralayabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.2.3.3",
+     "order": 3,
+     "text": "İleri seviye akıl yürütme ve işlem oyunlarında akıl yürütme, işlem ve strateji biçimlerini uygulayabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "İleri seviye akıl yürütme ve işlem oyunlarında parçadan bütüne ilişki kurarak sonuca varır."
+      },
+      {
+       "label": "b",
+       "text": "İleri seviye akıl yürütme ve işlem oyunlarında genelden genele ilişki kurarak akıl yürütür."
+      },
+      {
+       "label": "c",
+       "text": "İleri seviye akıl yürütme ve işlem oyunlarında genelden özele ilişki kurarak akıl yürütür."
+      },
+      {
+       "label": "d",
+       "text": "İleri seviye akıl yürütme ve işlem oyunlarında özelden özele ilişki kurarak akıl yürütür."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.3.4",
+     "order": 4,
+     "text": "Akıl yürütme ve işlem oyunlarında kendine özgü stratejiler geliştirir.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Akıl yürütme ve işlem oyunlarının çözümü için bir strateji oluşturur."
+      },
+      {
+       "label": "b",
+       "text": "Stratejiyi kullanarak akıl yürütme ve işlem oyunu çözer."
+      },
+      {
+       "label": "c",
+       "text": "Akıl yürütme ve işlem oyununun çözümünü̈ kontrol eder."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.3.5",
+     "order": 5,
+     "text": "Geri dönüşüm malzemelerini kullanarak akıl yürütme ve işlem oyunu tasarlayabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Akıl yürütme ve işlem oyununun mevcut durumunu inceler."
+      },
+      {
+       "label": "b",
+       "text": "Akıl yürütme ve işlem oyununun mevcut yapısından kopmadan, geri dönüşüm malzemeleri kullanarak yeniden düzenler."
+      },
+      {
+       "label": "c",
+       "text": "Akıl yürütme ve işlem oyununun mevcut durumunu, nesnel ve doğru anlamını değiştirmeden, kendi cümleleriyle yeniden ifade eder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 4,
+   "kind": "TEMA",
+   "title": "STRATEJİ OYUNLARI",
+   "description": "Bu temada öğrencilerin karşılıklı oyunlarda stratejiler geliştirmesi ve bu stratejileri oyunlarında kullanarak kişiler arası ilişkilerini geliştirmesi amaçlanmaktadır. ALAN BEOSAB3. Taktik ve Strateji Geliştirme BECERİLERİ KB1. Temel Beceriler, KB2.14. Yorumlama, KB2.20. Sentezleme BECERİLER",
+   "lesson_hours": 13,
+   "sections": {
+    "EĞİLİMLER": "E2.1. Empati, E3.3. Yaratıcılık, E3.6. Analitiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.3. Sosyal Farkındalık, Öğrenme Becerileri SDB3.2. Esneklik E YÖNELİK OOEZO.2.4.1 UYGULAMALAR Öğrencilerin dünya genelinde oynanan strateji oyunları hakkında güvenilir dijital kaynaklardan araştırma yapmaları istenir. Öğrencilerden araştırma sonucunda elde ediSosyal-Duygusal len bilgileri düzenleyerek kaydetmeleri ve açıklamaları istenir (OB1). Öğrenme Becerileri/ Öğrencilerden strateji oyunları turnuvalarını tanıtırken araştırma, hazırlık ve sunum",
+    "Değerler": "D2. Aile Bütünlüğü, D8. Mahremiyet, D14. Saygı, D16. Sorumluluk, D17. Tasarruf Okuryazarlık OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB8. Sürdürülebilirlik OkuryazarBecerileri lığı BECERİLER MAB2. Matematiksel Problem Çözme (MAB2.1. Matematiksel Çözümler Geliştirme) ARASI İLİŞKİLER ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ ÖĞRENME OOEZO.2.4.1. Ulusal ve uluslararası strateji oyunları turnuvalarını açıklayabilme. ÇIKTILARI VE OOEZO.2.4.2. Strateji oyunlarında kendine özgü stratejiler geliştirebilme. SÜREÇ a) Strateji oyununun taktiksel problem durumunu belirler. BİLEŞENLERİ b) Strateji oyununda belirlenen problemin çözümüne ilişkin kendi önerisini sunar. c) Kendi belirlediği taktiği uygular. OOEZO.2.4.3. Geri dönüşüm malzemelerini kullanarak strateji oyunu tasarlayabilme. a) Strateji oyununun mevcut durumunu inceler. b) Strateji oyununun mevcut yapısından kopmadan geri dönüşüm malzemelerini kullanarak strateji oyununu yeniden düzenler. c) Strateji oyununun mevcut durumunu, nesnel ve doğru anlamını değiştirmeden oyunu kendi cümleleriyle yeniden ifade eder. OOEZO.2.4.4. Yeni strateji oyunları tasarlayabilme. a) Strateji oyunlarında kullanılacak araç-gereçleri belirler. b) Strateji oyunlarında kullanılacak araç-gereçler arasında ilişki kurar. c) Strateji oyunlarında ilişki kurulan araç-gereçlerden hareketle özgün oyun tasarlar. OOEZO.2.4.5. İleri seviye strateji oyunlarında taktik ve strateji geliştirebilme. a) Strateji oyununun stratejik problem durumunu belirler. b) Problemin çözümüne yönelik değerlendirme yapar. c) Stratejiyi uygular. / sürecinde özverili davranmaları beklenir (D16.3). Okuryazarlık OOEZO.2.4.2 Becerileri Öğrencilerin strateji oyunlarında geliştirdikleri taktikleri uygularken rakiplerinin duygu ve düşüncelerine karşı duyarlı davranmaları beklenir (SDB2.3). OOEZO.2.4.3 Öğrencilerden strateji oyunlarında sürdürülebilir malzemeler kullanarak özgün tasarımlar oluşturmaları istenir (OB4, OB8). Öğrencilerden geri dönüştürülebilir malzemeler kullanılarak hazırlanan oyunların oluşturulmasında harcanan emeğe ve kullanılan kaynaklara değer vermeleri beklenir (D17.3). Öğrencilerden geri dönüştürülebilir malzemeler kullanılarak oyun hazırlanması sürecinde kişisel eşyaları korumaya ve başkalarını rahatsız edecek davranışlarda bulunmamaya dikkat etmeleri istenir (D8.4). Öğrencilerden geri dönüştürülebilir malzemeler kullanılarak oyun hazırlanması sürecinde ailesi ile işbirliği yapması istenir (D2.4). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ OOEZO.2.4.4 Öğrencilerden strateji oyunlarında yeni bir oyun tasarlamak amacıyla hedef belirlemeleri, kullanacakları materyalleri planlamaları, tasarım sürecine odaklanmaları ve oyunlarını tamamlamaları istenir (SDB1.2). Öğrencilerden strateji oyunlarını tasarlarken ilgi, yetenek ve güçlü yönlerini fark ederek öz saygılarını geliştirmeleri beklenir (D14.2). OOEZO.2.4.5 Öğrencilerden strateji oyunlarında karşılaştıkları güçlüklerin çözümünde farklı yollar denemeleri beklenir (SDB3.2). Öğrencilerden ileri seviye strateji oyunlarında belirledikleri stratejileri uygularken olay ve durumları çok yönlü bir bakış açısıyla değerlendirmeleri beklenir (D14.1). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ DÜZEY II",
+    "İÇERİK ÇERÇEVESİ": "Go Dokuztaş Pentago Mangala Hedef5 Koridor Üçtaş Kulami Reversi Tic-Tac-Toe Nim Dama",
+    "Anahtar Kavramlar": "strateji, mangala, geri dönüşüm"
+   },
+   "outcomes": [
+    {
+     "code": "OOEZO.2.4.1",
+     "order": 1,
+     "text": "Ulusal ve uluslararası strateji oyunları turnuvalarını açıklayabilme.",
+     "components": []
+    },
+    {
+     "code": "OOEZO.2.4.2",
+     "order": 2,
+     "text": "Strateji oyunlarında kendine özgü stratejiler geliştirebilme. SÜREÇ a) Strateji oyununun taktiksel problem durumunu belirler. BİLEŞENLERİ",
+     "components": [
+      {
+       "label": "b",
+       "text": "Strateji oyununda belirlenen problemin çözümüne ilişkin kendi önerisini sunar."
+      },
+      {
+       "label": "c",
+       "text": "Kendi belirlediği taktiği uygular."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.4.3",
+     "order": 3,
+     "text": "Geri dönüşüm malzemelerini kullanarak strateji oyunu tasarlayabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Strateji oyununun mevcut durumunu inceler."
+      },
+      {
+       "label": "b",
+       "text": "Strateji oyununun mevcut yapısından kopmadan geri dönüşüm malzemelerini kullanarak strateji oyununu yeniden düzenler."
+      },
+      {
+       "label": "c",
+       "text": "Strateji oyununun mevcut durumunu, nesnel ve doğru anlamını değiştirmeden oyunu kendi cümleleriyle yeniden ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.4.4",
+     "order": 4,
+     "text": "Yeni strateji oyunları tasarlayabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Strateji oyunlarında kullanılacak araç-gereçleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Strateji oyunlarında kullanılacak araç-gereçler arasında ilişki kurar."
+      },
+      {
+       "label": "c",
+       "text": "Strateji oyunlarında ilişki kurulan araç-gereçlerden hareketle özgün oyun tasarlar."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.4.5",
+     "order": 5,
+     "text": "İleri seviye strateji oyunlarında taktik ve strateji geliştirebilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Strateji oyununun stratejik problem durumunu belirler."
+      },
+      {
+       "label": "b",
+       "text": "Problemin çözümüne yönelik değerlendirme yapar."
+      },
+      {
+       "label": "c",
+       "text": "Stratejiyi uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 5,
+   "kind": "TEMA",
+   "title": "HAFIZA OYUNLARI",
+   "description": "Bu temada bilginin kısa süreli bellekten uzun süreli belleğe kalıcı şekilde transfer edilmesi ve bu bilginin etkin şekilde kullanılabilmesi amaçlanmaktadır. ALAN TSRMAB2 Benzetişim/Benzetim (TSRMAB2.2. Analoji Yapabilme), SAB2. Görsel BECERİLERİ mesajı Okuma (SAB2.2. Görsel Mesajı Anlamlandırma), BEOSAB3. Taktik ve Strateji Geliştirme KB2.4. Çözümleme, KB2.20. Sentezleme BECERİLER",
+   "lesson_hours": 10,
+   "sections": {
+    "EĞİLİMLER": "E3.1. Muhakeme, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB3.2. Esneklik Öğrenme Becerileri E YÖNELİK UYGULAMALAR OOEZO.2.5.1 Öğrencilerden hafıza oyunlarında mantıksal ilişkiler kurarken farklı ipuçlarını bağlam Öğrenme Becerileri/ içinde ilişkilendirerek anlamlı bir bütün oluşturmaları istenir (SDB2.1).",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik, D11. Özgürlük / OOEZO.2.5.2 Öğrencilerden hafıza oyunlarında kullanılan görselleri inceleyerek çözüme ilişkin görBecerileri sel ipuçlarını belirlemeleri beklenir (OB4). Öğrencilerden hafıza oyunlarında görsel ipuçları arasındaki ilişkileri belirlerken zamanı etkili ve verimli kullanmaları istenir (D3.2). OOEZO.2.5.3 Öğrencilerin hafıza oyunlarında etkinlik yaparken karşılaştıkları yeni problemlere yönelik özgün çözüm önerileri geliştirip uygulamaları beklenir (SDB1.3). OOEZO.2.5.4 Öğrencilerden strateji oyunlarında karşılaştıkları güçlüklerin çözümünde farklı yollar denemeleri beklenir (SDB3.2). Öğrencilerden ileri seviye hafıza etkinliklerinde karşılaştıkları yeni durumlara yönelik geliştirdikleri özgün çözüm önerilerini uygularken kararlılık göstermeleri beklenir (D11.2). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ OOEZO.2.5.5 Öğrencilerden yeni hafıza oyunu tasarlarken farklı görselleri ilişkilendirip bir araya getirerek özgün sorular oluşturmaları istenir (OB1). Öğrencilerden yeni hafıza oyunu tasarlarken görsel estetik ilkelerini dikkate alarak tasarımlarını oluşturmaları beklenir (D7.3). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ DÜZEY II",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık BECERİLER SAB2. Görsel Mesajı Okuma (SAB2.2. Görsel Mesajı Anlamlandırma) ARASI İLİŞKİLER TAB4. Yazma (TAB4.2. İçerik Oluşturma) ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ ÖĞRENME OOEZO.2.5.1. Hafıza oyunlarında ipuçları arasında mantıksal ilişkiler kurabilme. ÇIKTILARI VE a) Hafıza oyunu belirler. SÜREÇ b) Hafıza oyununda benzerliği olan veya birbirini andıran iki unsuru ilişkilendirir. BİLEŞENLERİ c) İlişkilendirdiği unsurları sözel olarak yansıtır. OOEZO.2.5.2. Hafıza oyunlarını anlamlandırabilme. a) Hafıza oyunlarında çözüme yönelik mesajları belirler. b) Hafıza oyunlarında mesajlar arasındaki ilişkileri tespit eder. OOEZO.2.5.3. Hafıza oyunlarında kendine özgü stratejiler geliştirebilme. a) Hafıza oyununun taktiksel problem durumunu belirler. b) Hafıza oyununda belirlenen problemin çözümüne ilişkin kendi önerisini sunar. c) Kendi belirlediği taktiği uygular. OOEZO.2.5.4. İleri seviye hafıza oyunları çözümleyebilme. a) İleri seviye hafıza oyunlarına ilişkin parçaları belirler. b) İleri seviye hafıza oyunlarında parçalar arasındaki ilişkileri belirler. OOEZO.2.5.5. Yeni hafıza oyunları tasarlayabilme. a) Hafıza oyunlarında kullanılacak araç-gereçleri belirler. b) Hafıza oyununda kullanılacak araç gereçler arasında ilişki kurar. c) Hafıza oyunlarında ilişki kurulan araç gereçlerden hareketle özgün oyun tasarımı yapar.",
+    "İÇERİK ÇERÇEVESİ": "Fark Bulma Oyunları Resim Hatırlama Saklı Objeleri Bulma Yön Bulma Nesneyi Tanıma Resim Eşleme Oyunları",
+    "Anahtar Kavramlar": "hafıza, hatırlama, tasarlama"
+   },
+   "outcomes": [
+    {
+     "code": "OOEZO.2.5.1",
+     "order": 1,
+     "text": "Hafıza oyunlarında ipuçları arasında mantıksal ilişkiler kurabilme. ÇIKTILARI VE a) Hafıza oyunu belirler. SÜREÇ b) Hafıza oyununda benzerliği olan veya birbirini andıran iki unsuru ilişkilendirir. BİLEŞENLERİ",
+     "components": [
+      {
+       "label": "c",
+       "text": "İlişkilendirdiği unsurları sözel olarak yansıtır."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.5.2",
+     "order": 2,
+     "text": "Hafıza oyunlarını anlamlandırabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hafıza oyunlarında çözüme yönelik mesajları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Hafıza oyunlarında mesajlar arasındaki ilişkileri tespit eder."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.5.3",
+     "order": 3,
+     "text": "Hafıza oyunlarında kendine özgü stratejiler geliştirebilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hafıza oyununun taktiksel problem durumunu belirler."
+      },
+      {
+       "label": "b",
+       "text": "Hafıza oyununda belirlenen problemin çözümüne ilişkin kendi önerisini sunar."
+      },
+      {
+       "label": "c",
+       "text": "Kendi belirlediği taktiği uygular."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.5.4",
+     "order": 4,
+     "text": "İleri seviye hafıza oyunları çözümleyebilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "İleri seviye hafıza oyunlarına ilişkin parçaları belirler."
+      },
+      {
+       "label": "b",
+       "text": "İleri seviye hafıza oyunlarında parçalar arasındaki ilişkileri belirler."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.5.5",
+     "order": 5,
+     "text": "Yeni hafıza oyunları tasarlayabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hafıza oyunlarında kullanılacak araç-gereçleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Hafıza oyununda kullanılacak araç gereçler arasında ilişki kurar."
+      },
+      {
+       "label": "c",
+       "text": "Hafıza oyunlarında ilişki kurulan araç gereçlerden hareketle özgün oyun tasarımı yapar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 6,
+   "kind": "TEMA",
+   "title": "ZEKÂ SORULARI",
+   "description": "Bu temada öğrencilerin yeni ve özgün sorular tasarlaması ve bu soruları grup içerisinde tartışmaya açması amaçlanmaktadır. ALAN BEOSAB3. Taktik ve Strateji Geliştirme BECERİLERİ KAVRAMSAL KB2.13. Yapılandırma, KB2.16. Muhakeme (Akıl Yürütme) (KB2.16.2. Tümdengelimsel BECERİLER Akıl Yürütme), KB2.20. Sentezleme",
+   "lesson_hours": 10,
+   "sections": {
+    "EĞİLİMLER": "E3.2. Odaklanma , E3.6. Analitiklik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR OOEZO.2.6.1 Öğrencilerden zekâ sorularında yeni bir durumla karşılaştıklarında alternatif çözüm Öğrenme Becerileri/ yolları geliştirmeleri istenir (SDB3.2).",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB3.2. Esneklik",
+    "Değerler": "D11. Özgürlük / Öğrencilerden zekâ sorularında tespit ettikleri ilişkileri bütünleştirirken soruda veriOkuryazarlık len verileri belirlemeleri ve kullanmaları istenir (OB7). Becerileri OOEZO.2.6.2 Öğrencilerden zekâ sorularını çözerken karşılaştıkları güçlüklerin çözümünde farklı yollar denemeleri beklenir (SDB3.2). OOEZO.2.6.3 Öğrencilerden zekâ sorularını çözerken karşılaştıkları yeni problemlere yönelik özgün çözüm önerileri geliştirip uygulamaları beklenir (SDB1.3). Öğrencilerden zekâ sorularını çözerken karşılaştıkları yeni durumlara yönelik geliştirdikleri özgün çözüm önerilerini uygularken kararlı olmaları beklenir (D11.2). OOEZO.2.6.4 Öğrencilerden zekâ sorularına yönelik yaptıkları özgün soru tasarımlarını elde ettikleri sonuçlara uyarlamaları beklenir (SDB3.2). ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ Öğrencilerden yeni zekâ soruları tasarlarken farklı bilgileri ilişkilendirerek özgün sorular oluşturmaları istenir (OB1). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB7. Veri Okuryazarlığı BECERİLER TAB2. Okuma (KB2.4. Çözümleme) ARASI İLİŞKİLER MAB4. Veri ile Çalışma ve Veriye Dayalı Karar Verme (MAB4.2. Verileri Elde Etme ve Analiz İçin Değerlendirme) ORTAOKUL OYUN VE OYUN ETKİNLİKLERİ DERSİ ÖĞRETİM PROGRAMI ZEKÂ OYUNLARI MODÜLÜ ÖĞRENME OOEZO.2.6.1. İlgili zekâ oyununda verilen zekâ soruları arasında ilişki kurabilme. ÇIKTILARI VE a) Zekâ oyununu inceleyerek mantıksal ilişkileri ortaya koyar. SÜREÇ b) Tespit ettiği ilişkilerle ilgili ön bilgilerini bütünleştirir. BİLEŞENLERİ OOEZO.2.6.2. İleri seviye zekâ sorularında, duruma ilişkin olarak tümdengelimsel akıl yürütebilme. a) İleri seviye zekâ sorularında durumu belirler. b) İleri seviye zekâ sorularında durumdan yola çıkarak bütün-bütün veya bütün-parça ilişkisi kurar. c) İleri seviye zekâ sorularında genelden genele veya genelden özele çıkarım yapar. OOEZO.2.6.3. Zekâ soruları için kendine özgü stratejiler geliştirebilme a) Zekâ sorularının taktiksel problem durumunu belirler. b) Zekâ sorularında belirlenen problemin çözümüne ilişkin kendi önerisini sunar. c) Kendi belirlediği taktiği uygular. OOEZO.2.6.4. Yeni zekâ soruları tasarlayabilme. a) Zekâ oyununa yönelik kullanılacak araç-gereçleri belirler. b) Zekâ oyununda kullanılacak araç-gereçler arasında ilişki kurar. c) Zekâ oyunlarında ilişki kurulan araç-gereçlerden hareketle özgün oyun tasarımı yapar.",
+    "İÇERİK ÇERÇEVESİ": "Kibrit Çöpleri Kurt, Kuzu ve Ot Yalancı-Doğrucu",
+    "Anahtar Kavramlar": "zekâ sorusu, analitik düşünce"
+   },
+   "outcomes": [
+    {
+     "code": "OOEZO.2.6.1",
+     "order": 1,
+     "text": "İlgili zekâ oyununda verilen zekâ soruları arasında ilişki kurabilme. ÇIKTILARI VE a) Zekâ oyununu inceleyerek mantıksal ilişkileri ortaya koyar. SÜREÇ b) Tespit ettiği ilişkilerle ilgili ön bilgilerini bütünleştirir. BİLEŞENLERİ",
+     "components": []
+    },
+    {
+     "code": "OOEZO.2.6.2",
+     "order": 2,
+     "text": "İleri seviye zekâ sorularında, duruma ilişkin olarak tümdengelimsel akıl yürütebilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "İleri seviye zekâ sorularında durumu belirler."
+      },
+      {
+       "label": "b",
+       "text": "İleri seviye zekâ sorularında durumdan yola çıkarak bütün-bütün veya bütün-parça ilişkisi kurar."
+      },
+      {
+       "label": "c",
+       "text": "İleri seviye zekâ sorularında genelden genele veya genelden özele çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.6.3",
+     "order": 3,
+     "text": "Zekâ soruları için kendine özgü stratejiler geliştirebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Zekâ sorularının taktiksel problem durumunu belirler."
+      },
+      {
+       "label": "b",
+       "text": "Zekâ sorularında belirlenen problemin çözümüne ilişkin kendi önerisini sunar."
+      },
+      {
+       "label": "c",
+       "text": "Kendi belirlediği taktiği uygular."
+      }
+     ]
+    },
+    {
+     "code": "OOEZO.2.6.4",
+     "order": 4,
+     "text": "Yeni zekâ soruları tasarlayabilme.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Zekâ oyununa yönelik kullanılacak araç-gereçleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Zekâ oyununda kullanılacak araç-gereçler arasında ilişki kurar."
+      },
+      {
+       "label": "c",
+       "text": "Zekâ oyunlarında ilişki kurulan araç-gereçlerden hareketle özgün oyun tasarımı yapar."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "unassigned_outcomes": [],
+ "report": {
+  "units": 13,
+  "outcomes": 60,
+  "components": 119,
+  "orphan_outcomes": 0,
+  "gaps": []
+ }
+}

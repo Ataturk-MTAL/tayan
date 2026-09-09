@@ -1,0 +1,525 @@
+{
+ "course": {
+  "id": 98,
+  "name": "Yapay Zekâ Uygulamaları Dersi",
+  "slug": "ortaokul-yapay-zeka-uygulamalari-dersi",
+  "prefix": "YZU",
+  "shapes": [
+   "YZU/noktalı-4",
+   "YZU/yapışık-3"
+  ],
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/yapay-zeka-uygulamalari-dersi_20260819_080024_885.pdf"
+ },
+ "units": [
+  {
+   "grade": 1,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "HAYATIMIZDA YAPAY ZEKÂ",
+   "description": "Bu tema kapsamında öğrencilerin yapay zekâya ilişkin temel kavramları öğrenmesi, bu kavramlarla ilgili sorular sorabilmesi ve doğru bilgi toplayabilmesi, yapay zekâ uygulamalarını tanıyıp sınıflandırabilmesi, çalışma sistemlerini ve alt boyutlarını anlayabilmesi, yapay zekâda etik ve güvenlik-mahremiyet konularını fark ederek gerekli önlemleri ayırt edebilmesi ve uygulamaları bu açıdan değerlendirebilmesi amaçlanmaktadır.",
+   "lesson_hours": 12,
+   "sections": {
+    "ALAN BECERİLERİ": "BTYAB1. Bilişim Teknolojilerini Kullanma (BTYAB1.1. Bilişim Teknolojilerini Sınıflandırma), BTYAB6. Dijital Güvenlik Önlemleri Alma (BTYAB6.1. Dijital Güvenlik Önlemlerini Yönetme)",
+    "KAVRAMSAL BECERİLER": "KB2.8. Sorgulama",
+    "EĞİLİMLER": "E1.1. Merak, E3.8. Soru Sorma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR YZU.1.1.1 • Öğrencilerin çeşitli fikir ve argümanlara açık olmaları için farklı bakış açılarıyla düşünmeleri teşvik edilir. Örneğin bir öğrenci yapay zekânın insan gibi düşünebileceğini savunurken bir başkası bunun mümkün olmadığını belirterek araştırmacı ve sorgulayıcı bir şekilde kendi gerekçelerini ortaya koyabilir (D3.3, SDB3.3). • Öğrencilerin görüşleri alındıktan sonra yapay zekâya ilişkin kısa ve günlük hayattan örnekler verilir (sesli asistanlar, yüz algılama ve tanıma uygulamaları, otonom arabalar vb.). Örneklerdeki yapay zekâ uygulamaları ile nerelerde karşılaştıklarını ve bu uygulamalardan nasıl faydalandıklarını düşünüp ifade etmeleri istenir (SDB1.1). YZU1.1.2 • Yapay zekânın önemli kullanım alanları ile ilgili video izletilir. Teknolojik altyapı mevcut değilse bu kullanım alanlarını gösteren bazı görsellerin çıktısı alınıp tahtaya asılır (OB4). • Öğrenciler; fikir üretme, karar alma ve uygulama süreçlerinde aktif rol almak amacıyla beş–altı kişilik rastgele gruplara ayrılır (D3.4). • Öğrencilerden mevcut bilgilerini kullanarak bir konunun tam olarak öğrenilebilmesi için gerekli olan adımların neler olduğuna ilişkin varsayımda bulunmaları ve düşüncelerini paylaşmaları istenir (SDB2.1). YZU1.1.3 • Öğrencilerin etik ve güvenlik kararlarını sorumlu teknoloji yaklaşımı doğrultusunda bilinçli, gerekçeli ve tutarlı biçimde vermeleri beklenir (SDB3.1). • Öğrencilerin yapay zekâ uygulamalarında adil, doğru ve güvenli davranmaları, yapılan işlemlerin sonuçlarını hukuki ve ahlaki açıdan değerlendirmeleri beklenir (D1.3). • Öğrencilerin yapay zekâ uygulamalarında etik kullanım ilkelerini açıklamaları ve kişisel verilerin gizliliğini korumaları beklenir (D8.2). • Alınan kararların ahlaki olarak uygunluğunu değerlendirmeleri beklenir (SDB3.3). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI I. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.1. İletişim, SDB3.1. Uyum, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D1. Adalet, D3. Çalışkanlık, D8. Mahremiyet",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık BECERİLER ARASI İLİŞKİLER ORTAOKUL YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "YZU1.1.1. Yapay zekâya ilişkin temel kavramları sorgulayabilme a) Yapay zekâya ilişkin temel kavramları tanımlar. b) Yapay zekâya ilişkin temel kavramlar ile ilgili sorular sorar. c) Yapay zekâya ilişkin temel kavramlar ile ilgili bilgi toplar. ç) Yapay zekâya ilişkin temel kavramlar ile ilgili toplanan bilgilerin doğruluğunu değerlendirir. d) Toplanan bilgiler üzerinden çıkarım yapar. YZU1.1.2. Yapay zekânın uygulamalarını sınıflandırabilme a) Yapay zekâ uygulamalarını belirler. b) Yapay zekâ uygulamalarının çalışma sistemi bileşenlerini ilişkilendirir. c) Yapay zekâ uygulamalarını alt boyutlara göre gruplandırır. YZU1.1.3. Yapay zekâya ilişkin etik ve güvenlik-mahremiyet önlemlerini yönetebilme a) Yapay zekâda etik ve güvenlik/mahremiyet risklerini belirler. b) Yapay zekâda etik ve güvenlik/mahremiyet önlemlerini belirler. c) Yapay zekâda etik ilkelerin ve bilgi güvenliğinin/mahremiyetinin temel bileşenlerini ayırt eder. ç) Yapay zekâ uygulamalarını etik ilkeler ile güvenlik/mahremiyet açısından değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Yapay Zekâya Genel Bakış Yapay Zekâ Uygulamalarını Tanıma ve Sınıflandırma Yapay Zekâda Etik",
+    "Anahtar Kavramlar": "akıllı sistemler, etik, güvenlik, mahremiyet, nesnelerin interneti, sensör, veri, yapay zekâ"
+   },
+   "outcomes": [
+    {
+     "code": "YZU1.1.1",
+     "order": 1,
+     "text": "Yapay zekâya ilişkin temel kavramları sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapay zekâya ilişkin temel kavramları tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Yapay zekâya ilişkin temel kavramlar ile ilgili sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Yapay zekâya ilişkin temel kavramlar ile ilgili bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Yapay zekâya ilişkin temel kavramlar ile ilgili toplanan bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Toplanan bilgiler üzerinden çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "YZU1.1.2",
+     "order": 2,
+     "text": "Yapay zekânın uygulamalarını sınıflandırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapay zekâ uygulamalarını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yapay zekâ uygulamalarının çalışma sistemi bileşenlerini ilişkilendirir."
+      },
+      {
+       "label": "c",
+       "text": "Yapay zekâ uygulamalarını alt boyutlara göre gruplandırır."
+      }
+     ]
+    },
+    {
+     "code": "YZU1.1.3",
+     "order": 3,
+     "text": "Yapay zekâya ilişkin etik ve güvenlik-mahremiyet önlemlerini yönetebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapay zekâda etik ve güvenlik/mahremiyet risklerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yapay zekâda etik ve güvenlik/mahremiyet önlemlerini belirler."
+      },
+      {
+       "label": "c",
+       "text": "Yapay zekâda etik ilkelerin ve bilgi güvenliğinin/mahremiyetinin temel bileşenlerini ayırt eder."
+      },
+      {
+       "label": "ç",
+       "text": "Yapay zekâ uygulamalarını etik ilkeler ile güvenlik/mahremiyet açısından değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "YAPAY ZEKÂ GELIŞTIRME ORTAMLARI",
+   "description": "Bu tema kapsamında öğrencilerin yapay zekâ araç ve teknolojilerini amacına uygun olarak kullanabilmesi, blok tabanlı yapay zekâ uygulama-geliştirme ortamlarını hazırlayıp düzenleyebilmesi ve uygulama-geliştirme sürecinde bileşenleri etkin bir şekilde kullanabilmesi amaçlanmaktadır.",
+   "lesson_hours": 22,
+   "sections": {
+    "ALAN BECERİLERİ": "BTYAB1. Bilişim Teknolojilerini Kullanma (BTYAB1.2. Bilişim Teknolojileri ile Çalışma), BTYAB3. Yazılım Geliştirme (BTYAB3.1. Yazılım Geliştirme Ortamını Hazırlama), BTYAB3. Yazılım Geliştirme (BTYAB3.2. Yazılım Geliştirme Sürecinde Kullanılan Bileşen/Yapı/Yöntemlerinden Yararlanma)",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E3.6. Analitiklik, E3.7. Sistematiklik, E3.8. Soru Sorma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR YZU1.2.1 • Yapay zekâ araç ve teknolojilerini uygunluk ve verimlilik açısından değerlendirme sürecinde araçların performansını ve sınırlarını objektif, abartıdan uzak ve gerçeğe dayalı biçimde değerlendirmeleri beklenir (D6.2). • Öğrencilerin yapay zekâ araçlarını kullanırken kendilerini düzenleyerek görevi planlı ve dikkatli biçimde tamamlamaları beklenir (SDB1.2). • Öğrencilerin yapay zekâ teknolojilerini seçme ve kullanma sürecinde hangi durumlarda hangi teknolojiyi tercih etmeleri gerektiğini sorgulayarak, sorumluluk bilinciyle hareket etmeleri ve etik ilkelere uygun davranmaları beklenir. (D16.3). • Öğrencilerin dijital ortamda kullandıkları yapay zekâ araçlarını amacına uygun biçimde seçmeleri beklenir (OB2). YZU1.2.2 • Öğrencilerin geliştirme ortamını düzenleme sürecinde bu düzenlemelerin süreci nasıl etkilediğini merak ederek dikkatlerini sürdürmeleri ve süreci bağımsız biçimde yönetmeleri beklenir (SDB1.2). • Öğrencilerin geliştirme ortamını hazırlarken verilen görevi zamanında ve doğru biçimde yerine getirmeleri beklenir (D16.3). • Öğrencilerin geliştirme ortamını yapılandırırken dijital araçlarla etkin biçimde iş görmeleri beklenir (OB2). • Öğrencilerin bu süreçte kendi kararlarını alma yeteneği göstermeleri ve verdiği kararların sorumluluğunu almaları beklenir (D11.2). YZU1.2.3 • Öğrencilerin yapay zekâ uygulaması geliştirme sürecinde görev paylaşımı yaparak ekip içinde iş birliği kurmaları beklenir (SDB2.2). • Öğrencilerin yapay zekâ bileşenlerini değerlendirirken adil ve nesnel davranmaları, teknolojik kararlarını etik ilkeler doğrultusunda vermeleri beklenir (D1.3). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI I. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.2. İş Birliği",
+    "Değerler": "D1. Adalet, D6. Dürüstlük, D11. Özgürlük, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık BECERİLER ARASI İLİŞKİLER ORTAOKUL YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "YZU1.2.1. Yapay zekâ teknolojileri ile çalışabilme a) Yapay zekâ araç ve teknolojilerini amacına uygun olarak belirler. b) Yapay zekâ araç ve teknolojilerini amacına uygun olarak kullanır. c) Yapay zekâ araç ve teknolojilerini uygunluk/verimlilik kapsamında değerlendirir. YZU1.2.2. Blok tabanlı yapay zekâ uygulama-geliştirme ortamını hazırlayabilme a) Blok tabanlı yapay zekâ uygulama-geliştirme ortamlarını tanır. b) Blok tabanlı yapay zekâ uygulama-geliştirme ortamını belirler. c) Blok tabanlı yapay zekâ uygulama-geliştirme ortamını düzenler. YZU1.2.3. Blok tabanlı yapay zekâ uygulama-geliştirme sürecinde kullanılan bileşenlerden yararlanabilme a) Blok tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini tanır. b) Blok tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini kullanır. c) Blok tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Yapay Zekâ Araçlarını Tanıma ve Kullanma Blok Tabanlı Yapay Zekâ Ortamını Tanıma ve Hazırlama Blok Tabanlı Yapay Zekâ Uygulamalarının Temel Bileşenleri",
+    "Anahtar Kavramlar": "blok tabanlı programlama, çıktı, girdi, model bileşenleri"
+   },
+   "outcomes": [
+    {
+     "code": "YZU1.2.1",
+     "order": 1,
+     "text": "Yapay zekâ teknolojileri ile çalışabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapay zekâ araç ve teknolojilerini amacına uygun olarak belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yapay zekâ araç ve teknolojilerini amacına uygun olarak kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Yapay zekâ araç ve teknolojilerini uygunluk/verimlilik kapsamında değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "YZU1.2.2",
+     "order": 2,
+     "text": "Blok tabanlı yapay zekâ uygulama-geliştirme ortamını hazırlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Blok tabanlı yapay zekâ uygulama-geliştirme ortamlarını tanır."
+      },
+      {
+       "label": "b",
+       "text": "Blok tabanlı yapay zekâ uygulama-geliştirme ortamını belirler."
+      },
+      {
+       "label": "c",
+       "text": "Blok tabanlı yapay zekâ uygulama-geliştirme ortamını düzenler."
+      }
+     ]
+    },
+    {
+     "code": "YZU1.2.3",
+     "order": 3,
+     "text": "Blok tabanlı yapay zekâ uygulama-geliştirme sürecinde kullanılan bileşenlerden yararlanabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Blok tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini tanır."
+      },
+      {
+       "label": "b",
+       "text": "Blok tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Blok tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "YAPAY ZEKÂ UYGULAMALARI",
+   "description": "Bu tema kapsamında öğrencilerin yapay zekâ modeli geliştirmek için gerekli girdileri belirleyip toplaması, doğrulaması ve kaydetmesi, blok tabanlı ortamda gerçek hayat problemleri için yapay zekâ modelleri oluşturması, bu modelleri uygulaması ve süreç ile sonuçlarını değerlendirebilmesi amaçlanmaktadır.",
+   "lesson_hours": 34,
+   "sections": {
+    "ALAN BECERİLERİ": "BTYAB4. Dijital Ürün Geliştirme (BTYAB4.4. Simülasyon/ Model Geliştirme)",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E1.1. Merak, E2.1. Empati, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR YZU1.3.1 • Yapay zekâ modeli girdileri hakkında bilgileri bulma sürecinde güvenilir ve doğrulanabilir kaynaklardan elde edilen bilgileri esas almaları beklenir (D6.1). • Öğrencilerin bilgi toplama sürecinde grup arkadaşlarıyla görev paylaşımı yaparak etkili biçimde iş birliği kurmaları beklenir (SDB2.2). • Öğrencilerin bilgi toplama araçlarını kullanırken dijital ortamda etkin biçimde iş görmeleri beklenir (OB2). • Öğrencilerin bilgi toplama sürecinde farklı kaynaklardan elde edilen bilgilerin nasıl çeşitlenip zenginleştiğini merak ederek birbirlerine destek olmaları beklenir (D4.1). YZU1.3.2 • Öğrencilerin yapay zekâ modelini geliştirirken grup üyeleriyle iş birliği içinde çalışmaları, fikirlerini paylaşmaları ve süreci birlikte yönetmeleri beklenir (SDB2.2). • Öğrencilerin model geliştirme sürecinde açık, saygılı ve etkili iletişim kurmaları, dijital ortamda uygun dil kullanmaları beklenir (SDB2.1, D14.1). • Öğrencilerden grup çalışmalarında arkadaşlarının görüşlerine anlayışla yaklaşmaları, farklı düşüncelere empatiyle cevap vermeleri ve estetik bakış açısıyla özgün ürünler geliştirmeleri beklenir (SDB2.3, D7.2). • Öğrencilerin blok tabanlı ortamda yapay zeka modeli için gerçek hayat problemi belirlerken kültürel mirasımıza ait eserleri kullanmaları beklenir (D19.3). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI II. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık",
+    "Değerler": "D4. Dostluk, D6. Dürüstlük, D7. Estetik, D14. Saygı, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık BECERİLER ARASI İLİŞKİLER ORTAOKUL YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "YZU1.3.1. Yapay zekâ modeli geliştirmek için bilgi toplayabilme a) Yapay zekâ modeli girdileri için uygun araçları belirler. b) Yapay zekâ modeli girdileri hakkında bilgileri bulur. c) Yapay zekâ modeli girdilerini doğrular. ç) Yapay zekâ modeli girdilerini kaydeder. YZU1.3.2. Blok tabanlı ortamda yapay zekâ modeli geliştirme a) Blok tabanlı ortamda yapay zekâ modeli için gerçek hayat problemi belirler. b) Belirlenen problemin çözümü veya olası risklerin önlenmesi için girdileri kullanarak yapay zekâ modeli oluşturur. c) Yapay zekâ modelini uygular. ç) Yapay zekâ modelinin süreç ve sonuçlarını değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Yapay Zekâ Modeli Girdilerini Toplama ve Doğrulama Blok Tabanlı Ortamda Yapay Zekâ Modeli Geliştirme",
+    "Anahtar Kavramlar": "basit yapay zekâ modeli, problem tanımlama, veri doğrulama, veri kaydetme, veri toplama"
+   },
+   "outcomes": [
+    {
+     "code": "YZU1.3.1",
+     "order": 1,
+     "text": "Yapay zekâ modeli geliştirmek için bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapay zekâ modeli girdileri için uygun araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yapay zekâ modeli girdileri hakkında bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Yapay zekâ modeli girdilerini doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Yapay zekâ modeli girdilerini kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "YZU1.3.2",
+     "order": 2,
+     "text": "Blok tabanlı ortamda yapay zekâ modeli geliştirme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Blok tabanlı ortamda yapay zekâ modeli için gerçek hayat problemi belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlenen problemin çözümü veya olası risklerin önlenmesi için girdileri kullanarak yapay zekâ modeli oluşturur."
+      },
+      {
+       "label": "c",
+       "text": "Yapay zekâ modelini uygular."
+      },
+      {
+       "label": "ç",
+       "text": "Yapay zekâ modelinin süreç ve sonuçlarını değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "HAYATIMIZDA YAPAY ZEKÂ",
+   "description": "Bu tema kapsamında öğrencilerin makine öğrenmesi ve bulanık mantığa ilişkin temel kavramları tanıyıp sorgulayabilmesi, bu kavramlarla ilgili bilgi toplayıp bu bilgilerin doğruluğunu değerlendirebilmesi ve topladığı bilgiler üzerinden çıkarımlar yapabilmesi, yapay zekâ bileşenlerini içeren problemleri alt problemlere ayırabilmesi, her bir alt problemi uygun yaklaşımlarla çözebilmesi ve alt problemleri bütünsel bir çözüm için birleştirebilmesi amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "BTYAB2. Bilgi İşlemsel Düşünme (BTYAB2.3. Ayrıştırma)",
+    "KAVRAMSAL BECERİLER": "KB2.8. Sorgulama",
+    "EĞİLİMLER": "E1.1. Merak, E3.6. Analitiklik, E3.8. Soru Sorma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR YZU2.1.1 • Makine öğrenmesine ilişkin bilgi toplama sürecini kuralına uygun olarak getirir (D6.1). • Makine öğrenmesine ilişkin temel sorgulama, bilgilerin doğruluğunu ve etik/güvenlik boyutlarını değerlendirme ile çıkarım yapma süreçlerinde tarafsız, hakkaniyetli ve etik ilkelere uygun hareket etmeleri beklenir (D1.2). • Öğrencilerin bilgi toplama sürecinde doğru, güvenilir ve etik bilgi kaynaklarını tercih etmeleri ve sorumlu teknoloji yaklaşımı doğrultusunda bu bilgileri sorumluluk bilinciyle doğrulayıp amacına uygun kullanmaları beklenir (D16.2). YZU2.1.2 • Öğrencilerin bulanık mantık uygulamalarının insan hayatına etkilerine karşı duyarlı olmaları, bu sistemleri güvenli ve adil kullanımını savunmaları beklenir (D6.1, D1.2). • Öğrencilerin bulanık mantığa ilişkin kavramları araştırırken bilgiye doğru kaynaklardan erişmeleri, bilgiyi doğruluk ve güvenilirlik açısından değerlendirmeleri beklenir (OB1). YZU2.1.3 • Öğrencilerin grup çalışmaları sırasında fikir alışverişinde bulunarak birlikte çözüm üretmeleri beklenir (SDB2.2). • Öğrencilerin bu süreçte birbirlerine destek olmaları beklenir (D4.1). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI II. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.2. İş Birliği",
+    "Değerler": "D1. Adalet, D4. Dostluk, D6. Dürüstlük, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı BECERİLER ARASI İLİŞKİLER ORTAOKUL YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "YZU2.1.1. Makine öğrenmesine ilişkin temel kavramları sorgulayabilme a) Makine öğrenmesine ilişkin temel kavramları tanımlar. b) Makine öğrenmesine ilişkin temel kavramlar ile ilgili sorular sorar. c) Makine öğrenmesine ilişkin temel kavramlar ile ilgili bilgi toplar. ç) Makine öğrenmesine ilişkin temel kavramlar ile ilgili toplanan bilgilerin doğruluğunu, etik ve güvenlik/mahremiyet açısından uygunluğunu değerlendirir. d) Toplanan bilgiler üzerinden çıkarım yapar. YZU2.1.2. Bulanık mantığa ilişkin temel kavramları sorgulayabilme a) Bulanık mantığa ilişkin temel kavramları tanımlar. b) Bulanık mantığa ilişkin temel kavramlar ile ilgili sorular sorar. c) Bulanık mantığa ilişkin temel kavramlar ile ilgili bilgi toplar. ç) Bulanık mantığa ilişkin temel kavramlar ile ilgili toplanan bilgilerin doğruluğunu, etik ve güvenlik/ mahremiyet açısından uygunluğunu değerlendirir. d) Toplanan bilgiler üzerinden çıkarım yapar. YZU2.1.3. Yapay zekâ bileşenlerini ayrıştırabilme a) Yapay zekâ bileşenlerini içeren problemi alt problemlere ayırır. b) Her bir alt problemi uygun yaklaşımlarla çözümler. c) Alt problemleri bütünsel bir çözüm için birleştirir.",
+    "İÇERİK ÇERÇEVESİ": "Makine Öğrenmesinde Temel Kavramlar Bulanık Mantığın Temel Kavramlarını Keşfetme Yapay Zekâ Problemlerinde Çözüm Yöntemleri",
+    "Anahtar Kavramlar": "bulanık mantık, makine öğrenmesi, mantıksal yaklaşım, örüntü tanıma, tahmin, veri kümesi"
+   },
+   "outcomes": [
+    {
+     "code": "YZU2.1.1",
+     "order": 1,
+     "text": "Makine öğrenmesine ilişkin temel kavramları sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Makine öğrenmesine ilişkin temel kavramları tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Makine öğrenmesine ilişkin temel kavramlar ile ilgili sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Makine öğrenmesine ilişkin temel kavramlar ile ilgili bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Makine öğrenmesine ilişkin temel kavramlar ile ilgili toplanan bilgilerin doğruluğunu, etik ve güvenlik/mahremiyet açısından uygunluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Toplanan bilgiler üzerinden çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "YZU2.1.2",
+     "order": 2,
+     "text": "Bulanık mantığa ilişkin temel kavramları sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bulanık mantığa ilişkin temel kavramları tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Bulanık mantığa ilişkin temel kavramlar ile ilgili sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Bulanık mantığa ilişkin temel kavramlar ile ilgili bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Bulanık mantığa ilişkin temel kavramlar ile ilgili toplanan bilgilerin doğruluğunu, etik ve güvenlik/ mahremiyet açısından uygunluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Toplanan bilgiler üzerinden çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "YZU2.1.3",
+     "order": 3,
+     "text": "Yapay zekâ bileşenlerini ayrıştırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapay zekâ bileşenlerini içeren problemi alt problemlere ayırır."
+      },
+      {
+       "label": "b",
+       "text": "Her bir alt problemi uygun yaklaşımlarla çözümler."
+      },
+      {
+       "label": "c",
+       "text": "Alt problemleri bütünsel bir çözüm için birleştirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "YAPAY ZEKÂ UYGULAMA-GELIŞTIRME ORTAMLARI",
+   "description": "Bu tema kapsamında öğrencilerin metin tabanlı yapay zekâ uygulama-geliştirme ortamlarını tanıyıp hazırlayabilmesi, ortamı düzenleyebilmesi, geliştirme sürecinde kullanılan bileşenleri tanıyıp etkin bir şekilde kullanabilmesi ve değerlendirebilmesi amaçlanmaktadır.",
+   "lesson_hours": 20,
+   "sections": {
+    "ALAN BECERİLERİ": "BTYAB3. Yazılım Geliştirme (BTYAB3.1. Yazılım Geliştirme Ortamını Hazırlama), BTYAB3. Yazılım Geliştirme (BTYAB3.2. Yazılım Geliştirme Sürecinde Kullanılan Bileşen/Yapı/Yöntemlerinden Yararlanma)",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.6. Seçicilik, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR YZU2.2.1 • Öğrencilerin metin tabanlı kodlama ortamında kullandıkları araçları ihtiyaçlarına en uygun olanları seçerek amacına uygun ve etkin bir şekilde düzenlemeleri beklenir (OB2). YZU2.2.2 • Metin tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerinin değerlendirilmesinde elde edilen sonuçları ve süreç çıktılarını olduğu gibi doğru değerlendirmeleri beklenir (D6.2). • Öğrencilerin bileşenlerin kullanımında süreklilik göstermeleri ve karşılaştıkları zorluklarda sabırla ve kararlılıkla davranmaları beklenir (D12.3). • Öğrencilerin bu süreçte üzerine düşen görevleri eksiksiz şekilde yapmaları beklenir (D16.3). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI II. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "-",
+    "Değerler": "D6. Dürüstlük, 12. Sabır, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık BECERİLER ARASI İLİŞKİLER ORTAOKUL YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "YZU2.2.1. Metin tabanlı yapay zekâ uygulama-geliştirme ortamını hazırlama a) Metin tabanlı yapay zekâ uygulama-geliştirme ortamlarını tanır. b) Metin tabanlı yapay zekâ uygulama-geliştirme ortamını belirler. c) Metin tabanlı yapay zekâ uygulama-geliştirme ortamını düzenler. YZU2.2.2. Metin tabanlı yapay zekâ uygulama-geliştirme sürecinde kullanılan bileşenlerden yararlanabilme a) Metin tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini tanır. b) Metin tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini kullanır. c) Metin tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Metin Tabanlı Yapay Zekâ Uygulama Ortamı Metin Tabanlı Yapay Zekâ Uygulamalarında Bileşenlerle Çalışma",
+    "Anahtar Kavramlar": "metin tabanlı programlama, yapay zekâ kütüphaneleri"
+   },
+   "outcomes": [
+    {
+     "code": "YZU2.2.1",
+     "order": 1,
+     "text": "Metin tabanlı yapay zekâ uygulama-geliştirme ortamını hazırlama",
+     "components": [
+      {
+       "label": "a",
+       "text": "Metin tabanlı yapay zekâ uygulama-geliştirme ortamlarını tanır."
+      },
+      {
+       "label": "b",
+       "text": "Metin tabanlı yapay zekâ uygulama-geliştirme ortamını belirler."
+      },
+      {
+       "label": "c",
+       "text": "Metin tabanlı yapay zekâ uygulama-geliştirme ortamını düzenler."
+      }
+     ]
+    },
+    {
+     "code": "YZU2.2.2",
+     "order": 2,
+     "text": "Metin tabanlı yapay zekâ uygulama-geliştirme sürecinde kullanılan bileşenlerden yararlanabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Metin tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini tanır."
+      },
+      {
+       "label": "b",
+       "text": "Metin tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Metin tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "YAPAY ZEKÂ UYGULAMALARI",
+   "description": "Bu tema kapsamında öğrencilerin; yapay zekâ modeli geliştirmek için gerekli girdileri belirleyip toplaması, doğrulaması ve kaydetmesi, metin tabanlı ortamda gerçek hayat problemleri için yapay zekâ modelleri oluşturması, bu modelleri uygulaması ve süreç ile sonuçlarını değerlendirebilmesi amaçlanmaktadır.",
+   "lesson_hours": 32,
+   "sections": {
+    "ALAN BECERİLERİ": "BTYAB4. Dijital Ürün Geliştirme (BTYAB4.4. Simülasyon/ Model Geliştirme)",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E1.1. Merak, E3.3. Yaratıcılık, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR YZU2.3.1 • Bilgi arama sürecinde zaman, emek ve dijital kaynakları verimli kullanmaları beklenir (D17.2). • Öğrencilerin grup içinde çalışırken diğerlerinin fikirlerini dikkate alarak ortak bir karar geliştirmeleri beklenir (SDB2.2). • Öğrencilerin bilgi kayıtlarını düzenlerken verilen görevi merak duygusuyla, özenle ve zamanında tamamlamaları beklenir (D16.3). YZU2.3.2 • Modelin süreç ve sonuçlarının değerlendirilmesinde bireylerin haklarına, ve olası olumsuz etkilerine karşı özenli davranmaları beklenir (D9.1). • Gerçek hayat probleminin belirlenmesi sürecinde bireysel ve toplumsal ihtiyaçları gözetmeleri beklenir (D5.1). • Öğrencilerden kodlama sürecinde estetik bakış açısıyla özgün fikirler oluşturmaları, ortak çalışmayla nitelikli çözümler geliştirmeleri ve bunları ifade etmeleri beklenir (SDB2.1, D7.1). • Öğrencilerin model geliştirme sürecinde karşılaştıkları teknik zorluklar karşısında sorumlu teknoloji yaklaşımı doğrultusunda kararlı davranmaları ve görevlerini tamamlamaları beklenir (D12.3). • Öğrencilerin metin tabanlı geliştirme ortamında dijital araçları etkin kullanmaları beklenir (OB2). • Öğrencilerin model geliştirme sürecinde zaman, enerji ve işlem gücü gibi kaynakları verimli ve özenli kullanmaları sağlanır (D17.2). • Öğrencilerin bu süreçte atık yönetimi kapsamında dijital atık üretmemeye dikkat etmesi beklenir (D5.1). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D5. Duyarlılık, D7. Estetik, D9. Merhamet, D12. Sabır, D16. Sorumluluk, D17. Tasarruf",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık BECERİLER ARASI İLİŞKİLER ORTAOKUL YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "YZU2.3.1. Yapay zekâ modeli geliştirmek için bilgi toplayabilme a) Yapay zekâ modeli girdileri için uygun araçları belirler. b) Yapay zekâ modeli girdileri hakkındaki bilgileri bulur. c) Yapay zekâ modeli girdilerini doğrular. ç) Yapay zekâ modeli girdilerini kaydeder. YZU2.3.2. Metin tabanlı ortamda yapay zekâ modeli geliştirme a) Metin tabanlı ortamda yapay zekâ modeli için gerçek hayat problemi belirler. b) Belirlenen problemin çözümü veya olası risklerin önlenmesi için girdileri kullanarak yapay zekâ modeli oluşturur. c) Yapay zekâ modelini uygular. ç) Yapay zekâ modelinin süreç ve sonuçlarını etik ve güvenlik/mahremiyet açısından uygunluğunu değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Yapay Zekâ Modeli Girdilerini Toplama ve Düzenleme Metin Tabanlı Ortamda Yapay Zekâ Modeli Oluşturma",
+    "Anahtar Kavramlar": "model değerlendirme, model eğitme, veri doğrulama, veri işleme, veri kaynağı, veri temizleme"
+   },
+   "outcomes": [
+    {
+     "code": "YZU2.3.1",
+     "order": 1,
+     "text": "Yapay zekâ modeli geliştirmek için bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapay zekâ modeli girdileri için uygun araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yapay zekâ modeli girdileri hakkındaki bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Yapay zekâ modeli girdilerini doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Yapay zekâ modeli girdilerini kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "YZU2.3.2",
+     "order": 2,
+     "text": "Metin tabanlı ortamda yapay zekâ modeli geliştirme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Metin tabanlı ortamda yapay zekâ modeli için gerçek hayat problemi belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlenen problemin çözümü veya olası risklerin önlenmesi için girdileri kullanarak yapay zekâ modeli oluşturur."
+      },
+      {
+       "label": "c",
+       "text": "Yapay zekâ modelini uygular."
+      },
+      {
+       "label": "ç",
+       "text": "Yapay zekâ modelinin süreç ve sonuçlarını etik ve güvenlik/mahremiyet açısından uygunluğunu değerlendirir."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "unassigned_outcomes": [
+  {
+   "code": "YZU.1.1.1",
+   "grade": 1,
+   "unit": 1,
+   "field": null,
+   "order": 1,
+   "text": "Yapay zekâya ilişkin temel kavramları sorgulaya­ bilme Öğrenme yaşantıları sonunda öğrenciye kazan-",
+   "components": [
+    {
+     "label": "a",
+     "text": "Yapay zekâya ilişkin temel kavramları tanımlar. dırılması amaçlanan bilgi,"
+    },
+    {
+     "label": "b",
+     "text": "Yapay zekâya ilişkin temel kavramlar ile ilgili sorular sorar. beceri ve becerilerin süreç"
+    },
+    {
+     "label": "c",
+     "text": "Yapay zekâya ilişkin temel kavramlar ile ilgili bilgi toplar. bileşenlerini ifade eder."
+    },
+    {
+     "label": "ç",
+     "text": "Yapay zekâya ilişkin temel kavramlar ile ilgili toplanan bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Toplanan bilgiler üzerinden çıkarım yapar. Öğrenme-öğretme sürecinde ele alınan bilgi kümeİÇERİK sini (bölüm-konu-alt konuÇERÇEVESİ Yapay Zekâya Genel Bakış ya ilişkin sınırları) ifade eder. Yapay Zekâ Uygulamalarını Tanıma ve Sınıflandırma Yapay Zekâda Etik Disipline ait başlıca genelAnahtar kavramlar akıllı sistemler, etik, güvenlik, mahremiyet, nesnelerin interneti, leme, ilke, anahtar kavram sensör, veri, yapay zekâ ve sembolleri ifade eder. Öğrenme çıktıları, programlar arası bileşenler arasında kurulan ve anPROGRAMLAR ARASI lamlı ilişkilere dayanan BİLEŞENLERE YÖNELİK öğren­me-öğretme süreciUYGULAMALAR YZU.1.1.1 ni ifade eder. • Öğrencilerin çeşitli fikir ve argümanlara açık olmaları için farklı bakış açılarıyla düşünmeleri teşvik edilir. Örneğin bir öğrenci yapay zekânın insan gibi düşünebileceğini savunurken, bir başkası bunun mümkün olmadığını belir­ terek kendi gerekçelerini ortaya koyabilir (D3.3, SDB3.3). • Öğrencilerin görüşleri alındıktan sonra yapay zekâya ilişkin kısa ve günlük hayattan örnekler verilir (sesli asis­ tanlar, yüz algılama ve tanıma uygulamaları, otonom arabalar vb.). Örneklerdeki yapay zekâ uygulamaları ile nerelerde karşılaştıklarını ve bu uygulamalardan nasıl faydalandıklarını düşünüp ifade etmeleri istenir (SDB1.1). Öğretmen ile programın güçlü ve iyileştirilmesi gereken yönlerinin öğretÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı menlerin kendileri taracihazınıza okutunuz. YANSITMALARI fından değerlendirilmesini ifade eder. ORTAOKUL YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI 2. YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI’NIN DÜZEYLERİ I. DÜZEY"
+    }
+   ]
+  }
+ ],
+ "report": {
+  "units": 6,
+  "outcomes": 15,
+  "components": 56,
+  "orphan_outcomes": 1,
+  "gaps": [
+   {
+    "course": "Yapay Zekâ Uygulamaları Dersi",
+    "reason": "hiçbir ünite bloğunun içinde değil",
+    "codes": [
+     "YZU.1.1.1"
+    ]
+   }
+  ]
+ }
+}

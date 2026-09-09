@@ -1,0 +1,628 @@
+{
+ "course": {
+  "id": 87,
+  "name": "Seçmeli Müzik Dersi (Bağlama)",
+  "slug": "ortaokul-secmeli-muzik-dersi-baglama",
+  "prefix": "SMBAĞ",
+  "shapes": [
+   "SMBAĞ/noktalı-4"
+  ],
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/secmeli-muzik-dersi-baglama_20260819_074422_219.pdf"
+ },
+ "units": [
+  {
+   "grade": 1,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "BAĞLAMANIN TEMEL ÖZELLİKLERİ",
+   "description": "Temada öğrencilerin bağlamanın tarihî gelişimi hakkında bilgi toplayabilmeleri, bağlamanın bölümlerini çözümleyebilmeleri, bağlama çalmada temel duruş ve tutuş pozisyonunu gözlemleyebilmeleri, boş tellerde tezene çalışmaları yapabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 22,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB2.2. Gözlemleme, KB2.4. Çözümleme, KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E1.1. Merak, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme)",
+    "Değerler": "D3. Çalışkanlık / (SDB1.1, OB1).",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB5. Kültür Okuryazarlığı BECERİLER ARASI SMBAĞ.1.1.3 • Öğrencilerin bağlama çalmada temel duruş ve tutuş pozisyonu hakkında öğrendiklerini uygulamaları sağlanır (SDB1.2). SMBAĞ.1.1.4 • Öğrencilerin boş tellerde tezene çalışmalarını ders dışında da tekrar ederek düzenli çalışmanın başarı üzerindeki etkisini fark etmeleri sağlanır (D3.2). • Öğrencilerin öğrenme sürecinde kendi potansiyellerini fark etmeleri desteklenir (SDB1.1). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSI ÖĞRETIM PROGRAMI BAĞLAMA MODÜLÜ I. DÜZEY",
+    "İLİŞKİLER": "BTYAB1. Bilişim Teknolojilerini Kullanma ORTAOKUL SEÇMELİ MÜZİK DERSI ÖĞRETIM PROGRAMI BAĞLAMA MODÜLÜ ÖĞRENME ÇIKTILARI VE SMBAĞ.1.1.1. Bağlamanın tarihî gelişimi hakkında bilgi toplayabilme SÜREÇ BİLEŞENLERİ a) Bağlamanın tarihî gelişimi hakkında bilgi toplamak için kullanacağı araçları belirler. b) Bağlamanın tarihî gelişimi ile ilgili bilgileri bulur. c) Bağlamanın tarihî gelişimi ile ilgili ulaştığı bilgileri doğrular. ç) Bağlamanın tarihî gelişimi ile ilgili ulaştığı bilgileri kaydeder. SMBAĞ.1.1.2. Bağlamanın bölümlerini çözümleyebilme a) Bağlamanın sap ve gövde kısmını meydana getiren parçaları belirler. b) Sap ve gövde kısmını meydana getiren parçalar arasındaki ilişkileri belirler. SMBAĞ.1.1.3. Bağlama çalmada temel duruş ve tutuş pozisyonunu gözlemleyebilme a) Bağlama çalmada temel duruş ve tutuş pozisyonunu belirler. b) Bağlama çalmada temel duruş ve tutuş pozisyonunu gözlemleyerek veri toplar. c) Bağlama çalmada temel duruş ve tutuş pozisyonu hakkında topladığı verileri sınıflandırır ve kaydeder. SMBAĞ.1.1.4. Boş tellerde tezene vuruşlarını çalabilme a) Çalınacak tezene vuruşlarını çözümler. b) Bağlamaya özgü duruş ve tutuş pozisyonu alır. c) Öğrendiği teknikleri kullanır. ç) Müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Bağlamanın Tarihî Gelişimi Bağlamanın Bölümleri Bağlamada Temel Duruş ve Tutuş Pozisyonları Boş Tellerde Tezene Çalışmaları 𝅘𝅥𝅯, ,",
+    "Anahtar Kavramlar": "burgu, dörtlük, gövde, onaltılık, perde, sap, sekizlik, tartım, tel, tezene Semboller , , PROGRAMLAR ARASI SMBAĞ.1.1.1 BİLEŞENLERE YÖNELİK • Öğrencilere bağlamanın tarihî gelişimi ile ilgili görseller sunulur ve güvenilir, UYGULAMALAR dijital kaynaklardan konu ile ilgili bilgi toplamaları istenir (OB2, OB5). Sosyal-Duygusal SMBAĞ.1.1.2 Öğrenme Becerileri/ • Öğrencilerin çalgının bölümleri ile ilgili bilgi ihtiyaçlarını fark etmeleri sağlanır"
+   },
+   "outcomes": [
+    {
+     "code": "SMBAĞ.1.1.1",
+     "order": 1,
+     "text": "Bağlamanın tarihî gelişimi hakkında bilgi toplayabilme SÜREÇ BİLEŞENLERİ a) Bağlamanın tarihî gelişimi hakkında bilgi toplamak için kullanacağı araçları belirler.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Bağlamanın tarihî gelişimi ile ilgili bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Bağlamanın tarihî gelişimi ile ilgili ulaştığı bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Bağlamanın tarihî gelişimi ile ilgili ulaştığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "SMBAĞ.1.1.2",
+     "order": 2,
+     "text": "Bağlamanın bölümlerini çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bağlamanın sap ve gövde kısmını meydana getiren parçaları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Sap ve gövde kısmını meydana getiren parçalar arasındaki ilişkileri belirler."
+      }
+     ]
+    },
+    {
+     "code": "SMBAĞ.1.1.3",
+     "order": 3,
+     "text": "Bağlama çalmada temel duruş ve tutuş pozisyonunu gözlemleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bağlama çalmada temel duruş ve tutuş pozisyonunu belirler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlama çalmada temel duruş ve tutuş pozisyonunu gözlemleyerek veri toplar."
+      },
+      {
+       "label": "c",
+       "text": "Bağlama çalmada temel duruş ve tutuş pozisyonu hakkında topladığı verileri sınıflandırır ve kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "SMBAĞ.1.1.4",
+     "order": 4,
+     "text": "Boş tellerde tezene vuruşlarını çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çalınacak tezene vuruşlarını çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlamaya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Öğrendiği teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "BAĞLAMADA TEMEL UYGULAMALAR",
+   "description": "Temada öğrencilerin bağlamanın bakımı ile ilgili bilgi toplayabilmeleri, bağlamada perdelerin yerlerini, kullanılan pozisyonları ve parmak konumlarını belirleyebilmeleri, öğrendikleri perdelerin birlikte kullanıldığı etüt ve eserleri çalabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 46,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB1. Temel Beceriler, KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMBAĞ.1.2.1 Sosyal-Duygusal • Öğrencilerin çalgı bakımının önemini kavrayarak temizlik alışkanlığı edinmeleri Öğrenme Becerileri/ desteklenir (D18.2).",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik, D12. Sabır, D16. Sorumluluk, D18. Temizlik / • Öğrencilerin düzenli çalışmanın değerini fark etmeleri sağlanır (D3.2).",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI • Etkinlikler yoluyla öğrencilerin görevlerini zamanında ve eksiksiz yerine getirmeleri, sorumluluk bilinci geliştirmeleri desteklenir (D16.3). SMBAĞ.1.2.2 • Öğrencilerin disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.2). • Öğrencilerin konuya yönelik bilgi ihtiyaçlarını fark etmeleri sağlanır (OB1). SMBAĞ.1.2.3 • Öğrencilerin etkili iletişim kurarak öğrenme sürecini doğru yönetmeleri desteklenir (SDB2.1). • Öğrencilerin konuya yönelik bilgi ihtiyaçlarını fark etmeleri sağlanır (OB1). ORTAOKUL SEÇMELİ MÜZİK DERSI ÖĞRETIM PROGRAMI BAĞLAMA MODÜLÜ SMBAĞ.1.2.4 • Öğrencilerin ihtiyaçlarına uygun bir çalışma planı oluşturmaları ve çalışma disiplinini geliştirmeleri desteklenir (D12.3, SDB1.2). • Öğrencilerin öğrendikleri perdelerin birlikte kullanıldığı etüt ve eserleri çözümlemeleri desteklenir (OB9). • Öğrencilerin etüt ve eserleri estetik duyarlılıkla çalmaları desteklenir (D7.1). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSI ÖĞRETIM PROGRAMI BAĞLAMA MODÜLÜ II. DÜZEY",
+    "İLİŞKİLER": "SAB9. Müziksel Dinleme ORTAOKUL SEÇMELİ MÜZİK DERSI ÖĞRETIM PROGRAMI BAĞLAMA MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMBAĞ.1.2.1. Bağlamanın bakımı ile ilgili bilgi toplayabilme a) Bağlamanın bakımı hakkında bilgiye ulaşmak için kullanacağı araçları belirler. b) Bağlamanın bakımı ile ilgili bilgileri bulur. c) Bağlamanın bakımı ile ilgili ulaştığı bilgileri doğrular. ç) Bağlamanın bakımı ile ilgili ulaştığı bilgileri kaydeder. SMBAĞ.1.2.2. Bağlamada perdelerin yerlerini belirleyebilme SMBAĞ.1.2.3. Bağlamada kullanılan pozisyonları ve parmak konumlarını belirleyebilme SMBAĞ.1.2.4. Öğrendiği perdelerin birlikte kullanıldığı etüt ve eserleri çalabilme a) Çalınacak etüt ve eseri çözümler. b) Bağlamaya özgü duruş ve tutuş pozisyonu alır. c) Öğrendiği teknikleri kullanır. ç) Müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Çalgı Bakımı Bağlamada Perdeler Bağlamada Pozisyonlar Etüt ve Eser Çalışmaları",
+    "Anahtar Kavramlar": "bemol, diyez, do, fa, la, mi, pozisyon, re, si, sol, tartım, teknik, tel, tezene Semboller 1 , 2, 3, , , ,"
+   },
+   "outcomes": [
+    {
+     "code": "SMBAĞ.1.2.1",
+     "order": 1,
+     "text": "Bağlamanın bakımı ile ilgili bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bağlamanın bakımı hakkında bilgiye ulaşmak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlamanın bakımı ile ilgili bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Bağlamanın bakımı ile ilgili ulaştığı bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Bağlamanın bakımı ile ilgili ulaştığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "SMBAĞ.1.2.2",
+     "order": 2,
+     "text": "Bağlamada perdelerin yerlerini belirleyebilme çıktısının sırası",
+     "components": []
+    },
+    {
+     "code": "SMBAĞ.1.2.3",
+     "order": 3,
+     "text": "Bağlamada kullanılan pozisyonları ve parmak konumlarını belirleyebilme",
+     "components": []
+    },
+    {
+     "code": "SMBAĞ.1.2.4",
+     "order": 4,
+     "text": "Öğrendiği perdelerin birlikte kullanıldığı etüt ve eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çalınacak etüt ve eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlamaya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Öğrendiği teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "BAĞLAMADA SES ÜRETİMİ",
+   "description": "Temada öğrencilerin bağlamanın akort edilme sürecini çözümlemeleri ve düzeylerine uygun eserler çalmaları hedeflenmektedir.",
+   "lesson_hours": 36,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme",
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven), E2.2. Sorumluluk, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMBAĞ.2.1.1 Sosyal-Duygusal • Öğrencilerin akort cihazı ile çalgının akort sürecini çözümlemeleri desteklenir Öğrenme Becerileri/ (OB2).",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.2. İş Birliği",
+    "Değerler": "D16. Sorumluluk / • Yapılan etkinliklerle öğrencilerin karar verme becerilerini geliştirmeleri",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI desteklenir (SDB1.2). SMBAĞ.2.1.2 • İş birliğine dayalı etkinlikler düzenlenerek öğrencilerin sürece etkin katılımı sağlanır (SDB2.2). • Öğrenciler öğrenme sürecinde sorumluluk almaya teşvik edilir (D16.3). • Öğrencilerin etüt ve eserleri çalarken kendi potansiyellerine güvenmeleri sağlanır (SDB1.1). • Öğrencilerin kültürel etkinliklerde performanslarını sergilemeleri desteklenir (OB5, OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSI ÖĞRETIM PROGRAMI BAĞLAMA MODÜLÜ II. DÜZEY",
+    "İLİŞKİLER": "SAB9. Müziksel Dinleme, SAB10. Müziksel Söyleme ORTAOKUL SEÇMELİ MÜZİK DERSI ÖĞRETIM PROGRAMI BAĞLAMA MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMBAĞ.2.1.1. Bağlamanın akort edilme sürecini çözümleyebilme a) Bağlamanın akort edilecek tellerinin seslerini belirler. b) Tellerdeki akort edilecek seslerin akort cihazında simge olarak karşılıkları ile arasındaki ilişkileri belirler. SMBAĞ.2.1.2. Düzeyine uygun etüt ve eserleri çalabilme a) Çalınacak etüt ve eseri çözümler. b) Bağlamaya özgü duruş ve tutuş pozisyonu alır. c) Öğrendiği teknikleri kullanır. ç) Çalınacak etüt ve eserin müziksel bileşenlerini uygular.",
+    "İÇERİK ÇERÇEVESİ": "Bağlamada Akort Sistemi Etüt ve Eser Uygulamaları",
+    "Anahtar Kavramlar": "akort, burgu, tel"
+   },
+   "outcomes": [
+    {
+     "code": "SMBAĞ.2.1.1",
+     "order": 1,
+     "text": "Bağlamanın akort edilme sürecini çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bağlamanın akort edilecek tellerinin seslerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "Tellerdeki akort edilecek seslerin akort cihazında simge olarak karşılıkları ile arasındaki ilişkileri belirler."
+      }
+     ]
+    },
+    {
+     "code": "SMBAĞ.2.1.2",
+     "order": 2,
+     "text": "Düzeyine uygun etüt ve eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çalınacak etüt ve eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlamaya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Öğrendiği teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Çalınacak etüt ve eserin müziksel bileşenlerini uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "FARKLI TARTIM VE USULLERİN TEZENE VURUŞLARI",
+   "description": "Temada öğrencilerin basit, bileşik ve aksak usullerde etütleri ve düzeylerine uygun eserleri çalabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 32,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.5. Kendine Güvenme (Öz Güven), E2.2. Sorumluluk",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMBAĞ.2.2.1 Sosyal-Duygusal • Çalınacak etütlerin incelenmesine dayalı etkinlikler düzenlenerek öğrencilerin Öğrenme Becerileri/ süreçte aktif rol alması desteklenir (OB9).",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D12. Sabır, D16. Sorumluluk / • İş birliğine dayalı etkinlikler düzenlenerek öğrencilerin öğrenme sürecinde",
+    "Okuryazarlık Becerileri": "OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI sorumluluk almaları sağlanır (SDB2.2). • Etkinliklerle öğrencilerin kendi potansiyellerine güvenmeleri sağlanır (SDB1.1). • Öğrencilerin öğrendikleri tartımların tezene vuruşlarını ders dışında da tekrar ederek öğrenme süreçlerini istikrarlı şekilde sürdürmeleri desteklenir (D12.3, D16.3). SMBAĞ.2.2.2 • Etkinliklerle öğrencilerin kendi potansiyellerine güvenmeleri sağlanır (SDB1.1). • İş birliğine dayalı etkinlikler düzenlenerek öğrencilerin öğrenme sürecinde sorumluluk almaları sağlanır (SDB2.2, D16). • İletişime dayalı etkinlikler düzenlenerek öğrencilerin çalışma yöntemlerini birbirleriyle paylaşmaları sağlanır (SDB2.1). • Öğrenciler kültürel etkinliklerde performanslarını sergilemeye teşvik edilir (OB5, OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSI ÖĞRETIM PROGRAMI BAĞLAMA MODÜLÜ III. DÜZEY",
+    "İLİŞKİLER": "KB2.2. Gözlemleme, SAB9. Müziksel Dinleme, SAB10. Müziksel Söyleme ORTAOKUL SEÇMELİ MÜZİK DERSI ÖĞRETIM PROGRAMI BAĞLAMA MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMBAĞ.2.2.1. Basit, bileşik ve aksak usullerdeki etütleri çalabilme a) Çalınacak etüdü çözümler. b) Bağlamaya özgü duruş ve tutuş pozisyonu alır. c) Öğrendiği teknikleri kullanır. ç) Çalınacak etüdün müziksel bileşenlerini uygular. SMBAĞ.2.2.2. Düzeyine uygun eserleri çalabilme a) Çalınacak eseri çözümler. b) Bağlamaya özgü duruş ve tutuş pozisyonu alır. c) Öğrendiği teknikleri kullanır. ç) Çalınacak eserin müziksel bileşenlerini uygular.",
+    "İÇERİK ÇERÇEVESİ": "Basit, Bileşik ve Aksak Usullerde Etüt Çalışmaları Basit, Bileşik ve Aksak Usullerde Eser Uygulamaları",
+    "Anahtar Kavramlar": "tartım, tezene, usul"
+   },
+   "outcomes": [
+    {
+     "code": "SMBAĞ.2.2.1",
+     "order": 1,
+     "text": "Basit, bileşik ve aksak usullerdeki etütleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çalınacak etüdü çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlamaya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Öğrendiği teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Çalınacak etüdün müziksel bileşenlerini uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMBAĞ.2.2.2",
+     "order": 2,
+     "text": "Düzeyine uygun eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çalınacak eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlamaya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Öğrendiği teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Çalınacak eserin müziksel bileşenlerini uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "BAĞLAMADA TEKE TAVRI",
+   "description": "Temada öğrencilerin bağlamanın yörelere göre çalınış biçimlerini karşılaştırabilmeleri, Teke tavrının tezene vuruşlarını ve Teke yöresine ait eserleri çalabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 36,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB2.7. Karşılaştırma",
+    "EĞİLİMLER": "E2.2. Sorumluluk, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMBAĞ.3.1.1 Sosyal-Duygusal • Öğrencilerin konuyla ilgili bilgi ihtiyacını fark etmeleri desteklenir (OB1). Öğrenme Becerileri/ • Öğrencilerin bağlamanın yörelere göre çalınış biçimlerini karşılaştırırken",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.2. İş Birliği",
+    "Değerler": "D12. Sabır, D16. Sorumluluk, D19. Vatanseverlik / kültürel benzerlik ve farklılıkları ayırt etmeleri desteklenir (OB5).",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI • Öğrencilerin farklı yörelere ait tavırlarla icra edilen türküleri tanımaları sağlanarak kültürel mirasın korunması ve gelecek nesillere aktarılmasına yönelik farkındalık geliştirmeleri desteklenir (D19.3). SMBAĞ.3.1.2 • Öğrenciler, öğrendikleri Teke tavrının tezene vuruşlarını ders dışında da tekrar etmeye ve öğrenme süreçlerini istikrarlı şekilde sürdürmeye teşvik edilir (D12.3, D16.3). SMBAĞ.3.1.3 • İş birliğine dayalı etkinlikler düzenlenerek öğrencilerin öğrenme sürecinde sorumluluk almaları sağlanır (SDB2.2, D16.3). • Öğrencilerin kültürel etkinliklerde performanslarını sergilemeleri desteklenir (OB5, OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSI ÖĞRETIM PROGRAMI BAĞLAMA MODÜLÜ III. DÜZEY",
+    "İLİŞKİLER": "KB2.2. Gözlemleme, SAB6. Müziksel İşitme, SAB7. Müziksel Okuma ORTAOKUL SEÇMELİ MÜZİK DERSI ÖĞRETIM PROGRAMI BAĞLAMA MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMBAĞ.3.1.1. Bağlamanın yörelere göre çalınış biçimlerini karşılaştırabilme a) Bağlamanın yörelere göre çalınış biçimlerini belirler. b) Bağlamanın yörelere göre çalınış biçimleri arasındaki benzerlikleri listeler. c) Bağlamanın yörelere göre çalınış biçimleri arasındaki farklılıkları listeler. SMBAĞ.3.1.2. Teke tavrının tezene vuruşlarını çalabilme a) Çalınacak tezene vuruşlarını çözümler. b) Bağlamaya özgü duruş ve tutuş pozisyonu alır. c) Öğrendiği teknikleri kullanır. ç) Çalınacak tezene vuruşlarını uygular. SMBAĞ.3.1.3. Teke yöresine ait eserleri çalabilme a) Çalınacak eseri çözümler. b) Bağlamaya özgü duruş ve tutuş pozisyonu alır. c) Öğrendiği teknikleri kullanır. ç) Çalınacak eserin müziksel bileşenlerini uygular.",
+    "İÇERİK ÇERÇEVESİ": "Bağlamada Tavır Bağlamada Teke Tavrı Teke Yöresine Ait Eserler",
+    "Anahtar Kavramlar": "tavır, teknik, tezene, yöre"
+   },
+   "outcomes": [
+    {
+     "code": "SMBAĞ.3.1.1",
+     "order": 1,
+     "text": "Bağlamanın yörelere göre çalınış biçimlerini karşılaştırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bağlamanın yörelere göre çalınış biçimlerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlamanın yörelere göre çalınış biçimleri arasındaki benzerlikleri listeler."
+      },
+      {
+       "label": "c",
+       "text": "Bağlamanın yörelere göre çalınış biçimleri arasındaki farklılıkları listeler."
+      }
+     ]
+    },
+    {
+     "code": "SMBAĞ.3.1.2",
+     "order": 2,
+     "text": "Teke tavrının tezene vuruşlarını çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çalınacak tezene vuruşlarını çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlamaya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Öğrendiği teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Çalınacak tezene vuruşlarını uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMBAĞ.3.1.3",
+     "order": 3,
+     "text": "Teke yöresine ait eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çalınacak eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlamaya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Öğrendiği teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Çalınacak eserin müziksel bileşenlerini uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "BAĞLAMADA KARADENİZ TAVRI",
+   "description": "Temada öğrencilerin, Karadeniz tavrının tezene vuruşlarını ve Karadeniz yöresine ait eserleri çalabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 32,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E2.2. Sorumluluk, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMBAĞ.3.2.1 Sosyal-Duygusal • Öğrencilerin Karadeniz tavrının işitsel niteliklerine odaklanarak kullanılan Öğrenme Becerileri/ tezene tekniklerini anlamaları desteklenir (OB9).",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.2. İş Birliği",
+    "Değerler": "D12. Sabır, D16. Sorumluluk, D19. Vatanseverlik / • Öğrenciler, öğrendikleri Karadeniz tavrının tezene vuruşlarını ders dışında",
+    "Okuryazarlık Becerileri": "OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI da tekrar etmeye ve öğrenme süreçlerini istikrarlı şekilde sürdürmeye teşvik edilir (D12.3, D16.3). SMBAĞ.3.2.2 • İş birliğine dayalı etkinlikler düzenlenerek öğrencilerin öğrenme sürecinde sorumluluk almaları sağlanır (SDB2.2, D16.3). • Öğrencilerin kültürel etkinliklerde performanslarını sergilemeleri desteklenir (OB5, OB9). • Öğrencilerin Karadeniz tavrının kültürel miras açısından önemine yönelik düşüncelerini ifade etmeleri desteklenir (D19.3). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSI ÖĞRETIM PROGRAMI BAĞLAMA MODÜLÜ IV. DÜZEY",
+    "İLİŞKİLER": "KB2.2. Gözlemleme, SAB6. Müziksel İşitme, SAB7. Müziksel Okuma ORTAOKUL SEÇMELİ MÜZİK DERSI ÖĞRETIM PROGRAMI BAĞLAMA MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMBAĞ.3.2.1. Karadeniz tavrının tezene vuruşlarını çalabilme a) Çalınacak tezene vuruşlarını çözümler. b) Bağlamaya özgü duruş ve tutuş pozisyonu alır. c) Öğrendiği teknikleri kullanır. ç) Çalınacak tezene vuruşlarını uygular. SMBAĞ.3.2.2. Karadeniz yöresine ait eserleri çalabilme a) Çalınacak eseri çözümler. b) Bağlamaya özgü duruş ve tutuş pozisyonu alır. c) Öğrendiği teknikleri kullanır. ç) Çalınacak eserin müziksel bileşenlerini uygular.",
+    "İÇERİK ÇERÇEVESİ": "Bağlamada Karadeniz Tavrı Karadeniz Yöresine Ait Eserler",
+    "Anahtar Kavramlar": "tavır, teknik, tezene, yöre"
+   },
+   "outcomes": [
+    {
+     "code": "SMBAĞ.3.2.1",
+     "order": 1,
+     "text": "Karadeniz tavrının tezene vuruşlarını çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çalınacak tezene vuruşlarını çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlamaya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Öğrendiği teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Çalınacak tezene vuruşlarını uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMBAĞ.3.2.2",
+     "order": 2,
+     "text": "Karadeniz yöresine ait eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çalınacak eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlamaya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Öğrendiği teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Çalınacak eserin müziksel bileşenlerini uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 4,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "BAĞLAMADA ZEYBEK TAVRI",
+   "description": "Temada öğrencilerin Zeybek tavrının tezene vuruşlarını ve Zeybek türünde eserleri çalabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 34,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMBAĞ.4.1.1 Sosyal-Duygusal • Öğrencilerin kullanılan tezene tekniklerini anlamaları desteklenir (OB9). Öğrenme Becerileri/ • Öğrenciler, öğrendikleri Zeybek tavrına ait tezene vuruşlarını ders dışında da",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D12. Sabır, D16. Sorumluluk, D19. Vatanseverlik / tekrar etmeye ve öğrenme süreçlerini istikrarlı şekilde sürdürmeye teşvik",
+    "Okuryazarlık Becerileri": "OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI edilir (D3.2, D12.3). SMBAĞ.4.1.2 • İş birliğine dayalı etkinliklerle öğrencilerin öğrenme sürecinde sorumluluk almaları sağlanır (SDB2.2, D16.3). • Öğrencilerin kültürel etkinliklere katılmaları sağlanır (OB5). • Öğrencilerin Zeybek türüne ait eserlerin kültürel miras açısından önemine yönelik düşüncelerini ifade etmeleri desteklenir (D19.3). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSI ÖĞRETIM PROGRAMI BAĞLAMA MODÜLÜ IV. DÜZEY",
+    "İLİŞKİLER": "KB2.2. Gözlemleme, SAB6. Müziksel İşitme, SAB7. Müziksel Okuma ORTAOKUL SEÇMELİ MÜZİK DERSI ÖĞRETIM PROGRAMI BAĞLAMA MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMBAĞ.4.1.1. Zeybek tavrının tezene vuruşlarını çalabilme a) Çalınacak tezene vuruşlarını çözümler. b) Bağlamaya özgü duruş ve tutuş pozisyonu alır. c) Öğrendiği teknikleri kullanır. ç) Çalınacak tezene vuruşlarını uygular. SMBAĞ.4.1.2. Zeybek türündeki eserleri çalabilme a) Çalınacak eseri çözümler. b) Bağlamaya özgü duruş ve tutuş pozisyonu alır. c) Öğrendiği teknikleri kullanır. ç) Çalınacak eserin müziksel bileşenlerini uygular.",
+    "İÇERİK ÇERÇEVESİ": "Bağlamada Zeybek Tavrı Zeybek Türünde Eserler",
+    "Anahtar Kavramlar": "tavır, tezene, yöre"
+   },
+   "outcomes": [
+    {
+     "code": "SMBAĞ.4.1.1",
+     "order": 1,
+     "text": "Zeybek tavrının tezene vuruşlarını çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çalınacak tezene vuruşlarını çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlamaya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Öğrendiği teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Çalınacak tezene vuruşlarını uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMBAĞ.4.1.2",
+     "order": 2,
+     "text": "Zeybek türündeki eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çalınacak eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlamaya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Öğrendiği teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Çalınacak eserin müziksel bileşenlerini uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 4,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "BAĞLAMADA AZERİ TAVRI",
+   "description": "Temada öğrencilerin Azeri tavrının tezene vuruşlarını ve Azeri yöresine ait eserleri çalabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 34,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMBAĞ.4.2.1 Sosyal-Duygusal • Öğrencilerin Azeri tavrının işitsel niteliklerine odaklanarak kullanılan tezene Öğrenme Becerileri/ tekniklerini anlamaları desteklenir (OB9).",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D12. Sabır, D16. Sorumluluk, D19. Vatanseverlik / • Öğrenciler, Azeri tavrına ait tezene vuruşlarını ders dışında da tekrar etmeye",
+    "Okuryazarlık Becerileri": "OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI ve öğrenme süreçlerini istikrarlı şekilde sürdürmeye teşvik edilir (D3.2, D12.3). SMBAĞ.4.2.2 • İş birliğine dayalı etkinliklerle öğrencilerin öğrenme sürecinde sorumluluk almaları sağlanır (SDB2.2, D16.3). • Öğrencilerin kültürel etkinliklere katılmaları sağlanır (OB5). • Öğrencilerin Azeri tavrına ait eserlerin kültürel miras açısından önemine yönelik düşüncelerini ifade etmeleri desteklenir (D19.3). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz.",
+    "İLİŞKİLER": "KB2.2. Gözlemleme, SAB6. Müziksel İşitme, SAB7. Müziksel Okuma ORTAOKUL SEÇMELİ MÜZİK DERSI ÖĞRETIM PROGRAMI BAĞLAMA MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMBAĞ.4.2.1. Azeri tavrının tezene vuruşlarını çalabilme a) Çalınacak tezene vuruşlarını çözümler. b) Bağlamaya özgü duruş ve tutuş pozisyonu alır. c) Öğrendiği teknikleri kullanır. ç) Çalınacak tezene vuruşlarını uygular. SMBAĞ.4.2.2. Azeri yöresine ait eserleri çalabilme a) Çalınacak eseri çözümler. b) Bağlamaya özgü duruş ve tutuş pozisyonu alır. c) Öğrendiği teknikleri kullanır. ç) Çalınacak eserin müziksel bileşenlerini uygular.",
+    "İÇERİK ÇERÇEVESİ": "Bağlamada Azeri Tavrı Azeri Yöresine Ait Eserler",
+    "Anahtar Kavramlar": "tavır, tezene, yöre"
+   },
+   "outcomes": [
+    {
+     "code": "SMBAĞ.4.2.1",
+     "order": 1,
+     "text": "Azeri tavrının tezene vuruşlarını çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çalınacak tezene vuruşlarını çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlamaya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Öğrendiği teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Çalınacak tezene vuruşlarını uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMBAĞ.4.2.2",
+     "order": 2,
+     "text": "Azeri yöresine ait eserleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çalınacak eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Bağlamaya özgü duruş ve tutuş pozisyonu alır."
+      },
+      {
+       "label": "c",
+       "text": "Öğrendiği teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Çalınacak eserin müziksel bileşenlerini uygular."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "unassigned_outcomes": [],
+ "report": {
+  "units": 8,
+  "outcomes": 21,
+  "components": 69,
+  "orphan_outcomes": 0,
+  "gaps": []
+ }
+}

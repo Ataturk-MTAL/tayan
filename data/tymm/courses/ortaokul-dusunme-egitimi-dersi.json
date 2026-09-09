@@ -1,0 +1,516 @@
+{
+ "course": {
+  "id": 70,
+  "name": "Düşünme Eğitimi Dersi",
+  "slug": "ortaokul-dusunme-egitimi-dersi",
+  "prefix": "DE",
+  "shapes": [
+   "DE/noktalı-4"
+  ],
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/dusunme-egitimi-dersi_20260819_071101_966.pdf"
+ },
+ "units": [
+  {
+   "grade": 1,
+   "unit": 1,
+   "kind": "ÜNİTE",
+   "title": "DÜŞÜNME VE DÜŞÜNME SÜRECİ",
+   "description": "Bu ünitede öğrencilerin kendi zihinsel süreçlerinin farkına varmalarını sağlayarak düşünme süreci ve diğer zihinsel etkinlikler hakkında bilgi toplayabilmeleri, farklı düşünme biçimlerini analiz ederek sorgulayabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 18,
+   "sections": {
+    "ALAN BECERİLERİ": "KAVRAMSAL KB2.6. Bilgi Toplama, KB2.8. Sorgulama BECERİLER Eğilimler E1.1. Merak, E3.3. Yaratıcılık, E3.7. Sistematiklik, E3.8. Soru Sorma Programlar Arası Bileşenler Sosyal-Duygusal SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme Öğrenme Becerileri (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D14. Saygı, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık DİSİPLİNLER ARASI Türkçe, Sosyal Bilgiler, Fen Bilimleri",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.3. Özetleme, KB2.4. Çözümleme, KB2.14. Yorumlama, KB2.18. Tartışma ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE DE.1.1.1. Düşünme süreci ve diğer zihinsel etkinlikler hakkında bilgi toplayaSÜREÇ BİLEŞENLERİ bilme a) Düşünme süreci ve diğer zihinsel etkinlikler hakkında bilgiye ulaşmak için kullanacağı araçları belirler. b) Düşünme süreci ve diğer zihinsel etkinlikler hakkında bilgiler bulur. c) Düşünme süreci ve diğer zihinsel etkinlikler hakkında ulaştığı bilgileri doğrular. ç) Düşünme süreci ve diğer zihinsel etkinlikler hakkında ulaştığı bilgileri kaydeder. DE.1.1.2. Farklı düşünme edimlerini sorgulayabilme a) Farklı düşünme edimlerini tanımlar. b) Farklı düşünme edimleri hakkında sorular sorar. c) Farklı düşünme edimleri hakkında bilgi toplar. ç) Farklı düşünme edimleri hakkında topladığı bilgiler üzerinden değerlendirme yapar. d) Farklı düşünme edimleri hakkında topladığı bilgiler üzerinden çıkarım yapar.",
+    "İÇERİK ÇERÇEVESİ": "Düşünme Süreci ve Zihinsel Etkinlikler Farklı Düşünme Edimleri",
+    "Anahtar Kavramlar": "algı, anlama, duyum, düşünme, hafıza, imgelem, kavrama, merak, yargılama/ hüküm verme",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; çalışma kâğıdı, kelime ilişkilendirme testi, yapı- (Ölçme ve landırılmış grid, karşılaştırma tablosu, yansıtıcı yazı, kontrol listesi, performans Değerlendirme) görevi, gözlem formu, dereceli puanlama anahtarı, grup değerlendirme formu ve öz değerlendirme formu kullanılarak değerlendirilebilir. Performans görevi olarak öğrencilerden farklı düşünme edimleri ile ilgili bir afiş tasarlamaları istenebilir. Performans görevi; dereceli puanlama anahtarı, öz değerlendirme formu, gözlem formu veya kontrol listesi ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin merak duygusunun zihinsel bir süreç olarak insanın temel özelliği olduğunu, günlük hayatta karşılaştıkları olay ve durumların benzerlik ve farklılıklarına göre farklı düşünme biçimlerinin kullanıldığını bildikleri kabul edilmektedir. Ön Değerlendirme Düşünme sürecini merkeze alan bir zihin haritası hazırlatılabilir. Öğrencilere Süreci \"Sizce düşünme nedir? \", \"Sizce insan neden düşünür? \" soruları yöneltilebilir. Öğrencilere \"Limonu konuşmadan nasıl anlatabilirsiniz?\", \"Mavi rengi nasıl algılıyorsunuz?\", \"Gözlerimizle gördüğümüz ve zihnimizle algıladığımız nesneleri neden birbirimizden farklı algılıyor olabiliriz?\" soruları sorulabilir. ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilere “düşünme” kavramına yönelik dur-düşün-söyle kartları uygulanabilir. Öğrencilere \"Sınavda beklemediğiniz zorlukta bir soruyla karşılaştınız. Ne yaparsınız?\", \"İlk olarak aklınızdan ne geçer?\" soruları yöneltilebilir ve cevapları istenebilir. Ardından öğrencilere \"Aynı durum karşısında birçok farklı cevabın olmasının nedeni ne olabilir?\", \"Bu cevaplarda düşünmenin rolü sizce nedir?\", \"Bu cevaplarda kullanılan düşünme biçimleri aynı mıdır? Açıklayınız.\", \"Hangi cevaplar mevcut durumu olduğu gibi kabul etmeye, hangisi durumu değiştirmeye yöneliktir?\" soruları yöneltilerek öğrencilerin bu soruları cevaplaması istenebilir. Öğrenme-Öğretme DE.1.1.1 Uygulamaları Öğrencilerin düşünme, duyum, algı, hafıza ve imgelemle ilgili zihninde çağrışım yapan kelime veya kavramları yazması, yazdığı bu kavram veya kelimeleri duyum ve hafıza ile kullanarak anlamlı cümleler kurması beklenir. Öğrencilerin verilen yazılı ve görsel kaynakları inceleyerek bunlar arasından düşünme süreci ve diğer zihinsel etkinliklerin ne olduğuna ilişkin bilgi toplamada kullanabileceği kaynakları belirlemeleri sağlanır (OB1, OB4, SDB1.2). Kaynaklar arasında dijital içerikler, basılı yayınlar, öğretmen görüşmeleri, belgeseller ve uzman röportajları yer alabilir. Bu amaçla ayrıca dijital kaynaklardan da yararlanılabilir (OB2). Bilgilerin kaynakları, tutarlılığı ve bilimsel geçerliği tartışılır. Tartışmada karşılıklı saygıyla ya da nezakete uygun olarak tartışılması istenir (KB2.18, D14.1). Öğrencilerden kaynak güvenirliği üzerine zihinlerinde oluşan soruları sormaları istenir (E3.8). Öğretmen kaynak güvenilirliği hakkında kısa bir rehberlik yapar. \"Merak Günlüğü\" adlı çalışma ile öğrencilerin araştırma sonucunda edindikleri bilgileri kaydetmeleri sağlanır. “Merakın Gücü” adlı araştırma görevi verilir. Bilgiler özetlenerek oluşturulan \"Merak Dosyası\" ile görev bilincini sürdürmeleri sağlanır (E1.1, D16.3, KB2.3). Günlükler sınıf içinde sunulur. Öğrencilere yapılandırılmış metin verilerek öğrencilerin metinde yer alan düşünme, duyum, algı, hafıza ve imgelemin ayırt edici özelliklerini karşılaştırma tablosu aracılığıyla belirlemeleri istenerek farklı zihinsel etkinliklerle ilgili ilişkileri ortaya koymaları sağlanır (KB2.4). Düşünme, duyum, algı, hafıza, imgelem kavramlarına günlük hayattan verilen örneklerin hangi zihinsel etkinliğe uygun olduğunu yapılandırılmış grid tekniği aracılığıyla sınıflandırmaları beklenir. Süreç sonunda öğrencilerden düşünmenin diğer zihinsel etkinliklerden farkını yorumlayan yansıtıcı yazı yazmaları istenir (OB1, SDB1.1, KB2.14). Ardından öğrencilerin düşünme ve diğer zihinsel etkinlikler ile ilgili kavram haritası oluşturmaları sağlanabilir (E3.7). Grup çalışmalarında aktif rol alarak sorumluluklarını yerine getirmesi sağlanır (SDB2.2, D3.4). Süreç grup değerlendirme formu ile değerlendirilebilir. Daha fazla kaynak için \"okuldisiogrenme.eba.gov.tr\" genel ağ adresini ziyaret edebilirsiniz. ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI DE.1.1.2 Öğrencilerin dikkatini çekmek için metafor içeren görseller sunulur ve belirli bir süre verilerek öğrencilerden bu görsellerde iletilmek istenen mesajların ne olduğu hakkında düşünmeleri istenir (OB4). Görüşlerini arkadaşları ile paylaşmaları istenebilir. Aynı görsellerden hareketle neden farklı düşüncelerin ortaya çıkmış olabileceği hakkındaki görüşleri alınır. Bu görüşlerden yola çıkarak öğrencilerden farklı düşünme edimlerinin tanımı istenir. Öğrencilere farklı düşünme edimleri (kavrama, anlama, yargılama/hüküm verme) hakkında çalışma kâğıdı verilir. Çalışma kâğıdındaki örneklerden yola çıkarak farklı düşünme edimleri hakkında sorular sormaları istenir (E3.8). Öğrenciler 3-5 kişilik gruplara ayrılır (SDB2.2). Öğrenciler, soruların doğruluğuna yönelik okul/sınıf kütüphanesine veya dijital kaynaklara yönlendirilebilir. Gruplar kendi içinde farklı düşünme edimleri hakkında topladığı bilgilerin doğruluğunu değerlendirir. Paylaşılan görüşlerden sonra sınıfça farklı düşünme edimleri hakkında topladığı bilgiler üzerinden değerlendirme yapılır. Öğrencilerden vızıltı grupları tekniği ile “Bu düşünme edimlerinin ortak amacı nedir?”, “Bu düşünme edimlerinde izlenen zihinsel süreçler hangi yönlerden ortaktır?”, “Bu düşünme edimlerinin tümünde bilgi nasıl kullanılmaktadır?”, “Bu düşünme edimlerinin ortaya koyduğu düşünsel ürünlerin ortak özellikleri nelerdir?” sorularına cevap aramaları ve düşünme edimlerine ilişkin benzerlikleri listelemeleri beklenir. Tüm grupların listelerini paylaşmasının ardından öğretmen rehberliğinde sınıfça bir ortak benzerlikler listesi oluşturularak farklı düşünme edimleri hakkında çıkarım yapmaları sağlanır (SDB2.1, SDB2.2). Öğretmen rehberliğinde değerlendirilerek farklı düşünme edimlerine ilişkin ortak farklılıklar listesi oluşturulur (OB1, D3.4). Süreç boyunca öğrenciler farklı düşünceler üzerinde düşünmeye, alternatif fikirler ortaya koymaya ve grup içerisinde aktif olarak yer almaya yönlendirilir (D16.3, SDB2.1, SDB2.2). Süreç sonunda öğrencilerden öz değerlendirme formu doldurmaları istenebilir. Ünite sonunda işlenen konularla ilgili Türk-İslam düşünürlerinin eserlerinden örnek metinler verilerek öğrenciler düşünmeye yönlendirilebilir. Performans görevi olarak öğrencilerden farklı düşünme edimleri ile ilgili bir afiş tasarlamaları istenebilir (E3.3). Performans görevi; dereceli puanlama anahtarı, öz değerlendirme formu ve kontrol listesi ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Son zamanlarda verdiği önemli bir kararı düşünmesi istenerek bu kararı verirken düşünme sürecinin nasıl ilerlediğini ve hangi düşünme edimlerini kullandıklarını yazmaları istenebilir. Destekleme Düşünmenin bir süreç olduğunu fark ettirmek amacıyla öğrencilere örnek durumların yer aldığı çalışma kâğıdı verilebilir. Öğrencilerden bu çalışma kâğıtlarını öncesi-sırası-sonrası şeklinde doldurmaları istenebilir. Öğrencilere \"Örneğin kantinde bir öğrenci sana güldü.\" cümlesi verilerek “Neden güldü?”, “Ne düşündün?”, ”Ne yaptın?” soruları yöneltilebilir. Ardından öğrencilere “Düşünmek bana göre … demektir.”, “Bir sorunumu çözerken en çok zorlandığım şey…” cümleleri verilerek tamamlamaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "DE.1.1.1",
+     "order": 1,
+     "text": "Düşünme süreci ve diğer zihinsel etkinlikler hakkında bilgi toplayaSÜREÇ BİLEŞENLERİ bilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Düşünme süreci ve diğer zihinsel etkinlikler hakkında bilgiye ulaşmak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Düşünme süreci ve diğer zihinsel etkinlikler hakkında bilgiler bulur."
+      },
+      {
+       "label": "c",
+       "text": "Düşünme süreci ve diğer zihinsel etkinlikler hakkında ulaştığı bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Düşünme süreci ve diğer zihinsel etkinlikler hakkında ulaştığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "DE.1.1.2",
+     "order": 2,
+     "text": "Farklı düşünme edimlerini sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Farklı düşünme edimlerini tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Farklı düşünme edimleri hakkında sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Farklı düşünme edimleri hakkında bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Farklı düşünme edimleri hakkında topladığı bilgiler üzerinden değerlendirme yapar."
+      },
+      {
+       "label": "d",
+       "text": "Farklı düşünme edimleri hakkında topladığı bilgiler üzerinden çıkarım yapar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 2,
+   "kind": "ÜNİTE",
+   "title": "ÖNERMELER VE AKIL YÜRÜTME",
+   "description": "Bu ünitede öğrencilerin önermelerin farkını vararak önermeler hakkında bilgi toplayabilmeleri, akıl yürütme süreçlerini sistemli şekilde analiz ederek çözümleyebilmeleri, akıl yürütme türlerini sınıflandırarak önermeleri belirlediği ölçütlere göre ayrıştırabilmeleri amaçlanmaktadır. Ders Saati 18 Alan Becerileri Kavramsal KB2.4. Çözümleme, KB2.5. Sınıflama, KB2.6. Bilgi Toplama Beceriler Eğilimler E1.6. Seçicilik, E3.1. Muhakeme, E3.5. Açık Fikirlilik, E3.7. Sistematiklik, E3.8. Soru Sorma, E3.9. Şüphe Duyma Programlar Arası Bileşenler Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB1.3. Kendine Uyarlama Öğrenme Becerileri (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği",
+   "lesson_hours": null,
+   "sections": {
+    "Değerler": "D3. Çalışkanlık, D14. Saygı",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık DİSİPLİNLER ARASI Türkçe, Sosyal Bilgiler, Fen Bilimleri",
+    "İLİŞKİLER": "Beceriler Arası KB2.7. Karşılaştırma, KB2.16. Muhakeme (Akıl Yürütme), KB2.18. Tartışma İlişkiler ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI Öğrenme Çıktıları ve DE.1.2.1. Önermeler hakkında bilgi toplayabilme Süreç Bileşenleri a) Önermeler hakkında bilgiye ulaşmak için hangi araçları kullanacağını belirler. b) Önermeler hakkında bilgiler bulur. c) Önermeler hakkında ulaştığı bilgileri doğrular. ç) Önermeler hakkında ulaştığı bilgileri kaydeder. DE.1.2.2. Akıl yürütmenin yapısını çözümleyebilme a) Akıl yürütmenin bileşenlerini belirler. b) Akıl yürütmenin bileşenleri arasındaki ilişkiyi belirler. DE.1.2.3. Akıl yürütmeleri türlerine göre sınıflayabilme a) Bir akıl yürütmede bulunması gereken ölçütleri belirler. b) Akıl yürütme türlerini benzerliklerine göre ayrıştırır. c) Akıl yürütmeleri tümevarım, tümdengelim, analoji ve geri çıkarım başlıkları altında tasnif eder. ç) Akıl yürütme örneklerini gerekçelendirerek türlerine göre etiketler. İçerik Çerçevesi Önermeler Akıl Yürütmenin Yapısı Akıl Yürütmenin Türleri",
+    "Anahtar Kavramlar": "akıl yürütme, geçerlilik, gerekçe, işlev, kavram, öncül-sonuç, önerme Öğrenme Kanıtları Bu ünitedeki öğrenme çıktıları; çalışma kâğıdı, açık uçlu soru, düşün-eşleş-paylaş (Ölçme ve tekniği, yansıtıcı yazı, bilgi haritası, kontrol listesi, performans görevi, gözlem formu, Değerlendirme) dereceli puanlama anahtarı, grup değerlendirme formu ve öz değerlendirme formu kullanılarak değerlendirilebilir. Performans görevi olarak öğrencilerden günlük hayatta karşılaştıkları bir yazılı ya da görsel materyali seçmeleri, seçtikleri materyalde yer alan gerekçesiz ifadeleri belirleyerek bu akıl yürütme hatalarının neden ortaya çıktığını açıklamaları ve bunların düşünme sürecine etkisini yorumlamaları istenebilir. Performans görevi; dereceli puanlama anahtarı, öz değerlendirme formu, gözlem formu veya kontrol listesi ile değerlendirilebilir. Öğrenme-Öğretme Yaşantıları Temel Kabuller Öğrencilerin, günlük yaşamlarında neden-sonuç ilişkilerini belirleyebildikleri ve düşünce ile davranış arasında ilişki kurabildikleri kabul edilmektedir. Ön Değerlendirme Her ifadenin doğru ya da yanlış olarak değerlendirilemeyeceğini ölçmek amacıyla Süreci öğrencilere önceden hazırlanmış cümleler verilerek cümlelerin doğruluk değerini (1-5 arasında) puanlamaları istenebilir. Öğrencilere \" Türkiye’nin en kalabalık şehri İstanbul’dur.\", \"Kitabını aç.\", \"Bu film çok güzel.\" cümleleri verilebilir. “Düşünme ve davranış arasında ne fark vardır? \" sorusu öğrencilere yöneltilebilir. Öğrencilerden \"Arkadaşınızı ziyarete gittiniz, kapının önünde çok fazla sayıda ayakkabı olduğunu gördünüz. İçeriden de kalabalık insan grubuna ait sesler geliyordu. Zili çalmakta tereddüt ettiniz. Neden zili çalmada tereddüt ettiniz?\" ya da \"Bir kediniz olduğunu düşünün. Kediniz ne zaman mutfaktan poşet sesi duysa koşarak yanınıza geliyor. Kediniz neden her poşet sesinde mutfağa gelmektedir?\" gibi örnek olaylara ilişkin açıklama yapmaları istenebilir. ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilere “Türkiye'nin en kalabalık şehri İstanbul'dur.” cümlesi verilerek “İnsanlar güzel şehirlerde yaşamak isterler. O hâlde Türkiye’nin en güzel şehri İstanbul’dur.” cümlelerinin bir tahmin mi yoksa bir düşünme yolu mu olduğu sorulabilir. Öğrenme-Öğretme DE.1.2.1 Uygulamaları Öğrencilerin verilen yazılı ve görsel kaynakları inceleyerek bunlar arasından önermelerin ne olduğuna ilişkin bilgi toplamada kullanabileceği kaynakları belirlemeleri sağlanır (OB1, OB4, SDB1.2). Öğrencilere basit ve bileşik önerme kavramlarının tanımlandığı ve örneklendirildiği cümleler verilir. Sonrasında öğrencilerden önerme türlerini belirlemesi istenir. Ayrıca öğrencilere önerme olmayan cümleler verilir ve öğrencilerden bu cümlelerin neden önerme olmadıklarını açıklamaları istenir. Bu süreçte dijital kaynaklardan faydalanılabilir (OB2). Kaynaklar arasında dijital içerikler, basılı yayınlar, öğretmen görüşmeleri, belgeseller ve uzman röportajları yer alabilir. Seçilen kaynaklardan bilgi toplanır (E1.6, OB1, OB2). Bilgilerin kaynakları, tutarlılığı ve bilimsel geçerliği saygı çerçevesinde tartışılır (D14.1, KB2.18). Öğrencilerden kaynak güvenirliği üzerine zihinlerinde oluşan soruları sormaları istenir (E3.8). Öğretmen kaynak güvenilirliği üzerine kısa bir rehberlik yapar. Bilgi doğrulama kriterleri oluşturulurken diğer yandan kaynak güvenilirliği, tarih, yazar, içerik tutarlılığı gibi merak ettikleri bir konu hakkında 1. ünitede hazırlamış olduğu “Merak Günlüğüm” adlı bireysel çalışmaya devam eder. Günlükler sınıf içinde sunulur. Bu çalışmaların sene sonunda portfolyo dosyasında toplanacağı bilgisi öğrencilere verilir. Süreç öz değerlendirme formu ile değerlendirilebilir. DE.1.2.2 Öğrencilere, günlük hayatta sıklıkla kullanılan akıl yürütme içeren bazı ifadeler (“Hava kapalı olduğuna göre yağmur yağacak.”, “Bu ilaç daha önce işe yaradıysa yine işe yarar.” vb.) sunulur. Öğrencilerin bu ifadelerde sonuca nasıl ulaşıldığını ve hangi nedenlerin hangi sonuçları doğurduğunu tartışmaları sağlanır (KB2.18, SDB2.1). Öğrencilere akıl yürütmenin tanımı, bileşenleri ve koşulları hakkında yapılandırılmış bir metin sunulur. Öğrencilerden örnek akıl yürütmelerdeki kanıtlayan ve kanıtlanan önermeleri belirleyip öncül ve sonuç önermeleri olarak etiketlemeleri istenir. Küçük gruplara ayrılan öğrencilere, farklı disiplinlerden seçilmiş geçerli akıl yürütme örnekleri verilir. Öğrencilerden düşün-eşleş-paylaş tekniğini kullanarak “Bu akıl yürütmede öncüller, sonuca ulaşmayı nasıl sağlamaktadır?”, “Bu sonuç, verilen öncüller olmadan da çıkarılabilir miydi?”, “Verilen öncüllerden farklı bir sonuca da ulaşılabilir mi?” sorularını tartışmaları ve bu sorulara gerekçeli cevaplar üretmeleri istenir. Tartışma sırasında öğrencilerin görüşlerini yapıcı biçimde ifade etmeleri ve karşıt görüşleri dikkatle dinlemeleri teşvik edilir (E3.5, SDB2.1, D14.1). Grupların paylaşımlarının ardından öğrencilerin bireysel olarak “akıl yürütmelerde öncüllerin sonuca ulaşmadaki işlevi” hakkında çıkarımlarını bir yansıtıcı yazı ile ifade etmeleri sağlanır (OB1, SDB1.3). Öğrencilere, akıl yürütmenin bileşenleri ve bunlar arasındaki ilişki konularını kapsayan yapılandırılmış metin, örnek akıl yürütmeler, soru ve uygulamaların yer aldığı bir çalışma kâğıdı sunulur. Öğrencilerden bu örneklerde yer alan öncüllerin sonuç için yeterli gerekçelendirme sağlayıp sağlamadığını nedenleriyle birlikte tartışması sağlanır (E3.9). Öğrencilerden öğrendiklerine yönelik bilgi haritası hazırlamaları istenebilir. Öğrenciler, bilgi haritası oluştururken dijital araçlardan yararlanabilir (OB2). Sürecin değerlendirilmesinde öz değerlendirme formu ve kontrol listesi kullanılabilir. Daha fazla kaynak için \"okuldisiogrenme.eba.gov.tr\" genel ağ adresini ziyaret edebilirsiniz. ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI DE.1.2.3 Öğrencilere günlük hayatta sıkça karşılaşılan ve çıkarım yapmayı gerektiren durumlara ilişkin örnekler verilir. Her örnek için sırasıyla “Bu durumda hangi sonuca ulaşırsınız?” ve “Bu sonuca nasıl ulaştığınızı düşünüyorsunuz?” soruları sorulur. Bu süreçte öğrencilerin, akıl yürütmelerde yer alan öncül-sonuç ilişkisini fark etmeleri hedeflenir (KB2.16). Akıl yürütme türlerinin (tümevarım, tümdengelim, analoji ve geri çıkarım) temel özelliklerini açıklayan yapılandırılmış bir metin verilerek bunlardan hareketle “Bir akıl yürütmede bulunması gereken ölçütler nelerdir?” sorusuna yönelik çıkarımlarını maddeler hâlinde yazmaları sağlanır (E3.7). Gönüllü öğrencilerin cevaplarını sınıfla paylaşmaları sağlanarak yanlış genellemeler ve kavram yanılgıları öğretmen rehberliğinde giderilir. Öğrencilere farklı akıl yürütme türlerini içeren örnekler verilir. Bu örnekler üzerinden “Hangi örnekte tek tek gözlemlerden genel bir yargıya ulaşılmıştır?”, “Hangi örnekte genel bir ilke, özel bir duruma uygulanmıştır?”, “Hangi örnekte iki durum arasındaki benzerlik temel alınmıştır?”, “Hangi örnekte gözlenen bir sonuçtan hareketle olası bir neden ileri sürülmüştür?” soruları yöneltilerek öğrencilerin, akıl yürütmeleri benzerlik ve farklılıklarına göre ayrıştırmaları sağlanır (KB2.7, E3.1). Öğrencilerden kendilerine verilen akıl yürütme örneklerini tümevarım, tümdengelim, analoji ve geri çıkarım başlıkları altında tasnif etmeleri istenir (OB1, KB2.16). Ardından öğrenciler küçük gruplara ayrılır ve her gruptan, günlük hayattan seçtikleri bir duruma ilişkin en az iki farklı akıl yürütme türünü içeren çıkarımlar yazmaları istenir (SDB2.2). Gruplar yazdıkları çıkarımlardan birini sınıfta paylaşır (SDB2.1). Diğer grupların, paylaşılan çıkarımın hangi akıl yürütme türüne ait olduğuna karar vermeleri ve bu kararı, çıkarımın yapısına dayanarak gerekçelendirmeleri istenir. Gruplardan yazılan akıl yürütmeleri, türlerine göre doğru biçimde etiketlemeleri beklenir. Grup çalışmasında aktif rol alması sağlanır (D3.4). Bu süreç öz değerlendirme formu kullanılarak değerlendirilebilir. Ünite sonunda işlenen konularla ilgili Türk-İslam düşünürlerinin eserlerinden örnek metinler verilerek öğrenciler düşünmeye yönlendirilebilir. Daha fazla kaynak için \"okuldisiogrenme.eba.gov. tr\" genel ağ adresini ziyaret edebilirsiniz. Performans görevi olarak öğrencilerden günlük hayatta karşılaştıkları bir yazılı ya da görsel materyali seçmeleri, seçtikleri materyalde yer alan gerekçesiz ifadeleri belirleyerek bu akıl yürütme hatalarının neden ortaya çıktığını açıklamaları ve bunların düşünme sürecine etkisini değerlendirmeleri istenebilir. Performans görevi; dereceli puanlama anahtarı, öz değerlendirme formu, gözlem formu veya kontrol listesi ile değerlendirilebilir. Farklılaştırma Zenginleştirme Öğrencilere “Ali sınavdan yüksek not aldı.” cümlesi verilerek “Bu sonuç için hangi önermeleri üretirsiniz?” sorusu yöneltilebilir ve öğrencinin durum tespiti yapması istenebilir. Akıl yürütme ve ikna edicilik arasındaki farkı ortaya koyan iki ayrı akıl yürütme sunularak hangisinin daha gerekçeli (argüman) olduğu sorulabilir. Destekleme Önceden hazırlanmış çalışma kâğıtlarında yer alan ifadeleri doğru/yanlış olarak ya da gerekçe yönüyle değerlendirmeleri istenebilir. Öğretmen Programa yönelik görüş ve önerileriniz için karekodu Yansıtmaları akıllı cihazınıza okutunuz. ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "DE.1.2.1",
+     "order": 1,
+     "text": "Önermeler hakkında bilgi toplayabilme Süreç Bileşenleri a) Önermeler hakkında bilgiye ulaşmak için hangi araçları kullanacağını belirler.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Önermeler hakkında bilgiler bulur."
+      },
+      {
+       "label": "c",
+       "text": "Önermeler hakkında ulaştığı bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Önermeler hakkında ulaştığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "DE.1.2.2",
+     "order": 2,
+     "text": "Akıl yürütmenin yapısını çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Akıl yürütmenin bileşenlerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "Akıl yürütmenin bileşenleri arasındaki ilişkiyi belirler."
+      }
+     ]
+    },
+    {
+     "code": "DE.1.2.3",
+     "order": 3,
+     "text": "Akıl yürütmeleri türlerine göre sınıflayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bir akıl yürütmede bulunması gereken ölçütleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Akıl yürütme türlerini benzerliklerine göre ayrıştırır."
+      },
+      {
+       "label": "c",
+       "text": "Akıl yürütmeleri tümevarım, tümdengelim, analoji ve geri çıkarım başlıkları altında tasnif eder."
+      },
+      {
+       "label": "ç",
+       "text": "Akıl yürütme örneklerini gerekçelendirerek türlerine göre etiketler. İçerik Çerçevesi Önermeler Akıl Yürütmenin Yapısı Akıl Yürütmenin Türleri"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 3,
+   "kind": "ÜNİTE",
+   "title": "VERİ, MALUMAT VE BİLGİ",
+   "description": "Bu ünitede öğrencilerin veri-malumat-bilgi ayrımını inceleyerek, veri ve malumatların anlamını değiştirmeden bilgi olarak yeniden ifade edebilmeleri, veri ve malumatların doğruluğunu tartışarak mantıksal çelişkilerini ve/veya tutarsızlıklarını tespit edebilmeleri amaçlanmaktadır.",
+   "lesson_hours": 18,
+   "sections": {
+    "ALAN BECERİLERİ": "KAVRAMSAL KB2.14. Yorumlama, KB2.18. Tartışma BECERİLER Eğilimler E3.1. Muhakeme, E3.4. Gerçeği Arama, E3.7. Sistematiklik Programlar Arası Bileşenler Sosyal-Duygusal SDB2.1. İletişim, SDB2.2. İş Birliği Öğrenme Becerileri",
+    "Değerler": "D1. Adalet, D3. Çalışkanlık, D6. Dürüstlük, D14. Saygı",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık DİSİPLİNLER ARASI Türkçe, Sosyal Bilgiler, Fen Bilimleri, Matematik",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.2. Gözlemleme, KB2.10. Çıkarım Yapma, KB2.17. Değerlendirme ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE DE.1.3.1. Veri-malumat-bilgi ayrımlarını yorumlayabilme SÜREÇ BİLEŞENLERİ a) Veri-malumat-bilgi ayrımını inceler. b) Veri ve malumatları bağlamdan kopmadan bilgiye dönüştürür. c) Veri-malumatbilgi ayrımını doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder. DE.1.3.2. Veri ve malumatların doğruluğunu tartışabilme a) Veri ve malumatların doğruluğuna dair mantıksal temellendirme yapar. b) Veri ve malumatların doğruluğunu, mantıksal çelişkilerini ve/veya tutarsızlıklarını tespit eder. c) Veri ve malumatların doğruluğunu çürütür veya kabul eder.",
+    "İÇERİK ÇERÇEVESİ": "Veri-Malumat-Bilgi Ayrımı Veri ve Malumatların Doğruluğu",
+    "Anahtar Kavramlar": "açıklama, bilgi, malumat, nedensel bağ, örüntü tanıma, veri, yeterli/yetersiz veri",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; tartışma, çalışma kâğıdı, yansıtıcı yazı, tablo ha- (Ölçme ve zırlama, kontrol listesi, performans görevi, gözlem formu, frayer modeli, dereDeğerlendirme) celi puanlama anahtarı, grup değerlendirme formu ve öz değerlendirme formu kullanılarak değerlendirilebilir. Performans görevi olarak öğrencilerden ünite sürecinde öğrendikleri kavramları ve açıklamalarını içeren bir broşür hazırlamaları istenebilir. Performans görevi; dereceli puanlama anahtarı, öz değerlendirme formu ve kontrol listesi ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin günlük yaşamlarında farklı türde veri ve bilgilerle karşılaştıkları; bu veri ve bilgileri sıralama, karşılaştırma ve gruplayarak anlamlandırma deneyimine sahip oldukları; bir durumu açıklama eğiliminde oldukları kabul edilmektedir. Ön Değerlendirme Tahtaya öğrencilerin veri, malumat ve bilgi ayrımını yapabilmesi için \"Bugün Süreci hava sıcaklığı 22 derecedir.\", \"Bugün hava çok sıcak.\", \"Vitrindeki mont çok güzel.\", \"Vitrindeki montu satın alabilirim.\" ifadeleri yazılarak öğrencilerden bu ifadeleri işaretlemeleri istenebilir. Köprü Kurma Öğrencilere bir süs bitkisinin sulanma, güneşlenme ve toprağının beslenmesi ile ilgili verilerin olduğu bir tablo verilebilir. Bu tablo üzerinden sorular sorularak sebep-sonuç zinciri kurmaları sağlanabilir. ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme DE.1.3.1 Uygulamaları Öğrencilere günlük hayattan veri örnekleri verilir ve bu verilerden bir sonuç çıkarıp çıkaramayacakları sorulur (OB1). Verilere ait ek bilgiler verilerek öğrencilerin bu verileri sorgulaması sağlanır. Öğrencilere veri, malumat ve bilgi farkına yönelik çalışma kâğıdı verilir. Böylece öğrencilerin veriden malumata ve bilgiye ulaşma sürecini kavramaları beklenir. Öğrencilere veri-malumat ve bilginin ne olduğuna ilişkin açıklamaların yer aldığı yapılandırılmış bir metin ve farklı alanlardan örnekler verilerek öğrencilerin veriden bilgiye nasıl ulaşıldığını incelemeleri sağlanır (E3.1). Öğrencilerin gruplara ayrılmaları ve verilen örnekleri veri/malumat/bilgi olarak ayrıştırmaları beklenir (SDB2.1). Ulaştıkları sonuçları sınıfta paylaşarak veri/malumat/bilgi tablosu hazırlamaları istenir. Öğrencilerden grup içinde aldığı görevleri yerine getirerek gruba katkı sağlamaları beklenir (SDB2.2, D1.2, D3.4). Öncelikle her grubun kendi yakın çevresinden gözlem yaparak verilere ulaşabileceği bir konu belirlemesi beklenir. Öğrencilerden konuyu belirlerken millî ve manevi değerleri dikkate almaları beklenir (D14.3). Gruplardan belirledikleri konuya uygun veri toplama yöntemlerini (gözlem, anket vb.) kullanarak veri toplamaları istenir (OB1). Bu verileri, veri ve malumatları düzenleme tekniklerini (veri temizleme, sınıflandırma, kodlama, sıralama ve özetleme) kullanarak grafik örgütleyicilerle görselleştirmeleri ve sınıfta paylaşmaları sağlanır (KB2.2, E3.7, OB4). Matematik dersi \"İstatistiksel Araştırma Süreci\" teması ile bağlantı kurulur. Süreç; grup değerlendirme formu, gözlem listesi veya kontrol listesi ile değerlendirilebilir. Daha fazla kaynak için \"okuldisiogrenme.eba.gov.tr\" genel ağ adresini ziyaret edebilirsiniz. DE.1.3.2 Öğrencilere günlük hayattan örnekler verilerek bu örneklerde sunulan bilgilerin güvenilir olup olmadığı ve buna nasıl karar verdikleri sorulur (E3.4). Öğrencilere “Bu bilgi, hangi verilere dayanıyor olabilir?”, “Bilgiye ulaşmada veriler yeterli midir?”, “Yetersiz verilere dayanan bilgi yanıltıcı mıdır?”, \"Bu bilgileri hangi güvenilir kaynaktan elde edebilirsiniz?\" gibi sorular yöneltilir. Toplumda yanıltıcı bilgi kullanımının olası etkileri üzerine öğrenci görüşleri alınır (D6.2). Öğrencilerin yapay zekâ araçlarını kullanırken edindikleri bilgilerin doğruluğunu tek bir kaynakla yetinmeden diğer kaynaklarla karşılaştırarak sorgulamaları ve yetersiz veriye dayanan bilginin yanıltıcı olabileceği çıkarımına ulaşmaları sağlanır. Öğrencilerin bilginin verilere ve malumatlara dayandığı, bu veri ve malumatlar eksik olduğunda doğru bilgiye ulaşılamayacağı sonucuna varmaları beklenir. Öğrencilere veri ve malumatların düzenlenmesinde eksik verileri tamamlama, örüntüleri tanıma, veriler ve malumatlar arasındaki nedensel bağlar konuları ile ilgili yapılandırılmış metinler ile soru ve uygulamaların yer aldığı bir çalışma kâğıdı verilir (OB1). Çalışma kâğıdındaki soru ve uygulamalarla bilgiye ulaşmada eksik veri ve malumatları tamamlamaları istenir. Örüntüyü tanıma, veriler ve malumatlar arasındaki nedensel bağları kavrama ile ilgili öğrencilerin akıl yürütmesi sağlanır (E3.1). Öğrencilerden küçük gruplara ayrılarak öğretmenin verdiği eksik veri içeren senaryoları incelemeleri istenir. Öğrencilere yapılandırılmış metin verilerek öğrencilerden metindeki veri ve malumatların doğruluğunu veya çelişkilerini tespit etmeleri istenir. Daha sonra öğrencilerin veri ve malumatların doğruluğunu çürütmeleri veya kabul etmeleri sağlanır. Örüntü tanıma ve nedensel bağlar kurma kavramlarını kullanarak bu senaryoyu değerlendirmeleri beklenir (KB2.17, E3.1, OB1). Yapılan çalışmalar sonunda grupların senaryolarındaki eksik verileri tamamlayarak senaryoyu yeniden yazmaları ve sınıfta paylaşmaları sağlanır. (SDB2.1, SDB2.2). ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI Bu süreç, grup değerlendirme formu veya öz değerlendirme formu ile değerlendirilir. Öğrencilerden veri ve malumatları düzenlemenin neden önemli olduğuna ilişkin kısa bir yansıtıcı yazı yazmaları istenir (OB1). Gönüllü öğrenciler yazılarını sınıfta paylaşır. Paylaşımlar sırasında öne çıkan görüşler tahtaya yazılarak öğrencilerin veri ve malumatları düzenlemede eksik verinin tamamlanmasının, örüntü tanımanın, veriler ve malumatlar arasındaki nedensel bağların bilgiye ulaşmadaki rolü ve önemi hakkında çıkarımlarda bulunmaları sağlanır (KB2.10). Bu çalışma gözlem formu veya öz değerlendirme formu ile değerlendirilebilir. Ünite sonunda işlenen konularla ilgili Türk-İslam düşünürlerinin eserlerinden örnek metinler verilerek öğrenciler düşünmeye yönlendirilebilir. Performans görevi olarak öğrencilerden ünite sürecinde öğrendikleri kavramları ve bu kavramlarla ilgili açıklamaları içeren bir broşür hazırlamaları istenebilir. Performans görevi dereceli puanlama anahtarı, öz değerlendirme formu ve kontrol listesi ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilere bir veri cümlesi verilerek öğrencilerin bu cümleyi önce malumat içeren cümleye, daha sonra bilgi cümlesine dönüştürmeleri istenebilir. \"Türkçe testi 5 yanlış.\" cümlesi veri, \"Türkçe testinden 5 yanlış yaptım.\" cümlesi malumat ve \"Türkçeden eksik konularıma çalışmalıyım.\" cümlesi bilgi olarak örneklendirilebilir. Destekleme Öğrencilere \"Sayıları sınıfta nerelerde görüyorsunuz?\" sorusu sorulabilir. Ardından \"Bu sayılardan ne anlıyorsunuz?\" ve \"Bu sayılardan yararlanarak hangi bilgilere ulaşabilirsiniz?\" soruları ile öğrencilerin veri-malumat-bilgi ayrımını somutlaştırmaları sağlanabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "DE.1.3.1",
+     "order": 1,
+     "text": "Veri-malumat-bilgi ayrımlarını yorumlayabilme SÜREÇ BİLEŞENLERİ a) Veri-malumat-bilgi ayrımını inceler.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Veri ve malumatları bağlamdan kopmadan bilgiye dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Veri-malumatbilgi ayrımını doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "DE.1.3.2",
+     "order": 2,
+     "text": "Veri ve malumatların doğruluğunu tartışabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Veri ve malumatların doğruluğuna dair mantıksal temellendirme yapar."
+      },
+      {
+       "label": "b",
+       "text": "Veri ve malumatların doğruluğunu, mantıksal çelişkilerini ve/veya tutarsızlıklarını tespit eder."
+      },
+      {
+       "label": "c",
+       "text": "Veri ve malumatların doğruluğunu çürütür veya kabul eder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 4,
+   "kind": "ÜNİTE",
+   "title": "DÜŞÜN, TASARLA VE UYGULA",
+   "description": "Bu ünitede öğrencilerin günlük yaşamda karşılaştığı problemleri analiz etmeleri, eleştirel düşünme becerilerini kullanarak problemlere uygun çözüm yolları geliştirmeleri amaçlanmaktadır.",
+   "lesson_hours": 14,
+   "sections": {
+    "ALAN BECERİLERİ": "KAVRAMSAL KB3.2. Problem Çözme BECERİLER Eğilimler E1.5. Kendine Güvenme (Öz Güven), E3.6. Analitiklik, E3.8. Soru Sorma, E3.10. Eleştirel Bakma Programlar Arası Bileşenler Sosyal-Duygusal SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği, Öğrenme Becerileri SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D3. Çalışkanlık, D5. Duyarlılık, D14. Saygı",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık DİSİPLİNLER ARASI Türkçe, Sosyal Bilgiler, Fen Bilimleri, Teknoloji ve Tasarım",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.20. Sentezleme ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE DE.1.4.1. Günlük hayatta karşılaşılan problemleri çözebilme SÜREÇ BİLEŞENLERİ a) Günlük hayatta karşılaşılan sorunlara yönelik bir problemi yapılandırır. b) Günlük hayatta karşılaşılan sorunlara yönelik bir problemi özetler. c) Günlük hayatta karşılaşılan bir problemin çözümüne yönelik gözleme ve veriye dayalı tahminde bulunur. ç) Günlük hayatta karşılaşılan bir problemin çözümüne yönelik önermeler üzerinden akıl yürütür. d) Günlük hayatta karşılaşılan bir problemin çözümüne yönelik değerlendirmede bulunur.",
+    "İÇERİK ÇERÇEVESİ": "Günlük Hayatta Karşılaşılan Sorunların Çözümü",
+    "Anahtar Kavramlar": "çıktı, deneme, problem, tasarım, uygulama, üretim, ürün, yanılma",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; açık uçlu soru, kısa cevaplı soru, tartışma, (Ölçme ve çalışma yaprağı, gözlem formu, grup değerlendirme formu, kontrol listesi, öz Değerlendirme) değerlendirme formu, dereceli puanlama anahtarı ve performans görevi ile değerlendirilebilir. Performans görevi olarak öğrencilerden, verilen örnek durumların çözümüne yönelik problem çözme dosyası hazırlamaları istenebilir. Performans görevi; dereceli puanlama anahtarı, öz değerlendirme formu ve kontrol listesi ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Günlük hayatta karşılaştıkları sorunların nereden kaynaklandığını bilebildikleri ve soruna yönelik olası çözümleri kısmen değerlendirebildikleri kabul edilmektedir. Ön Değerlendirme Öğrencilere derse başlamadan önce \"Günlük hayatta karşılaştığın problemler Süreci nelerdir ve bu problemleri çözmek için hangi yolları kullandın?\" sorusu yöneltilebilir. Ayrıca öğrencilere \"Günlük hayatta karşılaştığın sorunların kaynağı nedir, bu sorunların kaynağını nasıl bulursun? sorusu sorulabilir. Öğrencilerin bu soruya yazılı veya sözlü olarak yanıt vermeleri sağlanabilir. Köprü Kurma Öğrencilerin yaşantılarında karşılaştıkları sorunları, problem çözme süreciyle ilişkilendirmeleri istenebilir. Öğrencilerin gündelik yaşamda karşılaştıkları sorunlarla ilgili ilk olarak ne yaptıklarıyla ilgili görüşleri alınabilir. Öğrenme-Öğretme DE.1.4.1 Uygulamaları Öğrenciler gruplara ayrılarak her gruba farklı bir problem ve sorusu verilir. Örneğin: Yarın teslim etmeniz gereken iki önemli ödev var ancak sadece birine yetecek kadar zamanınız var. Hangi ödevi önce yapmayı tercih edersiniz? Belirlenen problemler gruplar tarafından özetlenir (SDB2.2). Özetlerde problemin neden önemli olduğu, kimleri etkilediği ve hangi yönleriyle dikkat çektiği vurgulanır. Öğrencilerin grup içinde fikirlerini saygıyla paylaşmaları sağlanır (SDB2.1, D5.1, D14.1). Yapılandırılan problemle ilgili okulda, evde ve çevrede gözlem yapılır. Bu gözlemler anket, fotoğraf, kısa video, grafik gibi zenginleştirilmiş bileşenlerle veri hâline getirilir (OB2, OB4). ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI Bu veriler üzerinden “Bu sorun neden ortaya çıkıyor?”, “Ne sıklıkta yaşanıyor?” gibi tahminler yürütülür (E3.8, SDB3.3). Öğrencilerden grup içinde problemlerle ilgili sorular sormaları ve problemlerin olası sonuçlarını düşünmeleri istenir. Açık uçlu sorular sormaları teşvik edilir (E3.8). Örnek problem durumlarından yola çıkarak problem çözme basamaklarını tahmin etmeleri istenir. Ardından problem çözme basamakları verilir ve tahminleri ile karşılaştırmaları istenir. (SDB2.2). Bu süreçte sorunların çözümüne yönelik tahminler yürütülür. Önermeler üzerinden akıl yürütülür. Grupların önerileri grafik örgütleyicilerle sunulur. Her grubun önerdiği çözümün uygulanabilirliği, etkisi ve sınırlılıkları değerlendirilir (E3.6, E3.10, D3.4). Öğrencilerin bireysel olarak “Bu süreçte ne öğrendim?”, “Hangi becerimi geliştirdim?” gibi sorulara yanıt bulmaları sağlanır (SDB1.3, E1.5). Öğrencilere yapılandırılmış metin verilir. Öğrencilerden metindeki sorunun çözümüne yönelik alternatif bir çözümü verilen materyallerle tasarlamaları istenebilir. Teknoloji ve tasarım dersinin \"Temel Tasarım\" ünitesi ile bağlantı kurulur. Hazırlanan ürünler sınıf panosunda sergilenebilir. Öğrencilerin günlük hayatta karşılaştıkları bir problemi çok yönlü biçimde analiz etmeleri, gözlem ve veriye dayalı çıkarımları özgün çözüm önerileriyle birleştirmeleri sağlanır (KB2.20). Ünite sonunda işlenen konularla ilgili Türk-İslam düşünürlerinin eserlerinden örnek metinler verilerek öğrenciler düşünmeye yönlendirilebilir. Öğrencilerden verilen örnek durumların çözümüne yönelik problem çözme dosyası hazırlamaları istenebilir.\"Çevrenizdeki insanların veya arkadaşlarınızın günlük konuşmalarda atasözleri ve deyimlerin anlamlarını birbirine karıştırdığını ve anlamlarını tam bilmedikleri için yanlış yerlerde kullandığınızı gözlemliyorsunuz.\" konusu ile ilgili öğrencilerden performans görevi hazırlamaları istenebilir. Performans görevi; dereceli puanlama anahtarı, öz değerlendirme formu ve kontrol listesi ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden millî ve manevi değerleri düşünme becerileriyle birleştirerek geleceğin dünyasına uyarlayabilecekleri disiplinler arası bir çalışma yapmaları beklenir. Öğrenciler, tarihteki Türk-İslam bilim insanlarını rehber alarak günlük yaşam sorunlarına yönelik çözümler geliştirebilirler. Öğrenciler, bu çalışmalarını TEKNOFEST’te sunabilirler. Destekleme Öğrencilere kısa hikâyeler anlatılabilir. Bu hikayelerde yaşanan sorunlara yönelik farklı çözümler üretmeleri istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI 2.2. DÜZEY II"
+   },
+   "outcomes": [
+    {
+     "code": "DE.1.4.1",
+     "order": 1,
+     "text": "Günlük hayatta karşılaşılan problemleri çözebilme SÜREÇ BİLEŞENLERİ a) Günlük hayatta karşılaşılan sorunlara yönelik bir problemi yapılandırır.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Günlük hayatta karşılaşılan sorunlara yönelik bir problemi özetler."
+      },
+      {
+       "label": "c",
+       "text": "Günlük hayatta karşılaşılan bir problemin çözümüne yönelik gözleme ve veriye dayalı tahminde bulunur."
+      },
+      {
+       "label": "ç",
+       "text": "Günlük hayatta karşılaşılan bir problemin çözümüne yönelik önermeler üzerinden akıl yürütür."
+      },
+      {
+       "label": "d",
+       "text": "Günlük hayatta karşılaşılan bir problemin çözümüne yönelik değerlendirmede bulunur."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 1,
+   "kind": "ÜNİTE",
+   "title": "KAVRAMLAR VE DÜŞÜNME",
+   "description": "Bu ünitede öğrencilerin kavramların düşünme sürecindeki işlevini sorgulamaları, düşünme ve kavram arasındaki ilişkiyi anlamlandırabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 18,
+   "sections": {
+    "ALAN BECERİLERİ": "KAVRAMSAL KB2.8. Sorgulama BECERİLER Eğilimler E1.1. Merak, E3.3. Yaratıcılık, E3.8. Soru Sorma, E3.9. Şüphe Duyma Programlar Arası Bileşenler Sosyal-Duygusal SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.1. İletişim, SDB2.2. İş Birliği Öğrenme Becerileri",
+    "Değerler": "D3. Çalışkanlık, D14. Saygı, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık DİSİPLİNLER ARASI Türkçe, Fen bilimleri, Sosyal Bilgiler",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.6. Bilgi Toplama, KB2.7. Karşılaştırma, KB2.10. Çıkarım Yapma ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE DE.2.1.1. Düşünme ile kavram arasındaki bağı sorgulayabilme SÜREÇ BİLEŞENLERİ a) Düşünme ile kavram arasındaki bağ hakkında merak ettiklerini tanımlar. b) Düşünme ile kavram arasındaki bağ hakkında sorular sorar. c) Düşünme ile kavram arasındaki bağ hakkında bilgi toplar. ç) Düşünme ile kavram arasındaki bağ hakkında toplanan bilgilerin doğruluğunu değerlendirir. d) Düşünme ile kavram arasındaki bağ hakkında çıkarımda bulunur. DE.2.1.2. Kavramların düşünme sürecindeki işlevini sorgulayabilme a) Kavramların düşünme sürecindeki işlevini tanımlar. b) Kavramların düşünme sürecindeki işlevi hakkında sorular sorar. c) Kavramların düşünme sürecindeki işlevi hakkında bilgi toplar. ç) Kavramların düşünme sürecindeki işlevi hakkında topladığı bilgilerin doğruluğunu değerlendirir. d) Kavramların düşünme sürecindeki işlevi hakkında çıkarım yapar.",
+    "İÇERİK ÇERÇEVESİ": "Kavramlar ve Düşünme",
+    "Anahtar Kavramlar": "algı, anlama, benzerlik/farklılık, durum, duyum, düşünme, hafıza, imgelem, kavrama, olay, olgu, sınıflandırma, terim, yargılama",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; kelime ilişkilendirme testi, açık uçlu sorular, tar- (Ölçme ve tışma, 5N1K, kavram haritası, çalışma kâğıdı, kontrol listesi, performans görevi, Değerlendirme) gözlem formu, dereceli puanlama anahtarı, grup değerlendirme formu ve öz değerlendirme formu kullanılarak değerlendirilebilir. Performans görevi olarak öğrencilerden ünitede öğrendiklerine yönelik bir öğrenme bülteni hazırlamaları istenebilir. Performans görevi; dereceli puanlama anahtarı, öz değerlendirme formu ve kontrol listesi ile değerlendirilebilir. Temel Kabuller Öğrencilerin kavramsal olarak genel-özel ilişkisi kurabildikleri, günlük dilde kullanılan birçok kelimenin kavram olduğunu ayırt edebildikleri, benzerlikleri/farklılıkları bulabildikleri ve gruplama/sınıflama yapabildikleri kabul edilmektedir. Ön Değerlendirme Öğrencilerin kavram-terim ayrımını düşünmelerine yönelik olarak öğrencilere Süreci \"Özgürlük deyince aklınıza tek bir şey mi geliyor yoksa birden fazla durum mu? Neden?\" ve \"Kuş bir kavram mıdır, yoksa bir varlık mıdır? Neden?\" soruları sorulabilir. Köprü Kurma Öğrencilere kavramların düşünmenin temelini oluşturduğunu anlamalarına yönelik örnek bir kavram verilir. Verilen kavrama ait kelimeyi kullanmadan tanımlaması istenebilir. Bu amaçla çeşitli oyunlar kurgulanabilir. Öğrenme-Öğretme DE.2.1.1 Uygulamaları Öğrencilere birbirinden farklı ancak ortak özellikler taşıyan bazı nesne görselleri sunulur (OB4). Öğrenciler ikili gruplara ayrılır (SDB2.2). Öğrencilerin görsellerdeki varlıkların isimlerini kullanmadan ve renk, biçim, büyüklük, kullanım amacı gibi ayırt edici özelliklerine odaklanarak bu varlıklar hakkında düşünmeleri istenir. Düşüncelerini yalnızca betimleyici ifadeler kullanarak grup arkadaşıyla paylaşmaları sağlanır (SDB2.1). Ardından öğrencilerin düşünme ve düşüncelerini aktarım süreçlerinde hangi noktalarda zorlandıklarını açıklamaları beklenir. Öğrencilerin görsellerdeki varlıkların tek tek adlandırılması ya da hepsini kapsayan tek bir ifade kullanılması hâlinde düşüncelerini aktarmada yaşadıkları zorluğun ortadan kalkıp kalkmayacağı konusundaki görüşleri alınır (SDB 2.1). ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI “Bir şeyi düşünmek için onu mutlaka adlandırmamız gerekir mi? Neden?” sorusunun sınıf ortamında tartışılması sağlanır. Öğrencilere düşünme ve kavram arasındaki bağ, kavramın tanımı ve düşünme sürecindeki önemi, düşünmenin kavram oluşumuna katkısı gibi konularla ilgili açıklamaları içeren yapılandırılmış bir metin sunulur (OB1). Öğrencilerden okudukları metinden yola çıkarak düşünme ile kavram arasındaki bağ hakkında merak ettiklerini tanımlamaları istenir. Metinle ilgili açık uçlu sorular sorularak öğrencilerden düşünmenin kavramlarla ilişkisini açıklamaları istenir. Öğrencilere kavramlaştırmanın gerçekliğin açıklanmasına etkisi hakkında yapılandırılmış bir metin sunulur ve öğrencilerden gruplara ayrılarak bu konuyla ilgili sorular üretmeleri beklenir (E3.8). Üretilen soruların sınıfla paylaşılması ve öne çıkan üç soru hakkında sınıf içi tartışma yapılması sağlanır. Tartışma sırasında öğrenciler, birbirlerine karşı nezaketli ve saygılı olmaları konusunda yönlendirilir (SDB2.1, D14.1). Öğrencilerin farklı dillerde olup Türkçede bir sözcük ile karşılanmayan kavramlarla ilgili bilgi toplamaları sağlanır (KB2.6, E1.1, OB1). Öğrencilerden topladıkları bilgilerin doğruluğunu farklı güvenilir kaynaklarla karşılaştırarak değerlendirmeleri beklenir. Ardından araştırdıkları kavramların karşıladığı olay, olgu, durum, nesne ve duyguları dikkate alarak bu kavramlara karşılık gelebilecek Türkçe kelimeler önermeleri istenir. Süreç sonunda öğrencilerin, edindikleri bilgiler ve ulaştıkları çıkarımlardan hareketle kavram-gerçeklik ilişkisini yorumlayan kısa bir metin yazmaları sağlanır (KB2.10). Sürecin değerlendirilmesi için öz değerlendirme formu ya da kontrol listesi kullanılabilir. Performans görevi olarak öğrencilerden ünitede öğrendiklerine yönelik bir öğrenme bülteni hazırlamaları istenebilir. Performans görevi; dereceli puanlama anahtarı, öz değerlendirme formu ve kontrol listesi ile değerlendirilebilir. DE.2.1.2 Öğrencilere kavram ve terim farkının açıklandığı bir bilgi notu ile farklı disiplinlere ait terimler içeren yapılandırılmış metinler verilir (OB1). Öğrencilerin bu metinlerde yer alan her bir disipline özgü terimleri bulmaları istenir. Bu terimlere karşılık gelen kavramlar olmazsa neler yaşanabileceği hakkında öğrencilerin görüşleri alınır. “Zihninizde karşılığı olmayan bir kavram hakkında düşünmeniz mümkün müdür?” sorusunu gerekçelendirerek cevaplamaları sağlanır. Öğrencilere farklı kategoriler altında sınıflandırılabilecek varlık görselleri sunulur (OB4). Öğrencilerin bu görsellerdeki varlıkların özelliklerini listelemeleri ve listelenen özellikleri, benzerlik ve farklılıklarını dikkate alarak gruplandırmaları sağlanır (KB2.7). Öğrencilerden oluşturdukları bu gruplara, uygun kavram adları vermeleri istenir. Öğrencilerin, yaptıkları sınıflandırmaların arkasındaki düşünme süreçlerini sözlü olarak ifade etmeleri sağlanır. Öğrencilere, kavramlar arasındaki ilişkiler ile kavramların sınıflandırılması ve bölünmesi konularını kapsayan yapılandırılmış metin, soru ve uygulamaların yer aldığı bir çalışma kâğıdı sunulur. Öğrencilerin kavramların düşünme sürecindeki işlevini tanımlamaları sağlanır. Öğrenciler küçük gruplara ayrılır (SDB2.2). İş birlikli çalışmayla öğrencilerin 5N1K tekniğini kullanarak kavramların düşünme sürecindeki işlevine ilişkin sorular üretmeleri sağlanır (E3.8). Gruplardan kavramların düşünme sürecindeki işlevi hakkında bilgi toplamaları istenir (D3.3, OB1). Öğrencilerin, topladıkları bilgilerin doğruluğunu değerlendirmeleri için onlara kavramların düşünme sürecindeki işlevi hakkında bilgi notu verilir. Bilgi notu ve edindikleri bilgileri kullanarak sınıfça tartışmaları sağlanabilir (E3.9). ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI Süreç sonunda gruplardan kavramların düşünme sürecindeki işlevi hakkında yaptıkları çıkarımlardan hareketle bir slogan/afiş ya da kavramların olmadığı bir dünyada düşünmenin nasıl işleyeceğini konu alan kısa bir senaryo üretmeleri istenebilir (E3.3, OB4). Öğrenciler görevlerini yerine getirirken gerekli görev bilincine sahip olmaları açısından yönlendirilir (D16.3). Ünite sonunda işlenen konularla ilgili Türk-İslam düşünürlerinin eserlerinden örnek metinler verilerek öğrenciler düşünmeye yönlendirilebilir. Öğrencilerin slogan, afiş ya da senaryo hazırlama sürecinde hangi duyguları hissettiklerini yansıtmaları beklenir (SDB1.1). Sürecin değerlendirilmesinde öz değerlendirme veya grup değerlendirme formu kullanılabilir. Daha fazla kaynak için \"okuldisiogrenme.eba.gov.tr\" genel ağ adresini ziyaret edebilirsiniz.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden adalet, hak, vicdan, merhamet, özgürlük ve saygı sözcüklerini kullanarak kavram haritası yoluyla kavramlar arası ilişki kurmaları ve bu şekilde düşünceyi geliştirmeleri istenebilir. Destekleme Kavram tamamlama cümleleri yaptırılabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için YANSITMALARI karekodu akıllı cihazınıza okutunuz. ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "DE.2.1.1",
+     "order": 1,
+     "text": "Düşünme ile kavram arasındaki bağı sorgulayabilme SÜREÇ BİLEŞENLERİ a) Düşünme ile kavram arasındaki bağ hakkında merak ettiklerini tanımlar.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Düşünme ile kavram arasındaki bağ hakkında sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Düşünme ile kavram arasındaki bağ hakkında bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Düşünme ile kavram arasındaki bağ hakkında toplanan bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Düşünme ile kavram arasındaki bağ hakkında çıkarımda bulunur."
+      }
+     ]
+    },
+    {
+     "code": "DE.2.1.2",
+     "order": 2,
+     "text": "Kavramların düşünme sürecindeki işlevini sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kavramların düşünme sürecindeki işlevini tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Kavramların düşünme sürecindeki işlevi hakkında sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Kavramların düşünme sürecindeki işlevi hakkında bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Kavramların düşünme sürecindeki işlevi hakkında topladığı bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Kavramların düşünme sürecindeki işlevi hakkında çıkarım yapar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 2,
+   "kind": "ÜNİTE",
+   "title": "AÇIKLAMA TÜRLERİ",
+   "description": "Bu ünitede öğrencilerin açıklama türleri hakkında bilgi toplamaları, ulaştıkları bilgileri doğrulamaları ve kaydetmeleri amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "KAVRAMSAL KB2.6. Bilgi Toplama BECERİLER Eğilimler E1.4. Kendine İnanma (Öz Yeterlilik), E3.10. Eleştirel Bakma Programlar Arası Bileşenler Sosyal-Duygusal SDB2.1. İletişim, SDB2.2. İş Birliği Öğrenme Becerileri",
+    "Değerler": "D3. Çalışkanlık",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık DİSİPLİNLER ARASI Türkçe, Fen bilimleri, Sosyal Bilgiler",
+    "İLİŞKİLER": "BECERİLER ARASI ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE DE.2.2.1. Açıklama türleri hakkında bilgi toplayabilme SÜREÇ BİLEŞENLERİ a) Açıklama türleri hakkında bilgiye ulaşmak için kullanacağı araçları belirler. b) Açıklama türleri hakkında bilgiler bulur. c Açıklama türleri hakkında ulaştığı bilgileri doğrular. ç) Açıklama türleri hakkında ulaştığı bilgileri kaydeder.",
+    "İÇERİK ÇERÇEVESİ": "Açıklama Türleri",
+    "Anahtar Kavramlar": "açıklama, anlama, bilgi, kaynak çeşitliliği, malumat, örüntü tanıma, tutarlılık, veri, yeterli/yetersiz açıklama",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; açık uçlu sorular, tartışma, beyin fırtınası, ça- (Ölçme ve lışma kâğıdı, zihin haritası, dijital sunum veya poster çalışması, kontrol listesi, Değerlendirme) performans görevi, gözlem formu, dereceli puanlama anahtarı, grup değerlendirme formu ve öz değerlendirme formu kullanılarak değerlendirilebilir. Performans görevi olarak öğrencilerden açıklama türleri ile ilgili dijital bir sunu hazırlamaları istenebilir. Performans görevi; dereceli puanlama anahtarı, öz değerlendirme formu ve kontrol listesi ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin bilgi toplama ve değerlendirme yollarını bildikleri, dijital kaynakları bu amaçla kullanabildikleri, yaşadıkları herhangi bir olayı oluş sırasıyla anlatabildikleri kabul edilmektedir. Ayrıca öğrencilerin olay ile sonuç arasında nedensel bağ kurabildikleri, önce-sonra vb. basit karşılaştırmalar yapabildikleri kabul edilmektedir. Ön Değerlendirme Ünitede yer alan temel konu ve kavram bilgilerini değerlendirmek amacıyla Süreci öğrencilere \"Bilgi vermek, açıklama yapmak mıdır? Neden?\" ve \"Bir olayı anlatmak, açıklama yapmak mıdır? Neden?\" soruları sorulabilir. Öğrencilerden \"Dünyada yer çekimi kuvveti vardır.\", \"Yer çekimi kuvveti olduğu için yüksekten atılan cisim yere düşer.\" ve \"Yer çekimi olmasaydı dünya yaşama uygun olmazdı.\" cümlelerini tanım, açıklama ve örnek şeklinde ayırt etmeleri istenebilir. Köprü Kurma Öğrencilere günlük hayattan örnek durumlar verilerek onlardan açıklama yapmaları istenebilir. Örnek: İnsanlar için oksijenin önemini açıklayınız. ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme DE.2.2.1 Uygulamaları Açıklama türleri hakkında yazılı ve görsel kaynaklar öğretmen rehberliğinde belirlenir (OB1, OB4). Öğrencilere bilgi toplayabilmeleri için “Bu bilgiye nereden ulaşabiliriz?” sorusu sorularak beyin fırtınası yaptırılır (SDB2.1). Ayrıca dijital kaynaklardan da yararlanılabilir (OB2). Bunun için ders kitapları, bilim ve tarih dergileri, görsel materyaller, kütüphaneler, akademik kaynaklar, öğretmen görüşmeleri, belgeseller veya güvenilir genel ağ siteleri (gov., edu. vb.) kullanılabilir (OB1, OB2, OB4). Bu kaynakları listelemek için öğrencilere bir tablo hazırlatılabilir. Öğrenciler, öğretmen rehberliğinde 3-5 kişilik gruplara ayrılır. Gruplara ayrılan öğrencilerden bilgi kaynaklarından açıklama türleri hakkında araştırmalar yapmaları istenir (SDB2.2). Açıklama türleri hakkında ulaşılan bilgileri doğrulamak amacıyla toplanan bilgilerin güvenilirliği ve kaynak çeşitliliği kontrol edilir. Farklı kaynaklardan bilgilerin tutarlılığı sorgulanır (E3.10). Bilgilerin güncelliği gözden geçirilir. Öğrencilerden ulaşılan bilgileri farklı türden kaynaklarla karşılaştırmaları ve gruplardan buldukları bilgileri birbirleriyle karşılaştırarak doğrulamaları istenir (E3.10). Öğrencilerin açıklama türleri hakkında ulaştıkları bilgileri kaydetmeleri amacıyla zihin haritası, dijital sunum veya poster şeklinde kayıt altına almaları, sınıf panosunda paylaşmaları ve sergilemeleri istenir (D3.3, E1.4). Ünite sonunda işlenen konularla ilgili Türk-İslam düşünürlerinin eserlerinden örnek metinler verilerek öğrenciler düşünmeye yönlendirilebilir. Performans görevi olarak öğrencilerden açıklama türleri ile ilgili dijital bir sunu hazırlamaları istenebilir. Performans görevi; dereceli puanlama anahtarı, öz değerlendirme formu ve kontrol listesi ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilere \"Kredi kartı kullanımı yaygınlaştı.\" şeklinde bir durum tespiti verilerek bu durum üzerinden farklı düşünme türlerine göre açıklama geliştirmeleri istenebilir. Destekleme Öğrencilere “Cam kırıldı ... taş çarptı.” , ” Okulu bitirmek ... ders çalışmalıyım.\" cümleleri verilerek açıklama türlerine göre tamamlamaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu YANSITMALARI akıllı cihazınıza okutunuz. ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "DE.2.2.1",
+     "order": 1,
+     "text": "Açıklama türleri hakkında bilgi toplayabilme SÜREÇ BİLEŞENLERİ a) Açıklama türleri hakkında bilgiye ulaşmak için kullanacağı araçları belirler.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Açıklama türleri hakkında bilgiler bulur. c Açıklama türleri hakkında ulaştığı bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Açıklama türleri hakkında ulaştığı bilgileri kaydeder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 3,
+   "kind": "ÜNİTE",
+   "title": "ELEŞTİREL DÜŞÜNME",
+   "description": "Bu ünitede öğrencilerin eleştirinin düşünmeyi geliştirmedeki rolünü, mantıksal temellendirmelere dayanarak olaylardaki çelişkileri ve/veya tutarsızlıkları tespit etmeleri amaçlanmaktadır. Ayrıca eleştirel düşünme süreçlerinde gözetilmesi beklenen kurallar ile benlik becerileri arasındaki ilişkiyi sorgulayarak ulaştıkları çıkarımları yansıtmaları amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "KAVRAMSAL KB2.18. Tartışma, KB3.3. Eleştirel Düşünme BECERİLER Eğilimler E1.2. Bağımsızlık, E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Öz Güven), E3.1. Muhakeme, E3.5. Açık Fikirlilik, E3.7. Sistematiklik Programlar Arası Bileşenler Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB1.3. Kendine Uyarlama (Öz Öğrenme Becerileri Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D1. Adalet, D11. Özgürlük, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı DİSİPLİNLER ARASI Türkçe, Fen bilimleri, Sosyal Bilgiler",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.1. Çelişki Giderme, KB2.4. Çözümleme ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE DE.2.3.1. Eleştirinin düşünmeyi geliştirmedeki rolünü tartışabilme SÜREÇ BİLEŞENLERİ a) Eleştirinin düşünmeyi geliştirmedeki rolü ile ilgili mantıksal temellendirme yapar. b) Eleştirinin düşünmeyi geliştirmedeki rolü ile ilgili mantıksal çelişkileri ve/ veya tutarsızlıkları tespit eder. c) Eleştirinin düşünmeyi geliştirmedeki rolünü kabul eder veya çürütür. DE.2.3.2. Eleştirel düşünme ile benlik becerileri arasındaki ilişki konusunda eleştirel düşünebilme a) Eleştirel düşünme süreçlerinde gözetilmesi beklenen değer ve kurallar ile benlik becerileri kendini tanıma, kendini düzenleme ve kendine uyarlama arasındaki ilişkiyi sorgular. b) Öz eleştirinin benlik becerilerini geliştirmeye katkısı hakkında akıl yürütür. c) Eleştiriye açık olmanın benlik becerilerini geliştirmeye katkısı hakkında ulaştığı çıkarımları yansıtır.",
+    "İÇERİK ÇERÇEVESİ": "Eleştiri ile Düşünme İlişkisi Öz Eleştiri",
+    "Anahtar Kavramlar": "algı yönetimi, benlik, değer, eleştiri, ikna, manipülasyon, öz eleştiri, propaganda",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; tartışma, soru-cevap, düşün-eşleş-paylaş (Ölçme ve tekniği, kelime ilişkilendirme testi, yansıtıcı yazı, çalışma kâğıdı, beyin fırtınaDeğerlendirme) sı, kavram haritası, kontrol listesi, performans görevi, gözlem formu, dereceli puanlama anahtarı, grup değerlendirme formu ve öz değerlendirme formu kullanılarak değerlendirilebilir. Performans görevi olarak öğrencilerden ünite sürecinde öğrendiklerini özetleyen bir öğrenme duvarı hazırlamaları istenebilir. Performans görevi; dereceli puanlama anahtarı, öz değerlendirme formu ve kontrol listesi ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin bir düşünceye katılıp katılmadığını basit gerekçelerle açıkladığı, bir iddia ile iddianın gerekçeleri arasında bağ kurabildiği, bilginin kaynağını sorgulayabildiği kabul edilmektedir. Ön Değerlendirme Ünitede yer alan temel konulara ve kavramlara ilişkin bilgilerini değerlendirmek Süreci amacıyla öğrencilere \"Eleştirmek sizce kötü bir şey midir? Neden?\", \"Bir fikre katılmamak eleştiri yapmak mıdır? Neden?\" soruları sorularak bu sorulara cevap vermeleri istenebilir. Öğrencilere “Ali’nin yaptığı resim çok karmaşıktı.” durumu verilebilir. Ardından \"Bu cümlede ne eleştiriliyor?\", \"Bu eleştiri doğru ifade edilmiş mi? Neden?\" soruları yöneltilebilir. Eleştirel düşünme ile ilgili KWL çizelgesinin bildiklerim ve öğrenmek istediklerim bölümlerini doldurmaları istenebilir. ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilerden yaşadıkları ilde yoğun yağmur yağışı sebebiyle okulların tatil edilmesi haberini yorumlamaları istenebilir. Öğrencilere sosyal medyada karşılaşılan görüş içerikli örnekler sunularak bunların hangilerini doğrudan benimsedikleri, bu benimseme süreçlerinde hangi gerekçelere dayandıkları ve bu gerekçelerin kendileri için neden ikna edici olduğu sorgulatılabilir. İkna edici görünen bir bilginin yanıltıcı olması hâlinde toplumsal yaşamda ne tür sorunlar yaşanabileceği üzerine tartışma yaptırılabilir. Öğrenme-Öğretme DE.2.3.1 Uygulamaları Öğrencilere birer kâğıt verilir. Hepsinden hayal ettiği balığı çizmesi istenir. Öğrencilerin çizimde özgür oldukları ve istedikleri çizimleri yapabilecekleri ifade edilir (E1.2). 3-5 kişilik grup oluşturulur (SDB2.2). Resimler grup içinde her grup üyesi tarafından sırayla incelenir. Öğrencilerin kendilerine gelen balığı farklı açılardan değerlendirmeleri beklenir. Tartışma ortamı oluşturulur (SDB2.1). Ortaya çıkan farklı görüşler ve tutarsızlıklar öğrenciler tarafından tespit edilip çalışma kağıdına listelenir (E3.7). Öğrencilerden bu düşüncelere katılıp katılmama yönünde değerlendirme yapmaları istenir. Öğrencilere birbirlerinin düşüncelerini değerlendirirken kendi düşüncelerinde bir değişiklik olup olmadığı sorulur. Tüm yorumlar dikkatlice dinlendikten sonra öğretmen tarafından bireysel farklılıklara vurgu yapılır. Tespit edilen farklı görüş ve tutarsızlıklara ilişkin sınıf değerlendirmesi yapılarak kabul edilen veya kabul edilmeyen görüşler gerekçeleriyle kişisel haklara saygı ve özgürlük çerçevesinde yazılı ya da sözlü olarak öğrenciler tarafından ifade edilir (E3.5, D11.3). Farklı düşüncelere saygı ve günlük hayatta farklılıklara olumlu/olumsuz yaklaşımların konuşulması ve değerlendirilmesi ile etkinlik sona erdirilir. Sürecin değerlendirilmesi amacıyla kısa veya uzun cevaplı maddeler içeren çalışma yaprakları kullanılabilir. DE.2.3.2 Öğrencilere Maslow’un ihtiyaçlar hiyerarşisi hakkında bir bilgi notu verilir (OB1). Öğrencilere “İnsanın bağımsız bir kişilik yapısı geliştirmesinde ve kendini gerçekleştirmesinde eleştirel düşünmenin rolü nedir?” sorusu yöneltilerek öğrencilerin beyin fırtınası yapmaları sağlanabilir (E3.1). Öğrencilere, eleştirel düşünme süreçlerinde dikkat edilmesi gereken değer ve kurallar ile benlik becerileri (kendini tanıma, kendini düzenleme ve kendine uyarlama) hakkında bilgi, açıklama ve soruların yer aldığı bir çalışma kâğıdı verilir. Açık uçlu sorular yöneltilerek öğrencilerin, eleştirel düşünme sürecinde gözetilen değer ve kurallar ile benlik becerileri arasındaki ilişkiyi sorgulamaları sağlanır (E1.4, E1.5). Öğrencilere öz eleştiri hakkında yapılandırılmış bir metin sunulur. Öğrencilerden hayatı ve zamanı nasıl yönettikleri konusunda öz eleştiri yapmaları istenir (SDB1.2). Bu süreçte zaman yönetimi tekniklerinin bir hafta boyunca uygulanması ve bu sürecin sonunda gerçekleşen değişikliklerin farkına varılması sağlanır. Zaman yönetimi sürecinde sorumlulukların yerine getirilmesine ilişkin bir değerlendirme yapmaları istenir (D16.3). Öğrencilere günlük hayatta karşılaşabilecekleri ahlaki ikilem örnekleri verilir ve öğrencilerden örneklerde söz edilen durumlarda nasıl bir tutum sergileyeceklerini açıklamaları istenir (KB2.1, E3.1). Sergileyecekleri tutumun adil ve ahlaki olup olmadığını değerlendirmeleri beklenir (SDB1.3, D1.3). ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI Öğrencilerin “Ahlaki bakımdan öz eleştiri yapmanın kişiye katkıları nelerdir?” sorusunu “Düşün-Eşleş-Paylaş” tekniği ile tartışmaları sağlanır. Kişiler arası ilişkilerde öz eleştirinin önemi hakkında bir bilgi notu verilerek eleştirme ve eleştirilmenin önemi üzerinde durulur. Öğrencilerden “öz eleştiri”, “eleştiriye açıklık”, “kendini tanıma”, “kendini düzenleme”, “kendine uyarlama” kavramları arasında ilişki kurarak bir kavram haritası oluşturmaları istenebilir (KB2.4, OB1). Süreç sonunda öğrencilere paragraf tamamlama çalışması yaptırılarak öz eleştirinin benlik becerilerini geliştirmeye katkısı hakkında öğrencilerin akıl yürütmeleri sağlanır. Eleştiriye açık olmanın benlik becerilerini geliştirmeye katkısı hakkında ulaştıkları çıkarımları bir yansıtıcı yazı aracılığı ile paylaşmaları istenir (SDB3.3, OB1). Süreç öz değerlendirme formu ile değerlendirilebilir. Daha fazla kaynak için \"okuldisiogrenme.eba.gov.tr\" genel ağ adresini ziyaret edebilirsiniz. Ünite sonunda işlenen konularla ilgili Türk-İslam düşünürlerinin eserlerinden örnek metinler verilerek öğrenciler düşünmeye yönlendirilebilir. Performans görevi olarak öğrencilerden ünite sürecinde öğrendiklerini özetleyen bir öğrenme duvarı hazırlamaları istenebilir. Performans görevi; dereceli puanlama anahtarı, öz değerlendirme formu ve kontrol listesi ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilere \"Eleştiri insanın özgüvenini düşürür/yükseltir.\" konulu münazara çalışması yaptırılabilir. Destekleme Öğrencilerden herhangi bir dersten son yaptıkları çalışmayı en güçlü, en zayıf vb. yönleriyle değerlendirmeleri istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için YANSITMALARI karekodu akıllı cihazınıza okutunuz. ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "DE.2.3.1",
+     "order": 1,
+     "text": "Eleştirinin düşünmeyi geliştirmedeki rolünü tartışabilme SÜREÇ BİLEŞENLERİ a) Eleştirinin düşünmeyi geliştirmedeki rolü ile ilgili mantıksal temellendirme yapar.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Eleştirinin düşünmeyi geliştirmedeki rolü ile ilgili mantıksal çelişkileri ve/ veya tutarsızlıkları tespit eder."
+      },
+      {
+       "label": "c",
+       "text": "Eleştirinin düşünmeyi geliştirmedeki rolünü kabul eder veya çürütür."
+      }
+     ]
+    },
+    {
+     "code": "DE.2.3.2",
+     "order": 2,
+     "text": "Eleştirel düşünme ile benlik becerileri arasındaki ilişki konusunda eleştirel düşünebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Eleştirel düşünme süreçlerinde gözetilmesi beklenen değer ve kurallar ile benlik becerileri kendini tanıma, kendini düzenleme ve kendine uyarlama arasındaki ilişkiyi sorgular."
+      },
+      {
+       "label": "b",
+       "text": "Öz eleştirinin benlik becerilerini geliştirmeye katkısı hakkında akıl yürütür."
+      },
+      {
+       "label": "c",
+       "text": "Eleştiriye açık olmanın benlik becerilerini geliştirmeye katkısı hakkında ulaştığı çıkarımları yansıtır."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 4,
+   "kind": "ÜNİTE",
+   "title": "YARATICI DÜŞÜNME VE KARAR VERME",
+   "description": "Bu ünitede öğrencilerin yaratıcı düşünmenin yaşama etkisini incelemeleri, düşüncelerini bağlamdan kopmadan yeniden ifade etmeleri, günlük hayatta karşılaşılan sorunlara yönelik bir problemi özetlemeleri, gözleme ve veriye dayalı tahmin yürüterek problemin çözümüne yönelik değerlendirme yapmaları amaçlanmaktadır. Ayrıca öğrencilerden günlük hayatta karşılaşılan belirsiz bir duruma yönelik alternatif çözümler üretmeleri ve bu çözümlerden seçim yaparak ulaştıkları sonuçları yaşamlarına yansıtmaları beklenmektedir.",
+   "lesson_hours": 18,
+   "sections": {
+    "ALAN BECERİLERİ": "KAVRAMSAL KB2.14. Yorumlama, KB3.1. Karar Verme, KB3.2. Problem Çözme BECERİLER Eğilimler E3.1. Muhakeme, E3.3. Yaratıcılık, E3.6. Analitiklik, E3.10. Eleştirel Bakma Programlar Arası Bileşenler Sosyal-Duygusal SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği, Öğrenme Becerileri SDB3.1. Uyum, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D3. Çalışkanlık, D4. Dostluk, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık DİSİPLİNLER ARASI Türkçe, Fen bilimleri, Sosyal Bilgiler, Teknoloji ve Tasarım",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.7. Karşılaştırma, KB2.10. Çıkarım Yapma, KB2.12. Mevcut Bilgiye/Veriye Dayalı Tahmin Etme, KB2.13. Yapılandırma, KB2.19. Mantıksal Denetleme ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE DE.2.4.1. Yaratıcı düşünmenin bireyin yaşamına etkisini yorumlayabilme SÜREÇ BİLEŞENLERİ a) Yaratıcı düşünmenin bireyin yaşamına etkisini inceler. b)Yaratıcı düşünmenin bireyin yaşamına etkisini bağlamdan kopmadan dönüştürür. c) Yaratıcı düşünmenin bireyin yaşamına etkisini nesnel ve doğru anlamı değiştirmeyecek bir şekilde yeniden ifade eder. DE.2.4.2. Günlük hayatta karşılaşılan sorunlara yönelik problem çözebilme a) Günlük hayatta karşılaşılan sorunlara yönelik bir problemi yapılandırır. b) Günlük hayatta karşılaşılan sorunlara yönelik yapılandırılmış bir problemi özetler. c) Günlük hayatta karşılaşılan bir problemin çözümüne yönelik gözleme ve veriye dayalı tahmin yürütür. ç) Günlük hayatta karşılaşılan bir problemin çözümüne yönelik önermeler üzerinden akıl yürütür. d) Günlük hayatta karşılaşılan sorunlara yönelik bir problemin çözümüne ilişkin değerlendirme yapar. DE.2.4.3. Günlük hayatta karşılaşılan belirsiz bir duruma yönelik karar verebilme a) Günlük hayatta karşılaşılan belirsiz bir duruma yönelik bir amaç belirler. b) Günlük hayatta karşılaşılan belirsiz bir duruma yönelik bilgi toplar. c) Günlük hayatta karşılaşılan belirsiz bir duruma yönelik seçenek oluşturur. ç) Günlük hayatta karşılaşılan belirsiz bir duruma yönelik alternatif seçenekler üzerinden mantıksal denetim yapar. d) Günlük hayatta karşılaşılan belirsiz bir duruma yönelik ulaştığı sonuca dayalı seçim yapar. e) Günlük hayatta karşılaşılan belirsiz bir duruma yönelik kararının sonuçları üzerinden yansıtma yapar.",
+    "İÇERİK ÇERÇEVESİ": "Yaratıcı Düşünmenin Bireyin Yaşamına Etkisi Günlük Hayatta Problem Çözme Günlük Hayatta Karar Verme",
+    "Anahtar Kavramlar": "alternatif, çözüm, fırsat maliyeti, karar, önerme, problem, süreç",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; soru-cevap, tartışma, kavram haritası, karşı- (Ölçme ve laştırma tablosu, beyin fırtınası, çalışma kâğıdı, büyük grup tartışması, gözlem Değerlendirme) formu, grup değerlendirme formu, öz değerlendirme formu, dereceli puanlama anahtarı, performans görevi, kontrol listesi ile değerlendirilebilir. Performans görevi olarak öğrencilerden sınıfa pet şişe, karton bardak, koli bandı, balon, pipet gibi malzemeleri getirmeleri istenebilir. Bu malzemelerle kendiliğinden hareket edebilen bir araba tasarlamaları istenebilir. Hazırlanan sunumlar; içeriğin doğruluğu ve güvenilirliği, problem çözme sürecinin yansıtılması vb. ölçütler doğrultusunda hazırlanmış analitik dereceli puanlama anahtarıyla değerlendirilebilir. Performans görevi; dereceli puanlama anahtarı, öz değerlendirme formu, ürün değerlendirme formu ve kontrol listesi ile değerlendirilebilir. ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin günlük hayatta karşılaştıkları basit sorunları çözmede yaratıcı düşünüp birtakım stratejiler geliştirmesi gerektiğini bildiği ve soruna ilişkin alternatifli düşünebildiği, ilgili farklı karar verme sürecine ilişkin deneyime sahip olduğu kabul edilmektedir. Ön Değerlendirme Öğrencilere herhangi bir nesne gösterilir ve bu nesnenin yaratıcı düşünerek Süreci bilinen kullanım amacının dışında kullanılabileceği 3 farklı alan söylemeleri istenebilir. Bir durum örneği verilerek sorular yöneltilebilir: Öğrencilere \"Hafta sonu biriktirdiğin parayla istediğin kitabı almayı planlıyorken arkadaşın sana sinemaya gitmeyi önerdi.\" durumu verilebilir. Ardından \"Ne yapardın?\", \"Neye göre karar verdin?\" soruları yöneltilebilir. Köprü Kurma Öğrencilerden günlük hayatlarında ya da okulda karşılaştıkları bir durumu düşünerek bunu problem olarak ele alıp alamayacakları, eğer bir problemse yaratıcı düşünerek kaç türlü çözüm geliştirebilecekleri, en iyi çözümün nasıl seçilebileceği etkinliği soru-cevap tekniği kullanılarak yaptırılabilir. Problemleri çözerken karar verme sürecindeki gerekçelerini tartışmaları istenebilir. Öğrenme-Öğretme DE.2.4.1 Uygulamaları Öğrenciler tarafından öğretmenin gösterdiği farklı tasarımlara sahip araba, bina, uçak, ayakkabı, şapka gibi görseller incelenir (OB4). Bu amaçla ayrıca dijital kaynaklardan da yararlanılabilir (OB2). Öğrencilerden yaratıcı düşünmenin bireyin yaşamına etkisine ilişkin ulaşım ve iletişim sistemlerinin hızlı bir şekilde yaygınlaşması, ülkeler arası ticaretin gelişmesi, kültürel etkileşimin artması ve çevresel sorunların çözümünün kolaylaşması bağlamında örnekler vermeleri istenir (KB2.10). Bu süreçte beyin fırtınası ya da büyük grup tartışmasından yararlanılır (SDB2.1, SDB2.2). Öğrencilerin sunulan örneklerden yola çıkarak yaratıcı düşünmenin insan ve toplum üzerindeki etkisini bir kavram haritası oluşturarak ifade etmeleri istenebilir (E3.3, KB2.13). Öğrencilerden yaratıcı düşünme hakkında öğrendiklerine ilişkin bir metin yazmaları istenir. Öğrenciler yazdıkları metni sınıf arkadaşları ile paylaşır. Süreç, gözlem formu veya öz değerlendirme formu ile değerlendirilebilir. DE. 2.4.2 Öğrencilerin kendilerini etkileyen problemleri önem sırasına göre ifade etmeleri istenir (SDB2.1). Süreçte beyin fırtınası, tartışma gibi tekniklerden yararlanılabilir. Öne çıkan problemler tahtaya yazılır. Öğrenciler gruplara ayrılarak problemlerden birini seçer (SDB2.2). Gruplar aynı problemi seçebilir. Gruplardan seçtikleri problemin çözüm aşamalarını yapılandırmaları istenir. Bu süreçte; problemin ne olduğunu, problemin çözümü için hangi aşamaları takip edeceklerini ve bu aşamalarda hangi yöntemleri kullanacaklarını belirleyerek problemi özetlemeleri sağlanır. Gruplardan seçtikleri problemle ilgili güvenilir kaynaklardan elde ettikleri verilere dayalı olarak problemin çözümüne yönelik tahminlerde bulunmaları istenir (KB2.12, D3.4, E3.6). Öğrenciler grup çalışmaları sırasında etkili iletişim kurmaları ve iş birliği içinde olmaları konusunda yönlendirilir (SDB2.1, SDB2.2, D4.2). Gruplar, seçtikleri problemin çözümüne yönelik önermeler sunar ve aynı problemin çözümüne yönelik sunulan önermeler ile kendi gruplarının sundukları önermeleri karşılaştırır. ortaokul DÜŞÜNME EĞİTİMİ DERSİ ÖĞRETİM PROGRAMI Öğrenciler, akıl yürütme sürecinde önermeleri belirledikleri ölçütlere göre kıyaslar (KB2.19). Aynı problemin çözümü için önermeler ortaya koyan gruplardan ele aldıkları problemin çözüm önerilerini değerlendirmeleri istenir (E3.10). Teknoloji ve tasarım dersinin \"Temel Tasarım\" ünitesi ile ilişki kurulur. Öğrenciler, önemli bulduğu problemler ve bu problemlerin çözümü için kendilerinin neler yapabilecekleri üzerine bir performans görevi gerçekleştirebilir. Sürecin sonunda her öğrencinin, hazırladığı sunumu sınıfta paylaşması sağlanır. Sunumda öğrencilerin; hangi problemi neden ele aldığını, problemi çözmek için nasıl bir yöntem izlediğini, çözüm önerilerinin neler olduğunu açıklamaları beklenir (SDB3.3, SDB2.1). Hazırlanan sunumlar; içeriğin doğruluğu ve güvenilirliği, problem çözme sürecinin yansıtılması vb. ölçütler doğrultusunda hazırlanmış analitik dereceli puanlama anahtarıyla değerlendirilebilir. DE.2.4.3 Öğrencilere belirsizlik varken karar verme sürecinin yürütülmesi gereken örnek durumlar sunulur. Öğrencilerin gruplara ayrılarak bu örnek durumlardan birini seçmeleri ve karar verme sürecini yürütmeleri sağlanır (SDB2.2, SDB3.1). Grupların hangi amaçla karar verdiklerini belirlemeleri istenir. Bu amacı belirlerken öğrencilerin grup içerisinde görüş alışverişi yapmaları beklenir (SDB2.1). Ardından grupların karara ilişkin bilgi toplaması istenir (OB1). Bu süreçte sorgulayıcı ve araştırmacı kimliklerini kullanmaları, görev bilincine sahip olmaları konusunda öğrenciler yönlendirilir (SDB2.1, D3.3, D16.3). Öğrencilerin beyin fırtınası yaparak karara ilişkin alternatif seçenekler oluşturmaları sağlanır. Karşılaştırma tablosu aracılığıyla alternatif seçeneklerin olumlu olumsuz yönlerini karşılaştırmaları istenir (KB2.7, E3.1). Tablodaki seçeneklerin sınırlılıklarını ve fırsat maliyetini göz önünde bulundurarak en uygun kararı vermeleri beklenir. Gruplar, verdikleri kararın amaca yönelik doğru ve etkili bir karar olup olmadığını değerlendirdikleri bir yansıtma yazısı yazar ya da afiş hazırlar (SDB1.3, OB4). Süreç, grup değerlendirme formu veya kontrol listesi ile değerlendirilir. Ünite sonunda işlenen konularla ilgili Türk-İslam düşünürlerinin eserlerinden örnek metinler verilerek öğrenciler düşünmeye yönlendirilebilir. Performans görevi olarak öğrencilerden kendiliğinden hareket edebilen bir araba tasarlamaları istenebilir. Bunun için öğrencilerden sınıfa pet şişe, karton bardak, koli bandı, balon, pipet vb. malzemeleri getirmeleri istenebilir. Performans görevi; dereceli puanlama anahtarı, öz değerlendirme formu, ürün değerlendirme formu veya kontrol listesi ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilere son zamanlarda verdikleri önemli bir kararı düşünmeleri ve geriye dönük olarak hangi sorun için hangi seçenekleri üreterek bu karara vardıklarını açıklamaları istenebilir. Destekleme Öğrencilerden günlük yaşamda karşılaştıkları bir problemi tespit etmeleri istenebilir. Ardından öğrencilerden yaratıcı düşünmeleri, problem çözme basamaklarını kullanmaları ve farklı çözümler üreterek karar vermeleri istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için YANSITMALARI karekodu akıllı cihazınıza okutunuz."
+   },
+   "outcomes": [
+    {
+     "code": "DE.2.4.1",
+     "order": 1,
+     "text": "Yaratıcı düşünmenin bireyin yaşamına etkisini yorumlayabilme SÜREÇ BİLEŞENLERİ a) Yaratıcı düşünmenin bireyin yaşamına etkisini inceler.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Yaratıcı düşünmenin bireyin yaşamına etkisini bağlamdan kopmadan dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Yaratıcı düşünmenin bireyin yaşamına etkisini nesnel ve doğru anlamı değiştirmeyecek bir şekilde yeniden ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "DE.2.4.2",
+     "order": 2,
+     "text": "Günlük hayatta karşılaşılan sorunlara yönelik problem çözebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Günlük hayatta karşılaşılan sorunlara yönelik bir problemi yapılandırır."
+      },
+      {
+       "label": "b",
+       "text": "Günlük hayatta karşılaşılan sorunlara yönelik yapılandırılmış bir problemi özetler."
+      },
+      {
+       "label": "c",
+       "text": "Günlük hayatta karşılaşılan bir problemin çözümüne yönelik gözleme ve veriye dayalı tahmin yürütür."
+      },
+      {
+       "label": "ç",
+       "text": "Günlük hayatta karşılaşılan bir problemin çözümüne yönelik önermeler üzerinden akıl yürütür."
+      },
+      {
+       "label": "d",
+       "text": "Günlük hayatta karşılaşılan sorunlara yönelik bir problemin çözümüne ilişkin değerlendirme yapar."
+      }
+     ]
+    },
+    {
+     "code": "DE.2.4.3",
+     "order": 3,
+     "text": "Günlük hayatta karşılaşılan belirsiz bir duruma yönelik karar verebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Günlük hayatta karşılaşılan belirsiz bir duruma yönelik bir amaç belirler."
+      },
+      {
+       "label": "b",
+       "text": "Günlük hayatta karşılaşılan belirsiz bir duruma yönelik bilgi toplar."
+      },
+      {
+       "label": "c",
+       "text": "Günlük hayatta karşılaşılan belirsiz bir duruma yönelik seçenek oluşturur."
+      },
+      {
+       "label": "ç",
+       "text": "Günlük hayatta karşılaşılan belirsiz bir duruma yönelik alternatif seçenekler üzerinden mantıksal denetim yapar."
+      },
+      {
+       "label": "d",
+       "text": "Günlük hayatta karşılaşılan belirsiz bir duruma yönelik ulaştığı sonuca dayalı seçim yapar."
+      },
+      {
+       "label": "e",
+       "text": "Günlük hayatta karşılaşılan belirsiz bir duruma yönelik kararının sonuçları üzerinden yansıtma yapar."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "unassigned_outcomes": [],
+ "report": {
+  "units": 8,
+  "outcomes": 16,
+  "components": 56,
+  "orphan_outcomes": 0,
+  "gaps": []
+ }
+}

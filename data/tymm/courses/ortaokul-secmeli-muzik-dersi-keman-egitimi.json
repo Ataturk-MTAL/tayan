@@ -1,0 +1,1770 @@
+{
+ "course": {
+  "id": 90,
+  "name": "Seçmeli Müzik Dersi (Keman)",
+  "slug": "ortaokul-secmeli-muzik-dersi-keman-egitimi",
+  "prefix": "SMKMN",
+  "shapes": [
+   "SMKMN/noktalı-4"
+  ],
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/secmeli-muzik-dersi-keman_20260819_074907_882.pdf"
+ },
+ "units": [
+  {
+   "grade": 1,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "KEMAN İLE İLGİLİ TEMEL BİLGİLER",
+   "description": "Temada öğrenilmesi amaçlanan Bu temada öğrencilerin kemanın tarihsel gelişimi, kemanın bilgi ve becerilere yönelik Türk müziğindeki yeri, kemanın yapısı ve bakımındaki açıklamayı ifade eder. süreç, keman çalmada temel duruş ve tutuş pozisyonu, kemanın akort süreci ile ilgili bilgi ve becerileri kazanmaları amaçlanmaktadır. ifade eder. Disipline özgü şekilde yapılandırılan becerileri ifade ALAN eder. BECERİLERİ Karmaşık bir süreç gerektirmeden edinilen ve gözlenebilen temel KAVRAMSAL beceriler ile soyut fikirleri BECERİLER ve karmaşık süreçleri KB2.2. Gözlemleme, eyleme dönüştürürken Öğrenme-öğretme sürecinde KB2.4. Çözümleme, zihinsel faaliyetlerin bir ilişkilendirilen sahip olunan KB2.6. Bilgi Toplama, ürünü olarak işe koşulan becerilerin niyet, duyarlılık, KB2.8. Sorgulama bütünleşik ve üst düzey isteklilik ve değerlendirme düşünme becerilerini ifade ögeleri doğrultusunda gerekli EĞİLİMLER E1.1. Merak, eder. durumlarda nasıl kullanıldığı E2.2. Sorumluluk ile ilgili zihinsel örüntüleri ifade eder. PROGRAMLAR Öğrenme-öğretme ARASI sürecinde ilişkilendirilen BİLEŞENLER sosyal-duygusal öğrenme becerilerini, değerleri ve Duyguları yönetmek, empati Sosyal-Duygusal okuryazarlık becerilerini yapmak, destekleyici ilişkiler ifade eder. kurmak ve sağlıklı bir benlik Öğrenme Becerileri SDB1.2. Kendini Düzenleme geliştirmek için gerekli bilgi, (Öz Düzenleme), beceri ve eğilimler bütününü SDB2.1. İletişim, SDB2.2. İş ifade eder. Birliği",
+   "lesson_hours": 8,
+   "sections": {
+    "Değerler": "D3. Çalışkanlık, İnsani değerlerle birlikte D5. Duyarlılık, millî ve manevi değerleri D9. Merhamet, ifade eder. D12. Sabır, D16. Sorumluluk, D19. Vatanseverlik Yeni durumlara uyum sağlamayı, değişimi fark etmeyi ve gelişen Okuryazarlık Öğrenme çıktılarında teknolojik yenilikleri günlük Becerileri OB1. Bilgi Okuryazarlığı, kullanılmayan ancak hayatta uygulamayı sağlayan OB5. Kültür Okuryazarlığı öğrenme-öğretme becerileri ifade eder. uygulamalarında bu becerilerle ilişkilendirilerek kullanılan BECERİLER ARASI kavramsal becerileri ve",
+    "İLİŞKİLER": "alan becerilerini ifade eder. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ Disiplin kodu Düzey Öğrenme yaşantıları sonunda ÖĞRENME Programdaki tema sırası öğrenciye kazandırılması ÇIKTILARI VE Temadaki öğrenme çıktısının sırası amaçlanan bilgi, beceri ve SÜREÇ becerilerin süreç bileşenlerini BİLEŞENLERİ SMKMN.1.1.1. Kemanın tarihsel gelişimi hakkında bilgi toplayabilme ifade eder. a) Kemanın tarihsel gelişimi hakkında bilgi toplamak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak kemanın tarihsel gelişimi ile ilgili bilgileri bulur. c) Kemanın tarihsel gelişimi ile ilgili bilgileri doğrular. ç) Kemanın tarihsel gelişimi ile ilgili ulaştığı bilgileri kaydeder.",
+    "İÇERİK ÇERÇEVESİ": "Kemanın Tarihsel Gelişimi Öğrenme-öğretme Kemanın Yapısı ve Bakımı sürecinde ele alınan bilgi kümesini Kemanın Türk Müziğindeki Yeri (konuya/ Kemanın Temel Duruş ve Tutuş Pozisyonu alt konuya ilişkin sınırlar) Kemanın Akort Sistemi ifade eder.",
+    "Anahtar Kavramlar": "duruş, keman bakımı, keman yapısı, tarihsel gelişim, tutuş, Türk Disipline ait başlıca anahtar müziği, yay (arşe) kavramları ifade eder. Öğrenme çıktıları, programlar arası bileşenler arasında kurulan ve anlamlı ilişkilere dayanan ARASI BİLEŞENLERE öğrenme-öğretme sürecini YÖNELİK ifade eder. UYGULAMALAR SMKMN.1.1.1 • Kemanın tarihsel gelişimi konusuna soru-cevap tekniği ile öğrencilerde merak uyandırılarak giriş yapılabilir (SDB2.1). • Öğrencilerden kemanın tarihsel gelişimi ile ilgili araştırma yapmaları istenir. Bu süreçte öğrencilerin yönlendirici sorular ve farklı kaynakları karşılaştırmaya dayalı çalışmalar ile araştırmacı ve sorgulayıcı olmaları sağlanır (D3.3). • Öğrencilerin kemanın tarihsel gelişimi ile ilgili araştırma yaparken görev bilinciyle hareket etmeleri için üzerlerine düşen sorumlulukları zamanında yerine getirmeleri desteklenir (D16.3). • Öğrencilerden kemanın tarihsel gelişimi ile ilgili araştırma yaparken buldukları bilgileri doğrulamaları ve sentezlemeleri istenir (OB1). Öğretmenin ve programın ÖĞRETMEN güçlü ve iyileştirilmesi gereken YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu yönlerinin öğretmenlerin akıllı cihazınıza okutunuz. kendileri tarafından değerlendirilmesini ifade eder. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ 2. SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI KEMAN MODÜLÜ'NÜN DÜZEYLERİ I. DÜZEY"
+   },
+   "outcomes": [
+    {
+     "code": "SMKMN.1.1.1",
+     "order": 1,
+     "text": "Kemanın tarihsel gelişimi hakkında bilgi toplayabilme ifade eder.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kemanın tarihsel gelişimi hakkında bilgi toplamak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği araçları kullanarak kemanın tarihsel gelişimi ile ilgili bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Kemanın tarihsel gelişimi ile ilgili bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Kemanın tarihsel gelişimi ile ilgili ulaştığı bilgileri kaydeder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "KEMAN İLE İLGİLİ TEMEL BİLGİLER",
+   "description": "Bu temada öğrencilerin kemanın tarihsel gelişimi, kemanın yapısı ve bakım süreci, kemanın Türk müziğindeki yeri, keman çalmada temel duruş ve tutuş pozisyonu, kemanın akort süreci ile ilgili bilgi ve becerileri kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 8,
+   "sections": {
+    "ALAN BECERİLERİ": "-",
+    "KAVRAMSAL BECERİLER": "KB2.2. Gözlemleme, KB2.4. Çözümleme, KB2.6. Bilgi Toplama, KB2.8. Sorgulama",
+    "EĞİLİMLER": "E1.1. Merak, E2.2. Sorumluluk",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMKMN.1.1.1 • Kemanın tarihsel gelişimi konusuna soru-cevap tekniği ile öğrencilerde merak uyandırılarak giriş yapılabilir (SDB2.1). • Öğrencilerin kemanın tarihsel gelişimi ile ilgili araştırma yapmaları istenir. Bu süreçte öğrencilerin yönlendirici sorular ve farklı kaynakları karşılaştırmaya dayalı çalışmalar ile araştırmacı ve sorgulayıcı olmaları sağlanır (D3.3). • Öğrencilerin kemanın tarihsel gelişimi ile ilgili araştırma yaparken görev bilinciyle hareket etmeleri için üzerlerine düşen sorumlulukları zamanında yerine getirmeleri desteklenir (D16.3). • Öğrencilerden kemanın tarihsel gelişimi ile ilgili araştırma yaparken buldukları bilgileri doğrulamaları ve sentezlemeleri istenir (OB1). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ SMKMN.1.1.2 • Öğrencilerin kemanın yapısını ve bakımını çözümleyebilmelerine yönelik planlı çalışmalar yapmaları desteklenir (SDB1.2). • Öğrencilerin kemanın yapısında kullanılan doğal malzemeleri ve bu malzemelerin korunmasının çevresel sürdürülebilirlik ile doğal kaynakların geleceğe aktarılması açısından önemini kavramaları, çalgı bakımında kullanılan malzemeleri bilinçli ve tasarruflu kullanarak doğaya karşı duyarlılık geliştirmeleri sağlanır (D5.2, D9.3). • Öğrencilerin kemanın yapısına ve bakımına ilişkin çalışmalarda düzenli tekrar yaparak istikrarlı olmaları desteklenir (D12.3). • Öğrencilerin kemanın yapısına ve bakımına yönelik çalışmalarını zamanında ve eksiksiz bir şekilde yapmaları sağlanır (D16.3). • Öğrencilerin kemanın yapısına ve bakımına yönelik çalışmaları yaparken ihtiyaç duydukları konularda bilgi toplamaları sağlanır (OB1). SMKMN.1.1.3 • Öğrencilere kemanın Türk müziğindeki yeri ile ilgili araştırma görevi verilir (SDB2.1). • Öğrencilerin araştırma yaparken araştırmacı ve sorgulayıcı olmaları sorucevap tekniği ile desteklenir (D3.3). • Öğrencilerin kemanın Türk müziğindeki yeri ile ilgili araştırma yaparken görev bilinciyle hareket etmesi için üzerlerine düşen sorumlulukları zamanında yerine getirmeleri desteklenir (D16.3). • Öğrencilerin kemanın Türk müziğindeki yerini araştırarak bu çalgının millî kimliğimizdeki önemini değerlendirmeleri sağlanır (D19.2). • Öğrencilerden kemanın Türk müziğindeki yeri ile ilgili araştırma yaparken buldukları bilgileri doğrulamaları ve sentezlemeleri istenir (OB1). • Öğrencilerin kemanın Türk müziğindeki yerini araştırarak bu çalgının kültürümüzdeki önemini fark etmeleri sağlanır (OB5). SMKMN.1.1.4 • Öğrencilerin keman çalarken temel duruş ve tutuş pozisyonunu kendi beden farkındalıklarıyla değerlendirip düzenli alıştırmalarla geliştirmeleri sağlanır (SDB1.2). • Öğrencilerin temel duruş ve tutuş pozisyonunu düzenli olarak uygulamaları sağlanır (D3.2). • Öğrencilerin temel duruş ve tutuş pozisyonunu uygularken düzenli tekrar çalışmaları yaparak istikrarlı olmaları desteklenir (D12.3). • Öğrencilerden kemanda temel duruş ve tutuş pozisyonu ile ilgili ihtiyaç duydukları bilgi ve becerileri fark etmeleri istenir (OB1). SMKMN.1.1.5 • Öğrencilerden kemanın akort sistemi ile ilgili araştırma yapmaları istenir. Öğrencilere araştırma yapmaları için performans görevi verilebilir (SDB2.1). • Öğrencilerin grup çalışması yaparak kemanın akort edilme sürecinde yer alan parçaları incelemeleri ve bu parçaların ses üzerindeki etkilerini karşılaştırmaları sağlanır (SDB2.2). • Öğrencilerin kemanın akort sistemi ile ilgili araştırmalarını zamanında ve eksiksiz bir şekilde tamamlamaları desteklenir (D16.3). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ I. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D5. Duyarlılık, D9. Merhamet, D12. Sabır, D16. Sorumluluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMKMN.1.1.1. Kemanın tarihsel gelişimi hakkında bilgi toplayabilme a) Kemanın tarihsel gelişimi hakkında bilgi toplamak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak kemanın tarihsel gelişimi ile ilgili bilgileri bulur. c) Kemanın tarihsel gelişimi ile ilgili ulaştığı bilgileri doğrular. ç) Kemanın tarihsel gelişimi ile ilgili ulaştığı bilgileri kaydeder. SMKMN.1.1.2. Kemanın yapısını ve bakım aşamalarını çözümleyebilme a) Kemanın yapısına ve bakım aşamalarına ilişkin parçaları belirler. b) Kemanın yapısına ve bakım aşamalarına ilişkin parçalar arası ilişkileri belirler. SMKMN.1.1.3. Kemanın Türk müziğindeki yerini sorgulayabilme a) Kemanın Türk müziğindeki yeri ile ilgili merak ettiği konuyu tanımlar. b) Kemanın Türk müziğindeki yeri ile ilgili sorular sorar. c) Kemanın Türk müziğindeki yeri ile ilgili bilgi toplar. ç) Kemanın Türk müziğindeki yeri ile ilgili topladığı bilgilerin doğruluğunu değerlendirir. d) Kemanın Türk müziğindeki yeri ile ilgili çıkarım yapar. SMKMN.1.1.4. Keman çalmada temel duruş ve tutuş pozisyonunu gözlemleyebilme a) Keman çalmada temel duruş ve tutuş pozisyonuna ilişkin ölçüt belirler. b) Keman çalmada temel duruş ve tutuş pozisyonu hakkında veri toplar. c) Keman çalmada temel duruş ve tutuş pozisyonu hakkında topladığı verileri sınıflandırır ve kaydeder. SMKMN.1.1.5. Kemanın akort edilme sürecini çözümleyebilme a) Kemanın akort edilme sürecine ilişkin parçaları belirler. b) Kemanın akort edilme sürecine ilişkin parçalar arası ilişkileri belirler.",
+    "İÇERİK ÇERÇEVESİ": "Kemanın Tarihsel Gelişimi Kemanın Yapısı ve Bakımı Kemanın Türk Müziğindeki Yeri Kemanın Temel Duruş ve Tutuş Pozisyonu Kemanın Akort Sistemi",
+    "Anahtar Kavramlar": "duruş, keman bakımı, keman yapısı, tarihsel gelişim, tutuş, Türk müziği, yay (arşe)"
+   },
+   "outcomes": [
+    {
+     "code": "SMKMN.1.1.1",
+     "order": 1,
+     "text": "Kemanın tarihsel gelişimi hakkında bilgi toplayabilme ifade eder.",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kemanın tarihsel gelişimi hakkında bilgi toplamak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği araçları kullanarak kemanın tarihsel gelişimi ile ilgili bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Kemanın tarihsel gelişimi ile ilgili ulaştığı bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Kemanın tarihsel gelişimi ile ilgili ulaştığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.1.1.2",
+     "order": 2,
+     "text": "Kemanın yapısını ve bakım aşamalarını çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kemanın yapısına ve bakım aşamalarına ilişkin parçaları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Kemanın yapısına ve bakım aşamalarına ilişkin parçalar arası ilişkileri belirler."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.1.1.3",
+     "order": 3,
+     "text": "Kemanın Türk müziğindeki yerini sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kemanın Türk müziğindeki yeri ile ilgili merak ettiği konuyu tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Kemanın Türk müziğindeki yeri ile ilgili sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Kemanın Türk müziğindeki yeri ile ilgili bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Kemanın Türk müziğindeki yeri ile ilgili topladığı bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Kemanın Türk müziğindeki yeri ile ilgili çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.1.1.4",
+     "order": 4,
+     "text": "Keman çalmada temel duruş ve tutuş pozisyonunu gözlemleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Keman çalmada temel duruş ve tutuş pozisyonuna ilişkin ölçüt belirler."
+      },
+      {
+       "label": "b",
+       "text": "Keman çalmada temel duruş ve tutuş pozisyonu hakkında veri toplar."
+      },
+      {
+       "label": "c",
+       "text": "Keman çalmada temel duruş ve tutuş pozisyonu hakkında topladığı verileri sınıflandırır ve kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.1.1.5",
+     "order": 5,
+     "text": "Kemanın akort edilme sürecini çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kemanın akort edilme sürecine ilişkin parçaları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Kemanın akort edilme sürecine ilişkin parçalar arası ilişkileri belirler."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "YAYIN TELLER ÜZERİNDEKİ İLK KULLANIMI VE YAY",
+   "description": "TEKNİKLERİ Bu temada öğrencilerin yayın bölümleri, tel üzerindeki konum ve durumu, hareketi, işaretleri ve teknikleri ile ilgili beceriler kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 4,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme",
+    "EĞİLİMLER": "E1.1. Merak, E2.2. Sorumluluk, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMKMN.1.2.1 • Öğrencilerin yayın bölümleri, tel üzerindeki konum ve durumu ile ilgili soru-cevap tekniğini uygulayarak konuya giriş yapmaları sağlanır (SDB2.1). • Öğrencilerin yayın bölümleri, tel üzerindeki konum ve durumu ile ilgili soru-cevap tekniğini uygularken farklı bilgilere açık olmaları desteklenir (D3.3). • Öğrencilerin yayın bölümleri, tel üzerindeki konum ve durumu ile ilgili soru-cevap tekniğini uygularken bilgilerini kendi cümleleriyle aktarmaları teşvik edilir (OB1). • Öğrencilerin yayın bölümleri, tel üzerindeki konum ve durumu ile ilgili görselleri incelemeleri sağlanır (OB4). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ SMKMN.1.2.2 • Öğrencilerin yay çekme ve itme tekniklerini geliştirici etüt ve alıştırmaları çalarken gerekli motivasyonu sağlamaları desteklenir (SDB1.2). • Öğrencilerin yay çekme ve itme tekniklerini geliştirici etüt ve alıştırmaları çalarken çalışma basamaklarını düzenleyerek planlı hareket etmeleri desteklenir (D3.2). • Öğrencilerin yay çekme ve itme tekniklerini geliştirici etüt ve alıştırmaları çalarken üzerlerine düşen görevleri yerine getirmeleri sağlanır (D6.1). • Öğrencilerin yay çekme ve itme tekniklerini geliştirici etüt ve alıştırmaları çalarken düzenli tekrar çalışmaları ile istikrarlı olmaları desteklenir (D12.3). • Öğrencilerin yay çekme ve itme tekniklerini geliştirici etüt ve alıştırmaları çalarken çalışmalarını zamanında ve eksiksiz yerine getirmeleri teşvik edilir (D16.3). • Öğrencilerin yay çekme ve itme tekniklerini geliştirici etüt ve alıştırmaları çalarak performans sergilemeleri sağlanır (OB9). SMKMN.1.2.3 • Öğrencilerin legato (bağlı), detache (bağsız), staccato (kesik çalma) teknikleri ile ilgili etüt ve alıştırmaları çalarken gerekli motivasyonu sağlamaları desteklenir (SDB1.2). • Öğrencilerin legato (bağlı), detache (bağsız), staccato (kesik çalma) teknikleri ile ilgili etüt ve alıştırmaları çalarken çalışma basamaklarını düzenleyerek planlı hareket etmeleri desteklenir (D3.2). • Öğrencilerin legato (bağlı), detache (bağsız), staccato (kesik çalma) teknikleri ile ilgili etüt ve alıştırmaları çalarken üzerlerine düşen görevleri yerine getirmeleri sağlanır (D6.1). • Öğrencilerin legato (bağlı), detache (bağsız), staccato (kesik çalma) teknikleri ile ilgili etüt ve alıştırmaları çalarken düzenli tekrar çalışmaları ile istikrarlı olmaları desteklenir (D12.3). • Öğrencilerin legato (bağlı), detache (bağsız), staccato (kesik çalma) teknikleri ile ilgili etüt ve alıştırmaları çalarken çalışmalarını zamanında ve eksiksiz yerine getirmeleri teşvik edilir (D16.3). • Öğrencilerin legato (bağlı), detache (bağsız), staccato (kesik çalma) teknikleri ile ilgili etüt ve alıştırmaları çalarak performans sergilemeleri sağlanır (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ I. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D3. Çalışkanlık, D6. Dürüstlük, D12. Sabır, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI -",
+    "İLİŞKİLER": "ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMKMN.1.2.1. Yayın bölümlerini ve yayın tel üzerindeki konum ve durumunu çözümleyebilme a) Yayın bölümlerini ve yayın tel üzerindeki konum ve durumunu belirler. b) Yayın bölümlerini, tel üzerindeki konum ve durumu arasındaki ilişkileri belirler. SMKMN.1.2.2. Yay çekme ve itme tekniklerini geliştirici etüt ve alıştırmalar çalabilme a) Yay çekme ve itme tekniklerini geliştirici etüt ve alıştırmaları çözümler. b) Yay çekme ve itme tekniklerini geliştirici etüt ve alıştırmaları çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Yay çekme ve itme tekniklerini geliştirici etüt ve alıştırmaları çalarken kemana özgü teknikleri kullanır. ç) Yay çekme ve itme tekniklerini geliştirici etüt ve alıştırmaları çalarken müziksel bileşenleri uygular. SMKMN.1.2.3. Legato (bağlı), detache (bağsız), staccato (kesik çalma) teknikleri ile ilgili etüt ve alıştırmalar çalabilme a) Legato (bağlı), detache (bağsız), staccato (kesik çalma) teknikleri ile ilgili etüt ve alıştırmaları çözümler. b) Legato (bağlı), detache (bağsız), staccato (kesik çalma) teknikleri ile ilgili etüt ve alıştırmaları çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Legato (bağlı), detache (bağsız), staccato (kesik çalma) teknikleri ile ilgili etüt ve alıştırmaları çalarken kemana özgü teknikleri kullanır. ç) Legato (bağlı), detache (bağsız), staccato (kesik çalma) teknikleri ile ilgili etüt ve alıştırmaları çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Yayın Bölümleri, Tel Üzerindeki Konum ve Durumu Yay Hareketleri ile İlgili Etüt ve Alıştırmalar Yay Teknikleri ile İlgili Etüt ve Alıştırmalar",
+    "Anahtar Kavramlar": "çekme, detache (bağsız çalma), itme, legato (bağlı çalma), staccato (kesik çalma), yay (arşe)"
+   },
+   "outcomes": [
+    {
+     "code": "SMKMN.1.2.1",
+     "order": 1,
+     "text": "Yayın bölümlerini ve yayın tel üzerindeki konum ve durumunu çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yayın bölümlerini ve yayın tel üzerindeki konum ve durumunu belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yayın bölümlerini, tel üzerindeki konum ve durumu arasındaki ilişkileri belirler."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.1.2.2",
+     "order": 2,
+     "text": "Yay çekme ve itme tekniklerini geliştirici etüt ve alıştırmalar çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yay çekme ve itme tekniklerini geliştirici etüt ve alıştırmaları çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Yay çekme ve itme tekniklerini geliştirici etüt ve alıştırmaları çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Yay çekme ve itme tekniklerini geliştirici etüt ve alıştırmaları çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Yay çekme ve itme tekniklerini geliştirici etüt ve alıştırmaları çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.1.2.3",
+     "order": 3,
+     "text": "Legato (bağlı), detache (bağsız), staccato (kesik çalma) teknikleri ile ilgili etüt ve alıştırmalar çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Legato (bağlı), detache (bağsız), staccato (kesik çalma) teknikleri ile ilgili etüt ve alıştırmaları çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Legato (bağlı), detache (bağsız), staccato (kesik çalma) teknikleri ile ilgili etüt ve alıştırmaları çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Legato (bağlı), detache (bağsız), staccato (kesik çalma) teknikleri ile ilgili etüt ve alıştırmaları çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Legato (bağlı), detache (bağsız), staccato (kesik çalma) teknikleri ile ilgili etüt ve alıştırmaları çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "TUŞE ÜZERİNDE UYGULAMALAR",
+   "description": "Bu temada öğrencilerin mi, la, re, sol telleri üzerindeki doğal sesler ile ilgili etüt ve alıştırmaları çalmaları amaçlanmaktadır.",
+   "lesson_hours": 28,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E1.3. Azim ve Kararlılık, E2.2. Sorumluluk, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMKMN.1.3.1 • Öğrencilerin mi teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken öğrenecekleri yeni bilgileri fark etmeleri sağlanır (SDB1.1). • Öğrencilerin mi teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken gerekli motivasyonu sağlamaları desteklenir (SDB1.2). • Öğrencilerin mi teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken çalışma basamaklarını düzenleyerek planlı hareket etmeleri desteklenir (D3.2). • Öğrencilerin mi teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin mi teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken başarı ve yeteneklerini nesnel olarak değerlendirmeleri teşvik edilir (D10.2). • Öğrencilerin mi teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken istikrarlı olmaları desteklenir (D12.3). • Öğrencilerin mi teli üzerinde 1. pozisyonda yer alan doğal sesleri çalabilme konusunda dijital bilgiler üzerinden çıkarım yapmaları sağlanır (OB2). SMKMN.1.3.2 • Öğrencilerin la teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken öğreneceği yeni bilgileri fark etmeleri sağlanır (SDB1.1). • Öğrencilerin la teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken planlı olmaları teşvik edilir (D3.2). • Öğrencilerin la teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken düzenli tekrar çalışmaları ile istikrarlı olmaları desteklenir (D12.3). • Öğrencilerden la teli üzerinde 1. pozisyonda yer alan doğal sesleri çalabilme ile ilgili ulaştıkları bilgiler arasında ilişki kurmaları istenir (OB1). • Öğrencilerin la teli üzerinde 1. pozisyonda yer alan doğal sesleri çalabilme konusunda dijital bilgiler üzerinden çıkarım yapmaları sağlanır (OB2). SMKMN.1.3.3 • Öğrencilerin re teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken gerekli motivasyonu sağlamaları desteklenir (SDB1.2). • Öğrencilerin re teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin re teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken başarı ve yeteneklerini nesnel olarak değerlendirmeleri teşvik edilir (D10.2). • Öğrencilerin re teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken çalışmalarını zamanında ve eksiksiz yerine getirmeleri desteklenir (D16.3). • Öğrencilerin re teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarak performans sergilemeleri sağlanır (OB9). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ SMKMN.1.3.4 • Öğrencilerin sol teli üzerindeki 1. pozisyonda yer alan doğal sesleri çalarken gerekli motivasyonu sağlamaları desteklenir (SDB1.2). • Öğrencilerin sol teli üzerindeki 1. pozisyonda yer alan doğal sesleri çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin sol teli üzerindeki 1. pozisyonda yer alan doğal sesleri çalarken çalışmalarını zamanında ve eksiksiz yerine getirmeleri desteklenir (D16.3). • Öğrencilerin sol teli üzerindeki 1. pozisyonda yer alan doğal sesleri çalabilme konusunda dijital bilgiler üzerinden çıkarım yapmaları sağlanır (OB2). SMKMN.1.3.5 • Öğrencilerden 1. pozisyonda tel geçişli etütler çalarken sınıf arkadaşlarıyla etkileşim sağlamaları istenir (SDB2.1). • Öğrencilerin 1. pozisyonda yer alan doğal sesleri çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin 1. pozisyonda yer alan doğal sesleri çalarken başarı ve yeteneklerini nesnel olarak değerlendirmeleri teşvik edilir (D10.2). • Öğrencilerin 1. pozisyonda tel geçişli etütler çalarken çalışmalarını zamanında ve eksiksiz yerine getirmeleri desteklenir (D16.3). • Öğrencilerin 1. pozisyonda tel geçişli etütler çalarak performans sergilemeleri sağlanır (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ I. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D3. Çalışkanlık, D10. Mütevazılık, D12. Sabır, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI KB2.2. Gözlemleme, KB2.4. Çözümleme",
+    "İLİŞKİLER": "ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMKMN.1.3.1. Mi teli üzerinde 1. pozisyonda yer alan doğal sesleri çalabilme a) Mi teli üzerinde 1. pozisyonda yer alan doğal sesleri çözümler. b) Mi teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken kemana özgü doğru duruş ve tutuş pozisyonunu alır. c) Mi teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken kemana özgü teknikleri kullanır. ç) Mi teli üzerinde 1. pozisyonda yer alan doğal sesler ile ilgili etüt ve alıştırmaları çalarken müziksel bileşenleri uygular. SMKMN.1.3.2. La teli üzerinde 1. pozisyonda yer alan doğal sesleri çalabilme a) La teli üzerinde 1. pozisyonda yer alan doğal sesleri çözümler. b) La teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken kemana özgü doğru duruş ve tutuş pozisyonunu alır. c) La teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken kemana özgü teknikleri kullanır. ç) La teli üzerinde 1. pozisyonda yer alan doğal sesler ile ilgili etüt ve alıştırmaları çalarken müziksel bileşenleri uygular. SMKMN.1.3.3. Re teli üzerinde 1. pozisyonda yer alan doğal sesleri çalabilme a) Re teli üzerinde 1. pozisyonda yer alan doğal sesleri çözümler. b) Re teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken kemana özgü doğru duruş ve tutuş pozisyonunu alır. c) Re teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken kemana özgü teknikleri kullanır. ç) Re teli üzerinde 1. pozisyonda yer alan doğal sesler ile ilgili etüt ve alıştırmaları çalarken müziksel bileşenleri uygular. SMKMN.1.3.4. Sol teli üzerinde 1. pozisyonda yer alan doğal sesleri çalabilme a) Sol teli üzerinde 1. pozisyonda yer alan doğal sesleri çözümler. b) Sol teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken kemana özgü doğru duruş ve tutuş pozisyonunu alır. c) Sol teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken kemana özgü teknikleri kullanır. ç) Sol teli üzerinde 1. pozisyonda yer alan doğal sesler ile ilgili etüt ve alıştırmaları çalarken müziksel bileşenleri uygular. SMKMN.1.3.5. 1. pozisyonda tel geçişli etütler çalabilme a) 1. pozisyonda tel geçişli etütleri çözümler. b) 1. pozisyonda tel geçişli etütleri çalarken kemana özgü doğru duruş ve tutuş pozisyonunu alır. c) 1. pozisyonda tel geçişli etütleri çalarken kemana özgü teknikleri kullanır. ç) 1. pozisyonda tel geçişli etütleri ve alıştırmaları çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Mi Teli Üzerindeki Doğal Sesler La Teli Üzerindeki Doğal Sesler Re Teli Üzerindeki Doğal Sesler Sol Teli Üzerindeki Doğal Sesler Tel Geçişli Etütler",
+    "Anahtar Kavramlar": "alıştırma, duruş, etüt, perde, tel, tutuş ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ"
+   },
+   "outcomes": [
+    {
+     "code": "SMKMN.1.3.1",
+     "order": 1,
+     "text": "Mi teli üzerinde 1. pozisyonda yer alan doğal sesleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Mi teli üzerinde 1. pozisyonda yer alan doğal sesleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Mi teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken kemana özgü doğru duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Mi teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Mi teli üzerinde 1. pozisyonda yer alan doğal sesler ile ilgili etüt ve alıştırmaları çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.1.3.2",
+     "order": 2,
+     "text": "La teli üzerinde 1. pozisyonda yer alan doğal sesleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "La teli üzerinde 1. pozisyonda yer alan doğal sesleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "La teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken kemana özgü doğru duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "La teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "La teli üzerinde 1. pozisyonda yer alan doğal sesler ile ilgili etüt ve alıştırmaları çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.1.3.3",
+     "order": 3,
+     "text": "Re teli üzerinde 1. pozisyonda yer alan doğal sesleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Re teli üzerinde 1. pozisyonda yer alan doğal sesleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Re teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken kemana özgü doğru duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Re teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Re teli üzerinde 1. pozisyonda yer alan doğal sesler ile ilgili etüt ve alıştırmaları çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.1.3.4",
+     "order": 4,
+     "text": "Sol teli üzerinde 1. pozisyonda yer alan doğal sesleri çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Sol teli üzerinde 1. pozisyonda yer alan doğal sesleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Sol teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken kemana özgü doğru duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Sol teli üzerinde 1. pozisyonda yer alan doğal sesleri çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Sol teli üzerinde 1. pozisyonda yer alan doğal sesler ile ilgili etüt ve alıştırmaları çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.1.3.5",
+     "order": 5,
+     "text": "1. pozisyonda tel geçişli etütler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "1. pozisyonda tel geçişli etütleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "1. pozisyonda tel geçişli etütleri çalarken kemana özgü doğru duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "1. pozisyonda tel geçişli etütleri çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "1. pozisyonda tel geçişli etütleri ve alıştırmaları çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 4,
+   "kind": "TEMA",
+   "title": "TEKNİK ÇALIŞMALAR",
+   "description": "Bu temada öğrencilerin öğrendikleri doğal sesler ile gam, etüt ve eserler çalmaları amaçlanmaktadır.",
+   "lesson_hours": 28,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven), E2.2. Sorumluluk, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMKMN.1.4.1 • Öğrencilerin 1. pozisyonda doğal sesler ile gam çalarken gerekli motivasyonu sağlamaları desteklenir (SDB1.2). • Öğrencilerin 1. pozisyonda doğal sesler ile gam çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin 1. pozisyonda doğal sesler ile gam çalarken öğrendikleri bilgileri aileleriyle paylaşmaları teşvik edilir (D2.2). • Öğrencilerin 1. pozisyonda doğal sesler ile gam çalarken düzenli tekrar çalışmaları ile istikrarlı olmaları desteklenir (D12.3). • Öğrencilerin 1. pozisyonda doğal sesler ile gam çalarken çalışmalarını zamanında ve eksiksiz yerine getirmeleri teşvik edilir (D16.3). • Öğrencilerden 1. pozisyonda doğal sesler ile gam çalabilme ile ilgili ulaştıkları bilgiler arasında ilişki kurmaları istenir (OB1). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ SMKMN.1.4.2 • Öğrencilerden 1. pozisyonda doğal sesler ile etüt çalarken sınıf arkadaşlarıyla etkileşim sağlamaları, etkinlik sürecinde görev ve sorumlulukları adil bir şekilde paylaşmaları istenir (SDB2.1, D1.2). • Öğrencilerin 1. pozisyonda doğal sesler ile etüt çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin 1. pozisyonda doğal sesler ile etüt çalarken çalışmalarını zamanında ve eksiksiz yerine getirmeleri desteklenir (D16.3). • Öğrencilerin 1. pozisyonda doğal seslerle öğrendikleri etütleri ailelerine seslendirmeleri, etütlerle ilgili duygu ve düşüncelerini aileleriyle paylaşmaları teşvik edilir (D2.2, D2.3). • Öğrencilerden 1. pozisyonda doğal sesler ile etüt çalabilme ile ilgili ulaştıkları bilgiler arasında ilişki kurmaları istenir (OB1). SMKMN.1.4.3 • Öğrencilerin 1. pozisyonda doğal sesler ile eser çalarken gerekli motivasyonu sağlamaları desteklenir (SDB1.2). • Öğrencilerin 1. pozisyonda doğal sesler ile eser çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin 1. pozisyonda doğal seslerde eserler çalarak millî ve manevi değerleri gelecek nesillere aktarmada sorumluluk üstlenmeleri desteklenir (D19.3). • Öğrencilerin 1. pozisyonda doğal seslerle öğrendikleri eserleri ailelerine seslendirmeleri, eserlerle ilgili duygu ve düşüncelerini aileleriyle paylaşmaları teşvik edilir (D2.2, D2.3). • Öğrencilerin 1. pozisyonda doğal sesler ile eser çalarak performans sergilemeleri sağlanır (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ II. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D1. Adalet, D2. Aile Bütünlüğü, D3. Çalışkanlık, D12. Sabır, D16. Sorumluluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.2. Gözlemleme, KB2.4. Çözümleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMKMN.1.4.1. 1. pozisyonda doğal sesler ile gam çalabilme a) 1. pozisyonda doğal sesler ile çalacağı gamları çözümler. b) 1. pozisyonda doğal sesler ile gam çalarken doğru duruş ve tutuş pozisyonunu alır. c) 1. pozisyonda doğal sesler ile gam çalarken kemana özgü teknikleri kullanır. ç) 1. pozisyonda doğal sesler ile gam çalarken müziksel bileşenleri uygular. SMKMN.1.4.2. 1. pozisyonda doğal sesler ile etüt çalabilme a) 1. pozisyonda doğal sesler ile çalacağı etütleri çözümler. b) 1. pozisyonda doğal sesler ile etüt çalarken doğru duruş ve tutuş pozisyonunu alır. c) 1. pozisyonda doğal sesler ile etüt çalarken kemana özgü teknikleri kullanır. ç) 1. pozisyonda doğal sesler ile etüt çalarken müziksel bileşenleri uygular. SMKMN.1.4.3. 1. pozisyonda doğal sesler ile eser çalabilme a) 1. pozisyonda doğal sesler ile çalacağı eseri çözümler. b) 1. pozisyonda doğal sesler ile eser çalarken doğru duruş ve tutuş pozisyonunu alır. c) 1. pozisyonda doğal sesler ile eser çalarken kemana özgü teknikleri kullanır. ç) 1. pozisyonda doğal sesler ile eser çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Gam Çalışmaları Etüt Çalışmaları Eser Çalışmaları",
+    "Anahtar Kavramlar": "bağlı çalma, bağsız çalma, yay çekme, eser, etüt, gam, yay (arşe)"
+   },
+   "outcomes": [
+    {
+     "code": "SMKMN.1.4.1",
+     "order": 1,
+     "text": "1. pozisyonda doğal sesler ile gam çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "1. pozisyonda doğal sesler ile çalacağı gamları çözümler."
+      },
+      {
+       "label": "b",
+       "text": "1. pozisyonda doğal sesler ile gam çalarken doğru duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "1. pozisyonda doğal sesler ile gam çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "1. pozisyonda doğal sesler ile gam çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.1.4.2",
+     "order": 2,
+     "text": "1. pozisyonda doğal sesler ile etüt çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "1. pozisyonda doğal sesler ile çalacağı etütleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "1. pozisyonda doğal sesler ile etüt çalarken doğru duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "1. pozisyonda doğal sesler ile etüt çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "1. pozisyonda doğal sesler ile etüt çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.1.4.3",
+     "order": 3,
+     "text": "1. pozisyonda doğal sesler ile eser çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "1. pozisyonda doğal sesler ile çalacağı eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "1. pozisyonda doğal sesler ile eser çalarken doğru duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "1. pozisyonda doğal sesler ile eser çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "1. pozisyonda doğal sesler ile eser çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "TEKNİK ÇALIŞMALAR",
+   "description": "Bu temada öğrencilerin yay, hızlı çalma ve çarpma süsleme tekniklerini geliştirici etütler çalma becerileri geliştirmeleri amaçlanmaktadır.",
+   "lesson_hours": 12,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E2.2. Sorumluluk, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMKMN.2.1.1 • Öğrencilerin yay tekniğini geliştirici etütler çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları sağlanır (SDB2.1). • Öğrencilerin yay tekniğini geliştirici etütler çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin yay tekniğini geliştirici etütler çalabilme çalışmalarında gelişimlerini desteklemeye yönelik planlama yapmaları sağlanır (D16.1). • Öğrencilerden yay tekniğini geliştirici etütler çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ SMKMN.2.1.2 • Öğrencilerden hızlı çalma (ajilite) tekniğini geliştirici etütler çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin hızlı çalma (ajilite) tekniğini geliştirici etütler çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin hızlı çalma (ajilite) tekniğini geliştirici etütler çalarken gelişimlerini desteklemeye yönelik planlama yapmaları sağlanır (D16.1). • Öğrencilerden hızlı çalma (ajilite) tekniğini geliştirici etütler çalarken bilgi parçaları arasında ilişki kurmaları istenir (OB1). SMKMN.2.1.3 • Öğrencilerden çarpma süsleme tekniğini geliştirici etütler çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerden çarpma süsleme tekniğini kendi deneyim ve değerleriyle ilişkilendirerek yorumlamaları istenir (D7.1). • Öğrencilerin çarpma süsleme tekniğini geliştirici etütler çalabilme ile ilgili temel sanat kavramlarını tanımaları desteklenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ II. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.2. Gözlemleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMKMN.2.1.1. Yay tekniğini geliştirici etütler çalabilme a) Yay tekniğini geliştirici etütleri çözümler. b) Yay tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Yay tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır. ç) Yay tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular. SMKMN.2.1.2. Hızlı çalma (ajilite) tekniğini geliştirici etütler çalabilme a) Hızlı çalma tekniğini geliştirici etütleri çözümler. b) Hızlı çalma tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Hızlı çalma tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır. ç) Hızlı çalma tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular. SMKMN.2.1.3. Çarpma süsleme tekniğini geliştirici etütler çalabilme a) Çarpma süsleme tekniğini geliştirici etütleri çözümler. b) Çarpma süsleme tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Çarpma süsleme tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır. ç) Çarpma süsleme tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Yay Tekniği Geliştirici Etütler Hızlı Çalma (Ajilite) Tekniği Geliştirici Etütler Çarpma Süsleme Tekniği Geliştirici Etütler",
+    "Anahtar Kavramlar": "çarpma süsleme, duruş, etüt, hızlı çalma, tutuş, yay tekniği"
+   },
+   "outcomes": [
+    {
+     "code": "SMKMN.2.1.1",
+     "order": 1,
+     "text": "Yay tekniğini geliştirici etütler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yay tekniğini geliştirici etütleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Yay tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Yay tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Yay tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.2.1.2",
+     "order": 2,
+     "text": "Hızlı çalma (ajilite) tekniğini geliştirici etütler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hızlı çalma tekniğini geliştirici etütleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Hızlı çalma tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Hızlı çalma tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Hızlı çalma tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.2.1.3",
+     "order": 3,
+     "text": "Çarpma süsleme tekniğini geliştirici etütler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çarpma süsleme tekniğini geliştirici etütleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Çarpma süsleme tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Çarpma süsleme tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Çarpma süsleme tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "MAKAM ÇALIŞMALARI",
+   "description": "Bu temada öğrencilerin kürdi, rast ve mahur makamlarında gam çalabilme becerilerini geliştirmeleri amaçlanmaktadır.",
+   "lesson_hours": 28,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB1. Temel Beceriler",
+    "EĞİLİMLER": "E1.1. Merak, E1.3. Azim ve Kararlılık, E2.2. Sorumluluk, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMKMN.2.2.1 • Öğrencilere Türk müziğinde makam kavramı ile ilgili bir araştırma görevi verilir (SDB2.1). • Öğrencilerin araştırma yaparken yönlendirici sorular ve farklı kaynakları karşılaştırmaya dayalı çalışmalar ile araştırmacı ve sorgulayıcı olmaları sağlanır (D3.3). • Öğrencilerden araştırma yaparken buldukları bilgileri özetlemeleri istenir (OB1). SMKMN.2.2.2 • Öğrencilerden kürdi makamında gam çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin kürdi makamında gam çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları sağlanır (SDB2.1). • Öğrencilerin kürdi makamında gam çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin kürdi makamında gam çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri sağlanır (D14.1). • Öğrencilerin kürdi makamında gam çalabilme konusunda sınıf arkadaşlarına karşılık beklemeden yardımcı olmaları teşvik edilir (D20.4). • Öğrencilerin kürdi makamında gam çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri, arkadaşlarının bireysel gelişimlerini ve hedeflerini desteklemeleri teşvik edilir (D4.1, D14.3). • Öğrencilerden kürdi makamında gam çalabilme çalışmalarında dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ • Öğrencilerin kürdi makamında gam çalabilme çalışmalarında konu ile ilgili görselleri tanımaları sağlanır (OB4). • Öğrencilerin kürdi makamında gam çalabilme ile ilgili temel sanat kavramlarını tanımaları desteklenir (OB9). SMKMN.2.2.3 • Öğrencilerden rast makamında gam çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin rast makamında gam çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları sağlanır (SDB2.1). • Öğrencilerin rast makamında gam çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin rast makamında gam çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri sağlanır (D14.1). • Öğrencilerin rast makamında gam çalabilme konusunda sınıf arkadaşlarına karşılık beklemeden yardımcı olmaları teşvik edilir (D20.4). • Öğrencilerin rast makamında gam çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri, arkadaşlarının bireysel gelişimlerini ve hedeflerini desteklemeleri teşvik edilir (D4.1, D14.3). • Öğrencilerden rast makamında gam çalabilme çalışmalarında dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). • Öğrencilerin rast makamında gam çalabilme çalışmalarında konu ile ilgili görselleri tanımaları sağlanır (OB4). • Öğrencilerin rast makamında gam çalabilme ile ilgili temel sanat kavramlarını tanımaları desteklenir (OB9). SMKMN.2.2.4 • Öğrencilerden mahur makamında gam çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin mahur makamında gam çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları sağlanır (SDB2.1). • Öğrencilerin mahur makamında gam çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin mahur makamında gam çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri sağlanır (D14.1). • Öğrencilerin mahur makamında gam çalabilme konusunda sınıf arkadaşlarına karşılık beklemeden yardımcı olmaları teşvik edilir (D20.4). • Öğrencilerin mahur makamında gam çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri, arkadaşlarının bireysel gelişimlerini ve hedeflerini desteklemeleri teşvik edilir (D4.1, D14.3). • Öğrencilerden mahur makamında gam çalabilme çalışmalarında dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). • Öğrencilerin mahur makamında gam çalabilme çalışmalarında konu ile ilgili görselleri tanımaları sağlanır (OB4). • Öğrencilerin mahur makamında gam çalabilme ile ilgili temel sanat kavramlarını tanımaları desteklenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ II. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D3. Çalışkanlık, D4. Dostluk, D14. Saygı, D20. Yardımseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.2. Gözlemleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMKMN.2.2.1. Türk müziğinde makam kavramını açıklayabilme SMKMN.2.2.2. Kürdi makamında gam çalabilme a) Kürdi makamında çalacağı gamı çözümler. b) Kürdi makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Kürdi makamında gam çalarken kemana özgü teknikleri kullanır. ç) Kürdi makamında gam çalarken müziksel bileşenleri uygular. SMKMN.2.2.3. Rast makamında gam çalabilme a) Rast makamında çalacağı gamı çözümler. b) Rast makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Rast makamında gam çalarken kemana özgü teknikleri kullanır. ç) Rast makamında gam çalarken müziksel bileşenleri uygular. SMKMN.2.2.4. Mahur makamında gam çalabilme a) Mahur makamında çalacağı gamı çözümler. b) Mahur makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Mahur makamında gam çalarken kemana özgü teknikleri kullanır. ç) Mahur makamında gam çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Türk Müziğinde Makam Kavramı Kürdi Makamında Gam Çalışmaları Rast Makamında Gam Çalışmaları Mahur Makamında Gam Çalışmaları",
+    "Anahtar Kavramlar": "gam, kürdi, mahur, makam, rast"
+   },
+   "outcomes": [
+    {
+     "code": "SMKMN.2.2.1",
+     "order": 1,
+     "text": "Türk müziğinde makam kavramını açıklayabilme",
+     "components": []
+    },
+    {
+     "code": "SMKMN.2.2.2",
+     "order": 2,
+     "text": "Kürdi makamında gam çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kürdi makamında çalacağı gamı çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Kürdi makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Kürdi makamında gam çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Kürdi makamında gam çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.2.2.3",
+     "order": 3,
+     "text": "Rast makamında gam çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Rast makamında çalacağı gamı çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Rast makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Rast makamında gam çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Rast makamında gam çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.2.2.4",
+     "order": 4,
+     "text": "Mahur makamında gam çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Mahur makamında çalacağı gamı çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Mahur makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Mahur makamında gam çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Mahur makamında gam çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "İCRA ÇALIŞMALARI",
+   "description": "Bu temada öğrencilerin kürdi, rast ve mahur makamlarında etüt ve eser çalabilme becerilerini geliştirmeleri beklenmektedir.",
+   "lesson_hours": 28,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E1.3. Azim ve Kararlılık, E2.2. Sorumluluk, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMKMN.2.3.1 • Öğrencilerin kürdi makamında etüt çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları, etkinlik sürecinde görev ve sorumluluk paylaşımında adil davranmaları sağlanır (SDB2.1, D1.2). • Öğrencilerin kürdi makamında etüt çalabilme çalışmalarında öz eleştiri yaparak davranışlarını düzenlemeleri sağlanır (D9.1). • Öğrencilerin kürdi makamında etüt çalabilme çalışmalarında duygu, düşünce, inanç ve izlenimlerini etki altında kalmadan ifade etmeleri sağlanır (D11.2). • Öğrencilerin kürdi makamında etüt çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri sağlanır (D14.1). • Öğrencilerin kürdi makamında etüt çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri teşvik edilir (D14.3). • Öğrencilerden kürdi makamında etüt çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). SMKMN.2.3.2 • Öğrencilerden kürdi makamında eser çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin kürdi makamında çalacakları eserlerde öz eleştiri yaparak davranışlarını düzenlemeleri sağlanır (D9.1). • Öğrencilerin kürdi makamında çalacakları eserlerde duygu ve düşüncelerini anlamak için arkadaşlarını dikkatle dinlemeleri teşvik edilir (D15.1). • Öğrencilerin kürdi makamında eserleri özenle çalarak millî bilince sahip olmaları desteklenir (D19.1). • Öğrencilerin kürdi makamında eser çalabilme çalışmalarında konu ile ilgili görselleri tanımaları sağlanır (OB4). • Öğrencilerin kürdi makamında eser çalarak performans sergilemeleri sağlanır (OB9). SMKMN.2.3.3 • Öğrencilerin rast makamında etüt çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları, etkinlik sürecinde görev ve sorumluluk paylaşımında adil davranmaları sağlanır (SDB2.1, D1.2). • Öğrencilerin rast makamında etüt çalabilme çalışmalarında öz eleştiri yaparak davranışlarını düzenlemeleri sağlanır (D9.1). • Öğrencilerin rast makamında etüt çalabilme çalışmalarında duygu, düşünce, inanç ve izlenimlerini etki altında kalmadan ifade etmeleri sağlanır (D11.2). • Öğrencilerin rast makamında etüt çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri sağlanır (D14.1). • Öğrencilerin rast makamında etüt çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri teşvik edilir (D14.3). • Öğrencilerden rast makamında etüt çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ SMKMN.2.3.4 • Öğrencilerden rast makamında eser çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin rast makamında çalacakları eserlerde öz eleştiri yaparak davranışlarını düzenlemeleri sağlanır (D9.1). • Öğrencilerin rast makamında çalacağı eserlerde duygu ve düşüncelerini anlamak için arkadaşlarını dikkatle dinlemeleri teşvik edilir (D15.1). • Öğrencilerin rast makamında eserleri özenle çalarak millî bilince sahip olmaları desteklenir (D19.1). • Öğrencilerin rast makamında eser çalabilme çalışmalarında konu ile ilgili görselleri tanımaları sağlanır (OB4). • Öğrencilerin rast makamında eser çalarak performans sergilemeleri sağlanır (OB9). SMKMN.2.3.5 • Öğrencilerin mahur makamında etüt çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları, etkinlik sürecinde görev ve sorumluluk paylaşımında adil davranmaları sağlanır (SDB2.1, D1.2). • Öğrencilerin mahur makamında etüt çalabilme çalışmalarında öz eleştiri yaparak davranışlarını düzenlemeleri sağlanır (D9.1). • Öğrencilerin mahur makamında etüt çalabilme çalışmalarında duygu, düşünce, inanç ve izlenimlerini etki altında kalmadan ifade etmeleri sağlanır (D11.2). • Öğrencilerin mahur makamında etüt çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri sağlanır (D14.1). • Öğrencilerin mahur makamında etüt çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri teşvik edilir (D14.3). • Öğrencilerden mahur makamında etüt çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). SMKMN.2.3.6 • Öğrencilerden mahur makamında eser çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerden mahur makamında çalacakları eserlerde öz eleştiri yaparak davranışlarını düzenlemeleri sağlanır (D9.1). • Öğrencilerin mahur makamında çalacakları eserlerde duygu ve düşüncelerini anlamak için arkadaşlarını dikkatle dinlemeleri teşvik edilir (D15.1). • Öğrencilerin mahur makamında eserleri özenle çalarak millî bilince sahip olmaları desteklenir (D19.1). • Öğrencilerin mahur makamında eser çalabilme çalışmalarında konu ile ilgili görselleri tanımaları sağlanır (OB4). • Öğrencilerin mahur makamında eser çalarak performans sergilemeleri sağlanır (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ III. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D1. Adalet, D9. Merhamet, D11. Özgürlük, D14. Saygı, D15. Sevgi, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.2. Gözlemleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMKMN.2.3.1. Kürdi makamında etüt çalabilme a) Kürdi makamında çalacağı etüdü çözümler. b) Kürdi makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Kürdi makamında etüt çalarken kemana özgü teknikleri kullanır. ç) Kürdi makamında etüt çalarken müziksel bileşenleri uygular. SMKMN.2.3.2. Kürdi makamında eser çalabilme a) Kürdi makamında çalacağı eseri çözümler. b) Kürdi makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Kürdi makamında eser çalarken kemana özgü teknikleri kullanır. ç) Kürdi makamında eser çalarken müziksel bileşenleri uygular. SMKMN.2.3.3. Rast makamında etüt çalabilme a) Rast makamında çalacağı etüdü çözümler. b) Rast makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Rast makamında etüt çalarken kemana özgü teknikleri kullanır. ç) Rast makamında etüt çalarken müziksel bileşenleri uygular. SMKMN.2.3.4. Rast makamında eser çalabilme a) Rast makamında çalacağı eseri çözümler. b) Rast makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Rast makamında eser çalarken kemana özgü teknikleri kullanır. ç) Rast makamında eser çalarken müziksel bileşenleri uygular. SMKMN.2.3.5. Mahur makamında etüt çalabilme a) Mahur makamında çalacağı etüdü çözümler. b) Mahur makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Mahur makamında etüt çalarken kemana özgü teknikleri kullanır. ç) Mahur makamında etüt çalarken müziksel bileşenleri uygular. SMKMN.2.3.6. Mahur makamında eser çalabilme a) Mahur makamında çalacağı eseri çözümler. b) Mahur makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Mahur makamında eser çalarken kemana özgü teknikleri kullanır. ç) Mahur makamında eser çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Kürdi Makamında Etüt Çalışmaları Kürdi Makamında Eser Çalışmaları Rast Makamında Etüt Çalışmaları Rast Makamında Eser Çalışmaları Mahur Makamında Etüt Çalışmaları Mahur Makamında Eser Çalışmaları",
+    "Anahtar Kavramlar": "eser, etüt, kürdi, mahur, makam, rast ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ"
+   },
+   "outcomes": [
+    {
+     "code": "SMKMN.2.3.1",
+     "order": 1,
+     "text": "Kürdi makamında etüt çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kürdi makamında çalacağı etüdü çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Kürdi makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Kürdi makamında etüt çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Kürdi makamında etüt çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.2.3.2",
+     "order": 2,
+     "text": "Kürdi makamında eser çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kürdi makamında çalacağı eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Kürdi makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Kürdi makamında eser çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Kürdi makamında eser çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.2.3.3",
+     "order": 3,
+     "text": "Rast makamında etüt çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Rast makamında çalacağı etüdü çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Rast makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Rast makamında etüt çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Rast makamında etüt çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.2.3.4",
+     "order": 4,
+     "text": "Rast makamında eser çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Rast makamında çalacağı eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Rast makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Rast makamında eser çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Rast makamında eser çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.2.3.5",
+     "order": 5,
+     "text": "Mahur makamında etüt çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Mahur makamında çalacağı etüdü çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Mahur makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Mahur makamında etüt çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Mahur makamında etüt çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.2.3.6",
+     "order": 6,
+     "text": "Mahur makamında eser çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Mahur makamında çalacağı eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Mahur makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Mahur makamında eser çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Mahur makamında eser çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "TEKNİK ÇALIŞMALAR",
+   "description": "Bu temada öğrencilerin yay, hızlı çalma, çift çarpma süsleme tekniklerini geliştirici etütler çalma ve çaldığı etütlerde gürlük özelliklerini uygulayabilme ile ilgili becerileri geliştirmeleri amaçlanmaktadır.",
+   "lesson_hours": 12,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.3. Azim ve Kararlılık, E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMKMN.3.1.1 • Öğrencilerin düzeylerine uygun etütleri gürlük özelliklerine göre çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları sağlanır (SDB2.1). • Öğrencilerin düzeylerine uygun etütleri gürlük özelliklerine göre çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin düzeylerine uygun etütleri gürlük özelliklerine göre çalabilme çalışmalarında sınıf arkadaşlarının başarılarını, olumlu ve güzel yanlarını takdir etmeleri teşvik edilir (D10.3). • Öğrencilerin düzeylerine uygun etütleri gürlük özelliklerine göre çalabilme çalışmalarında duygu ve düşüncelerini anlamak için arkadaşlarını dikkatle dinlemeleri desteklenir (D15.1). • Öğrencilerden düzeylerine uygun etütleri gürlük özelliklerine göre çalabilme çalışmalarında bilgi parçaları arasında ilişki kurmaları istenir (OB1). • Öğrencilerden düzeylerine uygun etütleri gürlük özelliklerine göre çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). SMKMN.3.1.2 • Öğrencilerden düzeylerine uygun yay tekniğini geliştirici etütler çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin düzeylerine uygun yay tekniğini geliştirici etütler çalabilme konusunda gelişimlerini desteklemeye yönelik planlama yapmaları sağlanır (D16.1). • Öğrencilerin düzeylerine uygun yay tekniğini geliştirici etütler çalarak performans sergilemeleri sağlanır (OB9). SMKMN.3.1.3 • Öğrencilerin hızlı çalma (ajilite) tekniğini geliştirici etütler çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları sağlanır (SDB2.1). • Öğrencilerin hızlı çalma (ajilite) tekniğini geliştirici etütleri çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin hızlı çalma (ajilite) tekniğini geliştirici etütler çalabilme çalışmalarında sınıf arkadaşlarının başarılarını, olumlu ve güzel yanlarını takdir etmeleri teşvik edilir (D10.3). • Öğrencilerin hızlı çalma (ajilite) tekniğini geliştirici etütler çalabilme çalışmalarında duygu ve düşüncelerini anlamak için arkadaşlarını dikkatle dinlemeleri desteklenir (D15.1). • Öğrencilerden hızlı çalma (ajilite) tekniğini geliştirici etütler çalabilme çalışmalarında bilgi parçaları arasında ilişki kurmaları istenir (OB1). • Öğrencilerden hızlı çalma (ajilite) tekniğini geliştirici etütler çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). SMKMN.3.1.4 • Öğrencilerden çift çarpma süsleme tekniğini geliştirici etütler çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin çift çarpma süsleme tekniğini geliştirici etütler çalabilme konusunda gelişimlerini desteklemeye yönelik planlama yapmaları sağlanır (D16.1). • Öğrencilerin çift çarpma süsleme tekniğini geliştirici etütler çalarak performans sergilemeleri sağlanır (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ III. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D3. Çalışkanlık, D10. Mütevazılık, D15. Sevgi, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.2. Gözlemleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMKMN.3.1.1. Düzeyine uygun etütleri gürlük özelliklerine göre çalabilme a) Düzeyine uygun etütleri gürlük özelliklerine göre çözümler. b) Düzeyine uygun etütleri gürlük özelliklerine göre çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Düzeyine uygun etütleri gürlük özelliklerine göre çalarken kemana özgü teknikleri kullanır. ç) Düzeyine uygun etütleri gürlük özelliklerine göre çalarken müziksel bileşenleri uygular. SMKMN.3.1.2. Düzeyine uygun yay tekniğini geliştirici etütler çalabilme a) Düzeyine uygun yay tekniğini geliştirici etütleri çözümler. b) Düzeyine uygun yay tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Düzeyine uygun yay tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır. ç) Düzeyine uygun yay tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular. SMKMN.3.1.3. Hızlı çalma (ajilite) tekniğini geliştirici etütler çalabilme a) Hızlı çalma tekniğini geliştirici etütleri çözümler. b) Hızlı çalma tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Hızlı çalma tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır. ç) Hızlı çalma tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular. SMKMN.3.1.4. Çift çarpma süsleme tekniğini geliştirici etütler çalabilme a) Çift çarpma süsleme tekniğini geliştirici etütleri çözümler. b) Çift çarpma süsleme tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Çift çarpma süsleme tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır. ç) Çift çarpma süsleme tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Gürlük Özelliklerini Geliştirici Etütler Yay Tekniği Geliştirici Etütler Hızlı Çalma (Ajilite) Tekniği Geliştirici Etütler Çift Çarpma Süsleme Tekniği Geliştirici Etütler",
+    "Anahtar Kavramlar": "çift çarpma süsleme, duruş, etüt, gürlük, hızlı çalma, tutuş, yay tekniği ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ"
+   },
+   "outcomes": [
+    {
+     "code": "SMKMN.3.1.1",
+     "order": 1,
+     "text": "Düzeyine uygun etütleri gürlük özelliklerine göre çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Düzeyine uygun etütleri gürlük özelliklerine göre çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Düzeyine uygun etütleri gürlük özelliklerine göre çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Düzeyine uygun etütleri gürlük özelliklerine göre çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Düzeyine uygun etütleri gürlük özelliklerine göre çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.3.1.2",
+     "order": 2,
+     "text": "Düzeyine uygun yay tekniğini geliştirici etütler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Düzeyine uygun yay tekniğini geliştirici etütleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Düzeyine uygun yay tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Düzeyine uygun yay tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Düzeyine uygun yay tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.3.1.3",
+     "order": 3,
+     "text": "Hızlı çalma (ajilite) tekniğini geliştirici etütler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hızlı çalma tekniğini geliştirici etütleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Hızlı çalma tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Hızlı çalma tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Hızlı çalma tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.3.1.4",
+     "order": 4,
+     "text": "Çift çarpma süsleme tekniğini geliştirici etütler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çift çarpma süsleme tekniğini geliştirici etütleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Çift çarpma süsleme tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Çift çarpma süsleme tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Çift çarpma süsleme tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "MAKAM ÇALIŞMALARI",
+   "description": "Bu temada öğrencilerin hüseyni, buselik, uşşak ve segâh makamlarında gam çalabilme becerilerini geliştirmeleri beklenmektedir.",
+   "lesson_hours": 28,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.3. Azim ve Kararlılık, E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMKMN.3.2.1 • Öğrencilerden hüseyni makamında gam çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin hüseyni makamında gam çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları sağlanır (SDB2.1) • Öğrencilerin hüseyni makamında gam çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerden hüseyni makamında gam çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri ve ihtiyaç duyduklarında arkadaşlarına karşılık beklemeden yardımcı olmaları istenir (D14.1, D20.4). • Öğrencilerin hüseyni makamında gam çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri, arkadaşlarının bireysel gelişimlerini ve hedeflerini desteklemeleri teşvik edilir (D4.1, D14.3). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ • Öğrencilerin hüseyni makamında gam çalabilme çalışmalarında duygu ve düşüncelerini anlamak için arkadaşlarını dikkatle dinlemeleri desteklenir (D15.1). • Öğrencilerden hüseyni makamında gam çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). • Öğrencilerin hüseyni makamında gam çalabilme çalışmalarında konu ile ilgili görselleri ve temel sanat kavramlarını tanımaları desteklenir (OB4, OB9). SMKMN.3.2.2 • Öğrencilerden buselik makamında gam çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin buselik makamında gam çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları sağlanır (SDB2.1). • Öğrencilerin buselik makamında gam çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerden buselik makamında gam çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri ve ihtiyaç duyduklarında arkadaşlarına karşılık beklemeden yardımcı olmaları istenir (D14.1, D20.4). • Öğrencilerin buselik makamında gam çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri, arkadaşlarının bireysel gelişimlerini ve hedeflerini desteklemeleri teşvik edilir (D4.1, D14.3). • Öğrencilerin buselik makamında gam çalabilme çalışmalarında duygu ve düşüncelerini anlamak için arkadaşlarını dikkatle dinlemeleri desteklenir (D15.1). • Öğrencilerden buselik makamında gam çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). • Öğrencilerin buselik makamında gam çalabilme çalışmalarında konu ile ilgili görselleri ve temel sanat kavramlarını tanımaları desteklenir (OB4,OB9). SMKMN.3.2.3 • Öğrencilerden uşşak makamında gam çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin uşşak makamında gam çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları sağlanır (SDB2.1). • Öğrencilerin uşşak makamında gam çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerden uşşak makamında gam çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri ve ihtiyaç duyduklarında arkadaşlarına karşılık beklemeden yardımcı olmaları istenir (D14.1, D20.4). • Öğrencilerin uşşak makamında gam çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri, arkadaşlarının bireysel gelişimlerini ve hedeflerini desteklemeleri teşvik edilir (D4.1, D14.3). • Öğrencilerin uşşak makamında gam çalabilme çalışmalarında duygu ve düşüncelerini anlamak için arkadaşlarını dikkatle dinlemeleri desteklenir (D15.1). • Öğrencilerden uşşak makamında gam çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). • Öğrencilerin uşşak makamında gam çalabilme çalışmalarında konu ile ilgili görselleri ve temel sanat kavramlarını tanımaları desteklenir (OB4, OB9). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ SMKMN.3.2.4 • Öğrencilerden segâh makamında gam çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin segâh makamında gam çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları ve sınıf arkadaşlarını etkin bir şekilde dinlemeleri sağlanır (SDB2.1, D14.1). • Öğrencilerin segâh makamında gam çalabilme konusunda sınıf arkadaşlarına karşılık beklemeden yardımcı olmaları teşvik edilir (D20.4). • Öğrencilerin segâh makamında gam çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin segâh makamında gam çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri teşvik edilir (D14.3). • Öğrencilerin segâh makamında gam çalabilme çalışmalarında konu ile ilgili görselleri ve temel sanat kavramlarını tanımaları desteklenir (OB4, OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ III. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D3. Çalışkanlık, D4. Dostluk, D14. Saygı, D15. Sevgi, D20. Yardımseverlik",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.2. Gözlemleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMKMN.3.2.1. Hüseyni makamında gam çalabilme a) Hüseyni makamında çalacağı gamı çözümler. b) Hüseyni makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Hüseyni makamında gam çalarken kemana özgü teknikleri kullanır. ç) Hüseyni makamında gam çalarken müziksel bileşenleri uygular. SMKMN.3.2.2. Buselik makamında gam çalabilme a) Buselik makamında çalacağı gamı çözümler. b) Buselik makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Buselik makamında gam çalarken kemana özgü teknikleri kullanır. ç) Buselik makamında gam çalarken müziksel bileşenleri uygular. SMKMN.3.2.3. Uşşak makamında gam çalabilme a) Uşşak makamında çalacağı gamı çözümler. b) Uşşak makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Uşşak makamında gam çalarken kemana özgü teknikleri kullanır. ç) Uşşak makamında gam çalarken müziksel bileşenleri uygular. SMKMN.3.2.4. Segâh makamında gam çalabilme a) Segâh makamında çalacağı gamı çözümler. b) Segâh makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Segâh makamında gam çalarken kemana özgü teknikleri kullanır. ç) Segâh makamında gam çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Hüseyni Makamında Gam Çalışmaları Buselik Makamında Gam Çalışmaları Uşşak Makamında Gam Çalışmaları Segâh Makamında Gam Çalışmaları",
+    "Anahtar Kavramlar": "buselik, gam, hüseyni, makam, segâh, uşşak"
+   },
+   "outcomes": [
+    {
+     "code": "SMKMN.3.2.1",
+     "order": 1,
+     "text": "Hüseyni makamında gam çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hüseyni makamında çalacağı gamı çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Hüseyni makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Hüseyni makamında gam çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Hüseyni makamında gam çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.3.2.2",
+     "order": 2,
+     "text": "Buselik makamında gam çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Buselik makamında çalacağı gamı çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Buselik makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Buselik makamında gam çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Buselik makamında gam çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.3.2.3",
+     "order": 3,
+     "text": "Uşşak makamında gam çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Uşşak makamında çalacağı gamı çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Uşşak makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Uşşak makamında gam çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Uşşak makamında gam çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.3.2.4",
+     "order": 4,
+     "text": "Segâh makamında gam çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Segâh makamında çalacağı gamı çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Segâh makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Segâh makamında gam çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Segâh makamında gam çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "İCRA ÇALIŞMALARI",
+   "description": "Bu temada öğrencilerin hüseyni, buselik, uşşak ve segâh makamlarında etüt ve eser çalabilme becerileri geliştirmeleri beklenmektedir.",
+   "lesson_hours": 28,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E1.3. Azim ve Kararlılık, E2.2. Sorumluluk, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMKMN.3.3.1 • Öğrencilerin hüseyni makamında etüt çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları, görev ve sorumluluk paylaşımında adil davranmaları ve sınıf arkadaşlarını etkin bir şekilde dinlemeleri sağlanır (SDB2.1, D1.2, D14.1). • Öğrencilerin hüseyni makamında etüt çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri teşvik edilir (D14.3). • Öğrencilerden hüseyni makamında etüt çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). SMKMN.3.3.2 • Öğrencilerden hüseyni makamında eser çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin hüseyni makamında eserleri özenle çalarak millî bilince sahip olmaları desteklenir (D19.1). • Öğrencilerin hüseyni makamında eser çalabilme konusunda sınıf arkadaşlarına karşılık beklemeden yardımcı olmaları teşvik edilir (D20.4). • Öğrencilerin hüseyni makamında eser çalabilme çalışmalarında konu ile ilgili görselleri tanımaları sağlanır (OB4). • Öğrencilerin hüseyni makamında eser çalarak performans sergilemeleri sağlanır (OB9). SMKMN.3.3.3 • Öğrencilerin buselik makamında etüt çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları, görev ve sorumluluk paylaşımında adil davranmaları ve sınıf arkadaşlarını etkin bir şekilde dinlemeleri sağlanır (SDB2.1, D1.2, D14.1). • Öğrencilerin buselik makamında etüt çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri teşvik edilir (D14.3). • Öğrencilerden buselik makamında etüt çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). SMKMN.3.3.4 • Öğrencilerden buselik makamında eser çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin buselik makamında eserleri özenle çalarak millî bilince sahip olmaları desteklenir (D19.1). • Öğrencilerin buselik makamında eser çalabilme konusunda sınıf arkadaşlarına karşılık beklemeden yardımcı olmaları teşvik edilir (D20.4). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ • Öğrencilerin buselik makamında eser çalabilme çalışmalarında konu ile ilgili görselleri tanımaları sağlanır (OB4). • Öğrencilerin buselik makamında eser çalarak performans sergilemeleri sağlanır (OB9). SMKMN.3.3.5 • Öğrencilerin uşşak makamında etüt çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları, görev ve sorumluluk paylaşımında adil davranmaları ve sınıf arkadaşlarını etkin bir şekilde dinlemeleri sağlanır (SDB2.1, D1.2, D14.1). • Öğrencilerin uşşak makamında etüt çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri teşvik edilir (D14.3). • Öğrencilerden uşşak makamında etüt çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). SMKMN.3.3.6 • Öğrencilerden uşşak makamında eser çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin uşşak makamında eserleri özenle çalarak millî bilince sahip olmaları desteklenir (D19.1). • Öğrencilerin uşşak makamında eser çalabilme konusunda sınıf arkadaşlarına karşılık beklemeden yardımcı olmaları teşvik edilir (D20.4). • Öğrencilerin uşşak makamında eser çalabilme çalışmalarında konu ile ilgili görselleri tanımaları sağlanır (OB4). • Öğrencilerin uşşak makamında eser çalarak performans sergilemeleri sağlanır (OB9). SMKMN.3.3.7 • Öğrencilerin segâh makamında etüt çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları, görev ve sorumluluk paylaşımında adil davranmaları ve sınıf arkadaşlarını etkin bir şekilde dinlemeleri sağlanır (SDB2.1, D1.2, D14.1). • Öğrencilerin segâh makamında etüt çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri teşvik edilir (D14.3). • Öğrencilerden segâh makamında etüt çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). SMKMN.3.3.8 • Öğrencilerden segâh makamında eser çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin segâh makamında eserleri özenle çalarak millî bilince sahip olmaları desteklenir (D19.1). • Öğrencilerin segâh makamında eser çalabilme konusunda sınıf arkadaşlarına karşılık beklemeden yardımcı olmaları teşvik edilir (D20.4). • Öğrencilerin segâh makamında eser çalabilme çalışmalarında konu ile ilgili görselleri tanımaları sağlanır (OB4). • Öğrencilerin segâh makamında eser çalarak performans sergilemeleri sağlanır (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ IV. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D1. Adalet, D14. Saygı, D19. Vatanseverlik, D20. Yardımseverlik",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.2. Gözlemleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMKMN.3.3.1. Hüseyni makamında etüt çalabilme a) Hüseyni makamında çalacağı etüdü çözümler. b) Hüseyni makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Hüseyni makamında etüt çalarken kemana özgü teknikleri kullanır. ç) Hüseyni makamında etüt çalarken müziksel bileşenleri uygular. SMKMN.3.3.2. Hüseyni makamında eser çalabilme a) Hüseyni makamında çalacağı eseri çözümler. b) Hüseyni makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Hüseyni makamında eser çalarken kemana özgü teknikleri kullanır. ç) Hüseyni makamında eser çalarken müziksel bileşenleri uygular. SMKMN.3.3.3. Buselik makamında etüt çalabilme a) Buselik makamında çalacağı etüdü çözümler. b) Buselik makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Buselik makamında etüt çalarken kemana özgü teknikleri kullanır. ç) Buselik makamında etüt çalarken müziksel bileşenleri uygular. SMKMN.3.3.4. Buselik makamında eser çalabilme a) Buselik makamında çalacağı eseri çözümler. b) Buselik makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Buselik makamında eser çalarken kemana özgü teknikleri kullanır. ç) Buselik makamında eser çalarken müziksel bileşenleri uygular. SMKMN.3.3.5. Uşşak makamında etüt çalabilme a) Uşşak makamında çalacağı etüdü çözümler. b) Uşşak makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Uşşak makamında etüt çalarken kemana özgü teknikleri kullanır. ç) Uşşak makamında etüt çalarken müziksel bileşenleri uygular. SMKMN.3.3.6. Uşşak makamında eser çalabilme a) Uşşak makamında çalacağı eseri çözümler. b) Uşşak makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Uşşak makamında eser çalarken kemana özgü teknikleri kullanır. ç) Uşşak makamında eseri çalarken müziksel bileşenleri uygular. SMKMN.3.3.7. Segâh makamında etüt çalabilme a) Segâh makamında çalacağı etüdü çözümler. b) Segâh makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Segâh makamında etüt çalarken kemana özgü teknikleri kullanır. ç) Segâh makamında etüt çalarken müziksel bileşenleri uygular. SMKMN.3.3.8. Segâh makamında eser çalabilme a) Segâh makamında çalacağı eseri çözümler. b) Segâh makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Segâh makamında eser çalarken kemana özgü teknikleri kullanır. ç) Segâh makamında eseri çalarken müziksel bileşenleri uygular. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ",
+    "İÇERİK ÇERÇEVESİ": "Hüseyni Makamında Etüt Çalışmaları Hüseyni Makamında Eser Çalışmaları Buselik Makamında Etüt Çalışmaları Buselik Makamında Eser Çalışmaları Uşşak Makamında Etüt Çalışmaları Uşşak Makamında Eser Çalışmaları Segâh Makamında Etüt Çalışmaları Segâh Makamında Eser Çalışmaları",
+    "Anahtar Kavramlar": "buselik, eser, etüt, hüseyni, makam, segâh, uşşak"
+   },
+   "outcomes": [
+    {
+     "code": "SMKMN.3.3.1",
+     "order": 1,
+     "text": "Hüseyni makamında etüt çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hüseyni makamında çalacağı etüdü çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Hüseyni makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Hüseyni makamında etüt çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Hüseyni makamında etüt çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.3.3.2",
+     "order": 2,
+     "text": "Hüseyni makamında eser çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hüseyni makamında çalacağı eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Hüseyni makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Hüseyni makamında eser çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Hüseyni makamında eser çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.3.3.3",
+     "order": 3,
+     "text": "Buselik makamında etüt çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Buselik makamında çalacağı etüdü çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Buselik makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Buselik makamında etüt çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Buselik makamında etüt çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.3.3.4",
+     "order": 4,
+     "text": "Buselik makamında eser çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Buselik makamında çalacağı eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Buselik makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Buselik makamında eser çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Buselik makamında eser çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.3.3.5",
+     "order": 5,
+     "text": "Uşşak makamında etüt çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Uşşak makamında çalacağı etüdü çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Uşşak makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Uşşak makamında etüt çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Uşşak makamında etüt çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.3.3.6",
+     "order": 6,
+     "text": "Uşşak makamında eser çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Uşşak makamında çalacağı eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Uşşak makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Uşşak makamında eser çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Uşşak makamında eseri çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.3.3.7",
+     "order": 7,
+     "text": "Segâh makamında etüt çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Segâh makamında çalacağı etüdü çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Segâh makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Segâh makamında etüt çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Segâh makamında etüt çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.3.3.8",
+     "order": 8,
+     "text": "Segâh makamında eser çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Segâh makamında çalacağı eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Segâh makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Segâh makamında eser çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Segâh makamında eseri çalarken müziksel bileşenleri uygular. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 4,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "TEKNİK ÇALIŞMALAR",
+   "description": "Bu temada öğrencilerin yay, hızlı çalma, merdiven çarpma süsleme teknikleri ve vibrato çalma tekniğini geliştirici etütler çalmaları ve çaldıkları etütlerde hız özelliklerini uygulayabilme ile ilgili becerileri geliştirmeleri beklenmektedir.",
+   "lesson_hours": 12,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.3. Azim ve Kararlılık, E1.4. Kendine İnanma (Öz Yeterlilik) E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMKMN.4.1.1 • Öğrencilerin düzeylerine uygun etütleri hız özelliklerine göre çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları, disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (SDB2.1, D3.1). • Öğrencilerin düzeylerine uygun etütleri hız özelliklerine göre çalarken düzenli tekrar çalışmaları ile istikrarlı olmaları desteklenir (D12.3). • Öğrencilerden düzeylerine uygun etütleri hız özelliklerine göre çalabilme çalışmalarında kullanacakları araçları belirlemeleri istenir (OB1). SMKMN.4.1.2 • Öğrencilerden düzeylerine uygun yay tekniğini geliştirici etütler çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin düzeylerine uygun yay tekniğini geliştirici etütler çalabilme konusunda gelişimlerini desteklemeye yönelik planlama yapmaları sağlanır (D16.1). • Öğrencilerin düzeylerine uygun yay tekniğini geliştirici etütler çalarak performans sergilemeleri sağlanır (OB9). SMKMN.4.1.3 • Öğrencilerin hızlı çalma (ajilite) tekniğini geliştirici etütler çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları, disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (SDB2.1, D3.1). • Öğrencilerin hızlı çalma (ajilite) tekniğini geliştirici etütleri çalarken düzenli tekrar çalışmaları ile istikrarlı olmaları desteklenir (D12.3). • Öğrencilerden hızlı çalma (ajilite) tekniğini geliştirici etütler çalabilme çalışmalarında kullanacakları araçları belirlemeleri istenir (OB1). SMKMN.4.1.4 • Öğrencilerden merdiven çarpma tekniğini geliştirici etütler çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin merdiven çarpma tekniğini geliştirici etütler çalabilme konusunda gelişimlerini desteklemeye yönelik planlama yapmaları sağlanır (D16.1). • Öğrencilerin merdiven çarpma tekniğini geliştirici etütler çalarak performans sergilemeleri sağlanır (OB9). SMKMN.4.1.5 • Öğrencilerin vibrato çalma tekniğini geliştirici etütler çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları, disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (SDB2.1, D3.1). • Öğrencilerin vibrato çalma tekniğini geliştirici etütleri çalarken düzenli tekrar çalışmaları ile istikrarlı olmaları desteklenir (D12.3). • Öğrencilerin vibrato çalma tekniğini geliştirici etütler çalabilme konusunda gelişimlerini desteklemeye yönelik planlama yapmaları sağlanır (D16.1). • Öğrencilerden vibrato çalma tekniğini geliştirici etütler çalabilme çalışmalarında kullanacakları araçları belirlemeleri istenir (OB1). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ IV. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D3. Çalışkanlık, D12. Sabır, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.2. Gözlemleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMKMN.4.1.1. Düzeyine uygun etütleri hız özelliklerine göre çalabilme a) Düzeyine uygun etütleri hız özelliklerine göre çözümler. b) Düzeyine uygun etütleri hız özelliklerine göre çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Düzeyine uygun etütleri hız özelliklerine göre çalarken kemana özgü teknikleri kullanır. ç) Düzeyine uygun etütleri hız özelliklerine göre çalarken müziksel bileşenleri uygular. SMKMN.4.1.2. Düzeyine uygun yay tekniğini geliştirici etütler çalabilme a) Düzeyine uygun yay tekniğini geliştirici etütleri çözümler. b) Düzeyine uygun yay tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Düzeyine uygun yay tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır. ç) Düzeyine uygun yay tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular. SMKMN.4.1.3. Hızlı çalma (ajilite) tekniğini geliştirici etütler çalabilme a) Hızlı çalma tekniğini geliştirici etütleri çözümler. b) Hızlı çalma tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Hızlı çalma tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır. ç) Hızlı çalma tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular. SMKMN.4.1.4. Merdiven çarpma tekniğini geliştirici etütler çalabilme a) Merdiven çarpma tekniğini geliştirici etütleri çözümler. b) Merdiven çarpma tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Merdiven çarpma tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır. ç) Merdiven çarpma tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular. SMKMN.4.1.5. Vibrato çalma tekniğini geliştirici etütler çalabilme a) Vibrato çalma tekniğini geliştirici etütleri çözümler. b) Vibrato çalma tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Vibrato çalma tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır. ç) Vibrato çalma tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Hız Özelliklerini Geliştirici Etütler Düzeyine Uygun Yay Tekniğini Geliştirici Etütler Hızlı Çalma (Ajilite) Tekniğini Geliştirici Etütler Merdiven Çarpma Tekniğini Geliştirici Etütler Vibrato Çalma Tekniğini Geliştirici Etütler",
+    "Anahtar Kavramlar": "duruş, etüt, hızlı çalma, merdiven çarpma, tutuş, vibrato, yay tekniği ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ"
+   },
+   "outcomes": [
+    {
+     "code": "SMKMN.4.1.1",
+     "order": 1,
+     "text": "Düzeyine uygun etütleri hız özelliklerine göre çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Düzeyine uygun etütleri hız özelliklerine göre çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Düzeyine uygun etütleri hız özelliklerine göre çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Düzeyine uygun etütleri hız özelliklerine göre çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Düzeyine uygun etütleri hız özelliklerine göre çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.4.1.2",
+     "order": 2,
+     "text": "Düzeyine uygun yay tekniğini geliştirici etütler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Düzeyine uygun yay tekniğini geliştirici etütleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Düzeyine uygun yay tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Düzeyine uygun yay tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Düzeyine uygun yay tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.4.1.3",
+     "order": 3,
+     "text": "Hızlı çalma (ajilite) tekniğini geliştirici etütler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hızlı çalma tekniğini geliştirici etütleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Hızlı çalma tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Hızlı çalma tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Hızlı çalma tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.4.1.4",
+     "order": 4,
+     "text": "Merdiven çarpma tekniğini geliştirici etütler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Merdiven çarpma tekniğini geliştirici etütleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Merdiven çarpma tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Merdiven çarpma tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Merdiven çarpma tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.4.1.5",
+     "order": 5,
+     "text": "Vibrato çalma tekniğini geliştirici etütler çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Vibrato çalma tekniğini geliştirici etütleri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Vibrato çalma tekniğini geliştirici etütleri çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Vibrato çalma tekniğini geliştirici etütleri çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Vibrato çalma tekniğini geliştirici etütleri çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 4,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "MAKAM ÇALIŞMALARI",
+   "description": "Bu temada öğrencilerin muhayyerkürdi, nihavent, hicaz ve nikriz makamlarında gam çalabilme becerilerini geliştirmeleri beklenmektedir.",
+   "lesson_hours": 28,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMKMN.4.2.1 • Öğrencilerden muhayyerkürdi makamında gam çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin muhayyerkürdi makamında gam çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları sağlanır (SDB2.1). • Öğrencilerden muhayyerkürdi makamında gam çalabilme çalışmalarında gerektiğinde sınıf arkadaşlarıyla ortaklıklar oluşturmaları istenir (SDB2.2). • Öğrencilerin muhayyerkürdi makamında gam çalabilme çalışmalarında görev ve sorumluluklarını kuralına uygun olarak yerine getirmeleri desteklenir (D1.2). • Öğrencilerin muhayyerkürdi makamında gam çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin muhayyerkürdi makamında gam çalabilme çalışmaları yaparken arkadaşlarıyla etkili iletişim kurmaları sağlanır (D4.2). • Öğrencilerin muhayyerkürdi makamında gam çalabilme çalışmalarında kendi başarı ve yeteneklerini nesnel olarak değerlendirmeleri teşvik edilir (D10.2). • Öğrencilerin muhayyerkürdi makamında gam çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri, sınıf arkadaşlarının emeğine ve başarısına değer vermeleri teşvik edilir (D14.1, D14.3). • Öğrencilerin muhayyerkürdi makamında gam çalabilme çalışmalarında gelişimlerini desteklemeye yönelik planlama yapmaları sağlanır (D16.1). • Öğrencilerden muhayyerkürdi makamında gam çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). • Öğrencilerin muhayyerkürdi makamında gam çalabilme çalışmalarında konu ile ilgili görselleri ve temel sanat kavramlarını tanımaları desteklenir (OB4, OB9). SMKMN.4.2.2 • Öğrencilerden nihavent makamında gam çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin nihavent makamında gam çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları sağlanır (SDB2.1). • Öğrencilerin nihavent makamında gam çalabilme çalışmalarında gerektiğinde sınıf arkadaşlarıyla ortaklıklar oluşturmaları sağlanır (SDB2.2). • Öğrencilerin nihavent makamında gam çalabilme çalışmalarında görev ve sorumluluklarını kuralına uygun olarak yerine getirmeleri desteklenir (D1.2). • Öğrencilerin nihavent makamında gam çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin nihavent makamında gam çalabilme çalışmaları yaparken arkadaşlarıyla etkili iletişim kurmaları sağlanır (D4.2). • Öğrencilerin nihavent makamında gam çalabilme çalışmalarında kendi başarı ve yeteneklerini nesnel olarak değerlendirmeleri teşvik edilir (D10.2). • Öğrencilerin nihavent makamında gam çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri, sınıf arkadaşlarının emeğine ve başarısına değer vermeleri teşvik edilir (D14.1, D14.3). • Öğrencilerin nihavent makamında gam çalabilme çalışmalarında gelişimlerini desteklemeye yönelik planlama yapmaları sağlanır (D16.1). • Öğrencilerden nihavent makamında gam çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). • Öğrencilerin nihavent makamında gam çalabilme çalışmalarında konu ile ilgili görselleri ve temel sanat kavramlarını tanımaları desteklenir (OB4, OB9). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ SMKMN.4.2.3 • Öğrencilerden hicaz makamında gam çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin hicaz makamında gam çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları sağlanır (SDB2.1). • Öğrencilerin hicaz makamında gam çalabilme çalışmalarında gerektiğinde sınıf arkadaşlarıyla ortaklıklar oluşturmaları sağlanır (SDB2.2). • Öğrencilerin hicaz makamında gam çalabilme çalışmalarında görev ve sorumluluklarını kuralına uygun olarak yerine getirmeleri desteklenir (D1.2). • Öğrencilerin hicaz makamında gam çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin hicaz makamında gam çalabilme çalışmaları yaparken arkadaşlarıyla etkili iletişim kurmaları sağlanır (D4.2). • Öğrencilerin hicaz makamında gam çalabilme çalışmalarında kendi başarı ve yeteneklerini nesnel olarak değerlendirmeleri teşvik edilir (D10.2). • Öğrencilerin hicaz makamında gam çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri, sınıf arkadaşlarının emeğine ve başarısına değer vermeleri teşvik edilir (D14.1, D14.3). • Öğrencilerin hicaz makamında gam çalabilme çalışmalarında gelişimlerini desteklemeye yönelik planlama yapmaları sağlanır (D16.1). • Öğrencilerden hicaz makamında gam çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). • Öğrencilerin hicaz makamında gam çalabilme çalışmalarında konu ile ilgili görselleri ve temel sanat kavramlarını tanımaları desteklenir (OB4, OB9). SMKMN.4.2.4 • Öğrencilerden nikriz makamında gam çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin nikriz makamında gam çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları sağlanır (SDB2.1). • Öğrencilerin nikriz makamında gam çalabilme çalışmalarında gerektiğinde sınıf arkadaşlarıyla ortaklıklar oluşturmaları sağlanır (SDB2.2). • Öğrencilerin nikriz makamında gam çalabilme çalışmalarında görev ve sorumluluklarını kuralına uygun olarak yerine getirmeleri desteklenir (D1.2). • Öğrencilerin nikriz makamında gam çalarken düzenli tekrar ve planlı çalışma ile disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmeleri sağlanır (D3.1). • Öğrencilerin nikriz makamında gam çalabilme çalışmaları yaparken arkadaşlarıyla etkili iletişim kurmaları sağlanır (D4.2). • Öğrencilerin nikriz makamında gam çalabilme çalışmalarında kendi başarı ve yeteneklerini nesnel olarak değerlendirmeleri teşvik edilir (D10.2). • Öğrencilerin nikriz makamında gam çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri, sınıf arkadaşlarının emeğine ve başarısına değer vermeleri teşvik edilir (D14.1, D14.3). • Öğrencilerin nikriz makamında gam çalabilme çalışmalarında gelişimlerini desteklemeye yönelik planlama yapmaları sağlanır (D16.1). • Öğrencilerden nikriz makamında gam çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). • Öğrencilerin nikriz makamında gam çalabilme çalışmalarında konu ile ilgili görselleri ve temel sanat kavramlarını tanımaları desteklenir (OB4, OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ IV. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D1. Adalet, D3. Çalışkanlık, D4. Dostluk, D10. Mütevazılık, D14. Saygı, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.2. Gözlemleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMKMN.4.2.1. Muhayyerkürdi makamında gam çalabilme a) Muhayyerkürdi makamında çalacağı gamı çözümler. b) Muhayyerkürdi makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Muhayyerkürdi makamında gam çalarken kemana özgü teknikleri kullanır. ç) Muhayyerkürdi makamında gam çalarken müziksel bileşenleri uygular. SMKMN.4.2.2. Nihavent makamında gam çalabilme a) Nihavent makamında çalacağı gamı çözümler. b) Nihavent makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Nihavent makamında gam çalarken kemana özgü teknikleri kullanır. ç) Nihavent makamında gam çalarken müziksel bileşenleri uygular. SMKMN.4.2.3. Hicaz makamında gam çalabilme a) Hicaz makamında çalacağı gamı çözümler. b) Hicaz makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Hicaz makamında gam çalarken kemana özgü teknikleri kullanır. ç) Hicaz makamında gam çalarken müziksel bileşenleri uygular. SMKMN.4.2.4. Nikriz makamında gam çalabilme a) Nikriz makamında çalacağı gamı çözümler. b) Nikriz makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Nikriz makamında gam çalarken kemana özgü teknikleri kullanır. ç) Nikriz makamında gam çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Muhayyerkürdi Makamında Gam Çalışmaları Nihavent Makamında Gam Çalışmaları Hicaz Makamında Gam Çalışmaları Nikriz Makamında Gam Çalışmaları",
+    "Anahtar Kavramlar": "duruş, gam, hicaz, makam, muhayyerkürdi, nihavent, nikriz, tutuş ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ"
+   },
+   "outcomes": [
+    {
+     "code": "SMKMN.4.2.1",
+     "order": 1,
+     "text": "Muhayyerkürdi makamında gam çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Muhayyerkürdi makamında çalacağı gamı çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Muhayyerkürdi makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Muhayyerkürdi makamında gam çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Muhayyerkürdi makamında gam çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.4.2.2",
+     "order": 2,
+     "text": "Nihavent makamında gam çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Nihavent makamında çalacağı gamı çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Nihavent makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Nihavent makamında gam çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Nihavent makamında gam çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.4.2.3",
+     "order": 3,
+     "text": "Hicaz makamında gam çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hicaz makamında çalacağı gamı çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Hicaz makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Hicaz makamında gam çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Hicaz makamında gam çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.4.2.4",
+     "order": 4,
+     "text": "Nikriz makamında gam çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Nikriz makamında çalacağı gamı çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Nikriz makamında gam çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Nikriz makamında gam çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Nikriz makamında gam çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 4,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "İCRA ÇALIŞMALARI",
+   "description": "Bu temada öğrencilerin muhayyerkürdi, nihavent, hicaz ve nikriz makamlarında etüt ve eser çalabilme becerilerini geliştirmeleri beklenmektedir.",
+   "lesson_hours": 28,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.5. Kendine Güvenme (Öz Güven), E2.2. Sorumluluk, E3.2. Odaklanma, E3.6. Analitiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMKMN.4.3.1 • Öğrencilerin muhayyerkürdi makamında etüt çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları sağlanır (SDB2.1). • Öğrencilerin muhayyerkürdi makamında etüt çalabilme çalışmalarında gerektiğinde sınıf arkadaşlarıyla ortaklıklar oluşturmaları, görev ve sorumluluk paylaşımında adil davranmaları sağlanır (SDB2.2, D1.2). • Öğrencilerin muhayyerkürdi makamında etüt çalabilme çalışmalarında sınıf arkadaşlarına nazik davranmaları sağlanır (D5.1). • Öğrencilerin muhayyerkürdi makamında etüt çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri teşvik edilir (D14.1). • Öğrencilerin muhayyerkürdi makamında etüt çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri teşvik edilir (D14.3). • Öğrencilerden muhayyerkürdi makamında etüt çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). • Öğrencilerin muhayyerkürdi makamında etüt çalabilme çalışmalarında konu ile ilgili görselleri tanımaları sağlanır (OB4). SMKMN.4.3.2 • Öğrencilerden muhayyerkürdi makamında eser çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin muhayyerkürdi makamında eserleri özenle çalarak millî bilince sahip olmaları desteklenir (D19.1). • Öğrencilerin muhayyerkürdi makamında eser çalabilme konusunda sınıf arkadaşlarına karşılık beklemeden yardımcı olmaları teşvik edilir (D20.4). • Öğrencilerin muhayyerkürdi makamında çalacakları eserlerde kendi kültürlerini fark etmeleri sağlanır (OB5). • Öğrencilerin muhayyerkürdi makamında eser çalarak performans sergilemeleri sağlanır (OB9). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ SMKMN.4.3.3 • Öğrencilerin nihavent makamında etüt çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları sağlanır (SDB2.1). • Öğrencilerin nihavent makamında etüt çalabilme çalışmalarında gerektiğinde sınıf arkadaşlarıyla ortaklıklar oluşturmaları, görev ve sorumluluk paylaşımında adil davranmaları sağlanır (SDB2.2, D1.2). • Öğrencilerin nihavent makamında etüt çalabilme çalışmalarında sınıf arkadaşlarına nazik davranmaları sağlanır (D5.1). • Öğrencilerin nihavent makamında etüt çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri teşvik edilir (D14.1). • Öğrencilerin nihavent makamında etüt çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri teşvik edilir (D14.3). • Öğrencilerden nihavent makamında etüt çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). • Öğrencilerin nihavent makamında etüt çalabilme çalışmalarında konu ile ilgili görselleri tanımaları sağlanır (OB4). SMKMN.4.3.4 • Öğrencilerden nihavent makamında eser çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin nihavent makamında eserleri özenle çalarak millî bilince sahip olmaları desteklenir (D19.1). • Öğrencilerin nihavent makamında eser çalabilme konusunda sınıf arkadaşlarına karşılık beklemeden yardımcı olmaları teşvik edilir (D20.4). • Öğrencilerin nihavent makamında çalacakları eserlerde kendi kültürlerini fark etmeleri sağlanır (OB5). • Öğrencilerin nihavent makamında eser çalarak performans sergilemeleri sağlanır (OB9) SMKMN.4.3.5 • Öğrencilerin hicaz makamında etüt çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları, gerektiğinde ortaklık oluşturmaları, görev ve sorumluluk paylaşımında adil davranmaları sağlanır (SDB2.1, SDB2.2, D1.2). • Öğrencilerin hicaz makamında etüt çalabilme çalışmalarında sınıf arkadaşlarına nazik davranmaları sağlanır (D5.1). • Öğrencilerin hicaz makamında etüt çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri teşvik edilir (D14.1). • Öğrencilerin hicaz makamında etüt çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri teşvik edilir (D14.3). • Öğrencilerden hicaz makamında etüt çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). • Öğrencilerin hicaz makamında etüt çalabilme çalışmalarında konu ile ilgili görselleri tanımaları sağlanır (OB4). SMKMN.4.3.6 • Öğrencilerden hicaz makamında eser çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin hicaz makamında eserleri özenle çalarak millî bilince sahip olmaları desteklenir (D19.1). • Öğrencilerin hicaz makamında eser çalabilme konusunda sınıf arkadaşlarına karşılık beklemeden yardımcı olmaları teşvik edilir (D20.4). • Öğrencilerin hicaz makamında çalacakları eserlerde kendi kültürlerini fark etmeleri sağlanır (OB5). • Öğrencilerin hicaz makamında eser çalarak performans sergilemeleri sağlanır (OB9). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ SMKMN.4.3.7 • Öğrencilerin nikriz makamında etüt çalabilme çalışmalarında sınıf arkadaşları ile sözlü etkileşimde bulunmaları, gerektiğinde ortaklık oluşturmaları, görev ve sorumluluk paylaşımında adil davranmaları sağlanır (SDB2.1, SDB2.2, D1.2). • Öğrencilerin nikriz makamında etüt çalabilme çalışmalarında sınıf arkadaşlarına nazik davranmaları sağlanır (D5.1). • Öğrencilerin nikriz makamında etüt çalabilme çalışmalarında sınıf arkadaşlarını etkin bir şekilde dinlemeleri teşvik edilir (D14.1). • Öğrencilerin nikriz makamında etüt çalabilme çalışmalarında sınıf arkadaşlarının emeğine ve başarısına değer vermeleri teşvik edilir (D14.3). • Öğrencilerden nikriz makamında etüt çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). • Öğrencilerin nikriz makamında etüt çalabilme çalışmalarında konu ile ilgili görselleri tanımaları sağlanır (OB4). SMKMN.4.3.8 • Öğrencilerden nikriz makamında eser çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin nikriz makamında eserleri özenle çalarak millî bilince sahip olmaları desteklenir (D19.1). • Öğrencilerin nikriz makamında eser çalabilme konusunda sınıf arkadaşlarına karşılık beklemeden yardımcı olmaları teşvik edilir (D20.4). • Öğrencilerin nikriz makamında çalacakları eserlerde kendi kültürlerini fark etmeleri sağlanır (OB5). • Öğrencilerin nikriz makamında eser çalarak performans sergilemeleri sağlanır (OB9). SMKMN.4.3.9 • Öğrencilerden taksim formunda eser çalabilme konusunda seçtikleri öğrenme stratejisi üzerinden pratik yapmaları istenir (SDB1.2). • Öğrencilerin taksim formunda eserleri özenle çalarak millî bilince sahip olmaları desteklenir (D19.1). • Öğrencilerin taksim formunda eser çalabilme konusunda sınıf arkadaşlarına karşılık beklemeden yardımcı olmaları teşvik edilir (D20.4). • Öğrencilerin taksim formunda çalacakları eserlerde kendi kültürlerini fark etmeleri sağlanır (OB5). • Öğrencilerin taksim formunda eser çalarak performans sergilemeleri sağlanır (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D1. Adalet, D5. Duyarlılık, D14. Saygı, D19. Vatanseverlik, D20. Yardımseverlik",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.2. Gözlemleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMKMN.4.3.1. Muhayyerkürdi makamında etüt çalabilme a) Muhayyerkürdi makamında çalacağı etüdü çözümler. b) Muhayyerkürdi makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Muhayyerkürdi makamında etüt çalarken kemana özgü teknikleri kullanır. ç) Muhayyerkürdi makamında etüt çalarken müziksel bileşenleri uygular. SMKMN.4.3.2. Muhayyerkürdi makamında eser çalabilme a) Muhayyerkürdi makamında çalacağı eseri çözümler. b) Muhayyerkürdi makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Muhayyerkürdi makamında eser çalarken kemana özgü teknikleri kullanır. ç) Muhayyerkürdi makamında eser çalarken müziksel bileşenleri uygular. SMKMN.4.3.3. Nihavent makamında etüt çalabilme a) Nihavent makamında çalacağı etüdü çözümler. b) Nihavent makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Nihavent makamında etüt çalarken kemana özgü teknikleri kullanır. ç) Nihavent makamında etüt çalarken müziksel bileşenleri uygular. SMKMN.4.3.4. Nihavent makamında eser çalabilme a) Nihavent makamında çalacağı eseri çözümler. b) Nihavent makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Nihavent makamında eser çalarken kemana özgü teknikleri kullanır. ç) Nihavent makamında eser çalarken müziksel bileşenleri uygular. SMKMN.4.3.5. Hicaz makamında etüt çalabilme a) Hicaz makamında çalacağı etüdü çözümler. b) Hicaz makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Hicaz makamında etüt çalarken kemana özgü teknikleri kullanır. ç) Hicaz makamında etüt çalarken müziksel bileşenleri uygular. SMKMN.4.3.6. Hicaz makamında eser çalabilme a) Hicaz makamında çalacağı eseri çözümler. b) Hicaz makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Hicaz makamında eser çalarken kemana özgü teknikleri kullanır. ç) Hicaz makamında eseri çalarken müziksel bileşenleri uygular. SMKMN.4.3.7. Nikriz makamında etüt çalabilme a) Nikriz makamında çalacağı etüdü çözümler. b) Nikriz makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Nikriz makamında etüt çalarken kemana özgü teknikleri kullanır. ç) Nikriz makamında etüt çalarken müziksel bileşenleri uygular. SMKMN.4.3.8. Nikriz makamında eser çalabilme a) Nikriz makamında çalacağı eseri çözümler. b) Nikriz makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Nikriz makamında eser çalarken kemana özgü teknikleri kullanır. ç) Nikriz makamında eseri çalarken müziksel bileşenleri uygular. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ SMKMN.4.3.9. Taksim formunda eser çalabilme a) Taksim formunda çalacağı eseri çözümler. b) Taksim formunda eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır. c) Taksim formunda eser çalarken kemana özgü teknikleri kullanır. ç) Taksim formunda eser çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Muhayyerkürdi Makamında Etüt Çalışmaları Muhayyerkürdi Makamında Eser Çalışmaları Nihavent Makamında Etüt Çalışmaları Nihavent Makamında Eser Çalışmaları Hicaz Makamında Etüt Çalışmaları Hicaz Makamında Eser Çalışmaları Nikriz Makamında Etüt Çalışmaları Nikriz Makamında Eser Çalışmaları Taksim Formunda Eser Çalışmaları",
+    "Anahtar Kavramlar": "eser, etüt, hicaz, makam, muhayyerkürdi, nihavent, nikriz, taksim"
+   },
+   "outcomes": [
+    {
+     "code": "SMKMN.4.3.1",
+     "order": 1,
+     "text": "Muhayyerkürdi makamında etüt çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Muhayyerkürdi makamında çalacağı etüdü çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Muhayyerkürdi makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Muhayyerkürdi makamında etüt çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Muhayyerkürdi makamında etüt çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.4.3.2",
+     "order": 2,
+     "text": "Muhayyerkürdi makamında eser çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Muhayyerkürdi makamında çalacağı eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Muhayyerkürdi makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Muhayyerkürdi makamında eser çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Muhayyerkürdi makamında eser çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.4.3.3",
+     "order": 3,
+     "text": "Nihavent makamında etüt çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Nihavent makamında çalacağı etüdü çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Nihavent makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Nihavent makamında etüt çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Nihavent makamında etüt çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.4.3.4",
+     "order": 4,
+     "text": "Nihavent makamında eser çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Nihavent makamında çalacağı eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Nihavent makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Nihavent makamında eser çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Nihavent makamında eser çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.4.3.5",
+     "order": 5,
+     "text": "Hicaz makamında etüt çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hicaz makamında çalacağı etüdü çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Hicaz makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Hicaz makamında etüt çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Hicaz makamında etüt çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.4.3.6",
+     "order": 6,
+     "text": "Hicaz makamında eser çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hicaz makamında çalacağı eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Hicaz makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Hicaz makamında eser çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Hicaz makamında eseri çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.4.3.7",
+     "order": 7,
+     "text": "Nikriz makamında etüt çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Nikriz makamında çalacağı etüdü çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Nikriz makamında etüt çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Nikriz makamında etüt çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Nikriz makamında etüt çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.4.3.8",
+     "order": 8,
+     "text": "Nikriz makamında eser çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Nikriz makamında çalacağı eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Nikriz makamında eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Nikriz makamında eser çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Nikriz makamında eseri çalarken müziksel bileşenleri uygular. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETIM PROGRAMI KEMAN MODÜLÜ"
+      }
+     ]
+    },
+    {
+     "code": "SMKMN.4.3.9",
+     "order": 9,
+     "text": "Taksim formunda eser çalabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Taksim formunda çalacağı eseri çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Taksim formunda eser çalarken kemana özgü duruş ve tutuş pozisyonunu alır."
+      },
+      {
+       "label": "c",
+       "text": "Taksim formunda eser çalarken kemana özgü teknikleri kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Taksim formunda eser çalarken müziksel bileşenleri uygular."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "unassigned_outcomes": [],
+ "report": {
+  "units": 14,
+  "outcomes": 64,
+  "components": 246,
+  "orphan_outcomes": 0,
+  "gaps": []
+ }
+}

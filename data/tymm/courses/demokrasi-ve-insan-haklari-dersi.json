@@ -1,0 +1,229 @@
+{
+ "course": {
+  "id": 102,
+  "name": "Demokrasi ve İnsan Hakları Dersi",
+  "slug": "demokrasi-ve-insan-haklari-dersi",
+  "prefix": "DİH",
+  "shapes": [
+   "DİH/yapışık-2"
+  ],
+  "kademe": 3,
+  "kademe_name": "Ortaöğretim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/demokrasi-ve-insan-haklari-dersi_20260828_160526_525.pdf"
+ },
+ "units": [
+  {
+   "grade": 1,
+   "unit": 1,
+   "kind": "ÜNİTE",
+   "title": "DEMOKRASİ VE İNSAN HAKLARININ",
+   "description": "Ünitenin adını ifade eder. GELİŞİMİ Bu ünitede öğrencilerin demokrasi kavramı, insan haklarının tarih­sel gelişimi ve bu süreçlerin toplumsal Ünitede öğrenilmesi amaçlanan yaşama yan­sımalarının yanı sıra farklı dönemlerdebilgi ve becerilere yönelik ki dönüşümlerin sebepleri ve etkileri ile vatandaşlık açıklamayı ifade eder. anlayışındaki değişimlerin günümüz toplum yapısına katkılarıyla ilgili gerekli bilgi, beceri ve değer­leri kazanmaları amaçlanmaktadır. süreyi ifade eder. Disipline özgü şekilde yapılandıBECERİLERİ SBAB1. Zamanı Algılama ve Kronolojik Düşünme Karmaşık bir süreç rılan becerileri ifade eder. (KB2.17. Değerlendirme), SBAB3. Tarihsel Empati gerektirmeden edinilen (SBAB3.1. Tarihsel Bağlamsallaştırma) ve gözlenebilen temel beceriler ile soyut fikirleri ve karmaşık süreçleri KAVRAMSAL eyleme dönüştürürken BECERİLER KB2.8. Sorgulama zihinsel faaliyetlerin bir Öğrenme-öğretme sürecinde ürünü olarak işe koşulan sahip olunan becerilerin niyet, bütünleşik ve üst düzey duyarlılık, isteklilik ve değerEĞİLİMLER E1.1. Merak, E3.1. Muhakeme, E3.4. Gerçeği Arama düşünme becerilerini lendirme ögeleri doğrultusunda ifade eder. gerekli durumlarda nasıl kullanıldığı ile ilgili zihinsel örüntüleri ifade eder. PROGRAMLAR ARASI Öğrenme-öğretme BİLEŞENLER sürecinde ilişkilendirilen sosyal-duygusal öğrenme Duyguları yönetmek, empati becerilerini, değerleri ve yapmak, destekleyici ilişkiler okuryazarlık becerilerini kurmak ve sağlıklı bir benlik Sosyal-Duygusal ifade eder. geliştirmek için gerekli bilgi, Öğrenme beceri ve eğilimler bütününü Becerileri SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal ifade eder. Farkındalık, SDB3.3. Sorumlu Karar Verme",
+   "lesson_hours": 15,
+   "sections": {
+    "Değerler": "D1. Adalet, D3. Çalışkanlık, D5. Duyarlılık, D11. Özgürlük, İnsani değerlerle birlikte D14. Saygı millî ve manevi değerleri ifade eder. Yeni durumlara uyum sağlamayı, değişimi fark etmeyi ve gelişen Okuryazarlık teknolojik yenilikleri günlük Becerileri OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, hayatta uygulamayı sağlayan OB6. Vatandaşlık Okuryazarlığı becerileri ifade eder. Birbiriyle bağlantılı DİSİPLİNLER farklı disiplinlere ait bilgi ARASI İLİŞKİLER Tarih, Sosyoloji, Felsefe, Psikoloji, Din Kültürü ve Ahlak ve becerilerin ilişkilendiBilgisi, Uluslararası İlişkiler rilmesini ifade eder. BECERİLER ARASI Öğrenme çıktılarında kullanılmaİLİŞKİLER KB2.7. Karşılaştırma yan ancak öğrenme-öğretme uygulamalarında, öğrenme çıktılarında odağa alınan becerilerle ilişkilendirilerek kullanılan kavramsal becerileri ve alan becerilerini ifade eder. DEMOKRASİ VE İNSAN HAKLARI DERSİ ÖĞRETİM PROGRAMI Dersin kodu Ünite numarası Öğrenme çıktısı numarası Öğrenme-öğretme VE yaşantıları sonunda SÜREÇ BİLEŞENLERİ DİH1.1. Demokrasinin tarihsel gelişiminde yaşanan öğrenciye kazandırılması değişimleri insan ve toplum yaşamına amaçlanan bilgi, beceri etkileri açısından değerlendirebilme ve becerilerin süreç a) Demokrasinin tarihsel gelişiminde bileşenlerini ifade eder. meydana gelen değişimlerin insan ve toplum yaşamına etkilerini katılımcılık, halk iradesi ve temel özgürlükler açısından karşılaştırır. b) Demokrasinin tarihsel gelişiminde meydana gelen değişimlerin insan ve toplum yaşamına etkileri ile ilgili yargıda bulunur. Öğrenme-öğretme",
+    "İÇERİK ÇERÇEVESİ": "Demokrasinin Tarihsel Gelişimi sürecinde ele alınan İnsan Hak ve Özgürlüklerinin Tarihsel Gelişimi bilgi kümesini (konuya/ Vatandaşlık Anlayışındaki Değişim alt konuya ilişkin sınırlar)",
+    "Anahtar Kavramlar": "çoğulculuk, demokrasi, dijital vatandaşlık, hak, huifade eder. Disipline ait başlıca anahtar kavramları ifade eder. kuk, insan hakları, uzlaşma, vatandaş, vatandaşlık",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; çalışma yaprağı, (Ölçme ve değişim ve süreklilik formu ve performans görevi ile Değerlendirme) değerlendirilebilir. Demokrasinin tarihsel gelişiminÖğrenme çıktılarının de meydana gelen değişimin insan ve toplum yaşadeğerlendirilmesi mına etkilerini değerlendirmek için çalışma yaprağı ile uygun ölçme ve kullanılabilir. Öğrencilerin günümüz dünyasında değerlendirme araçlarını vatandaşlık anlayışında meydana gelen değişimin ifade eder. neden ve sonuçlarına yönelik yorumları değişim ve Öğrenme çıktıları, eğilim, süreklilik formu kullanılarak değerlendirilebilir. programlar arası bileşenler ve öğrenme kanıtları arasında kurulan ve anlamlı ÖĞRENME-ÖĞRETME ilişkilere dayanan öğrenmeYAŞANTILARI öğretme sürecini ifade eder. Temel Kabuller Öğrencilerin eşitlik, özgürlük, adalet, hak, demokrasi ve vatandaşlık kavramları hakkında temel bilgilere Önceki öğrenme-öğretme sahip oldukları kabul edilmektedir. süreçlerinden getirildiği kabul edilen bilgi ve Yeni bilgi ve becerilerin öğreÖn Değerlendirme becerileri ifade eder. nilmesi için sahip olunması Süreci Ünite kapsamında öğrencilere aşağıdaki rehber gereken ön bilgileri ve/veya sorular sorulabilir. becerileri ifade eden temel • Eşitlik, özgürlük, adalet, hak, sorumluluk, kabullerin değerlendirilmesi demokrasi ve vatandaşlık kavramları arasındaki ile öğrenme sürecindeki ilgi Mevcut bilgi ve beceriler ilişkiyi açıklayınız. ile edinilecek bilgi ve beve ihtiyaçların belirlenmesini • İnsan hakları sizin için ne ifade etmektedir? ceriler arasında bağlantı ifade eder. Köprü Kurma Demokrasinin temel ilkelerinden yola çıkarak deoluşturma sürecinin yanı mokratik uygulamalara günlük hayattan örnekler sıra edinilecek bilgi ve vermeleri istenebilir. beceriler ile günlük hayat Hedeflenen öğrenci profili ve deneyimleri arasında bağ temel öğrenme yaklaşımları Öğrenme-Öğretme kurmayı ifade eder. ile uyumlu öğrenme-öğretme Uygulamaları DİH1.1 yaşantılarının hayata Öğrencilerin kavram öğretim materyalleri üzerinden geçirildiği uygulamaları ifade demokrasi ile ilgili eşitlik, özgürlük, adalet, hak, eder. hukukun üstünlüğü, egemenlik, anayasa, kuvvetler ayrılığı kavramlarını açıklamaları sağlanır. Akranlarından daha ileri düzeydeki öğrencilere Öğrenme profilleri bakımınFARKLILAŞTIRMA genişletilmiş ve dan farklılık gösteren öğrenderinlemesine öğrenme cilere yönelik çeşitli zenginZenginleştirme Öğrencilerden, günlük hayatta uygulanması yasal olan her hakkın kullanımının doğruluğunu tartışmaları fırsatları sunan, onların leştirme ve desteklemeye bilgi ve becerilerini ilişkin öğrenme-öğretme istenebilir. geliştiren öğrenmeyaşantılarını ifade eder. Öğrencilerden doğrudan demokrasi, yarı doğrudan öğretme yaşantılarını demokrasi ve temsilî demokrasinin temel özgürlükler ifade eder. üzerindeki etkilerini belirlemek amacıyla araştırma yapmaları ve bu araştırmayı raporlaştırmaları istenebilir. Öğrenme sürecinde daha fazla zaman ve tekrara Destekleme Öğretmeninden veya arkadaşlarından yardım alarak ihtiyaç duyan öğrencilere Öğretmenin ve programın ortam, içerik, süreç güçlü ve iyileştirilmesi demokrasi ile ilgili verilen kavram haritası üzerindeki eksiklikleri tamamlamaları istenebilir. ve ürün bağlamında gereken yönlerinin uyarlanmış öğrenmeöğretmenlerin kendileri ÖĞRETMEN öğretme yaşantılarını tarafından değerlendirilmesini YANSITMALARI Programa yönelik görüş ve önerileriniz ifade eder. ifade eder. için karekodu akıllı cihazınıza okutunuz. DEMOKRASİ VE İNSAN HAKLARI DERSİ ÖĞRETİM PROGRAMI 2. DEMOKRASİ VE İNSAN HAKLARI DERSİ ÖĞRETİM PROGRAMI’NIN ÜNİTELERİ"
+   },
+   "outcomes": [
+    {
+     "code": "DİH1.1",
+     "order": 1,
+     "text": "Demokrasinin tarihsel gelişiminde yaşanan öğrenciye kazandırılması değişimleri insan ve toplum yaşamına amaçlanan bilgi, beceri etkileri açısından değerlendirebilme ve becerilerin süreç",
+     "components": [
+      {
+       "label": "a",
+       "text": "Demokrasinin tarihsel gelişiminde bileşenlerini ifade eder. meydana gelen değişimlerin insan ve toplum yaşamına etkilerini katılımcılık, halk iradesi ve temel özgürlükler açısından karşılaştırır."
+      },
+      {
+       "label": "b",
+       "text": "Demokrasinin tarihsel gelişiminde meydana gelen değişimlerin insan ve toplum yaşamına etkileri ile ilgili yargıda bulunur. Öğrenme-öğretme"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 1,
+   "kind": "ÜNİTE",
+   "title": "DEMOKRASİ VE İNSAN HAKLARININ GELİŞİMİ",
+   "description": "Bu ünitede öğrencilerin demokrasi kavramı, insan haklarının tarih­sel gelişimi ve bu süreçlerin toplumsal yaşama yan­sımalarının yanı sıra farklı dönemlerdeki dönüşümlerin sebepleri ve etkileri ile günümüz dünyasında vatandaşlık anlayışındaki değişimlerin toplum yapısına etkileri ile ilgili gerekli bilgi, beceri ve değer­leri kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 15,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB1. Zamanı Algılama ve Kronolojik Düşünme (KB2.17. Değerlendirme), SBAB4. Değişim ve Sürekliliği Algılama (SBAB4.2. Değişim ve Sürekliliği Neden ve Sonuçlarıyla Yorumlama)",
+    "KAVRAMSAL BECERİLER": "KB2.8. Sorgulama",
+    "EĞİLİMLER": "E1.1. Merak, E3.1. Muhakeme, E3.4. Gerçeği Arama",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D1. Adalet, D3. Çalışkanlık, D5. Duyarlılık, D11. Özgürlük, D14. Saygı",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB6. Vatandaşlık Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Tarih, Sosyoloji, Felsefe, Psikoloji, Din Kültürü ve Ahlak Bilgisi, Uluslararası İlişkiler BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.7. Karşılaştırma, KB3.1. Karar Verme DEMOKRASİ VE İNSAN HAKLARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE DİH1.1. Demokrasinin tarihsel gelişiminde yaşanan değişimleri insan ve toplum yaşamına SÜREÇ BİLEŞENLERİ etkileri açısından değerlendirebilme a) Demokrasinin tarihsel gelişiminde meydana gelen değişimlerin insan ve toplum yaşamına etkilerini halk iradesi ve temel özgürlükler açısından karşılaştırır. b) Demokrasinin tarihsel gelişiminde meydana gelen değişimlerin insan ve toplum yaşamına etkileri ile ilgili yargıda bulunur. DİH1.2. Tarihsel süreçte insan hak ve özgürlüklerinde meydana gelen değişimin gerekçelerini sorgulayabilme a) Tarihsel süreçte insan hak ve özgürlüklerinde meydana gelen değişimin gerekçelerine ilişkin merak ettiği konuları belirler. b) İlgili konular hakkında sorular sorar. c) Farklı kaynaklar üzerinden konuya ilişkin bilgi toplar. ç) Topladığı bilgilerin doğruluğunu değerlendirir. d) Topladığı bilgiler üzerinden tarihsel süreçte insan hak ve özgürlüklerinde meydana gelen değişimin gerekçelerine ilişkin çıkarım yapar. DİH1.3. Günümüz dünyasında vatandaşlık anlayışında meydana gelen değişimi neden ve sonuçlarıyla yorumlayabilme a) Günümüz dünyasında vatandaşlık anlayışında meydana gelen değişime neden olan unsurları inceler. b) Günümüz dünyasında vatandaşlık anlayışında meydana gelen değişimin etkilediği unsurları belirler. c) Günümüz dünyasında vatandaşlık anlayışında meydana gelen değişimin etkilerini sorgular. ç) Günümüz dünyasında vatandaşlık anlayışında meydana gelen değişimi neden ve sonuçlarını bağlamından kopmadan ifade eder.",
+    "İÇERİK ÇERÇEVESİ": "Demokrasinin Tarihsel Gelişimi İnsan Hak ve Özgürlüklerinin Tarihsel Gelişimi Vatandaşlık Anlayışındaki Değişim",
+    "Anahtar Kavramlar": "çoğulculuk, demokrasi, demokratik vatandaş, dijital vatandaşlık, hak, hukuk, insan hakları, insan onuru, uzlaşma, vatandaş, vatandaşlık ÖĞRENME Bu ünitedeki öğrenme çıktıları; çalışma yaprağı, değişim ve süreklilik formu ve performans KANITLARI görevi ile değerlendirilebilir. (Ölçme ve Demokrasinin tarihsel gelişiminde meydana gelen değişimin insan ve toplum yaşamına Değerlendirme) etkilerini değerlendirmek için çalışma yaprağı kullanılabilir. Öğrencilerin günümüz dünyasında vatandaşlık anlayışında meydana gelen değişimin neden ve sonuçlarına yönelik yorumları değişim ve süreklilik formu kullanılarak değerlendirilebilir. Performans görevi olarak öğrencilerden tarihsel süreçte insan hak ve özgürlüklerinde meydana gelen değişimleri ortaya koyan broşür hazırlamaları ve broşürlerini sunmaları istenir. Hazırlanan broşür ve sunum; soru oluşturma, bilgi toplama, bilginin doğruluğu, kaynak çeşitliliği, çıkarımda bulunma vb. ölçütlerden oluşan dereceli puanlama anahtarı ile değerlendirilebilir. Ayrıca hazırlanan dereceli puanlama anahtarı akran değerlendirme formu olarak kullanılabilir. DEMOKRASİ VE İNSAN HAKLARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin eşitlik, özgürlük, adalet, hak, demokrasi ve vatandaşlık kavramları hakkında temel bilgilere sahip oldukları kabul edilmektedir. Öğrencilerin demokrasi ve insan hakları arasındaki ilişkiye ait temel bilgilere sahip oldukları kabul edilmektedir. Öğrencilerin vatandaş olmanın gerektirdiği hak ve özgürlüklerle ilgili ön bilgilere sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci Ünite kapsamında öğrencilere aşağıdaki rehber sorular sorulabilir. • Eşitlik, özgürlük, adalet, hak, sorumluluk, demokrasi ve vatandaşlık kavramları arasındaki ilişkiyi açıklayınız. • İnsan hakları sizin için ne ifade etmektedir? • Vatandaşlık anlayışında geçmişten günümüze ne gibi değişiklikler yaşanmış olabilir? Ünite kapsamında öğrencilere aşağıdaki etkinlikler yaptırılabilir. • Öğrencilerden demokrasi kavramına yönelik metafor ve analoji etkinliği yapmaları istenebilir. • Demokrasi ve insan hakları arasındaki ilişki ile ilgili beyin fırtınası yapmaları istenebilir. • Farklı dönemlerde yaşamış vatandaşların olaylara karşı tutumlarını açıklamaları istenebilir. Köprü Kurma Öğrencilerden demokrasinin temel ilkelerinden yola çıkarak demokratik uygulamalara günlük hayattan örnekler vermeleri istenebilir. Dijitalleşmenin günümüz vatandaşlık anlayışındaki etkilerini açıklamaları istenebilir. Öğrenme-Öğretme Uygulamaları DİH1.1 Öğrencilerin kavram öğretim materyalleri üzerinden adalet, anayasa, egemenlik, eşitlik, hak, hesap verebilirlik, hukukun üstünlüğü, insan onuru, kuvvetler ayrılığı, şeffaflık ve özgürlük kavramlarını tanımlamaları ve demokrasi açısından önemini açıklamaları sağlanır. Verilen farklı kaynaklar üzerinden demokrasinin tarihsel gelişiminde önemli rol oynayan “Antik Yunan’da demokrasinin doğuşu, Türk devletlerinde kurultayın yapısı, Magna Carta (1215), Fransız İhtilali (1789), Sened-i İttifak (1808), Tanzimat Fermanı (1839), Islahat Fermanı (1856), Kanun-ı Esasi (1876) ile Türkiye Cumhuriyeti Anayasaları”nı incelemeleri sağlanır. Verilen tarihî olay ve belgeler üzerinden demokrasinin tarihsel gelişiminde meydana gelen değişimlerin insan ve toplum yaşamına etkilerini, “halk iradesi” ve “temel özgürlükler” açısından karşılaştırdıkları bir tablo hazırlamaları istenir. Öğrenciler örnek olay üzerinden başkalarına karşı adil olmanın ve özgürlükleri kullanırken diğer insanların özgürlüklerini dikkate almanın gerekliliğini tartışır (D1.1, D11.3). Demokrasinin tarihsel gelişiminde meydana gelen değişimin insan ve toplum yaşamına etkileri ile ilgili yargıda bulunur (E3.1, OB6, SDB3.3). Öğrenciler ulaştıkları bilgilerden yola çıkarak demokrasinin tarihsel gelişim sürecinde yaşanan değişimlerin insan ve toplum yapısına etkilerini değerlendirmek amacıyla hazırlanan çalışma yaprağını doldurur (OB1, SDB2.3). DEMOKRASİ VE İNSAN HAKLARI DERSİ ÖĞRETİM PROGRAMI DİH1.2 Grup çalışması yoluyla öğrencilerin “Eski Çağ’daki belgelerden Sümer ve Babil Kanunları, Kyros’un silindiri (MÖ 539), On İki Levha Kanunları (451-449); Orta Çağ’daki belgelerden Medine Sözleşmesi (622), Veda Hutbesi (632), Hz. Ömer’in Kudüs Emannamesi (638); Yeni Çağ’daki belgelerden Fatih Sultan Mehmet’in Bosna Fermanı (1463), Amerikan Bağımsızlık Bildirgesi (1776), Fransız İnsan ve Yurttaş Hakları Bildirgesi (1789); Yakın Çağ’daki belgelerden Talim-i Sıbyan Hakkında Ferman-ı Âli (1824), Fabrikalar Yasası (1833) İnsan Hakları Evrensel Bildirgesi (1948), Kadına Karşı Her Türlü Ayrımcılığın Ortadan Kaldırılması Sözleşmesi [CEDAW (1979)], Türk Çocuk Hakları Bildirgesi (1963), Çocuk Haklarına Dair Sözleşme (1989) ve Dijital Dünyada Çocuk Hakları Sözleşmesi (2025)” konularından birini belirlemeleri sağlanır (E1.1, SDB2.2). Belirledikleri konuya ilişkin sorgulama yapmaları istenir. Öğrenciler yazılı, görsel, basılı ve dijital kaynaklar üzerinden konuya ilişkin bilgileri toplar ve kaydeder. Bu süreçte dijital ağ kaynaklarından bilgi kullanırken dijital kimliği veya kaynağın uzantısının güvenilirliğini dikkate alır (OB2). Dijital dünyanın insan hak ve özgürlüklerinde meydana getirdiği değişimi unutulma hakkı odağında tartışır. Afganistan, Irak, Hocalı, Ruanda, Bosna, Filistin, Myanmar ve Doğu Türkistan örnekleri üzerinden insan hakları ihlallerini analiz eder, insan onurunu korumanın ve şiddetin her türüne karşı çıkmanın gerekliliğini açıklar (D5.1, D14.1). Araştırma yaparak ulaştıkları bilgilerle derste öğrendiklerini karşılaştırır ve bunların doğruluğunu değerlendirir (KB2.7, E3.4, OB1). Bu bilgilerden hareketle tarihsel süreçte insan hak ve özgürlüklerinde meydana gelen değişimin gerekçelerine ilişkin çıkarım yapar. Performans görevi olarak öğrencilerden tarihsel süreçte insan hak ve özgürlüklerinde meydana gelen değişimi ortaya koyan bir broşür/dijital broşür hazırlamaları ve hazırladıkları broşürü/dijital broşürü sunmaları istenir (SDB2.1). DİH1.3 Öğrencilerden günümüz dünyasında vatandaşlık anlayışındaki değişime neden olan unsurları verilen farklı kaynaklar üzerinden incelemeleri istenir. Öğrenciler verilen farklı kaynaklar üzerinden ulusal ve ulusötesi vatandaşlık anlayışlarını açıklar. Örnekler üzerinden ulusal ve ulusötesi vatandaşlık anlayışlarının benzer ve farklı yönlerini eleştirel bakış açısıyla değerlendirir (D3.3). Günümüz dünyasında ulusal ve ulusötesi vatandaşlık anlayışlarının etkilediği unsurları belirler. Bu anlayışların insan ve toplum hayatında meydana getirdiği değişimin etkilerini sorgular (OB6). Devlet ile vatandaşın karşılıklı hak ve sorumluluklarında meydana gelen değişimi değerlendirir. Değişim ve süreklilik formu aracılığıyla öğrencilerin günümüz dünyasında vatandaşlık anlayışlarındaki değişimin neden ve sonuçlarına ilişkin yorumlarını ifade etmeleri sağlanır (KB3.1). DEMOKRASİ VE İNSAN HAKLARI DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden, günlük hayatta uygulanması yasal olan her hakkın kullanımının doğruluğunu tartışmaları istenebilir. Öğrencilerden doğrudan demokrasi, yarı doğrudan demokrasi ve temsilî demokrasinin temel özgürlükler üzerindeki etkilerini belirlemek amacıyla araştırma yapmaları ve bu araştırmayı raporlaştırmaları istenebilir. Aliya İzzet Begoviç ve Malcom X’in (Melkım Eks) insan hak ve özgürlükleri konusunda verdikleri mücadeleyi bu kişilerin hayat hikâyeleri üzerinden araştırmaları ve raporlaştırmaları istenebilir. İnsan hakları ihlallerine karşı ulusal ve uluslararası kurum ve kuruluşlar ile ilgili broşür hazırlamaları istenebilir. Öğrencilerden insan ticaretinin önlenmesine ilişkin bir eylem planı hazırlayarak sunmaları istenebilir. Günümüz dünyasında yaşanan insan hakları ihlallerine yönelik sanal pano hazırlamaları istenebilir. Demokratik vatandaşın özelliklerine yönelik anket yapmaları istenebilir. Destekleme Öğretmeninden veya arkadaşlarından yardım alarak demokrasi ile ilgili verilen kavram haritası üzerindeki eksiklikleri tamamlamaları istenebilir. Öğretmeni veya arkadaşlarının yardımıyla İnsan Hakları Evrensel Bildirgesi’ni inceleyerek bildirge ile ilgili duygu ve düşüncelerini açıklamaları istenebilir. Yaz-çiz-anlat tekniğini kullanarak demokrasi, vatandaşlık ya da insan haklarına yönelik bir çalışma yapmaları istenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. DEMOKRASİ VE İNSAN HAKLARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "DİH1.1",
+     "order": 1,
+     "text": "Demokrasinin tarihsel gelişiminde yaşanan öğrenciye kazandırılması değişimleri insan ve toplum yaşamına amaçlanan bilgi, beceri etkileri açısından değerlendirebilme ve becerilerin süreç",
+     "components": [
+      {
+       "label": "a",
+       "text": "Demokrasinin tarihsel gelişiminde meydana gelen değişimlerin insan ve toplum yaşamına etkilerini halk iradesi ve temel özgürlükler açısından karşılaştırır."
+      },
+      {
+       "label": "b",
+       "text": "Demokrasinin tarihsel gelişiminde meydana gelen değişimlerin insan ve toplum yaşamına etkileri ile ilgili yargıda bulunur."
+      }
+     ]
+    },
+    {
+     "code": "DİH1.2",
+     "order": 2,
+     "text": "Tarihsel süreçte insan hak ve özgürlüklerinde meydana gelen değişimin gerekçelerini sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Tarihsel süreçte insan hak ve özgürlüklerinde meydana gelen değişimin gerekçelerine ilişkin merak ettiği konuları belirler."
+      },
+      {
+       "label": "b",
+       "text": "İlgili konular hakkında sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Farklı kaynaklar üzerinden konuya ilişkin bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Topladığı bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Topladığı bilgiler üzerinden tarihsel süreçte insan hak ve özgürlüklerinde meydana gelen değişimin gerekçelerine ilişkin çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "DİH1.3",
+     "order": 3,
+     "text": "Günümüz dünyasında vatandaşlık anlayışında meydana gelen değişimi neden ve sonuçlarıyla yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Günümüz dünyasında vatandaşlık anlayışında meydana gelen değişime neden olan unsurları inceler."
+      },
+      {
+       "label": "b",
+       "text": "Günümüz dünyasında vatandaşlık anlayışında meydana gelen değişimin etkilediği unsurları belirler."
+      },
+      {
+       "label": "c",
+       "text": "Günümüz dünyasında vatandaşlık anlayışında meydana gelen değişimin etkilerini sorgular."
+      },
+      {
+       "label": "ç",
+       "text": "Günümüz dünyasında vatandaşlık anlayışında meydana gelen değişimi neden ve sonuçlarını bağlamından kopmadan ifade eder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 2,
+   "kind": "ÜNİTE",
+   "title": "DEMOKRATİK KATILIM",
+   "description": "Bu ünitede öğrencilerin etkin vatandaşlık bilinci, toplumsal yaşamda karşılaşabileceği sorunlara çözüm önerileri geliştirme ve demokrasinin sürdürülebilirliğini destekleyen yöntemlerle ilgili gerekli bilgi, beceri ve değerleri kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 19,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB2. Kanıta Dayalı Sorgulama ve Araştırma, SBAB5. Sosyal Katılım Becerisi (SBAB5.5. Fikri Eyleme Dönüştürme), SBAB17. Tarihsel Sorun Analizi ve Karar Verme Becerisi (SBAB17.2. Tarihsel Soruna Alternatif Çözüm Üretme ve Değerlendirme)",
+    "KAVRAMSAL BECERİLER": "",
+    "EĞİLİMLER": "E2.1. Empati, E3.4. Gerçeği Arama, E3.6. Analitiklik, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.2. Esneklik, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D5. Duyarlılık, D6. Dürüstlük, D11. Özgürlük, D18. Temizlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB6. Vatandaşlık Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Tarih, Sosyoloji, Psikoloji, Felsefe, Coğrafya, Hukuk, Uluslararası İlişkiler, Siyaset ve Yönetim Bilimi BECERİLER ARASI",
+    "İLİŞKİLER": "KB3.2. Problem Çözme, SBAB5.3. Fikir Üretme DEMOKRASİ VE İNSAN HAKLARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE DİH2.1. Etkin vatandaşın özelliklerine yönelik oluşturduğu ürünleri paylaşabilme SÜREÇ BİLEŞENLERİ a) Etkin vatandaşın özelliklerine yönelik merak ettiği konu hakkında soru sorar. b) Etkin vatandaşın özelliklerine yönelik belirlediği kaynaklardan bilgi toplar. c) Etkin vatandaşın özelliklerine ilişkin belirlediği kaynakları inceler. ç) Etkin vatandaşın özelliklerine ilişkin kullanacağı kaynağı sorgular. d) Etkin vatandaşın özelliklerine ilişkin kaynaklardan araştırmasına uygun olarak belirlediği bilgileri yorumlar. e) Etkin vatandaşın özelliklerine ilişkin kanıtlara dayanarak oluşturduğu araştırmasını paylaşır. DİH2.2. Etkin vatandaş olarak toplumsal yaşamda karşılaşabileceği sorunların çözümüne yönelik fikirlerini eyleme dönüştürebilme a) Etkin vatandaş olarak toplumsal yaşamda karşılaşabileceği sorunların çözümüne yönelik plan yapar. b) Etkin vatandaş olarak toplumsal yaşamda karşılaşabileceği sorunların çözümüne yönelik planı uygular. c) Etkin vatandaş olarak toplumsal yaşamda karşılaşabileceği sorunların çözümüne yönelik planı değerlendirir. DİH2.3. Demokrasinin sürdürülebilirliğini sınırlayan bir soruna alternatif çözümler üretebilme a) Demokrasinin sürdürülebilirliğini sınırlayan bir sorunu belirleyerek çözümler. b) Demokrasinin sürdürülebilirliğini sınırlayan bir soruna karşı geliştirdiği alternatif önerilerin olası sonuçlarını dünyadaki antidemokratik uygulamalara yönelik alınan kararların sonuçlarıyla karşılaştırarak değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Etkin Vatandaşın Özellikleri Demokratik Süreçlere Katılım Demokrasinin Sürdürülebilirliği",
+    "Anahtar Kavramlar": "antidemokratik, demokratik, denetim, etkin vatandaş, hak arama, sosyal katılım, sürdürülebilirlik, yönetim DEMOKRASİ VE İNSAN HAKLARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME Bu ünitedeki öğrenme çıktıları, öğrenme günlüğü ve performans görevleri ile KANITLARI değerlendirilebilir. (Ölçme ve Performans görevi olarak öğrencilerden etkin vatandaşın özelliklerine ilişkin araştırma Değerlendirme) raporu hazırlamaları istenebilir. Hazırlanan araştırma raporu; çalışma planı hazırlama, kapsam, kaynak çeşitliliği ve güvenilirliği, kaynakları yorumlama, özgünlük, sunum yapma, grup iletişimi gibi ölçütler kullanılarak oluşturulan dereceli puanlama anahtarıyla değerlendirilebilir. Hazırlanan dereceli puanlama anahtarı grup değerlendirme formu olarak da kullanılabilir. Ayrıca araştırma süreci basamaklarını içeren kontrol listesi, öz değerlendirme formu olarak kullanılabilir. Öğrencilere etkin vatandaş olarak toplumsal yaşamda karşılaşabilecekleri bir soruna yönelik çözüm planı geliştirme, bu planı uygulama ve planın etkililiğini değerlendirme sürecini içeren bir sunum hazırlamalarına ve çalışmalarını sunmalarına yönelik performans görevi verilebilir. Sunum, sorunun tanımlanması, çözüm planı hazırlama, etkinliklerin niteliği, hak arama yollarını kullanma, planın etkililiğinin değerlendirilmesi vb. ölçütlerden oluşan dereceli puanlama anahtarı ile öğretmen ve akranlar tarafından değerlendirilebilir. Ayrıca öğrenciler bu süreçteki deneyimlerini ve öğrenmelerini değerlendirmek amacıyla öğrenme günlüğü kullanabilir. Öğrencilere demokrasinin sürdürülebilirliğini sınırlayan antidemokratik uygulamalarla ilgili sorunlara ilişkin çözüm önerilerini içeren bilgi-görseli hazırlama ve sunmaya yönelik performans görevi verilebilir. Hazırlanan infografik ve sunum ; sorunu tanımlama, farklı bakış açılarını analiz etme, alternatif çözüm önerileri, sonuçları değerlendirme vb. ölçütlerden oluşan dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin etkin vatandaşlığın hak ve sorumluluklar içerdiğini, demokratik katılımın önemi ve topluma katkıda bulunmanın gerekliliğini bildikleri kabul edilmektedir. Ön Değerlendirme Süreci Ünite kapsamında öğrencilere aşağıdaki rehber sorular sorulabilir. • Etkin vatandaşın hak ve sorumlulukları neler olabilir? • Demokratik katılıma günlük yaşamdan ne gibi örnekler verilebilir? • Demokratik bir vatandaş olarak topluma katkıda bulunmanın gereklilikleri nelerdir? Ünite kapsamında öğrencilerle aşağıdaki etkinlikler yapılabilir. • Etkin vatandaşın özelliklerini değerlendirmeleri için cümle tamamlama testi yapmaları istenebilir. • Etkin vatandaş olarak toplumsal yaşamda karşılaşabileceği sorunlarla ilgili kavramlara ilişkin kelime bulutu hazırlamaları istenebilir. • Gazete manşetlerinden dünyanın farklı yerlerindeki antidemokratik uygulamalarla ilgili bir kolaj hazırlamaları istenebilir. Köprü Kurma Öğrencilerden farklı vatandaşlık tutum ve davranışlarını içeren uygulamalardan hareketle bireylerin adalet, sorumluluk ve toplumsal kurallara uyma konusundaki yaklaşımlarını karşılaştırmaları ve bu yaklaşımların toplumsal sonuçlarını tartışmaları istenebilir. Dijital hak ihlallerine ilişkin güncel örnekler verilerek bu ihlallerin bireysel etkilerini ve toplumsal sonuçlarını değerlendirmeleri istenebilir. Gaius Julius Caesar’ın (Gayus Jül Sezar) “Rubicon’u (Rubikon) geçmek” sözünden hareketle demokrasinin korunması ile ilgili örnekler vermeleri istenebilir. DEMOKRASİ VE İNSAN HAKLARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları DİH2.1 Grup çalışması yoluyla etkin vatandaşın özelliklerine yönelik araştırma başlatılır (SDB2.2). Araştırmanın bilgi toplama süreci dışında kalan diğer aşamaları grup çalışmalarına yönelik geri bildirimler verilerek öğretmen rehberliğinde sınıf içinde gerçekleştirilir. Öğrencilere araştırma sürecinin aşamalarını içeren kontrol listesi verilir. Kontrol listesi aracılığıyla öğrencilerin araştırma sürecinin basamaklarını takip etmeleri ve denetlemeleri sağlanır (SDB1.2). Öğrencilerden etkin vatandaşın özelliklerine yönelik merak ettikleri bir konuyu belirlemeleri ve bir araştırma sorusu oluşturmaları istenir. Her gruptan belirlediği konuyla ilgili farklı kaynaklardan bilgi toplamaları istenir (OB1). Bilgi toplama, kaynak inceleme ve kaynakları sorgulama süreçleri adımlar hâlinde yönergelerle işletilir. Gruplar araştıracakları konuyla ilgili hangi kaynakları kullanacaklarını, bu kaynaklara nerede ve nasıl ulaşacaklarını öğretmen rehberliğinde belirler. Basılı ve dijital kaynaklardan araştırma konusuyla ilgili bilgi toplar. Araştırması için kaynaklara uygun sorular sorarak kaynağın türü, yazarı, tarihi, dijital kimliği, genel ağdaki uzantısı gibi temel unsurları belirler (OB2, E3.7). Topladığı bilgileri ilgili ve ilgisiz olarak ayrıştırdıktan sonra araştırma konusuna uygun olanları tespit eder. Bu süreçte dijital ağ kaynaklarından bilgi kullanırken dijital kimliği veya kaynağın uzantısının güvenilirliğini dikkate alır. Bu süreçte kaynakları karşılaştırabilir. Aynı konuyla ilgili kaynaklardaki farklı görüşleri belirler (E3.4). Kaynaklarda yer alan olgu ve görüşleri ayırt eder. Kaynaklardaki bilgilerin güncel bilgileri içerip içermediğini sorgular. Sorgulamalar sonucunda topladığı bilgilerin araştırma konusu için yeterliliğine yönelik çıkarımda bulunur. Öğrencilerden kullandığı kaynakların yaptığı araştırmaya katkısını değerlendirmek amacıyla tarihsel kaynak/kanıt analiz formunu doldurmaları istenir. Öğrenciler araştırmasında kullanacağı bilgileri ana fikir, şahıslar, eserler, mekânlar ve kurumlar bağlamında belirler. Ulaştığı bilgilerden hareketle gruplar kendi görüşlerini yansıtan yorumlarını oluşturur. Demokratik katılım, insan hak ve özgürlükleri, sosyal sorumluluk, çevre bilinci ve sürdürülebilirlik alanlarındaki faaliyetlerden yola çıkarak etkin vatandaşın özelliklerine yönelik çıkarım yapar (SDB3.3, OB6). Örnek olaylardan hareketle etkin vatandaşın yaşadığı çevrenin sürdürülebilirliğine katkılarını tartışır (D18.3). Performans görevi olarak gruplar yaptıkları araştırmaları zamanında ve eksiksiz biçimde rapora dönüştürür. Öğrenciler araştırmacı ve sorgulayıcı bir yaklaşımla araştırma raporunu hazırlarken uygun başlıklar bulur, hazırladığı görselleri metnin içeriğine uygun biçimde kullanır, kaynaklara metin içinde atıf yapar ve bunları kaynakçada gösterir. Gruplar araştırma raporlarını sınıf içinde; panel, seminer, bilim şöleni ve proje fuarlarında ya da dijital ortamlarda sunarak paylaşır. DİH2.2 Öğrencilerin gruplar oluşturarak çocuk, kadın ve yaşlılar ile özel gereksinimli bireyler odağında yaşanan hak ihlalle­rine yönelik çözüm planı hazırlamaları sağlanır (E2.1, SDB2.2). Öğrenciler ifade edilen grupların yaşadıkları, toplumda etkisini doğrudan gözlemledikleri veya küresel ölçekte önem taşıyan bir toplumsal sorunu belirler. Belirlenen sorunun anayasada yer alan hangi hak veya haklarla ilişkili olduğunu, kimlerin bu sorundan nasıl etkilendiğini tespit eder (SDB2.3). Sorunların çözümüne ilişkin mevcut durumun geliştirilmesi gereken yönlerini analiz eder. Öğrenciler mahkemeye başvuru, Türkiye İnsan Hakları ve Eşitlik Kurumu (TİHEK), Kamu Denetçiliği Kurumu (Ombudsmanlık), dilekçe hakkı gibi hak arama yollarını kullanarak olası çözüm önerileri geliştirir (SBAB5.3). Geliştirdikleri çözüm önerilerinin çocuk, kadın, yaşlı veya özel gereksinimli bireylerin toplumsal yaşama etkin katılımını destekleme açısından önemini açıklar (OB6, D5.1). Belirledikleri sorunun çözümüne yönelik etkinlik planı hazırlar. Hazırladıkları planı öğretmen dönütleri doğrultusunda nihai hâle getirir. Plana bağlı olarak farkındalık etkinliklerini geliştirir ve sınıf içinde, çevrim içi ortamlarda veya okulda uygular. Uygulama süreci boyunca öğrenme sürecine ilişkin deneyimlerini, gözlemlerini, duygu ve düşüncelerini yansıttığı bir öğrenme günlüğü tutar (D6.2). Performans görevi olarak grup çalışması yoluyla hazırladıkları planı, uygulama sürecini ve etkinliklerin etkilerini değerlendirdikleri bir sunum hazırlayarak sınıf ortamında paylaşır (SDB2.1). DEMOKRASİ VE İNSAN HAKLARI DERSİ ÖĞRETİM PROGRAMI DİH2.3 Öğrencilerin Türkiye’den 1960 ve 1980 darbeleri ile 15 Temmuz darbe girişimi; dünyadan 2002 Venezuela, 1976 Arjantin, 1973 Şili, 1974 Yunanistan darbelerinden birini ve antidemokratik uygulamalar üzerinden demokrasinin sürdürülebilirliğini sınırlayan bir sorunu seçerek tanımlamaları sağlanır. Öğrenciler; yazılı, görsel, basılı ve dijital kaynaklar üzerinden araştırma yaparak belirledikleri soruna ilişkin farklı bakış açılarını analiz eder (OB.1, E3.6). Hak ve özgürlüklerini kullanırken diğer insanların ve toplumların haklarını gözetmenin gerekliliğini açıklar (D11.3). Sorunun çözümü için yapılan uygulamaları ve alınan kararları değerlendirerek bunların güncel sorunların meydana gelmesine etkilerini ifade eder. Sorunu çözmeye yönelik alternatif öneriler üretir (SDB3.2). Bu önerilerin olası sonuçlarını Türkiye’deki ve dünyadaki darbe örneklerinin yanı sıra dünyadaki antidemokratik uygulamalara yönelik alınan kararların sonuçlarıyla karşılaştırarak demokrasinin uygulanması sırasında ortaya çıkan sorunları değerlendirir. Performans görevi olarak öğrencilerden yaptıkları çıkarımlar doğrultusunda bilgi görseli hazırlamaları ve çalışmalarını sunmaları istenir (SDB2.1, SDB3.3, KB3.2).",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden “Etkin vatandaş su krizine yönelik neler yapabilir?” sorusuna odaklanan bir farkındalık kampanyası için kısa video hazırlamaları istenebilir. İbni Haldun, Jean-Jacques Rousseau (Jan Jak Ruso) veya Ziya Gökalp’tan birini seçerek bu düşünürlerin vatandaşın sorumluluğu ile sorumluluğun etik boyutu konusundaki görüşlerini araştırmaları ve kendi yorumlarını da içeren bir sunum yapmaları istenebilir. Geçmişten günümüze sivil hak hareketlerinin gelişiminin vatandaş olma bilincini nasıl etkileyip şekillendirdiğini araştırmaları ve çalışmalarını makale formatında sunmaları istenebilir. Çeşitli ülkelerdeki etkin vatandaşlık algılarını araştırmaları ve bu konuda saptadıkları farklılık ve benzerlikleri kendi yorumlarını da içeren bir çıkarımla raporlaştırmaları istenebilir. Destekleme Öğrencilerden öğretmenin sunduğu görsel örnekler (yardım eden çocuk, çevreyi temizleyen birey, oy kullanan insan vb.) üzerinden “etkin vatandaş” davranışları ile ilgili açıklamalı kartlar oluşturmaları istenebilir. Öğretmen ya da arkadaşlarının yardımıyla demokratik uygulamalarla ilgili sınıf panosu hazırlamaları istenebilir. Demokrasinin sürdürülebilirliğine yönelik bir slogan bulmaları ve neden bu sloganı bulduklarını açıklamaları istenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz."
+   },
+   "outcomes": [
+    {
+     "code": "DİH2.1",
+     "order": 1,
+     "text": "Etkin vatandaşın özelliklerine yönelik oluşturduğu ürünleri paylaşabilme SÜREÇ BİLEŞENLERİ a) Etkin vatandaşın özelliklerine yönelik merak ettiği konu hakkında soru sorar.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Etkin vatandaşın özelliklerine yönelik belirlediği kaynaklardan bilgi toplar."
+      },
+      {
+       "label": "c",
+       "text": "Etkin vatandaşın özelliklerine ilişkin belirlediği kaynakları inceler."
+      },
+      {
+       "label": "ç",
+       "text": "Etkin vatandaşın özelliklerine ilişkin kullanacağı kaynağı sorgular."
+      },
+      {
+       "label": "d",
+       "text": "Etkin vatandaşın özelliklerine ilişkin kaynaklardan araştırmasına uygun olarak belirlediği bilgileri yorumlar."
+      },
+      {
+       "label": "e",
+       "text": "Etkin vatandaşın özelliklerine ilişkin kanıtlara dayanarak oluşturduğu araştırmasını paylaşır."
+      }
+     ]
+    },
+    {
+     "code": "DİH2.2",
+     "order": 2,
+     "text": "Etkin vatandaş olarak toplumsal yaşamda karşılaşabileceği sorunların çözümüne yönelik fikirlerini eyleme dönüştürebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Etkin vatandaş olarak toplumsal yaşamda karşılaşabileceği sorunların çözümüne yönelik plan yapar."
+      },
+      {
+       "label": "b",
+       "text": "Etkin vatandaş olarak toplumsal yaşamda karşılaşabileceği sorunların çözümüne yönelik planı uygular."
+      },
+      {
+       "label": "c",
+       "text": "Etkin vatandaş olarak toplumsal yaşamda karşılaşabileceği sorunların çözümüne yönelik planı değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "DİH2.3",
+     "order": 3,
+     "text": "Demokrasinin sürdürülebilirliğini sınırlayan bir soruna alternatif çözümler üretebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Demokrasinin sürdürülebilirliğini sınırlayan bir sorunu belirleyerek çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Demokrasinin sürdürülebilirliğini sınırlayan bir soruna karşı geliştirdiği alternatif önerilerin olası sonuçlarını dünyadaki antidemokratik uygulamalara yönelik alınan kararların sonuçlarıyla karşılaştırarak değerlendirir."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "unassigned_outcomes": [],
+ "report": {
+  "units": 3,
+  "outcomes": 7,
+  "components": 23,
+  "orphan_outcomes": 0,
+  "gaps": []
+ }
+}

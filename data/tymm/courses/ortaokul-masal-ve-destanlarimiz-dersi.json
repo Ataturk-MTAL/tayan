@@ -1,0 +1,1171 @@
+{
+ "course": {
+  "id": 77,
+  "name": "Masal ve Destanlarımız Dersi",
+  "slug": "ortaokul-masal-ve-destanlarimiz-dersi",
+  "prefix": "MD",
+  "shapes": [
+   "MD/noktalı-4"
+  ],
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/masal-ve-destanlarimiz-dersi_20260819_072649_012.pdf"
+ },
+ "units": [
+  {
+   "grade": 1,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "Masallar I",
+   "description": "Bu tema, öğrencilerin \"masal\" kavramına ilişkin olarak günlük yaşamlarında karşılaştıkları olay ve durumlarla masal unsurları arasında ilişki kurmalarını böylece masalların kurmaca yapısı ile gerçek yaşam arasındaki etkileşimi geliştirmelerini hedeflemektedir.",
+   "lesson_hours": 26,
+   "sections": {
+    "ALAN BECERİLERİ": "Anlama TAB2. Okuma Anlatma TAB3. Konuşma, TAB4. Yazma KAVRAMSAL KB2.4. Çözümleme, KB2.6. Bilgi Toplama, KB2.11. Gözleme Dayalı Tahmin Etme BECERİLER",
+    "EĞİLİMLER": "E1.1. Merak, E1.2. Bağımsızlık, E1.3. Azim ve Kararlılık, E1.6. Seçicilik, E2.2. Sorumluluk, E2.3. Girişkenlik, E3.1. Muhakeme, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.4. Gerçeği Arama",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB3.1. Uyum Öğrenme Becerileri",
+    "Değerler": "D7. Estetik, D11. Özgürlük, D16. Sorumluluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı DİSİPLİNLER ARASI Türkçe, Sosyal Bilgiler, Müzik, Görsel Sanatlar, Medya Okuryazarlığı",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.17. Değerlendirme ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "MD.1.1.1. Masal türü hakkında anlam oluşturabilme a) Masalın, yazarı bilinmeyen bir tür olduğu hususunda ön bilgileri ile bağlantı kurar. b) Masalın olağanüstü ögeler, bir öğüt, kalıplaşmış sözcük ve söz grupları içerdiğini tahmin eder. c) Masalda zaman ve yerin belirsiz olduğu hakkında çıkarım yapar. ç) Masallarda bulunan tezatlıkları karşılaştırır. d) Masaldaki kişi ve varlık ögelerini özelliklerine göre sınıflandırır. e) Edindiği bilgilere göre masalla ilgili tepki verir. MD.1.1.2. Masal metninde verilenler hakkında gözleme dayalı tahmin edebilme a) Masalın başlık ve görsellerinden hareketle yaptığı tahminlerini içerik ile ilişkilendirir. b) Masalın başlığı ve görsellerine ilişkin çıkarım yapar. c) Masalın verilen bölümünden yararlanarak öncesi veya sonrası hakkında yargıda bulunur. MD.1.1.3. Masalın yapı unsurlarını çözümleyebilme a) Masalın yapı unsurları ve bölümlerine ilişkin parçaları belirler. b) Masalın yapı unsurları ve bölümlerine ilişkin parçalar arasındaki ilişkileri belirler. MD.1.1.4. Masalın vermek istediği ileti ile ilgili anlam oluşturabilme a) Masalın konusunu bulmak için ön bilgilerle bağlantı kurar. b) Masaldaki ana fikri ve yardımcı düşünceleri tahmin eder. c) Masalda yer alan değerler ile ilgili çıkarım yapar. ç) Masaldaki değerler ile günlük yaşantısındaki deneyimlerini karşılaştırır. d) Masaldaki örtük iletileri sınıflandırır. e) Masalda verilmek istenen iletilere tepki verir. MD.1.1.5. Masallar hakkında araştırma yaparak bilgi toplayabilme a) Yöresindeki masallar hakkında araştırma yaparken kullanacağı araçları belirler. b) Belirlediği aracı kullanarak yöresine ait masallar hakkındaki bilgileri bulur. c) Yöresindeki masallara dair ulaşılan bilgileri doğrular. ç) Ulaşıp doğruladığı bilgilerden yola çıkarak yöresindeki masallardan birini kaydeder. MD.1.1.6. Araştırdığı masalı sunmada kural uygulayabilme a) Araştırdığı masalın sunumu ile ilgili plan hazırlar. b) Araştırdığı masalı sunarken düşünceyi geliştirme yollarını kullanır. c) Araştırdığı masalı sunarken içeriğe uygun söz varlığını kullanır. ç) Araştırdığı masalı sunarken iletileri açık ve örtük biçimde ifade eder. d) Araştırdığı masalı sunarken dil yapılarını uygular. e) Araştırdığı masalı sunarken bağdaşıklık ögelerini kullanır. f) Araştırdığı masalı sunarken beden dilini ve mekânı etkili bir şekilde kullanır. g) İçeriğe uygun oluşturduğu masalı sunar. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI MD.1.1.7. Masalın özelliklerine uygun içerik oluşturabilme a) Masalında vereceği iletiyi ve kullanacağı değerleri ifade ederken ön bilgileriyle bağlantı kurar. b) Masalında kullanacağı yer ve zaman ögelerini, kişi ve varlık kadrosunu, kurgulayacağı olay örgüsünü, olağanüstü ögeleri, sözcükleri ve söz gruplarını tahmin eder. c) Masalında işleyeceği tezatlıkları karşılaştırır. ç) Masalında döşeme, serim, düğüm, çözüm ve dilek bölümlerini sınıflandırır. d) Masalında kullanacağı yer ve zaman ögelerini, kişi ve varlık kadrosunu, kurgulayacağı olay örgüsünü, olağanüstü ögeleri, tezatlıkları, sözcükleri ve söz gruplarını yeniden ifade eder. e) Masalının içeriğine uygun yazarak tepki verir. f) Yazdığı masalın içeriğine uygun görselle anlam oluşturur.",
+    "İÇERİK ÇERÇEVESİ": "Masal Türünün Özellikleri Masalda Tahmin ve Anlam Kurma Masalın Yapı Unsurları ve İletileri Masallarda Değerler ve Kültürel Aktarım Masalların Araştırılması ve Kayda Geçirilmesi Masal Oluşturma ve Sunma",
+    "Anahtar Kavramlar": "anlatı, anonimlik, değer, hayal gücü, ileti, kahraman, karşıtlık, masal, olağanüstülük, olay örgüsü, sözlü kültür, yapı unsuru ÖĞRENME Bu temada yer alan öğrenme çıktıları: açık uçlu sorular, kısa cevaplı sorular, tartışma etKANITLARI kinlikleri, beyin fırtınası, zihin haritaları, örnek olay inceleme, grup çalışmaları, rol oynama, (Ölçme ve dramatizasyon, vızıltı tekniği, kontrol listeleri, gözlem formları, performans görevleri, deDeğerlendirme) receli puanlama anahtarları, sunum değerlendirme formları, akran değerlendirme formları ve öz değerlendirme formları kullanılarak değerlendirilebilir. Performans görevlerinde ana fikir, kahraman, olay örgüsü olmayan afiş veya dijital posterin eksiklikleri belirtilerek öğrencinin tekrar yapması sağlanabilir. Per­formans görevi şu araçlarla değerlendirilebilir: dereceli puanlama anahtarı, kontrol listesi, gözlem formu, portfolyo değerlendirme formu, dijital ürün değerlendirme rubriği. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin metin türlerini ve kurmaca metinleri bildikleri ve daha önce masal okudukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerden \"masal\" kavramına ilişkin çağrışımlarını ortaya koyacak kelime bulutları hazırlamaları veya kelime ilişkilendirme çalışması yapmaları istenebilir. Bu etkinlikler aracılığıyla öğrencilerin masalların temel özellikleri, kahramanları ve kültürel yönlerine ilişkin ön bilgileri ile temel kabulleri belirlenebilir. Öğrencilerden daha önce dinledikleri ya da okudukları masallardan hareketle gerçek yaşamla ilişkilendirilebilecek olay ve durumlara örnek vermeleri beklenebilir. Böylece öğrencilerin masalların yaşamla ilişkisine yönelik düşünceleri ve konuya ilişkin farkındalık düzeyleri gözlemlenebilir. Sınıfta masallarda öne çıkan iyilik-kötülük, adalet, yardımlaşma ve kahramanlık gibi temalar üzerine soru-cevap veya beyin fırtınası etkinlikleri gerçekleştirilebilir. Öğrencilerin bu temaların toplumsal yaşam açısından önemine ilişkin görüşlerini açıklamaları sağlanarak konuya yönelik temel kabulleri sorgulanabilir. Öğretmen tarafından gösterilen bir masal görseli ya da kısa video kesiti üzerinden olay örgüsü, kişiler ve iletiler hakkında kısa tartışmalar yürütülebilir. Bu süreçte öğrencilerin masal türüne ilişkin ön bilgileri, ilgi düzeyleri ve hazır bulunuşlukları somut biçimde ortaya çıkarılabilir. Köprü Kurma Öğrencilerin daha önce okudukları masallara ilişkin bilgileriyle yeni öğrenmeleri arasında anlamlı bağlar kurmaları sağlanabilir. Öğretmen; geçmişte tanıdıkları masal kişileri, olay örgüleri ve temalar üzerinden öğrencileri yönlendirebilir. Örneğin öğrenciler daha önce dinledikleri bir masaldaki \"iyilik\" temasını işlenişi bakımından yeni bir masalda karşılaştırabilir. Masalın başlangıç kalıpları, kahraman tipleri veya olay örgüsü örnekleri hatırlatılarak yeni masal yazım sürecine geçiş yapılabilir. Öğrenciler; eski bir masalı farklı bir bakış açısıyla yeniden yazabilir, kişileri değiştirebilir veya sonunu güncel bir temayla ilişkilendirebilir. Bu etkinlikle öğrencilerin önceki bilgile­ rini kullanarak yeni öğrenmeleri yapılandırmaları ve masal türünü daha derin kavrama­ları sağlanabilir. Öğrenme-Öğretme Uygulamaları MD.1.1.1 Öğrenciden daha önce dinlediği veya okuduğu masalları hatırlaması ve bu masalların ortak özellikleri üzerine düşünmesi istenir. Öğrenciden okuduğu masalların yazarının olup olmadığını tartışması ve masalın yazarı bilinmeyen bir tür olduğuna ilişkin ön bilgileriyle bağlantı kurması sağlanır (E1.1, OB1). Masalda gerçekleşen olayların ve masal kişilerinin yaptıklarının gerçek hayatta yapılıp yapılamayacağını tartışması, masalın olağanüstü ögeler içerdiğini tahmin etmesi desteklenir. Masalın kalıplaşmış sözcük ve söz grupları ile bir öğüt içerdiğine dair tahminlerde bulunması beklenir. Masal işlendikten sonra masalda zaman ve yerin belirsiz olduğuna ilişkin çıkarım yapması, masallardaki tezatlıkları karşılaştırması sağlanır (E3.4). Masaldaki kişi ve varlık ögelerini özelliklerine göre sınıflandırması beklenir. Edindiği bilgilerden hareketle masal türünü tanıyarak masalla ilgili tepki vermesi ve bu bilgiler doğrultusunda masalın tanımını yapması istenir (OB1). Yapılan çalışmalar aracılığıyla öğrencinin masalların sözlü kültürün önemli bir parçası olduğunu fark etmesi ve millî kültüre yönelik duyarlılık geliştirmesi desteklenir (D19.1). ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI MD.1.1.2 Öğrencinin ders kitabında karşılaştığı masalın başlığı ve görsellerinden hareketle masalın içeriği hakkında tahminlerde bulunması, yaptığı tahminleri içerikle ilişkilendirmesi ve başlık ile görsellere ilişkin çıkarım yapması beklenir (E3.1, OB4). Masalın verilen bölümünden hareketle öncesi veya sonrası hakkında yargıda bulunması sağlanır (E3.1). MD.1.1.3 Masalın sesli ve sessiz okunması tamamlandıktan sonra masalın döşeme, serim, düğüm, çözüm ve dilek bölümlerinden oluştuğu üzerinde durulur (E3.1). Masalın yapı unsurlarından olan yer ve zamanı, kişi ve varlık ögelerini, onların özelliklerini, masalda geçen olay örgüsüne ve bölümlerine ilişkin parçaları, bu parçalar arasındaki ilişkiyi belirlemesi istenir. MD.1.1.4 Masalın konusunu bulurken ön bilgileriyle bağlantı kurması, ana fikrini ve yardımcı düşüncelerini tahmin etmesi istenir (E2.2, E3.4). Bu tahminlerden sonra masalda yer alan değerler ile ilgili çıkarım yapması ve bu değerleri günlük yaşantısındaki deneyimleriyle karşılaştırması sağlanır (E3.2, E3.4, SDB3.1). Öğrencinin masaldaki örtük iletileri sınıflandırması sağlanır. Yapılan çalışmalar aracılığıyla öğrencinin görev bilinci doğrultusunda öz disiplinli ve sorumluluk sahibi davranışlar göstermesi desteklenir (E2.2, E3.1, D16.3). Edindiği bilgilere göre verilmek istenen iletilere dair tepki vermesi beklenir. MD.1.1.5 Öğrencinin yöresindeki masalları araştırması istenir. Araştırma sürecinde aile büyüklerinin sözlü anlatımlarından da yararlanması teşvik edilir. Bu araştırması sırasında öğrencinin \"Okul Dışı Öğrenme Platformu\"na (okuldisiogrenme.eba.gov.tr) yönlendirilmesi sağlanabilir (E1.3, E2.2, OB5). Bu araştırmayı yaparken kullanacağı araçları belirlemesi, bu araçları kullanarak yöresine ait masallar hakkında bilgi toplaması, bu masallara dair ulaşılan bilgileri doğrulaması ve doğruladığı bilgilerden hareketle bu masallardan birini yazıya aktararak kaydetmesi istenir (E1.6, E2.2, OB5). Yapılan çalışmalar aracılığıyla öğrencinin yöresine ait masalları kültürel mirasın bir parçası olarak değerlendirmesi ve millî kültüre yönelik duyarlılık geliştirmesi desteklenir (D19.1). MD.1.1.6 Araştırdığı masalla ilgili plan yapması ve sunumu için hazırlığını tamamlaması beklenir. Öğrencinin araştırma sürecinde yazdığı masalın sunumunda tanımlama, örnekleme, karşılaştırma, benzetme, tanık gösterme ve sayısal verilerden yararlanma gibi düşünceyi geliştirme yollarını kullanması beklenir. Araştırdığı masalı sunarken uygun söz varlığını kullanarak iletileri açık ve örtük biçimde ifade etmesi sağlanır. Sunum sırasında dil yapılarını doğru ve etkili biçimde kullanması, anlatımında bağdaşıklık ögelerine dikkat etmesi sağlanır. Masalın sunumunda ses özelliklerini (vurgu, tonlama), beden dilini ve mekânı etkili bir şekilde kullanması sağlanır. Yapılan çalışmalar aracılığıyla öğrencinin estetik değere yönelik duyarlılık geliştirmesi, üretkenliğini ortaya koyması, duygu dünyasını estetik yollarla ifade etmesi ve ruhsal gelişimini destekleyen farkındalıklar kazanması teşvik edilir (E2.3, SDB2.1, D7.2). Araştırdığı masalı hazırladığı sunum planı doğrultusunda içeriğine uygun biçimde sunması sağlanır (D16.3). Araştırdığı masalla ilgili dinleyicilerin/izleyicilerin sorularını cevaplaması ve sunumunu kendi belirlediği veya belirlenen ölçütlerle değerlendirmesi istenir. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI MD.1.1.7 Yazacağı masalda içerik oluştururken vereceği iletiyi, kullanacağı değerleri ifade ederken ön bilgileriyle bağlantı kurması sağlanır. Masalında kurgulayacağı olay örgüsünü, kişi ve varlık kadrosunu, yer ve zaman ögelerini, olağanüstü ögeleri, sözcükleri ve söz gruplarını tahmin etmesi, tezatlıkları karşılaştırması ve bunları yeniden ifade etmesi sağlanır. Bu süreçte öğrencinin özgür düşünerek karar verebilmesi, seçimlerini bağımsız biçimde oluşturabilmesi ve tercihlerini kararlılıkla ortaya koyması desteklenir (E1.2, E3.3, D11.2). Öğrenciden masalında döşeme, serim, düğüm, çözüm ve dilek bölümlerini sınıflandırması istenir (E3.2). Öğrenciden oluşturduğu içeriğe uygun bir şekilde masalını yazması istenir (E3.3). Öğrencinin masalına uygun görsellerle masalını desteklemesi beklenir (OB4). Yapılan çalışmalar aracılığıyla öğrencinin görsel düzen ile içerik arasındaki uyumu gözetmesi, estetik değere yönelik duyarlılık geliştirmesi teşvik edilir (D7.2). Öğrencinin oluşturduğu masalla ilgili plan yapması ve sunumu için hazırlıklarını tamamlayıp masalını sunması beklenir. Öğrenciden masalını tamamladıktan sonra ses özelliklerine (vurgu, tonlama) ve beden diline dikkat etmesi, görsel vb. kullanarak masalını sunması istenir (E1.2, E2.2, SDB1.3, SDB2.1). Yapılan çalışmalar aracılığıyla öğrencinin oluşturduğu masalda millî kültürü yansıtan ögelere yer vermesinin önemi üzerinde durularak millî kültüre yönelik duyarlılık geliştirmesi desteklenir (D19.1).",
+    "FARKLILAŞTIRMA": "Zenginleştirme Basit yapıdaki masallarda olay, kişi ve temel mesajı belirlemeye yönelik çözümleme çalışmaları yaptırılabilir. Günlük yaşamdan hareketle kısa ve özgün masallar oluşturmaları istenebilir. Masalları resim, afiş veya basit dijital hikâyeye dönüştürmeleri sağlanabilir. Masal kişilerine yeni özellikler kazandırarak alternatif durumlar oluşturmaları desteklenebilir. Yerel masalları aile büyüklerinden dinlemeleri, aile büyükleriyle bu masallar üzerine görüş alışverişinde bulunmaları, edindikleri bilgileri sınıfta paylaşmaları istenebilir. Masallardan hareketle kısa drama çalışmaları yaptırılabilir. Sınıf içinde oluşturulacak \"masal köşesi\"nde öğrenci ürünleri sergilenebilir. Bu etkinlikler aracılığıyla öğrencinin masal türünü tanıması, hayal gücünü kullanması ve temel anlatı unsurlarına yönelik farkındalık geliştirmesi sağlanabilir. Destekleme Kısa ve sadeleştirilmiş masal metinleriyle okuma çalışmaları yaptırılabilir. Görseller ve hikâye sıralama kartlarından yararlanılarak olay akışı oluşturmaları sağlanabilir. Yarım bırakılmış masalları yönlendirmeler doğrultusunda tamamlamaları istenebilir. Kişi, yer ve olayları eşleştirmeye yönelik etkinlikler uygulanabilir. Dinleme temelli masal anlatımları ve basit sorular aracılığıyla anlama çalışmaları yapılabilir. Kukla, drama ve oyunlardan yararlanılarak masalın somutlaştırılması sağlanabilir. Kelime havuzları ve görsel ipuçları kullanılarak kısa cümleler kurmaları desteklenebilir. Öğretmen rehberliğinde birlikte masal oluşturma çalışmaları gerçekleştirilebilir. Bu süreçte öğretmen, öğrencinin etkinliklere aktif katılım göstermesini sağlayacak biçimde aşamalı ve destekleyici öğrenme yaşantıları planlayabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI 2.2. Doğal Destanlar Teması Seviyelerine Ait Beceriler (I)"
+   },
+   "outcomes": [
+    {
+     "code": "MD.1.1.1",
+     "order": 1,
+     "text": "Masal türü hakkında anlam oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Masalın, yazarı bilinmeyen bir tür olduğu hususunda ön bilgileri ile bağlantı kurar."
+      },
+      {
+       "label": "b",
+       "text": "Masalın olağanüstü ögeler, bir öğüt, kalıplaşmış sözcük ve söz grupları içerdiğini tahmin eder."
+      },
+      {
+       "label": "c",
+       "text": "Masalda zaman ve yerin belirsiz olduğu hakkında çıkarım yapar."
+      },
+      {
+       "label": "ç",
+       "text": "Masallarda bulunan tezatlıkları karşılaştırır."
+      },
+      {
+       "label": "d",
+       "text": "Masaldaki kişi ve varlık ögelerini özelliklerine göre sınıflandırır."
+      },
+      {
+       "label": "e",
+       "text": "Edindiği bilgilere göre masalla ilgili tepki verir."
+      }
+     ]
+    },
+    {
+     "code": "MD.1.1.2",
+     "order": 2,
+     "text": "Masal metninde verilenler hakkında gözleme dayalı tahmin edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Masalın başlık ve görsellerinden hareketle yaptığı tahminlerini içerik ile ilişkilendirir."
+      },
+      {
+       "label": "b",
+       "text": "Masalın başlığı ve görsellerine ilişkin çıkarım yapar."
+      },
+      {
+       "label": "c",
+       "text": "Masalın verilen bölümünden yararlanarak öncesi veya sonrası hakkında yargıda bulunur."
+      }
+     ]
+    },
+    {
+     "code": "MD.1.1.3",
+     "order": 3,
+     "text": "Masalın yapı unsurlarını çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Masalın yapı unsurları ve bölümlerine ilişkin parçaları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Masalın yapı unsurları ve bölümlerine ilişkin parçalar arasındaki ilişkileri belirler."
+      }
+     ]
+    },
+    {
+     "code": "MD.1.1.4",
+     "order": 4,
+     "text": "Masalın vermek istediği ileti ile ilgili anlam oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Masalın konusunu bulmak için ön bilgilerle bağlantı kurar."
+      },
+      {
+       "label": "b",
+       "text": "Masaldaki ana fikri ve yardımcı düşünceleri tahmin eder."
+      },
+      {
+       "label": "c",
+       "text": "Masalda yer alan değerler ile ilgili çıkarım yapar."
+      },
+      {
+       "label": "ç",
+       "text": "Masaldaki değerler ile günlük yaşantısındaki deneyimlerini karşılaştırır."
+      },
+      {
+       "label": "d",
+       "text": "Masaldaki örtük iletileri sınıflandırır."
+      },
+      {
+       "label": "e",
+       "text": "Masalda verilmek istenen iletilere tepki verir."
+      }
+     ]
+    },
+    {
+     "code": "MD.1.1.5",
+     "order": 5,
+     "text": "Masallar hakkında araştırma yaparak bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yöresindeki masallar hakkında araştırma yaparken kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği aracı kullanarak yöresine ait masallar hakkındaki bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Yöresindeki masallara dair ulaşılan bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Ulaşıp doğruladığı bilgilerden yola çıkarak yöresindeki masallardan birini kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "MD.1.1.6",
+     "order": 6,
+     "text": "Araştırdığı masalı sunmada kural uygulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Araştırdığı masalın sunumu ile ilgili plan hazırlar."
+      },
+      {
+       "label": "b",
+       "text": "Araştırdığı masalı sunarken düşünceyi geliştirme yollarını kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Araştırdığı masalı sunarken içeriğe uygun söz varlığını kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Araştırdığı masalı sunarken iletileri açık ve örtük biçimde ifade eder."
+      },
+      {
+       "label": "d",
+       "text": "Araştırdığı masalı sunarken dil yapılarını uygular."
+      },
+      {
+       "label": "e",
+       "text": "Araştırdığı masalı sunarken bağdaşıklık ögelerini kullanır."
+      },
+      {
+       "label": "f",
+       "text": "Araştırdığı masalı sunarken beden dilini ve mekânı etkili bir şekilde kullanır."
+      },
+      {
+       "label": "g",
+       "text": "İçeriğe uygun oluşturduğu masalı sunar. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI"
+      }
+     ]
+    },
+    {
+     "code": "MD.1.1.7",
+     "order": 7,
+     "text": "Masalın özelliklerine uygun içerik oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Masalında vereceği iletiyi ve kullanacağı değerleri ifade ederken ön bilgileriyle bağlantı kurar."
+      },
+      {
+       "label": "b",
+       "text": "Masalında kullanacağı yer ve zaman ögelerini, kişi ve varlık kadrosunu, kurgulayacağı olay örgüsünü, olağanüstü ögeleri, sözcükleri ve söz gruplarını tahmin eder."
+      },
+      {
+       "label": "c",
+       "text": "Masalında işleyeceği tezatlıkları karşılaştırır."
+      },
+      {
+       "label": "ç",
+       "text": "Masalında döşeme, serim, düğüm, çözüm ve dilek bölümlerini sınıflandırır."
+      },
+      {
+       "label": "d",
+       "text": "Masalında kullanacağı yer ve zaman ögelerini, kişi ve varlık kadrosunu, kurgulayacağı olay örgüsünü, olağanüstü ögeleri, tezatlıkları, sözcükleri ve söz gruplarını yeniden ifade eder."
+      },
+      {
+       "label": "e",
+       "text": "Masalının içeriğine uygun yazarak tepki verir."
+      },
+      {
+       "label": "f",
+       "text": "Yazdığı masalın içeriğine uygun görselle anlam oluşturur."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "Doğal Destanlar I",
+   "description": "Bu tema öğrencilerin destan türünün tanımını, oluşum sürecini, yapısal ve içerik özelliklerini kavramalarını; doğal ve yapma destan ayrımını, millî motifleri ve değerleri fark etmelerini amaçlamaktadır. Süreçte öğrencilerin metin çözümleme, kanıta dayalı yorum yapma, kültürel farkındalık geliştirme, araştırma–yazma–sunma becerileri ile sözlü ifade ve sunum yetkinliklerinin desteklenmesi hedeflenmektedir.",
+   "lesson_hours": 26,
+   "sections": {
+    "ALAN BECERİLERİ": "Anlama TAB2. Okuma Anlatma TAB3. Konuşma KAVRAMSAL KB2.4. Çözümleme, KB2.6. Bilgi Toplama, KB2.11. Gözleme Dayalı Tahmin Etme, BECERİLER KB2.13. Yapılandırma",
+    "EĞİLİMLER": "E1.1. Merak, E.1.6. Seçicilik, E2.2. Sorumluluk, E3.1. Muhakeme, E3.3. Yaratıcılık, E3.4. Gerçeği Arama",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği, Öğrenme Becerileri SDB2.3. Sosyal Farkındalık, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D7. Estetik, D11. Özgürlük, D16. Sorumluluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı DİSİPLİNLER ARASI Türkçe, Sosyal Bilgiler, Müzik, Görsel Sanatlar, Medya Okuryazarlığı",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.14. Yorumlama, KB2.17. Değerlendirme ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "MD.1.2.1. Destan türü hakkında anlam oluşturabilme a) Destanların sözlü kültür ürünü olduğuna dair ön bilgileri ile bağlantı kurar. b) Destan türünün millî özellikler taşıdığını, toplumu derinden etkileyen olayları içerdiğini, olağanüstülükler barındırdığını tahmin eder. c) Destanların oluşum aşamaları (ortaya çıkma, yayılma, derleme), bu türün coşkulu bir söyleyişi olduğu hakkında çıkarım yapar. ç) Destanlardaki motifleri karşılaştırır. d) Destanları doğal ve yapma destan olarak sınıflandırır. e) Edindiği bilgilere göre doğal destanla ilgili tepki verir. MD.1.2.2. Doğal destan hakkında gözleme dayalı tahmin edebilme a) Destanın başlık ve görsellerinden hareketle yaptığı tahminleri içerik ile ilişkilendirir. b) Destanın başlığı ve görsellerine ilişkin çıkarım yapar. c) Destanın verilen bölümünden yararlanarak öncesi veya sonrası hakkında yargıda bulunur. MD.1.2.3. Doğal destanın yapı unsurlarını çözümleyebilme a) Destanın yapı unsurları ve bölümlerine ilişkin parçaları belirler. b) Destanın yapı unsurları ve bölümlerine ilişkin parçalar arasındaki ilişkileri belirler. MD.1.2.4. Doğal destanın vermek istediği ileti ile ilgili anlam oluşturabilme a) Destanın konusunu bulmak için ön bilgilerle bağlantı kurar. b) Destandaki anlamını bilmediği sözcükleri, destanın ana fikrini/ana duygusunu ve yardımcı düşüncelerini tahmin eder. c) Destanda yer alan değerler ile ilgili çıkarım yapar. ç) Destandaki değerler ile günlük yaşantısındaki deneyimlerini karşılaştırır. d) Destandaki örtük iletileri sınıflandırır. e) Destanda verilmek istenen iletilere tepki verir. MD.1.2.5. Doğal destanlar hakkında araştırma yaparak bilgi toplayabilme a) Doğal destanlar hakkında araştırma yaparken kullanacağı araçları belirler. b) Belirlediği aracı kullanarak doğal destanlar hakkındaki bilgileri bulur. c) Doğal destanlara dair ulaşılan bilgileri doğrular. ç) Ulaşıp doğruladığı bilgilerden yola çıkarak doğal destanlardan birini kaydeder. MD.1.2.6. Araştırdığı doğal destanı sunmada kural uygulayabilme a) Araştırdığı destanın sunumu ile ilgili plan hazırlar. b) Araştırdığı destanı sunarken düşünceyi geliştirme yollarını kullanır. c) Araştırdığı destanı sunarken içeriğe uygun söz varlığını kullanır. ç) Araştırdığı destanı sunarken iletileri açık ve örtük biçimde ifade eder. d) Araştırdığı destanı sunarken dil yapılarını uygular. e) Araştırdığı destanı sunarken bağdaşıklık ögelerini kullanır. f) Araştırdığı destanı sunarken beden dilini ve mekânı etkili bir şekilde kullanır. MD.1.2.7. Araştırdığı doğal destandan yola çıkarak yeni bir kahraman yapılandırabilme a) Araştırdığı destandaki kahramanların özelliklerini inceleyerek oluşturacağı kahramanların fiziksel ve kişisel özelliklerini ortaya koyar. b) Tespit ettiği özelliklerle ilgili ön bilgilerinden yararlanarak yeni bir kahraman oluşturur. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI",
+    "İÇERİK ÇERÇEVESİ": "Destan Türünün Özellikleri Destanda Tahmin ve Anlam Kurma Destanın Yapı Unsurları ve İletileri Destanlarda Millî Motif ve Kültürel Aktarım Doğal Destanların Araştırılması ve Kayda Geçirilmesi Destan Kahramanı Oluşturma ve Sunma",
+    "Anahtar Kavramlar": "anlatı, destan, kahramanlık, kültürel miras, millî kimlik, motif, olağanüstülük, olay örgüsü, sözlü kültür, tarihî olay, vatan sevgisi, yapı unsuru, yiğitlik ÖĞRENME Bu temada yer alan öğrenme çıktıları; açık uçlu sorular, kısa cevaplı sorular, tartışma etKANITLARI kinlikleri, destan dinleme–anlama çalışmaları, beyin fırtınası, zihin haritaları, örnek olay (Ölçme ve inceleme, grup çalışmaları, rol oynama, dramatizasyon, vızıltı tekniği, yapı unsurları kontDeğerlendirme) rol listeleri, gözlem formları, performans görevleri, dereceli puanlama anahtarları, sunum değerlendirme formları, akran değerlendirme formları ve öz değerlendirme formları kullanılarak değerlendirilebilir Performans görevi olarak öğrenciden Türk edebiyatından bir doğal destan seçmesi ve seçtiği destandaki bir sahneyi dramatize et­mesi beklenebilir. Sahne, üç dakika sürecek kısa bir performans şeklinde hazırlanır ve öğrenciler kahramanların özelliklerini yansıtabilir. Performans görevi şu araçlarla değerlendirilebilir: dereceli puanlama anahtarı, kontrol listesi, sunum/performans gözlem formu, dramatizasyon değerlendirme rubriği, video/ dijital performans değerlendirme ölçütleri. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin metin türlerini ve kurmaca metinleri bildiği ve daha önce destan okuduğu kabul edilmektedir. Ön Değerlendirme Öğrencilerin metin türlerine, kurmaca metinlere ve destan türüne ilişkin sahip olduklaSüreci rı ön bilgilerini, konuya yönelik temel kabullerini ve hazır bulunuşluk düzeylerini belirlemek amacıyla çeşitli etkinliklere yer verilebilir. Bu kapsamda öğrencilerden daha önce okudukları destan örneklerini paylaşmaları, destanların hangi özellikleriyle diğer metin türlerinden ayrıldığını açıklamaları ve kurmaca metinlere ilişkin görüşlerini ifade etmeleri istenebilir. Böylece öğrencilerin destan türünün yapı ve içerik özelliklerine ilişkin temel kabulleri sorgulanabilir. Öğrencilerle \"Destanları diğer kurmaca metinlerden ayıran özellikler nelerdir?\", \"Destanlarda hangi kahramanlık unsurları öne çıkar?\" veya \"Destanlar toplumun hangi değerlerini yansıtır?\" gibi sorular üzerinden kısa tartışmalar gerçekleştirilebilir. Ayrıca soru-cevap, tartışma ve beyin fırtınası gibi yöntem ve tekniklerden yararlanılarak öğrencilerin konuya ilişkin ön bilgileri ve öğrenme ihtiyaçları belirlenebilir. Bu etkinliklerle öğrencilerin önceki öğrenmeleriyle yeni öğrenmeleri arasında bağ kurmaları ve öğrenme sürecine daha bilinçli şekilde katılmaları sağlanabilir. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilerden daha önce duydukları veya okudukları doğal destanları hatırlamaları ve bu destanlarda anlatılanları sorgulamaları istenebilir. Öğrencilerden destanlarda anlatılan kahramanlık, fedakârlık, dayanışma, vatan sevgisi gibi temaları günümüz yaşamındaki benzer örneklerle ilişkilendirmeleri istenebilir. Böylece öğrenciler, destanların yalnızca geçmişe ait olmadığını toplumsal değerleri canlı tutan anlatılar olduğunu fark edebilirler. Sınıfta \"Günümüzde bir destan kahramanı yaşasaydı hangi olayda yer alırdı?\" veya \"Bir toplumun destanlara neden ihtiyaç duyduğunu düşünüyorsunuz?\" gibi yönlendirici sorular üzerinden kısa bir tartışma yapılabilir. Bu etkinlikle öğrencilerin önceki bilgilerinden hare­ ketle yeni öğrenmelerini anlamlandırmaları ve destanların toplumsal işlevini kavrama­ları sağlanabilir. Öğrenme-Öğretme MD.1.2.1 Uygulamaları Öğrenciden daha önce aile büyüklerinden dinlediği veya okuduğu destanı hatırlaması, bu destanda karşılaştığı kahramanlar, olağanüstü olaylar ve tarihî unsurlar üzerine konuşması istenir. Dede Korkut Hikâyeleri’nde ve diğer doğal destanlarda kahramanlık, olağanüstülük ve motiflerin nasıl kullanıldığına ilişkin örnekler vermesi sağlanır. Böylece öğrencinin destan türünün temel özelliklerine ilişkin ön bilgilerini harekete geçirmesi ve destan üzerine konuşması desteklenir. Bu konuşma sırasında tarihsel süreç içerisinde geçmişte yaşanan bu gibi olayların günümüze nasıl geldiğini tartışması sağlanır. Destanların sözlü kültür ürünü olduğuna dair ön bilgileriyle bağlantı kurması sağlanır. Oluşum aşamaları (ortaya çıkma, yayılma, derleme) ve bu türün coşkulu bir söyleyişi olduğuna dair çıkarım yapması beklenir (E1.1, E3.1, SDB2.3). Destan türünün millî özellikler taşıdığını, toplumu derinden etkileyen olayları içerdiğini, olağanüstülükler barındırdığını tahmin etmesi istenir. Edindiği bilgilere göre doğal destan türünün tanımına ulaşarak doğal destanla ilgili tepki vermesi beklenir. Destanda yer alan motifleri bularak bilgi toplaması ve millî motifleri karşılaştırması beklenir (SDB2.3). Yapılan çalışmalar aracılığıyla öğrencinin destanların millî kültürün önemli bir parçası olduğunu fark etmesi ve millî kültüre yönelik duyarlılık geliştirmesi desteklenir (D19.1). Destanları doğal ve yapma destan olarak sınıflandırması sağlanır, bir sonraki temada yapma destanların üzerinde durulacağı vurgulanır. MD.1.2.2 Öğrencinin ders kitabında karşılaştığı destanın başlığı ve görsellerinden hareketle metnin içeriği hakkında tahminlerde bulunması, yaptığı tahminleri içerikle ilişkilendirmesi ve destanın başlığı ile görsellerine ilişkin çıkarım yapması beklenir (E3.1, SDB2.2, OB4). Öğretmen tarafından bir destanın örnek okuması yapılır. Sonrasında öğrencinin destanı coşkulu bir söyleyişle sesli okuması sağlanır (SDB1.3). Destanın belirlenen bölümlerinden yararlanarak öncesi veya sonrası hakkında yargıda bulunması istenir (E3.1, SDB3.3). MD.1.2.3 Öğrenciden destanın yapı unsurlarından olan yer ve zamanı, kişi ve varlık ögelerini, olay örgüsünü ve bölümlerini belirlemesi istenir. Belirlediği yapı unsurlarını incelemesi, bu unsurların destanın bölümleriyle ve olay örgüsüyle ilişkisini ortaya koyması, yapı unsurları arasındaki bağlantıları açıklaması beklenir (E3.1, E3.4, SDB3.3). Yapılan çalışmalar aracılığıyla öğrencinin inceleme ve çözümleme sürecini dikkatli, planlı ve özenli yürütmesi desteklenir (D16.3). ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI MD.1.2.4 Destanın konusunu bulurken ön bilgileriyle bağlantı kurması; anlamını bilmediği sözcükleri, ana fikrini/ana duygusunu ve yardımcı düşüncelerini tahmin etmesi istenir (E2.2, E3.1, E3.4, SDB3.3). Türklere ait olan İslamiyet öncesi ve sonrası (Ergenekon Destanı, Göç Destanı, Türeyiş Destanı, Satuk Buğra Han Destanı, Battal Gazi Destanı vb.) doğal destanlardan örnekler inceleyerek bu metinlerde yer alan değerler ile ilgili çıkarım yapması ve bu değerleri günlük yaşantısındaki deneyimleriyle karşılaştırması sağlanır (E3.1, SDB2.3). Öğrencinin destan metinlerindeki örtük iletileri sınıflandırması sağlanır (E2.2, E3.1). Destanda verilmek istenen iletilere dair tepki vermesi beklenir. MD.1.2.5 Öğrenciden bir doğal destan belirleyip araştırması istenir (E1.6, E2.2). Seçtiği doğal destanla araştırmayı yaparken kullanacağı araçları belirlemesi, bu araçları kullanarak, aile büyüklerinin sözlü anlatımlarından ve farklı bilgi kaynaklarından yararlanarak destanlar hakkında bilgi toplaması, bu destanlara dair ulaşılan bilgileri doğrulaması ve doğruladığı bilgilerden hareketle bu destanlardan birini yazıya aktararak kaydetmesi istenir. Destanlarla ilgili bilgi toplama sürecinde öğrencinin görev bilinci geliştirmesi, araştırma sürecini dikkatli ve planlı biçimde yürütmesi, kültürel mirasa yönelik sorumluluk üstlenmesi ve güvenilir bilgiye ulaşma konusunda özenli davranması desteklenir (E1.6, E2.2, SDB3.3, D16.3, OB5). Yapılan çalışmalar aracılığıyla öğrencinin doğal destanları millî kültürün önemli bir parçası olarak değerlendirmesi ve millî kültüre yönelik duyarlılık geliştirmesi sağlanır (D19.1). MD.1.2.6 Araştırdığı destanla ilgili plan yapması ve sunumu için hazırlığını tamamlaması beklenir. Öğrencinin araştırma sürecinde yazdığı destanın sunumunda; tanımlama, örnekleme, karşılaştırma, benzetme, tanık gösterme ve sayısal verilerden yararlanma gibi düşünceyi geliştirme yollarını kullanması beklenir. Araştırdığı destanı sunarken uygun söz varlığını kullanarak iletileri açık ve örtük biçimde ifade etmesi sağlanır. Sunum sırasında dil yapılarını doğru ve etkili biçimde kullanması, anlatımında bağdaşıklık ögelerine dikkat etmesi istenir. Destanın sunumunda ses özelliklerini (vurgu, tonlama), beden dilini ve mekânı etkili bir şekilde kullanması sağlanır (SDB2.1). Yapılan çalışmalar aracılığıyla öğrencinin estetik değere yönelik duyarlılık geliştirmesi, duygu ve düşüncelerini etkili bir sunumla ifade etmesi desteklenir (D7.2). Araştırdığı destanı hazırladığı sunum planı doğrultusunda içeriğine uygun biçimde sunması sağlanır (D16.3). Araştırdığı destanla ilgili dinleyicilerin/izleyicilerin sorularını cevaplaması ve sunumunu kendi belirlediği veya belirlenen ölçütlerle değerlendirmesi istenir. MD.1.2.7 Araştırdığı destandan yola çıkarak bir kahraman kurgulaması istenir. Bu kahramanın özelliklerini inceledikten sonra özgün bir şekilde kurgulayacağı kahramanın fiziksel ve kişisel özelliklerini yeniden yorumlayarak yansıtması beklenir (E3.3, KB2.14). Tespit ettiği özelliklerle ön bilgilerinden yararlanarak yeni bir kahraman oluşturması beklenir. Bu süreçte öğrencinin özgür düşünerek karar verebilmesi, seçimlerini bağımsız biçimde oluşturması ve tercihlerini kararlılıkla ortaya koyması desteklenir (D11.2). Kurgulayacağı bu kahramanı yazıyla veya afiş, poster, görsel vb. kullanarak yansıtması beklenir. Yapılan çalışmalar aracılığıyla öğrencinin estetik duyarlılık geliştirmesi, duygusal derinliği fark etmesi ve duygu dünyasını yaratıcı yollarla ifade etmesi desteklenir (D7.1, OB4). ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Destan çözümleme atölyeleri düzenlenerek olay örgüsü, kahramanlık unsurları ve temel değerler üzerine inceleme çalışmaları yaptırılabilir. Destan parçalarını bir araya getirerek sözlü anlatım geleneğini deneyimlemeleri sağlanabilir. Destanlardan hareketle kısa drama veya sesli anlatım çalışmaları hazırlamaları istenebilir. Kahraman özelliklerinden yola çıkarak yeni kahramanlar oluşturmaları ve kısa epik anlatılar yazmaları desteklenebilir. Farklı Türk destanlarından seçilen bölümleri karşılaştırarak ortak unsurları belirlemeleri sağlanabilir. Destan kahramanlarının özelliklerini afiş, kahraman kartı veya farklı görsel çalışmalar aracılığıyla ifade etmeleri istenebilir. Yerel anlatılardan hareketle sınıf içi sözlü paylaşım etkinlikleri düzenlenebilir. Destan temalı pano veya sınıf köşesi oluşturularak öğrenci ürünleri sergilenebilir. Bu etkinlikler aracılığıyla öğrencinin destan türünü tanıması, epik anlatımın temel özelliklerini kavraması ve kültürel unsurlara yönelik farkındalık geliştirmesi sağlanabilir. Destekleme Destan metinlerinin kısaltılmış ve sadeleştirilmiş bölümleriyle okuma çalışmaları yaptırılabilir. Olay akışı görseller ve sıralama kartlarıyla desteklenebilir. Eksik bırakılmış destan bölümlerini yönlendirmeler doğrultusunda tamamlamaları istenebilir. Kahraman, olay ve yerleri eşleştirmeye yönelik etkinlikler uygulanabilir. Dinleme temelli destan anlatımları ve basit sorular aracılığıyla anlama çalışmaları yapılabilir. Drama ve oyunlardan yararlanılarak destanın somutlaştırılması sağlanabilir. Kelime havuzları ve kavram kartları kullanılarak anlamayı destekleyici çalışmalar gerçekleştirilebilir. Öğretmen rehberliğinde birlikte anlatım oluşturma etkinlikleri düzenlenebilir. Bu süreçte öğretmen, açık ve kısa yönergeler doğrultusunda öğrencinin etkinliklere aktif katılım göstermesini sağlayacak aşamalı öğrenme yaşantıları planlayabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI 2.3. Yapma Destanlar Teması Seviyelerine Ait Beceriler (I)"
+   },
+   "outcomes": [
+    {
+     "code": "MD.1.2.1",
+     "order": 1,
+     "text": "Destan türü hakkında anlam oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Destanların sözlü kültür ürünü olduğuna dair ön bilgileri ile bağlantı kurar."
+      },
+      {
+       "label": "b",
+       "text": "Destan türünün millî özellikler taşıdığını, toplumu derinden etkileyen olayları içerdiğini, olağanüstülükler barındırdığını tahmin eder."
+      },
+      {
+       "label": "c",
+       "text": "Destanların oluşum aşamaları (ortaya çıkma, yayılma, derleme), bu türün coşkulu bir söyleyişi olduğu hakkında çıkarım yapar."
+      },
+      {
+       "label": "ç",
+       "text": "Destanlardaki motifleri karşılaştırır."
+      },
+      {
+       "label": "d",
+       "text": "Destanları doğal ve yapma destan olarak sınıflandırır."
+      },
+      {
+       "label": "e",
+       "text": "Edindiği bilgilere göre doğal destanla ilgili tepki verir."
+      }
+     ]
+    },
+    {
+     "code": "MD.1.2.2",
+     "order": 2,
+     "text": "Doğal destan hakkında gözleme dayalı tahmin edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Destanın başlık ve görsellerinden hareketle yaptığı tahminleri içerik ile ilişkilendirir."
+      },
+      {
+       "label": "b",
+       "text": "Destanın başlığı ve görsellerine ilişkin çıkarım yapar."
+      },
+      {
+       "label": "c",
+       "text": "Destanın verilen bölümünden yararlanarak öncesi veya sonrası hakkında yargıda bulunur."
+      }
+     ]
+    },
+    {
+     "code": "MD.1.2.3",
+     "order": 3,
+     "text": "Doğal destanın yapı unsurlarını çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Destanın yapı unsurları ve bölümlerine ilişkin parçaları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Destanın yapı unsurları ve bölümlerine ilişkin parçalar arasındaki ilişkileri belirler."
+      }
+     ]
+    },
+    {
+     "code": "MD.1.2.4",
+     "order": 4,
+     "text": "Doğal destanın vermek istediği ileti ile ilgili anlam oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Destanın konusunu bulmak için ön bilgilerle bağlantı kurar."
+      },
+      {
+       "label": "b",
+       "text": "Destandaki anlamını bilmediği sözcükleri, destanın ana fikrini/ana duygusunu ve yardımcı düşüncelerini tahmin eder."
+      },
+      {
+       "label": "c",
+       "text": "Destanda yer alan değerler ile ilgili çıkarım yapar."
+      },
+      {
+       "label": "ç",
+       "text": "Destandaki değerler ile günlük yaşantısındaki deneyimlerini karşılaştırır."
+      },
+      {
+       "label": "d",
+       "text": "Destandaki örtük iletileri sınıflandırır."
+      },
+      {
+       "label": "e",
+       "text": "Destanda verilmek istenen iletilere tepki verir."
+      }
+     ]
+    },
+    {
+     "code": "MD.1.2.5",
+     "order": 5,
+     "text": "Doğal destanlar hakkında araştırma yaparak bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Doğal destanlar hakkında araştırma yaparken kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği aracı kullanarak doğal destanlar hakkındaki bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Doğal destanlara dair ulaşılan bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Ulaşıp doğruladığı bilgilerden yola çıkarak doğal destanlardan birini kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "MD.1.2.6",
+     "order": 6,
+     "text": "Araştırdığı doğal destanı sunmada kural uygulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Araştırdığı destanın sunumu ile ilgili plan hazırlar."
+      },
+      {
+       "label": "b",
+       "text": "Araştırdığı destanı sunarken düşünceyi geliştirme yollarını kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Araştırdığı destanı sunarken içeriğe uygun söz varlığını kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Araştırdığı destanı sunarken iletileri açık ve örtük biçimde ifade eder."
+      },
+      {
+       "label": "d",
+       "text": "Araştırdığı destanı sunarken dil yapılarını uygular."
+      },
+      {
+       "label": "e",
+       "text": "Araştırdığı destanı sunarken bağdaşıklık ögelerini kullanır."
+      },
+      {
+       "label": "f",
+       "text": "Araştırdığı destanı sunarken beden dilini ve mekânı etkili bir şekilde kullanır."
+      }
+     ]
+    },
+    {
+     "code": "MD.1.2.7",
+     "order": 7,
+     "text": "Araştırdığı doğal destandan yola çıkarak yeni bir kahraman yapılandırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Araştırdığı destandaki kahramanların özelliklerini inceleyerek oluşturacağı kahramanların fiziksel ve kişisel özelliklerini ortaya koyar."
+      },
+      {
+       "label": "b",
+       "text": "Tespit ettiği özelliklerle ilgili ön bilgilerinden yararlanarak yeni bir kahraman oluşturur. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "Yapma Destanlar I",
+   "description": "Bu tema, öğrencilerin yapma destan türünün ayırt edici özelliklerini kavramalarını, doğal destanlarla ilişkisini ve farklılıklarını analiz etmelerini, türün şiirsel, coşkulu anlatım yapısını tanımalarını amaçlamaktadır. Bu kapsamda karşılaştırmalı düşünme, metin inceleme, yaratıcı yazma ve sözlü ifade becerilerinin desteklenmesini hedeflemektedir.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "Anlama TAB2. Okuma Anlatma TAB4. Yazma KAVRAMSAL KB2.7. Karşılaştırma, KB2.10. Çıkarım Yapma BECERİLER",
+    "EĞİLİMLER": "E1.1.Merak, E1.2. Bağımsızlık, E2.2. Sorumluluk, E3.1. Muhakeme, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.4. Gerçeği Arama, E3.6. Analitiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.1. Kendini Tanıma, SDB1.3. Kendine Uyarlama (Öz Yansıtma), Öğrenme Becerileri SDB2.3. Sosyal Farkındalık, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik, D11. Özgürlük, D16. Sorumluluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB4 Görsel Okuryazarlık DİSİPLİNLER ARASI Türkçe, Sosyal Bilgiler, Müzik, Görsel Sanatlar, Medya Okuryazarlığı",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.12. Mevcut Bilgiye/Veriye Dayalı Tahmin Etme ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "MD.1.3.1. Yapma destan türü hakkında anlam oluşturabilme a) Yapma destanların bir yazarının olduğuna dair ön bilgileri ile bağlantı kurar. b) Doğal destanlardan yola çıkarak yapma destanların daha yakın zamanda yazıldığını tahmin eder. c) Yapma destanların toplumda iz bırakan bir olay üzerine yazıldığı hakkında çıkarım yapar. ç) Doğal destanlarla yapma destanların yazılış biçimini (nesir/nazım) karşılaştırır. d) Yapma destanların yapı unsurlarını (yer, zaman, kişi ve varlık kadrosu, olay örgüsü) sınıflandırır. e) Edindiği bilgilere göre yapma destanla ilgili tepki verir. MD.1.3.2. Yapma destanın vermek istediği ileti ile ilgili anlam oluşturabilme a) Yapma destanın konusunu bulmak için ön bilgileriyle bağlantı kurar. b) Yapma destandaki anlamını bilmediği sözcükleri ve destanın ana fikrini/ana duygusunu tahmin eder. c) Yapma destanda yer alan değerler ile ilgili çıkarım yapar. ç) Yapma destandaki değerler ile günlük yaşantısındaki deneyimlerini karşılaştırır. d) Yapma destandaki örtük iletileri sınıflandırır. e) Yapma destanda verilmek istenen iletilere tepki verir. MD.1.3.3. Yapma destanları okumayı yönetebilme a) \"Çanakkale Şehitlerine\" adlı destanı inceler ve nasıl okuyacağına ilişkin görüş oluşturur. b) \"Çanakkale Şehitlerine\" adlı destanın okuma sürecinde jest-mimik, vurgu, tonlama, durak, telaffuz gibi unsurların kullanımına yönelik seçim yapar. MD.1.3.4. Okuduğu bir yapma destan hakkında çıkarım yapabilme a) \"Çanakkale Şehitlerine\" adlı destanda anlamını bilmediği sözcüklerin anlamları hakkında varsayımda bulunur. b) \"Çanakkale Şehitlerine\" adlı destandaki kahramanları bularak kahramanların özelliklerine dair örüntüleri listeler. c) \"Çanakkale Şehitlerine\" adlı destanla farklı bir metni karşılaştırır. ç) \"Çanakkale Şehitlerine\" adlı destanın ana fikrine/ana duygusuna dair önerme sunar. d) \"Çanakkale Şehitlerine\" adlı destanın ana fikrine/ana duygusuna dair sunduğu önermeyi metindeki örüntüye göre değerlendirir. MD.1.3.5. Doğal destan ile yapma destanı karşılaştırabilme a) Doğal ve yapma destanlardaki karşılaştırılabilir unsurlara ilişkin özellikleri belirler. b) Belirlenen özelliklerden hareketle benzerlikleri listeler. c) Belirlenen özelliklerden hareketle farklılıkları listeler. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI MD.1.3.6. Yapma destanın özelliklerine uygun yazacağı destan hakkında içerik oluşturabilme a) Yazacağı destanın ana fikri/ana duygusu ve konusu ile ön bilgileri arasında bağlantı kurar. b) Ön bilgilerinden yola çıkarak yazacağı destanda kullanacağı yer ve zaman ögelerini, kahramanları ve kurgulayacağı olay örgüsünü tahmin eder. c) Yapma destanında kullanacağı kahramanların özelliklerini karşılaştırır. ç) Yazacağı destanda karşılaştırdığı kahramanları özelliklerine göre sınıflandırır. d) Yapma destanında kullanacağı yer ve zaman ögelerini, kahramanları, kurgulayacağı olay örgüsünü yeniden ifade eder. e) Yapma destanın özelliklerine uygun yazarak tepki verir. f) Yazdığı destanın içeriğine uygun görselle anlam oluşturur. g) İçeriğe uygun oluşturduğu yapma destanı sunar.",
+    "İÇERİK ÇERÇEVESİ": "Yapma Destan Türünün Özellikleri Yapma Destanda Tahmin ve Anlam Kurma Yapma Destanın Yapı Unsurları ve İletileri Yapma Destanlarda Millî Bilinç ve Tarihsel Bellek Yapma Destanların Okunması ve Yorumlanması Yapma Destan Oluşturma ve Sunma",
+    "Anahtar Kavramlar": "bağımsızlık, kahramanlık, kurgu, millî bilinç, olay örgüsü, şair, tarihî olay, vatan sevgisi, yapı unsuru, yapma destan ÖĞRENME Bu temada yer alan öğrenme çıktıları; açık uçlu sorular, kısa cevaplı sorular, yapma desKANITLARI tanlara giriş düzeyine uygun tartışmalar, beyin fırtınası, zihin haritaları, örnek olay ince- (Ölçme ve leme, grup çalışmaları, rol oynama, dramatik okuma etkinlikleri, vızıltı tekniği, temel yapı Değerlendirme) unsurları kontrol listeleri, öğretmen gözlem formları, performans görevleri, dereceli puanlama anahtarları, sunum değerlendirme formları, akran değerlendirme formları ve öz değerlendirme formları kullanılarak değerlendirilebilir. Performans görevi olarak öğrenciden günümüz­de yaşanan bir olayı, bir kahramanı veya toplumsal bir değeri temel alarak kısa bir yapma destan yazması istenebilir. Performans görevi şu araçlarla değerlendirilebilir: dereceli puanlama anahtarı, kontrol listesi, öğretmen gözlem formu, portfolyo değerlendirmesi, rubrik. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin destan türü hakkında temel bilgilere sahip oldukları, doğal ve yapma destan arasındaki farkı genel hatlarıyla bildikleri, geçmiş dönemlerde oluşturulan destanlarda kahramanlık, vatan sevgisi, fedakârlık ve dayanışma gibi değerlerin işlendiğini gözlemledikleri kabul edilmektedir. Ayrıca öğrencilerin yapma destanların bir yazar tarafından belirli bir amaç doğrultusunda kaleme alınan, tarihsel veya toplumsal olaylardan esinlenen edebî ürünler olduğunu fark ettikleri; kahramanlık, bağımsızlık ve millî kimlik gibi temaların bu türlerde öne çıktığını bildikleri varsayılmaktadır. Bu kabuller doğrultusunda öğrencilerin yapma destanları yalnızca bir anlatı türü olarak değil toplumsal belleği ve millî bilinci güçlendiren kültürel bir ifade biçimi olarak bilmeleri beklenmektedir. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI Ön Değerlendirme Süreci Öğrencilerden kahramanlık, vatan sevgisi, fedakârlık, bağımsızlık ve millî bilinç kavramlarına ilişkin kelime ilişkilendirme çalışması yapmaları veya bu kavramları çağrıştıran ifadelerden hareketle kelime bulutları oluşturmaları istenebilir. Bu etkinlikler aracılığıyla öğrencilerin yapma destanlarda öne çıkan tema ve değerlere ilişkin ön bilgileri ile temel kabulleri belirlenebilir. Öğrencilerden daha önce okudukları veya dinledikleri destanlarda yer alan kahramanlarla günlük yaşamda karşılaştıkları fedakârlık ve mücadele örnekleri arasında ilişki kurmaları beklenebilir. Böylece öğrencilerin destanlarda işlenen kahramanlık anlayışı, toplumsal dayanışma ve millî bilinç unsurlarına yönelik düşüncelerini sorgulamaları sağlanabilir. Sınıfta \"Yapma destanlar hangi toplumsal ihtiyaçlardan doğmuş olabilir?\", \"Bir yapma destanda hangi tarihsel olaylar ya da kahramanlar konu edilebilir?\" veya \"Bir yapma destan yazacak olsaydınız destanınızda hangi tarihî kahramana yer verirdiniz?\" gibi sorular üzerinden kısa tartışmalar gerçekleştirilebilir. Öğrencilerin verdiği yanıtlar doğrultusunda yapma destanların oluşum amacı, yazılı edebiyattaki yeri, toplumsal belleği yansıtma işlevi ve kültürel değerlerin aktarımındaki rolüne ilişkin hazır bulunuşluk düzeyleri gözlemlenebilir. Ayrıca soru-cevap, tartışma ve beyin fırtınası gibi yöntem ve tekniklerden yararlanılarak öğrencilerin konuya ilişkin ilgi ve öğrenme ihtiyaçları belirlenebilir. Bu etkinliklerle öğrencilerin önceki bilgi ve deneyimlerinden hareketle yeni öğrenmelere daha bilinçli şekilde yönelmeleri desteklenebilir. Köprü Kurma Öğrencilerden daha önce okudukları veya dinledikleri doğal destanlar ile yapma destanlar arasındaki farkları düşünmeleri ve bu farkların neden kaynaklandığını tartışmaları istenebilir. Öğrencilerden geçmişte okudukları destanlarda anlatılan kahramanlık, vatan sevgisi, bağımsızlık ve fedakârlık gibi temaların günümüz toplumunda nasıl karşılık bulduğunu örneklendirmeleri istenebilir. Böylece öğrencilerin destanların yalnızca tarihî bir anlatı olmadığını, toplum­ların değer dünyasını yansıtan canlı metinler olduğunu fark etmeleri sağlanabilir. Sınıfta \"Günümüzde bir destan yazılsaydı hangi olayları ve kahramanları konu alırdı?\" sorusu üzerinden kısa bir beyin fırtınası veya tartışma etkinliği yapılabilir. Bu etkinlikle öğrencilerin önceki bilgileriyle yeni öğrenmeler arasında bağ kurmaları ve yapma destanların yazılı edebiyattaki işlevini kavramaları sağlanabilir. Öğrenme-Öğretme MD.1.3.1 Uygulamaları Öğrencilerden toplumsal etkisi olan bir olayın, kahramanın ya da mücadelenin bir yazar tarafından nasıl destansı bir anlatıya dönüştürülebileceği üzerine düşünmesi istenir. Bu doğrultuda tarihî veya güncel bir olayın hangi yönleriyle destanlaştırılabileceği üzerine konuşması sağlanır. Böylece öğrencinin yapma destanların doğal destanlardan farklı olarak bir yazar tarafından kurgulanan yazılı metinler olduğuna ilişkin ön bilgilerini kullanması desteklenir. Bu konuşmalar esnasında tarihsel süreç içerisinde geçmişte yaşanan bu gibi olayların günümüze nasıl geldiği tartışılır. Doğal destanlardan hareketle bir yazarın toplumda iz bırakan bir olay üzerine yapma destan yazabileceği hakkında çıkarım yapması sağlanır (SDB2.3). Öğrencinin yapma destanların yakın zamanda yazıldığını tahmin etmesi ve yapma destanın bir yazarının olduğu sonucuna ulaşması sağlanır (E3.1). Öğrenciden verilen bir yapma destanın yapı unsurlarını (yer, zaman, kişi ve varlık kadrosu, olay örgüsü) belirlemesi ve bunun ardından yapı unsurlarını sınıflandırması istenir (E3.4, SDB3.3). Bu tartışmalar neticesinde öğrencinin edindiği bilgilere göre yapma destan türünün tanımına ulaşarak tepki vermesi sağlanır (E3.1). Tanıma ulaşıldıktan sonra yapma destanların yazılış biçimlerini (nesir/nazım) karşılaştırması sağlanır. Sonrasında yapma destanların coşkulu, yüceltici bir anlatıma sahip olduğu üzerinde durulur (E3.1). Yapılan çalışmalar aracılığıyla öğrencinin yapma destanların millî kültürü yansıtan önemli eserler olduğunu fark etmesi ve millî kültüre yönelik duyarlılık geliştirmesi desteklenir (D19.1). ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI MD.1.3.2 Öğrenciden yapma destanın vermek istediği iletiyle ilgili anlam oluşturması beklenir. Böylece yapma destanda işlenen iyilik, cesaret, mertlik, yiğitlik gibi kavramların metnin tarihî ve toplumsal bağlamındaki yansımalarını değerlendirmesi sağlanır. Öğrencinin yapma destanın konusunu bulmak için ön bilgileriyle bağlantı kurması istenir. Yapma destandaki anlamını bilmediği sözcükleri ve destanın ana fikrini/ana duygusunu tahmin etmesi beklenir. Tahminlerinin ardından anlamını bilmediği sözcüklerin anlamlarını bulması sağlanır (E1.1, E3.4, SDB1.1). Öğrenciden yapma destanda yer alan değerler ile ilgili çıkarım yapması, değerler ile günlük yaşantısındaki deneyimlerini karşılaştırması istenir (E3.1, SDB1.1). Öğrencinin yapma destanda yer alan örtük iletileri sınıflandırması sağlanır (E3.1). Yapma destanda verilmek istenen iletilere dair tepki vermesi beklenir. MD.1.3.3 Öğrencinin yapma destanı okuma sürecinde jest-mimik, vurgu, tonlama, telaffuz ve durak gibi unsurların kullanımına dikkat etmesi beklenir. Öğrencilere, Mehmet Âkif Ersoy'un Safahat adlı eserinin Âsım bölümünde yer alan \"Çanakkale Şehitlerine\" destanı sunulur. Öğrencilere örnek okuma yapılır. Örnek okumanın ardından öğrencinin \"Çanakkale Şehitlerine\" destanını incelemesi, destanı nasıl okuyacağına dair görüş oluşturması istenir. Öğrencinin \"Çanakkale Şehitlerine\" destanını okuma sürecinde jest-mimik, vurgu, tonlama, durak, telaffuz gibi unsurların kullanımına yönelik seçimini yapması ve bu destanı okuması sağlanır (SDB1.3). MD.1.3.4 Destan okunduktan sonra öğrenciden \"Çanakkale Şehitlerine\" adlı destanda anlamını bilmediği sözcüklerin anlamları hakkında varsayımda bulunması ve sözcüklerin anlamını bulması sağlanır (E3.2, SDB3.3). Sözcük çalışmasının ardından destandaki kahramanları bularak bu kahramanların özelliklerine dair örüntüleri listelemesi istenir (E3.6). Sonrasında destanın konusu ve ana duygusuna dair önerme sunması istenir. Sunduğu bu önermeyi metindeki örüntüye göre değerlendirmesi beklenir (E3.4). \"Çanakkale Şehitlerine\" adlı destanla farklı bir metni karşılaştırması sağlanır. MD.1.3.5 Öğrencinin metinlerdeki karşılaştırılabilir unsurlara ilişkin özellikleri tespit etmesi beklenir. Belirlediği özelliklerden hareketle yapma destan ve doğal destanın benzerliklerini listelemesi, aynı özelliklerden hareketle farklılıklarını listelemesi sağlanır (E3.1). MD.1.3.6 Öğrenciden kurgulayarak bir yapma destan yazması istenir. Yazacağı destanın ana fikrini/ ana duygusunu ve konusunu belirlerken ön bilgileri arasında bağlantı kurması beklenir (E1.2, SDB1.1, SDB3.3). Öğrencinin ön bilgilerinden yola çıkarak yazacağı destanda kullanacağı yer ve zaman ögelerini, kahramanları ve olay örgüsünü tahmin ederek ileriye yönelik yargıda bulunması istenir (KB2.12). Öğrencinin destanında kullanacağı kahramanların özelliklerini karşılaştırarak bu kahramanları özelliklerine göre sınıflandırması beklenir. Öğrenciden yazacağı destanda kullanacağı yer ve zaman ögelerini, kahramanları ve olay örgüsünü yeniden ifade etmesi sağlanır. Kahramanları belirlerken kararlılıkla hareket etmesi sağlanır (SDB3.3, D11.2). Kurgulayacağı yapma destanda en az bir değer kullanması istenir. Destanı kurgularken çalışkanlığın önemi vurgulanarak araştırmacı ve sorgulayıcı olması desteklenir (SDB3.3, D3.3). Bu çalışmaların ardından öğrencinin oluşturduğu içeriğe uygun yapma destanı yazarak tepki vermesi sağlanır (E2.2, SDB1.3, D16.3). Öğrenciden yazdığı bu yapma destanın içeriğine uygun destanı görselleştirmesi istenir. Bu çalışmayla estetik değerine ulaşması, görsel zevkleri hayatın bir parçası hâline getirmesi hedeflenir (E3.3, SDB1.3, D7.3, OB4). Öğrencinin yazdığı ve görsellerini tasarladığı yapma destanı sunması istenir. Bu sayede öğrencinin görev bilinci geliştirmesi, sorumluluklarını bilinçli ve düzenli biçimde yerine getirmesi sağlanır (E2.2, D16.3). Bu etkinlikler vasıtasıyla öğrencinin Türkçeyi doğru, etkili ve estetik bir biçimde kullanmasına yönelik çalışmalar yapılır. Öğrencinin millî bilinç geliştirmesi, kültürel mirasa ve ortak değerlere yönelik du30 yarlılık göstermesi desteklenir (D19.1). ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Destan çözümleme atölyeleri düzenlenerek epik anlatım özellikleri, kahramanlık unsurları ve yapı incelemeleri yaptırılabilir. Örnek yapma destanlardan hareketle epik söyleyiş ve anlatım tekniklerini belirlemeye yönelik çalışmalar gerçekleştirilebilir. Destanlardan yola çıkarak kısa drama, dijital hikâye veya sesli anlatım çalışmaları hazırlamaları istenebilir. Kahraman tasarımı yaparak belirli özelliklere sahip kahramanlar oluşturmaları ve kısa epik metinler yazmaları desteklenebilir. Aynı olaydan hareketle farklı destan başlangıçları oluşturmaları sağlanabilir. Tarihî veya güncel olaylardan esinlenerek kısa yapma destan denemeleri yazmaları istenebilir. Yazdıkları metinleri sınıf içinde paylaşarak geliştirmeye yönelik çalışmalar yapılabilir. Sınıf içi destan panosu veya ürün dosyası oluşturularak öğrenci ürünleri sergilenebilir. Bu etkinlikler aracılığıyla öğrencinin yapma destanın temel özelliklerini kavraması, epik anlatım unsurlarını tanıması ve üretim deneyimi kazanması sağlanabilir. Destekleme Yapma destan örnekleri kısaltılmış ve yapılandırılmış metinlerle sunulabilir. Olay örgüsü, kahraman ve yer unsurları hikâye haritası gibi şemalarla gösterilebilir. Verilen kahraman ve olay çerçevesinde yönlendirilmiş kısa metin yazma çalışmaları yaptırılabilir. Eksik bırakılmış destan bölümlerini tamamlama etkinlikleri uygulanabilir. Kahraman özellikleri ve epik ifadeler için kelime ve ifade havuzları sunulabilir. Drama ve sözlü anlatım çalışmalarıyla metin desteklenebilir. Süreç boyunca kısa ve yönlendirici geri bildirimler verilerek yazma becerisi geliştirilebilir. Bu süreçte öğretmen, yapılandırılmış görevler ve açık yönergeler doğrultusunda öğrencinin yazma sürecine aktif katılım göstermesini sağlayacak öğrenme yaşantıları planlayabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI 2.4. Masallar Teması Seviyelerine Ait Beceriler (II)"
+   },
+   "outcomes": [
+    {
+     "code": "MD.1.3.1",
+     "order": 1,
+     "text": "Yapma destan türü hakkında anlam oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapma destanların bir yazarının olduğuna dair ön bilgileri ile bağlantı kurar."
+      },
+      {
+       "label": "b",
+       "text": "Doğal destanlardan yola çıkarak yapma destanların daha yakın zamanda yazıldığını tahmin eder."
+      },
+      {
+       "label": "c",
+       "text": "Yapma destanların toplumda iz bırakan bir olay üzerine yazıldığı hakkında çıkarım yapar."
+      },
+      {
+       "label": "ç",
+       "text": "Doğal destanlarla yapma destanların yazılış biçimini (nesir/nazım) karşılaştırır."
+      },
+      {
+       "label": "d",
+       "text": "Yapma destanların yapı unsurlarını (yer, zaman, kişi ve varlık kadrosu, olay örgüsü) sınıflandırır."
+      },
+      {
+       "label": "e",
+       "text": "Edindiği bilgilere göre yapma destanla ilgili tepki verir."
+      }
+     ]
+    },
+    {
+     "code": "MD.1.3.2",
+     "order": 2,
+     "text": "Yapma destanın vermek istediği ileti ile ilgili anlam oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapma destanın konusunu bulmak için ön bilgileriyle bağlantı kurar."
+      },
+      {
+       "label": "b",
+       "text": "Yapma destandaki anlamını bilmediği sözcükleri ve destanın ana fikrini/ana duygusunu tahmin eder."
+      },
+      {
+       "label": "c",
+       "text": "Yapma destanda yer alan değerler ile ilgili çıkarım yapar."
+      },
+      {
+       "label": "ç",
+       "text": "Yapma destandaki değerler ile günlük yaşantısındaki deneyimlerini karşılaştırır."
+      },
+      {
+       "label": "d",
+       "text": "Yapma destandaki örtük iletileri sınıflandırır."
+      },
+      {
+       "label": "e",
+       "text": "Yapma destanda verilmek istenen iletilere tepki verir."
+      }
+     ]
+    },
+    {
+     "code": "MD.1.3.3",
+     "order": 3,
+     "text": "Yapma destanları okumayı yönetebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "\"Çanakkale Şehitlerine\" adlı destanı inceler ve nasıl okuyacağına ilişkin görüş oluşturur."
+      },
+      {
+       "label": "b",
+       "text": "\"Çanakkale Şehitlerine\" adlı destanın okuma sürecinde jest-mimik, vurgu, tonlama, durak, telaffuz gibi unsurların kullanımına yönelik seçim yapar."
+      }
+     ]
+    },
+    {
+     "code": "MD.1.3.4",
+     "order": 4,
+     "text": "Okuduğu bir yapma destan hakkında çıkarım yapabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "\"Çanakkale Şehitlerine\" adlı destanda anlamını bilmediği sözcüklerin anlamları hakkında varsayımda bulunur."
+      },
+      {
+       "label": "b",
+       "text": "\"Çanakkale Şehitlerine\" adlı destandaki kahramanları bularak kahramanların özelliklerine dair örüntüleri listeler."
+      },
+      {
+       "label": "c",
+       "text": "\"Çanakkale Şehitlerine\" adlı destanla farklı bir metni karşılaştırır."
+      },
+      {
+       "label": "ç",
+       "text": "\"Çanakkale Şehitlerine\" adlı destanın ana fikrine/ana duygusuna dair önerme sunar."
+      },
+      {
+       "label": "d",
+       "text": "\"Çanakkale Şehitlerine\" adlı destanın ana fikrine/ana duygusuna dair sunduğu önermeyi metindeki örüntüye göre değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "MD.1.3.5",
+     "order": 5,
+     "text": "Doğal destan ile yapma destanı karşılaştırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Doğal ve yapma destanlardaki karşılaştırılabilir unsurlara ilişkin özellikleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlenen özelliklerden hareketle benzerlikleri listeler."
+      },
+      {
+       "label": "c",
+       "text": "Belirlenen özelliklerden hareketle farklılıkları listeler. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI"
+      }
+     ]
+    },
+    {
+     "code": "MD.1.3.6",
+     "order": 6,
+     "text": "Yapma destanın özelliklerine uygun yazacağı destan hakkında içerik oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yazacağı destanın ana fikri/ana duygusu ve konusu ile ön bilgileri arasında bağlantı kurar."
+      },
+      {
+       "label": "b",
+       "text": "Ön bilgilerinden yola çıkarak yazacağı destanda kullanacağı yer ve zaman ögelerini, kahramanları ve kurgulayacağı olay örgüsünü tahmin eder."
+      },
+      {
+       "label": "c",
+       "text": "Yapma destanında kullanacağı kahramanların özelliklerini karşılaştırır."
+      },
+      {
+       "label": "ç",
+       "text": "Yazacağı destanda karşılaştırdığı kahramanları özelliklerine göre sınıflandırır."
+      },
+      {
+       "label": "d",
+       "text": "Yapma destanında kullanacağı yer ve zaman ögelerini, kahramanları, kurgulayacağı olay örgüsünü yeniden ifade eder."
+      },
+      {
+       "label": "e",
+       "text": "Yapma destanın özelliklerine uygun yazarak tepki verir."
+      },
+      {
+       "label": "f",
+       "text": "Yazdığı destanın içeriğine uygun görselle anlam oluşturur."
+      },
+      {
+       "label": "g",
+       "text": "İçeriğe uygun oluşturduğu yapma destanı sunar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "Masallar II",
+   "description": "Bu tema; öğrencilerin masal türünün ayırt edici özelliklerini kavramalarını, türün yapısal ve içerik unsurlarını bütüncül biçimde çözümlemelerini ve masalların kültürel aktarım işlevini fark etmelerini amaçlamaktadır. Farklı yörelere ait masalları araştırmaları, karşılaştırmaları ve yazılı ürün hâline getirmeleri yoluyla metin çözümleme, kültürel farkındalık, karşılaştırmalı düşünme, araştırma becerilerinin desteklenmesini hedeflemektedir. ALAN Anlatma BECERİLER TAB3. Konuşma , TAB4. Yazma KAVRAMSAL KB2.6. Bilgi Toplama, KB2.8. Sorgulama, KB2.9. Genelleme, BECERİLER KB2.11. Gözleme Dayalı Tahmin Etme, KB3.3. Eleştirel Düşünme",
+   "lesson_hours": 22,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E1.2. Bağımsızlık, E1.3. Azim ve Karalılık, E1.5. Kendine Güvenme, E1.6. Seçicilik, E2.2. Sorumluluk, E3.1. Muhakeme, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.4. Gerçeği Arama",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.1. Kendini Tanıma, SDB2.1. İletişim, SDB2.3. Sosyal Farkındalık, SDB3.1. Uyum Öğrenme Becerileri",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik, D11. Özgürlük, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı DİSİPLİNLER ARASI Türkçe, Sosyal Bilgiler, Müzik, Görsel Sanatlar, Medya Okuryazarlığı",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.17. Değerlendirme ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "MD.2.1.1. Masal türü ile ilgili eleştirel düşünebilme a) Masalın özelliklerini sorgular. b) Masalda sorguladığı özelliklerle ilgili akıl yürütür. c) Masalın özellikleriyle ilgili ulaştığı çıkarımları yansıtır. MD.2.1.2. Masal hakkında gözleme dayalı tahmin edebilme a) Masalın başlık ve görsellerinden hareketle yaptığı tahminleri içerik ile ilişkilendirir. b) Masalın başlığı ve görsellerine ilişkin çıkarım yapar. c) Masalın verilen bölümünden yararlanarak öncesi veya sonrası hakkında yargıda bulunur. MD.2.1.3. Masalın yapı unsurlarını oluşturan parçaların özelliklerini genelleyebilme a) Masalın yapı unsurları veya bölümleri (döşeme, serim, düğüm, çözüm, dilek) hakkında bilgi toplar. b) Masalın yapı unsurları veya bölümlerinin ortak özelliklerini belirler. c) Masalın yapı unsurları veya bölümlerinin ortak olmayan özelliklerini belirler. ç) Masalın yapı unsurları veya bölümleri ile ilgili önermede bulunur. MD.2.1.4. Masalın vermek istediği iletiyi sorgulayabilme a) Masaldaki konuyu, ana fikri, yardımcı düşünceleri, örtük iletileri veya değerleri tanımlar. b) Masaldaki konu, ana fikir, yardımcı düşünceler, örtük iletiler veya değerler hakkında sorular sorar. c) Masaldaki konu, ana fikir, yardımcı düşünceler, örtük iletiler veya değerler hakkında bilgi toplar. ç) Toplanan bilgilerin doğruluğunu değerlendirir. d) Toplanan bilgiler üzerinden çıkarım yapar. MD.2.1.5. Masallar hakkında araştırma yaparak bilgi toplayabilme a) Yöresindeki masallar hakkında araştırma yaparken kullanacağı araçları belirler. b) Belirlediği aracı kullanarak yöresine ait masallar hakkındaki bilgileri bulur. c) Yöresindeki masallara dair ulaşılan bilgileri doğrular. ç) Ulaşıp doğruladığı bilgilerden yola çıkarak yöresindeki masallardan birini kaydeder. MD.2.1.6. Araştırdığı masalı sunmada kural uygulayabilme a) Araştırdığı masalın sunumu ile ilgili plan hazırlar. b) Araştırdığı masalı sunarken düşünceyi geliştirme yollarını kullanır. c) Araştırdığı masalı sunarken içeriğe uygun söz varlığını kullanır. ç) Araştırdığı masalı sunarken iletileri açık ve örtük biçimde ifade eder. d) Araştırdığı masalı sunarken dil yapılarını uygular. e) Araştırdığı masalı sunarken bağdaşıklık ögelerini kullanır. f) Araştırdığı masalı sunarken beden dilini ve mekânı etkili bir şekilde kullanır. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI MD.2.1.7. Masalın özelliklerine uygun içerik oluşturabilme a) Masalında vereceği iletiyi ve kullanacağı değerleri ifade ederken ön bilgileriyle bağlantı kurar. b) Masalında kullanacağı yer, zaman ögelerini; kişi, varlık kadrosunu; kurgulayacağı olay örgüsünü, olağanüstü ögeleri ve tezatlıkları tahmin eder. c) Masalında işleyeceği tezatlıkları karşılaştırır. ç) Masalındaki döşeme, serim, düğüm, çözüm ve dilek bölümlerini sınıflandırır. d) Masalında kullanacağı yer, zaman ögelerini; kişi, varlık kadrosunu; kurgulayacağı olay örgüsünü; olağanüstü ögeleri ve tezatlıkları yeniden ifade eder. e) Masalının içeriğine uygun yazarak tepki verir. f) Yazdığı masalın içeriğine uygun görselle anlam oluşturur. g) İçeriğe uygun oluşturduğu masalı sunar.",
+    "İÇERİK ÇERÇEVESİ": "Masal Türünün Özelliklerini Sorgulama Masalda Tahmin ve Anlam Kurma Masalın Yapı Unsurlarını Genelleme Masalın İletilerini ve Değerlerini Değerlendirme Masalların Araştırılması ve Kayda Geçirilmesi Masal Oluşturma ve Sunma",
+    "Anahtar Kavramlar": "anonim, hayal gücü, iyilik, kahraman, kötülük, masal, olağanüstülük, olay örgüsü, sözlü gelenek ÖĞRENME Bu temada yer alan öğrenme çıktıları; açık uçlu sorular, kısa cevaplı sorular, ileri düzey KANITLARI tartışma etkinlikleri, yaratıcı beyin fırtınası çalışmaları, kişi–olay örgüsü analizleri, zihin (Ölçme ve haritaları, yeniden yazma etkinlikleri, dramatizasyon, grup tartışmaları, metin çözümleme Değerlendirme) kontrol listeleri, gözlem formları, yaratıcı yazma performans görevleri, dereceli puanlama anahtarları, dijital sunum değerlendirme formları, akran değerlendirme formları ve öz değerlendirme formları kullanılarak değerlendirilebilir. Per­formans görevi olarak öğrencinin seçtiği gelenekli bir masalı günümüz dünyasına uyar­layarak yeniden yazması istenebilir. Kişileri, olay örgüsünü ve yeri çağdaş yaşamla ilişki­lendirmeleri beklenebilir. Performans görevi şu araçlarla değerlendirilebilir: dereceli puanlama anahtarı, kontrol listesi, gözlem formu, portfolyo/ürün dosyası değerlendirme formu. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin metin türlerini ve kurmaca metinleri bildikleri ve daha önce masal okudukları kabul edilmektedir. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI Ön Değerlendirme Süreci Öğrencilerin masal türüne ilişkin sahip oldukları ön bilgilerini, masalların kurmaca metinler içerisindeki yerine yönelik temel kabullerini ve konuya ilişkin hazır bulunuşluk düzeylerini belirlemek amacıyla çeşitli etkinliklere yer verilebilir. Bu doğrultuda öğrencilerden daha önce okudukları veya dinledikleri masalları anlatmaları, masallarda karşılaştıkları kahraman, yer (mekân) ve olaylara ilişkin örnekler vermeleri istenebilir. Öğrencilerin masalların hayâli unsurlar içerdiğine, iyilik-kötülük çatışmasına yer verdiğine ve öğretici iletiler taşıdığına ilişkin temel kabulleri sorgulamaları sağlanabilir. Böylece öğrencilerin masal türünün temel özelliklerine ilişkin bilgi ve deneyimleri ortaya çıkarılabilir. Öğrencilerle \"Masallarda olaylar gerçek yaşamla ne kadar ilişkilidir?\", \"Masal kahramanlarının özellikleri nelerdir?\" veya \"Masallar insanlara hangi mesajları vermeyi amaçlar?\" gibi sorular üzerinden kısa tartışmalar gerçekleştirilebilir. Ayrıca soru-cevap, tartışma ve beyin fırtınası gibi yöntem ve tekniklerden yararlanılarak öğrencilerin konuya ilişkin ilgi ve öğrenme ihtiyaçları belirlenebilir. Bu etkinliklerle öğrencilerin mevcut bilgi ve deneyimlerinden hareketle yeni öğrenmelere daha bilinçli şekilde yönelmeleri sağlanabilir. Köprü Kurma Öğrencilerin daha önce okudukları masallara ilişkin bilgileriyle yeni öğrenmeleri arasında anlamlı bağlar kurmaları sağlanabilir. Öğretmen, geçmişte tanıdıkları masal kişileri, olay örgüleri ve temalar üzerinden öğrencileri yönlendirilebilir. Örneğin öğrencilerin daha önce dinledikleri bir masaldaki \"iyilik\" temasının yeni bir masalda nasıl işlendiğini karşılaştırmaları sağlanabilir. Masalın başlangıç kalıpları, kahraman tipleri veya olay örgüsü örnekleri hatırlatılarak yeni masal yazım sürecine geçiş yapılabilir. Ayrıca öğrenciler, eski bir masalı farklı bir bakış açısıyla yeniden yazabilir, kişileri değiştirebilir veya sonunu güncel bir temayla ilişkilendirebilir. Bu etkinlikle öğrencilerin önceki bilgile­rini kullanarak yeni öğrenmeleri yapılandırmaları ve masal türünü daha derin kavrama­ları sağlanabilir. Öğrenme-Öğretme MD.2.1.1 Uygulamaları Öğrenciye farklı masallardan örnekler sunulur. Bu masallardaki ortak ve farklı özellikleri belirlemesi istenir. Belirlediği özelliklerden hareketle masal türüne ilişkin çıkarımlarda bulunması, masalın ayırt edici özelliklerini sorgulaması ve sorguladığı özelliklerle ilgili akıl yürütmesi beklenir (E1.1, E1.6, SDB1.1). Öğrenciden akıl yürütme sonucunda masalın özellikleriyle ilgili ulaştığı çıkarımları yansıtması istenir (E1.1, OB1). MD.2.1.2 Öğrencinin ders kitabında karşılaştığı masalın başlığı ve görsellerinden hareketle masalın içeriği hakkında tahminlerde bulunması, tahminleri ile masalın içeriğini ilişkilendirmesi, başlık ve görsellere ilişkin çıkarım yapması beklenir (E3.1, OB4). Masalın öncesi veya sonrası hakkında yargılarda bulunması sağlanır (E3.1). MD.2.1.3 Masalın sesli ve sessiz okunması tamamlandıktan sonra masalın döşeme, serim, düğüm, çözüm ve dilek bölümlerinden oluştuğu üzerinde durulur (E3.1). Masal işlendikten sonra masalın yapı unsurları veya bölümleri hakkında öğrencinin bilgi toplaması beklenir (E3.1). Masalın yapı unsurları veya bölümlerinin ortak olan ve olmayan özelliklerini belirlemesi istenir. Belirlediği ortak olan ve ortak olmayan özelliklerden hareketle masalın yapı unsurları veya bölümleri ile ilgili önermede bulunması beklenir (E3.4). ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI MD.2.1.4 Masaldaki konuyu, ana fikri ve yardımcı düşünceleri, örtük iletileri veya değerleri tanımlayarak bu unsurlar hakkında sorular sorması sağlanır. Masalda öne çıkan iyilik, cesaret, mertlik, yiğitlik kavramları üzerinde durularak bu kavramların ileti veya değerlerle ilişkisini yorumlaması sağlanır. Bu unsurlar hakkında bilgi toplayarak topladığı bilgilerin doğruluğunu değerlendirmesi istenir (E2.2, E3.4, OB1). Toplanan bilgiler üzerinden çıkarım yapması beklenir. Böylelikle öğrencinin görev bilinci geliştirmesi, sorumluluklarını planlı ve bilinçli biçimde yerine getirmesi sağlanır (E2.2, E3.1, E3.2, SDB3.1, D16.3). MD.2.1.5 Öğrencinin yöresindeki masalları araştırması istenir. Bu araştırması sırasında \"Okul Dışı Öğrenme Platformu\"na (okuldisiogrenme.eba.gov.tr) öğrencinin yönlendirilmesi sağlanabilir (E1.3, E2.2, OB5). Bu araştırmayı yaparken kullanacağı araçları belirlemesi, bu araçları kullanarak yöresine ait masallar hakkında bilgi toplaması, bu masallara dair ulaşılan bilgileri doğrulaması ve doğruladığı bilgilerden yola çıkarak bu masallardan birini yazıya aktararak kaydetmesi istenir. Bu araştırma sürecinde öğrencinin araştırmacı ve sorgulayıcı bir yaklaşım geliştirmesi sağlanır. Yapılan çalışmalar aracılığıyla öğrencinin çalışkanlık bilinci doğrultusunda sabırlı, azimli ve üretken davranışlar göstermesine fırsat sunulur (E1.1, E1.6, E2.2, SDB2.3, D3.3, OB5). MD.2.1.6 Araştırdığı masalla ilgili plan yapması ve sunumu için hazırlığını tamamlaması beklenir. Öğrencinin araştırma sürecinde yazdığı masalı sunarken güven duygusu geliştirmesi sağlanır. Sunumunda tanımlama, örnekleme, karşılaştırma, benzetme, tanık gösterme ve sayısal verilerden yararlanma gibi düşünceyi geliştirme yollarını kullanması beklenir (E1.5). Araştırdığı masalı sunarken uygun söz varlığını kullanarak iletileri açık ve örtük biçimde ifade etmesi sağlanır. Sunum sırasında dil yapılarını doğru ve etkili biçimde kullanması, anlatımında bağdaşıklık ögelerine dikkat etmesi istenir. Masalın sunumunda ses özelliklerini (vurgu, tonlama), beden dilini ve mekânı etkili bir şekilde kullanması istenir (SDB2.1). Araştırdığı masalı sunması beklenir. Araştırdığı masalla ilgili dinleyicilerin/izleyicilerin sorularını cevaplaması ve sunumunu kendi belirlediği veya belirlenen ölçütlerle değerlendirmesi istenir (KB2.17). MD.2.1.7 Yazacağı masalda içerik oluştururken vereceği iletiyi, kullanacağı değerleri ifade ederken ön bilgileriyle bağlantı kurması sağlanır. Masalında kurgulayacağı olay örgüsünü, kişi ve varlık kadrosunu, yer ve zaman ögelerini, olağanüstü ögeleri, sözcükleri ve söz gruplarını tahmin etmesi, tezatlıkları karşılaştırması ve bunları yeniden ifade etmesi sağlanır. Bu süreçte öğrencinin özgür düşünerek karar verebilmesi, seçimlerini bağımsız biçimde oluşturabilmesi ve karar verme sürecinde kararlılık göstermesi desteklenir (E1.2, E3.3, D11.2). Öğrenciden masalında döşeme, serim, düğüm, çözüm ve dilek bölümlerini sınıflandırması istenir (E3.2). Öğrenciden masalını oluşturduğu içeriğe uygun bir şekilde yazması istenir (E3.3). Öğrencinin masalına uygun görsellerle masalını desteklemesi beklenir. Böylece öğrencinin estetik duyarlılık geliştirmesi, üretkenliğini ortaya koyması ve ruhsal gelişimini destekleyen yaratıcı ifade yolları oluşturması amaçlanır (D7.2, OB4). Öğrencinin oluşturduğu masalla ilgili plan yapması ve sunumu için hazırlıklarını tamamlayıp sunması beklenir. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Masallarda motif, tema ve kişi özelliklerine yönelik yapı incelemeleri yaptırılabilir. Bir masalı farklı bir bakış açısıyla yeniden kurgulamaları istenebilir. Masalları kısa film, dijital hikâye, podcast veya sahne performansına dönüştürmeleri sağlanabilir. Farklı kültürlere ait masalları karşılaştırarak ortak ve farklı yönleri analiz etmeleri desteklenebilir. Kahraman yolculuğu şemasına uygun özgün masallar yazmaları istenebilir. Yerel masalları derleyerek sınıf içi dijital arşiv oluşturmaları sağlanabilir. Masallardan hareketle alternatif son veya farklı başlangıç gibi yaratıcı yazma çalışmaları yaptırılabilir. Masal temalı sergi, pano veya dijital sunum hazırlamaları istenebilir. Bu etkinlikler aracılığıyla öğrencinin masal türünü çözümleme, yorumlama ve özgün ürün ortaya koyma becerilerini geliştirmesi sağlanabilir. Destekleme Masal metinleri bölümlere ayrılarak aşamalı okuma çalışmaları yaptırılabilir. Hikâye haritası, kavram ağı ve zaman çizelgesi kullanılarak metnin yapılandırılması sağlanabilir. Anahtar kelime ve kavram listeleriyle anlamayı destekleyici çalışmalar gerçekleştirilebilir. Rehberli okuma ve birlikte yazma etkinlikleri uygulanabilir. Başlangıcı verilmiş masalı tamamlama gibi yönlendirilmiş yazma çalışmaları yaptırılabilir. Küçük grup çalışmaları ve akran desteğiyle öğrenme süreci pekiştirilebilir. Ses, görsel ve video gibi çoklu ortam araçları kullanılarak anlama süreci güçlendirilebilir. Süreç boyunca düzenli geri bildirim verilerek ve gerektiğinde ek süre tanınarak öğrenme desteklenebilir. Bu süreçte öğretmen; öğrencinin bireysel farkındalıklarını dikkate alarak kısa ve açık yönergeler, aşamalı görevler ve düzenli dönütlerle öğrenme yaşantılarını planlayabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI 2.5. Doğal Destanlar Teması Seviyelerine Ait Beceriler (II)"
+   },
+   "outcomes": [
+    {
+     "code": "MD.2.1.1",
+     "order": 1,
+     "text": "Masal türü ile ilgili eleştirel düşünebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Masalın özelliklerini sorgular."
+      },
+      {
+       "label": "b",
+       "text": "Masalda sorguladığı özelliklerle ilgili akıl yürütür."
+      },
+      {
+       "label": "c",
+       "text": "Masalın özellikleriyle ilgili ulaştığı çıkarımları yansıtır."
+      }
+     ]
+    },
+    {
+     "code": "MD.2.1.2",
+     "order": 2,
+     "text": "Masal hakkında gözleme dayalı tahmin edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Masalın başlık ve görsellerinden hareketle yaptığı tahminleri içerik ile ilişkilendirir."
+      },
+      {
+       "label": "b",
+       "text": "Masalın başlığı ve görsellerine ilişkin çıkarım yapar."
+      },
+      {
+       "label": "c",
+       "text": "Masalın verilen bölümünden yararlanarak öncesi veya sonrası hakkında yargıda bulunur."
+      }
+     ]
+    },
+    {
+     "code": "MD.2.1.3",
+     "order": 3,
+     "text": "Masalın yapı unsurlarını oluşturan parçaların özelliklerini genelleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Masalın yapı unsurları veya bölümleri (döşeme, serim, düğüm, çözüm, dilek) hakkında bilgi toplar."
+      },
+      {
+       "label": "b",
+       "text": "Masalın yapı unsurları veya bölümlerinin ortak özelliklerini belirler."
+      },
+      {
+       "label": "c",
+       "text": "Masalın yapı unsurları veya bölümlerinin ortak olmayan özelliklerini belirler."
+      },
+      {
+       "label": "ç",
+       "text": "Masalın yapı unsurları veya bölümleri ile ilgili önermede bulunur."
+      }
+     ]
+    },
+    {
+     "code": "MD.2.1.4",
+     "order": 4,
+     "text": "Masalın vermek istediği iletiyi sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Masaldaki konuyu, ana fikri, yardımcı düşünceleri, örtük iletileri veya değerleri tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Masaldaki konu, ana fikir, yardımcı düşünceler, örtük iletiler veya değerler hakkında sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Masaldaki konu, ana fikir, yardımcı düşünceler, örtük iletiler veya değerler hakkında bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Toplanan bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Toplanan bilgiler üzerinden çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "MD.2.1.5",
+     "order": 5,
+     "text": "Masallar hakkında araştırma yaparak bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yöresindeki masallar hakkında araştırma yaparken kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği aracı kullanarak yöresine ait masallar hakkındaki bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Yöresindeki masallara dair ulaşılan bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Ulaşıp doğruladığı bilgilerden yola çıkarak yöresindeki masallardan birini kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "MD.2.1.6",
+     "order": 6,
+     "text": "Araştırdığı masalı sunmada kural uygulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Araştırdığı masalın sunumu ile ilgili plan hazırlar."
+      },
+      {
+       "label": "b",
+       "text": "Araştırdığı masalı sunarken düşünceyi geliştirme yollarını kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Araştırdığı masalı sunarken içeriğe uygun söz varlığını kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Araştırdığı masalı sunarken iletileri açık ve örtük biçimde ifade eder."
+      },
+      {
+       "label": "d",
+       "text": "Araştırdığı masalı sunarken dil yapılarını uygular."
+      },
+      {
+       "label": "e",
+       "text": "Araştırdığı masalı sunarken bağdaşıklık ögelerini kullanır."
+      },
+      {
+       "label": "f",
+       "text": "Araştırdığı masalı sunarken beden dilini ve mekânı etkili bir şekilde kullanır. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI"
+      }
+     ]
+    },
+    {
+     "code": "MD.2.1.7",
+     "order": 7,
+     "text": "Masalın özelliklerine uygun içerik oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Masalında vereceği iletiyi ve kullanacağı değerleri ifade ederken ön bilgileriyle bağlantı kurar."
+      },
+      {
+       "label": "b",
+       "text": "Masalında kullanacağı yer, zaman ögelerini; kişi, varlık kadrosunu; kurgulayacağı olay örgüsünü, olağanüstü ögeleri ve tezatlıkları tahmin eder."
+      },
+      {
+       "label": "c",
+       "text": "Masalında işleyeceği tezatlıkları karşılaştırır."
+      },
+      {
+       "label": "ç",
+       "text": "Masalındaki döşeme, serim, düğüm, çözüm ve dilek bölümlerini sınıflandırır."
+      },
+      {
+       "label": "d",
+       "text": "Masalında kullanacağı yer, zaman ögelerini; kişi, varlık kadrosunu; kurgulayacağı olay örgüsünü; olağanüstü ögeleri ve tezatlıkları yeniden ifade eder."
+      },
+      {
+       "label": "e",
+       "text": "Masalının içeriğine uygun yazarak tepki verir."
+      },
+      {
+       "label": "f",
+       "text": "Yazdığı masalın içeriğine uygun görselle anlam oluşturur."
+      },
+      {
+       "label": "g",
+       "text": "İçeriğe uygun oluşturduğu masalı sunar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "Doğal Destanlar II",
+   "description": "Bu tema; öğrencilerin doğal destan türünün ayırt edici özelliklerini ve oluşum sürecini kavramalarını, destanların yazarı belli olmayan sözlü kültür ürünleri olarak toplumsal hafızayı ve millî kimliği yansıttığını fark etmelerini hedeflemektedir.",
+   "lesson_hours": 26,
+   "sections": {
+    "ALAN BECERİLERİ": "Anlatma TAB3. Konuşma KAVRAMSAL KB2.6. Bilgi Toplama, KB2.8. Sorgulama, KB2.9. Genelleme, BECERİLER KB2.11. Gözleme Dayalı Tahmin Etme, KB2.13. Yapılandırma, KB3.3. Eleştirel Düşünme",
+    "EĞİLİMLER": "E1.1. Merak, E1.6. Seçicilik, E2.2. Sorumluluk, E2.3. Girişkenlik, E3.1. Muhakeme, E3.3. Yaratıcılık, E3.4. Gerçeği Arama",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.1. Kendini Tanıma, SDB1.2. Kendini Düzenleme, SDB1.3. Kendine Uyarlama, Öğrenme Becerileri SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik, D11. Özgürlük, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı DİSİPLİNLER ARASI Türkçe, Sosyal Bilgiler, Müzik, Görsel Sanatlar, Medya Okuryazarlığı",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.14. Yorumlama, KB2.17. Değerlendirme ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "MD.2.2.1. Destan türü ile ilgili eleştirel düşünebilme a) Destanın özelliklerini sorgular. b) Destanda sorguladığı özelliklerle ilgili akıl yürütür. c) Destanın özellikleriyle ilgili ulaştığı çıkarımları yansıtır. MD.2.2.2. Doğal destan hakkında gözleme dayalı tahmin edebilme a) Destanın başlık ve görsellerinden hareketle yaptığı tahminleri içerik ile ilişkilendirir. b) Destanın başlığı ve görsellerine ilişkin çıkarım yapar. c) Destanın verilen bölümünden yararlanarak öncesi veya sonrası hakkında yargıda bulunur. MD.2.2.3. Doğal destanın yapı unsurlarını oluşturan parçaların özelliklerini genelleyebilme a) Doğal destanın yapı unsurları veya motifleri hakkında bilgi toplar. b) Doğal destanın yapı unsurlarının veya motiflerinin ortak özelliklerini belirler. c) Doğal destanın yapı unsurlarının veya motiflerinin ortak olmayan özelliklerini belirler. ç) Doğal destanın yapı unsurları veya motifleri ile ilgili önermede bulunur. MD.2.2.4. Doğal destanın vermek istediği iletiyi sorgulayabilme a) Doğal destandaki konu, ana fikir/ana duygu, yardımcı düşünceler, örtük iletiler, değerler veya anlamı bilinmeyen sözcükleri tanımlar. b) Doğal destandaki konu, ana fikir/ana duygu, yardımcı düşünceler, örtük iletiler, değerler veya anlamı bilinmeyen sözcükler hakkında sorular sorar. c) Doğal destandaki konu, ana fikir/ana duygu, yardımcı düşünceler, örtük iletiler, değerler veya anlamı bilinmeyen sözcükler hakkında bilgi toplar. ç) Toplanan bilgilerin doğruluğunu değerlendirir. d) Toplanan bilgiler üzerinden çıkarım yapar. MD.2.2.5. Doğal destanlar hakkında araştırma yaparak bilgi toplayabilme a) Doğal destanlar hakkında araştırma yaparken kullanacağı araçları belirler. b) Belirlediği aracı kullanarak doğal destanlar hakkındaki bilgileri bulur. c) Doğal destanlara dair ulaşılan bilgileri doğrular. ç) Ulaşıp doğruladığı bilgilerden yola çıkarak doğal destanlardan birini kaydeder. MD.2.2.6. Araştırdığı doğal destanı sunmada kural uygulayabilme a) Araştırdığı destanın sunumu ile ilgili plan hazırlar. b) Araştırdığı destanı sunarken düşünceyi geliştirme yollarını kullanır. c) Araştırdığı destanı sunarken içeriğe uygun söz varlığını kullanır. ç) Araştırdığı destanı sunarken iletileri açık ve örtük biçimde ifade eder. d) Araştırdığı destanı sunarken dil yapılarını uygular. e) Araştırdığı destanı sunarken bağdaşıklık ögelerini kullanır. f) Araştırdığı destanı sunarken beden dilini ve mekânı etkili bir şekilde kullanır. MD.2.2.7. Araştırdığı doğal destandan yola çıkarak yeni bir kahraman yapılandırabilme a) Araştırdığı destandaki kahramanların özelliklerini inceleyerek oluşturacağı kahramanların fiziksel ve kişisel özelliklerini ortaya koyar. b) Tespit ettiği özelliklerle ilgili ön bilgilerinden yararlanarak yeni bir kahraman oluşturur. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI",
+    "İÇERİK ÇERÇEVESİ": "Destan Türünün Özelliklerini Sorgulama Destanda Tahmin ve Anlam Kurma Doğal Destanın Yapı Unsurlarını ve Motiflerini İnceleme Doğal Destanın İletileri ve Değerleri Üzerine Çıkarım Yapma Doğal Destanların Araştırılması ve Kayda Geçirilmesi Destansal Kahraman Oluşturma ve Sunma",
+    "Anahtar Kavramlar": "anlatı, destan, kahramanlık, kültürel miras, millî kimlik, motif, olay örgüsü, sözlü kültür, tarihî olay, vatan sevgisi, yapı unsuru, yiğitlik ÖĞRENME Bu temada yer alan öğrenme çıktıları; açık uçlu sorular, kısa cevaplı sorular, derinlemesiKANITLARI ne tartışma etkinlikleri, tema–değer analizine yönelik beyin fırtınası, sembol çözümleme (Ölçme ve çalışmaları, zihin haritaları, karşılaştırmalı inceleme, grup sunumları, dramatizasyon, vızıltı Değerlendirme) tekniği, ileri düzey çözümleme kontrol listeleri, gözlem formları, yaratıcı yeniden yazma performans görevleri, dereceli puanlama anahtarları, dijital sunum değerlendirme formları, akran değerlendirme formları ve öz değerlendirme formları kullanılarak değerlendirilebilir. Performans görevi olarak öğrencinin seçtiği bir doğal destanı modern bir olay örgüsüyle yeniden yazması sağlanabilir. Per­formans görevi şu araçlarla değerlendirilebilir: dereceli puanlama anahtarı, kontrol listesi, gözlem formu. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin metin türlerini ve kurmaca metinleri bildikleri ve daha önce destan okudukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerin destan türüne ilişkin bilgi ve deneyimlerini, kurmaca metinlere dair temel kabullerini ve konuya yönelik hazır bulunuşluklarını belirlemek amacıyla farklı etkinliklerden yararlanılabilir. Bu doğrultuda öğrencilerden daha önce okudukları destanlardan yola çıkarak destanlardaki motifleri, destan kahramanlarının belirgin özelliklerini, destanlarda işlenen olayları ve toplum yaşamına ilişkin unsurları açıklamaları istenebilir. Öğrencilerin destanların toplumun ortak belleğini yansıttığı, kahramanlık ve mücadele temalarını içerdiği, kültürel değerlerin aktarımında önemli bir işleve sahip olduğuna ilişkin temel kabulleri sorgulamaları sağlanabilir. Böylece öğrencilerin destan türünün yapı ve içerik özelliklerine ilişkin ön bilgileri belirlenebilir. Öğrencilerle \"Destan kahramanlarını diğer kurmaca metin kahramanlarından ayıran özellikler nelerdir?\", \"Destanlarda toplum yaşamına ilişkin hangi unsurlar öne çıkar?\" veya \"Destanlar kültürel değerlerin aktarımına nasıl katkı sağlar?\" gibi sorular üzerinden kısa tartışmalar yapılabilir. Ayrıca soru-cevap, tartışma ve beyin fırtınası gibi yöntem ve teknikler aracılığıyla öğrencilerin konuya ilişkin ilgi ve öğrenme ihtiyaçları ortaya çıkarılabilir. Bu etkinliklerle öğrencilerin önceki öğrenmeleriyle yeni öğrenmeleri arasında ilişki kurmaları ve öğrenme sürecine daha bilinçli şekilde katılmaları desteklenebilir. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilerden daha önce duydukları veya okudukları doğal destanları hatırlamaları ve bu destanlarda anlatılanları sorgulamaları istenebilir. Öğrencilerden destanlarda anlatılan kahramanlık, fedakârlık, dayanışma, vatan sevgisi gibi temaları günümüz yaşamındaki benzer örneklerle ilişkilendirmeleri istenebilir. Böylece öğrenciler; destanların yalnızca geçmişe ait olmadığını toplumsal değerleri canlı tutan anlatılar olduğunu fark edebilirler. Sınıfta \"Günümüzde doğal destanlara konu olabilecek toplumsal bir olay yaşansaydı bu destanın kahramanı hangi özelliklere sahip olurdu ve hangi millî değerleri temsil ederdi?\" veya \"Bir toplumun doğal destanlara neden ihtiyaç duyduğunu, destanların toplumsal bellek, millî kimlik ve değer aktarımı açısından işlevini dikkate alarak açıklayınız.\" gibi yönlendirici sorular üzerinden kısa bir tartışma yapılabilir. Bu etkinlikle öğrencilerin önceki bilgilerinden hareketle yeni öğrenmelerini anlamlandırmaları ve destanların toplumsal işlevini kavramaları sağlanabilir. Öğrenme-Öğretme MD.2.2.1 Uygulamaları Öğrencilerden geçmişte toplumu derinden etkileyen savaş, göç, doğal afet ve büyük mücadeleler gibi olayların bir toplumun ortak hafızasında nasıl yer edebileceği üzerine düşüncelerini paylaşmaları istenir. Bu olayların kuşaktan kuşağa aktarılarak destanlaşmasında kahramanlık, mücadele, olağanüstülük ve sözlü kültürün nasıl etkili olduğu üzerinde durulur. Öğrencinin bu tartışmalardan hareketle Dede Korkut Hikâyeleri’nin ve diğer doğal destanların özelliklerini sorgulaması, sorguladığı özelliklerle ilgili akıl yürütmesi, sorguladığı özellikler arasında ilişki kurarak ulaştığı çıkarımları yansıtması beklenir (E1.1, E3.1). MD.2.2.2 Öğrencinin ders kitabında karşılaştığı destanın başlığı ve görsellerinden hareketle metnin içeriği hakkında tahminlerde bulunması ve bu tahminleri içerikle ilişkilendirerek destanın başlığı ve görsellerine ilişkin çıkarım yapması beklenir (E3.1, SDB2.2, OB4). Öğretmen tarafından bir destanın örnek okuması yapılır. Sonrasında öğrencinin destanı coşkulu bir söyleyişle okuması sağlanır (SDB1.3). Destanın belirlenen bölümlerinden yararlanarak öğrenciden öncesi veya sonrası hakkında yargıda bulunması istenir (E3.1, SDB3.3). MD.2.2.3 Öğrenciden Türklere ait İslamiyet öncesi ve sonrası destanların (Ergenekon Destanı, Göç Destanı, Türeyiş Destanı, Satuk Buğra Han Destanı, Battal Gazi Destanı vb.) yapı unsurlarından olan yer, zaman, kişi ve varlık ögeleri, destanda geçen olay örgüsü veya motifleri hakkında bilgi toplaması istenir. Doğal destanın yapı unsurlarının veya motiflerinin ortak olan ve olmayan özelliklerini belirlemesi beklenir. Belirlediği ortak olan ve ortak olmayan özelliklerden hareketle doğal destanın yapı unsurları veya motifleri ile ilgili önermede bulunması istenir (E3.4, OB1). Yapılan çalışmalar aracılığıyla öğrencinin inceleme ve değerlendirme sürecini dikkatli, planlı ve özenli yürütmesi desteklenir (D16.3). MD.2.2.4 Destanın yapı unsurları ve motiflerine yönelik yapılan incelemelerin ardından destanın konusunu, ana fikrini/ana duygusunu, yardımcı düşüncelerini, örtük iletileri, değerleri veya anlamını bilmediği sözcükleri tanımlaması beklenir (E3.1, E3.4, SDB3.3). Destandaki konu, ana fikir/ana duygu, örtük iletiler, yardımcı düşünceler, değerler veya anlamını bilmediği sözcükler hakkında sorular sorarak bunlar hakkında bilgi toplaması istenir. Ulaşılan bilgilerin doğruluğunu değerlendirmesinin ardından toplanan bu bilgiler üzerinden çıkarım yapması beklenir (E3.1, SDB1.1). Yapılan çalışmalar aracılığıyla öğrencinin görev bilinci geliştirmesi, sorumluluklarını planlı ve bilinçli biçimde yerine getirmesi sağlanır (D16.3). ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI MD.2.2.5 Öğrenciden bir doğal destan belirleyip araştırması istenir (E1.6, E2.2). Öğrencinin seçtiği doğal destanla ilgili araştırma yaparken kullanacağı araçları belirlemesi sağlanır. Belirlediği araçlardan yararlanarak destanlar hakkında bilgi toplaması ve ulaştığı bilgileri doğrulaması beklenir. Yapılan çalışmalar aracılığıyla öğrencinin araştırma sürecinde sabırlı, azimli ve üretken davranışlar göstermesi desteklenir (D3.3). Doğruladığı bilgilerden hareketle destanlardan birini yazıya aktararak kayıt altına alması istenir. Destanlarla ilgili bilgi toplama sürecinde öğrencinin görev bilinci geliştirmesi, araştırma sürecini dikkatli ve planlı biçimde yürütmesi, kültürel mirasa yönelik sorumluluk üstlenmesi ve güvenilir bilgiye ulaşma konusunda özenli davranması sağlanır (E1.6, E2.2, SDB3.3, D16.3, OB5). MD.2.2.6 Araştırdığı destanla ilgili plan yapması ve sunumu için hazırlığını tamamlaması beklenir. Öğrencinin araştırma sürecinde yazdığı destanın sunumunda; tanımlama, örnekleme, karşılaştırma, benzetme, tanık gösterme ve sayısal verilerden yararlanma gibi düşünceyi geliştirme yollarını kullanması beklenir. Araştırdığı destanı sunarken uygun söz varlığını kullanarak iletileri açık ve örtük biçimde ifade etmesi sağlanır. Sunum sırasında dil yapılarını doğru kullanması, Türkçeyi anlaşılır ve etkili bir biçimde kullanarak bağdaşıklık ögelerine dikkat etmesi istenir (E3.1, OB1). Yapılan çalışmalar aracılığıyla öğrencinin estetik duyarlılık geliştirmesi, anlatımını etkili ve özenli biçimde sunması desteklenir (D7.2). Destanın sunumunda ses özelliklerini (vurgu, tonlama), beden dilini ve mekânı etkili bir şekilde kullanması istenir (E2.3, SDB2.1). Araştırdığı destanı sunması beklenir. Araştırdığı destanla ilgili dinleyicilerin/izleyicilerin sorularını cevaplaması ve sunumunu kendi belirlediği veya belirlenen ölçütlerle değerlendirmesi istenir (SDB1.2, KB2.17). MD.2.2.7 Araştırdığı destandan yola çıkarak bir kahraman kurgulaması istenir. Bu kahramanın özelliklerini inceleyerek özgün bir şekilde kurgulayacağı kahramanın fiziksel ve kişisel özelliklerini yeniden ifade ederek yansıtması beklenir (E3.3, KB2.14). Tespit ettiği özelliklerle ön bilgilerinden yararlanarak yeni bir kahraman oluşturması beklenir. Bu süreçte öğrencinin özgür düşünerek karar verebilmesi, seçimlerini bağımsız biçimde oluşturabilmesi ve tercihlerini kararlılıkla ortaya koyması desteklenir (D11.2). Kurgulayacağı bu kahramanı yazıyla ya da afiş, poster, görsel vb. kullanarak yansıtması beklenir. Yapılan çalışmalar aracılığıyla öğrencinin duygusal derinliği anlaması, estetik duyarlılık geliştirmesi ve duygu dünyasını yaratıcı yollarla ifade etmesi sağlanır (D7.1, OB4).",
+    "FARKLILAŞTIRMA": "Zenginleştirme Destan çözümleme atölyeleri düzenlenerek motif, tema, kahraman ve epik yapı unsurlarını derinlemesine incelemeleri sağlanabilir. Doğal destanların oluştuğu tarihî ve kültürel bağlamı araştırarak yorumlama çalışmaları yaptırılabilir. Destanları farklı bakış açılarıyla (yan kahraman, karşıt güç vb.) yeniden kurgulamaları istenebilir. Destanlardan hareketle kısa film, dijital hikâye, podcast veya sahne performansı hazırlamaları desteklenebilir. Farklı kültürlere ait destanları karşılaştırmalı biçimde inceleyerek ortak ve özgün yönleri analiz etmeleri sağlanabilir. Kahraman yolculuğu modeline uygun özgün epik metinler oluşturmaları istenebilir. Müze, kültürel mekân veya sözlü anlatıcılarla gerçekleştirilecek alan araştırmaları sonrasında gözlem temelli yazılar yazmaları sağlanabilir. Bu etkinlikler aracılığıyla öğrencinin destan türünü çözümleme, tarihî ve kültürel bağlam içinde değerlendirme ve özgün epik anlatılar oluşturma becerilerini geliştirmesi sağlanabilir. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI Destekleme Destan metinleri bölümlere ayrılarak aşamalı okuma çalışmaları yaptırılabilir. Hikâye haritası, zaman çizelgesi ve kavram ağlarından yararlanılarak metnin yapılandırılması sağlanabilir. Anahtar kelime ve kavram listeleri kullanılarak anlamayı destekleyici çalışmalar gerçekleştirilebilir. Rehberli okuma ve birlikte yazma etkinlikleri uygulanabilir. Yönlendirilmiş yazma çalışmalarıyla (belirli bölümü verilen destanı tamamlama vb.) üretim süreci desteklenebilir. Küçük grup çalışmaları ve akran desteği aracılığıyla öğrenmenin pekiştirilmesi sağlanabilir. Ses, görsel ve video gibi çoklu ortam araçlarından yararlanılarak anlama süreci güçlendirilebilir. Süreç boyunca düzenli geri bildirim verilerek ve gerektiğinde ek süre tanınarak öğrenme desteklenebilir. Bu süreçte öğretmen, öğrencinin bireysel farklılıklarını dikkate alarak yapılandırılmış ve rehberli öğrenme yaşantıları planlayabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI 2.6. Yapma Destanlar Teması Seviyelerine Ait Beceriler (II)"
+   },
+   "outcomes": [
+    {
+     "code": "MD.2.2.1",
+     "order": 1,
+     "text": "Destan türü ile ilgili eleştirel düşünebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Destanın özelliklerini sorgular."
+      },
+      {
+       "label": "b",
+       "text": "Destanda sorguladığı özelliklerle ilgili akıl yürütür."
+      },
+      {
+       "label": "c",
+       "text": "Destanın özellikleriyle ilgili ulaştığı çıkarımları yansıtır."
+      }
+     ]
+    },
+    {
+     "code": "MD.2.2.2",
+     "order": 2,
+     "text": "Doğal destan hakkında gözleme dayalı tahmin edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Destanın başlık ve görsellerinden hareketle yaptığı tahminleri içerik ile ilişkilendirir."
+      },
+      {
+       "label": "b",
+       "text": "Destanın başlığı ve görsellerine ilişkin çıkarım yapar."
+      },
+      {
+       "label": "c",
+       "text": "Destanın verilen bölümünden yararlanarak öncesi veya sonrası hakkında yargıda bulunur."
+      }
+     ]
+    },
+    {
+     "code": "MD.2.2.3",
+     "order": 3,
+     "text": "Doğal destanın yapı unsurlarını oluşturan parçaların özelliklerini genelleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Doğal destanın yapı unsurları veya motifleri hakkında bilgi toplar."
+      },
+      {
+       "label": "b",
+       "text": "Doğal destanın yapı unsurlarının veya motiflerinin ortak özelliklerini belirler."
+      },
+      {
+       "label": "c",
+       "text": "Doğal destanın yapı unsurlarının veya motiflerinin ortak olmayan özelliklerini belirler."
+      },
+      {
+       "label": "ç",
+       "text": "Doğal destanın yapı unsurları veya motifleri ile ilgili önermede bulunur."
+      }
+     ]
+    },
+    {
+     "code": "MD.2.2.4",
+     "order": 4,
+     "text": "Doğal destanın vermek istediği iletiyi sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Doğal destandaki konu, ana fikir/ana duygu, yardımcı düşünceler, örtük iletiler, değerler veya anlamı bilinmeyen sözcükleri tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Doğal destandaki konu, ana fikir/ana duygu, yardımcı düşünceler, örtük iletiler, değerler veya anlamı bilinmeyen sözcükler hakkında sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Doğal destandaki konu, ana fikir/ana duygu, yardımcı düşünceler, örtük iletiler, değerler veya anlamı bilinmeyen sözcükler hakkında bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Toplanan bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Toplanan bilgiler üzerinden çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "MD.2.2.5",
+     "order": 5,
+     "text": "Doğal destanlar hakkında araştırma yaparak bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Doğal destanlar hakkında araştırma yaparken kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği aracı kullanarak doğal destanlar hakkındaki bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Doğal destanlara dair ulaşılan bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Ulaşıp doğruladığı bilgilerden yola çıkarak doğal destanlardan birini kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "MD.2.2.6",
+     "order": 6,
+     "text": "Araştırdığı doğal destanı sunmada kural uygulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Araştırdığı destanın sunumu ile ilgili plan hazırlar."
+      },
+      {
+       "label": "b",
+       "text": "Araştırdığı destanı sunarken düşünceyi geliştirme yollarını kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Araştırdığı destanı sunarken içeriğe uygun söz varlığını kullanır."
+      },
+      {
+       "label": "ç",
+       "text": "Araştırdığı destanı sunarken iletileri açık ve örtük biçimde ifade eder."
+      },
+      {
+       "label": "d",
+       "text": "Araştırdığı destanı sunarken dil yapılarını uygular."
+      },
+      {
+       "label": "e",
+       "text": "Araştırdığı destanı sunarken bağdaşıklık ögelerini kullanır."
+      },
+      {
+       "label": "f",
+       "text": "Araştırdığı destanı sunarken beden dilini ve mekânı etkili bir şekilde kullanır."
+      }
+     ]
+    },
+    {
+     "code": "MD.2.2.7",
+     "order": 7,
+     "text": "Araştırdığı doğal destandan yola çıkarak yeni bir kahraman yapılandırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Araştırdığı destandaki kahramanların özelliklerini inceleyerek oluşturacağı kahramanların fiziksel ve kişisel özelliklerini ortaya koyar."
+      },
+      {
+       "label": "b",
+       "text": "Tespit ettiği özelliklerle ilgili ön bilgilerinden yararlanarak yeni bir kahraman oluşturur. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "Yapma Destanlar II",
+   "description": "Bu tema, öğrencilerin yapma destan türünün ayırt edici özelliklerini kavramalarını; yapma destanları doğal destanlarla oluşum, aktarım ve içerik bakımından karşılaştırmalarını ve yapma destanlarda millî kültür ile toplumsal hafıza arasındaki ilişkiyi fark etmelerini hedeflemektedir.",
+   "lesson_hours": 20,
+   "sections": {
+    "ALAN BECERİLERİ": "Anlama TAB2. Okuma Anlatma TAB4. Yazma KAVRAMSAL KB2.8. Sorgulama, KB2.7. Karşılaştırma, KB2.10. Çıkarım Yapma, BECERİLER KB3.3. Eleştirel Düşünme",
+    "EĞİLİMLER": "E1.1. Merak,E1.2. Bağımsızlık, E2.2. Sorumluluk, E3.1. Muhakeme, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.4. Gerçeği Arama, E3.6. Analitiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.1. Kendini Tanıma, SDB1.3. Kendine Uyarlama, SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik, D11. Özgürlük, D16. Sorumluluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB4 Görsel Okuryazarlık DİSİPLİNLER ARASI Türkçe, Sosyal Bilgiler, Müzik, Görsel Sanatlar, Medya Okuryazarlığı",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.12. Mevcut Bilgiye/Veriye Dayalı Tahmin Etme ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "MD.2.3.1. Yapma destan türü ile ilgili eleştirel düşünebilme a) Yapma destanın özelliklerini veya yapı unsurlarını (yer, zaman, kişi ve varlık kadrosu, olay örgüsü) sorgular. b) Yapma destanın sorguladığı özellikleri veya yapı unsurları (yer, zaman, kişi ve varlık kadrosu, olay örgüsü) ile ilgili akıl yürütür. c) Yapma destanın özellikleri veya yapı unsurları (yer, zaman, kişi ve varlık kadrosu, olay örgüsü) ile ilgili ulaştığı çıkarımları yansıtır. MD.2.3.2. Yapma destanın vermek istediği iletiyi sorgulayabilme a) Yapma destandaki konu, ana fikir/ana duygu, yardımcı düşünceler, anlamı bilinme yen sözcükler veya değerleri tanımlar. b) Yapma destandaki konu, ana fikir/ana duygu, yardımcı düşünceler, anlamı bilinmeyen sözcükler veya değerler hakkında sorular sorar. c) Yapma destandaki konu, ana fikir/ana duygu, yardımcı düşünceler, anlamı bilinmeyen sözcükler veya değerler hakkında bilgi toplar. d) Toplanan bilgilerin doğruluğunu değerlendirir. e) Toplanan bilgiler üzerinden çıkarım yapar. MD.2.3.3. Yapma destanları okumayı yönetebilme a) \"Üç Şehitler Destanı\" adlı destanı inceler ve nasıl okuyacağına ilişkin görüş oluşturur. b) \" Üç Şehitler Destanı \" adlı destanın okuma sürecinde jest-mimik, vurgu, tonlama, durak, telaffuz gibi unsurların kullanımına yönelik seçim yapar. MD.2.3.4. Okuduğu bir yapma destan hakkında çıkarım yapabilme a) \"Üç Şehitler Destanı \" adlı destanda anlamını bilmediği sözcüklerin anlamları hakkında varsayımda bulunur. b) \"Üç Şehitler Destanı\" adlı destandaki kahramanları bularak kahramanların özelliklerine dair örüntüleri listeler. c) \"Üç Şehitler Destanı\" adlı destanla farklı bir metni karşılaştırır. ç) \"Üç Şehitler Destanı\" adlı destanın ana fikrine/ana duygusuna dair önerme sunar. d) \"Üç Şehitler Destanı\" adlı destanı değerlendirir. MD.2.3.5. Doğal destan ile yapma destanı karşılaştırabilme a) Doğal ve yapma destanlardaki karşılaştırılabilir unsurlara ilişkin özellikleri belirler. b) Belirlenen özelliklerden hareketle benzerlikleri listeler. c) Belirlenen özelliklerden hareketle farklılıkları listeler. MD.2.3.6. Yapma destanın özelliklerine uygun yazacağı destan hakkında içerik oluşturabilme a) Yazacağı destanın ana fikri/ana duygusu ve konusu ile ön bilgileri arasında bağlantı kurar. b) Ön bilgilerinden yola çıkarak yazacağı destanda kullanacağı yer ve zaman ögelerini, kahramanları ve kurgulayacağı olay örgüsünü tahmin eder. c) Yapma destanında kullanacağı kahramanların özelliklerini karşılaştırır. ç) Yazacağı destanda karşılaştırdığı kahramanları özelliklerine göre sınıflandırır. d) Yapma destanında kullanacağı yer ve zaman ögelerini, kahramanları, kurgulayacağı olay örgüsünü yeniden ifade eder. e) Yapma destanın özelliklerine uygun yazarak tepki verir. f) Yazdığı destanın içeriğine uygun görselle anlam oluşturur. g) İçeriğe uygun oluşturduğu yapma destanı sunar. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI",
+    "İÇERİK ÇERÇEVESİ": "Yapma Destan Türünün Özelliklerini Sorgulama Yapma Destanda İleti ve Anlam Kurma Yapma Destanın Yapı Unsurlarını İnceleme Yapma Destanları Okuma ve Karşılaştırma Yapma Destanlarda Millî Bilinç ve Tarihsel Bellek Yapma Destan Oluşturma ve Sunma",
+    "Anahtar Kavramlar": "bağımsızlık, kahramanlık, kurgu, millî bilinç, olay örgüsü, şair, tarihî olay, vatan sevgisi, yapı unsuru, yapma destan ÖĞRENME Bu temada yer alan öğrenme çıktıları; açık uçlu sorular, kısa cevaplı sorular, yapma desKANITLARI tanların amaç–yapı ilişkisini ele alan tartışmalar, yaratıcı beyin fırtınası çalışmaları, tema– (Ölçme ve kahraman çözümleme zihin haritaları, karşılaştırmalı metin incelemeleri, dramatik canDeğerlendirme) landırma etkinlikleri, grup sunumları, vızıltı tekniği, üst düzey yapı çözümleme kontrol listeleri, öğretmen gözlem formları, modern destan yazma performans görevleri, dereceli puanlama anahtarları, dijital ürün değerlendirme formları, akran değerlendirme formları ve öz değerlendirme formları kullanılarak değerlendirilebilir. Performans görevi olarak öğrencilerin küçük gruplar hâlinde bir yapma destandan sahne veya kahraman seçmeleri sağlanabilir. Seçtikleri sahne veya kahramanı yaratıcı drama tekniklerinden yararlanarak sahnelemeleri istenebilir. Per­formans görevi şu araçlarla değerlendirilebilir: dereceli puanlama anahtarı, performans kontrol listesi, rol dağılımı ve katkı değerlendirme formu, akran değerlendirme formu, gözlem formu, sunum değerlendirme rubriği. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin destan türü hakkında temel bilgilere sahip oldukları doğal ve yapma destan arasındaki farkı genel hatlarıyla bildikleri geçmiş dönemlerde oluşturulan destanlarda kahramanlık, vatan sevgisi, fedakârlık ve dayanışma gibi değerlerin işlendiğini gözlemledikleri kabul edilmektedir. Ayrıca öğrencilerin yapma destanların bir yazar tarafından belirli bir amaç doğrultusunda kaleme alınan, tarihsel veya toplumsal olaylardan esinlenen edebî ürünler olduğunu fark ettikleri; kahramanlık, bağımsızlık ve millî kimlik gibi temaların bu türlerde öne çıktığını bildikleri varsayılmaktadır. Bu kabuller doğrultusunda öğrencilerin, yapma destanları yalnızca bir anlatı türü olarak değil aynı zamanda toplumsal belleği ve millî bilinci güçlendiren kültürel bir ifade biçimi olarak bilmeleri beklenmektedir. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI Ön Değerlendirme Süreci Öğrencilerden \"kahramanlık\", \"vatan sevgisi\", \"fedakârlık\", \"dayanışma\" ve \"millî bilinç\" kavramlarına yönelik kelime ilişkilendirme çalışmaları yapmaları veya kavram ağı oluşturmaları istenebilir. Bu etkinlikler aracılığıyla öğrencilerin yapma destanlarda öne çıkan tema ve değerlere ilişkin ön bilgileri ile temel kabulleri belirlenebilir. Öğrencilerden daha önce okudukları veya dinledikleri destanlarda yer alan kahramanlarla günlük yaşamda karşılaştıkları kahramanlık örnekleri arasında ilişki kurmaları beklenebilir. Böylece öğrencilerin destanlarda işlenen kahramanlık anlayışı, vatan sevgisi, fedakârlık ve toplumsal dayanışma unsurlarına yönelik düşüncelerini sorgulamaları sağlanabilir. Sınıfta \"Toplumu derinden etkileyen bir olayın yapma destana dönüşebilmesi için hangi özellikleri taşıması gerekirdi?\", \"Günümüzde yaşanan bir olay yapma destan olarak yazılsaydı hangi değerler öne çıkarılırdı?\" veya \"Yapma destanlar toplumsal belleğin oluşmasına nasıl katkı sağlar?\" gibi sorular üzerinden kısa tartışmalar gerçekleştirilebilir. Öğrencilerin verdikleri yanıtlar doğrultusunda yapma destanların oluşum amacı, doğal destanlardan farklı yönleri, yazılı edebiyattaki yeri ve kültürel işlevine ilişkin temel kabulleri sorgulanabilir ve hazır bulunuşluk düzeyleri gözlemlenebilir. Ayrıca soru-cevap, tartışma ve beyin fırtınası gibi yöntem ve tekniklerden yararlanılarak öğrencilerin konuya ilişkin ilgi ve öğrenme ihtiyaçları belirlenebilir. Bu etkinliklerle öğrencilerin yapma destan konusuna önceki bilgi ve deneyimlerinden hareketle yaklaşmaları ve yeni öğrenmelere daha bilinçli şekilde yönelmeleri desteklenebilir. Köprü Kurma Öğrencilerden daha önce okudukları veya dinledikleri doğal destanlar ile yapma destanlar arasındaki farkları düşünmeleri ve bu farkların neden kaynaklandığını tartışmaları istenebilir. Öğrencilerden geçmişte okudukları destanlarda anlatılan kahramanlık, vatan sevgisi, bağımsızlık ve fedakârlık gibi temaların günümüz toplumunda nasıl karşılık bulduğunu örneklendirmeleri istenebilir. Böylece öğrenciler, destanların yalnızca tarihî bir anlatı olmadığını toplumların değer dünyasını yansıtan canlı metinler olduğunu fark edebilir. Sınıfta \"Günümüzde bir destan yazılsaydı hangi olayları ve kahramanları konu alırdı?\" sorusu üzerinden kısa bir beyin fırtınası veya tartışma etkinliği yapılabilir. Bu etkinlikle öğrencilerin önceki bilgileriyle yeni öğrenmeler arasında bağ kurmaları ve yapma destanların yazılı edebiyattaki işlevini kavramaları sağlanabilir. Öğrenme-Öğretme MD.2.3.1 Uygulamaları Öğrencilerden toplumsal etkisi olan bir olayın, kişinin ya da mücadelenin bir yazar tarafından nasıl destansı bir anlatıya dönüştürülebileceği üzerine konuşmaları istenir. Bu konuşmalar sırasında tarihî veya güncel bir olayın yapma destanda nasıl yeniden kurgulanabileceği, olay örgüsü, kişi ve varlık kadrosu, yer ve zaman unsurlarının bu kurgu içinde nasıl anlam kazandığı üzerinde durulur. Öğrenciden yapma destanın özelliklerini ve yapı unsurlarını (yer, zaman, kişi ve varlık kadrosu, olay örgüsü) sorgulaması, sorguladığı özellikler ve yapı unsurları ile ilgili akıl yürütmesi istenir (E3.4, SDB3.3). Bu akıl yürütmesi neticesinde ulaştığı çıkarımları yansıtması beklenir (E3.1). Yazılan diğer yapma destanlar üzerine araştırma yapması için öğrencinin yaşadığı ildeki kütüphanelere \"Okul Dışı Öğrenme Platformu\" (okuldisiogrenme.eba.gov.tr) üzerinden yönlendirilmesi sağlanabilir. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI MD.2.3.2 Öğrencinin yapma destanda konu, ana fikir/ana duygu, yardımcı düşünceler, anlamı bilinmeyen sözcükler veya değerleri tanımlaması beklenir. Bu süreçte yapma destanda öne çıkan iyilik, cesaret, mertlik, yiğitlik kavramlarının metnin ana fikri, ana duygusu ve iletisiyle ilişkisini sorgulaması sağlanır. Yapma destandaki konu, ana fikir/ana duygu, yardımcı düşünceler, anlamı bilinmeyen sözcükler veya değerler hakkında sorular sorarak bunlar hakkında bilgi toplaması sağlanır. Toplanan bilgilerin doğruluğunu değerlendirerek bu bilgiler üzerinden çıkarım yapması istenir (E1.1, E3.4, SDB1.1). MD.2.3.3 Öğrenciden yapma destanı okuma sürecinde jest-mimik, vurgu, tonlama, telaffuz, durak gibi unsurların kullanımına dikkat etmesi beklenir. Öğrencilere \"Üç Şehitler Destanı\" adlı destan sunulur. Öğrencilere örnek okuma yapılır. Örnek okumanın ardından öğrencinin \"Üç Şehitler Destanı\"nı incelemesi, nasıl okuyacağına dair görüş oluşturması istenir. Öğrencinin \"Üç Şehitler Destanı\"nı okuma sürecinde jest-mimik, vurgu, tonlama, durak, telaffuz gibi unsurların kullanımına yönelik seçimler yapması ve bu destanı okuması sağlanır (SDB1.3). MD.2.3.4 Destan okunduktan sonra öğrencinin \"Üç Şehitler Destanı\" adlı destanda anlamını bilmediği sözcüklerin anlamları hakkında varsayımlarda bulunması ve sözcüklerin anlamlarını bulması sağlanır (E3.2, SDB3.3). Sözcük çalışmasının ardından destandaki kahramanları bularak bu kahramanların özelliklerine dair örüntüleri listelemesi istenir (E3.6). Sonrasında destanın konusu ve ana duygusuna dair önerme sunması istenir. Sunduğu bu önermeyi metindeki örüntüye göre değerlendirmesi beklenir (E3.4). \"Üç Şehitler Destanı\"nda yer alan değerleri tespit etmesi sağlanır (E3.2). Bu çalışmaların sonunda \"Üç Şehitler Destanı\" ile farklı bir metni karşılaştırır. Yaptığı karşılaştırmalardan ve incelemelerden hareketle \"Üç Şehitler Destanı\"nı değerlendirmesi beklenir. MD.2.3.5 Öğrencinin metinlerdeki karşılaştırılabilir unsurlara ilişkin özellikleri tespit etmesi beklenir. Belirlediği özellikleri karşılaştırarak doğal destan ile yapma destanın ortak yönlerini ve farklılaşan yönlerini ortaya koyması sağlanır. Belirlediği karşılaştırılabilir özelliklerden hareketle benzerlikleri listelemesi, ardından farklılıkları listeleyerek ulaştığı sonuçları düzenli bir biçimde sunması beklenir (E3.1, E3.4). Yapılan çalışmalar aracılığıyla öğrencinin karşılaştırma sürecini dikkatli, planlı ve özenli yürütmesi desteklenir (D16.3). MD.2.3.6 Öğrenciden kurgulayarak bir yapma destan yazması istenir. Yazacağı destanın ana fikrini/ ana duygusunu ve konusunu belirlerken öğrenciden ön bilgileriyle bağlantı kurması beklenir (E1.2, SDB1.1, SDB3.3). Öğrencinin ön bilgilerinden yola çıkarak yazacağı destanda kullanacağı yer ve zaman ögelerini, kahramanları ve olay örgüsünü tahmin ederek ileriye yönelik yargıda bulunması istenir (KB2.12). Öğrencinin destanında kullanacağı kahramanların özelliklerini karşılaştırarak bu kahramanları özelliklerine göre sınıflandırması beklenir. Öğrencinin yazacağı destanda kullanacağı yer, zaman ögelerini, kahramanları ve olay örgüsünü yeniden ifade etmesi sağlanır. Kahramanları belirleme sürecinde kararlılıkla hareket etmesi, seçimlerini bilinçli biçimde oluşturması ve tercihlerini tutarlı şekilde sürdürmesi desteklenir (SDB3.3, D11.2). Kurgulayacağı yapma destanda en az bir değer kullanması istenir. Destanı kurgulama sürecinde öğrencinin araştırmacı ve sorgulayıcı bir yaklaşım geliştirmesi sağlanır (SDB3.3, D3.3). Bu çalışmaların ardından öğrencinin oluşturduğu içeriğe uygun yapma destanı yazarak tepki vermesi sağlanır (E2.2, SDB1.3). Öğrenciden yazdığı yapma destanın içeriğine uygun görseller hazırlaması istenir. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI Bu süreçte öğrencinin estetik duyarlılık geliştirmesi, görsel zevklerini günlük yaşamının bir parçası hâline getirmesi sağlanır (E3.3, SDB1.3, D7.3, OB4). Öğrencinin yazdığı ve görselini tasarladığı yapma destanı sunması istenir. Yapılan çalışmalar aracılığıyla öğrencinin görev bilinci geliştirmesi, sorumluluklarını planlı ve bilinçli biçimde yerine getirmesi sağlanır (E2.2, D16.3). Bu etkinlikler vasıtasıyla öğrencinin Türkçeyi doğru, etkili ve estetik bir biçimde kullanması üzerinde durulur. Bu çalışmalar aracılığıyla öğrencinin millî bilinç geliştirmesi, kültürel mirasa ve ortak değerlere duyarlılık göstermesi sağlanır (D19.1). Performans görevi olarak öğrencilerin küçük gruplar hâlinde bir yapma destandan sahne veya kahraman seçmeleri sağlanabilir. Seçtikleri sahne veya kahramanı yaratıcı drama tekniklerinden yararlanarak sahnelemeleri istenebilir. Performans görevi, ölçme araçlarından herhangi biri ile öğretmen tarafından değerlendirilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Destan çözümleme atölyeleri düzenlenerek motif, tema, kahraman, epik söyleyiş ve yapı unsurlarına yönelik derinlemesine inceleme çalışmaları yaptırılabilir. Yapma destan yazım sürecini planlamaya yönelik taslak oluşturma, geliştirme ve gözden geçirme çalışmaları gerçekleştirilebilir. Kahraman yolculuğu modeline uygun özgün ve bütünlüklü destan metinleri yazmaları istenebilir. Yazılan destanların kısa film, dijital hikâye, podcast veya sahne performansına dönüştürülmesi sağlanabilir. Farklı kültürlerin destan anlatım geleneklerinden yararlanarak özgün metinler oluşturmaları desteklenebilir. Tarihî ve güncel olayları epik anlatım biçimiyle yeniden kurgulamaları istenebilir. Akran değerlendirme ve öz değerlendirme çalışmalarıyla metinlerini geliştirmeleri sağlanabilir. Tematik dijital destan sergisi veya e-kitap oluşturmaları teşvik edilebilir. Bu etkinlikler aracılığıyla öğrencinin epik anlatım tekniklerini bilinçli kullanması, özgün ve nitelikli metinler üretmesi ve ürünlerini çok yönlü biçimde sunması sağlanabilir. Destekleme Destan yazımı için giriş, gelişme ve sonuç bölümlerini içeren yapılandırılmış şablonlar kullanılabilir. Metin yazma süreci aşamalara bölünerek planlı yazma çalışmaları yaptırılabilir. Anahtar kelime, ifade kalıpları ve epik söyleyiş örnekleriyle yazma süreci desteklenebilir. Rehberli yazma etkinlikleri ve öğretmen geri bildirimleriyle metin geliştirme çalışmaları gerçekleştirilebilir. Küçük grup çalışmaları ve akran desteğiyle üretim süreci desteklenebilir. Görsel, ses ve video gibi çoklu ortam araçlarından yararlanılarak anlamayı ve üretimi kolaylaştıran etkinlikler düzenlenebilir. Ek süre ve alternatif görevler aracılığıyla bireysel öğrenme hızına uygun düzenlemeler yapılabilir. Düzenli dönütler verilerek metinleri yeniden düzenleme ve iyileştirme çalışmaları yaptırılabilir. Bu süreçte öğretmen, öğrencilerin bireysel farklılıklarını dikkate alarak yazma sürecini aşamalı biçimde yapılandırabilir ve düzenli geri bildirimlerle öğrenme yaşantılarını destekleyebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "MD.2.3.1",
+     "order": 1,
+     "text": "Yapma destan türü ile ilgili eleştirel düşünebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapma destanın özelliklerini veya yapı unsurlarını (yer, zaman, kişi ve varlık kadrosu, olay örgüsü) sorgular."
+      },
+      {
+       "label": "b",
+       "text": "Yapma destanın sorguladığı özellikleri veya yapı unsurları (yer, zaman, kişi ve varlık kadrosu, olay örgüsü) ile ilgili akıl yürütür."
+      },
+      {
+       "label": "c",
+       "text": "Yapma destanın özellikleri veya yapı unsurları (yer, zaman, kişi ve varlık kadrosu, olay örgüsü) ile ilgili ulaştığı çıkarımları yansıtır."
+      }
+     ]
+    },
+    {
+     "code": "MD.2.3.2",
+     "order": 2,
+     "text": "Yapma destanın vermek istediği iletiyi sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapma destandaki konu, ana fikir/ana duygu, yardımcı düşünceler, anlamı bilinme yen sözcükler veya değerleri tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Yapma destandaki konu, ana fikir/ana duygu, yardımcı düşünceler, anlamı bilinmeyen sözcükler veya değerler hakkında sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Yapma destandaki konu, ana fikir/ana duygu, yardımcı düşünceler, anlamı bilinmeyen sözcükler veya değerler hakkında bilgi toplar."
+      },
+      {
+       "label": "d",
+       "text": "Toplanan bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "e",
+       "text": "Toplanan bilgiler üzerinden çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "MD.2.3.3",
+     "order": 3,
+     "text": "Yapma destanları okumayı yönetebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "\"Üç Şehitler Destanı\" adlı destanı inceler ve nasıl okuyacağına ilişkin görüş oluşturur."
+      },
+      {
+       "label": "b",
+       "text": "\" Üç Şehitler Destanı \" adlı destanın okuma sürecinde jest-mimik, vurgu, tonlama, durak, telaffuz gibi unsurların kullanımına yönelik seçim yapar."
+      }
+     ]
+    },
+    {
+     "code": "MD.2.3.4",
+     "order": 4,
+     "text": "Okuduğu bir yapma destan hakkında çıkarım yapabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "\"Üç Şehitler Destanı \" adlı destanda anlamını bilmediği sözcüklerin anlamları hakkında varsayımda bulunur."
+      },
+      {
+       "label": "b",
+       "text": "\"Üç Şehitler Destanı\" adlı destandaki kahramanları bularak kahramanların özelliklerine dair örüntüleri listeler."
+      },
+      {
+       "label": "c",
+       "text": "\"Üç Şehitler Destanı\" adlı destanla farklı bir metni karşılaştırır."
+      },
+      {
+       "label": "ç",
+       "text": "\"Üç Şehitler Destanı\" adlı destanın ana fikrine/ana duygusuna dair önerme sunar."
+      },
+      {
+       "label": "d",
+       "text": "\"Üç Şehitler Destanı\" adlı destanı değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "MD.2.3.5",
+     "order": 5,
+     "text": "Doğal destan ile yapma destanı karşılaştırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Doğal ve yapma destanlardaki karşılaştırılabilir unsurlara ilişkin özellikleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlenen özelliklerden hareketle benzerlikleri listeler."
+      },
+      {
+       "label": "c",
+       "text": "Belirlenen özelliklerden hareketle farklılıkları listeler."
+      }
+     ]
+    },
+    {
+     "code": "MD.2.3.6",
+     "order": 6,
+     "text": "Yapma destanın özelliklerine uygun yazacağı destan hakkında içerik oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yazacağı destanın ana fikri/ana duygusu ve konusu ile ön bilgileri arasında bağlantı kurar."
+      },
+      {
+       "label": "b",
+       "text": "Ön bilgilerinden yola çıkarak yazacağı destanda kullanacağı yer ve zaman ögelerini, kahramanları ve kurgulayacağı olay örgüsünü tahmin eder."
+      },
+      {
+       "label": "c",
+       "text": "Yapma destanında kullanacağı kahramanların özelliklerini karşılaştırır."
+      },
+      {
+       "label": "ç",
+       "text": "Yazacağı destanda karşılaştırdığı kahramanları özelliklerine göre sınıflandırır."
+      },
+      {
+       "label": "d",
+       "text": "Yapma destanında kullanacağı yer ve zaman ögelerini, kahramanları, kurgulayacağı olay örgüsünü yeniden ifade eder."
+      },
+      {
+       "label": "e",
+       "text": "Yapma destanın özelliklerine uygun yazarak tepki verir."
+      },
+      {
+       "label": "f",
+       "text": "Yazdığı destanın içeriğine uygun görselle anlam oluşturur."
+      },
+      {
+       "label": "g",
+       "text": "İçeriğe uygun oluşturduğu yapma destanı sunar. ORTAOKUL MASAL VE DESTANLARIMIZ DERSİ ÖĞRETİM PROGRAMI"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "unassigned_outcomes": [],
+ "report": {
+  "units": 6,
+  "outcomes": 40,
+  "components": 184,
+  "orphan_outcomes": 0,
+  "gaps": []
+ }
+}

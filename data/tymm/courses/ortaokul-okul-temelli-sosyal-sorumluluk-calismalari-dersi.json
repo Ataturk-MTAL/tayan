@@ -1,0 +1,1289 @@
+{
+ "course": {
+  "id": 79,
+  "name": "Okul Temelli Sosyal Sorumluluk Çalışmaları Dersi",
+  "slug": "ortaokul-okul-temelli-sosyal-sorumluluk-calismalari-dersi",
+  "prefix": "OTSSÇ",
+  "shapes": [
+   "OTSSÇ/noktalı-4"
+  ],
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/okul-temelli-sosyal-sorumluluk-calismalari-dersi_20260819_072945_192.pdf"
+ },
+ "units": [
+  {
+   "grade": 1,
+   "unit": 1,
+   "kind": "ÖĞRENME ALANI",
+   "title": "SOSYAL SORUMLULUK",
+   "description": "Bu öğrenme alanında öğrencilerin sosyal sorumluluk bilinci geliştirmeleri, birey ile toplum arasındaki karşılıklı sorumluluk ilişkisini kavramaları ve toplumsal yaşama duyarlı, aktif, sorumlu bireyler olarak katılmaları amaçlanmaktadır. ALAN SBAB2. Kanıta Dayalı Sorgulama ve Araştırma (SBAB2.6. Kanıta Dayalı Ürün Oluşturma ve BECERİLERİ Paylaşma) KAVRAMSAL KB2.4. Çözümleme, KB2.7. Karşılaştırma BECERİLER",
+   "lesson_hours": 12,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E2.2. Sorumluluk, E3.6. Analitiklik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.3. Sosyal Farkındalık Öğrenme Becerileri",
+    "Değerler": "D5. Duyarlılık, D16. Sorumluluk Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER ARASI Görsel Sanatlar, Türkçe",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.13. Yapılandırma ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.1.1.1. Sosyal sorumluluk ile ilgili kavramları çözümleyebilme SÜREÇ BİLEŞENLERİ a) Sosyal sorumluluk ile ilgili kavramları belirler. b) Belirlenen kavramlar arasındaki ilişkileri belirler. OTSSÇ.1.1.2. Bireysel ve toplumsal sorumlulukların topluma katkısını karşılaştırabilme a) Bireysel ve toplumsal sorumlulukların topluma katkısını belirler. b) Bireysel ve toplumsal sorumlulukların topluma katkılarının benzerliklerini listeler. c) Bireysel ve toplumsal sorumlulukların topluma katkılarının farklılıklarını listeler. OTSSÇ.1.1.3. Sosyal sorumluluğun toplum açısından önemine ilişkin ürün oluşturabilme a) Sosyal sorumluluğun toplum açısından önemine ilişkin çıkarımda bulunur. b) Sosyal sorumluluğun toplum açısından önemine ilişkin bir ürün oluşturur. c) Sosyal sorumluluğun toplum açısından önemine ilişkin oluşturulan ürünleri paylaşır.",
+    "İÇERİK ÇERÇEVESİ": "Sosyal Sorumluluk ile İlgili Kavramlar Kendime ve Topluma Karşı Sorumluluklarım Toplum Açısından Sosyal Sorumluluk",
+    "Anahtar Kavramlar": "çevre bilinci, dayanışma, gönüllülük, güven, sorumluluk, toplumsal farkındalık, yardımlaşma ÖĞRENME Bu öğrenme alanındaki öğrenme çıktıları; kontrol listeleri, bütüncül dereceli puanlama KANITLARI anahtarları ve performans görevleri kullanılarak değerlendirilebilir. (Ölçme ve Performans Görevi: Öğrencilerden ulaştıkları çıkarımlardan hareketle sosyal sorumluDeğerlendirme) luğun toplum açısından önemini yansıtan bir poster, afiş, broşür veya rapor hazırlamaları istenebilir. Hazırlanan ürünler, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin günlük yaşam deneyimlerinden yola çıkarak sorumluluk, gönüllülük, yardımlaşma ve toplumsal farkındalık kavramları hakkında temel düzeyde bilgi sahibi oldukları kabul edilmektedir. Öğrencilerin daha önce aile, okul veya çevrede sosyal sorumluluk etkinlikleriyle karşılaşmış olabilecekleri varsayılmaktadır. Ön Değerlendirme Süreci Öğrencilere “Sosyal sorumluluk sizce ne anlama geliyor?” sorusu yöneltilebilir. Sınıfta öğrencilerden sorumluluk, gönüllülük, yardımlaşma ve toplumsal farkındalık kavramları ile ilgili hazırlanan kavram haritasını doldurmaları istenebilir. Bireysel ve toplumsal sorumluluklara dair açık uçlu sorular sorulabilir. Öğrencilerden dayanışma, güven, çevre bilinci, yardımlaşma kavramları ile ilgili çevrelerinden örnekler vermeleri istenebilir. Köprü Kurma Günlük yaşamdan görseller kullanılarak sorumluluk, gönüllülük, toplumsal farkındalık vb. kavramlarına ait örnekler gösterilebilir. “Bireyler sorumluluklarını yerine getirmezse toplumda ne gibi sorunlar yaşanır?” sorusu tartışılabilir. Öğrenciler; çevre temizliği, yardım kampanyaları, gönüllülük çalışmaları vb. sosyal sorumluluk örneklerini inceleyebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme OTSSÇ.1.1.1 Uygulamaları Öğrencilere bir yardım kampanyasına katılan çocuk, atıklarını geri dönüşüm kutularına atan aile, mahallede yaşlı komşusuna yardım eden öğrenci, okulda sınıf panosunu birlikte hazırlayan öğrenci grubu gibi günlük yaşamdan seçilmiş kısa örnek olaylar sunulur (E1.1). Bu örnekler sunulduktan sonra öğrencilere \"Bu örneklerde hangi değer, davranış veya sorumluluklar öne çıkıyor?\" sorusu yöneltilir ve duyarlılık değeri vurgulanır (D5.1). Öğrenciler bireysel olarak düşünür ve öğrencilerin cevapları çalışma kâğıdına yazılır. Öğrencilerin paylaşımlarından yola çıkarak sosyal sorumluluk ile ilgili kavramlar (yardımlaşma, gönüllülük, dayanışma ve duyarlılık) belirlenerek tahtaya yazılır (SDB2.3, OB1). Sınıfta gruplar oluşturulur. Oluşturulan gruplardan kavramlar arasındaki ilişkileri incelemeleri istenir. Gruplar kendi aralarında tartışarak kavramlar arasındaki ilişkileri belirler. Bu ilişkiler gruplar hâlinde oluşturularak kavram ağı üzerinde gösterilir (E3.6, KB2.13). Hazırlanan kavram ağı sınıfta sunulur. Her grup, kavramlar arasındaki ilişkileri hangi gerekçelerle kurduğunu açıklar. Diğer gruplar ise eksik gördükleri ilişkileri tamamlar ve farklı ilişkilendirme önerileri sunar (E3.10). Grupların çalışmaları, kontrol listesi ile değerlendirilebilir. OTSSÇ.1.1.2 Öğrencilere “Sizce bir bireyin görevleri ile toplumun görevleri arasında ne gibi farklar vardır?” sorusu yöneltilir. Öğrenciler; genel ağ, gazete, dergi gibi kaynaklardan alınan görselleri inceleyerek bireysel ve toplumsal sorumlulukları belirler (OB1, OB2, OB4). Türkçe dersinde kazandıkları \"görsellerle iletilen anlamı belirleyebilme\" becerisinden yararlanırlar. Öğrencilerden belirledikleri bireysel ve toplumsal sorumlulukların topluma katkılarını yazmaları istenir. Ardından bu katkılar arasındaki benzerlikleri belirlemeleri sağlanır. Bireysel ve toplumsal sorumlulukların topluma katkılarının farklılıkları belirlenir. Öğrenciler tarafından belirlenen benzerlik ve farklılıklar Venn şemasında gösterilir. Öğretmen, öğrencilerden seçtikleri bir sorumluluğun topluma katkısını açıklayan bir bilgi kartı veya bilgi görseli hazırlamalarını ister (D16.2, OB1, OB4).Ürünler sınıf panosunda sergilenir. Öğrencilerin çalışmaları, dereceli puanlama anahtarı ile değerlendirilebilir. OTSSÇ.1.1.3 Öğrencilere yardımlaşma kampanyaları, çevre temizliği, afet gönüllülüğü, yaşlı bakım hizmetleri gibi sosyal sorumluluk örneklerini içeren pedagojiye uygun kısa video ve görseller sunulur (E1.1, OB1, OB2, OB4). Sunum sonrasında öğrencilere “Bu etkinliklerin toplum için hangi faydaları vardır?” sorusu yöneltilir. Öğrencilerin görüşleri; dayanışma, güven, yardımlaşma, çevre bilinci, toplumsal birlik gibi anahtar kavramlar etrafında tahtaya yazılır. Ardından öğrencilerin verilen örneklerden hareketle sosyal sorumluluk faaliyetlerinin toplum açısından önemine ilişkin çıkarımda bulunmaları sağlanır. Bu süreçte “Sosyal sorumluluk çalışmaları toplumsal yaşamı nasıl etkiler?”, “Bu çalışmalar bireyler arasındaki dayanışmayı nasıl güçlendirir?” gibi sorular üzerinden tartışma yürütülür (E3.10). Tartışma sırasında ortaya çıkan çıkarımlar sınıf ortamında paylaşılır ve ortak sonuçlara ulaşılır. Öğrencilerden performans görevi olarak ulaştıkları çıkarımlardan yola çıkarak sosyal sorumluluğun toplum açısından önemini yansıtan bir poster, afiş, broşür veya rapor hazırlamaları istenebilir (OB1, OB4). Öğrencilerin hazırladıkları ürünleri sınıfta sunmaları ve sosyal sorumluluğun toplumsal yaşam üzerindeki etkilerine ilişkin görüşlerini paylaşmaları sağlanır (E2.2, SDB2.1). Bu ürünler, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden topladıkları kaynaklardan yola çıkarak dijital bir dergi veya e-bülten hazırlamaları istenebilir. Öğrenciler kavramları (sorumluluk, gönüllülük, toplumsal farkındalık) güncel örneklerle ilişkilendiren kısa belgesel/video çekmeleri konusunda teşvik edilebilir. Öğrenciler bireysel ve toplumsal sorumlulukların katkılarını karşılaştırarak uluslararası örnekler (farklı ülkelerdeki sosyal sorumluluk projeleri) üzerinden de Venn şeması hazırlayabilir. Seçtikleri bir sorumluluk türünü dijital bilgi görseli veya animasyon şeklinde sunmaları sağlanabilir. Öğrencilerden seçtikleri sosyal sorumluluk konusunu dijital kampanya tasarımı veya sosyal medya bilgilendirme çalışması olarak geliştirmeleri istenebilir. Ayrıca öğrencilerin hazırladıkları afiş/posterleri okul panosu dışına taşıyarak sanal sergi oluşturulabilir veya bunlar okul genel ağ sitesinde paylaşılabilir. Destekleme Öğrenciler kavramları (sorumluluk, gönüllülük, toplumsal farkındalık) resim, boyama etkinliği veya kavram kartları ile eşleştirerek öğrenebilir. Öğrencilerin öğretmen rehberliğinde hazırlanan şema veya tabloları doldurmaları sağlanabilir. Bireysel ve toplumsal sorumlulukların farklarını gösteren hazır görsel materyaller (tablo, kartlar ve kısa metinler) kullanılabilir. Öğrencilerden yalnızca bir sorumluluk türü seçerek bunu resim veya kısa yazı ile ifade etmeleri istenebilir. Öğrenciler sosyal sorumluluk örneklerini görseller üzerinden değerlendirir. Öğrencilerin ürün olarak çalışma yaprağı, basit broşür veya tek sayfalık bilgi kartı hazırlamaları sağlanabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.1.1.1",
+     "order": 1,
+     "text": "Sosyal sorumluluk ile ilgili kavramları çözümleyebilme SÜREÇ BİLEŞENLERİ a) Sosyal sorumluluk ile ilgili kavramları belirler.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Belirlenen kavramlar arasındaki ilişkileri belirler."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.1.1.2",
+     "order": 2,
+     "text": "Bireysel ve toplumsal sorumlulukların topluma katkısını karşılaştırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bireysel ve toplumsal sorumlulukların topluma katkısını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Bireysel ve toplumsal sorumlulukların topluma katkılarının benzerliklerini listeler."
+      },
+      {
+       "label": "c",
+       "text": "Bireysel ve toplumsal sorumlulukların topluma katkılarının farklılıklarını listeler."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.1.1.3",
+     "order": 3,
+     "text": "Sosyal sorumluluğun toplum açısından önemine ilişkin ürün oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Sosyal sorumluluğun toplum açısından önemine ilişkin çıkarımda bulunur."
+      },
+      {
+       "label": "b",
+       "text": "Sosyal sorumluluğun toplum açısından önemine ilişkin bir ürün oluşturur."
+      },
+      {
+       "label": "c",
+       "text": "Sosyal sorumluluğun toplum açısından önemine ilişkin oluşturulan ürünleri paylaşır."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 2,
+   "kind": "ÖĞRENME ALANI",
+   "title": "TOPLUMSAL DEĞERLER VE AHLAK",
+   "description": "Bu öğrenme alanında öğrencilerin değer temelli düşünen, etik ilkelere saygı gösteren, dijital ortamlarda bilinçli hareket eden ve toplumsal uyumu destekleyen sorumlu bireyler olarak yetişmeleri amaçlanmaktadır. ALAN BECERİLERİ KAVRAMSAL KB2.6. Bilgi Toplama , KB2.11. Gözleme Dayalı Tahmin Etme, KB2.8. Sorgulama BECERİLER",
+   "lesson_hours": 12,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E3.5. Açık Fikirlilik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme, SDB2.3. Sosyal Farkındalık, SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri",
+    "Değerler": "D5. Duyarlılık, D8. Mahremiyet Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER ARASI Bilişim Teknolojileri ve Yazılım, Din Kültürü ve Ahlak Bilgisi,Türkçe imizi Korumak İçin Ne Yapmalıyız?” başlıklı bir afiş veya kısa sunu hazırlamaları istenebilir (SDB1.2). Grup çalışmaları, akran değerlendirme formu ile değerlendirilebilir.",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.10. Çıkarım Yapma ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.1.2.1. Toplumsal değerler ve ahlak ilkeleri hakkında bilgi toplayabilme SÜREÇ BİLEŞENLERİ a) Toplumsal değerler ve ahlak ilkeleri hakkında bilgi toplayabileceği kaynakları belirler. b) Belirlediği kaynaklardan toplumsal değerler ve ahlak ilkeleri hakkında bilgiler bulur. c) Toplumsal değerler ve ahlak ilkeleri hakkında belirlediği kaynaklardan edindiği bilgileri doğrular. ç) Toplumsal değerler ve ahlak ilkeleri hakkında belirlediği kaynaklardan edindiği bilgileri kaydeder. OTSSÇ.1.2.2. Toplumsal değerlerin sınıf ve okul ortamındaki önemini gözleme dayalı tahmin edebilme a) Toplumsal değerlerin sınıf ve okul ortamındaki önemini, yaptığı ön gözlemlerle ilişkilendirir. b) Toplumsal değerlerin sınıf ve okul ortamındaki önemi hakkında çıkarımlar yapar. c) Toplumsal değerlerin sınıf ve okul ortamındaki önemine ilişkin yargıda bulunur. OTSSÇ.1.2.3. Dijital ortamda toplumsal değerlere aykırı davranışları sorgulayabilme a) Dijital ortamda toplumsal değerlere aykırı davranışları tanımlar. b) Dijital ortamda toplumsal değerlere aykırı davranışlar hakkında sorular sorar. c) Dijital ortamda toplumsal değerlere aykırı davranışlar hakkında bilgi toplar. ç) Dijital ortamda toplumsal değerlere aykırı davranışlar hakkında topladığı bilgilerin doğruluğunu değerlendirir. d) Dijital ortamda toplumsal değerlere aykırı davranışların doğruluğunu değerlendirdiği bilgiler hakkında çıkarım yapar.",
+    "İÇERİK ÇERÇEVESİ": "Toplumsal Değerler ve Ahlak İlkeleri Yakın Çevremde Toplumsal Değerler Dijital Ortamda Toplumsal Değerler",
+    "Anahtar Kavramlar": "ahlak ilkeleri, dijital ortam, sosyal medya, toplumsal değerler ÖĞRENME Bu öğrenme alanındaki öğrenme çıktıları; performans değerlendirme ölçekleri, dereceli KANITLARI puanlama anahtarları ve performans görevi kullanılarak değerlendirilebilir. (Ölçme ve Performans Görevi: Gruplardan yapmış oldukları çıkarımlardan yararlanarak “Dijital DünDeğerlendirme) yada Değerlerimizi Korumak İçin Ne Yapmalıyız?” başlıklı bir afiş veya kısa sunu hazırlamaları istenebilir. Grup çalışmaları akran değerlendirme formu ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin aile, okul ve sosyal çevrelerinden edindikleri günlük yaşam deneyimleri aracılığıyla toplumsal değerler ve ahlak ilkelerine ilişkin temel bilgi ve farkındalık düzeyine sahip oldukları; dijital ortamlarda karşılaşabilecekleri olumlu ve olumsuz davranışlara ilişkin de temel farkındalık geliştirdikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerin toplumsal değerler ve ahlak ilkeleri ile ilgili kelime bulutu hazırlamaları istenebilir. Okulda arkadaşlarınızla iletişim kurarken en çok hangi davranışlara dikkat ediyorsunuz?”, “Birlikte oyun oynarken veya sırada beklerken hangi kurallara uymanız gerekiyor?” gibi açık uçlu sorular yöneltilebilir. Öğrencilerin sosyal medya ve dijital ortamlardaki deneyimlerini anlatmaları istenebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilerden toplumsal değerler ve ahlak ilkelerimizi yansıtan davranışlara örnekler vermeleri istenebilir. Öğrencilere okulda karşılaşılan günlük durumlar ile toplumsal yaşamda geçerli olan değerler arasında bağlantı kurmaları için sorular yöneltilebilir. Medya ve dijital ortamlarda karşılaşılan siber zorbalık, hakaret, bilgi kirliliği gibi olumsuz davranışların hangi değerleri ihlal ettiği tartışılabilir. Öğrenme-Öğretme OTSSÇ.1.2.1 Uygulamaları Öğretmen; öğrencilerin seviyesine uygun, toplumsal değerler (dürüstlük, adalet vb.) ve ahlak ilkeleri (doğruluk, adil olma, başkalarının haklarına saygı vb.) ile ilgili pedagojiye uygun kısa video, resim, gazete kupürü, fıkra veya hikâyeler sunar (E1.1, OB1, OB2, OB4). Öğrencilerin toplumsal değer ve ahlak ilkeleri ile ilgili bilgi toplarken kullanabilecekleri kaynakları belirlemeleri sağlanır. Belirlenen kaynaklar üzerinden toplumsal değerler ve ahlak ilkeleri ile ilgili bilgi toplanır. Bu aşamada din kültürü ve ahlak bilgisi dersi kapsamındaki \"doğru sözlü olmanın gerekliliği hakkında çıkarım yapabilme\" öğrenme çıktısı ile ilişkilendirilir. Öğrencilerin dijital kaynak araştırmalarında bilişim teknolojilerini kullanma becerilerine uygun, güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir. Öğrencilerden toplumsal değerler ve ahlak ilkeleri ile ilgili ulaşılan bilgileri farklı kaynaklarla karşılaştırarak doğrulamaları istenir (E3.10). Öğrencilerden doğruladıkları bilgilerden yola çıkarak çevrelerinde gözlemledikleri bir olayı hikâyeleştirerek yazmaları istenebilir. Öğrencilerin çalışmaları, dereceli puanlama anahtarı ile değerlendirilebilir. OTSSÇ.1.2.2 Öğrencilerden teneffüs sırasındaki etkileşimlerini, sınıf kurallarına uyumlarını ve okulun ortak kullanım alanlarındaki davranışlarını toplumsal değerler çerçevesinde gözlemlemeleri ve bu gözlemlerini not etmeleri istenir. Bu süreçte öğrencilerin başkasını rahatsız edebilecek davranışlardan kaçınmaları, hak ve özgürlüklerini kullanırken diğer insanların kişisel sınırlarını gözetmeleri ve sosyal ilişkilerde saygılı bir tutum sergilemeleri desteklenir (D8.4). Gözlem verilerinden yola çıkarak öğrencilerin bu ortamlarda saygı, empati, iş birliği gibi toplumsal değerlerden hangilerinin etkili olduğunu belirlemeleri sağlanır (SDB2.3, OB1). Öğrenciler gözlemledikleri durumları bu değerlerle ilişkilendirerek yazılı biçimde ifade eder. Yapılan ilişkilendirme sonucunda toplumsal değerlerin okul yaşamına etkileri üzerine çıkarımlar yapılır (E3.5, KB2.10). Bu çıkarımlar doğrultusunda öğrenciler, bu değerlerin okul ortamında bulunmaması durumunda ortaya çıkabilecek olası sorunlara ilişkin yargılarda bulunurlar (E3.10). Öğrencilerden “Değerlerimiz Olmasaydı Okulumuzda Neler Olurdu?” konulu bir deneme yazmaları veya görsel oluşturmaları istenebilir (OB1, OB4). Öğrencilerin çalışmaları, dereceli puanlama anahtarı ile değerlendirilebilir. OTSSÇ.1.2.3 Öğrencilerden sosyal medya, mesajlaşma uygulamaları gibi dijital ortamda karşılaşabilecekleri toplumsal değerlere aykırı siber zorbalık, kişisel verilerin izinsiz paylaşımı, bilgi kirliliği gibi durumların geçtiği kısa örnek olaylar veya gerçek yaşamdan olay örnekleri sunulur. Öğrencilerden sunulan örneklerden yola çıkarak siber zorbalık, kişisel verilerin izinsiz paylaşımı, bilgi kirliliği gibi dijital ortamlarda karşılaşılabilecek olumsuz durum ve davranışları tanımlamaları istenir. Duyarlılık değeri kapsamında kendisine yapılmasını istemediği davranışı başkalarına yapmaması gerektiği vurgulanır (D5.1, OB2). Öğrenciler gruplara ayrılır. Her grup, sunulan olayla ilgili \"Mağdur ne hissetmiş olabilir?\", \"Hangi değerimiz ihlal edilmiş olabilir?\" gibi kendi araştırma sorularını hazırlar (SDB3.3). ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Gruplar, öğretmen rehberliğinde belirlenen güvenli dijital kaynaklar üzerinden bu davranışların sonuçlarına dair bilgi toplar (OB1, OB2). Toplanan bilgilerin güncelliği ve kaynağın güvenilirliği sınıfça tartışılarak öğrencilerin bilgilerin doğruluğunu değerlendirmeleri sağlanır. Bu süreçte öğrencilerin kişisel bilgilerin gizliliğini korumaya özen göstermeleri ve bunu dijital ortamlardaki davranışlarına yansıtmaları sağlanır (D8.2). Bu aşamada bilişim teknolojileri ve yazılım dersinin \"dijital güvenlik önlemleri alma\" becerisinden yararlanılır. Gruplardan doğruluğunu değerlendirdikleri bilgiler ışığında dijital ortamlarda toplumsal değerlere aykırı davranışların nedenlerini ve sonuçlarını analiz etmeleri; bu durumlara karşı alınabilecek bireysel önlemlere yönelik öneriler geliştirmeleri istenir. Performans görevi kapsamında öğrencilerden geliştirdikleri önerilerden yararlanarak “Dijital Dünyada",
+    "FARKLILAŞTIRMA": "Zenginleştirme Farklı kültürlerden toplumsal değer örneklerini araştırıp karşılaştırmaları ve uluslararası bir değerler tablosu oluşturmaları sağlanabilir. Öğrencilerden okul yaşamında gözlemledikleri değerleri dijital veri analizi (anket veya grafiklerle) ile sunmaları istenebilir. “Dijital Dünyada Değerlerimizi Korumak” konulu e-broşür veya çevrim içi sergi hazırlamaları sağlanabilir. Destekleme Öğretmen tarafından verilen hazır senaryoları tamamlamaları veya yeniden yazmaları istenebilir. Öğrencilerden yalnızca tek bir değer (saygı, yardımlaşma vb.) seçerek onun yokluğunda ortaya çıkabilecek sorunu basit çizim veya kısa notlarla ifade etmeleri istenebilir. Dijital ortamlardaki olumsuz davranışlar basit örneklerle (resim, kısa hikâye vb.) somutlaştırılabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.1.2.1",
+     "order": 1,
+     "text": "Toplumsal değerler ve ahlak ilkeleri hakkında bilgi toplayabilme SÜREÇ BİLEŞENLERİ a) Toplumsal değerler ve ahlak ilkeleri hakkında bilgi toplayabileceği kaynakları belirler.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Belirlediği kaynaklardan toplumsal değerler ve ahlak ilkeleri hakkında bilgiler bulur."
+      },
+      {
+       "label": "c",
+       "text": "Toplumsal değerler ve ahlak ilkeleri hakkında belirlediği kaynaklardan edindiği bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Toplumsal değerler ve ahlak ilkeleri hakkında belirlediği kaynaklardan edindiği bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.1.2.2",
+     "order": 2,
+     "text": "Toplumsal değerlerin sınıf ve okul ortamındaki önemini gözleme dayalı tahmin edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Toplumsal değerlerin sınıf ve okul ortamındaki önemini, yaptığı ön gözlemlerle ilişkilendirir."
+      },
+      {
+       "label": "b",
+       "text": "Toplumsal değerlerin sınıf ve okul ortamındaki önemi hakkında çıkarımlar yapar."
+      },
+      {
+       "label": "c",
+       "text": "Toplumsal değerlerin sınıf ve okul ortamındaki önemine ilişkin yargıda bulunur."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.1.2.3",
+     "order": 3,
+     "text": "Dijital ortamda toplumsal değerlere aykırı davranışları sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dijital ortamda toplumsal değerlere aykırı davranışları tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Dijital ortamda toplumsal değerlere aykırı davranışlar hakkında sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Dijital ortamda toplumsal değerlere aykırı davranışlar hakkında bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Dijital ortamda toplumsal değerlere aykırı davranışlar hakkında topladığı bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Dijital ortamda toplumsal değerlere aykırı davranışların doğruluğunu değerlendirdiği bilgiler hakkında çıkarım yapar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 3,
+   "kind": "ÖĞRENME ALANI",
+   "title": "TOPLUMSAL YARDIMLAŞMA",
+   "description": "Bu öğrenme alanında öğrencilerin toplumsal dayanışma kültürünü tarihsel süreklilik içinde anlayan, kurumların toplumsal işlevini fark eden ve yardımlaşma bilincine sahip duyarlı bireyler olarak yetişmeleri amaçlanmaktadır. ALAN SBAB3. Tarihsel Empati (SBAB3.1. Tarihsel Bağlamsallaştırma) BECERİLERİ KAVRAMSAL KB2.6. Bilgi Toplama, KB2.14. Yorumlama BECERİLER",
+   "lesson_hours": 12,
+   "sections": {
+    "EĞİLİMLER": "E2.1. Empati, E2.2. Sorumluluk, E2.4. Güven, E3.3. Yaratıcılık, E3.4. Gerçeği Arama, E3.6. Analitiklik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık Öğrenme Becerileri",
+    "Değerler": "D9. Merhamet, D19. Vatanseverlik, D20. Yardımseverlik Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, Becerileri OB5. Kültür Okuryazarlığı DİSİPLİNLER ARASI Görsel Sanatlar, Sosyal Bilgiler",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.7. Karşılaştırma ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.1.3.1. Yardımlaşma, dayanışma ve diğerkâmlık kavramları hakkında bilgi toplayaSÜREÇ BİLEŞENLERİ bilme a) Yardımlaşma, dayanışma ve diğerkâmlık kavramları hakkında bilgi toplayacağı kaynakları belirler. b) Yardımlaşma, dayanışma ve diğerkâmlık kavramları hakkındaki bilgileri belirlediği kaynaklardan bulur. c) Yardımlaşma, dayanışma ve diğerkâmlık kavramları hakkındaki belirlediği kaynaklardan bulduğu bilgileri doğrular. ç) Yardımlaşma, dayanışma ve diğerkâmlık kavramları hakkındaki doğruladığı bilgileri kaydeder. OTSSÇ.1.3.2.Tarihimizdeki yardımlaşma örneklerine tarihsel bağlam oluşturabilme a) Tarihimizdeki yardımlaşma örneklerini kaynaklara dayalı analiz eder. b) Tarihimizdeki yardımlaşma örneklerinin uygulanan dönem koşullarını fark eder. c) Tarihimizdeki yardımlaşma örneklerini günümüz koşullarıyla karşılaştırır. ç) Tarihimizdeki yardımlaşma örneklerini ait oldukları dönemin koşulları içerisinde açıklar. OTSSÇ.1.3.3. STK ve kamu kurumlarının yardımlaşmadaki rollerini yorumlayabilme a) STK ve kamu kurumlarının yardımlaşmadaki rollerini inceler. b) STK ve kamu kurumlarının yardımlaşmadaki rollerini bağlamdan kopmadan dönüştürür. c) STK ve kamu kurumlarının yardımlaşmadaki rollerini nesnel, doğru ve anlamı değiştirmeden yeniden ifade eder.",
+    "İÇERİK ÇERÇEVESİ": "Yardımlaşma, Dayanışma ve Diğerkâmlık Geçmişten Günümüze Yardımlaşma Sivil Toplum Kuruluşları ve Kamu Kurumlarının Yardımlaşmadaki Rolleri",
+    "Anahtar Kavramlar": "Ahi teşkilatı, diğerkâmlık (özgecilik), kamu kurumları, sadaka taşları, sivil toplum kuruluşları (STK), vakıf ÖĞRENME Bu öğrenme alanındaki öğrenme çıktıları; kontrol listeleri, grup ve akran değerlendirme KANITLARI formları, bütüncül dereceli puanlama anahtarları ve performans görevi kullanılarak de- (Ölçme ve ğerlendirilebilir. Değerlendirme) Performans Görevi: Yardımlaşma, dayanışma ve diğerkâmlık kavramlarını yansıtan örnek olay kurgulayıp canlandırmaları istenebilir. Öğrenci performansları, kontrol listesi ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin aile, okul ve çevrede yardımlaşma ve dayanışma davranışlarını deneyimledikleri; geçmişten günümüze toplum hayatında yardımlaşma ve dayanışmanın önemine dair temel bir farkındalığa sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci Tahtaya “yardımlaşma, dayanışma, diğerkâmlık” kavramları yazılır. Öğrencilerden bu kavramların kendilerinde çağrıştırdığı kelime ve ifadeleri söylemeleri istenir. “Günümüzde yardım denince aklınıza neler geliyor?” sorusu yöneltilebilir. Öğrencilere “Dernek, vakıf gibi sivil toplum kuruluşlarının kurulma amaçları nelerdir?\", \"İnsanlar bu kuruluşlara neden üye olmaktadır?” soruları yöneltilebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilerden geçmişten bugüne yardımlaşma, dayanışma ve diğerkâmlık örnekleri vermeleri istenebilir. Tarihimizdeki yardımlaşma uygulamalarının amacı, yararlanıcıları ve öne çıkan değerleri üzerine tartışılır. Ardından öğrencilerden günümüzdeki yardımlaşma uygulamalarına örnekler vermeleri istenebilir. İnsanların bayram, düğün ve asker uğurlamasında nasıl yardımlaştığına dair örnekler vermeleri istenebilir. Öğrenme-Öğretme OTSSÇ.1.3.1 Uygulamaları Öğrencilerin yardımlaşma, dayanışma ve diğerkâmlık kavramları ile ilgili bilgi toplamada kullanabileceği kaynakları belirlemeleri sağlanır. Bu süreçte ders kitabı, sözlükler, güvenilir genel ağ siteleri, akademik yayınlar, ansiklopediler, sivil toplum kuruluşlarının çalışmaları, haber metinleri gibi farklı kaynak türleri üzerinde durulur. Bu kaynaklardan hangilerinin konuyla ilgili bilgi toplama için uygun olduğu sınıfça tartışılır. Belirlenen kaynaklardan yardımlaşma, dayanışma ve diğerkâmlık kavramları ile ilgili bilgi toplanır (OB1, E3.4, E3.6). Öğrenciler topladıkları bilgileri \"Tanım, Özellikler, Toplumsal Önemi ve Örnek Durumlar\" başlıkları altında Frayer modelini kullanarak düzenler. Öğrencilerden yardımlaşma, dayanışma ve diğerkâmlık ile ilgili ulaşılan bilgileri karşılaştırarak doğrulamaları istenebilir (E3.10, SDB2.3). Yapılan karşılaştırma sonrası doğru-yanlış tablosu oluşturulması istenerek doğrulanan bilgiler kayıt altına alınır (E3.4). Öğrencilerden performans görevi olarak yardımlaşma, dayanışma ve diğerkâmlık kavramlarını yansıtan örnek bir olay kurgulaması ve canlandırması istenebilir. Yapılan kurgu ve canlandırmalarda merhamet değeri vurgulanarak insanı ve doğayı sevmenin önemine de yer verilebilir. Bu aşamada millî kimliğini tanıması vurgulanarak vatanseverlik değerinin önemine değinilir (E2.1, SDB2.2, D9.3, D20.2). Öğrenci performansları, kontrol listesi ile değerlendirilebilir. OTSSÇ.1.3.2 Öğrenciler gruplara ayrılır. Gruplara yardımlaşma ile ilgili farklı tarihsel belge veya öyküler verilir (Ahi teşkilatında dayanışma, vakıf kurumlarının işleyişi, sadaka taşları uygulaması vb.) (OB1, OB5). Bu örneklerde o dönemin koşulları detaylı bir şekilde yer alır. Sosyal bilgiler dersinin \"Osmanlı Kültür ve Medeniyeti\" öğrenme çıktısı ile ilişkilendirilir. Her grup kendine verilen örnekten hareketle \"Uygulamanın amacı nedir, kimler bu uygulamalardan yararlanmıştır, hangi değerler öne çıkmıştır?\" gibi soruların cevaplarını araştırarak tarihimizdeki yardımlaşma örneklerini analiz eder. Bu aşamada vatanseverlik değeri üzerinde durulur ve ülkesinin tarihini araştırıp öğrenmeye istekli olması sağlanır (E3.4, E3.6, D19.2). Öğrenciler ulaştıkları sonuçlara dayanarak bir sunu dosyası oluşturur. Gruplardan analiz ettikleri örnekteki yardımlaşmanın uygulandığı dönemin koşullarını maddeler hâlinde yazmaları istenir. Böylece o dönemin koşullarını fark etmeleri sağlanır. Dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir (E2.4, E3.6, SDB2.3). Gruplara günümüzdeki yardımlaşma faaliyetlerinden örnekler verilir. Daha önce analiz ettikleri örnekteki koşullar ile yeni verilen örnekteki koşulları karşılaştırmaları istenir. Bunun için karşılaştırma tablosu kullanılabilir (E3.10, KB2.7). Gruplardan kendilerine verilen yardımlaşma örneğinden yola çıkarak dönemin koşullarına uygun bir poster veya sunum hazırlamaları istenir (OB1, OB4). Bu süreçte poster çalışması için görsel sanatlar dersinin \"konuyu sanatsal ürüne dönüştürme\", sunum çalışması için ise Türkçe dersinin \"çoklu ortam ögeleriyle içerik oluşturma\" becerilerinden yararlanılır (E3.3, SDB2.2). ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Çalışmada uygulamanın nasıl yapıldığına, dönemin koşullarına, günümüzdeki benzerlerine ve hangi değerler doğrultusunda yardımlaşma yapıldığına yer verilir. Öğrenci çalışmaları, akran değerlendirme veya kontrol listesi ile değerlendirilebilir. OTSSÇ.1.3.3 “Bir şehirde meydana gelen sel felaketinden sonra AFAD (Afet ve Acil Durum Yönetimi Başkanlığı), belediye, Kızılay ve yerel bir dernek yardım çalışmalarına başlamıştır.” örneğinde olduğu gibi öğrencilere kısa bir örnek olay sunulur. \"Hangi kurum ne yaptı?\", \"Görev dağılımı nasıl gerçekleşti?\", \"Yardımlaşma sürecinde kim hangi sorumluluğu üstlendi?\" gibi soruların cevapları netleşmelidir. Öğrenciler balık kılçığı tekniği ile STK ve kamu kurumlarının yardımlaşmadaki rollerini inceler (OB1). Sınıfta dört grup oluşturulur. Her grup bir kurumu temsil eder. Gruplardan temsil ettikleri kurumun görevlerini canlandırmaları ve basın toplantısı simülasyonu yapmaları istenir (E2.2, SDB2.2). “Bizim kurumumuzun yardımlaşmadaki temel rolü şudur:…” şeklinde açıklama metni oluşturarak bağlamdan kopmadan dönüştürme yapmaları sağlanır. Yardımseverlik değeri kapsamında yapılan iyiliklerin sürdürülebilir olmasının önemi vurgulanır (OB4, E3.3, D20.3, SDB2.2). Bu aşamada diğer grupların soruları da cevaplanır. Son olarak gruplardan STK ve kamu kurumlarının yardımlaşmadaki rollerini nesnel ve doğru biçimde beş altı cümleyle yeniden ifade etmelerini sağlayacak bir afiş hazırlamaları istenebilir. Grupların çalışmaları, akran değerlendirme formu ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden yardımlaşma, dayanışma ve diğerkâmlık kavramlarının toplumdaki yansımalarını gösteren röportaj yapıp sunmaları istenebilir. Osmanlı’daki yardımlaşma örneklerini günümüz uygulamalarıyla karşılaştıran bilgi görseli veya dijital içerik hazırlamaları istenebilir. Seçtikleri bir alanda yardım kampanyası tasarımı geliştirerek topluma katkıda bulunacak öneriler sunmaları istenebilir. Destekleme Öğrencilerden yardımlaşmayı yansıtan hazır senaryolar üzerinde rol canlandırma etkinlikleri yapmaları istenebilir. Zimem defteri veya sadaka taşı ile ilgili araştırma yapmaları istenebilir. STK ve kamu kurumlarının yardımlaşma rollerini resim çizerek veya bir metin oluşturarak ifade etmeleri istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.1.3.1",
+     "order": 1,
+     "text": "Yardımlaşma, dayanışma ve diğerkâmlık kavramları hakkında bilgi toplayaSÜREÇ BİLEŞENLERİ bilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yardımlaşma, dayanışma ve diğerkâmlık kavramları hakkında bilgi toplayacağı kaynakları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yardımlaşma, dayanışma ve diğerkâmlık kavramları hakkındaki bilgileri belirlediği kaynaklardan bulur."
+      },
+      {
+       "label": "c",
+       "text": "Yardımlaşma, dayanışma ve diğerkâmlık kavramları hakkındaki belirlediği kaynaklardan bulduğu bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Yardımlaşma, dayanışma ve diğerkâmlık kavramları hakkındaki doğruladığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.1.3.2",
+     "order": 2,
+     "text": "Tarihimizdeki yardımlaşma örneklerine tarihsel bağlam oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Tarihimizdeki yardımlaşma örneklerini kaynaklara dayalı analiz eder."
+      },
+      {
+       "label": "b",
+       "text": "Tarihimizdeki yardımlaşma örneklerinin uygulanan dönem koşullarını fark eder."
+      },
+      {
+       "label": "c",
+       "text": "Tarihimizdeki yardımlaşma örneklerini günümüz koşullarıyla karşılaştırır."
+      },
+      {
+       "label": "ç",
+       "text": "Tarihimizdeki yardımlaşma örneklerini ait oldukları dönemin koşulları içerisinde açıklar."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.1.3.3",
+     "order": 3,
+     "text": "STK ve kamu kurumlarının yardımlaşmadaki rollerini yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "STK ve kamu kurumlarının yardımlaşmadaki rollerini inceler."
+      },
+      {
+       "label": "b",
+       "text": "STK ve kamu kurumlarının yardımlaşmadaki rollerini bağlamdan kopmadan dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "STK ve kamu kurumlarının yardımlaşmadaki rollerini nesnel, doğru ve anlamı değiştirmeden yeniden ifade eder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 4,
+   "kind": "ÖĞRENME ALANI",
+   "title": "ÇEVRE VE SÜRDÜRÜLEBİLİRLİK",
+   "description": "Bu öğrenme alanında öğrencilerin çevreye duyarlı, sürdürülebilir yaşam bilincine sahip, çözüm odaklı ve aktif sorumluluk üstlenen bireyler olmaları amaçlanmaktadır. ALAN SBAB5. Sosyal Katılım (SBAB5.4. Müzakere Etme), SBAB2. Kanıta Dayalı Sorgulama ve BECERİLERİ Araştırma (SBAB2.6. Kanıta Dayalı Ürün Oluşturma ve Paylaşma) KAVRAMSAL KB2.3. Özetleme BECERİLER",
+   "lesson_hours": 12,
+   "sections": {
+    "EĞİLİMLER": "E2.3. Girişkenlik, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.6. Analitiklik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB3.1. Uyum, SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri",
+    "Değerler": "D5. Duyarlılık, D17. Tasarruf Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, Becerileri OB8. Sürdürülebilirlik Okuryazarlığı DİSİPLİNLER ARASI Fen Bilimleri",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.5. Sınıflandırma ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.1.4.1. Yaşadığı yerdeki çevre sorunlarına yönelik çözüm önerilerini müzakere edeSÜREÇ BİLEŞENLERİ bilme a) Yaşadığı yerdeki çevre sorunlarını fark eder. b) Yaşadığı yerdeki çevre sorunlarının nedenlerine yönelik farklı bakış açılarını karşılaştırır. c) Yaşadığı yerdeki çevre sorunlarına yönelik çözüm arar. ç) Yaşadığı yerdeki çevre sorunlarına yönelik farklı görüş ve düşünceleri dikkate alarak kendi düşüncelerini düzenler. d) Yaşadığı yerdeki çevre sorunlarına yönelik çözüm yollarını günlük hayatına yansıtır. OTSSÇ.1.4.2. Geri dönüşüm, enerji tasarrufu gibi sürdürülebilir uygulamaları özetleyebilme a) Geri dönüşüm, enerji tasarrufu gibi sürdürülebilir uygulamaları çözümler. b) Geri dönüşüm, enerji tasarrufu gibi sürdürülebilir uygulamaları sınıflandırır. c) Geri dönüşüm, enerji tasarrufu gibi sürdürülebilir uygulamaları yorumlar. OTSSÇ.1.4.3. Geri dönüşüm ve sıfır atık projelerinin katkılarına ilişkin oluşturduğu ürünü paylaşabilme a) Geri dönüşüm ve sıfır atık projelerinin katkılarına ilişkin kanıtlara dayanarak çıkarım yapar. b) Geri dönüşüm ve sıfır atık projelerinin katkılarına ilişkin kanıtlardaki bilgilerden hareketle görüşünü yansıtan ürün oluşturur. c) Geri dönüşüm ve sıfır atık projelerinin katkılarına ilişkin görüşlerine dayalı olarak oluşturduğu ürünü paylaşır.",
+    "İÇERİK ÇERÇEVESİ": "Yaşadığım Yerdeki Çevre Sorunları Tasarruf ve Sürdürülebilirlik Çevre İçin Proje Üretiyorum",
+    "Anahtar Kavramlar": "belediye, bilinç, çevre sorunları, enerji tasarrufu, geri dönüşüm, halk, sıfır atık ÖĞRENME Bu öğrenme alanındaki öğrenme çıktıları; sınıflama tabloları, bütüncül dereceli puanlaKANITLARI ma anahtarları ve performans görevi kullanılarak değerlendirilebilir. (Ölçme ve Performans Görevi: Öğrencilerden geri dönüşüm ve sıfır atık projeleri hakkında edinDeğerlendirme) dikleri bilgilerden ve çıkarımlardan hareketle atık malzemeleri kullandıkları bir ürün oluşturmaları istenebilir. Hazırlanan ürünler, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin günlük yaşamdan çevre sorunlarına (çöp, su kirliliği, enerji israfı, plastik kullanımı vb.) dair farkındalığa sahip oldukları; geri dönüşüm, enerji tasarrufu ve sıfır atık konularında temel düzeyde bilgi sahibi oldukları kabul edilmektedir. Ayrıca öğrencilerin çözüm önerisi geliştirme ve dijital araçlarla ürün oluşturma konusunda deneyim kazanmaya açık oldukları varsayılmaktadır. Ön Değerlendirme Süreci Öğrencilerden verilen bilgi kartlarındaki örnek olayların hangi çevre sorunları ile ilgili olduğunu yazmaları istenebilir. Geri dönüşüm, enerji tasarrufu, sıfır atık gibi uygulamaları açıklamaları ve örneklendirmeleri istenebilir. Öğrencilere plastik şişe, kâğıt, elektronik cihaz gibi atıkları nasıl değerlendirdiklerine ilişkin açık uçlu sorular sorulabilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilerin yaşadıkları yerleşim yerindeki çevre sorunları ile ilgili örnekler vermeleri istenebilir. Yaşadığı yerdeki tasarruf, geri dönüşüm veya sıfır atık ile ilgili projelere örnekler vermeleri istenebilir. Geri dönüşüm ve sıfır atık projeleri sonucu oluşturulan nesnelere örnekler vermeleri istenebilir. Öğrenme-Öğretme OTSSÇ.1.4.1 Uygulamaları Öğrencilere “Yaşadığınız yerde sizi rahatsız eden çevre sorunları neler?” sorusu yöneltilir. Cevap olarak verilen sorunlar tahtaya yazılarak çevre sorunlarını fark etmeleri sağlanır (E3.2, OB1). Küçük gruplar oluşturulur ve her grup bir çevre sorunu seçer (hava kirliliği, su kirliliği, gürültü, atık sorunu, doğal alanların tahribi gibi). Grup olarak seçilen çevre sorunun nedenlerini belirlemeleri istenir. Gruplar \"Ben olsaydım...\" tekniğini kullanarak belediye, halk, sivil toplum kuruluşları (STK), iş sahipleri gibi farklı kesimlerin o çevre sorununa nasıl yaklaştığını ifade ederler. Daha sonra grupların yansıttıkları bakış açılarını karşılaştırmaları istenir (E2.3, E3.3, SDB3.1). Gruplardan problem çözme tekniğini kullanarak çözüm önerileri geliştirmeleri istenir. Bir grubun oluşturduğu çözüm öneri kartı grup sözcüsü tarafından diğer gruplarla paylaşılır ve gruplara farklı bir önerileri olup olmadığı sorulur. Alınan yeni öneriler ile grup üyeleri tekrar değerlendirme yapar ve düşüncelerini yeniden düzenler. Öğrenciler bireysel olarak “Ben Bu Hafta Çevre İçin Ne Yapacağım?” başlıklı bir eylem planı hazırlar (muslukları açık bırakmamak, plastik kullanımını azaltmak, aileyle geri dönüşüm uygulamalarına dikkat etmek, yere çöp atmamak vb.) (E3.3, OB1). Bir hafta sonra öğrencilerden planlarını uygulama sürecine ilişkin deneyimlerini sınıfla paylaşmaları istenir (SDB3.1). Hazırlanan çalışmalar, öz değerlendirme formu ile değerlendirilebilir. OTSSÇ.1.4.2 Sınıfa boş bir plastik şişe, kullanılmış bir kâğıt ve eski bir ampul getirilir. Öğrencilere “Bu atıklar doğaya atılırsa ne olur, bu nesneler diğer çöplerle karıştırılmadan toplanıp yeniden kullanılabilir hâle getirilebilir mi, insanlar bu durumlardan nasıl etkilenir?” soruları yöneltilir. Öğrencilere geri dönüşüm ve enerji tasarrufu gibi sürdürülebilir uygulamalara ilişkin varsayım cümleleri sunulur. Öğrencilerin bu cümlelerden yola çıkarak görüş oluşturmaları ve görüşlerini gerekçeleriyle paylaşmaları sağlanır (E2.3, OB1, OB8). Öğrenciler gruplara ayrılır. Gruplardan geri dönüşüm uygulamaları, enerji tasarrufu yöntemleri ve çevre dostu tüketim alışkanlıkları hakkında araştırma yapmaları istenir. Dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir (OB1, OB2). Gruplardan araştırmalarına dayalı olarak \"Uygulama Türü, Uygulamanın Kullanıldığı Alanlar, Uygulamanın Yararları, Bireysel Katkı Yolları\" başlıklarını içeren sınıflama tablosu hazırlamaları istenir (E3.6, OB4, KB2.5). Gruplar oluşturdukları sınıflama tablolarını poster hâline getirip sunumunu yapar (E3.3, SDB3.1, OB4). Sunum sırasında diğer gruplardan geri dönüşüm, enerji tasarrufu gibi sürdürülebilir uygulamalar ile ilgili olumlu veya olumsuz durumları, beğenilen veya geliştirilmesi gereken yönleri belirlemeleri istenerek yorumlamaları sağlanır. Duyarlılık değeri kapsamında çevreye ve canlılara verilen değere de vurgu yapılır (E3.10, SDB3.3, D5.2). Grupların ürünleri, bütüncül dereceli puanlama anahtarı kullanılarak değerlendirilebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI OTSSÇ.1.4.3 Öğrencilere geri dönüşüm ve sıfır atık projelerinin anlatıldığı pedagojiye uygun kısa videolar izletilir. Öğrenciler videoyu izlerken anahtar kavramları not eder ve özet çıkarır. Öğrencilerin bu veriler üzerinden sorular sormaları istenir. Geri dönüşüm ve sıfır atık projelerinin katkılarına ilişkin düşünmeleri ve çıkarım yapmaları sağlanır. Bu aşamada fen bilimleri dersi kapsamındaki \"kaynakların etkili kullanımında geri dönüşümün önemine yönelik bilimsel çıkarımda bulunabilme\" öğrenme çıktısı ile ilişkilendirilir. İsraftan kaçınmanın önemine değinilerek tasarruf değerinin önemi vurgulanır (E3.10, D17.2, OB1). Öğrenciler yazılı, görsel veya dijital kaynaklardan geri dönüşüm ve sıfır atık projelerinin katkıları ile ilgili araştırma yapar. Dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir (E2.3, OB1, OB2, OB4). Performans görevi olarak ulaştığı bilgilerden ve çıkarımlardan hareketle atık malzemeleri kullandıkları bir ürün oluşturmaları istenebilir (E3.3, SDB3.1, SDB3.3). Öğrenciler ürünlerini sınıf ortamında veya okulun ortak kullanım alanında sergiler. Seçilen ürünler okul web sitesinde yayınlanabilir . Uygulama sonrası öğrencilerle “Bu ürün toplumda neyi değiştirebilir? Sıfır atık uygulamaları bireyde nasıl bir bilinç oluşturur? Küçük adımlar büyük farklar yaratabilir mi?” gibi soruların cevapları üzerine tartışma yapılabilir (E3.10, SDB3.3). Öğrencilerin ürünleri, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Çevre sorunlarıyla ilgili çözüm önerilerini dijital proje raporu, belgesel veya kısa film şeklinde sunabilir. Geri dönüşüm ve enerji tasarrufu üzerine mobil uygulama tasarımı, deneysel mini proje veya dijital bilgi görseli geliştirebilir. “Küçük adımlar, büyük farklar oluşturabilir mi?” sorusunu temel alarak dijital panel veya genel ağ üzerinden yayınlanan ses programı kaydı yapabilir. Destekleme Çevre sorunlarına yönelik basit canlandırma etkinlikleri uygulayabilir. Geri dönüşüm ve enerji tasarrufu yöntemlerini resim boyama etkinlikleri ile somutlaştırabilir. Geri dönüşüm ve enerji tasarrufuna yönelik doğru-yanlış kartları ile oyun hazırlayabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.1.4.1",
+     "order": 1,
+     "text": "Yaşadığı yerdeki çevre sorunlarına yönelik çözüm önerilerini müzakere edeSÜREÇ BİLEŞENLERİ bilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yaşadığı yerdeki çevre sorunlarını fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Yaşadığı yerdeki çevre sorunlarının nedenlerine yönelik farklı bakış açılarını karşılaştırır."
+      },
+      {
+       "label": "c",
+       "text": "Yaşadığı yerdeki çevre sorunlarına yönelik çözüm arar."
+      },
+      {
+       "label": "ç",
+       "text": "Yaşadığı yerdeki çevre sorunlarına yönelik farklı görüş ve düşünceleri dikkate alarak kendi düşüncelerini düzenler."
+      },
+      {
+       "label": "d",
+       "text": "Yaşadığı yerdeki çevre sorunlarına yönelik çözüm yollarını günlük hayatına yansıtır."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.1.4.2",
+     "order": 2,
+     "text": "Geri dönüşüm, enerji tasarrufu gibi sürdürülebilir uygulamaları özetleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Geri dönüşüm, enerji tasarrufu gibi sürdürülebilir uygulamaları çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Geri dönüşüm, enerji tasarrufu gibi sürdürülebilir uygulamaları sınıflandırır."
+      },
+      {
+       "label": "c",
+       "text": "Geri dönüşüm, enerji tasarrufu gibi sürdürülebilir uygulamaları yorumlar."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.1.4.3",
+     "order": 3,
+     "text": "Geri dönüşüm ve sıfır atık projelerinin katkılarına ilişkin oluşturduğu ürünü paylaşabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Geri dönüşüm ve sıfır atık projelerinin katkılarına ilişkin kanıtlara dayanarak çıkarım yapar."
+      },
+      {
+       "label": "b",
+       "text": "Geri dönüşüm ve sıfır atık projelerinin katkılarına ilişkin kanıtlardaki bilgilerden hareketle görüşünü yansıtan ürün oluşturur."
+      },
+      {
+       "label": "c",
+       "text": "Geri dönüşüm ve sıfır atık projelerinin katkılarına ilişkin görüşlerine dayalı olarak oluşturduğu ürünü paylaşır."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 5,
+   "kind": "ÖĞRENME ALANI",
+   "title": "TOPLUMSAL SAĞLIK",
+   "description": "Bu öğrenme alanında öğrencilerin hem bireysel hem de toplumsal düzeyde sağlık sorumluluğu bilinci taşıyan, bilinçli kararlar alabilen ve zararlı alışkanlıklardan uzak durma konusunda donanımlı bireyler olmaları amaçlanmaktadır. ALAN BECERİLERİ KAVRAMSAL KB2.6. Bilgi Toplama, KB2.3. Özetleme BECERİLER",
+   "lesson_hours": 10,
+   "sections": {
+    "EĞİLİMLER": "E3.4. Gerçeği Arama, E3.6. Analitiklik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim Öğrenme Becerileri",
+    "Değerler": "D13. Sağlıklı Yaşam Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER ARASI Türkçe",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.5. Sınıflandırma ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.1.5.1.Toplumsal sağlık sorunlarının nedenleri hakkında bilgi toplayabilme SÜREÇ BİLEŞENLERİ a) Toplumsal sağlık sorunlarının nedenlerini araştıracağı kaynakları belirler. b) Toplumsal sağlık sorunlarının nedenlerini belirlediği kaynaklardan bulur. c) Toplumsal sağlık sorunlarının nedenleri ile ilgili belirlediği kaynaklardan edindiği bilgileri doğrular. ç) Toplumsal sağlık sorunlarının nedenleri ile ilgili belirlediği kaynaklardan edindiği bilgileri kaydeder. OTSSÇ.1.5.2. Bağımlılık türlerini ve uzak durma yollarını özetleyebilme a) Bağımlılık türlerini ve uzak durma yollarını çözümler. b) Bağımlılık türlerini ve uzak durma yollarını sınıflandırır. c) Bağımlılık türlerini ve uzak durma yollarını yorumlar.",
+    "İÇERİK ÇERÇEVESİ": "Toplumsal Sağlık Sorunları Bağımlılıklarla Mücadele",
+    "Anahtar Kavramlar": "bağımlılık, toplumsal sağlık ÖĞRENME Bu öğrenme alanındaki öğrenme çıktıları; sınıflama tabloları, akran değerlendirme ölKANITLARI çekleri ve bütüncül dereceli puanlama anahtarları ile değerlendirilebilir. (Ölçme ve Performans Görevi: Öğrencilerden bağımlılık türlerinin toplum sağlığı üzerindeki etkiDeğerlendirme) lerini ve bunların sonuçlarını örneklendirdikleri bir hikâye yazmaları istenebilir. Öğrenci çalışmaları, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin günlük yaşamlarında sağlıkla ilgili temel bilgileri (sağlıklı yaşam alışkanlıkları, hijyen, dengeli beslenme vb.) gözlemledikleri, bağımlılık kavramını duydukları, bağımlılık türleriyle (teknoloji, alışveriş vb.) çevrelerinde karşılaştıkları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerden çevrelerinde gözlemledikleri sağlık sorunlarına örnek vermeleri istenebilir. Öğrencilere “Sizce insanlar nelere bağımlı olabilir?” sorusu yöneltilebilir ve cevaplar tahtaya yazılabilir. Köprü Kurma T.C. Sağlık Bakanlığı, belediyeler ve STK’lerin yürüttüğü toplum sağlığı projeleri incelenerek toplum sağlığı kavramı üzerine sorular sorulabilir. Öğrencilerden bağımlılığın birey ve topluma verdiği zararları ele alan örnek gazete haberlerini incelemeleri istenir. Ardından öğrencilere “Bağımlılık bir tercih midir, ihtiyaç mıdır?” sorusu yöneltilerek öğrencilerin görüşlerini gerekçeleriyle açıklamaları sağlanır. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme OTSSÇ.1.5.1 Uygulamaları Öğrenciler üçer kişilik gruplar oluşturur. Gruplara toplumsal sağlık sorunlarının nedenlerini araştıracakları yazılı, görsel veya dijital kaynak seçenekleri sunulur. Gruplardan araştırma yapacakları kaynakları belirlemeleri istenir. Belirlenen yazılı, görsel veya dijital kaynaklar grup üyeleri arasında paylaştırılır. Toplumsal sağlık sorunlarının nedenlerini araştırmaları ve bilgi toplamaları istenir. Dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir (E3.4, E3.10, OB1, OB2, OB4). Grup içindeki öğrenciler toplumsal sağlık sorunlarının nedenleri ile ilgili ulaştıkları bilgileri birbirleri ile değiştirir (SDB2.1). Öğrenciler diğer grup üyesi öğrencinin ulaşmış olduğu bilgileri güvenilir kaynaklardan doğrular (E3.10, SDB1.2, OB1, OB2). Yazılı, görsel veya dijital kaynaklardan doğrulanmış olan bilgiler birleştirilir ve bir rapor hâline getirilerek kaydedilir. Öğrenci çalışmaları, akran değerlendirme ölçeği ile değerlendirilebilir. OTSSÇ.1.5.2 Öğrencilere “Bağımlılık denince aklınıza neler geliyor, neleri örnek verebilirsiniz?” sorusu yöneltilir. Düşüncelerini ifade etmeleri istenir (SDB2.1). Sonrasında “İnsan nasıl bağımlı hâle gelir?”, ”Bağımlılıktan kendimizi korumak için neler yapabiliriz?”, ”Hayır diyebilme becerisinin bağımlılıkla mücadeleye etkisi nedir?” soruları ile bir tartışma başlatılır (E3.10, SDB1.2). Öğrencilere bağımlılık türlerini ve bağımlılıktan uzak durma yollarını anlatan pedagojiye uygun kısa bir video izletilir. Sağlıklı yaşam değerinin önemi vurgulanır (D13.3, OB2, OB4). Bağımlılık türleri ve uzak durma yollarını listelemeleri istenerek çözümleme yapmaları sağlanır (E3.4). Öğrenciler üç gruba ayrılır. Her grup teknoloji, tütün, oyun, kumar, alışveriş ve yeme bağımlılıklarını verilen yazılı, görsel veya dijital kaynaklardan inceler. Dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir (OB1, OB2, OB4). Ulaşılan bilgilerden hareketle her grup, bağımlılık türlerini ve bu bağımlılıklardan uzak durma yollarını içeren bir sınıflandırma tablosu hazırlar. Sınıflandırma tablosunda bağımlılıkların belirtileri ve risklerine de yer verilir (E3.6, KB2.5 ). Her grup tablosunu sınıfla paylaşır, diğer gruplar paylaşımları değerlendirir ve eksik veya eklenmesi gereken noktaları yorumlar (E3.10). Ortak sonuçlar tahtaya yazılır. Performans görevi olarak öğrenciler bağımlılık türlerinin toplum sağlığı üzerindeki etkilerini ve bunların sonuçlarını örneklendirdikleri bir hikâye yazmaları istenebilir. Performans görevi sürecinde Türkçe dersinin \"yaratıcı yazı yazabilme\" öğrenme çıktısı ile ilişkilendirilir. Öğrenci çalışmaları, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden toplumsal sağlık sorunlarının nedenleri ile ilgili karşılaştırmalı bir grafik, bilgi görseli veya dijital rapor hazırlamaları istenebilir. Gruplar, bağımlılıkların toplumsal sonuçlarını analiz ederek senaryo veya kısa tiyatro gösterimi yapabilir. Destekleme Toplumsal sağlık sorunları; hazır görseller, kısa haber kupürleri, resimli kartlarla incelenebilir. Çalışma yaprağı veya tablo doldurma etkinliği yapılabilir. Bağımlılık türleri resimlerle tanıtılabilir, öğrencilerden her bağımlılık türü için örnekler yazmaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI nan bilgi ve becerilere yönelik açıklamayı ifade eder. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI DERS SAATİ"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.1.5.1",
+     "order": 1,
+     "text": "Toplumsal sağlık sorunlarının nedenleri hakkında bilgi toplayabilme SÜREÇ BİLEŞENLERİ a) Toplumsal sağlık sorunlarının nedenlerini araştıracağı kaynakları belirler.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Toplumsal sağlık sorunlarının nedenlerini belirlediği kaynaklardan bulur."
+      },
+      {
+       "label": "c",
+       "text": "Toplumsal sağlık sorunlarının nedenleri ile ilgili belirlediği kaynaklardan edindiği bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Toplumsal sağlık sorunlarının nedenleri ile ilgili belirlediği kaynaklardan edindiği bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.1.5.2",
+     "order": 2,
+     "text": "Bağımlılık türlerini ve uzak durma yollarını özetleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bağımlılık türlerini ve uzak durma yollarını çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Bağımlılık türlerini ve uzak durma yollarını sınıflandırır."
+      },
+      {
+       "label": "c",
+       "text": "Bağımlılık türlerini ve uzak durma yollarını yorumlar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 6,
+   "kind": "ÖĞRENME ALANI",
+   "title": "KATILIM",
+   "description": "Disipline özgü VE FARKINDALIK şekilde yapılandıALAN rılan becerileri ifade eder. BECERİLERİ Bu öğrenme alanında öğrencilerin eleştirel düşünebilen, toplumsal sorumluluk bilinci taşıyan, çözüm odaklı ve yaşadığı çevrenin gelişimine katkıda bulunmaya istekli aktif bireyler olarak yetişmeleri amaçlanmaktadır. Öğrenme-öğretme sürecinde BECERİLER ilişkilendirilen sahip olunan becerilerin niyet, duyarlılık, ögeleri doğrultusunda gerekli durumlarda nasıl kullanıldığı ile ilgili zihinsel örüntüleri ifade eder. ALAN SBAB5. Sosyal Katılım (SBAB5.3. Fikir Üretme) BECERİLERİ KAVRAMSAL KB2.10. Çıkarım Yapma PROGRAMLAR ARASI BECERİLER BİLEŞENLER Duyguları yönetmek, empati",
+   "lesson_hours": 10,
+   "sections": {
+    "EĞİLİMLER": "yapmak, E1.1. Merak, E3.3. Yaratıcılık, E3.7. destekleyici ilişkiler Sistematiklik, E3.10. Eleştirel Bakma kurmak ve sağlıklı bir benlik Sosyal-Duygusal geliştirmek için gerekli bilgi, Öğrenme beceri ve eğilimler bütününü Becerileri ifade eder.",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Yeni durumlara uyum sağlamaDeğerler Sosyal-Duygusal SDB3.1. Uyum, SDB3.2. Esneklik, SDB3.3. yı, değişimi farkSorumlu etmeyi ve Karar geliVerme şen teknolojik yenilikleri günlük Öğrenme Becerileri hayatta uygulamayı sağlayan Becerileri becerileri ifade eder.",
+    "Değerler": "D3. Çalışkanlık",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Okuryazarlık Öğrenme OB1. Bilgi Okuryazarlığı, OB2. Dijital çıktılarında doğrudan Okuryazarlık, OB4. Görsel Okuryazarlık kullanılmayan ancak öğrenmeBecerileri öğretme yaşantılarında bu BECERİLER ARASI becerilerle ilişkilendirilerek İLİŞKİLER kullanılan kavramsal becerileri DİSİPLİNLER ARASI ifade eder.",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.7. Karşılaştırma ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.1.6.1. Yakın çevresindeki toplumsal sorunlar hakkında çıkarım yapabilme SÜREÇ BİLEŞENLERİ a) Yakın çevresindeki toplumsal sorunlar hakkında varsayımda bulunur. b) Yakın çevresindeki toplumsal sorunları listeler. c) Yakın çevresindeki toplumsal sorunları karşılaştırır. ç) Yakın çevresindeki toplumsal sorunların etkileri hakkında tahminlerde bulunur. d) Yakın çevresindeki toplumsal sorunların etkilerini değerlendirir. OTSSÇ.1.6.2. Yakın çevresindeki toplumsal sorunların çözümüne yönelik okul temelli farkındalık fikri üretebilme a) Yakın çevresindeki toplumsal sorunların çözülebilmesinin önemini fark eder. b) Yakın çevresindeki toplumsal sorunların çözümüne yönelik benzer deneyimleri inceler. c) Yakın çevresindeki toplumsal sorunların çözümüne yönelik okul temelli farkındalık fikri üretir.",
+    "İÇERİK ÇERÇEVESİ": "Yakın Çevremdeki Toplumsal Sorunlar Yakın Çevremdeki Toplumsal Sorunlara Çözüm Üretiyorum",
+    "Anahtar Kavramlar": "farkındalık, toplumsal sorun ÖĞRENME Bu öğrenme alanındaki öğrenme çıktıları; analitik rubrikler, kontrol listeleri ve perforKANITLARI mans görevi kullanılarak değerlendirilebilir. (Ölçme ve Performans Görevi: Öğrencilerin yakın çevrelerinde gözlemledikleri bir toplumsal soruDeğerlendirme) nun neden, sonuç ve çözüm önerilerini içeren bir tablo oluşturmaları istenebilir. Öğrenci çalışmaları, kontrol listesi ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin günlük yaşamlarında mahalle veya okul çevresinde karşılaştıkları sorunları gözlemledikleri, toplumsal sorunların çözümüne yönelik bireysel sorumluluk ve katılımın önemine dair temel bir farkındalığa sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere toplumsal sorunlarla ilgili kısa haberler veya fotoğraflar gösterilebilir. Ardından “Sizce en önemli toplumsal sorun nedir?” sorusu yöneltilebilir. Öğrencilerden verilen kavram kartlarını (göç, çevre kirliliği, trafik vb.) uygun açıklamalarla eşleştirmeleri istenebilir. “Yaşadığınız çevrede gözlemlediğiniz ve sizi en çok rahatsız eden sorun nedir?” sorusu yöneltilebilir. Öğrencilerin cevapları listelenebilir. Köprü Kurma Geçmişte yaşanmış toplumsal sorunları ( göç dalgaları, kuraklık, ekonomik sıkıntılar vb.) haber kupürleri, tarihî belgeler üzerinden inceleyerek bu örnekleri günümüzdeki benzer sorunlarla karşılaştırmaları istenebilir. Öğrencilerin yakın çevresinde yaşanan toplumsal sorunları yaşantılarından ve gözlemlerinden yola çıkarak ifade etmeleri istenebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme OTSSÇ.1.6.1 Uygulamaları Öğrencilerden “Mahallenizde veya okul çevresinde sizi rahatsız eden bir sorun varsa bu sorunun nedeni ne olabilir?” sorusuna yanıt istenerek varsayımda bulunmaları sağlanır. Öğrencilerin ifade etmiş olduğu toplumsal sorunlar tahtaya yazılarak listelenir (E3.7, SDB3.1, OB1). Öğrencilerden hazırladıkları liste üzerinden çevre temizlik sorunları, trafik yoğunluğu, oyun alanlarının yetersizliği, gıda israfı gibi konuları önem sırasına göre karşılaştırmaları istenir (E3.10, SDB3.3, KB2.7). Listede yer alan her toplumsal sorun için bir grup oluşturulur. Gruplar seçtiği toplumsal sorunun çözülmemesi hâlinde gelecekte toplumu nasıl etkileyeceğine dair tahminlerini senaryolaştırır (SDB3.3). Tahminler üzerinden yansıtıcı düşünme tekniği kullanılarak “Bu sorunlar kimin sorumluluğundadır?\", \"Bu sorunlar bizim yaşam kalitemizi nasıl etkiler?\", \"Çözüm üretmek neden önemlidir?” gibi sorularla tartışma başlatılır. Tartışma bitiminde öğrencilerden seçtikleri sorunun etkilerini bireysel olarak değerlendirmeleri istenir. Performans görevi olarak yakın çevrelerinde gözlemledikleri bir toplumsal sorunun nedenlerini, sonuçlarını ve çözüm önerilerini içeren bir tablo oluşturmaları istenebilir. Öğrenci çalışmaları, kontrol listesi ile değerlendirilebilir. OTSSÇ.1.6.2 “Sizce yaşadığınız mahallede veya okul çevresinde herkesin farkında olması gereken ama yeterince konuşulmayan hangi sorunlar var?” sorusunun tartışılması ile öğrencilerin yakın çevresindeki toplumsal sorunların çözülebilmesinin önemini fark etmeleri sağlanır (E1.1, SDB3.1, OB1). Öğrencilere farklı yerlerdeki okul temelli toplumsal sorumluluk uygulamalarını anlatan pedagojiye uygun kısa videolar, haber kupürleri, röportajlar veya proje tanıtım afişleri gösterilerek incelemeleri istenir (E3.3, SDB3.2, OB2, OB4). Öğrenciden kendi çevresinde tespit ettiği bir sorunun çözümüne yönelik okul temelli farkındalık oluşturacak fikir üretmesi istenir. Çalışmalarda aktif olması vurgulanarak çalışkanlık değerine değinilir (D3.4). Hazırlanan fikirler sınıf önünde paylaşılır. Diğer öğrencilerden sorunun toplum üzerindeki etkisini, fikrin uygulanabilirliğini, etki alanını değerlendiren geri bildirimler vermesi istenir (E3.10, SDB3.3). En uygulanabilir ve özgün fikirler seçilir, okul panosunda sergilenebilir veya okul yönetimine sunulabilir. Öğrencilerin ürünleri, kontrol listesi ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden toplumsal sorunun çözülmemesi hâlinde gelecekte ortaya çıkaracağı etkileri dijital hikâye, kısa film veya animasyon olarak senaryolaştırmaları istenebilir. Çevresindeki sorunları farkındalık oluşturacak şekilde dijital kampanya, broşür, afiş veya kamu spotu olarak tasarlayabilirler. Destekleme Yakın çevresindeki toplumsal sorunlar ile ilgili yarım bırakılmış senaryoyu tamamlama etkinliği yapılabilir. Öğrencilerden toplumsal bir sorun belirlemeleri ve bunu çizim, poster veya kısa slogan ile ifade etmeleri sağlanabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI 2.1. II. DÜZEY"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.1.6.1",
+     "order": 1,
+     "text": "Yakın çevresindeki toplumsal sorunlar hakkında çıkarım yapabilme SÜREÇ BİLEŞENLERİ a) Yakın çevresindeki toplumsal sorunlar hakkında varsayımda bulunur.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Yakın çevresindeki toplumsal sorunları listeler."
+      },
+      {
+       "label": "c",
+       "text": "Yakın çevresindeki toplumsal sorunları karşılaştırır."
+      },
+      {
+       "label": "ç",
+       "text": "Yakın çevresindeki toplumsal sorunların etkileri hakkında tahminlerde bulunur."
+      },
+      {
+       "label": "d",
+       "text": "Yakın çevresindeki toplumsal sorunların etkilerini değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.1.6.2",
+     "order": 2,
+     "text": "Yakın çevresindeki toplumsal sorunların çözümüne yönelik okul temelli farkındalık fikri üretebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yakın çevresindeki toplumsal sorunların çözülebilmesinin önemini fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Yakın çevresindeki toplumsal sorunların çözümüne yönelik benzer deneyimleri inceler."
+      },
+      {
+       "label": "c",
+       "text": "Yakın çevresindeki toplumsal sorunların çözümüne yönelik okul temelli farkındalık fikri üretir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 1,
+   "kind": "ÖĞRENME ALANI",
+   "title": "SOSYAL SORUMLULUK",
+   "description": "Bu öğrenme alanında öğrencilerin toplumsal duyarlılığı yüksek, sorumluluk bilinci gelişmiş, bireysel katkının toplumsal etkisini kavrayabilen ve etkin vatandaşlık anlayışı geliştiren bireyler olarak yetişmeleri amaçlanmaktadır. ALAN BECERİLERİ KAVRAMSAL KB2.3. Özetleme, KB2.9. Genelleme, KB2.14. Yorumlama BECERİLER",
+   "lesson_hours": 13,
+   "sections": {
+    "EĞİLİMLER": "E2.2. Sorumluluk, E3.3. Yaratıcılık, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim, SDB3.1. Uyum Öğrenme Becerileri",
+    "Değerler": "D8. Mahremiyet, D16. Sorumluluk Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER ARASI Görsel Sanatlar",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.5. Sınıflandırma, KB2.6. Bilgi Toplama ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.2.1.1. Eğitim, sağlık ve çevre alanlarındaki sosyal sorumluluk çalışmalarını özetleyebilSÜREÇ BİLEŞENLERİ me a) Eğitim, sağlık ve çevre alanlarındaki sosyal sorumluluk çalışmalarını çözümler. b) Eğitim, sağlık ve çevre alanlarındaki sosyal sorumluluk çalışmalarını sınıflandırır. c) Eğitim, sağlık ve çevre alanlarındaki sosyal sorumluluk çalışmalarını yorumlar. OTSSÇ.2.1.2. Sorumluluk bilinciyle hareket eden bireylerin ortak özelliklerini genelleme yapabilme a) Sorumluluk bilinciyle hareket eden bireylerin ortak özellikleri hakkında bilgi toplar. b) Sorumluluk bilinciyle hareket eden bireylerin ortak özelliklerini belirler. c) Sorumluluk bilinciyle hareket eden bireylerin farklı özelliklerini belirler. ç) Sorumluluk bilinciyle hareket eden bireylerin ortak özellikleri hakkında önermelerde bulunur. OTSSÇ.2.1.3. Sosyal sorumluluk çalışmalarının birey ve toplum ilişkisi üzerindeki etkisini yorumlayabilme a) Sosyal sorumluluk çalışmalarının birey ve toplum ilişkisi üzerindeki etkisini inceler. b) Sosyal sorumluluk çalışmalarının birey ve toplum ilişkisi üzerindeki etkisini bağlamdan kopmadan dönüştürür. c) Sosyal sorumluluk çalışmalarının birey ve toplum ilişkisi üzerindeki etkisini ifade eder.",
+    "İÇERİK ÇERÇEVESİ": "Sosyal Sorumlulukta Temel Alanlar Sorumlulukta Ortak Noktalar Sorumlulukla Yaşamak",
+    "Anahtar Kavramlar": "duyarlılık, katılım, sosyal sorumluluk ÖĞRENME Bu öğrenme alanındaki öğrenme çıktıları; gözlem formları, öz değerlendirme formları, KANITLARI bütüncül dereceli puanlama anahtarı, kontrol listeleri ve performans görevi kullanılarak (Ölçme ve değerlendirilebilir. Değerlendirme) Performans Görevi: Eğitim, sağlık ve çevre alanlarındaki sosyal sorumluluk projelerini araştırıp “Sosyal Sorumluluk Alanları Tablosu” hazırlaması istenebilir. Öğrencilerin hazırladıkları “Sosyal Sorumluluk Alanları Tablosu”, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin çevrelerinde sosyal sorumluluk çalışmalarıyla karşılaştıkları sorumluluk bilinci, gönüllülük ve bireysel katkıların topluma etkisi hakkında temel düzeyde bilgiye sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerden daha önce katıldıkları veya tanık oldukları bir sosyal sorumluluk projesi hakkında haber metni yazmaları istenebilir. Öğrencilerden kendi yaptıkları sorumluluk örneklerini (evde, okulda, arkadaş ilişkilerinde vb.) kısaca yazmaları ve sınıfta paylaşmaları istenebilir. Öğrencilere “Aileniz veya okulunuzda sergilediğiniz hangi davranış çevrenizi olumlu etkiledi?” gibi açık uçlu sorular sorulabilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilere “Parklarda gördüğünüz 'Çöplerinizi çöp kutusuna atınız!' yazısı da bir sosyal sorumluluk çağrısıdır. Sizce bu yazının toplumsal etkisi ne olabilir?” gibi açık uçlu sorular sorulabilir. Öğrencilerden ailelerindeki bir kişinin sorumluluk bilincini gösteren davranışlarına örnekler vermeleri istenebilir. Öğrencilere okulda daha önce yapılmış bir sosyal sorumluluk etkinliği (kermes, yardım kampanyası, temizlik günü) hatırlatılabilir. Öğrencilerden bu etkinlikte bireylerin katkılarını ve topluma sağladığı faydaları listelemeleri istenebilir. Öğrenme-Öğretme OTSSÇ.2.1.1 Uygulamaları Öğrencilere çeşitli sosyal sorumluluk projeleri ile ilgili pedagojiye uygun örnek kısa videolar izletilir. Bu sosyal sorumluluk projelerinin hangi alanlarda yapıldığı, kimlerin bu projelere katıldığı, proje sürecinin nasıl ilerlediği gibi soruların cevapları aratılarak öğrencilerden çözümleme yapmaları sağlanır (E2.2, E3.10, SDB3.1). Öğrencilerden gruplar oluşturarak eğitim, sağlık ve çevre alanlarındaki sosyal sorumluluk projeleri hakkında verilen yazılı, görsel veya dijital kaynaklardan araştırma yapmaları istenir. Dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir (OB1, OB2, OB4). Performans görevi olarak gruplardan eğitim, sağlık ve çevre alanlarında “Sosyal Sorumluluk Alanları Tablosu” hazırlayarak sınıflandırma yapmaları istenebilir. Tabloda \"alan, kurum veya sivil toplum kuruluşu, uygulama örneği, hedef kitle, etkisi\" sütunları yer alabilir. Her grup sınıfta sözlü sunum yapabilir (E2.2). Öğrencilerin eğitim, sağlık ve çevre alanındaki sosyal sorumluluk çalışmaları üzerine tartışma yapılarak yorumlamaları sağlanır. Bu noktada insanların topluma karşı görevlerini yerine getirmelerine yönelik özlü sözlere yer verilerek sorumluluk değeri vurgulanır (D16.2). Öğrencilerin hazırladıkları “Sosyal Sorumluluk Alanları Tablosu”, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. OTSSÇ.2.1.2 Tahtaya “Yakın çevrenizde bulunan ve sorumluluklarını yerine getiren insanlara örnekler veriniz. Bu insanların hangi davranışları onları örnek vermenize neden olmuştur?” sorusu yazılır. Öğrenciler bireysel olarak düşündükten sonra örneklerini sınıfla paylaşır. Sorumluluk bilinciyle hareket eden bireyleri konu alan gerçek haber, röportaj metinleri, kısa belgesel kesitler veya dijital içerikler incelenir ve bilgi toplanır. Dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir. Görsel sanatlar dersinin \"görsel mesajı okuma becerisi\" ile ilişkilendirme yapılır. (OB1, OB2, OB4, KB2.6). Toplanan bilgilerden “bilgi kartları” oluşturulur. Oluşturulan bilgi kartlarından hareketle sorumluluk sahibi insanların ortak özellikleri belirlenir. Aynı şekilde sorumluluk sahibi insanların farklı özellikleri de belirlenir. Öğrenciler bu özellikleri çift yönlü Venn diyagramı veya sınıflama tablosu ile gösterir (KB2.5). Öğrenciler elde ettikleri ortak özelliklerden yola çıkarak “Sorumluluk bilinciyle hareket eden birey…” şeklinde başlayan önermeler yazar (E3.3). Bu önermelerden seçilenler sınıf panosuna asılır ve paylaşılır. Öğrencilerin ürünleri öz değerlendirme formu ile değerlendirilebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI OTSSÇ.2.1.3 Öğrencilere farklı sosyal sorumluluk projelerine ilişkin (pedagojiye uygun haber metni, afiş, kısa video, broşür vb.) örnekler sunulur (OB1, OB2). Bu amaçla “İnceleme Formu” hazırlanır. Formda \"Projenin Adı, Alanı, Projeye Katılan Bireylerin Duygu ve Düşüncelerin­ deki Değişim, Bireyler Arası İlişkilerdeki Etkisi, Toplumda Dayanışma, Güven, Aidiyet, Gö­nüllülük Duygularına Katkısı\" gibi başlıklar yer alır. Öğrenciler bu formu bireysel veya grup hâlinde doldurarak sosyal sorumluluk çalışmalarının birey ve toplum ilişkisi üzerindeki etkilerini inceler (E2.2, OB1, OB2). Ardından her gruptan inceledikleri sosyal sorumluluk çalışmasının birey-toplum ilişkisine etkilerini bağlamdan kopmadan farklı bir biçime dönüştürmeleri istenir (SDB2.1). Örneğin haber metnini kısa bir drama metnine, video içeriğini çizgi öyküye (karikatür/çizgi roman), afişi dijital bir sosyal medya paylaşım taslağına veya broşürü bilgilendirici bir radyo/podcast metnine dönüştürmeleri beklenir (SDB3.1). Bu süreçte kişisel bilgilerin gizliliğinin korunmasının önemi ifade edilir (D8.2). Böylece öğrenciler, sosyal sorumluluk çalışmalarının birey ve toplum ilişkisine etkilerini bağlamı bozmadan farklı ifade biçimlerine dönüştürür (E3.10, SDB3.1, OB4). Son aşamada gruplar hazırladıkları drama, çizgi öykü, sosyal medya paylaşım taslağı veya radyo/podcast metnini sınıfta sunar. Sunum sonrasında diğer öğrencilerden sunulan çalışmada birey ve toplum ilişkisine dair hangi etkilerin vurgulandığını sözlü olarak ifade etmeleri istenir (SDB2.1). Öğretmen “Bu projede birey-toplum ilişkisi nasıl etkileniyor?”, “Bireyin sorumluluk alması toplumda ne tür değişikliklere yol açıyor?” gibi sorularla tartışmayı yönlendirir. Öğrencilerin hem kendi ürünleri hem de arkadaşlarının ürünleri üzerinden sosyal sorumluluk çalışmalarının birey ve toplum ilişkisi üzerindeki etkilerini sözlü ve yazılı olarak ifade etmeleri sağlanır. Öğrencilerin dönüştürdükleri ürünler ve yaptıkları sözlü/yazılı ifade çalışmaları bütüncül dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Eğitim, sağlık ve çevre alanlarında seçtikleri bir sosyal sorumluluk projesini afiş veya bilgi görseli şeklinde sunabilirler. Sorumluluk sahibi bireylerin ortak özelliklerini anlatan özlü sözler, resimler, karikatürler veya bilgi görselleri hazırlayarak sınıf panosunda sergileyebilirler. Sosyal sorumluluk örneklerinden yola çıkarak rol canlandırma (drama) veya kısa tiyatro gösterisi hazırlayabilirler. Destekleme Sosyal sorumluluk projelerini hazır görseller veya kısa hikâyeler üzerinden inceleyebilirler. “Sorumluluk bilinciyle hareket eden birey…” şeklinde başlayan önermeler tek cümlelik basit not kartlarına yazdırılabilir. “Senin bireysel davranışların çevrende neleri değiştirebilir?” sorusuna yönelik çalışmaları resim, küçük afiş veya kısa slogan ile ifade etmeleri istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.2.1.1",
+     "order": 1,
+     "text": "Eğitim, sağlık ve çevre alanlarındaki sosyal sorumluluk çalışmalarını özetleyebilSÜREÇ BİLEŞENLERİ me",
+     "components": [
+      {
+       "label": "a",
+       "text": "Eğitim, sağlık ve çevre alanlarındaki sosyal sorumluluk çalışmalarını çözümler."
+      },
+      {
+       "label": "b",
+       "text": "Eğitim, sağlık ve çevre alanlarındaki sosyal sorumluluk çalışmalarını sınıflandırır."
+      },
+      {
+       "label": "c",
+       "text": "Eğitim, sağlık ve çevre alanlarındaki sosyal sorumluluk çalışmalarını yorumlar."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.2.1.2",
+     "order": 2,
+     "text": "Sorumluluk bilinciyle hareket eden bireylerin ortak özelliklerini genelleme yapabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Sorumluluk bilinciyle hareket eden bireylerin ortak özellikleri hakkında bilgi toplar."
+      },
+      {
+       "label": "b",
+       "text": "Sorumluluk bilinciyle hareket eden bireylerin ortak özelliklerini belirler."
+      },
+      {
+       "label": "c",
+       "text": "Sorumluluk bilinciyle hareket eden bireylerin farklı özelliklerini belirler."
+      },
+      {
+       "label": "ç",
+       "text": "Sorumluluk bilinciyle hareket eden bireylerin ortak özellikleri hakkında önermelerde bulunur."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.2.1.3",
+     "order": 3,
+     "text": "Sosyal sorumluluk çalışmalarının birey ve toplum ilişkisi üzerindeki etkisini yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Sosyal sorumluluk çalışmalarının birey ve toplum ilişkisi üzerindeki etkisini inceler."
+      },
+      {
+       "label": "b",
+       "text": "Sosyal sorumluluk çalışmalarının birey ve toplum ilişkisi üzerindeki etkisini bağlamdan kopmadan dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Sosyal sorumluluk çalışmalarının birey ve toplum ilişkisi üzerindeki etkisini ifade eder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 2,
+   "kind": "ÖĞRENME ALANI",
+   "title": "TOPLUMSAL DEĞERLER VE AHLAK",
+   "description": "Bu öğrenme alanında öğrencilerin hem yüz yüze hem de dijital ortamlarda toplumsal değerlere uygun hareket eden, bilinçli, duyarlı ve toplumsal bütünleşmeye katkıda bulunan bireyler olmaları amaçlanmaktadır. ALAN SBAB5. Sosyal Katılım (SBAB5.3. Fikir Üretme) BECERİLERİ KAVRAMSAL KB2.14. Yorumlama, KB2.15. Yansıtma BECERİLER",
+   "lesson_hours": 12,
+   "sections": {
+    "EĞİLİMLER": "E3.3. Yaratıcılık, E3.5. Açık Fikirlilik, E3.6. Analitiklik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB3.1. Uyum, Öğrenme Becerileri SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D8. Mahremiyet Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER ARASI Görsel Sanatlar, Bilişim Teknolojileri ve Yazılım, Türkçe",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.11. Gözleme Dayalı Tahmin Etme ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.2.2.1. Toplumsal değerler ve ahlak ilkelerinin toplumsal bütünleşmedeki rolünü yoSÜREÇ BİLEŞENLERİ rumlayabilme a) Toplumsal değerler ve ahlak ilkelerinin toplumsal bütünleşmedeki rolünü inceler. b) Toplumsal değerler ve ahlak ilkelerinin toplumsal bütünleşmedeki rolünü yazılı, görsel ve dijital ürünlere dönüştürür. c) Toplumsal değerler ve ahlak ilkelerinin toplumsal bütünleşmedeki rolünü kendi cümleleriyle ifade eder. OTSSÇ.2.2.2. Günlük yaşamda karşılaştığı durumlara değer odaklı fikir üretebilme a) Günlük yaşamda karşılaştığı durumları fark eder. b) Günlük yaşamda karşılaştığı durumlara ilişkin benzer deneyimleri inceler. c) Günlük yaşamda karşılaştığı durumlara ilişkin değer odaklı fikir üretir. OTSSÇ.2.2.3. Dijital ortamlarda toplumsal değerler ve ahlak ilkelerine uygun davranış örneklerini yansıtabilme a) Dijital ortamlardaki toplumsal değerler ve ahlak ilkelerine uygun davranış örneklerini gözden geçirir. b) Dijital ortamlarda uyulması gereken toplumsal değerler ve ahlak ilkelerine uygun davranış örneklerine ilişkin çıkarım yapar. c) Dijital ortamlarda uyulması gereken toplumsal değerler ve ahlak ilkelerine uygun davranış örneklerine ilişkin çıkarımları değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Değerler ve Ahlak İlkeleriyle Bütünleşme Değer Temelli Düşünme Dijital Ortamda Etik Tutum",
+    "Anahtar Kavramlar": "dijital ahlak, empati, toplumsal bütünleşme ÖĞRENME Bu öğrenme alanındaki öğrenme çıktıları; gözlem formları, bütüncül dereceli puanlama KANITLARI anahtarı ve performans görevi kullanılarak değerlendirilebilir. (Ölçme ve Performans Görevi: Günlük yaşamda karşılaşılan durumlara yönelik “Ben olsaydım…” teDeğerlendirme) malı senaryo yazarak çözüm önerileri geliştirmeleri istenebilir. Öğrenci ürünleri, bütüncül dereceli puanlama anahtarı kullanılarak değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin toplumsal yaşamda birlik, yardımlaşma, saygı, adalet gibi değerlerle karşılaştıkları; günlük yaşamda değer odaklı kararlar verdikleri ve dijital ortamlarda etik kuralların önemine dair temel bir farkındalık taşıdıkları kabul edilmektedir. Ön Değerlendirme Süreci Konuşma halkası tekniği kullanılarak “Bir toplumda insanlar ahlak ilkelerine uymazsa ne olur?” sorusu tartışılabilir. Öğrencilerin \"Günlük Hayatta Değerli Davranışlar\" konulu kısa bir slogan yazmaları istenebilir. Öğrencilere “Genel ağda gördüğünüz ve sizi rahatsız eden bir paylaşımı hiç şikâyet ettiniz mi?\", \"Şikâyet ettiyseniz nedenini açıklayınız.” gibi açık uçlu sorular sorulabilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilerden toplumsal bütünleşmeye katkıda bulunan davranışlara örnek vermeleri istenebilir. Tahtaya “adalet, sorumluluk, saygı, sevgi” kelimeleri yazılır. Öğrencilerden bu kelimelerden birini seçip günlük yaşamdan örnek vermeleri istenebilir. Öğrencilerin dijital ortamda kendilerini mutlu eden veya üzen bir yoruma örnek vermeleri istenebilir. Öğrenme-Öğretme OTSSÇ.2.2.1 Uygulamaları Öğrencilere toplumsal yaşamı konu alan pedagojiye uygun kısa videolar, karikatürler veya haber başlıkları sunulur (OB1, OB4). Bu içeriklerdeki birlik, yardımlaşma, adalet, saygı gibi değerlerin toplumsal hayatı nasıl etkilediği tartışmaya açılarak incelenmesi sağlanır (E3.5, SDB2.1, OB1). Ayrıca dijital platformlardan örnek alınan içeriklerle ahlak ilkelerinin toplumu nasıl birleştirici rol üstlendiği incelenebilir (OB2). Öğrencilere toplumsal değer ve ahlak ilkelerinden örnek kavramlar paylaştırılır. Öğrenciler kendilerine verilen kavramın toplum hayatındaki etkilerini yazılı, görsel veya dijital kaynaklardan araştırır. Dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir (OB1, OB2). Öğrenciler seçtikleri değer veya ilkenin toplumsal bütünleşmeye nasıl katkıda bulunduğunu anlatan kısa bir hikâye, dijital afiş, poster veya video sunusu hazırlar. Bu aşamada Türkçe dersinin \"yaratıcı yazı yazma\", bilişim teknolojileri ve yazılım dersinin \"görsel için kurgu oluşturabilme\" ve görsel sanatlar dersinin \"sanatsal ürün oluşturma\" becerilerinden yararlanılabilir (E3.3, OB4). Öğrenciler bu ürünlerde toplumsal değerlerin, ahlak ilkelerinin korunmasının neden önemli olduğu ve bunların kaybolmasının toplumsal bütünleşmede ne gibi sorunlara yol açabileceğine kendi ifadeleriyle yer verirler (E3.10). Öğrenci ürünleri, bütüncül dereceli puanlama anahtarı kullanılarak değerlendirilebilir. OTSSÇ.2.2.2 Tahtaya “Markette önüne geçen birine nasıl davranırsın?“, “Sınıf arkadaşını üzgün ve sessiz görsen ne yaparsın?“, “Yolda bir çöp kutusunun yanına bırakılmış çöp görürsen ne düşünürsün?“, “Okul kantininde parasını düşüren biri olduğunda nasıl davranırsın?” gibi öğrencilerin günlük yaşamda karşılaşabileceği problem durumları yazılır (E3.5, E3.6, SDB3.3, OB4). Her duruma ilişkin kişisel deneyimlerini düşünmeleri ve yaşadıkları benzer durumları sınıf arkadaşlarıyla paylaşmaları istenerek öğrencilerin günlük yaşamda karşılaştıkları durumları fark etmeleri sağlanır (E3.3, SDB2.1). Öğrencilere pedagojiye uygun çizgi film, kısa video veya çocuk hikâyelerinden kesitler izletilerek günlük yaşamlarında karşılaştıkları benzer durumları incelemeleri sağlanır (SDB3.1, OB2, OB4, KB2.11). Öğrencilere günlük yaşamda karşılaşabilecekleri durum örnekleri verilir ve bir örneği seçmeleri istenir. Performans görevi olarak öğrencilerden “Ben olsaydım...” temasını kullanarak değer odaklı bir senaryo yazmaları ve çözüm önerisi geliştirmeleri istenebilir (SDB2.1). Öğrenci ürünleri, bütüncül dereceli puanlama anahtarı kullanılarak değerlendirilebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI OTSSÇ.2.2.3 “Dijital ortamda bir arkadaşınızın fotoğrafını izinsiz paylaşmak sizce doğru mu?\", \"Neden?” sorularıyla öğrencilerin dijital ortamlardaki ahlak ve değer sorunlarına dikkati çekilir. Bu durumun hangi değeri ihlal ettiği sorularak sosyal ilişkilerde kişisel alanların korunması gerektiği vurgulanır (D8.4, OB2). Öğrenciler 3-4 kişilik gruplara ayrılır. Gruplara sosyal medyada hakaret içeren yorumlar, izinsiz içerik paylaşımı, yanlış bilgi yayma, destekleyici ve pozitif yorumlarla moral verme, bilinçli ve güvenilir içerik paylaşımı gibi durumları içeren pedagojiye uygun kısa örnek senaryolar dağıtılır. Gruplardan verilen senaryolardaki doğru ve uygun davranışları belirlemeleri istenir. Bu davranışların hangi değerlere ve ahlak ilkelerine uygun olduğu tartışılır. Gruplardan dijital ortamda uyulması gereken toplumsal değer ve ahlak ilkelerini madde madde çıkarım yapmaları ve çıkarımlarını “Dijital Ahlak Kodu” adıyla listelemeleri istenir (E3.3, SDB3.3). Her gruptan yapmış olduğu çıkarımları dikkate alarak dijital ortamda uyulması gereken toplumsal değer ve ahlak ilkelerine uygun davranış örneklerini canlandırmaları istenir (SDB2.1). Yapılan çıkarımların değerlendirmesini yapabilmeleri için öğrencilerden \"Dijital Ortamda En Çok Dikkat Etmem Gereken Kurallar\" başlıklı kısa bir metin yazmaları istenir (E3.6, SDB1.2, SDB3.3,OB1). Grup çalışmaları ve ve bireysel çalışmalar bütüncül dereceli puanlama anahtarı ve gözlem formu kullanarak değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Toplumsal değerlerin kaybolması hâlinde oluşabilecek durumları gelecek senaryosu olarak yazabilirler. Günlük yaşamda karşılaşabilecekleri durumlardan birini seçerek (markette önüne geçen birine tepki verme, üzgün bir arkadaşına yaklaşma, çöpleri çöp kutusuna atma, kantinde düşürülen parayı sahibine verme vb.) bu durumun değer odaklı çözümüne yönelik kısa bir tiyatro veya drama gösterisi hazırlamaları istenebilir. Öğrencilerin sosyal medyada olumlu içerikler üreten bir kişiyle röportaj yapmaları istenebilir. Destekleme Toplumsal değerler ve ahlak ilkelerinden birini seçerek slogan yazmaları istenebilir. Günlük yaşamda karşılaşabilecekleri durumlardan birini seçerek (markette önüne geçen birine tepki verme, üzgün bir arkadaşına yaklaşma, çöpleri doğru yere atma, kantinde düşürülen parayı sahibine verme vb.) bu durumun değer odaklı çözümüne yönelik “Ben olsaydım … yapardım.” şeklinde kısa cümle kurmaları istenebilir. Dijital ortamdaki davranışları ilgili olduğu toplumsal değerler ve ahlak ilkeleri ile eşleştirmeleri istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.2.2.1",
+     "order": 1,
+     "text": "Toplumsal değerler ve ahlak ilkelerinin toplumsal bütünleşmedeki rolünü yoSÜREÇ BİLEŞENLERİ rumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Toplumsal değerler ve ahlak ilkelerinin toplumsal bütünleşmedeki rolünü inceler."
+      },
+      {
+       "label": "b",
+       "text": "Toplumsal değerler ve ahlak ilkelerinin toplumsal bütünleşmedeki rolünü yazılı, görsel ve dijital ürünlere dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Toplumsal değerler ve ahlak ilkelerinin toplumsal bütünleşmedeki rolünü kendi cümleleriyle ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.2.2.2",
+     "order": 2,
+     "text": "Günlük yaşamda karşılaştığı durumlara değer odaklı fikir üretebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Günlük yaşamda karşılaştığı durumları fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Günlük yaşamda karşılaştığı durumlara ilişkin benzer deneyimleri inceler."
+      },
+      {
+       "label": "c",
+       "text": "Günlük yaşamda karşılaştığı durumlara ilişkin değer odaklı fikir üretir."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.2.2.3",
+     "order": 3,
+     "text": "Dijital ortamlarda toplumsal değerler ve ahlak ilkelerine uygun davranış örneklerini yansıtabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dijital ortamlardaki toplumsal değerler ve ahlak ilkelerine uygun davranış örneklerini gözden geçirir."
+      },
+      {
+       "label": "b",
+       "text": "Dijital ortamlarda uyulması gereken toplumsal değerler ve ahlak ilkelerine uygun davranış örneklerine ilişkin çıkarım yapar."
+      },
+      {
+       "label": "c",
+       "text": "Dijital ortamlarda uyulması gereken toplumsal değerler ve ahlak ilkelerine uygun davranış örneklerine ilişkin çıkarımları değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 3,
+   "kind": "ÖĞRENME ALANI",
+   "title": "TOPLUMSAL YARDIMLAŞMA",
+   "description": "Bu öğrenme alanında öğrencilerin toplumsal sorunlara duyarlı, gönüllülük bilinci gelişmiş, iş birliği yapabilen ve düşüncelerini eyleme dönüştürebilen aktif ve sorumlu bireyler olarak yetişmeleri amaçlanmaktadır. ALAN SBAB2. Kanıta Dayalı Sorgulama ve Araştırma (SBAB2.2. Kaynaklardan Bilgi Toplama), BECERİLERİ SBAB5. Sosyal Katılım (SBAB5.5. Fikri Eyleme Dönüştürme) KAVRAMSAL KB2.18. Tartışma BECERİLER",
+   "lesson_hours": 12,
+   "sections": {
+    "EĞİLİMLER": "E3.3. Yaratıcılık, E3.4. Gerçeği Arama, E3.5. Açık Fikirlilik, E3.6. Analitiklik, E3.9. Şüphe Duyma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme, SDB2.1. İletişim, SDB2.3. Sosyal Farkındalık, Öğrenme Becerileri SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D20. Yardımseverlik Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, Becerileri OB6. Vatandaşlık Okuryazarlığı DİSİPLİNLER ARASI Sosyal Bilgiler, Türkçe",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.1. Çelişki Giderme ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.2.3.1. Toplumsal sorunların çözümünde STK ve kamu kurumlarının çalışmaları hakSÜREÇ BİLEŞENLERİ kında kaynaklardan bilgi toplayabilme a) Toplumsal sorunların çözümünde STK ve kamu kurumlarının çalışmaları ile ilgili kaynakları belirler. b) Toplumsal sorunların çözümünde STK ve kamu kurumlarının çalışmaları ile ilgili belirlediği kaynaklardan bilgileri bulur. c) Toplumsal sorunların çözümünde STK ve kamu kurumlarının çalışmaları ile ilgili belirlediği kaynakların uygunluğunu açıklar. ç) Toplumsal sorunların çözümünde STK ve kamu kurumlarının çalışmaları ile ilgili belirlediği kaynaklardan ulaştığı bilgileri kaydeder. OTSSÇ.2.3.2. Gönüllülüğün bireysel gelişim ve topluma katkısını tartışabilme a) Gönüllülüğün bireysel gelişim ve topluma katkılarını gerekçeleriyle sunar. b) Gönüllülüğün bireysel gelişim ve topluma katkıda bulunması hakkında çelişkileri tespit eder. c) Gönüllülüğün bireysel gelişim ve topluma katkısı hakkındaki görüşleri kabul eder veya çürütür. OTSSÇ.2.3.3. Sosyal yardımlaşma için sınıf içinde küçük bir kampanya fikrini eyleme dönüştürebilme a) Sosyal yardımlaşma için bir kampanya planı yapar. b) Sosyal yardımlaşma için yaptığı kampanya planını uygular. c) Sosyal yardımlaşma için yaptığı kampanya planını değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Sorunların Çözümünde Kimler Var? Gönüllülüğün Rolü ve Önemi Küçük Kampanya, Büyük Destek",
+    "Anahtar Kavramlar": "çelişki, çürütme, görüş, kampanya, savunma ÖĞRENME Bu öğrenme alanındaki öğrenme çıktıları; derecelendirme ölçeği, öz değerlendirme forKANITLARI mu, kontrol listeleri ve performans görevi kullanılarak değerlendirilebilir. (Ölçme ve Performans Görevi: STK ve kamu kurumlarının toplumsal sorunların çözümündeki çaDeğerlendirme) lışmalarını araştırarak rapor hazırlamaları ve sunmaları istenebilir. Hazırlanan raporlar derecelendirme ölçeği ile sunumlar ise kontrol listesi ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin aile veya çevrelerinde yardımlaşma örnekleriyle karşılaştıkları, STK ve kamu kurumlarının toplumsal sorunların çözümünde rol oynadığını bildikleri, gönüllülük faaliyetleri konusunda temel farkındalığa sahip oldukları kabul edilmektedir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Ön Değerlendirme Süreci Öğrencilerden bir yardım kampanyası, afet çalışması veya çevre etkinliği düzenleyen STK veya kamu kurumlarına örnekler vermeleri istenebilir. Gönüllülerin yardım dağıttığı veya çevre temizliği yaptığı bir fotoğraf gösterilir. “Bu resimdeki insanlar ne yapıyor olabilir?\", \"Bunun topluma katkısı nedir?” gibi açık uçlu sorular sorulabilir. Yardım kolileri hazırlayan öğrencilerin görseli gösterilir. “Bu görseldeki öğrenciler ne yapıyor?\", \"Sizce bu çalışma hangi değeri yansıtıyor?\" gibi açık uçlu sorular sorulabilir. Köprü Kurma Öğrencilerin yaşadıkları çevredeki bir toplumsal sorunun çözümüne katkıda bulunan STK (Sivil Toplum Kuruluşu) veya kuruma örnek vermeleri istenebilir. Öğrencilerin tanıdıkları veya haberlerde gördükleri gönüllü bir kişiyi anlatmaları istenebilir. Öğrencilerin yaşadıkları çevrede gördükleri bir yardım kampanyasına örnek vermeleri istenebilir. Öğrenme-Öğretme OTSSÇ.2.3.1 Uygulamaları Öğrencilere toplumsal sorunların (çevre temizlik sorunları, trafik yoğunluğu, oyun alanlarının yetersizliği, gıda israfı) çözümünde STK ve kamu kurumlarının çalışmaları ile ilgili bilgilere ulaşmak için kullanılacak pedagojiye uygun yazılı ve görsel kaynaklar sunulur. Bu amaçla dijital kaynaklardan da yararlanılabilir (OB2). Öğrenciler sunulan kaynaklar üzerinden toplumsal sorunların çözümünde STK ve kamu kurumlarının çalışmaları hakkında bilgi toplar. Dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir (OB1, OB4). Toplanan bilgiler maddeler hâlinde tahtaya listelenir. Toplanan bilgilerde çelişki olup olmadığı incelenir ve bunlar öğrenciler tarafından karşılaştırılarak doğrulanır. Bu aşamada kaynakların güncelliği, güvenilirliği ve sunulan bilgilerin tutarlılığı sınıf ortamında tartışılır (E3.10, SDB2.3). Performans görevi olarak öğrencilerden araştırdıkları STK ve kamu kurumuna ilişkin bilgileri rapor hâline getirmeleri ve sunmaları istenebilir (E3.3, OB4, OB6). Hazırlanan raporlar derecelendirme ölçeği ile sunumlar ise kontrol listesi ile değerlendirilebilir. OTSSÇ.2.3.2 Öğrencilere “Gönüllülük nedir? Nerelerde ve nasıl gönüllü olunur?” soruları yöneltilir. Öğrencilerden daha önce katıldıkları gönüllülük etkinlikleri varsa bunları paylaşmaları istenir. Gönüllü olmanın yardımseverlik değerinin en önemli parçalarından biri olduğu vurgulanır (E3.3, SDB2.3, SDB3.3, D20.4). Gönüllülükle ilgili görsel ve yazılı kaynaklar sunulur (OB1, OB4). Gönüllülüğün bireye ve topluma katkılarına yönelik örnekler üzerine konuşulur (OB6). “Gönüllülüğün bireysel gelişime ve topluma katkısı var mıdır?” sorusu üzerinden tartışma başlatılır. Tartışma sırasında öğrencilerin görüşlerini gerekçelendirerek ifade etmeleri sağlanır. Türkçe dersinin \"gerekçeli konuşma becerisi\" ile ilişkilendirme yapılır (E3.4, E3.6, SDB2.1). Tartışma sırasında dile getirilen farklı görüşler ve çelişkiler tahtaya yazılarak tespit edilir (KB2.1). Tespit edilen çelişkileri savunmaya veya çürütmeye yönelik öğrenci fikirleri alınır (E3.9, E3.10, SDB3.3). Bu süreçte mantıklı gerekçeler ve kişisel örnekler sunmaları noktasında öğrenciler teşvik edilir (SDB1.2, OB1). Öğrencilerden gönüllülüğün bireysel ve toplumsal faydalarıyla ilgili kısa cevaplı üç soru hazırlamaları istenir. Öğrenci ürünleri öz değerlendirme formu kullanılarak değerlendirilebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI OTSSÇ.2.3.3 Öğrencilere “Sizce sınıf olarak yardıma ihtiyacı olan bir kişi veya bir grup için ne yapabiliriz?” sorusu yöneltilir ve cevaplar tahtaya yazılır. Seçenekler arasından uygulanabilir bir alan seçilir (E3.9, E3.10, SDB3.3). Yardım kampanyasının amacı, hedef kitlesi, izin belgeleri, toplanacak malzemeler, süre, sorumlular ve duyuru yöntemlerini içeren bir kampanya plan formu hazırlanır. Kampanya planı sınıf içinde hazırlanır. Kampanyanın uygulanabilmesi için duyurular yapılır, yardım toplama süreci yürütülür. Yardım yapılan kişilerin mahremiyetine önem verilmesi gerektiği vurgulanarak yardımseverlik değeri üzerinde durulur (SDB2.1, D20.3, OB4, OB6). Süreç sırasında insanları rencide etmeden fotoğraf, afiş, video, günlük gibi belgeler oluşturulur (E3.5, OB2, OB4). Kampanya sürecinin bitiminde hedefe ulaşılıp ulaşılmadığına dair değerlendirme yapılır. “Neleri doğru yaptık, neleri geliştirmeliyiz?” sorularına cevaplar aranır (E3.6, E3.9, SDB1.2). Öğrencilerden süreci kendi bakış açıları ile anlattıkları bir metin oluşturmaları istenir. Öğrencilerin çalışmaları, öz değerlendirme formu ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrenciler toplumsal sorunların çözümünde faaliyet gösteren bir STK veya kamu kurumunu seçerek bu kurumun çalışmalarını bilgi görseli şeklinde sunabilirler. “Gönüllülük bireye ve topluma ne katar?” sorusuna yönelik panel veya münazara düzenleyebilirler. Sosyal yardımlaşma kampanyasını tanıtmak için çizim, slogan, grafik ve bilgi notlarıyla görsel bir sergi oluşturabilirler. Destekleme Karışık şekilde verilen STK ve kurum adlarını “STK” ve “Kamu Kurumu” başlıkları altında sınıflandırabilir. “Gönüllülük bireye ve topluma ne gibi katkılarda bulunur?” sorusuna tek cümlelik bilgi kartı hâlinde cevap yazmaları istenebilir. Sosyal yardımlaşma kampanyasını tanıtmak için küçük afiş yapılabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.2.3.1",
+     "order": 1,
+     "text": "Toplumsal sorunların çözümünde STK ve kamu kurumlarının çalışmaları hakSÜREÇ BİLEŞENLERİ kında kaynaklardan bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Toplumsal sorunların çözümünde STK ve kamu kurumlarının çalışmaları ile ilgili kaynakları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Toplumsal sorunların çözümünde STK ve kamu kurumlarının çalışmaları ile ilgili belirlediği kaynaklardan bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Toplumsal sorunların çözümünde STK ve kamu kurumlarının çalışmaları ile ilgili belirlediği kaynakların uygunluğunu açıklar."
+      },
+      {
+       "label": "ç",
+       "text": "Toplumsal sorunların çözümünde STK ve kamu kurumlarının çalışmaları ile ilgili belirlediği kaynaklardan ulaştığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.2.3.2",
+     "order": 2,
+     "text": "Gönüllülüğün bireysel gelişim ve topluma katkısını tartışabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Gönüllülüğün bireysel gelişim ve topluma katkılarını gerekçeleriyle sunar."
+      },
+      {
+       "label": "b",
+       "text": "Gönüllülüğün bireysel gelişim ve topluma katkıda bulunması hakkında çelişkileri tespit eder."
+      },
+      {
+       "label": "c",
+       "text": "Gönüllülüğün bireysel gelişim ve topluma katkısı hakkındaki görüşleri kabul eder veya çürütür."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.2.3.3",
+     "order": 3,
+     "text": "Sosyal yardımlaşma için sınıf içinde küçük bir kampanya fikrini eyleme dönüştürebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Sosyal yardımlaşma için bir kampanya planı yapar."
+      },
+      {
+       "label": "b",
+       "text": "Sosyal yardımlaşma için yaptığı kampanya planını uygular."
+      },
+      {
+       "label": "c",
+       "text": "Sosyal yardımlaşma için yaptığı kampanya planını değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 4,
+   "kind": "ÖĞRENME ALANI",
+   "title": "ÇEVRE VE SÜRDÜRÜLEBİLİRLİK",
+   "description": "Bu öğrenme alanında öğrencilerin sürdürülebilir yaşam bilinci kazanmış, çevreye karşı sorumluluk üstlenen, eleştirel düşünebilen ve düşüncelerini somut projelere dönüştürebilen aktif bireyler olarak yetişmeleri amaçlanmaktadır. ALAN SBAB6. Girişimcilik (SBAB6.1. Riskleri Değerlendirerek Karar Verme, SBAB6.3. Fikri SoBECERİLERİ nuçlandırma), SBAB5. Sosyal Katılım (SBAB5.4. Müzakere Etme) KAVRAMSAL BECERİLER",
+   "lesson_hours": 12,
+   "sections": {
+    "EĞİLİMLER": "E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Öz Güven), E2.3. Girişkenlik, E3.6. Analitiklik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.2. İş Birliği, SDB3.2. Esneklik, SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri",
+    "Değerler": "D5. Duyarlılık, D18. Temizlik Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, Becerileri OB8. Sürdürülebilirlik Okuryazarlığı DİSİPLİNLER ARASI Bilişim Teknolojileri ve Yazılım",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.7. Karşılaştırma, KB2.11. Gözleme Dayalı Tahmin Etme ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.2.4.1. Çevre kirliliğine neden olan riskleri değerlendirerek karar verebilme SÜREÇ BİLEŞENLERİ a) Çevre kirliliğine neden olan riskleri belirler. b) Çevre kirliliğine neden olan riskleri analiz eder. c) Çevre kirliliğini önlemeye yönelik alınacak tedbirlere ilişkin öneride bulunur. ç) Çevre kirliliğini önlemeye yönelik alınacak tedbirlere ilişkin gerekçeli yargıda bulunur. d) Çevre kirliliğine neden olan riskleri gözden geçirir. OTSSÇ.2.4.2. Çevre sorunlarına yönelik çözüm önerilerini müzakere edebilme a) Çevre sorunlarını fark eder. b) Çevre sorunlarının nedenlerine yönelik farklı görüşleri karşılaştırır. c) Çevre sorunlarına yönelik çözüm arar. ç) Çevre sorunlarına yönelik çözüm önerisini düzenler. d) Çevre sorunlarına yönelik çözüm önerisini günlük yaşama yansıtır. OTSSÇ.2.4.3. Çevresel farkındalık için geliştirdiği proje fikrini sonuçlandırabilme a) Çevresel farkındalık için geliştirdiği proje fikrine uygun bir ürün oluşturur. b) Çevresel farkındalık için geliştirdiği proje fikrine uygun olarak oluşturduğu ürünü tanıtır. c) Çevresel farkındalık için geliştirdiği proje fikrinin sonuçlarını değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Çevre Kirliliğine Neden Olan Davranışlarımız Çevre Sorunlarına Yönelik Çözüm Önerileri Çevresel Farkındalık Projeleri",
+    "Anahtar Kavramlar": "bakış açısı, ekoloji, estetik, sürdürülebilirlik ÖĞRENME Bu öğrenme alanındaki öğrenme çıktılarının değerlendirilmesinde öz değerlendirme KANITLARI formları, bütüncül dereceli puanlama anahtarı ve performans görevi kullanılabilir. (Ölçme ve Performans Görevi: Öğrencilerden çevre sorunlarına karşı geliştirilen çözüm önerilerinDeğerlendirme) den birini seçmeleri ve bu çözüm önerisini yaşamlarına nasıl uygulayabileceklerine dair bireysel bir eylem planı hazırlamaları istenebilir. Değerlendirme sürecinde bütüncül dereceli puanlama anahtarı kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin yaşadıkları çevredeki sorunları ve çözüm yollarını bildikleri kabul edilmektedir. Ayrıca öğrencilerin kendi davranışlarını gözden geçirme ve çevresel farkındalık geliştirmeye açık oldukları varsayılmaktadır. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Ön Değerlendirme Süreci Öğrencilere “çevre kirliliği” ifadesi verilir ve öğrencilerden akıllarına gelen ilk üç kelimeyi söylemeleri istenir. Sonuçlar tahtada gruplandırılabilir. Öğrencilerin merkezde “Çevre Sorunları” yazan bir şema etrafına bildikleri sorunları yazmaları istenebilir. “Daha önce bir çevre projesinde yer aldınız mı?”, “Evde geri dönüşüm yapıyor musunuz?” gibi açık uçlu sorular sorulabilir. Köprü Kurma Öğrencilere “Çöp atılan bir parkta veya kirli bir sokakta bulundunuz mu?\", \"Bu size neler his­settirdi?” gibi açık uçlu sorular sorulabilir. Güncel bir çevre kirliliği haberi sınıfta okunur. Öğrencilere “Bu soruna çözüm önerisi sunsaydınız bu öneri ne olurdu?” sorusu yöneltilebilir. Yaşadıkları yerde atık azaltma, enerji tasarrufu, geri dönüşüm, su tasarrufu, ağaç dikme gibi çevreyi korumak için yapılan projelere örnekler vermeleri istenebilir. Öğrenme-Öğretme OTSSÇ.2.4.1 Uygulamaları Öğrencilere “Sizce çevre kirliliğine en çok neden olan davranışlar hangileridir?” sorusu yöneltilerek beyin fırtınası yaptırılır. Verilen örnekler tahtada listelenir. Öğrencilerin kendi günlük yaşamlarını da göz önüne alarak çevreye zarar veren alışkanlıkları belirlemeleri sağlanır (E3.10, KB2.11). Yazılı, görsel ve dijital kaynaklardan bilgi toplanarak çevre kirliliğine neden olan davranışlar temizlik değeri göz önüne alınarak analiz edilir. Bu doğrultuda davranışlarının çevre temizliği üzerinde etkileri olduğu ifade edilir (D18.3). Öğrencilerin dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir (OB1, OB2, OB4). Seçilen bir davranış şekliyle ilgili neden-sonuç ilişkisini açıklayan bir neden-sonuç diyagramı hazırlanır (E3.6, SDB3.3). Öğrenciler analiz ettikleri çevre kirliliğine neden olan davranışlar ile ilgili çevreyi koruma amacıyla alınabilecek tedbirlere ilişkin önerilerde bulunur. Öğrencilerden bu önlemlerden hangisinin daha etkili ve uygulanabilir olduğuna dair gerekçeli yargılar sunmaları istenir (E3.10, SDB3.3). Öğrenciler, günlük yaşantılarındaki çevre kirliliğine neden olan davranışlarını içeren kısa bir öz değerlendirme formu doldurur. Ardından bu davranışlarını gözden geçirerek hangi alışkanlıklarını değiştirebileceklerine dair bir karar bildirimi yazmaları istenir (E1.5, E2.3, SDB3.3, OB8). Öğrenci çalışmaları, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. OTSSÇ.2.4.2 Öğrencilere “Yaşadığınız çevrede sizi en çok rahatsız eden çevre sorunu nedir?” sorusu sorulur. Öğrenciler bireysel olarak bu soruya yanıt verir. Çevre sorunlarını fark etmeleri için sınıf içinde benzer sorunlar sınıflandırılır ve liste oluşturulur (E1.4). Öğrencilerden yazılı, görsel ve dijital kaynaklardan çevre sorunlarının nedenleri ile ilgili farklı bakış açılarını yansıtan ilgi çekici bilgiler bulmaları istenir. Öğrencilerin dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir. Konuyla ilgili bulunan farklı bakış açılarını karşılaştırmaları istenir (SDB3.2, KB2.7). Öğrencilerden gruplar oluşturmaları ve bir çevre sorunu seçmeleri istenir. Gruplar seçtikleri soruna yönelik çevre dostu ve uygulanabilir çözüm önerileri üretir. Bu aşamada 5N1K tekniği kullanılabilir. Gruplar önerilerini diğer gruplarla müzakere eder. Her grup, çözüm önerilerine dair görüş bildirir, eleştiri yapar. Gelen geri bildirimler doğrultusunda öğrenciler çözüm önerilerini yeniden düzenler (E1.5, E3.10). ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Performans görevi olarak her öğrenciden önerilerden birini seçerek bunu yaşamına nasıl uygulayabileceğine dair bireysel bir eylem planı hazırlaması istenebilir (Evde organik atıkları kompost kovasında biriktireceğim.). Uygulama bir hafta sürdürülür. Öğrenciler uygulama sürecinde neler yaşadıklarını kısa video veya günlük olarak anlatır. Bu aşamada bilişim teknolojileri ve yazılım dersinin \"bilişim teknolojilerini kullanma becerileri\" ile ilişkilendirme yapılır. (E1.4, OB2, OB8). Değerlendirme sürecinde bütüncül dereceli puanlama anahtarı kullanılabilir. OTSSÇ.2.4.3 Öğrencilere “Çevrenizi korumak için bir proje tasarlayacak olsaydınız ne yapardınız?” sorusu yöneltilir. Öğrenciler bireysel veya grup olarak çevresel farkındalık oluşturmak amacıyla proje fikirleri geliştirir (E1.4, E2.3). Öğrencilerden seçtikleri proje fikrine uygun afiş, broşür, sunum, video, kampanya kutusu, bilgilendirme panosu vb. ürün oluşturmaları istenir. Ürün oluştururken ekolojik duyarlılık, yeniden kullanım, yerel malzeme kullanımı, estetik gibi ölçütleri dikkate almaları istenir. Bu aşamada çevreyi ve canlıları korumanın öneminden bahsedilirken duyarlılık değerine de yer verilir (D5.2, OB8). Öğrencilerin ürünlerini okul içinde tanıtmalarına sınıf içi sunum yapma, panoda sergileme, okul bülteninde yer verme, arkadaşlarına afiş dağıtma gibi yollarla tanıtım yapmalarına imkân verilir (E1.5, SDB2.2). Öğrencilerin geliştirdikleri projenin etkisini değerlendirmeleri amacıyla “Projem neyi değiştirdi?”, “Hedef kitlenin ilgisi nasıldı?”, “Başka neler yapabilirdim?” gibi sorulara yazılı olarak yanıt vermeleri sağlanabilir (E3.10, SDB3.2). Akranlar veya öğretmenler, ürün ve tanıtım süreci için yazılı veya sözlü geri bildirim verilebilir. Gerekirse projeler revize edilebilir (SDB3.3). Öğrenci çalışmaları, öz değerlendirme formu ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Çevreyi koruma önerilerini uluslararası örneklerle karşılaştırarak farklı çözüm modelleri geliştirebilirler. Çevre sorunlarının çözümüne yönelik bir kamu spotu senaryosu yazılabilir. “Bu proje uygulanırsa 10 yıl sonra çevremiz nasıl olur?” sorusuna dayalı bir gelecek senaryosu yazılabilir. Destekleme Çevreyi koruma önerileri uluslararası örneklerle karşılaştırılarak farklı çözüm modelleri geliştirilebilir. Çevremizi kirleten iki davranışı belirlemeleri ve bu davranışlara karşı birer çözüm önerisini yazmaları istenebilir. Çevre sorunları yazılı kartlar dağıtılarak her kart için tek cümlelik çözüm önerisi geliştirmeleri istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.2.4.1",
+     "order": 1,
+     "text": "Çevre kirliliğine neden olan riskleri değerlendirerek karar verebilme SÜREÇ BİLEŞENLERİ a) Çevre kirliliğine neden olan riskleri belirler.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Çevre kirliliğine neden olan riskleri analiz eder."
+      },
+      {
+       "label": "c",
+       "text": "Çevre kirliliğini önlemeye yönelik alınacak tedbirlere ilişkin öneride bulunur."
+      },
+      {
+       "label": "ç",
+       "text": "Çevre kirliliğini önlemeye yönelik alınacak tedbirlere ilişkin gerekçeli yargıda bulunur."
+      },
+      {
+       "label": "d",
+       "text": "Çevre kirliliğine neden olan riskleri gözden geçirir."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.2.4.2",
+     "order": 2,
+     "text": "Çevre sorunlarına yönelik çözüm önerilerini müzakere edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çevre sorunlarını fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Çevre sorunlarının nedenlerine yönelik farklı görüşleri karşılaştırır."
+      },
+      {
+       "label": "c",
+       "text": "Çevre sorunlarına yönelik çözüm arar."
+      },
+      {
+       "label": "ç",
+       "text": "Çevre sorunlarına yönelik çözüm önerisini düzenler."
+      },
+      {
+       "label": "d",
+       "text": "Çevre sorunlarına yönelik çözüm önerisini günlük yaşama yansıtır."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.2.4.3",
+     "order": 3,
+     "text": "Çevresel farkındalık için geliştirdiği proje fikrini sonuçlandırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çevresel farkındalık için geliştirdiği proje fikrine uygun bir ürün oluşturur."
+      },
+      {
+       "label": "b",
+       "text": "Çevresel farkındalık için geliştirdiği proje fikrine uygun olarak oluşturduğu ürünü tanıtır."
+      },
+      {
+       "label": "c",
+       "text": "Çevresel farkındalık için geliştirdiği proje fikrinin sonuçlarını değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 5,
+   "kind": "ÖĞRENME ALANI",
+   "title": "TOPLUMSAL SAĞLIK",
+   "description": "Bu öğrenme alanında öğrencilerin sağlıklı yaşam bilinci gelişmiş, dijital teknolojileri dengeli ve sorumlu kullanan, bireysel davranışlarının toplumsal etkisini fark eden duyarlı bireyler olarak yetişmeleri amaçlanmaktadır. ALAN BECERİLERİ KAVRAMSAL KB2.14. Yorumlama, KB2.18. Tartışma BECERİLER",
+   "lesson_hours": 9,
+   "sections": {
+    "EĞİLİMLER": "E3.2. Odaklanma, E3.3. Yaratıcılık, E3.6. Analitiklik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.2. Esneklik, SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri",
+    "Değerler": "D12. Sabır, D13. Sağlıklı Yaşam Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER ARASI Bilişim Teknolojileri ve Yazılım, Görsel Sanatlar",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.1. Çelişki Giderme ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.2.5.1. Sağlıklı yaşam alışkanlıklarından hijyen, uyku, egzersiz ve beslenmenin topSÜREÇ BİLEŞENLERİ lumsal sağlığa katkılarını yorumlayabilme a) Sağlıklı yaşam alışkanlıklarından hijyen, uyku, egzersiz ve beslenmenin toplumsal sağlığa katkılarını inceler. b) Sağlıklı yaşam alışkanlıklarından hijyen, uyku, egzersiz ve beslenmenin toplumsal sağlığa katkılarını yazılı, görsel veya dijital bir ürüne dönüştürür. c) Sağlıklı yaşam alışkanlıklarından hijyen, uyku, egzersiz ve beslenmenin toplumsal katkılarını kendi cümleleriyle ifade eder. OTSSÇ.2.5.2. Teknoloji bağımlılığının toplumsal sağlık açısından etkilerini ve çözüm yollarını tartışabilme a) Teknoloji bağımlılığının toplumsal sağlık açısından etkilerine ve çözüm yollarına gerekçeler sunar. b) Teknoloji bağımlılığının toplumsal sağlığa etkileri ve çözüm yolları üzerindeki tartışmalardaki tutarsızlıkları tespit eder. c) Teknoloji bağımlılığının toplumsal sağlığa etkileri ve çözüm yollarına yönelik görüşleri çürütür veya kabul eder.",
+    "İÇERİK ÇERÇEVESİ": "Sağlıklı Yaşam Alışkanlıkları Teknoloji Bağımlılığının Etkileri ve Çözümleri",
+    "Anahtar Kavramlar": "egzersiz, hijyen, sağlık, teknoloji bağımlılığı, tutarsızlık ÖĞRENME Bu öğrenme alanındaki öğrenme çıktıları; öz değerlendirme formu, bütüncül dereceli KANITLARI puanlama anahtarları ve performans görevi kullanılarak değerlendirilebilir. (Ölçme ve Performans Görevi: Teknoloji bağımlılığının belirtilerini, risklerini ve bağımlılıktan uzak Değerlendirme) durma yollarını sınıflandırma tablosu/poster hâlinde sunmaları istenebilir. Hazırlanan ürünler, dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin bireysel ve toplumsal sağlık sorunlarının neden ve sonuçlarını, bağımlılık türleri ve bağımlılıktan uzak durma yollarını bildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere “Sizce sağlıklı yaşam için en önemli alışkanlıklar nelerdir?” sorusu yöneltilebilir. “Sizce teknoloji bağımlılığı nedir?\", \"Günlük yaşamınızda teknoloji ne kadar yer alıyor?” soruları sorularak öğrencilerin farkındalık düzeyi belirlenebilir. Köprü Kurma Öğrencilerden yakın çevrelerini göz önünde bulundurarak sağlıklı yaşamaya dikkat eden bireylere örnek vermeleri ve bu kişilerin nelere dikkat ettiklerini söylemeleri istenebilir. Öğrencilerden “Ben teknoloji bağımlılığına karşı bir kampanya başlatsaydım…” şeklinde başlayan bir metin oluşturmaları istenebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme OTSSÇ.2.5.1 Uygulamaları Sağlıklı yaşam alışkanlıklarının toplumsal sağlık açısından önemi sınıfça tartışılır (E3.2, SDB2.1). Tartışmadan sonra pedagojiye uygun yazılı, görsel veya dijital kaynaklardan hijyen, uyku, egzersiz ve beslenmenin toplumsal sağlık üzerindeki rolleri incelenir. İnceleme sürecinde görsel sanatlar dersinin \"görsel mesajı okuma\" becerisinden yararlanılabilir. Öğrencilerin dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir (OB1, OB2, OB4). Hijyen, uyku, egzersiz ve beslenmenin toplumsal sağlık açısından önemine yönelik günlük yaşamdan örnekler içeren senaryo, hikâye, afiş, broşür ürünlerinden birini seçerek yapmaları istenir. Yapılan bu çalışmalarda insan sağlığının önemsenmesi gerektiğinden bahsedilerek sağlıklı yaşam değerine değinilir. Ayrıca öğrencilerin sağlıklı yaşam alışkanlıklarını sürdürürken görev ve sorumluluklarını yerine getirmede istikrarlı davranmaları sağlanır (E3.6, SDB3.2, D12.3, D13.4). Öğrencilerin yaptıkları ürünlerden hareketle sağlıklı yaşam alışkanlıklarının toplumsal sağlık açısından önemini ifade etmeleri sağlanır (E3.3). Öğrenci ürünleri, bütüncül dereceli puanlama anahtarı kullanılarak değerlendirilebilir. OTSSÇ.2.5.2 Öğrencilere teknoloji bağımlılığıyla ilgili pedagojiye uygun kısa ve bilgilendirici bir video izletilir. Video sonrası öğrencilerden “Teknoloji bağımlılığı bireyleri ve toplumu nasıl etkiler?” sorusuna cevap yazmaları istenir. Öğrenciler gruplara ayrılır. Gruplardan teknoloji bağımlılığının fiziksel, psikolojik, toplumsal etkileri ile bunların olumsuz yönlerine çözüm önerileri içeren fikirler geliştirmeleri ve geliştirdikleri fikirleri bir sunuma dönüştürmeleri istenir (E3.3, SDB2.1, SDB2.2). Gruplardan geliştirdikleri fikirlerin gerekçelerini de sunmaları istenir (E3.6, SDB3.3). Öğrencilere teknoloji bağımlılığına yönelik önermeler sunulur. Her grup bu görüşlerdeki tutarsızlık veya eksiklikleri tespit eder (E3.10, KB2.1). Tespit edilen çelişkiler tahtaya yazılır ve sınıfça değerlendirilir. Öğrenciler değerlendirme sürecinde kabul ettikleri veya etmedikleri görüşleri gerekçeleri ile ifade ederler (E3.6, SDB3.2). Öğrencilerden okullarında teknoloji bağımlılığına karşı bir kampanya planı hazırlamaları istenir (E3.3). Performans görevi olarak teknoloji bağımlılığının belirtilerini, risklerini ve uzak durma yollarını sınıflandırma tablosu veya poster hâlinde sunmaları istenebilir. Bu aşamada bilişim teknolojileri ve tasarım dersinin \"bilişim teknolojilerinin birey ve toplum üzerindeki etkilerini özetleyebilme\" öğrenme çıktısı ile ilişkilendirme yapılabilir. Hazırlanan ürünler, dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Farklı kültürlerde hijyen, uyku, egzersiz ve beslenme alışkanlıklarını araştırarak karşılaştırmalı tablo veya bilgi görseli oluşturabilirler. Öğrencilerden bağımlılık türlerini araştırmaları ve çözüm önerilerini uluslararası örneklerle karşılaştırmalı rapor şeklinde sunmaları istenebilir. Destekleme Atasözü veya deyimden hareketle çizim, boyama veya hazır afiş tamamlama etkinliği yapılabilir. Teknoloji bağımlılığı örnekleri, basit görseller veya kısa hikâyeler ile açıklanabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.2.5.1",
+     "order": 1,
+     "text": "Sağlıklı yaşam alışkanlıklarından hijyen, uyku, egzersiz ve beslenmenin topSÜREÇ BİLEŞENLERİ lumsal sağlığa katkılarını yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Sağlıklı yaşam alışkanlıklarından hijyen, uyku, egzersiz ve beslenmenin toplumsal sağlığa katkılarını inceler."
+      },
+      {
+       "label": "b",
+       "text": "Sağlıklı yaşam alışkanlıklarından hijyen, uyku, egzersiz ve beslenmenin toplumsal sağlığa katkılarını yazılı, görsel veya dijital bir ürüne dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Sağlıklı yaşam alışkanlıklarından hijyen, uyku, egzersiz ve beslenmenin toplumsal katkılarını kendi cümleleriyle ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.2.5.2",
+     "order": 2,
+     "text": "Teknoloji bağımlılığının toplumsal sağlık açısından etkilerini ve çözüm yollarını tartışabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Teknoloji bağımlılığının toplumsal sağlık açısından etkilerine ve çözüm yollarına gerekçeler sunar."
+      },
+      {
+       "label": "b",
+       "text": "Teknoloji bağımlılığının toplumsal sağlığa etkileri ve çözüm yolları üzerindeki tartışmalardaki tutarsızlıkları tespit eder."
+      },
+      {
+       "label": "c",
+       "text": "Teknoloji bağımlılığının toplumsal sağlığa etkileri ve çözüm yollarına yönelik görüşleri çürütür veya kabul eder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 6,
+   "kind": "ÖĞRENME ALANI",
+   "title": "KATILIM VE FARKINDALIK",
+   "description": "Bu öğrenme alanında öğrencilerin medya okuryazarlığı gelişmiş, eleştirel düşünebilen, iletişim araçlarını sorumlu ve etkili kullanabilen ve toplumsal sorunlara duyarlılık göstererek çözüm üretmeye istekli bireyler olarak yetişmeleri amaçlanmaktadır. ALAN SBAB6. Girişimcilik (SBAB6.3. Fikri Sonuçlandırma) BECERİLERİ KAVRAMSAL KB2.8. Sorgulama BECERİLER",
+   "lesson_hours": 10,
+   "sections": {
+    "EĞİLİMLER": "E1.5. Kendine Güvenme (Öz Güven), E3.3. Yaratıcılık, E3.6. Analitiklik, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.2. Esneklik, Öğrenme Becerileri SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D3. Çalışkanlık Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER ARASI Bilişim Teknolojileri ve Yazılım",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.6. Bilgi Toplama ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.2.6.1. Toplumsal sorunların çözümünde kitle iletişim araçlarının rolünü sorgulayaSÜREÇ BİLEŞENLERİ bilme a) Toplumsal sorunların çözümünde kitle iletişim araçlarının önemi ile ilgili merak ettiği konuları tanımlar. b) Toplumsal sorunların çözümünde kitle iletişim araçlarının önemi ile ilgili sorular sorar. c) Toplumsal sorunların çözümünde kitle iletişim araçlarının önemi ile ilgili bilgi toplar. ç) Toplumsal sorunların çözümünde kitle iletişim araçlarının önemi ile ilgili topladığı bilgilerin doğruluğunu değerlendirir. d) Toplumsal sorunların çözümünde kitle iletişim araçlarının önemi ile ilgili topladığı bilgilerden çıkarım yapar. OTSSÇ.2.6.2. Kitle iletişim araçlarını kullanarak toplumsal sorunlara dikkat çeken bir proje fikrini sonuçlandırabilme a) Kitle iletişim araçlarını kullanarak toplumsal sorunlara dikkat çeken bir proje oluşturur. b) Kitle iletişim araçlarını kullanarak toplumsal sorunlara dikkat çeken projeyi tanıtır. c) Kitle iletişim araçlarını kullanarak toplumsal sorunlara dikkat çeken projesinin sonuçlarını değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Kitle İletişim Araçları ve Toplumsal Sorunlar Bir Sorun, Bir Proje",
+    "Anahtar Kavramlar": "dijital içerik, hedef kitle, kitle iletişim araçları, mesaj ÖĞRENME Bu öğrenme alanındaki öğrenme çıktıları; gözlem formu, öz değerlendirme formu ve KANITLARI performans görevi kullanılarak değerlendirilebilir. (Ölçme ve Performans Görevi: “Toplumsal Sorunların Çözümünde Kitle İletişim Araçlarının Rolü” Değerlendirme) konulu afiş veya kısa sunum hazırlamaları istenebilir. Hazırlanan ürünler, dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin günlük yaşamda televizyon, radyo, genel ağ, sosyal medya gibi kitle iletişim araçlarıyla sürekli etkileşimde bulundukları ve toplumsal sorunlara yönelik farkındalık geliştirecek bir potansiyele sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere “Kitle iletişim araçlarını hangi sorunların çözümünde etkili olmaktadır?” ve “Kitle iletişim araçlarından nasıl yararlanıyorsunuz?” soruları yöneltilebilir. Köprü Kurma “Sizi en çok etkileyen toplumsal sorunlar nedir?” sorusu yöneltilerek öğrencilerin çevresindeki sorunlara değinmeleri beklenebilir. “Kitle iletişim araçlarından yararlanarak üretilen projelere örnekler verir misiniz?” sorusu yöneltilebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme OTSSÇ.2.6.1 Uygulamaları Öğrencilere \"Toplumsal sorunlar nelerdir?\" sorusu sorularak hatırlatma yapılır. Ardından kitle iletişim araçlarının neler olduğu sorulur. Toplumsal sorun ve kitle iletişim araçları kavramlarının birlikte kullanıldığı sorular üretmeleri için kısa bir süre verilebilir (E3.8, OB1). Ardından öğrencilerin küçük gruplara ayrılarak ürettikleri sorularla toplumsal sorunların çözümünde kitle iletişim araçlarının rolünü kavramaları istenir (E1.5, E3.8, SDB2.2). Sorgulama sürecinin sonunda gruplar yazılı, görsel ve dijital kaynaklardan toplumsal sorunların çözümünde kitle iletişim araçlarının rolüne ilişkin bilgi toplar. Dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir (OB1, OB2, OB4). Topladıkları bilgilerin doğruluğunu farklı kaynaklardan karşılaştırarak değerlendirirler (KB2.6). Her grup güvenilir bulduğu bilgilerden hareketle toplumsal sorunların çözümünde kitle iletişim araçlarının rolü ile ilgili çıkarımlarda bulunur (E1.5, SDB2.3, SDB3.3). Gruplardan performans görevi olarak \"Toplumsal Sorunların Çözümünde Kitle İletişim Araçlarının Rolü\" başlıklı bir afiş veya kısa sunum hazırlamaları istenebilir (E3.3, SDB2.2, OB4). Öğrenci çalışmaları, öz değerlendirme formu ile değerlendirilebilir. OTSSÇ.2.6.2 Öğrencilerin küçük gruplara ayrılarak toplumsal bir sorun belirlemeleri istenir. Her gruptan bu soruna dikkat çekmek amacıyla kısa video, dijital afiş, sosyal medya kampanya taslağı, kamu spotu metni, blog yazısı, dijital dergi sayfası gibi çalışmalar hazırlamaları istenir. Kitle iletişim araçları kullanılarak bir iletişim kampanyası fikri geliştirilir. Kitle iletişim araçları ile ilgili bilişim teknolojileri ve yazılım dersinin \"iletişim teknolojilerini sınıflandırabilme\" öğrenme çıktısından yararlanılabilir. Çalışmalarda aktif rol almanın öneminden bahsedilerek çalışkanlık değerine değinilir (E3.3, D3.4, OB2, OB4). Ürünler sınıf içinde sunulur. Ayrıca okul panosunda, dijital ekranlarda veya okulun genel ağı üzerinde paylaşılabilir. Ürün sunumları sırasında her grup hedef kitlesi ve mesaj dili hakkında kısa açıklamalar yapar (E1.5, SDB2.1). Gruplardan projelerinin etkisini değerlendirmek amacıyla “Hedef kitle üzerindeki etkisi ne oldu?”, “Verilen mesaj hedef kitle tarafından benimsendi mi?”, “Projenin daha etkili olması için ne yapılabilirdi?” gibi sorulara cevap verdikleri kısa bir yazı yazmaları istenir (E3.6, SDB3.3). Akranlar ve öğretmen tarafından yazılı veya sözlü geri bildirim verilir. Gruplar bu değerlendirmeler doğrultusunda ürünlerini gözden geçirebilir veya bir sonraki projeleri için notlar çıkarır (E3.3, SDB3.2). Öğrenci çalışmaları, gözlem formu ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Sosyal medya içerik dizisi tasarlamaları teşvik edilebilir. Öğrencilerden belirlediği bir toplumsal soruna yönelik dijital bir dergi hazırlamaları istenebilir. Destekleme Kitle iletişim araçlarının rolü basit örneklerle (gazete haberi, kısa reklam, afiş vb.) açıklanabilir. Öğrencilerden toplumsal sorunlara yönelik slogan üretmeleri istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI 2.1. III. DÜZEY"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.2.6.1",
+     "order": 1,
+     "text": "Toplumsal sorunların çözümünde kitle iletişim araçlarının rolünü sorgulayaSÜREÇ BİLEŞENLERİ bilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Toplumsal sorunların çözümünde kitle iletişim araçlarının önemi ile ilgili merak ettiği konuları tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Toplumsal sorunların çözümünde kitle iletişim araçlarının önemi ile ilgili sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Toplumsal sorunların çözümünde kitle iletişim araçlarının önemi ile ilgili bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Toplumsal sorunların çözümünde kitle iletişim araçlarının önemi ile ilgili topladığı bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Toplumsal sorunların çözümünde kitle iletişim araçlarının önemi ile ilgili topladığı bilgilerden çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.2.6.2",
+     "order": 2,
+     "text": "Kitle iletişim araçlarını kullanarak toplumsal sorunlara dikkat çeken bir proje fikrini sonuçlandırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kitle iletişim araçlarını kullanarak toplumsal sorunlara dikkat çeken bir proje oluşturur."
+      },
+      {
+       "label": "b",
+       "text": "Kitle iletişim araçlarını kullanarak toplumsal sorunlara dikkat çeken projeyi tanıtır."
+      },
+      {
+       "label": "c",
+       "text": "Kitle iletişim araçlarını kullanarak toplumsal sorunlara dikkat çeken projesinin sonuçlarını değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "unit": 1,
+   "kind": "ÖĞRENME ALANI",
+   "title": "SOSYAL SORUMLULUK",
+   "description": "Bu öğrenme alanında öğrencilerin sorgulayan, araştıran, çözüm odaklı düşünen, toplumsal fayda üretmeye istekli ve girişimci bakış açısına sahip aktif bireyler olarak yetişmeleri amaçlanmaktadır. ALAN SBAB2. Kanıta Dayalı Sorgulama ve Araştırma (SBAB2.1. Meraka Dayalı Soru Sorma), BECERİLERİ SBAB5. Sorgulama (SBAB5.3. Fikir Üretme) KAVRAMSAL KB2.8. Sorgulama BECERİLER",
+   "lesson_hours": 13,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E2.1. Empati, E2.2. Sorumluluk, E3.3. Yaratıcılık, E3.4. Gerçeği Arama, E3.8. Soru Sorma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri",
+    "Değerler": "D16. Sorumluluk Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER ARASI Türkçe",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.6. Bilgi Toplama ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.3.1.1. Sosyal sorumluluk projelerinin toplum üzerindeki etkilerini sorgulayabilme SÜREÇ BİLEŞENLERİ a) Sosyal sorumluluk projelerinin toplum üzerindeki etkileri ile ilgili merak ettiği konuları tanımlar. b) Sosyal sorumluluk projelerinin toplum üzerindeki etkileri ile ilgili merak ettiği konular hakkında sorular sorar. c) Sosyal sorumluluk projelerinin toplum üzerindeki etkileri ile ilgili merak ettiği konular hakkında bilgi toplar. ç) Sosyal sorumluluk projelerinin toplum üzerindeki etkileri ile ilgili merak ettiği konular hakkında topladığı bilgilerin doğruluğunu değerlendirir. d) Sosyal sorumluluk projelerinin toplum üzerindeki etkileri ile ilgili merak ettiği konular hakkında topladığı bilgiler üzerinden çıkarım yapar. OTSSÇ.3.1.2. Sosyal girişimcilik kavramına yönelik meraka dayalı sorular sorabilme a) Sosyal girişimcilik kavramına yönelik merak ettiği konuları belirler. b) Sosyal girişimcilik kavramına yönelik merak ettiği konular hakkında sorular sorar. OTSSÇ.3.1.3. Yaşadığı çevrede belirlediği bir toplumsal sorunun çözümüne yönelik fikir üretebilme a) Yaşadığı çevrede belirlediği bir toplumsal sorunun çözümünün önemini fark eder. b) Yaşadığı çevrede belirlediği bir toplumsal sorunun çözümüne yönelik benzer girişimleri inceler. c) Yaşadığı çevrede belirlediği bir toplumsal sorunun çözümüne yönelik fikirler üretir.",
+    "İÇERİK ÇERÇEVESİ": "Toplumu Etkileyen Sosyal Sorumluluk Projeleri Sosyal Girişimcilik Yaşadığım Çevreye Katkıda Bulunuyorum",
+    "Anahtar Kavramlar": "sosyal girişimcilik ÖĞRENME Bu öğrenme alanındaki çıktılar; kontrol listesi, dereceli puanlama anahtarı ve perforKANITLARI mans görevi kullanılarak değerlendirilebilir. (Ölçme ve Performans Görevi: Sosyal sorumluluk projelerinin toplum üzerindeki etkilerini sorguDeğerlendirme) layıp hikâye yazmaları istenebilir. Yapılan çalışmalar kontrol listesi ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin sosyal sorumluluk projeleri, gönüllülük çalışmaları ve toplumsal sorunlarla ilgili sınırlı da olsa farkındalık sahibi oldukları ve sosyal girişimcilik kavramına dair temel düzeyde bilgi edinmeye açık oldukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere “Sosyal sorumluluk projeleri topluma ne gibi katkılarda bulunabilir?” sorusu yöneltilebilir. Sosyal girişimcilik ile ilgili kısa bir video izletilir, öğrencilerden girişimcilik ile ilgili dikkatlerini çeken yönleri yazmaları istenebilir. “Sorun denince aklınıza neler geliyor?” sorusu yöneltilebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilere “Hangi alanda sosyal sorumluluk projelerine katılmak istersiniz?” sorusu yöneltilebilir. Öğrencilere “Çevrenizde girişimcilik olarak değerlendirebileceğiniz faaliyetlere örnek verir misiniz?” sorusu yöneltilebilir. Öğrencilerden çevrelerinde gözlemledikleri toplumsal sorunlara örnekler vermeleri istenebilir. Öğrenme-Öğretme OTSSÇ.3.1.1 Uygulamaları Sosyal sorumluluk projelerinin toplum üzerindeki etkileri ile ilgili pedagojiye uygun örnek olay ve görseller öğrenciler tarafından incelenir (OB1, OB4). Öğrencilerden sosyal sorumluluk projelerinin toplum üzerindeki etkilerine ilişkin merak ettikleri konuları tanımlamaları istenir (E1.1). Öğrencilere sosyal sorumluluk projeleri ve bunların toplum üzerindeki etkileri üzerine merak ettikleri konularda sorular hazırlatılır. Ardından öğrencilerle hazırladıkları sorular üzerinden tartışma yaptırılarak sosyal sorumluluk projelerinin toplum üzerindeki etkilerini sorgulamaları sağlanır (E2.1, E3.10, SDB2.3). Sorgulama sürecinin ardından öğrencilerin yazılı, görsel ve dijital kaynaklardan belirledikleri etkilere ilişkin bilgi toplamaları sağlanır. Öğrencilerin dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir (E3.4, OB1). Öğrenciler, sorgulama sonucu ortaya çıkardıkları fikirler ile topladıkları bilgileri karşılaştırarak değerlendirirler (SDB3.3, KB2.6). Değerlendirdikleri bilgilerden hareketle sosyal sorumluluk projelerinin toplum üzerindeki etkileri ile ilgili çıkarımlarda bulunmaları istenir. Sorumluluk değeri kapsamında insanların topluma karşı görevleri olduğu vurgulanır (E2.2, D16.2). Performans görevi olarak öğrencilerden sosyal sorumluluk projelerinin toplum üzerindeki etkilerine yönelik hikâye yazmaları istenebilir. Bu aşamada Türkçe dersinin \"yaratıcı yazı yazma becerisi \" ile ilişkilendirme yapılabilir. Yapılan çalışmalar kontrol listesi ile değerlendirilebilir. OTSSÇ.3.1.2 Öğrenciler gruplara ayrılır ve her gruba sosyal girişimcilik ile ilgili örnekler verilir. Öğrenciler, grup çalışması yaparak bu örnekler üzerinden sosyal girişimciliğe dair merak ettikleri konuları belirler (E3.8, SDB2.2). Gruplar belirledikleri konularla ilgili araştırma soruları üretir. Sınıf panosunda “Merak Ediyoruz” başlıklı bir bölüm oluşturulur ve sorular buraya asılır (E2.1, SDB2.3, OB1). Uygun olan sorular okul ortamında diğer öğrenci ve öğretmenlere yöneltilir. Cevaplar not edilir (OB2). Alınan cevaplardan hareketle bir afiş hazırlanır. Öğrenci çalışmaları, dereceli puanlama anahtarı ile değerlendirilebilir. OTSSÇ.3.1.3 Öğrencilere bir toplumsal sorunun çözümünü ele alan pedagojiye uygun yazılı ve görsel kaynaklar verilir (OB1, OB4). Öğrencilerin bu kaynaklar aracılığıyla toplumsal sorunların çözümünün önemini fark etmeleri sağlanır. Öğrencilerin yaşadığı çevrede belirlediği bir toplumsal sorunun çözümüne yönelik ulusal düzeydeki benzer girişimleri incelemeleri sağlanır (E.2.1, SDB2.3). ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Belirlenen bir toplumsal sorunun çözümüne yönelik olarak öğrencilerin fikirleri alınır ve bu fikirler tahtaya not edilir (E3.3, E3.8). En uygulanabilir ve özgün fikirler seçilerek okul panosunda sergilenir veya okul yönetimine sunulur. Öğrencilerin ürünleri kontrol listesi ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Farklı ülkelerdeki sosyal sorumluluk projelerini inceleyip karşılaştırmalı rapor sunabilirler. Sosyal girişimcilik konularını inceleyerek örnek bir sosyal girişim fikri tasarlayabilirler. Toplumsal sorunlara yönelik çözüm önerilerini okul web sitesi üzerinden yayınlayabilirler. Destekleme Sosyal sorumluluk projeleri örnek olaylar veya kısa metinlerle incelenebilir. Sosyal girişimcilik alanında faaliyet gösteren bir kişi hakkında bilgi toplayabilirler. Toplumsal sorunların çözümüne yönelik verilen posteri tamamlamaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.3.1.1",
+     "order": 1,
+     "text": "Sosyal sorumluluk projelerinin toplum üzerindeki etkilerini sorgulayabilme SÜREÇ BİLEŞENLERİ a) Sosyal sorumluluk projelerinin toplum üzerindeki etkileri ile ilgili merak ettiği konuları tanımlar.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Sosyal sorumluluk projelerinin toplum üzerindeki etkileri ile ilgili merak ettiği konular hakkında sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Sosyal sorumluluk projelerinin toplum üzerindeki etkileri ile ilgili merak ettiği konular hakkında bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Sosyal sorumluluk projelerinin toplum üzerindeki etkileri ile ilgili merak ettiği konular hakkında topladığı bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Sosyal sorumluluk projelerinin toplum üzerindeki etkileri ile ilgili merak ettiği konular hakkında topladığı bilgiler üzerinden çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.3.1.2",
+     "order": 2,
+     "text": "Sosyal girişimcilik kavramına yönelik meraka dayalı sorular sorabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Sosyal girişimcilik kavramına yönelik merak ettiği konuları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Sosyal girişimcilik kavramına yönelik merak ettiği konular hakkında sorular sorar."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.3.1.3",
+     "order": 3,
+     "text": "Yaşadığı çevrede belirlediği bir toplumsal sorunun çözümüne yönelik fikir üretebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yaşadığı çevrede belirlediği bir toplumsal sorunun çözümünün önemini fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Yaşadığı çevrede belirlediği bir toplumsal sorunun çözümüne yönelik benzer girişimleri inceler."
+      },
+      {
+       "label": "c",
+       "text": "Yaşadığı çevrede belirlediği bir toplumsal sorunun çözümüne yönelik fikirler üretir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "unit": 2,
+   "kind": "ÖĞRENME ALANI",
+   "title": "TOPLUMSAL DEĞERLER VE AHLAK",
+   "description": "Bu öğrenme alanında öğrencilerin değer temelli düşünebilen, kültürel bilinç geliştirmiş, eleştirel değerlendirme yapabilen ve toplumsal bütünlüğe katkıda bulunan bilinçli bireyler olarak yetişmeleri amaçlanmaktadır. ALAN SBAB2. Kanıta Dayalı Sorgulama ve Araştırma (SBAB2.6. Kanıta Dayalı Ürün Oluşturma BECERİLERİ ve Paylaşma) KAVRAMSAL KB2.18. Tartışma, KB2.14. Yorumlama BECERİLER",
+   "lesson_hours": 12,
+   "sections": {
+    "EĞİLİMLER": "E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Öz Güven), E2.1. Empati, E3.3. Yaratıcılık, E3.5. Açık Fikirlilik, E3.6. Analitiklik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim, SDB2.3. Sosyal farkındalık, SDB3.2. Esneklik Öğrenme Becerileri",
+    "Değerler": "D14. Saygı, D20. Yardımseverlik Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER ARASI Sosyal Bilgiler",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.1. Çelişki Giderme ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.3.2.1. Toplumsal değerler ve ahlak ilkeleri ihlallerinin toplumsal yapıya etkisini tarSÜREÇ BİLEŞENLERİ tışabilme a) Toplumsal değerler ve ahlak ilkeleri ihlallerinin toplumsal yapıya etkileri hakkında temellendirme yapar. b) Toplumsal değerler ve ahlak ilkeleri ihlallerinin toplumsal yapıya etkilerine ilişkin çelişkileri tespit eder. c) Toplumsal değerler ve ahlak ilkeleri ihlallerinin toplumsal yapıya etkileri hakkındaki görüşleri kabul eder veya çürütür. OTSSÇ.3.2.2. Kültürel mirasın toplumsal değerlerle ilişkisini yorumlayabilme a) Kültürel mirasın toplumsal değerlerle ilişkisini inceler. b) Kültürel mirasın toplumsal değerlerle ilişkisini bağlamdan kopmadan dönüştürür. c) Kültürel mirasın toplumsal değerlerle ilişkisini yeniden ifade eder. OTSSÇ.3.2.3. Toplumsal değerler ve ahlak ilkelerine ilişkin oluşturduğu ürünü paylaşabilme a) Toplumsal değerler ve ahlak ilkelerine ilişkin kanıtlara dayalı çıkarımda bulunur. b) Toplumsal değerler ve ahlak ilkelerine ilişkin kendi çıkarımlarına dayalı ürün oluşturur. c) Toplumsal değerler ve ahlak ilkelerine ilişkin oluşturulan ürünleri paylaşır.",
+    "İÇERİK ÇERÇEVESİ": "Toplumsal Değerler ve Ahlak İlkelerinin İhlali Kültürel Mirasın Toplumsal Değerlerle İlişkisi Toplumsal Değerler ve Ahlak İlkeleri",
+    "Anahtar Kavramlar": "ihlal, kültür ögeleri, kültürel miras ÖĞRENME Bu öğrenme alanındaki çıktılar, bütüncül dereceli puanlama anahtarı ve performans göKANITLARI revi kullanılarak değerlendirilebilir. (Ölçme ve Performans Görevi: \"Mevlevi Sema Töreni, Türk Düğün Gelenekleri, Türk Halı DokumaDeğerlendirme) cılığı, Nevruz Bayramı\" konularından birini seçerek afiş, poster vb. bir ürün oluşturması istenebilir. Hazırlanan ürünler dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin günlük yaşamda toplumsal değerlerle (yardımlaşma, doğruluk, adalet, sorumluluk vb.) karşılaştıkları; kültürel miras unsurlarını aile, çevre veya medya aracılığıyla tanıdıkları; toplumsal değerlerin birey ve toplum hayatına katkıları konusunda temel farkındalığa sahip oldukları kabul edilmektedir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Ön Değerlendirme Süreci Öğrencilere “Sizce toplumsal değerlerin ve ahlak ilkelerinin ihlali toplumda ne gibi sorunlara yol açabilir?” sorusu yöneltilebilir, öğrenci cevapları tahtaya yazılabilir. Öğrencilerden UNESCO’nun somut olan ve somut olmayan kültürel miras listesinde yer alan Türk kültür ögelerinden bildiklerini söylemeleri istenebilir. Öğrencilerden kültürel ögelerin altında yatan değerleri tespit etmeleri istenebilir. Toplumsal değerler ve ahlak ilkeleri ile ilgili bildikleri atasözü ve deyimlere örnek vermeleri istenebilir. Köprü Kurma Öğrencilere “Günlük yaşamınızda hangi toplumsal değerler ve ahlak ilkelerine göre yaşıyorsunuz?” sorusu yöneltilebilir. Yakın çevrelerinde yer alan kültürel miras ögelerine örnekler vermeleri istenebilir. Öğrencilerden okulda dikkat ettikleri toplumsal değerler ve ahlak ilkelerine örnekler vermeleri istenebilir. Öğrenme-Öğretme OTSSÇ.3.2.1 Uygulamaları Verilen pedagojiye uygun yazılı ve görsel kaynaklar üzerinden toplumsal değerlerin ve ahlak ilkelerinin ihlalinin toplum hayatına etkileri incelenir (OB1, OB4). Bu süreçte dijital kaynaklara da başvurulabilir (OB2). Öğrencilerin dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir. Tartışma yöntemi aracılığıyla öğrencilerden inceledikleri kaynaklardan yola çıkarak toplumsal değerlerin ve ahlak ilkelerinin ihlalinin toplum hayatına etkilerini saygı değerini de göz önüne alarak ortaya koymaları istenir. Bir eylemi gerçekleştirirken içinde yaşadığı toplumun millî ve manevi değerlerini dikkate alması gerektiği vurgulanır (E1.4, E1.5, E3.5, SDB2.1, D14.3). Tartışma sürecinde çelişkili fikirler ve fikir ayrılıkları tespit edilip tahtaya yazılır (E3.6, SDB2.3, KB2.1). Öğrencilerden ortaya atılan görüşleri gerekçeleriyle kabul etmeleri veya verilere, kanıtlara, örneklere dayalı olarak çürütmeleri istenir (E3.10, OB1). Öğrencilerden toplumsal değerlerin ve ahlak ilkelerinin ihlallerinin toplumda ortaya çıkardığı sorunlar hakkında farkındalık oluşturmak için bir proje geliştirmeleri istenir (E3.3, SDB3.2). Öğrenci ürünleri, bütüncül dereceli puanlama anahtarı kullanılarak değerlendirilebilir. OTSSÇ.3.2.2 Öğrencilere UNESCO tarafından somut olan ve somut olmayan kültürel miras listelerine alınmış Türk kültür ögeleri (Mevlevî semâsı, ebru sanatı, nevruz kutlaması, aşure günü, geleneksel düğünler vb.) pedagojiye uygun görsel ve videolar eşliğinde sunulur. Türk kültür ögeleri ve kültürel miras listeleri ile ilgili sosyal bilgiler dersinin \"kültürel özelliklere saygı duymanın birlikte yaşamaya etkisini yorumlayabilme\" öğrenme çıktısından yararlanılabilir. Sunulan her kültürel miras ögesinin altında yatan değerler (saygı, yardımlaşma, paylaşma, dayanışma, sevgi, vefa, infak, ikram ve ihsan) tespit edilerek incelenir. Bu kavramların kültürümüzde toplumsal dayanışma, paylaşma ve yardımlaşma anlayışına katkısı örnekler üzerinden açıklanır. Bu aşamada öğrencilerin millî ve manevi değerlere duyarlı davranmaları gerektiği vurgulanır (E1.4, E2.1, D14.3, D20.2, OB4). İncelemeler sonucu elde edilen bilgilerle \"Kültürel Miras-Toplumsal Değer Eşleştirme Tablosu\" hazırlanarak kültürel mirasın toplumsal değerlerle ilişkisine örnekler vermeleri istenir (E3.6, SDB2.3, OB1). Her öğrenciden \"Kültürel mirasımızdaki hangi değeri yaşatmak isterdim ve neden?\" temalı kısa bir yazı yazması istenir veya çevresinden bir kültürel gelenekle ilgili röportaj yaparak sınıfta paylaşması istenebilir (E1.5, E3.3, SDB2.1). Bu çalışma ile kültürel mirasın toplumsal değerlerle ilişkisini ifade etmesi sağlanır. Performans görevi olarak \"Mevlevi Sema Töreni, Türk Düğün Gelenekleri, Türk Halı Dokumacılığı, Nevruz Bayramı\" konularından birisini seçerek afiş, poster vb. bir ürün oluşturması istenebilir. Hazırlanan ürünler dereceli puanlama anahtarı ile değerlendirilebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI OTSSÇ.3.2.3 Öğrencilere yardımlaşma, doğruluk, adalet, sorumluluk gibi toplumsal değerlerle ilgili pedagojiye uygun hikâyeler, karikatür, afiş, broşür gibi örnekler dağıtılır ve bunları okumaları istenir (OB1, OB4). Ardından “Sizce bu hikâyede hangi değer öne çıkıyor?\", \"Böy­le bir davranış toplumda nasıl bir etki oluşturur?\", \"Bu davranışın ahlaki yönü nedir?” gibi sorular yöneltilerek tartışma başlatılır ve öğrencilerin çıkarım yapmaları sağlanır (E3.5, SDB2.3). Ardından öğrenciler gruplara ayrılır. Her grup bir toplumsal değer veya ahlak ilkesi belirler. Belirlediği değer veya ilke ile ilgili kısa skeç, drama senaryosu, dijital sunum, video, afiş, poster, çizgi hikâye, çizgi roman, anlamlı sözler panosu, değer kartları gibi bir ürün oluşturur (E3.3, SDB2.1, OB2, OB4). Bu aşamada öğretmen tarafından toplumsal değerlerin birey ve toplum için önemi üzerine rehber bir konuşma yapılır. Ahlaki ilkelerin bireysel davranışlara ve sosyal bütünlüğe katkısı vurgulanır (E1.4, E1.5). Öğrencilerden “Ben bu değeri hayatımda yaşatmak için…” ifadesiyle başlayan bir yansıtma yazısı yazmaları istenir (E3.6). Ürünler sınıf, okul panosu veya okulun sosyal medya platformunda paylaşılabilir. Öğrencilerin ürünleri için bütüncül dereceli puanlama anahtarı uygulanabilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrenciler toplumsal değerlerin ihlali ile ilgili tartışmalardan yola çıkarak kamu spotu, kısa film veya sosyal medya kampanyası hazırlayabilirler. Kültürel miras ögelerini toplumsal değerlerle ilişkilendiren bir e-kitap oluşturabilirler. Grup ürünlerini çevrim içi platformlarda (okul sosyal medya hesapları) paylaşabilirler. Destekleme Öğrenciler toplumsal değer ihlallerine dair basit hikâye veya kısa metinler hazırlayabilir. Belirledikleri kültürel miras ögesini çizerek bunu ifade etmeleri istenebilir. Atasözü, deyim ve hikâyeler resim veya kavram kartları ile somutlaştırılabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.3.2.1",
+     "order": 1,
+     "text": "Toplumsal değerler ve ahlak ilkeleri ihlallerinin toplumsal yapıya etkisini tarSÜREÇ BİLEŞENLERİ tışabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Toplumsal değerler ve ahlak ilkeleri ihlallerinin toplumsal yapıya etkileri hakkında temellendirme yapar."
+      },
+      {
+       "label": "b",
+       "text": "Toplumsal değerler ve ahlak ilkeleri ihlallerinin toplumsal yapıya etkilerine ilişkin çelişkileri tespit eder."
+      },
+      {
+       "label": "c",
+       "text": "Toplumsal değerler ve ahlak ilkeleri ihlallerinin toplumsal yapıya etkileri hakkındaki görüşleri kabul eder veya çürütür."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.3.2.2",
+     "order": 2,
+     "text": "Kültürel mirasın toplumsal değerlerle ilişkisini yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kültürel mirasın toplumsal değerlerle ilişkisini inceler."
+      },
+      {
+       "label": "b",
+       "text": "Kültürel mirasın toplumsal değerlerle ilişkisini bağlamdan kopmadan dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Kültürel mirasın toplumsal değerlerle ilişkisini yeniden ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.3.2.3",
+     "order": 3,
+     "text": "Toplumsal değerler ve ahlak ilkelerine ilişkin oluşturduğu ürünü paylaşabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Toplumsal değerler ve ahlak ilkelerine ilişkin kanıtlara dayalı çıkarımda bulunur."
+      },
+      {
+       "label": "b",
+       "text": "Toplumsal değerler ve ahlak ilkelerine ilişkin kendi çıkarımlarına dayalı ürün oluşturur."
+      },
+      {
+       "label": "c",
+       "text": "Toplumsal değerler ve ahlak ilkelerine ilişkin oluşturulan ürünleri paylaşır."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "unit": 3,
+   "kind": "ÖĞRENME ALANI",
+   "title": "TOPLUMSAL YARDIMLAŞMA",
+   "description": "Bu öğrenme alanında öğrencilerin toplumsal dayanışma kültürünü benimseyen, aktif katılım gösteren, planlama ve uygulama süreçlerinde sorumluluk üstlenebilen bilinçli ve duyarlı bireyler olarak yetişmeleri amaçlanmaktadır. ALAN SBAB5. Sosyal Katılım (SBAB5.5. Fikri Eyleme Dönüştürme) BECERİLERİ KAVRAMSAL KB2.6. Bilgi Toplama BECERİLER",
+   "lesson_hours": 11,
+   "sections": {
+    "EĞİLİMLER": "E3.3. Yaratıcılık, E3.4. Gerçeği Arama, E3.7. Sistematiklik, E3.9. Şüphe Duyma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB3.2. Esneklik, SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri",
+    "Değerler": "D16. Sorumluluk Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER ARASI -",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.17. Değerlendirme ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.3.3.1. Ülkemizde uygulanmış toplumsal yardımlaşma proje örnekleri hakkında bilgi SÜREÇ BİLEŞENLERİ toplayabilme a) Ülkemizde uygulanmış toplumsal yardımlaşma proje örnekleri hakkında bilgi toplayacağı araçları belirler. b) Ülkemizde uygulanmış toplumsal yardımlaşma proje örnekleri hakkında belirlediği araçları kullanarak bilgileri bulur. c) Ülkemizde uygulanmış toplumsal yardımlaşma proje örnekleri hakkında ulaştığı bilgileri doğrular. ç) Ülkemizde uygulanmış toplumsal yardımlaşma proje örnekleri hakkında ulaştığı bilgileri kaydeder. OTSSÇ.3.3.2. Ulusal düzeyde toplumsal yardımlaşma için etkinlik düzenleyebilme a) Ulusal düzeyde toplumsal yardımlaşma için etkinlik planı yapar. b) Ulusal düzeyde toplumsal yardımlaşma için hazırladığı etkinlik planını uygular. c) Ulusal düzeyde toplumsal yardımlaşma için hazırladığı etkinlik planını değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Ülkemde Uygulanmış Toplumsal Yardım Projeleri Yaşadığım Çevreye Katkım Olsun",
+    "Anahtar Kavramlar": "iş bölümü, toplumsal yardımlaşma ÖĞRENME Bu öğrenme alanındaki çıktılar; derecelendirme ölçeği, kontrol listesi, öz değerlendirme KANITLARI formu ve performans görevi kullanılarak değerlendirilebilir. (Ölçme ve Performans Görevi: Çevrelerinde hangi ihtiyaca yönelik yardımlaşma faaliyetlerinin daha Değerlendirme) fazla yapıldığına dair anket hazırlamaları istenebilir. Öğrenci anketleri, akran değerlendirme ölçeği ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin aile, okul ve çevrelerinde yardımlaşma örnekleriyle karşılaştıkları ve toplumsal yardımlaşma projelerinin topluma katkıları hakkında temel düzeyde bilgiye sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere “İnsanlar hangi konularda yardıma ihtiyaç duyabilir?” sorusu yöneltilebilir. Öğrencilerden çevrelerinde yardımlaşma adına tanık oldukları bir etkinliği anlatmaları istenebilir. Köprü Kurma Öğrencilerin katıldığı yardımlaşma projelerine örnekler vermeleri istenebilir. Öğrencilere “Okulunuzda bir yardımlaşma etkinliği düzenleseydiniz nasıl bir çalışma yapardınız?” sorusu yöneltilebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme OTSSÇ.3.3.1 Uygulamaları Öğrenciler, ülkemizde uygulanmış toplumsal yardımlaşma proje örnekleriyle ilgili bilgilere ulaşmak için kullanılacak yazılı ve görsel kaynakları belirler. Bu amaçla dijital kaynaklardan yararlanılabilir (OB1, OB2, OB4). Öğrenciler belirlenen kaynaklar üzerinden ülkemizde uygulanmış toplumsal yardımlaşma proje örnekleri hakkında bilgi toplar. Öğrencilerin dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir. Sorumluluk değeri kapsamında görev bilincine sahip olmanın önemi ifade edilir (E3.4, D16.3). Toplanan bilgiler öğrenciler tarafından karşılaştırılarak doğrulanır. Bu aşamada kaynakların güncelliği, güvenilirliği ve sunulan bilgilerin tutarlılığı sınıf ortamında tartışılır (E3.7, E3.9, E3.10, SDB3.2). Öğrencilerden araştırmaları sonucunda elde ettikleri bilgileri rapor hâline getirmeleri ve bunları sunmaları istenir. Hazırlanan raporlar derecelendirme ölçeği ile sunumlar ise kontrol listesi ile değerlendirilebilir. Öğrencilerden performans görevi olarak çevrelerinde hangi ihtiyaca yönelik yardımlaşma faaliyetlerinin daha fazla yapıldığına dair anketler hazırlamaları istenebilir. Öğrenci anketleri, akran değerlendirme ölçeği ile değerlendirilebilir. OTSSÇ.3.3.2 Öğrencilerden yaşadığı çevrede (mahalle, okul çevresi, köy vb.) tespit ettiği bir soruna yönelik bir yardımlaşma etkinliği planlaması istenebilir. Etkinlik planında etkinliğin amacı, hedef kitle, iş bölümü, takvim ve afiş, slogan veya duyuru önerilerine yer verilir (E3.3, OB4). Öğrenciler uygulayacakları etkinliğin hazırlık aşamasında okul idaresinin ve gerekli diğer kurumların onayıyla etkinliğin tanıtımını, slogan veya afiş hazırlığını, ilgili kişilerle görüşme yapılmasını gerçekleştirir (SDB3.3, OB2). Öğrenciler hazırladıkları etkinliğin uygulanabilirliğini, amaca ulaşılıp ulaşılmadığını ve yakın çevrelerinde nasıl bir etki oluşturduğunu değerlendirir (E3.7, E3.10, SDB3.2, KB2.17). Öğrenciler öz değerlendirme formu ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrenciler araştırdıkları projelerden esinlenerek “yeni bir yardımlaşma modeli” önerisi geliştirebilirler. Öğrenciler hazırladıkları etkinliğin sürecini fotoğraf sergisi, günlük veya kısa film ile belgeleyebilirler. Destekleme Öğrenciler toplumsal yardımlaşma projeleriyle ilgili resimler çizebilir. Etkinlik planı, önceden hazırlanmış şablonlarla doldurulabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.3.3.1",
+     "order": 1,
+     "text": "Ülkemizde uygulanmış toplumsal yardımlaşma proje örnekleri hakkında bilgi SÜREÇ BİLEŞENLERİ toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Ülkemizde uygulanmış toplumsal yardımlaşma proje örnekleri hakkında bilgi toplayacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Ülkemizde uygulanmış toplumsal yardımlaşma proje örnekleri hakkında belirlediği araçları kullanarak bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Ülkemizde uygulanmış toplumsal yardımlaşma proje örnekleri hakkında ulaştığı bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Ülkemizde uygulanmış toplumsal yardımlaşma proje örnekleri hakkında ulaştığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.3.3.2",
+     "order": 2,
+     "text": "Ulusal düzeyde toplumsal yardımlaşma için etkinlik düzenleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Ulusal düzeyde toplumsal yardımlaşma için etkinlik planı yapar."
+      },
+      {
+       "label": "b",
+       "text": "Ulusal düzeyde toplumsal yardımlaşma için hazırladığı etkinlik planını uygular."
+      },
+      {
+       "label": "c",
+       "text": "Ulusal düzeyde toplumsal yardımlaşma için hazırladığı etkinlik planını değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "unit": 4,
+   "kind": "ÖĞRENME ALANI",
+   "title": "ÇEVRE VE SÜRDÜRÜLEBİLİRLİK",
+   "description": "Bu öğrenme alanında öğrencilerin çevre bilinci gelişmiş, sürdürülebilir yaşam anlayışını içselleştirmiş, araştıran, planlayan ve çevresel sorumluluk üstlenen aktif bireyler olarak yetişmeleri amaçlanmaktadır. ALAN SBAB5. Sosyal Katılım (SBAB5.5 Fikri Eyleme Dönüştürme) BECERİLERİ KAVRAMSAL KB2.6. Bilgi Toplama BECERİLER",
+   "lesson_hours": 12,
+   "sections": {
+    "EĞİLİMLER": "E3.3. Yaratıcılık, E3.4. Gerçeği Arama, E3.7. Sistematiklik, E3.9. Şüphe Duyma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB3.1. Uyum, SDB3.2. Esneklik, SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri",
+    "Değerler": "D17. Tasarruf, D18. Temizlik Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER ARASI Fen Bilimleri",
+    "İLİŞKİLER": "BECERİLER ARASI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.3.4.1. Ülkemizdeki çevre koruma kurumları hakkında bilgi toplayabilme SÜREÇ BİLEŞENLERİ a) Ülkemizde çevre koruma politikaları ortaya koyan kurum ve kuruluşlara dair bilgilere ulaşmak amacıyla kullanacağı kaynakları belirler. b) Ülkemizde çevre koruma politikaları ortaya koyan kurum ve kuruluşlara dair bilgileri, belirlediği kaynaklardan toplar. c) Ülkemizde çevre koruma politikaları ortaya koyan kurum ve kuruluşlara dair topladığı bilgileri doğrular. ç) Ülkemizde çevre koruma politikaları ortaya koyan kurum ve kuruluşlara dair topladığı bilgileri kaydeder. OTSSÇ.3.4.2. Sürdürülebilirlik ilkesine göre çevre farkındalık etkinliği düzenleyebilme a) Sürdürülebilirlik ilkesine göre çevre farkındalık etkinlik planı yapar. b) Sürdürülebilirlik ilkesine göre hazırladığı çevre farkındalık etkinliğini uygular. c) Sürdürülebilirlik ilkesine göre uyguladığı çevre farkındalık etkinliğini değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Çevremi Koruyan Kurumlar Çevreni Fark Et",
+    "Anahtar Kavramlar": "çevre koruma ÖĞRENME Bu öğrenme alanındaki çıktılar; bütüncül dereceli puanlama anahtarı, öz değerlendirme KANITLARI formları ve performans görevi kullanılarak değerlendirilebilir. (Ölçme ve Performans Görevi: “Ben bu etkinlikten sonra şunu yapmaya başladım.” içerikli yansıtma Değerlendirme) yazısı yazmaları istenebilir. Hazırlanan ürünler dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin çevre sorunlarına karşı temel düzeyde duyarlılığa sahip oldukları, çevre koruma politikaları ortaya koyan kurum ve kuruluşları daha önce duydukları, sürdürülebilirlik kavramına ise sınırlı düzeyde aşina oldukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerden çevre koruma politikaları ortaya koyan kurum ve kuruluşları söylemeleri ve yazmaları istenebilir. Öğrencilerden düzenli olarak katıldıkları bir faaliyeti anlatmaları istenebilir. Köprü Kurma Öğrencilere \"Çevre koruma projeleri yürüten hangi sivil toplum kuruluşunun faaliyetlerine katılmak isterdiniz?\" sorusu sorulabilir. Öğrencilere yakın çevrelerinde çevre korumasına yönelik sürekli sergiledikleri davranışlara örnekler vermeleri istenebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme OTSSÇ.3.4.1 Uygulamaları Öğrencilerin ülkemizdeki çevre koruma politikalarını ortaya koyan kurum ve kuruluşlarla ilgili bilgi toplamada kullanabilecekleri kaynakları belirlemeleri sağlanır (OB1, E3.4). Belirlenen kaynaklardan ülkemizdeki çevre koruma politikaları ortaya koyan kurum ve kuruluşlar ile ilgili bilgi toplanır. Öğrencilerin dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir (E3.7). Öğrencilerden ülkemizdeki çevre koruma politikaları ortaya koyan kurum ve kuruluşlarla ilgili ulaşılan bilgileri yazılı, görsel ve dijital olmak üzere farklı kaynaklarla karşılaştırarak doğrulamaları istenir (E3.9, E3.10, SDB3.2, OB4). Öğrencilerden doğruladıkları bilgileri yazılı olarak kaydetmeleri istenir (E3.7, SDB3.1). Edindikleri bilgilerden yararlanarak ülkemizdeki çevre koruma politikaları ortaya koyan kurum ve kuruluşların faaliyetlerini tanıtan bir afiş veya broşür hazırlamaları istenir (E3.3, OB4). Öğrenci ürünleri, bütüncül dereceli puanlama anahtarı kullanılarak değerlendirilebilir. OTSSÇ.3.4.2 Öğretmen öğrencilere sürdürülebilirlik kavramını açıklar. Öğrencilere pedagojiye uygun kısa bir belgesel veya video izletir. Tasarruf ve temizlik değerlerine yer verilerek öğrencilerden yaşadıkları çevrede karşılaştıkları çevre sorunlarını yazmaları istenir (E3.7, SDB3.1, D17.2, D18.2). Öğrenciler gruplara ayrılarak okulda sıfır atık kutuları yerleştirme ve broşür dağıtımı, geri dönüşüm temalı afiş yarışması, “Su Günü” veya “Elektrik Tasarru­ fu Haftası” etkinliği, atık malzemelerden yapılmış üretim sergisi, okul bahçesinde doğal yaşam alanı oluşturma gibi sürdürülebilirlik temelli bir çevre farkındalık etkinliği planlar (E3.3, SDB3.2, OB2, OB4). Bu aşamada fen bilimleri dersinin \"yakın çevresindeki veya ülkemizdeki bir çevre problemine ilişkin çözüm üretebilme\" öğrenme çıktısı ile ilişkilendirme yapılabilir. Gruplar, okul yönetiminden izin alarak planladıkları etkinliği okul içinde veya sınıf ortamında uygulamaya başlar. Broşür dağıtımı, sunum, drama, görsel sergi gibi yöntemler kullanılabilir. Etkinlikler, sürdürülebilirlik ilkelerine uygun olarak geri dönüştürülebilir materyallerle yapılır. Gruplar kendi içinde etkinliklerinin etkisini tartışır. Sınıf içinde etkileşim panosu oluşturulur (SDB3.1, SDB3.3). Öğrencilerden performans görevi olarak “Ben bu etkinlikten sonra şunu yapmaya başladım.” içerikli yansıtma yazısı yazmaları istenebilir. Hazırlanan ürünler dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrenciler yerel ve ulusal çevre koruma politikaları ortaya koyan kurum ve kuruluşları inceleyerek uluslararası kuruluşlarla karşılaştırmalı tablo oluşturabilirler. Planladıkları sürdürülebilirlik temelli çevre farkındalık etkinliklerini okul dışında (mahalle, park, belediye tesisleri vb.) uygulamaya dönüştürebilirler. Destekleme Öğrencilerden çevre koruma politikaları ortaya koyan kurum ve kuruluşların logolarını çizmeleri istenebilir. Öğrencilerden tek cümlelik alışkanlık değişim kartları hazırlamaları istenebilir (Ben bu etkinlikten sonra ışıkları kapatmaya başladım.). ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.3.4.1",
+     "order": 1,
+     "text": "Ülkemizdeki çevre koruma kurumları hakkında bilgi toplayabilme SÜREÇ BİLEŞENLERİ a) Ülkemizde çevre koruma politikaları ortaya koyan kurum ve kuruluşlara dair bilgilere ulaşmak amacıyla kullanacağı kaynakları belirler.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Ülkemizde çevre koruma politikaları ortaya koyan kurum ve kuruluşlara dair bilgileri, belirlediği kaynaklardan toplar."
+      },
+      {
+       "label": "c",
+       "text": "Ülkemizde çevre koruma politikaları ortaya koyan kurum ve kuruluşlara dair topladığı bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Ülkemizde çevre koruma politikaları ortaya koyan kurum ve kuruluşlara dair topladığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.3.4.2",
+     "order": 2,
+     "text": "Sürdürülebilirlik ilkesine göre çevre farkındalık etkinliği düzenleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Sürdürülebilirlik ilkesine göre çevre farkındalık etkinlik planı yapar."
+      },
+      {
+       "label": "b",
+       "text": "Sürdürülebilirlik ilkesine göre hazırladığı çevre farkındalık etkinliğini uygular."
+      },
+      {
+       "label": "c",
+       "text": "Sürdürülebilirlik ilkesine göre uyguladığı çevre farkındalık etkinliğini değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "unit": 5,
+   "kind": "ÖĞRENME ALANI",
+   "title": "TOPLUMSAL SAĞLIK",
+   "description": "Bu öğrenme alanında öğrencilerin sağlıklı yaşam bilinci gelişmiş, toplumsal sağlık konularında duyarlı, çözüm odaklı düşünebilen ve kurumsal yapıların toplumsal sağlık üzerindeki rolünü kavrayabilen bilinçli bireyler olarak yetişmeleri amaçlanmaktadır. ALAN SBAB5. Sosyal Katılım (SBAB5.3. Fikir Üretme) BECERİLERİ KAVRAMSAL KB2.4. Çözümleme BECERİLER",
+   "lesson_hours": 10,
+   "sections": {
+    "EĞİLİMLER": "E2.2. Sorumluluk, E3.3. Yaratıcılık, E3.7. Sistematiklik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim Öğrenme Becerileri",
+    "Değerler": "D5. Duyarlılık Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER ARASI Türkçe",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.13. Yapılandırma ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.3.5.1. Sağlıklı yaşamı tehdit eden durumların çözümü için fikir üretebilme SÜREÇ BİLEŞENLERİ a) Sağlıklı yaşamı tehdit eden durumları fark eder. b) Sağlıklı yaşamı tehdit eden durumların çözümlerine ilişkin benzer projeleri inceler. c) Sağlıklı yaşamı tehdit eden durumlara yönelik çözüm önerileri üretir. OTSSÇ.3.5.2. Bağımlılıkla mücadele eden kurum ve kuruluşları çözümleyebilme a) Bağımlılıkla mücadele eden kurum ve kuruluşları belirler. b) Bağımlılıkla mücadele eden kurum ve kuruluşlar arasındaki ilişkiyi belirler.",
+    "İÇERİK ÇERÇEVESİ": "Sağlıklı Yaşam Bağımlılığa Karşı Duran Kurumlar ve Kuruluşlar",
+    "Anahtar Kavramlar": "bağımlılıkla mücadele, sağlıklı yaşam, yerel yönetim ÖĞRENME Bu öğrenme alanındaki çıktılar, dereceli puanlama anahtarı ve performans görevi kullaKANITLARI nılarak değerlendirilebilir. (Ölçme ve Performans Görevi: Öğrencilerden günlük yaşamda sağlıklı yaşamı tehdit eden bir duDeğerlendirme) rumu fark etmeleri, bu duruma yönelik daha önce yapılmış benzer projeleri incelemeleri ve kendi çözüm önerilerini geliştirerek bir ürün ortaya koymaları istenebilir. Öğrenci ürünleri, dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin günlük yaşamda tanık oldukları bağımlılıkların (sigara, sağlıksız beslenme, teknoloji bağımlılığı vb.) sağlıklı yaşamı tehdit ettiğini bildikleri, bağımlılıkla mücadele eden kamu kurumları ile sivil toplum kuruluşlarının rolü hakkında temel düzeyde bilgi sahibi oldukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere \"Sizce sağlıklı yaşamı tehdit eden durumlar nelerdir?\" ve \"Bağımlılıkla hangi kurum ve kuruluşlar mücadele ediyor olabilir?\" soruları sorulabilir. Köprü Kurma Öğrencilere \"Yakın çevrenizde sağlıklı yaşamı destekleyen hangi uygulamalar yapılmaktadır?\" ve \"Günümüzde yaygın olan bağımlılık türleri nelerdir?\" soruları yöneltilebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme OTSSÇ.3.5.1 Uygulamaları Sağlıklı yaşamı tehdit eden unsurlarla ilgili yerel yönetimler, sivil toplum kuruluşları veya kamu kuruluşlarının uyguladığı pedagojiye uygun örnek projeler yazılı, görsel veya dijital kaynaklardan incelenir. Öğrencilerin dijital kaynak araştırmalarında güvenilir genel ağ adreslerinden (org, edu, gov gibi) bilgi toplamaları beklenir (OB1, OB2, OB4). Öğrencilerden hangi projenin daha etkili olduğunu ve bu projenin neden başarılı olduğunu tartışarak karşılaştırmaları istenir. Bu aşamada Türkçe dersinin \"sözlü olarak tartışmaya katılabilme\" becerisi ile ilişkilendirme yapılabilir (E3.10, SDB2.1). Öğrencilerden sağlıklı yaşamı tehdit eden durumlardan birini seçmeleri ve bu konuda sağlıklı yaşamı destekleyecek özgün bir çözüm fikri geliştirmeleri istenir (E2.2, E3.3). Öğrencilerin çözüm önerilerini poster veya broşür olarak görselleştirmeleri sağlanır. Performans görevi olarak öğrencilerden günlük yaşamda sağlıklı yaşamı tehdit eden bir durumu fark etmeleri, bu duruma yönelik daha önce yapılmış benzer projeleri incelemeleri ve kendi çözüm önerilerini geliştirerek bir ürün ortaya koymaları istenebilir. Öğrenci ürünleri, dereceli puanlama anahtarı ile değerlendirilebilir. OTSSÇ.3.5.2 Pedagojiye uygun yazılı, görsel veya dijital kaynaklardan yararlanarak bağımlılıkla mücadele eden kurum ve kuruluşlar belirlenir. Öğrencilerden bağımlılıkla mücadelede görev alan kurum ve kuruluşlara dair kavram ağı hazırlamaları istenebilir. Öğrenciler 4-5 kişilik gruplara ayrılır. Her grup bağımlılıkla mücadelede görev alan bir kurum veya kuruluşlar hakkında bilgi toplar. Toplumun çevreye ve canlılara verdiği önemin bir göstergesi olarak duyarlılık değerine yer verilir (D5.2). Gruplar kurumun adı, görev alanı, bağımlılıkla mücadelede yürüttüğü faaliyetler, hangi yaş grubuna yönelik çalıştığı, iş birliği yaptığı kurumlar gibi bilgilerin yazıldığı kurum tanıtım kartları hazırlar (E3.7, OB4). Gruplar inceledikleri kurumların diğer kurumlarla nasıl iş birliği yaptığını analiz eder. Bu ilişkiler kavram haritası veya ilişki şeması üzerinde görselleştirilir (E3.3, SDB2.1, OB4, KB2.13). Gruplar hazırladıkları kartları ve ilişki şemalarını sınıfta sunar. Performans görevi olarak “Bu kurumlar birlikte çalışmasaydı neler olurdu?” sorusu üzerine tartışılabilir ve öğrencilerin bağımlılıkla mücadelede kurumlar arası iş birliğinin önemi üzerine çıkarımlar yapması sağlanabilir. Öğrenci ürünleri dereceli puanlama anahtarı kullanılarak değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrenciler sağlıklı yaşamı tehdit eden durumları araştırdıktan sonra çözüm önerilerini kamu spotu, kısa video veya dijital bilgi görseli şeklinde geliştirebilirler. Öğrencilerden bağımlılığa karşı mücadele veren kurum ve kuruluşların iş birliği içinde hareket ettiğini anlatan senaryo yazmaları istenebilir. Destekleme Öğrencilerin sağlıklı yaşamı tehdit eden bir duruma yönelik bir çözüm önerisi belirlemeleri sağlanabilir. Öğrenciler bağımlılıkla mücadelede görev alan kurum ve kuruluşları tanıtan bilgi kartları hazırlayabilir.. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.3.5.1",
+     "order": 1,
+     "text": "Sağlıklı yaşamı tehdit eden durumların çözümü için fikir üretebilme SÜREÇ BİLEŞENLERİ a) Sağlıklı yaşamı tehdit eden durumları fark eder.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Sağlıklı yaşamı tehdit eden durumların çözümlerine ilişkin benzer projeleri inceler."
+      },
+      {
+       "label": "c",
+       "text": "Sağlıklı yaşamı tehdit eden durumlara yönelik çözüm önerileri üretir."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.3.5.2",
+     "order": 2,
+     "text": "Bağımlılıkla mücadele eden kurum ve kuruluşları çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bağımlılıkla mücadele eden kurum ve kuruluşları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Bağımlılıkla mücadele eden kurum ve kuruluşlar arasındaki ilişkiyi belirler."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "unit": 6,
+   "kind": "ÖĞRENME ALANI",
+   "title": "KATILIM VE FARKINDALIK",
+   "description": "Bu öğrenme alanında öğrencilerin küresel vatandaşlık bilinci gelişmiş, eleştirel düşünebilen, farklı görüşlere saygı duyan ve hem yerel hem uluslararası düzeyde çözüm odaklı yaklaşım sergileyebilen bireyler olarak yetişmeleri amaçlanmaktadır. ALAN SBAB5. Sosyal Katılım (SBAB5.4. Müzakere Etme) BECERİLERİ KAVRAMSAL KB2.3. Özetleme BECERİLER",
+   "lesson_hours": 10,
+   "sections": {
+    "EĞİLİMLER": "E3.2. Odaklanma, E3.3. Yaratıcılık, E3.5. Açık Fikirlilik, E3.6. Analitiklik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB3.2. Esneklik Öğrenme Becerileri",
+    "Değerler": "D20. Yardımseverlik Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık Becerileri DİSİPLİNLER ARASI Görsel Sanatlar",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.7. Karşılaştırma ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE OTSSÇ.3.6.1. Uluslararası sosyal sorunlara yönelik çözüm önerilerini müzakere edebilme SÜREÇ BİLEŞENLERİ a) Uluslararası sosyal sorunları fark eder. b) Uluslararası sosyal sorunların nedenlerine yönelik farklı bakış açılarını karşılaştırır. c) Uluslararası sosyal sorunlara yönelik çözüm arar. ç) Uluslararası sosyal sorunlara yönelik çözüm önerilerini farklı görüş ve düşünceleri dikkate alarak düzenler. d) Düzenlediği çözüm önerilerini çevresindeki sorunların çözümlerine yansıtır. OTSSÇ.3.6.2. Uluslararası sorunların çözümünde ülkemizin rolünü özetleyebilme a) Uluslararası sorunların çözümünde ülkemizin rolüne ilişkin çözümleme yapar. b) Uluslararası sorunların çözümünde ülkemizin rolüne ilişkin sınıflandırma yapar. c) Uluslararası sorunların çözümünde ülkemizin rolünü yorumlar.",
+    "İÇERİK ÇERÇEVESİ": "Dünya Sorunlarına Yönelik Çözüm Önerileri Dünyadaki Sorunların Çözümünde Ülkemizin Rolü",
+    "Anahtar Kavramlar": "barış gücü, diplomatik arabuluculuk, girişimci ve insani dış politika, insani yardım, su kıtlığı, uluslararası ÖĞRENME Bu öğrenme alanındaki çıktılar, bütüncül dereceli puanlama anahtarı ve performans göKANITLARI revi kullanılarak değerlendirilebilir. (Ölçme ve Performans görevleri: Sürdürülebilirlik temelli bir çevre farkındalık etkinliği (geri dönüDeğerlendirme) şüm, enerji tasarrufu, doğal yaşam alanı oluşturma vb.) planlanabilir ve uygulanabilir. Öğrencilerin çalışmaları, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin çevre kirliliği, iklim değişikliği, savaşlar, doğa ve insan kaynaklı afetler gibi küresel sorunlara dair medya yoluyla temel bilgiye sahip oldukları; Türkiye’nin insani yardım, diplomasi ve barış katkılarının neler olduğuna dair örnekler verebileceği kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere “Sizce dünyada en önemli sosyal sorunlar nelerdir?” sorusu yöneltilebilir. Öğrencilerden uluslararası sorunlarda Türkiye’nin insani yardım, diplomasi ve barış ile ilgili katkılarının neler olduğuna dair örnekler vermeleri istenebilir. Köprü Kurma Öğrencilere “Okulunuzda veya çevrenizde gördüğünüz bir sosyal sorun ile dünyadaki bir sorunu kıyaslarsanız ne gibi benzerlikler bulabilirsiniz?” sorusu yöneltilebilir. Öğrencilerden ülkemizin bu tür sorunların çözümünde üye olduğu uluslararası kuruluşlara örnekler vermeleri istenebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme OTSSÇ.3.6.1 Uygulamaları Dijital içerik, haber, görsel ile güncel veya tarihî örnek olaylar aracılığıyla öğrencilerin çevre kirliliği, su kıtlığı, iklim değişikliği gibi uluslararası sosyal sorunları tespit etmeleri sağlanır (E3.6, OB1, OB2). Sınıf gruplara ayrılır. Her grup verilen örnekler ve incelenen kaynaklardan yola çıkarak çevre kirliliği, su kıtlığı, iklim değişikliği gibi bir uluslararası sosyal sorunu seçerek bu uluslararası sosyal sorunun nedenlerine ilişkin bir balık kılçığı diyagramı hazırlar. Her grup, hazırladığı balık kılçığındaki şemasında belirttiği uluslararası sosyal sorunların nedenlerini sınıfla paylaşır. Uluslararası sosyal sorunların nedenleriyle ilgili ortaya çıkan farklı bakış açıları öğrenciler tarafından karşılaştırılarak benzerlikler ve farklılıklar tablosuna kaydedilir (E3.10, KB2.7). Gruplar, belirledikleri uluslararası sosyal sorunun çözümüne ilişkin özgün çözüm önerileri geliştirir (E3.3). Gruplar çözüm önerileri geliştirirken çatışma çözme stratejilerini kullanır (SDB3.2). Gruplar tarafından geliştirilen çözüm önerileri yazılı metne dönüştürülür. Gruplar, hazırladıkları uluslararası sosyal sorunların çözümüne ilişkin yazılı metinleri diğer gruplarla paylaşır. Her grup başka bir grup tarafından hazırlanan çözüm önerilerini inceleyerek bu çözüm önerilerinin güçlü ve zayıf yönlerini belirler ve ilgili gruba geri verir. Bu süreçte tüm grupların çözüm önerilerinin diğer gruplar tarafından incelenmesine dikkat edilir (E3.2). Her grup diğer gruplar tarafından belirlenen çözüm önerilerinin güçlü ve zayıf yönlerini dikkate alarak çözüm önerilerini yeniden düzenler (SDB3.2). Gruplar düzenledikleri çözüm önerilerini gerekçelendirir ve savunur. Gruplar düzenledikleri çözüm önerilerini ilgili kurum veya kuruluşa sunmak, etkinlik kampanyası düzenlemek, sınıf/okul panosunda sergilemek veya dijital platformlarda paylaşmak amacıyla yazılı, görsel bir ürüne dönüştürür. Görsel ürün oluşturulurken görsel sanatlar dersinin \"sanatsal ürün oluşturma\" becerisinden yararlanılabilir (E3.3, OB1, OB4). Hazırlanan ürünler, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. OTSSÇ.3.6.2 Öğrencilerin uluslararası düzeyde ülkemizin uyguladığı girişimci ve insani dış politika ilkelerini verilen yazılı ve görsel kaynaklardan incelemeleri sağlanabilir (OB1, OB4). Öğrencilerin ülkemizin bu sorunlara yönelik yaptığı katkı ve girişimleri insani yardım, diplomatik arabuluculuk, barış gücü katkısı, sağlık yardımları gibi konuları ele alarak çözümleme yapmaları istenir. Bu aşamada dayanışma ve fedakarlık göstermenin öneminden bahsedilerek yardımseverlik değeri işlenir (E3.6, E3.10, D20.2). Öğrencilerden ülkemizin çevre, savaşlar, doğa ve insan kaynaklı afetler gibi güncel sorunların çözümü kapsamındaki uygulamalarına ilişkin sınıflama tablosu oluşturmaları istenir. Oluşturulan tablolar öğrencler tarafından ülkemizin küresel ve bölgesel sorunların çözümüne yönelik girişimleri doğrultusunda yorumlanır (E3.5, SDB3.2). Öğrenciler performans görevi olarak sürdürülebilirlik temelli bir çevre farkındalık etkinliği (geri dönüşüm, enerji tasarrufu, doğal yaşam alanı oluşturma vb.) planlayabilir ve uygulayabilir. Öğrencilerin çalışmaları, bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrenciler seçtikleri uluslararası sosyal sorun (çevre kirliliği, su kıtlığı, iklim değişikliği vb.) için balık kılçığı diyagramını dijital araçlarla hazırlayabilirler. Öğrencilerden uluslararası sorunların çözümünde ülkemizin katkılarını belirten bir rapor hazırlamaları istenebilir. Destekleme Öğrencilerden verilen haberler üzerinden uluslararası sosyal sorunların çözüm süreçlerini belirlemeleri istenebilir. Görseller aracılığıyla öğrencilerin ülkemizin bu sorunların çözümüne hangi alanlarda katkıda bulunduğunu tespit etmeleri istenir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL OKUL TEMELLİ SOSYAL SORUMLULUK ÇALIŞMALARI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OTSSÇ.3.6.1",
+     "order": 1,
+     "text": "Uluslararası sosyal sorunlara yönelik çözüm önerilerini müzakere edebilme SÜREÇ BİLEŞENLERİ a) Uluslararası sosyal sorunları fark eder.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Uluslararası sosyal sorunların nedenlerine yönelik farklı bakış açılarını karşılaştırır."
+      },
+      {
+       "label": "c",
+       "text": "Uluslararası sosyal sorunlara yönelik çözüm arar."
+      },
+      {
+       "label": "ç",
+       "text": "Uluslararası sosyal sorunlara yönelik çözüm önerilerini farklı görüş ve düşünceleri dikkate alarak düzenler."
+      },
+      {
+       "label": "d",
+       "text": "Düzenlediği çözüm önerilerini çevresindeki sorunların çözümlerine yansıtır."
+      }
+     ]
+    },
+    {
+     "code": "OTSSÇ.3.6.2",
+     "order": 2,
+     "text": "Uluslararası sorunların çözümünde ülkemizin rolünü özetleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Uluslararası sorunların çözümünde ülkemizin rolüne ilişkin çözümleme yapar."
+      },
+      {
+       "label": "b",
+       "text": "Uluslararası sorunların çözümünde ülkemizin rolüne ilişkin sınıflandırma yapar."
+      },
+      {
+       "label": "c",
+       "text": "Uluslararası sorunların çözümünde ülkemizin rolünü yorumlar."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "unassigned_outcomes": [],
+ "report": {
+  "units": 18,
+  "outcomes": 46,
+  "components": 150,
+  "orphan_outcomes": 0,
+  "gaps": []
+ }
+}

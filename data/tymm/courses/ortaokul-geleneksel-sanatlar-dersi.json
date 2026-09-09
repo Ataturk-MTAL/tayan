@@ -1,0 +1,712 @@
+{
+ "course": {
+  "id": 71,
+  "name": "Geleneksel Sanatlar Dersi",
+  "slug": "ortaokul-geleneksel-sanatlar-dersi",
+  "prefix": "GS",
+  "shapes": [
+   "GS/noktalı-4"
+  ],
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/geleneksel-sanatlar-dersi_20260819_071232_389.pdf"
+ },
+ "units": [
+  {
+   "grade": 1,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "DOKUMA SANATI",
+   "description": "Bu temada öğrencilerin dokuma sanatı hakkında bilgi toplayabilmeleri, dokumada yer alan motiflerdeki görsel mesajı algılayabilmeleri, dokuma sanatında ürün tasarlayabilmeleri ve dokuma sanatı uygulamalarıyla sanatsal ürün oluşturabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 14,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB2. Görsel Mesajı Okuma (SAB2.1. Görsel Mesajı Algılama), SAB4. Sanatsal Üretim Yapma (SAB4.1. Sanatsal Ürün Tasarlama, SAB4.2. Sanatsal Ürün Oluşturma)",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E1.1. Merak, E2.2. Sorumluluk, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D5. Duyarlılık, D7. Estetik, D12. Sabır, D14. Saygı, D16. Sorumluluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB9. Sanat Okuryazarlığı, OB5. Kültür Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Görsel Sanatlar, Sosyal Bilgiler BECERİLER ARASI",
+    "İLİŞKİLER": "GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "GS.1.1.1. Dokuma sanatı hakkında bilgi toplayabilme a) Dokuma sanatı hakkındaki bilgilere ulaşmak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak dokuma sanatı hakkındaki bilgileri bulur. c) Dokuma sanatı hakkında ulaştığı bilgileri doğrular. ç) Dokuma sanatı hakkında ulaştığı bilgileri kaydeder. GS.1.1.2. Dokumada yer alan motiflerdeki görsel mesajı algılayabilme a) Dokumada yer alan motiflerdeki sanatsal olguları fark eder. b) Dokumada yer alan motiflerdeki sanatsal olguların nesnel özelliklerini ifade eder. GS.1.1.3. Dokuma sanatında ürün tasarlayabilme a) Dokuma sanatına ait örnekleri inceler. b) Dokuma sanatına ait örnekler bağlamında oluşturduğu imgeleri ifade eder. GS.1.1.4. Dokuma sanatı uygulamalarıyla ürün oluşturabilme a) Dokumanın temasına uygun görsel anlatım aracını ifade eder. b) Temayı dokuma sanatı ürününe dönüştürür.",
+    "İÇERİK ÇERÇEVESİ": "Dokuma Sanatına Genel Bakış Dokuma Sanatında Motiflerin Anlamları Dokuma Sanatında Tasarım Dokuma Sanatında Uygulamalar",
+    "Anahtar Kavramlar": "atkı, çözgü, halı, kilim, motif",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; soru-cevap tekniği, açık uçlu sorular, çalışma yaprağı, fikir kutusu, is- (Ölçme ve tasyon tekniği, beyin fırtınası, gösterip yaptırma, grup ve öz değerlendirme formu, analitik Değerlendirme) dereceli puanlama anahtarı, performans görevi, gözlem formu ve kontrol listesi ile değerlendirilebilir. Performans görevi olarak öğrencilere yaptıkları geleneksel halı dokumalarından oluşan bir sergi hazırlatılabilir. Performans görevi; amaç belirleme, bilgi toplama, bilgileri düzenleme ve görselleştirme, sonuç çıkarma ve sunma ölçütlerine göre analitik dereceli puanlama anahtarı ve öz değerlendirme formu ile de­ğerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin ayakkabı bağcığı bağlama becerilerinden yola çıkarak düğüm atmayı ve dokuma sanatının örülerek oluşturulduğunu bildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere aşağıdaki rehber sorular sorulabilir: • Geleneksel sanatlardan hangilerini biliyorsunuz? • Karşılaştığınız geleneksel sanat eserlerinde gördüğünüz motifler size neleri çağrıştırıyor? • Dokuma yapan insanlar nasıl çalışır? Gördüyseniz gözlemlerinizi paylaşınız. • Halı, kilim veya kumaşlarda gördüğünüz motifler size neleri çağrıştırıyor? Açıklayınız. Köprü Kurma Öğrencilerin günlük hayatta karşılaştıkları geleneksel dokumalardan bazıları öğrenme ortamına getirilebilir. Bu örneklerin motifleri ve bulundukları yüzeylerin özellikleri hakkında tartışma etkinliği yapılarak dokumada kullanılan malzemelerin neler olabileceği konusunda öğrencilerin fikir yürütmeleri sağlanabilir. Öğrenciler, dokuma sanatının uygulama aşamalarının neler olabileceği hakkında düşüncelerini dile getirmeye teşvik edilebilir. GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları GS.1.1.1 “Göz nuru dökmek” deyimi tahtaya yazılır veya etkileşimli tahtaya yansıtılır. “Bu deyimle anlatılmak istenen nedir?” sorusuyla öğrencilerin derse ilgisi çekilir (E1.1). Dokuma örnekleri projeksiyon ya da etkileşimli tahta aracılığıyla yansıtılır. Yansıtılan dokuma sanatı görsellerinden hareketle öğrencilerin emek ve sanat arasındaki ilişki üzerine düşünmeleri ve düşüncelerini paylaşmaları beklenir (SDB2.1). Türklerin Türkistan’dan Anadolu’ya yerleşmelerini anlatan kısa bir sunum yapılır. Öğrenciler dokuma sanatı hakkında bilgi toplayabilmek için eşit sayıda gruplara ayrılır. Gruplardan bilgilere ulaşmak için kullanacakları araçları belirlemeleri amacıyla kütüphane arşivleri, güvenilir dijital veri tabanları, akademik kaynaklar gibi bilgi edinme araçlarını belirlemeleri istenir. Grupların araştırma başlıklarına uygun, doğru ve güvenilir kaynakları kullanmalarını sağlamak amacıyla öğretmen tarafından onaylanmış “Geleneksel Sanatlar Kaynak Kontrol Kartları” kullanılır. Bu kartlarda kaynak türü, dönem bilgisi, görsellere ait köken bilgisi gibi başlıklara yer verilir. Öğrencilerin kitap, makale, broşür gibi materyalleri seçerek incelemeleri sağlanır (OB1). Öğrenciler belirledikleri araçları kullanarak seçtikleri grup sözcüsü aracılığıyla dokuma sanatı hakkında topladıkları bilgileri ifade eder (OB1, D14.1). Öğrenciler, edindikleri bilgiler doğrultusunda dokuma sanatının tanımını yapar (0B1). Bu sanatın tarihî gelişimi ve Anadolu kültüründeki önemini ifade eder (D19.1). Öğrencilerden Osmanlı Dönemi’nde Ehl-i Hiref teşkilatına bağlı sanatkâr ve zanaatkârların dokuma sanatına ilişkin örnekleri, dokuma çeşitlerini ve kullanılan malzemeleri araştırmaları istenir. Elde edilen bilgiler öğretmen rehberliğinde doğrulanır. Öğrencilere Anadolu’nun önemli kültürel değerlerinden biri olan kırkyama tekniğine ait örnekler gösterilir. Bu tekniğin parça kumaşların belirli bir kompozisyon oluşturacak şekilde dikiş yoluyla bir araya getirilmesiyle oluşturulduğu açıklanır. Öğrencilerden ulaştıkları bilgileri düzenli şekilde kaydetmeleri için dijital veya geleneksel yöntemleri kullanmaları istenir. Öğrenciler arasında görev dağılımı yapılır. Öğrenciler dokuma sanatı ve geleneksel Türk dokumacılığı hakkında edindikleri bilgileri, yararlandıkları kaynakların türünü ve ulaştıkları görsellerin ait olduğu döneme dair bilgileri öğretmen rehberliğinde bir araya getirerek iş birliği içinde sınıf panosu oluşturur. Böylece öğrencilerin edindikleri bilgileri düzenli bir şekilde kaydetmeleri sağlanır (SDB2.2, D16.3). GS.1.1.2 Yansıtılan geleneksel Türk dokuma örneklerini incelemeleri için öğrencilere süre verilir (OB4). Öğrenciler verilen süre sonunda kısa bir beyin fırtınası yapar. Öğrencilerin geleneksel Türk dokumalarında gördükleri motifleri ve bunların anlamlarına dair yürüttükleri fikirleri tartışma yöntemiyle arkadaşlarıyla paylaşmalarına olanak tanınır. Öğrencilere öğrenme ortamına getirilen kaynaklardan yararlanmaları için süre verilir. Verilen süre sonunda öğrenciler edindikleri bilgileri not eder (D14.1). Öğrencilerin “Motifler Bize Ne Söyler?” etkinliği ile yansıtılan geleneksel dokumalarda yer alan motifleri fark etmeleri sağlanır (OB9). Öğrenciler etkinlik sırasında motiflerin özellikleri hakkındaki düşüncelerini sırayla ifade eder (OB5). Türk dokumalarında İslamiyet öncesi ve sonrası dönemlerde kullanılan motiflerin anlamına değinilir (OB1). Bu süreçte öğrenciler geleneksel motiflerde kullanılan olguların nesnel özelliklerini ifade eder. Öğretmen öğrencilerin motifin ismi, biçimsel özellikleri, anlamı ve motif hakkındaki biçimsel yorumlarını yazabilecekleri bir “Motif Çözümleme Tablosu” oluşturur. Öğrencilerin bu tabloya geleneksel Türk motifleri hakkındaki bilgileri yazmaları ve kendi yorumlarıyla geleneksel motifleri çizmeleri sağlanır. Öğrencilerin derse aktif katılımını sağlamak amacıyla tartışma yöntemiyle seçtikleri geleneksel Türk dokumacılığına ait motiflerin anlamlarını sundukları bir grup çalışması yapılabilir (D5.1, E2.2). Etkinlik sonunda öğrencilerin seçtikleri motifleri çizmeleri ve bu motiflerin anlamını yazmaları sağlanır. GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI GS.1.1.3 Farklı dönemlere ve yörelere ait halı dokuma örnekleri projeksiyon ya da etkileşimli tahta aracılığı ile yansıtılır (E1.1). Öğrencilere geleneksel motiflerden oluşan halı dokuma uygulaması yapmaları için tasarım eskizi yapacakları söylenir. Öğrencilere geleneksel halı dokumaya uygun tasarımlar hakkında sınıf ortamında bulunan kaynaklardan araştırma yapmaları için süre verilir. Verilen süre sonunda öğrenciler geleneksel halı dokumasına uygun tasarımlar hakkında beyin fırtınası yapar (D14.1). Öğrencilere motifin ismi, anlamı ve kompozisyonun temel ilkelerine uygunluğu; motifi seçme gerekçesi maddelerinden oluşan bir öğrenci kontrol listesi dağıtılır. Öğrencilere ilgileri doğrultusunda belirledikleri tasarımlarını gözlemlemeleri ve eskiz kâğıdına aktarmaları için süre verilir (D16.3). Öğrencilere eskiz çalışmalarını yaparken okulun imkânları doğrultusunda bilgisayar sınıflarından yararlanabilecekleri belirtilir. Öğrenciler tasarımlarını sırayla sınıf arkadaşlarıyla paylaşır. Öğrencilerin birbirlerinin tasarımları hakkındaki düşüncelerini paylaşmalarına olanak tanınır. GS.1.1.4 Halı dokuma atölyelerine ait görseller projeksiyon ya da etkileşimli tahta aracılığıyla yansıtılır. “Bu atölyelerde hangi malzemeleri görüyorsunuz?” sorusuyla öğrencilerin derse ilgileri çekilir (E1.1). Öğrencilerin atölyeler ve buralarda gördükleri uygulama araçları hakkındaki düşüncelerini ifade etmeleri beklenir (D14.1). Ardından “Halı dokuma uygulamasının aşamaları neler olabilir?” sorusu yöneltilerek öğrencilerin düğüm atma teknikleri hakkında fikir yürütmeleri sağlanır. Öğrenciler düğüm teknikleri hakkındaki fikirlerini sırayla ifade eder. Öğrencilerin geleneksel Türk dokumacılığında sıklıkla kullanılan Gördes düğümü (Türk düğümü) tekniğini görsel anlatım aracı olarak ifade etmeleri sağlanır. Öğrencilere bir önceki derste oluşturdukları halı dokuma eskizini Türk düğümü tekniği ile yapacakları belirtilir. Öğrenciler önceden temin ettikleri dokuma tezgâhlarını kullanır. Türk düğümü tekniği öğretmen tarafından her öğrenciye sırayla gösterilir ve her öğrencinin bu tekniği gözlemleyerek uygulaması sağlanır (E3.2, D12.1). Öğrenciler kendilerine verilen süre içerisinde geleneksel Türk halı dokuma tekniğini uygulayarak sanatsal ürünlerini oluşturur (SDB1.2, D7.3). Öğrenciler oluşturdukları sanatsal ürünleri sınıfla paylaşır. Performans görevi olarak öğrencilere yaptıkları geleneksel halı dokumalarından oluşan bir sergi hazırla­tılabilir. Performans görevi; amaç belirleme, bilgi toplama, bilgileri düzenleme ve görselleştirme, sonuç çıkarma ve sunma ölçütlerine göre analitik dereceli puanlama anahtarı ve öz değerlendirme formu ile de­ğerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden dokuma sanatı ve dokuma sanatında kullanılan motiflerin anlamları hakkında sunum yapmaları ve birden fazla motiften oluşturdukları desen kompozisyonunu kullanarak halı dokuma uygulaması yapmaları istenebilir. Destekleme Öğrenciler için öğretmen tarafından dokuma sanatı ve dokuma sanatında kullanılan motiflerin anlamlarını gösteren kavram kartları hazırlanabilir. Öğrencilerden basit bir motif üzerinden birim tekrarı yöntemiyle halı dokuma uygulaması yapmaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI I. DÜZEY"
+   },
+   "outcomes": [
+    {
+     "code": "GS.1.1.1",
+     "order": 1,
+     "text": "Dokuma sanatı hakkında bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dokuma sanatı hakkındaki bilgilere ulaşmak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği araçları kullanarak dokuma sanatı hakkındaki bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Dokuma sanatı hakkında ulaştığı bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Dokuma sanatı hakkında ulaştığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "GS.1.1.2",
+     "order": 2,
+     "text": "Dokumada yer alan motiflerdeki görsel mesajı algılayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dokumada yer alan motiflerdeki sanatsal olguları fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Dokumada yer alan motiflerdeki sanatsal olguların nesnel özelliklerini ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "GS.1.1.3",
+     "order": 3,
+     "text": "Dokuma sanatında ürün tasarlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dokuma sanatına ait örnekleri inceler."
+      },
+      {
+       "label": "b",
+       "text": "Dokuma sanatına ait örnekler bağlamında oluşturduğu imgeleri ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "GS.1.1.4",
+     "order": 4,
+     "text": "Dokuma sanatı uygulamalarıyla ürün oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dokumanın temasına uygun görsel anlatım aracını ifade eder."
+      },
+      {
+       "label": "b",
+       "text": "Temayı dokuma sanatı ürününe dönüştürür."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "EBRU SANATI",
+   "description": "Bu temada öğrencilerin geçmişten günümüze gelen ebru çeşitlerini sınıflandırabilmeleri ve klasik ebru tekniklerini uygulayarak ürün oluşturabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 14,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB4. Sanatsal Üretim Yapma (SAB4.2. Sanatsal Ürün Oluşturma)",
+    "KAVRAMSAL BECERİLER": "KB2.5. Sınıflandırma",
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma, E3.5. Açık Fikirlilik, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D5. Duyarlılık, D6. Dürüstlük, D14. Saygı, D18. Temizlik, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB7. Veri Okuryazarlığı, OB9. Sanat Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Sosyal Bilgiler, Fen Bilimleri BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.9. Genelleme GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "GS.1.2.1. Geçmişten günümüze gelen ebru çeşitlerini sınıflandırabilme a) Geçmişten günümüze gelen ebru çeşitlerine ilişkin ölçütleri belirler. b) Geçmişten günümüze gelen ebru çeşitlerini belirlediği ölçütlere göre ayrıştırır. c) Geçmişten günümüze gelen ebru çeşitlerini belirlediği ölçütlere göre tasnif eder. ç) Geçmişten günümüze gelen ebru çeşitlerini etiketler. GS.1.2.2. Klasik ebru tekniklerini uygulayarak ürün oluşturabilme a) Ebru çeşidine uygun görsel anlatım aracını ifade eder. b) Teknedeki sıvı yüzeyde oluşturduğu deseni ebru kâğıdına aktararak sanatsal ürüne dönüştürür.",
+    "İÇERİK ÇERÇEVESİ": "Geçmişten Günümüze Gelen Ebru Çeşitleri Klasik Ebru Teknikleriyle Uygulamalar",
+    "Anahtar Kavramlar": "battal, hatip, kâğıt süsleme, kıvam sağlayıcılar, kıvamlı su, öd, şamua, tarama, tekne",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; soru-cevap tekniği, açık uçlu sorular, öğrenme günlüğü, gösterip yap- (Ölçme ve tırma, grup değerlendirme formu, analitik dereceli puanlama anahtarı, performans görevi Değerlendirme) ve kontrol listesi ile değerlendirilebilir. Performans görevi olarak öğrencilerden kendi ebru çalışmalarının yer aldığı bir sergi hazırlamaları istenebilir. Hazırlanan çalışmaların okul içi sergiler, okul kermesleri ve uygun kültürel etkinliklerde yer alması teşvik edilebilir. Performans görevi; amaç belirleme, bilgi toplama, bilgileri düzenleme ve görselleştirme, sonuç çıkarma ve sunma ölçütlerine göre analitik dereceli puanlama anahtarı ve grup değerlendirme formu ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin ebru sanatının sıvı bir yüzey üzerine boyalarla yapılan renklendirmeler sonucunda ortaya çıkan bir sanat olduğunu bildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere aşağıdaki rehber sorular sorulabilir: • Ebru sanatında desenler nasıl bir yüzeyde oluşturulur? • Bir ebru uygulamasını izleme fırsatınız oldu mu? Gözlemlerinizi paylaşınız. • Daha önce bir ebru çalışması yaptınız mı? Deneyimlerinizi paylaşınız. Köprü Kurma Öğrencilere doğa görselleri ve ebru desenleri gösterilebilir. Öğrencilerin ebru desenlerini incelemeleri ve bu desenlerin doğaya ait görsellerle benzerliklerini fark etmeleri sağlanabilir. GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları GS.1.2.1 Sınıfa getirilen ya da etkileşimli tahtaya yansıtılan ebru örnekleri (hat yazısının pervaz süslemesi, kitaplarda yan kâğıt olarak kullanılan ebru, defter kabında kullanılan ebru vb.) öğrencilere gösterilir. Onlardan bu görselleri desen özellikleri, renk kullanımı, kompozisyon ve kullanım amacı bakımından incelemeleri istenir. Öğrencilere “Ebru desenlerinin kitap kapaklarında, kitapların iç sayfalarında, defterlerde ya da hat yazılarının etrafında kullanılmasının amacı ne olabilir?” sorusu sorulur (E1.1). Verilen cevaplar doğrultusunda öğrencilerin öğretmen rehberliğinde ebru sanatının kitaplarda, defterlerde süsleme ve koruma; hat yazılarında ise süsleme amacıyla kullanıldığını fark etmeleri sağlanır. Öğrencilerden ebru çeşitlerine ait verilen görselleri incelemeleri istenir (OB9, E3.2). Öğrencilerin görsellerdeki ebru çeşitlerinin sanatçısı, ait olduğu dönem, kullanım alanları ve ayırt edici özelliklerine ilişkin benzer ve farklı niteliklerini belirlemeleri sağlanır (SDB1.2). Öğrenciler bu nitelikleri belirlerken merak ettikleri soruları sormaları için teşvik edilir (E3.8). Öğrenciler, görsellerden yola çıkarak soru-cevap tekniğiyle geçmişten günümüze gelen ebru çeşitlerine ilişkin ölçütleri (desenin görünümü, düzeni ve biçimsel özellikleri) belirler. Öğrencilerden belirledikleri ölçütlerden yararlanarak sınıflandırma kartları hazırlamaları istenir. Öğrencilerin sınıflandırma kartları üzerinde ebru çeşitlerini ayrıştırmaları sağlanır. Öğrencilerden belirledikleri benzer ve farklı niteliklere göre ebru çeşitlerini arkadaşlarının görüşlerini de dikkate alarak gruplandırmaları istenir (D14.1, SDB2.2). Öğrencilerin yaptıkları gruplandırmayı öğretmen rehberliğinde doğrulamaları sağlanır. Öğrenciler, yaptıkları karşılaştırmalar sonucu ebru çeşitlerini doğru bir şekilde tasnif eder (OB1). Gruplandırılan ebru çeşitlerini etiketler. Bazı ebru çeşitlerinin ebru sanatçılarının isimleriyle anıldığı belirtilir (Edhem Efendi battalı, Mustafa Düzgünman battalı, Hatip ebrusu ve Necmeddin ebrusu). Öğrenciler verilen bilgilerden yola çıkarak ebru türlerini ilgili sanatçılarla eşleştirir ve bu sanatçıların Türk ebru tarihindeki önemini kavrar. Öğrencilerden Necmeddin Okyay’ın yazılı ebrularından birini incelemeleri istenebilir. Yazılı ebru tekniğinin Türk ebru sanatına kazandırılan özgün uygulamalardan biri olduğu ve Necmeddin Okyay tarafından geliştirildiği belirtilir. Öğrencilerden geleneksel Türk sanatlarının neden korunması gerektiği ile ilgili düşüncelerini paylaşmaları istenir. Millî kültür ögelerinden biri olan sanatın kültürel bağların oluşumuna katkı sağladığı vurgulanır. Öğrencilere ebru sanatının tarihî ve kültürel değeri açıklanarak öğrencilerin kültürel mirasa ilişkin farkındalık kazanmaları sağlanır (D19.1). Süreç boyunca öğrencilerin gözlem, deneyim ve öğrenmelerini kaydettikleri bir öğrenme günlüğü kullanılabilir. Sürece ilişkin öğrenmeler kontrol listesi ve grup değerlendirme formu ile değerlendirilebilir. Öğrenme-Öğretme Uygulamaları GS.1.2.2 Öğrencilerden sınıfa getirilen ebru sanatında kullanılan malzemeleri incelemeleri istenir (E3.2). Öğrencilerin her bir ebru çeşidi için uygun malzemeleri belirlemeleri amacıyla bilgi kartı kullanılabilir. Her öğrencinin ebru sanatında kullanılan malzemelerle ilgili bilgi kartında sunulan bilgileri değerlendirmesi ve düşüncesini ön yargısız, birbirlerine saygılı ve açık bir şekilde ifade etmesi sağlanır (D6.2, SDB2.1, E3.5). Öğrenciler bilgi kartı değerlendirmeleri sonucunda her bir ebru çeşidi için uygun malzemeleri belirler (OB1, KB2.9). Ebru malzemelerinin bazılarının doğadan elde edildiği vurgulanır. Uygulama sürecinde öğrencilere malzemelerin bilinçli kullanılması gerektiği söylenir. Öğrencilerin soru sormalarına fırsat verilerek bu malzemelerin doğadan elde edilmesi ve sürdürülebilir kullanımı üzerine düşünmeleri sağlanır, bu doğrultuda çevreye duyarlı davranışlar geliştirmeleri desteklenir (D5.2). Öğrencilere ebru sanatında kullanılan malzemelerin güvenli kullanımına ilişkin gerekli açıklamalar yapılarak uygulama sürecinde güvenlik kurallarına uymanın önemi vurgulanır. Ebru uygulamalarında yer alan malzemelerin belirli yöntem ve tekniklere göre kullanılması gerektiği söylenir. Öğrenciler öğrendikleri bilgilerden yararlanarak ebru çeşitleri uygulamalarında kullanacakları malzemelere uygun yöntem ve teknikleri ifade eder (OB7). GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI Öğrencilerden su yüzeyine ve ebru suyu yüzeyine damlatılmış ebru boyalarının yayılma biçimini gözlemlemeleri istenir. Öğrencilere “Ebru uygulamalarında boya damlaları çoğunlukla kıvamlı suyun yüzeyinde yayılırken bazı durumlarda neden dibe çöker?” sorusu yöneltilir ve fen bilimleri dersiyle ilişki kurularak öğrencilerin yoğunluk kavramı hakkında çıkarım yapmaları sağlanır. Verilen cevaplar doğrultusunda öğretmen rehberliğinde boyanın ve ebru sıvısının hazırlık aşamasında sıvıların yoğunluk farkının dikkate alınması gerektiği sonucuna ulaşılır (SDB3.3). Boya, öd ve kıvamlı su arasındaki ilişkinin ebru uygulamasındaki önemi açıklanır. Öğrencilerin boya ve teknedeki kıvamlı su ayarını gösteri tekniği ile detaylı bir şekilde gözlemleyebilmelerine fırsat verilir. Gösteri tekniğinin uygulanma aşamasında öğrencilerden merak ettikleri hususlarla ilgili soru sormaları istenir (E3.8). Boya ve kıvamlı su ayarı yapılmış teknedeki sıvı yüzeyde temel formlardan battal ebru, taraklı ebru; hatip ebru ve çiçekli ebrulardan lale ebru uygulamaları için gösterip yaptırma tekniği kullanılabilir. Öğrenciler temel ebru formlarından battal ebruyu ve taraklı ebruyu teknedeki kıvamlı su üzerinde uygular. Daha önce öğrencilerin her bir ebru çeşidine uygun malzemeleri tanıyıp belirlemiş olmaları, battal ebru ve taraklı ebru uygulamalarında sürece etkin katılım göstermelerini destekler (SDB3.1, E1.5). Ebru uygulamaları öncesinde ve sonrasında öğrencilerin tekneyi, kullanılan araç gereci ve ortak kullanım alanlarını temiz ve düzenli bırakmalarına yönelik sorumluluk almaları sağlanır (D18.2). Öğrenciler malzemeleri ihtiyaç duydukları kadar kullanmaları ve yeniden kullanılabilir malzemelerden yararlanmaları konusunda yönlendirilir. Böylece öğrencilerin kaynakları verimli kullanmaları ve sürdürülebilirlik bilinciyle hareket etmeleri sağlanır. Malzemeye erişimin sınırlı olduğu durumlarda uygulamaların etkin bir şekilde yürütülebilmesi amacıyla hazır ebru setlerinden yararlanılabilir. Battal ebru ve taraklı ebru uygulamaları sonrasında öğrenciler hatip ebru formlarını tekne içerisinde uygular ve deseni kâğıda aktarır. Uygulama öncesinde video ve dijital etkileşimli içeriklerden yararlanılarak öğrencilerin hatip ebru formlarının oluşturulma aşamalarını pekiştirmeleri ve biz hareketlerinin yönünü doğru kavramaları sağlanır. Hatip ebru uygulamalarında kullanılan zemin ebrusunun çiçek ebrusunda da kullanılacağı belirtilir. Hatip ebru uygulamaları sonrasında aynı zemin ebruları kullanılarak tekne içerisindeki sıvı yüzeye çiçekli ebru formlarından lale uygulanır. Öğrenciler teknedeki sıvı yüzeyde yaptıkları battal ebru, taraklı ebru, hatip ebru ve lale ebru çalışmalarını kâğıda aktararak sanatsal ürüne dönüştürür. Sürece ilişkin öğrenmeler malzeme hazırlığı, boyanın su yüzeyindeki yayılımını gözlemleme, deseni oluşturma ve kâğıda başarılı şekilde aktarma, çalışma alanını temiz ve düzenli bırakma ölçütlerini içeren kontrol listesi veya analitik dereceli puanlama anahtarı ile değerlendirilebilir. Ebru uygulamaları ile oluşturulan ebru çalışmaları belirlenen yer ve zamanda sergilenebilir (OB9). Performans görevi olarak öğrencilerden kendi ebru çalışmalarının sergilendiği bir sergi hazırlamaları istenebilir. Hazırlanan çalışmaların okul içi sergilerde, okul kermeslerinde ve uygun kültürel etkinliklerde sergilenmesi teşvik edilebilir. Performans görevi; amaç belirleme, bilgi toplama, bilgileri düzenleme ve görselleştirme, sonuç çıkarma ve sunma ölçütlerine göre analitik dereceli puanlama anahtarı ve grup değerlendirme formu ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden uyguladıkları çiçekli ebru formunu teknedeki kıvamlı su yüzeyinde buket ya da yan yana iki çiçek şeklinde yapmaları istenebilir. Destekleme Öğrencilerden kıvamlı su yüzeyinde ebru tarağını birden fazla kullanarak farklı desenler elde etmeleri istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI I. DÜZEY"
+   },
+   "outcomes": [
+    {
+     "code": "GS.1.2.1",
+     "order": 1,
+     "text": "Geçmişten günümüze gelen ebru çeşitlerini sınıflandırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Geçmişten günümüze gelen ebru çeşitlerine ilişkin ölçütleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Geçmişten günümüze gelen ebru çeşitlerini belirlediği ölçütlere göre ayrıştırır."
+      },
+      {
+       "label": "c",
+       "text": "Geçmişten günümüze gelen ebru çeşitlerini belirlediği ölçütlere göre tasnif eder."
+      },
+      {
+       "label": "ç",
+       "text": "Geçmişten günümüze gelen ebru çeşitlerini etiketler."
+      }
+     ]
+    },
+    {
+     "code": "GS.1.2.2",
+     "order": 2,
+     "text": "Klasik ebru tekniklerini uygulayarak ürün oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Ebru çeşidine uygun görsel anlatım aracını ifade eder."
+      },
+      {
+       "label": "b",
+       "text": "Teknedeki sıvı yüzeyde oluşturduğu deseni ebru kâğıdına aktararak sanatsal ürüne dönüştürür."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "KALEMİŞİ SANATI",
+   "description": "Bu temada öğrencilerin kalemişi sanatı hakkında bilgi toplayabilmeleri, kalemişi sanatında sanatsal ürün tasarlayabilmeleri ve kalemişi sanatı uygulamaları ile sanatsal ürün oluşturabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 14,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB4. Sanatsal Üretim Yapma (SAB4.1. Sanatsal Ürün Tasarlama, SAB4.2. Sanatsal Ürün Oluşturma)",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E1.1. Merak, E1.4. Kendine İnanma (Öz Yeterlilik), E1.5. Kendine Güvenme (Öz Güven), E2.2. Sorumluluk, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.9. Şüphe Duyma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik, D12. Sabır",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Görsel Sanatlar, Fen Bilimleri, Sosyal Bilgiler, Bilişim Teknolojileri ve Yazılım BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.9. Genelleme GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "GS.1.3.1. Kalemişi sanatı hakkında bilgi toplayabilme a) Kalemişi sanatı hakkındaki bilgilere ulaşmak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak kalemişi sanatı hakkındaki bilgileri bulur. c) Kalemişi sanatı hakkında ulaştığı bilgileri doğrular. ç) Kalemişi sanatı hakkında ulaştığı bilgileri kaydeder. GS.1.3.2. Kalemişi sanatında sanatsal ürün tasarlayabilme a) Kalemişi sanatı motif uygulamalarına ait örnekleri inceler. b) Kalemişi sanatı motif uygulamalarına ait örnekler bağlamında oluşturduğu imgeleri ifade eder. GS.1.3.3. Kalemişi sanatı uygulamalarıyla sanatsal ürün oluşturabilme a) Kalemişi sanatında sanatsal ürün oluşturmak için uygun görsel anlatım araçlarını ifade eder. b) Kalemişi sanatı ahşap üstü tekniğini uygulayarak tasarımını sanatsal ürüne dönüştürür.",
+    "İÇERİK ÇERÇEVESİ": "Kalemişi Sanatına Genel Bakış Kalemişi Sanatında Sanatsal Tasarım Kalemişi Sanatı Uygulamaları",
+    "Anahtar Kavramlar": "abartma, biçimsel değişim, sadeleştirme, stilizasyon",
+    "ÖĞRENME KANITLARI": "Bu temadaki öğrenme çıktıları; açık uçlu sorular, tartışma, soru-cevap, gösterip yaptır- (Ölçme ve ma, eser inceleme, zihin haritası, kavram haritası, 3-2-1 çıkış kartları, tarih şeridi, sunum Değerlendirme) teknikleri, performans görevi, öz değerlendirme formu, kontrol listesi, dereceli puanlama anahtarı gibi çeşitli yöntemlerle değerlendirilebilir. Performans görevi olarak öğrencilerden kalemişi uygulamalarını içeren karma bir sergi düzenlemeleri istenebilir. Performans görevi; amaç belirleme, bilgi toplama, bilgileri düzenleme ve görselleştirme, sonuç çıkarma ve sunma ölçütlerine göre analitik dereceli puanlama anahtarı ve öz değerlendirme formu ile de­ğerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin geleneksel Türk sanatlarıyla ilgili temel düzeyde bilgi sahibi oldukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere ünlü bir dinî mimari eserin iç mekânındaki kalemişi görselleri gösterilebilir. Öğrencilerden bu süslemelerdeki desen ve renk kullanımını incelemeleri istenebilir. Öğrencilere aşağıdaki rehber sorular sorulabilir: • Görseldeki motifleri daha önce ne tür bir mimari eserde gördünüz? • Görseldeki süslemeler ne tür (bitkisel, geometrik vb.) desenlerdir? Bitkisel ise hangi bitkiye benzemektedir, geometrik ise hangi şekiller kullanılmış olabilir? • Görseldeki motiflerde hangi renkler vardır? Köprü Kurma Öğrencilerden kalemişi sanatına ait eserlerin görsellerini inceleyerek doğadaki formlar ile simgesel motifler ve günlük kullanım eşyalarında yer alan (havlu, ibrik, kâse, halı, kilim vb.) tasvirler arasındaki benzerlikleri ve farklılıkları bulmaları istenebilir. GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları GS.1.3.1 Öğrencilere kalemişi sanatının farklı dönemleri ve yapı türlerine ait örnek görseller gösterilir. Konuyla ilgili bilgilere ulaşmaları amacıyla kullanılacak yazılı ve görsel kaynaklar öğretmen rehberliğinde belirlenir (OB1, OB4). Bu amaçla dijital kaynaklardan da yararlanılabilir (OB2). Kalemişi sanatı hakkında bilgi toplamak amacıyla bireysel çalışma ya da grup çalışması planlanabilir. Bu kapsamda öğrencilerden ilgili konuya yönelik kaynakları incelemeleri istenir (E3.2, OB1). Öğrenciler dijital kaynaklardan da yararlanabilir. Öğrenciler ulaştıkları kaynaklardan bilgileri tespit eder. Öğrencilerden konuyla ilgili ulaştıkları bilgileri doğrulamaları için birden fazla kaynağı eleştirel bir bakış açısıyla karşılaştırmaları, bilgileri teyit etmeleri ve kaynaklarının güvenilirliğini analiz etmeleri beklenir (E3.9, E3.10). Öğrencilerden ulaştıkları bilgileri düzenli bir şekilde kaydetmeleri için dijital veya geleneksel yöntemler kullanmaları istenir. Öğrencilerden edindikleri bilgiler ve grup içinde verilen cevaplar doğrultusunda kalemişi sanatının dönemsel genel özellikleri ile ilgili tablo oluşturmaları istenir (SDB2.2, OB1, KB2.9). Öğrenciler, oluşturdukları tabloya kendilerine verilen kalemişi sanatının örneklerinden oluşan eserleri yazarak kalemişi sanatının farklı dönemlerdeki genel özelliklerine ulaşır. Öğrenciler hazırladıkları tablodaki görselleri birbiriyle karşılaştırarak ulaştıkları bilgileri öğretmen rehberliğinde doğrular. Öğrencilerden uygun yere yazılmayan eserler varsa bu eserlerin yerlerini değiştirmeleri; cami, türbe, saray, konak veya yerel yapı örneklerine ilişkin güvenilir kaynaklardan edindikleri görsel kanıtları ve kalemişi sanatı hakkında ulaştıkları bilgileri düzenlenmiş tablo üzerine kaydetmeleri istenir. Etkinlik, öz değerlendirme formu ile değerlendirilebilir. GS.1.3.2 Öğrencilere etkileşimli tahtaya yansıtılan kalemişi sanatı örnekleri gösterilir (E1.1, OB2). Öğrencilerden bu görsellerdeki motif uygulamalarını dikkatle incelemeleri istenir (E3.2). Öğrencilere stilizasyonun (üsluplaştırma) doğadaki bir formun (çiçek, yaprak, hayvan vb.) sadece temel hatları ve ritmiyle yalınlaştırılması ve şematikleştirilmesi ile süsleme sanatına uygun hâle getirilmesi yöntemi olduğu açıklanır. Öğrencilere geleneksel Türk sanatlarının temelini oluşturan desenlerin görselleri gösterilir ve motif bileşenlerinin stilizasyonunda kullanılan sadeleştirme, abartma, biçimsel ve yüzey yerleşimi yaklaşımları anlatılır. Öğrencilere bir nesne veya canlı örneği (ağaç, kuş vb.) gösterilir ve öğrencilerden bu varlıkların en ayırt edici özelliklerini tartışarak ifade etmeleri istenir. Belirledikleri varlıkların ayırt edici özelliklerden yola çıkarak çizimlerini bir daire veya üçgen içine sığdırarak en az detay ve renkle stilize etmeye çalışmaları istenir (D3.1). Desenin kâğıda aktarılması aşamasında öğrencilerden geleneksel Türk sanatları motiflerinde kullanılan sadeleştirme, abartma, biçimsel değişim gibi üç farklı stilizasyon uygulamasından birini seçerek çalışmalarında kullanmaları istenir. Öğrenciler tamamladıkları motiflerin konturlarını siyah kalem veya sulandırılmış kahverengi/siyah mürekkep ile belirginleştirerek kalemişi sanatına uygun hâle getirir ve yalın bir motif taslağı oluşturur (D3.4, E1.5). Her öğrenciden oluşturduğu motifte kullandığı stilizasyon yaklaşımını sınıf arkadaşlarına sözlü olarak ifade etmesi istenir (SDB2.1, E2.2). Öğrencilere seçtikleri doğal formu, kullandıkları stilizasyon yöntemi ve uygulama biçimine dair sorular yöneltilerek konuyu merak etmeleri sağlanır (E1.1). Öğrencilere stilize ettikleri motifi mimari yapının (pencere üstü, duvar, kemer, kubbe içi vb.) hangi yüzeyinde kalemişi olarak hayal ettikleri sorulur. Öğrencilerden oluşturdukları imgeleri, kalemişi sanatı motif uygulamalarına ait örnekler üzerinden ifade etmeleri istenir (SDB1.3). Tamamlanan çalışmalar sınıf panosunda sergilenir. Etkinlik; çizginin akıcılığı, simetri/denge, uygulama yüzeyine uygunluk, geleneksel örneğe sadık kalma, özgün yorum becerisi başlıklarını içeren bir analitik dereceli puanlama anahtarı ve bunun yanı sıra öz değerlendirme formu ve kontrol listesi ile değerlendirilebilir. GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI GS.1.3.3 Sınıfa getirilen veya dijital ortamda yansıtılan görseller ile kalemişi sanatında kullanılan hazır boyalar, fırça türleri, alçı kabartma malzemeleri, bağlayıcı ek katkı maddeleri, tebeşir, kömür tozu ve varak (altın yaprak ve yaldız) öğrencilere tanıtılır (OB2). Bu aşamada öğrencilere mimariye bağlı bezemeleri koruma duyarlılığı çerçevesinde restorasyon etiğine uygun güvenilir malzeme seçiminin önemi ve uygulama yüzeyi hazırlığı hakkındaki bilgiler aktarılır. Öğrenciler görseller üzerinden kullanacakları bitkisel ve hayvansal motifleri belirler. Öğrenciler ahşap üstü kalemişi tekniği görsellerindeki malzemeleri inceleyerek yapım tekniklerine göre kullanabilecekleri malzemeleri ayırt eder (OB4). Öğretmen tarafından müzelerde bulunan ya da restore edilmiş eserlere ait görseller etkileşimli tahtaya yansıtılır. Bu görsellerden yola çıkarak kalemişi bezeme geleneğinde benimsenen “orijinale saygı”, “taklit-yorum ayrımı” ve “uygulama yüzeyine zarar vermeme” ilkeleri, koruma etiği bağlamında sınıfça tartışılır. Öğrenciler ahşap üstü yapım tekniklerinin kurallarına göre kalemişi sanatının temel motiflerindeki imgeleri inceler (D3.4). Öğrencilerden özgün bir kalemişi taslağı oluşturmaları istenir. Öğrenciler konuya uygun bir kalemişi eserinden yola çıkarak eskiz kâğıdı ya da uygun kâğıt yüzeyler üzerine kurşun kalemle motif eskizlerine yönelik el alıştırmaları yapar (D7.3, D12.3, E3.2).Öğrenciler oluşturdukları kalemişi sanatı motif eskizlerini konuya, yöntem ve tekniğe uygun bir biçimde birleştirerek özgün bir kompozisyon (kalemişi taslağı) oluşturmak amacıyla uygun malzemeleri ve görsel anlatım araçlarını belirleyerek ifade eder. Öğrencilerden kullanacakları ahşap malzemenin yüzeyine ve uygulama özelliğine göre süreci planlamaları istenir. Bu planlama aşamasında okulun bulunduğu çevrenin ekonomik şartları ve malzeme ulaşılabilirliği gözetilmelidir. Öğrenciler ahşap uygulamalarında alternatif olarak mukavva yüzeyleri kullamaya teşvik edilir (E1.4). Hazırlanmış olan desen tasarımı ilk olarak eskiz kâğıdı üzerinde renklendirilerek kullanılacak renkler ve boyama teknikleri tespit edilir. Desen, kopya kâğıdına aktarılır ve karbon kâğıdı yardımıyla konturlar üzerinden kurşun kalemle geçilerek uygulama zeminine taşınır. Kontur boyandıktan sonra desen içlerinin renklendirme aşamaları öğretmen tarafından gösterip yaptırma tekniği ile öğrencilere uygulamalı olarak öğretilir. Öğrenciler gözlemledikleri tekniği kendi desen yüzeylerinde kullanır. Böylece geleneksel uygulamalar ile tasarlanan desen, özgün bir sanatsal ürüne dönüştürülür (E3.3, SDB1.3). Oluşturulan ürünlerin estetik ve işlevsel yeterliliği öğretmen tarafından ürün değerlendirme formu ile teknik temizlik, motif bütünlüğü, yüzey uyumu ve süreç güvenliği de dikkate alınarak değerlendirilir. Performans görevi olarak öğrencilerden kalemişi uygulamalarını içeren karma bir sergi düzenlemeleri istenebilir. Performans görevi; amaç belirleme, bilgi toplama, bilgileri düzenleme ve görselleştirme, sonuç çıkarma ve sunma ölçütlerine göre analitik dereceli puanlama anahtarı ve öz değerlendirme formu ile de­ğerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden oluşturdukları stilize motifleri kullanarak okul binasında belirlenen bir duvar yüzeyine öğretmen gözetiminde uygulama yapmaları istenebilir. Destekleme Öğrencilere hazır kalemişi motifleri verilebilir ve öğrencilerden bu motifleri boyamaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI I. DÜZEY"
+   },
+   "outcomes": [
+    {
+     "code": "GS.1.3.1",
+     "order": 1,
+     "text": "Kalemişi sanatı hakkında bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kalemişi sanatı hakkındaki bilgilere ulaşmak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği araçları kullanarak kalemişi sanatı hakkındaki bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Kalemişi sanatı hakkında ulaştığı bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Kalemişi sanatı hakkında ulaştığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "GS.1.3.2",
+     "order": 2,
+     "text": "Kalemişi sanatında sanatsal ürün tasarlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kalemişi sanatı motif uygulamalarına ait örnekleri inceler."
+      },
+      {
+       "label": "b",
+       "text": "Kalemişi sanatı motif uygulamalarına ait örnekler bağlamında oluşturduğu imgeleri ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "GS.1.3.3",
+     "order": 3,
+     "text": "Kalemişi sanatı uygulamalarıyla sanatsal ürün oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Kalemişi sanatında sanatsal ürün oluşturmak için uygun görsel anlatım araçlarını ifade eder."
+      },
+      {
+       "label": "b",
+       "text": "Kalemişi sanatı ahşap üstü tekniğini uygulayarak tasarımını sanatsal ürüne dönüştürür."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 4,
+   "kind": "TEMA",
+   "title": "ÇİNİ SANATI",
+   "description": "Bu temada öğrencilerin çini sanatının tarihsel gelişimi hakkında bilgi toplayabilmeleri ve sanatsal üretim yapabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 14,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB4. Sanatsal Üretim Yapma (SAB4.1. Sanatsal Ürün Tasarlama, SAB4.2. Sanatsal Ürün Oluşturma)",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E1.5. Kendine Güvenme (Öz Güven), E3.9. Şüphe Duyma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D13. Sağlıklı Yaşam, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Görsel Sanatlar, Matematik, Fen Bilimleri, Din Kültürü ve Ahlak Bilgisi BECERİLER ARASI",
+    "İLİŞKİLER": "GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "GS.1.4.1. Çini sanatının tarihsel gelişimi hakkında bilgi toplayabilme a) Çini sanatının gelişimi hakkındaki bilgilere ulaşmak için kullanacağı araçları belirler. b) Belirlediği aracı kullanarak çini sanatının gelişimi hakkındaki bilgileri bulur. c) Çini sanatı hakkında ulaştığı bilgileri doğrular. ç) Çini sanatı hakkında ulaştığı bilgileri kaydeder. GS.1.4.2. Çini desenleri tasarlayabilme a) Geleneksel çini desenleri ile bitki formlarını ve geometrik şekilleri inceler. b) İncelediği formlar bağlamında oluşturduğu imgeleri ifade eder. GS.1.4.3. Çini sanatı desen tasarımı ürünü oluşturabilme a) Çini deseninin boyutuna göre deseni uygulayacağı yüzeyi ifade eder. b) Çini desenini uygun yüzey üzerine aktarak kompozisyona dönüştürür.",
+    "İÇERİK ÇERÇEVESİ": "Çini Sanatına Genel Bakış Çini Sanatı Desen Tasarımı Çini Sanatı Desen Tasarımı Ürünü Oluşturma",
+    "Anahtar Kavramlar": "sır, eskiz, desen, motif",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; çalışma yaprağı, gösterip yaptırma, beyin fırtınası serbest çağrışım (Ölçme ve Değerlendirme) tekniği, düşün-eşleş-paylaş tekniği, paragraf yazma, fikir kutusu, konuşma halkası, soru-cevap, açık uçlu sorular, sunum, proje, zihin ve kavram haritası çalışmaları, öz değerlendirme formu, kontrol listesi ve dereceli puanlama anahtarı ile değerlendirilebilir. Performans görevi kapsamında öğrencilerden gruplara ayrılmaları, ders süresince yaptıkları araştırmalardan ve sınıfta paylaşılan verilerden yararlanıp okuldaki idari birimler, sınıf vb. alanların isimliklerini yeniden tasarlamaları istenebilir. Bu süreçte öğrencilerden geleneksel çini motifleri ile yenilikçi tasarım anlayışını bir araya getirerek estetik açıdan özgün ve yaratıcı çözüm önerileri geliştirmeleri beklenir. Performans görevi; bilgi toplama oran-orantı, biçimsel denge tasarımda özgünlük desen aktarım doğruluğu, renk uyumu, yüzey seçimi, geleneksel motif dili, iş güvenliği, temiz çalışma gibi ölçütlere göre dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Türk kültürünün Türkistan’dan başlayıp günümüze kadar geldiğini ve çini sanatının geleneksel Türk sanatı olduğunu bildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere aşağıdaki rehber sorular sorularak cevapların bir tablo ile paylaşılması sağlanabilir. • Gelenek nedir? Açıklayınız. • Evinizde geleneksel eşyalar var mı? Bu eşyaların özellikleri nelerdir? Köprü Kurma Öğrencilerden müzelerde ya da müzelerin çevirim içi koleksiyonlarında, dinî yapılarda veya görsellerde karşılaştıkları geleneksel çini tasarımlarını inceleyerek bu tasarımların mutfak eşyaları, mobilyalar, defter kapakları gibi gündelik kullanım ürünlerinde ya da mimaride (bina içi ve dış cepheler ile ortak kullanım alanlarında) nasıl kullanılabileceğine dair örnekler sunmaları istenebilir. GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları GS.1.4.1 Öğrencilere çini sanatının örnek görselleri gösterilerek “Nesi var?” oyunu oynatılır ve öğrencilerden bu eserlerin künyeleri hakkında tahminde bulunmaları istenir. Öğrencilerin konuyla ilgili bilgilere ulaşmak için kullanacakları yazılı ve görsel kaynaklar öğretmen rehberliğinde belirlenir. Öğrenciler gruplara ayrılarak belirledikleri araştırma aracıyla çini sanatının gelişimi hakkında alan uzmanı, kütüphane, müze ve çevirim içi mecralardan bilgi toplar. Öğrencilerden konuyla ilgili ulaştıkları bilgileri doğrulamaları için birden fazla kaynağı eleştirel bir bakış açısıyla karşılaştırmaları, bilgileri teyit etmeleri ve kaynaklarının güvenilirliğini analiz etmeleri beklenir (E3.9, E3.10). Öğrencilerden ulaştıkları bilgileri düzenli bir şekilde kaydetmeleri için dijital veya geleneksel yöntemler kullanmaları istenir. Öğrencilere çini sanatının emek gerektiren yoğun bir üretim tekniğine sahip olduğu anlatılarak bu sanat dalında çalışkanlık ve sorumluluk bilincinin neden önemli olduğu ve bu değerlerin çini sanatına ne gibi katkılar sunabileceği sorulur (D3.4). Grupların bu bilgileri ve kullanılacak görsellerin künyeleriyle beraber hazırladıkları afiş ve panonun sınıfta sunmaları sağlanabilir. Sunum sırasında diğer grupların kendi araştırma sonuçları ile sunulan bilgileri karşılaştırıp doğrulamaları sağlanır. Öğrencilerden çini sanatıyla ilgili öğrendikleri kavramları içeren ve kültürel mirasın korunmasında çevirim içi platformların ve dijital arşivlemenin sağlayabileceği faydaları anlatan bir yazı yazmaları istenebilir (SDB1.2, OB5, OB1). Öğrencilerin temanın başından itibaren ders ve uygulama süreçlerinde kullanabilecekleri bir kavram listesi oluşturmaları ve edindikleri bilgileri kaydetmeleri sağlanır (SDB1.2, D16.3). Öğrencilerden çininin tarihî gelişimi, çini üretim merkezleri ve eser öneklerini gösteren bir tarih şeridi oluşturmaları istenebilir. GS.1.4.2 Öğrencilerin etkileşimli tahtada gösterilen ya da basılı materyaller aracılığıyla paylaşılan çini desenleri ile sınıfa getirilen doğal bitki örnekleri arasındaki benzerlikleri incelemeleri sağlanır. Öğrencilerden çini sanatı desenlerinin hangi temel geometrik şekillere ya da bitkilere benzediğini beyin fırtınası yöntemiyle tartışmaları istenebilir. Her öğrencinin farklı düşüncelere saygı duyarak düşüncesini ifade etmesi ve bu tartışma sonuçlarını eskiz defterine kaydetmesi sağlanır (SDB2.2). Süreç sonunda öğrencilerden inceledikleri motif türlerinden yola çıkarak bir eskiz tasarlamaları is­tenir. Öğrenciler tasarladıkları eskiz örneklerinin hangi geleneksel formdan beslendiğini kompozisyon, renk seçimi, eskizin tasarımında ortaya koyduğu yaratıcı yenilikler ile sanatsal bileşenlerini ifade eder (OB4, E1.5). GS.1.4.3 Öğretmen gösteri tekniğini kullanarak çini motiflerinin okulun imkânları doğrultusunda ham çini, kâğıt veya uygun bir yüzeye aktarım sürecini aşamalı olarak uygular ve her aşamayı öğrencilere açıklar. Öğrencilerin bu aşamaları gözlemleyerek eskiz defterine kaydetmeleri sağlanır. Öğrenciler gözlemlerinden yola çıkarak deseni yüzeye aktarmaya uygun tekniği belirler (SDB1.2, OB4). Gösterip yaptırma tekniğiyle öğrencilerin çini motifi eskizlerini belirlenen uygun zemine aktararak bir kompozisyona dönüştürmeleri sağlanır. Bu süreçte öğrenciler iş sağlığı ve güvenliği kurallarına uygun davranmaya teşvik edilir (D13.4, D16.1). Performans görevi kapsamında öğrencilerden gruplara ayrılmaları, ders süresince yaptıkları araştırmalardan ve sınıfta paylaşılan verilerden yararlanıp okuldaki idari birimler, sınıf vb. alanların isimliklerini yeniden tasarlamaları istenebilir. Öğrencilerden geleneksel çini motifleri ile yenilikçi tasarım anlayışını bir araya getirerek estetik açıdan özgün ve yaratıcı çözüm önerileri geliştirmeleri beklenir. GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI Performans görevi; bilgi toplama oran-orantı, biçimsel denge tasarımda özgünlük desen aktarım doğruluğu, renk uyumu, yüzey seçimi, geleneksel motif dili, iş güvenliği, temiz çalışma gibi ölçütlere göre dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden çini sanatının kullanıldığı mimari yapılardan beş tanesini belirleyerek bunların her birinden birer çini örneği seçmeleri istenebilir. Öğrencilerden bu örneklerdeki farklılıkları belirlemeleri ve arkadaşlarıyla paylaşmaları istenebilir. Ayrıca bu eserlerden biri seçilerek öğrencilere “Siz olsaydınız bu deseni nasıl tamamlardınız?” sorusu sorulabilir. Öğrencilerden verdikleri cevaba göre bu desenleri yeniden tasarlamaları istenebilir. Böylece desenin öğrenciler tarafından tasarlanması ve kişiselleştirilmesi sağlanabilir. Destekleme Öğrencilere çini sanatını örneklendiren mimari yapıların videoları ve bu sanat hakkında yayınlanmış belgeseller izletilebilir. Öğrenciler ayrıca müzelerin dijital arşivleri ve çevrim içi koleksiyonlarını inceleyebilir. Böylece bu sanatın tarihsel gelişimini araştırırken öğrencilerin alternatif görsel ve işitsel kaynakları kullanmaları sağlanabilir. Çini deseni tasarlamada yaprak, dal ve basit geometrik şekiller kullanılabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI I. DÜZEY"
+   },
+   "outcomes": [
+    {
+     "code": "GS.1.4.1",
+     "order": 1,
+     "text": "Çini sanatının tarihsel gelişimi hakkında bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çini sanatının gelişimi hakkındaki bilgilere ulaşmak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği aracı kullanarak çini sanatının gelişimi hakkındaki bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Çini sanatı hakkında ulaştığı bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Çini sanatı hakkında ulaştığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "GS.1.4.2",
+     "order": 2,
+     "text": "Çini desenleri tasarlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Geleneksel çini desenleri ile bitki formlarını ve geometrik şekilleri inceler."
+      },
+      {
+       "label": "b",
+       "text": "İncelediği formlar bağlamında oluşturduğu imgeleri ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "GS.1.4.3",
+     "order": 3,
+     "text": "Çini sanatı desen tasarımı ürünü oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Çini deseninin boyutuna göre deseni uygulayacağı yüzeyi ifade eder."
+      },
+      {
+       "label": "b",
+       "text": "Çini desenini uygun yüzey üzerine aktarak kompozisyona dönüştürür."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 1,
+   "unit": 5,
+   "kind": "TEMA",
+   "title": "VİTRAY SANATI",
+   "description": "Bu temada öğrencilerin vitray sanatı hakkında bilgi toplayabilmeleri, vitray sanatında ürün tasarlayabilmeleri ve vitray sanatı uygulamalarıyla sanatsal ürün oluşturabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 12,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB4. Sanatsal Üretim Yapma (SAB4.1. Sanatsal Ürün Tasarlama, SAB4.2. Sanatsal Ürün Oluşturma)",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E1.1. Merak, E2.2. Sorumluluk, E3.2. Odaklanma, E3.9. Şüphe Duyma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D5. Duyarlılık, D7. Estetik, D12. Sabır, D14. Saygı, D16. Sorumluluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Görsel Sanatlar BECERİLER ARASI",
+    "İLİŞKİLER": "GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "GS.1.5.1. Vitray sanatı hakkında bilgi toplayabilme a) Vitray sanatı hakkındaki bilgilere ulaşmak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak vitray sanatı hakkındaki bilgileri bulur. c) Vitray sanatı hakkında ulaştığı bilgileri doğrular. ç) Vitray sanatı hakkında ulaştığı bilgileri kaydeder. GS.1.5.2. Vitray sanatında ürün tasarlayabilme a) Vitray sanatına ait örnekleri inceler. b) Vitray sanatına ait örnekler bağlamında oluşturduğu imgeleri ifade eder. GS.1.5.3. Vitray sanatı uygulamalarıyla ürün oluşturabilme a) Vitrayın temasına uygun görsel anlatım aracını ifade eder. b) Temayı vitray sanatı ürününe dönüştürür.",
+    "İÇERİK ÇERÇEVESİ": "Vitray Sanatına Genel Bakış Vitray Sanatında Tasarım Vitray Sanatında Uygulamalar",
+    "Anahtar Kavramlar": "cam, camgeran, elmas, füzyon, kurşun, lehim, revzen",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; soru-cevap tekniği, açık uçlu sorular, çalışma yaprağı, tartışma, istas- (Ölçme ve yon tekniği, gösterip yaptırma, grup ve öz değerlendirme formu, analitik dereceli puanDeğerlendirme) lama anahtarı, performans görevi, kontrol listesi ve gözlem formu ile değerlendirilebilir. Performans görevi olarak öğrencilerden okul galerisinde “Renkli Dünyamdan Yan­sımalar” konulu vitray sergisi açmaları istenebilir. Performans görevi; amaç belirleme, bilgi toplama, bilgileri düzenleme ve görselleştirme, sonuç çıkarma ve sunma ölçütlerine göre analitik dereceli puanlama anahtarı ve öz değerlendirme formu ile de­ğerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin vitray sanatının renkli camların bir araya getirilerek ya da cam yüzey üzerine boyama yöntemiyle oluşturulan bir sanat olduğunu bildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere aşağıdaki rehber sorular sorulabilir: • Vitray çalışmasıyla yapılan eserleri nerelerde gördünüz? • Vitray eserlerin nasıl yapıldığını düşünüyorsunuz? Açıklayınız. Köprü Kurma Öğrencilerin günlük hayatta karşılaştıkları vitray eserlerinden bazıları öğrenme ortamına getirilebilir veya etkileşimli tahtada gösterilebilir. Bu örneklerin bulunduğu mekânda oluşturduğu etki üzerine kısa bir tartışma yapılabilir. Böylece öğrencilerin vitrayda kullanılan malzemeler, vitray sanatının bulunduğu mekânda oluşturduğu etki ve vitrayın uygulama alanlarının neler olabileceği konusunda fikir yürütmeleri sağlanabilir. GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları GS.1.5.1 Türkiye ve dünyanın çeşitli yerlerinden bazı vitray örnekleri projeksiyon ya da etkileşimli tahta aracılığıyla yansıtılır. “Bu görsellerde dikkatinizi neler çekiyor?” sorusuyla öğrencilerin vitray sanatında ışık ve renk ilişkisine dikkatleri çekilir (E1.1, OB4). Öğrenciler görselleri dikkatli bir şekilde inceledikten sonra öğrencilerden düşüncelerini büyük tartışma tekniği ile ifade etmeleri istenebilir (SDB2.1). Öğretmen tarafından vitray, camgeran ve revzen-i menkuş kavramlarının tanımları yapılarak öğrencilere vitrayın tarihsel gelişimi, vitray çeşitleri, vitray sanatına özgü malzemeler ve geleneksel sanatlarda vitrayın önemi başlıkları verilir (OB1). Öğrencilerden bilgiye ulaşmak amacıyla kullanacakları araçları belirlemeleri istenir. Öğrencilerden kütüphane arşivleri, güvenilir dijital veri tabanları, akademik kaynaklar gibi bilgi edinme araçlarını grup olarak belirlemeleri istenir. Öğrencilerin kitap, makale, broşür gibi materyalleri incelemeleri sağlanır. Öğrencilerin belirledikleri araçları kullanarak vitray sanatı hakkında topladıkları bilgileri önce gruplarıyla daha sonra demokratik bir ortamda seçtikleri grup sözcüleri aracılığıyla soru cevap yöntemini kullanarak paylaşmaları sağlanır (D16.1, SDB2.2). Öğrencilere Mimar Sinan’ın önemli mimari eseri olan Süleymaniye Camii’nin revzenlerinin Camgeran İbrahim Usta tarafından yapıldığı açıklanır. Ayrıca ressam, şair ve yazar Bedri Rahmi Eyüboğlu’nun Berlin T.C. Büyükelçiliği duvarına yaptığı vitray çalışmasından bahsedilir. Öğrencilere atık camlar kullanılarak elde edilen mozaik vitray tekniği ve bu tekniğin güvenli uygulama protokolüne ilişkin bilgiler verilir. Öğrencilerden grup sözcüleri aracılığıyla edindikleri bilgileri not etmeleri istenir. Öğrencilerden ulaştıkları bilgileri doğrulamaları için birden fazla kaynağı eleştirel bir bakış açısıyla karşılaştırmaları, bilgileri teyit etmeleri ve kaynaklarının güvenilirliğini analiz etmeleri beklenir (E3.9, E3.10). Öğrencilerden ulaştıkları bilgileri ve vitray örneklerini yer, tarih ve dönem bilgileriyle birlikte düzenli bir şekilde kaydetmeleri için dijital veya geleneksel yöntemleri kullanmaları istenir. Öğrencilere Türk vitrayı olarak bilinen alçılı vitray tekniği hakkında araştırma yapmaları için süre verilir (D19.2, OB5). Bu araştırmada her öğrencinin görev alması sağlanır (E2.2). Öğrencilerden Süleymaniye Camii, Rüstem Paşa Camii, Yeni Cami, Ayasofya-i Kebir Camii, Topkapı Sarayı, Sultanahmet Camii gibi önemli revzen örneklerinin yer aldığı bir görsel klasörü oluşturmaları istenir. Bu klasörleri oluşturmalarında öğrencilere öğretmen rehberlik eder. Öğrencilerin alçılı vitray tekniği hakkında “Türk Vitrayları, Geleneksel Sanatlarda Vitrayın Yeri ve Önemi” konulu pano veya afiş çalışması yapmaları ve edindikleri bilgileri kaydetmeleri sağlanır (E3.2, SDB1.2). GS.1.5.2 Öğrencilere Tiffany (Tifani) vitray tekniğine ait bazı örnekler projeksiyon ya da etkileşimli tahta aracılığıyla gösterilir. “Bu örneklerde gördüğünüz desenler ve renkler hakkında ne düşünüyorsunuz?” ve “Bir önceki derste incelediğiniz vitray örneklerini hatırlayarak aradaki benzerlikler ve farklılıklar hakkında neler söylersiniz?” sorularıyla öğrencilerin merak duyguları harekete geçirilir (E1.1, OB4). Öğrenciler özgün fikirlerini kısa bir beyin fırtınası yöntemiyle karşılıklı saygı çervesi içinde birbirleriyle paylaşır (SDB2.1). Öğrencilere görseller yardımıyla kısaca Tiffany vitray tekniğinden bahsedilir. Öğrencilere renkli cam malzemesine alternatif olarak renkli asetat kâğıtları kullanarak Tiffany vitray tekniğiyle geleneksel Türk motiflerinden oluşan bir çalışma hazırlayacakları açıklanır. Bu doğrultuda motif ve desen kompozisyonu araştırması yapmaları için öğrencilere süre verilir (OB1). Verilen süre sonunda öğrenciler seçtikleri geleneksel motif örneklerini sınıfla beraber sırayla inceler. Öğrencilerin inceledikleri görsellerden yola çıkarak kendi motif ve desen kompozisyonlarını oluşturmalarına imkân verilir. Öğretmen rehberliğinde her öğrencinin oluşturduğu motifi renkli asetat parçaları, parça renkleri ve renk numaraları; tercih edilen motifin kültürel değeri ve tekniğe uygunluğu bakımından ifade etmesi ve sınıfla paylaşması sağlanır (OB9). Öğrenciler imgelerinde canlanan motifleri çizim kâğıdına renklendirme uygulamasıyla verilir (E3.2). Öğrencilere eskiz çalışmalarını yaparken okulun imkânları GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI doğrultusunda bilgisayar sınıflarından yararlanabilecekleri belirtilir. Öğrencilerin vitray eskizlerini tamamlamaları sağlanır. GS.1.5.3 Öğrencilere projeksiyon ya da etkileşimli tahta aracılığıyla Tiffany vitray çalışma masasına ait örnekler gösterilir. “Görmüş olduğunuz çalışma alanında hangi malzemeler dikkatinizi çekiyor?” sorusuyla öğrencilerin Tiffany vitray tekniğinde kullanılan araç gereç hakkında fikir yürütmeleri ve düşüncelerini tartışma yöntemiyle ifade etmeleri sağlanır (SDB2.1, D14.1). Öğrencilerin önceden temin ettikleri vitray malzemelerini kullanarak eskizlerinde renk numarası verdikleri bölümlere uygun renkli asetat kâğıtlarını makasla nasıl kesip ayıracakları uygulamalı olarak gösterilir. Ardından bu süreci sırayla deneyimlemeleri için öğrencilere zaman tanınır. Verilen süre sonunda öğrencilerin gözlem yoluyla öğrenme yöntemiyle renkli asetat kâğıdı parçalarının etrafını bakır folyo ile kaplama işlemini gerçekleştirmeleri sağlanır (D7.3, SDB1.2). Öğrencilere bakır folyo ile sardıkları renkli asetat parçalarını eskizlerinde bulunan renk numaralarını gözeterek kontol etmeleri söylenir. Birleştirme aşamasına geçmeden önce öğretmen tarafından gösterip yaptırma tekniği kullanılarak yapıştırıcı yardımıyla renkli asetat parçalarının nasıl birleştirileceği uygulanır. Öğrencilerin bu süreci dikkatle gözlemlemeleri sağlanır. Öğrenciler motif ve desen kompozisyonlarına bağlı olarak doğru birleştirme uygulamasını gerçekleştirir (D12.2). Tiffany vitray tekniği ile öğrencilerin geleneksel motif ve desen kompozisyonlarını sanatsal ürüne dönüştürmeleri sağlanır. Her öğrenci Tiffany vitray çalışmasını sınıfla paylaşır. Paylaşılan vitray çalışmaları için sergi hazırlığı aşamasına geçilir (SDB2.2). Performans görevi olarak öğrencilerden okulun koridor pencerelerinde sergilemek amacıyla “Renkli Dünyamdan Yansımalar” konulu vitray sergisi hazırlamaları istenebilir. Bu çalışma için öğretmen rehberliğinde görev dağılımı yapılarak her öğrencinin eşit sorumluluk alması sağlanabilir (E2.2, D5.2). Performans görevi; amaç belirleme, bilgi toplama, bilgileri düzenleme ve görselleştirme, sonuç çıkarma ve sunma ölçütlerine göre analitik dereceli puanlama anahtarı ve öz değerlendirme formu ile de­ğerlendirilebilir. Öğretim süreci boyunca öğrencinin performansını izlemek ve değerlendirmek için portfolyo kullanılabilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden birden fazla motiften oluşturdukları desen kompozisyonunu kullanarak boyama vitray uygulaması yapmaları istenebilir. Destekleme Öğrencilerden daha geniş alanlara sahip bir motif üzerinden boyama vitray uygulaması yapmaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI 2.2. GELENEKSEL SANATLAR DERSİ II. DÜZEY TEMALARI II. DÜZEY"
+   },
+   "outcomes": [
+    {
+     "code": "GS.1.5.1",
+     "order": 1,
+     "text": "Vitray sanatı hakkında bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Vitray sanatı hakkındaki bilgilere ulaşmak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği araçları kullanarak vitray sanatı hakkındaki bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Vitray sanatı hakkında ulaştığı bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Vitray sanatı hakkında ulaştığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "GS.1.5.2",
+     "order": 2,
+     "text": "Vitray sanatında ürün tasarlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Vitray sanatına ait örnekleri inceler."
+      },
+      {
+       "label": "b",
+       "text": "Vitray sanatına ait örnekler bağlamında oluşturduğu imgeleri ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "GS.1.5.3",
+     "order": 3,
+     "text": "Vitray sanatı uygulamalarıyla ürün oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Vitrayın temasına uygun görsel anlatım aracını ifade eder."
+      },
+      {
+       "label": "b",
+       "text": "Temayı vitray sanatı ürününe dönüştürür."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "HÜSNÜHAT SANATI",
+   "description": "Bu temada öğrencilerin hüsnühat sanatının tarihsel süreci ile ilgili bilgi toplayabilmeleri ve hüsnühat sanatında meşk uygulamalarıyla sanatsal ürünü oluşturabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB4. Sanatsal Üretim Yapma (SAB4.2. Sanatsal Ürün Oluşturma)",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E3.2. Odaklanma, E3.3. Yaratıcılık, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.3. Sosyal Farkındalık",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik, D12. Sabır, D14. Saygı, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB9. Sanat Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Din Kültürü ve Ahlak Bilgisi, Sosyal Bilgiler BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.9. Genelleme GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "GS.2.1.1. Hüsnühat sanatının tarihsel süreci ile ilgili bilgi toplayabilme a) Hüsnühat sanatı hakkındaki bilgilere ulaşmak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak hüsnühat sanatı ile ilgili ihtiyaç duyduğu bilgilere ulaşır. c) Hüsnühat sanatı ile ilgili bilgileri doğrular. ç) Hüsnühat sanatı ile ilgili bilgileri kaydeder. GS.2.1.2. Hüsnühat sanatındaki meşk uygulamalarıyla sanatsal ürün oluşturabilme a) Harfleri ve harf birleşmelerini yazabilmek için gerekli araçları ifade eder. b) Harfleri ve harf birleşmelerini sanatsal ürüne dönüştürür.",
+    "İÇERİK ÇERÇEVESİ": "Hüsnühat Sanatına Genel Bakış Hüsnühat Meşk Uygulamaları",
+    "Anahtar Kavramlar": "hattat, meşk",
+    "ÖĞRENME KANITLARI": "Bu temadaki öğrenme çıktıları; soru-cevap tekniği, açık uçlu sorular, çalışma yaprağı, (Ölçme ve gösterip yaptırma, grup değerlendirme formu, dereceli puanlama anahtarı, performans Değerlendirme) görevi ve kontrol listesi ile değerlendirilebilir. Performans görevi olarak öğrencilerden hüsnühat kitabındaki rika, nesih veya sülüs meşklerinden birisini kurşun kalemle boş bir kâğıda yazmaları istenebilir. Öğrencilerin meşk çalışmaları okul panolarında sergilenebilir. Performans görevi; amaç belirleme, bilgi toplama, bilgileri düzenleme ve görselleştirme, sonuç çıkarma ve sunma ölçütlerine göre analitik dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin hat sanatının Arap harflerinden oluşan bir sanat olduğunu bildikleri kabul edilmektedir. Ön Değerlendirme Süreci Tema kapsamında öğrencilere aşağıdaki rehber sorular sorulabilir: • Gittiğiniz müze ve camilerde gördüğünüz hat sanatı eserlerinin sizde bıraktığı etkiler nelerdir? • Hat sanatıyla uğraşan insanlar nasıl çalışır? Gözlemlerinizi paylaşınız. Köprü Kurma Hem resim tabloları hem de hat eserleri gösterilip öğrencilerden resim sanatı ve hat sanatı arasında bağ kurarak yorum yapmaları istenebilir. GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları GS.2.1.1 Öğrencilere hat sanatını nereden ve hangi kaynaklardan öğrenecekleri ile ilgili sorular sorulur. Öğrencilerin bilgiye ulaşmaları amacıyla kullanacakları yazılı ve görsel kaynaklar öğretmen rehberliğinde belirlenir. Öğrencilerden kütüphane arşivleri, güvenilir dijital veri tabanları, bilimsel kaynaklar gibi bilgi edinme araçlarını grup hâlinde belirlemeleri istenir. Kitap, broşür gibi materyalleri seçerek incelemeleri sağlanır. Öğrencilerin hat sanatının tanımı ile ilgili elde ettikleri bilgiler üzerinden akıl yürüterek en uygun tanımı bulmaları sağlanır (OB1). Öğrencilere kurşun kalemle dikkatli bir şekilde estetik bir A harfi yazdırılır (OB9). Ardından öğrencilerden yazdıkları üzerinden duygu ve düşüncelerini ifade etmeleri istenir (SDB2.1). Öğrencilere konuyla ilgili hat eserleri inceletilir. Süreç boyunca öğrencilerin inceledikleri eserleri; yazı türü, hattatı, dönemi, eserin bulunduğu yer ve estetik özellikleri bakımından değerlendirebilecekleri eser inceleme fişi kullanılabilir. Öğrencilerin ulaştıkları bilgileri doğrulamaları için birden fazla kaynağı eleştirel bir bakış açısıyla karşılaştırmaları, bilgileri teyit etmeleri ve kaynaklarının güvenilirliğini analiz etmeleri sağlanır ve bilgileri doğrulamalarına imkân verilir (KB2.9). Öğrencilerden ulaştığı bilgileri düzenli bir şekilde kaydetmeleri için dijital veya geleneksel yöntemleri kullanmaları istenir (D7.3, OB9). Mushaf örnekleri tahtaya yansıtılır ve öğrencilerden bu örnekleri Kur’an-ı Kerim ile karşılaştırmaları istenir. Öğrencilerin bu konu hakkında fikirleri alınır (OB1). Öğrencilerden öğrendikleri bilgileri not alarak kaydetmeleri istenir. Öğrencilere Mehmet İzzet Efendi, Halim Özyazıcı ve Hamit Aytaç’ın eserlerinden örnek görseller gösterilir. Bu örneklerden yola çıkarak hat eserlerinin çok kıymetli bir manevi miras olduğu ve bu eserlere saygı gösterilmesi gerektiği vurgulanır (D14.3, SDB2.3). Hat sanatının Kur’an-ı Kerim, kitabeler ve yazma eserler aracılığıyla kültürel mirasın kuşaktan kuşağa aktarılmasındaki rolü üzerinde durularak din kültürü ve ahlak bilgisi ile sosyal bilgiler dersleriyle ilişki kurulabilir. GS.2.1.2 Kamış kalem, aharlı kâğıt, kalemtıraş, hokka, lika, mürekkep, meşk kitabı gibi gerekli malzemelerin sınıfta hazır bulundurulması sağlanır. Kamış kalemin ucunun kalınlığı öğrencilerin göreceği şekilde öğretmen tarafından yavaş yavaş ayarlanır (E3.2). Bu gözlemlemeden sonra her öğrencinin kamış kalemi öğretmen yardımıyla hazırlanır. İs mürekkebi veya akrilik mürekkebin kullanım şekli gösterilir. Öğretmen mürekkep, hokka, lika, peçete gibi malzemeleri hazırlar ve öğrencilerden de dikkatli bir biçimde bu malzemeleri hazırlamalarını ister (E3.7, E3.2). Öğrencilere yazı kâğıtları hazırlatılır (D16.3). Öğretmen öğrencilere kalemi nasıl ve hangi açıyla tutmaları gerektiğini gösterir ve dikkatli bir şekilde gözlem yapmaları gerektiğini hatırlatır (E3.2). Öğretmen birkaç ders öğrencilere harflerin nasıl yazılacağını gösterir ve sonrasında her öğrencinin kâğıdına bir harf yazar. Öğrenciler aynı harfi yazmaya çalışır (D12.3, D3.1). Sonraki derslerde öğrenciler çalışmayı sürdürerek yazdıklarını öğretmene teker teker gösterir. Öğrenciler harfleri istenen biçimde yazma seviyesine gelinceye kadar çalışmalarını öğretmene göstermeye devam eder (E3.7, D16.3, D12.3). Öğrenciler meşk kitabından bakarak harfleri yazmaya çalışır (E3.7, E3.2). Sanatsal ölçütlere en uygun şekilde yazmayı başarıncaya kadar çalışmalarını sürdürür (D12.3, D3.1). Bu süreçler tamamlandıktan sonra öğrenciler ürün oluşturma aşamasına gelir (OB9). Öğrenciler çalışma yapacakları kâğıdın yüzeyine pudra veya tebeşir tozu uygulayarak kâğıdı yazmaya hazır hâle getirir. Öğrenciler kendi seçtikleri bir harfi veya harf birleşmelerini öğrendikleri yol ve yöntemlerle yazmaya başlar (E3.3, E3.2). Bu yazı daha sonra “tashih” denilen bir metotla düzeltilir. Yazının kenarlarındaki ufak tefek boşluklar doldurulur ve fazlalıkları alınır. Bu süreçte harflerin yapısının bozulmamasına özen gösterilir (OB9, D7.1, E3.2). Öğrencilerin ilk meşk çalışmalarını ve süreç sonunda oluşturdukları ürünleri içeren içeren bir portfolyo hazırlamaları istenebilir. Sürece ilişkin öğrenmeler; harf oranı, satır düzeni, meşk adabına uygun çalışma alışkanlığı, hüsnühat eserlerinin estetik ve kültürel özelliklerini dikkate alma ölçütlerini içeren bir kontrol listesi ile değerlendirilebilir. GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI Performans görevi olarak hüsnühat kitabındaki rika, nesih ve sülüs meşklerinden birini kurşun kalemle boş bir kâğıda yazması istenebilir. Öğrencilerin meşk çalışmaları okul panolarında sergilenebilir. Performans görevi; amaç belirleme, bilgi toplama, bilgileri düzenleme ve görselleştirme, sonuç çıkarma ve sunma ölçütlerine göre analitik dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden farklı rika meşk örneklerinin yazılışlarını dijital ortamdan bulmaları ve bu örnekler ile ilgili bir sunu hazırlamaları istenebilir. Destekleme Meşkleri kamış kalem ve mürekkeple yazamayan öğrenciler için mürekkep kullanmadan bakarak ve kurşun kalemle bir harf kopya ederek ürün ortaya çıkarabilmeleri için olanak sağlanabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI II. DÜZEY"
+   },
+   "outcomes": [
+    {
+     "code": "GS.2.1.1",
+     "order": 1,
+     "text": "Hüsnühat sanatının tarihsel süreci ile ilgili bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hüsnühat sanatı hakkındaki bilgilere ulaşmak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği araçları kullanarak hüsnühat sanatı ile ilgili ihtiyaç duyduğu bilgilere ulaşır."
+      },
+      {
+       "label": "c",
+       "text": "Hüsnühat sanatı ile ilgili bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Hüsnühat sanatı ile ilgili bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "GS.2.1.2",
+     "order": 2,
+     "text": "Hüsnühat sanatındaki meşk uygulamalarıyla sanatsal ürün oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Harfleri ve harf birleşmelerini yazabilmek için gerekli araçları ifade eder."
+      },
+      {
+       "label": "b",
+       "text": "Harfleri ve harf birleşmelerini sanatsal ürüne dönüştürür."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "TEZHİP SANATI",
+   "description": "Bu temada öğrencilerin tezhip sanatı örneklerindeki motif ve desenlerin görsel bileşenlerini sanatsal gözlemleyebilmeleri, tezhip sanatında motif ve desen çizim çalışmaları ile sanatsal ürün oluşturabilmeleri ve klasik tezhip tekniklerini uygulayarak sanatsal ürün oluşturabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 18,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB1. Sanatsal Algılama (SAB1.1. Sanatsal Gözlemleme), SAB4. Sanatsal Üretim Yapma (SAB4.2. Sanatsal Ürün Oluşturma)",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E3.3. Yaratıcılık",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik, D12. Sabır",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Sosyal Bilgiler BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.11. Gözleme Dayalı Tahmin Etme, KB2.2. Gözlemleme GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "GS.2.2.1. Tezhip sanatı örneklerindeki motif ve desenlerin görsel bileşenlerini sanatsal gözlemleyebilme a) Tezhip sanatı örneklerindeki motif ve desenlerin görsel bileşenlerini fark eder. b) Tezhip sanatı örneklerindeki motif ve desenlerin görsel bileşenlerini ifade eder. GS.2.2.2. Tezhip sanatında motif ve desen çizim çalışmaları ile sanatsal ürün oluşturabilme a) Tezhip sanatı motif ve desen çizimine uygun görsel anlatım araçlarını ifade eder. b) Tezhip sanatı motif ve desenlerini eskize dönüştürür. GS.2.2.3. Klasik tezhip tekniklerini uygulayarak sanatsal ürün oluşturabilme a) Klasik tezhip tekniklerine uygun görsel anlatım araçlarını ifade eder. b) Klasik tezhip tekniklerini kâğıt üzerine uygulayarak sanatsal ürüne dönüştürür.",
+    "İÇERİK ÇERÇEVESİ": "Tezhip Sanatı Örnekleri Tezhip Sanatında Motif ve Desen Çizim Çalışmaları Klasik Tezhip Uygulamaları",
+    "Anahtar Kavramlar": "desen, müzehhip, motif, tezyinat, üsluplaştırma, varak altın",
+    "ÖĞRENME KANITLARI": "Bu temadaki öğrenme çıktıları; açık uçlu sorular, çalışma kâğıdı, gösterip yaptırma, gi- (Ölçme ve riş-çıkış kartları, portfolyo, öğrenme günlüğü, performans görevi, kontrol listesi, öz değerDeğerlendirme) lendirme formu, grup değerlendirme formu ve analitik dereceli dereceli puanlama anahtarı ile değerlendirilebilir. Performans görevi olarak öğrencilerden tezhip çalışmalarını içeren bir sergi hazırlamaları istenebilir. Performans görevi, analitik dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir. Performans görevini değerlendirirken amaç belirleme ve görev dağılımı, bilgi toplama ve içerik hazırlama, sergi ürünlerini düzenleme ve görselleştirme ile sergi düzeni ve sunum bütünlüğü ölçütleri kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin geleneksel Türk sanatlarıyla ilgili temel düzeyde bilgiye sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere etkileşimli tahta ya da belirlenen bir kaynaktan geleneksel sanatlardan örnek eserler gösterilebilir. Öğrencilerden bu eserlerin hangi sanat dalına ait olduğunu söylemeleri istenebilir. Tezhip örneklerini ayırt edebilmeleri için öğrencilere aşağıdaki sorular yöneltilebilir: • Bu eserlerden hangisi/hangileri tezhip örneğidir? • Tezhip olduğunu düşündüğünüz eserlerde hangi özellikler dikkatinizi çekti? • Tezhip ile diğer sanat dalları arasında nasıl farklılıklar görüyorsunuz? Köprü Kurma Öğrencilere geçmişten günümüze tezhip örnekleri gösterilebilir. Öğrencilerin bu örnekler üzerinden tezhip sanatının Kur’an-ı Kerim süslemeleriyle gelişip şekillendiğini ve günümüzde kendine özgü bir sanat dalı olarak değerlendirildiğini fark etmeleri sağlanabilir. GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları GS.2.2.1 Öğrencilere Baba Nakkaş, Şahkulu, Karamemi ve Ali Üsküdari’ye ait motif örnekleri gösterilerek bu motiflerin ismi, formu, çizgisel karakteri ve tabiattaki olası kaynağı hakkında açık uçlu sorular yöneltilebilir (E1.1, OB4). Öğrencilere çeşitli motif örneklerini içeren bir çalışma kâğıdı verilir. Bu çalışma kâğıdında motifin türü, formu, çizgisel karakteri ve tabiattaki olası kaynağına ilişkin alanlara yer verilir. Öğrencilerin inceledikleri motifleri değerlendirerek çalışma kâğıdındaki ilgili alanları doldurmaları ve motiflerin görsel bileşenleri fark etmeleri sağlanır (KB2.11, OB9). Öğrencilere Baba Nakkaş, Şahkulu, Karamemi ve Ali Üsküdari’ye ait desen örnekleri gösterilir (E1.1, OB4). Bu desenlerin tekrar yönü, simetrisi, yoğunluğu, düzeni, alan kullanımı ve doluluk-boşluk dengesi hakkında açık uçlu sorular yöneltilebilir. Öğrencilere serbest ve simetrik desen örneklerini içeren bir çalışma kâğıdı verilir. Bu çalışma kâğıdında desenlerin tekrar yönü, simetri, yoğunluk, kompozisyon düzeni, alan kullanımı ve doluluk-boşluk dengesine ilişkin alanlara yer verilir. Öğrencilerin inceledikleri desen örneklerini değerlendirerek çalışma kâğıdındaki ilgili alanları doldurmaları ve desenlerin görsel bileşenleri fark etmeleri sağlanır (KB2.11, OB9). Öğrencilerden motif ve desenlere ilişkin dile getirdikleri görsel bileşenleri tahtada iki sütun hâlinde düzenlemeleri istenir. Öğrencilerden tezhip sanatı örneklerindeki motif ve desenlerin görsel bileşenlerini ifade etmeleri istenir (SDB2.1). İncelenen örneklerin Baba Nakkaş, Şahkulu, Karamemi ve Ali Üsküdari’ye ait olduğu ve bu örneklerin sanatkârların üsluplarını yansıttığı belirtilir. Her sanatçının motif ve desen kurgusunda kendine özgü çizgisel karakter ve kompozisyon anlayışı geliştirdiği kısaca açıklanır. Öğrencilerin her sanatçının motif ve desen kurgusunda kendine özgü çizgisel karakter ve kompozisyon anlayışı geliştirdiğini fark etmeleri sağlanır (D7.1, OB5). Öğrencilere tezhip sanatında kullanılan motif ve desen anlayışının kalemişi, çini, minyatür, ahşap, dokuma gibi geleneksel Türk sanatlarında da ortak bir tasarım dili içinde sürdürüldüğü kısaca açıklanır. Öğrencilerle karışık motif ve desen örneklerini eşleştirme etkinliği yapılır (SDB2.1). Bu etkinlik grup değerlendirme formu ile değerlendirilebilir. GS.2.2.2 Sınıf ortamı gösterip yaptırma ve bireysel çizim uygulamalarına uygun hâle getirilir. Öğrencilere tezhip sanatında kullanılan motif ve desenlere ait örnek görseller gösterilerek bu motif ve desenlerin çiziminde hangi kalemin uygun olabileceği sorulur (OB4, E1.1, KB2.11). Öğrencilerin motif ve desen çizimine uygun kalem çeşidini ifade etmeleri sağlanır (SDB2.1). Öğrencilere eskiz çiziminde kalemin kullanım tekniğine dair kısa bilgi verilerek çizim çalışmalarında uygun dijital çizim programlarının da kullanılabileceği belirtilir. Öğrencilere gösterip yaptırma yöntemiyle yaprak, penç, goncagül, hatayi, rumi ve bulut motiflerinin çizimleri sırayla gösterilir. Öğrencilere farklı motif örneklerini içeren çalışma kâğıtları verilir. Öğrencilerden motifleri kanaviçesine ve çizgi yönüne dikkat ederek eskiz kâğıdına çizmeleri ve eskize dönüştürmeleri istenir (KB2.2). Bu eskiz çalışmaları; motifleri eskiz kâğıdına aktarma, kanaviçesine ve çizgi yönüne uygun çizme, çizgileri kontrollü kullanma, motif ayrıntılarına dikkat etme ve işlem basamaklarını sırasıyla uygulama ölçütlerini içeren kontrol listesi ile değerlendirilebilir. Öğrencilere hazırladıkları motiflerle serbest ve simetrik desen tasarımına ilişkin adımlar gösterilir. Öğrencilere farklı desen kurgularını içeren çalışma kâğıtları verilir. Öğrencilerden hazırladıkları motiflerden uygun olanları seçerek desen kurgusuna yerleştirmeleri, kompozisyon düzeni ile doluluk-boşluk dengesini dikkate alarak desen eskizini oluşturmaları, eskizde gerekli düzenlemeleri yapmaları ve desen eskizini temize çekmeleri istenir. Öğrencilerin çizdikleri deseni kuru boyayla renklendirerek boyama uygulamasına hazırlamaları sağlanır (OB9, E3.3). Öğrencilere motif ve desen eskiz çalışmalarında çizgileri kontrollü kullanma, adım adım ilerleme ve çalışma sürecini düzenli yürütmenin neden önemli olduğuna dair kısa bir hatırlatma yapılır. Öğrenciler motif ve desen eskiz çalışmalarıyla disiplinli ve istikrarlı çalışmayı alışkanlık hâline getirmenin önemini fark eder (D3.1). GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI Öğrenciler eskizlerini portfolyoya kaydeder (OB1, SDB1.2). Bu eskiz çalışmaları; uygun desen kurgusunu seçme, desen tasarımında kullanılacak motifleri belirleme, motifleri kompozisyon düzeni ile doluluk-boşluk dengesini gözeterek yerleştirme, desen eskizini temize çekme ve renklendirme ölçütlerini içeren bir kontrol listesi ile değerlendirilebilir. GS.2.2.3 Öğrencilere klasik tezhip tekniğine ait örnek görseller gösterilir (OB4). Öğrencilerden klasik tezhip tekniğine uygun görsel anlatım araçlarını (malzemeleri) tahmin etmeleri istenir (KB2.11). Öğrencilere klasik tezhip tekniğinde kullanılan altın, fırça, mühre, boya ve kâğıt görselleri gösterilerek öğrencilerden bu tekniğe uygun malzemeleri ifade etmeleri istenir (SDB2.1, OB9). Öğrencilere klasik tezhip tekniğindeki malzemeler ile bu malzemelerin güvenli, özenli ve ekonomik kullanımına dair kısaca bilgi verilir. Gerektiğinde sınıf koşullarına uygun alternatif uygulama malzemeleri kullanılabileceği belirtilir. Öğrencilere klasik tezhip tekniğinin aşamaları gösterilerek öğrencilerden önceden hazırladıkları deseni klasik tezhip tekniğiyle boyayarak sanatsal bir ürüne dönüştürmeleri istenir (KB2.2, E3.3). Öğrencilere klasik tezhip tekniklerini kâğıt üzerine uygularken fırçayı kontrollü kullanma, adım adım ilerleme ve çalışma sürecini düzenli yürütmenin neden önemli olduğuna dair kısa bir hatırlatma yapılır. Öğrencilerin klasik tezhip tekniklerini uygulama sürecinde istikrarlı olmanın; duygu, düşünce ve davranışlarını kontrol edebilmenin önemini fark etmeleri sağlanır (D12.3). Öğrencilerin arkadaşlarının çalışmalarını gözlemleyerek farklı yaklaşımları değerlendirmeleri ve kendi çalışmalarıyla ilgili geri bildirimleri dikkate alarak uygulamalarını geliştirmeleri sağlanabilir (SDB2.1). Öğrenciler önemli bilgileri öğrenme günlüğüne, yaptıkları çalışmaları portfolyoya kaydeder (OB1, SDB1.2). Öğrencilerin yaptıkları tezhip uygulamaları; deseni uygulama kâğıdına aktarma, yaldız ve renk kullanımı, klasik tezhip tekniğine uygunluk, tahrir ve temiz işçilik, düzenli ve dikkatli çalışma ölçütlerini içeren ürün değerlendirme formu ile değerlendirilebilir. Performans görevi olarak öğrencilerden tezhip çalışmalarını içeren bir sergi hazırlamaları istenebilir. Hazırlanan çalışmaların okul içi veya okul dışındaki uygun kültürel etkinliklerde ya da sosyal sorumluluk faaliyetleri kapsamında sergilenmesi teşvik edilebilir. Performans görevi; analitik dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir. Performans görevini değerlendirirken amaç belirleme ve görev dağılımı, bilgi toplama ve içerik hazırlama, sergi ürünlerini düzenleme ve görselleştirme, sergi düzeni ve sunum bütünlüğü ölçütleri kullanılabilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden Baba Nakkaş, Şahkulu, Karamemi veya Ali Üsküdari’ye ait bir eseri incelemeleri, bu eserden esinlenerek bir tezhip deseni oluşturmaları ve bu deseni boyayarak tamamlamaları istenebilir. Destekleme Öğrencilerden online platformlardaki uygulamalı tezhip videolarını izleyerek boyama tekniklerini gözlemlemeleri ve farklı tezhip motifleri üzerinde boyama uygulamaları yaparak bu süreci öğrenme günlüklerine kaydetmeleri istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI II. DÜZEY"
+   },
+   "outcomes": [
+    {
+     "code": "GS.2.2.1",
+     "order": 1,
+     "text": "Tezhip sanatı örneklerindeki motif ve desenlerin görsel bileşenlerini sanatsal gözlemleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Tezhip sanatı örneklerindeki motif ve desenlerin görsel bileşenlerini fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Tezhip sanatı örneklerindeki motif ve desenlerin görsel bileşenlerini ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "GS.2.2.2",
+     "order": 2,
+     "text": "Tezhip sanatında motif ve desen çizim çalışmaları ile sanatsal ürün oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Tezhip sanatı motif ve desen çizimine uygun görsel anlatım araçlarını ifade eder."
+      },
+      {
+       "label": "b",
+       "text": "Tezhip sanatı motif ve desenlerini eskize dönüştürür."
+      }
+     ]
+    },
+    {
+     "code": "GS.2.2.3",
+     "order": 3,
+     "text": "Klasik tezhip tekniklerini uygulayarak sanatsal ürün oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Klasik tezhip tekniklerine uygun görsel anlatım araçlarını ifade eder."
+      },
+      {
+       "label": "b",
+       "text": "Klasik tezhip tekniklerini kâğıt üzerine uygulayarak sanatsal ürüne dönüştürür."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "MİNYATÜR SANATI",
+   "description": "Bu temada öğrencilerin minyatür sanatı hakkında bilgi toplayabilmeleri, minyatür sanatı tekniklerini uygulayacakları ürünü tasarlayabilmeleri ve minyatür sanatı tekniklerini uygulayarak sanatsal ürün oluşturabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 18,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB4. Sanatsal Üretim Yapma (SAB4.1. Sanatsal Ürün Tasarlama, SAB4.2. Sanatsal Ürün Oluşturma)",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E1.1. Merak, E1.3. Azim ve Kararlılık, E2.2. Sorumluluk, E3.2. Odaklanma, E3.8. Soru Sorma, E3.9. Şüphe Duyma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D12. Sabır, D14. Saygı, D16. Sorumluluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB9. Sanat Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Görsel Sanatlar, Türkçe BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.7. Karşılaştırma, KB2.9. Genelleme GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "GS.2.3.1. Minyatür sanatı hakkında bilgi toplayabilme a) Minyatür sanatı hakkındaki bilgilere ulaşmak için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak minyatür sanatı hakkındaki bilgileri bulur. c) Minyatür sanatı hakkında ulaştığı bilgileri doğrular. ç) Minyatür sanatı hakkında ulaştığı bilgileri kaydeder. GS.2.3.2. Minyatür sanatında ürün tasarlayabilme a) Minyatür sanatına ait örnek görselleri inceler. b) Minyatür sanatına ait örnek görseller bağlamında oluşturduğu imgeleri ifade eder. GS.2.3.3. Minyatür sanatı uygulamalarıyla ürün oluşturabilme a) Minyatürün konusuna uygun görsel anlatım aracını ifade eder. b) Konuyu minyatür sanatı ürününe dönüştürür.",
+    "İÇERİK ÇERÇEVESİ": "Minyatür Sanatına Genel Bakış Minyatür Sanatında Kullanılan Teknikler Minyatür Sanatında Uygulamalar",
+    "Anahtar Kavramlar": "ahar, eskiz, mühreleme, nakış, nakkaş, nakkaşhane, noktalama, nüans, saydam boyama, sulandırma tekniği, tarama, tasvir",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; açık uçlu sorular, gösterip yaptırma, görsel ve metin analizi, 3-2-1 çıkış (Ölçme ve kartları tekniği, öğrenme günlüğü, boşluk doldurma, büyük grup tartışması, bilgi görseli, Değerlendirme) afiş, bülten panosu, soru-cevap tekniği, sunum teknikleri, portfolyo (ürün dosyası), gözlem formu, kontrol listesi, öz değerlendirme formu, grup değerlendirme formu, analitik dereceli puanlama anahtarı ve performans görevi ile değerlendirilebilir. Sürece ilişkin öğrenmeler uygulama basamaklarını takip etme, yüzey hazırlama, eskiz oluşturma, minyatür tekniklerini uygulama, konuyu minyatür sanatsal ürününe dönüştürme ve zamanında teslim etme ölçütlerini içeren analitik dereceli puanlama anahtarı ile değerlendirilebilir Performans görevi olarak öğrencilere yaptıkları minyatürlerden oluşan bir sergi hazırlatılabilir. Performans görevi; amaç belirleme ve görev dağılımı, bilgi toplama ve içerik hazırlama, sergi ürünlerini düzenleme ve görselleştirme, sergi düzeni ölçütleriyle grup değerlendirme formu ve analitik dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin minyatür sanatının Türk resim sanatının temelini oluşturduğunu bildikleri kabul edilmektedir. Ön Değerlendirme Süreci Tema kapsamında öğrencilere aşağıdaki sorulara benzer sorular sorulabilir: • Bir kitapta resim olması neden önemlidir? Açıklayınız. • Seçtiğiniz bir minyatür örneğini inceleyerek minyatürün resim sanatı ile benzerlik ve farklılıklarını söyleyiniz. Köprü Kurma Sultan III. Ahmed’in şehzadelerinin düğününü konu alan Levnî’ye ait minyatürlerden örnekler gösterilebilir. Öğrencilerden kendilerini bu minyatürü yapan sanatçının yerine koymaları ve bir minyatür sanatçısı olarak bu konuyu nasıl tasvir edecekleri hakkında düşüncelerini açıklamaları istenebilir. GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları GS.2.3.1 Öğretmen öğrencilerin minyatür sanatı ile ilgili gerekli bilgilere ulaşabilmeleri için kullanabilecekleri araçları belirlemelerinde onlara rehberlik eder (OB1, OB2). Öğrencilerden kütüphane arşivleri, güvenilir dijital veri tabanları, akademik kaynaklar gibi bilgi edinme araçlarını grup hâlinde belirlemeleri istenir. Kitap, makale, broşür gibi materyalleri seçerek incelemeleri sağlanır. Öğrencilerden önerilen farklı kaynaklar üzerinden minyatür sanatının tanımı, genel özellikleri ve gelişimi ile ilgili ulaştıkları bilgileri doğrulamaları için birden fazla kaynağı eleştirel bir bakış açısıyla karşılaştırmaları, bilgileri teyit etmeleri ve kaynaklarının güvenilirliğini analiz etmeleri beklenir (E3.9, E3.10, KB2.7). Ulaştıkları bilgileri düzenli bir şekilde kaydetmeleri için dijital veya geleneksel yöntemler kullanmaları teşvik edilir. Minyatür sanatının yapıldığı döneme ışık tutan tarihî bir belge niteliğinde olduğu vurgulanarak öğrencilerden bununla ilgili düşüncelerini paylaşmaları istenir. Öğrencilerden hazırlayacakları kaynak fişine eserin adı, sanatçısı, konusu (betimlenen olay veya tema), yapıldığı tarih veya dönem; eserdeki figür–mekân ilişkisi, kompozisyon, renk kullanımı gibi bilgileri not etmeleri ve her minyatür için kısa bir değerlendirme yazısı hazırlamaları istenebilir. Öğrenciler görevlerini zamanında ve eksiksiz yerine getirme bilinciyle bu bilgileri sunum hâlinde sınıfta arkadaşlarıyla paylaşır (SDB2.1, D16.3). Konu içinde geçen minyatür sanatı ile ilgili tasvir, nakış, nakkaş, nakkaşhane, üslup gibi kavramları anlamak/keşfetmek amacıyla sorular sorar (E1.1). Günümüzde kullanılan benzer kavramlar hakkında fikir yürütür ve bu kavramlar ile minyatür sanatı arasında ilişki kurar (KB2.9). Farklı dönemlerden seçilen minyatür sanatına ait örnekler etkileşimli tahtaya yansıtılır (OB2). Öğrencilerden bu örnekleri incelemeleri istenir. Böylece öğrencilerde merak uyandırılması ve öğrencilerin dikkatinin çekilmesi sağlanır (E1.1, E3.2). Öğrenciler örnekler üzerinden Uygur, Selçuklu ve Osmanlı Dönemi minyatürlerinin konuları, renk kullanımları, kompozisyon özellikleri, sanatçıları (Nakkaş Sinan Bey, Nakkaş Osman, Nakkaş Nigârî, Matrakçı Nasuh, Levnî) ile ilgili sorularla düşünmeye ve farklı bakış açılarına saygı duyarak tartışmaya teşvik edilir (D14.3, D19.2, E3.8). Öğrenciler minyatürü ortaya çıkaran sanatçıya ait üslup özelliklerini (eserlerinde tercih ettiği konular, renk, teknik ve kompozisyon düzeni) kendi cümleleri ile ifade eder (OB1, SDB1.1). Öğrencilerden seçtikleri dönemin sanatçıları ile ilgili afiş çalışması yapmaları istenebilir. Hazırlanan çalışmalar sınıf panosunda sergilenerek öz ve grup değerlendirme formları, dereceli puanlama anahtarı ve kontrol listesi ile değerlendirilebilir. GS.2.3.2 Derse başlarken eskiz, stilizasyon ve nüans kavramları üzerinde durulur. Minyatürde tasarıma geçmeden önce hazırlanan eskiz örnekleri etkileşimli tahtaya yansıtılarak öğrencilerin incelemeleri sağlanır. Öğrenciler eskiz hazırlama ve uygulama etkinliklerine geçmeden önce kalemle çizgi hâkimiyetini kazanmak için nüanslı çizgi alıştırmaları yapar. Türk tezyinî sanatlarında kullanılan yaprak, çiçek, bitki ve hayvan figürleriyle alıştırmalar sürdürülür (OB9, D12.3). Öğrenciler minyatür sanatında kullanılan tarama, noktalama, sulandırma, yarı saydam ve tam boyama teknikleri ile ilgili örnekleri sınıfa/atölyeye getirir (E2.2). Etkileşimli tahtaya yansıtılan minyatür örnekleri incelenerek kullanılan boyama teknikleri tartışma yöntemi ile müzakere edilir (OB4, SDB2.2, D3.3, D3.4). Öğrenciler minyatür sanatı örneklerinden esinlenerek ve bu görselleri temel alarak kendi zihinlerinde oluşturdukları çağrışımları yorumlayabilir. Minyatürün konusu, kompozisyon özellikleri, kullanılan renkler, kıyafetler, mekân, teknik ve malzeme ile eserin uyandırdığı duygu, öğrencilerin ifade biçimlerini etkileyebilir. GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI Tasarım öncesi öğrencilerden olay-konu seçimi, ana figür, mekân düzeni, renk seçimi, kompozisyon düzeni, geleneksel minyatür diline uygunluk gibi basamakları içeren bir olay şeması oluşturmaları istenebilir. Ardından öğrencilerin daha önce yaptıkları bitki ve hayvan figürü stilizasyonlarından ve seçtikleri minyatürlerdeki kompozisyon elemanlarından yararlanarak taslaklarını oluşturmaları sağlanır. GS.2.3.3 Öğrenciler öğretmen rehberliğinde sanatsal ürün oluşturabilmek amacıyla minyatür boyama tekniklerinden hangisini/hangilerini kullanacaklarını belirleyerek tekniğe uygun malzemelerini hazırlar (E3.2). Minyatür uygulamasına geçmeden önce kâğıt renklendirme, aharlama ve mühreleme işlemlerinin basamakları gösterip yaptırma tekniği ile gerçekleştirilir. Araştırılarak seçilen örnek minyatür üzerine aydınger kâğıdı yerleştirilerek eskiz hazırlanır. Tamamlanan eskizler renklendirilip aharlanmış kâğıda aktarılarak bunların fırça ile nüanslı çizimleri yapılır. Bu aşamada çizimler fırça yerine kalemle de yapılabilir. Öğrenciler gösterip yaptırma yöntemi ile tekniğin uygulanmasına yönelik basamakları takip ederek bu uygulamayı dikkatlice gözlemler (SDB1.2). Öğrenciler gözlemledikleri tekniği uygun minyatür malzemelerini kullanarak uygular. Kolaydan zora doğru minyatürde kullanılan boyama teknikleri (tam boyama, saydam boyama, tarama, noktalama ve sulandırma) örneklerle açıklanarak gösterilir. Saç, sakal, bıyık, tül, kumaş, bitki, ağaç, hayvan, kürk gibi birçok yüzeyde tarama tekniği kullanıldığı belirtilir. Gölge ve hacim verilmek istenen bölümlerin boyanmasında ise yan yana konulan noktaların boyamada yumuşak geçişler sağladığı noktalama tekniği uygulanır. Sulu boya ile yapılan noktalamalar su ile yumuşatılır, böylece pürüzsüz ve yumuşak geçişli bir görünüm elde edilir. Bu teknik portre, bulut, gökyüzü, kumaş gibi örnekler üzerinde uygulanarak gösterilir. Öğrenciler bu tekniklerin uygulanması sürecinde disiplinli ve istikrarlı çalışma alışkanlıkları geliştirmenin önemini fark eder (D3.1). Minyatür sanatında kullanılan temel tekniklerin uygulamalarını tamamlayan öğrenciler, belirledikleri konularda kompozisyonlar tasarlayarak çalışmalarını sanatsal ürüne dönüştürür (E1.3). Sürece ilişkin öğrenmeler uygulama basamaklarını takip etme, yüzey hazırlama, eskiz oluşturma, minyatür tekniklerini uygulama, konuyu minyatür sanatsal ürününe dönüştürme ve zamanında teslim etme ölçütlerini içeren analitik dereceli puanlama anahtarı ile değerlendirilebilir. Minyatürlerin tamamlanmasının ardından sergi hazırlığı aşamasına geçilir (OB9). Performans görevi olarak öğrencilere yaptıkları minyatürlerden oluşan bir sergi hazırlatılabilir. Performans görevi; amaç belirleme ve görev dağılımı, bilgi toplama ve içerik hazırlama, sergi ürünlerini düzenleme ve görselleştirme, sergi düzeni ölçütleriyle grup değerlendirme formu ve analitik dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden geleneksel Türk minyatür sanatında kullanılan ağaç çeşitlerini araştırmaları ve bunları kullanarak doğa temalı kompozisyon tasarlamaları istenebilir. Destekleme Öğrencilere genel ağ üzerinden minyatür boyama teknikleri ile ilgili bir video izletilebilir ve öğrencilerden videodan öğrendiklerini defterlerine not almaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI II. DÜZEY"
+   },
+   "outcomes": [
+    {
+     "code": "GS.2.3.1",
+     "order": 1,
+     "text": "Minyatür sanatı hakkında bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Minyatür sanatı hakkındaki bilgilere ulaşmak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği araçları kullanarak minyatür sanatı hakkındaki bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Minyatür sanatı hakkında ulaştığı bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Minyatür sanatı hakkında ulaştığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "GS.2.3.2",
+     "order": 2,
+     "text": "Minyatür sanatında ürün tasarlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Minyatür sanatına ait örnek görselleri inceler."
+      },
+      {
+       "label": "b",
+       "text": "Minyatür sanatına ait örnek görseller bağlamında oluşturduğu imgeleri ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "GS.2.3.3",
+     "order": 3,
+     "text": "Minyatür sanatı uygulamalarıyla ürün oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Minyatürün konusuna uygun görsel anlatım aracını ifade eder."
+      },
+      {
+       "label": "b",
+       "text": "Konuyu minyatür sanatı ürününe dönüştürür."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 4,
+   "kind": "TEMA",
+   "title": "AHŞAP SANATI",
+   "description": "Bu temada öğrencilerin Türk ahşap sanatı hakkında bilgi toplayabilmeleri, Türk ahşap sanatında sanatsal ürün tasarlayabilmeleri ve ahşap uygulama teknikleri kullanarak sanatsal ürün oluşturabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB4. Sanatsal Üretim Yapma (SAB4.1. Sanatsal Ürün Tasarlama, SAB4.2. Sanatsal Ürün Oluşturma)",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E1.1. Merak, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D12. Sabır, D14. Saygı, D16. Sorumluluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Sosyal Bilgiler BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.3. Özetleme GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "GS.2.4.1. Türk ahşap sanatının tarihsel gelişimi hakkında bilgi toplayabilme a) Türk ahşap sanatının tarihsel gelişimiyle ilgili gerekli bilgileri edinmek için kullanacağı araçları belirler. b) Belirlediği araçları kullanarak Türk ahşap sanatının tarihsel gelişimiyle ilgili ihtiyaç duyduğu bilgilere ulaşır. c) Türk ahşap sanatının tarihsel gelişimiyle ilgili ulaştığı bilgileri doğrular. ç) Türk ahşap sanatının tarihsel gelişimiyle ilgili ulaştığı bilgileri kaydeder. GS.2.4.2. Türk ahşap sanatında sanatsal ürün tasarlayabilme a) Türk ahşap sanatında uygulanan motif ve desenleri inceler. b) Türk ahşap sanatında uygulanan motif ve desenler bağlamında oluşturulan imgeleri ifade eder. GS.2.4.3. Türk ahşap sanatı tekniklerini uygulayarak sanatsal ürün oluşturabilme a) Türk ahşap sanatında sanatsal ürün oluşturmak için uygun görsel anlatım araçlarını ifade eder. b) Türk ahşap sanatı tekniklerini uygulayarak tasarımını sanatsal ürüne dönüştürür.",
+    "İÇERİK ÇERÇEVESİ": "Türk Ahşap Sanatına Genel Bakış Türk Ahşap Sanatında Tasarım Türk Ahşap Sanatında Uygulamalar",
+    "Anahtar Kavramlar": "hakkâk, iskarpela, kündekâr, kündekâri, neccar",
+    "ÖĞRENME KANITLARI": "Bu temadaki öğrenme çıktıları; açık uçlu sorular, eşleştirme, kavram haritası, soru-cevap, (Ölçme ve Değerlendirme) tartışma, bilgi görseli, çalışma yaprağı, öğrenme günlüğü, 3-2-1 çıkış kartları, tarih şeridi, ağaç şeması, afiş, sunum, tarih şeridi, performans görevi, öz değerlendirme formu, grup değerlendirme formu, gözlem formu, kontrol listesi ve analitik dereceli puanlama anahtarı ile değerlendirilebilir. Performans görevi olarak öğrencilerden ahşap çalışmalarını içeren bir sergi hazırlamaları istenebilir. Performans görevi, analitik dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir. Performans görevini değerlendirirken amaç belirleme ve görev dağılımı, bilgi toplama ve içerik hazırlama, sergi ürünlerini düzenleme ve görselleştirme ile sergi düzeni ve sunum bütünlüğü ölçütleri kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin ahşap sanatının ahşabı yontma aletleri ile şekillendirme veya ahşabın yüzeyini işleme yoluyla ortaya konan bir sanat dalı olduğunu bildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere tarihî öneme sahip bir ahşap eser görseli gösterilebilir. Öğrencilerden bu eseri yapım tekniği ve süsleme unsurları bakımından incelemeleri istenebilir. Öğrencilere aşağıdaki rehber sorular sorulabilir: • Bu eserin yapımında hangi malzemeler kullanılmış olabilir? • Eserin üzerindeki motif ve desenler hakkında neler söyleyebilirsiniz? • Çevrenizde buna benzer teknik veya süslemelerle oluşturulmuş hangi ahşap eşyalar bulunmaktadır? GELENEKSEL SANATLAR DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilerden günlük hayatta kullandıkları eşyaları düşünmeleri, bu ürünlerden ve edindikleri bilgilerden yola çıkarak ahşap ürünlerin oluşturulma aşamaları hakkında fikir yürütmeleri istenebilir. Öğrenme-Öğretme Uygulamaları GS.2.4.1 Öğrencilere Türkistan’da kurulan ilk Türk devletleri (Asya Hun, Göktürk ve Uygur) ile Türklerin Anadolu’ya yerleşme sürecine dair kısa bir hatırlatma yapılır. Öğrencilere Türklerin 11. yy.da Anadolu’ya gelmeleriyle beraberinde getirdikleri ahşap sanatının Selçuklular, Anadolu Beylikleri ve Osmanlı Devleti Dönemi’nin sanat anlayışları doğrultusunda geliştiği açıklanır. Ayrıca öğrencilere ahşap sanatının dinî ve sivil mimarinin yanı sıra günlük yaşamda kullanılan eşyalarda özellikle minber, kürsü, rahle, Kur’an-ı Kerim mahfazası, korkuluk, pencere ve kapı kanadı, saçak, tavan kirişi, sütun, sütun başlığı, tavan göbeği, çerçeve, lambalık, paravan, sehpa, masa, sandalye, kutu ve çekmecelere uygulandığına dair bilgi verilir. Konya Alâeddin, Taşkınpaşa, Birgi Ulu ve Beyşehir Eşrefoğlu camiilerinin ahşap bölümleri ile dönemlerin özelliklerini yansıtan rahle, sanduka, Kur’an-ı Kerim mahfazaları gibi eserlere ait görseller üzerinden ahşap sanatına ilişkin örnekler incelenir. Bu görsellerden yola çıkarak öğrencilere ahşap uygulama teknikleri (kündekâri, kabartma-oyma, kakma, kafes, kaplama ve Edirnekâri), kullanılan malzemeler ve uygulama sürecinde alınması gereken güvenlik önlemleri hakkında bilgi verilir. Öğrenciler eşit gruplara ayrılır. Öğrencilere Selçuklu, Anadolu Beylikleri ve Osmanlı Dönemi’nin ahşap sanatına ait önemli eserleri üzerinden eserin türü, kullanım amacı, yapıldığı dönem ve bulunduğu yer, yapım teknikleri, yapımında kullanılan malzemeler, süsleme unsurları ve korunma durumu içeriğinden oluşan kaynak kartları dağıtılır. Öğrencilere bu başlıklar doğrultusunda her dönemin özelliğini yansıtan bir eser üzerinden araştırma yapacakları söylenir. Her grubun inceleyeceği dönem belirlenir. Gruplar bilgiye ulaşmada kullanacağı araçları belirlemek için küçük grup tartışması yapar. Gruplardan kütüphane arşivleri, güvenilir dijital veri tabanları, akademik kaynaklar gibi bilgi edinme araçlarını belirlemeleri istenir. Öğrencilerin kitap, makale, broşür gibi materyalleri seçerek incelemeleri ve ihtiyaç duydukları bilgilere ulaşmaları sağlanır (OB1). Öğrencilerden birbirleriyle iletişim hâlinde olmaları ve bu süreçte birbirlerine saygı ve anlayışla yaklaşmaları istenir (SDB2.1, D14.1). Gruplar edindikleri bilgileri öğretmen rehberliğinde doğrular. Gruplar kendilerine verilen sürede doğruladıkları bilgileri diğer gruplarla paylaşmak için afiş, sunum, tarih şeridi gibi görsel anlatım araçlarıyla kaydeder (SDB2.2, D16.3, E3.2). Öğrencilerin öz değerlendirme yapmaları ve düşüncelerini açıklamaları amacıyla 3-2-1 çıkış kartı tekniği kullanılabilir. Öğrencilerin ahşap sanatını yansıtan eserlerin millî ve manevi değerler taşıdığını kavramaları ve bu kültürel mirasın gelecek nesillere aktarılmasında üstlenmeleri gereken sorumluluğu aralarında tartışarak fark etmeleri sağlanır. Öğrencilere sorumluluk bilinci kazanmak amacıyla çevrelerinde bulunan Etnografya Müzeleri, Vakıf Eserleri Müzeleri, Millî Saraylar vb. müzeleri ziyaret edebilecekleri, bu imkânın bulunmadığı durumlarda ise söz konusu müzelerin dijital müze uygulamalarını ziyaret ederek inceleme yapabilecekleri söylenir (D19.3, OB5). GS.2.4.2 Öğrencilere tarihî öneme sahip ahşap eserlerde uygulanan süslemelerin yer aldığı örnek görseller gösterilir (OB4). Öğrencilere ‘’Bu görsellerde dikkatinizi neler çekiyor?’’, ’’Kullanılan motifler yüzeye nasıl yerleştirilmiş?’’, “Dokuma, ebru, kalemişi, çini, vitray, hüsnühat, tezhip ve minyatür sanatlarında uygulanan motif ve desenler ile ahşap sanatında uygulanan motif ve desenler arasındaki benzerlikler ve farklılıklar hakkında neler söyleyebilirsiniz?” soruları yöneltilerek öğrencilerden fikir yürütmeleri ve fikirlerini arkadaşlarıyla paylaşmaları istenir (SDB2.1, E1.1). Türk ahşap sanatında kullanılan motifleri incelemeleri için öğrenciler eşit gruplara ayrılır. GELENEKSEL SANATLARI DERSİ ÖĞRETİM PROGRAMI Grupların farklı motifler araştırmaları için öğrenme ortamında bulunan kaynaklardan ve genel ağdan yararlanmaları sağlanır. Öğrencilerden inceleme sürecinde arkadaşlarıyla iş birliği yapmaları, birbirlerine karşı nezaketli ve sabırlı olmaları istenir (OB1, SDB2.2, D12.2). Öğrencilere inceledikleri motiflerden yola çıkarak “Bu motifler başka hangi eşyalara uygulanabilir?” sorusu yöneltilir. Öğrencilerin zihinlerinde oluşan imgeleri sözel olarak ifade etmeleri sağlanır. Öğrencilere ahşap kaşık/spatül üzerine uygulamak amacıyla tasarım oluşturacakları söylenir. Bu amaçla öğrencilerden daha önce oluşturdukları portfolyoda yer alan kalemişi, hüsnühat, çini ve tezhip temalarında hazırladıkları motif ve desenlerden yararlanarak imgelerinde oluşan tasarımları kaşık/spatül formuna göre oluşturmaları istenir. Bu tasarımı oluşturmalarına rehberlik etmesi amacıyla öğrencilere motifin adı, künyesi, boyutu ve kompozisyonun temel ilkelerine uygunluğu maddelerini içeren tasarım kartları dağıtılır. Öğrencilerin tasarım kartı doğrultusunda öğretmen rehberliğinde iki farklı tasarım eskizi oluşturarak renklendirmeleri sağlanır. Öğrencilerden hazırladıkları eskizleri motif portfolyosunda saklamaları istenir (SDB1.2, KB2.3). GS.2.4.3 ‘’Ağacın suyuna gitmek’’ ifadesi tahtaya yazılır. Öğrencilerin ‘’Bu ifade ile anlatılmak istenen nedir?’’ sorusuyla derse ilgileri çekilir (E1.1). Ahşap şekillendirme tekniklerinin uygulandığı görsel ve videolar etkileşimli tahtaya yansıtılır. Öğrencilerden bu görsel ve videoları dikkatli bir şekilde incelemeleri istenir (OB9). Öğrencilerin büyük grup tartışması yaparak Türk ahşap sanatında kullanılan uygulama tekniklerinin benzerlikleri ve farklılıkları üzerine fikir alışverişinde bulunmaları ve fikirlerini sınıf ortamında ifade etmeleri sağlanır (SDB2.1). Öğrencilerden bu süreçte birbirlerine anlayışla yaklaşmaları ve söz alan arkadaşlarını sabırla dinlemeleri istenir. Öğrenciler, daha önce oluşturdukları eskizleri sanatsal ürüne dönüştürmek için edindikleri bilgiler ve hazırladıkları tasarım kartları doğrultusunda görsel anlatım araçlarını ifade eder ve Türk ahşap sanatında kullanılan tekniklerin işlem basamaklarını öğretmen rehberliğinde sıralar. Öğrencilere tekniklerin uygulama basamakları sırasında öğrenme ortamında ve bireysel olarak alınması gereken güvenlik önlemleri hakkında hatırlatma yapılır. Öğrencilerden ahşap kaşık veya spatül üzerine uygulamak üzere hazırladıkları tasarımlardan birini seçmeleri istenir. Öğrencilere Edirnekâri tekniğinin işlem basamakları örnek bir uygulama üzerinde gösterilir ve uygulama sürecinde dikkat edilmesi gerekenler açıklanır. Öğrencilerin süreci dikkatle gözlemlemeleri ve uygulama basamaklarını takip etmeleri sağlanır. Öğrencilerden seçtikleri tasarımı Edirnekâri tekniğinin işlem basamaklarını uygulayarak ahşap yüzeye aktarmaları ve sanatsal bir ürüne dönüştürmeleri istenir. Ürünler doğal koruyucu malzemelerle kaplanarak uygulama süreci tamamlanır. Süreç sonunda öğrencilerin başarılı olmak için düzenli çalışmanın önemini fark etmeleri sağlanır (SDB1.2, D3.2, E3.2). Öğrencilerin tasarımlarını sanatsal ürüne dönüştürme sürecinde edindikleri deneyimi fark etmeleri ve bunu arkadaşlarıyla paylaşmaları sağlanır. Performans görevi olarak öğrencilerden ahşap çalışmalarını içeren bir sergi hazırlamaları istenebilir. Performans görevi, analitik dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir. Performans görevini değerlendirirken amaç belirleme ve görev dağılımı, bilgi toplama ve içerik hazırlama, sergi ürünlerini düzenleme ve görselleştirme ile sergi düzeni ve sunum bütünlüğü ölçütleri kullanılabilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden detaylı motiflerden yola çıkarak tasarım oluşturmaları ve bu tasarımı ahşap üzerine uygulamaları istenebilir. Destekleme Öğrencilerin geometriksel hatlardan oluşmuş motiflerle öğretmen rehberliğinde uygulama yapmaları sağlanabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz."
+   },
+   "outcomes": [
+    {
+     "code": "GS.2.4.1",
+     "order": 1,
+     "text": "Türk ahşap sanatının tarihsel gelişimi hakkında bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Türk ahşap sanatının tarihsel gelişimiyle ilgili gerekli bilgileri edinmek için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlediği araçları kullanarak Türk ahşap sanatının tarihsel gelişimiyle ilgili ihtiyaç duyduğu bilgilere ulaşır."
+      },
+      {
+       "label": "c",
+       "text": "Türk ahşap sanatının tarihsel gelişimiyle ilgili ulaştığı bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Türk ahşap sanatının tarihsel gelişimiyle ilgili ulaştığı bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "GS.2.4.2",
+     "order": 2,
+     "text": "Türk ahşap sanatında sanatsal ürün tasarlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Türk ahşap sanatında uygulanan motif ve desenleri inceler."
+      },
+      {
+       "label": "b",
+       "text": "Türk ahşap sanatında uygulanan motif ve desenler bağlamında oluşturulan imgeleri ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "GS.2.4.3",
+     "order": 3,
+     "text": "Türk ahşap sanatı tekniklerini uygulayarak sanatsal ürün oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Türk ahşap sanatında sanatsal ürün oluşturmak için uygun görsel anlatım araçlarını ifade eder."
+      },
+      {
+       "label": "b",
+       "text": "Türk ahşap sanatı tekniklerini uygulayarak tasarımını sanatsal ürüne dönüştürür."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "unassigned_outcomes": [],
+ "report": {
+  "units": 9,
+  "outcomes": 26,
+  "components": 68,
+  "orphan_outcomes": 0,
+  "gaps": []
+ }
+}

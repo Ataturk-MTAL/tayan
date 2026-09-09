@@ -1,0 +1,1179 @@
+{
+ "course": {
+  "id": 11,
+  "name": "Peygamberimizin Hayatı Dersi",
+  "slug": "peygamberimizin-hayati-dersi",
+  "prefix": "PH",
+  "shapes": [
+   "PH/noktalı-4"
+  ],
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/peygamberimizin-hayati-dersi_20260902_110804_873.pdf"
+ },
+ "units": [
+  {
+   "grade": 5,
+   "unit": 1,
+   "kind": "ÜNİTE",
+   "title": "ÇOCUKLUK YILLARINDA PEYGAMBERİMİZ",
+   "description": "Bu ünitede Peygamberimizin doğduğu dönemde gerçekleşen Fil Vakası’yla ve onun çocukluk yıllarıyla ilgili bilgi toplanması, aile büyükleriyle kurduğu ilişkilere dair çözümlemeler yapılması amaçlanmaktadır.",
+   "lesson_hours": 20,
+   "sections": {
+    "ALAN BECERİLERİ": "-",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme, KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E2.2. Sorumluluk",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme Becerisi), SDB2.1. İletişim",
+    "Değerler": "D14. Saygı",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "BECERİLER ARASI",
+    "İLİŞKİLER": "SBAB10. Harita (SBAB10.1. Harita Okuma) PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "PH.5.1.1. Peygamberimizin doğduğu dönemi etkileyen Fil Vakası’na ilişkin bilgileri toplayabilme a) Peygamberimizin doğduğu dönemi etkileyen Fil Vakası’na ilişkin bilgilere ulaşmak için kullanacağı kaynakları inceler. b) Peygamberimizin doğduğu dönemi etkileyen Fil Vakası’na ilişkin bilgileri bulur. c) Peygamberimizin doğduğu dönemi etkileyen Fil Vakası’na ilişkin bilgileri doğrular. ç) Peygamberimizin doğduğu dönemi etkileyen Fil Vakası’na ilişkin bilgileri kaydeder. PH.5.1.2. Peygamberimizin çocukluk yıllarında aile büyükleriyle kurduğu ilişkileri çözümleyebilme a) Peygamberimizin çocukluk yıllarında aile büyükleriyle kurduğu ilişkilere yönelik unsurları belirler. b) Peygamberimizin çocukluk yıllarında aile büyükleriyle kurduğu ilişkilere yönelik unsurlar arasındaki ilişkileri belirler.",
+    "İÇERİK ÇERÇEVESİ": "Peygamberimizin Doğduğu Çevre Peygamberimizin Doğumu Peygamberimizin Çocukluğu",
+    "Anahtar Kavramlar": "cahiliye, Fil Vakası, mevlit, zemzem",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; öz değerlendirme formu, öğrenme günlüğü, çıkış kartları, dereceli pu- (Ölçme ve anlama anahtarı, kavram haritaları, kısa cevaplı sorular ve boşluk doldurma soruları kullaDeğerlendirme) nılarak değerlendirilebilir. Öğrencilerden performans görevi olarak Hz. Peygamber’in çocukluk yıllarıyla ilgili bir tarih şeridi hazırlamaları istenebilir. Hazırlanan performans görevi sınıfta sunulabilir ve bilgi toplama, ilişki kurma, içerik ölçütlerinin bulunduğu dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Peygamberimizin ismini ve son peygamber olduğunu bildikleri kabul edilmektedir. Ön Değerlendirme Süreci • Öğrencilere Hz. Muhammed’in (sav) çocukluk yılları hakkında neler bildikleri ve ne öğrenmek istedikleri sorulabilir. • Öğrencilerin Mekke’yle ilgili ön bilgilerini kontrol etmek ve bu bilgileri yeni öğrenilecek bilgilerle ilişkilendirmek amacıyla sorular sorulabilir. Köprü Kurma Fil Vakası’nda Ebrehe’nin Kâbe’yi yıkma girişimi ile kibirli davranışların yol açtığı olumsuz sonuçlar ilişkilendirilerek günlük hayatla bağ kurulabilir. Hz. Peygamber’in aile fertleriyle iletişim kurarken dikkat ettiği ilkelere günlük hayattan örnekler verilebilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları PH.5.1.1 Peygamberimizin doğduğu dönemi etkileyen Fil Vakası hakkında bilgiler toplamak için araçlar incelenir. Konuyla ilgili toplanan bilgiler doğrulanır ve kaydedilir. Öğrencilerden uygun araçları kullanarak konuyla ilgili bilgi toplamaları ve bu bilgileri doğrulayıp kaydetmeleri istenir (E2.2, OB1, SDB1.2). Öğrencilerden Fil Vakası ile ilgili elde ettikleri bilgileri içeren bir sunum hazırlamaları istenebilir. Yapılan sunumlar, dereceli puanlama anahtarı ile değerlendirilebilir. Değerlendirmede kullanılacak ölçütlerin yer aldığı dereceli puanlama anahtarı sunum yapılmadan önce öğrencilerle paylaşılır. Mekke ile çevresinin Peygamberimizin doğduğu dönemdeki sosyal ve dinî yapısı açıklanır. Bu kapsamda zemzem ve cahiliye kavramlarına değinilir. Peygamberimizin doğumu ele alınır. Bu konu içinde mevlit kavramına yer verilir. Konuyla ilgili bilgileri ölçmek amacıyla kısa cevaplı sorular ve boşluk doldurma soruları kullanılabilir. PH.5.1.2 Peygamberimizin çocukluğu, Sadoğulları yurdunda geçirdiği yıllar, Medine’deki akrabalarını ziyareti; aile büyükleriyle kurduğu ilişkiler bağlamında ele alınır. Hz. Peygamber ve aile büyükleri arasındaki iletişime yönelik unsurlar Peygamberimizin çocukluk döneminde aile büyüklerine gösterdiği saygı, üstlendiği sorumluluklar ve ailesinin ona gösterdiği sevgi şeklinde ele alınır. Hz. Peygamber’in ailesiyle kurduğu bu iletişime dair unsurlar arasındaki ilişki belirlenir. Peygamberimizin çocukluk döneminde yaşadığı bir olay ele alınarak öğrencilerden konuyla ilgili duygu ve düşüncelerini ifade etmeleri istenir (SDB2.1). Bu kapsamda beyin fırtınası tekniği kullanılabilir. Peygamberimizin aile fertlerine karşı nazik ve anlayışlı davrandığına dair örnekler verilir (D14.2). Öğrenciler sorumluluk üstlenmeye ve aile işlerine yardımcı olmaya teşvik edilir (E2.2, OB5). Öğrencilerin Hz. Peygamber ve aile büyükleri arasındaki iletişimin unsurlarını ve bu unsurlar arasındaki ilişkiyi nasıl belirlediklerini ölçmek için öğrenme günlüğü veya çıkış kartı yazmaları istenebilir. Hz. Peygamber’in çocukluk yıllarıyla ilgili bilgilerin kronolojik olarak özetlenmesi istenir. Ünitede yer alan Mekke, Medine ve Sadoğulları yurdu haritada gösterilerek (OB4) o bölge hakkında bilgi edinilmesi sağlanır (SBAB10). Peygamberimizin çocukken sahip olduğu ahlaki özellikler vurgulanarak öğrencilerin kendi tutumlarına yönelik öz değerlendirme yapmaları beklenir. Öğrencilerden performans görevi olarak Hz. Peygamber’in çocukluk yıllarıyla ilgili bir tarih şeridi hazırlamaları istenebilir. Hazırlanan performans görevi sınıfta sunulabilir ve bilgi toplama, ilişki kurma, içerik ölçütlerinin bulunduğu dereceli puanlama anahtarı ile değerlendirilebilir. Peygamberimizin gençliğinden vefatına kadar yaşadığı önemli olaylarla ilgili olay örüntüleri ve dijital içerikler kullanılarak çözümleme yapılır (OB2). Öğrencilerin Peygamberimizin çocukluğundan sonra yaşadığı olayları sınıflandırmalarına ve kendi cümleleriyle aktarmalarına imkân verilir. Ölçme ve değerlendirme sürecinde kavram haritaları kullanılabilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilere Peygamberimizin çocukluğu, gençliği, Hicret’ten önceki ve sonraki yılları ile ilgili merak ettikleri konularda araştırma görevleri verilebilir. Öğrencilerden Mekke’deki çocukların sütanneye verilmelerinin nedenleri üzerinden Peygamberimizin sütannesiyle geçirdiği yıllarla ilgili RAFT tekniğini kullanarak yazı yazmaları beklenebilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Destekleme Farklı öğrenme düzeyine sahip öğrencilerden oluşan gruplar belirlenir ve belirlenen grupların iş birliği hâlinde Hz. Peygamber’in çocukluk yıllarındaki önemli olayları gösteren bir zaman çizelgesi hazırlamaları istenebilir. Öğrencilerden hazır olarak verilen şema üzerinde Hz. Peygamber’in aile büyüklerinin isimlerini yazmaları beklenebilir. Öğrencilere Peygamberimizin çocukluk yıllarında sergilediği örnek davranışları listeleme ve bu davranışlardan biri üzerine konuşma görevi verilebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "PH.5.1.1",
+     "order": 1,
+     "text": "Peygamberimizin doğduğu dönemi etkileyen Fil Vakası’na ilişkin bilgileri toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin doğduğu dönemi etkileyen Fil Vakası’na ilişkin bilgilere ulaşmak için kullanacağı kaynakları inceler."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin doğduğu dönemi etkileyen Fil Vakası’na ilişkin bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin doğduğu dönemi etkileyen Fil Vakası’na ilişkin bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Peygamberimizin doğduğu dönemi etkileyen Fil Vakası’na ilişkin bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "PH.5.1.2",
+     "order": 2,
+     "text": "Peygamberimizin çocukluk yıllarında aile büyükleriyle kurduğu ilişkileri çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin çocukluk yıllarında aile büyükleriyle kurduğu ilişkilere yönelik unsurları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin çocukluk yıllarında aile büyükleriyle kurduğu ilişkilere yönelik unsurlar arasındaki ilişkileri belirler."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 5,
+   "unit": 2,
+   "kind": "ÜNİTE",
+   "title": "PEYGAMBERİMİZİN ÇEVRESİNDEKİ ÇOCUKLAR",
+   "description": "Bu ünitede Peygamberimizin etrafında yaşamış ve onunla iletişim kurmuş çocuklar hakkında bilgi edinilmesi, Peygamberimizin çocuklarla iletişiminin sentezlenmesi, Asrısaadet’teki çocukların Peygamberimizle kurdukları iletişimin çözümlenmesi ve onun rehberliğiyle yetişen çocuklar üzerinde Peygamberimizin etkisinin idrak edilmesi amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "DAB4. Tefekkür (DAB4.5. İdrak Etme)",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme, KB2.20. Sentezleme",
+    "EĞİLİMLER": "E2.4. Güven, E3.1. Muhakeme",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim",
+    "Değerler": "D5. Duyarlılık, D6. Dürüstlük, D10. Mütevazılık, D14. Saygı, D15. Sevgi, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB9. Sanat Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "BECERİLER ARASI",
+    "İLİŞKİLER": "PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "PH.5.2.1. Peygamberimizin çocuklarla kurduğu iletişimi sentezleyebilme a) Peygamberimizin çocuklarla kurduğu iletişime dair bilgileri araştırır. b) Peygamberimizin çocuklarla kurduğu iletişime dair bilgiler arasında ilişki kurar. c) Peygamberimizin çocuklarla kurduğu iletişime dair bilgileri birleştirerek özgün bir bütün oluşturur. PH.5.2.2. Asrısaadet’teki çocukların Peygamberimize olan sevgisini çözümleyebilme a) Asrısaadet’teki çocukların Peygamberimize olan sevgisine ilişkin unsurları belirler. b) Asrısaadet’teki çocukların Peygamberimize olan sevgisine ait unsurlar arasındaki ilişkileri belirler. PH.5.2.3. Peygamberimizin rehberliğinin yanında yetişen çocuklar üzerindeki etkisini idrak edebilme a) Peygamberimizin rehberliğinde yetişen çocukların özellikleriyle ilgili tefekkür sürecini gözden geçirir. b) Peygamberimizin rehberliğinde yetişen çocukların özellikleriyle ilgili çıkarım yapar. c) Peygamberimizin rehberliğinde yetişen çocukların özellikleriyle ilgili çıkarımları değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Peygamberimizin Çocuklarla İletişimi Çocukların Dünyasında Peygamberimiz Peygamberimizin Yanında Yetişen Çocuklar",
+    "Anahtar Kavramlar": "Asrısaadet, merhamet, şefkat, tevazu, yetim",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; dereceli puanlama anahtarı, öz değerlendirme formu, çıkış kartları, bil- (Ölçme ve gi kartları ve dereceleme ölçeği kullanılarak değerlendirilebilir. Değerlendirme) Öğrencilerden performans görevi olarak Asrısaadet’te yaşamış bir çocuğun dilinden Peygamberimize sevgisini anlatan bir mektup yazmaları istenebilir. Yazılan mektuplar; içerik, dilin doğru kullanımı, çözümleme, amaca uygunluk ölçütlerinin olduğu dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Hz. Peygamber’in çevresindeki insanlarla iyi bir iletişim hâlinde olduğunu bildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerin “çocuklarla iletişim” konusundaki bilgi düzeylerini ve Hz. Peygamber’in üslubuna dair farkındalıklarını belirlemek amacıyla çocuklarla iletişimde nasıl bir üslup kullanılması gerektiğine ilişkin görüşleri sorulabilir. Köprü Kurma Çocuk sahabilerin Hz. Peygamber’e duyduğu saygı ve bağlılığı gösteren örnek olaylar sunularak öğrencilerin öğretmen rehberliğinde bu davranışların günümüz yaşamına nasıl uyarlanabileceğini tartışmaları istenebilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları PH.5.2.1 Hz. Peygamber’in çocuklarla kurduğu iletişimde dikkat ettiği hususlar ele alınır. Merhamet, şefkat ve tevazu kavramları açıklanır. Peygamberimizin hayatından çocuklarla iletişimine dair örnekler verilir. Öğrencilerden Peygamber Efendimiz’in çocuklara karşı tutumunda etkili olan sevgi, merhamet, tevazu, müsamaha gibi özelliklerle çocukların ona karşı tutumu arasındaki ilişkiyi belirlemeleri istenir (E3.1, D14.1). Peygamberimizin küçüklere merhamet gösterilmesiyle ilgili bir hadisi seçilir ve öğrencilerin okumaları sağlanır. Öğrencilerin Peygamberimizin merhameti ve çocuklarla kurduğu iletişim arasında bir ilişki kurarak çıkarımda bulunmaları ve akıl yürütmeleri sağlanır (OB1). Verilen hadisişerifler aracılığıyla çocuklarla doğru ve güvenilir iletişim kurmanın önemi vurgulanır (D6.2). Peygamberimizin çocuklara ve yetimlere karşı şefkatli, sevecen, sabırlı ve anlayışlı olması üzerinde durulur. Hz. Peygamber’in çevresindeki çocukları kendilerine uygun işlerde görevlendirdiğine değinilerek öğrencilerin günlük hayatta üstlendikleri işleri yerine getirmeleri teşvik edilir (D16.3). Fikir taraması tekniğiyle öğrencilerin Hz. Peygamber’in çevresindeki çocukların ona güven duymaları konusunda öğrencilerin düşüncelerini ifade edebilmeleri amaçlanır. Öğrencilerin akranlarıyla ve kendinden küçük çocuklarla iletişim kurarken yapıcı, adaletli ve öngörülebilir olmalarını teşvik etmek için Peygamberimizin hayatından örnekler verilir (E2.4). Öğrencilerden Peygamberimizin çocuklarla kurduğu iletişimin günümüze nasıl yansıtılabileceğini edebî bir tür vasıtasıyla ifade etmeleri istenir (OB9). Bu kapsamda bir hikâye yazmaları istenebilir. Hikâyelerin değerlendirilmesinde dereceleme ölçeği kullanılabilir. PH.5.2.2 Asrısaadet ve yetim kavramlarının açıklamalarına yer verilir. Asrısaadet’teki çocukların Peygamberimize olan sevgisi, çocukların Hz. Peygamber’e ilişkin sözleri ile yaşantıları ve bunların aralarındaki ilişki belirtilerek ele alınır. Bu konu işlenirken ilişkilendirme diyagramı kullanılabilir. Asrısaadet’teki çocukların Peygamberimize olan sevgisini gösteren örnekler üzerinden öğrenciler, aile büyüklerinin onlara gösterdiği ilgiye sevgiyle karşılık vermeleri için teşvik edilir (D15.4). Öğrencilerin Asrısaadet’teki çocukların Peygamberimizle kurduğu iletişime yönelik bilgi ve becerileri ölçmek için bilgi kartları kullanılabilir. PH.5.2.3 Peygamberimizin yanında yetişen Hz. Ali, Zeyd bin Harise ve Enes bin Malik’in hayatlarına ve Peygamberimizle ilişkilerine dair bilgiler verilir. Peygamberimizin onlara karşı nezaket ve merhameti vurgulanır (D10.3). Öğrencilerden Peygamberimizin yanında yetişen gençlerin hayat hikâyelerini gözden geçirerek Peygamberimizin rehberliğinin bu gençlere etkisine dair bir çıkarımda bulunmaları istenir (E3.1, D5.1,). Öğrencilerin bu çıkarımları Peygamberimizin iletişimde dikkat ettiği hususları göz önüne alarak kendi kararlarını değerlendirmeleri sağlanır (SDB1.3). Bu kapsamda düşün-eşleş-paylaş tekniği kullanılabilir. Öğrencilerden Peygamberimizin yanında yetişen çocukların şahsiyet gelişiminden hareketle Peygamberimizi örnek almanın önemini ifade etmeleri istenir (SDB2.1). Bu kapsamda çıkış kartı kullanılabilir. Öğrencilerden performans görevi olarak Asrısaadet’te yaşamış bir çocuğun dilinden Peygamberimize sevgisini anlatan bir mektup yazmaları istenebilir. Yazılan mektuplar; içerik, dilin doğru kullanımı, çözümleme, amaca uygunluk ölçütlerinin olduğu dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilere Peygamberimizin çocuklarla iletişimi ile ilgili merak ettikleri konularda araştırma görevleri verilebilir. Öğrencilerden Hz. Peygamber’in çocuklara olan tutumunun çocuklar üzerindeki olumlu etkileri üzerine kısa bir hikâye yazmaları istenebilir. Destekleme Öğrencilerden Hz. Peygamber’in çocuklara olan tutumu konusunda Hz. Peygamber’in örnek davranışlarını listeleyebilmeleri veya örnek davranışlarından herhangi biri hakkında konuşabilmeleri, Hz. Peygamber’in çevresindeki çocukların ona olan tutumlarından birini sözlü veya yazılı ifade etmeleri beklenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "PH.5.2.1",
+     "order": 1,
+     "text": "Peygamberimizin çocuklarla kurduğu iletişimi sentezleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin çocuklarla kurduğu iletişime dair bilgileri araştırır."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin çocuklarla kurduğu iletişime dair bilgiler arasında ilişki kurar."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin çocuklarla kurduğu iletişime dair bilgileri birleştirerek özgün bir bütün oluşturur."
+      }
+     ]
+    },
+    {
+     "code": "PH.5.2.2",
+     "order": 2,
+     "text": "Asrısaadet’teki çocukların Peygamberimize olan sevgisini çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Asrısaadet’teki çocukların Peygamberimize olan sevgisine ilişkin unsurları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Asrısaadet’teki çocukların Peygamberimize olan sevgisine ait unsurlar arasındaki ilişkileri belirler."
+      }
+     ]
+    },
+    {
+     "code": "PH.5.2.3",
+     "order": 3,
+     "text": "Peygamberimizin rehberliğinin yanında yetişen çocuklar üzerindeki etkisini idrak edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin rehberliğinde yetişen çocukların özellikleriyle ilgili tefekkür sürecini gözden geçirir."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin rehberliğinde yetişen çocukların özellikleriyle ilgili çıkarım yapar."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin rehberliğinde yetişen çocukların özellikleriyle ilgili çıkarımları değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 5,
+   "unit": 3,
+   "kind": "ÜNİTE",
+   "title": "REHBERİM PEYGAMBERİM",
+   "description": "Bu ünitede Hz. Peygamber’in temizliğe verdiği önemin müşahede edilmesi, onun yeme içme ve giyim kuşam konularındaki davranış ve tavsiyelerinin anlaşılması amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "DAB4. Tefekkür (DAB4.1. Müşahede Etme, DAB4.2. Dinî Meseleleri Anlama)",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.4. Kendine İnanma (Öz Yeterlilik), E2.5. Oyunseverlik, E3.2. Odaklanma, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.2. İş Birliği",
+    "Değerler": "D13. Sağlıklı Yaşam, D17. Tasarruf, D18. Temizlik, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB8. Sürdürülebilirlik Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Fen Bilimleri BECERİLER ARASI",
+    "İLİŞKİLER": "PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "PH.5.3.1. Peygamberimizin temizliğe verdiği önemi müşahede edebilme a) Peygamberimizin temizliğe verdiği önemle ilgili merak ettiği hususları belirler. b) Peygamberimizin temizliğe verdiği öneme dair soru sorar. c) Peygamberimizin temizliğe verdiği öneme dair merak ettiği hususları inceler. ç) Peygamberimizin temizliğe verdiği öneme dair çıkarım yapar. PH.5.3.2. Peygamberimizin yeme içme ve giyim kuşam konularındaki davranış ve tavsiyelerini anlayabilme a) Peygamberimizin yeme içme ve giyim kuşam konularında dikkat ettiği hususlar olduğunu fark eder. b) Peygamberimizin yeme içme ve giyim kuşam konularında nelere dikkat ettiğini belirtir. c) Peygamberimizin yeme içme ve giyim kuşam konularındaki davranış ve tavsiyelerinin sebeplerini açıklar. ç) Peygamberimizin yeme içme ve giyim kuşam adabına dair genel özellikleri belirler.",
+    "İÇERİK ÇERÇEVESİ": "Peygamberimizin Temizlik Adabı Peygamberimizin Yeme İçme Adabı Peygamberimizin Giyim Kuşam Adabı",
+    "Anahtar Kavramlar": "israf, mütevazı, taharet, temizlik, tesettür",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; gözlem formu, öz değerlendirme formu, öğrenme günlüğü, doğru-yan- (Ölçme ve lış soruları, kısa ce­vaplı ve açık uçlu sorular ve dereceli puanlama anahtarı kullanılarak Değerlendirme) değerlendirilebilir. Öğrencilerden performans görevi olarak Peygamberimizin temizlik, yeme içme ve giyinme konularında Müslümanlara rehberlik edecek özellikleriyle ilgili bir el kitapçığı hazırlamaları istenebilir. Yapılan çalışmalar gözlem ve öz değerlendirme formları ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Hz. Peygamber’in risalet görevinin dışında bir beşer olarak hayatının farklı yönleriyle de Müslümanlara örnek olduğunu bildikleri kabul edilmektedir. Ön Değerlendirme Süreci • Öğrencilere Hz. Peygamber’in temizlik konusundaki tutum ve davranışları ile ilgili neler bildikleri sorulabilir. • Öğrencilerden Hz. Peygamber’in yeme içme adabına yönelik ilkeler konusunda düşüncelerini paylaşmaları istenebilir. Köprü Kurma Öğrencilere sosyal hayatta temizlik, yeme içme, giyinme konularında bireysel ve toplumsal bir gereklilik olarak uyulması gereken kuralların neler olduğu sorulabilir. Hz. Peygamber’in yeme içme, giyinme konusundaki tutum ve davranışları ile bağ kurularak öğrencilerin bu bilgileri günlük hayata yansıtmaları beklenebilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları PH.5.3.1 Temizlik ve taharet kavramları açıklanır. Peygamberimizin temizliğe verdiği önem ayet ve hadislerle desteklenerek ele alınır. Manevi temizlik, beden ve çevre temizliği konularında Peygamberimizin öneri ve uygulamalarına yer verilir. Temizlik ile çevre sorunları arasındaki ilişkiye değinilerek sürdürülebilir çevre konusunun önemine dikkat çekilir (OB8). Öğrencilerden Peygamberimizin temizliğe verdiği önem hakkında merak ettikleri hususlara dair sorular sorarak onun temizlik adabını incelemeleri ve bunun toplum sağlığına etkisi hakkında çıkarımda bulunmaları istenir (E3.8, D18.1). Bu süreçte düşün-eşleş-paylaş tekniğinden yararlanılabi­lir. Öğrencilere Peygamberimizin vurguladığı kişisel temizlik kuralları hatırlatılarak onlardan bu kuralları günlük hayatta ne kadar uyguladıklarını değerlendirmeleri beklenir (E1.4, SDB1.3). Öğrencilerin ekip çalışması yapıp okul ve çevre temizliği bilincini geliştirecek etkinliklere odaklanarak bu doğrultuda planlamalar yapmaları sağlanır (E3.2, SDB2.2). Öğrencilerden arkadaşlarını bilgilendirmek amacıyla afişler veya kısa filmler hazırlamaları istenebilir. Yapılan çalışmalar dereceli puanlama anahtarı ile değerlendirilebilir. PH.5.3.2 Peygamberimizin günlük yaşamını vahiy ve yaşadığı dönemin koşullarına göre bazı ilkeler çerçevesinde düzenlediğine değinilir. Öğrencilerden Hz. Peygamber’in yeme içme ve giyim kuşam konusunda vahyin rehberliğinde belirlediği ilkelere dair tahminde bulunmaları istenir. Peygamberimizin yeme içme ve giyim kuşam konusundaki uygulama ve tavsiyeleri ele alınır. Konu ele alınırken israf kavramı açıklanır ve Peygamberimizin bu konudaki tutumu vurgulanır (D17.2). Helal gıda tüketmenin ve dengeli beslenmenin önemine değinilir. Konu bu kapsamda “Besinler ve Sağlıklı Yaşam” içeriğiyle ilişkilendirilir. Öğrencilerin gruplar hâlinde hazırladıkları ve Hz. Peygamber’in yeme içme adabına ilişkin bilgileri pekiştirebilecekleri eğitsel oyunlar oynamaları sağlanır (E2.5). Peygamberimizin giyim kuşam adabı ele alınırken mütevazı ve tesettür kavramları açıklanır. Sadeliğin insana katkıları ile ilgili düşüncelerini paylaşmaları sağlanır. Bu doğrultuda öğrencilere bir ayet, hadis ya da örnek metin üzerinden etkinlik düzenlenebilir. Tüketim alışkanlıklarını düzenlemek ile ülke kaynaklarını verimli kullanmak arasındaki ilişkiye değinilir (D19.4). Öğrencilerden Peygamberimizin yeme içme ve giyim kuşam konusunda dikkat ettiği hususları belirterek bu adabın bireysel ve toplumsal hayata etkilerine dair görüş bildirmeleri istenir. Öğrencilerin Peygamberimizin uygulama ve tavsiyelerinden hareketle yeme içme ve giyim kuşam adabına yönelik ilkeleri listelemeleri sağlanır. Sürecin değerlendirilmesinde kısa ce­vaplı ve açık uçlu sorular kullanılabilir. Öğrencilerden performans görevi olarak Peygamberimizin temizlik, yeme içme ve giyinme konularında Müslümanlara rehberlik edecek özellikleriyle ilgili bir el kitapçığı hazırlamaları istenebilir. Yapılan çalışmalar gözlem ve öz değerlendirme formları ile değerlendirilebilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilere Peygamberimizin temizlik, yeme içme ve giyinme adabı ile ilgili merak ettikleri konularda araştırma görevleri verilebilir. Öğrencilerden Hz. Peygamber’in temizlik, yeme içme ve giyinme adabıyla ilgili dijital içerik hazırlamaları istenebilir. Destekleme Öğrencilerden Hz. Peygamber’in temizlik, yeme içme ve giyinme adabına ilişkin örnek davranışlarını listeleyebilmeleri veya örnek davranışlarından herhangi biri hakkında konuşmaları beklenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "PH.5.3.1",
+     "order": 1,
+     "text": "Peygamberimizin temizliğe verdiği önemi müşahede edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin temizliğe verdiği önemle ilgili merak ettiği hususları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin temizliğe verdiği öneme dair soru sorar."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin temizliğe verdiği öneme dair merak ettiği hususları inceler."
+      },
+      {
+       "label": "ç",
+       "text": "Peygamberimizin temizliğe verdiği öneme dair çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "PH.5.3.2",
+     "order": 2,
+     "text": "Peygamberimizin yeme içme ve giyim kuşam konularındaki davranış ve tavsiyelerini anlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin yeme içme ve giyim kuşam konularında dikkat ettiği hususlar olduğunu fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin yeme içme ve giyim kuşam konularında nelere dikkat ettiğini belirtir."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin yeme içme ve giyim kuşam konularındaki davranış ve tavsiyelerinin sebeplerini açıklar."
+      },
+      {
+       "label": "ç",
+       "text": "Peygamberimizin yeme içme ve giyim kuşam adabına dair genel özellikleri belirler."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 5,
+   "unit": 4,
+   "kind": "ÜNİTE",
+   "title": "AİLE HAYATINDA PEYGAMBERİMİZ",
+   "description": "Bu ünitede Peygamberimizin sosyal hayatının bir kesiti olan aile hayatını örnek almanın önemine dair analitik düşünülmesi amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "DAB4. Tefekkür (DAB4.4. Dinî Konularda Analitik Düşünme)",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E3.1. Muhakeme, E3.4. Gerçeği Arama, E3.5. Açık Fikirlilik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim",
+    "Değerler": "D2. Aile Bütünlüğü",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "BECERİLER ARASI",
+    "İLİŞKİLER": "PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "PH.5.4.1. Peygamberimizin aile hayatını örnek almanın önemine dair analitik düşünebilme a) Peygamberimizin aile hayatındaki tutum ve davranışlarıyla Kur’an-ı Kerim’deki ahlaki ilkeler arasında ilişki kurar. b) Peygamberimizin aile hayatındaki tutum ve davranışlarını örnek almanın gerekliliğiyle ilgili akıl yürütür. c) Peygamberimizin aile hayatındaki tutum ve davranışlarını örnek almanın gerekliliğiyle ilgili çıkarımları tartışır. ç) Peygamberimizin aile hayatındaki tutum ve davranışlarını örnek almanın gerekliliğiyle ilgili çıkarımlar arasından tercih edilebilir görüşleri gerekçeleriyle belirler.",
+    "İÇERİK ÇERÇEVESİ": "Eş Olarak Peygamberimiz Baba Olarak Peygamberimiz Dede Olarak Peygamberimiz",
+    "Anahtar Kavramlar": "Ehlibeyt",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; dereceli puanlama anahtarı, grup değerlendirme formu, açık uçlu so- (Ölçme ve rular, boşluk doldurma soruları, kısa cevaplı sorular ve beyin fırtınası tekniği kullanılarak Değerlendirme) değerlendirilebilir. Öğrencilerden performans görevi olarak fotoğraflar yardımıyla aile hikâyesi oluşturmaları istenebilir. Yapılan çalışmalar; ilişki kurma, fotoğraf seçimi, hikâye akışı, sunum, özgünlük ve düzen ölçütlerinin olduğu dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Peygamberimizin çocuklarının isimlerini bildikleri kabul edilmektedir. Ön Değerlendirme Süreci • Öğrencilere Hz. Peygamber’in eş, baba, dede olarak aile içindeki tutum ve davranışlarına ilişkin ne bildikleri ve ne bilmek istedikleri ile ilgili sorular sorulabilir. • Hz. Peygamber’in aile içindeki tutum ve davranışlarına yönelik bir olay verilerek öğrencilerin bu olaya dair fikir yürütmeleri istenebilir. Köprü Kurma Kıyaslama ve karşılaştırma tekniği kullanılarak, öğrencilerin kendi aile içi iletişimleri ile Hz. Peygamber’in aile içi iletişiminde dikkat ettiği ilkeler arasındaki benzerlik ve farklılıkları değerlendirmeleri sağlanıp bağ kurulabilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları PH.5.4.1 Peygamberimizin aile hayatı hakkında bilgi verilir. Ehlibeyt kavramı açıklanır. Onun eş, baba ve dede olarak sergilediği tutum ve davranışlardan örnekler sunulur (OB1). Bu tutum ve davranışlarla Kur’an-ı Kerim’deki ahlaki ilkeler arasındaki ilişki ortaya konur. Peygamberimizin aile içi ilişkilerinde öne çıkan erdemli davranışlarına değinilir. Bu kapsamda şefkat kavramı açıklanır. Aile içi iletişimin önemi vurgulanarak huzurlu ve mutlu bir aile hayatı için aile üyelerinin her birinin davranışlarının önemli olduğuna değinilir (D2.4). Bu kapsamda beyin fırtınası tekniği kullanılabilir. Öğrencilerden Peygamberimizin aile hayatını örnek alarak kendi davranışlarından hangilerini düzenlemeleri gerektiği konusunda değerlendirme yapmaları istenir (E3.5, SDB1.3). Öğrencilerin Peygamberimizin niçin Müslümanlara örnek gösterildiğinin sebepleri hakkında düşünmeleri ve onun aile hayatını örnek almanın gerekliliğine dair bir çıkarımda bulunmaları sağlanır (E3.1). Öğrencilerden bu çıkarımları tartışmaları ve düşüncelerini gerekçeleriyle ifade etmeleri istenir (E3.4, SDB2.1). Bu kapsamda konuşma halkası tekniği kullanılabilir. Sürecin değerlendirilmesinde grup değerlendirme formu, boşluk doldurma soruları, kısa ce­vaplı ve açık uçlu sorular kullanılabilir. Öğrencilerden performans görevi olarak fotoğraflar yardımıyla aile hikâyesi oluşturmaları istenebilir. Yapılan çalışmalar; ilişki kurma, fotoğraf seçimi, hikâye akışı, sunum, özgünlük ve düzen ölçütlerinin olduğu dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerin Peygamberimizin kızlarına verdiği değeri yorumlayabilecekleri bir dijital içerik oluşturmaları istenebilir. Destekleme Öğrencilerden Hz. Peygamber’in çocuklarının isimlerini sıralamaları beklenebilir. Öğrencilerden Hz. Peygamber’in baba, eş ve dede olmasına dair öğrenilmesi hedeflenen örnek davranışlarını listelemeleri ve örnek davranışlarından herhangi biri hakkında konuşmaları beklenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "PH.5.4.1",
+     "order": 1,
+     "text": "Peygamberimizin aile hayatını örnek almanın önemine dair analitik düşünebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin aile hayatındaki tutum ve davranışlarıyla Kur’an-ı Kerim’deki ahlaki ilkeler arasında ilişki kurar."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin aile hayatındaki tutum ve davranışlarını örnek almanın gerekliliğiyle ilgili akıl yürütür."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin aile hayatındaki tutum ve davranışlarını örnek almanın gerekliliğiyle ilgili çıkarımları tartışır."
+      },
+      {
+       "label": "ç",
+       "text": "Peygamberimizin aile hayatındaki tutum ve davranışlarını örnek almanın gerekliliğiyle ilgili çıkarımlar arasından tercih edilebilir görüşleri gerekçeleriyle belirler."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 6,
+   "unit": 1,
+   "kind": "ÜNİTE",
+   "title": "GENÇLİK YILLARINDA PEYGAMBERİMİZ",
+   "description": "Bu ünitede Hz. Peygamberin gençlik yıllarındaki ahlaki olgunluğunun idrak edilmesi, Peygamberimizin Hira’da tefekkürle geçirdiği günlerin çözümlenmesi amaçlanmaktadır.",
+   "lesson_hours": 20,
+   "sections": {
+    "ALAN BECERİLERİ": "DAB4. Tefekkür (DAB4.5. İdrak Etme)",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme",
+    "EĞİLİMLER": "E2.5. Oyunseverlik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "-",
+    "Değerler": "D1. Adalet, D5. Duyarlılık, D6. Dürüstlük",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "BECERİLER ARASI",
+    "İLİŞKİLER": "SBAB10. Harita (SBAB10.2. Haritayı Çözümleme) PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "PH.6.1.1. Peygamberimizin gençlik yıllarındaki ahlaki olgunluğunu idrak edebilme a) Peygamberimizin gençlik yıllarındaki ahlaki özellikleriyle ilgili tefekkür sürecini gözden geçirir. b) Peygamberimizin gençlik yıllarındaki ahlaki özellikleriyle ilgili çıkarım yapar. c) Peygamberimizin gençlik yıllarındaki ahlaki özellikleriyle ilgili çıkarımları değerlendirir. PH.6.1.2. Pegamberimizin Hira’daki tefekkür sürecini çözümleyebilme a) Pegamberimizin Hira’daki tefekkür sürecine ilişkin unsurları belirler. b) Pegamberimizin Hira’daki tefekkür sürecine dair unsurlar arasındaki ilişkileri be­lirler.",
+    "İÇERİK ÇERÇEVESİ": "Ahlaki Özellikleri Vahyin Gelişi",
+    "Anahtar Kavramlar": "emin, Hilfülfudul, risalet, tefekkür",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; dereceli puanlama anahtarı, öz değerlendirme formu, açık uçlu sorular, (Ölçme ve kısa cevaplı sorular, boşluk doldurma soruları, bilgi kartları ve kontrol listesi kullanılarak deDeğerlendirme) ğerlendirilebilir. Öğrencilerden performans görevi olarak Hz. Peygamber’in gençlik yıllarına ait önemli olayları göstermek için bir tarih şeridi hazırlamaları istenebilir. Yapılan çalışma; öz değerlendirme formu ve çözümleme, sınıflandırma, doğruluk, kronolojik sıralama, özgünlük ölçütlerinin bulunduğu dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Peygamberimizin çocukluk yılları hakkında bilgi sahibi oldukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere Hz. Peygamber’in gençlik yıllarıyla ilgili sorular sorularak ön öğrenmeleri tespit edilebilir. Köprü Kurma Peygamberimizin Kâbe hakemliğinde üstlendiği rol, toplumsal hayatta bireye düşen ahlaki ve sosyal sorumluluklarla ilişkilendirilerek günlük hayatla bağ kurulabilir. Öğrencilerin Peygamberimizin gençlik yıllarında sahip olduğu ahlaki özellikler ile kendilerinde bulunan ahlaki özellikler arasında bağ kurulabilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları PH.6.1.1 Peygamberimizin gençlik yıllarında sahip olduğu ahlaki özellikleri örneklerle ele alınır. Peygamberimizin Cahiliye Dönemi’nin yaygın kötü alışkanlık ve tutumlarından kendisini koruduğuna ve güvenilir olmasından dolayı insanlar tarafından “emin” olarak tanındığına (D6.2) işaret edilir. Hilfülfudul kavramı açıklanarak Peygamberimizin Hilfülfudul’a katılması hakkında bilgi verilir. Bu kapsamda toplumsal sorunların çözümünde sorumluluk üstlenerek haksızlıkları ortadan kaldırma çabasına değinilir (D1.2, D5.2). Peygamberimizin Hz. Hatice ile evliliği ele alınır. Hz. Peygamber’in Kâbe hakemliği hakkında bilgi verilip, onun tüm kabilelerin hassasiyetlerini gözeterek (OB5) hakemlik görevinin sorumluluğunu adil bir şekilde yerine getirdiği vurgulanır (D1.1). Öğrencilerden Peygamberimizin gençlik yıllarındaki olayları düşünerek aile hayatında ve sosyal hayattaki konumunu gözden geçirmeleri ve onun ahlaki özelliklerinin bu konuma etkisine dair çıkarımda bulunmaları istenir. Öğrencilerden ulaştıkları çıkarımları o dönemin toplumsal özelliklerini göz önüne alarak değerlendirmeleri istenir. Bu süreçte kar topu tekniğinden yararlanılabilir. Öğrencilerden Peygamberimizin Kâbe hakemliğindeki rolüne tanıklık etmiş bir sahabinin dilinden tarihî günlük yazmaları istenebilir. Öğrencileri düşünmeye ve sorgulamaya sevk eden, bilgi ve becerilerini transfer etmelerini sağlayan açık uçlu sorular kullanılabilir. Öğrencilerden performans görevi olarak Hz. Peygamber’in gençlik yıllarına ait önemli olayları göstermek için bir tarih şeridi hazırlamaları istenebilir. Yapılan çalışma; çözümleme, sınıflandırma, doğruluk, kronolojik sıralama, özgünlük ölçütlerinin bulunduğu dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir. PH.6.1.2 Mekke toplumunun İslam öncesindeki ahlaki durumuna değinilir. Peygamberimizin tefekkür etmek üzere Hira’ya gitmeye başlaması hakkında bilgi verilir. Toplumun ahlaki yapısı ile Hz. Peygamber’in tefekkür etmek için Hira’ya gitmeye başlaması arasındaki ilişki belirtilir. Bu kapsamda tefekkür kavramı açıklanır. Peygamberimizin Hira günleri sürecinde yaşadıklarına değinilir. Hz. Peygamber’e ilk vahyin gelişi ele alınır ve bu kapsamda risalet kavramı açıklanır. Hz. Peygamber’in ilk vahyi aldıktan sonra yaşadıklarına değinilir. Peygamberimizin Hira’da tefekkürle geçirdiği günlere yönelik bilgi ve becerileri ölçmek için bilgi kartları, kısa cevaplı sorular ve boşluk doldurma soruları kullanılabilir. Peygamberimizin çocukluk yılları, risalet görevinden Hicret’e ve Hicret’ten vefatına kadar olan yılları, davet, ilk Müslümanlar, davete tepkiler, boykot yılları, Hüzün Yılı, Taif, Akabe Biatleri, Hicret, müşriklerle ilişkiler, Mekke’nin Fethi, Veda Haccı ve Hutbesi ile Hz. Peygamber’in vefatı konuları ayrıntıya girilmeksizin ele alınır. Öğrencilerin Peygamberimizin gençlik yıllarını kronolojik bütünlük hâlinde özetleyebilmeleri ve Mekke, Medine yurduna ait bilgileri ilişkilendirebilmeleri için harita kullanılır (SBAB10). Öğrencilerin çalışma sürecinin eğlenceli özelliklerini keşfetmeleri için ünitede verilen kavram ve isimlerin iletişime dayalı ve etkileşimli bir yöntemle pekiştirilmesi sağlanır (E2.5). Bu kapsamda kavram kartları tekniği kullanılabilir. Öğrencilerden risalet sonrası dönemle ilgili bir konu seçerek o konuda bir araştırma yapmaları ve elde ettikleri bilgileri kaydetmeleri istenir (OB1). PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilere Peygamberimizin gençlik dönemindeki toplumun sosyal yapısı ve etkileşimlerini incelemelerini isteyen araştırma görevleri verilebilir. Öğrencilerden Peygamberimizin Hilfülfudul’a katılmasında etkili olan kişilik özellikleri ile ilgili araştırma yapmaları istenebilir. Destekleme Öğrencilerden Peygamberimizin gençlik yıllarındaki önemli olayları kronolojik olarak ifade etmeleri beklenebilir. Öğrencilerden Peygamberimizin gençliğinde sahip olduğu temel ahlaki özelliklerden bazılarını listelemeleri ve bu özelliklerden herhangi biri hakkında konuşmaları beklenebilir. Öğrencilerin ilk vahyin hangi melekle nerede ve ne zaman indirildiğine dair sorulara cevap vermeleri beklenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "PH.6.1.1",
+     "order": 1,
+     "text": "Peygamberimizin gençlik yıllarındaki ahÖğrenme çıktısıyla ifade eder. laki olgunluğunu idrak edebilme ilişkilendirilen beceriye ait",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin gençlik yıllarındaki ahlaki özellikleriyle ilgili tefekkür sürecini gözden geçirir."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin gençlik yıllarındaki ahlaki özellikleriyle ilgili çıkarım yapar."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin gençlik yıllarındaki ahlaki özellikleriyle ilgili çıkarımları değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "PH.6.1.2",
+     "order": 2,
+     "text": "Pegamberimizin Hira’daki tefekkür sürecini çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Pegamberimizin Hira’daki tefekkür sürecine ilişkin unsurları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Pegamberimizin Hira’daki tefekkür sürecine dair unsurlar arasındaki ilişkileri be­lirler."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 6,
+   "unit": 2,
+   "kind": "ÜNİTE",
+   "title": "PEYGAMBERİMİZİN ÇEVRESİNDEKİ GENÇLER",
+   "description": "Bu ünitede Peygamberimizin yanında yetişen gençlerin ahlaki tutum ve davranışlarının müşahede edilmesi, Asrısaadet’teki gençlerin Peygamberimize olan sevgisinin çözümlenmesi, Peygamberimizin yanında yetişen gençlerin Hz. Peygamber’i rehber edinmeleri ile ilgili çıkarımlar yapılması amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "DAB4. Tefekkür (DAB4.1. Müşahede Etme)",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme, KB2.20. Sentezleme",
+    "EĞİLİMLER": "E1.4. Kendine İnanma (Öz Yeterlilik), E2.2. Sorumluluk, E2.4. Güven, E3.1. Muhakeme",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık Becerisi), SDB1.2. Kendini Düzenleme (Öz Düzenleme Becerisi), SDB1.3. Kendine Uyarlama (Öz Yansıtma Becerisi), SDB2.1. İletişim",
+    "Değerler": "D12. Sabır, D14. Saygı, D15. Sevgi",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı,",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "BECERİLER ARASI",
+    "İLİŞKİLER": "PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "PH.6.2.1. Peygamberimizin gençlerle iletişiminde onlara verdiği değeri sentezleyebilme a) Peygamberimizin gençlerle iletişiminde onlara verdiği değere ilişkin bilgileri araştırır. b) Peygamberimizin gençlerle iletişiminde onlara verdiği değere ait bilgiler arasında ilişki kurar. c) Peygamberimizin gençlerle iletişiminde onlara verdiği değere ait bilgileri birleştirerek özgün bir bütün oluşturur. PH.6.2.2. Asrısaadet’teki gençlerin Peygamberimize duyduğu sevgiyi çözümleyebilme a) Asrısaadet’teki gençlerin Peygamberimize duyduğu sevgiye ait unsurları belirler. b) Asrısaadet’teki gençlerin Peygamberimize duyduğu sevgiye ait unsurlar arasındaki ilişkileri belirler. PH.6.2.3. Peygamberimizin yanında yetişen gençlerin ahlaki tutum ve davranışlarını müşahede edebilme a) Peygamberimizin yanında yetişen gençlerin ahlaki tutum ve davranışlarına dair merak ettiği hususları belirler. b) Peygamberimizin yanında yetişen gençlerin ahlaki tutum ve davranışları hakkında soru sorar. c) Peygamberimizin yanında yetişen gençlerin ahlaki tutum ve davranışlarına dair merak ettiği hususları inceler. ç) Peygamberimizin yanında yetişen gençlerin ahlaki tutum ve davranışlarına dair çıkarım yapar.",
+    "İÇERİK ÇERÇEVESİ": "Peygamberimizin Gençlerle İletişimi Gençlerin Dünyasında Peygamberimiz Peygamberimizin Yanında Yetişen Gençler",
+    "Anahtar Kavramlar": "cihat, istişare, şehadet, tebliğ",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; dereceli puanlama anahtarı, grup değerlendirme formu, öğrenme gün- (Ölçme ve lüğü, açık uçlu sorular kullanılarak değerlendirilebilir. Değerlendirme) Öğrencilerden performans görevi olarak Peygamberimizin gençlerle iletişimi, Asrısaadet’teki gençlerin Peygamberimize olan sevgisi ve Peygamberimizin yanında yetişen gençlerin konu edildiği bir fanzin (küçük ölçekli dergi) hazırlamaları istenebilir. Yapılan çalışmalar; grup değerlendirme formu ve bilgi toplama, ilişki kurma, çözümleme, içerik ve özgünlük ölçütlerinin bulunduğu dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Hz. Peygamber’in çevresindeki insanlarla iletişim hâlinde olduğunu bildikleri kabul edilmektedir. Ön Değerlendirme Süreci • Öğrencilerden Peygamberimizin gençlerle iletişiminde onlara verdiği değerin nasıl olabileceğine dair görüş bildirmeleri istenebilir. • Öğrencilere Peygamberimizin gençliğinde yaşamış olduğu tecrübelerin onun gençlerle ilgili duygu ve tutumlarını ne yönde etkilemiş olabileceği sorularak düşüncelerini paylaşmaları sağlanabilir. Köprü Kurma Genç sahabilerin Hz. Peygamber’e gösterdiği saygı ile kültürümüzdeki büyüklere saygı anlayışı arasında bağ kurulur. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları PH.6.2.1 Peygamberimizin gençlerle iletişiminde onlara verdiği değere dair bilgiler araştırılır. Peygamberimizin gençlere olan sevgisi ile onların ihtiyaçlarını gözetmesi, manevi gelişimleriyle ilgilenmesi, onlarla istişare ederek görüş alışverişinde bulunması ve onlara sorumluluk vererek öz güvenlerini pekiştirmesi arasında ilişki kurulur. Peygamberimizin gençlerle iletişiminde onlara verdiği değer örnek rivayetlerle belirlenir (OB1). Biçimlendirici değerlendirme yapmak için çalışma yaprakları kullanılabilir. Öğrencilerin adaletli ve yapıcı olmalarından hareketle iletişim kurma becerilerini geliştirmeye yönelik bir etkinlik planlanır (E2.4). Günlük hayatta üstlendikleri görevleri zamanında yerine getirmeleri konusunda öğrenciler teşvik edilir (E1.4, SDB1.3). Bu kapsamda örnek olay yöntemi kullanılabilir. Öğrencilere Hz. Peygamber’in gençlerle iletişimini ve onlara verdiği değeri incelemelerini isteyen araştırma görevleri verilebilir. Bu çalışmalar dereceleme ölçeği ile değerlendirilebilir. Öğrenme yaşantılarının somutlaştırılabilmesi için Hz. Peygamber ve gençler arasındaki iletişim; değer, bağlılık ve sevgi bağlamında ele alınır. Bu konuda bir drama etkinliği planlanabilir. Öğrencilerden dramada ele alınan olay ve durumlar karşısında yaşadıkları duyguları yansıtmalarına yönelik öğrenme günlüğü yazmaları istenebilir (SDB1.1). PH.6.2.2 Asrısaadet’teki gençlerin Peygamberimize olan sevgisini içeren olaylara ilişkin bilgi verilir. Gençlerin tebliğ ve davet faaliyetleri, Allah (cc) yolunda cihat etmeleri, onunla istişarede bulunmaları ile Allah Resulü’ne gösterdikleri saygı, vefa ve sadakat arasında ilişki kurulur. Şehadet kavramı Frayer tekniği uygulanarak verilebilir. Öğrencilerin genç sahabilerin vefa, saygı ve sadakatlerini kendi hayatlarında örnek almalarına ve duygularını samimi bir şekilde göstermeye istekli olmalarına yönelik çalışmalar yapılır (D14.3, D15.2). Bu konuda değer belirginleştirme (açıklama) tekniği kullanılabilir. Öğrencilerin Asrısaadet’teki gençlerin Peygamberimize duyduğu sevgi ve bağlılıkla ilgili olay ve durumlar üzerine çözümlemelerde bulunarak kendilerini değerlendirmeleri istenebilir (SDB1.2). Bu sürecin değerlendirilmesinde açık uçlu sorular kullanılabilir. Öğrencilerden performans görevi olarak Peygamberimizin gençlerle iletişimi, Asrısaadet’teki gençlerin Peygamberimize olan sevgisi ve Peygamberimizin yanında yetişen gençlerin konu edildiği bir fanzin (küçük ölçekli dergi) hazırlamaları istenebilir. Yapılan çalışmalar grup değerlendirme formu ve bilgi toplama, ilişki kurma, çözümleme, içerik ve özgünlük ölçütlerinin bulunduğu dereceli puanlama anahtarı ile değerlendirilebilir. PH.6.2.3 Peygamberimizin yanında yetişen Hz. Zeyneb, Cafer bin Ebu Talib, Musab bin Umeyr ve Abdullah bin Ömer’in hayat hikâyeleri ele alınır. Peygamberimizin gençlerle kurduğu iletişimde belirleyici olan özelliklere değinilir. Peygamberimizle iletişim kurarken gençlerde hangi özelliğin ön plana çıktığı ortaya konur. Bu genç sahabilerin müşriklerin tüm engellemelerine rağmen inançlarını yaşayabilmek için gösterdikleri azimli tutuma dikkat çekilir (D12.3). Öğrencilerden bu gençler hakkında merak ettikleri hususlara dair sorular sorarak onların özelliklerini incelemeleri ve Peygamberimizin rehberliğinin bu özelliklere etkisi hakkında çıkarımda bulunmaları istenir (E3.1). Bu çıkarımlarla ilgili öğrenme günlükleri yazmaları istenebilir. Öğrencilerden üniteye ilişkin kavramları pekiştirmeye yönelik bir etkinlik planlamaları istenir. Bu kapsamda eğitsel bir oyun tasarlamaları istenebilir. Öğrencilerin konuyla ilgili edindikleri bilgileri sözlü veya yazılı olarak ifade etmeleri sağlanır (SDB2.1). PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerin Hz. Peygamber’in gençlere verdiği değeri veya gençlerin Hz. Peygamber’i sevmelerinin nedenlerini yorumlayabilmeleri için raft tekniği ile yazı yazmaları beklenebilir. Öğrencilerden Hz. Peygamber’in gençlere verdiği değerle ilgili afiş hazırlamaları istenebilir. Destekleme Öğrencilerden Hz. Peygamber’in gençlere olan tutumu konusunda öğrenilmesi hedeflenen temel bilgilerden olan örnek davranışlarını listeleyebilmeleri veya örnek davranışlarından herhangi biri hakkında konuşmaları beklenebilir. Öğrencilerin Hz. Peygamber’in çevresindeki gençlerin ona olan tutumlarından birini sözlü ya da yazılı ifade etmeleri beklenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "PH.6.2.1",
+     "order": 1,
+     "text": "Peygamberimizin gençlerle iletişiminde onlara verdiği değeri sentezleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin gençlerle iletişiminde onlara verdiği değere ilişkin bilgileri araştırır."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin gençlerle iletişiminde onlara verdiği değere ait bilgiler arasında ilişki kurar."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin gençlerle iletişiminde onlara verdiği değere ait bilgileri birleştirerek özgün bir bütün oluşturur."
+      }
+     ]
+    },
+    {
+     "code": "PH.6.2.2",
+     "order": 2,
+     "text": "Asrısaadet’teki gençlerin Peygamberimize duyduğu sevgiyi çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Asrısaadet’teki gençlerin Peygamberimize duyduğu sevgiye ait unsurları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Asrısaadet’teki gençlerin Peygamberimize duyduğu sevgiye ait unsurlar arasındaki ilişkileri belirler."
+      }
+     ]
+    },
+    {
+     "code": "PH.6.2.3",
+     "order": 3,
+     "text": "Peygamberimizin yanında yetişen gençlerin ahlaki tutum ve davranışlarını müşahede edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin yanında yetişen gençlerin ahlaki tutum ve davranışlarına dair merak ettiği hususları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin yanında yetişen gençlerin ahlaki tutum ve davranışları hakkında soru sorar."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin yanında yetişen gençlerin ahlaki tutum ve davranışlarına dair merak ettiği hususları inceler."
+      },
+      {
+       "label": "ç",
+       "text": "Peygamberimizin yanında yetişen gençlerin ahlaki tutum ve davranışlarına dair çıkarım yapar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 6,
+   "unit": 3,
+   "kind": "ÜNİTE",
+   "title": "REHBERİM PEYGAMBERİM",
+   "description": "Bu ünitede Peygamberimizin Allah’a (cc) bağlılığının anlaşılması, Hz. Peygamber’in namaz ibadetine dair tutumunun yansıtılması, Allah’a (cc) şükretmenin Peygamberimizin hayatındaki yerinin yorumlanması amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "DAB4. Tefekkür (DAB4.2. Dinî Meseleleri Anlama)",
+    "KAVRAMSAL BECERİLER": "KB2.14. Yorumlama, KB2.15. Yansıtma",
+    "EĞİLİMLER": "E1.1. Merak, E1.3. Azim ve Kararlılık, E3.3. Yaratıcılık, E3.4. Gerçeği Arama",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D3. Çalışkanlık, D15. Sevgi",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB9. Sanat Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Din Kültürü ve Ahlak Bilgisi BECERİLER ARASI",
+    "İLİŞKİLER": "PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "PH.6.3.1. Peygamberimizin Allah’a (cc) bağlılığını anlayabilme a) Peygamberimizin Allah’a (cc) bağlılığını gösteren davranışlarını fark eder. b) Peygamberimizin Allah’a (cc) bağlılığını tanımlar. c) Peygamberimizin Allah’a (cc) bağlılığının sebeplerini açıklar. ç) Peygamberimizin Allah’a (cc) bağlılığıyla ilgili olan özelliklerini tespit eder. PH.6.3.2. Peygamberimizin namaz ibadetiyle ilgili tutumunu yansıtabilme a) Peygamberimizin namaz ibadetiyle ilgili tutumunu gözden geçirir. b) Peygamberimizin namaz ibadetine dayalı çıkarım yapar. c) Peygamberimizin namaz ibadetinden yola çıkarak ulaşılan çıkarımları değerlendirir. PH.6.3.3. Yüce Allah’a şükretmenin Peygamberimizin hayatındaki yerini yorumlayabilme a) Yüce Allah’a şükretmenin Peygamberimizin hayatındaki yerini inceler. b) Yüce Allah’a şükretmenin Peygamberimizin hayatındaki yerini bağlamından kopmadan dönüştürür. c) Yüce Allah’a şükretmenin Peygamberimizin hayatındaki anlam ve önemini ifade eder.",
+    "İÇERİK ÇERÇEVESİ": "Peygamberimizin Allah’a Bağlılığı Peygamberimizin Hayatında Namaz Peygamberimizin Hayatında Şükür",
+    "Anahtar Kavramlar": "amel, hamt, ihlas, ihsan, riya, salat, şükür",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; öz değerlendirme formu, dereceli puanlama anahtarı, öğrenme günlü- (Ölçme ve ğü ve çıkış kartı kullanılarak değerlendirilebilir. Değerlendirme) Öğrencilerden performans görevi olarak Allah’a (cc) bağlılığın, namazın ve şükrün kullar için önemini içeren bir şiir veya metin yazmaları istenebilir. Hazırlanan performans görevi; bilgi toplama, çözümleme, içerik, dil ve anlatım ölçütlerinin bulunduğu dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Hz. Peygamber’in kulluk konusunda Müslümanlara örnek olduğunu bildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere Yüce Allah’a karşı bağlılık ve sevginin nasıl ifade edilebileceği sorularak düşüncelerini paylaşmaları sağlanabilir. Köprü Kurma Hz. Peygamber’in namaz ibadetine dair uygulamalarıyla öğrencilerin namazla ilgili deneyimleri veya gözlemleri arasında bağ kurulabilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları PH.6.3.1 Peygamberimizin Allah’a (cc) bağlılığını gösteren tutum, düşünce ve davranışlarına bazı örnekler verilir. Öğrencilerden bu örnekleri incelemeleri ve Allah’a (cc) bağlılığın nasıl gösterileceğine dair görüşlerini ifade etmeleri istenir ( SDB2.1). Peygamberimizin Allah’a (cc) bağlılığının mahiyeti ve günlük hayatına yansımaları ele alınır. Bu kapsamda amel, ihsan, riya kavramları açıklanır. Konuyla ilgili bir ayet ve hadis üzerinden Hz. Peygamber’in Allah’a (cc) olan bağlılığı vurgulanır. Peygamberimizi Allah’a (cc) bağlı kılan sebeplere değinilir. Öğrencilerden Peygamberimizin yaşantısını göz önüne alarak bir Müslüman’ın Allah’a (cc) bağlılığını ortaya koyabilmesi için hangi özelliklere sahip olması gerektiğini listelemeleri istenir (E3.4, SDB3.3). Kişinin Allah’a (cc), Resulullah’a, Müslümanlara ve çevresine karşı vefalı davranmasının önemi üzerinde durulur (D15.2). Öğrencilerden Peygamberimizin Allah’a (cc) olan sevgi ve bağlılığı konusunda araştırma yapmaları ve araştırma sonuçlarını arkadaşlarıyla paylaşmaları istenir (SDB2.1, D3.3). Öğrencilerden Hz. Peygamber’in Allah’a (cc) bağlılığı ile ilgili olay ve durumlar üzerine yorum ve çıkarımda bulunarak öz değerlendirme yapmaları istenebilir. Sürecin değerlendirilmesinde çıkış kartı kullanılabilir. PH.6.3.2 Allah Resulü’nün namazla ilgili tutumlarına ilişkin örnek olaylar ele alınır. Namaz ibadetinin Hz. Peygamber’in Allah’a (cc) olan kulluğunun bir göstergesi olduğuna ve Yüce Allah ile olan bağını devam ettirdiğine ilişkin çıkarımlarda bulunularak değerlendirme yapılır. Konuyla ilgili olan salat kavramına değinilir. Hz. Peygamber’in en zor koşullarda bile namaz ibadetinde azimli ve istikrarlı olması üzerinde durularak öğrencilerin onun tutumu ile ilgili duygu ve düşüncelerini konu alan bir kompozisyon yazmaları istenebilir (E3.3). Öğrencilerin namazdaki istikrarlı duruş ile hayatın farklı alanlarında vaktini planlama ve verdikleri sözleri yerine getirme konularındaki kararlılığa istekli olmaları hedeflenir ve bu doğrultuda kendilerine rehber olabilecek günlük ve haftalık bir eylem planı hazırlamaları istenebilir (E1.3). Öğrencilerin Hz. Peygamber’in namaz ibadetiyle ilgili hadislerinden yararlanarak konuyu özetlemeleri istenir (OB1). Şükür, namaz ve duanın Hz. Peygamber’in kulluğunun birer göstergesi olmasından hareketle öğrencilerden bu kavramları kendi hayatlarında nasıl etkin kılabileceklerini kurgulamaları ve iş birliği içinde çalışarak performans sergilemeleri istenir (OB9, SDB2.2). Bu kapsamda drama tekniğini kullanmaları istenebilir. Öğrencilerden performans görevi olarak Allah’a (cc) bağlılık, namaz ve şükrün kullar için önemine değinen bir şiir veya metin yazmaları istenebilir. Hazırlanan performans görevi; bilgi toplama, çözümleme, içerik, dil ve anlatım ölçütlerinin bulunduğu dereceli puanlama anahtarı ile değerlendirilebilir. PH.6.3.3 Hz. Peygamber’in sevindiği durumlarda Allah’a (cc) şükür için secde etmesine, üzüntülü durumlarda da sabrederek hamt etmesine dair örnekler incelenir. Peygamberimizin Allah’a (cc) her hâl ve hareketinde şükrettiğine, insanın da kendisine nimetler veren yaratıcısına karşı fıtratından gelen bir şükretme ihtiyacı bulunduğuna değinilir. Hamt ve şükür kavramlarının açıklamalarına yer verilir. Öğrencilerin Yüce Allah’a şükretmenin Peygamberimizin hayatındaki yerini yorumlayabilmeleri için şükürle ilgili sorular sorularak merak duygularının harekete geçirilmesi sağlanır (E1.1). Yüce Allah’a şükretmenin Peygamberimizin hayatındaki yeri, öğrenciler tarafından kendi cümleleriyle yeniden ifade edilir. Öğrencilerden bu doğrultuda edindikleri bilgilerle çıkarımda bulunabilecekleri öğrenme günlüğü veya çıkış kartı yazmaları istenebilir. Öğrencilerin Hz. Peygamber’in şükretmesine ilişkin bilgileri pekiştirmeleri beklenebilir. Hz. Peygamber’in Allah’a (cc) bağlılığı, namazla ilgili tutumları ve şükretmesine dair olay ve durumların aktarılmasında konu; din kültürü ve ahlak bilgisi dersindeki “Namazın İnsana Kazandırdıkları” konusuyla ilişkilendirilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilere namazın insan hayatı üzerindeki olumlu etkileri veya Allah’a (cc) bağlı olmanın insana katkıları konusunda araştırma görevleri verilebilir. Öğrencilerden kulun namazı, şükrü ve Allah’a (cc) bağlılığı konularından biriyle ilgili bir afiş hazırlamaları istenebilir. Destekleme Öğrencilerden Hz. Peygamber’in rehberliği ile ilgili hedeflenen bilgilerden olan örnek davranışlarını listelemeleri istenebilir. Öğrencilerden Hz. Peygamber’in namazla ilgili bir hadisini yazmaları beklenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "PH.6.3.1",
+     "order": 1,
+     "text": "Peygamberimizin Allah’a (cc) bağlılığını anlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin Allah’a (cc) bağlılığını gösteren davranışlarını fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin Allah’a (cc) bağlılığını tanımlar."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin Allah’a (cc) bağlılığının sebeplerini açıklar."
+      },
+      {
+       "label": "ç",
+       "text": "Peygamberimizin Allah’a (cc) bağlılığıyla ilgili olan özelliklerini tespit eder."
+      }
+     ]
+    },
+    {
+     "code": "PH.6.3.2",
+     "order": 2,
+     "text": "Peygamberimizin namaz ibadetiyle ilgili tutumunu yansıtabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin namaz ibadetiyle ilgili tutumunu gözden geçirir."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin namaz ibadetine dayalı çıkarım yapar."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin namaz ibadetinden yola çıkarak ulaşılan çıkarımları değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "PH.6.3.3",
+     "order": 3,
+     "text": "Yüce Allah’a şükretmenin Peygamberimizin hayatındaki yerini yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yüce Allah’a şükretmenin Peygamberimizin hayatındaki yerini inceler."
+      },
+      {
+       "label": "b",
+       "text": "Yüce Allah’a şükretmenin Peygamberimizin hayatındaki yerini bağlamından kopmadan dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Yüce Allah’a şükretmenin Peygamberimizin hayatındaki anlam ve önemini ifade eder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 6,
+   "unit": 4,
+   "kind": "ÜNİTE",
+   "title": "TOPLUMSAL HAYATTA PEYGAMBERİMİZ",
+   "description": "Bu ünitede Peygamberimizin toplumsal ilişkileri hakkında analitik düşünülmesi ve çevreye karşı gösterdiği duyarlılığın çözümlenmesi amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "DAB4. Tefekkür (DAB4.4. Dinî Konularda Analitik Düşünme)",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme",
+    "EĞİLİMLER": "E2.2. Sorumluluk, E3.1. Muhakeme",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme Becerisi), SDB2.1. İletişim",
+    "Değerler": "D9. Merhamet, D10. Mütevazılık, D17. Tasarruf",
+    "Okuryazarlık Becerileri": "OB8. Sürdürülebilirlik Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Sosyal Bilgiler BECERİLER ARASI",
+    "İLİŞKİLER": "DAB1. Temel Kaynakları Kullanma (DAB1.2. Hadis Kaynaklarına Başvurma) PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "PH.6.4.1. Peygamberimizin toplumsal ilişkileri hakkında analitik düşünebilme a) Peygamberimizin toplumsal ilişkileri ile iletişim becerileri arasında ilişki kurar. b) Peygamberimizin toplumsal ilişkileri ile iletişim becerileri arasında kurduğu ilişkiye dair akıl yü­rütür. c) Peygamberimizin toplumsal ilişkileri ile iletişim becerileri arasında kurduğu ilişkiye dair çıka­rımları tartışır. ç) Peygamberimizin toplumsal ilişkileri ile iletişim becerileri arasında kurduğu ilişkiye dair çıkarımlar arasından tercih edilebilir görüşleri gerekçeleriyle belirler. PH.6.4.2. Peygamberimizin çevreye karşı gösterdiği duyarlılığı çözümleyebilme a) Peygamberimizin çevreye karşı gösterdiği duyarlılığa dair unsurları belirler. b) Peygamberimizin çevreye karşı gösterdiği duyarlılığa dair unsurlar arasındaki ilişkileri belirler.",
+    "İÇERİK ÇERÇEVESİ": "Peygamberimizin Toplumsal İlişkileri Peygamberimiz ve Çevre Bilinci",
+    "Anahtar Kavramlar": "akraba, sılayırahim, vefa",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; dereceli puanlama anahtarı, öz değerlendirme formu, çalışma yaprağı, (Ölçme ve çıkış kartı kullanılarak değerlendirilebilir. Değerlendirme) Öğrencilerden performans görevi olarak Hz. Peygamber’in çevreyi ve hayvanları koruma konusundaki tavsiyelerinin kültürümüze yansımış hâlleriyle ilgili grafik bilgi hazırlamaları istenebilir. Yapılan çalışmalar; öz değerlendirme formu ve içinde bilgi toplama, ilişki kurma, genelleme yapma ve içerik ölçütlerinin bulunduğu dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Peygamberimizin insanlara rehber olduğunu, çevrelerindeki insanlara ve varlıklara karşı sorumlu davranmaları gerektiğini bildikleri kabul edilmektedir. Ön Değerlendirme Süreci • Peygamberimizin âlemlere rahmet olarak gönderilmesiyle ilgili bir ayet üzerinden öğrencilerin Hz. Peygamber’in varlık âlemi için ne anlama geldiğini açıklamaları istenebilir. • Öğrencilerin sılayırahim, akraba, komşu, vefa ve çevre kavramları hakkındaki düşüncelerini ifade etmeleri istenebilir. Köprü Kurma Öğrencilerin kendi akrabalık ve komşuluk ilişkilerinde esas aldıkları ilkeler ile Peygamberimizin akrabalık ve komşuluk ilişkilerinin dayandığı ilkeler arasında duygularını, düşüncelerini soru-cevap tekniğiyle ifade ederek bağ kurmaları sağlanabilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları PH.6.4.1 İnsanlarla ilişkilerin sağlıklı ilerlemesini sağlayan iletişim becerileri hakkında bilgi verilir. Hz. Peygamber’in toplumun tüm kesimleriyle kurduğu ilişkilerde dikkat ettiği hususlara değinilir. Öğrencilerden Peygamberimizin toplumsal ilişkilerinde iletişim becerilerinin etkisini belirlemeleri ve çıkarımda bulunmaları istenir (E3.1). Peygamberimizin sosyal ilişkileri örnekler üzerinden ele alınır. Hz. Peygamber’in akrabalarına, komşularına, yaşlılara, fakirlere yönelik tutumuyla ilgili ayet ve hadislere yer verilir. Akraba ve sılayırahim kavramları açıklanır. Peygamberimizin toplumsal ilişkilerinin temelini oluşturan ilke ve değerlere değinilir. Vefa kavramı açıklanır. Toplumsal ilişkilerde nezaket ve vefanın önemine değinilir (D10.3). Hz. Peygamber’in komşuluk hukuku ile ilgili bir hadisi verilir. Öğrencilerden bu hadisten komşularla ilişkilere dair çıkarımda bulunmaları ve bu çıkarımı günlük hayatlarına uygulayabilmek için bir planlama yapmaları istenir (SDB1.2, DAB1.2). Akraba ve komşuların birbirlerine karşı sorumlulukları konusu “Birlikte Yaşamak” ünitesiyle ilişkilendirilir. Öğrencilerden Peygamberimizin toplumsal ilişkilerinde ortaya koyduğu iletişim becerilerinin toplumda nasıl bir değişim meydana getirdiği konusunda akıl yürüterek ulaştıkları çıkarımları tartışmaları ve düşüncelerini gerekçeleriyle birlikte ifade etmeleri istenir (SDB2.1). Bu kapsamda beyin fırtınası tekniği kullanılabilir. Sürecin değerlendirilmesinde çıkış kartı, doğru-yanlış soruları, kısa cevaplı ve açık uçlu sorulardan oluşan çalışma yaprağı kullanılabilir. PH.6.4.2 Allah’ın (cc) emaneti olarak kabul edilen doğayı ve hayvanları korumanın her insan için önemli bir sorumluluk olduğuna değinilir. Çevre bilincini oluşturan unsurlardan olan doğanın ekolojik dengesinin korunması, çevrenin temiz tutulması, doğal kaynakların tasarruflu kullanılması, canlıların yaşam hakkına saygı gösterilmesi gibi hususlar arasında ilişki kurulur. Öğrencilerin doğal çevrenin korunmasında duyarlı olmalarını, çevrelerindeki tüm insanlar ile diğer varlıklara karşı şefkatli ve vicdanlı davranmalarını, insanı ve doğayı sevmelerini teşvik etmek için (D9.3) bir sosyal sorumluluk önerisi tasarlamaları istenebilir. Öğrencilerden doğal kaynakların tasarruflu kullanılması konusunda neler yapılabileceğini araştırmaları ve elde ettikleri bilgileri sınıf arkadaşlarıyla paylaşmaları istenir (E2.2, OB8, D17.2). Sürecin değerlendirilmesinde çıkış kartı kullanılabilir. Öğrencilerden performans görevi olarak Hz. Peygamber’in çevreyi ve hayvanları koruma konusundaki tavsiyelerinin kültürümüze yansımış hâlleriyle ilgili grafik bilgi hazırlamaları istenebilir. Yapılan çalışmalar öz değerlendirme formu ve içinde bilgi toplama, ilişki kurma, genelleme yapma ve içerik ölçütlerinin bulunduğu dereceli puanlama anahtarı ile değerlendirilebilir. Çevre bilinciyle ilgili konular “Doğa-İnsan İlişkisi” içeriğiyle ilişkilendirilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerin Hz. Peygamber’in komşuluk ilişkileri üzerine raft tekniğini kullanarak yazı yazmaları istenebilir. Destekleme Öğrencilerin Peygamberimizin akrabalık ve komşuluk ilişkileri ile ilgili ilkelerinden birini söylemeleri veya yazmaları beklenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "PH.6.4.1",
+     "order": 1,
+     "text": "Peygamberimizin toplumsal ilişkileri hakkında analitik düşünebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin toplumsal ilişkileri ile iletişim becerileri arasında ilişki kurar."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin toplumsal ilişkileri ile iletişim becerileri arasında kurduğu ilişkiye dair akıl yü­rütür."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin toplumsal ilişkileri ile iletişim becerileri arasında kurduğu ilişkiye dair çıka­rımları tartışır."
+      },
+      {
+       "label": "ç",
+       "text": "Peygamberimizin toplumsal ilişkileri ile iletişim becerileri arasında kurduğu ilişkiye dair çıkarımlar arasından tercih edilebilir görüşleri gerekçeleriyle belirler."
+      }
+     ]
+    },
+    {
+     "code": "PH.6.4.2",
+     "order": 2,
+     "text": "Peygamberimizin çevreye karşı gösterdiği duyarlılığı çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin çevreye karşı gösterdiği duyarlılığa dair unsurları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin çevreye karşı gösterdiği duyarlılığa dair unsurlar arasındaki ilişkileri belirler."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 7,
+   "unit": 1,
+   "kind": "ÜNİTE",
+   "title": "HİCRETTEN ÖNCE PEYGAMBERİMİZ",
+   "description": "Bu ünitede gizli ve açık davetin anlaşılması, isra ve miraç olaylarının yorumlanması, Hicret’in sebeplerinin özetlenmesi amaçlanmaktadır.",
+   "lesson_hours": 20,
+   "sections": {
+    "ALAN BECERİLERİ": "DAB4. Tefekkür (DAB4.2. Dinî Meseleleri Anlama)",
+    "KAVRAMSAL BECERİLER": "KB2.3. Özetleme, KB2.14. Yorumlama",
+    "EĞİLİMLER": "E1.6. Seçicilik, E2.1. Empati, E3.1. Muhakeme, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.1. Uyum",
+    "Değerler": "D3. Çalışkanlık",
+    "Okuryazarlık Becerileri": "-",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.7. Karşılaştırma PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "PH.7.1.1. Gizli ve açık daveti anlayabilme a) İslam’a davetin gizli şekilde başladığını fark eder. b) Gizli ve açık daveti tanımlar. c) Gizli ve açık davetin ortaya çıkış sebebini açıklar. ç) Gizli ve açık davetin özelliklerini belirler. PH.7.1.2. İsra ve miraç olaylarını yorumlayabilme a) İsra ve miraç olaylarını açıklar. b) İsra ve miraç olaylarının mucizevi oluşunu bağlamından kopmadan dönüştürür. c) İsra ve miraç olaylarını doğru bir şekilde ifade eder. PH.7.1.3. Hicret’in sebeplerini özetleyebilme a) Hicret’in sebepleriyle ilgili çözümleme yapar. b) Hicret’in sebepleriyle ilgili sınıflandırma yapar. c) Hicret’in sebepleriyle ilgili yorumlama yapar.",
+    "İÇERİK ÇERÇEVESİ": "İslam’a Davet Taif Yolculuğu İsra ve Miraç Yeni Yurt Arayışı Hicret Yolculuğu",
+    "Anahtar Kavramlar": "biat, davet, Hicret, isra, miraç, muhacir",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; anlam çözümleme tablosu, tanılayıcı dallanmış ağaç, dereceleme öl- (Ölçme ve çeği, dereceli puanlama anahtarı, öz değerlendirme formu, açık uçlu sorular kullanılarak Değerlendirme) değerlendirilebilir. Öğrencilerden performans görevi olarak isra ve miraç olayları hakkında yapılacak konferans için konuşma metni yazmaları istenebilir. Hazırlanan performans görevi; bilgi toplama, içerik, dil ve anlatım ölçütlerinin bulunduğu dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Peygamberimize vahyin geldiğini ve onun risaletle görevlendirildiğini bildikleri kabul edilmektedir. Ön Değerlendirme Süreci • Öğrencilere Peygamberimizin vahiyden önceki dönemde toplumda örnek gösterilen özelliklerine dair neler bildikleri sorularak düşüncelerini paylaşmaları sağlanabilir. • Öğrencilerin Hicret ile ilgili sahip olduğu ön bilgileri sorular sorularak kontrol edilebilir. Köprü Kurma Öğrencilerin Hz. Peygamber’in gizli ve açık davet sürecinde karşılaştığı zorluklara rağmen mücadele etmesi ile kendi hayatlarında amaçladıkları hedefler doğrultusunda gösterdikleri gayret arasında bağ kurulabilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları PH.7.1.1 Hz. Peygamber’e ilk vahyin indirilmesi ele alınır. Davet kavramı açıklanır. Hz. Peygamber’in belli bir süre İslam’a daveti herkese açıktan ilan etmediğine değinilerek öğrencilerden bunun sebebi hakkında tahminde bulunmaları istenir (E1.6). Gizli ve açık davet açıklanır. Öğrencilerden İslam’a davetin bir süre gizli sürdürülmesinin ve daha sonra açıktan davete başlanmasının hangi sebeplere dayandığını açıklamaları istenir (SDB2.1). Bu kapsamda akvaryum tekniği kullanılabilir. İlk Müslümanlara değinilir. Müşriklerin İslam davetine tepkileri ele alınır. Müşriklerin Müslümanlara karşı uyguladığı boykota, Hz. Peygamber’in Taif yolculuğuna ve Hüzün Yılı’na değinilir. Öğrencilerden gizli ve açık davet süreçlerinin özelliklerini belirlemeleri, aralarındaki benzerlik ve farklılıkları listeleyerek bu süreçleri karşılaştırmaları istenir (KB2.7). Ölçme ve değerlendirme sürecinde anlam çözümleme tablosu, tanılayıcı dallanmış ağaç ve açık uçlu sorular kullanılabilir. PH.7.1.2 İsra ve miraç olayı ayet ve hadislerle incelenir. İsra ve miracın Hz. Peygamber’e verilen birer mucize ve manevi bir destek olduğuna değinilir. Öğrencilerin mucize kavramını doğru anlamasına yönelik çalışmalar yapılır. Bu kapsamda kelime ilişkilendirme testi uygulanabilir. Öğrencilerden iş birlikli çalışma yöntemiyle isra ve miraç hakkındaki bilgileri gözden geçirerek bunların niçin mucize kabul edildiği konusunda görüş bildirmeleri istenir ( SDB2.2, D3.4). Bu kapsamda kar topu tekniği kullanılabilir. Sürecin değerlendirilmesinde boşluk doldurma ve açık uçlu sorular kullanılabilir. Öğrencilerden performans görevi olarak isra ve miraç olayları hakkında yapılacak konferans için konuşma metni yazmaları istenebilir. Hazırlanan performans görevi; bilgi toplama, içerik, dil ve anlatım ölçütlerinin bulunduğu dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir. PH.7.1.3 Hicret kavramı açıklanır. Hicret’ten önce Müslümanların içinde bulunduğu durum ele alınır. Biat kavramı açıklanır. Akabe Biatleri hakkında bilgi verilir. Öğrencilerden Müslümanların durumu ve Akabe Biatleri ile Müslümanların hicret etmesi arasındaki ilişkiyi ortaya koyan bir çıkarımda bulunması istenir (E3.1). Bu kapsamda düşün-eşleş-paylaş tekniği kullanılabilir. Öğrencilerden Müslümanları hicret etmeye yönelten süreçteki gelişmeleri dinî, ekonomik ve sosyal gelişmeler olarak sınıflandırmaları istenir (E3.7). Muhacir kavramı açıklanır. Öğrencilerden muhacirlerin Mekke’den ayrılırken maruz kaldıkları muameleyi göz önüne alarak Hicret’i gerekli kılan sebepleri yorumlamaları istenir (SDB3.1). Bu yorumları özetleyen bir çıkış kartı yazmaları istenebilir. Öğrencilerin yurtlarını terk etmek zorunda kalan muhacirlerin duygularını içselleştirmesine yönelik bir etkinlik yapılır (E2.1, SDB1.3). Bu kapsamda memleket sevgisini işleyen gurbet şiirlerinden oluşan bir antoloji çalışması yapılabilir. Öğrencilerin Peygamberimizin çocukluk, gençlik ve Hicret’ten sonraki yıllarının özünü anlamaları; anladıklarını mantıksal çerçevede kısaltarak yorumlamaları ve kendi cümleleriyle aktarmalarına imkân verilir. Peygamberimizin çocukluğunda, gençli­ğinde ve Medine’ye hicretinden sonraki yıllarında dikkat çeken olaylar ele alınır. Öğren­cilerin Mekke’nin Fethi, Veda Haccı ve Hutbesi ile Hz. Peygamber’in vefatı arasında ilişki kurmaları ve buradan elde ettikleri sonuçları paylaşmaları istenir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden akrostiş tekniği kullanarak ilk Müslümanların özelliklerinden bazılarının listelendiği bir şiir yazmaları beklenebilir. Destekleme Öğrencilerden ilk Müslümanların isimlerini sıralayabilmeleri beklenebilir. Öğrencilerden ilk Müslümanların özelliklerine dair öğrenilmesi hedeflenen bazı örnek davranışları listeleyebilmeleri ve örnek davranışlardan herhangi biri hakkında konuşabilmeleri beklenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "PH.7.1.1",
+     "order": 1,
+     "text": "Gizli ve açık daveti anlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "İslam’a davetin gizli şekilde başladığını fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Gizli ve açık daveti tanımlar."
+      },
+      {
+       "label": "c",
+       "text": "Gizli ve açık davetin ortaya çıkış sebebini açıklar."
+      },
+      {
+       "label": "ç",
+       "text": "Gizli ve açık davetin özelliklerini belirler."
+      }
+     ]
+    },
+    {
+     "code": "PH.7.1.2",
+     "order": 2,
+     "text": "İsra ve miraç olaylarını yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "İsra ve miraç olaylarını açıklar."
+      },
+      {
+       "label": "b",
+       "text": "İsra ve miraç olaylarının mucizevi oluşunu bağlamından kopmadan dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "İsra ve miraç olaylarını doğru bir şekilde ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "PH.7.1.3",
+     "order": 3,
+     "text": "Hicret’in sebeplerini özetleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hicret’in sebepleriyle ilgili çözümleme yapar."
+      },
+      {
+       "label": "b",
+       "text": "Hicret’in sebepleriyle ilgili sınıflandırma yapar."
+      },
+      {
+       "label": "c",
+       "text": "Hicret’in sebepleriyle ilgili yorumlama yapar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 7,
+   "unit": 2,
+   "kind": "ÜNİTE",
+   "title": "PEYGAMBERİMİZİN MEKKELİ ARKADAŞLARI",
+   "description": "Bu ünitede Peygamberimizin Mekkeli sahabilerle kurduğu iletişimin müşahede edilmesi, ve muhacirlerin Hz. Peygamber’e olan bağlılığının yorumlanması amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "DAB4. Tefekkür (DAB4.1. Müşahede Etme)",
+    "KAVRAMSAL BECERİLER": "KB2.14. Yorumlama",
+    "EĞİLİMLER": "E1.1. Merak, E3.1. Muhakeme",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D4. Dostluk, D14. Saygı",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Din Kültürü ve Ahlak Bilgisi BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.3. Özetleme PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "PH.7.2.1. Peygamberimizin Mekkeli sahabilerle kurduğu iletişimi müşahede edebilme a) Peygamberimizin Mekkeli sahabilerle kurduğu iletişim hakkında merak ettiği hususları belirler. b) Peygamberimizin Mekkeli sahabilerle kurduğu iletişim hakkında soru sorar. c) Peygamberimizin Mekkeli sahabilerle kurduğu iletişim hakkında merak ettiği hususları inceler. ç) Peygamberimizin Mekkeli sahabilerle kurduğu iletişim hakkında çıkarım yapar. PH.7.2.2. Mekkeli sahabilerin Hz. Peygamber’e olan bağlılıklarını yorumlayabilme a) Mekkeli sahabilerin Hz. Peygamber’e olan bağlılıklarını inceler. b) Mekkeli sahabilerin Hz. Peygamber’e olan bağlılıklarını bağlamından kopmadan dönüştürür. c) Mekkeli sahabilerin Hz. Peygamber’e olan bağlılıklarıyla ilgili bilgileri doğru bir şekilde ifade eder.",
+    "İÇERİK ÇERÇEVESİ": "Peygamberimizin Mekkeli Sahabilerle İletişimi Muhacirlerin Dilinden Peygamberimiz Peygamberimizin Mekkedeki Yakın Arkadaşları",
+    "Anahtar Kavramlar": "ashap, dost, itimat, sadakat, sıddık",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; öğrenme günlüğü, çıkış kartı, kavram haritası, öz değerlendirme for- (Ölçme ve mu, dereceleme ölçeği ve dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Değerlendirme) Öğrencilerden performans görevi olarak muhacirlerin Hz. Peygamber’e olan sadakatleri ve ona verdikleri değer hakkında bir araştırma yapıp sunum hazırlamaları istenebilir. Bu çalışmalar; bilgi toplama, dönüştürme, yorumlama, içerik, dil ve anlatım ölçütlerinin bulunduğu dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin muhacir kavramını bildikleri kabul edilmektedir. Ön Değerlendirme Süreci İletişimin doğru ve etkili biçimde gerçekleşmesinde güven duygusunun önemi ile ilgili fikirlerini açıklamaları istenebilir. Köprü Kurma Hz. Peygamber’in sahabilerle iletişimindeki örnek davranışlarıyla ilgili anekdotlar paylaşılabilir. Bu anekdotlardaki tutum ve davranışlar ile öğrencilerin sahip olduğu iletişim deneyimleri arasında bağ kurulabilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları PH.7.2.1 Peygamberimizin Mekkeli sahabileriyle kurduğu iletişimde belirleyici olan özellikler ele alınır. Peygamberimiz ile Mekkeli sahabileri arasında sevgi ve güvene dayanan ilişkilere dair örnekler verilir. Konu bağlamında ashap, dost ve itimat kavramlarına değinilir. Öğrencilerden Peygamberimizin Mekkeli sahabileriyle iletişimi hakkında merak ettikleri hususlara dair sorular sormaları ve bu konudaki örnekler üzerinden merak ettikleri hususları incelemeleri istenir (E1.1). Öğrencilerin Peygamberimizin ashabıyla iletişiminin sonuçları hakkında çıkarım yapmaları sağlanır (E3.1, OB1). Bu kapsamda konuşma halkası yöntemi kullanılabilir. Öğrencilerden Hz. Peygamber’in Mekkeli ashabıyla ilişkilerindeki tutum ve davranışlarından hareketle onun örnek oluşunun günümüze yansıtılmasının önemini ifade etmeleri istenir (SDB3.3). Konu “Ahlaki Davranışlar” ünitesiyle ilişkilendirilir. Öğrencilerden Peygamberimizin sahabilerle iletişimi konusunda bir öğrenme günlüğü yazmaları istenebilir. PH.7.2.2 Mekkeli sahabilerin Hz. Peygamber’e olan bağlılığı, saygısı, sevgisi ve sadakati ele alınır. Mekkeli sahabilerin Hz. Peygamber’in sözlerini doğruladıklarına ve onun rehberliğinde hayatlarını şekillendirdiklerine dair örnekler verilir. Hz. Peygamber’in önemli konularda sahabilerle istişare etmesinin ve ihtiyaç duydukları her durumda Hz. Peygamber’in sahabilere sabır ve anlayışla destek vermesinin bağlılıklarını pekiştirdiğine değinilir. Sadakat kavramının açıklamasına yer verilir. Öğrencilerden Mekkeli sahabilerin Hz. Peygamber’e olan bağlılığıyla ilgili duygu ve düşüncelerini şiir yazarak ifade etmeleri istenir (SDB2.1). Mekkeli sahabilerin Hz. Peygamber’e olan bağlılığıyla ilgili çıkış kartı yazmaları istenebilir. Tebliğ sürecinde karşılaşılan zorluklar karşısında muhacirlerin Hz. Peygamber’i desteklediklerine değinilir. Öğrencilerin arkadaşlarına destek olmaları, sadakat göstermeleri ve güven duymaları hedeflenir. Öğrencilerden arkadaşlarına destek olmak ve karşılıklı güven duymak için nelere dikkat etmeleri gerektiğini belirlemeleri istenir (D4.1). Bu konuda bir metin yazmaları istenebilir. İlk Müslümanlardan olan Hz. Ebu Bekir ve Hz. Osman’ın İslam’a girmelerine, Hz. Peygamber’e saygılarına ve verdikleri söze sadık kalmalarına dikkat çekilir. Hz. Ebu Bekir’in hayatına yer verilen konuda ona ait sıddık lakabının açıklamasına yer verilir. Öğrencilerden eylem ve düşüncelerde tutarlı olmanın önemi konusunda kısa bir hikâye yazmaları istenebilir. Öğrencilerden hangi tutum ve davranışların Hz. Peygamber’e duyulan saygının bir yansıması olduğunu ifade etmeleri istenir (D14.3). Mekkeli sahabilerden Hz. Ebu Bekir, Hz. Ömer ve Hz. Osman hakkında bilgi verilir. Hz. Ebu Bekir, Hz. Ömer ve Hz. Osman’ın öne çıkan özellikleri vurgulanır. Bu özellikler kavram haritaları, olay örüntüleri ya da dijital içerikler kullanılarak sınıflandırılabilir. Bu bilgilerden hareketle sahabilerin özellikleri yorumlanır (KB2.3). Öğrencilerden performans görevi olarak muhacirlerin Hz. Peygamber’e olan sadakatleri ve ona verdikleri değer hakkında bir araştırma yapıp sunum hazırlamaları istenebilir. Bu çalışmalar; bilgi toplama, dönüştürme, yorumlama, içerik, dil ve anlatım ölçütlerinin bulunduğu dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden Hz. Ebu Bekir’in Peygamberimize duyduğu güven üzerinden arkadaşlık ilişkilerinde güven duygusunun önemi hakkında bir blog yazısı yazmaları istenebilir. Destekleme Öğrencilerden içerik çerçevesinde yer alan muhacir sahabilerin isimlerini söylemeleri beklenebilir. Öğrencilerden Hz. Peygamber’in arkadaşlarıyla kurduğu iletişimde Müslümanlara rehberlik eden örnek davranışları listelemeleri istenebilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "PH.7.2.1",
+     "order": 1,
+     "text": "Peygamberimizin Mekkeli sahabilerle kurduğu iletişimi müşahede edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin Mekkeli sahabilerle kurduğu iletişim hakkında merak ettiği hususları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin Mekkeli sahabilerle kurduğu iletişim hakkında soru sorar."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin Mekkeli sahabilerle kurduğu iletişim hakkında merak ettiği hususları inceler."
+      },
+      {
+       "label": "ç",
+       "text": "Peygamberimizin Mekkeli sahabilerle kurduğu iletişim hakkında çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "PH.7.2.2",
+     "order": 2,
+     "text": "Mekkeli sahabilerin Hz. Peygamber’e olan bağlılıklarını yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Mekkeli sahabilerin Hz. Peygamber’e olan bağlılıklarını inceler."
+      },
+      {
+       "label": "b",
+       "text": "Mekkeli sahabilerin Hz. Peygamber’e olan bağlılıklarını bağlamından kopmadan dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Mekkeli sahabilerin Hz. Peygamber’e olan bağlılıklarıyla ilgili bilgileri doğru bir şekilde ifade eder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 7,
+   "unit": 3,
+   "kind": "ÜNİTE",
+   "title": "REHBERİM PEYGAMBERİM",
+   "description": "Bu ünitede Peygamberimizin hayatından hareketle sabra dair genelden özele ilişki kurarak akıl yürütülmesi, Hz. Peygamber’in hayatında orucun öneminin idrak edilmesi, Hz. Peygamber’in sünnetinde infak ve sadakanın yorumlanması amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "DAB4. Tefekkür (DAB4.5. İdrak Etme)",
+    "KAVRAMSAL BECERİLER": "KB2.14. Yorumlama, KB2.16.2. Tümdengelimsel Akıl Yürütme",
+    "EĞİLİMLER": "E1.4. Kendine İnanma (Öz Yeterlilik), E3.1. Muhakeme",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme Becerisi), SDB1.3. Kendine Uyarlama (Öz Yansıtma Becerisi), SDB3.2. Esneklik",
+    "Değerler": "D3. Çalışkanlık, D11. Özgürlük, D12. Sabır, D20. Yardımseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Din Kültürü ve Ahlak Bilgisi BECERİLER ARASI",
+    "İLİŞKİLER": "DAB1. Temel Kaynakları Kullanma (DAB1.1. Kur’an-ı Kerim Meallerine Başvurma) PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "PH.7.3.1. Peygamberimizin hayatındaki sabra dair örneklerle ilgili akıl yürütebilme a) Peygamberimizin hayatında sabrın yerini açıklar. b) Peygamberimizin hayatında sabra dair bütün-parça ilişkisi kurar. c) Peygamberimizin hayatında sabra dair genelden özele çıkarım yapar. PH.7.3.2. Hz. Peygamber’in hayatında orucun önemini idrak edebilme a) Hz. Peygamber’in hayatında orucun önemine dair tefekkür sürecini gözden geçirir. b) Hz. Peygamber’in hayatında orucun önemi hakkında çıkarım yapar. c) Hz. Peygamber’in hayatında orucun önemi hakkındaki çıkarımları değerlendirir. PH.7.3.3. Hz. Peygamber’in hayatında infak ve sadakanın önemini yorumlayabilme a) Hz. Peygamber’in hayatında infak ve sadakanın önemini inceler. b) Hz. Peygamber’in hayatında infak ve sadakanın önemini bağlamından kopmadan dönüştürür. c) Hz. Peygamber’in hayatında infak ve sadakanın önemini doğru bir şekilde ifade eder.",
+    "İÇERİK ÇERÇEVESİ": "Peygamberimizin Hayatında Sabır Peygamberimizin Hayatında Oruç Peygamberimizin Hayatında İnfak ve Sadaka",
+    "Anahtar Kavramlar": "infak, oruç, sabır, sadaka",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; dereceli puanlama anahtarı, öğrenme günlüğü, çıkış kartı, kısa cevaplı (Ölçme ve ve açık uçlu sorular kullanılarak değerlendirilebilir. Değerlendirme) Öğrencilerden performans görevi olarak infak ve sadakanın Hz. Peygamber’in hayatındaki önemiyle ilgili karşılaştırmalı bir analiz yazısı yazmaları istenebilir. Yapılan çalışma; bilgi toplama, dönüştürme, yorumlama, içerik, dil ve anlatım ölçütlerinin bulunduğu dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin oruç ve sadakanın İslam’ın temel ibadetlerinden olduğunu bildikleri kabul edilmektedir. Ön Değerlendirme Süreci Cümle tamamlama tekniği kullanılarak öğrencilerin infak, sabır, sadaka, oruç kavramları hakkında düşüncelerini ifade etmeleri beklenebilir. Köprü Kurma Hz. Peygamber’in güçlük ve sıkıntılara sabretmesi ile öğrencilerin yaşantılarında ortaya çıkan zorluklar karşısında sabırlı olmaya gayret göstermeleri arasında bağ kurulabilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları PH.7.3.1 Sabır kavramı açıklanır. Hz. Muhammed’in (sav) hayatından sabırla ilgili örnekler verilir. Hz. Peygamber’in Mekke toplumundaki yozlaşma karşısındaki mücadelesi, yaşadığı acı ve zorluklar karşısındaki metaneti ve kararlılığı vurgulanır (D11.2, SDB3.2). Öğrencilerden Peygamberimizin müşriklerle mücadelesinin başarıya ulaşmasıyla onun zorluklara sabretmesi arasındaki ilişkiyi belirlemeleri ve hedefe ulaşmada sabrın önemiyle ilgili bir çıkarımda bulunmaları istenir ( E3.1, D3.1). Bu kapsamda çember tekniği kullanılabilir. Öğrencilerden iradelerine hâkim olabilmek ve sabır erdemini kazanabilmek için yapabileceklerini planlamaları ve uygulamaya çalışmaları istenir (E1.4, SDB1.3). Öğrencilerin bununla ilgili bir öz değerlendirme yapmaları istenebilir. PH.7.3.2 Oruç kavramı tanımlanır. Öğrencilere oruçla ilgili ayet meallerinden örnekler verilip, onlardan bu ayetlerin meallerini inceleyerek oruç tutmanın gerekliliği hakkında çıkarım yapmaları istenir (DAB1.1). Hz. Peygamber’in oruç ibadetiyle ilgili tavsiyelerine, oruç ibadetini yerine getirirken nelere dikkat ettiğine ve bu ibadeti nasıl uyguladığına değinilir. Öğrencilerden Peygamberimizin hayatında orucun yerini inceleyerek onun bu ibadete verdiği önemi gözden geçirmeleri ve bu konuda çıkarımda bulunmaları istenir (SDB1.2). Öğrencilerin bu çıkarımları orucun bireysel ve toplumsal faydalarını göz önüne alarak değerlendirmeleri sağlanır. Bu konuda kavram haritaları, olay örüntüleri veya dijital içerikler kullanılabilir. İnsanın oruçluyken karşılaştığı her türlü olumsuzluğa, açlığa ve susuzluğa karşı davranışlarında kontrollü olmasının önemi üzerinde durulur (D12.2). Bu doğrultuda ahlaki muhakeme tekniği kullanılabilir. Oruçla ilgili konular “Ramazan ve Oruç” ünitesiyle ilişkilendirilir. Ölçme ve değerlendirme sürecinde kısa cevaplı ve açık uçlu sorulardan oluşan bir çalışma yaprağı kullanılabilir. PH.7.3.3 İnfak, sadaka kavramları tanımlanır. Allah Resulü’nün infak ve sadaka konusundaki tavsiye ve uygulamaları ele alınır. Öğrencilerden bu tavsiye ve uygulamaları inceleyerek Hz. Peygamber’in infak ve sadakaya verdiği önemi kendi cümleleriyle ifade etmeleri istenir (OB1). Öğrencilerden Peygamberimizin infak ve sadakaya verdiği önemin Müslümanlara yüklediği sorumluluklar konusunda görüş bildirmeleri istenir (D20.1). Bu kapsamda bir çıkış kartı yazmaları istenebilir. Ölçme ve değerlendirme sürecinde kısa cevaplı ve açık uçlu sorulardan oluşan bir çalışma yaprağı kullanılabilir. Öğrencilerden performans görevi olarak infak ve sadakanın Hz. Peygamber’in hayatındaki önemiyle ilgili karşılaştırmalı bir analiz yazısı yazmaları istenebilir. Yapılan çalışma; bilgi toplama, dönüştürme, yorumlama, içerik, dil ve anlatım ölçütlerinin bulunduğu dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerin İslam’da yardımlaşmanın gerekliliği üzerinden Peygamberimizin infak ve sadakaya dair tavsiyelerini yorumlayabilecekleri bir açık oturum yapmaları beklenebilir. Destekleme Öğrencilerin yardım etmeye yönelik ibadetlerin isimlerini söylemeleri beklenebilir. Öğrencilerden Hz. Peygamber’in oruçluyken nelere dikkat ettiğini listelemeleri istenebilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "PH.7.3.1",
+     "order": 1,
+     "text": "Peygamberimizin hayatındaki sabra dair örneklerle ilgili akıl yürütebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin hayatında sabrın yerini açıklar."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin hayatında sabra dair bütün-parça ilişkisi kurar."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin hayatında sabra dair genelden özele çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "PH.7.3.2",
+     "order": 2,
+     "text": "Hz. Peygamber’in hayatında orucun önemini idrak edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hz. Peygamber’in hayatında orucun önemine dair tefekkür sürecini gözden geçirir."
+      },
+      {
+       "label": "b",
+       "text": "Hz. Peygamber’in hayatında orucun önemi hakkında çıkarım yapar."
+      },
+      {
+       "label": "c",
+       "text": "Hz. Peygamber’in hayatında orucun önemi hakkındaki çıkarımları değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "PH.7.3.3",
+     "order": 3,
+     "text": "Hz. Peygamber’in hayatında infak ve sadakanın önemini yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Hz. Peygamber’in hayatında infak ve sadakanın önemini inceler."
+      },
+      {
+       "label": "b",
+       "text": "Hz. Peygamber’in hayatında infak ve sadakanın önemini bağlamından kopmadan dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Hz. Peygamber’in hayatında infak ve sadakanın önemini doğru bir şekilde ifade eder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 7,
+   "unit": 4,
+   "kind": "ÜNİTE",
+   "title": "İLİM HAYATINDA PEYGAMBERİMİZ",
+   "description": "Bu ünitede Peygamberimizin ilme yaklaşımının sentezlenmesi, Peygamberimizin ilme teşvik ettiği sahabilerin ilme verdikleri önemin çözümlenmesi amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "-",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme, KB2.20. Sentezleme",
+    "EĞİLİMLER": "E2.2. Sorumluluk, E3.1. Muhakeme, E3.3. Yaratıcılık, E3.4. Gerçeği Arama, E3.5. Açık Fikirlilik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.3. Sosyal Farkındalık",
+    "Değerler": "D3. Çalışkanlık, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "BECERİLER ARASI",
+    "İLİŞKİLER": "PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "PH.7.4.1. Peygamberimizin ilme yönelik yaklaşımını sentezleyebilme a) Peygamberimizin ilme yönelik yaklaşımıyla ilgili bilgileri araştırır. b) Peygamberimizin ilme yönelik yaklaşımıyla ilgili bilgiler arasında ilişki kurar. c) Peygamberimizin ilme yönelik yaklaşımıyla ilgili bilgileri birleştirerek özgün bir bütün oluşturur. PH.7.4.2. Sahabilerin ilme verdikleri önemi çözümleyebilme a) Sahabilerin ilme verdikleri öneme dair unsurları belirler. b) Sahabilerin ilme verdikleri öneme dair unsurlar arasındaki ilişkileri belirler.",
+    "İÇERİK ÇERÇEVESİ": "Peygamberimizin İlme Verdiği Önem Peygamberimizin İlme Teşvik Ettiği Sahabiler",
+    "Anahtar Kavramlar": "ilim, Darülerkam, Suffe",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; dereceli puanlama anahtarı, grup değerlendirme formu, öğrenme gün- (Ölçme ve lüğü, çıkış kartı, zihin haritaları, dereceleme ölçeği, öz değerlendirme formu ve 3-2-1 kartı Değerlendirme) kullanılarak değerlendirilebilir. Öğrencilerden performans görevi olarak Peygamberimizin eğitim ve öğretimde kullandığı ilkeler ile uyguladığı metotları içeren bir el kitapçığı hazırlamaları istenebilir. Yapılan çalışmalar; bilgi toplama, ilişki kurma, sentezleme, içerik ve özgünlük ölçütlerinin bulunduğu dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin İslam’ın ilme verdiği önem hakkında bilgi sahibi oldukları kabul edilmektedir. Ön Değerlendirme Süreci • Öğrencilere Hz. Peygamber’in ilme yönelik yaklaşımıyla ilgili sorular sorularak ön bilgileri kontrol edilebilir. • Öğrencilerden “ilim”, “Peygamberimiz” ve “sahabe” kelimelerinin çağrıştırdığı kelimeler ile aralarındaki benzerlik ve farklılıkları belirlemeleri istenerek konuya ilişkin ön bilgileri kontrol edilebilir. Köprü Kurma Sahabilerin ilim öğrenmeye gösterdiği gayretin, öğrencilerin günlük yaşamda bilgiye ulaşma yöntemleriyle benzerlikleri ve öğrenmeye istekli olmaları arasında bağ kurulabilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları PH.7.4.1 Hz. Peygamber’in eğitime verdiği önem, eğitim faaliyetleri, eğitim ve öğretimde kullandığı ilkeler ve uyguladığı metotlar aralarında ilişki kurularak ele alınır. Öğrencilerin Peygamberimizin ilme yaklaşımıyla ilgili dijital kaynaklardan topladıkları bilgileri kullanarak bunlardan bir çıkarım yapması sağlanır (E3.1, OB2). Sahabilerin Hz. Peygamber’in ilim meclisinden en iyi şekilde istifade ettiklerine dair bilgi verilir. İlgili konu bağlamında ilim, Darülerkam ve Suffe kavramlarına değinilir. Öğrencilerden Hz. Peygamber’in ilme yaklaşımındaki tutum ve davranışlarını konu alan bir ürün hazırlamaları arkadaşlarına sunmaları istenir (E3.3, D.16.3, SDB2.1). Bu kapsamda kısa bir hikâyenin sonuç kısmını yazarak tamamlamaları istenebilir. Hikâyelerin değerlendirilmesinde dereceleme ölçeği kullanılabilir. Öğrencilerden performans görevi olarak Peygamberimizin eğitim ve öğretimde kullandığı ilkeler ile uyguladığı metotları içeren bir el kitapçığı hazırlamaları istenebilir. Yapılan çalışmalar; bilgi toplama, ilişki kurma, sentezleme, içerik ve özgünlük ölçütlerinin bulunduğu dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir. PH.7.4.2 Peygamberimizin ilme teşvik ettiği sahabilerden Hz. Aişe, Abdullah bin Mesud, Zeyd bin Sabit, Abdullah bin Zübeyr ve Abdullah bin Amr bin As’ın ilme verdikleri öneme ilişkin bilgi verilir. Bu sahabilerin ilmî yönlerine dair özelliklerinin aralarında ilişki kurularak ele alınması sağlanır. Sahabilerin çeşitli alanlarda kendilerine uygun görevleri almaya istekli olduklarına değinilir. Öğrencilerden öğrenmeye dair ilgi duydukları alanların neler olduğunu listelemeleri ve bu alanlarla ilgili kendilerini geliştirme noktasında yapabilecekleri somut adımları belirlemeleri istenir (D3.5, E2.2). Bu kapsamda bir metin yazmaları istenebilir. İlme önem veren sahabilerin eğitim ve öğretimde gösterdikleri çabaya dikkat çekilir. Öğrencilerden sahabenin gösterdiği bu çabanın sebeplerini belirlemeleri istenir (E3.4). Bu kapsamda beyin fırtınası tekniğinden yaralanılabilir. Zeyd bin Sabit’in Kur’an ayetlerinin yazılı olduğu sayfaları bir araya getirip Kur’an’ı cemetmekle görevlendirilmesine dair bilgi verilir. Öğrencilerin yaşadıkları topluma nasıl katkı sağlayabileceklerini açıklamaları istenir (SDB2.3). Bu konuda bir yazı yazmaları istenebilir. Arkası yarın tekniği kullanılarak öğrencilerin Peygamberimizin ilme teşvik ettiği sahabilerin ilme verdikleri öneme dair bilgileri ölçülebilir. Ölçme ve değerlendirme faaliyetlerinde 3-2-1 kartı kullanılabilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden ashabın ilme verdiği değeri anlamalarını ve yorumlamalarını sağlamak amacıyla RAFT tekniğiyle bir yazı yazmaları istenebilir. Destekleme Öğrencilerden ilme öncülük eden en az iki sahabenin ismini sıralamaları beklenebilir. Öğrencilerin Suffe ashabı hakkında bildiklerini sözlü olarak ifade etmeleri beklenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "PH.7.4.1",
+     "order": 1,
+     "text": "Peygamberimizin ilme yönelik yaklaşımını sentezleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin ilme yönelik yaklaşımıyla ilgili bilgileri araştırır."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin ilme yönelik yaklaşımıyla ilgili bilgiler arasında ilişki kurar."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin ilme yönelik yaklaşımıyla ilgili bilgileri birleştirerek özgün bir bütün oluşturur."
+      }
+     ]
+    },
+    {
+     "code": "PH.7.4.2",
+     "order": 2,
+     "text": "Sahabilerin ilme verdikleri önemi çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Sahabilerin ilme verdikleri öneme dair unsurları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Sahabilerin ilme verdikleri öneme dair unsurlar arasındaki ilişkileri belirler."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 8,
+   "unit": 1,
+   "kind": "ÜNİTE",
+   "title": "HİCRET’TEN SONRA PEYGAMBERİMİZ",
+   "description": "Bu ünitede İslam toplumunun oluşum sürecine etki eden gelişmelerin anlaşılması; müşrik, münafık, Yahudi ve Hristiyanlar ile ilişkilerin özetlenmesi ve Veda Hutbesi’nde verilen mesajların idrak edilmesi amaçlanmaktadır.",
+   "lesson_hours": 20,
+   "sections": {
+    "ALAN BECERİLERİ": "DAB4. Tefekkür (DAB4.2. Dinî Meseleleri Anlama, DAB4.5. İdrak Etme)",
+    "KAVRAMSAL BECERİLER": "KB2.3. Özetleme",
+    "EĞİLİMLER": "E1.4. Kendine İnanma (Öz Yeterlilik), E2.1. Empati, E2.2. Sorumluluk, E3.1. Muhakeme, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB3.1. Uyum",
+    "Değerler": "D4. Dostluk, D6. Dürüstlük, D8. Mahremiyet",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB7. Veri Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Din Kültürü ve Ahlak Bilgisi BECERİLER ARASI",
+    "İLİŞKİLER": "PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "PH.8.1.1. İslam toplumunun oluşum sürecine etki eden gelişmeleri anlayabilme a) İslam toplumunun oluşum sürecine etki eden gelişmeleri fark eder. b) İslam toplumunun oluşum sürecine etki eden gelişmeleri tanımlar. c) İslam toplumunun oluşum sürecine etki eden gelişmelerin ortaya çıkış sebeplerini açıklar. d) İslam toplumunun oluşum sürecine etki eden gelişmelerin özelliklerini belirler. PH.8.1.2. Peygamberimizin müşrik, münafık, Yahudi ve Hristiyanlarla kurduğu ilişkileri özetleyebilme a) Peygamberimizin müşrik, münafık, Yahudi ve Hristiyanlarla kurduğu ilişkilere dair çözümleme yapar. b) Peygamberimizin müşrik, münafık, Yahudi ve Hristiyanlarla kurduğu ilişkilere dair sınıflandırma yapar. c) Peygamberimizin müşrik, münafık, Yahudi ve Hristiyanlarla kurduğu ilişkileri yorumlar. PH.8.1.3. Veda Hutbesi’nde verilen mesajları idrak edebilme a) Veda Hutbesi’nde verilen mesajlara dair tefekkür sürecini gözden geçirir. b) Veda Hutbesi’nde verilen mesajlara dair çıkarım yapar. c) Veda Hutbesi’nde verilen mesajlara dair çıkarımları değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Medine’deki İlk Faaliyetler Müşriklerle İlişkiler Münafıklarla İlişkileri Yahudilerle İlişkiler Hristiyanlarla İlişkiler Peygamberimizin Veda Haccı ve Vefatı",
+    "Anahtar Kavramlar": "Ehlikitap, ensar, gazve, isar, seriyye, uhuvvet",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; öğrenme günlüğü, çıkış kartı, zihin haritası, öz değerlendirme formu, (Ölçme ve yumruktan beşe, dereceleme ölçeği ve dereceli puanlama anahtarı kullanılarak değerDeğerlendirme) lendirilebilir. Öğrencilerden performans görevi olarak Veda Hutbesi ile ilgili öğrendikleri bilgilerden hareketle duygu ve düşüncelerini yansıtan bir metin yazmaları istenebilir. Yapılan çalışmalar; içinde bilgi toplama, örüntü kurma, karşılaştırma, çıkarım yapma ölçütlerinin bulunduğu dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Hz. Peygamber’in Mekke Dönemi’nde geçirdiği yıllara ve Hicret’e ilişkin ön bilgilere sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci • Öğrencilere kültürel ve sosyal açıdan farklı olan insanlarla iletişim kurarken nelere dikkat edilmesi gerektiği sorularak onlardan bu konuyla ilgili düşüncelerini paylaşmaları istenebilir. • Öğrencilerden Hz. Peygamber’in müşrik, Yahudi ve Hristiyanlarla ilişki kurarken dikkat ettiği hususlar hakkında fikir yürütmeleri istenebilir. Köprü Kurma Hz. Peygamber’in zorluklar karşısında yılmadan mücadele etmesinin olumlu sonuçları ile öğrencilerin kendi hayatlarında karşılaştıkları güçlüklerle başa çıkmada kararlı olmaları arasında bağ kurulabilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları PH.8.1.1 Peygamberimizin çocukluk ve gençlik yıllarının yanı sıra ilk vahiy, ilk Müslümanlar, davete tepkiler, boykot yılları, Hüzün Yılı, Taif, Akabe Biatleri ve Hicret konuları ayrıntıya girilmeksizin kronolojik bir bütünlük hâlinde ele alınır. Hicret’ten sonra yapılan faaliyetlerin neler olduğuna değinilir. Öğrencilerden bu faaliyetlerin İslam toplumunun oluşumunu nasıl etkilemiş olabileceği hakkında tahminde bulunmaları istenir. İslam toplumunun oluşum sürecine etki eden gelişmeler ele alınır. Bu gelişmelerden Mescid-i Nebevi’nin inşası, Suffe’nin kurulması, muhacir ve ensar arasında kardeşliğin oluşturulması, muhacir ve ensarın isara dayalı ahlaki tutumları, Medine Vesikası’nın hazırlanması konularına dikkat çekilir. Konu bağlamında uhuvvet kavramının tanımı verilir. Öğrencilerden İslam toplumunun oluşum sürecine etki eden gelişmeleri açıklayarak bunların hangi ihtiyacı gidermek için ortaya çıktığını belirlemeleri istenir (E3.1, SDB2.1). Bu kapsamda çember tekniği kullanılabilir. Öğrencilerin İslam toplumunun oluşum sürecindeki faaliyetlerin özelliklerinden hareketle bunların dinî, toplumsal ya da ekonomik alanlardan hangileriyle ilgili olduğunu belirlemeleri istenir (E3.7). Bu kapsamda anlam çözümleme tablosu kullanılabilir. Müslümanların Medine’de yeni bir hayat kurma sürecinde karşılaştıkları zorluklara değinilir. Hicret’in zorluklarına rağmen Müslümanların farklı bir yerde hayatlarını devam ettirme konusundaki gayretleri, muhacirlerin Medine’de yeni bir hayata başlamalarıyla İslam toplumunun oluşması, Mekke’nin fetihten sonra Müslümanların ibadetlerini özgürce yerine getirdiği bir şehir hâline gelmesi hakkında bilgi verilir. Öğrencilerden muhacirlerin bu tecrübelerinden esinlenerek kendi hayatlarında ummadıkları bir belirsizlik ya da zorlukla karşılaştıklarında neler yapabileceklerini değerlendirmeleri istenir (E1.4, SDB3.1). Bu kapsamda bir metin yazmaları istenebilir. Öğrenciler, ensar ve muhacirin kardeşlik ilişkisini örnek alarak iyi ve zor zamanlarda arkadaşlarına destek olmaya teşvik edilir (D4.1). Öğrencilerden muhacirlerin yaşadıkları zorlukları konu alan bir afiş cümlesi yazmaları istenebilir. Muhacirlerin yaşadığı zorluklar karşısında neler hissetmiş olabileceklerini öğrencilerin düşünmeleri sağlanır (E2.1). Öğrencilerden RAFT tekniğiyle Mekke’nin Fethi’ne ilişkin bir metin yazmaları istenebilir. Yapılan çalışma dereceleme ölçeği ile değerlendirilebilir. Ünite konuları “Hz. Muhammed’in Daveti Medine Dönemi” içeriğiyle ilişkilendirilir. Öğrencilerden İslam toplumunun doğuşunda öne çıkan unsurların kronolojik olarak sıralandığı bir tarih şeridi hazırlamaları istenebilir. Hazırlanan çalışma sınıfta sunulur. Yapılan çalışma dereceleme ölçeği ile değerlendirilebilir. PH.8.1.2 Hicret’ten sonra Medine’de İslam toplumunun oluşum süreci ve Hz. Peygamber’in müşrik, münafık, Yahudi ve Hristiyanlarla kurduğu ilişkiler hakkında bilgiler verilerek çözümleme yapılması sağlanır. İlişkiler ele alınırken münafık, Ehlikitap, seriyye ve gazve kavramlarının tanımlamaları yapılır. Bu ilişkilerin sebep ve sonuçlarına yönelik sınıflandırma yapılır. Elde edilen bilgilerden yararlanılarak Hz. Peygamber’in müşriklerle ve diğer dinlere mensup kişilerle kurduğu ilişkiler yorumlanır. Hz. Peygamber’in yaptığı antlaşmaların şartlarına bağlı kaldığı vurgulanır (D6.2). Hz. Peygamber’in Mekke’nin Fethi sonrasında müşriklere yaklaşımı konusu ele alınırken öğrencilerin her insanın temel hak ve özgürlüklere sahip olduğu bilincini kazanmalarına yönelik etkinlikler yapılır. Temel hak ve özgürlüklerin neler olduğuna dair araştırma yapmaları ve bu bilgiler doğrultusunda bir afiş hazırlamaları istenebilir. Hz. Peygamber’in müşrik ve gayrimüslimlerle ilişkileri, sahip olduğu değer ve ilkeler bağlamında sentezlenir (OB1). Öğrenciler, İslam toplumunun inşası ve Mekke’nin Fethi sürecinde Müslümanların gösterdiği çabaları örnek alarak kendi hayatlarında sorumluluk almak için istekli olmaya teşvik edilir (E2.2). Sahip oldukları değerler için alabilecekleri sorumluluklarla ilgili bir öz eleştiri yazmaları istenebilir. Sürecin değerlendirilmesinde öğrenme günlüğü, çıkış kartı veya zihin haritası kullanılabilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI PH.8.1.3 Veda Haccı hakkında kısaca bilgi verilir. Hz. Peygamber’in bu hac esnasında yaptığı konuşmalardan oluşan Veda Hutbesi’nin bazı bölümleri verilir. Öğrencilerden Veda Hutbesi’ni dikkatlice inceleyip burada verilen mesajları düşünmeleri ve düşüncelerini gözden geçirerek bu mesajların önemi hakkında çıkarım yapmaları istenir. Öğrencilerin Veda Hutbesi’nde verilen mesajların bireysel ve toplumsal hayata etkilerini göz önüne alarak çıkarımları değerlendirmeleri sağlanır. Öğrencilerden Veda Hutbesi’nde geçen canın ve malın dokunulmazlığı, özel hayatın gizliliği ile ilgili ilkeler ve günümüzde bunların korunmasını sağlayan kanunları araştırarak elde ettikleri verileri düzenleyip paylaşmaları istenir (OB7, D8.1). Öğrencilerin Veda Hutbesi’nde öne çıkan ilkelerle ilgili orijinal, kısa, doğru bilgi içeren ve etkileyici bir cümle yazmaları istenebilir. Yazılan cümleler yumruktan beşe tekniğiyle değerlendirilebilir. Öğrencilerden performans görevi olarak Veda Hutbesi ile ilgili öğrendikleri bilgilerden hareketle duygu ve düşüncelerini yansıtan bir metin yazmaları istenebilir. Yapılan çalışmalar; içinde bilgi toplama, örüntü kurma, karşılaştırma, çıkarım yapma ölçütlerinin bulunduğu dereceli puanlama anahtarı ve öz değerlendirme formu ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Veda Hutbesi’nde öne çıkan konuların günümüzdeki önemine yönelik bir grafik bilgi hazırlanabilir. Sokrat semineri tekniği kullanılarak Medine Sözleşmesi’yle ilgili akademik bir makalenin incelenmesi beklenebilir. Destekleme Öğrencilerin müşriklerle ve farklı dinlere mensup kişilerle antlaşmalar yapıldığını ifade etmesi beklenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "PH.8.1.1",
+     "order": 1,
+     "text": "İslam toplumunun oluşum sürecine etki eden gelişmeleri anlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "İslam toplumunun oluşum sürecine etki eden gelişmeleri fark eder."
+      },
+      {
+       "label": "b",
+       "text": "İslam toplumunun oluşum sürecine etki eden gelişmeleri tanımlar."
+      },
+      {
+       "label": "c",
+       "text": "İslam toplumunun oluşum sürecine etki eden gelişmelerin ortaya çıkış sebeplerini açıklar."
+      },
+      {
+       "label": "d",
+       "text": "İslam toplumunun oluşum sürecine etki eden gelişmelerin özelliklerini belirler."
+      }
+     ]
+    },
+    {
+     "code": "PH.8.1.2",
+     "order": 2,
+     "text": "Peygamberimizin müşrik, münafık, Yahudi ve Hristiyanlarla kurduğu ilişkileri özetleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin müşrik, münafık, Yahudi ve Hristiyanlarla kurduğu ilişkilere dair çözümleme yapar."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin müşrik, münafık, Yahudi ve Hristiyanlarla kurduğu ilişkilere dair sınıflandırma yapar."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin müşrik, münafık, Yahudi ve Hristiyanlarla kurduğu ilişkileri yorumlar."
+      }
+     ]
+    },
+    {
+     "code": "PH.8.1.3",
+     "order": 3,
+     "text": "Veda Hutbesi’nde verilen mesajları idrak edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Veda Hutbesi’nde verilen mesajlara dair tefekkür sürecini gözden geçirir."
+      },
+      {
+       "label": "b",
+       "text": "Veda Hutbesi’nde verilen mesajlara dair çıkarım yapar."
+      },
+      {
+       "label": "c",
+       "text": "Veda Hutbesi’nde verilen mesajlara dair çıkarımları değerlendirir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 8,
+   "unit": 2,
+   "kind": "ÜNİTE",
+   "title": "PEYGAMBERİMİZİN MEDİNELİ ARKADAŞLARI",
+   "description": "Bu ünitede Peygamberimizin Medineli sahabilerle kurduğu iletişimin müşahede edilmesi ve ensarın Hz. Peygamber’e olan bağlılığının yorumlanması amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "DAB4. Tefekkür (DAB4.1. Müşahede Etme)",
+    "KAVRAMSAL BECERİLER": "KB2.14. Yorumlama",
+    "EĞİLİMLER": "E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.2. İş Birliği",
+    "Değerler": "D4. Dostluk, D14. Saygı, D15. Sevgi",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "BECERİLER ARASI",
+    "İLİŞKİLER": "PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "PH.8.2.1. Peygamberimizin Medineli sahabilerle kurduğu iletişimi müşahede edebilme a) Peygamberimizin Medineli sahabilerle kurduğu iletişim hakkında merak ettiği hususları belirler. b) Peygamberimizin Medineli sahabilerle kurduğu iletişim hakkında soru sorar. c) Peygamberimizin Medineli sahabilerle kurduğu iletişim hakkında merak ettiği hususları inceler. ç) Peygamberimizin Medineli sahabilerle kurduğu iletişim hakkında çıkarım yapar. PH. 8.2.2. Medineli sahabilerin Hz. Peygamber’e olan bağlılığını yorumlayabilme a) Medineli sahabilerin Hz. Peygamber’e olan bağlılığını inceler. b) Medineli sahabilerin Hz. Peygamber’e olan bağlılığını bağlamından kopmadan dönüştürür. c) Medineli sahabilerin Hz. Peygamber’e olan bağlılığını doğru bir şekilde ifade eder.",
+    "İÇERİK ÇERÇEVESİ": "Peygamberimizin Medineli Sahabilerle İletişimi Ensar Dilinden Peygamberimiz Peygamberimizin Medinedeki Yakın Arkadaşları",
+    "Anahtar Kavramlar": "bağlılık, değer, diğerkâmlık",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; kısa cevaplı ve açık uçlu sorular, tanılayıcı dallanmış ağaç, boşluk dol- (Ölçme ve durma soruları, bilgi kartları, dereceli puanlama anahtarı, grup değerlendirme formu ve Değerlendirme) çıkış kartı kullanılarak değerlendirilebilir. Öğrencilerden performans görevi olarak iş birlikli çalışma yöntemiyle ensarın Peygamberimize olan bağlılığını ve sevgisini konu alan bir fanzin hazırlamaları istenebilir. Yapılan çalışmalar; veri toplama, verileri kaydetme, dönüştürme, dil ve anlatım ölçütlerinin bulunduğu dereceli puanlama anahtarı ve grup değerlendirme formu ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin ensarın Allah Resulü’ne duydukları sevgiyi bildikleri kabul edilir. Ön Değerlendirme Süreci • Öğrencilere Hz. Muhammed’in (sav) ensarla kurduğu iletişim hakkında neler bildikleri sorulabilir. • Öğrencilerin Hz. Peygamber’in ensarla kurduğu iletişim ve ensardan öne çıkan şahsiyetlerle ilgili ön bilgileri sorular sorularak kontrol edilebilir. Köprü Kurma Hz. Peygamber’in ensarla güçlü ilişkiler kurmasında risalet görevinin yanı sıra güvenilir, samimi ve nezaket sahibi bir beşer olmasının etkisi olduğu belirtilebilir. Bu bilgi ile günlük hayatta sağlıklı ilişkiler kurmanın olumlu davranışlar geliştirerek sağlanabileceği arasında bağ kurulabilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları PH.8.2.1 Hz. Peygamber’in Medineli ashabıyla ilişkisinde onlara verdiği değerin önemli bir unsur olduğuna dikkat çekilir. Hz. Peygamber’in ashabına verdiği değer bağlamında değer kavramının açıklamasına yer verilir. Peygamberimizin Medineli sahabilere verdiği değeri oluşturan örnekler açıklanır. Peygamberimizin Medineli sahabilere verdiği değer hakkında öğrencilerin soru sormaları sağlanarak konuyu incelemeleri ve çıkarımda bulunmaları sağlanır (OB1). Bu süreçte istasyon tekniği uygulanabilir. Bu teknik uygulanırken öğrencilerin grup içinde uyumlu hareket etmeleri teşvik edilir (SDB2.2). Peygamberimizin Medineli sahabilere verdiği değeri örnek alması tavsiye edilerek öğrenciler, yakın çevreleri ve arkadaşlarının fikir ve görüşlerine değer vermeye teşvik edilir (D4.4). Bu süreçte düşün–paylaş–karşılaştır tekniği kullanılabilir. Peygamberimizin Medineli ashabına verdiği değere yönelik bilgi ve becerileri ölçmek için bilgi kartları, kısa cevaplı sorular ve boşluk doldurma soruları kullanılabilir. PH.8.2.2 Medineli sahabilerin Hz. Peygamber’e olan bağlılığı, saygısı, sevgisi ve sadakati ele alınır. Bağlılık kavramının açıklamasına yer verilir. Örnekler üzerinden Medineli sahabilerin Hz. Peygamber’in tebliğine samimi bir şekilde karşılık vererek Hz. Peygamber’e ve muhacirlere koşulsuz bir şekilde yardım eli uzattıklarına ve Hz. Peygamber’in rehberliğinde hayatlarını şekillendirdiklerine işaret edilir. Konuyla ilgili örnekler verilir. Hz. Peygamber’in önemli konularda sahabilerle istişare etmesinin, sahabilerin Hz. Peygamber’e danışmasının ve Hz. Peygamber’in sabır ve anlayışla onlara destek olmasının sahabilerin bağlılığını pekiştirdiğine değinilir. Öğrencilerin merak ettikleri soruları sorarak Medineli sahabilerin bağlılığını anlamaları sağlanır (E3.8). Sahabilerin hayatından örneklerle Hz. Peygamber’e bağlılığın ve saygı göstermenin önemi üzerinde durulur (D14.3). Allah’ın (cc) rızasını kazanmak isteyen ve Hz. Peygamber’e bağlılık duyan Medineli sahabilerin bütün varlıklarını muhacirlerle paylaştıkları belirtilir. Diğerkâmlık kavramına değinilir. Öğrenciler sahip oldukları maddi varlıkları ihtiyaç sahipleriyle paylaşmaya teşvik edilir. Öğrencilere Medineli sahabileri örnek alarak arkadaşlarına iyi ve kötü zamanlarında destek olmalarının; başkalarıyla iletişim kurarken sabır, nezaket ve anlayış göstermelerinin önemi vurgulanır. Öğrencilere, Hicret’ten sonra Ebu Eyyüb Ensari’nin Hz. Peygamber’i evinde misafir etmesini örnek alarak misafirperver olmalarının önemi vurgulanır (D15.5). Peygamberimizin Medineli arkadaşlarından Ebu Eyyüb Ensari (ra), Ebu Talha (ra), Ebüdderda (ra) ve Ümmü Süleym’in (ra) hayatları ve şahsiyetleri hakkında bilgi verilir. Medineli sahabilerin Hz. Peygamber’e olan bağlılığına yönelik açık uçlu sorular, tanılayıcı dallanmış ağaç soruları, çıkış kartı kullanılabilir. Öğrencilerden performans görevi olarak iş birlikli çalışma yöntemiyle ensarın Peygamberimize olan bağlılığını ve sevgisini konu alan bir fanzin hazırlamaları istenebilir. Yapılan çalışmalar; veri toplama, verileri kaydetme, dönüştürme, dil ve anlatım ölçütlerinin bulunduğu dereceli puanlama anahtarı ve grup değerlendirme formu ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Hz. Peygamber’in Medineli ashabına verdiği değeri anlatan bir kitapçık hazırlanabilir. Öğrencilere ensardan Ebu Eyyüb Ensari (ra), Ebu Talha (ra), Ebüdderda (ra) ve Ümmü Süleym’in (ra) hayatları konusunda araştırma görevleri verilebilir. Destekleme Öğrencilerin Medineli ashabın Hz. Peygamber’e sevgisi hakkında bildiklerini sözlü olarak ifade edebilmeleri beklenebilir. Öğrencilere Hz. Peygamber ile ensar arasındaki ilişkileri anlatan bir metin verilerek öğrencilerden bu metindeki sevgi ve bağlılık ifade eden sözcüklerin belirginleştirilmesi veya altının çizilmesi istenebilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "PH.8.2.1",
+     "order": 1,
+     "text": "Peygamberimizin Medineli sahabilerle kurduğu iletişimi müşahede edebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin Medineli sahabilerle kurduğu iletişim hakkında merak ettiği hususları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin Medineli sahabilerle kurduğu iletişim hakkında soru sorar."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin Medineli sahabilerle kurduğu iletişim hakkında merak ettiği hususları inceler."
+      },
+      {
+       "label": "ç",
+       "text": "Peygamberimizin Medineli sahabilerle kurduğu iletişim hakkında çıkarım yapar. PH. 8.2.2. Medineli sahabilerin Hz. Peygamber’e olan bağlılığını yorumlayabilme"
+      },
+      {
+       "label": "a",
+       "text": "Medineli sahabilerin Hz. Peygamber’e olan bağlılığını inceler."
+      },
+      {
+       "label": "b",
+       "text": "Medineli sahabilerin Hz. Peygamber’e olan bağlılığını bağlamından kopmadan dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Medineli sahabilerin Hz. Peygamber’e olan bağlılığını doğru bir şekilde ifade eder."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 8,
+   "unit": 3,
+   "kind": "ÜNİTE",
+   "title": "REHBERİM PEYGAMBERİM",
+   "description": "Bu ünitede Peygamberimizin hayatından hareketle azim ve kararlılığa dair genelden özele ilişki kurularak akıl yürütülmesi, Hz. Peygamber’in dua ibadetiyle ilgili tutum ve davranışlarının yansıtılması ve Hz. Peygamber’in hayatında tevekkülün önemine ilişkin örneklerin yapılandırılması amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "-",
+    "KAVRAMSAL BECERİLER": "KB2.13. Yapılandırma, KB2.15. Yansıtma, KB2.16.2. Tümdengelimsel Akıl Yürütme",
+    "EĞİLİMLER": "E1.3. Azim ve Kararlılık, E3.1. Muhakeme",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Din Kültürü ve Ahlak Bilgisi BECERİLER ARASI",
+    "İLİŞKİLER": "PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "PH.8.3.1. Peygamberimizin hayatından hareketle azim ve kararlılığa dair akıl yürütebilme a) Peygamberimizin hayatındaki azim ve kararlılığın yerini açıklar. b) Peygamberimizin hayatındaki azim ve kararlılığa dair bütün-parça ilişkisi kurar. c) Peygamberimizin hayatındaki azim ve kararlılığa dair genelden özele çıkarım yapar. PH.8.3.2. Peygamberimizin dua ibadetiyle ilgili tutum ve davranışlarını yansıtabilme a) Peygamberimizin dua ibadetiyle ilgili tutum ve davranışlarını gözden geçirir. b) Peygamberimizin dua ibadetine dayalı çıkarım yapar. c) Peygamberimizin dua ibadetinden yola çıkarak ulaşılan çıkarımları değerlendirir. PH.8.3.3. Peygamberimizin hayatında tevekkülün önemine ilişkin örnekleri yapılandırabilme a) Peygamberimizin hayatında tevekkülün önemine ilişkin örnekleri inceleyerek nedensel ilişkiler ortaya koyar. b) Peygamberimizin hayatında tevekkülün önemine ilişkin durumlarla ilgili kendi öz bilgisi ile uyumlu bir bütün oluşturur.",
+    "İÇERİK ÇERÇEVESİ": "Peygamberimizin Azmi ve Kararlılığı Peygamberimizin Hayatında Dua Peygamberimizin Hayatında Tedbir ve Tevekkül",
+    "Anahtar Kavramlar": "azim, sebat, dua, tevekkül",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; zihin haritası, çıkış kartları, öz değerlendirme formu ve dereceli puan- (Ölçme ve lama anahtarı kullanılarak değerlendirilebilir. Değerlendirme) Öğrencilerden performans görevi olarak Hz. Peygamber’in hayatında tevekkülün önemini konu alan bir kısa film senaryosu yazmaları istenebilir. Yapılan çalışmalar öz değerlendirme formu ve bilgi toplama, ilişki kurma, içerik, özgünlük, dil ve anlatım ölçütlerinin bulunduğu dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Hz. Peygamber’in hem resul hem beşer olduğunu ve insanlara rehber olarak gönderildiğini bildikleri kabul edilmektedir. Ön Değerlendirme Süreci • Öğrencilere Hz. Peygamber’in hayatında azim ve kararlılık gösterdiği durumlar, Peygamberimizin dua ibadeti, tedbir ve tevekkül anlayışı ile ilgili neler bildikleri ve ne öğrenmek istedikleri sorulabilir. • Öğrencilerin Hz. Peygamber’in hayatında duanın önemi; Peygamberimizin tedbir, tevekkül, azim, kararlılık konusundaki tutum ve davranışları ile ilgili bilgileri ilişkilendirmeleri amacıyla sorular sorulabilir. Köprü Kurma Hz. Peygamber’in risaletinin ve kulluğunun gereği olarak hayatında dua ibadetine yer vermesi ve tevekkül göstermesi ile bir beşer olarak azimli, kararlı, tedbirli olmasının bütünsel olarak örnek alınması gereken özellikler olduğu bilgisi verilebilir. Öğrencilerin kese kâğıdı tekniği aracılığıyla edindikleri bilgiler doğrultusunda kendi hayatlarında azimli ve kararlı olmak, önemini bilerek dua etmek, karşılaştıkları durumlarla ilgili tedbir almak ve bu durumlar karşısında tevekkül etmek fikirlerini benimsemeleri beklenebilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları PH.8.3.1 Peygamberimizin risalet görevinin yanı sıra bir insan olarak hayatında vuku bulan olaylar karşısında azim ve kararlılık gösterdiğine değinilir. Azim ve sebat kavramlarının açıklamalarına yer verilir. Hz. Peygamber’in beşer olarak kendisiyle iletişimde olan insanların ihtiyaç ve sorunlarını azim ve kararlılıkla çözmesi, davranışlarıyla onlara örnek olması bağlamında ele alınır. Öğrencilerin hayatlarındaki sorumlulukları azim ve kararlılıkla yerine getirmelerinin önemi vurgulanır (E1.3; D3.1). Hz. Peygamber’in tebliğ sürecindeki faaliyetleri ile gösterdiği azim ve kararlılığı arasında ilişki kurulur. Hz. Peygamber’in tebliğ görevinde, ibadetlerinde ve insanlarla olan ilişkilerinde gösterdiği azimli ve kararlı tutumuna odaklanılarak çıkarım yapılır. Öğrencilerin, yaşadıkları her türlü olumsuzluk, engel ve zorluğu aşma konusunda ya da amaçladıkları herhangi bir durumla ilgili istekli olmaları hedeflenir. Hedefledikleri bir eylem, durum ve düşünce konusunda istikrarlı davranmaya istekli olmaları beklenir. Öğrencilerin konuyla ilgili bildiklerini pekiştirmeleri amacıyla sınıf içinde konuşma halkası tekniği kullanılabilir. Bu aşamada öğrencilerin grup içinde ortak hareket etmeleri ve gruba katkı sağlamaları hedeflenir (SDB2.2). Öğrencilerden Peygamberimizin hayatındaki azim ve kararlılık örneklerine dair zihin haritası hazırlamaları istenebilir. Hz. Peygamber’in azim ve kararlılığı konusu “Kur’an-ı Kerim’den Öğütler: Peygamber Kıssaları” içeriğiyle ilişkilendirilir. PH.8.3.2 Duanın kavram olarak açıklamasına yer verilir. Hz. Peygamber’in dua ibadetini yerine getirirken özen gösterdiği durumlara ilişkin davranışları gözden geçirilir. Hz. Peygamber’in dua ile ilgili tutum ve davranışlarına dair çıkarım yapılır (E3.1). Ulaşılan çıkarımlar, dua ibadeti bağlamında değerlendirilir. Öğrencilerden Hz. Peygamber’in dua ibadetiyle ilgili tutum ve davranışlarını yansıtabildikleri çıkış kartı yazmaları istenebilir. Öğrencilere Hz. Peygamber’in dua ibadeti konusunda araştırma görevleri verilebilir. PH.8.3.3 Tevekkül kavramının açıklamasına yer verilir. Hz. Peygamber’in hayatı boyunca tevekkülü temel alan bir yaklaşım sergilediğine değinilir. Hz. Peygamber’in tevekkül anlayışı ve bu konuda Müslümanlara örnek olmasına ilişkin basılı ya da dijital kaynaklardan olay örnekleri incelenerek nedensel ilişkiler ortaya konur (OB1, OB2). Hz. Peygamber’in risalet görevini yerine getirirken ümitvar olmasına ilişkin durumlar konusunda bilgi verilir. Öğrencilerin konuyla ilgili bilgileri kullanarak kendi yaşantılarından deneyimledikleri bilgilerle uyumlu bir bütün oluşturmaları sağlanır. Öğrencilerden arkası yarın tekniğini kullanarak Hz. Peygamber’in hayatında tevekkülün önemine ilişkin akıl yürütmeleri beklenebilir. Öğrencilerden performans görevi olarak Hz. Peygamber’in hayatında tevekkülün önemini konu alan bir kısa film senaryosu yazmaları istenebilir. Yapılan çalışmalar; öz değerlendirme formu ve bilgi toplama, ilişki kurma, içerik, özgünlük, dil ve anlatım ölçütlerinin bulunduğu dereceli puanlama anahtarı ile değerlendirilebilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden örnek bir dua üzerinden Hz. Peygamber’in dua ibadetiyle ilgili tutum ve davranışlarını yansıtan niyet, samimiyet ve bağlılık gibi unsurların kavram haritasıyla gösterilmesi istenebilir. Öğrencilerden Hz. Peygamber’in ettiği dua örneklerinden bazılarını derledikleri dua kartelası hazırlamaları beklenebilir. Destekleme Öğrencilerin Hz. Peygamber’in azim ve kararlılığı hakkında bildiklerini sözlü olarak ifade etmeleri beklenebilir. Örnek olaylar üzerinden azim ve kararlılığın ne olduğu ve neden önemli olduğu açıklanabilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "PH.8.3.1",
+     "order": 1,
+     "text": "Peygamberimizin hayatından hareketle azim ve kararlılığa dair akıl yürütebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin hayatındaki azim ve kararlılığın yerini açıklar."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin hayatındaki azim ve kararlılığa dair bütün-parça ilişkisi kurar."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin hayatındaki azim ve kararlılığa dair genelden özele çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "PH.8.3.2",
+     "order": 2,
+     "text": "Peygamberimizin dua ibadetiyle ilgili tutum ve davranışlarını yansıtabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin dua ibadetiyle ilgili tutum ve davranışlarını gözden geçirir."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin dua ibadetine dayalı çıkarım yapar."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin dua ibadetinden yola çıkarak ulaşılan çıkarımları değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "PH.8.3.3",
+     "order": 3,
+     "text": "Peygamberimizin hayatında tevekkülün önemine ilişkin örnekleri yapılandırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin hayatında tevekkülün önemine ilişkin örnekleri inceleyerek nedensel ilişkiler ortaya koyar."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin hayatında tevekkülün önemine ilişkin durumlarla ilgili kendi öz bilgisi ile uyumlu bir bütün oluşturur."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 8,
+   "unit": 4,
+   "kind": "ÜNİTE",
+   "title": "ÇALIŞMA HAYATINDA PEYGAMBERİMİZ",
+   "description": "Bu ünitede Hz. Peygamber’in çalışma hayatı hakkında bilgilerin toplanması, Peygamberimizin çalışma ahlakına dair tavsiye ve uygulamalarının anlaşılabilmesi amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "DAB4. Tefekkür (DAB4.2. Dinî Meseleleri Anlama)",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E2.2. Sorumluluk",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB3.3 Sorumlu Karar Verme",
+    "Değerler": "D1. Adalet, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Din Kültürü ve Ahlak Bilgisi BECERİLER ARASI",
+    "İLİŞKİLER": "DAB4. Tefekkür (DAB4.1. Müşahede Etme) PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "PH.8.4.1. Peygamberimizin çalışma hayatı hakkında bilgi toplayabilme a) Peygamberimizin çalışma hayatı hakkındaki bilgilere ulaşmak için kullanacağı araçları belirler. b) Peygamberimizin çalışma hayatı hakkındaki bilgilere ulaşmak için belirlediği aracı kullanarak konuyla ilgili bilgileri bulur. c) Peygamberimizin çalışma hayatı hakkında ulaşılan bilgileri doğrular. ç) Peygamberimizin çalışma hayatı hakkında ulaşılan bilgileri kaydeder. PH.8.4.2. Peygamberimizin çalışma ahlakına dair tavsiye ve uygulamalarını anlayabilme a) Peygamberimizin çalışma hayatına dair ilkeler belirlediğini fark eder. b) Peygamberimizin çalışma hayatında hangi hususlara dikkat çektiğini belirtir. c) Peygamberimizin çalışma hayatıyla ilgili tavsiyelerinin sosyal ve ekonomik sebeplerini açıklar. ç) Peygamberimizin çalışma ahlakına dair tavsiye ve uygulamalarına temel oluşturan ahlaki özellikleri belirler.",
+    "İÇERİK ÇERÇEVESİ": "Hz. Peygamber’in Ticaretle Uğraşması Hz. Peygamber’in Medine Pazarı’nı Kurması Hz. Peygamber’in Çalışma Hayatına Yönelik İlke ve Tavsiyeleri",
+    "Anahtar Kavramlar": "helal kazanç, ifrat, itidal, rızık, tefrit",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktıları; kısa cevaplı sorular, boşluk doldurma soruları, kavram karikatürleri ve (Ölçme ve dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Değerlendirme) Öğrencilerden performans görevi olarak Hz. Peygamber’in çalışma ahlakının dayandığı ilkeleri konu alan poster hazırlamaları istenebilir. Hazırlanan performans görevi sınıfta sunulur ve bilgi toplama, dönüştürme, tasarım, sunum ölçütlerinin bulunduğu dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Hz. Peygamber’in sosyal hayatta Müslümanlara örnek olduğuna ilişkin bilgi sahibi oldukları kabul edilmektedir. Ön Değerlendirme Süreci • Cümle tamamlama tekniği kullanılarak öğrencilere Hz. Peygamber’in çalışma hayatı hakkında neler bildikleri ve ne öğrenmek istedikleri sorulabilir. • Hz. Peygamber’in çalışma hayatıyla ilgili tavsiyeleri konusunda sorular sorularak öğrencilerin ön bilgileri kontrol edilebilir. Köprü Kurma Hz. Peygamber’in ticaret anlayışı ile öğrencilerin günlük yaşamlarında karşılaştıkları çalışma hayatına dair gözlemleri arasında bağ kurulabilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları PH.8.4.1 Peygamberimizin çocukluğundan itibaren çalışma hayatının içinde olduğuna değinilir. Öğrenciler, Peygamberimizin hayatı boyunca geçimini nasıl sağladığına dair bilgi toplamakla görevlendirilir. Öğrencilerden siyer alanında yazılmış, güvenilir, basılı ve dijital kaynaklar arasından araştırma için kullanacakları aracı seçerek Peygamberimizin geçimini sağlamak için yaptığı işler hakkında bilgi toplamaları; bu bilgileri doğrulamaları; kaydetmeleri ve sunmaları istenir (OB1). Hz. Peygamber’in ticaret hayatı ele alınır. Onun çalışmaya verdiği öneme değinilir. Öğrencilerden konuyu inceleyerek Peygamberimizin çalışmaya verdiği önemin sebepleri hakkında bir çıkarım yapmaları istenir (DAB4.1). Hz. Peygamber’in çalışma hayatına dair hususlar “Peygamberler Çalışmayı Sever” içeriğiyle ilişkilendirilir. Ölçme ve değerlendirme sürecinde kavram karikatürleri, kısa cevaplı sorular ve boşluk doldurma soruları kullanılabilir. PH.8.4.2 Peygamberimiz tarafından bildirilen emir ve yasakların Müslümanların dinî, sosyal, ekonomik vb. tüm hayatını kuşattığına değinilir. Öğrencilerden Hz. Peygamber’in ahlaki özelliklerini göz önüne alarak onun çalışma hayatına dair temel prensiplerini tahmin etmeleri istenir. Peygamberimizin çalışma hayatına dair tavsiye ve uygulamaları örnekler üzerinden ele alınır. Peygamberimizin hayatı boyunca çalışmaya önem verdiği, ashabını çalışma konusunda teşvik ettiği bilgisi verilir. Helal kazanç, ifrat, tefrit ve itidal kavramları açıklanır. Hz. Peygamber’in çalışma hayatında dikkat edilmesini istediği hususlar listelenir. Öğrencilerden bu hususların sosyal ve ekonomik hayata yönelik faydaları hakkında görüş bildirmeleri istenir. Bu aşamada çember tekniği kullanılabilir. Öğrencilerden Peygamberimizin çalışma ahlakına dair ilkelerinin hangi ahlaki özelliklerle ilişkili olduğunu belirlemesi istenir. Öğrencilerin Hz. Peygamber’in çalışma ahlakının dayandığı ilkeleri özümseyerek düzenli ve gayretli çalışmaya, verdikleri kararları ve sorumluluklarını üstlenmeye istekli olmaları amaçlanır (E2.2, SDB3.3). Bu doğrultuda çalışma hayatında sahip olmayı hedefledikleri ilkeleri içeren bir afiş hazırlamaları istenebilir. Öğrencilerin Peygamberimizin yaptığı işi en güzel şekilde yerine getirmeye özen gösterdiğini bilerek vatanını sevmenin işini en iyi şekilde yapmayı gerektirdiği inancını içselleştirmeleri vurgulanır (D19.1). Bu kapsamda değer analizi tekniği kullanılabilir. Hz. Peygamber’in çalışma hayatında liyakatli olanı hak ettiği konumda görevlendirmesine örnekler verilir (D1.4). Bu süreçte örnek olay yönteminden istifade edilebilir. Peygamberimizin çalışma ahlakında öne çıkan hususlar üzerinden öğrencilerin kendi tutumlarına yönelik öz değerlendirme yapmaları beklenebilir. Öğrencilerden performans görevi olarak Hz. Peygamber’in çalışma ahlakının dayandığı ilkeleri konu alan poster hazırlamaları istenebilir. Hazırlanan performans görevi sınıfta sunulur. Sınıfta sunulan performans görevleri bilgi toplama, dönüştürme, tasarım ve sunum ölçütlerinin bulunduğu dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden Hz. Peygamber’in çalışma ahlakı bağlamında günümüz dünyasının çalışma ilkelerini değerlendirdikleri bir köşe yazısı yazmaları beklenebilir. Destekleme Öğrencilerin rızık kavramını birkaç kelime ile tanımlamaları beklenebilir. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI EK-1 Grup Değerlendirme Formu Öğrencinin Adı : Tarih: Soyadı : Numarası : Bu form ile yaptığınız grup çalışmanızı aşağıda verilen ölçütleri dikkate alarak değerlendiriniz. Çalışma sırasında grup davranışınızda Fazlaca eksik varsa “Hiçbir Zaman”ı, Biraz eksik varsa “Ara Sıra”yı, Genel olarak tamamsa “Çoğu Zaman”ı, Eksiksizse “Her Zaman”ı ”✓” ile işaretleyiniz. Hiç bir Ara Çoğu Her Değerlendirme Ölçütleri Görüşler Zaman Sıra Zaman Zaman 1 Yardımlaşma Grup üyeleri etkinlik sırasında araç gereç kullanımı bakımından yardımlaştı. 2 Dinleme Grup üyeleri çalışma sırasında birbirlerinin görüşlerini dikkatle dinledi. 3 Katılım ve sorumlulukları paylaşma Gruptaki her öğrenci etkinliğe katıldı ve etkinlikle ilgili yapılması gereken sorumlulukları paylaştı. 4 Sorgulama Grup üyeleri her aşamada birbirleriyle görüş alışverişi yaptı. 5 Saygı Grup üyeleri çalışma sırasında birbirlerine saygılı davrandı. 6 Paylaşma Grup üyeleri çalışma sırasında bilgileri birbirleriyle paylaştı. 7 Zamanı verimli kullanma Grup üyeleri zamanı verimli kullandı. Grubunuzun güçlü yanları nelerdir? Grubunuz etkinlik sırasında hangi zorluklarla karşılaştı? Grup olarak bir sonraki çalışmanızı iyileştirmek için ne önerirsiniz? Öğretmen Yorumu PEYGAMBERİMİZİN HAYATI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "PH.8.4.1",
+     "order": 1,
+     "text": "Peygamberimizin çalışma hayatı hakkında bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin çalışma hayatı hakkındaki bilgilere ulaşmak için kullanacağı araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin çalışma hayatı hakkındaki bilgilere ulaşmak için belirlediği aracı kullanarak konuyla ilgili bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin çalışma hayatı hakkında ulaşılan bilgileri doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Peygamberimizin çalışma hayatı hakkında ulaşılan bilgileri kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "PH.8.4.2",
+     "order": 2,
+     "text": "Peygamberimizin çalışma ahlakına dair tavsiye ve uygulamalarını anlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Peygamberimizin çalışma hayatına dair ilkeler belirlediğini fark eder."
+      },
+      {
+       "label": "b",
+       "text": "Peygamberimizin çalışma hayatında hangi hususlara dikkat çektiğini belirtir."
+      },
+      {
+       "label": "c",
+       "text": "Peygamberimizin çalışma hayatıyla ilgili tavsiyelerinin sosyal ve ekonomik sebeplerini açıklar."
+      },
+      {
+       "label": "ç",
+       "text": "Peygamberimizin çalışma ahlakına dair tavsiye ve uygulamalarına temel oluşturan ahlaki özellikleri belirler."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "unassigned_outcomes": [],
+ "report": {
+  "units": 16,
+  "outcomes": 37,
+  "components": 120,
+  "orphan_outcomes": 0,
+  "gaps": []
+ }
+}
