@@ -707,6 +707,91 @@ CI yeşil olunca `dev`'e merge, sonra `dev` → `main`, sonra sürüm etiketi
 
 ---
 
+### Görev 5: Farklı kod şemalarını karşıla
+
+**Dosyalar:**
+- Değiştir: `scripts/fetch_tymm_ogrenme_ciktilari.py`
+- Test: `tests/scripts/test_tymm_pdf_sections.py`
+
+2026-09-09 tam koşumunda 111 dersin **79'u** ayrıştırıldı; **32 derste hiç
+kodlu çıktı bulunamadı** ve 50 boşluk raporlandı. Sebep ayrıştırıcı hatası
+değil, program ailelerinin farklı yapıda olması. Ölçülen üç aile:
+
+| Aile | Kod şekli | Çıktıların yeri | Örnek ders |
+|---|---|---|---|
+| Dört parçalı, ünite içi | `FİZ.9.1.1` | ünite bloğunun içinde | Fizik, Kimya, Biyoloji |
+| Üç parçalı | `MYB.5.1`, `OB.4.3` | — | Okul Öncesi |
+| Ekte toplanan | (incelenmeli) | `EK 1: SINIF DÜZEYLERİNE GÖRE ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ` (s. 202) | İlkokul/Ortaokul Türkçe |
+
+Türkçe programlarının PDF'i okunabiliyor (İlkokul Türkçe 822 243 karakter,
+metinde 38 kez "ÖĞRENME ÇIKTI" geçiyor) — veri var, yeri farklı.
+
+Ayrıca beş derste tek tük kod kaçtı: `DKAB.6.2.226`, `PH.8.2.2`, `KK.7.4.1`,
+`MÜZ.1.2.7`, `TG.4.4.1`. `DKAB.6.2.226` belgede tek başına bir satırda geçiyor
+(4616. satır); sıra numarası 226 olan bir çıktı olamaz, bu bir dizin/atıf
+artığı. Yani kapsama denetiminin bazı boşlukları YANLIŞ POZİTİF olabilir —
+düzeltmeden önce her kodun kaynaktaki bağlamına bakın.
+
+- [ ] **Adım 1: Aileleri say**
+
+```bash
+for f in .tymm-pdf/dersler/*.txt; do
+  n4=$(rg -c '[A-ZÇĞİÖŞÜ][A-ZÇĞİÖŞÜ.]{1,9}\.[0-9]+\.[0-9]+\.[0-9]+' "$f" 2>/dev/null || echo 0)
+  n3=$(rg -c '[A-ZÇĞİÖŞÜ][A-ZÇĞİÖŞÜ.]{1,9}\.[0-9]+\.[0-9]+' "$f" 2>/dev/null || echo 0)
+  ek=$(rg -c 'EK 1:' "$f" 2>/dev/null || echo 0)
+  printf "%-46s dört=%-6s üç=%-6s ek=%s\n" "$(basename "$f" .txt)" "$n4" "$n3" "$ek"
+done | sort -k2 -t= | head -40
+```
+
+Bu tabloyu görmeden kod yazmayın: hangi ailenin kaç ders tuttuğunu bilmek,
+hangi işi yapmaya değeceğini belirler.
+
+- [ ] **Adım 2: Üç parçalı kod için test yaz**
+
+`tests/scripts/test_tymm_pdf_sections.py` içine, gerçek Okul Öncesi kodlarıyla:
+
+```python
+    def test_uc_parcali_kod_taninir(self):
+        sample = "MYB.5.1. Örnek çıktı metni\n   a) Örnek süreç bileşeni.\n"
+        outcomes = parse_outcomes_any(sample, "MYB")
+        self.assertEqual(outcomes[0]["code"], "MYB.5.1")
+        self.assertIsNone(outcomes[0]["unit"])
+```
+
+- [ ] **Adım 3: `parse_outcomes`'ı üç parçalıya aç**
+
+Dört parçalı kodda `unit` ikinci sayıdır; üç parçalıda ÜNİTE YOKTUR. `unit`
+alanı `None` olmalı, uydurulmamalı. Ünite eşlemesi (Görev 2, Adım 2) `None`
+gelince çıktıyı `orphan_outcomes`'a değil, dersin kök düzeyine koymalı;
+aksi hâlde bütün Okul Öncesi çıktıları "boşluk" sayılır.
+
+- [ ] **Adım 4: Ek bölümündeki çıktılar için karar ver**
+
+Türkçe programlarında `EK 1`'in yapısını inceleyin. Ünite/tema bağlamı ekte
+korunuyorsa ayrıştırın; korunmuyorsa çıktıları `unit: null` ile alıp
+`report.gaps`'e "ünite bağlamı ekte yok" notu düşün. **Uydurmayın.**
+
+- [ ] **Adım 5: Yeniden koş ve karşılaştır**
+
+```bash
+python3 scripts/fetch_tymm_ogrenme_ciktilari.py
+python3 scripts/check_tymm_courses.py; echo "çıkış=$?"
+```
+
+Hedef: 79'dan yukarı. 111'in tamamı gerçekçi olmayabilir — bazı derslerin
+(seçmeli müzik, Afet Bilinci gibi) MEB tarafından yayımlanmış kodlu çıktısı
+hiç olmayabilir. Ulaşılan sayı ne olursa olsun, ULAŞILAMAYANLAR `report.gaps`
+içinde ADIYLA durmalı.
+
+- [ ] **Adım 6: Commit**
+
+```bash
+git add scripts/fetch_tymm_ogrenme_ciktilari.py tests/scripts/test_tymm_pdf_sections.py data/tymm/courses
+git commit -m "feat: üç parçalı ve ek bölümündeki çıktı şemaları karşılandı"
+```
+
+---
+
 ## Kapsam dışı
 
 Bu plan yalnız VERİ katmanını üretir. Aşağıdakiler ayrı planlara aittir:
