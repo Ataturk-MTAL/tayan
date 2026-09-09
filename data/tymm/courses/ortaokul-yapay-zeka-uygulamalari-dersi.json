@@ -10,7 +10,7 @@
  },
  "units": [
   {
-   "grade": null,
+   "grade": 1,
    "unit": 1,
    "kind": "TEMA",
    "title": "HAYATIMIZDA YAPAY ZEKÂ",
@@ -28,10 +28,80 @@
     "İÇERİK ÇERÇEVESİ": "Yapay Zekâya Genel Bakış Yapay Zekâ Uygulamalarını Tanıma ve Sınıflandırma Yapay Zekâda Etik",
     "Anahtar Kavramlar": "akıllı sistemler, etik, güvenlik, mahremiyet, nesnelerin interneti, sensör, veri, yapay zekâ"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "YZU1.1.1",
+     "order": 1,
+     "text": "Yapay zekâya ilişkin temel kavramları sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapay zekâya ilişkin temel kavramları tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Yapay zekâya ilişkin temel kavramlar ile ilgili sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Yapay zekâya ilişkin temel kavramlar ile ilgili bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Yapay zekâya ilişkin temel kavramlar ile ilgili toplanan bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Toplanan bilgiler üzerinden çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "YZU1.1.2",
+     "order": 2,
+     "text": "Yapay zekânın uygulamalarını sınıflandırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapay zekâ uygulamalarını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yapay zekâ uygulamalarının çalışma sistemi bileşenlerini ilişkilendirir."
+      },
+      {
+       "label": "c",
+       "text": "Yapay zekâ uygulamalarını alt boyutlara göre gruplandırır."
+      }
+     ]
+    },
+    {
+     "code": "YZU1.1.3",
+     "order": 3,
+     "text": "Yapay zekâya ilişkin etik ve güvenlik-mahremiyet önlemlerini yönetebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapay zekâda etik ve güvenlik/mahremiyet risklerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yapay zekâda etik ve güvenlik/mahremiyet önlemlerini belirler."
+      },
+      {
+       "label": "c",
+       "text": "Yapay zekâda etik ilkelerin ve bilgi güvenliğinin/mahremiyetinin temel bileşenlerini ayırt eder."
+      },
+      {
+       "label": "ç",
+       "text": "Yapay zekâ uygulamalarını etik ilkeler ile güvenlik/mahremiyet açısından değerlendirir."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 1,
    "unit": 2,
    "kind": "TEMA",
    "title": "YAPAY ZEKÂ GELIŞTIRME ORTAMLARI",
@@ -49,10 +119,68 @@
     "İÇERİK ÇERÇEVESİ": "Yapay Zekâ Araçlarını Tanıma ve Kullanma Blok Tabanlı Yapay Zekâ Ortamını Tanıma ve Hazırlama Blok Tabanlı Yapay Zekâ Uygulamalarının Temel Bileşenleri",
     "Anahtar Kavramlar": "blok tabanlı programlama, çıktı, girdi, model bileşenleri"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "YZU1.2.1",
+     "order": 1,
+     "text": "Yapay zekâ teknolojileri ile çalışabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapay zekâ araç ve teknolojilerini amacına uygun olarak belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yapay zekâ araç ve teknolojilerini amacına uygun olarak kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Yapay zekâ araç ve teknolojilerini uygunluk/verimlilik kapsamında değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "YZU1.2.2",
+     "order": 2,
+     "text": "Blok tabanlı yapay zekâ uygulama-geliştirme ortamını hazırlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Blok tabanlı yapay zekâ uygulama-geliştirme ortamlarını tanır."
+      },
+      {
+       "label": "b",
+       "text": "Blok tabanlı yapay zekâ uygulama-geliştirme ortamını belirler."
+      },
+      {
+       "label": "c",
+       "text": "Blok tabanlı yapay zekâ uygulama-geliştirme ortamını düzenler."
+      }
+     ]
+    },
+    {
+     "code": "YZU1.2.3",
+     "order": 3,
+     "text": "Blok tabanlı yapay zekâ uygulama-geliştirme sürecinde kullanılan bileşenlerden yararlanabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Blok tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini tanır."
+      },
+      {
+       "label": "b",
+       "text": "Blok tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Blok tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini değerlendirir."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 1,
    "unit": 3,
    "kind": "TEMA",
    "title": "YAPAY ZEKÂ UYGULAMALARI",
@@ -70,10 +198,57 @@
     "İÇERİK ÇERÇEVESİ": "Yapay Zekâ Modeli Girdilerini Toplama ve Doğrulama Blok Tabanlı Ortamda Yapay Zekâ Modeli Geliştirme",
     "Anahtar Kavramlar": "basit yapay zekâ modeli, problem tanımlama, veri doğrulama, veri kaydetme, veri toplama"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "YZU1.3.1",
+     "order": 1,
+     "text": "Yapay zekâ modeli geliştirmek için bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapay zekâ modeli girdileri için uygun araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yapay zekâ modeli girdileri hakkında bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Yapay zekâ modeli girdilerini doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Yapay zekâ modeli girdilerini kaydeder."
+      }
+     ]
+    },
+    {
+     "code": "YZU1.3.2",
+     "order": 2,
+     "text": "Blok tabanlı ortamda yapay zekâ modeli geliştirme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Blok tabanlı ortamda yapay zekâ modeli için gerçek hayat problemi belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlenen problemin çözümü veya olası risklerin önlenmesi için girdileri kullanarak yapay zekâ modeli oluşturur."
+      },
+      {
+       "label": "c",
+       "text": "Yapay zekâ modelini uygular."
+      },
+      {
+       "label": "ç",
+       "text": "Yapay zekâ modelinin süreç ve sonuçlarını değerlendirir."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 2,
    "unit": 1,
    "kind": "TEMA",
    "title": "HAYATIMIZDA YAPAY ZEKÂ",
@@ -91,10 +266,84 @@
     "İÇERİK ÇERÇEVESİ": "Makine Öğrenmesinde Temel Kavramlar Bulanık Mantığın Temel Kavramlarını Keşfetme Yapay Zekâ Problemlerinde Çözüm Yöntemleri",
     "Anahtar Kavramlar": "bulanık mantık, makine öğrenmesi, mantıksal yaklaşım, örüntü tanıma, tahmin, veri kümesi"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "YZU2.1.1",
+     "order": 1,
+     "text": "Makine öğrenmesine ilişkin temel kavramları sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Makine öğrenmesine ilişkin temel kavramları tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Makine öğrenmesine ilişkin temel kavramlar ile ilgili sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Makine öğrenmesine ilişkin temel kavramlar ile ilgili bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Makine öğrenmesine ilişkin temel kavramlar ile ilgili toplanan bilgilerin doğruluğunu, etik ve güvenlik/mahremiyet açısından uygunluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Toplanan bilgiler üzerinden çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "YZU2.1.2",
+     "order": 2,
+     "text": "Bulanık mantığa ilişkin temel kavramları sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Bulanık mantığa ilişkin temel kavramları tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Bulanık mantığa ilişkin temel kavramlar ile ilgili sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Bulanık mantığa ilişkin temel kavramlar ile ilgili bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Bulanık mantığa ilişkin temel kavramlar ile ilgili toplanan bilgilerin doğruluğunu, etik ve güvenlik/ mahremiyet açısından uygunluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Toplanan bilgiler üzerinden çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "YZU2.1.3",
+     "order": 3,
+     "text": "Yapay zekâ bileşenlerini ayrıştırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapay zekâ bileşenlerini içeren problemi alt problemlere ayırır."
+      },
+      {
+       "label": "b",
+       "text": "Her bir alt problemi uygun yaklaşımlarla çözümler."
+      },
+      {
+       "label": "c",
+       "text": "Alt problemleri bütünsel bir çözüm için birleştirir."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 2,
    "unit": 2,
    "kind": "TEMA",
    "title": "YAPAY ZEKÂ UYGULAMA-GELIŞTIRME ORTAMLARI",
@@ -112,10 +361,49 @@
     "İÇERİK ÇERÇEVESİ": "Metin Tabanlı Yapay Zekâ Uygulama Ortamı Metin Tabanlı Yapay Zekâ Uygulamalarında Bileşenlerle Çalışma",
     "Anahtar Kavramlar": "metin tabanlı programlama, yapay zekâ kütüphaneleri"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "YZU2.2.1",
+     "order": 1,
+     "text": "Metin tabanlı yapay zekâ uygulama-geliştirme ortamını hazırlama",
+     "components": [
+      {
+       "label": "a",
+       "text": "Metin tabanlı yapay zekâ uygulama-geliştirme ortamlarını tanır."
+      },
+      {
+       "label": "b",
+       "text": "Metin tabanlı yapay zekâ uygulama-geliştirme ortamını belirler."
+      },
+      {
+       "label": "c",
+       "text": "Metin tabanlı yapay zekâ uygulama-geliştirme ortamını düzenler."
+      }
+     ]
+    },
+    {
+     "code": "YZU2.2.2",
+     "order": 2,
+     "text": "Metin tabanlı yapay zekâ uygulama-geliştirme sürecinde kullanılan bileşenlerden yararlanabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Metin tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini tanır."
+      },
+      {
+       "label": "b",
+       "text": "Metin tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Metin tabanlı yapay zekâ uygulama-geliştirme süreci bileşenlerini değerlendirir."
+      }
+     ]
+    }
+   ]
   },
   {
-   "grade": null,
+   "grade": 2,
    "unit": 3,
    "kind": "TEMA",
    "title": "YAPAY ZEKÂ UYGULAMALARI",
@@ -133,51 +421,69 @@
     "İÇERİK ÇERÇEVESİ": "Yapay Zekâ Modeli Girdilerini Toplama ve Düzenleme Metin Tabanlı Ortamda Yapay Zekâ Modeli Oluşturma",
     "Anahtar Kavramlar": "model değerlendirme, model eğitme, veri doğrulama, veri işleme, veri kaynağı, veri temizleme"
    },
-   "outcomes": []
-  }
- ],
- "unassigned_outcomes": [
-  {
-   "code": "YZU.1.1.1",
-   "grade": 1,
-   "unit": 1,
-   "order": 1,
-   "text": "Yapay zekâya ilişkin temel kavramları sorgulaya­ bilme Öğrenme yaşantıları sonunda öğrenciye kazan-",
-   "components": [
+   "outcomes": [
     {
-     "label": "a",
-     "text": "Yapay zekâya ilişkin temel kavramları tanımlar. dırılması amaçlanan bilgi,"
+     "code": "YZU2.3.1",
+     "order": 1,
+     "text": "Yapay zekâ modeli geliştirmek için bilgi toplayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yapay zekâ modeli girdileri için uygun araçları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yapay zekâ modeli girdileri hakkındaki bilgileri bulur."
+      },
+      {
+       "label": "c",
+       "text": "Yapay zekâ modeli girdilerini doğrular."
+      },
+      {
+       "label": "ç",
+       "text": "Yapay zekâ modeli girdilerini kaydeder."
+      }
+     ]
     },
     {
-     "label": "b",
-     "text": "Yapay zekâya ilişkin temel kavramlar ile ilgili sorular sorar. beceri ve becerilerin süreç"
-    },
-    {
-     "label": "c",
-     "text": "Yapay zekâya ilişkin temel kavramlar ile ilgili bilgi toplar. bileşenlerini ifade eder."
-    },
-    {
-     "label": "ç",
-     "text": "Yapay zekâya ilişkin temel kavramlar ile ilgili toplanan bilgilerin doğruluğunu değerlendirir."
-    },
-    {
-     "label": "d",
-     "text": "Toplanan bilgiler üzerinden çıkarım yapar. Öğrenme-öğretme sürecinde ele alınan bilgi kümeİÇERİK sini (bölüm-konu-alt konuÇERÇEVESİ Yapay Zekâya Genel Bakış ya ilişkin sınırları) ifade eder. Yapay Zekâ Uygulamalarını Tanıma ve Sınıflandırma Yapay Zekâda Etik Disipline ait başlıca genelAnahtar kavramlar akıllı sistemler, etik, güvenlik, mahremiyet, nesnelerin interneti, leme, ilke, anahtar kavram sensör, veri, yapay zekâ ve sembolleri ifade eder. Öğrenme çıktıları, programlar arası bileşenler arasında kurulan ve anPROGRAMLAR ARASI lamlı ilişkilere dayanan BİLEŞENLERE YÖNELİK öğren­me-öğretme süreciUYGULAMALAR YZU.1.1.1 ni ifade eder. • Öğrencilerin çeşitli fikir ve argümanlara açık olmaları için farklı bakış açılarıyla düşünmeleri teşvik edilir. Örneğin bir öğrenci yapay zekânın insan gibi düşünebileceğini savunurken, bir başkası bunun mümkün olmadığını belir­ terek kendi gerekçelerini ortaya koyabilir (D3.3, SDB3.3). • Öğrencilerin görüşleri alındıktan sonra yapay zekâya ilişkin kısa ve günlük hayattan örnekler verilir (sesli asis­ tanlar, yüz algılama ve tanıma uygulamaları, otonom arabalar vb.). Örneklerdeki yapay zekâ uygulamaları ile nerelerde karşılaştıklarını ve bu uygulamalardan nasıl faydalandıklarını düşünüp ifade etmeleri istenir (SDB1.1). Öğretmen ile programın güçlü ve iyileştirilmesi gereken yönlerinin öğretÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı menlerin kendileri taracihazınıza okutunuz. YANSITMALARI fından değerlendirilmesini ifade eder. ORTAOKUL YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI 2. YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI’NIN DÜZEYLERİ I. DÜZEY"
+     "code": "YZU2.3.2",
+     "order": 2,
+     "text": "Metin tabanlı ortamda yapay zekâ modeli geliştirme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Metin tabanlı ortamda yapay zekâ modeli için gerçek hayat problemi belirler."
+      },
+      {
+       "label": "b",
+       "text": "Belirlenen problemin çözümü veya olası risklerin önlenmesi için girdileri kullanarak yapay zekâ modeli oluşturur."
+      },
+      {
+       "label": "c",
+       "text": "Yapay zekâ modelini uygular."
+      },
+      {
+       "label": "ç",
+       "text": "Yapay zekâ modelinin süreç ve sonuçlarını etik ve güvenlik/mahremiyet açısından uygunluğunu değerlendirir."
+      }
+     ]
     }
    ]
   }
  ],
+ "unassigned_outcomes": [],
  "report": {
   "units": 6,
-  "outcomes": 0,
-  "components": 0,
-  "orphan_outcomes": 1,
+  "outcomes": 15,
+  "components": 56,
+  "orphan_outcomes": 0,
   "gaps": [
    {
     "course": "Yapay Zekâ Uygulamaları Dersi",
-    "reason": "hiçbir ünite bloğunun içinde değil",
+    "reason": "ayrıştırılamayan kod",
     "codes": [
-     "YZU.1.1.1"
+     "YZU.1.1.1",
+     "YZU.1.1.1. Yapay zekâya ilişkin temel kavramları sorgulaya­"
     ]
    }
   ]

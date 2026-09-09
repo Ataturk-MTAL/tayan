@@ -189,7 +189,9 @@ T.Y.5.3. Yazabilme
 
 # Beceri çerçevesinin kodları (D1.1, KB2.8, OB4.3) ÇIKTI DEĞİLDİR. Okul
 # Öncesi belgesinde bunlar çıktı sanılıp ön ek olarak seçilmişti.
-SKILL_CODE_NOISE = """D.1.1. Adalet değeri
+# Gerçek değer kodları YAPIŞIK yazılır (D1.1), noktalı değil. Örnek buna
+# göre düzeltildi; ön ek filtresi yalnız yapışık biçimde geçerli.
+SKILL_CODE_NOISE = """D1.1. Adalet değeri
 MYB.5.1. Motor beceriyi sergileyebilme
    a) Hareketi uygular.
 MYB.5.2. Denge kurabilme
@@ -363,6 +365,54 @@ class GluedPrefixTest(unittest.TestCase):
         self.assertEqual(outcomes[0]["grade"], 1)
         self.assertIsNone(outcomes[0]["unit"])
         self.assertEqual(outcomes[0]["order"], 1)
+        self.assertEqual(len(outcomes[0]["components"]), 1)
+
+
+# Çıktısı hiç çıkarılamayan 3 dersin her biri AYRI bir biçim kullanıyor:
+#   RK2.4.1.    yapışık ön ek + ÜÇ sayı        (Robotik Kodlama)
+#   OB.4.1.     noktalı ön ek, "OB" beceri ön ekiyle ÇAKIŞIYOR (Okuma Becerileri)
+#   TKMT 3.1.   ön ek ile sayı arasında BOŞLUK (Türk Kültür ve Medeniyet Tarihi)
+GLUED_THREE_NUM = """RK2.4.1. Robotik sistemlerle ürün geliştirebilme
+   a) Gereksinimleri belirler.
+RK2.4.2. Ürünü değerlendirebilme
+   a) Ölçütleri karşılar.
+"""
+
+DOTTED_SKILL_COLLISION = """OB.4.1. Okuma bilinci kazanmaya dair çıkarım yapabilme
+   a) Kitabın amacına uygunluğu hakkında varsayımda bulunur.
+OB.4.2. Okuma planı yapabilme
+   a) Haftalık plan hazırlar.
+"""
+
+SPACED_PREFIX = """TKMT 3.1. Türklerde eğitim alanındaki değişimi sorgulayabilme
+   a) Merak ettiği konuları belirler.
+TKMT 3.2. Bilim alanındaki gelişmeleri açıklayabilme
+   a) Kaynakları inceler.
+"""
+
+
+class RemainingSchemeTest(unittest.TestCase):
+    def test_yapisik_uc_sayili_ayristirilir(self):
+        prefixes, scheme = detect_scheme(GLUED_THREE_NUM)
+        outcomes = parse_outcomes(GLUED_THREE_NUM, prefixes, scheme)
+        self.assertEqual(len(outcomes), 2)
+        self.assertEqual(outcomes[0]["code"], "RK2.4.1")
+        self.assertEqual(len(outcomes[0]["components"]), 1)
+
+    def test_noktali_on_ek_beceri_adiyla_cakissa_da_bulunur(self):
+        # "OB" hem Okuryazarlık Becerileri seti hem Okuma Becerileri dersi.
+        # Beceri kodları YAPIŞIK yazılır (OB4.3), ders kodu NOKTALI (OB.4.1);
+        # biçim onları zaten ayırıyor, ön ek filtresi noktalıya uygulanmamalı.
+        prefixes, scheme = detect_scheme(DOTTED_SKILL_COLLISION)
+        outcomes = parse_outcomes(DOTTED_SKILL_COLLISION, prefixes, scheme)
+        self.assertEqual(len(outcomes), 2)
+        self.assertEqual(outcomes[0]["code"], "OB.4.1")
+
+    def test_bosluklu_on_ek_ayristirilir(self):
+        prefixes, scheme = detect_scheme(SPACED_PREFIX)
+        outcomes = parse_outcomes(SPACED_PREFIX, prefixes, scheme)
+        self.assertEqual(len(outcomes), 2)
+        self.assertEqual(outcomes[0]["code"], "TKMT3.1")
         self.assertEqual(len(outcomes[0]["components"]), 1)
 
 

@@ -1,0 +1,304 @@
+{
+ "course": {
+  "id": 80,
+  "name": "Okuma Becerileri Dersi",
+  "slug": "ortaokul-okuma-becerileri-dersi",
+  "prefix": "OB",
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/okuma-becerileri-dersi_20260819_073100_538.pdf"
+ },
+ "units": [
+  {
+   "grade": 1,
+   "unit": 1,
+   "kind": "ÖĞRENME ALANI",
+   "title": "OKUMA SÜREÇLERİ",
+   "description": "Bu öğrenme alanında öğrencilerin metni doğru, uygun hızda, vurgu ve tonlamaya dikkat ederek anlamını bozmadan okumaları; bilgilendirici, kurgusal ve şiir türündeki metinleri akıcı bir şekilde seslendirmeleri amaçlanmaktadır. Öğrencilerin okudukları metinlerin ana düşüncesini ve yardımcı düşüncelerini belirlemeleri, metinler arasında bağlantılar kurmaları, çıkarım yapmaları, bilgiyi yorumlayarak eleştirel değerlendirmelerde bulunmaları amaçlanmaktadır.",
+   "lesson_hours": 20,
+   "sections": {
+    "ALAN BECERİLERİ": "Anlama TAB2. Okuma (TAB2.2. Anlam Oluşturma) KAVRAMSAL KB2.4. Çözümleme, KB2.8. Sorgulama, KB2.15. Yansıtma BECERİLER",
+    "EĞİLİMLER": "E1.1. Merak, E3.1. Muhakeme, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.3. Kendine Uyarlama (Öz Yansıtma), Öğrenme Becerileri SDB2.1. İletişim, SDB2.3. Sosyal Farkındalık",
+    "Değerler": "D1. Adalet, D3. Çalışkanlık, D5. Duyarlılık, D6. Dürüstlük, D9. Merhamet, D12. Sabır, D14. Saygı",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB5. Kültür Okuryazarlığı DİSİPLİNLER ARASI Türkçe, Sosyal Bilgiler, Müzik, Görsel Sanatlar",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.9. Genelleme, KB2.18. Tartışma, TAB1. Dinleme/İzleme, TAB4. Yazma ORTAOKUL OKUMA BECERİLERİ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "OB.1.1. Akıcı okuma sürecini yansıtabilme a) Metindeki duyguya, telaffuza ve hıza uygun şekilde okuma deneyimini gözden geçirir. b) Metni vurgu, tonlama ve duraklara dikkat ederek okuma deneyimine dayalı çıkarım yapar. c) Sesli okuma sürecinde ulaştığı çıkarımları değerlendirir. OB.1.2. Okuduğu metinden hareketle anlam oluşturabilme a) Okuduğu metindeki bilgiler ile ön bilgileri arasında bağlantı kurar. b) Okuduğu metnin öncesi ve sonrasını tahmin eder. c) Okuduğu metnin içeriği hakkında çıkarım yapar. ç) Metnin öncesi ve sonrası hakkında yaptığı çıkarımları metinle etkileşim sonrasında karşılaştırır. d) Okuduğu metindeki iletileri sınıflandırır. e) Okuduğu metnin konusuna, ana fikrine/ana duygusuna dair tepki verir. OB.1.3. Söz varlığını sorgulayabilme a) Metnin bağlamından kopmadan anlamını bilmediği sözcükleri tanımlar. b) Sözcüklerin ve söz varlıklarının anlam üzerindeki etkisi üzerine sorular sorar. c) Metinde kullanılan sözcük, deyim ve atasözlerinin anlamları ile ilgili bilgi toplar. ç) Yeni öğrenilen sözcüklerin, deyim ve atasözlerinin doğruluğunu değerlendirir. d) Sözcüklerin eş, zıt, mecaz, yakın anlamlıları ve/veya eş seslileri, yineleme ve pekiştirme sözcükleri üzerine topladığı bilgilerden çıkarım yapar. OB.1.4. Metni çözümleyebilme a) Metnin bölümlerine ilişkin parçaları belirler. b) Metinden yola çıkarak metnin parçaları arasındaki ilişkiyi belirler.",
+    "İÇERİK ÇERÇEVESİ": "Akıcı Okuma Anlam Kurma Söz Varlığını Geliştirme Metnin Yapısını ve İlişkilerini Çözümleme",
+    "Anahtar Kavramlar": "akıcı okuma, ana duygu, ana fikir, anlam oluşturma, bağlam, çıkarım, ileti, metin yapısı, okuma stratejisi, söz varlığı ÖĞRENME Öğrenme kanıtlarını belirlemede kullanılabilecek ölçme araçları şunlardır: gözlem formKANITLARI ları, kontrol listeleri, rubrikler, akran ve öz değerlendirme formları, performans görevleri, (Ölçme ve okuma günlüğü/portfolyo ve ürün dosyası değerlendirmesi, dijital değerlendirme araçları. Değerlendirme) Performans görevi olarak öğrencilerden seçtikleri bir metni akıcı okuma ilkelerine uygun biçimde okuyarak metnin ana fikrini/ana duygusunu, vermek istediği mesajı ve varsa dikkat çeken söz varlığı unsurlarını ortaya koyan bir okuma inceleme dosyası, poster veya dijital afiş hazırlamaları istenebilir. Performans görevi; bütüncül dereceli puanlama anahtarı, kontrol listesi, gözlem formu, ürün dosyası değerlendirmesi gibi araçlarla değerlendirilebilir. ORTAOKUL OKUMA BECERİLERİ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin akıcı okuma, metinden temel düzeyde anlam oluşturma, söz varlığını bağlamdan hareketle anlamlandırma ve metnin temel yapı unsurlarını belirlemeye yönelik becerilere sahip oldukları kabul edilmektedir. Ön Değerlendirme Öğrencilere bir metin okutularak doğru telaffuz, uygun okuma hızı, vurgu, tonlama ve duSüreci raklara dikkat etme durumları gözlemlenebilir. Öğrencilere metnin başlığı, görseli veya giriş bölümü sunularak metnin konusu, içeriği ve devamı hakkında tahminlerde bulunmaları istenebilir. Okuma sonrasında yaptıkları tahminleri metinle karşılaştırmaları sağlanabilir. Metinde anlamı bilinmeyen sözcük, deyim ve atasözleri belirlenerek öğrencilerden bunların anlamlarını bağlamdan hareketle tahmin etmeleri ve hangi ipuçlarından yararlandıklarını açıklamaları beklenebilir. Öğrencilere kısa bir metin verilerek metnin bölümlerini belirlemeleri, metindeki olay, düşünce veya bilgiler arasındaki ilişkilere yönelik görüşlerini paylaşmaları istenebilir. Köprü Kurma Öğretmen, öğrencilerin akıcı okuma yaparken nelere dikkat edilmesi gerektiğini önceki derslerden hatırlamalarını isteyebilir. Okuma sırasında akıcı okumayı etkileyecek unsurlara dikkat ederek okumaları istenebilir. Diğer derslerden okudukları metinle ilgili neleri tahmin ettikleri, tahminlerinin sonuçlarını karşılaştırma gibi etkinlikler hatırlatılabilir. Metindeki iletinin anlam oluşturma sürecine katkısı tartışılabilir. Sözcük, deyim ve atasözleri üzerinde öğrencilerle tartışılarak bunların anlamlarını bağlamdan tahmin etmeleri sağlanabilir. Daha sonra sözcüklerin anlamlarının (yan anlam, mecaz anlam, terim anlamı vb.) metnin anlamını nasıl etkilediği üzerine tartışma yapılabilir. Aynı düşüncenin farklı sözcüklerle nasıl ifade edilebildiği konusunda öğrencilerin çıkarım yapmaları sağlanabilir. Öğrencilerin metnin bölümleri ile metindeki olay, düşünce veya bilgiler arasındaki ilişkiler üzerine yaptıkları belirlemelerden hareketle metnin bir bütün olarak nasıl yapılandırıldığı üzerinde durulabilir. Metnin bölümleri arasındaki ilişkinin anlamın oluşmasına katkısı üzerinde geçmiş deneyimleri üzerine tartışmaları sağlanabilir. Öğrenme-Öğretme OB.1.1 Uygulamaları Sesli okuma esnasında metni duyguya, telaffuza ve hıza (anlaşılabilir ve uygun hız) dikkat ederek okuma deneyimini gözden geçirmesi beklenir (SDB2.1). Sesli okuma çalışmaları sırasında öğrencinin farklı duygu ve düşünceleri anlamaya çalışması, başkalarının görüşlerine saygı göstermesi ve etkili iletişim kurması desteklenir (D14.1). Öğrenciden metni vurgu, tonlama, duraklara dikkat ederek okuma deneyimine dayalı çıkarım yapması ve sesli okuma sürecindeki çıkarımlarını değerlendirmesi istenir (E3.1). Metindeki duyguyu sesli okuma sırasında yansıtması vurgulanır (SDB1.3). Öğrencinin sesli okuma performansına yönelik kendini değerlendirmesi beklenir (E3.1, SDB1.1). Öğrenciden dinlediği ve/veya izlediği içeriklerden elde ettiği bilgilerle okuduğu metinler arasında ilişki kurması, farklı kaynaklardan ulaştığı bilgileri değerlendirmesi ve bu bilgileri anlamlandırarak kullanması beklenir (TAB1). Bu süreç öz değerlendirme ile değerlendirilebilir. ORTAOKUL OKUMA BECERİLERİ DERSİ ÖĞRETİM PROGRAMI OB.1.2 Öğrencinin okuduğu metindeki bilgiler ile ön bilgileri arasında bağ kurması sağlanır (E3.1, SDB1.1, OB1). Öğrenciden metni okumadan önce ve okuma sırasında oluşturduğu tahmin ve çıkarımları, metnin tamamını okuduktan sonra metinde sunulan bilgilerle karşılaştırması beklenir (E3.1). Öğrencinin metni anlamlandırma sürecinde aceleci yargılardan kaçınması, farklı anlam ihtimallerini değerlendirmesi ve çıkarımlarını sabırla gözden geçirmesi teşvik edilir (E3.1, D12.2). Metindeki iletileri (açık ve örtük) sınıflandırması istenir (E3.2). Okuduğu metnin konusunun, ana fikrinin/ana duygusunun bulunmasına dair etkinlikler üzerinden tepki vermesi istenir (E3.2). Öğrencinin belirlediği ana fikri/ana duyguyu küçük gruplarda tartışarak ortak bir sonuca ulaşması istenir (SDB2.1). Öğrencinin okuduğu metni kendi cümleleriyle özetlemesi sağlanır (E3.1, E3.2). Öğrencinin okuduğu metne ilişkin değerlendirmelerini, özetlerini ve çıkarımlarını yazılı olarak ifade etmesi beklenir (TAB4). Öğrencinin metinde yer alan kişi, olay ve durumları değerlendirirken farklı bakış açılarını dikkate alması, adaletli ve ön yargısız değerlendirmeler yapması teşvik edilir (SDB2.3, D1.2). Öğrenciden metne ilişkin çıkarımlarını arkadaşlarıyla paylaşması, farklı yorumları karşılaştırması beklenir (SDB2.1). Öğrencinin duygu ve düşüncelerini anlamlandırma sürecinde metinlerde yer verilmesi doğrultusunda insanlara ve diğer canlılara yönelik duyarlılık geliştirmesi ve merhametli davranmanın önemini fark etmesi sağlanır (SDB2.3, D5.2, D9.3). Bu süreç kontrol listesiyle değerlendirilebilir. OB.1.3 Okuma sırasında metnin bağlamından kopmadan metin üzerinden anlamını bilmediği sözcükleri seçerek tanımlaması istenir (E1.1, SDB1.1, OB1). Okuma sırasında belirlenen ve anlamı bilinmeyen sözcüklerin, deyim ve atasözlerinin anlamına dair bilgi toplaması istenir (SDB1.1, OB1, OB5). Tahminler üzerinde tartışıldıktan sonra öğrenciden sözcüğün, deyimlerin ve atasözlerinin metin içindeki anlamlarını dijital veya basılı sözlüklerden bulması beklenir (E1.1, OB2, OB5, KB2.18). Öğrenciden yeni öğrenilen sözcüklerin, deyim ve atasözlerinin doğruluğunu değerlendirmesi beklenir. Yeni öğrendiği sözcükleri, deyim ve atasözlerini cümle içerisinde kullanması istenir (OB1). Öğrencinin bilgi edinme sürecinde güvenilir kaynaklara yönelmesi, akademik dürüstlük ilkesine uygun davranması ve elde ettiği bilgileri etik biçimde kullanması desteklenir (D3.3, D6.2). Öğrenciden sözcüklerin eş, zıt, mecaz, yakın anlamlıları ve/veya eş seslileri, yineleme ve pekiştirme sözcükleri üzerine topladığı bilgilerden çıkarım yapması istenir (OB1). Çıkarımlarından hareketle öğrencinin verilen sözcük gruplarının yerine metinden hareketle uygun yeni sözcükler veya söz grupları yazması beklenir (E3.1, D3.3). Sözcüklerin ve söz varlıklarının anlam üzerindeki etkisi üzerine sorular sorması istenir. Öğrencinin sözcüklerin ve söz varlıklarının metnin anlamı üzerindeki etkisini konuşması sağlanır (E3.1, SDB2.1). Bu süreç ürün dosyası ile değerlendirilebilir. OB.1.4 Öğrenciden metnin bölümlerine (giriş, gelişme, sonuç veya serim, düğüm, çözüm) ilişkin parçaları belirlemesi istenir (E3.1). Metnin bölümleri (giriş, gelişme, sonuç veya serim, düğüm, çözüm) arasındaki ilişkiyi belirlemesi sağlanır (E3.2, KB2.9). Bu ilişkiden yola çıkarak metnin bölümleri hakkında çıkarımlarda bulunması istenir (E3.1). Parçalar arası ilişkileri bulurken olay örgüsü, kişiler, yer ve zaman ögelerini etkinlikler üzerinden bulması teşvik edilir (E3.2). Performans görevi olarak öğrenciden seçtiği bir metni akıcı okuma ilkelerine uygun biçimde okuyarak metnin ana fikrini/ana duygusunu, vermek istediği mesajı ve varsa dikkat çeken söz varlığı unsurlarını ortaya koyan bir okuma inceleme dosyası, poster veya dijital afiş hazırlaması istenebilir. Performans görevi; öğretmen tarafından bütüncül dereceli puanlama anahtarı, kontrol listesi, gözlem formu, ürün dosyası değerlendirmesi gibi araçlarla değerlendirilebilir. ORTAOKUL OKUMA BECERİLERİ DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerin hazır bulunuşluk düzeyleri, ilgi alanları ve öğrenme stilleri dikkate alınarak farklı tür ve güçlük düzeyindeki metinlerle akıcı okuma ve anlam kurma çalışmaları yapılabilir. Anlam kurma süreciyle ilgili üst düzey düşünme becerisini destekleyecek farklı stratejiler kullanılabilir. Akıcı okuma becerileri gelişmiş öğrencilerden; okudukları metni farklı bir karakterin bakış açısıyla yeniden yorumlamaları, metindeki duygu değişimlerini belirlemeleri veya aynı temayı işleyen farklı metinleri karşılaştırmaları istenebilir. Destekleme Öğrencilerin hazır bulunuşluk düzeyleri, ilgi alanları ve öğrenme stilleri dikkate alınarak metinler uzunluk, dil ve içerik bakımından sadeleştirilebilir. Akıcı okuma sürecini desteklemek amacıyla metinler anlamlı parçalara ayrılabilir. İhtiyaç duyan öğrencilerin metni anlamalarını desteklemek amacıyla rehberli okuma, eşli okuma, anahtar sözcükleri işaretleme ve görsellerden yararlanarak tahminde bulunma çalışmaları yaptırılabilir. Model okuma, eşli okuma, tekrar okuma, yönlendirici sorular sözcük kartları gibi etkinliklerden yararlanılabilir. Etkinlikler sırasında öğrencilerin ihtiyaç duydukları durumlarda ipuçları, geri bildirimler ve bireysel rehberlik sağlanabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. ORTAOKUL OKUMA BECERİLERİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OB.1.1",
+     "order": 1,
+     "text": "Akıcı okuma sürecini yansıtabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Metindeki duyguya, telaffuza ve hıza uygun şekilde okuma deneyimini gözden geçirir."
+      },
+      {
+       "label": "b",
+       "text": "Metni vurgu, tonlama ve duraklara dikkat ederek okuma deneyimine dayalı çıkarım yapar."
+      },
+      {
+       "label": "c",
+       "text": "Sesli okuma sürecinde ulaştığı çıkarımları değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "OB.1.2",
+     "order": 2,
+     "text": "Okuduğu metinden hareketle anlam oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Okuduğu metindeki bilgiler ile ön bilgileri arasında bağlantı kurar."
+      },
+      {
+       "label": "b",
+       "text": "Okuduğu metnin öncesi ve sonrasını tahmin eder."
+      },
+      {
+       "label": "c",
+       "text": "Okuduğu metnin içeriği hakkında çıkarım yapar."
+      },
+      {
+       "label": "ç",
+       "text": "Metnin öncesi ve sonrası hakkında yaptığı çıkarımları metinle etkileşim sonrasında karşılaştırır."
+      },
+      {
+       "label": "d",
+       "text": "Okuduğu metindeki iletileri sınıflandırır."
+      },
+      {
+       "label": "e",
+       "text": "Okuduğu metnin konusuna, ana fikrine/ana duygusuna dair tepki verir."
+      }
+     ]
+    },
+    {
+     "code": "OB.1.3",
+     "order": 3,
+     "text": "Söz varlığını sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Metnin bağlamından kopmadan anlamını bilmediği sözcükleri tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "Sözcüklerin ve söz varlıklarının anlam üzerindeki etkisi üzerine sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Metinde kullanılan sözcük, deyim ve atasözlerinin anlamları ile ilgili bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Yeni öğrenilen sözcüklerin, deyim ve atasözlerinin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Sözcüklerin eş, zıt, mecaz, yakın anlamlıları ve/veya eş seslileri, yineleme ve pekiştirme sözcükleri üzerine topladığı bilgilerden çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "OB.1.4",
+     "order": 4,
+     "text": "Metni çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Metnin bölümlerine ilişkin parçaları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Metinden yola çıkarak metnin parçaları arasındaki ilişkiyi belirler."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 2,
+   "unit": 2,
+   "kind": "ÖĞRENME ALANI",
+   "title": "STRATEJİK OKUMA",
+   "description": "Bu öğrenme alanında öğrencilerin okudukları metinlerden güvenilir ve doğru bilgiye ulaşmaları, bilgiyi sorgulayıp farklı kaynaklarla karşılaştırmaları, analiz ederek anlamlandırmaları ve yeni öğrenmeleriyle ilişkilendirmeleri amaçlanmaktadır. Öğrencilerin grafik, tablo, harita, resim, afiş gibi görsel unsurları çözümleyerek bunları metinlerle ilişkilendirmeleri, anlam oluşturmada ve yorumlamada etkili biçimde kullanmaları amaçlanmaktadır.",
+   "lesson_hours": 17,
+   "sections": {
+    "ALAN BECERİLERİ": "Anlama TAB2. Okuma (TAB2.1. Okumayı Yönetme) KAVRAMSAL KB2.4. Çözümleme BECERİLER",
+    "EĞİLİMLER": "E1.1. Merak, E1.6. Seçicilik, E3.1. Muhakeme, E3.2. Odaklanma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB2.1. İletişim Öğrenme Becerileri",
+    "Değerler": "D3. Çalışkanlık, D7. Estetik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB7. Veri Okuryazarlığı DİSİPLİNLER ARASI Türkçe, Sosyal Bilgiler, Müzik, Görsel Sanatlar",
+    "İLİŞKİLER": "BECERİLER ARASI TAB3. Konuşma ORTAOKUL OKUMA BECERİLERİ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "OB.2.1. Okuma amacına dayalı olarak okumayı yönetebilme a) Okuduğu metinde yer alan verileri inceleyerek bilgi edinmek amacıyla kullanacağı kaynakla ilgili görüş oluşturur. b) Metne uygun okuma yöntemi, tekniği veya stratejileri ile ilgili seçim yapar. OB.2.2. Metin ve görsel arasındaki ilişkiyi çözümleyebilme a) Metin ile görsel arasındaki nesne, olgu ve olaylara ilişkin parçaları belirler. b) Görselden hareketle metnin içeriği, başlığı, konusu, ana fikri/ana duygusu arasındaki ilişkileri belirler.",
+    "İÇERİK ÇERÇEVESİ": "Bilgiye Dayalı Okuma Görselle Anlam Kurma",
+    "Anahtar Kavramlar": "bilgi, bilgi kaynağı, bilgiye dayalı okuma, görsel okuma, görselle anlam kurma, okuma amacı, okuma stratejisi, veri okuryazarlığı ÖĞRENME Öğrenme kanıtlarını belirlemede kullanılabilecek ölçme araçları şunlardır: gözlem formları, KANITLARI kontrol listeleri, rubrikler, akran ve öz değerlendirme formları, performans görevleri, ürün (Ölçme ve dosyası değerlendirmesi ve dijital değerlendirme araçları. Değerlendirme) Performans görevi olarak öğrencilerden belirledikleri bir araştırma konusuna uygun bilgi kaynaklarını seçmeleri, seçtikleri kaynaklardaki metin ve görsellerden elde ettikleri bilgileri düzenleyerek bilgi notu, kavram haritası, bilgi görseli veya dijital sunu hazırlamaları istenebilir. Performans görevi; bütüncül dereceli puanlama anahtarı, kontrol listesi, gözlem formu, ürün dosyası değerlendirmesi gibi araçlarla değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin diğer derslerde veya çevrimiçi ortamlarda bilgi edinmek amacıyla okuma yaptıkları, bu okumalarında yer alan görsellerle veya metinden bağımsız olarak anlam kurdukları kabul edilmektedir. Ön Değerlendirme Öğrencilere bir araştırma konusu verilerek bilgi edinmek amacıyla hangi kaynakları kullaSüreci nabileceklerini ve bu kaynakları seçme nedenlerini açıklamaları istenebilir. Öğrencilere afiş, grafik, harita, fotoğraf veya bilgi görseli gibi bir içerik sunularak görselden elde edebilecekleri bilgileri ve görselin vermek istediği mesajı açıklamaları istenebilir. Köprü Kurma Öğrencilerden günlük yaşamda bilgi edinmek amacıyla kullandıkları kaynaklara örnek vermeleri istenebilir. Bilgi kaynağı seçiminin okuma amacına göre değişebileceği üzerinde durulabilir. Öğrencilerden daha önce karşılaştıkları afiş, grafik, harita veya bilgi görselinden edindikleri bilgileri paylaşmaları istenebilir. Görsellerin bilgiye ulaşma ve anlam kurma sürecindeki katkısı fark ettirilebilir. Öğrenme-Öğretme OB.2.1 Uygulamaları Öğrenciden metinde yer alan verileri inceleyerek bilgi edinmek amacıyla kullanacağı kaynakla ilgili görüş oluşturması beklenir. Öğrencinin metnin konusu hakkında daha ayrıntılı bilgi edinmek amacıyla kullanılabilecek basılı ve çevrim içi kaynakları belirlemesi, bu kaynakların güvenilirliğini değerlendirerek tercihine ilişkin yorumda bulunması istenir (SDB2.1). ORTAOKUL OKUMA BECERİLERİ DERSİ ÖĞRETİM PROGRAMI Öğrenciden seçtiği bilgi kaynaklarını sınıf arkadaşlarıyla karşılaştırarak tercih gerekçelerini arkadaşlarıyla paylaşması beklenir. Öğrencinin bilgi edinme sürecinde güvenilir kaynaklara yönelmesi, akademik dürüstlük ilkesine uygun davranması ve elde ettiği bilgileri etik biçimde kullanması desteklenir (D3.3, OB1). Metne uygun okuma yöntemi, tekniği veya stratejileri (sesli, sessiz, göz atarak, özetleyerek, not alarak, tahmin ederek, eleştirel, metinlerle ilişkilendirerek, bağlamından hareketle, düşünsel okuma vb.) ile ilgili seçim yapması sağlanır. Seçtiği yöntem, teknik veya stratejiye göre metni okuması istenir (E1.6). Bu süreç öz değerlendirme ile gerçekleştirilebilir. OB.2.2 Öğrenciden metin ve görseli birlikte inceleyerek görselde yer alan nesne, olgu ve olayların metindeki hangi bilgi veya anlatımla ilişkili olduğunu belirlemesi; bu ögeler arasındaki anlam ilişkisini açıklaması istenir (SDB1.1, OB4). Bu parçalardan yola çıkarak öğrencinin görseldeki unsurlar üzerinden metin hakkında çıkarımlar yapması teşvik edilir (E1.1, D7.1). Öğrencinin okuduğu metinde yer alan görseli veya verileri incelemesi sağlanır. Metnin başlığı incelenerek başlık ve görsel arasındaki uyum hakkında öğrencinin konuşması sağlanır (SDB2.1). Öğrencinin okuduğu metne ilişkin duygu ve düşüncelerini gerekçeleriyle sözlü veya yazılı olarak ifade etmesi, farklı görüşleri dinleyerek tartışmalara katılması beklenir (TAB3). Öğrenciden görselden hareketle metnin konusu hakkında tahminlerde bulunması istenir (OB4). Öğrencinin metnin konusunu bulduktan sonra ana fikir/ana duygu hakkında tahminlerde bulunması beklenir. Bu tahminden hareketle öğrencinin metin ile görsel arasındaki ilişkiyi belirlemesi sağlanır (E3.1). Metin ve görsel arasındaki ilişkiyi belirlerken görsel, tablo, grafik veya şemadaki verileri metin doğrultusunda yorumlaması istenir (E3.10, OB4, OB7). Öğrencinin görsellerin ve/veya metinlerin estetik özelliklerini incelemesi, metinlerde yer verildiği doğrultuda sanatın ve estetik unsurların anlam oluşturmadaki katkısını değerlendirmesi sağlanır ve görsel hakkında çıkarımlar yapması teşvik edilir (D7.1). Öğrenciden değerlendirmesinden hareketle görselde yer alan iletiyi yorumlaması ve görsel üzerinden tahmin yürüterek çıkarımlarda bulunması istenir. Çıkarımlarından hareketle alternatif görseller oluşturması teşvik edilir (E3.2, OB4). Performans görevi olarak öğrenciden belirlediği bir araştırma konusuna uygun bilgi kaynaklarını seçmesi, seçtiği kaynaklardaki metin ve görsellerden elde ettiği bilgileri düzenleyerek bilgi notu, kavram haritası, bilgi görseli veya dijital ortamda sunu hazırlaması istenebilir. Performans görevi; öğretmen tarafından bütüncül dereceli puanlama anahtarı, kontrol listesi, gözlem formu ve ürün dosyası değerlendirmesi gibi araçlarla değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerin hazır bulunuşluk düzeyleri, ilgi alanları ve öğrenme ihtiyaçları dikkate alınarak aynı konuya ilişkin farklı bilgi kaynaklarıyla öğretmen rehberliğinde inceleme çalışmaları yaptırılabilir. Öğrencilerden metin, tablo, grafik, harita, bilgi görseli ve diğer görsellerden elde ettikleri bilgileri karşılaştırmaları; bu bilgilerden hareketle araştırma soruları oluşturmaları ve ulaştıkları sonuçları kavram haritası, tablo veya bilgi görseli hâlinde düzenlemeleri istenebilir. İleri düzeydeki öğrencilerden aynı konuya ilişkin güvenilir basılı ve dijital kaynakları karşılaştırarak bilgilerin doğruluğunu değerlendirmeleri ve ulaştıkları sonuçları sınıfta sunmaları beklenebilir. Öğrenme ortamları öğrencilerin bireysel ve iş birlikli araştırma yapmalarını destekleyecek şekilde düzenlenebilir. Kütüphaneler, güvenilir dijital bilgi kaynakları ve etkileşimli görsel materyallerden yararlanılabilir. ORTAOKUL OKUMA BECERİLERİ DERSİ ÖĞRETİM PROGRAMI Destekleme Öğrencilerin hazır bulunuşluk düzeyleri, ilgi alanları ve öğrenme stilleri dikkate alınarak metin ve görseller sadeleştirilerek sunulabilir. Bilgiye ulaşma süreci aşamalı yönergelerle desteklenebilir; anahtar sözcükler, görsel ipuçları ve grafik düzenleyiciler kullanılabilir. Öğrencilerin çıkarım yapmalarını kolaylaştırmak amacıyla yönlendirici sorular, ipucu cümleleri, kavram haritaları ve metindeki önemli bilgileri belirlemeye yönelik çalışmalar kullanılabilir. Bilgi eşleştirme, görsel yorumlama, yönlendirici sorular ve küçük grup çalışmaları gibi etkinliklerden yararlanılabilir. Etkinlikler sırasında öğrencilerin ihtiyaç duydukları durumlarda kaynak seçimi, okuma stratejisi belirleme ve bilgiyi düzenleme süreçlerine yönelik ipuçları ve bireysel rehberlik sağlanabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. ORTAOKUL OKUMA BECERİLERİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OB.2.1",
+     "order": 1,
+     "text": "Okuma amacına dayalı olarak okumayı yönetebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Okuduğu metinde yer alan verileri inceleyerek bilgi edinmek amacıyla kullanacağı kaynakla ilgili görüş oluşturur."
+      },
+      {
+       "label": "b",
+       "text": "Metne uygun okuma yöntemi, tekniği veya stratejileri ile ilgili seçim yapar."
+      }
+     ]
+    },
+    {
+     "code": "OB.2.2",
+     "order": 2,
+     "text": "Metin ve görsel arasındaki ilişkiyi çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Metin ile görsel arasındaki nesne, olgu ve olaylara ilişkin parçaları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Görselden hareketle metnin içeriği, başlığı, konusu, ana fikri/ana duygusu arasındaki ilişkileri belirler."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 3,
+   "unit": 3,
+   "kind": "ÖĞRENME ALANI",
+   "title": "DİJİTAL VE ÇEVRİM İÇİ OKUMA",
+   "description": "Bu öğrenme alanında öğrencilerin ekran temelli (bilgisayar, tablet, telefon vb.) metinleri etkili biçimde okuyup anlamlandırma, çevrim içi bilgiye ulaşma ve doğruluğunu kontrol etme, dijital okuryazarlık kapsamında bilgi kirliliğini ayırt etme ve güvenilir kaynak seçme davranışlarını ortaya koymaları amaçlanmaktadır.",
+   "lesson_hours": 17,
+   "sections": {
+    "ALAN BECERİLERİ": "Anlama TAB2. Okuma (TAB2.1. Okumayı Yönetme, TAB2.2. Anlam Oluşturma) KAVRAMSAL BECERİLER",
+    "EĞİLİMLER": "E2.2. Sorumluluk, E3.1. Muhakeme",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), Öğrenme Becerileri SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim",
+    "Değerler": "D3. Çalışkanlık, D8. Mahremiyet, D14. Saygı",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık DİSİPLİNLER ARASI Türkçe, Sosyal Bilgiler, Müzik, Görsel Sanatlar",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.18. Tartışma, TAB3. Konuşma ORTAOKUL OKUMA BECERİLERİ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "OB.3.1. Çevrim içi okumayı yönetebilme a) Dijital kaynaktan doğru anahtar sözcükleri bularak inceler ve incelediği sözcüklere dair görüş oluşturur. b) Okuma amacına uygun güvenilir ve doğru dijital kaynaklara dair seçim yapar. OB.3.2. Dijital bilgi üzerinden anlam oluşturabilme a) Dijital kaynaktan elde ettiği bilgilerle ön bilgileri arasında bağlantı kurar. b) Dijital kaynaktan elde ettiği bilgilerin içeriğine ilişkin tahminde bulunur. c) Dijital kaynaktan elde ettiği bilgiler üzerinden çıkarım yapar. ç) Farklı dijital kaynaklardan elde ettiği bilgileri karşılaştırır. d) Dijital kaynaktan elde ettiği bilgileri belirlenen ölçütlere göre sınıflandırır. e) Dijital kaynaktan elde ettiği bilgiler ile ilgili tepki verir.",
+    "İÇERİK ÇERÇEVESİ": "Çevrim İçi Okuma Dijital Kaynak Seçimi Dijital Bilgiyle Anlam Oluşturma",
+    "Anahtar Kavramlar": "anahtar sözcük, çevrim içi okuma, çıkarım, dijital bilgi, dijital kaynak, güvenilir kaynak, okuma amacı, doğrulama ÖĞRENME Öğrenme kanıtlarını belirlemede kullanılabilecek ölçme araçları şunlardır: gözlem formları, KANITLARI kontrol listeleri, rubrikler, akran ve öz değerlendirme formları, performans görevleri, ürün (Ölçme ve dosyası değerlendirmesi ve dijital değerlendirme araçları. Değerlendirme) Performans görevi olarak öğrencilerden belirledikleri bir konuya ilişkin uygun anahtar sözcükleri kullanarak güvenilir dijital kaynaklara ulaşmaları, elde ettikleri sonuçları dijital sunu, bilgi görseli veya bilgi notu hâlinde paylaşmaları istenebilir. Performans görevi; bütüncül dereceli puanlama anahtarı, kontrol listesi, gözlem formu ve ürün dosyası değerlendirmesi gibi araçlarla değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin dijital ortamlarda temel düzeyde bilgi arama, dijital kaynakları kullanma ve dijital içeriklerden bilgi edinmeye yönelik becerilere sahip oldukları kabul edilmektedir. Ön Değerlendirme Öğrencilere bir araştırma konusu verilerek dijital ortamda hangi anahtar sözcükleri kullaSüreci narak bilgi arayabileceklerini açıklamaları istenebilir. Öğrencilere aynı konuya ilişkin farklı dijital kaynaklar sunularak bilgi edinmek amacıyla hangi kaynağı tercih edeceklerini ve tercih nedenlerini belirtmeleri istenebilir. Öğrencilere dijital ortamdan elde edilen kısa bilgiler verilerek bu bilgileri ön bilgileriyle ilişkilendirmeleri istenebilir. Öğrencilere aynı konuya ilişkin iki farklı dijital içerik sunularak bu içerikleri benzerlik ve farklılıkları bakımından karşılaştırmaları, bilgileri gruplandırmaları ve içeriklere ilişkin görüşlerini paylaşmaları istenebilir. ORTAOKUL OKUMA BECERİLERİ DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilerden dijital ortamda daha önce yaptıkları bilgi aramalarını paylaşmaları istenebilir. Arama sonucunun kullanılan anahtar sözcüklere göre değişebileceği fark ettirilebilir. Öğrencilerden günlük yaşamda yararlandıkları dijital bilgi kaynaklarına örnek vermeleri istenebilir. Güvenilir kaynak seçiminin bilgiye ulaşmadaki önemi üzerinde durulabilir. Öğrencilere aynı konuya ilişkin farklı dijital bilgiler sunularak bu bilgilerin neden farklı olabileceği üzerinde konuşmaları istenebilir. Bilgilerin doğrulanmasının gerekliliği fark ettirilebilir. Öğrencilerden dijital ortamlardan edindikleri bilgileri hangi durumlarda karşılaştırdıklarını ve kullandıklarını paylaşmaları istenebilir. Bilgileri karşılaştırmanın ve sınıflandırmanın doğru anlam oluşturmayı destekleyebileceği üzerinde durulabilir. Öğrenme-Öğretme OB.3.1 Uygulamaları Öğrenciden metinde yer alan konu ile ilgili anahtar sözcükleri dijital kaynaktan incelemesi ve incelediği sözcüklere dair görüş oluşturması beklenir (OB1, E3.1). Görüş oluşturduktan sonra güvenilir ve doğru dijital kaynakların seçimini yapması beklenir (OB2). Bu kaynakların seçimini yaparken araştırmacı ve sorgulayıcı olması teşvik edilir (SDB1.2, D3.3). Öğrencinin farklı dijital kaynaklardan ulaştıkları bilgileri akranlarıyla karşılaştırarak görüş alışverişinde bulunması sağlanır. Öğrencinin dijital kaynak seçimi sırasında farklı görüş ve yorumları değerlendirirken saygılı iletişim kurması beklenir (SDB1.1, TAB3). Düşüncelerini uygun şekilde ifade etmesi teşvik edilir. (SDB2.1, D14.1, KB2.18). Bu süreç öz değerlendirme ile değerlendirilebilir. OB.3.2 Öğrenciden dijital kaynaktan elde ettiği bilgilerle ön bilgileri arasında bağlantı kurması istenir. Öğrencinin okuma amacına uygun dijital kaynaktan edindiği bilgilerin içeriğine ilişkin tahminde bulunması sağlanır (E3.1, OB2). Öğrenciden dijital kaynaktan elde ettiği bilgiler üzerinden çıkarım yapması; aynı konuya ilişkin farklı dijital kaynaklardan elde ettiği bilgileri karşılaştırması; bu bilgileri uygun ölçütlere (kaynak, ortak/farklı bilgi vb.) göre sınıflandırması ve elde ettiği bilgilerle ilgili etkinlikler üzerinden sözlü veya yazılı olarak görüşlerini ifade etmesi beklenir (E2.2, E3.1, SDB1.3, OB2). Bu süreçte dijital kaynakları kullanırken kişisel verilerin korunmasına özen göstermesi, sosyal medya ve çevrim içi ortamlarda kişisel bilgi, belge ve fotoğrafların güvenliğini gözetmesi; başkalarına ait içerikleri izin almadan paylaşmaması ve dijital ortamlarda mahremiyet ile etik ilkelere uygun davranması teşvik edilir (D8.2, D8.4). Dijital ortamlarda metinlerin bağlantılar, yönlendirmeler ve çoklu ortam ögeleri aracılığıyla doğrusal olmayan bir yapıda sunulabileceği dikkate alınarak öğrencilerin bu tür metinleri amacına uygun biçimde takip etmeleri, anlamlandırmaları ve değerlendirmeleri desteklenir (SDB1.1, E3.1). Performans görevi olarak öğrenciden belirlediği bir konuya ilişkin uygun anahtar sözcükleri kullanarak güvenilir dijital kaynaklara ulaşması, elde ettiği sonuçları dijital sunu, bilgi görseli veya bilgi notu hâlinde paylaşması istenebilir. Performans görevi; öğretmen tarafından bütüncül dereceli puanlama anahtarı, kontrol listesi, gözlem formu ve ürün dosyası değerlendirmesi gibi araçlarla değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerin hazır bulunuşluk düzeyleri, ilgi alanları ve öğrenme stilleri dikkate alınarak farklı dijital platformlar ve kaynaklar üzerinden araştırma çalışmaları yapılabilir. Aynı konuya ilişkin dijital içerikleri karşılaştırma, farklı anahtar sözcüklerle bilgi arama, güvenilirlik ölçütleri belirleme, dijital bilgileri sınıflandırma ve elde edilen bilgileri bilgi görseli, dijital sunu veya bilgi notuna dönüştürme gibi etkinliklerle süreç zenginleştirilebilir. Öğrenme ortamları öğrencilerin bireysel ve iş birlikli dijital araştırmalar yapmalarını destekleyecek şekilde düzenlenebilir. Güvenilir dijital kütüphaneler, eğitim platformları ve çevrim içi veri tabanlarından yararlanılabilir. Öğrencilerden ulaştıkları bilgilerin kaynağını ve güvenilirliğini belirlemeleri, aynı konuya ilişkin iki farklı dijital kaynağı karşılaştırarak benzer ve farklı yönlerini açıklamaları istenebilir. ORTAOKUL OKUMA BECERİLERİ DERSİ ÖĞRETİM PROGRAMI Destekleme Öğrencilerin hazır bulunuşluk düzeyleri, ilgi alanları ve öğrenme stilleri dikkate alınarak araştırma görevleri ve bu görevlerde kullanacağı dijital kaynaklar öğretmen tarafından sınırlandırılarak sadeleştirilebilir. Anahtar sözcük belirleme, dijital kaynak seçme ve dijital bilgileri değerlendirme süreçleri; örnek uygulamalar, aşamalı yönergeler ve görsel desteklerle yapılandırılabilir. Örneğin; bilgi arama çalışmaları, dijital içerik karşılaştırma etkinlikleri; öğretmen tarafından yöneltilen yönlendirici sorularla desteklenebilir. Etkinlikler sırasında öğrencilerin ihtiyaç duydukları durumlarda ipuçları ve geri bildirimlerle öğretmen tarafından bireysel rehberlik sağlanabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz. ORTAOKUL OKUMA BECERİLERİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "OB.3.1",
+     "order": 1,
+     "text": "Çevrim içi okumayı yönetebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dijital kaynaktan doğru anahtar sözcükleri bularak inceler ve incelediği sözcüklere dair görüş oluşturur."
+      },
+      {
+       "label": "b",
+       "text": "Okuma amacına uygun güvenilir ve doğru dijital kaynaklara dair seçim yapar."
+      }
+     ]
+    },
+    {
+     "code": "OB.3.2",
+     "order": 2,
+     "text": "Dijital bilgi üzerinden anlam oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Dijital kaynaktan elde ettiği bilgilerle ön bilgileri arasında bağlantı kurar."
+      },
+      {
+       "label": "b",
+       "text": "Dijital kaynaktan elde ettiği bilgilerin içeriğine ilişkin tahminde bulunur."
+      },
+      {
+       "label": "c",
+       "text": "Dijital kaynaktan elde ettiği bilgiler üzerinden çıkarım yapar."
+      },
+      {
+       "label": "ç",
+       "text": "Farklı dijital kaynaklardan elde ettiği bilgileri karşılaştırır."
+      },
+      {
+       "label": "d",
+       "text": "Dijital kaynaktan elde ettiği bilgileri belirlenen ölçütlere göre sınıflandırır."
+      },
+      {
+       "label": "e",
+       "text": "Dijital kaynaktan elde ettiği bilgiler ile ilgili tepki verir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 4,
+   "unit": 4,
+   "kind": "ÖĞRENME ALANI",
+   "title": "OKUMA KÜLTÜRÜ GELİŞTİRME",
+   "description": "Bu öğrenme alanı, öğrencinin düzenli olarak okumayı hayatının doğal bir parçası hâline getirmesini, okumanın kişisel gelişimine katkısını fark etmesini, edebiyat, bilgi ve düşünce dünyasına açık bir okur kimliği geliştirmesini ve yaşam boyu öğrenmeye yönelik olumlu tutum kazanmasını amaçlamaktadır.",
+   "lesson_hours": 14,
+   "sections": {
+    "ALAN BECERİLERİ": "KAVRAMSAL KB2.10. Çıkarım Yapma BECERİLER",
+    "EĞİLİMLER": "E1.6. Seçicilik, E3.1. Muhakeme, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), Öğrenme Becerileri SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.3. Sosyal Farkındalık, SDB3.1. Uyum",
+    "Değerler": "D3. Çalışkanlık, D4. Dostluk, D16. Sorumluluk, D17. Tasarruf, D18. Temizlik, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB5. Kültür Okuryazarlığı DİSİPLİNLER ARASI Türkçe, Sosyal Bilgiler, Müzik, Görsel Sanatlar",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.9. Genelleme, TAB1. Dinleme/İzleme, TAB3. Konuşma, TAB4. Yazma ORTAOKUL OKUMA BECERİLERİ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "OB.4.1. Okuma bilinci ve alışkanlığı kazanmaya dair çıkarım yapabilme a) Seçeceği kitap veya metnin konusu, türü, içeriği ve kendi okuma amacına uygunluğu hakkında mevcut bilgisi dâhilinde varsayımda bulunur. b) Günlük veya haftalık okuma planındaki örüntüleri listeler. c) Okuma planı öncesi ve sonrasındaki süreci karşılaştırır. ç) Okuma sürecini geliştirmeye yönelik önerme sunar. d) Okuma günlükleri oluşturarak okuma sürecini değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Okuma Kültürü Okur Kimliği Okuma Planı Oluşturma Okuma Günlüğü",
+    "Anahtar Kavramlar": "alışkanlık, okuma günlüğü, okuma kültürü, okuma planı, okur kimliği, öz değerlendirme ÖĞRENME Öğrenme kanıtlarını belirlemede kullanılabilecek ölçme araçları şunlardır: gözlem formları, KANITLARI kontrol listeleri, rubrikler, akran ve öz değerlendirme formları, performans görevleri, oku- (Ölçme ve ma günlüğü, ürün dosyası değerlendirmesi ve dijital değerlendirme araçları. Değerlendirme) Performans görevi olarak öğrencilerden okuduğu kitaplardan herhangi birini seçerek seçtiği kitabın içeriğini veya konusunu, vermek istediği mesajı yansıtan bir poster veya dijital afiş hazırlamaları istenebilir. Performans görevi; bütüncül dereceli puanlama anahtarı, kontrol listesi, gözlem formu, öz değerlendirme formu ve ürün dosyası değerlendirmesi gibi araçlarla değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin farklı türlerde kitap ve metinlerle karşılaşma, ilgi alanlarına göre okuma tercihinde bulunma ve okuma deneyimlerini paylaşmaya yönelik temel düzeyde becerilere sahip oldukları kabul edilmektedir. Ön Değerlendirme Öğrencilerden son dönemde okudukları kitap veya metinleri listelemeleri ve seçim nedenSüreci lerini açıklamaları istenebilir. Öğrencilerden bir kitap kapağı, tanıtım yazısı veya kısa kitap özeti incelenerek kitabın içeriğine ilişkin tahminlerde bulunmaları istenebilir. Öğrencilerden bir haftalık okuma etkinliklerini hatırlayarak hangi günlerde, ne kadar süreyle ve hangi tür metinleri okuduklarını listelemeleri istenebilir. Öğrencilerden okuma alışkanlıklarını geliştirmek için şimdiye kadar uyguladıkları yöntemleri ve bu yöntemlerin etkilerine ilişkin görüşlerini paylaşmaları istenebilir. Köprü Kurma Öğrencilerden ilgi duyarak okudukları kitap veya metinleri arkadaşlarına tanıtmaları istenebilir. Okuma tercihlerinin bireyden bireye farklılaşabileceği üzerinde durulabilir. Öğrencilerden günlük yaşamlarında okumaya ayırdıkları zamanı değerlendirmeleri istenebilir. Düzenli okuma planı oluşturmanın okuma alışkanlığını destekleyebileceği fark ettirilebilir. Öğrencilerden geçmişteki okuma deneyimleri ile bugünkü okuma alışkanlıklarını karşılaştırmaları istenebilir. Okuma alışkanlıklarının zaman içinde gelişebileceği üzerinde durulabilir. Öğrencilerden okudukları kitaplarla ilgili tuttukları notları veya hatırladıkları ayrıntıları paylaşmaları istenebilir. Okuma günlüğü tutmanın okuma sürecini izlemeye ve geliştirmeye katkı sağlayabileceği fark ettirilebilir. ORTAOKUL OKUMA BECERİLERİ DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları OB.4.1 Öğrenciden kitap veya metin seçimi üzerine mevcut bilgisine dayanarak varsayımda bulunması beklenir (E1.6, E3.1). Kitap ve metin seçimlerinde öğrencinin ilgi alanlarını dikkate alması, yaşam boyu öğrenmeye yönelik olumlu tutum geliştirmesi ve okuma kültürünü günlük yaşamının bir parçası hâline getirmesi desteklenir (D16.3, KB2.9). Okuma sürecinde arkadaşlarıyla kitap ve metinler üzerine duygu ve düşüncelerini paylaşması, arkadaşlarını etkin bir şekilde dinlemesi ve farklı görüşlere değer vererek ortak okuma deneyimleri oluşturması teşvik edilir (D4.2, D4.4). Öğrencinin Türk kültürüne, tarihine ve millî değerlere ilişkin metinleri değerlendirerek toplumsal aidiyet bilinci geliştirmesi ve vatanseverlik değerini fark etmesi sağlanır (E3.2, SDB2.3, D19.1, OB5). Öğrencinin ilgi alanına yönelik seçtiği kitapları veya metinleri temin etmesi için bulunduğu ildeki kütüphanelere \"Okul Dışı Öğrenme Platformu\" (okuldisiogrenme.eba.gov.tr) vasıtasıyla yönlendirilmesi sağlanır (OB2, TAB1). Kütüphanelerden temin edeceği kitapları özenle kullanması istenirken ortak kitapların kullanımında kitabın temizliğine önem göstermesi beklenir (D17.3, D18.2). Öğrenciden akranlarıyla kitap okuma etkiniklerine katılması beklenir (D3.4, D16.3). Öğrenciden günlük veya haftalık okuma planını listelemesi, okuma planı öncesi ve sonrasındaki sü­reci karşılaştırması beklenir. Öğrencinin okuma sıklığı, okuma süresi, okuduğu kitap veya sayfa sayısı, okuma planına uyma durumu ve kitap türü tercihlerini dikkate alması sağlanır (TAB3). Plana uygun okumalar yapması, okuma günlükleri tutup okuma sürecini değerlendirmesi istenir (SDB1.3, D3.2, TAB4). Öğrencinin okuma sürecinde planlı hareket etmesi, belirlediği hedeflere ulaşmak için azim göstermesi ve çalışmalarını düzenli biçimde sürdürmesi desteklenir (SDB1.2, D3.1). Öğrenciden okuma planlarını uygularken sorumluluk alması, görevlerini zamanında yerine getirmesi ve süreç boyunca öz değerlendirme yapması beklenir (SDB1.2, D3.2, D16.3). Öğrencinin metin içeriğini görev ve sorumluluklar açısından inceleyerek sorumluluk bilincine yönelik çıkarımlarda bulunması sağlanır (SDB1.1, SDB3.1, D16.3). Performans görevi olarak öğrenciden okuduğu kitaplardan herhangi birini seçerek seçtiği kitabın içeriğini veya konusunu, vermek istediği mesajı yansıtan bir poster veya dijital afiş hazırlaması istenebilir. Performans görevi, ölçme araçlarından herhangi biri ile öğretmen tarafından değerlendirilebilir. Öğrenciden okuma becerisinin bireye katkısını açıklaması ve ilgi duyduğu metin türünü fark etmesi istenebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden ilgi duyarak okudukları kitap veya metinleri arkadaşlarına tanıtmaları istenebilir. Okuma tercihlerinin bireyden bireye farklılaşabileceği üzerinde durulabilir. Öğrencilerden günlük yaşamlarında okumaya ayırdıkları zamanı değerlendirmeleri istenebilir. Düzenli okuma planı oluşturmanın okuma alışkanlığını destekleyebileceği fark ettirilebilir. Öğrencilerden geçmişteki okuma deneyimleri ile bugünkü okuma alışkanlıklarını karşılaştırmaları istenebilir. Okuma alışkanlıklarının zaman içinde gelişebileceği üzerinde durulabilir. Öğrencilerden okudukları kitaplarla ilgili tuttukları notları veya hatırladıkları ayrıntıları paylaşmaları istenebilir. Okuma günlüğü tutmanın okuma sürecini izlemeye ve geliştirmeye katkı sağlayabileceği fark ettirilebilir. Okuma günlüğünü portfolyoya dönüştürmeleri, kitap kulübü etkinlikleri planlamaları veya okudukları metinleri farklı sanat dallarıyla ilişkilendirmeleri istenebilir. ORTAOKUL OKUMA BECERİLERİ DERSİ ÖĞRETİM PROGRAMI Destekleme Öğrencilerin hazır bulunuşluk düzeyleri, ilgi alanları ve öğrenme stilleri dikkate alınarak metinler uzunluk, dil ve içerik bakımından sadeleştirilebilir. Okuma sürecini desteklemek amacıyla metinler anlamlı parçalara ayrılabilir; anahtar sözcükler, görseller ve grafik düzenleyiciler kullanılabilir. Öğretmen rehberliğinde öğrencilerin ilgi alanlarına uygun kitaplarla okuma planı oluşturmaları ve okuma günlüğü tutmaları desteklenebilir. Model okuma, eşli okuma, tekrar okuma, yönlendirici sorular ve sözcük kartları gibi etkinliklerden yararlanılabilir. Etkinlikler sırasında öğrencilerin ihtiyaç duydukları durumlarda ipuçları, geri bildirimler ve bireysel rehberlik sağlanabilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza YANSITMALARI okutunuz."
+   },
+   "outcomes": [
+    {
+     "code": "OB.4.1",
+     "order": 1,
+     "text": "Okuma bilinci ve alışkanlığı kazanmaya dair çıkarım yapabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Seçeceği kitap veya metnin konusu, türü, içeriği ve kendi okuma amacına uygunluğu hakkında mevcut bilgisi dâhilinde varsayımda bulunur."
+      },
+      {
+       "label": "b",
+       "text": "Günlük veya haftalık okuma planındaki örüntüleri listeler."
+      },
+      {
+       "label": "c",
+       "text": "Okuma planı öncesi ve sonrasındaki süreci karşılaştırır."
+      },
+      {
+       "label": "ç",
+       "text": "Okuma sürecini geliştirmeye yönelik önerme sunar."
+      },
+      {
+       "label": "d",
+       "text": "Okuma günlükleri oluşturarak okuma sürecini değerlendirir."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "unassigned_outcomes": [],
+ "report": {
+  "units": 4,
+  "outcomes": 9,
+  "components": 33,
+  "orphan_outcomes": 0,
+  "gaps": []
+ }
+}

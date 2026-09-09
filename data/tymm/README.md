@@ -95,38 +95,41 @@ Ayrıntı: `SOURCES.md` (beceri çerçevesi), `DERSLER.md` (ders programları).
 ## Ders programları — bilinen eksikler
 
 `courses/` altındaki veri ders programı PDF'lerinden çıkarılır. 2026-09-09
-ölçümü: **108 ders · 1597 ünite · 6006 öğrenme çıktısı · 12 057 süreç bileşeni**.
+ölçümü: **111 ders · 5846 öğrenme çıktısı · 12 225 süreç bileşeni**. Çıktısı
+çıkarılamayan ders yok.
 
 Çıktılar üniteye ANAHTARLA değil KONUMLA bağlanır: çıktı fiziksel olarak hangi
-ünite bloğunun içindeyse ona aittir. Anahtar eşleştirme iki yerde çuvallıyordu —
-üç sayılı kodda ünite kademesi yok, bazı belgelerde de "N. SINIF" satırı hiç
-geçmiyor.
+ünite bloğunun içindeyse ona aittir.
 
-Kaynak ÜÇ kod şeması kullanıyor ve hangisinin geçerli olduğu belgeden anlaşılır:
+Kaynak **beş** kod biçimi kullanıyor ve hangisinin geçerli olduğu belgeden
+anlaşılır — ders adından değil:
 
-| Şema | Örnek | Anlamı |
+| Biçim | Örnek | Ders |
 |---|---|---|
-| dört sayılı | `FİZ.9.1.2.` | ön ek + sınıf + ünite + sıra |
-| üç sayılı | `T.O.5.2.` | ön ek + sınıf + sıra (ünite kademesi yok) |
-| yapışık | `TDE1.1.` | rakam ön eke bitişik; beceri kodlarıyla aynı biçimde |
+| dört sayılı | `FİZ.9.1.2.` | Fizik, Matematik |
+| üç sayılı | `T.O.5.2.` | Türkçe, Okuma Becerileri |
+| yapışık, üç sayılı | `RK2.4.1.` | Robotik Kodlama |
+| yapışık, iki sayılı | `TDE1.1.` | Türk Dili ve Edebiyatı |
+| boşluklu | `TKMT 3.1.` | Türk Kültür ve Medeniyet Tarihi |
+
+Biçim aileleri SIRAYLA değil HACME göre yarışır: Türk Dili'nde 10 kez geçen
+noktalı `E.` atıfı, 382 kez geçen yapışık `TDE` şemasını gölgeliyordu.
 
 Bir ders birden fazla ön ek kullanabilir (Türkçe: `T.D`, `T.O`, `T.Y`, `T.K`).
 Ünite başlığı sözcüğü de değişir (`ÜNİTE`, `TEMA`, `ÖĞRENME ALANI`); kullanılan
 sözcük her ünitenin `kind` alanındadır.
 
-Eksikler gizlenmez, sayıyla durur:
+Kalan eksikler — ikisi de uydurmadan kapatılamaz:
 
-- **3 derste hiç kodlu çıktı çıkarılamadı.** En az biri (Türk Kültür ve
-  Medeniyet Tarihi) kaynakta gerçekten kodlu çıktı taşımıyor; belgede yalnız
-  `SDB`/`SBAB` beceri kodları geçiyor.
-- **16 derste 241 çıktı** hiçbir ünite bloğunun içinde değil; dosyalarda
+- **19 tür beceri kodu çözülemiyor (98 geçiş).** 8 türü kaynak tutarsızlığı:
+  `KB2.16.1/.2/.3` (64 geçiş), `E3.11`, `DAB3.1/.2`. MEB'in beceri sayfasında
+  `KB2.16` için "Süreç bileşenleri" bloğu HİÇ YOK (canlı sayfada `KB2.16.SB`
+  satırı 0, `KB2.17.SB` 4) ama ders programları o kodlara atıf yapıyor. 11 türü
+  tanınmayan küme (`SBD1`, `SDBS3`, `SBSB5` — 1-5 geçişlik, görünüşe göre
+  kaynaktaki dizgi hataları).
+- **Bazı çıktılar hiçbir ünite bloğunun içinde değil**; dosyalarda
   `unassigned_outcomes` altında durur, atılmaz.
-- **19 tür beceri kodu çözülemiyor.** İkiye ayrılır: seti VAR ama kodu yok
-  (`KB2.16.1/.2/.3`, `E3.11`, `DAB3.1` — MEB'in iki belgesi birbirini tutmuyor)
-  ve seti hiç yok (`SBD1`, `SDBS3`, `SBSB5` — 1-5 geçişlik, görünüşe göre
-  kaynaktaki yazım hataları).
 
 Aynı çıktının birden çok ünitede görünmesi tekrar değil, veridir: Ortaokul
 Türkçe'de 418 benzersiz çıktı 800 kayıt üretir, çünkü aynı çıktı birkaç temada
-işlenir. Ünite bloğu "nerede işleniyor"u, belge geneli kanonik tanımı verir;
-ikisi birleştirilir.
+işlenir. Ünite bloğu "nerede işleniyor"u, belge geneli kanonik tanımı verir.

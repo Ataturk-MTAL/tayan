@@ -28,7 +28,14 @@ THREE_RE = re.compile(r"([A-ZÇĞİÖŞÜ][A-ZÇĞİÖŞÜ.]*?)\.(\d+)\.(\d+)\.\
 # Üçüncü şema: rakam ön eke YAPIŞIK — "TDE1.1." = TDE + tema 1 + sıra 1.
 # Beceri kodlarıyla (SDB1.2, E3.3) aynı biçimde; ayırt edici tek şey ön ekin
 # SKILL_PREFIXES içinde olmaması.
+# Yapışık biçim iki sayılı da olabilir üç sayılı da, ve ön ek ile sayı
+# arasında BOŞLUK bulunabilir ("TKMT 3.1."). Üçü de aynı aileden.
 GLUED_RE = re.compile(r"([A-ZÇĞİÖŞÜ]{2,8})(\d+)\.(\d+)\.\s*(.*)$", re.M)
+GLUED3_RE = re.compile(r"([A-ZÇĞİÖŞÜ]{2,8})(\d+)\.(\d+)\.(\d+)\.\s*(.*)$", re.M)
+# Boşluklu yazım ("TKMT 3.1.") ayrı desen ve ön ek EN FAZLA 5 HARF. Sınır şart:
+# boşluğa serbest izin verilince "ESASLAR 3.1.", "PROGRAMI 1.2." gibi Türkçe
+# kelimeler ön ek sanılıyor.
+SPACED_RE = re.compile(r"(?:^|(?<=[^A-ZÇĞİÖŞÜ]))([A-ZÇĞİÖŞÜ]{2,5})\s+(\d+)\.(\d+)\.\s*(.*)$", re.M)
 COMPONENT_RE = re.compile(r"^\s*([a-zçğöşü])\)\s*(.+)$")
 
 # Beceri çerçevesinin kodları ÖĞRENME ÇIKTISI DEĞİLDİR. Ders programları
@@ -54,54 +61,52 @@ def collapse(text: str) -> str:
 
 
 def detect_scheme(text: str) -> tuple[list[str], int]:
-    """(ön ek listesi, sayı kademesi) döndürür; belgede baskın şema kazanır.
+    """(ön ek listesi, şema kodu) döndürür.
 
-    Dört sayılı kodlar üç sayılı desene de uyar, bu yüzden önce dört sayılılar
-    sayılır ve onların kapsadığı yerler üç sayılı sayımından düşülür.
+    Şema kodları: 4 dört sayılı, 3 üç sayılı, 5 yapışık üç sayılı,
+    2 yapışık iki sayılı, 6 boşluklu. 0 = hiçbiri.
+
+    Aileler SIRAYLA değil HACME göre yarışır. Sıralı denemede Türk Dili ve
+    Edebiyatı'nda 10 kez geçen noktalı "E." atıfı, 382 kez geçen yapışık
+    "TDE" şemasını gölgeliyordu.
     """
-    four = collections.Counter()
-    four_spans = []
-    for match in FOUR_RE.finditer(text):
-        four[match.group(1)] += 1
-        four_spans.append(match.span())
+    def tally(pattern, exclude_spans=(), skill_filter=False, text_group=None):
+        counter = collections.Counter()
+        spans = []
+        for match in pattern.finditer(text):
+            if any(a <= match.start() < b for a, b in exclude_spans):
+                continue
+            if skill_filter and match.group(1) in SKILL_PREFIXES:
+                continue
+            if text_group and re.match(r"^\d", match.group(text_group).strip()):
+                continue
+            counter[match.group(1)] += 1
+            spans.append(match.span())
+        return counter, spans
 
-    three = collections.Counter()
-    for match in THREE_RE.finditer(text):
-        start = match.start()
-        if any(a <= start < b for a, b in four_spans):
-            continue
-        # Sonunda nokta OLMAYAN dört sayılı atıflar ("FB.5.1.1", tablolarda
-        # bol) üç sayılı desene de uyar: FB.5.1 + metin "1". Bu sahte
-        # eşleşmeler Fen Bilimleri'nde şemayı 182'ye 181 ile düşürüyor ve
-        # bütün süreç bileşenlerini kaybettiriyordu. İmza: metin RAKAMLA
-        # başlar — gerçek bir çıktı metni rakamla başlamaz.
-        if re.match(r"^\d", match.group(4).strip()):
-            continue
-        three[match.group(1)] += 1
+    four, four_spans = tally(FOUR_RE)
+    three, _ = tally(THREE_RE, exclude_spans=four_spans, text_group=4)
+    glued3, glued3_spans = tally(GLUED3_RE, skill_filter=True)
+    glued, _ = tally(GLUED_RE, exclude_spans=glued3_spans, skill_filter=True, text_group=4)
+    spaced, _ = tally(SPACED_RE, skill_filter=True, text_group=4)
 
-    four = collections.Counter({k: v for k, v in four.items() if k not in SKILL_PREFIXES})
-    three = collections.Counter({k: v for k, v in three.items() if k not in SKILL_PREFIXES})
+    def prefer_non_skill(counter):
+        non_skill = {k: v for k, v in counter.items() if k not in SKILL_PREFIXES}
+        return collections.Counter(non_skill or counter)
 
-    # Kazanan ŞEMA seçilir, sonra o şemadaki TÜM ön ekler alınır. Bir ders
-    # birden fazla ön ek kullanabiliyor (Türkçe: T.D, T.O, T.Y, T.K).
-    if four and (not three or sum(four.values()) >= sum(three.values())):
-        return sorted(four), 4
-    if three:
-        return sorted(three), 3
+    four = prefer_non_skill(four)
+    three = prefer_non_skill(three)
 
-    # Noktalı şemalar hiç bulunmadıysa yapışık biçime bak. Sona bırakılır:
-    # dört ve üç sayılı kodların bir kısmı bu desene de uyar, önce denenirse
-    # doğru şemayı gölgeler.
-    glued = collections.Counter()
-    for match in GLUED_RE.finditer(text):
-        if match.group(1) in SKILL_PREFIXES:
-            continue
-        if re.match(r"^\d", match.group(4).strip()):
-            continue
-        glued[match.group(1)] += 1
-    if glued:
-        return sorted(glued), 2
-    return [], 0
+    # Eşitlikte daha ÖZGÜL şema kazanır: dört sayılı > üç sayılı > yapışık.
+    families = [(four, 4), (three, 3), (glued3, 5), (glued, 2), (spaced, 6)]
+    best = max(
+        (f for f in families if f[0]),
+        key=lambda f: sum(f[0].values()),
+        default=None,
+    )
+    if best is None:
+        return [], 0
+    return sorted(best[0]), best[1]
 
 
 def parse_outcomes(text: str, prefixes: str | list[str], segments: int) -> list[dict]:
@@ -113,7 +118,10 @@ def parse_outcomes(text: str, prefixes: str | list[str], segments: int) -> list[
     if isinstance(prefixes, str):
         prefixes = [prefixes]
     wanted = set(prefixes)
-    pattern = {4: FOUR_RE, 3: THREE_RE, 2: GLUED_RE}[segments]
+    patterns = {4: FOUR_RE, 3: THREE_RE, 2: GLUED_RE, 5: GLUED3_RE, 6: SPACED_RE}
+    if segments not in patterns:
+        return []
+    pattern = patterns[segments]
     lines = text.splitlines()
     best: dict[str, dict] = {}
     index = 0
@@ -134,8 +142,14 @@ def parse_outcomes(text: str, prefixes: str | list[str], segments: int) -> list[
             grade, unit, order = int(head.group(2)), None, int(head.group(3))
             code = f"{head.group(1)}.{head.group(2)}.{head.group(3)}"
             title_parts = [head.group(4)]
+        elif segments == 5:
+            # Yapışık, üç sayılı: RK2.4.1 -> ön ek RK, 2, ünite 4, sıra 1.
+            grade, unit, order = int(head.group(2)), int(head.group(3)), int(head.group(4))
+            code = f"{head.group(1)}{head.group(2)}.{head.group(3)}.{head.group(4)}"
+            title_parts = [head.group(5)]
         else:
-            # Yapışık: TDE1.1 -> ön ek TDE, tema/sınıf 1, sıra 1.
+            # Yapışık ya da boşluklu, iki sayılı: TDE1.1 / TKMT 3.1 -> ön ek TDE, tema/sınıf 1, sıra 1.
+            # Boşluklu yazım da buraya düşer ("TKMT 3.1" -> TKMT3.1).
             grade, unit, order = int(head.group(2)), None, int(head.group(3))
             code = f"{head.group(1)}{head.group(2)}.{head.group(3)}"
             title_parts = [head.group(4)]
