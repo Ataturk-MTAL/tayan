@@ -111,13 +111,14 @@ jobs:
           tagName: ${{ github.ref_name }}
           releaseName: TAYAN ${{ github.ref_name }}
           releaseBody: |
-            ## Ön sürüm — üretim için değil
+            ${{ contains(github.ref_name, '-') && '## Ön sürüm — üretim için değil' || '## Sürüm notları' }}
 
-            TAYAN henüz tamamlanmadı. Bilinen eksikler:
+            Bilinen eksikler:
 
             - **Sonuç girişi arayüzü yok.** Sınav sonuçları girilemediği için
               madde analizi (güçlük, ayırt edicilik) hiçbir soruda oluşmaz.
-            - Soru bankası listesi soruları dizgi olarak gösteriyor.
+            - Soru bankası listesi soruları dizgi olarak değil, ham Typst
+              kaynağı olarak gösteriyor.
 
             ## Kurulum
 
@@ -131,15 +132,18 @@ jobs:
             **Windows** — SmartScreen uyarısında **Ek bilgi > Yine de çalıştır**.
 
             **Linux** — uyarı çıkmaz. `.deb`, `.rpm` ya da `.AppImage` seçin.
-            - Soru bankası listesi soruları dizgi olarak değil ham Typst
-              kaynağı olarak gösteriyor.
 
             Veriler yereldir (SQLite) ve uygulama tamamen çevrimdışı çalışır.
             Denemek isteyenler için; sınıfta kullanmadan önce yedek alın.
 
             Değişiklikler için commit geçmişine bakınız.
-          # Ön sürüm ve taslak DEĞİL: etiket atıldığında doğrudan yayımlanır.
-          # Ön sürüm işareti, bunun denenmek için olduğunu listede görünür kılar.
+          # Taslak DEĞİL: etiket atıldığında doğrudan yayımlanır.
+          #
+          # Ön sürüm işareti ETİKETTEN türetilir, sabit değildir. SemVer'de
+          # tire ön sürümü işaretler: v0.1.0-rc.3 ön sürüm, v0.1.0 gerçek
+          # sürüm. Sabit `true` bırakılırsa hiçbir etiket "latest" olmaz —
+          # GitHub sağ kolonda ve /releases/latest adresinde yalnız ön sürüm
+          # OLMAYAN sürümü gösterir, orası hep boş kalırdı.
           releaseDraft: false
-          prerelease: true
+          prerelease: ${{ contains(github.ref_name, '-') }}
           args: ${{ matrix.target && format('--target {0}', matrix.target) || '' }}
