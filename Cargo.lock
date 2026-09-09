@@ -5265,7 +5265,7 @@ dependencies = [
 
 [[package]]
 name = "tayan-compiler"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "anyhow",
  "chrono",
@@ -5291,7 +5291,7 @@ dependencies = [
 
 [[package]]
 name = "tayan-core"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "anyhow",
  "chrono",
@@ -5305,7 +5305,7 @@ dependencies = [
 
 [[package]]
 name = "tayan-db"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "anyhow",
  "chrono",
@@ -5321,7 +5321,7 @@ dependencies = [
 
 [[package]]
 name = "tayan-desktop"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "anyhow",
  "base64 0.22.1",
@@ -5347,7 +5347,7 @@ dependencies = [
 
 [[package]]
 name = "tayan-macros"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "proc-macro2",
  "quote",
