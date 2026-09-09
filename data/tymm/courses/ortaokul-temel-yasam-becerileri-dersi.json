@@ -1,0 +1,748 @@
+{
+ "course": {
+  "id": 96,
+  "name": "Temel Yaşam Becerileri Dersi",
+  "slug": "ortaokul-temel-yasam-becerileri-dersi",
+  "prefix": "TYB",
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/temel-yasam-becerileri-dersi_20260819_075744_972.pdf"
+ },
+ "units": [
+  {
+   "grade": null,
+   "unit": 1,
+   "kind": "ÖĞRENME ALANI",
+   "title": "İLETİŞİM VE SOSYAL BECERİLER",
+   "description": "Bu öğrenme alanında öğrencilerin; kendini ifade etme yollarını karşılaştırabilmeleri, duygularının günlük yaşamındaki etkilerini yansıtabilmeleri, sözlü anlatımda diksiyon unsurlarının rolünü değerlendirebilmeleri ve dijital paylaşımlarında dijital ayak izi açısından dijital güvenlik önlemlerini yönetebilmeleri amaçlanmaktadır. ALAN BTYAB6. Dijital Güvenlik Önlemleri Alma (BTYAB6.1. Dijital Güvenlik Önlemlerini YönetBECERİLERİ me) KAVRAMSAL KB2.7. Karşılaştırma, KB2.15. Yansıtma, KB2.17. Değerlendirme BECERİLER",
+   "lesson_hours": 17,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E1.6. Seçicilik, E2.1. Empati, E2.2. Sorumluluk, E3.2. Odaklanma, E3.7. Sistematiklik, E3.9. Şüphe Duyma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), Öğrenme Becerileri SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D6. Dürüstlük, D12. Sabır, D14. Saygı, D16. Sorumluluk Okuryazarlık OB2. Dijital Okuryazarlık Becerileri DİSİPLİNLER ARASI Bilişim Teknolojileri ve Yazılım, Din Kültürü ve Ahlak Bilgisi, Görsel Sanatlar, Müzik,",
+    "İLİŞKİLER": "Türkçe BECERİLER ARASI KB2.4. Çözümleme, KB2.7. Karşılaştırma, KB2.14. Yorumlama ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE TYB.1.1.1. Kendini ifade etme yollarını karşılaştırabilme SÜREÇ BİLEŞENLERİ a) Kendini ifade etme yollarına ilişkin özellikleri belirler. b) Kendini ifade etme yollarına ilişkin benzerlikleri listeler. c) Kendini ifade etme yollarına ilişkin farklılıkları listeler. TYB.1.1.2. Duygularının günlük yaşamındaki etkilerini yansıtabilme a) Duygularının günlük yaşamdaki etkilerine ilişkin deneyimlerini gözden geçirir. b) Duygularının günlük yaşamındaki etkilerine ilişkin deneyime dayalı çıkarım yapar. c) Duygularının günlük yaşamındaki etkilerine ilişkin çıkarımlarını değerlendirir. TYB.1.1.3. Sözlü anlatımda diksiyon unsurlarının rolünü değerlendirebilme a) Sözlü anlatımda diksiyon unsurlarının rolüne ilişkin ölçütleri belirler. b) Sözlü anlatımda diksiyon unsurlarının rolüne ilişkin ölçme yapar. c) Sözlü anlatımda diksiyon unsurlarının rolüne ilişkin ölçme sonuçlarını belirlediği ölçütlerle karşılaştırır. ç) Sözlü anlatımda diksiyon unsurlarının rolüne ilişkin yargıda bulunur. TYB.1.1.4. Dijital paylaşımlarında dijital ayak izi açısından dijital güvenlik önlemlerini yönetebilme a) Dijital paylaşımlarına ilişkin dijital güvenlik risklerini belirler. b) Belirlediği risklere yönelik dijital güvenlik önlemlerini belirler. c) Dijital ayak iziyle ilişkili bilgi güvenliğinin temel bileşenlerini ayırt eder. ç) Dijital paylaşımlarını e-güvenlik önlemleri açısından değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Kendini İfade Etme Yolları Duygusal Farkındalık ve Duygu Yönetimi Sözlü Anlatımda Diksiyonun Rolü Dijital Ayak İzi",
+    "Anahtar Kavramlar": "beden dili, dijital ayak izi, e-güvenlik, heyecan, huzur, kaygı, mutluluk, öfke, stres, üzüntü ÖĞRENME Bu öğrenme alanında yer alan öğrenme çıktıları; gözlem formu, kontrol listesi, karşıKANITLARI laştırma etkinlikleri, veri kayıt tabloları, akış şeması, çalışma kâğıdı, öz değerlendirme (Ölçme ve formu, akran değerlendirme formu, analitik dereceli puanlama anahtarı ve performans Değerlendirme) görevi kullanılarak değerlendirilebilir. Performans görevi: Öğrencilerden e-güvenlik önlemlerini yansıtan “Güvenli Paylaşım Kontrol Kartı” hazırlamaları istenebilir. Performans görevleri dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin sözlü, yazılı, görsel ve dijital iletişim yollarını kullanabildikleri, duygu, düşünce ve ihtiyaçlarını ifade edebildikleri; duyguların davranışları üzerindeki etkilerine yönelik temel deneyimlere sahip oldukları; dijital ortamları kullandıkları ve temel düzeyde dijital paylaşım deneyimine sahip oldukları kabul edilmektedir. ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI Ön Değerlendirme Süreci Öğrencilere “Bir arkadaşınla karşılaştığında onu nasıl selamlarsın?”, “Selam vermek ne anlama gelir?”, “İnsanlar neden selamlaşır?”, “Bir arkadaşına teşekkür etmek istesen bunu nasıl ifade edersin?” gibi açık uçlu sorular sorulabilir. Farklı duyguları yansıtan yüz ifadelerinin bulunduğu görseller sunularak öğrencilerden bu duyguları isimlendirmeleri istenebilir. Öğrencilere “Bir öğretmenin ya da sunucunun konuşmasını etkili yapan özellikler nelerdir?”, “Konuşurken ses tonu neden önemlidir?” gibi açık uçlu sorular sorulabilir. Öğrencilere dijital ortamlarda yapılan paylaşımlar, kullanılan gizlilik ayarları ve güvenli parola oluşturma yöntemlerine ilişkin açık uçlu sorular sorulabilir. Köprü Kurma Öğrencilerden günlük yaşamlarında kendilerini hangi yollarla ifade ettiklerine, komşularıyla iletişimlerine ilişkin örnekler vermeleri istenebilir. “Bir arkadaşınızdan yardım isterken kendinizi nasıl ifade edersiniz?”, “Bir komşunuzdan yardım isterken ya da komşunuza yardım ederken kendinizi nasıl ifade edersiniz?” gibi açık uçlu sorular sorulabilir. Öğrencilere \"Bugün okula gelirken kendinizi nasıl hissediyordunuz? Bu hissiniz arkadaşlarınızla ilk selamlaşmanızı nasıl etkiledi?\" gibi bir açık uçlu soru sorulabilir. Öğrencilerden günlük yaşamlarında karşılaştıkları konuşma örneklerini düşünmeleri ve “Bir konuşmayı dinlerken sizi etkileyen unsurlar nelerdir?” gibi bir açık uçlu soruyla düşüncelerini ifade etmeleri istenebilir. Öğrencilerden kullandıkları sosyal medya, mesajlaşma uygulamaları ve çevrim içi oyun deneyimleri üzerinden dijital güvenlik, gizlilik ve dijital ayak izi kavramlarına örnekler vermeleri istenebilir. Öğrenme-Öğretme TYB.1.1.1 Uygulamaları Öğrencilere aynı mesajın sözlü açıklama, kısa not, afiş, dijital ortam için hazırlanmış kısa mesaj, bir duygunun yalnızca beden diliyle anlatıldığı canlandırma gibi farklı ifade yollarıyla sunulduğu istasyonlar hazırlanır. Öğrenciler istasyonları sırayla dolaşarak her ifade yolunun ses tonu, beden dili, sözcük seçimi, görsel kullanım, kalıcılık, hedef kitle, hız gibi özelliklerini belirler. Aynı mesajın farklı yollarla sunulması, öğrencilerin “Mesaj aynı ama anlatım neden değişti?” sorusuna odaklanmasını kolaylaştırır (E1.1). Türkçe disiplinindeki konuşma ve yazma çalışmalarıyla görsel sanatlar disiplinindeki afiş, simge ve görsel düzenleme çalışmalarıyla ilişki kurulur. Öğrenciler, ilk aşamada oluşturdukları özellik çizelgelerinden hareketle sözlü, yazılı, görsel ve dijital ifade yollarının ortak yönlerini arar. “Bu ifade yollarının hepsi hangi amaç için kullanılabilir?”, “Hangi durumlarda hepsinde açıklık gerekir?”, “Hangi ifade yollarında hedef kitleyi düşünmek gerekir?” vb. sorular yöneltilerek öğrencilerin bu ifade yollarının benzer yönlerini listelemeleri istenir. Bu sırada kendini ifade etmenin bütün yollarında amaç, hedef kitle, açıklık ve uygunluk unsurunun önemli olduğuna ilişkin bilgiler verilir. Öğrencilerin başkalarını dikkate alarak iletişim kurmanın önemini belirtmeleri ve iletişimde saygılı dil kullanımını ortak yönler arasında göstermeleri (D14.1) sağlanır. Bu süreçte soru cevap tekniğinden yararlanılabilir. Öğrencilere, aynı mesajın farklı durumlarda neden farklı ifade yollarıyla sunulduğunu incelemeleri amacıyla “Arkadaşına özür dileme”, “Öğretmene bilgi verme”, “Sınıfa duyuru yapma”, “Ailene duygunu anlatma” ve “Okul panosu için çağrı hazırlama” gibi farklı iletişim durumları verilir. Öğrenciler bu durumlar için en uygun ifade yolunu seçer (E1.6). Ardından seçmedikleri diğer yolların neden daha az uygun kaldığını açıklayarak kendini ifade etme yollarının farklı yönlerini listelemeleri istenir. “Bu durumda hangi yol daha uygun?”, “Seçmediğin yol neden daha az uygun?”, “Bu yolda beden dili, hız, kalıcılık, açıklık ya da hedef kitle açısından ne fark var?” vb. sorularla öğrencilerin farklı yönleri uygunluk açısından belirginleştirmesi sağlanır (E1.6). Bu sırada sözlü, yazılı, görsel ve dijital ifade yollarının her birinin farklı bağlamlarda farklı işlevler taşıdığı; hedef kitle, amaç, içerik ve ortamın ifade yolunu etkilediği bilgisi verilir. Öğrencilerin iletişimde uygun yolu seçmenin saygılı ve etkili iletişim kurmaya katkıda bulunacağını belirtmeleri (D14.1) ve iletişimde özensizliğin yanlış anlaşılmaya yol açabileceğini söylemeleri beklenir. Bu aşamada din kültürü ve ahlak bilgisi dersinin “Adap ve nezaket kurallarını özetleyebilme” öğrenme çıktısı ile ilişki ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI kurularak soru cevap tekniğinden faydalanılabilir. Süreç, bütüncül puanlama anahtarı ile değerlendirilebilir. TYB.1.1.2 Öğrencilerden son bir hafta içinde okulda, evde ya da arkadaş çevresinde yaşadıkları ve kendilerinde belirgin bir duygu oluşturan üç durumu düşünmeleri istenir. Ardından her öğrencinin seçtiği olayları zaman sırasına göre yazması, her olayın karşısına hissettiği duyguyu, bu duygunun bedenindeki ya da davranışındaki yansımasını ve olay anındaki tepkisini belirtmeleri istenir. “Bu olay olduğunda ne hissettin?”, “Bu duygu davranışına nasıl yansıdı?” sorularıyla öğrencilerin yaşadıkları deneyimleri gözden geçirmeleri sağlanır. Öğrenciler olay, duygu, tepki ve etki ögelerini birbirinden ayırarak yazar ve bu ögeler arasındaki ilişkiyi açıklar (KB2.4). Paylaşım aşamasında öğrenciler yalnızca paylaşmak istedikleri örnekleri seçer, arkadaşlarının anlatımını sözünü kesmeden dinler ve saygılı dönüt verir (E2.1, SDB2.1, D14.1). Bu sırada günlük yaşamda uyku düzeni, beslenme, arkadaşlık ilişkileri, okul yaşantısı, aile içi iletişim, başarı ya da başarısızlık deneyimleri gibi birçok etkenin duyguları etkileyebileceğine, gelişim ile birlikte bedensel, bilişsel ve sosyal değişimlerin duyguların yoğunluğunu ve ifade ediliş biçimini değiştirebileceğine ilişkin bilgiler verilir. Öğrencilerin yaşadıkları duyguları adlandırmaları, bu duyguların bedenlerindeki ve davranışlarındaki yansımalarını fark etmeleri beklenir (SDB1.1). Bu süreçte konuşma halkası tekniğinden yararlanılabilir. Öğrenciler, ilk aşamada oluşturdukları duygu çizgilerinden hareketle “Hangi duygular beni daha çok içe kapanık yapıyor?”, “Hangi duygular ders çalışmamı ya da iletişimimi kolaylaştırıyor?”, “Hangi durumlarda daha hızlı tepki veriyorum?” gibi sorulara cevap arar. Öğrenciler, kendi yaşantılarından seçtikleri örnekleri “Duygu-Düşünce-Davranış-Günlük Yaşama Etkisi” başlıkları altında tabloya aktarır ve tekrar eden ilişkilerden hareketle deneyime dayalı çıkarım yapar. Benzer durumları yan yana getirerek hangi duygunun hangi etkiyle daha sık birlikte görüldüğünü belirler, ortak ve farklı sonuçları söyler. Öğrencilerin bu süreçte kendi davranışlarının sonuçlarını fark etmeleri, benzer durumlarda nasıl davrandıklarını gözden geçirmeleri ve duyguların günlük yaşamlarına etkisini ifade etmeleri sağlanır (SDB1.2, SDB1.3). Bu sırada duyguların yalnızca “iyi” ya da “kötü” diye sınıflandırılamayacağı, önemli olanın hangi durumda nasıl yaşandığı, düşünceyi, davranışı, iletişimi, ders çalışma isteğini ve günlük kararları nasıl etkilediğinin anlaşılması olduğu yönünde bilgiler verilir. Öğrenciler, ulaştıkları çıkarımları “Her zaman böyle mi olur?”, “Bu çıkarımım hangi durumlarda geçerli değildir?”, “Bu duyguyu yaşadığımda daha uygun nasıl davranabilirim?” soruları üzerinden yeniden gözden geçirir. Ardından her öğrenci, ulaştığı çıkarımı kendi ifadeleriyle yeniden kurar, daha uygun bir davranış seçeneğiyle birlikte yazar ve kısa bir kişisel değerlendirme cümlesi oluşturur (KB2.14). Kendi çıkarımlarını yeniden ele alıp hangisinin kendi yaşamına daha uygun olduğunu seçmeleri, küçük ve uygulanabilir bir davranış kararı oluşturmaları (E2.2) beklenir. Akran paylaşımı aşamasında öğrenciler isterlerse seçtikleri bir cümleyi sınıfla paylaşır. Paylaşımlar sırasında öğrencilerin birbirlerini yargılamadan, saygılı ve yapıcı biçimde geri bildirim vermeleri sağlanır (SDB2.1, SDB3.3, D14.1). Bu sırada duyguları bastırmak yerine tanımanın, uygun biçimde ifade etmenin ve gerektiğinde davranışı yeniden düzenlemenin günlük yaşamı kolaylaştırdığına, gelişimle birlikte duyguların daha yoğun ya da değişken yaşanabildiğine ancak bunların fark edilip yönetilebildiğine ilişkin bilgiler verilir. Öğrencilere kızgınlık, öfke, üzüntü, sınav kaygısı gibi yoğun duygular yaşadıklarında kullanabilecekleri durup düşünme, derin nefes alma, duygusunu adlandırma , güvendikleri bir kişiden destek isteme gibi duygu yönetimi uygulamaları tanıtılır. Öğrenciler, bu uygulamalardan uygun olanını örnek durumlar üzerinde deneyerek bu uygulamanın etkisini değerlendirir. Öğrencilerin duygularını dengeleyerek tepkilerini yönetmeye ve etkilendikleri faktörleri fark ederek süreci daha bilinçli yürütmeye dönük kişisel kararlar oluşturmaları beklenir (D12.2). Süreç, gözlem formu veya öz değerlendirme formu ile değerlendirilebilir. TYB.1.1.3 Aynı kısa metnin üç farklı biçimde seslendirilmesi yapılır ya da ses kaydı dinletilir (E1.1). Birinci okumada ses çok hızlı ve vurgu yetersizdir, ikinci okumada ses çok düşük ve duraksamalar düzensizdir, üçüncü okumada ise ses açık, anlaşılır ve dengelidir. Öğrenciler dinledikleri bu örnekler üzerinden “Hangi okuma daha anlaşılır?”, “Hangi okumada sözcükler daha belirgin duyuldu?”, “Hangi okumada vurgu, tonlama, hız ve duraklama daha uygundur?” vb. sorulara cevap verir ve sözlü anlatımda diksiyon unsurlarının rolüne ilişkin ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI ölçütleri belirler. Ses şiddeti, vurgu, tonlama, konuşma hızı, duraklama, telaffuz, nefes kullanımı gibi unsurları ayırt etmeleri ve uygun olanı seçmeleri sağlanır. Bu sırada sözlü anlatımda açık telaffuzun, uygun vurgu ve tonlamanın, dinleyiciye uygun hızın ve nefes kontrolünün anlaşılmayı doğrudan etkilediğine ilişkin bilgiler verilir. Türkçe disiplininin konuşma ve okuma çalışmalarıyla, Müzik disiplininin ritim, nefes ve ses kontrolü çalışmalarıyla ilişki kurulur. Süreçte küçük grup tartışması tekniğinden yararlanılabilir. Öğrenciler kısa bir metni ya da hazırladıkları iki-üç cümlelik bir konuşmayı sırayla seslendirir. Dinleyen öğrenciler, önceden oluşturulan ölçüt listesine dayalı “diksiyon gözlem formu”nu kullanarak konuşmacının ses şiddeti, vurgu, tonlama, hız, duraklama ve telaffuz kullanımına ilişkin ölçme yapar. “Konuşmacının sesi en arkadan duyuluyor mu?”, “Sözcükler açık seçik anlaşılıyor mu?”, “Konuşma hızı anlamayı kolaylaştırıyor mu?” vb. sorular yöneltilerek öğrencilerin yalnızca gözledikleri unsurları işaretlemesi, dikkatlerini belirli ölçütlere yöneltmeleri sağlanır (E3.2). Öğrenciler bir yandan konuşma performansı gösterirken bir yandan dinleme ve kayıt tutma görevini yerine getirir (SDB2.1, SDB2.2). Bu sırada konuşmada nefesin cümleyi tamamlama gücünü artırdığına, uygun ses yüksekliğinin dinleyiciyle iletişimi kolaylaştırdığına ve çok hızlı ya da çok yavaş konuşmanın anlamı zayıflatabildiğine ilişkin bilgiler verilir. Öğrenciler gözlem formunda elde ettikleri sonuçları ilk aşamada oluşturdukları diksiyon ölçütleri listesiyle yan yana getirerek ölçme sonuçlarını belirledikleri ölçütlerle karşılaştırır. Ölçme sonuçları ile ölçütler arasında benzerlik ve farklılık aramaları, karşılaştırmayı ölçüte dayalı biçimde yürütmeleri sağlanır (E1.6). Bu sırada diksiyonun yalnızca “güzel konuşma” olmadığı, dinleyicinin anlamasını kolaylaştıran, güven veren ve iletişimi güçlendiren bir unsur olduğu vurgulanır. Bu süreçte karşılaştırma tablosu tekniğinden yararlanılabilir. Öğrencilerin karşılaştırmalarına ilişkin yargıda bulunarak yargılarını gerekçeyle birlikte sunmaları, yalnızca gözlem sonucunu söylemelerini değil, bunu değerlendirmeye dönüştürmeleri sağlanır (SDB3.3). Öğrenciler değerlendirmelerini kendi ifadeleriyle yeniden sunar. Bu süreçte kısa değerlendirme cümlesi yazmaları istenebilir. Süreç, gözlem formu ile değerlendirilebilir. TYB.1.1.4 Öğrenciler 4-5 kişilik gruplara ayrılır. Her gruba örnek bir dijital profil veya paylaşım verilir (OB2). Öğrenciler; paylaşımda yer alan ad, görsel, konum ve kişisel bilgileri inceler. Bu bilgilerin paylaşılmasının oluşturabileceği güvenlik risklerini belirleyerek grup arkadaşlarıyla paylaşır (E1.6, SDB2.2). Bu süreçte dijital ortamlarda yapılan paylaşımların “dijital ayak izi” oluşturduğu açıklanır. Öğrencilerin kişisel bilgileri korumanın ve başkalarına ait görselleri izin alarak paylaşmanın önemini fark etmeleri sağlanır (D14.1, D16.1). Öğrenciler, belirledikleri risklere karşı alınabilecek önlemleri söyler. Kişisel bilgileri paylaşmama, konum bilgisini kapatma, paylaşımı görebilecek kişileri sınırlandırma, güçlü parola kullanma ve başkasına ait bir içeriği paylaşmadan önce izin alma gibi önlemleri uygun risklerle eşleştirir (E3.7). Öğrenciler seçtikleri önlemin neden gerekli olduğunu kısaca açıklar (SDB2.1). Gruplar belirledikleri önlemleri sınıfla paylaşır (SDB2.2). Öğrencilerin güvenli paylaşım konusunda sorumluluk almaları ve başkalarının haklarına saygı göstermeleri beklenir (D14.1, D16.1). Bilişim teknolojileri ve yazılım disiplinindeki hesap güvenliği ve siber güvenlik konularıyla ilişki kurulur. Öğrencilere dijital ortamlarda bilginin korunmasına ilişkin durumlar sunulur. Bir fotoğrafın yalnızca izin verilen kişiler tarafından görülmesi, bir dosyanın başkaları tarafından değiştirilmemesi ve ihtiyaç duyulduğunda dosyaya ulaşılabilmesi örnekleri incelenir. Öğrenciler bu durumları gizlilik, bütünlük ve erişilebilirlik kavramlarıyla ilişkilendirerek aralarındaki farkları belirler (E1.6). Örneklerin benzer ve farklı yönlerini karşılaştırarak yaptıkları eşleştirmeleri kısaca açıklar (KB2.7, SDB2.1). Öğrencilerin kişisel bilgilerin korunması ile bilgilerin değiştirilmeden saklanması arasındaki farkı ayırt etmeleri ve güvenilir bilgi kullanımına özen göstermeleri beklenir (D6.2, D16.1). Öğrencilere örnek bir dijital paylaşım verilir. Öğrenciler paylaşımı kişisel bilgiler, konum, izin durumu ve paylaşımı görebilecek kişiler açısından inceler. Güvenli bulmadıkları bölümleri belirleyerek paylaşımı daha güvenli hâle getirir, yaptıkları değişiklikORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI leri açıklar. Ardından öğrencilerden paylaşım öncesinde dikkat edilmesi gerekenleri içeren “Güvenli Paylaşım Kontrol Kartı” adlı bir çalışma hazırlamaları istenebilir (E3.9, E3.10). Öğrencilerin kendi dijital davranışlarını gözden geçirmeleri, başkalarına ait bilgi ve görselleri kullanırken saygılı davranmaları beklenir (D14.1, D16.1). Süreç, analitik dereceli puanlama anahtarıyla değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden farklı kültürlerde selamlaşmanın jest ve mimiklerle nasıl ifade edildiğini araştırmaları ve elde ettikleri bilgileri sınıfta sunmaları istenebilir. Öğrencilerden seçtikleri bir duygunun kendilerinde yarattığı fiziksel etkileri ve bu duygu anında sergiledikleri tipik davranışları anlatan bir hikâye yazmaları istenebilir. Öğrencilerden belirli bir konu hakkında 2 dakikalık bilgilendirici bir sesli yayın kaydedip diksiyon unsurlarının etkisini analiz eden bir rapor hazırlayıp arkadaşlarına sunmaları istenebilir. Öğrencilerden güvenli dijital paylaşım kurallarını içeren bir e-güvenlik rehberi hazırlamaları istenebilir. Destekleme Öğrencilerden verilen örnek durumları uygun ifade yollarıyla eşleştirmeleri veya \"Sözlü İfade\", \"Yazılı İfade\" ve \"Beden Dili\" başlıklarını içeren karşılaştırma tablosu hazırlamaları istenebilir. Öğrencilerden günlük yaşamdan kısa olayları olumlu ve olumsuz duygu etkilerine göre sınıflandırmaları istenebilir. Öğrencilerden verilen konuşma örneklerinde vurgu, tonlama, telaffuz ve konuşma hızına ilişkin doğru ve yanlış kullanımları belirlemeleri istenebilir. Öğrencilerden güvenli dijital paylaşım kurallarını içeren bir kontrol listesi hazırlamaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 2,
+   "kind": "ÖĞRENME ALANI",
+   "title": "DÜZENLİ BAKIM, SAĞLIKLI YAŞAM",
+   "description": "Bu öğrenme alanında öğrencilerin; gelişime özgü beden değişimlerinin sağlık ve hijyen gereksinimleriyle ilişkisini yorumlayabilmeleri, spor ve oyun süreçlerindeki hijyen uygulamalarını değerlendirebilmeleri, sağlık ve hijyenle ilgili günlük yaşam sorunlarına yönelik fikirler üretebilmeleri amaçlanmaktadır. ALAN SBAB5. Sosyal Katılım (SBAB5.3. Fikir Üretme) BECERİLERİ KAVRAMSAL KB2.14. Yorumlama, KB2.17. Değerlendirme BECERİLER",
+   "lesson_hours": 17,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E1.6. Seçicilik, E3.1. Muhakeme, E3.2. Odaklanma, E3.7. Sistematiklik, E3.9. Şüphe Duyma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim, SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri",
+    "Değerler": "D13. Sağlıklı Yaşam, D14. Saygı, D16. Sorumluluk, D18. Temizlik Okuryazarlık OB1. Bilgi Okuryazarlığı, OB7. Veri Okuryazarlığı Becerileri DİSİPLİNLER ARASI Beden Eğitimi ve Spor, Fen Bilimleri, Sosyal Bilgiler",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.4. Çözümleme, KB2.7. Karşılaştırma ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE TYB.2.2.1. Gelişime özgü beden değişimlerinin sağlık ve hijyen gereksinimleriyle ilişkisini SÜREÇ BİLEŞENLERİ yorumlayabilme a) Gelişime özgü beden değişimlerinin sağlık ve hijyen gereksinimleriyle ilişkisini inceler. b) Gelişime özgü beden değişimlerinin sağlık ve hijyen gereksinimleriyle ilişkisine dair bilgileri bağlamdan kopmadan dönüştürür. c) Gelişime özgü beden değişimlerinin sağlık ve hijyen gereksinimleriyle ilişkisini kendi ifadeleriyle nesnel ve doğru anlamı değiştirmeyecek biçimde yeniden ifade eder. TYB.2.2.2. Spor ve oyun süreçlerindeki hijyen uygulamalarını değerlendirebilme a) Spor ve oyun süreçlerindeki hijyen uygulamalarını değerlendirmede kullanılacak ölçütleri belirler. b) Spor ve oyun süreçlerindeki hijyen uygulamalarına ilişkin ölçme yapar. c) Spor ve oyun süreçlerindeki hijyen uygulamalarına ilişkin ölçme sonuçlarını belirlediği ölçütlerle karşılaştırır. ç) Spor ve oyun süreçlerindeki hijyen uygulamalarına ilişkin yargıda bulunur. TYB.2.2.3. Sağlık ve hijyenle ilgili günlük yaşam sorunlarına yönelik fikirler üretebilme a) Sağlık ve hijyenle ilgili günlük yaşam sorunlarını fark eder. b) Sağlık ve hijyenle ilgili günlük yaşam sorunlarına ilişkin benzer deneyimleri inceler. c) Sağlık ve hijyenle ilgili günlük yaşam sorunlarına ilişkin fikir/çözüm üretir.",
+    "İÇERİK ÇERÇEVESİ": "Gelişime Özgü Sağlık, Hijyen ve Beden Değişimleri Spor ve Oyun Süreçlerinde Hijyen Sağlık ve Hijyenle İlgili Günlük Yaşam Sorunları",
+    "Anahtar Kavramlar": "büyüme, değişim, duygu, gelişim, gerginlik, hijyen, yardım ÖĞRENME Bu öğrenme alanında yer alan öğrenme çıktıları; gözlem formu, kontrol listesi, analitik KANITLARI dereceli puanlama anahtarı, öz değerlendirme formu, akran değerlendirme formu ve (Ölçme ve performans görevi kullanılarak değerlendirilebilir. Değerlendirme) Performans görevi: Öğrencilere “Sağlıklı ve Hijyenik Yaşam Rehberim” hazırlama görevi verilebilir. Performans görevleri dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin sağlıklı büyüme ve gelişme ile kişisel bakım ve temizlik alışkanlıklarına ilişkin temel bilgi ve farkındalığa sahip oldukları; çocukluktan ergenliğe geçişteki bedensel ve ruhsal değişimleri fark ettikleri, bu süreçte sorumlu davranmaları gerektiğini bildikleri, düzenli spor ve aktif oyun oynamanın önemini kavradıkları ve kişisel bakım kurallarına uyulmadığında ortaya çıkabilecek sağlık sorunlarını önceden fark edebildikleri kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerin sağlıklı büyüme ve kişisel hijyen kavramlarına yönelik ön bilgilerini görselleştirmek amacıyla zihin haritaları veya kavram haritaları oluşturmaları istenebilir. Çocukluktan ergenliğe geçişte karşılaşılan değişimler ve hijyen kuralları konusunda öğrencilerin olası kavram yanılgılarını tespit etmek için tanılayıcı dallanmış ağaç kullanılabilir. Öğrencilerin oyun ve spor sonrası beden temizliği hakkındaki fikirlerini ortaya çıkarmak için beyin fırtınası ve fikir taraması gibi etkinlikler yapılabilir. Günlük yaşamdaki hijyen sorunları ile vücudumuzdaki sistemlerin (sindirim, solunum, boşaltım vb.) sağlığının korunması arasındaki ilişkiye yönelik öğrencilerin mevcut bilgileri açık uçlu sorular sorularak belirlenebilir. ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilerden beden değişimleri ile hijyen davranışları arasındaki ilişkiye dair kendi günlük rutinlerinden somut örnekler vermeleri istenebilir. Öğrencilerden gün içinde spor yaptıktan veya oyun oynadıktan sonra uyguladıkları hijyen kurallarına örnekler vermeleri istenebilir. Öğrencilerden “sağlık ve hijyen” kavramlarıyla ilgili olarak günlük yaşamlarında karşılaştıkları zorlukları ifade etmeleri istenebilir ve bu ifadelerden hareketle sınıfça bir kelime bulutu oluşturulabilir. Öğrenme-Öğretme TYB.2.2.1 Uygulamaları Öğrencilere gelişim sürecinde ortaya çıkan beden değişimlerine ilişkin kısa bir bilgi metni verilir (OB1). Metinde terleme artışı, ciltte yağlanma, saç yapısında değişim, ağız ve diş sağlığına ilişkin ihtiyaçlar gibi durumlara yer verilir. Öğrencilere “Bu değişim sana neyi gösteriyor?”, “Bu durumda hangi bakım gerekir?” gibi sorular sorularak öğrencilerin metinde yer alan her beden değişiminin yanına uygun hijyen gereksinimini kısa notlar hâlinde yazmaları istenir (E1.6). Ardından öğrenciler yazdıkları notları bir arkadaşıyla karşılaştırır ve farklı eşleştirmeler üzerine kısa değerlendirme yapar. Sınıfça birkaç örnek üzerinden kısa fikir paylaşımı yapılır. Bu sırada gelişim sürecinde beden değişimlerinin yeni hijyen gereksinimleri ortaya çıkardığına ilişkin bilgiler verilir. Fen bilimleri dersinin denetleyici ve düzenleyici sistemler konusu ile ilişki kurulur. Öğrencilerin bilgiyi ihtiyaçla ilişkilendirerek incelemeleri beklenir (D16.1). Öğrencilerin kişisel temizlik gereksinimlerini fark etmeleri ve beden bakımında temizlik alışkanlıklarını ayırt etmeleri beklenir (D18.1). Süreçte \"düşün–eşleş–paylaş\" tekniğinden faydalanılabilir. Öğrencilerden önceki aşamada belirledikleri beden değişimi–hijyen gereksinimi ilişkilerini kullanarak bir akış şeması oluşturmaları istenir. Akış şemasında “beden değişimi-ortaya çıkan ihtiyaç-uygulanacak hijyen davranışı” biçiminde bir düzen kurmaları beklenir. Öğrencilere “Bu değişim hangi ihtiyacı doğurur?”, “Bu ihtiyacı karşılamak için hangi uygulama gerekir?”, “Bu ilişkiyi nasıl sıralarsın?” gibi sorular sorularak öğrencilerin bilgiyi seçerek düzenlemeleri sağlanır (E3.7, E1.6). Ardından öğrenciler oluşturdukları akış şemalarındaki farklı düzenlemeler üzerine kısa bir değerlendirme yapar (KB2.7). Sınıfça “hangi akış daha açık ve anlaşılır?” sorusu üzerinden kısa bir tartışma yapılır (SDB2.1). Bu süreçte beyin fırtınası tekniğinden faydalanılabilir. Bu sırada hijyen uygulamalarının belirli bir ihtiyaca karşılık geldiği ve düzenli yapılmasının önemine ilişkin bilgiler verilir. Öğrencilerin bilgiyi yapılandırılmış bir bütün hâline getirmeleri beklenir. Öğrencilerden oluşturdukları akış şemasından hareketle seçtikleri bir beden değişimi ve buna bağlı hijyen gereksinimini tek ve açık bir cümle ile ifade etmeleri istenir. Öğrencilere “Bu durumu bir arkadaşına nasıl anlatırsın?”, “Bu bilgiyi anlamı değiştirmeden daha kısa nasıl söyleyebilirsin?” gibi sorular sorularak öğrencilerin bilgiyi sadeleştirerek yeniden ifade etmeleri sağlanır (E3.2, E1.6). Öğrenciler yazdıkları ifadeleri sınıfta paylaşır; farklı ifadeler arasındaki benzerlik ve farklılıklar üzerine kısa değerlendirme yapılır. Bu sırada gelişim sürecine bağlı hijyen gereksinimlerinin bireysel olarak düzenli takip edilmesi gerektiğine ilişkin bilgiler verilir. Öğrencilerin kişisel bakım uygulamalarını kendi sorumluluğu olarak görmeleri ve düzenli sürdürmeleri beklenir (D16.1). Öğrencilerin edindikleri bilgileri doğru, açık ve nesnel biçimde ifade etmeleri beklenir. TYB.2.2.2 Öğrencilere spor ve oyun süreçlerinde karşılaşılabilecek durumları içeren kısa örnek olaylar sunulur. Örnek olaylarda kişisel su şişesi kullanımı, uygun spor kıyafeti seçimi, havlu kullanımı, etkinlik sonrası el-yüz temizliği, ortak kullanılan ekipmanların düzenli bırakılması gibi uygulamalara yer verilir. Öğrencilere “Bir spor etkinliğinde hijyen açısından nelere dikkat edilmelidir?”, “Sağlığı koruyan davranışlar hangileridir?”, “Bir değerlendirme yapacak olsan hangi ölçütleri kullanırsın?” gibi sorular sorularak öğrencilerin değerlendirmede kullanacakları ölçütleri belirlemeleri ve bunları kontrol listesi hâline getirmeleri istenir (E1.6). Öğrenciler oluşturdukları kontrol listesini kullanarak beden eğitimi ve spor dersi, okul oyun etkinliği ya da sınıf içinde canlandırılan bir spor sürecini gözlemler. Öğrencilerin yalnızca gözlemledikleri davranışları işaretlemeleri ve verileri kayıt altına almaları istenir (E1.6, OB7). Gözlem sonrasında öğrenciler kayıtlarını bir arkadaşlarının kayıtlarıyla karşılaştırır, farklı işaretlemeler üzerinde hangi ölçütün nasıl yorumlandığını gerekçeleriyle ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI açıklar. Ardından öğrenciler belirledikleri ölçütler arasından kendi spor yaşamlarında düzenli uyguladıkları davranışları işaretler (D16.1). Öğrencilerin kişisel bakım ve temizlik gerektiren uygulamaları fark etmeleri ve günlük yaşamlarında uyguladıkları hijyen davranışlarını ayırt etmeleri beklenir (D18.1). Öğrenciler gözlem sonuçlarını ilk aşamada oluşturdukları ölçüt listesiyle karşılaştırır. Öğrencilere “Hangi ölçüt tam karşılandı?”, “Hangi uygulama eksik kaldı?”, “Hangi davranış düzenli uygulanıyor?” gibi sorular sorularak öğrencilerin ölçme sonuçlarını ölçütlerle yan yana incelemeleri istenir (E1.6). Ardından öğrenciler ölçütlerle en fazla örtüşen ve geliştirilmesi gereken uygulamaları ayrı başlıklar altında yazar. Ortak kullanılan alan ve materyallerin temiz ve düzenli bırakılmasının diğer bireylerin kullanımını da etkilediğini fark etmeleri beklenir (D18.1, D14.1). Öğrenciler karşılaştırma sonuçlarından hareketle spor ve oyun süreçlerindeki hijyen uygulamalarına ilişkin kısa ve gerekçeli bir değerlendirme cümlesi oluşturur. Öğrencilere “Bu süreçte hijyen uygulamaları yeterli midir?”, “Hangi uygulamalar sürdürülmelidir?”, “Hangi uygulamalarda geliştirme gerekir?” gibi sorular sorularak öğrencilerin ulaştıkları verilerden hareketle yargıda bulunmaları sağlanır (E3.9, E3.10). Öğrencilerin değerlendirme cümlelerini sınıfla paylaşmaları, arkadaşlarının görüşlerini dinleyerek gerekirse kendi yargılarını yeniden düzenlemeleri istenir (SDB2.1, SDB3.3). Bu aşamada öğrenciler kendi spor ve oyun yaşantılarında geliştirmek istedikleri bir hijyen davranışını seçip kısa bir kişisel hedef belirler. Spor ortamlarında hijyenin güvenli katılım ve fiziksel sağlıkla ilişkili olduğuna dair bilgiler verilir (D13.2). Süreç; kontrol listesi, gözlem formu veya akran değerlendirme formu ile değerlendirilebilir. TYB.2.2.3 Gün içinde karşılaştıkları sağlık ve hijyen sorunlarına ilişkin sorular yönlendirilerek öğrencilerin bu sorunları bireysel olarak not etmeleri istenir (E1.1). Bu aşamada sosyal bilgiler dersinin \"Toplumsal Sorunlar ve Çözüm Önerileri\" konusu ile ilişki kurulur. Ardından öğrenciler yazdıkları sorunlar arasından kendi yaşamlarında en sık karşılaştıkları durumları işaretler. Öğrencilerin sağlığını etkileyebilecek günlük yaşam alışkanlıklarını fark etmeleri ve beden sağlığını korumaya yönelik durumları ayırt etmeleri beklenir (D13.4). Öğrencilerden belirledikleri sorunlardan birini seçmeleri, bu durumla ilgili kendi yaşantılarını ya da çevrelerinde gözlemledikleri benzer durumları düşünmeleri ve bunları kısa notlar hâlinde yazmaları istenir (E1.1). Ardından öğrenciler notlarını arkadaşlarıyla paylaşır, benzer ve farklı deneyimleri karşılaştırarak ortak örüntüleri belirler (KB2.7). Bu süreçte kartopu tekniğinden faydalanılabilir. Öğrenciler inceledikleri deneyimlerden hareketle seçtikleri sağlık ve hijyenle ilgili günlük yaşam sorununa ilişkin çözüm fikirleri üretir. Öğrencilere “Bu sorun tekrar yaşanmasın diye neler yapılabilir?”, “Hangi çözüm daha uygulanabilir görünüyor?”, “Bu çözüm günlük yaşamda nasıl sürdürülebilir?” gibi sorular sorularak öğrencilerin birden fazla çözüm önerisi oluşturmaları istenir (E3.1). Ardından öğrenciler çözüm fikirleri arasından günlük yaşamlarında uygulayabilecekleri bir çözümü seçer ve neden seçtiğini kısa bir gerekçeyle açıklar (E1.6). Öğrencilerin farklı çözüm önerilerini dinlemeleri ve gerekirse kendi önerilerini geliştirmeleri sağlanır (SDB2.1, SDB3.3). Seçtikleri çözümü günlük yaşamlarında uygulamaya dönüştürmeleri ve kişisel bakım alışkanlıklarını sürdürmeleri beklenir (D16.1). Süreç çalışma kâğıdı ile değerlendirilebilir. Öğrencilere performans görevi olarak “Sağlıklı ve Hijyenik Yaşam Rehberim” hazırlama görevi verilebilir. Öğrenciler bu görevde gelişim sürecinde ortaya çıkan beden değişimlerine bağlı sağlık ve hijyen gereksinimlerini belirler, spor ve oyun süreçlerinde dikkat edilmesi gereken hijyen uygulamalarına yönelik ölçütler oluşturur, günlük yaşamda karşılaşılabilecek sağlık ve hijyen sorunlarına ilişkin çözüm önerileri geliştirir. Hazırladıkları rehberi sınıfla paylaşmaları istenir. Performans görevleri, dereceli puanlama anahtarı ile değerlendirilebilir. ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden beden değişimleri ile hijyen gereksinimleri arasındaki ilişkinin günlük yaşam üzerindeki etkilerini içeren senaryolar yazmaları ve canlandırmaları istenebilir. Öğrencilerden profesyonel spor takımlarının antrenman tesislerinde uyguladıkları hijyen protokollerine yönelik araştırma raporu hazırlamaları istenebilir. Öğrencilerden belirledikleri bir hijyen sorunu ve çözümü hakkında okulun genel ağ sitesinde yayımlanabilecek bir bilgi görseli hazırlamaları istenebilir. Destekleme Öğrencilerden beden değişimleri ile hijyen gereksinimlerini eşleştiren bir tablo hazırlamaları istenebilir. Öğrencilerden spor ve oyun süreçlerinde uygulanması gereken hijyen davranışlarını içeren kontrol listesi hazırlamaları istenebilir. Öğrencilerden belirledikleri bir hijyen sorununa yönelik bireysel çözüm önerileri geliştirmeleri istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 3,
+   "kind": "ÖĞRENME ALANI",
+   "title": "GÜVENLİ EV, DÜZENLİ YAŞAM",
+   "description": "Bu öğrenme alanında öğrencilerin; günlük yaşam etkinliklerine ilişkin süre verilerinden elde edilen bulguları günlük planlama bağlamında yorumlayabilmeleri, ev güvenliğini etkileyen durumlara ilişkin bilgi toplayabilmeleri, ev içi görev ve sorumlulukların günlük yaşamdaki yerini yorumlayabilmeleri ve düzenli bir yaşam alanı oluşturmada dikkat edilmesi gereken unsurları özetleyebilmeleri amaçlanmaktadır. ALAN BTYAB5. Veri Yönetimi (BTYAB5.4.Bulguları Yorumlama) BECERİLERİ KAVRAMSAL KB2.3. Özetleme, KB2.6. Bilgi Toplama, KB2.14. Yorumlama BECERİLER",
+   "lesson_hours": 17,
+   "sections": {
+    "EĞİLİMLER": "E3.1. Muhakeme, E3.3. Yaratıcılık, E3.6. Analitiklik, E3.7. Sistematiklik, E3.9. Şüphe Duyma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği Öğrenme Becerileri",
+    "Değerler": "D2. Aile Bütünlüğü, D5. Duyarlılık, D13. Sağlıklı Yaşam, D14. Saygı, D16. Sorumluluk, D17. Tasarruf, D18. Temizlik, D20. Yardımseverlik Okuryazarlık OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB7. Veri Okuryazarlığı Becerileri DİSİPLİNLER ARASI Görsel Sanatlar, Matematik, Sosyal Bilgiler, Türkçe",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.4. Çözümleme ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE TYB.1.3.1. Günlük yaşam etkinliklerine ilişkin süre verilerinden elde edilen bulguları yorumSÜREÇ BİLEŞENLERİ layabilme a) Günlük yaşam etkinliklerine ilişkin süre verilerinden elde edilen bulgulara ait sonuç çıkarır. b) Elde ettiği bulguları kaynak göstererek yorumlar. TYB.1.3.2. Ev güvenliğini etkileyen durumlara ilişkin bilgi toplayabilme a) Ev güvenliğini etkileyen durumlara ilişkin bilgiye ulaşmak için kullanacağı kaynak ve araçları belirler. b) Belirlediği aracı kullanarak ev güvenliğini etkileyen durumlara ilişkin bilgileri bulur. c) Ev güvenliğini etkileyen durumlara ilişkin ulaşılan bilgileri doğrular. ç) Ev güvenliğini etkileyen durumlara ilişkin ulaşılan bilgileri kaydeder. TYB.1.3.3. Ev içi görev ve sorumlulukların günlük yaşamdaki yerini yorumlayabilme a) Ev içi görev ve sorumlulukların günlük yaşamdaki yerini inceler. b) Ev içi görev ve sorumlulukların günlük yaşamdaki yerine ilişkin bilgileri bağlamdan kopmadan dönüştürür. c) Kendi ifadeleriyle ev içi görev ve sorumlulukların günlük yaşamdaki yerini nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder. TYB.1.3.4. Düzenli bir yaşam alanı oluşturmada dikkat edilmesi gereken unsurları özetleyebilme a) Düzenli bir yaşam alanı oluşturmada dikkat edilmesi gereken unsurlar ile ilgili çözümleme yapar. b) Düzenli bir yaşam alanı oluşturmada dikkat edilmesi gereken unsurlar ile ilgili sınıflandırma yapar. c) Düzenli bir yaşam alanı oluşturmada dikkat edilmesi gereken unsurları yorumlar.",
+    "İÇERİK ÇERÇEVESİ": "Günlük Yaşam Etkinlikleri Planlama Ev Güvenliği Konusunda Farkındalık Kazanma Ev İçi Görev ve Sorumluluklar Düzenli Bir Yaşam Alanı Oluşturma",
+    "Anahtar Kavramlar": "düzen, görev, güvenlik, plan, zaman ÖĞRENME Bu öğrenme alanında yer alan öğrenme çıktıları; gözlem formu, kontrol listesi, öz deKANITLARI ğerlendirme formu, dereceli puanlama anahtarı ve performans görevi kullanılarak de- (Ölçme ve ğerlendirilebilir. Değerlendirme) Performans görevi: Öğrencilerden performans görevi olarak ev güvenliğini sağlamaya yönelik afiş, broşür veya bilgi kartı hazırlamaları istenebilir. Hazırlanan ürünler, dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin günlük yaşamlarında zaman planlaması, ev güvenliği, görev paylaşımı ve düzenli yaşam alanlarına ilişkin temel deneyim ve farkındalığa sahip oldukları; planlı hareket etmenin günlük yaşamı kolaylaştırdığına, güvenlik önlemleri almanın riskleri azalttığına, aile içinde görev paylaşımının iş birliğini desteklediğine ve düzenli ortamların zaman kaybını önlediğine dair ön bilgilerinin bulunduğu kabul edilmektedir. ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI Ön Değerlendirme Süreci Öğrencilere bir gün içinde yapılan etkinlikleri gösteren basit bir zaman çizelgesi veya görsel sunularak “Sizce bu öğrenci zamanını dengeli kullanıyor mu?”, “Hangi etkinlik daha fazla zaman almış olabilir?” gibi açık uçlu sorular sorulabilir. Öğrencilere ev içinde güvenlik riski oluşturabilecek durumları içeren görseller gösterilerek “Bu ortamda hangi tehlikeler olabilir?”, “Sizce burada hangi önlem alınmalıdır?” gibi açık uçlu sorular sorulabilir. Öğrencilere aile içinde yapılan görevleri gösteren görseller veya kısa örnek durumlar sunularak “Bu görev kim tarafından yapılıyor?”, “Bu görev neden önemlidir?” gibi açık uçlu sorular sorulabilir. Öğrencilere düzenli ve düzensiz yaşam alanlarını gösteren görseller sunularak “Hangi ortam daha kullanışlı görünüyor?”, “Bu ortamda sizi zorlayabilecek durumlar nelerdir?” gibi açık uçlu sorular sorulabilir. Köprü Kurma Öğrencilerden kendi günlük yaşamlarında en fazla zaman ayırdıkları etkinliklere örnekler vermeleri istenir. “Gün içinde en fazla zamanınızı hangi etkinliklere ayırıyorsunuz?”, “Ekran kullanımınız günlük planınızı nasıl etkiliyor?” gibi açık uçlu sorular sorulabilir. Öğrencilerden evlerinde dikkat ettikleri güvenlik kurallarına örnekler vermeleri istenir. “Aileniz size evde hangi konularda dikkatli olmanızı söylüyor?”, “Evde sizi koruyan güvenlik önlemleri nelerdir?” gibi açık uçlu sorular sorulabilir. Öğrencilerden aile içinde üstlendikleri sorumluluklara örnekler vermeleri istenir. “Evde en sık hangi görevi yapıyorsunuz?”, “Aile içinde görev paylaşımı olduğunda günlük yaşam nasıl kolaylaşıyor?” gibi açık uçlu sorular sorulabilir. Öğrencilerden kendi çalışma alanları veya odalarıyla ilgili örnekler vermeleri istenir. “Bir eşyanızı bulamadığınız oldu mu?”, “Düzenli bir ortam size nasıl yardımcı oluyor?” gibi açık uçlu sorular sorulabilir. Öğrenme-Öğretme TYB.1.3.1 Uygulamaları Öğrencilere bir öğrencinin bir gününü; uyku, okul, ders çalışma, ekran kullanımı, dinlenme, spor ve ailesiyle geçirdiği süreler açısından gösteren tablo ve sütun grafiği verilir. Öğrenciler verileri bireysel olarak inceler (OB4). Öğrenciler küçük gruplara ayrılır (SDB2.2). Gruplar veriler arasındaki örüntüleri bağlam içinde yorumlar, yorumlarını \"Hangi veri bunu gösteriyor?\" sorusuyla gerekçelendirir ve veriden kapsamlı anlam çıkarımı yapar (OB7). Öğrencilerin verileri önce en yüksek ve en düşük süreler, sonra dikkat çeken farklar, en son günün genel görünümü olacak şekilde sıralı biçimde incelemeleri sağlanır (E3.7). Süreleri fazla-az, yeterli-yetersiz ve dengeli-dengesiz ilişkileri üzerinden çözümlemeleri (E3.6, KB2.4) ve \"Bu veriler bize bu öğrencinin günü hakkında ne söylüyor?\" sorusuna mantıklı sonuçlar üretmeleri beklenir (E3.1). Öğrencilerin zamanın nasıl kullanıldığını sorgulayıp daha dengeli bir dağılım aramaya yönelmeleri sağlanır (D17.2). Öğrenciler, ulaştıkları sonuçlardan hareketle \"Bu günlük plan dengeli mi?\", \"Hangi etkinliğe ayrılan süre artırılmalı ya da azaltılmalı?\", \"Bu öğrencinin günü daha verimli nasıl planlanabilir?\" sorularını tartışır, yorumlar ve grupça yeni bir plan önerisi oluşturur. Öneri oluşturma için görev paylaşımı yapmaları, ortak sonuca katkı sunmaları ve düşüncelerini açıkça ifade etmeleri sağlanır (SDB2.1, SDB2.2). Her grup, hazırladığı öneriyi \"Planımı Savunuyorum\" etkinliğiyle sınıfa sunar. Hangi süreyi neden değiştirdiğini ve bu değişikliğin günlük yaşama nasıl katkıda bulunacağını açıklar. Süreçte birbirlerinin sözünü kesmeden dinlemeleri ve söz alarak konuşmaları istenir (D14.1). Sunumların ardından öğrencilerin grupların planlarına kısa geri bildirim vermeleri, böylelikle kendi önerilerinin olası sonuçlarını düşünmeleri, bu sonuçlara göre önerilerini uyarlamaları ve uyarladıkları planın etkisini tartışmaları desteklenir (SDB1.2). Son aşamada öğrenciler \"Bir Günümü Yeniden Tasarlasam…\" başlıklı bireysel çalışmayla kendi günlük yaşamlarında değiştirmek istedikleri bir süreyi belirler ve bunu gerekçelendirir. Bu aşamada özellikle ekran süresine ilişkin öneriler geliştirmeleri, teknoloji kullanımını dengeli biçimde planlamaları sağlanır (D13.3). Öğrencilerden zamanı daha verimli kullanmaya yönelik oluşturdukları planın sorumluluğunu almaları ve haftalık bir çizelge ile planlarını uygulamaları istenir (D16.1). Süreç; gözlem formu, kontrol listesi veya öz değerlendirme formu ile değerlendirilebilir. TYB.1.3.2 Öğrencilerden ev güvenliğini etkileyen durumlara örnekler vermeleri istenir. Ev güvenliğini etkileyen durumlara ilişkin kısa bilgi notları verilir. Öğrencilerden bu bilgi notlarını ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI inceleyerek hangi alanda daha çok bilgiye ihtiyaç duyduklarını belirlemeleri istenir. Öğrencilerin küçük gruplara ayrılarak ev güvenliğiyle ilgili yararlanabilecekleri güvenilir bilgi kaynaklarını ve araçları belirlemeleri sağlanır (SDB2.2). Bu süreçte kese kâğıdı tekniğinden faydalanılabilir. Öğrenciler, seçtikleri araçları kullanarak ev güvenliğini etkileyen durumlar ile ilgili bilgileri toplar. Öğrenciler buldukları bilgileri \"risk durumu–önlem\" eşleştirmesiyle kayda geçirir ve her bilginin hangi kaynaktan elde edildiğini belirtir (OB1). Bilgi toplama sürecinde dikkatlerini etkinliğe yöneltmeleri (SDB1.2), görüşme yaptıkları kişileri sözünü kesmeden dinlemeleri (SDB2.1) ve aldıkları görevi yerine getirerek grup çalışmasına katkı sunmaları (SDB2.2) beklenir. Risk durumu ve önleme ilişkin bilgileri ayıklarken çözümleyici düşünmeleri (E3.6) ve güvenlik bilgisini kendi yaşamlarıyla ilişkilendirmeleri sağlanır. Öğrenciler topladıkları bilgileri farklı kaynaktan karşılaştırarak doğrular. Bu aşamada dedikodu tekniği uygulanabilir. Öğrencilerin duydukları bilgiyi hemen kabul etmek yerine yeniden kontrol etmeleri (E3.9) ve kaynaklar arasında tutarlılık aramaları (E3.10) beklenir. Grup içinde farklı yorumları tartışmaları ve birbirlerini dikkatle dinlemeleri (SDB2.1) sağlanır. Öğrenciler doğruladıkları bilgileri; \"Riskli Durum\", \"Bilgi Kaynağı\" ve \"Alınacak Önlem\" başlıklarıyla tablo, bilgi kartı ya da ev güvenlik posteri hâline getirerek kaydeder (OB1). Ardından tüm grupların katkıları birleştirilerek ortak bir \"Ev Güvenliği Rehberi\" veya ailelerle paylaşılabilecek mini bir güvenlik broşürü oluşturulur. Her grup kendi bölümünü düzenli biçimde hazırlar, görsellerle destekler ve sınıf panosunda ortak ürünün oluşmasına katkı sunar (SDB2.2). Ev güvenliğini etkileyen durumlara ilişkin bilgileri belirli başlıklar altında düzenleyerek eksiksiz ve anlaşılır şekilde kaydetmeleri, kayıt sürecini planlı ve örgütlü yürütmeleri beklenir (E3.7). Öğrencilerden bu çalışma ile güvenlik risklerini azaltmaya dönük önlemleri görünür kılmaları (D5.3) ve ev içindeki tehlikelere karşı somut önlem bilgisini erişilebilir hâle getirmeleri (D13.4) istenir. Öğrencilerden performans görevi olarak ev güvenliğini sağlamaya yönelik afiş, broşür veya bilgi kartı hazırlamaları istenebilir (E3.3, OB4). Görsel sanatlar disiplininin tasarladığı imgeleri yazı düzeniyle birleştirme süreçleriyle ilişki kurulur. Hazırlanan ürünler sınıfta sergilenebilir. Ürünler dereceli puanlama anahtarı ile değerlendirilebilir. TYB.1.3.3 Öğrencilere sofrayı hazırlama, odasını toplama, alışverişe yardım etme, kardeşine destek olma, çamaşır katlama gibi ev içi görev ve sorumlulukları içeren örnek durumlar verilir. Öğrenciler gruplara ayrılır (SDB2.2). Grupların örnek durumları incelemeleri ve \"Kim ne yapıyor?\", \"Bu görev günlük yaşamda neyi kolaylaştırıyor?\", \"Yapılmadığında ne olabilir?\" gibi sorulara cevap aramaları istenir (OB1). Sonrasında seçilen bir durum sınıfta canlandırılır. Öğrencilerin canlandırılan örnek durumları kişi–görev–sonuç sırasına göre inceleyerek ayrıntıları planlı biçimde ele almaları istenir (E3.6, E3.7). Süreçte soru cevap tekniğinden faydalanılabilir. Öğrencilerin aile içinde iş birliği yapmanın günlük yaşamı kolaylaştırdığını fark ederek (D2.4) aile üyelerinin üstlendikleri görevlerin önemini örnekler üzerinden açıklamaları istenir. Öğrenciler inceledikleri örnek durumlardaki bilgileri \"Görev\", \"Sorumlu Kişi\" ve \"Günlük Yaşama Katkısı\" başlıklarıyla akış şemasına dönüştürür (OB4). Sosyal bilgiler dersinde yer alan gruplar ve bu gruplardaki rollerle ilgili içerikler, öğrenme çıktısıyla ilişkilendirilir. Öğrencilerden bir ev içi görevin yapılmasıyla günlük yaşamda hangi kolaylıkların oluştuğunu adım adım şemalaştırmaları istenir. Ardından gruplar, \"Bu görev yapılmadığında aile içinde hangi aksama ortaya çıkar?\" ve \"Bu sorumluluk başka bir aile üyesine kaldığında günlük düzen nasıl etkilenir?\" gibi soruları tartışır (SDB2.1). Böylece öğrenciler bilgiyi bağlamından koparmadan yeniden düzenler, görevler ile günlük yaşam düzeni arasında mantıklı bağ kurar (E3.1). Grup içinde farklı düzenleme önerilerini tartışmaları, ortak bir gösterim üzerinde uzlaşmaları ve gerektiğinde kendi görüşlerini diğerlerinin katkısına göre yeniden düzenlemeleri sağlanır (SDB2.2). Öğrenciler; aile bireylerinin birbirlerine yardım etmesinin aile içi dayanışmayı güçlendirdiği ve günlük yaşamın akışını koruduğunu fark ederek aile içinde ortaya çıkan aksamalara çözüm üretir (D2.2, D20.2). Bu süreçte beyin fırtınası tekniğinden yararlanılabilir. Öğrenciler, oluşturdukları akış şemasından hareketle \"Evde görev paylaşımı olduğunda…\", \"Bir sorumluluk yerine getirilmediğinde…\", \"Ben aile içinde … yaparak katkıda bulunabilirim.\" gibi cümle başlangıçlarını tamamlayarak düşüncelerini sözlü ya da yazılı olarak açıklar (SDB2.1). Her öğrencinin aile içinde üstlenebileceği bir sorumluluğu seçmesi ve bunun günlük yaşama ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI katkısını kendi cümleleriyle ifade etmesi istenir. Bu süreçte çıkış kartları tekniğinden faydalanılabilir. Süreç, gözlem formu veya kontrol listesi ile değerlendirilebilir. TYB.1.3.4 Öğrencilere düzenli ve düzensiz çalışma masası, yatak odası, mutfak ya da sınıf köşesi görselleri verilir. Öğrenciler görselleri inceler (OB4), ardından küçük gruplarda \"Bu alanda neler düzenli?\", \"Hangi unsurlar işi kolaylaştırıyor?\", \"Hangi durumlar karışıklık oluşturuyor?\" gibi sorulara cevap arar. Her grup görsellerdeki düzen unsurlarını ve düzensizlik kaynaklarını işaretler. Sonrasında aynı yaşam alanının düzenli ve düzensiz hâlini karşılaştırır. Öğrencilerin unsurları tek tek ayırt edip neden-sonuç ilişkisi içinde ele almaları; eşyanın yerli yerinde olmasının zaman kazandırması, dağınıklığın ise aranan şeyi bulmayı zorlaştırması gibi çıkarımlar yapmaları ve düzenin günlük yaşamı nasıl etkilediğine ilişkin çözümlemeler yapmaları (E3.1) sağlanır. Bu süreçte soru cevap yönteminden faydalanılabilir. Grup çalışmasında birbirlerinin sözünü kesmeden dinlemeleri, grup içi incelemeye katkı sunmaları ve aldıkları görevi yerine getirerek ortak sonuca ulaşmaları desteklenir (SDB2.1, SDB2.2). Öğrencilerin, temiz ve düzenli bir ortamın yaşam kalitesi ve verimlilik açısından önemini örnekler üzerinden göstermeleri istenir (D18.2). Öğrenciler inceledikleri görsellerden elde ettikleri unsurları \"Temizlik\", \"Yerleşim Düzeni\", \"İşlevsellik\", \"Güvenlik\" , \"Zaman Yönetimi\" gibi başlıklar altında sınıflandırır. Bunu kavram haritası yoluyla gösterir (OB4). Grup içinde ortak sınıflandırma üzerinde uzlaşmaları, görev paylaşımı yapmaları ve ürün oluşturmaları sağlanır (SDB2.2). Öğrencilerin düzenli yaşam alanı oluştururken uygun temizleme araçlarını ve yerleştirme biçimlerini belirlemeleri; temiz ve düzenli bir ortamın üretkenlik, sağlık ve yaşam kalitesi açısından önemini örnekler üzerinden ayırt etmeleri sağlanır (D18.2). Bu süreçte beyin fırtınası tekniğinden yararlanılabilir. Öğrenciler, oluşturdukları sınıflandırmadan hareketle \"Düzenli bir yaşam alanı için … önemlidir çünkü …\", \"Dağınık bir ortam olduğunda …\", \"Ben kendi yaşam alanımda … yaparak düzen sağlayabilirim.\" gibi cümle başlangıçlarını tamamlayarak düşüncelerini sözlü ya da yazılı olarak açıklar (OB4). Bu aşamada her öğrencinin kendi yaşam alanına ilişkin bir düzen ilkesi belirlemesi ve bunu sınıfla paylaşması istenir. Öğrenciler unsurlar arasında anlamlı ilişkiler kurarak düzenli bir yaşam alanı oluşturmada dikkat edilmesi gereken unsurları kendi cümleleriyle açıklar (E3.1). Türkçe disiplininin Düşünceyi geliştirme yollarından tanımlama süreçiyle ilişki kurulur. Süreç, gözlem formu veya kontrol listesi ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden kendi günlük yaşamlarına ait zaman kullanımını gösteren tablo, pasta grafiği veya sütun grafiği hazırlamaları istenebilir. Hazırladıkları verilerden hareketle \"Daha Dengeli Bir Gün Planı\" oluşturmaları ve bunu kısa bir sunumla açıklamaları istenebilir. Öğrencilerden kendi evleri için \"Ev Güvenliği Kontrol Listesi\" veya evde alınabilecek güvenlik önlemlerini anlatan kısa bir broşür hazırlamaları istenebilir. Öğrencilerden aile içindeki görev paylaşımının tüm bireylerin serbest zamanına ve mutluluğuna olan etkisini bir sütun grafiği üzerinde modellemeleri istenebilir. Öğrencilerden \"sıfır dağınıklık\" hedefli, çok işlevli ve ergonomik bir \"geleceğin çalışma masası\" tasarlamaları ve bu tasarımın zaman yönetimine katkısını raporlaştırmaları istenebilir. ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI Destekleme Öğrencilerden günlük etkinliklerini \"En Fazla Süre Ayrılan Etkinlik\", \"En Az Süre Ayrılan Etkinlik\" ve \"Dengeli Kullanım\" başlıkları altında sınıflandırarak tablo hazırlamaları istenebilir. Öğrencilerden evde uygulanabilecek güvenlik kurallarını içeren kısa bilgi kartları hazırlamaları istenebilir. Öğrencilerden verilen ev içi görevleri \"Kişisel Sorumluluk\", \"Aileye Yardım\" ve \"Ortak Görev\" başlıkları altında sınıflandırmaları istenebilir. Öğrencilerden düzenli ve düzensiz ortamları karşılaştırarak temel farklılıkları yazılı olarak ifade etmeleri istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 4,
+   "kind": "ÖĞRENME ALANI",
+   "title": "BİLİNÇLİ TÜKETİM, SÜRDÜRÜLEBİLİR YAŞAM",
+   "description": "Bu öğrenme alanında öğrencilerin; biyoçeşitliliğin korunmasının önemini veriler üzerinden fark etmeleri, ulaşım seçeneklerini çevresel etkileri bakımından karşılaştırmaları, enerji tasarrufuna yönelik çözüm fikirleri geliştirmeleri; anket ve grafik verilerini kullanarak tüketim alışkanlıkları ile sürdürülebilir yaşam kararları arasında ilişki kurmaları ve bu konularda bilinçli tercihler sergilemeleri ile ilgili bilgi ve beceriler kazanmaları amaçlanmaktadır. ALAN SBAB5. Sosyal Katılım (SBAB5.3. Fikir Üretme), MAB4.4. Bulguları Yorumlama, BECERİLERİ FBAB12. Kanıt Kullanma KAVRAMSAL KB2.7. Karşılaştırma BECERİLER",
+   "lesson_hours": 17,
+   "sections": {
+    "EĞİLİMLER": "E1.1. Merak, E1.6. Seçicilik, E3.1. Muhakeme, E3.7. Sistematiklik, E3.9. Şüphe Duyma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.1. İletişim, SDB3.3. Sorumlu Karar Verme Öğrenme Becerileri",
+    "Değerler": "D5. Duyarlılık, D9. Merhamet, D17. Tasarruf, Okuryazarlık OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, Becerileri OB7. Veri Okuryazarlığı DİSİPLİNLER ARASI Fen Bilimleri, Matematik",
+    "İLİŞKİLER": "BECERİLER ARASI KB2.4. Çözümleme, KB2.10. Çıkarım Yapma, KB2.17. Değerlendirme ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI VE TYB.2.4.1. Biyoçeşitliliğin korunmasının gerekliliğine ilişkin kanıt kullanabilme SÜREÇ BİLEŞENLERİ a) Biyoçeşitliliğin korunmasının gerekliliğine ilişkin verileri toplar ve kaydeder. b) Biyoçeşitliliğin korunmasının gerekliliğine ilişkin veri setleri oluşturur. c) Biyoçeşitliliğin korunmasının gerekliliğine ilişkin veriye dayalı açıklama yapar. TYB.2.4.2. Ulaşım seçeneklerinin çevresel etkilerini karşılaştırabilme a) Ulaşım seçeneklerinin çevresel etkilerine ilişkin özellikleri belirler. b) Ulaşım seçeneklerinin çevresel etkilerine ilişkin benzerlikleri listeler. c) Ulaşım seçeneklerinin çevresel etkilerine ilişkin farklılıkları listeler. TYB.2.4.3. Enerji tasarrufuna yönelik fikir üretebilme a) Enerji tasarrufu ile ilgili problem durumlarını fark eder. b) Enerji tasarrufuna ilişkin örnekleri ve deneyimleri inceler. c) Enerji tasarrufuna yönelik fikir/çözüm üretir. TYB.2.4.4. Çevrim içi anket ve grafik verilerini tüketim kararları bağlamında yorumlayabilme a) Çevrim içi anket ve grafik verilerine dayalı bulgulardan tüketim kararlarına ilişkin sonuçlar çıkarır. b) Çevrim içi anket ve grafik verilerini tüketim kararları bağlamında değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Biyoçeşitliliği Koruma Çevre Dostu Ulaşım Seçenekleri Enerji Tasarrufu Tüketim Kararları",
+    "Anahtar Kavramlar": "atık, biyoçeşitlilik, çevrim içi, ihtiyaç, tamir, tasarruf, tüketim, yeniden kullanma ÖĞRENME Bu öğrenme alanında yer alan öğrenme çıktıları; gözlem formu, öz değerlendirme forKANITLARI mu, akran değerlendirme formu, analitik dereceli puanlama anahtarı ve performans (Ölçme ve görevi kullanılarak değerlendirilebilir. Değerlendirme) Performans görevi: Öğrencilere performans görevi olarak “Sürdürülebilir Yaşam Karar Dosyam” hazırlama görevi verilebilir. Hazırlanan ürünler, dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin çevrelerinde farklı canlı türleri bulunduğunu, enerji ve doğal kaynakların bilinçli kullanılmasının önemli olduğunu bildikleri; günlük yaşamda grafik, tablo ve çevrim içi anketlerle karşılaştıkları, bu verilerden temel düzeyde sonuç çıkarabildikleri ve tüketim alışkanlıkları ile çevresel etkiler arasında ilişki kurabildikleri kabul edilmektedir. ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI Ön Değerlendirme Süreci Öğrencilere “Çevrenizde hangi bitki ve hayvan türlerini görüyorsunuz?”, “Bazı canlı türlerinin yok olması nasıl sonuçlar doğurur?” gibi açık uçlu sorular sorulabilir. Trafiğin çok yoğun olduğu dumanlı bir cadde görseli ile bisiklet yollarının olduğu yeşil bir sokak görseli karşılaştırılarak öğrencilerin bu iki ortamdaki yaşam kalitesine dair düşüncelerini ifade etmeleri istenebilir. Öğrencilere sınıf veya ev ortamına ait elektrik kullanımını gösteren görseller sunularak “Bu görsellerde elektrik enerjisinin gereksiz kullanıldığı durumlar nelerdir?”, “Hangi davranışlar elektrik israfına neden olur?” gibi sorular yöneltilebilir. Öğrencilere basit bir sütun grafiği gösterilerek “Grafikte en yüksek değer hangisidir?”, “Bu grafik bize ne anlatıyor olabilir?” gibi açık uçlu sorular sorulabilir. Köprü Kurma Öğrencilerden yaşadıkları çevrede gördükleri canlı türlerine ve bu canlıların yaşam alanlarına örnekler vermeleri istenebilir. Öğrencilerden günlük yaşamlarında kullandıkları ulaşım araçlarına örnekler vermeleri istenebilir. Öğrencilerden günlük yaşamlarında elektrik kullandıkları durumlara örnekler vermeleri istenir. Öğrencilere “Evde hangi cihazları sık kullanıyorsunuz?”, “Elektrik tasarrufu için evde neler yapılıyor?” gibi açık uçlu sorular sorulabilir. Öğrencilerden günlük yaşamda yaptıkları seçimlerle (ulaşım tercihi, enerji kullanımı, alışveriş alışkanlıkları vb.) ilgili daha önce karşılaştıkları grafik ve anket sonuçlarına örnekler vermeleri istenebilir. Öğrenme-Öğretme TYB.2.4.1 Uygulamaları Öğrencilere biyoçeşitliliğin korunmasının gerekliliğine ilişkin farklı ekosistemleri yansıtan görseller, kısa bilgi kartları ve sayısal veriler sunulur (OB1, OB2). Materyallerde orman, sulak alan, tarım alanı, şehir çevresi gibi yaşam alanlarında bulunan bitki ve hayvan türleri, tür sayılarındaki değişimler, bazı canlıların yaşam alanı kayıpları veya koruma altına alınan türlere ilişkin bilgiler yer alır. Öğrencilere “Bu yaşam alanında hangi canlı türleri dikkatini çekiyor?”, “Tür sayılarında nasıl bir değişim görüyorsunuz?”, “Bazı canlıların sayısının azalmasının nedeni ne olabilir?” gibi sorular sorularak öğrencilerin farklı kaynaklardaki verileri incelemeleri ve dikkat çeken bilgileri kayıt altına almaları istenir (OB7, E1.1). Fen bilimleri dersinin biyoçeşitlilik öğrenme çıktısıyla ilişki kurulur. Farklı kaynaklardan veri seçmeleri ve kaydetmeleri, öğrencilerin gözlem ve bilgi toplama süreçlerini sistemli biçimde yürütmelerini sağlar. Bu süreçte istasyon tekniğinden faydalanılabilir. Öğrenciler topladıkları verileri \"Canlı Türü\", \"Yaşam Alanı\", \"Tür Sayısındaki Değişim\" , \"Tehdit Unsurları\" gibi başlıklar altında sınıflandırır. Öğrencilere “Hangi veriler aynı grupta toplanabilir?”, “Bu canlılar hangi yaşam alanında bulunuyor?”, “Tür sayısındaki değişimleri nasıl gösterebilirsin?” gibi sorular sorularak öğrencilerin verileri tablo, grafik ya da şema hâline getirmeleri istenir (E3.7). Öğrenciler oluşturdukları veri setlerini inceleyerek tür çeşitliliği, yaşam alanı kaybı veya canlı popülasyonlarındaki değişimlere ilişkin sonuçlar çıkarır. “Hangi yaşam alanlarında tür çeşitliliği daha fazla görünüyor?”, “Bazı türlerin azalması ekosistemi nasıl etkileyebilir?”, “Veriler biyoçeşitliliğin korunması hakkında ne söylüyor?” gibi sorular sorularak öğrencilerin verilerden hareketle biyoçeşitliliğin gerekliliğine ilişkin açıklama yapmaları istenir (E3.9). Öğrenciler ulaştıkları sonuçları sınıfla paylaşır ve veriye dayalı gerekçeler sunar (KB2.17). Öğrencilerin canlı türleri ve yaşam alanlarının korunmasının insan yaşamı için de gerekli olduğunu fark etmeleri, çevrenin korunmasına yönelik özverili ve duyarlı davranmaları sağlanır (D5.1, D9.3). Süreç, gözlem formu veya analitik dereceli puanlama anahtarı ile değerlendirilebilir. TYB.2.4.2 Öğrencilere günlük yaşamda kullanılan farklı ulaşım seçeneklerini içeren görseller ve bilgi kartları sunulur (OB1, OB4). Kartlarda özel araç, toplu taşıma, bisiklet, yürüyüş, elektrikli scooter (sukutır) veya servis kullanımı gibi ulaşım türlerine yer verilir. Ulaşım araçlarının yolcu kapasitesi, enerji kaynağı, kullanım alanı, maliyet, kullanım amacı gibi temel özellikler kısa bilgilerle desteklenir. Öğrencilere “Bu ulaşım aracı hangi durumlarda tercih ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI edilebilir?”, “Bu aracın enerji kaynağı nedir?”, “Bu araç bireysel mi yoksa ortak kullanıma mı uygundur?” gibi sorular sorularak öğrencilerin ulaşım seçeneklerinin özelliklerini belirlemeleri ve not etmeleri istenir (E1.1). Bu süreçte soru cevap tekniğinden faydalanılabilir. Öğrenciler çevresel etkileri bakımından ulaşım seçeneklerinin ortak yönlerini belirler. Öğrencilere “Hangi ulaşım seçenekleri daha az enerji tüketiyor olabilir?”, “Hangi araçlar daha az çevresel etki oluşturabilir?”, “Bu ulaşım türlerinin ortak çevresel özellikleri nelerdir?” gibi sorular sorularak öğrencilerin benzer çevresel etkileri taşıyan ulaşım seçeneklerini gruplamaları istenir. Ulaşım araçlarını enerji kullanımı, karbon salımı veya alan kullanımı gibi ölçütlere göre gruplayarak incelemeleri, ortak özellikleri belirlemeleri sağlanır. Doğal kaynakların kullanımını etkileyen ulaşım tercihlerini fark etmeleri ve kaynakların bilinçli kullanımına ilişkin davranışları ayırt etmeleri beklenir (D17.1). Öğrenciler ulaşım seçeneklerini çevreye etkileri bakımından yeniden karşılaştırır. Öğrencilere “Hangi ulaşım aracı çevre üzerinde daha fazla etki oluşturabilir?”, “Bazı ulaşım türleri neden daha sürdürülebilir olabilir?”, “Bu araçları birbirinden ayıran çevresel farklar nelerdir?” gibi sorular sorularak öğrencilerin farklı çevresel etkileri belirlemeleri ve listelemeleri istenir (E3.7). Ardından öğrenciler hangi ulaşım seçeneğinin hangi çevresel koşullarda daha uygun olabileceğine ilişkin kısa gerekçeler yazar. Farklı gerekçeleri dinlemeleri ve kendi değerlendirmelerini yeniden gözden geçirmeleri sağlanır (SDB3.3). Ulaşım tercihlerinin çevre ve canlı yaşamı üzerindeki etkilerini dikkate almaları ve çevreye karşı duyarlı seçimleri ayırt etmeleri beklenir (D5.2). Süreç, analitik dereceli puanlama anahtarı veya gözlem formu ile değerlendirilebilir. TYB.2.4.3 Öğrencilere ev, okul veya sosyal yaşamda karşılaşılabilecek enerji kullanım durumlarını içeren kısa görseller, karikatürler veya örnek olaylar sunulur (OB4). Örneklerde gereksiz açık bırakılan ışıklar, kullanılmadığı hâlde çalışan elektronik cihazlar, açık bırakılan bilgisayar ekranları, gereğinden fazla klima kullanımı veya boş sınıfta çalışan aydınlatmalar gibi durumlara yer verilir. Öğrencilerin enerji kullanımıyla ilgili problem durumlarını belirlemeleri ve not etmeleri istenir (E1.1). Enerji kullanımına neden olan davranışların sonucunda ortaya çıkabilecek sorunlara yönelik varsayımda bulunmaları istenir (KB2.10). Günlük yaşamda gereksiz enerji kullanımını fark etmeleri ve kaynakların bilinçli kullanımına ilişkin durumları ayırt etmeleri beklenir (D17.1). Öğrencilerden belirledikleri problem durumlarından birini seçmeleri, bu durumla ilgili kendi yaşamlarından ya da çevrelerinde gözlemledikleri benzer enerji kullanım örneklerini düşünmeleri ve bunları kısa notlar hâlinde yazmaları istenir (E1.1). Ardından öğrenciler notlarını arkadaşlarıyla paylaşır. Farklı örneklerden hareketle günlük yaşamda tekrar eden enerji kullanım alışkanlıklarına ilişkin çıkarımlar yapmaları sağlanır. Öğrenciler inceledikleri deneyimlerden hareketle seçtikleri enerji tasarrufuna ilişkin fikir/ çözüm geliştirir. Sorular yönlendirilerek öğrencilerin birden fazla çözüm önerisi oluşturmaları istenir (E3.1). Ardından öğrenciler çözüm fikirleri arasından günlük yaşamlarında uygulayabilecekleri bir çözümü seçer ve neden seçtiğini kısa bir gerekçeyle açıklar (E1.6). Öğrenciler farklı çözüm önerilerini dinler, gerekirse kendi fikirlerini geliştirir (SDB2.1, SDB3.3). Ürettikleri çözüm fikirlerinin enerji kullanımını azaltma bakımından uygunluğunu karşılaştırarak yargıda bulunmaları sağlanır (KB2.17). Enerji kullanımının çevre ve yaşam alanları üzerindeki etkilerini dikkate almaları ve çevreye karşı duyarlı çözüm önerileri geliştirmeleri beklenir (D5.2). Süreç, analitik dereceli puanlama anahtarı veya öz değerlendirme formu ile değerlendirilebilir. TYB.2.4.4 Öğrencilere günlük yaşamda tüketim alışkanlıklarına ilişkin hazırlanmış çevrim içi anket sonuçları, sütun grafikleri, pasta grafikleri, tablo gibi veriler sunulur (OB7). Verilerde enerji tüketimi, ulaşım tercihleri, su kullanımı, alışveriş alışkanlıkları ya da geri dönüşüm davranışlarına ilişkin örnek sonuçlara yer verilir. Bu aşamada matematik disiplinindeki veri toplama, tablo oluşturma ve sıklık belirleme süreçleriyle ilişki kurulur. Öğrencilere “Grafikte en dikkat çeken veri nedir?”, “Hangi seçeneğin daha fazla tercih edildiği görülüyor?”, “Bu veriler tüketim alışkanlıkları hakkında sana ne söylüyor?” gibi sorular sorularak öğrencilerin grafik ve anket verilerini incelemeleri istenir (E3.1). Öğrencilerden dikkat çeken bulguları not etmeleri ve verilerden hareketle sonuç cümleleri oluşturmaları beklenir. Veriler arasında tekrar eden eğilimleri ve dikkat çeken ilişkileri inceleyerek çıkarım yapmaları sağlanır. ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI Öğrencilerin verileri tüketim kararlarıyla ilişkilendirmeleri istenir (E3.1). Ardından öğrenciler kendi yaşamlarında değiştirebilecekleri bir tüketim alışkanlığını belirler ve gerekçesini açıklar. Farklı tüketim seçeneklerini ihtiyaç, kullanım amacı ve kaynakların verimli kullanımı bakımından değerlendirerek bilinçli seçimler yapmaları beklenir (D17.1). Öğrenciler ulaştıkları sonuçların günlük yaşamda uygulanabilirliğini değerlendirir. Bu süreçte görüş geliştirme tekniğinden faydalanılabilir. Süreç, analitik dereceli puanlama anahtarı veya öz değerlendirme formu ile değerlendirilebilir. Öğrencilere performans görevi olarak “Sürdürülebilir Yaşam Karar Dosyam” hazırlama görevi verilebilir. Öğrencilerden günlük yaşamda çevreyi, doğal kaynakları ve tüketim alışkanlıklarını etkileyen kararları inceleyen bireysel bir karar dosyası oluşturmaları istenebilir. Hazırlayacakları dosyada öğrencilerden aşağıdaki çalışmalardan birini gerçekleştirmeleri beklenir: Biyoçeşitliliğin korunmasının önemini veriye dayalı biçimde açıklama (E3.9, D5.2), ulaşım seçeneklerini çevresel etkileri bakımından karşılaştırma (E3.7) veya enerji kullanımına ilişkin bir problem durumu için uygulanabilir enerji tasarrufu çözüm önerileri geliştirme. Öğrenciler çalışmalarını dijital sunum veya karar panosu biçiminde hazırlayabilir. Çalışmalar, analitik dereceli puanlama anahtarı, öz değerlendirme formu veya akran değerlendirme formu ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden seçtikleri bir endemik tür için “Koruma Planı” ve bu türün neden korunması gerektiğini anlatan kısa bir video senaryosu hazırlamaları istenebilir. Öğrencilerden, yaşadıkları şehir için \"Sıfır Karbon\" hedefli bir akıllı ulaşım planı tasarlamaları istenebilir. Öğrencilerden \"Sıfır İsraf\" hedefli bir akıllı okul elektrik yönetim sistemi tasarlamaları istenebilir. Öğrencilerden “Bir haftalık tüketim günlüğü” oluşturarak enerji, su veya alışveriş alışkanlıklarına ilişkin verileri grafikleştirmeleri istenebilir. Destekleme Öğrencilerden biyoçeşitliliğin korunmasının önemini anlatan kısa bir metin yazmaları istenebilir. Öğrencilerden günlük yaşamda kullanılan ulaşım araçlarının çevresel etkilerini gösteren bir tablo hazırlamaları istenebilir. Öğrencilerden elektrik tasarrufuna yönelik doğru davranışları içeren kısa bilgi kartları hazırlamaları istenebilir. Öğrencilerden günlük yaşamda değiştirebilecekleri küçük bir tüketim alışkanlığını yazmaları ve nedenini açıklamaları istenebilir. ÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. YANSITMALARI TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI 58 58"
+   },
+   "outcomes": []
+  }
+ ],
+ "unassigned_outcomes": [
+  {
+   "code": "TYB.1.1.1",
+   "grade": 1,
+   "unit": 1,
+   "order": 1,
+   "text": "Kendini ifade etme yollarını karşılaştırabilme SÜREÇ BİLEŞENLERİ a) Kendini ifade etme yollarına ilişkin özellikleri belirler.",
+   "components": [
+    {
+     "label": "b",
+     "text": "Kendini ifade etme yollarına ilişkin benzerlikleri listeler."
+    },
+    {
+     "label": "c",
+     "text": "Kendini ifade etme yollarına ilişkin farklılıkları listeler."
+    }
+   ]
+  },
+  {
+   "code": "TYB.1.1.2",
+   "grade": 1,
+   "unit": 1,
+   "order": 2,
+   "text": "Duygularının günlük yaşamındaki etkilerini yansıtabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Duygularının günlük yaşamdaki etkilerine ilişkin deneyimlerini gözden geçirir."
+    },
+    {
+     "label": "b",
+     "text": "Duygularının günlük yaşamındaki etkilerine ilişkin deneyime dayalı çıkarım yapar."
+    },
+    {
+     "label": "c",
+     "text": "Duygularının günlük yaşamındaki etkilerine ilişkin çıkarımlarını değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "TYB.1.1.3",
+   "grade": 1,
+   "unit": 1,
+   "order": 3,
+   "text": "Sözlü anlatımda diksiyon unsurlarının rolünü değerlendirebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Sözlü anlatımda diksiyon unsurlarının rolüne ilişkin ölçütleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Sözlü anlatımda diksiyon unsurlarının rolüne ilişkin ölçme yapar."
+    },
+    {
+     "label": "c",
+     "text": "Sözlü anlatımda diksiyon unsurlarının rolüne ilişkin ölçme sonuçlarını belirlediği ölçütlerle karşılaştırır."
+    },
+    {
+     "label": "ç",
+     "text": "Sözlü anlatımda diksiyon unsurlarının rolüne ilişkin yargıda bulunur."
+    }
+   ]
+  },
+  {
+   "code": "TYB.1.1.4",
+   "grade": 1,
+   "unit": 1,
+   "order": 4,
+   "text": "Dijital paylaşımlarında dijital ayak izi açısından dijital güvenlik önlemlerini yönetebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital paylaşımlarına ilişkin dijital güvenlik risklerini belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği risklere yönelik dijital güvenlik önlemlerini belirler."
+    },
+    {
+     "label": "c",
+     "text": "Dijital ayak iziyle ilişkili bilgi güvenliğinin temel bileşenlerini ayırt eder."
+    },
+    {
+     "label": "ç",
+     "text": "Dijital paylaşımlarını e-güvenlik önlemleri açısından değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "TYB.1.2.1",
+   "grade": 1,
+   "unit": 2,
+   "order": 1,
+   "text": "Günlük temizlik alışkanlıklarını sorgulayabilme SÜREÇ BİLEŞENLERİ a) Günlük temizlik alışkanlıklarını tanımlar.",
+   "components": [
+    {
+     "label": "b",
+     "text": "Günlük temizlik alışkanlıkları hakkında sorular sorar."
+    },
+    {
+     "label": "c",
+     "text": "Günlük temizlik alışkanlıkları hakkında bilgi toplar."
+    },
+    {
+     "label": "ç",
+     "text": "Günlük temizlik alışkanlıkları hakkında topladığı bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Günlük yaşam alışkanlıklarıyla ilgili topladığı bilgiler üzerinden çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "TYB.1.2.2",
+   "grade": 1,
+   "unit": 2,
+   "order": 2,
+   "text": "Günlük yaşamda sağlık ve hijyenle ilgili durumlara ilişkin bilimsel gözlem yapabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Günlük yaşamda sağlık ve hijyenle ilgili durumlara ilişkin nitelikleri tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Günlük yaşamda sağlık ve hijyenle ilgili durumlara ilişkin veri toplar ve kaydeder."
+    },
+    {
+     "label": "c",
+     "text": "Günlük yaşamda sağlık ve hijyenle ilgili durumlara ilişkin topladığı verileri açıklar."
+    }
+   ]
+  },
+  {
+   "code": "TYB.1.2.3",
+   "grade": 1,
+   "unit": 2,
+   "order": 3,
+   "text": "Beslenmenin vücut sağlığı üzerindeki etkilerine ilişkin çıkarım yapabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Beslenmenin vücut sağlığı üzerindeki etkilerine ilişkin varsayımda bulunur."
+    },
+    {
+     "label": "b",
+     "text": "Beslenmenin vücut sağlığı üzerindeki etkilerine ilişkin örüntüleri listeler."
+    },
+    {
+     "label": "c",
+     "text": "Farklı beslenme durumlarını ve bunların vücut sağlığı üzerindeki etkilerini karşılaştırır."
+    },
+    {
+     "label": "ç",
+     "text": "Beslenmenin vücut sağlığı üzerindeki etkilerine ilişkin önerme sunar."
+    },
+    {
+     "label": "d",
+     "text": "Beslenmenin vücut sağlığı üzerindeki etkilerine ilişkin ulaştığı çıkarımları değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "TYB.1.3.1",
+   "grade": 1,
+   "unit": 3,
+   "order": 1,
+   "text": "Günlük yaşam etkinliklerine ilişkin süre verilerinden elde edilen bulguları yorumSÜREÇ BİLEŞENLERİ layabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Günlük yaşam etkinliklerine ilişkin süre verilerinden elde edilen bulgulara ait sonuç çıkarır."
+    },
+    {
+     "label": "b",
+     "text": "Elde ettiği bulguları kaynak göstererek yorumlar."
+    }
+   ]
+  },
+  {
+   "code": "TYB.1.3.2",
+   "grade": 1,
+   "unit": 3,
+   "order": 2,
+   "text": "Ev güvenliğini etkileyen durumlara ilişkin bilgi toplayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Ev güvenliğini etkileyen durumlara ilişkin bilgiye ulaşmak için kullanacağı kaynak ve araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği aracı kullanarak ev güvenliğini etkileyen durumlara ilişkin bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "Ev güvenliğini etkileyen durumlara ilişkin ulaşılan bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "Ev güvenliğini etkileyen durumlara ilişkin ulaşılan bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "TYB.1.3.3",
+   "grade": 1,
+   "unit": 3,
+   "order": 3,
+   "text": "Ev içi görev ve sorumlulukların günlük yaşamdaki yerini yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Ev içi görev ve sorumlulukların günlük yaşamdaki yerini inceler."
+    },
+    {
+     "label": "b",
+     "text": "Ev içi görev ve sorumlulukların günlük yaşamdaki yerine ilişkin bilgileri bağlamdan kopmadan dönüştürür."
+    },
+    {
+     "label": "c",
+     "text": "Kendi ifadeleriyle ev içi görev ve sorumlulukların günlük yaşamdaki yerini nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder."
+    }
+   ]
+  },
+  {
+   "code": "TYB.1.3.4",
+   "grade": 1,
+   "unit": 3,
+   "order": 4,
+   "text": "Düzenli bir yaşam alanı oluşturmada dikkat edilmesi gereken unsurları özetleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Düzenli bir yaşam alanı oluşturmada dikkat edilmesi gereken unsurlar ile ilgili çözümleme yapar."
+    },
+    {
+     "label": "b",
+     "text": "Düzenli bir yaşam alanı oluşturmada dikkat edilmesi gereken unsurlar ile ilgili sınıflandırma yapar."
+    },
+    {
+     "label": "c",
+     "text": "Düzenli bir yaşam alanı oluşturmada dikkat edilmesi gereken unsurları yorumlar."
+    }
+   ]
+  },
+  {
+   "code": "TYB.1.4.1",
+   "grade": 1,
+   "unit": 4,
+   "order": 1,
+   "text": "Sürdürülebilirliğin günlük yaşamla ilişkisini yorumlayabilme SÜREÇ BİLEŞENLERİ a) Sürdürülebilirliğin günlük yaşamla ilişkisini inceler.",
+   "components": [
+    {
+     "label": "b",
+     "text": "Sürdürülebilirliğin günlük yaşamla ilişkisini bağlamdan kopmadan dönüştürür."
+    },
+    {
+     "label": "c",
+     "text": "Sürdürülebilirliğin günlük yaşamla ilişkisini kendi ifadeleriyle nesnel ve doğru anlamı değiştirmeyecek biçimde yeniden ifade eder."
+    }
+   ]
+  },
+  {
+   "code": "TYB.1.4.2",
+   "grade": 1,
+   "unit": 4,
+   "order": 2,
+   "text": "Ürünlerin doğa dostu olup olmadığına ilişkin kanıt kullanabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Ürünlerin doğa dostu olup olmadığına ilişkin veri toplar ve kaydeder."
+    },
+    {
+     "label": "b",
+     "text": "Topladığı verilerden hareketle ürünlerin doğa dostu özelliklerine ilişkin veri setleri oluşturur."
+    },
+    {
+     "label": "c",
+     "text": "Oluşturduğu veri setlerinden hareketle ürünlerin doğa dostu olup olmadığına ilişkin veriye dayalı açıklama yapar."
+    }
+   ]
+  },
+  {
+   "code": "TYB.1.4.3",
+   "grade": 1,
+   "unit": 4,
+   "order": 3,
+   "text": "Gıda, su ve enerji tasarrufuna yönelik günlük davranışların sonuçlarına ilişkin eleştirel düşünebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Gıda, su ve enerji tasarrufuna yönelik günlük davranışların sonuçlarını sorgular."
+    },
+    {
+     "label": "b",
+     "text": "Gıda, su ve enerji tasarrufuna yönelik günlük davranışların sonuçlarıyla ilgili akıl yürütür."
+    },
+    {
+     "label": "c",
+     "text": "Gıda, su ve enerji tasarrufuna yönelik günlük davranışların sonuçlarına ilişkin ulaştığı çıkarımları yansıtır."
+    }
+   ]
+  },
+  {
+   "code": "TYB.1.4.4",
+   "grade": 1,
+   "unit": 4,
+   "order": 4,
+   "text": "Alışverişte fiyat ve miktar bilgilerine dayalı olarak bütçeye ilişkin veriye dayalı tahmin edebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Alışverişte bütçeye ilişkin fiyat ve miktar bilgilerini toplar ya da ön bilgilerini kullanır."
+    },
+    {
+     "label": "b",
+     "text": "Elde ettiği veriler üzerinde kurala dayalı hesaplama yapar."
+    },
+    {
+     "label": "c",
+     "text": "Alışverişte fiyat ve miktar bilgilerine dayalı olarak bütçeye ilişkin ileriye yönelik yargıda bulunur."
+    }
+   ]
+  },
+  {
+   "code": "TYB.2.1.1",
+   "grade": 2,
+   "unit": 1,
+   "order": 1,
+   "text": "Aile içi iletişimde kendini ifade etme yollarını karşılaştırabilme SÜREÇ BİLEŞENLERİ a) Aile içi iletişimde kendini ifade etme yollarına ilişkin özellikleri belirler.",
+   "components": [
+    {
+     "label": "b",
+     "text": "Aile içi iletişimde kendini ifade etme yollarına ilişkin benzerlikleri listeler."
+    },
+    {
+     "label": "c",
+     "text": "Aile içi iletişimde kendini ifade etme yollarına ilişkin farklılıkları listeler."
+    }
+   ]
+  },
+  {
+   "code": "TYB.2.1.2",
+   "grade": 2,
+   "unit": 1,
+   "order": 2,
+   "text": "İletişimde beden dili ve sözsüz mesajların rolünü yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İletişimde beden dili ve sözsüz mesajların rolünü inceler."
+    },
+    {
+     "label": "b",
+     "text": "İletişimde beden dili ve sözsüz mesajların rolünü bağlamdan kopmadan dönüştürür."
+    },
+    {
+     "label": "c",
+     "text": "İletişimde beden dili ve sözsüz mesajların rolünü kendi ifadeleriyle nesnel, doğru ve anlamı değiştirmeyecek biçimde yeniden ifade eder."
+    }
+   ]
+  },
+  {
+   "code": "TYB.2.1.3",
+   "grade": 2,
+   "unit": 1,
+   "order": 3,
+   "text": "Rol modelin motivasyon ve hedef belirleme sürecindeki etkisine ilişkin eleştirel düşünebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Rol modelin motivasyon ve hedef belirleme sürecindeki etkisini sorgular."
+    },
+    {
+     "label": "b",
+     "text": "Rol modelin motivasyon ve hedef belirleme sürecindeki etkisiyle ilgili akıl yürütür."
+    },
+    {
+     "label": "c",
+     "text": "Rol modelin motivasyon ve hedef belirleme sürecindeki etkisine ilişkin ulaştığı çıkarımları yansıtır."
+    }
+   ]
+  },
+  {
+   "code": "TYB.2.1.4",
+   "grade": 2,
+   "unit": 1,
+   "order": 4,
+   "text": "Dijital paylaşımların bireysel ve toplumsal etkilerini sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital paylaşımların bireysel ve toplumsal etkilerini tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Dijital paylaşımların bireysel ve toplumsal etkilerine ilişkin sorular sorar."
+    },
+    {
+     "label": "c",
+     "text": "Dijital paylaşımların bireysel ve toplumsal etkilerine ilişkin bilgi toplar."
+    },
+    {
+     "label": "ç",
+     "text": "Dijital paylaşımların bireysel ve toplumsal etkilerine ilişkin topladığı bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Dijital paylaşımların bireysel ve toplumsal etkilerine ilişkin topladığı bilgiler üzerinden çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "TYB.2.2.1",
+   "grade": 2,
+   "unit": 2,
+   "order": 1,
+   "text": "Gelişime özgü beden değişimlerinin sağlık ve hijyen gereksinimleriyle ilişkisini SÜREÇ BİLEŞENLERİ yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Gelişime özgü beden değişimlerinin sağlık ve hijyen gereksinimleriyle ilişkisini inceler."
+    },
+    {
+     "label": "b",
+     "text": "Gelişime özgü beden değişimlerinin sağlık ve hijyen gereksinimleriyle ilişkisine dair bilgileri bağlamdan kopmadan dönüştürür."
+    },
+    {
+     "label": "c",
+     "text": "Gelişime özgü beden değişimlerinin sağlık ve hijyen gereksinimleriyle ilişkisini kendi ifadeleriyle nesnel ve doğru anlamı değiştirmeyecek biçimde yeniden ifade eder."
+    }
+   ]
+  },
+  {
+   "code": "TYB.2.2.2",
+   "grade": 2,
+   "unit": 2,
+   "order": 2,
+   "text": "Spor ve oyun süreçlerindeki hijyen uygulamalarını değerlendirebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Spor ve oyun süreçlerindeki hijyen uygulamalarını değerlendirmede kullanılacak ölçütleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Spor ve oyun süreçlerindeki hijyen uygulamalarına ilişkin ölçme yapar."
+    },
+    {
+     "label": "c",
+     "text": "Spor ve oyun süreçlerindeki hijyen uygulamalarına ilişkin ölçme sonuçlarını belirlediği ölçütlerle karşılaştırır."
+    },
+    {
+     "label": "ç",
+     "text": "Spor ve oyun süreçlerindeki hijyen uygulamalarına ilişkin yargıda bulunur."
+    }
+   ]
+  },
+  {
+   "code": "TYB.2.2.3",
+   "grade": 2,
+   "unit": 2,
+   "order": 3,
+   "text": "Sağlık ve hijyenle ilgili günlük yaşam sorunlarına yönelik fikirler üretebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Sağlık ve hijyenle ilgili günlük yaşam sorunlarını fark eder."
+    },
+    {
+     "label": "b",
+     "text": "Sağlık ve hijyenle ilgili günlük yaşam sorunlarına ilişkin benzer deneyimleri inceler."
+    },
+    {
+     "label": "c",
+     "text": "Sağlık ve hijyenle ilgili günlük yaşam sorunlarına ilişkin fikir/çözüm üretir."
+    }
+   ]
+  },
+  {
+   "code": "TYB.2.3.1",
+   "grade": 2,
+   "unit": 3,
+   "order": 1,
+   "text": "Zaman yönetiminde dijital araçlarla amacına uygun çalışabilme SÜREÇ BİLEŞENLERİ a) Zaman yönetiminde kullanılacak araç ve teknolojileri amacına uygun olarak belirler.",
+   "components": [
+    {
+     "label": "b",
+     "text": "Zaman yönetimi için belirlediği araç ve teknolojileri kullanır."
+    },
+    {
+     "label": "c",
+     "text": "Zaman yönetimi için belirlediği dijital araçları uygunluk/verimlilik kapsamında değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "TYB.2.3.2",
+   "grade": 2,
+   "unit": 3,
+   "order": 2,
+   "text": "Aile içi tutum ve davranışların günlük yaşama etkisini çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Aile içi tutum ve davranışların günlük yaşama etkisini belirler."
+    },
+    {
+     "label": "b",
+     "text": "Aile içi tutum ve davranışların günlük yaşam üzerindeki etkileri arasındaki ilişkiyi belirler."
+    }
+   ]
+  },
+  {
+   "code": "TYB.2.3.3",
+   "grade": 2,
+   "unit": 3,
+   "order": 3,
+   "text": "Basit onarım süreçlerine ilişkin hareketleri sergileyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Basit onarım süreçlerine ilişkin hareket becerilerini algılar."
+    },
+    {
+     "label": "b",
+     "text": "Basit onarım süreçlerine ilişkin hareket becerilerinin basamaklarını gösterir."
+    },
+    {
+     "label": "c",
+     "text": "Basit onarım süreçlerine ilişkin hareket becerilerini farklı durum ve ortamlarda uygular."
+    }
+   ]
+  },
+  {
+   "code": "TYB.2.3.4",
+   "grade": 2,
+   "unit": 3,
+   "order": 4,
+   "text": "Ev ortamında güvenli ortam oluşturabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Ev ortamındaki güvenlik risklerini belirler."
+    },
+    {
+     "label": "b",
+     "text": "Ev ortamındaki güvenlik risklerine karşı uygun güvenlik tedbirlerini alır."
+    }
+   ]
+  },
+  {
+   "code": "TYB.2.4.1",
+   "grade": 2,
+   "unit": 4,
+   "order": 1,
+   "text": "Biyoçeşitliliğin korunmasının gerekliliğine ilişkin kanıt kullanabilme SÜREÇ BİLEŞENLERİ a) Biyoçeşitliliğin korunmasının gerekliliğine ilişkin verileri toplar ve kaydeder.",
+   "components": [
+    {
+     "label": "b",
+     "text": "Biyoçeşitliliğin korunmasının gerekliliğine ilişkin veri setleri oluşturur."
+    },
+    {
+     "label": "c",
+     "text": "Biyoçeşitliliğin korunmasının gerekliliğine ilişkin veriye dayalı açıklama yapar."
+    }
+   ]
+  },
+  {
+   "code": "TYB.2.4.2",
+   "grade": 2,
+   "unit": 4,
+   "order": 2,
+   "text": "Ulaşım seçeneklerinin çevresel etkilerini karşılaştırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Ulaşım seçeneklerinin çevresel etkilerine ilişkin özellikleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Ulaşım seçeneklerinin çevresel etkilerine ilişkin benzerlikleri listeler."
+    },
+    {
+     "label": "c",
+     "text": "Ulaşım seçeneklerinin çevresel etkilerine ilişkin farklılıkları listeler."
+    }
+   ]
+  },
+  {
+   "code": "TYB.2.4.3",
+   "grade": 2,
+   "unit": 4,
+   "order": 3,
+   "text": ", TYB.2.4.4. OKUL TEMELLI PLANLAMA* 4 6 TOPLAM 15 72 100 * Zümre öğretmenler kurulu tarafından ders kapsamında yapılması kararlaştırılan okul dışı öğrenme etkinlikleri; yerel çalışmalar, sosyal etkinlikler, proje ve okuma çalışmaları, araştırma ve gözlem gibi çalışmalar için ayrılan süredir. Söz konusu çalışmalar için ayrılan süre, eğitim öğretim yılı başında planlanır ve yıllık planlarda ifade edilir. Eğitim öğretim yılı başında yapılması kararlaştırılan çalışmalar; okulun, öğrencinin ve çevrenin ihtiyaçları dikkate alınarak yıl içerisinde güncellenebilir. ORTAOKUL TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI 1.4. TEMEL YAŞAM BECERİLERİ DERSİ ÖĞRETİM PROGRAMI’NIN YAPISI Öğrenme alanının adını ifade eder. 1. ÖĞRENME ALANI: İLETİŞİM VE SOSYAL BECERİLER Öğrenme alanında öğrenilmesi Bu öğrenme alanında öğrencilerin; kendini ifade etme yollarını karşılaştırabilmeleri, duygularının günlük yaamaçlanan bilgi ve becerilere şamındaki etkilerini yansıtabilmeleri, sözlü anlatımda diksiyon unsurlarının rolünü değerlendirebilmeleri ve dijital paylaşımlarında dijital ayak izi açısından dijital güvenlik önlemlerini yönetebilmeleri amaçlanmaktadır. yönelik açıklamayı ifade eder. Öğrenme alanının DERS SAATİ 17 işleneceği süreyi ifade eder. Disipline özgü şekilde Karmaşık bir süreç",
+   "components": []
+  },
+  {
+   "code": "TYB.2.4.4",
+   "grade": 2,
+   "unit": 4,
+   "order": 4,
+   "text": "Çevrim içi anket ve grafik verilerini tüketim kararları bağlamında yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Çevrim içi anket ve grafik verilerine dayalı bulgulardan tüketim kararlarına ilişkin sonuçlar çıkarır."
+    },
+    {
+     "label": "b",
+     "text": "Çevrim içi anket ve grafik verilerini tüketim kararları bağlamında değerlendirir."
+    }
+   ]
+  }
+ ],
+ "report": {
+  "units": 4,
+  "outcomes": 0,
+  "components": 0,
+  "orphan_outcomes": 30,
+  "gaps": [
+   {
+    "course": "Temel Yaşam Becerileri Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "TYB.1.1.1",
+     "TYB.1.1.2",
+     "TYB.1.1.3",
+     "TYB.1.1.4",
+     "TYB.1.2.1",
+     "TYB.1.2.2",
+     "TYB.1.2.3",
+     "TYB.1.3.1",
+     "TYB.1.3.2",
+     "TYB.1.3.3",
+     "TYB.1.3.4",
+     "TYB.1.4.1",
+     "TYB.1.4.2",
+     "TYB.1.4.3",
+     "TYB.1.4.4",
+     "TYB.2.1.1",
+     "TYB.2.1.2",
+     "TYB.2.1.3",
+     "TYB.2.1.4",
+     "TYB.2.2.1",
+     "TYB.2.2.2",
+     "TYB.2.2.3",
+     "TYB.2.3.1",
+     "TYB.2.3.2",
+     "TYB.2.3.3",
+     "TYB.2.3.4",
+     "TYB.2.4.1",
+     "TYB.2.4.2",
+     "TYB.2.4.3",
+     "TYB.2.4.4"
+    ]
+   }
+  ]
+ }
+}

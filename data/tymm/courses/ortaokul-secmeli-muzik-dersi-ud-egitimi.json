@@ -1,0 +1,844 @@
+{
+ "course": {
+  "id": 93,
+  "name": "Seçmeli Müzik Dersi (Ud)",
+  "slug": "ortaokul-secmeli-muzik-dersi-ud-egitimi",
+  "prefix": "SMUD",
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/secmeli-muzik-dersi-ud_20260819_075334_800.pdf"
+ },
+ "units": [
+  {
+   "grade": null,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "UDUN TEMEL ÖZELLİKLERİ",
+   "description": "Temada öğrencilerin udun tarihi ve Türk müziğindeki yeri hakkında bilgi toplamaları; udu meydana getiren parçaları, udun doğru tutuşunu ve akort edilme sürecini çözümlemeleri amaçlanmaktadır.",
+   "lesson_hours": 14,
+   "sections": {
+    "ALAN BECERİLERİ": "-",
+    "KAVRAMSAL BECERİLER": "KB1. Temel Beceriler, KB2.4. Çözümleme, KB2.6. Bilgi Toplama",
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMUD.1.1.1 • Öğrencilerin udun tarihi ve Türk müziğindeki yeri hakkında bilgi ihtiyaçlarını fark etmeleri (OB5), bilgi toplayabilmeleri (OB1), planlı bir şekilde çalışmaları (D3.2), millî Öğrenme Becerileri/ ve manevi değerlere saygı duymaları (D14.3), kendi kültürlerini fark ederek Türk",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim",
+    "Değerler": "D3. Çalışkanlık, D14. Saygı, D19. Vatanseverlik / kültürünün devamlılığı için çaba göstermeleri sağlanır (D19.1).",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI SMUD.1.1.2 • Öğrencilerin udun sap ve gövde kısmını meydana getiren parçaları belirleyerek bu parçalar arasındaki ilişkiler hakkında düşüncelerini ifade etmeleri sağlanır (SDB2.1). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI UD MODÜLÜ SMUD.1.1.3 • Öğrencilerin udun doğru tutuşunu gösterebilmeleri sağlanır (SDB1.2). SMUD.1.1.4 • Öğrencilere çalgı çalmaya başlamadan önce çalgının akordunun yapılması ihtiyacı fark ettirilir (SDB1.2). • Öğrencilerin dijital araçlar kullanarak udun akort edilme sürecinde duyduğu seslere odaklanıp çalgısını akort etmek için gereken çabayı, zihinsel ve bedensel enerjilerini en iyi düzeyde kullanmaları sağlanır (OB2). • Çalgısını akort etmeyi öğrenerek öğrencilerin performans sergilemeleri sağlanır (OB9). • Öğrencilerin çalgısını akort etmeyi öğrenme sürecinde potansiyel, yetenek ve kapasiteleri desteklenerek kendilerine güvenmeleri sağlanır (SDB1.1). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI UD MODÜLÜ",
+    "İLİŞKİLER": "SAB6. Müziksel İşitme, SAB9. Müziksel Dinleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI UD MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMUD.1.1.1. Udun tarihi ve Türk müziğindeki yeri hakkında bilgi toplayabilme a) Udun tarihi ve Türk müziğindeki yeri hakkında bilgiye ulaşmak için kullanacağı araçları belirler. b) Belirlediği aracı kullanarak udun tarihi ve Türk müziğindeki yeri hakkındaki bilgileri bulur. c) Udun tarihi ve Türk müziğindeki yeri hakkında ulaştığı bilgileri doğrular. ç) Udun tarihi ve Türk müziğindeki yeri hakkında doğruladığı bilgileri kaydeder. SMUD.1.1.2. Udu meydana getiren parçaları çözümleyebilme a) Udun sap ve gövde kısmını meydana getiren parçaları belirler. b) Sap ve gövde kısmını meydana getiren parçalar arasındaki ilişkileri belirler. SMUD.1.1.3. Udun doğru tutuşunu gösterebilme SMUD.1.1.4. Udun akort edilme sürecini çözümleyebilme a) Udun akort edilecek tellerine karşılık gelen notaları belirler. b) Tellerdeki akort edilecek seslerin akort cihazında simge olarak karşılıkları arasındaki ilişkiyi belirler.",
+    "İÇERİK ÇERÇEVESİ": "Udun Tarihi ve Türk Müziğindeki Yeri Udun Fiziksel Özellikleri Ud Tutuş Pozisyonu Udun Akort Edilmesi",
+    "Anahtar Kavramlar": "akort, doğru tutuş, gövde, mızrap, sap, tel, Türk müziği, ud Sembol ve Gösterimler G, D, A, E"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "UDDA SES ÜRETİMİ",
+   "description": "Temada öğrencilerin açık tellerde mızrap çalışmalarına yönelik etütler çalabilmeleri, udda 1 ve 2. pozisyondaki perdeleri çözümleyebilmeleri ve bu pozisyonlara yönelik etütleri çalabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 22,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMUD.1.2.1 • Öğrencilerin dersin başlangıcında dijital araçlardan yararlanarak udun akort edilme sürecinde duydukları seslere odaklanmaları ve çalgılarını akort etmeleri sağlanır Öğrenme Becerileri/ (OB2). Bu süreçte öğrencilerin doğru sesi ayırt etmeleri ve akort sürecine ilişkin bilgi",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme)",
+    "Değerler": "D3. Çalışkanlık, D12. Sabır, D16. Sorumluluk / kaynaklarından yararlanmaları desteklenir (OB1).",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı, BECERİLER ARASI • Açık tellerde üst ve alt mızrap vuruşuna yönelik etütler incelenerek mızrap yönleri, ritmik yapı ve etüdün akışı çözümlenir. Bu süreçte öğrencilerin rişe (mızrap) kontrolünü geliştirmeleri ve temiz ses üretimine odaklanmaları sağlanır. Öğrencilerin uda özgü duruş ve tutuş pozisyonlarını alarak etütleri istikrarlı bir şekilde çalmaları desteklenir (D12.3). • Etüt çalışmaları sırasında öğrencilerin farklı hızlarda çalmaları, sağ el koordinasyonlarını geliştirmeleri ve teknik akıcılık kazanmaları teşvik edilir. Ayrıca mızrap vuruşlarında dinamik çeşitliliği (piano-forte ve ara şiddetler) fark etmeleri ve uygulamaları desteklenerek öğrencilerin kendi performanslarını gözlemlemeleri ve geliştirmeleri teşvik edilir (SDB1.2). • Etütlerin icrası sırasında tempo, ritim, ses temizliği gibi müziksel bileşenlerin kullanılması desteklenir (OB9). SMUD.1.2.2 • Öğrencilerin eser icrasına hazırlık sürecinde etüt çalışmalarının önemini fark etmeleri sağlanır. Bu süreçte öğrencilerin düzenli çalışma alışkanlığı geliştirmeleri ve çalışma süreçlerini planlamaları desteklenir (SDB1.2). • Udda 2. pozisyonda kullanılan perdeler ve bu pozisyona yönelik etütler incelenerek perdelerin kullanım özellikleri ve etütlerin yapısı çözümlenir (D16.1). Öğrencilerin uda özgü duruş ve tutuş pozisyonlarını alarak 2. pozisyona yönelik etütleri çalmaları sağlanır. • Etüt çalışmaları sırasında öğrencilerin müziksel ifadeyi doğru biçimde kullanmaları ve icra sırasında sanatın temel unsurlarını fark etmeleri desteklenir (OB9). SMUD.1.2.3 • Öğrencilerin sözlü geri bildirimler aracılığıyla bilgi ihtiyaçlarını fark etmeleri ve öğrenme süreçlerine ilişkin farkındalık geliştirmeleri desteklenir (SDB1.1). Udda 1. pozisyonda kullanılan perdeler ve bu pozisyona yönelik etütler incelenerek etütlerde yer alan ritmik yapı, mızrap yönleri ve parmak kullanımları çözümlenir. • Öğrencilerin uda özgü duruş ve tutuş pozisyonlarını alarak etütleri planlı ve düzenli bir şekilde çalışmaları sağlanır (D3.2). Bu süreçte öğrencilerin çalışma süreçlerini düzenlemeleri ve bireysel gelişimlerini takip etmeleri desteklenir (SDB1.2). • Ud icrasının Türk müzik kültüründeki yeri ve önemi üzerinde durularak öğrencilerin kültürel mirasa yönelik farkındalık geliştirmeleri sağlanır (OB5). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI UD MODÜLÜ",
+    "İLİŞKİLER": "SAB6. Müziksel İşitme, SAB7. Müziksel Okuma, SAB9. Müziksel Dinleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI UD MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMUD.1.2.1. Mızrap vuruşlarına yönelik etütler çalabilme a) Mızrap vuruşlarına yönelik etütleri çözümler. b) Mızrap vuruşlarına yönelik etütleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır. c) Mızrap vuruşlarına yönelik etütleri çalabilmek için uda özgü teknikleri kullanır. ç) Mızrap vuruşlarına yönelik etütleri çalarken müziksel bileşenleri uygular. SMUD.1.2.2. Udda 2. pozisyon perdelerini kullanarak bu pozisyona yönelik etütleri çalabilme a) Udda 2. pozisyonda kullanılan perdeleri ve bu pozisyona yönelik etütleri çözümler. b) Udda 2. pozisyona yönelik etütleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır. c) Udda 2. pozisyona yönelik etütleri çalabilmek için uda özgü teknikleri kullanır. ç) Udda 2. pozisyona yönelik etütleri çalarken müziksel bileşenleri uygular. SMUD.1.2.3. Udda 1. pozisyon perdelerini kullanarak bu pozisyona yönelik etütleri çalabilme a) Udda 1. pozisyonda kullanılan perdeleri ve bu pozisyona yönelik etütleri çözümler. b) Udda 1. pozisyona yönelik etütleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır. c) Udda 1. pozisyona yönelik etütleri çalabilmek için uda özgü teknikleri kullanır. ç) Udda 1. pozisyona yönelik etütleri çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Açık Tellerde Mızrap Çalışmaları II. Pozisyonda Ses Üretimi I. Pozisyonda Ses Üretimi",
+    "Anahtar Kavramlar": "açık tel, akort, mızrap, pozisyon, tel, ud Sembol ve Gösterimler ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI UD MODÜLÜ"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "NİHAVENT MAKAMI",
+   "description": "Temada öğrencilerin nihavent makamı dizisini çözümlemeleri, nihavent makamında düzeyine uygun etüt ve eserler çalmaları amaçlanmaktadır.",
+   "lesson_hours": 26,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme",
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMUD.3.3.1 • Öğrencilerin nihavent makamı dizisini incelemeleri ve makamın karakteristik Sosyal-Duygusal özelliklerini yansıtan güçlü, durak, yeden seslerini belirlemeleri sağlanır (OB1). Öğrenme Becerileri/ • Nihavent makamında yazılan kısa etüt veya eser örneklerinin notaları incelenerek",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme)",
+    "Değerler": "D3. Çalışkanlık / öğrencilerin makamı oluşturan dizi ve sesler arasındaki ilişkileri fark etmeleri sağlanır (SDB1.1). Becerileri • Öğrencilere nihavent makamında örnek eserler dinletilerek sanat okuryazarlığı becerilerini pekiştirmeye yönelik çalışmalar yapılabilir (OB9). SMUD.3.3.2 • Nihavent makamında kullanılan sesleri içeren etüt ve eserler incelenir. Etüt ve eserlerde yer alan makam seslerinin tanınması ve müziksel yapının çözümlenmesi sağlanır (OB1). • Öğrencilerin yetenekleri ve kapasiteleri desteklenerek, etüt ve eser çalarken kendilerine güvenmeleri ve performans sergilemeleri sağlanır (OB9). İcra sürecinde uda özgü doğru duruş ve tutuş pozisyonu alınır. Öğrencilerin kendi performanslarını değerlendirmeleri ve öğrenme süreçlerine ilişkin öz farkındalık geliştirmeleri desteklenir (SDB1.1). • Nihavent makamındaki etüt ve eserler çalınırken uda özgü tekniklerin kullanılması sağlanır. Düzenli ve planlı çalışma alışkanlığı geliştirilmesi teşvik edilir (SDB1.2). • Etüt ve eserlerin icrası sırasında müziksel bileşenler ele alınır ve uygulanır. Bu süreçte öğrencilerin çaba ve emek göstermelerinin önemi vurgulanır (D3.2). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI UD MODÜLÜ ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI UD MODÜLÜ 2.4.IV.DÜZEY",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "SAB6. Müziksel İşitme, SAB7. Müziksel Okuma, SAB9. Müziksel Dinleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI UD MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMUD.3.3.1. Nihavent makamı dizisini çözümleyebilme a) Nihavent makamı dizisini oluşturan sesleri belirler. b) Nihavent makamı dizisinde bulunan sesler arasındaki ilişkileri belirler. SMUD.3.3.2. Nihavent makamının özelliklerini kullanarak bu makama yönelik etüt ve eserleri çalabilme a) Nihavent makamında kullanılan sesleri ve bu makama yönelik etüt ve eserleri çözümler. b) Nihavent makamındaki etüt ve eserleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır. c) Nihavent makamındaki etüt ve eserleri çalabilmek için uda özgü teknikleri kullanır. ç) Nihavent makamındaki etüt ve eserleri çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Nihavent Makamı Dizisi Nihavent Makamında Etüt ve Eser İcrası",
+    "Anahtar Kavramlar": "çalgı, çözümleme, dizi, duruş, eser, etüt, makam, müziksel bileşen, nihavent, pozisyon, teknik, tutuş Sembol ve Gösterimler"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 4,
+   "kind": "TEMA",
+   "title": "MAHUR MAKAMI",
+   "description": "Temada öğrencilerin mahur makamı dizisini çözümlemeleri, mahur makamında düzeyine uygun etüt ve eserler çalmaları amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme",
+    "EĞİLİMLER": "E1.1. Merak, E1.5. Kendine Güvenme (Öz Güven), E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMUD.1.4.1 • Öğrencilerin mahur makamı dizisini incelemeleri ve makamın karakteristik özelliklerini yansıtan güçlü, durak, yeden seslerini belirlemeleri sağlanır (OB1). Öğrenme Becerileri/",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme)",
+    "Değerler": "D3. Çalışkanlık / • Mahur makamında yazılan kısa etüt veya eser örneklerinin notalarını inceleyerek Okuryazarlık öğrencilerin makamı oluşturan dizi ve sesler arasındaki ilişkileri fark etmeleri sağlanır Becerileri (SDB1.1). • Öğrencilere mahur makamında örnek eserler dinletilerek sanat okuryazarlığı becerilerini pekiştirmeye yönelik çalışmalar yapılabilir (OB9). SMUD.1.4.2 • Mahur makamında kullanılan sesleri içeren etüt ve eserler incelenir. Etüt ve eserlerde yer alan makam seslerinin tanınması ve müziksel yapının çözümlenmesi sağlanır (OB1). • Öğrencilerin yetenekleri ve kapasiteleri desteklenerek, etüt ve eser çalarken kendilerine güvenmeleri ve performans sergilemeleri sağlanır (OB9). İcra sürecinde uda özgü doğru duruş ve tutuş pozisyonu alınır. Öğrencilerin kendi performanslarını değerlendirmeleri ve öğrenme süreçlerine ilişkin öz farkındalık geliştirmeleri desteklenir (SDB1.1). • Mahur makamındaki etüt ve eserler çalınırken uda özgü tekniklerin kullanılması sağlanır. Düzenli ve planlı çalışma alışkanlığı geliştirilmesi teşvik edilir (SDB1.2). • Etüt ve eserlerin icrası sırasında müziksel bileşenler ele alınır ve uygulanır. Bu süreçte öğrencilerin çaba ve emek göstermelerinin önemi vurgulanır (D3.2). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI UD MODÜLÜ ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI UD MODÜLÜ 2.2.II.DÜZEY",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "SAB6. Müziksel İşitme, SAB7. Müziksel Okuma, SAB9. Müziksel Dinleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI UD MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMUD.1.4.1. Mahur makamı dizisini çözümleyebilme a) Mahur makamı dizisini oluşturan sesleri belirler. b) Mahur makamı dizisinde bulunan sesler arasındaki ilişkileri belirler. SMUD.1.4.2. Mahur makamının özelliklerini kullanarak bu makama yönelik etüt ve eserleri çalabilme a) Mahur makamında kullanılan sesleri ve bu makama yönelik etüt ve eserleri çözümler. b) Mahur makamındaki etüt ve eserleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır. c) Mahur makamındaki etüt ve eserleri çalabilmek için uda özgü teknikleri kullanır. ç) Mahur makamındaki etüt ve eserleri çalarken müziksel bileşenleri uygular.",
+    "İÇERİK ÇERÇEVESİ": "Mahur Makamı Dizisi Mahur Makamında Etüt ve Eser İcrası",
+    "Anahtar Kavramlar": "çalgı, çözümleme, dizi, durak, duruş, eser, etüt, mahur, makam, müziksel bileşen, pozisyon, teknik, tutuş Sembol ve Gösterimler"
+   },
+   "outcomes": []
+  }
+ ],
+ "unassigned_outcomes": [
+  {
+   "code": "SMUD.1.1.1",
+   "grade": 1,
+   "unit": 1,
+   "order": 1,
+   "text": "Udun tarihi ve Türk müziğindeki yeri çıktısının sırası becerilerin süreç bileşenlerini hakkında bilgi toplayabilme ifade eder. a) Udun tarihi ve Türk müziğindeki yeri hakkında bilgiye ulaşmak için kullanacağı araçları belirler.",
+   "components": [
+    {
+     "label": "b",
+     "text": "Belirlediği aracı kullanarak udun tarihi ve Türk müziğindeki yeri hakkındaki bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "Udun tarihi ve Türk müziğindeki yeri hakkında ulaştığı bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "Udun tarihi ve Türk müziğindeki yeri hakkında doğruladığı bilgileri kaydeder. Öğrenme-öğretme sürecinde ele alınan"
+    }
+   ]
+  },
+  {
+   "code": "SMUD.1.1.2",
+   "grade": 1,
+   "unit": 1,
+   "order": 2,
+   "text": "Udu meydana getiren parçaları çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Udun sap ve gövde kısmını meydana getiren parçaları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Sap ve gövde kısmını meydana getiren parçalar arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.1.1.3",
+   "grade": 1,
+   "unit": 1,
+   "order": 3,
+   "text": "Udun doğru tutuşunu gösterebilme",
+   "components": []
+  },
+  {
+   "code": "SMUD.1.1.4",
+   "grade": 1,
+   "unit": 1,
+   "order": 4,
+   "text": "Udun akort edilme sürecini çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Udun akort edilecek tellerine karşılık gelen notaları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Tellerdeki akort edilecek seslerin akort cihazında simge olarak karşılıkları arasındaki ilişkiyi belirler."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.1.2.1",
+   "grade": 1,
+   "unit": 2,
+   "order": 1,
+   "text": "Mızrap vuruşlarına yönelik etütler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Mızrap vuruşlarına yönelik etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Mızrap vuruşlarına yönelik etütleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Mızrap vuruşlarına yönelik etütleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Mızrap vuruşlarına yönelik etütleri çalarken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.1.2.2",
+   "grade": 1,
+   "unit": 2,
+   "order": 2,
+   "text": "Udda 2. pozisyon perdelerini kullanarak bu pozisyona yönelik etütleri çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Udda 2. pozisyonda kullanılan perdeleri ve bu pozisyona yönelik etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Udda 2. pozisyona yönelik etütleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Udda 2. pozisyona yönelik etütleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Udda 2. pozisyona yönelik etütleri çalarken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.1.2.3",
+   "grade": 1,
+   "unit": 2,
+   "order": 3,
+   "text": "Udda 1. pozisyon perdelerini kullanarak bu pozisyona yönelik etütleri çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Udda 1. pozisyonda kullanılan perdeleri ve bu pozisyona yönelik etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Udda 1. pozisyona yönelik etütleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Udda 1. pozisyona yönelik etütleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Udda 1. pozisyona yönelik etütleri çalarken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.1.3.1",
+   "grade": 1,
+   "unit": 3,
+   "order": 1,
+   "text": "Buselik makamı dizisini çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Buselik makamı dizisini oluşturan sesleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Buselik makamı dizisinde bulunan sesler arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.1.3.2",
+   "grade": 1,
+   "unit": 3,
+   "order": 2,
+   "text": "Buselik makamının özelliklerini kullanarak bu makama yönelik etüt ve eserleri çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Buselik makamında kullanılan sesleri ve bu makama yönelik etüt ve eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Buselik makamındaki etüt ve eserleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Buselik makamındaki etüt ve eserleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Buselik makamındaki etüt ve eserleri çalarken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.1.4.1",
+   "grade": 1,
+   "unit": 4,
+   "order": 1,
+   "text": "Mahur makamı dizisini çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Mahur makamı dizisini oluşturan sesleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Mahur makamı dizisinde bulunan sesler arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.1.4.2",
+   "grade": 1,
+   "unit": 4,
+   "order": 2,
+   "text": "Mahur makamının özelliklerini kullanarak bu makama yönelik etüt ve eserleri çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Mahur makamında kullanılan sesleri ve bu makama yönelik etüt ve eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Mahur makamındaki etüt ve eserleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Mahur makamındaki etüt ve eserleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Mahur makamındaki etüt ve eserleri çalarken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.2.1.1",
+   "grade": 2,
+   "unit": 1,
+   "order": 1,
+   "text": "Vibrato tekniğine yönelik etütler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Vibrato tekniğine yönelik etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Vibrato tekniğine yönelik etütleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Vibrato tekniğine yönelik etütleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Vibrato tekniğine yönelik etütleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.2.1.2",
+   "grade": 2,
+   "unit": 1,
+   "order": 2,
+   "text": "Legato tekniğine yönelik etütler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Legato tekniğine yönelik etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Legato tekniğine yönelik etütleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Legato tekniğine yönelik etütleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Legato tekniğine yönelik etütleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.2.1.3",
+   "grade": 2,
+   "unit": 1,
+   "order": 3,
+   "text": "Staccato tekniğine yönelik etütler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Staccato tekniğine yönelik etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Staccato tekniğine yönelik etütleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Staccato tekniğine yönelik etütleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Staccato tekniğine yönelik etütleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.2.2.1",
+   "grade": 2,
+   "unit": 2,
+   "order": 1,
+   "text": "Uşşak makamı dizisini çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Uşşak makamı dizisini oluşturan sesleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Uşşak makamı dizisinde bulunan sesler arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.2.2.2",
+   "grade": 2,
+   "unit": 2,
+   "order": 2,
+   "text": "Uşşak makamının özelliklerini kullanarak bu makama yönelik etüt ve eserleri çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Uşşak makamında kullanılan sesleri ve bu makama yönelik etüt ve eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Uşşak makamındaki etüt ve eserleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Uşşak makamındaki etüt ve eserleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Uşşak makamındaki etüt ve eserleri çalarken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.2.3.1",
+   "grade": 2,
+   "unit": 3,
+   "order": 1,
+   "text": "Hüseyni makamı dizisini çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Hüseyni makamı dizisini oluşturan sesleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Hüseyni makamı dizisinde bulunan sesler arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.2.3.2",
+   "grade": 2,
+   "unit": 3,
+   "order": 2,
+   "text": "Hüseyni makamının özelliklerini kullanarak bu makama yönelik etüt ve eserleri çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Hüseyni makamında kullanılan sesleri ve bu makama yönelik etüt ve eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Hüseyni makamındaki etüt ve eserleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Hüseyni makamındaki etüt ve eserleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Hüseyni makamındaki etüt ve eserleri çalarken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.3.1.1",
+   "grade": 3,
+   "unit": 1,
+   "order": 1,
+   "text": "Tremolo tekniğine yönelik etütler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Tremolo tekniğine yönelik etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Tremolo tekniğine yönelik etütleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Tremolo tekniğine yönelik etütleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Tremolo tekniğine yönelik etütleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.3.1.2",
+   "grade": 3,
+   "unit": 1,
+   "order": 2,
+   "text": "Trill tekniğine yönelik etütler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Trill tekniğine yönelik etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Trill tekniğine yönelik etütleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Trill tekniğine yönelik etütleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Trill tekniğine yönelik etütleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.3.1.3",
+   "grade": 3,
+   "unit": 1,
+   "order": 3,
+   "text": "Glissando tekniğine yönelik etütler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Glissando tekniğine yönelik etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Glissando tekniğine yönelik etütleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Glissando tekniğine yönelik etütleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Glissando tekniğine yönelik etütleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.3.2.1",
+   "grade": 3,
+   "unit": 2,
+   "order": 1,
+   "text": "Kürdi makamı dizisini çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Kürdi makamı dizisini oluşturan sesleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Kürdi makamı dizisinde bulunan sesler arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.3.2.2",
+   "grade": 3,
+   "unit": 2,
+   "order": 2,
+   "text": "Kürdi makamının özelliklerini kullanarak bu makama yönelik etüt ve eserleri çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Kürdi makamında kullanılan sesleri ve bu makama yönelik etüt ve eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Kürdi makamındaki etüt ve eserleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Kürdi makamındaki etüt ve eserleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Kürdi makamındaki etüt ve eserleri çalarken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.3.3.1",
+   "grade": 3,
+   "unit": 3,
+   "order": 1,
+   "text": "Nihavent makamı dizisini çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Nihavent makamı dizisini oluşturan sesleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Nihavent makamı dizisinde bulunan sesler arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.3.3.2",
+   "grade": 3,
+   "unit": 3,
+   "order": 2,
+   "text": "Nihavent makamının özelliklerini kullanarak bu makama yönelik etüt ve eserleri çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Nihavent makamında kullanılan sesleri ve bu makama yönelik etüt ve eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Nihavent makamındaki etüt ve eserleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Nihavent makamındaki etüt ve eserleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Nihavent makamındaki etüt ve eserleri çalarken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.4.1.1",
+   "grade": 4,
+   "unit": 1,
+   "order": 1,
+   "text": "Oktav çalışmalarına yönelik etütler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Oktav çalışmalarına yönelik etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Oktav çalışmalarına yönelik etütleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Oktav çalışmalarına yönelik etütleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Oktav çalışmalarına yönelik etütleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.4.1.2",
+   "grade": 4,
+   "unit": 1,
+   "order": 2,
+   "text": "Arpej çalışmalarına yönelik etütler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Arpej çalışmalarına yönelik etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Arpej çalışmalarına yönelik etütleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Arpej çalışmalarına yönelik etütleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Arpej çalışmalarına yönelik etütleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.4.1.3",
+   "grade": 4,
+   "unit": 1,
+   "order": 3,
+   "text": "Öğrendiği teknikleri, dijital ve yapay zekâ destekli müzik teknolojilerini kullanarak özgün ürün oluşturabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Oluşturacağı ürünün kullanım amacını belirler."
+    },
+    {
+     "label": "b",
+     "text": "Ürünü oluşturmak için gerekli ögeleri seçer."
+    },
+    {
+     "label": "c",
+     "text": "Seçtiği ögelerle özgün ürün oluşturur."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.4.2.1",
+   "grade": 4,
+   "unit": 2,
+   "order": 1,
+   "text": "Rast makamı dizisini çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Rast makamı dizisini oluşturan sesleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Rast makamı dizisinde bulunan sesler arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.4.2.2",
+   "grade": 4,
+   "unit": 2,
+   "order": 2,
+   "text": "Rast makamının özelliklerini kullanarak bu makama yönelik etüt ve eserleri çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Rast makamında kullanılan sesleri ve bu makama yönelik etüt ve eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Rast makamındaki etüt ve eserleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Rast makamındaki etüt ve eserleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Rast makamındaki etüt ve eserleri çalarken müziksel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.4.3.1",
+   "grade": 4,
+   "unit": 3,
+   "order": 1,
+   "text": "Hicaz makamı dizisini çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Hicaz makamı dizisini oluşturan sesleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Hicaz makamı dizisinde bulunan sesler arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SMUD.4.3.2",
+   "grade": 4,
+   "unit": 3,
+   "order": 2,
+   "text": "Hicaz makamının özelliklerini kullanarak bu makama yönelik etüt ve eserleri çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Hicaz makamında kullanılan sesleri ve bu makama yönelik etüt ve eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Hicaz makamındaki etüt ve eserleri çalabilmek için uda özgü duruş ve tutuş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Hicaz makamındaki etüt ve eserleri çalabilmek için uda özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Hicaz makamındaki etüt ve eserleri çalarken müziksel bileşenleri uygular."
+    }
+   ]
+  }
+ ],
+ "report": {
+  "units": 4,
+  "outcomes": 0,
+  "components": 0,
+  "orphan_outcomes": 32,
+  "gaps": [
+   {
+    "course": "Seçmeli Müzik Dersi (Ud)",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "SMUD.1.1.1",
+     "SMUD.1.1.2",
+     "SMUD.1.1.3",
+     "SMUD.1.1.4",
+     "SMUD.1.2.1",
+     "SMUD.1.2.2",
+     "SMUD.1.2.3",
+     "SMUD.1.3.1",
+     "SMUD.1.3.2",
+     "SMUD.1.4.1",
+     "SMUD.1.4.2",
+     "SMUD.2.1.1",
+     "SMUD.2.1.2",
+     "SMUD.2.1.3",
+     "SMUD.2.2.1",
+     "SMUD.2.2.2",
+     "SMUD.2.3.1",
+     "SMUD.2.3.2",
+     "SMUD.3.1.1",
+     "SMUD.3.1.2",
+     "SMUD.3.1.3",
+     "SMUD.3.2.1",
+     "SMUD.3.2.2",
+     "SMUD.3.3.1",
+     "SMUD.3.3.2",
+     "SMUD.4.1.1",
+     "SMUD.4.1.2",
+     "SMUD.4.1.3",
+     "SMUD.4.2.1",
+     "SMUD.4.2.2",
+     "SMUD.4.3.1",
+     "SMUD.4.3.2"
+    ]
+   }
+  ]
+ }
+}

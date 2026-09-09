@@ -17,6 +17,8 @@ programları ve ölçme-değerlendirme rehberi.
 | `beceriler.json` | 392 KB | 16 statik sayfa — 17 set, 462 beceri, 1512 süreç bileşeni |
 | `dersler.json` | 6.0 MB | 2 uç nokta, 111 ders — 32 639 beceri eşlemesi |
 | `olcme-rehberi.json` | 40 KB | 2 PDF'ten elle çıkarılmış ölçme kuralları |
+| `courses/<slug>.json` | 80 dosya | Ders programı PDF'lerinden ünite, ders saati, öğrenme çıktısı ve süreç bileşenleri |
+| `courses/index.json` | 1 dosya | Ders dizini + toplam sayımlar |
 
 `dersler.json` yeniden çekmek 111 HTTP çağrısı demek; bu yüzden sürümlenir.
 
@@ -41,6 +43,8 @@ python3 scripts/fetch_tymm_beceriler.py        # ağ
 python3 scripts/fetch_tymm_dersler.py          # ağ
 python3 scripts/build_tymm_ders_beceri.py      # ağ yok
 python3 scripts/fetch_tymm_kilavuzlar.py       # ağ; PDF'ler .tymm-pdf/ (sürümlenmez)
+python3 scripts/fetch_tymm_ogrenme_ciktilari.py  # ağ; ders PDF'lerini indirir, metne çevirir, siler
+python3 scripts/check_tymm_courses.py            # doğrulama; yapısal sorunda çıkış kodu 1
 ```
 
 `olcme-rehberi.json` mekanik üretilmez — kaynak serbest metindir, içerik
@@ -87,3 +91,24 @@ Beceri kodları (`KB2.8`, `D9`, `SBAB1.1` …) üç dosyada da ortaktır.
 kaynak tutarsızlığıdır; satırlar `resolved: false` ile durur, atılmaz.
 
 Ayrıntı: `SOURCES.md` (beceri çerçevesi), `DERSLER.md` (ders programları).
+
+## Ders programları — bilinen eksikler
+
+`courses/` altındaki veri ders programı PDF'lerinden çıkarılır. 2026-09-09
+ölçümü: **80 ders · 1212 ünite · 3897 öğrenme çıktısı · 7608 süreç bileşeni**.
+
+Eksikler gizlenmez, sayıyla durur:
+
+- **31 derste hiç kodlu çıktı çıkarılamadı.** Türkçe programlarında çıktılar
+  ünite içinde değil `EK 1`'de toplanmış; Okul Öncesi üç parçalı kod kullanıyor
+  (`MYB.5.1`), dört parçalı değil.
+- **29 derste 741 çıktı ünitesine bağlanamadı.** Dosyalarda
+  `unassigned_outcomes` altında durur, atılmaz. En çok Seçmeli Müzik, Oyun ve
+  Oyun Etkinlikleri, Masal ve Destanlarımız derslerinde.
+- **98 tür beceri kodu `beceriler.json` ile eşleşmiyor.** Bilinen
+  `KB2.16.1/.2/.3` tutarsızlığının yanında `RK2.1`, `SBD1`, `BTY6.4`, `E3.11`
+  gibi ön ekler var; derse özgü mü yoksa beceri çerçevesinde eksik mi olduğu
+  henüz belirlenmedi.
+
+Ünite başlığı sözcüğü derse göre değişir (`ÜNİTE`, `TEMA`, `ÖĞRENME ALANI`);
+kullanılan sözcük her ünitenin `kind` alanındadır.

@@ -1,0 +1,719 @@
+{
+ "course": {
+  "id": 69,
+  "name": "Dijital Sanatlar Dersi",
+  "slug": "ortaokul-dijital-sanatlar-dersi",
+  "prefix": "DS",
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/dijital-sanatlar-dersi_20260819_070938_522.pdf"
+ },
+ "units": [
+  {
+   "grade": null,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "DIJITAL SANATLARI KEŞFEDIYORUM",
+   "description": "Bu temada öğrenciler dijital sanat kavramı ve bu kavramın estetikle ilişkisini sorgulayarak tarihsel gelişimini güvenilir kaynaklardan araştırır. Araştırdıkları bilgilerin doğruluğunu değerlendirip, estetik boyut üzerindeki etkilerini fark edip, dijital sanat ürünlerinde yer alan görsel bileşenlerle temalar arasındaki ilişkiyi yorumlar. Bu ürünlerin estetik ögeleri hakkında çıkarım yapması ve dijital sanatların üretiminde kullanılan bilişim teknolojilerinin işlevlerini sınıflandırması amaçlanmıştır. Bu tema kapsamında estetik ögeler, öğrencilerin dijital sanat ürünlerindeki sanatçıya özgü ifade biçimlerini fark etmelerini sağlayacak şekilde başlangıç düzeyinde ele alınır.",
+   "lesson_hours": 6,
+   "sections": {
+    "ALAN BECERİLERİ": "BTYAB1. Bilişim Teknolojisini Kullanma (BTYAB1.1. Bilişim Teknolojilerini Sınıflandırma), SAB3. Sanat Eserini İncele­ me (SAB3.3. Sanatsal Yorumlama)",
+    "KAVRAMSAL BECERİLER": "KB2.8. Sorgulama",
+    "EĞİLİMLER": "E1.1. Merak, E3.3. Yaratıcılık, E3.6. Analitik Düşünme, E3.8. Soru Sorma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR DS.1.1.1 Öğrenciler dijital sanat eserlerini inceleme etkinliğinde grup içinde fikirlerini paylaşır, farklı görüşleri değerlendirir ve ortak bir sonuca ulaşmak için birlikte karar verir (SDB2.2). Öğrenciler dijital sanat eserlerini incelerken kullandıkları görsel veya bilgilerin doğruluğunu sorgular, alıntı yaptıkları içerikleri belirtir ve değerlendirmelerini dürüst ve özgün biçimde ifade eder (D6.2). Öğrenciler seçilen dijital sanat eserlerindeki görsel ögeleri inceler; bu ögelerin eserin konusu, mesajı ve estetik görünümüyle ilişkisine yönelik görüşlerini paylaşır. Bu aşamada öğrencilerden sanat elemanları ve tasarım ilkelerine ilişkin ayrıntılı teknik çözümleme yapmaları beklenmez; temel farkındalık geliştirmeleri desteklenir (OB4). DS.1.1.2 Sanat ürünlerinin yorumlanmasına yönelik tartışma ve değerlendirme etkinliklerine yer verilir. Bu süreçte öğrencilerin farklı estetik görüşleri anlamaya ve değerlendirmeye açık olmaları desteklenir (SDB2.3). Öğrencilerden dijital sanat ürünlerini incelerken güzellik, denge ve uyum ilkelerini fark etmeleri ve estetik duyarlılıkla hareket etmeleri beklenir (D7.1). Öğrencilerden dijital sanat ürünlerindeki görsel bileşenleri analiz ederken renk, biçim, doku ve denge unsurları arasında ilişki kurmaları beklenir. Öğrenciler farklı dijital sanat ürünlerinde sanatçıya veya üreticiye özgü ifade biçimlerini fark ederek ürünlerin özgün yönlerine ilişkin başlangıç düzeyinde çıkarım yapar. (OB4). DS.1.1.3 Öğrencilerden grup çalışması sırasında farklı bilişim teknolojileri hakkında bilgi paylaşımı yapmaları ve ortak sınıflandırmalar geliştirmeleri beklenir (SDB2.2). Öğrencilerden sınıflandırma sürecinde emek vererek düzenli ve özverili çalışmaları beklenir (D3.1, D3.2). İş birliğine dayalı etkinliklerde öğrencilerin dayanışma içinde çalışmaları teşvik edilir (D4.1). Öğrencilerden dijital sanat teknolojilerini tanımlarken dijital araçları tanımaları, karşılaştırmaları ve sınıflandırarak etkin biçimde kullanmaları beklenir (OB2). Öğrenciler, ülkemizin kültürel değerlerini yansıtan özgün dijital sanat ürünleri tasarlamaya yönelik çalışmalar gerçekleştirir (D19.1). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. DİJİTAL SANATLAR DERSİ ÖĞRETİM PROGRAMI I. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.2. İş Birliği Yapma, SDB2.3. Sosyal Farkındalık",
+    "Değerler": "D3. Çalışkanlık, D4. Dostluk, D6. Dürüstlük, D7. Estetik, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık BECERİLER ARASI İLİŞKİLER DİJİTAL SANATLAR DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "DS.1.1.1. Dijital sanatlara ilişkin temel kavram ve özellikleri sorgulayabilme a) Dijital sanat ile ilgili merak ettiklerini tanımlar. b) Dijital sanat türleri ve estetik kavramı hakkında sorular sorar. c) Dijital sanat ürünlerinin tarihsel gelişimine ilişkin bilgi toplar. ç) Edindiği bilgilerin doğruluğunu değerlendirir. d) Dijital sanatın tarihsel gelişiminin estetik boyutuna etkisi hakkında çıkarım yapar. DS.1.1.2. Dijital sanat ürünlerinde estetik ögeleri yorumlayabilme a) Dijital sanat ürünlerinde yer alan görsel bileşenlerle eserin teması arasında ilişki kurar. b) Dijital sanat ürünlerinin estetik yönlerine ilişkin çıkarım yapar. DS.1.1.3. Dijital sanat yaparken kullanılan bilişim teknolojilerini sınıflandırabilme a) Dijital sanat yaparken kullanılan bilişim teknolojilerini belirler. b) Dijital sanat yaparken kullanılan bilişim teknolojilerini kullanım amaçları ile ilişkilendirir. c) Dijital sanat yaparken kullanılan bilişim teknolojilerini işlevlerine göre gruplandırır.",
+    "İÇERİK ÇERÇEVESİ": "Dijital Sanatlara İlişkin Temel Kavram ve Özellikleri Dijital Sanat Ürünlerinde Estetik Ögeler Dijital Sanatların Üretiminde Kullanılan Bilişim Teknolojileri Araçları",
+    "Anahtar Kavramlar": "dijital sanat, dijital sanat tarihi, dijital sanat türleri, dijital üretim araç ve teknolojileri, estetik, özgünlük, sanat elemanları, sanat ve bilişim ilişkisi"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "DIJITAL SANAT VE ETIK",
+   "description": "Bu temada öğrencilerin; dijital ortamda etik davranış ve özgünlük kavramlarına yönelik merak ettikleri konuları tanımlayabilmesi, dijital içeriklerin etik ilkelere uygunluğunu sorgulayabilmesi, bu içeriklere erişim yöntemleri hakkında bilgi toplayarak kaynakların güvenilirliğini değerlendirebilmesi, etik davranışların dijital içerik üretimine etkisine dair çıkarım yapabilmesi, dijital görsellerdeki özgün ve kopya içerikleri sanatsal ögeler üzerinden, benzerlik ve farklılık yönleriyle karşılaştırabilmesi amaçlanmaktadır.",
+   "lesson_hours": 4,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB1. Sanatsal Algılama (SAB1.2. Sanatsal Karşılaştırma)",
+    "KAVRAMSAL BECERİLER": "KB2.8. Sorgulama",
+    "EĞİLİMLER": "E3.3. Yaratıcılık, E3.7. Sistematiklik, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR DS.1.2.1 Dijital ortamlarda karşılaşılan etik ikilemlere yönelik örnek durumlar üzerinden tartışma etkinliği yapılır. Bu süreçte öğrencilerin doğru ve yanlışı ayırt ederek bilinçli seçimler yapmaları sağlanır ve görüşleri sınıf içi tartışmalarla değerlendirilir (SDB3.3). Dijital içerik paylaşımına yönelik senaryo temelli etkinlikler uygulanır. Bu süreçte öğrencilerin adil, dürüst ve doğru davranışlar sergilemeleri sağlanır ve davranışları akran geri bildirimi ile değerlendirilir (D1.2). Dijital ortamda etik davranışa yönelik rol yapma etkinlikleri gerçekleştirilir. Bu süreçte öğrencilerin sorumluluklarını güvenli biçimde yerine getirmeleri sağlanır ve süreç, gözlem formları ile izlenir (D16.3). Dijital içerik üretimine yönelik uygulama etkinlikleri yapılır. Bu süreçte öğrencilerin dürüstlük ve özgünlük ilkelerine uygun içerik üretmeleri sağlanır ve ürünleri rubrikler aracılığıyla değerlendirilir (D6.2). Dijital araç kullanımına yönelik uygulamalı çalışmalar yapılır. Öğrenciler; yapay zekâ destekli dijital içerik üretim araçlarını kullanmadan önce kişisel veri paylaşımı, dijital mahremiyet, dijital ayak izi, dijital zorbalık, telif ihlali ve uygunsuz içerik risklerini örnek olaylar üzerinden belirler. Bu riskleri önlemeye yönelik tedbirler ile güvenli ve sorumlu dijital davranış önerileri geliştirir (D8.2). Bu süreçte öğrencilerin teknolojik araçları etik kurallar çerçevesinde ahlaki değerlere bağlı kalarak kullanmaları sağlanır ve süreç, performans görevleri ile değerlendirilir (D9.1, OB2). Etik içeriklere yönelik araştırma etkinlikleri yapılır. Bu süreçte öğrencilerin kaynakların güvenilirliğini sorgulamaları ve bilgiyi eleştirel biçimde değerlendirmeleri sağlanır ve süreç çalışma kâğıtları ile değerlendirilir (OB1). DS.1.2.2 Grup çalışmasına dayalı değerlendirme etkinlikleri yapılır. Bu süreçte öğrencilerin fikir alışverişinde bulunarak ortak değerlendirmeler yapmaları sağlanır ve süreç, gözlem formları ile izlenir (SDB2.2). Dijital içeriklerde özgünlük ve kopya ayrımına yönelik karşılaştırma etkinlikleri yapılır. Bu süreçte öğrencilerin adil ve tarafsız karar vermeleri sağlanır ve değerlendirmeleri rubrikler ile incelenir (D1.2). Dijital sanat ürünlerinin analizine yönelik görsel inceleme etkinlikleri yapılır. Bu süreçte öğrencilerin görsel ögeleri anlamlı biçimde yorumlamaları ve özgünlük/kopya ayrımını kanıtlara dayandırmaları sağlanarak süreç performans görevleri ile değerlendirilir (OB4). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. DİJİTAL SANATLAR DERSİ ÖĞRETİM PROGRAMI I. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.2. İş Birliği Yapma, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D1. Adalet, D6. Dürüstlük, D8. Mahremiyet, D9. Merhamet, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık BECERİLER ARASI İLİŞKİLER DİJİTAL SANATLAR DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "DS.1.2.1. Dijital ortamdaki etik davranışlara ilişkin kavramları sorgulayabilme a) Dijital ortamda etik davranış ve özgünlükle ilgili merak ettiklerini tanımlar. b) Etik ilkelere uygun dijital içerikler hakkında sorular sorar. c) Etik ilkelere uygun dijital içeriklere nasıl erişeceğine ilişkin bilgi toplar. ç) Edindiği bilgilerin doğruluğunu değerlendirir. d) Etik davranışların dijital içerik üretimine etkisi hakkında çıkarım yapar. DS.1.2.2. Dijital görsellerde özgünlük ve kopya içerikleri sanatsal ögeler üzerinden karşılaştırabilme a) Dijital içeriklerde yer alan görsel bileşenlerdeki benzerlikleri belirler. b) Dijital içeriklerde yer alan görsel bileşenlerdeki farklılıkları belirler.",
+    "İÇERİK ÇERÇEVESİ": "Dijital Ortamda Etik Davranış Dijital Görsellerde Sanatsal Özgünlük",
+    "Anahtar Kavramlar": "etik, dijital ayak izi, dijital mahremiyet, dijital zorbalık, özgünlük, telif, yapay zekâ"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "DIJITAL TASARIM ELEMANLARI VE İLKELERI",
+   "description": "Birinci temada başlangıç düzeyinde fark edilen görsel ögeler, bu temada sanat elemanları ve tasarım ilkeleri çerçevesinde sistematik olarak ele alınır. Bu temada öğrencilerin görsel sanat eserlerindeki temel sanat elemanlarını fark ederek bunları sözel olarak ifade edebilmesi; görsel düzenleme sürecinde dijital araç, teknoloji ve yöntemleri tanıyıp, uygun biçimde kullanarak değerlendirebilmesi amaçlanmaktadır.",
+   "lesson_hours": 10,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB1. Sanatsal Algılama (SAB1.1. Sanatsal Gözlemleme), BTYAB4. Dijital Ürün Geliştirme (BTYAB4.1. Tasarım Araç, Teknoloji ve Yöntemlerinden Yararlanma)",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E3.3. Yaratıcılık, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK DS.1.3.1 UYGULAMALAR Öğrenciler seçilen sanat eserlerindeki çizgi, renk, biçim ve doku unsurlarını inceleyerek gözlemlerini sınıfla paylaşır. Bu paylaşım sürecinde saygılı ve açık bir iletişim dili kullanmaları sağlanır (SDB2.1, D14.1). Öğrenciler inceledikleri sanat eserlerinde güzellik, uyum ve denge oluşturan görsel unsurları belirler. Böylece estetik özellikleri fark etmeleri desteklenir (D7.1). Öğrenciler sanat eserlerinde yer alan görsel unsurları sözel olarak ifade eder ve bu unsurlar arasındaki ilişkiyi açıklayarak görsel bilgileri anlamlı bir bütün hâlinde yorumlar (OB4). DS.1.3.2 Öğrenciler görsel düzenleme çalışmalarında grup içinde görev paylaşımı yaparak ortak bir dijital ürün oluşturur. Bu süreçte iş birliği içinde çalışma ve sorumluluk paylaşma becerileri desteklenir (SDB2.2, D4.1). Öğrenciler tasarım sürecinde seçtikleri görsel düzenleme aracını kullanarak ürünlerini geliştirir. Süreç boyunca dikkatli ve özverili çalışmaları desteklenir (D3.1). Öğrenciler görsel düzenleme çalışmasında kullanacakları dijital tasarım araçlarını amacına uygun biçimde seçer ve uygular (OB2). Öğrenciler ortak ürün geliştirme sürecinde arkadaşlarının görüş ve katkılarını dikkate alarak çalışmalarını sürdürür (D4.1). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. DİJİTAL SANATLAR DERSİ ÖĞRETİM PROGRAMI I. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim Kurma, SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D4. Dostluk, D7. Estetik, D14. Saygı",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık BECERİLER ARASI İLİŞKİLER DİJİTAL SANATLAR DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "DS.1.3.1. Görsel sanat eserlerinde temel sanat elemanlarını gözlemleyebilme a) Görsel sanat eserlerinde yer alan bileşenleri fark eder. b) Görsel sanat eserlerinde yer alan bileşenleri sözel olarak ifade eder. DS.1.3.2. Görsel düzenleme sürecinde dijital tasarım araç, teknoloji ve yöntemlerinden yararlanabilme a) Görsel düzenleme sürecinde kullanılan dijital araç, teknoloji ve yöntemleri tanır. b) Görsel düzenleme sürecine uygun araç, teknoloji ve yöntemleri belirler. c) Görsel düzenleme yapmak için tasarım ilkelerine uygun belirlediği araç, teknoloji ve yöntemleri kullanır. ç) Görsel düzenlemede kullanılan araç, teknoloji ve yöntemleri değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Görsel Sanat Eserlerinde Temel Sanat Elemanları Görsel Düzenlemede Dijital Tasarım Araçları ve Yöntemleri",
+    "Anahtar Kavramlar": "biçim, denge, dijital araçlar, doku, görsel tasarım, kompozisyon, renk, tasarım ilkeleri"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 4,
+   "kind": "TEMA",
+   "title": "DIJITAL ÜRETIMDE ÇIZIM, GÖRÜNTÜ VE SES",
+   "description": "Bu temada öğrencilerin dijital görsel çizim, düzenleme ve ses kaydı oluşturma süreçlerinde kullanılan araç, teknoloji ve yöntemleri tanıyıp uygun biçimde kullanarak değerlendirebilmesi amaçlanmaktadır. Öğrenciler üretim sürecinde kullandıkları dijital içeriklerde özgünlük, telif hakkı ve etik ilkelere uygun davranmanın önemini dikkate alır.",
+   "lesson_hours": 14,
+   "sections": {
+    "ALAN BECERİLERİ": "BTYAB4. Dijital Ürün Geliştirme (BTYAB4.1. Tasarım Araç, Teknoloji ve Yöntemlerinden Yararlanma)",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E3.3. Yaratıcılık, E3.9.2. Merak",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK DS.1.4.1 UYGULAMALAR Öğrenciler çizim sürecinde farklı dijital çizim araçlarını deneyerek araçların teknik özelliklerini karşılaştırır ve oluşturacakları ürüne en uygun aracı seçer. Bu süreçte teknik verileri değerlendirerek verimli yöntem belirleme becerileri desteklenir (OB2, KB2.7, KB3.1). DS.1.4.2 Öğrenciler ses düzenleme çalışmalarında farklı dijital araçları deneyerek kayıt alma, kesme ve düzenleme işlemlerini gerçekleştirir ve amaca uygun aracı seçerek süreci yönetir (OB2). Öğrenciler ses kaydı oluşturma sürecinde içeriklerini planlayarak kayıt alır ve paylaşım öncesinde doğruluk ve güvenlik unsurlarını gözden geçirir (D16.3). Öğrenciler ses kayıtlarını oluştururken kişisel verilerin korunmasına dikkat ederek dijital mahremiyete uygun içerik üretir (D8.2). Öğrenciler oluşturdukları ses kayıtlarında millî kimlik, kültürel miras ve toplumsal birlik unsurlarını yansıtan içerikler geliştirir (D19.3). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. DİJİTAL SANATLAR DERSİ ÖĞRETİM PROGRAMI I. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "-",
+    "Değerler": "D8. Mahremiyet, D16. Sorumluluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık BECERİLER ARASI İLİŞKİLER KB2.7. Karşılaştırma, KB3.1. Karar Verme DİJİTAL SANATLAR DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "DS.1.4.1. Dijital görsel çizim ve düzenleme araçlarından yararlanabilme a) Dijital görsel oluşturma ve düzenleme sürecinde kullanılan dijital çizim araçlarını tanır. b) Dijital görsel oluşturma ve düzenleme sürecine uygun dijital çizim araçlarını belirler. c) Dijital görsel oluşturma ve düzenleme için belirlenen çizim araçlarını kullanır. ç) Dijital görsel oluşturma ve düzenlemede kullanılan araç ve yöntemleri değerlendirir. DS.1.4.2. Dijital ses kayıt ve düzenleme araçlarından yararlanabilme a) Dijital ses dosyası oluşturma ve düzenleme sürecinde kullanılan araçları tanır. b) Dijital ses dosyası oluşturma ve düzenleme sürecine uygun araçları belirler. c) Dijital ses kaydı oluşturma ve düzenleme için belirlenen araçları kullanır. ç) Dijital ses kaydında kullanılan araç ve yöntemleri teknik ve etik boyutlarıyla değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Dijital Görsel Çizim ve Düzenleme Araçları Dijital Ses Kayıt ve Düzenleme Araçları",
+    "Anahtar Kavramlar": "dijital çizim, dijital sanat ürünü, montaj, ses düzenleme, teknolojik yaratıcılık, estetik, özgünlük, telif hakkı, etik"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 5,
+   "kind": "TEMA",
+   "title": "YAPAY ZEKÂ ILE DIJITAL SANAT",
+   "description": "Bu temada öğrencilerin dijital içerik üretiminde kullanılan yapay zekâ araçlarını tanıyarak işlevlerine göre sınıflandırabilmesi, bu araçları sanatın farklı alanlarıyla ilişkilendirip anlamlı biçimde kullanabilmesi, yapay zekâ ile oluşturulmuş dijital içeriklerdeki nesnel ve öznel mesajları çözümleyebilmesi, üretim biçimi ile iletilen mesajlar arasındaki ilişkiyi kavrayabilmesi ve sanatsal yaratıcılığını yapay zekâ destekli dijital araçlarla geliştirip değerlendirebilmesi amaçlanmaktadır.",
+   "lesson_hours": 14,
+   "sections": {
+    "ALAN BECERİLERİ": "BTYAB1. Bilişim Teknolojisini Kullanma (BTYAB1.1. Bilişim Teknolojilerini Sınıflandırma), BTYAB4. Dijital Ürün Geliştirme (BTYAB4.1. Tasarım Araç, Teknoloji ve Yöntemlerinden Yararlanma), SAB2. Görsel Mesajı Okuma (SAB2.2. Görsel Mesajı Anlamlandırma)",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.1. Merak, E3.3. Yaratıcılık, E3.6. Analitik Düşünme, E3.7. Sistematiklik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK DS.1.5.1 UYGULAMALAR Öğrencilerin yapay zekâ uygulamalarını tanımaları ve farklı yapay zekâ araçlarını etik, güvenlik ve veri mahremiyeti açısından karşılaştırmaları sağlanır. Öğrenciler kullanacakları yapay zekâ aracının yaş uygunluğu, veri toplama biçimi, içerik güvenliği, kullanım hakları ve mahremiyet koşullarını üretim öncesinde inceleyerek gerekli önlemleri belirler (D8.2, D16.3). Öğrenciler farklı yapay zekâ araçlarıyla oluşturulmuş örnek içerikleri inceleyerek bu içeriklerin etik açıdan uygunluğunu tartışır ve karşılaştıkları durumlara yönelik bilinçli ve sorumlu kararlar alır (SDB3.3, KB2.18). Bu bağlamda içeriklerin ahlaki ilke ve değerlere uygun olması beklenir (D9.1). Öğrenciler, yapay zekâ uygulamaları dersinde edindikleri veri, algoritma, model, istem oluşturma, çıktı doğrulama ve etik kullanım bilgilerini sanatsal dijital içerik üretim sürecine aktarır. DS.1.5.2 Öğrenciler dijital içeriklerde yer alan görsel ve metinsel ögeleri birlikte inceleyerek bu ögeler arasındaki ilişkiyi çözümler ve içeriklerin anlamı üzerindeki etkisini yorumlar (OB4). Öğrenciler yapay zekâ ile oluşturulmuş görsel ve metin örneklerini inceleyerek içeriklerdeki güzellik, uyum ve duygusal denge unsurlarını belirler (D7.1). DS.1.5.3 Öğrenciler farklı yapay zekâ araçlarını deneyerek belirledikleri bir içerik için uygun aracı seçer ve üretim sürecini bu araç üzerinden planlayarak yönetir (OB2, KB2.7). Bu süreçte ülkemizde geliştirilen yapay zekâ modellerini araştırır ve bu modellerden uygun olanları kullanır. Böylece öğrencilerin yerli ve millî yapay zekâ modeli geliştirmenin önemini kavramaları sağlanır (D19.4). Öğrenciler üretim sürecinde kullandıkları istemleri, kaynakları ve gerçekleştirdikleri düzenlemeleri açıklar; yapay zekâ tarafından oluşturulan içerik ile kendi sanatsal katkısını ayırt eder ve ürünün özgünlüğünü güçlendirecek düzenlemeler yapar. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. DİJİTAL SANATLAR DERSİ ÖĞRETİM PROGRAMI I. DÜZEY",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Öz Düzenleme, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D7. Estetik, D8. Mahremiyet, D9. Merhamet, D16. Sorumluluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık BECERİLER ARASI İLİŞKİLER KB2.7.Karşılaştırma Becerisi, KB2.18.Tartışma Becerisi DİJİTAL SANATLAR DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "DS.1.5.1. Dijital içerik oluşturmada kullanılan yapay zekâ araçlarını sınıflandırabilme a) Dijital içerik oluşturmada kullanılan yapay zekâ araçlarını belirler. b) Dijital içerik oluşturmada kullanılan yapay zekâ araçlarını sanat alanları ile ilişkilendirir. c) Dijital içerik oluşturmada kullanılan yapay zekâ araçlarını işlevlerine göre gruplandırır. DS.1.5.2. Yapay zekâ ile oluşturulmuş dijital içeriklerdeki mesajı anlamlandırabilme a) Yapay zekâ ile oluşturulmuş dijital içeriklerdeki nesnel ve öznel mesajlarını belirler. b) Dijital içeriklerin üretim biçimi ile ilettiği mesajlar arasındaki ilişkileri tespit eder. DS.1.5.3. Dijital içerik oluşturmada sanatsal yapay zekâ araçlarından yararlanabilme a) Dijital içerik oluşturma ve düzenlemede kullanılan yapay zekâ araçlarını tanır. b) Dijital içerik oluşturma ve düzenlemede kullanılan uygun araç ve yöntemleri belirler. c) Dijital içerik oluşturma ve düzenlemede belirlediği yapay zekâ araç ve yöntemlerini etik ve güvenli kullanım ilkelerini gözeterek kullanır. ç) Dijital içerik oluşturmada kullandığı yapay zekâ araç ve yöntemleri değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Yapay Zekâ Araçlarının Sınıflandırılması ve Dijital İçerikte Kullanımı Dijital İçeriklerde Mesaj ve Anlam Sanatsal Dijital İçerik Üretiminde Yapay Zekâ Araçları",
+    "Anahtar Kavramlar": "dijital estetik, dijital mahremiyet, etik üretim, içerik oluşturma, insan katkısı, mesaj, özgünlük, teknoloji-sanat etkileşimi, yapay zekâ, yapay zekâ araçları"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 6,
+   "kind": "TEMA",
+   "title": "ÜÇ BOYUTLU MODELLEME",
+   "description": "Bu temada öğrencilerin dijital tasarım ve animasyon geliştirme süreçlerinde üç boyutlu modelleme araçlarını tanıyıp, uygun şekilde seçerek kullanabilmesi, bu araçlarla özgün üç boyutlu tasarım / animasyon oluşturabilmesi ve geliştirdiği ürünleri görsel tasarım ilkeleri çerçevesinde analiz ederek değerlendirebilmesi amaçlanmaktadır.",
+   "lesson_hours": 18,
+   "sections": {
+    "ALAN BECERİLERİ": "BTYAB4. Dijital Ürün Geliştirme (BTYAB4.1. Tasarım Araç, Teknoloji ve Yöntemlerinden Yararlanma)",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E3.3. Yaratıcılık, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK DS.2.6.1 UYGULAMALAR Öğrenciler oluşturdukları üç boyutlu tasarımları sunarak tasarımlarında kullandıkları görsel ögeleri sanatın ifade biçimleriyle ilişkilendirir ve çalışmalarını sözlü olarak yorumlar (OB9, KB2.14). Öğrenciler animasyon geliştirme etkinliğinde grup içinde görev dağılımı yapar, kendi sorumluluğunu yerine getirir ve ortak bir ürün oluşturmak üzere iş birliği içinde çalışır (D16.3, SDB2.2). Öğrenciler üç boyutlu tasarım sürecinde oluşturdukları modelleri inceleyerek uyum, denge ve bütünlük açısından değerlendirir ve tasarımlarını estetik ölçütlere göre düzenler (D7.1). DS.2.6.2 Öğrenciler üç boyutlu animasyon üretiminde kullanacakları modelleme araçlarını deneyerek işlevsel özelliklerine göre uygun olanı seçer ve üretim sürecinde kullanır (OB2). Öğrenciler animasyon geliştirme sürecinde yapılacak işleri aşamalara ayırarak plan yapar ve çalışmalarını belirlenen süre içinde tamamlar (SDB3.3). Öğrenciler yapay zekâ destekli dijital sanat uygulamalarına yönelik farklı örnekleri incelemek ve kendi üretim süreçlerini zenginleştirmek amacıyla Okul Dışı Öğrenme Platformu (okuldisiogrenme.eba.gov.tr) üzerinde yer alan içeriklerden yararlanabilir. Öğrenciler üç boyutlu animasyonlarını oluştururken sahne, hareket ve görsel düzenlemeleri estetik ölçütlere göre değerlendirir ve gerekli düzenlemeleri yapar (D7.1, KB2.17). Öğrenciler üretim sürecinde oluşturdukları tasarım veya animasyon üzerinde denemeler yapar, karşılaştıkları hataları belirleyerek düzeltir ve ürünü geliştirmek için düzenlemeler yaparak süreci tamamlayana kadar çalışmayı sürdürür (D12.3). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. DİJİTAL SANATLAR DERSİ ÖĞRETİM PROGRAMI",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.2. İş Birliği, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D7. Estetik, D12. Sabır, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI İLİŞKİLER KB2.14. Yorumlama, KB2.17. Değerlendirme DİJİTAL SANATLAR DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "DS.2.6.1. Dijital tasarım sürecinde üç boyutlu animasyon geliştirme araçlarından yararlanabilme a) Üç boyutlu modelleme araçlarını tanır. b) Üç boyutlu modelleme araçlarını belirler. c) Üç boyutlu modelleme araçlarını kullanır. ç) Oluşturduğu üç boyutlu tasarımı görsel tasarım ilkeleri açısından değerlendirir. DS.2.6.2. Animasyon geliştirme sürecinde üç boyutlu modelleme araçlarından yararlanabilme a) Animasyon geliştirme sürecinde kullanılan üç boyutlu modelleme araçlarını tanır. b) Animasyon geliştirme sürecine uygun üç boyutlu modelleme araçlarını belirler. c) Animasyon geliştirme için belirlenen üç boyutlu modelleme araçlarını kullanır. ç) Animasyon geliştirmede kullanılan üç boyutlu modelleme araçlarını değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "3B Animasyon ve Modelleme Araçları 3B Modelleme Araçları ile Animasyon Geliştirme",
+    "Anahtar Kavramlar": "3B modelleme, tasarım ilkeleri, teknolojik üretim, üç boyutlu animasyon"
+   },
+   "outcomes": []
+  }
+ ],
+ "unassigned_outcomes": [
+  {
+   "code": "DS.1.1.1",
+   "grade": 1,
+   "unit": 1,
+   "order": 1,
+   "text": "Dijital sanatlara ilişkin temel kavram ve özellikleri sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital sanat ile ilgili merak ettiklerini tanımlar. Öğrenme yaşantıları so-"
+    },
+    {
+     "label": "b",
+     "text": "Dijital sanat türleri ve estetik kavramı hakkında nunda öğrenciye kazansorular sorar. dırılması amaçlanan bilgi, beceri, becerilerin süreç"
+    },
+    {
+     "label": "c",
+     "text": "Dijital sanat ürünlerinin tarihsel gelişimine ilişkin bilgi bileşenlerini ifade eder. toplar."
+    },
+    {
+     "label": "ç",
+     "text": "Edindiği bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Dijital sanatın tarihsel gelişiminin estetik boyutuna etkisi hakkında çıkarım yapar. Öğrenme sürecinde ele alınan bilgi kümesini (bölüm/ İÇERİK Dijital Sanatlara İlişkin Temel Kavram ve Özellikleri konu/alt konuya ilişkin sınırÇERÇEVESİ Dijital Sanat Ürünlerinde Estetik Ögeler ları) ifade eder. Dijital Sanatların Üretiminde Kullanılan Bilişim Teknolojileri Araçları"
+    }
+   ]
+  },
+  {
+   "code": "DS.1.1.2",
+   "grade": 1,
+   "unit": 1,
+   "order": 2,
+   "text": "Dijital sanat ürünlerinde estetik ögeleri yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital sanat ürünlerinde yer alan görsel bileşenlerle eserin teması arasında ilişki kurar."
+    },
+    {
+     "label": "b",
+     "text": "Dijital sanat ürünlerinin estetik yönlerine ilişkin çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "DS.1.1.3",
+   "grade": 1,
+   "unit": 1,
+   "order": 3,
+   "text": "Dijital sanat yaparken kullanılan bilişim teknolojilerini sınıflandırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital sanat yaparken kullanılan bilişim teknolojilerini belirler."
+    },
+    {
+     "label": "b",
+     "text": "Dijital sanat yaparken kullanılan bilişim teknolojilerini kullanım amaçları ile ilişkilendirir."
+    },
+    {
+     "label": "c",
+     "text": "Dijital sanat yaparken kullanılan bilişim teknolojilerini işlevlerine göre gruplandırır."
+    }
+   ]
+  },
+  {
+   "code": "DS.1.2.1",
+   "grade": 1,
+   "unit": 2,
+   "order": 1,
+   "text": "Dijital ortamdaki etik davranışlara ilişkin kavramları sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital ortamda etik davranış ve özgünlükle ilgili merak ettiklerini tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Etik ilkelere uygun dijital içerikler hakkında sorular sorar."
+    },
+    {
+     "label": "c",
+     "text": "Etik ilkelere uygun dijital içeriklere nasıl erişeceğine ilişkin bilgi toplar."
+    },
+    {
+     "label": "ç",
+     "text": "Edindiği bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Etik davranışların dijital içerik üretimine etkisi hakkında çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "DS.1.2.2",
+   "grade": 1,
+   "unit": 2,
+   "order": 2,
+   "text": "Dijital görsellerde özgünlük ve kopya içerikleri sanatsal ögeler üzerinden karşılaştırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital içeriklerde yer alan görsel bileşenlerdeki benzerlikleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Dijital içeriklerde yer alan görsel bileşenlerdeki farklılıkları belirler."
+    }
+   ]
+  },
+  {
+   "code": "DS.1.3.1",
+   "grade": 1,
+   "unit": 3,
+   "order": 1,
+   "text": "Görsel sanat eserlerinde temel sanat elemanlarını gözlemleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Görsel sanat eserlerinde yer alan bileşenleri fark eder."
+    },
+    {
+     "label": "b",
+     "text": "Görsel sanat eserlerinde yer alan bileşenleri sözel olarak ifade eder."
+    }
+   ]
+  },
+  {
+   "code": "DS.1.3.2",
+   "grade": 1,
+   "unit": 3,
+   "order": 2,
+   "text": "Görsel düzenleme sürecinde dijital tasarım araç, teknoloji ve yöntemlerinden yararlanabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Görsel düzenleme sürecinde kullanılan dijital araç, teknoloji ve yöntemleri tanır."
+    },
+    {
+     "label": "b",
+     "text": "Görsel düzenleme sürecine uygun araç, teknoloji ve yöntemleri belirler."
+    },
+    {
+     "label": "c",
+     "text": "Görsel düzenleme yapmak için tasarım ilkelerine uygun belirlediği araç, teknoloji ve yöntemleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Görsel düzenlemede kullanılan araç, teknoloji ve yöntemleri değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "DS.1.4.1",
+   "grade": 1,
+   "unit": 4,
+   "order": 1,
+   "text": "Dijital görsel çizim ve düzenleme araçlarından yararlanabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital görsel oluşturma ve düzenleme sürecinde kullanılan dijital çizim araçlarını tanır."
+    },
+    {
+     "label": "b",
+     "text": "Dijital görsel oluşturma ve düzenleme sürecine uygun dijital çizim araçlarını belirler."
+    },
+    {
+     "label": "c",
+     "text": "Dijital görsel oluşturma ve düzenleme için belirlenen çizim araçlarını kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Dijital görsel oluşturma ve düzenlemede kullanılan araç ve yöntemleri değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "DS.1.4.2",
+   "grade": 1,
+   "unit": 4,
+   "order": 2,
+   "text": "Dijital ses kayıt ve düzenleme araçlarından yararlanabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital ses dosyası oluşturma ve düzenleme sürecinde kullanılan araçları tanır."
+    },
+    {
+     "label": "b",
+     "text": "Dijital ses dosyası oluşturma ve düzenleme sürecine uygun araçları belirler."
+    },
+    {
+     "label": "c",
+     "text": "Dijital ses kaydı oluşturma ve düzenleme için belirlenen araçları kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Dijital ses kaydında kullanılan araç ve yöntemleri teknik ve etik boyutlarıyla değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "DS.1.5.1",
+   "grade": 1,
+   "unit": 5,
+   "order": 1,
+   "text": "Dijital içerik oluşturmada kullanılan yapay zekâ araçlarını sınıflandırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital içerik oluşturmada kullanılan yapay zekâ araçlarını belirler."
+    },
+    {
+     "label": "b",
+     "text": "Dijital içerik oluşturmada kullanılan yapay zekâ araçlarını sanat alanları ile ilişkilendirir."
+    },
+    {
+     "label": "c",
+     "text": "Dijital içerik oluşturmada kullanılan yapay zekâ araçlarını işlevlerine göre gruplandırır."
+    }
+   ]
+  },
+  {
+   "code": "DS.1.5.2",
+   "grade": 1,
+   "unit": 5,
+   "order": 2,
+   "text": "Yapay zekâ ile oluşturulmuş dijital içeriklerdeki mesajı anlamlandırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Yapay zekâ ile oluşturulmuş dijital içeriklerdeki nesnel ve öznel mesajlarını belirler."
+    },
+    {
+     "label": "b",
+     "text": "Dijital içeriklerin üretim biçimi ile ilettiği mesajlar arasındaki ilişkileri tespit eder."
+    }
+   ]
+  },
+  {
+   "code": "DS.1.5.3",
+   "grade": 1,
+   "unit": 5,
+   "order": 3,
+   "text": "Dijital içerik oluşturmada sanatsal yapay zekâ araçlarından yararlanabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital içerik oluşturma ve düzenlemede kullanılan yapay zekâ araçlarını tanır."
+    },
+    {
+     "label": "b",
+     "text": "Dijital içerik oluşturma ve düzenlemede kullanılan uygun araç ve yöntemleri belirler."
+    },
+    {
+     "label": "c",
+     "text": "Dijital içerik oluşturma ve düzenlemede belirlediği yapay zekâ araç ve yöntemlerini etik ve güvenli kullanım ilkelerini gözeterek kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Dijital içerik oluşturmada kullandığı yapay zekâ araç ve yöntemleri değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "DS.1.6.1",
+   "grade": 1,
+   "unit": 6,
+   "order": 1,
+   "text": "Dijital tasarım sürecinde üç boyutlu modelleme araçlarından yararlanabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Üç boyutlu modelleme araçlarını tanır."
+    },
+    {
+     "label": "b",
+     "text": "Üç boyutlu modelleme araçlarını belirler."
+    },
+    {
+     "label": "c",
+     "text": "Üç boyutlu modelleme araçlarını kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Oluşturduğu üç boyutlu tasarımı görsel tasarım ilkeleri açısından değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "DS.2.1.1",
+   "grade": 2,
+   "unit": 1,
+   "order": 1,
+   "text": "Dijital sanat eserlerini estetik açıdan yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital sanat eserlerinde yer alan görsel ögeler ile konu / mesaj arasında ilişki kurar."
+    },
+    {
+     "label": "b",
+     "text": "Dijital sanat eserinin teması ya da destekleyici temaları hakkında çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "DS.2.2.1",
+   "grade": 2,
+   "unit": 2,
+   "order": 1,
+   "text": "Dijital sanat içeriklerinde telif hakkı türlerini karşılaştırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Telif hakkı, lisans türleri ve açık kaynak kavramlarının özelliklerini belirler."
+    },
+    {
+     "label": "b",
+     "text": "Telif hakkı, lisans türleri ve açık kaynak kavramlarının etik ve yasal yönleri açısından benzerliklerini listeler."
+    },
+    {
+     "label": "c",
+     "text": "Dijital sanat içerik üretimi bağlamında telif hakkı, lisans türleri ve açık kaynak kavramları arasındaki farklılıkları listeler."
+    }
+   ]
+  },
+  {
+   "code": "DS.2.2.2",
+   "grade": 2,
+   "unit": 2,
+   "order": 2,
+   "text": "Dijital içeriklerdeki etik risklerle ilgili dijital güvenlik önlemlerini yönetebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital içerik üretiminde karşılaşılabilecek etik riskleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Yapay zekâ ile içerik üretiminde etik ve şeffaf kullanıma yönelik ilkeleri ve telif ihlali, intihal gibi hukuka aykırı durumlara karşı alınabilecek güvenlik önlemlerini belirler."
+    },
+    {
+     "label": "c",
+     "text": "Dijital içeriklerinin güvenli ve etik şekilde üretilebilmesi için bilgi güvenliğinin temel bileşenlerini ayırt eder."
+    },
+    {
+     "label": "ç",
+     "text": "Etik ihlallerle üretilen farklı dijital içerik örneklerini dijital güvenlik önlemleri açısından değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "DS.2.3.1",
+   "grade": 2,
+   "unit": 3,
+   "order": 1,
+   "text": "Tasarım ilkelerinin dijital ürünlere katkısını yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital ürünlerin konusuyla görsel bileşenler arasında ilişki kurar."
+    },
+    {
+     "label": "b",
+     "text": "Dijital ürünlerin tasarım ilkelerine uygunluğuna ilişkin çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "DS.2.3.2",
+   "grade": 2,
+   "unit": 3,
+   "order": 2,
+   "text": "Dijital ürün oluşturmada tasarım ilkelerinden yararlanabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital ürün oluşturma ve düzenlemede kullanılan tasarım ilkelerini tanır."
+    },
+    {
+     "label": "b",
+     "text": "Dijital ürün oluşturma ve düzenlemede kullanılan tasarım ilkelerini belirler."
+    },
+    {
+     "label": "c",
+     "text": "Dijital ürün oluşturma ve düzenlemede belirlediği tasarım ilkelerini kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Tasarım ilkelerine uygun olarak geliştirdiği dijital ürünü değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "DS.2.4.1",
+   "grade": 2,
+   "unit": 4,
+   "order": 1,
+   "text": "Animasyon geliştirme araçlarından yararlanabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Animasyon geliştirme sürecinde kullanılan dijital araç ve yöntemleri tanır."
+    },
+    {
+     "label": "b",
+     "text": "Animasyon geliştirme sürecine uygun dijital araç ve yöntemleri belirler."
+    },
+    {
+     "label": "c",
+     "text": "Animasyon geliştirme için belirlenen dijital araç ve yöntemleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Animasyon geliştirmede kullanılan dijital araç ve yöntemleri değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "DS.2.4.2",
+   "grade": 2,
+   "unit": 4,
+   "order": 2,
+   "text": "Dijital hikâye geliştirme araçlarından yararlanabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital hikâye geliştirme sürecinde kullanılan dijital araç ve yöntemleri tanır."
+    },
+    {
+     "label": "b",
+     "text": "Dijital hikâye geliştirme sürecine uygun dijital araç ve yöntemleri belirler."
+    },
+    {
+     "label": "c",
+     "text": "Dijital hikâye geliştirme için belirlenen dijital araç ve yöntemleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Dijital hikâye geliştirmede kullanılan dijital araç ve yöntemleri değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "DS.2.5.1",
+   "grade": 2,
+   "unit": 5,
+   "order": 1,
+   "text": "Dijital ürün geliştirmede yapay zekâ araçlarından yararlanabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Dijital ürün geliştirme sürecinde kullanılan yapay zekâ araçlarını tanır."
+    },
+    {
+     "label": "b",
+     "text": "Dijital ürün geliştirme sürecine uygun yapay zekâ araçlarını belirler."
+    },
+    {
+     "label": "c",
+     "text": "Dijital ürün geliştirme sürecinde belirlenen yapay zekâ araçlarını etik ilkelere uygun biçimde kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Dijital ürün geliştirme sürecinde kullanılan yapay zekâ araçlarını değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "DS.2.5.2",
+   "grade": 2,
+   "unit": 5,
+   "order": 2,
+   "text": "Yapay zekâ araçları ile geliştirilen dijital sanat eserlerini etik açıdan yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Yapay zekâ araçları ile geliştirilen dijital ürünler ile konu-mesaj arasında ilişki kurar."
+    },
+    {
+     "label": "b",
+     "text": "Dijital sanat eserlerinin teması ya da destekleyici temaları hakkında çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "DS.2.6.1",
+   "grade": 2,
+   "unit": 6,
+   "order": 1,
+   "text": "Dijital tasarım sürecinde üç boyutlu animasyon geliştirme araçlarından yararlanabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Üç boyutlu modelleme araçlarını tanır."
+    },
+    {
+     "label": "b",
+     "text": "Üç boyutlu modelleme araçlarını belirler."
+    },
+    {
+     "label": "c",
+     "text": "Üç boyutlu modelleme araçlarını kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Oluşturduğu üç boyutlu tasarımı görsel tasarım ilkeleri açısından değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "DS.2.6.2",
+   "grade": 2,
+   "unit": 6,
+   "order": 2,
+   "text": "Animasyon geliştirme sürecinde üç boyutlu modelleme araçlarından yararlanabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Animasyon geliştirme sürecinde kullanılan üç boyutlu modelleme araçlarını tanır."
+    },
+    {
+     "label": "b",
+     "text": "Animasyon geliştirme sürecine uygun üç boyutlu modelleme araçlarını belirler."
+    },
+    {
+     "label": "c",
+     "text": "Animasyon geliştirme için belirlenen üç boyutlu modelleme araçlarını kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Animasyon geliştirmede kullanılan üç boyutlu modelleme araçlarını değerlendirir."
+    }
+   ]
+  }
+ ],
+ "report": {
+  "units": 6,
+  "outcomes": 0,
+  "components": 0,
+  "orphan_outcomes": 24,
+  "gaps": [
+   {
+    "course": "Dijital Sanatlar Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "DS.1.1.1",
+     "DS.1.1.2",
+     "DS.1.1.3",
+     "DS.1.2.1",
+     "DS.1.2.2",
+     "DS.1.3.1",
+     "DS.1.3.2",
+     "DS.1.4.1",
+     "DS.1.4.2",
+     "DS.1.5.1",
+     "DS.1.5.2",
+     "DS.1.5.3",
+     "DS.1.6.1",
+     "DS.2.1.1",
+     "DS.2.2.1",
+     "DS.2.2.2",
+     "DS.2.3.1",
+     "DS.2.3.2",
+     "DS.2.4.1",
+     "DS.2.4.2",
+     "DS.2.5.1",
+     "DS.2.5.2",
+     "DS.2.6.1",
+     "DS.2.6.2"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,575 @@
+{
+ "course": {
+  "id": 107,
+  "name": "Sosyoloji Dersi",
+  "slug": "sosyoloji-dersi",
+  "prefix": "SOS",
+  "kademe": 3,
+  "kademe_name": "Ortaöğretim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/sosyoloji-dersi_20260828_161133_609.pdf"
+ },
+ "units": [
+  {
+   "grade": null,
+   "unit": 1,
+   "kind": "ÜNİTE",
+   "title": "SOSYOLOJİNİN DOĞUŞU",
+   "description": "Bu ünitede öğrencilerin sosyolojinin doğuş sürecini tarihsel bağlamda anlamlandırabilmeleri, sosyolojik düşünme biçimini sorgulayabilmeleri ve sosyolojide kullanılan farklı yöntemleri karşılaştırabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB3. Tarihsel Empati (SBAB3.1. Tarihsel Bağlamsallaştırma), SBAB16. Eleştirel Sosyolojik Düşünme (KB2.8. Sorgulama)",
+    "KAVRAMSAL BECERİLER": "KB2.7. Karşılaştırma",
+    "EĞİLİMLER": "E1.3. Azim ve Kararlılık, E1.5. Kendine Güvenme (Öz Güven), E2.2. Sorumluluk, E3.1. Muhakeme, E3.3. Yaratıcılık, E3.5. Açık Fikirlilik, E3.6. Analitiklik, E3.8. Soru Sorma, E3.9. Şüphe Duyma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D12. Sabır, D14. Saygı",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB5. Kültür Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Coğrafya, Ekonomi, Felsefe, Tarih BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.6. Bilgi Toplama, KB2.10. Çıkarım Yapma, KB2.18. Tartışma SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SOS.11.1.1. Sosyolojinin doğuş sürecini tarihsel bağlamda anlamlandırabilme a) Sosyolojinin doğuşuna etki eden düşünürlerin görüşlerini analiz eder. b) Sosyolojinin doğduğu dönemin sosyal, ekonomik ve siyasal koşullarını fark eder. c) Sosyolojinin doğduğu tarihsel koşullar ile günümüz toplumlarının koşullarını karşılaştırır. ç) Sosyolojinin kurucu isimlerinin sosyoloji anlayışlarını açıklar. SOS.11.1.2. Sosyolojik düşünme biçimini sorgulayabilme a) Sosyolojik düşünme biçimi ile ilgili merak ettiği konuyu tanımlar. b) Sosyolojik düşünme biçimi ile ilgili merak ettiği konu hakkında sorular sorar. c) Sosyolojik düşünme biçimi ile ilgili merak ettiği konu hakkında bilgi toplar. ç) Toplanan bilgilerin doğruluğunu değerlendirir. d) Doğrulanmış bilgilerden hareketle sosyolojik düşünme biçimine uygun çıkarımlar yapar. SOS.11.1.3. Sosyolojide kullanılan farklı yöntemleri karşılaştırabilme a) Nicel ve nitel araştırma yöntemleri ile bu yöntemlerin dayandığı görüşlerin temel özelliklerini belirler. b) Nicel ve nitel araştırma yöntemlerinin benzerliklerini listeler. c) Nicel ve nitel araştırma yöntemlerinin farklılıklarını listeler.",
+    "İÇERİK ÇERÇEVESİ": "Sosyolojinin Doğuşu Sosyolojik Düşünme Biçimi Sosyolojide Kullanılan Farklı Yöntemler",
+    "Anahtar Kavramlar": "anomi, ilerleme, kentleşme, modernite, toplumsal düzen",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; öz değerlendirme formu, akran değerlendirme formu, (Ölçme ve açık uçlu sorular ve yapılandırılmış grid kullanılarak değerlendirilebilir. Değerlendirme) Performans görevi olarak çeşitli sosyolojik araştırma konuları verilerek bu konuları pozitivist ve yorumcu görüşün nasıl ele alabileceği hakkında iş birlikli olarak sunum hazırlamaları istenebilir. Performans görevi; özellik belirleme, benzerlik ve farklılıkları listeleme, sunum yapma gibi ölçütleri içeren dereceli puanlama anahtarı ile değerlendirilebilir. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Bu ünitede öğrencilerin sosyolojiyi ortaya çıkaran tarihsel sürecin genel özellikleri, toplumsal yaşam ve toplum kavramı, bilimsel yöntem hakkında bilgi sahibi olduğu kabul edilir. Ön Değerlendirme Süreci Öğrencilere sosyolojiyi ortaya çıkaran tarihsel sürecin genel özellikleri, toplumsal yaşam ve toplum kavramı, bilimsel yöntem hakkında açık uçlu sorular sorulabilir. Köprü Kurma Geleneksel tarım toplumu, sanayi toplumu ve günümüz toplumunun özelliklerini yansıtan bilgi ve görseller verilerek öğrencilerin bu toplumları ekonomi, siyaset, kültür, eğitim, yerleşim birimleri açısından karşılaştırarak benzerlik ve farklılıkları hakkında fikir üretmesi sağlanabilir. Öğrenme-Öğretme SOS.11.1.1 Uygulamaları Öğrencilere sosyolojinin bir bilim dalı olarak 19. yüzyılda sanayileşmiş toplumlarda ortaya çıktığını vurgulayan bir tanımı verilir. Öğrencilerin sosyolojiye neden ihtiyaç duyulduğu konusunda akıl yürütmeleri sağlanır. Bunun için öğrencilere toplumun ne olduğu, birey-toplum ilişkisi ve toplumun işleyişi hakkında yönlendirici sorular sorulur (E3.3). Süreçte sokratik diyalog yöntemi kullanılabilir. Sosyolojiyi hazırlayan düşünürlerin [Aristoteles (Aristoteles), İbn Haldun, Giambattista Vico (Cambattista Viko), Saint Simon (Sen Simon)] toplum hakkındaki temel düşüncelerini içeren bilgi notu verilerek öğrencilerin söz konusu düşünürlerin sosyolojinin temellerinin oluşumuna nasıl katkıda bulunduğunu analiz etmeleri sağlanır (E3.1). Toplumu sistematik olarak inceleyen ilk düşünür olan İbn Haldun’un görüşleri kullandığı temel kavramlar çerçevesinde açıklanır. Süreçte bu düşünürlerin toplumu bir araştırma alanı olarak ele aldıkları; toplumun yapısı ve işleyişini, toplumsal değişimi ve birey-toplum ilişkisini anlamaya ve açıklamaya çalıştıkları öğrenciler tarafından keşfedilir. Bu aşamada soru-cevap tekniği kullanılabilir. Öğrencilere 18-19. yüzyıl Avrupasında ekonomik, siyasal, sosyal ve kültürel-düşünsel alanlarda görülen köklü değişimleri yansıtan bilgiler ile soruların yer aldığı çalışma kâğıdı verilir. Öğrencilerin çalışma kâğıdındaki bilgilerden yola çıkarak ekonomik (Sanayi Devrimi, kapitalist ekonomik sistem), siyasal (Fransız İhtilali, milliyetçilik, sömürgecilik ve oryantalizm), sosyal (kentleşme, yeni sosyal sınıfların oluşumu) ve kültürel-düşünsel (bilimsel düşünceler, aydınlanma, sekülerleşme, muhafazakârlık) alanda yaşanan gelişmelerin sosyolojinin doğuşuna nasıl zemin hazırladığını fark etmesi sağlanır (OB1, OB5). Süreçte öğrencilere Sanayi Devrimi ve kapitalist ekonomik sistemin toplumsal yapıya etkisi, kentleşme, sosyal sınıfların ortaya çıkışı ve kültürel değişme hakkında sorular sorulur. Ayrıca Napolyon’un (Napolyon) Mısır’daki sömürgeciliği sistematik hâle getirmek için 22 cilt ansiklopedi hazırlattığı vurgulanarak oryantalizm, sömürgecilik ve sosyoloji ilişkisi hakkında öğrencilerin tartışma yapması sağlanır (SDB2.1, KB2.18). Bu aşamada konuşma halkası veya soru-cevap tekniğinden faydalanılabilir. Tartışma sürecinde öğrenciler birbirlerinin sözünü kesmeden dinler (D14.1). Süreç, öz veya akran değerlendirme formu ile değerlendirilebilir (SDB1.3). Öğrencilerin sosyolojinin doğduğu dönemin tarihsel koşulları ile günümüz koşullarını karşılaştırması sağlanır. Süreç karşılaştırma tablosu ile değerlendirilir. Öğrencilere sosyolojinin kurucularının [Auguste Comte (Ogüst Kont), Karl Marx (Karl Marks), Emile Durkheim (Emil Dürkeym), Max Weber (Max Veber)] temel fikirlerini ve ele aldıkları problemleri içeren bilgi notu verilir. Öğrencilerin iş birlikli olarak bu düşünürlerin ele aldıkları problemleri, kullandıkları temel kavram ve argümanları belirlemeleri ve metin inceleme tablosu üzerinde göstermeleri sağlanır (E1.5, E2.2, SDB2.2, D12.3). Sosyoloji kuramları (işlevselci, çatışmacı ve sembolik etkileşimci) hakkında bilgi notu verilerek öğrencilerden bu kuramların toplum anlayışlarını, birey-toplum ilişkisine yaklaşımlarını karşılaştırmaları istenir. Süreç, açık uçlu sorular kullanılarak değerlendirilebilir. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI SOS.11.1.2 Öğrencilere Zygmunt Bauman’ın (Zigmund Bauman) Sosyolojik Düşünmek ve C. Wright Mills’in (C. Rayt Mills) Sosyolojik Tahayyül adlı kitaplarından sosyolojik düşünme tarzını açıklayan birer alıntı veya yapılandırılmış metin verilir. Öğrencilerin verilen bilgilerden yola çıkarak sosyolojik düşünme biçimiyle ilgili merak ettiği konuyu ifade etmesi ve bu konu hakkında sorular sorması sağlanır (E3.8). Süreçte soru-cevap veya soru kartları öğretim tekniği kullanılabilir. Öğrenciler sosyolojik düşünme biçimi hakkında belirledikleri soruları güvenilir kaynaklardan araştırır ve doğruluğunu değerlendirir (E1.5, E3.9, KB2.6). Öğrencilere son yıllarda yoğunlaşan küresel göç sorununa ilişkin bilgi notu ve yönlendirici sorular verilir. Bu sorular çerçevesinde öğrencilerin birbirlerine saygı duyarak ve fikirlerinin eleştirilmesine açık olarak tartışması sağlanır (E3.5, D14.1). Süreçte göçün bireysel bir seçim değil ekonomik, siyasal faktörlerle gerçekleşen sosyolojik bir problem olduğu vurgulanır. Tartışma sürecinde öğrencilerin göçü sosyolojik olarak yorumlamaları istenir (SDB2.1, KB2.18). Göç sorunu hakkında sosyolojik düşünme biçimine uygun çıkarımlar yapmaları sağlanır (SDB2.2, KB2.10). Süreç, açık uçlu sorularla değerlendirilebilir. SOS.11.1.3 Öğrencilerin yönlendirici sorularla nicel ve nitel kavramlarının anlamlarını sözlü olarak ifade etmesi sağlanır. Bu aşamada sokratik yöntem kullanılabilir. Öğrencilere nicel ve nitel araştırma ile ulaşılmış sosyolojik yargı içeren örnek cümleler verilerek bunların hangilerinin nicel, hangilerinin nitel araştırma ile elde edildiğini belirlemeleri istenir. Öğrencilere pozitivist ve yorumcu yaklaşım, nicel araştırma yöntemi (anket, istatistik), nitel araştırma yöntemi (görüşme, odak grup, söylem analizi, metin analizi, yorum, tarihsel inceleme vb.) hakkında bilgi ve sorular içeren çalışma kâğıdı verilir. Çalışma kâğıdında öğrencilerin öncelikle pozitivist ve yorumcu yaklaşımların temel özelliklerini belirlemesi sağlanır. Bunun için açık uçlu soruları yazılı olarak cevaplamaları istenir. Öğrencilerin nicel araştırma ve nitel araştırma yöntemlerinin genel özelliklerini belirlemesi sağlanır. Bunun için kart eşleştirme öğretim tekniği kullanılabilir (E3.3). Öğrencilerden nicel araştırma ve nitel araştırma yöntemlerinin benzerliklerini ve farklılıklarını; bu yöntemlerin dayandıkları temel görüşler, amaçlar, veri üretme biçimleri, analiz yaklaşımları gibi unsurlar üzerinden listelemeleri istenir (E3.6, OB1). Öğrencilerin her iki yöntemin güçlü ve zayıf yanlarını tespit etmesi sağlanır. Süreç yapılandırılmış grid veya karşılaştırma tablosu ile değerlendirilebilir. Performans görevi olarak öğrencilere çeşitli sosyolojik araştırma konuları verilerek bu konuları pozitivist ve yorumcu görüşün nasıl ele alabileceği hakkında iş birlikli olarak sunum hazırlamaları istenebilir (E1.3, E2.2, SDB2.1, SDB2.2). SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme İbn Haldun’un Mukaddime adlı eserinden toplumsal yaşamın zorunluluğu hakkındaki görüşlerini araştırmaları ve rapor olarak sunmaları istenebilir. A. Comte’un Mustafa Reşit Paşa’ya pozitivizmi tanıtmak amacıyla yazmış olduğu mektup analiz edilerek mektubun tarihsel bağlam içinde değerlendirilmesi sağlanabilir. P. Bourdieu’nun (Burdio) sosyolojiye kazandırdığı temel kavramları araştırmaları ve sunmaları istenebilir. Hermeneutik (Hermenötik) yöntemi inceleyerek uygulama örnekleri ile bir sunum hazırlamaları sağlanabilir. Destekleme Sosyolojinin konusuna ve alanına ilişkin bilgilerin pekiştirilmesinde akran öğretiminden veya grup çalışmalarından yararlanılabilir. Sosyolojinin tarihsel gelişim süreciyle ilgili görsel ve işitsel materyaller kullanılabilir. Sosyolojinin araştırma yöntem ve tekniklerinin anlaşılmasında karşılaştırma tabloları ve akış diyagramları kullanılabilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 2,
+   "kind": "ÜNİTE",
+   "title": "TÜRKİYE’DE MODERNLEŞME VE SOSYOLOJİ",
+   "description": "Bu ünitede öğrencilerin Osmanlı’dan Cumhuriyet’e modernleşmenin nedenleri ve sonuçlarını yorumlayabilmeleri, Türkiye’de sosyolojinin doğuşu ve gelişim sürecini tarihsel bir kurgu içinde yapılandırabilmeleri, Türkiye’de sosyolojinin yöneldiği temel meseleleri sorgulayabilmeleri ve Türkiye’de toplumsal düşüncenin edebî eserlere yansımasını yorumlayabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 14,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB4. Değişim ve Sürekliliği Algılama (SBAB4.2. Değişim ve Sürekliliği Neden ve Sonuçlarıyla Yorumlama)",
+    "KAVRAMSAL BECERİLER": "KB2.8. Sorgulama, KB2.13. Yapılandırma, KB2.14. Yorumlama",
+    "EĞİLİMLER": "E1.1. Merak, E1.3. Azim ve Kararlılık, E1.5. Kendine Güvenme (Öz Güven), E2.1. Empati, E3.4. Gerçeği Arama, E3.6. Analitiklik, E3.7. Sistematiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık Öğrenme Becerileri",
+    "Değerler": "D7. Estetik, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Türk Dili ve Edebiyatı, Felsefe, Tarih BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.7. Karşılaştırma, KB2.10. Çıkarım Yapma, KB2.17. Değerlendirme, KB2.18. Tartışma SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SOS.11.2.1. Osmanlı’dan Cumhuriyet’e modernleşmenin neden ve sonuçlarını yorumlayabilme a) Osmanlı’da başlayıp Cumhuriyet Dönemi’nde derinleşerek devam eden modernleşmenin nedenlerini inceler. b) Osmanlı’da başlayıp Cumhuriyet Dönemi’nde derinleşerek devam eden modernleşmenin sonuçlarını inceler. c) Modernleşmenin sonuçlarını tarihsel bağlamda sorgular. ç) Modernleşmenin nedenlerini ve sonuçlarını tarihsel bağlamda yeniden ifade eder. SOS.11.2.2. Türkiye’de sosyolojinin doğuşu ve gelişim sürecini tarihsel bir kurgu içinde yapılandırabilme a) Türkiye’de sosyolojinin gelişim sürecine ilişkin olay, olgu ve düşünsel yönelimleri inceleyerek nedensel ilişkiler ortaya koyar. b) Ortaya koyduğu ilişkileri tarihsel bağlamda bütünleştirerek uyumlu bir bütün oluşturur. SOS.11.2.3. Türk modernleşmesinin Türk edebiyatına yansımasını yorumlayabilme a) Edebî eserlerde modernleşme konusunu inceler. b) İncelediği konuyu sosyoloji ile ilişkisi içinde bağlamdan kopmadan yazılı/sözlü metne dönüştürür. c) Eserlerdeki ilgili düşünceleri anlamı değiştirmeden kendi cümleleriyle ifade eder.",
+    "İÇERİK ÇERÇEVESİ": "Osmanlı’dan Cumhuriyet’e Modernleşme Süreci Tarihsel Bağlamda Türkiye’de Sosyolojinin Doğuşu ve Gelişimi Türkiye’de Sosyoloji-Edebiyat İlişkisi",
+    "Anahtar Kavramlar": "adem-i merkeziyet, edebiyat, hars, kültür, medeniyet, modernleşme",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; açık uçlu sorular, balık kılçığı diyagramı, kavram harita- (Ölçme ve Değerlendirme) sı, dereceli puanlama anahtarı ve kontrol listesi kullanılarak değerlendirilebilir. Performans görevi kapsamında öğrencilerden Türkiye’de sosyolojinin nasıl doğduğu ve geliştiği hakkında olay–olgu–düşünce ilişkisi çerçevesinde tarihsel olaylar arasında bağlantı kuran bir kronolojik diyagram hazırlamaları, diyagramı sınıfta sunmaları istenebilir. Performans görevi nedensel ilişkileri ortaya koyma, uyumlu bir bütün oluşturma, sunum yapma gibi ölçütler üzerinden dereceli puanlama anahtarı kullanılarak değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Osmanlı’da başlayıp Cumhuriyet Dönemi’nde derinleşerek devam eden modernleşme konusunu ve modernleşmenin Türk edebiyatına yansımasını genel hatlarıyla bildikleri kabul edilir. Ön Değerlendirme Süreci Öğrencilerden Türk modernleşmesi çerçevesinde gerçekleşen yenilikleri listelemesi ve Türk modernleşmesini konu edinen romanlara örnek vermesi istenir. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilere modernleşme konusunun işlendiği Türk edebiyatı eserlerinden alıntı veya yapılandırılmış metinler verilerek bu eserlerde sosyolojiye konu olmuş hangi problemlerin işlendiğini ifade etmeleri istenebilir. Öğrenme-Öğretme SOS.11.2.1 Uygulamalar Öğrencilere modern, modernite ve modernleşme kavramları hakkında bilgi notu verilir (KB2.18). Modernleşmenin tanımı, özellikleri, farklı boyutları açıklanır. Süreçte Osmanlı da dâhil olmak üzere diğer devletlerin varlığı ve bağımsızlığı için bir tehdide dönüşen Batı Avrupa’nın hızla dünyanın yükselen gücü hâline gelmesinde etkili olan bilimsel-teknolojik gelişmelerin arka planında yatan kapitalizm, faydacı felsefe ve sömürgeciliğin rolü vurgulanır. Süreç modernleşme kavramını merkeze alan Frayer diyagramı ile değerlendirilir. Öğrencilerden Osmanlı’da başlayıp Cumhuriyet Dönemi’nde derinleşerek devam eden modernleşmenin (sosyal, siyasal, ekonomik ve kültürel alanlarda) nedenleri hakkında güvenilir bilimsel kaynaklardan iş birlikli olarak araştırma yapmaları, araştırma sonuçlarını sınıfta sunmaları istenir (E1.5, OB1). Sunumlarda modernleşmeyle ilgili görseller kullanılması ve edebî eserlerden örnekler de verilmesi sağlanır (OB4). Öğrencilere, Osmanlı’da başlayıp Cumhuriyet Dönemi’nde derinleşerek devam eden modernleşmenin sonuçlarını sosyal, siyasal, ekonomik ve kültürel alanda incelemeleri için bilgi notu verilir. Cum­huriyet’in kurulmasından yaklaşık iki yüzyıl öncesinde başlayan Osmanlı reformlarının Batı karşısında askerî ve ekonomik üstünlüğü yeniden kazanma arzusunun sonucu olduğu belirtilir. Osmanlı yöneticilerinin yurt dışına öğrenci göndermek ve modern okullar açmak suretiyle özellikle eğitim alanında ciddi reformlar yaptığı, Meşrutiyet ve Cumhuriyetin öznesi olan kuşağın bu modern okullarda yetiştiği vurgulanır. Moder­nleşme ilerledikçe değişmenin sınırları, özgünlük gibi konularda yoğun tartışmaların yaşandığı, modernleşen tüm toplumlarda olduğu gibi gelenekle modernleşme arasın­da bir gerilim ortaya çıktığı vurgulanır. Öğrencilerin elde ettiği bilgilerden faydalanarak modernleşmenin siyasi, sosyal, ekonomik ve kültürel sonuçlarını tarihsel bağlamda sorgulamaları istenir (E3.4). Süreç, açık uçlu sorularla değerlendirilebilir. Öğrencilere modernleşme tartışmalarına örnek olarak Said Halim Paşa, Niyazi Berkes, Nurettin Topçu ve Şerif Mardin’in modernleşme hakkında yaklaşımlarını temsil eden alıntılar veya yapılandırılmış metinler verilerek öğrencilerin bu metinlerde geçen temel kavram, problem ve görüşleri tespit etmeleri ve metin inceleme tablosu üzerinde göstermeleri sağlanır. Öğrencilerin iş birlikli olarak güvenilir kaynaklardan araştırdıkları Rusya, İran ve Japonya modernleşmesini neden ve sonuçları ile ekonomik, siyasal, sosyal ve kültürel açıdan Türk modernleşmesi ile karşılaştırması sağlanır (SDB2.2, D19.2, OB5, KB2.7). Ulaştıkları sonuçların sunumu ve tartışılması için okulda panel düzenlenir. Süreç, öz değerlendirme formu ile değerlendirilebilir. SOS.11.2.2 Öğrencilere Türkiye’de sosyolojinin doğuş ve gelişim sürecine etki eden olay, olgu ve düşünsel yönelimlere dair bilgi notu verilir. Bilgi notunda Avrupa’da modern toplumun sorunlarına çözüm aramak için ortaya çıkan sosyolojinin Türkiye’de modern bir toplum oluşturmak için kullanıldığı, bu bağlamda sosyolojinin modernleşmenin yol haritasını çizmek, toplumsal yapıyı ve kurumları çağın gereklerine göre reforme etmek gibi amaçlar açısından önem kazandığı vurgulanır. Sosyolojinin doğuş ve gelişim sürecine etki eden olaylar (Sömürgecilik ve Batı yayılmacılığı ekonomik bunalımlar, milliyetçilik ve milliyetçi isyanlar vb.), olgular (merkezîleşme, sanayileşme, kentleşme vb.) ve düşünsel yönelimler (pozitivizm, Batıcılık, muhafazakârlık vb.) tarihsel bağlamla ilişkili olarak verilir. Öğrencilerden bu unsurlar arasındaki nedensel ilişkileri ortaya koyması istenir (E3.4). SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI Sosyolojinin teorik bir alan olmasının yanı sıra tarihsel ve toplumsal krizlere çözüm arayan bir düşünme biçimi olduğunun keşfedilmesi sağlanır (E1.1). Süreç, açık uçlu sorularla değerlendirilir. Öğrencilere Ziya Gökalp ve Sabahattin Bey’in biyografileri, sosyoloji anlayışları, yöneldikleri temel problemler, kullandıkları temel kavramlar ve geliştirdikleri argümanlar hakkında bilgi notu verilir. Öğrencilerin bu iki sosyologun nasıl bir arayışla sosyolojiye yöneldikleri, sosyolojik bakış açıları, ele aldıkları temel problemler, kullandıkları temel kavramlar ve geliştirdikleri argümanları analiz etmesi, Osmanlı’nın son döneminde sosyolojinin neden önemli hâle geldiği hakkında çıkarım yapmaları sağlanır (KB2.10). Süreç, açık uçlu sorularla değerlendirilir. Öğrencilerin bu iki sosyoloğun Türkiye hakkındaki tespitleri ve önerdikleri çözüm önerileri üzerine tartışması sağlanır (KB2.18). Tartışmada öğrenciler hangi sosyoloğun fikirlerini kendilerine yakın bulduklarını gerekçelendirerek açıklar (KB2.7). Bunun için konuşma halkası öğretim tekniği kullanılabilir. Öğrencilerden Türkiye’de sosyolojinin gelişim sürecini tarihsel bağlamda Türk modernleşmesi ile ilişkilendirerek bir metin yazması istenir. Metin öz değerlendirme formu ile değerlendirilebilir. Performans görevi olarak öğrencilerin Türkiye’de sosyolojinin nasıl doğduğu ve geliştiği hakkında olay–olgu–düşünce ilişkisi çerçevesinde tarihsel olaylar arasında bağlantı kuran bir kronolojik diyagram hazırlamaları ve diyagramı sınıfta açıklayarak sunmaları istenebilir (E1.3, E3.7, OB1). SOS.11.2.3 Öğrencilere sosyoloji-edebiyat ilişkisi ve Türk edebiyatının modernleşme ile ilişkisi hakkında bilgi notu verilir. Osmanlı’dan bugüne edebiyatın zengin bir düşünce birikiminin oluşmasında ve aktarılmasında önemli rolü olduğu belirtilir. Edebiyatın hem dilin gelişimi hem de düşüncenin olgunlaşması açısından sosyolojiye giden yolu hazırlamakta önemli katkısı olduğu vurgulanır (OB1). Özellikle edebiyatın toplumsal gerçekliği yansıtma, anlamlandırma ve eleştirme işlevleri ön plana çıkarılır. Öğrencilerin edebî eserlerdeki modernleşmeye ilişkin sosyolojik düşünce ve temaları incelemesi sağlanır. Bunun için bir çalışma kâğıdı hazırlanır. Çalışma kâğıdında, modernleşmeyi konu edinen edebî bir eserden alıntı veya eserin ana fikrini yansıtan yapılandırılmış bir metin verilir. Bu metin üzerinden edebî bir metnin sosyolo­jik açıdan incelenmesi örneklendirilir. Öğrencilerden örnek olarak verilen edebî eserin sosyolojik olarak incelenmesinde kullanılan ölçütleri belirlemeleri istenir (KB2.17). Edebî eserlerden seçilen (Sadullah Paşa’nın 19. Asır Manzumesi, Ahmet Hamdi Tanpınar’ın Mahur Beste, Mehmet Akif Ersoy’un Asım, Tevfik Fikret’in Haluk’un Defteri, Kemal Tahir’in Yorgun Savaşçı, Cemil Meriç’in Bu Ülke) alıntılar ile yazarlar ve eserlerin yazıldığı dönemin toplumsal koşulları hakkında kısa bilgi verilir. Öğrencilerin iş birlikli olarak metinleri sosyolojik açıdan inceleyerek temel kavramları, problemleri, modernleşme yaklaşımı ve çözüm önerilerini belirlemesi sağlanır (E3.6, SDB2.3, OB5). Öğrencilerden eserlerdeki düşünceleri bağlamdan kopmadan sosyoloji ile ilişkisi içinde sözlü olarak ifade etmeleri istenir. Öğrencilerden seçilen edebî eserdeki toplumsal temaları sosyolojinin problemleri ile ilişkilendirerek, sosyolojinin kavramlarıyla ifade eden bir değerlendirme yazısı yazmaları istenir. Yazıda edebiyatın toplumsal temaları ele alırken konuya kattığı duygusal derinliğin etkisi de belirtilir (E2.1, D7.1). Süreç, kontrol listesi ile değerlendirilebilir. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Modernleşme ile birlikte toplumun klasik seçkinleri yerini yeni seçkinlere bırakmıştır. Eski ve yeni seçkinler eğitim, dünya görüşü, sosyal çevre gibi özelliklere göre karşılaştırılarak bulgular tablo hâlinde sunulabilir. Said Halim Paşa’nın muhafazakârlık anlayışı ile E. Burke’ün muhafazakârlık anlayışını tarihsel ve toplumsal bağlamı göz önünde bulundurarak karşılaştırmaları ve raporlaştırmaları istenebilir. Baykan Sezer’in “Batıcılaşma” adını verdiği modernleşme anlayışı araştırılarak sunum hazırlanabilir. Attila İlhan’ın “Batılılaşma ve kültür emperyalizmi ilişkisi” üzerine görüşleri araştırılarak sunulabilir. Orhan Türkdoğan’ın yaptığı saha araştırmalarından bir örnek incelenerek raporlaştırmaları istenebilir. Mete Tunçay’n Türkiye Cumhuriyeti’nde Tek Parti Yönetiminin Kurulması 1923-1931 adlı eserinde modernleşme konusunu nasıl değerlendiği araştırılarak sunulabilir. Destekleme Modernleşmenin gelişim sürecini göstermede kronolojik cetvel kullanılabilir. Türk sosyologların ilgilendiği konuları gösteren tablo kullanılabilir. Kurucu sosyologlar olan Ziya Gökalp ve Sabahattin Bey’in fikirlerini karşılaştıran tablo kullanılabilir. Türk edebiyatından eserlerle toplumsal konuları eşleştiren bir tablo kullanılabilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 3,
+   "kind": "ÜNİTE",
+   "title": "KÜLTÜR VE TOPLUMSAL YAPI",
+   "description": "Bu ünitede öğrencilerin kültürün işlevlerini yapılandırabilmesi, toplumsal yapının unsurlarını ve bu unsurlar arasındaki ilişkileri çözümleyebilmesi, toplumsal tabakalaşmayı ve toplumsal hareketliliği özetleyebilmesi amaçlanmaktadır.",
+   "lesson_hours": 12,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB16. Eleştirel Sosyolojik Düşünme (KB2.4. Çözümleme)",
+    "KAVRAMSAL BECERİLER": "KB2.3. Özetleme, KB2.13. Yapılandırma",
+    "EĞİLİMLER": "E1.1. Merak, E1.3. Azim ve Kararlılık, E1.5. Kendine Güvenme (Öz Güven), E3.1. Muhakeme, E3.4. Gerçeği Arama, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.3. Kendine Uyarlama (Öz Yansıtma), SDB2.1. İletişim, SDB2.3. Sosyal Farkındalık Öğrenme Becerileri",
+    "Değerler": "D3. Çalışkanlık, D11. Özgürlük, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Coğrafya, Din Kültürü ve Ahlak Bilgisi, Felsefe, Hukuk, Psikoloji, Tarih BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.4. Çözümleme, KB2.7. Karşılaştırma, KB2.14. Yorumlama, KB2.15. Yansıtma, KB2.16. Muhakeme, KB2.18. Tartışma, KB3.3. Eleştirel Düşünme SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SOS. 11.3.1. Kültürün işlevlerini yapılandırabilme a) Kültürün işlevlerini inceleyerek toplumla ilişkisini ortaya koyar. b) Bu ilişkiye dayanarak tutarlı ve uyumlu bir bütün oluşturur. SOS.11.3.2. Toplumsal yapının unsurlarını ve bu unsurlar arasındaki ilişkileri çözümleyebilme a) Toplumsal yapıyı oluşturan unsurları belirler. b) Toplumsal yapıyı oluşturan unsurlar arasındaki ilişkileri belirler. SOS.11.3.3. Toplumsal tabakalaşmayı ve toplumsal hareketliliği özetleyebilme a) Toplumsal tabakalaşmayı ve toplumsal hareketliliği çözümler. b) Toplumsal tabakalaşma ve toplumsal hareketlilik türlerini sınıflandırır. c) Toplumsal tabakalaşmanın ve toplumsal hareketliliğin etkilerini yorumlar.",
+    "İÇERİK ÇERÇEVESİ": "Kültür Toplumsal Yapı Toplumsal Tabakalaşma ve Toplumsal Hareketlilik",
+    "Anahtar Kavramlar": "Avrupamerkezcilik, değer, etnosentrizm, norm, prekarya, rol, statü ÖĞRENME Bu ünitedeki öğrenme çıktıları; yansıtma yazısı, balık kılçığı diyagramı, kontrol listesi, KANITLARI anlam çözümleme tablosu, öz değerlendirme formu, akran değerlendirme formu ve (Ölçme ve açık uçlu sorular kullanılarak değerlendirilebilir. Değerlendirme) Performans görevi olarak öğrencilerden iş birlikli olarak çevrelerindeki büyüklerle görüşerek ve güvenilir kaynaklardan faydalanarak düğün, cenaze, yenidoğan ritüelleri, kılık kıyafet, yemek gibi konulardan birinde meydana gelen değişme ile ilgili araştırma yapmaları ve çalışma sonuçlarını sınıfta sunmaları istenebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin kültür, toplum ve gelenek kavramları ile toplumsal yapı hakkında temel bilgilere sahip olduğu kabul edilir. Ön Değerlendirme Süreci Öğrencilere kültür, toplum, gelenek kavramları ve toplumsal yapı hakkında açık uçlu sorular sorulabilir. Köprü Kurma Öğrencilerin kendi deneyimlerinden yola çıkarak kültürün toplumsal yapının işleyişindeki rolü hakkında fikir üretmeleri istenebilir. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları SOS.11.3.1 Öğrencilere, farklı kültürleri yansıtan görseller ve kültürün anlamı ve özelliklerini içeren, hangi kültürel unsurların (dil, din, değer, norm, sembol) hangi toplumsal işlevleri yerine getirdiğini açıklayan bir çalışma kâğıdı verilir. Kültürün bireyin anlam dünyasının oluşmasını sağlaması, sosyalizasyon yoluyla kimlik kazandırması, toplumda bir arada yaşamayı mümkün kılan değer ve normların kaynağı olması, ulusal birliği sağlaması gibi işlevlerinden bahsedilir. Görsellerden ve bilgi notlarından yararlanarak kültürün anlamını, özelliklerini, işlevlerini, toplumla ilişkisini ve toplumun işleyişi açısından önemini ifade etmeleri sağlanır (SDB2.1). Öğrencilerden kendi çevrelerinden kültürel unsurların işlevlerine örnekler (yerel bir gelenek, bir kural, ortak semboller vb.) vermeleri istenir (OB5, SDB1.3). Süreçte soru-cevap öğretim tekniği kullanılabilir. Öğrencilere kültürel gecikme, etnosentrizm, kültürel görelilik, hegemonya, kültür endüstrisi, dijital kültür kavramları bilgi notu olarak verilir. Öğrencilerin kültürel gecikmenin yol açabileceği sorunlara örnek vermesi, etnosentrizme karşı kültürel görelilik yaklaşımının önemini, küresel eşitsizlikler açısından hegemonyanın işlevlerini, gelişen iletişim teknolojilerinin etkisiyle günümüzde kültür endüstrisinin nasıl işlediğini ifade etmesi sağlanır (KB2.7). Süreç, açık uçlu sorularla değerlendirilir. Öğrencilere H. Morgan’ın (Morgın) toplumsal evrim şeması hakkında bilgi notu verilir. Morgan’ın Avrupamerkezci etnosentrik bakış açısının toplumları ve onların kültürlerini hiyerarşik biçimde sınıflandırdığı gösterilir. Bu ilerlemeci tarih anlayışının ve toplum sınıflandırmalarının, Avrupa’nın dünya üzerindeki sömürgeciliğe dayalı siyasi ve ekonomik hâkimiyetini meşrulaştırmaya yönelik, Avrupa’yı diğer toplumlara ideal bir model olarak sunan Avrupamerkezci anlayışla ilişkisi vurgulanır. Bu noktada oryantalizm ve self-oryantalizm kavramlarına değinilir. Öğrencilere Morgan’ın Avrupamerkezci etnosentrik bakış açısını kültürel görelilik kavramına dayanarak eleştirel yaklaşımla değerlendirdikleri bir yansıtma yazısı yazdırılır (E3.4, E3.10, SDB1.3, KB2.15). Öğrencilerden günümüzün dijital dünyasında kültürün toplumu bütünleştirme işlevini ne derece yerine getirebildiğini sorgulayan tutarlı bir metin yazması istenir (E1.5, D3.3, D16.3). Süreç, öz veya akran değerlendirme formu ile değerlendirilebilir. Performans görevi olarak öğrencilerden iş birlikli olarak çevrelerindeki büyüklerden ve güvenilir kaynaklardan düğün, cenaze, yenidoğan ritüelleri, kılık-kıyafet, yemek gibi konulardan birinde meydana gelen değişme ile ilgili araştırma yapmaları ve çalışma sonuçlarını sınıfta sunmaları istenebilir (E1.3). Sunum dereceli puanlama anahtarı kullanılarak değerlendirilebilir. SOS.11.3.2 Öğrencilere toplumun düzen içinde nasıl işlediği ile ilgili “Çok sayıda insanın bir araya toplanması niçin bir toplum oluşturmaları için yeterli değildir?”. “İnsan davranışlarında özgür müdür yoksa duygu, düşünce ve davranışları toplum tarafından mı belirlenir?”, “Kendimizin ve başkalarının nerede nasıl davranacağına dair öngörülerimiz olmasa ne olurdu?” gibi sorular sorularak öğrencilerin toplumsal yapıyı fark etmeleri sağlanır (E3.1, KB2.14, KB3.3). Süreçte sokratik tartışma tekniği kullanılabilir (SDB2.1). Toplumsal yapının unsurlarını, özelliklerini, temel kavramlarını (rol, statü, toplumsal norm, toplumsal grup, toplumsal kategori, toplumsal kontrol, toplumsal sapma) ve toplum birey ilişkisini içeren bilgi notu verilerek öğrencilerin toplumsal yapıyı tanımlamaları ve temel kavramlarını örneklendirmesi sağlanır. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI Öğrencilerin insanların neden toplum hâlinde yaşadıklarını sorgulamaları, birey-toplum ilişkisi ile ilgili problemlerin neler olduğu konusunda tartışmaları sağlanır (E1.1, D11.3, KB2.18). Öğrencilerin toplumsal sapmanın ve suçun nedenlerini ve bunun toplumsal yapıda ne gibi sorunlara yol açabileceğini sorgulaması sağlanır. Bunun için balık kılçığı diyagramı kullanılabilir. Öğrencilerden iki farklı toplumu karşılaştırması istenir. Bu toplumlardan birinde bireyler rollerini içselleştirmiştir ve rollerinin gereğini tam olarak yerine getirmektedir. Diğer toplumda ise üyeler rollerinin gereğini genel olarak ceza ve yaptırım korkusuyla asgari seviyede yerine getirmektedir. Öğrencilerden bu iki toplumda bireylerin farklı davranmalarının nedenleri üzerine çıkarımda bulunmaları istenir (KB2.16). Öğrencilere “Türkiye’nin toplumsal yapısının bir resmini çekmek isteseniz hangi verilere ihtiyaç duyardınız?” sorusu yöneltilir. Buradan hareketle öğrencilerin hangi verilere niçin ihtiyaç duyduklarını açıklaması sağlanır (SDB2.1). Bunun için soru-cevap tekniği kullanılabilir. Süreç, dereceli puanlama anahtarı ya da kontrol listesi ile değerlendirilebilir. SOS.11.3.3 Öğrencilere toplumsal tabakalaşma ve toplumsal hareketlilik olgusunu tanıtan yapılandırılmış metin ve görseller verilir (OB1, OB4). Metinde işlevselci ve çatışmacı kuramın toplumsal tabakalaşma ve toplumsal hareketlilik hakkındaki görüşlerine ve küresel tabakalaşma olgusuna vurgu yapılır. Metin, görseller ve yapılandırılmış sorular (Toplumsal tabakalaşmanın nedenleri nelerdir? Toplumsal tabakalaşma gerekli midir? Toplumsal tabakalaşma ve toplumsal hareketlilik ilişkisi nedir? Statü farklılıkları günlük yaşam pratiklerine nasıl yansır? Tabakalaşma adil, eşitlikçi ve özgür bir toplumsal düzene engel teşkil eder mi? Toplumsal hareketliliğin nedenleri nelerdir? Toplumsal tabakalaşmayı belirleyen ölçütler nelerdir? Toplumsal hareketliliği etkileyen faktörler nelerdir? vb.) üzerinden öğrencilerin toplumsal tabakalaşmanın ve toplumsal hareketliliğin nedenlerini, sonuçlarını, toplum içindeki konum, statü, rol ve ilişkilere etkisini çözümlemeleri sağlanır (KB2.4). Bunun için görseller incelenir, metin analiz edilir, sorular cevaplanır. Öğrencilere günümüzde görülen dijital platform ekonomisi ve prekarya kavramı ile ilgili bilgi notu verilir. Bilgi notundan yola çıkarak günümüzde toplumsal tabakalaşma ve toplumsal hareketliliğin nasıl bir dönüşüm geçirdiğini çözümlemeleri sağlanır (KB2.4). Süreçte sokratik tartışma tekniği kullanılabilir (E3.4, SDB2.1). Öğrencilere toplumsal tabakalaşma ve toplumsal hareketlilik türlerini ifade eden cümleler verilir. Bu cümleleri toplumsal tabakalaşma ve toplumsal hareketlilik türleri ile eşleştirme yoluyla sınıflandırması istenir. Öğrencilerin günümüzde Türkiye’de eğitimin dikey hareketliliğe etkileri hakkında tartışması sağlanır. Süreçte konuşma halkası kullanılır. Öğrencilerden toplumsal tabakalaşma ve toplumsal hareketliliğin topluma ve bireye etkilerini yorumladıkları kısa bir metin yazmaları istenir (SDB2.3). Süreç, öz değerlendirme formu ile değerlendirilebilir. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Dil-kültür ilişkisi bağlamında Sapir-Whorf (Sapir-Vorf) hipotezini araştırarak sunum hazırlamaları istenebilir. Sabahattin Bey’in Osmanlı toplumsal yapısının dönüşümü üzerine düşüncelerini “adem-i merkeziyet” ve “teşebbüs-i şahsî” kavramları üzerinden inceleyerek rapor hazırlamaları istenebilir. 1912 yılında deniz kazasında batan Titanic (Taytanik) adlı yolcu gemisinden kurtarılan yolcuların sınıfsal oranlarını, toplumsal tabakalaşma açısından değerlendirdikleri bir metin yazmaları istenebilir. Destekleme Kültürün işlevlerinin anlaşılmasında fotoğraf, video gibi görsel materyaller kullanılabilir. Toplumsal yapının unsurları ve işleyişini gösteren bir diyagram kullanılabilir. Toplumsal tabakalaşma modellerini özetleyen tablo ve grafikler kullanılabilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 4,
+   "kind": "ÜNİTE",
+   "title": "TOPLUMSAL KURUMLAR",
+   "description": "Bu ünitede öğrencilerin aile kurumunun işlevi ve yapısı ile evlilik türleri üzerine eleştirel düşünebilmesi, eğitim kurumunun işlevi ve toplumsal yaşamdaki önemi ve değeri üzerine eleştirel düşünebilmesi, din kurumunun işlevlerini yapılandırabilmesi, ekonomi kurumunun işlevi ve toplumsal yaşam açısından önemi hakkında çıkarım yapabilmesi, siyaset kurumunun işlevi ve önemi hakkında eleştirel düşünebilmesi, toplumsal kurumların işlevlerini birbirleriyle ilişkisi içinde inceleyerek toplumun işleyişini yapılandırabilmesi amaçlanmaktadır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB16. Eleştirel Sosyolojik Düşünme (KB3.3. Eleştirel Düşünme) KAVRAMSAL KB2.10. Çıkarım Yapma, KB2.13. Yapılandırma BECERİLER",
+    "EĞİLİMLER": "E1.1. Merak, E1.2. Bağımsızlık, E1.3. Azim ve Kararlılık, E3.1. Muhakeme, E3.3. Yaratıcılık, E3.6. Analitiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.2. Kendini Düzenleme (Öz Düzenleme) SDB2.1. İletişim, SDB2.2. İş Birliği Öğrenme Becerileri",
+    "Değerler": "D1. Adalet, D2. Aile Bütünlüğü, D4. Dostluk, D15. Sevgi, D17. Tasarruf",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB4. Görsel Okuryazarlık",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Coğrafya, Din Kültürü ve Ahlak Bilgisi, Felsefe, Hukuk, Psikoloji, Tarih BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.4. Çözümleme, KB2.7. Karşılaştırma, KB2.8. Sorgulama, KB2.18. Tartışma, KB3.1. Karar Verme SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SOS.11.4.1. Aile kurumunun işlevi ve yapısı ile evlilik türleri üzerine eleştirel düşünebilme a) Aile kurumunun işlevinin ne olduğunu, aile tiplerini ve evlilik türlerini sorgular. b) Aile kurumunun işlevi, aile tipleri ve evlilik türleri ile ilgili akıl yürütür. c) Akıl yürütme ile ulaştığı çıkarımı yansıtır. SOS.11.4.2. Eğitim kurumunun işlevi ve toplumsal yaşamdaki önemi ve değeri üzerine eleştirel düşünebilme a) Eğitim kurumunun işlevinin ne olduğunu, toplumsal yaşam için önemini ve değerini sorgular. b) Sorgulanan problem ve durumla ilgili akıl yürütür. c) Akıl yürütme ile ulaştığı çıkarımı yansıtır. SOS.11.4.3. Din kurumunun işlevlerini yapılandırabilme a) Din kurumunun işlevlerini inceleyerek mantıksal ilişkiler ortaya koyar. b) Tespitlerine dayanarak tutarlı ve uyumlu bir bütün oluşturur. SOS.11.4.4. Ekonomi kurumunun işlevi ve toplumsal yaşam açısından önemi hakkında çıkarım yapabilme a) Ekonomi kurumunun işlevi hakkında varsayımda bulunur. b) Ekonomik işleyişte tekrar eden yapısal unsurları listeler. c) Ekonomik sistemleri karşılaştırır. ç) Devletin ekonomiye müdahalesi hakkında önerme sunar. d) Önermeleri değerlendirir. SOS.11.4.5. Siyaset kurumunun işlevi ve önemi hakkında eleştirel düşünebilme a) Siyaset kurumunun işlevinin ne olduğu ile toplumsal yaşamdaki yeri ve önemini sorgular. b) Sorgulanan durumla ilgili akıl yürütür. c) Akıl yürütme ile ulaştığı çıkarımı yansıtır. SOS.11.4.6. Toplumsal kurumların işlevlerini birbirleriyle ilişkisi içinde inceleyerek toplumun işleyişini yapılandırabilme a) Toplumsal kurumların işlevlerini inceleyerek mantıksal ilişkiler ortaya koyar. b) Bu ilişkilere dayanarak tutarlı ve uyumlu bir bütün oluşturur. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI",
+    "İÇERİK ÇERÇEVESİ": "Aile Eğitim Din Ekonomi Siyaset Toplumsal Kurumların Aralarındaki İlişkiler",
+    "Anahtar Kavramlar": "meşruiyet, müfredat, otorite, sosyalizasyon, sosyal kontrol, üretim biçimi",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; dereceli puanlama anahtarı, öğrenme günlüğü, öz de- (Ölçme ve ğerlendirme formu, çalışma kâğıdı, kontrol listesi, kavram haritası ve açık uçlu sorular Değerlendirme) ile değerlendirilebilir. Performans görevi olarak öğrencilerden Osmanlı’daki Ahi teşkilatını araştırarak günümüz toplumuna nasıl uyarlanabileceği ve toplumsal yaşama katkılarının neler olabileceği hakkında öneriler içeren bir metin yazmaları istenebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin aile, eğitim, din, ekonomi ve siyaset kavramları ile bunların genel özelliklerini bildiği kabul edilir. Ön Değerlendirme Süreci Öğrencilere aile, eğitim, din, ekonomi ve siyaset kavramlarının genel özelliklerine dair açık uçlu sorular sorulabilir. Köprü Kurma Öğrencilerden kendi yaşantılarından hareketle aile, eğitim, din, ekonomi ve siyaset kurumlarının karşılıklı etkileşim içinde toplumun düzenini ve işleyişini nasıl sağladığını açıklamaları istenebilir. Öğrenme-Öğretme Uygulamaları SOS.11.4.1 Yapılandırılmış bir metin üzerinden öğrencilerin toplumsal kurumun tanımı, ortaya çıkışı ve işlevlerinin neler olduğunu ifade etmesi sağlanır. Aile kurumunun işlevleri (biyolojik, toplumsal, ekonomik, psikolojik) hakkında bilgi görseli verilerek öğrencilerden bu işlevlere günlük hayattan örnekler vermeleri ve ailenin sağlıklı bir toplumsal yapı açısından önemini sorgulamaları istenir. Geçmişten günümüze farklı aile tiplerini (geniş aile, çekirdek aile) yansıtan yapılandırılmış metinler verilerek öğrencilerin iş birlikli olarak bunları incelemesi ve kendi belirledikleri ölçütlere göre sınıflaması sağlanır (SDB2.2). Toplumların modernleşmesi ve üretim biçimlerinin dönüşümü ile aile tipindeki değişimler ve üyelerin rollerinin farklılaşması hakkında akıl yürütmeleri, sonuçları tablolaştırıp sınıfta paylaşmaları gerçekleştirilir (E3.1, OB1). Evlilik türlerini (monogami, poligami, endogami, egzogami, poliandri, polijini, matrilokal, patrilokal, neolokal, bilokal) açıklayan bilgi görselinden hareketle öğrencilerin bu türlere çeşitli örnekler (toplumdaki gözlemlerinden, izledikleri filmlerden, okudukları romanlardan) vermeleri sağlanır (OB4). Boşanma oranlarının artışı, çocuk sayısının azalması, akrabalık ilişkilerinin zayıflaması, aile üyelerinin dağınıklığı (farklı şehirlerde çalışan, okuyan aile üyeleri), ailenin kurulma ve sona erme biçimi, çocuk ve yaşlı bakımı, ev temizliği gibi aileye yönelik hizmetlerin yaygınlaşması gibi konular üzerinden günümüz aile yapısı ile ilgili akıl yürütmeleri istenir. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI Aile sıcaklığını anlatan bir edebî eser alıntısı üzerinden öğrenciler ailenin önemini fark ederek aile birliğinin sağlanması noktasında sevgi, saygı ve güvenin gerekli olduğu hakkında yargıda bulunur (D2.1, D15.2). Süreçte konuşma halkası veya sokratik tartışma öğretim tekniği kullanılabilir. Öğrencilerden akıl yürütme sürecinde ulaştıkları çıkarımları öğrenme günlüğü üzerinden yansıtmaları istenir. SOS.11.4.2 Eğitim kurumunun tarihsel süreçte gelişimini, değişen işlevlerini yansıtan yazılı ve görsel materyaller üzerinden öğrencilerin bu kurumun temel işlevlerinin neler olduğunu sorgulaması sağlanır (OB1, OB4). Zorunlu eğitimin modern dönemde ortaya çıkmasının nedenleri vurgulanır. Müfredat üzerinden siyaset, ekonomi, kültür ile eğitim ilişkisinin nasıl kurulduğundan bahsedilir. “Bireyin toplumsallaşmasında eğitim kurumlarının rolü nedir?”, “Eğitim kurumlarında neden bireyler belirli kurallar çerçevesinde eğitilir?”, “Toplumsal tabakalaşma ve toplumsal hareketlilik açısından eğitimin önemi nedir?”, “Toplumlar kaliteli bir eğitim sistemine sahip oldukları için mi gelişirler yoksa gelişmiş oldukları için mi kaliteli bir eğitim sistemleri vardır?”, “Dijital dünyada eğitim kurumunda ne gibi değişiklikler olacağını öngörüyorsunuz?”, “Okulsuz bir toplum mümkün müdür?” gibi eğitimin işlevini açığa çıkaracak sorular sorularak öğrencilerden bu kurumun toplumsal (toplumsallaşma, sosyal sorumluluk), bireysel (kişisel gelişim), ekonomik (mesleki eğitim) ve siyasal (toplumsal bütünleşme) işlevlerine örnekler sunmaları istenir. Sorulara verilen cevaplardan ve sunulan örneklerden hareketle eğitim kurumunun toplumsal yaşamdaki rolü sorgulatılır (KB2.8). Eğitimin günümüzde bireylerin sosyalleşmesi ve sosyal beceriler kazanması açısından önemi üzerine akıl yürütülerek sloganlar oluşturulması ve sloganların sınıfta paylaşılması sağlanır (E3.1, E3.3). Süreç, açık uçlu sorular ile değerlendirilebilir. Ziya Gökalp ve Sabahattin Bey’in eğitime dair fikirlerini yansıtan yapılandırılmış bir metin üzerinden Türkiye’de eğitim ve toplumsal değişme ilişkisinin sorgulanması sağlanır (KB2.8). Bu iki düşünürün eğitime dair fikirlerinin tablo üzerinde karşılaştırılması sağlanır (KB2.7). Öğrencilerden dezavantajlı çocukların sosyal entegrasyon sorununun çözümünde eğitimin işlevini ve bu konuda Türkiye’de ne gibi uygulamaların söz konusu olduğunu iş birlikli olarak araştırmaları ve rapor hazırlamaları istenir (SDB2.2, OB1). Süreç, açık uçlu sorularla değerlendirilebilir. SOS.11.4.3 Öğrencilere din kurumunun işlevlerini açıklayan bilgiler ile soruların yer aldığı çalışma kâğıdı verilir. Çalışma kâğıdında öncelikle din kurumunun temel işlevleri belirtilir. Dinin, medeniyetin ve toplum fikrinin gelişmesindeki rolü kültür, eğitim, aile, adalet, eşitlik, hukuk üzerinden vurgulanır. Sosyolojinin doğuş aşamasında sosyologların dinin toplumsal bütünleşmeyi sağlama işlevine yönelmesi üzerinde durulur. Öğrencilere “Bireylerin sosyalleşmesinde dinin önemi nedir?”, “Hayatı anlamlandırmada dinin etkisi nedir?”, “Toplumsal düzenin sağlanmasında dinin rolü nedir?”, “Toplumsal çatışmaların çözümünde dinî değerlerin önemi nedir?”, “Afet, savaş gibi toplumsal sorunlar yaşandığında din kurumunun öne çıkmasının nedenleri nelerdir?” gibi sorular sorulur (E1.1). Analiz sonuçları ahlak, sorumluluk, anlam, amaç, değer, düzen, değişim, kavramlarıyla ilişkilendirilir ve anlamlı yargıların oluşturulması sağlanır (E3.6). Ziya Gökalp ve Şerif Mardin’in sosyal düzenin sürdürülmesinde dinin rolü üzerine düşüncelerinden alıntı veya yapılandırılmış metinler ile farklı toplumlardan örnekler verilerek öğrencilerden “Toplumsal dayanışma, kaynaşma ve bütünleşme sürecinde dinin rolü nedir?” sorusunu tartışmaları istenir (KB2.18). Öğrencilerin farklı inançlara saygı duymanın önemli bir değer olduğunu fark etmesi ve bu konu hakkındaki düşüncelerini sınıfta sözlü biçimde paylaşması sağlanır (D4.5). SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI Öğrencilere P. Berger’in (P. Berger) Dinin Sosyal Gerçekliği adlı kitabındaki fikirlerin kısa bir özeti verilerek dinin toplumsal yapıdaki konumunu ve diğer kurumlarla ilişkisini yapılandırdıkları tutarlı bir metin yazmaları sağlanır. Süreç, kontrol listesi ile değerlendirilebilir. SOS.11.4.4 Öğrencilere ekonominin temel kavramlarını (arz, talep, üretim, tüketim, bölüşüm) toplumsal ögelerini (aktörler, statüler, roller, örgütler, sektörler, kurumlaşmış ilişkiler) ve genel işleyişini içeren yapılandırılmış bilgi notu verilir. Bilgi notu üzerinden öğrencilerin ekonominin işlevlerine dair çıkarımda bulunarak varsayım oluşturması sağlanır (KB2.10). Öğrenciler ekonominin yapısını oluşturan temel unsurları ilişki diyagramı şeklinde listeler. Öğrencilere ekonomik sistemlerin (kapitalizm, sosyalizm, karma ekonomi) kısaca açıklandığı bilgi notu verilir. Bilgi notundan hareketle öğrencilerin ekonomik sistemleri ekonominin temel unsurları açısından (üretim, tüketim, bölüşüm) karşılaştırması ve güçlü-zayıf yönlerini belirlemesi sağlanır (D17.1, KB2.7). Süreçte soru-cevap öğretim tekniği kullanılabilir. Öğrencilerden ekonomik sistemler hakkındaki bilgi notundan hareketle devletin ekonomiye müdahalesi hakkında çıkarım yaparak önerme sunmaları istenir (E3.6, KB2.4). Öğrencilerin önermeleri kâr-zarar, kamu yararı ve sürdürülebilirlik ölçütleri üzerinden değerlendirmesi sağlanır (E1.2, SDB1.2, KB3.1). Bunun için konuşma halkası tekniği kullanılabilir. SOS.11.4.5 Öğrencilere siyaset kurumunun toplumdaki rolünü ve işlevini gösteren bir bilgi notu verilir. Bilgi notunda siyaset kurumunun öncelikli işlevinin farklı toplumsal kesimlerin çıkarları arasında denge kurmak olduğu vurgulanır. Öğrencilerden siyaset kurumunun işlevlerini belirleyerek bu işlevlerin toplumun düzenli işleyişindeki rolünü sorgulamaları istenir (KB2.8). Süreçte düşün-eşleş-paylaş tekniği kullanılabilir. Öğrencilere farklı siyasal sistem türleri (demokratik, otoriter, totaliter) ile güç, otorite, iktidar, meşruiyet, sivil toplum kavramlarını açıklayan bir çalışma kâğıdı verilir. Bunlarla bağlantılı olarak M. Weber’in otorite anlayışı, R. Michels’in (R. Mihels) oligarşi kavramı, Gramsci’nin hegemonya kavramı ve Z. Gökalp’in seçkinci yaklaşımı kısaca açıklanır. Çalışma kâğıdında otorite ve güç ilişkisinde adaletin belirleyici rolü vurgulanır. Türk-İslam dünyasında siyasette adaletin merkezi konumunu vurgulayan düşünürlerden (Farabi, Y. Has Hacib, İbn Haldun) örnek düşünceler verilir (D1.2). Öğrencilerden otorite, güç, meşruiyet ve adalet kavramlarının aralarındaki ilişkileri inceleyerek siyaset kurumunun işleyişine dair akıl yürütmesi istenir. Bu kavramlar çerçevesinde yapılacak tartışmada hegemonya ve meşruiyet ilişkisi, bir siyasal otoritenin hangi şartlarda meşruiyetini kaybederek güce dönüştüğü, oligarşik karakter kazandığı gibi konular üzerinde durmaları sağlanır. Sorgulanan durumla ilgili olarak öğrenciler kendi düşüncelerini mantıksal bağlantılar kurarak yapılandırır (E3.6). Öğrencilerin kavramlar arasındaki ilişkileri kavram haritası ile göstermesi istenir. Öğrencilerden akıl yürütme sürecinde ulaştıkları çıkarımları sözlü veya yazılı şekilde ifade etmesi, çıkarımlarını temellendirerek sunması istenir. Bu aşamada kendi düşüncelerini ifade ederken farklı düşüncelere de açık olunması gerektiği vurgulanır. Süreç, dereceli puanlama anahtarı ile değerlendirilebilir. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI SOS.11.4.6 Öğrencilerden toplumsal kurumların (aile, eğitim, din, ekonomi ve siyaset) insanların ihtiyaçlarını karşılayarak toplumun sürekliliğini sağlama sürecinde karşılıklı ilişkilerini gösteren bir diyagram hazırlamaları istenir (E3.6). Öğrencilere “Toplum, insanların hangi ihtiyaçlarını karşılar?”, “Toplumsal kurumlar nasıl ortaya çıkmıştır?”, “Bütün toplumlarda aynı kurumlar var mıdır?” gibi sorular verilerek tartışılması istenir (SDB2.1, KB2.18). Tartışma sonucunda kurumların karşılıklı ilişkilerinden yola çıkarak toplumun nasıl sistemli bir şekilde işlediğine dair kısa bir metin yazılması sağlanır. Metinler kontrol listesi ya da öz değerlendirme formu ile değerlendirilebilir. Performans görevi olarak öğrencilerden Osmanlı’daki Ahi teşkilatını araştırarak günümüz toplumuna nasıl uyarlanabileceği ve toplumsal yaşama katkılarının neler olabileceği hakkında öneriler içeren bir metin yazmaları istenebilir (E1.3). Yazılan metinler doğruluk, tutarlılık gibi ölçütler üzerinden dereceli puanlama anahtarı ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Aile ile ilgili istatistiksel veriler (evlenme oranları, ortalama evlilik yaşı, boşanma oranları, çocuk sayısı, çalışan kadın sayısı) üzerinden yirmi yıl öncesi ve günümüzü karşılaştırarak bir tablo oluşturmaları istenebilir. Kemal Tahir’in Devlet Ana adlı kitabında ortaya koyduğu devlet ve toplum anlayışını tanıtan bir metin hazırlamaları istenebilir. İdris Küçükömer’inTürk siyasi hayatında sağ ve sol ayrımı hakkındaki düşüncelerini araştırarak raporlaştırmaları istenebilir. Nurettin Topçu’nun Türkiye’nin Maarif Dâvası kitabını inceleyerek bir rapor hazırlamaları istenebilir. Şerif Mardin’in Din ve İdeoloji adlı eserinde geçen temel kavram, problem ve argümanları tespit etmeleri istenebilir. Sabri Ülgener’in kültürel değerlerin, ekonomik davranışları ve kalkınma süreçlerini nasıl etkilediğine dair düşüncelerini araştırarak konu ile ilgili bir yansıtma yazısı yazmaları istenebilir. Nizamülmülk’ün Siyasetname adlı eseriyle siyaset kurumunun gelişimine ve Türk devlet yapısına olan katkılarını değerlendiren bir metin hazırlanabilir. Destekleme Aile kurumunun işlevlerinin anlaşılmasında iş birlikli öğrenme kullanılabilir. Eğitim kurumunun işlevlerinin anlaşılmasında akran öğretimi kullanılabilir. Din kurumunun işlevlerinin yapılandırılmasında videolar üzerinden görsel okuma yaptırılabilir. Ekonomi kurumunun işlevlerinin anlaşılmasında temel kavramları açıklayan özet metinler hazırlanabilir. Siyaset kurumunun toplumsal yapıdaki işlevinin anlaşılmasında kavram haritası kullanılabilir. Toplumsal kurumların etkileşimini gösteren diyagram kullanılabilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 5,
+   "kind": "ÜNİTE",
+   "title": "GÜNCEL SOSYOLOJİK MESELELER",
+   "description": "Bu ünitede öğrencilerin İslam karşıtlığı problemi ile ilgili eleştirel düşünebilmesi, küreselleşme olgusunun toplumsal etkilerini çözümleyebilmesi ve yapay zekâ teknolojileri kaynaklı toplumsal sorunlar hakkında eleştirel düşünebilmesi amaçlanmaktadır.",
+   "lesson_hours": 10,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB16. Eleştirel Sosyolojik Düşünme (KB3.3. Eleştirel Düşünme)",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme, KB3.2. Problem Çözme",
+    "EĞİLİMLER": "E1.1. Merak, E1.3. Azim ve Kararlılık, E1.5. Kendine Güvenme (Öz Güven), E3.1. Muhakeme, E3.2. Odaklanma, E3.7. Sistematiklik, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D3. Çalışkanlık, D6. Dürüstlük, D8. Mahremiyet, D10. Mütevazılık, D13. Sağlıklı Yaşam, D20. Yardımseverlik",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB5. Kültür Okuryazarlığı, OB6. Vatandaşlık Okuryazarlığı, OB7. Veri Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Din Kültürü ve Ahlak Bilgisi, Bilişim, Tarih BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.2. Gözlemleme, KB2.11. Gözleme Dayalı Tahmin Etme, KB2.14. Yorumlama, KB2.16. Muhakeme (Akıl Yürütme), KB2.17. Değerlendirme, KB2.18. Tartışma SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SOS.11.5.1. İslam karşıtlığı problemi ile ilgili eleştirel düşünebilme a) İslam karşıtlığı problemini sorgular. b) İslam karşıtlığı problemi ile ilgili akıl yürütür. c) Akıl yürütmeyle ulaştığı çıkarımları yansıtır. SOS.11.5.2. Küreselleşme olgusunun toplumsal etkilerini çözümleme a) Küreselleşme olgusunu meydana getiren unsurları belirler. b) Küreselleşme olgusunu meydana getiren unsurlar arasındaki ilişkileri belirler. SOS.11.5.3. Yapay zekâ teknolojileri kaynaklı toplumsal sorunlar hakkında eleştirel düşünebilme a) Yapay zekâ teknolojileri kaynaklı toplumsal sorunları sorgular. b) Sorgulanan durumla ilgili akıl yürütür. c) Akıl yürütme ile ulaştığı çıkarımı yansıtır",
+    "İÇERİK ÇERÇEVESİ": "İslam Karşıtlığı Küreselleşmenin Toplumsal Etkileri Yapay Zekâ Kaynaklı Toplumsal Sorunlar",
+    "Anahtar Kavramlar": "algoritma, ayrımcılık, hegemonya, öteki, stereotip",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; açık uçlu sorular, kelime ilişkilendirme testi, öz değerlen- (Ölçme ve dirme formu, cümle tamamlama, kısa cevaplı sorular, girişçıkış kartları, dereceli puanDeğerlendirme) lama anahtarı kullanılarak değerlendirilebilir. Performans görevi olarak öğrencilerden grup çalışmasıyla nefret suçu, ayrımcılık, kültürel ön yargı, etnosentrizm, ötekileştirme gibi kavramlar çerçevesinde İslam karşıtlığı ile baş etmeyi amaçlayan bir kamu spotu sunumu hazırlamaları istenebilir. Performans görevi dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin kültürel ayrımcılık, küreselleşme ve dijital teknolojiler hakkında temel bilgilere sahip olduğu kabul edilir. Ön Değerlendirme Ayrımcılık, ön yargı, nefret söylemi, empati kavramları hakkında kelime ilişkilendirme testi Süreci uygulanabilir. Küreselleşme ve dijital teknolojilerin toplumsal hayata etkilerine dair açık uçlu sorular sorulabilir. Köprü Kurma Öğrencilerden İslam karşıtlığı, küreselleşme ve yapay zekâ konusunda yaşadıkları deneyimleri paylaşmaları istenebilir. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları SOS.11.5.1 Öğrencilere İslam karşıtlığı problemine dair yazılı veya görsel materyaller (haber, akademik yayın, kitap bölümü vb.) ve açıklamaların yer aldığı bilgi notu verilir (E1.1, OB4). Bilgi notunda ayrımcılık, ön yargı, stereotip, öteki kavramlarının açıklamalarına da yer verilir. Yönlendirici sorularla İslam karşıtlığı problemini ilgili kavramlarla ilişkisi içinde tartışarak sorgulamaları sağlanır. Öğrencilere çalışma kâğıdı verilerek İslam karşıtlığı ile ilgili bilimsel çalışmalardan örnekler sunulur. Bu çalışmalar, Batı’da İslam hakkındaki ön yargıların tarihsel kökenlerini, medyadaki temsil biçimlerini ve siyasal söylemlerle kurduğu ilişkiyi ele alan sosyolojik analizler içerir. Bu çalışmalardan yola çıkarak İslam karşıtlığının tarihsel arka planı, nedenleri, nasıl üretildiği, yayıldığı, uygulandığı, gözlenebilir sonuçları ve bu sorunun paydaşları (fail, mağdur, sorunun çözümünde rol oynayacak olanlar) üzerine akıl yürütülmesi sağlanır. Bu aşamada sokratik tartışma yöntemi kullanılabilir (KB2.18). Öğrencilere Alev Alatlı’nın İslam karşıtlığı hakkındaki görüşlerini içeren yapılandırılmış bir metin verilerek İslam karşıtlığından kaynaklanan ötekileştirme, ayrımcılık, nefret, şiddet, haksızlık vb. problemlerin, hukuk ve etik dışı unsurların fark edilmesi ve bu problemin çözümüne dair akıl yürütülmesi sağlanır (E3.1, OB5, KB2.16). Süreçte İslam karşıtlığının doğal bir olgu olmadığı, art niyetli karikatürler, taraflı haberler ve olumsuz örneklerin öne çıkarılması ile oluşturulmuş bir hegemonya çalışması olduğu ve İslam ülkelerine yönelik işgal, sömürü ve saldırıları meşrulaştırmak için kullanıldığı vurgulanır. Öğrencilerden performans görevi olarak grup çalışmasıyla nefret suçu, ayrımcılık, kültürel ön yargı, stereotip, etnosentrizm, ötekileştirme gibi kavramlar çerçevesinde İslam karşıtlığı ile baş etmeyi amaçlayan bir kamu spotu sunumu hazırlamaları istenebilir (E1.3, OB7). SOS.11.5.2 Küreselleşmenin tarihsel kökenlerini (kapitalizm, sömürgecilik, Sanayi Devrimi), güncel dinamiklerini (neoliberalizm, iletişim, ulaşım), toplumsal etkilerini yansıtan yazılı veya görsel materyaller verilerek öğrencilerin küreselleşmeyi meydana getiren unsurları belirlemesi sağlanır (E1.1, OB4). Öğrencilerin iş birlikli olarak ithal ürünler, nüfus hareketleri, beyin göçü, dünya çapında kılık kıyafetlerin aynılaşması, sosyal medya içerikleri, tüketim alışkanlıkları, ortak dilin yaygınlaşması gibi durumlara ilişkin gözlemlerini sınıfta paylaşması sağlanır (E3.2, SDB2.2, KB2.2). Paylaşımlardan hareketle küreselleşmenin yol açtığı sorunların belirlenmesi için öğrencilerin “Küreselleşmeye dâhil olarak dinî ve millî değerlerin korunması mümkün müdür? Küresel şirketlerin varlığı, yerli üretim ve ekonomik bağımsızlık açısından ne tür sorunlar yaratıyor?Küreselleşme, gelir dağılımı ve sosyal adaleti nasıl etkiliyor? Türkiye gibi gelişmekte olan ülkeler, küresel ekonomik düzende gelişmiş ülkelerle eşit söz hakkına sahip midir? Küreselleşme, ulus devletlerin politik ve kültürel egemenliği üzerinde nasıl bir baskı oluşturuyor? Küresel bilgi akışı, eğitimde fırsat eşitsizliklerini azaltıyor mu, artırıyor mu? Küreselleşme, Türkiye için bir fırsat mı yoksa bir tehdit midir? Sosyal medyada en çok hangi ülkelerin ürettiği içeriklere maruz kalıyorsunuz?” gibi sorular çerçevesinde anket yapması sağlanır (E3.7, E3.8). Anket için web araçlarını kullanabilecekleri belirtilir (OB2). Öğrenciler çalışmada aktif rol alır (D3.4). Öğrencilere grup arkadaşlarına yardımcı olmanın ve bencil davranışlardan kaçınmanın önemi belirtilir (D10.3, D20.4). Anket sonuçlarının hem sayısal hem de yoruma dayalı biçimde sınıfta sunulması sağlanır (OB7). Küreselleşme sürecinin farklı ülkelerde yol açtığı sorunlar (göç, işsizlik, gelir dağılımı adaletsizliği, tekdüzeleşme vb.) hakkında kısa bir analiz metni yazdırılır (KB2.11). Metinde küreselleşmenin bazı dünya ülkelerine avantajlar sağlarken bazı ülkelerde ekonomik, siyasal, sosyal ve kültürel olumsuzluklar yaratması konusu da yorumlanır (OB5, KB2.14). SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI Öğrencilerden yazılarında toplumsal yapı, sınıf, güç ilişkileri, eşitsizlik, egemenlik, hegemonya, kültürel tekdüzeleşme gibi kavramları kullanmaları istenir. Yazıların sunum yoluyla sınıfta paylaşılması sağlanır (E1.5). Sunumlarda arkadaşlarının farklı perspektiflerinden yararlanarak kendi düşüncelerini yeniden değerlendirmeleri teşvik edilir (SDB1.2, KB2.17). Süreçte öz değerlendirme formu kullanılabilir. SOS.11.5.3 Öğrencilere yapay zekâ teknolojilerine ilişkin yazılı ve görsel materyaller verilir. Görsellerden yola çıkarak yapay zekânın bireyleri ve toplumsal yaşamı nasıl etkilediği ve gelecekte nasıl etkileyebileceği, bu konuda ne gibi sorunların yaşandığı ve yaşanabileceği sorgulatılır (E1.1). Öğrenciler farklı sektörlerden örnekler vererek yapay zekânın kullanım alanlarını analiz eder ve bu teknolojinin toplumsal etkileri üzerine akıl yürütür (E3.1). Öğrenciler yapay zekâ nedeniyle yok olması veya dönüşmesi muhtemel meslekler hakkında akıl yürütür. Süreçte soru-cevap öğretim tekniği kullanılabilir. Öğrencilerin yapay zekâ kaynaklı sorun ve çözümleri derinlemesine analiz edebilmeleri için münazara etkinliği düzenlenir (SDB2.1). Bu etkinlik kapsamında öğrenciler, “Yapay zekâ ulusal ve uluslararası alanda eşitsizlikleri azaltan bir araç mıdır, yoksa mevcut eşitsizlikleri pekiştirip arttıran bir araç mıdır?” sorusunu tartışır (OB6, KB2.18). Süreçte öğrenciler duygu ve düşüncelerini açıkça ifade eder ve münazarada doğru ve güvenilir olmanın tartışmanın verimliliğine etkisi hakkında yargıda bulunur (D6.2). Öğrencilerden yapay zekânın toplumsal yaşam üzerindeki olumlu (verimlilik, erişilebilirlik, sağlıkta erken teşhis vb.) ve olumsuz (işsizlik, mahremiyetin ihlali, algoritmik ayrımcılık, hegemonya vb.) etkilerine dair gerekçeli görüşler oluşturmaları istenir (D8.1, D8.2, D13.4). Süreç, giriş çıkış kartları ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme İslam karşıtlığı konusu oryantalizm, hegemonya, emperyalizm kavramları ile ilişkisi içinde ele alınarak raporlaştırılabilir. ’’Küreselleşme dünya üzerindeki egemen güçlerin hâkimiyetini pekiştiren bir olgu mu yoksa eşitliğe hizmet eden bir olgu mudur?’’ sorusu tartışılabilir. Yapay zekânın kullanılmaya başlanması ile eğitim kurum ve aktörlerini nasıl bir geleceğin beklediği hakkında çıkarımlar yapılarak bir sunum hazırlanabilir. Destekleme Kültürel ayrımcılık konusunun pekiştirilmesinde akran öğretimi veya grup çalışmalarından yararlanılabilir. Küreselleşmenin tarihsel gelişim sürecini gösteren görsel ve işitsel materyaller kullanılabilir. Yapay zekânın kullanım alanlarını gösteren görsel materyaller kullanılabilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI SOSYOLOJİ DERSİ 2"
+   },
+   "outcomes": []
+  }
+ ],
+ "unassigned_outcomes": [
+  {
+   "code": "SOS.11.1.1",
+   "grade": 11,
+   "unit": 1,
+   "order": 1,
+   "text": "Sosyolojinin doğuş sürecini tarihsel beceri ve becerilerin süreç bileşenlerini ifade eder. bağlamda yapılandırarak anlamlandıraÖğrenme sürecinde ele bilme alınan bilgi kümesini (bölüm/konu/alt konuya",
+   "components": [
+    {
+     "label": "a",
+     "text": "Sosyolojinin doğuşuna etki eden düilişkin sınırları) ifade eder. şünürlerin görüşlerini analiz eder."
+    },
+    {
+     "label": "b",
+     "text": "Sosyolojinin doğduğu dönemin sosyal, ekonomik ve siyasal koşullarını fark eder. Disipline ait başlıca anahtar"
+    }
+   ]
+  },
+  {
+   "code": "SOS.11.1.2",
+   "grade": 11,
+   "unit": 1,
+   "order": 2,
+   "text": "Sosyolojik düşünme biçimini sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Sosyolojik düşünme biçimi ile ilgili merak ettiği konuyu tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Sosyolojik düşünme biçimi ile ilgili merak ettiği konu hakkında sorular sorar."
+    },
+    {
+     "label": "c",
+     "text": "Sosyolojik düşünme biçimi ile ilgili merak ettiği konu hakkında bilgi toplar."
+    },
+    {
+     "label": "ç",
+     "text": "Toplanan bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Doğrulanmış bilgilerden hareketle sosyolojik düşünme biçimine uygun çıkarımlar yapar."
+    }
+   ]
+  },
+  {
+   "code": "SOS.11.1.3",
+   "grade": 11,
+   "unit": 1,
+   "order": 3,
+   "text": "Sosyolojide kullanılan farklı yöntemleri karşılaştırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Nicel ve nitel araştırma yöntemleri ile bu yöntemlerin dayandığı görüşlerin temel özelliklerini belirler."
+    },
+    {
+     "label": "b",
+     "text": "Nicel ve nitel araştırma yöntemlerinin benzerliklerini listeler."
+    },
+    {
+     "label": "c",
+     "text": "Nicel ve nitel araştırma yöntemlerinin farklılıklarını listeler."
+    }
+   ]
+  },
+  {
+   "code": "SOS.11.2.1",
+   "grade": 11,
+   "unit": 2,
+   "order": 1,
+   "text": "Osmanlı’dan Cumhuriyet’e modernleşmenin neden ve sonuçlarını yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Osmanlı’da başlayıp Cumhuriyet Dönemi’nde derinleşerek devam eden modernleşmenin nedenlerini inceler."
+    },
+    {
+     "label": "b",
+     "text": "Osmanlı’da başlayıp Cumhuriyet Dönemi’nde derinleşerek devam eden modernleşmenin sonuçlarını inceler."
+    },
+    {
+     "label": "c",
+     "text": "Modernleşmenin sonuçlarını tarihsel bağlamda sorgular."
+    },
+    {
+     "label": "ç",
+     "text": "Modernleşmenin nedenlerini ve sonuçlarını tarihsel bağlamda yeniden ifade eder."
+    }
+   ]
+  },
+  {
+   "code": "SOS.11.2.2",
+   "grade": 11,
+   "unit": 2,
+   "order": 2,
+   "text": "Türkiye’de sosyolojinin doğuşu ve gelişim sürecini tarihsel bir kurgu içinde yapılandırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Türkiye’de sosyolojinin gelişim sürecine ilişkin olay, olgu ve düşünsel yönelimleri inceleyerek nedensel ilişkiler ortaya koyar."
+    },
+    {
+     "label": "b",
+     "text": "Ortaya koyduğu ilişkileri tarihsel bağlamda bütünleştirerek uyumlu bir bütün oluşturur."
+    }
+   ]
+  },
+  {
+   "code": "SOS.11.2.3",
+   "grade": 11,
+   "unit": 2,
+   "order": 3,
+   "text": "Türk modernleşmesinin Türk edebiyatına yansımasını yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Edebî eserlerde modernleşme konusunu inceler."
+    },
+    {
+     "label": "b",
+     "text": "İncelediği konuyu sosyoloji ile ilişkisi içinde bağlamdan kopmadan yazılı/sözlü metne dönüştürür."
+    },
+    {
+     "label": "c",
+     "text": "Eserlerdeki ilgili düşünceleri anlamı değiştirmeden kendi cümleleriyle ifade eder."
+    }
+   ]
+  },
+  {
+   "code": "SOS.11.3.2",
+   "grade": 11,
+   "unit": 3,
+   "order": 2,
+   "text": "Toplumsal yapının unsurlarını ve bu unsurlar arasındaki ilişkileri çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Toplumsal yapıyı oluşturan unsurları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Toplumsal yapıyı oluşturan unsurlar arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SOS.11.3.3",
+   "grade": 11,
+   "unit": 3,
+   "order": 3,
+   "text": "Toplumsal tabakalaşmayı ve toplumsal hareketliliği özetleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Toplumsal tabakalaşmayı ve toplumsal hareketliliği çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Toplumsal tabakalaşma ve toplumsal hareketlilik türlerini sınıflandırır."
+    },
+    {
+     "label": "c",
+     "text": "Toplumsal tabakalaşmanın ve toplumsal hareketliliğin etkilerini yorumlar."
+    }
+   ]
+  },
+  {
+   "code": "SOS.11.4.1",
+   "grade": 11,
+   "unit": 4,
+   "order": 1,
+   "text": "Aile kurumunun işlevi ve yapısı ile evlilik türleri üzerine eleştirel düşünebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Aile kurumunun işlevinin ne olduğunu, aile tiplerini ve evlilik türlerini sorgular."
+    },
+    {
+     "label": "b",
+     "text": "Aile kurumunun işlevi, aile tipleri ve evlilik türleri ile ilgili akıl yürütür."
+    },
+    {
+     "label": "c",
+     "text": "Akıl yürütme ile ulaştığı çıkarımı yansıtır."
+    }
+   ]
+  },
+  {
+   "code": "SOS.11.4.2",
+   "grade": 11,
+   "unit": 4,
+   "order": 2,
+   "text": "Eğitim kurumunun işlevi ve toplumsal yaşamdaki önemi ve değeri üzerine eleştirel düşünebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Eğitim kurumunun işlevinin ne olduğunu, toplumsal yaşam için önemini ve değerini sorgular."
+    },
+    {
+     "label": "b",
+     "text": "Sorgulanan problem ve durumla ilgili akıl yürütür."
+    },
+    {
+     "label": "c",
+     "text": "Akıl yürütme ile ulaştığı çıkarımı yansıtır."
+    }
+   ]
+  },
+  {
+   "code": "SOS.11.4.3",
+   "grade": 11,
+   "unit": 4,
+   "order": 3,
+   "text": "Din kurumunun işlevlerini yapılandırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Din kurumunun işlevlerini inceleyerek mantıksal ilişkiler ortaya koyar."
+    },
+    {
+     "label": "b",
+     "text": "Tespitlerine dayanarak tutarlı ve uyumlu bir bütün oluşturur."
+    }
+   ]
+  },
+  {
+   "code": "SOS.11.4.4",
+   "grade": 11,
+   "unit": 4,
+   "order": 4,
+   "text": "Ekonomi kurumunun işlevi ve toplumsal yaşam açısından önemi hakkında çıkarım yapabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Ekonomi kurumunun işlevi hakkında varsayımda bulunur."
+    },
+    {
+     "label": "b",
+     "text": "Ekonomik işleyişte tekrar eden yapısal unsurları listeler."
+    },
+    {
+     "label": "c",
+     "text": "Ekonomik sistemleri karşılaştırır."
+    },
+    {
+     "label": "ç",
+     "text": "Devletin ekonomiye müdahalesi hakkında önerme sunar."
+    },
+    {
+     "label": "d",
+     "text": "Önermeleri değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "SOS.11.4.5",
+   "grade": 11,
+   "unit": 4,
+   "order": 5,
+   "text": "Siyaset kurumunun işlevi ve önemi hakkında eleştirel düşünebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Siyaset kurumunun işlevinin ne olduğu ile toplumsal yaşamdaki yeri ve önemini sorgular."
+    },
+    {
+     "label": "b",
+     "text": "Sorgulanan durumla ilgili akıl yürütür."
+    },
+    {
+     "label": "c",
+     "text": "Akıl yürütme ile ulaştığı çıkarımı yansıtır."
+    }
+   ]
+  },
+  {
+   "code": "SOS.11.4.6",
+   "grade": 11,
+   "unit": 4,
+   "order": 6,
+   "text": "Toplumsal kurumların işlevlerini birbirleriyle ilişkisi içinde inceleyerek toplumun işleyişini yapılandırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Toplumsal kurumların işlevlerini inceleyerek mantıksal ilişkiler ortaya koyar."
+    },
+    {
+     "label": "b",
+     "text": "Bu ilişkilere dayanarak tutarlı ve uyumlu bir bütün oluşturur. SOSYOLOJİ DERSİ ÖĞRETİM PROGRAMI"
+    }
+   ]
+  },
+  {
+   "code": "SOS.11.5.1",
+   "grade": 11,
+   "unit": 5,
+   "order": 1,
+   "text": "İslam karşıtlığı problemi ile ilgili eleştirel düşünebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İslam karşıtlığı problemini sorgular."
+    },
+    {
+     "label": "b",
+     "text": "İslam karşıtlığı problemi ile ilgili akıl yürütür."
+    },
+    {
+     "label": "c",
+     "text": "Akıl yürütmeyle ulaştığı çıkarımları yansıtır."
+    }
+   ]
+  },
+  {
+   "code": "SOS.11.5.2",
+   "grade": 11,
+   "unit": 5,
+   "order": 2,
+   "text": "Küreselleşme olgusunun toplumsal etkilerini çözümleme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Küreselleşme olgusunu meydana getiren unsurları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Küreselleşme olgusunu meydana getiren unsurlar arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SOS.11.5.3",
+   "grade": 11,
+   "unit": 5,
+   "order": 3,
+   "text": "Yapay zekâ teknolojileri kaynaklı toplumsal sorunlar hakkında eleştirel düşünebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Yapay zekâ teknolojileri kaynaklı toplumsal sorunları sorgular."
+    },
+    {
+     "label": "b",
+     "text": "Sorgulanan durumla ilgili akıl yürütür."
+    },
+    {
+     "label": "c",
+     "text": "Akıl yürütme ile ulaştığı çıkarımı yansıtır"
+    }
+   ]
+  },
+  {
+   "code": "SOS.12.1.1",
+   "grade": 12,
+   "unit": 1,
+   "order": 1,
+   "text": "Bilim ve toplum ilişkisini çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Bilim ve toplum ilişkisini oluşturan unsurları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Bu unsurlar arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SOS.12.1.2",
+   "grade": 12,
+   "unit": 1,
+   "order": 2,
+   "text": "Bilim ve toplum ilişkisi üzerine eleştirel düşünebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Bilim ve güç ilişkisini sorgular."
+    },
+    {
+     "label": "b",
+     "text": "Bilim ve güç ilişkisiyle ilgili akıl yürütür."
+    },
+    {
+     "label": "c",
+     "text": "Akıl yürütmeyle ulaştığı çıkarımları yansıtır."
+    }
+   ]
+  },
+  {
+   "code": "SOS.12.2.1",
+   "grade": 12,
+   "unit": 2,
+   "order": 1,
+   "text": "Güncel toplumsal meseleler hakkında eleştirel düşünebilme",
+   "components": []
+  }
+ ],
+ "report": {
+  "units": 5,
+  "outcomes": 0,
+  "components": 0,
+  "orphan_outcomes": 20,
+  "gaps": [
+   {
+    "course": "Sosyoloji Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "SOS.11.1.1",
+     "SOS.11.1.2",
+     "SOS.11.1.3",
+     "SOS.11.2.1",
+     "SOS.11.2.2",
+     "SOS.11.2.3",
+     "SOS.11.3.2",
+     "SOS.11.3.3",
+     "SOS.11.4.1",
+     "SOS.11.4.2",
+     "SOS.11.4.3",
+     "SOS.11.4.4",
+     "SOS.11.4.5",
+     "SOS.11.4.6",
+     "SOS.11.5.1",
+     "SOS.11.5.2",
+     "SOS.11.5.3",
+     "SOS.12.1.1",
+     "SOS.12.1.2",
+     "SOS.12.2.1"
+    ]
+   },
+   {
+    "course": "Sosyoloji Dersi",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "SOS.11.3.1"
+    ]
+   }
+  ]
+ }
+}

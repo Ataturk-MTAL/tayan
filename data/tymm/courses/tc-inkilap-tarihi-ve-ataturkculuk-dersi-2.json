@@ -1,0 +1,440 @@
+{
+ "course": {
+  "id": 25,
+  "name": "T.C. İnkılap Tarihi ve Atatürkçülük Dersi",
+  "slug": "tc-inkilap-tarihi-ve-ataturkculuk-dersi-2",
+  "prefix": "İTA",
+  "kademe": 3,
+  "kademe_name": "Ortaöğretim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/tc-inkilap-tarihi-ve-ataturkculuk-dersi_20260819_143332_827.pdf"
+ },
+ "units": [
+  {
+   "grade": 12,
+   "unit": 1,
+   "kind": "ÜNİTE",
+   "title": "MODERN TÜRK DEVLETİNİN DOĞUŞU",
+   "description": "Bu ünitede öğrencilerin Türkiye Cumhuriyeti’nin kuruluşuna giden sürecin anlaşılabilmesi açısından Mustafa Kemal Paşa’nın kişilik özellikleri ve bu özelliklerin oluşumuna etki eden unsurlar, Millî Mücadele sürecinde yaşanan olaylar ile Atatürk Dönemi’ndeki iç ve dış siyasi gelişmelerle ilgili gerekli bilgi, beceri ve değerleri kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 22,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB3. Tarihsel Empati, SBAB1. Zamanı Algılama ve Kronolojik Düşünme (KB2.17. Değerlendirme), SBAB4. Değişim ve Sürekliliği Algılama (KB2.7. Karşılaştırma)",
+    "KAVRAMSAL BECERİLER": "KB2.4. Çözümleme, KB2.20. Sentezleme",
+    "EĞİLİMLER": "E2.1. Empati, E3.5. Açık Fikirlilik, E3.6. Analitiklik",
+    "PROGRAMLAR ARASI BİLEŞENLER": "Sosyal-Duygusal SDB1.1. Kendini Tanıma (Öz Farkındalık), SDB1.2. Kendini Düzenleme (Öz Düzenleme), Öğrenme Becerileri SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D3. Çalışkanlık, D4. Dostluk, D5. Duyarlılık, D16. Sorumluluk, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB6. Vatandaşlık Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Coğrafya, Sosyoloji, Uluslararası İlişkiler BECERİLER ARASI",
+    "İLİŞKİLER": "SBAB2. Kanıta Dayalı Sorgulama ve Araştırma (SBAB2.1. Meraka Dayalı Soru Sorma, SBAB2.3. Kaynağı İnceleme), SBAB10. Harita (SBAB10.1. Harita Okuma), SBAB11. Tablo, Grafik, Şekil ve/veya Diyagram (SBAB11.1. Tablo, Grafik, Şekil ve/veya Diyagram Okuma ve Yorumlama), KB3.1. Karar Verme, KB3.2. Problem Çözme T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI İTA.12.1.1. Mustafa Kemal Paşa’nın kişilik özelliklerinin oluşmasında etkili olan unsurları VE SÜREÇ BİLEŞENLERİ çözümleyebilme a) Mustafa Kemal Paşa’nın kişilik özelliklerini belirler. b) Mustafa Kemal Paşa’nın yetiştiği dönemin koşullarını, aldığı eğitimi ve askerlik deneyimini belirler. c) Mustafa Kemal Paşa’nın kişilik özellikleriyle bu özelliklerin oluşmasında rol oynayan unsurlar arasında ilişki kurar. İTA.12.1.2. Millî Mücadele’nin hazırlık sürecinde yaşanan olaylara ilişkin bakış açısı geliştirebilme a) Millî Mücadele’nin hazırlık sürecinde yaşanan olayları birinci ve ikinci elden kaynaklardan inceler. b) Millî Mücadele’nin hazırlık sürecinde yaşanan olaylarla ilgili birinci ve ikinci elden kaynakları yorumlar. c) Millî Mücadele’nin hazırlık sürecinde yaşanan olayları kaynaklara dayanarak çözümler. ç) Millî Mücadele’nin hazırlık sürecinde yaşanan olayların meydana geldiği dönemin koşullarını belirler. d) Millî Mücadele’nin hazırlık sürecinde yaşanan olayların koşullarıyla günümüzdeki yaşam koşullarını karşılaştırır. e) Millî Mücadele’nin hazırlık sürecinde yaşanan olaylarla ilgili olarak dönemin koşulları çerçevesinde çıkarımda bulunur. f) Millî Mücadele’nin hazırlık sürecinde yaşanan olayların koşullarıyla ilgili bakış açısını çıkarımlara dayanarak kendi ifadeleriyle yansıtır. g) Konuyla ilgili mevcut bilgilerini kullanarak Millî Mücadele’nin hazırlık sürecinde yaşanan olaylar hakkında özgün bir ürün hazırlar. İTA.12.1.3. Millî Mücadele Dönemi’ndeki siyasi ve askerî gelişmelerin yeni Türk devletinin kuruluşuna etkilerini değerlendirebilme a) Millî Mücadele Dönemi’ndeki siyasi ve askerî gelişmeleri sonuçları açısından karşılaştırır. b) Millî Mücadele Dönemi’ndeki siyasi ve askerî gelişmelerin yeni Türk devletinin kuruluşuna etkisine dair yargıda bulunur. İTA.12.1.4. Atatürk Dönemi’nde meydana gelen iç siyasi gelişmelerin yeni Türk devletinin kurumsallaşmasındaki rolüne ilişkin özgün ürün üretebilme a) Atatürk Dönemi’nde meydana gelen iç siyasi gelişmeleri inceler. b) Atatürk Dönemi’nde meydana gelen iç siyasi gelişmeler ile yeni Türk devletinin kurumsallaşması arasında ilişki kurar. c) Atatürk Dönemi’nde meydana gelen iç siyasi gelişmelerin yeni Türk devletinin kurumsallaşmasındaki rolüne ilişkin özgün bir içerik oluşturur. İTA.12.1.5. Atatürk Dönemi’nde meydana gelen dış siyasi gelişmeleri yeni devletin öncelikleri açısından karşılaştırabilme a) Atatürk Dönemi’nde meydana gelen dış siyasi gelişmeleri inceler. b) Atatürk Dönemi’nde meydana gelen dış siyasi gelişmeleri yeni devletin öncelikleri açısından benzer yönleriyle listeler. c) Atatürk Dönemi’nde meydana gelen dış siyasi gelişmeleri yeni devletin öncelikleri açısından farklı yönleriyle listeler. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI",
+    "İÇERİK ÇERÇEVESİ": "Mustafa Kemal Paşa’nın Kişilik Özelliklerinin Oluşumunda Etkili Olan Unsurlar Millî Mücadele’nin Hazırlık Sürecinde Yaşanan Olaylar Millî Mücadele Muharebeleri ve Diplomatik Zaferler Atatürk Dönemi’ndeki İç Siyasi Gelişmeler Atatürk Dönemi’ndeki Dış Siyasi Gelişmeler",
+    "Anahtar Kavramlar": "antant, ateşkes, cemiyet, genelge, himaye, manda, millî egemenlik, pakt ÖĞRENME Bu ünitedeki öğrenme çıktıları; giriş-çıkış kartı (bildiklerim, merak ettiklerim, öğrendikleKANITLARI rim ve hissettiklerim), çalışma yaprağı, T diyagramı ve performans görevleri ile değerlen- (Ölçme ve dirilebilir. Değerlendirme) Mustafa Kemal Paşa’nın kişilik özelliklerinin oluşmasında etkili olan unsurlara dair çözümlemelerin değerlendirilmesinde giriş-çıkış kartı, Millî Mücadele Dönemi’ndeki siyasi ve askerî gelişmelerin yeni Türk devletinin kuruluşuna etkilerinin değerlendirilmesinde çalışma yaprağı, Atatürk Dönemi’nde meydana gelen dış siyasi gelişmelerin karşılaştırılmasıyla ilgili olarak da T diyagramı kullanılabilir. Millî Mücadele’nin hazırlık sürecinde yaşanan olayları dönemin bakış açılarıyla değerlendirebilmeleri amacıyla öğrencilere Kuvâ-yı Milliyeye gönüllü olarak katılan bir askerin gözünden bulunduğu çevrenin siyasi, askerî, sosyal ve ekonomik koşullarının Millî Mücadele’ye etkisini yansıtan mektup hazırlamaya yönelik bir performans görevi verilebilir. Hazırlanan mektup; kaynak kullanımı, kaynağı yorumlama, kanıta dayalı çözümleme, tarihsel bağlamsallaştırma, karşılaştırma, çıkarımda bulunma, kendi bakış açısını yansıtma, özgünlük, sunum yapma gibi ölçütlerden oluşan dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Dereceli puanlama anahtarı öz ve akran değerlendirme formu olarak kullanılabilir. Öğrencilere Atatürk Dönemi’nde meydana gelen iç siyasi gelişmelerin yeni Türk devletinin kurumsallaşmasındaki rolüyle ilgili olarak köşe yazısı hazırlamaya yönelik bir performans görevi verilebilir. Köşe yazısı; içerik, kaynak kullanımı, ilişkilendirme, özgünlük gibi ölçütlerden oluşan dereceli puanlama anahtarı ile değerlendirilebilir. Dereceli puanlama anahtarı akran değerlendirme formu olarak da kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Mustafa Kemal Paşa’nın kişilik özelliklerine ilişkin temel bilgilere sahip oldukları kabul edilmektedir. I. Dünya Savaşı’nda savaşılan cepheler ve savaşın Osmanlı Devleti açısından sonuçlarına ilişkin ön bilgilere sahip oldukları kabul edilmektedir. Millî Mücadele Dönemi’ne ait temel bilgilere sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci Ünite kapsamında öğrencilere aşağıdaki rehber sorular sorulabilir. • Sizce Mustafa Kemal Paşa’yı siyasi ve askerî bir lider yapan kişilik özellikleri nelerdir? • I. Dünya Savaşı’nda Osmanlı Devleti hangi cephelerde savaşmıştır? • Mustafa Kemal Paşa, “Ordular! İlk hedefiniz Akdeniz’dir.” ifadesini kullanırken nereyi kastetmiş olabilir? Neden? • Büyük Millet Meclisinin Ankara’da açılmasının gerekçeleri neler olabilir? • Atatürk’ün dış politika anlayışını şekillendiren unsurlar neler olabilir? Ünite kapsamında öğrencilere aşağıdaki etkinlikler yaptırılabilir. • Mustafa Kemal Paşa’nın eğitim ve askerlik hayatındaki dönüm noktalarına ilişkin beyin fırtınası yapmaları istenebilir. • Millî Mücadele’de yayımlanan genelge ve toplanan kongrelerin güzergâhını harita üzerinde işaretlemeleri istenebilir. • Lozan Barış Antlaşması’nda çözülemeyen konu başlıklarıyla ilgili liste hazırlamaları istenebilir. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilerden Millî Mücadele Dönemi’ne ait izledikleri filmlerden hareketle Millî Mücadele Dönemi’nin Türk milleti için anlamı ve önemi ile ilgili duygu ve düşüncelerini paylaşmaları istenebilir. Öğrenme-Öğretme Uygulamaları İTA.12.1.1 Öğrencilerden Mustafa Kemal Paşa’nın kişilik özellikleri ile bunların oluşmasında etkili olan unsurlar hakkında ‘‘bildiklerim, merak ettiklerim, öğrendiklerim ve hissettiklerim formu’’nun ‘‘bildiklerim ve merak ettiklerim’’ bölümlerini doldurmaları istenir (SBAB2.1). Öğrenciler, verilen kaynaklardan hareketle Mustafa Kemal Paşa’nın kişilik özelliklerini belirler. Ayrıca yetiştiği dönemde Osmanlı Devleti’nin siyasi, sosyal ve ekonomik durumu, aldığı eğitim ve Millî Mücadele’ye kadar geçen süreçte askerlik deneyiminin rolü üzerinden kişilik özelliklerinin oluşmasındaki temel unsurları tespit eder (OB1). Ulaştığı bilgilerden hareketle Mustafa Kemal Paşa’nın kişilik özellikleri ile bu özellikleri ortaya çıkaran temel unsurlar arasında ilişki kurar (KB3.1). Bu süreçte Mustafa Kemal Paşa’nın eğitim hayatında ve görev yaptığı cephelerde azimli ve kararlı davranışlarına örnekler gösterir (D3.1). Öğrencilerden, edindiği bilgilerden yola çıkarak ilgili formun ‘‘öğrendiklerim ve hissettiklerim‘‘ bölümlerini doldurmaları istenir (SDB1.1). İTA.12.1.2 Öğrencilerin kavram öğretim materyalleri üzerinden konu içeriğinde geçen kavramların anlamlarını açıklamaları istenir. Verilen farklı türdeki birinci ve ikinci elden kaynaklar üzerinden Millî Mücadele’nin hazırlık sürecinde Anadolu’daki halkın sosyal ve ekonomik durumu, işgallere karşı kurulan cemiyetler, Kuvâ-yı Milliyenin faaliyetleri, Samsun’a çıkış, genelgeler, millî ve bölgesel kongreler ile millî şûraların faaliyetleri, asılsız Pontus iddiaları, Mebusan Meclisinin toplanması ve Misâk-ı Millî ile Büyük Millet Meclisinin açılışı, Sevr Barış Antlaşması ve Millî Mücadele’nin finansmanı konularını incelemeleri sağlanır. Öğrenciler haritalar üzerinden Sevr Barış Antlaşması ile Misâk-ı Millî sınırlarını karşılaştırır (SBAB10.1). Misâk-ı Millî’nin Türk milleti için önemini açıklar. Kaynaklara dayanarak Millî Mücadele’nin hazırlık sürecinde yaşanan olayları açıklar. Kaynaklarda sunulan bilgileri tablo, diyagram veya grafiğe dönüştürerek kendi cümleleriyle ifade eder (SBAB11.1, SDB2.1). Millî Mücadele’nin hazırlık sürecinde yaşanan olayların koşullarıyla günümüzdeki yaşam koşullarını karşılaştırır. Millî Mücadele’nin hazırlık sürecinde yaşanan olayları dönemin koşulları çerçevesinde açıklar (SDB3.3). Öğrencilerin, elde ettikleri çıkarımdan hareketle bir performans görevi hazırlamaları sağlanır. Bu bağlamda Kuvâ-yı Milliyeye gönüllü katılan bir askerin gözünden bulunduğu çevrenin siyasi, askerî, sosyal ve ekonomik koşullarının bu mücadeleye etkileriyle ilgili duygu, düşünce ve duyarlılıklarını yansıtan mektup yazmaları ve bu mektubu sınıf ortamında paylaşmaları istenir (D5.1, E2.1, SDB2.3). T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI İTA.12.1.3 Grup çalışması yoluyla öğrencilerin Millî Mücadele’nin Doğu Cephesi’nde Ermenilerle mücadele ve Gümrü Antlaşması’nı; Güney Cephesi’nde Maraş, Urfa, Antep ve Adana’da Fransız ve Ermenilere karşı gerçekleştirilen mücadeleler ile Ankara Antlaşması’nı; Batı Cephesi’nde Yunanlara karşı gerçekleştirilen I. İnönü, II. İnönü, Kütahya-Eskişehir, Sakarya ve Büyük Taarruz muharebeleri ile Mudanya Ateşkesi’ni ve Lozan Barış Antlaşması’nı verilen kaynaklar üzerinden incelemeleri sağlanır (SDB2.2, SBAB2.3, SBAB10.1). Gruplar, hatıratlar üzerinden Büyük Taarruz’un başlangıç tarihinin belirlenmesini açıklar ve bu gelişmeleri tarih şeridi üzerinde kronolojik olarak sıralar. Kaynaklardan elde ettiği bilgileri kullanarak Millî Mücadele Dönemi’ndeki siyasi ve askerî gelişmeleri sonuçları açısından karşılaştırır (KB3.1). Öğrenciler Maarif Kongresi’ni, İstiklal Marşı’nı ve İstiklal Marşı’nın kabul sürecini millî bilince sahip olma açısından çözümler (D19.1). Tekâlif-i Milliye Emirleri konusu kapsamında Millî Mücadele ruhunun ortaya çıkmasında Türk milletinin yardımlaşma ve dayanışmasına örnekler verir (D16.2). Millî Mücadele Dönemi’ndeki siyasi ve askerî gelişmelerin yeni Türk devletinin kuruluşuna etkilerine dair çıkarımda bulunur (SDB3.3). Yeni Türk devletinin Asya Hun Devleti’nden bu yana devam eden Türk devlet geleneğinin bir temsilcisi olduğunu açıklar. Öğrenme sürecinin değerlendirilmesi amacıyla öğrencilere çalışma yaprağı verilir. İTA.12.1.4 Öğrencilerin verilen tarih şeridi üzerinden II. Meclisin açılışı, Halk Fırkasının kurulması, Ankara’nın başkent oluşu, Terakkiperver Cumhuriyet Fırkasının kurulması, Takrir-i Sükûn Kanunu’nun çıkarılması ve İstiklal Mahkemelerinin yeniden kurulması, Atatürk’e suikast planının ortaya çıkması, Serbest Cumhuriyet Fırkasının kurulması ve Menemen Olayı’nı incelemeleri ve sunulan farklı kaynaklardan yararlanarak bu gelişmeler ile yeni Türk devletinin kurumsallaşması arasında ilişki kurmaları istenir. Örnek olaylardan hareketle çok partili siyasi hayata geçiş sürecinde Atatürk’ün yürüttüğü faaliyetlerin gerekçelerini açıklamaları sağlanır (OB6, E3.5). Performans görevi olarak Atatürk Dönemi’nde meydana gelen iç siyasi gelişmelerin yeni Türk devletinin kurumsallaşmasındaki rolüne yönelik köşe yazısı hazırlamaları istenir (SDB1.2, KB3.2). İTA.12.1.5 Öğrencilerin verilen farklı kaynaklar üzerinden nüfus mübadelesi, yabancı okullar sorunu, dış borçlar sorunu, Irak sınırı ve Musul Sorunu, Milletler Cemiyetine üyelik, Balkan Antantı ve Sadâbad Paktı, Montrö Boğazlar Sözleşmesi ve Hatay’ın ana vatana katılması konularını incelemeleri sağlanır. Bu süreçte öğrenciler yeni Türk devletinin dış siyasetteki önceliklerini tespit eder. Ulaştığı bilgilerden yola çıkarak Atatürk Dönemi’nde meydana gelen dış siyasi gelişmeleri devletin öncelikleri bakımından benzer ve farklı yönleriyle listeler (E3.6, OB1). Öğrencilerden Atatürk Dönemi’nde dış siyasette izlenen barışçıl politikaların evrensel barış açısından yerini ve önemini açıklamaları istenir (D4.5). Atatürk Dönemi’nde meydana gelen dış siyasi gelişmeleri karşılaştırmak için T diyagramı kullanılır. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme * Öğrencilerden yabancı dergi ve gazetelerde Atatürk’ün konu edildiği metin ve görselleri inceleyerek bunlardan koleksiyon oluşturmaları istenebilir. 1981 yılının UNESCO tarafından “Atatürk Yılı” olarak kabul edilmesinin önemi ve Atatürk’ün farklı ülkelerde tanınmasının nedenleri hakkında çıkarımda bulunmaları istenebilir. Millî Mücadele Dönemi’nde yapılan muharebelerdeki askerî güçleri tablo ve grafik kullanarak karşılaştırmaları istenebilir. Okul dışında Kurtuluş Savaşı (I. TBMM) ve Cumhuriyet müzelerine sanal gezi yapmaları ve sonrasında izlenimlerini rapor hâlinde yazmaları istenebilir. * Millî Mücadele sürecindeki Amasya Genelgesi, Erzurum Kongresi, Sivas Kongresi ve Misâk-ı Millî’nin temel metinlerini SQ4R tekniği ile incelemeleri istenebilir. Destekleme Öğrencilerden Mustafa Kemal Paşa’nın kişilik özelliklerine ilişkin hazırlanan bilgi ha­ ritasındaki boşlukları doldurmaları istenebilir. Öğretmeni veya arkadaşlarından yardım alarak Millî Mücadele Dönemi’nin askerî gelişme­ lerini gösteren bir akış şeması düzenlemeleri istenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "İTA.12.1.1",
+     "order": 1,
+     "text": "Mustafa Kemal Paşa’nın kişilik özelliksonunda öğrenciye VE lerinin oluşmasında etkili olan unsurları kazandırılması amaçlanan bilgi, SÜREÇ BİLEŞENLERİ çözümleyebilme beceri ve becerilerin süreç a) Mustafa Kemal Paşa’nın kişilik özelbileşenlerini ifade eder. liklerini belirler.",
+     "components": [
+      {
+       "label": "b",
+       "text": "Mustafa Kemal Paşa’nın yetiştiği dönemin koşullarını, aldığı eğitimi ve askerlik deneyimini belirler."
+      }
+     ]
+    },
+    {
+     "code": "İTA.12.1.2",
+     "order": 2,
+     "text": "Millî Mücadele’nin hazırlık sürecinde yaşanan olaylara ilişkin bakış açısı geliştirebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Millî Mücadele’nin hazırlık sürecinde yaşanan olayları birinci ve ikinci elden kaynaklardan inceler."
+      },
+      {
+       "label": "b",
+       "text": "Millî Mücadele’nin hazırlık sürecinde yaşanan olaylarla ilgili birinci ve ikinci elden kaynakları yorumlar."
+      },
+      {
+       "label": "c",
+       "text": "Millî Mücadele’nin hazırlık sürecinde yaşanan olayları kaynaklara dayanarak çözümler."
+      },
+      {
+       "label": "ç",
+       "text": "Millî Mücadele’nin hazırlık sürecinde yaşanan olayların meydana geldiği dönemin koşullarını belirler."
+      },
+      {
+       "label": "d",
+       "text": "Millî Mücadele’nin hazırlık sürecinde yaşanan olayların koşullarıyla günümüzdeki yaşam koşullarını karşılaştırır."
+      },
+      {
+       "label": "e",
+       "text": "Millî Mücadele’nin hazırlık sürecinde yaşanan olaylarla ilgili olarak dönemin koşulları çerçevesinde çıkarımda bulunur."
+      },
+      {
+       "label": "f",
+       "text": "Millî Mücadele’nin hazırlık sürecinde yaşanan olayların koşullarıyla ilgili bakış açısını çıkarımlara dayanarak kendi ifadeleriyle yansıtır."
+      },
+      {
+       "label": "g",
+       "text": "Konuyla ilgili mevcut bilgilerini kullanarak Millî Mücadele’nin hazırlık sürecinde yaşanan olaylar hakkında özgün bir ürün hazırlar."
+      }
+     ]
+    },
+    {
+     "code": "İTA.12.1.3",
+     "order": 3,
+     "text": "Millî Mücadele Dönemi’ndeki siyasi ve askerî gelişmelerin yeni Türk devletinin kuruluşuna etkilerini değerlendirebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Millî Mücadele Dönemi’ndeki siyasi ve askerî gelişmeleri sonuçları açısından karşılaştırır."
+      },
+      {
+       "label": "b",
+       "text": "Millî Mücadele Dönemi’ndeki siyasi ve askerî gelişmelerin yeni Türk devletinin kuruluşuna etkisine dair yargıda bulunur."
+      }
+     ]
+    },
+    {
+     "code": "İTA.12.1.4",
+     "order": 4,
+     "text": "Atatürk Dönemi’nde meydana gelen iç siyasi gelişmelerin yeni Türk devletinin kurumsallaşmasındaki rolüne ilişkin özgün ürün üretebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Atatürk Dönemi’nde meydana gelen iç siyasi gelişmeleri inceler."
+      },
+      {
+       "label": "b",
+       "text": "Atatürk Dönemi’nde meydana gelen iç siyasi gelişmeler ile yeni Türk devletinin kurumsallaşması arasında ilişki kurar."
+      },
+      {
+       "label": "c",
+       "text": "Atatürk Dönemi’nde meydana gelen iç siyasi gelişmelerin yeni Türk devletinin kurumsallaşmasındaki rolüne ilişkin özgün bir içerik oluşturur."
+      }
+     ]
+    },
+    {
+     "code": "İTA.12.1.5",
+     "order": 5,
+     "text": "Atatürk Dönemi’nde meydana gelen dış siyasi gelişmeleri yeni devletin öncelikleri açısından karşılaştırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Atatürk Dönemi’nde meydana gelen dış siyasi gelişmeleri inceler."
+      },
+      {
+       "label": "b",
+       "text": "Atatürk Dönemi’nde meydana gelen dış siyasi gelişmeleri yeni devletin öncelikleri açısından benzer yönleriyle listeler."
+      },
+      {
+       "label": "c",
+       "text": "Atatürk Dönemi’nde meydana gelen dış siyasi gelişmeleri yeni devletin öncelikleri açısından farklı yönleriyle listeler. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 12,
+   "unit": 2,
+   "kind": "ÜNİTE",
+   "title": "TÜRK İNKILABI VE ATATÜRKÇÜLÜK",
+   "description": "Bu ünitede öğrencilerin, Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde siyasi ve toplumsal alanlar ile hukuk, sağlık, ekonomi, eğitim, bilim, kültür alanlarında yapılan inkılaplar ve Türk modernleşmesinin Atatürk ilkelerinin oluşumuna etkisi hakkında gerekli bilgi, beceri ve değerleri kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 18,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB4. Değişim ve Sürekliliği Algılama (SBAB4.2. Değişim ve Sürekliliği Neden ve Sonuçlarıyla Yorumlama), SBAB1. Zamanı Algılama ve Kronolojik Düşünme (KB2.17. Değerlendirme)",
+    "KAVRAMSAL BECERİLER": "KB2.7. Karşılaştırma, KB2.8. Sorgulama, KB2.14. Yorumlama",
+    "EĞİLİMLER": "E1.1 Merak, E3.1. Muhakeme, E3.2. Odaklanma, E3.3. Yaratıcılık, E3.6. Analitiklik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.1. Uyum, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D13. Sağlıklı Yaşam, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB5. Kültür Okuryazarlığı, OB6. Vatandaşlık Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Ekonomi, Sosyoloji, Uluslararası İlişkiler BECERİLER ARASI",
+    "İLİŞKİLER": "SBAB2. Kanıta Dayalı Sorgulama ve Araştırma (SBAB2.3. Kaynağı İnceleme), SBAB11. Tablo, Grafik, Şekil ve/veya Diyagram (SBAB11.1. Tablo, Grafik, Şekil ve/veya Diyagram Okuma ve Yorumlama) T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI ÖĞRENME ÇIKTILARI İTA.12.2.1. Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde siyasi alanda yapılan VE SÜREÇ BİLEŞENLERİ inkılapları neden ve sonuçlarıyla yorumlayabilme a) Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde siyasi alanda yapılan inkılapların nedenlerini inceler. b) Atatürk Dönemi’nde siyasi alanda yapılan inkılapların etkilediği unsurları inceler. c) Siyasi alanda yapılan inkılapların devlet ve topluma etkilerini sorgular. ç) Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde siyasi alanda yapılan inkılapların nedenlerini ve sonuçlarını bağlamından kopmadan ifade eder. İTA.12.2.2. Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde toplumsal alan ile hukuk ve sağlıkta yapılan inkılapları günlük yaşama etkisi açısından değerlendirebilme a) Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde toplumsal alan ile hukuk ve sağlıkta yapılan inkılapları günlük yaşama etkisi açısından karşılaştırır. b) Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde toplumsal alan ile hukuk ve sağlıkta yapılan inkılapların günlük yaşama etkisine ilişkin yargıda bulunur. İTA.12.2.3. Türk modernleşmesi çerçevesinde Atatürk Dönemi’ndeki devletçi politika anlayışının ekonomi alanında yapılan inkılaplara etkisini sorgulayabilme a) Türk modernleşmesi çerçevesinde Atatürk Dönemi’ndeki devletçi politika anlayışının ekonomi alanında yapılan inkılaplara etkisi hakkında merak ettiği konuları belirler. b) İlgili konular hakkında sorular sorar. c) Farklı kaynaklar üzerinden konuya ilişkin bilgi toplar. ç) Topladığı bilgilerin doğruluğunu değerlendirir. d) Türk modernleşmesi çerçevesinde Atatürk Dönemi’ndeki devletçi politika anlayışının ekonomi alanında yapılan inkılaplara etkisi hakkında çıkarım yapar. İTA.12.2.4. Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde eğitim, bilim ve kültür alanlarında yapılan inkılapları değişim ve süreklilik açısından karşılaştırabilme a) Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde eğitim, bilim ve kültür alanlarında yapılan inkılapları belirler. b) Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde eğitim, bilim ve kültür alanlarında yapılan inkılaplara ilişkin benzerlikleri listeler. c) Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde eğitim, bilim ve kültür alanlarında yapılan inkılaplara ilişkin farklılıkları listeler. İTA.12.2.5. Türk modernleşmesinin Atatürk ilkelerinin oluşumuna etkisini yorumlayabilme a) Türk modernleşmesinin Atatürk ilkelerinin oluşumuna etkisini inceler. b) Türk modernleşmesinin Atatürk ilkelerinin oluşumuna etkisini bağlamından kopmadan dönüştürür. c) Türk modernleşmesinin Atatürk ilkelerinin oluşumuna etkisini ifade eder. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI",
+    "İÇERİK ÇERÇEVESİ": "Türk Modernleşmesi Çerçevesinde Atatürk Dönemi’nde Siyasi Alanda Yapılan İnkılaplar Türk Modernleşmesi Çerçevesinde Atatürk Dönemi’nde Toplumsal Alan ile Hukuk ve Sağlıkta Yapılan İnkılaplar Türk Modernleşmesi Çerçevesinde Atatürk Dönemi’nde Ekonomi Alanında Yapılan İnkılaplar Türk Modernleşmesi Çerçevesinde Atatürk Dönemi’nde Eğitim, Bilim ve Kültür Alanlarında Yapılan İnkılaplar Türk Modernleşmesinin Atatürk İlkelerinin Oluşumuna Etkisi",
+    "Anahtar Kavramlar": "cumhuriyetçilik, devletçilik, halkçılık, inkılap, inkılapçılık, laiklik, milliyetçilik, modernleşme",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; balık kılçığı diyagramı, çalışma yaprağı, gözlem formu, kar- (Ölçme ve şılaştırma tablosu ve performans görevi ile değerlendirilebilir. Değerlendirme) Atatürk Dönemi’ndeki siyasi inkılapların nedenlerine ve etkilerine dair yapılan tartışma sonucunun yorumlanmasına ilişkin değerlendirmede balık kılçığı diyagramı kullanılabilir. Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde toplumsal alan ile hukuk ve sağlıkta yapılan inkılapların birbirlerine etkisinin değerlendirilmesinde çalışma yaprağı, Atatürk Dönemi’nde devletçi politika anlayışının ekonomi alanında yapılan inkılaplara etkisinin sorgulanmasına yönelik değerlendirmede gözlem formu, Atatürk Dönemi’nde eğitim, bilim ve kültür alanlarında yapılan inkılapların karşılaştırılmasına yönelik değerlendirmede karşılaştırma tablosu kullanılabilir. Performans görevi olarak öğrencilerden grup çalışmasıyla Atatürk ilkelerinin oluşumunda Türk modernleşmesinin etkisini ortaya koyan afiş hazırlamaları ve bu afişi sunmaları istenebilir. Hazırlanan afiş ve yapılan sunum; içeriğin doğruluğu, kaynak kullanımı, kendi ifadesiyle açıklama gibi ölçütlerden oluşan dereceli puanlama anahtarı kullanılarak değerlendirilebilir. Dereceli puanlama anahtarı akran ve grup değerlendirme formu olarak da kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Tanzimat’tan itibaren gerçekleşen yenileşme hareketleri hakkında temel bilgilere sahip oldukları kabul edilmektedir. Türk modernleşmesinin Osmanlı Devleti’nden Türkiye Cumhuriyeti’ne devam eden bir süreç olduğu hakkında ön bilgilere sahip oldukları kabul edilmektedir. Atatürk ilkeleri ve Atatürk Dönemi’nde yapılan inkılaplar hakkında temel bilgilere sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci Ünite kapsamında öğrencilere aşağıdaki rehber sorular sorulabilir. • Tanzimat’tan itibaren gerçekleşen yenileşme hareketleri öncelikle hangi alanlarda başlamıştır? Neden? • Türkiye’deki demokrasinin gelişmesinde Mustafa Kemal’in “Egemenlik kayıtsız şartsız milletindir!” sözünün yeri hakkında neler söylenebilir? • Cumhuriyet Dönemi’ndeki inkılaplar, Osmanlı Devleti’ndeki hangi gelişmelerden esinlenilerek yapılmış olabilir? Ünite kapsamında öğrencilere aşağıdaki etkinlikler yaptırılabilir. • Atatürkçü düşünce sistemini oluşturan unsurları gösteren bir slogan tasarlamaları istenebilir. • Türk modernleşmesinin amaçlarına ilişkin beyin fırtınası yapılabilir. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilere Atatürk Dönemi’nde kurulan ve varlığını günümüzde de sürdüren kurumlarla ilgili sorular sorulabilir. Öğrencilerden Atatürk’ün Türk kadınına siyasi ve hukuki alanda kazandırdığı hakların günümüze yansımalarına örnekler vermeleri istenebilir. Öğrenme-Öğretme Uygulamaları İTA.12.2.1 Öğrencilerin II. Mahmud Dönemi’nden Cumhuriyet’e geçiş sürecine kadar olan zaman diliminde Osmanlı Devleti’nde siyasi alanda gerçekleşen yeniliklerden Tanzimat Fermanı, I. Meşrutiyet, II. Meşrutiyet ve saltanatın kaldırılmasını; Atatürk Dönemi’nde siyasi alanda yapılan inkılaplardan ise Cumhuriyet’in ilanı, halifeliğin kaldırılması ve ordunun siyasetten ayrılmasını verilen bilgi görseli ve kaynaklar üzerinden incelemeleri sağlanır. Öğrenciler, incelediği bilgi görselinden ve kaynaklardan ulaştığı bilgilerden hareketle Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde siyasi alanda yapılan inkılaplara zemin hazırlayan unsurları değişim ve süreklilik bağlamında belirler (E3.2, SDB3.1). Kaynaklardan edindiği bilgilerden hareketle Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde siyasi alanda yapılan inkılapların devlet ve topluma etkilerini açıklar (OB6, SDB2.3). Atatürk Dönemi’ndeki inkılapların yeni Türk devletini her alanda güçlendirmek amacıyla yapıldığını ifade eder (D19.4). Öğrencilerin, ulaştıkları bilgilerden hareketle Atatürk Dönemi’nde yapılan siyasi inkılapların etkileriyle ilgili sınıf içi tartışması yapmaları sağlanır (SDB2.1). Tartışmada akvaryum tekniği kullanılabilir. Tartışma sonunda öğrencilerden Atatürk Dönemi’nde yapılan siyasi inkılapların nedenlerini ve etkilerini ortaya koyan balık kılçığı diyagramı hazırlamaları istenir. İTA.12.2.2 Öğrencilerin II. Mahmud Dönemi’nden Cumhuriyet’e geçiş sürecine kadar olan zaman diliminde Osmanlı Devleti’nde toplumsal alan ile hukuk ve sağlıkta yapılan yeniliklerden kılık kıyafetteki değişiklik ve düzenlemeler, sağlık örgütünün kurulması ve ilk karantina sisteminin oluşturulması, Mecelle, Kanun-ı Esasi ve Teşkilat-ı Esasiye’nin kabulünü; Atatürk Dönemi’nde toplumsal alan ile hukuk ve sağlıkta yapılan inkılaplardan ise 1924 Anayasası, şapka ve kıyafet inkılabı, tekke, zaviye ve türbelerin kapatılması, Türk Medeni Kanunu’nun kabulü, takvim, saat ve ölçülerde değişiklik, Umumi Hıfzıssıhha Kanunu, aşı çalışmaları ve ilk açılan hastaneler, kadınlara seçme ve seçilme hakkının verilmesi ile Soyadı Kanunu’nun kabulünü sunulan tarih şeridi ve farklı kaynaklar üzerinden incelemeleri sağlanır (SBAB2.3). Öğrenciler, Osmanlı Devleti’nin son dönemi ile Atatürk Dönemi’nde toplumsal alan ile hukuk ve sağlıkta yapılan inkılapları gösteren karşılaştırmalı bir tablo oluşturur (SBAB11.1). Tablodan hareketle Osmanlı Devleti’nin son döneminde yapılan yenilikler ile Atatürk Dönemi’nde toplumsal alan ile hukuk ve sağlıkta yapılan inkılapları değişim ve süreklilik bağlamında ilişkilendirir (E3.3, SDB3.1). Toplum sağlığını korumak ve geliştirmek amacıyla koruyucu sağlık hizmetlerinin yürütülmesinin önemini örnek olaylar üzerinden açıklar (D13.4). Elde ettiği bilgilerden hareketle Atatürk Dönemi’nde toplumsal alan ile hukuk ve sağlıkta yapılan inkılapları günlük yaşama etkisi açısından karşılaştırır. Öğrencilerden yaptıkları karşılaştırmadan hareketle Atatürk Dönemi’nde toplumsal alan ile hukuk ve sağlıkta gerçekleşen inkılapların birbirine etkisine ilişkin yargıda bulunmaları istenir (E3.1, SDB3.3). Öğrencilere Atatürk Dönemi’nde toplumsal alan ile hukuk ve sağlıkta yapılan inkılapların günlük yaşama etkisini değerlendirmeye yönelik çalışma yaprağı verilir. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI İTA.12.2.3 Öğrencilerin kavram öğretim materyalleri üzerinden konu içeriğinde geçen kavramların anlamlarını açıklamaları istenir. Grup çalışması yoluyla II. Mahmud Dönemi’nden Cumhuriyet’e geçiş sürecine kadar olan zaman diliminde Osmanlı Devleti’nde ekonomi alanında gerçekleşen yeniliklerden ilk fabrikaların açılması, ziraat, ticaret, sanayi ve bayındırlık işlerini yürütmek üzere kurulan meclisler, Düyûn-ı Umûmiyye ve Millî İktisat Kongresi; Atatürk Dönemi’nde ekonomi alanında yapılan inkılaplardan ise İş Bankasının kurulması, aşar vergisinin kaldırılması, Teşvik-i Sanayi Kanunu, Kabotaj Kanunu, Toprak Mahsulleri Ofisinin açılışı hakkında merak ettikleri bir konuyu belirlemeleri sağlanır (E1.1, SDB2.2). Belirledikleri konulara ilişkin sorgulama yapmaları istenir. Öğrenciler yazılı, görsel, basılı ve dijital kaynaklar üzerinden konuya ilişkin bilgileri toplar ve kaydeder. Bu süreçte dijital ağ kaynaklarından bilgi kullanırken dijital kimliği veya kaynağın uzantısının güvenilirliğini dikkate alır (OB2). Verilen farklı kaynaklar üzerinden Türk modernleşmesi çerçevesinde Atatürk Dönemi’ndeki devletçi politika anlayışının ekonomi alanında yapılan inkılaplara etkisini inceler. Araştırma yaparak ulaştığı bilgilerle derste öğrendiklerini karşılaştırır ve bunların doğruluğunu değerlendirir. Öğrencilerin “Cumhuriyet’in ilk yıllarında devletçilik politikalarının benimsenmesinin gerekçeleri” üzerine büyük grup tartışması yapmaları sağlanır (SDB2.1). Devletçilik politikası gereği ülke kalkınmasını ve gelişmesini desteklemesi açısından yerli ve millî üretim ile yerli malı kullanmanın önemini açıklamaları istenir (E3.6, D19.4). Büyük grup tartışması sonunda yapılan çıkarımlar öğretmen tarafından gözlem formuyla değerlendirilir. İTA.12.2.4 Öğrencilerin II. Mahmud Dönemi’nden Cumhuriyet’e geçiş sürecine kadar olan zaman diliminde Osmanlı Devleti’nde eğitim, bilim ve kültür alanında gerçekleşen yeniliklerden Mekteb-i Tıbbiyye-i Şâhânenin ve tercüme odalarının açılması, dönemin önemli yayın, yazar ve eserlerinden hareketle matbuat hayatından örnekler verilmesi, Maârif-i Umûmiyye Nizamnâmesi’nin ilanı, Dârulfünunun açılması, alfabe kullanımına yönelik çalışma ve tartışmaların yapılması, II. Abdülhamid Dönemi’ndeki okullaşma faaliyetleri, millî bayramların kutlanması ve Maârif Kongresi’nin toplanmasını; Atatürk Dönemi’nde eğitim, bilim ve kültür alanında yapılan inkılaplardan ise Tevhid-i Tedrisat Kanunu’nun kabul edilmesi, Mızıka-i Hümâyunun Cumhurbaşkanlığı Musiki Heyetine çevrilmesi, tohum ıslah enstitülerinin açılması, sismografik çalışma merkezinin kurulması, Mekteb-i Sanâyi-i Nefîse-i Şâhânenin Devlet Güzel Sanatlar Akademisine çevrilmesi, yeni Türk harflerinin kabul edilmesi, Türk Tarihi Tetkik Cemiyeti ve Türk Dili Tetkik Cemiyetinin kurulması, üniversite reformunun yapılması, Cumhuriyet’in ilk yıllarında yurt dışına öğrenci gönderilmesi ve millî bayramların kutlanmasını verilen bilgi görseli ve kaynaklar üzerinden incelemeleri sağlanır (E3.10, OB5). Öğrencilerden Türk modernleşmesi sürecinde bu inkılaplarla gerçekleşen yeniliklerin değişim ve süreklilik açısından benzer ve farklı yönlerini gösteren karşılaştırma tablosu hazırlamaları istenir (SDB1.2). İTA.12.2.5 Öğrencilerin kavram öğretim materyalleri üzerinden konu içeriğinde geçen kavramların anlamlarını açıklamaları istenir. Grup çalışması yoluyla öğrenciler verilen farklı kaynaklar üzerinden Türk modernleşmesinin Atatürk ilkelerinin ortaya çıkışına etkilerini inceler ve inceleme sonucunda Atatürk ilkelerinin özelliklerini belirler. Atatürk ilkelerinin millî şuur sahibi olmadaki önemini açıklar (D19.1, E3.6). Performans görevi olarak gruplardan Türk modernleşmesinin Atatürk ilkelerinin oluşumuna etkisini ifade eden bir afiş hazırlayarak bu afişi sunmaları istenir (SDB2.2). T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme * Öğrencilerden Kanun-ı Esasi ile 1921 ve 1924 anayasalarının benzer ve farklı yönlerini kar­ şılaştıran bir tablo hazırlamaları istenebilir. İstanbul Üniversitesinin genel ağ adresi üzerinden “Gazeteden Tarihe Bakış Projesi”ni in­ celemeleri ve Atatürk Dönemi’ndeki Cumhuriyet kutlamaları ile ilgili gazete manşetlerin­ den pano hazırlamaları istenebilir. Atatürk Dönemi’nde uygulanan ekonomi politikalarını ve bunların özelliklerini araştırmaları, elde ettikleri bilgilere dayanarak ekonomi bülteni hazırlamaları istenebilir. Türk Tarih Kurumunun genel ağ adresindeki belgeseli seyrederek kurumun kuruluş amaç­ ları ve faaliyetlerine ilişkin poster tasarlamaları istenebilir. * Türk inkılabı sürecini anlatan (içeren) kitap, dergi, hatırat gibi kaynakları araştırarak bir kaynakça denemesi hazırlamaları istenebilir. Destekleme Öğrencilerden Atatürk ilke ve inkılaplarına ilişkin öğrendikleri bilgilerden hareketle bir ke­ lime bulutu oluşturmaları istenebilir. Atatürk inkılaplarının sınıflandırıldığı tabloyu öğretmeni veya arkadaşlarından yardım ala­ rak hazırlamaları istenebilir. Atatürk ilkelerini gösteren zihin haritası hazırlamaları istenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": [
+    {
+     "code": "İTA.12.2.1",
+     "order": 1,
+     "text": "Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde siyasi alanda yapılan",
+     "components": []
+    },
+    {
+     "code": "İTA.12.2.2",
+     "order": 2,
+     "text": "Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde toplumsal alan ile hukuk ve sağlıkta yapılan inkılapları günlük yaşama etkisi açısından değerlendirebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde toplumsal alan ile hukuk ve sağlıkta yapılan inkılapları günlük yaşama etkisi açısından karşılaştırır."
+      },
+      {
+       "label": "b",
+       "text": "Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde toplumsal alan ile hukuk ve sağlıkta yapılan inkılapların günlük yaşama etkisine ilişkin yargıda bulunur."
+      }
+     ]
+    },
+    {
+     "code": "İTA.12.2.3",
+     "order": 3,
+     "text": "Türk modernleşmesi çerçevesinde Atatürk Dönemi’ndeki devletçi politika anlayışının ekonomi alanında yapılan inkılaplara etkisini sorgulayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Türk modernleşmesi çerçevesinde Atatürk Dönemi’ndeki devletçi politika anlayışının ekonomi alanında yapılan inkılaplara etkisi hakkında merak ettiği konuları belirler."
+      },
+      {
+       "label": "b",
+       "text": "İlgili konular hakkında sorular sorar."
+      },
+      {
+       "label": "c",
+       "text": "Farklı kaynaklar üzerinden konuya ilişkin bilgi toplar."
+      },
+      {
+       "label": "ç",
+       "text": "Topladığı bilgilerin doğruluğunu değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Türk modernleşmesi çerçevesinde Atatürk Dönemi’ndeki devletçi politika anlayışının ekonomi alanında yapılan inkılaplara etkisi hakkında çıkarım yapar."
+      }
+     ]
+    },
+    {
+     "code": "İTA.12.2.4",
+     "order": 4,
+     "text": "Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde eğitim, bilim ve kültür alanlarında yapılan inkılapları değişim ve süreklilik açısından karşılaştırabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde eğitim, bilim ve kültür alanlarında yapılan inkılapları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde eğitim, bilim ve kültür alanlarında yapılan inkılaplara ilişkin benzerlikleri listeler."
+      },
+      {
+       "label": "c",
+       "text": "Türk modernleşmesi çerçevesinde Atatürk Dönemi’nde eğitim, bilim ve kültür alanlarında yapılan inkılaplara ilişkin farklılıkları listeler."
+      }
+     ]
+    },
+    {
+     "code": "İTA.12.2.5",
+     "order": 5,
+     "text": "Türk modernleşmesinin Atatürk ilkelerinin oluşumuna etkisini yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Türk modernleşmesinin Atatürk ilkelerinin oluşumuna etkisini inceler."
+      },
+      {
+       "label": "b",
+       "text": "Türk modernleşmesinin Atatürk ilkelerinin oluşumuna etkisini bağlamından kopmadan dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Türk modernleşmesinin Atatürk ilkelerinin oluşumuna etkisini ifade eder. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "grade": 12,
+   "unit": 3,
+   "kind": "ÜNİTE",
+   "title": "II. DÜNYA SAVAŞI’NDAN KÜRESELLEŞME SÜRECİNE",
+   "description": "TÜRKİYE Bu ünitede öğrencilerin II. Dünya Savaşı, savaş sürecinde Türkiye, savaş sonrası dönemde Türkiye’nin iç ve dış siyasetinde meydana gelen gelişmeler ile Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’nin iç ve dış siyasetinde öne çıkan olaylar hakkında bilgi sahibi olmaları amaçlanmaktadır. Ayrıca öğrencilerin Türkiye’de sosyal ve ekonomik alanlar ile bilim, teknoloji, kültür, eğitim, spor alanlarında yaşanan gelişmeler hakkında gerekli bilgi, beceri ve değerleri kazanmaları amaçlanmaktadır.",
+   "lesson_hours": 28,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB17. Tarihsel Sorun Analizi ve Karar Verme, SBAB4. Değişim ve Sürekliliği Algılama (SBAB4.2. Değişim ve Sürekliliği Neden ve Sonuçlarıyla Yorumlama), SBAB2. Kanıta Dayalı Sorgulama ve Araştırma (SBAB2.5. Kaynağı Yorumlama), SBAB1. Zamanı Algılama ve Kronolojik Düşünme (KB2.17. Değerlendirme), SBAB2. Kanıta Dayalı Sorgulama ve Araştırma",
+    "KAVRAMSAL BECERİLER": "KB2.3. Özetleme",
+    "EĞİLİMLER": "E1.1. Merak, E1.3. Azim ve Kararlılık, E2.3. Girişkenlik, E3.1.Muhakeme, E3.2. Odaklanma, E3.4. Gerçeği Arama, E3.6. Analitiklik, E3.7. Sistematiklik, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği, SDB2.3. Sosyal Farkındalık, SDB3.2. Esneklik, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D1. Adalet, D4. Dostluk, D9. Merhamet, D11. Özgürlük, D14. Saygı , D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB3. Finansal Okuryazarlık",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Coğrafya, Demokrasi ve İnsan Hakları, Felsefe, Sosyoloji, Uluslararası İlişkiler BECERİLER ARASI",
+    "İLİŞKİLER": "SBAB10. Harita (SBAB10.3. Haritadan Çıkarım Yapma), SBAB11. Tablo, Grafik, Şekil ve/ veya Diyagram (SBAB11.1. Tablo, Grafik, Şekil ve/veya Diyagram Okuma ve Yorumlama), KB3.1. Karar Verme, KB3.2. Problem Çözme, KB3.3. Eleştirel Düşünme T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "İTA.12.3.1. II. Dünya Savaşı’nın neden ve sonuçlarını özetleyebilme a) II. Dünya Savaşı’nın neden ve sonuçlarıyla ilgili çözümleme yapar. b) II. Dünya Savaşı’nın neden ve sonuçlarını sınıflandırır. c) II. Dünya Savaşı’nı neden ve sonuçları bakımından yorumlar. İTA.12.3.2. II. Dünya Savaşı sürecinde Türkiye’nin iç ve dış siyasetinde karşılaştığı sorunların çözümüne yönelik alternatif fikirler üretebilme a) II. Dünya Savaşı sürecinde Türkiye’nin iç ve dış siyasetinde karşılaştığı tarihsel bir sorunu tanımlar. b) II. Dünya Savaşı sürecinde Türkiye’nin iç ve dış siyasetinde karşılaştığı tarihsel soruna ilişkin tarafların bakış açılarını çözümler. c) II. Dünya Savaşı sürecinde Türkiye’nin iç ve dış siyasetinde karşılaştığı tarihsel sorunun çözümü için yapılan uygulamaları ve alınan kararları değerlendirir. ç) II. Dünya Savaşı sürecinde Türkiye’nin iç ve dış siyasetinde karşılaştığı tarihsel sorunun çözümü için yapılan uygulamaların ve alınan kararların güncel sorunların meydana gelmesine etkilerini belirler. d) II. Dünya Savaşı sürecinde Türkiye’nin iç ve dış siyasetinde karşılaştığı tarihsel sorunu çözmeye yönelik alternatif öneriler geliştirir. e) II. Dünya Savaşı sürecinde Türkiye’nin iç ve dış siyasetinde karşılaştığı tarihsel sorunu çözmeye yönelik geliştirdiği alternatif önerilerin olası sonuçlarını yetkililerin yaptıkları uygulamalar ve aldıkları kararların sonuçlarıyla karşılaştırarak değerlendirir. İTA.12.3.3. Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’nin dış politikasındaki değişim ve sürekliliği neden ve sonuçlarıyla yorumlayabilme a) Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’nin dış politikasındaki değişim ve sürekliliğe neden olan unsurları inceler. b) Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’nin dış politikasındaki değişim ve sürekliliğin etkilediği unsurları inceler. c) Soğuk Savaş Dönemi’nin başlangıcından itibaren yaşanan gelişmeleri Türkiye’nin dış politikasındaki değişim ve sürekliliğe etkileri açısından sorgular. ç) Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’nin dış politikasındaki değişim ve sürekliliğin neden ve sonuçlarını bağlamından kopmadan ifade eder. İTA.12.3.4. Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’de meydana gelen siyasi gelişmelerin demokratikleşme sürecine etkilerini yorumlayabilme a) Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’de meydana gelen siyasi gelişmelere ilişkin verilen kaynakları inceler. b) Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’de meydana gelen siyasi gelişmelere ilişkin kaynaklarda verilen bilgileri bağlamından kopmadan sözlü, yazılı, görsel biçimlere dönüştürür. c) Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’de meydana gelen siyasi gelişmeleri demokratikleşme sürecine etkileri açısından kendi ifadeleriyle açıklar. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI İTA.12.3.5. Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’deki sosyal ve ekonomik gelişmeleri toplumsal etkileri açısından değerlendirebilme a) Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’deki sosyal ve ekonomik gelişmeleri toplumsal etkileri bakımından karşılaştırır. b) Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’deki sosyal ve ekonomik gelişmelerle ilgili yaptığı karşılaştırmalara yönelik yargıda bulunur. İTA.12.3.6. Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmelere ilişkin oluşturduğu özgün ürünleri paylaşabilme a) Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmeler hakkındaki araştırmasına dair belirlediği kaynaklardan bilgi toplar. b) Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmelere ilişkin topladığı bilgilerin araştırmasına uygunluğunu belirler. c) Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmelere ilişkin kullanacağı kaynakların sınırlılığını sorgular. ç) Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmelerle ilgili olarak araştırmasına uygun kaynaklardan belirlediği bilgileri yorumlar. d) Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmelere ilişkin kanıta dayalı oluşturduğu araştırmasını paylaşır veya sergiler.",
+    "İÇERİK ÇERÇEVESİ": "II. Dünya Savaşı’nın Neden ve Sonuçları II. Dünya Savaşı Sürecinde Türkiye’nin İç ve Dış Siyasetinde Yaşanan Gelişmeler Soğuk Savaş Dönemi’nin Başlangıcından İtibaren Türkiye’nin Dış Politikası Soğuk Savaş Dönemi’nin Başlangıcından İtibaren Türkiye’de Yaşanan Siyasi Gelişmelerin Demokratikleşme Sürecine Etkileri Soğuk Savaş Dönemi’nin Başlangıcından İtibaren Türkiye’deki Sosyal ve Ekonomik Gelişmeler Soğuk Savaş Dönemi’nin Başlangıcından İtibaren Türkiye’de Bilim, Teknoloji, Kültür, Eğitim ve Spor Alanlarında Yaşanan Gelişmeler",
+    "Anahtar Kavramlar": "askerî darbe, faşizm, karaborsa, komünizm, kutuplaşma, küreselleşme, Mavi Vatan, mihver, muhtıra, müttefik, Nazizm, postmodern darbe T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME KANITLARI": "Bu ünitedeki öğrenme çıktıları; neden-sonuç formu, öz ve akran değerlendirme formları, (Ölçme ve çıkış kartı ve performans görevi ile değerlendirilebilir. Değerlendirme) II. Dünya Savaşı’nın neden ve sonuçlarının özetlenmesinde neden-sonuç formu kullanılabilir. Neden-sonuç formu kontrol listesiyle değerlendirilebilir. Türkiye’nin dış politikasındaki değişim ve sürekliliğin neden ve sonuçlarının yorumlanması amacıyla gerçekleştirilen panelin değerlendirilmesinde öz ve akran değerlendirme formları, Türkiye’deki sosyal ve ekonomik gelişmelerin değerlendirilmesinde çıkış kartı (3-2-1 tekniği) kullanılabilir. Öğrencilerden performans görevi olarak II. Dünya Savaşı sürecinde Türkiye’nin iç ve dış siyasetinde meydana gelen gelişmelere ilişkin sunum hazırlamaları istenebilir. Hazırlanan sunum; sorunu tanımlama, farklı bakış açılarını çözümleme, kararların ve uygulamaların uygunluğunu değerlendirme, tarihsel kararların güncel sonuçlarını ilişkilendirme, alternatif öneriler geliştirme, alternatiflerin sonuçlarını karşılaştırma gibi ölçütlerden oluşan dereceli puanlama anahtarı ve grup değerlendirme formuyla değerlendirilebilir. Öğrencilerden Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’de meydana gelen siyasi gelişmelerin demokratikleşme sürecine etkilerini içeren bir poster veya dijital poster hazırlamaları ve hazırladıkları ürünü paylaşmaları istenebilir. Hazırlanan poster veya dijital posterler; içeriğin doğruluğu, kaynak kullanımı, kendi ifadesiyle açıklama gibi ölçütlerden oluşan dereceli puanlama anahtarı ve grup değerlendirme formu kullanılarak değerlendirilebilir. Öğrencilere Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmeler konusunda araştırma raporu hazırlamaya ve sunmaya yönelik performans görevi verilebilir. Hazırlanan araştırma raporu ve sunum; kaynaklardan bilgi toplama, kaynakların çeşitliliği ve güvenilirliğini, kaynakları yorumlama, sunum yapma, özgünlük gibi ölçütler kullanılarak oluşturulan dereceli puanlama anahtarıyla değerlendirilebilir. Hazırlanan dereceli puanlama anahtarı grup değerlendirme formu olarak, araştırma sürecinde kullanılan kontrol listesi ise öz değerlendirme formu olarak kullanılabilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin I. Dünya Savaşı’nın sonuçları, Cumhuriyet Dönemi’nde Türkiye’nin komşu ülkelerle ilişkileri ve Türk demokrasi tarihine ilişkin temel bilgilere sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci Ünite kapsamında öğrencilere aşağıdaki rehber sorular sorulabilir. • II. Dünya Savaşı’nın ortaya çıkmasında I. Dünya Savaşı’nın ne gibi etkileri olmuştur? • Sizce çok partili siyasi hayata geçişin Türk demokrasi tarihindeki önemi nedir? • Türkiye’nin uluslararası kuruluşlara üye olma gerekçeleri neler olabilir? • Kıbrıs Adası’nın jeopolitik önemine dair neler söylenebilir? • Asılsız Ermeni iddialarının ortaya çıkış nedenleri neler olabilir? Ünite kapsamında öğrencilere aşağıdaki etkinlikler yaptırılabilir. • Cumhuriyet Dönemi’nde gerçekleşen darbeleri ve darbe girişimlerini tarih şeridi üzerinde sıralamaları istenebilir. • Türkiye Cumhuriyeti’nin bilim, kültür, sanat ve spor alanlarındaki “en”lerini listelemeleri istenebilir. • Türkiye Cumhuriyet Merkez Bankasının genel ağ adresi üzerinden Cumhuriyet Dönemi banknotlarını incelemeleri, banknotlar arasındaki benzerlik ve farklılıkların nedenleri hakkında fikir yürütmeleri istenebilir. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilerin uluslararası çatışma ve krizlerin her dönemde devam etmesinin nedenlerini sorgulamaları sağlanabilir. Küresel sorunların çözümünde rol oynayan kurumların tarihçelerini incelemeleri istenebilir. Millî kalkınma hedeflerinin günümüzde nasıl devam ettiği hakkında öğrencilere sorular sorulabilir. Öğrencilerden millî teknoloji hamlesinin gelecekte ulaşacağı noktaya ilişkin öngörülerini ifade etmeleri istenebilir. Türkiye’de demokrasinin kesintiye uğramaması için üzerlerine düşen görev ve sorumlulukları gerekçeleriyle açıklamaları istenebilir. Öğrenme-Öğretme Uygulamaları İTA.12.3.1 Öğrencilerin kavram öğretim materyalleri üzerinden konu içeriğinde geçen kavramların anlamlarını açıklamaları istenir. Öğrencilere I. Dünya Savaşı’nın sonuçlarıyla II. Dünya Savaşı’nın nedenleri arasında bağlantı kurulmasına yönelik sorular sorulur. Bu sorular çerçevesinde öğrencilerin II. Dünya Savaşı’na neden olan gelişmeleri gösteren farklı kaynakları incelemeleri sağlanır (SBAB10.3). II. Dünya Savaşı’nın seyrini değiştiren gelişmelerden Pearl Harbor Baskını, Stalingrad Kuşatması, Normandiya Çıkarması, Hiroşima ve Nagazaki’ye atom bombalarının atılmasının yer aldığı açıklamalı tarih şeridini incelemeleri istenir. Örnek olaylardan hareketle insan ve doğayı sevmenin ve korumanın önemini açıklamaları sağlanır (D9.3, KB3.3). II. Dünya Savaşı’nın seyrini değiştiren gelişmelerle savaşın sonuçlarına yönelik soru-cevap etkinliği yapılır (E3.4). Öğrenciler II. Dünya Savaşı’nın neden ve sonuçlarını siyasi, sosyal ve ekonomik bağlamda sınıflandırır. Savaş sonrasında ortaya çıkan Soğuk Savaş Dönemi, Birleşmiş Milletler ve IMF’nin kuruluşu, siyonist hareketler, Filistin Meselesi hususlarının yanı sıra sömürgeciliğin şekil değiştirmesiyle oluşan “erken dönem sömürgecilik ve kolonileşme faaliyetlerini, Sanayi İnkılabı ile başlayan modern dönem sömürgecilik faaliyetlerini, yeni nesil sömürgecilik faaliyetlerini ve siyonist hareketleri” kendi cümleleriyle ifade eder (OB1, SDB2.1). Örnek metin ve olaylardan hareketle siyonist faaliyetleri ve Filistin Meselesi’ni hakkaniyetli davranmanın önemi bakımından değerlendirir (D1.2, SDB3.3). Öğrencilerden II. Dünya Savaşı’nın neden ve sonuçlarını değerlendirilebilmeleri amacıyla verilen neden-sonuç formunu doldurmaları istenir. İTA.12.3.2 Grup çalışması yoluyla öğrencilerin II. Dünya Savaşı sırasında Türkiye’nin iç siyasetindeki Millî Korunma Kanunu, ekmek karnesi ve varlık vergisi uygulamaları ile dış siyasetindeki Mihver ve Müttefik devletlerle ilişkileri hakkında merak ettikleri tarihsel bir sorunu belirlemeleri sağlanır (E1.1, SDB2.2). Öğrencilerden belirledikleri soruna ilişkin sorgulama yapmaları ve bu sorunu tanımlamaları istenir. Öğrenciler yazılı, görsel, basılı ve dijital kaynaklar üzerinden belirledikleri tarihsel soruna ilişkin tarafların bakış açılarını analiz eder. Örnek olaylardan hareketle ülkede yaşanan olağanüstü durumlarda yardımlaşma ve dayanışmanın önemini açıklar (D16.2). Tarihsel sorunun çözümü için yapılan uygulamaları ve alınan kararları değerlendirerek bunların güncel sorunların meydana gelmesine etkilerini ifade eder. Sorunu çözmeye yönelik alternatif öneriler üretir (SDB3.2). Bu önerilerin olası sonuçlarını II. Dünya Savaşı sürecinde yetkililerin yaptıkları uygulamalar ve aldıkları kararların sonuçlarıyla karşılaştırarak değerlendirir. Yaptıkları çıkarımlar doğrultusunda öğrencilere sunum hazırlamaya ve sunumlarını paylaşmaya yönelik performans görevi verilir (SDB2.1, SDB3.3). T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI İTA.12.3.3 Öğrencilerin verilen farklı kaynaklar üzerinden Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’nin dış politikasındaki “Kore Savaşı, Türkiye’nin NATO üyeliği, Kıbrıs Sorunu ve Kıbrıs Barış Harekâtı, Türk-Yunan ilişkileri, Türkiye’nin deniz jeopolitiği ve Türkiye’nin deniz yetki alanı olan Mavi Vatan, asılsız Ermeni iddiaları ve ASALA terörü, Türkiye-Avrupa Birliği ilişkileri, Türk dünyası ile ilişkiler, Dağlık Karabağ Sorunu ve Bosna Savaşı” konularını değişim ve süreklilik açısından incelemeleri sağlanır (SBAB10.3). Öğrenciler, Türkiye’nin girişimci ve insani dış politika faaliyetlerini ‘‘gönül coğrafyamız’’ bağlamında analiz eder. TİKA, Yurtdışı Türkler ve Akraba Topluluklar Başkanlığı, TÜRKSOY, Yunus Emre Enstitüsü ve Türkiye Maarif Vakfının çalışmaları üzerinden Türkiye’nin kültürel diplomasi çabalarını örneklendirir (KB3.1). Öğrencilerin ülkeler arası yardımlaşmanın dostluğun gelişmesine katkıda bulunacağına yönelik örnekler vermeleri istenir (D4.5, E2.3). Soğuk Savaş Dönemi’nde Türkiye’nin dış politikasındaki değişim ve süreklilikle ilgili kendi sorularını hazırlayarak birbirlerinin sorularını yanıtlamaları sağlanır. Bu süreçte Türkiye’nin dış politikasındaki değişim ve sürekliliğin neden ve sonuçlarını bağlamdan kopmadan ifade etmelerine imkân verilir (SDB2.1). Panel sonunda öğrencilerden öz değerlendirme ve akran değerlendirme formları ile kendi öğrenmelerini ve akranlarını değerlendirmeleri istenir (SDB1.2). İTA.12.3.4 Öğrenciler, Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’deki siyasi gelişmelerin gösterildiği bilgi görselini inceler. Verilen farklı kaynaklardan hareketle Soğuk Savaş Dönemi’nin başlangıcından itibaren çok partili siyasi hayata geçiş çabalarının; 27 Mayıs Askerî Darbesi, 1971 Muhtırası, 1980 Askerî Darbesi, 28 Şubat Müdahalesi, 27 Nisan e-Muhtırası ve 15 Temmuz Darbe Kalkışması üzerinden darbelerin; PKK/PYD, DEAŞ ve FETÖ terör örgütleri üzerinden millî güvenliği tehdit eden unsurların ve terörle mücadelenin Türkiye’nin demokratikleşmesi sürecine etkilerini belirler (E3.6, KB3.1). Performans görevi olarak konuya ilişkin seçtiği siyasi gelişmelerden birine yönelik poster veya dijital poster hazırlar. 15 Temmuz Darbe Kalkışması’ndan söz edilirken toplumların kendi hak ve özgürlüklerini kullanma ve korumaları konusunda taviz vermemesi gerektiği açıklanır (D11.1). Öğrencilerden Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’de meydana gelen siyasi gelişmelerin demokratikleşme sürecine etkilerine ilişkin yorumlarını sınıfta sözlü olarak paylaşmaları istenir (SDB2.1). İTA.12.3.5 Grup çalışması yoluyla öğrencilerin verilen farklı kaynaklar üzerinden “Marshall Planı, tarımda makineleşme, sanayileşme çabaları, ulaşım, bayındırlık, köyden kente göç, IMF ile ilişkiler, ekonomik krizler, ekonomik kalkınma planları, sığınmacı sorunu ve Türkiye’nin bu soruna yaklaşımı ile Cumhurbaşkanlığı Hükûmet Sistemi” konularını incelemeleri sağlanır (OB3, SDB2.2, SBAB11.1). Öğrenciler, örnek olaylardan hareketle köyden kente göç konusunda toplum içinde birlik ve dayanışmayı destekleyen ve toplumsal uyumun temelini oluşturan unsurları açıklar (D14.3). Soru-cevap tekniği kullanılarak grupların sosyal ve ekonomik gelişmelerin toplumsal etkilerini karşılaştırmaları sağlanır (SDB2.3, KB2.7). Ulaşılan bilgilerden hareketle Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’deki sosyal ve ekonomik gelişmelerin değerlendirildiği büyük grup tartışması yapılır (E3.10, SDB2.1, SDB3.3). Öğrencilerden Türkiye’deki sosyal ve ekonomik gelişmelere yönelik değerlendirmelerini çıkış kartına yazmaları istenir. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI İTA.12.3.6 Grup çalışması yoluyla Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmelere ilişkin bir araştırma başlatılır. Araştırma sürecinin bilgi toplama aşaması dışındaki aşamaları sınıfta, öğretmen rehberliğinde ve grup çalışması şeklinde gerçekleştirilir. Öğrencilere araştırma sürecinin aşamalarını içeren kontrol listesi verilir. Kontrol listesi aracılığıyla öğrencilerin araştırma sürecinin basamaklarını takip etmeleri ve denetlemeleri sağlanır. Her grup için Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmelerden birini yansıtan araştırma konusu belirlenir. Bilgi toplama, kaynak inceleme ve kaynakları sorgulama süreçleri adımlar hâlinde yönergelerle işletilir. Gruplar, araştıracakları konuyla ilgili hangi kaynakları kullanacaklarını ve bu kaynaklara nerede ve nasıl ulaşacaklarını öğretmen rehberliğinde belirler. Kütüphaneler, müzeler, arşivler, tarihî mekânlar ve genel ağı ziyaret ederek araştırma konularıyla ilgili kaynaklardan bilgi toplar (E3.7). Kaynaklara uygun sorular sorarak kaynağın birinci elden veya ikinci elden olup olmadığı; kaynağın yazılı, görsel, sayısal, dijital olarak türü, yazarı, tarihi, dijital kimliği, genel ağdaki uzantısı gibi temel unsurları belirler. Topladığı bilgileri ilgili ve ilgisiz olarak ayrıştırdıktan sonra araştırma konusuna uygun olanları tespit eder (E3.2). Kaynakları sorgularken kullanacağı kaynaklara ön yargı, çelişki veya tutarsızlık içeren ifadeleri ortaya çıkaracak sorular sorar (E3.4). Bu süreçte aynı konuyla ilgili farklı kaynakları karşılaştırarak konuya ilişkin farklı görüşleri belirler. Kaynağın içeriğini tutarsızlık açısından kontrol eder. Kaynaklarda yer alan olgu ve görüşleri ayırt eder. Kaynaklardaki bilgilerin güncel araştırmaları içerip içermediğini sorgular. Bu sorgulamalar sonucunda topladığı bilgilerin araştırma konusu için yeterliliğine yönelik çıkarımda bulunur. Topladığı bilgilerin sınırlı kalması durumunda farklı kaynaklara başvurarak yeniden bilgi toplayabilir (E1.3). Öğrencilerden kullandığı kaynakların yaptığı araştırmaya katkısını değerlendirmek amacıyla tarihsel kaynak/kanıt analiz formunu doldurmaları istenir. Gruplar araştırmalarında kullanacağı bilgileri ana fikir, şahıslar, eserler, mekânlar, kurumlar bağlamında belirler. Bu bilgileri araştırma raporunda kullanmak amacıyla uygun yerlerde tarih şeridi, harita, tablo, grafik, bilgi görseli gibi görsel metinlere dönüştürür. Ulaştıkları bilgilerden hareketle kendi görüşlerini yansıtan yorumları oluşturur (SDB2.2). Öğrenciler kanıtlardan hareketle Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmelere ilişkin çıkarım yapar. Gruplar yaptıkları araştırmaları rapora dönüştürür (E3.1). Öğrenciler; araştırma raporunu hazırlarken uygun başlıklar bulur, hazırladığı görselleri metnin içeriğine uygun biçimde kullanır, kaynaklara metin içinde atıf yapar ve kullandığı kaynakları kaynakçada gösterir. Gruplar sınıf içinde araştırma raporlarını sunar. Öğrenciler araştırmaları sırasında ulaştıkları bilgilerden hareketle millî sanayi hamleleri ve millî teknoloji gelişmeleri üzerinden cesaretli ve girişimci olmanın önemini açıklar (D11.1). Sunum sonrasında grupların Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmeleri karşılaştırarak yorumlamaları sağlanır (KB3.2). Performans görevi olarak verilen araştırma raporları; panel, seminer, bilim şöleni, proje fuarı veya dijital platformlarda sunularak paylaşılabilir (OB2). T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden II. Dünya Savaşı sürecinde Türkiye’de uygulanan vergilerin benzerlerinin farklı ülkelerde de uygulandığı konusunu araştırmaları istenebilir. Elde ettikleri bilgilerden ha­reketle karşılaştırmalı tablo hazırlamaları ve bunu yorumlamaları sağlanabilir. Kore Savaşı’nda Türkiye’nin katkısını konu edinen bir film seyretmeleri, Kore Savaşı’nın gelişimi ile ilgili araştırma yapmaları ve Türkiye’nin savaşa katılımına ilişkin tarihsel akış şeması oluşturmaları istenebilir. Kıbrıs Sorunu’na ilişkin yazılı ve görsel kaynakları ince­leyerek Birleşmiş Milletlere sunulmak üzere Ada’daki Türklerin siyasi, ekonomik, sosyal ve kültürel açıdan uğradıkları haksızlıkları ortaya koyan bir rapor hazırlamaları istenebilir. * ASALA terör örgütünün şehit ettiği diplomatlar hakkında araştırma yapmaları ve elde ettikleri bilgilerden hareketle “Şehit Diplomatlar Albümü” oluşturmaları istenebilir. Türkiye’nin jeopolitik ve jeostratejik gücünü artıran etmenlere ilişkin afiş hazırlamaları is­ tenebilir. Türkiye’nin girişimci ve insani dış politikasının küresel ve bölgesel sorunların çözümüne etkisiyle ilgili araştırma yapmaları istenebilir. * Türkiye’de 1950 sonrasında köyden kente göç konusuyla ilgili sözlü tarih çalışması yap­ maları, ulaştıkları bilgilerden hareketle kısa bir belgesel hazırlamaları ve bu belgeseli sınıf ortamında sunmaları istenebilir. Aliya İzzetbegoviç, Rauf Denktaş, Dr. Sadık Ahmet, Muhammed Ali Cinnah, İsa Yusuf Alp­ tekin gibi önemli şahsiyetlerden birinin hayatını ve eserlerini araştırıp biyografisini hazırla­ maları ve sunmaları istenebilir. Destekleme Öğrencilerden II. Dünya Savaşı sürecini basit bir şekilde anlatan bilgi görselini inceleme­leri istenebilir. Kıbrıs Adası’nı harita üzerinde göstererek Ada’nın Türkiye için önemini anlatmaları istenebilir. Türk Cumhuriyetleri’nin isimlerini saymaları istenebilir. Örneklerden yola çıkarak Türk topluluklarının ortak yönlerini listelemeleri istenebilir. Öğretmeninden veya arkadaşlarından yardım alarak PKK/PYD, DEAŞ ve FETÖ terör örgütlerinin Türkiye Cumhuriyeti’ne verdiği zararları açıklamaları istenebilir. Darbelerin Türkiye Cumhuriyeti’ne verdiği zararları anlatan kısa belgesel film izlemeleri ve kısa notlar almaları istenebilir. Yakın dönemde Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında meydana ge­ len gelişmelerden birine ilişkin basit düzeyde bir araştırma yapmaları ve ulaştıkları sonuç­ ları rapor olarak sunmaları istenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI EK-1 BİLDİKLERİM, MERAK ETTİKLERİM, ÖĞRENDİKLERİM VE HİSSETTİKLERİM FORMU* Adı: Soyadı: Numarası: Sınıfı: BİLDİKLERİM, MERAK ETTİKLERİM, ÖĞRENDİKLERİM VE HİSSETTİKLERİM FORMU Sevgili Öğrenciler, Aşağıdaki formun “Bildiklerim” ve “Merak Ettiklerim” sütunlarını derse başlamadan önce, “Öğrendiklerim’’ ve ‘‘Hissettiklerim” sütunlarını ise ders bitiminde doldurunuz. Konu: Bildiklerim Merak Ettiklerim Öğrendiklerim Hissettiklerim * Bu form, örnek olması amacıyla geliştirilmiştir. Öğrenme çıktıları, içerik çerçevesi ve öğrenme-öğretme uygulamalarına göre farklılaştırılabilir. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI EK-2 NEDEN-SONUÇ FORMU* Adı: Soyadı: Numarası: Sınıfı: NEDEN-SONUÇ FORMU Sevgili Öğrenciler, İncelediğiniz tarihsel olaydan yola çıkarak soruları cevaplayınız. Nedenler Sonuçlar Olay, Durum, • Siyasi • Siyasi • Sosyal Kurum ve • Sosyal • Ekonomik Fikir • Ekonomik • Kültürel • Kültürel ……………………………………………. ………………………………………… …………………………………………… ...………………………………………… …....…………………………………… ....……………………………………… …………………………………………… ………………………………………… …………………………………………… ………………………....……………… ………………………………....……… …………………………....…………… …………………………………………… ………………………………………… …………………………………………… …………………………………………… ………………………………………… …………………………………………… …………………………………………… ………………………………………… …………………………………………… ………..................................…… ……………………….................... ………….................................. …………………………………………… ..............…………………………… …………………………………………… ……………………………………......... ………………………………………… ………………………………………….. .........................…………………… ………………............................. ................................…………… …………………………................... .....……………………………………… ………………....………….............. ...............…………….................. ………..................................… .....................……………………… ................……………................. ……….................................… …………………………………………… ……………………………………......... …………….…………………………… ……………………………………......... .........................…………………… ………..................................… .........................…………………… …………………………................... ……………..........…………………… ………………………….................... ................……………................. ................……………................. ...............…………….................. * Bu form, örnek olması amacıyla geliştirilmiştir. Öğrenme çıktıları, içerik çerçevesi ve öğrenme-öğretme uygulamalarına göre farklılaştırılabilir. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI EK-3 TARİHSEL KAYNAK/KANIT ANALİZ FORMU* Adı: Soyadı: Numarası: Sınıfı: TARİHSEL KAYNAK/KANIT ANALİZ FORMU Sevgili Öğrenciler, İncelediğiniz tarihsel kaynaklardan/kanıtlardan yola çıkarak soruları cevaplayınız. 1. İncelediğiniz kaynaklar/kanıtlar birinci elden ya da ikinci elden kaynaklardan/kanıtlardan hangisine örnek olabilir? Nedenini açıklayınız. ………………………………………………………………………………………………….................................... …………….………………………………………………………………………………………………….………………… ………………………………………………………………………………………………....................................… ………………………………………………………………………………………………....................................… ………………………………………………………………………………………………....................................… ………………………………………………………………………………………………....................................… ……………………………………………………………………………………………….................................... 2. Kaynakların/kanıtların türü nedir? ………………………………………………………………………………………………….................................... …………….………………………………………………………………………………………………….………………… ………………………………………………………………………………………………....................................… ………………………………………………………………………………………………....................................… ………………………………………………………………………………………………....................................… ………………………………………………………………………………………………....................................… ……………………………………………………………………………………………….................................... 3. Kaynakların/kanıtların konusu nedir? ………………………………………………………………………………………………….................................... …………….………………………………………………………………………………………………….………………… ………………………………………………………………………………………………....................................… ………………………………………………………………………………………………....................................… ………………………………………………………………………………………………....................................… ………………………………………………………………………………………………....................................… ……………………………………………………………………………………………….................................... * Bu form, örnek olması amacıyla geliştirilmiştir. Öğrenme çıktıları, içerik çerçevesi ve öğrenme-öğretme uygulamalarına göre farklılaştırılabilir. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI 4. Kaynakları/kanıtları kim/kimler yazmış veya oluşturmuştur? ………………………………………………………………………………………………….................................... …………….………………………………………………………………………………………………….………………… ……………………………………………………………………………………………….................................... 5. Kaynaklar/kanıtlar ne zaman yazılmış veya oluşturulmuştur? ………………………………………………………………………………………………….................................... …………….………………………………………………………………………………………………….………………… ……………………………………………………………………………………………….................................... 6. Kaynakların/kanıtların yazılma veya oluşturulma amacı nedir? ………………………………………………………………………………………………….................................... …………….………………………………………………………………………………………………….………………… ……………………………………………………………………………………………….................................... 7. Kaynakların/kanıtların hedef kitlesi kim/kimlerdir? ………………………………………………………………………………………………….................................... …………….………………………………………………………………………………………………….………………… ……………………………………………………………………………………………….................................... 8. Kaynakları/kanıtları yazan veya oluşturan kişinin/kişilerin bakış açısı kaynağa/kanıta nasıl yansımıştır? ………………………………………………………………………………………………….................................... …………….………………………………………………………………………………………………….………………… ……………………………………………………………………………………………….................................... 9. Kaynakların/kanıtların yanlılık ve yanıltıcılık durumu nedir? ………………………………………………………………………………………………….................................... …………….………………………………………………………………………………………………….………………… ……………………………………………………………………………………………….................................... 10. Bu kaynaklar/kanıtlar çalıştığınız konuya, yazdığınız yazıya veya yaptığınız tartışmaya hangi katkıları sağlamaktadır? Neden? ………………………………………………………………………………………………….................................... …………….………………………………………………………………………………………………….………………… ………………………………………………………………………………………………...................................."
+   },
+   "outcomes": [
+    {
+     "code": "İTA.12.3.1",
+     "order": 1,
+     "text": "II. Dünya Savaşı’nın neden ve sonuçlarını özetleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "II. Dünya Savaşı’nın neden ve sonuçlarıyla ilgili çözümleme yapar."
+      },
+      {
+       "label": "b",
+       "text": "II. Dünya Savaşı’nın neden ve sonuçlarını sınıflandırır."
+      },
+      {
+       "label": "c",
+       "text": "II. Dünya Savaşı’nı neden ve sonuçları bakımından yorumlar."
+      }
+     ]
+    },
+    {
+     "code": "İTA.12.3.2",
+     "order": 2,
+     "text": "II. Dünya Savaşı sürecinde Türkiye’nin iç ve dış siyasetinde karşılaştığı sorunların çözümüne yönelik alternatif fikirler üretebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "II. Dünya Savaşı sürecinde Türkiye’nin iç ve dış siyasetinde karşılaştığı tarihsel bir sorunu tanımlar."
+      },
+      {
+       "label": "b",
+       "text": "II. Dünya Savaşı sürecinde Türkiye’nin iç ve dış siyasetinde karşılaştığı tarihsel soruna ilişkin tarafların bakış açılarını çözümler."
+      },
+      {
+       "label": "c",
+       "text": "II. Dünya Savaşı sürecinde Türkiye’nin iç ve dış siyasetinde karşılaştığı tarihsel sorunun çözümü için yapılan uygulamaları ve alınan kararları değerlendirir."
+      },
+      {
+       "label": "ç",
+       "text": "II. Dünya Savaşı sürecinde Türkiye’nin iç ve dış siyasetinde karşılaştığı tarihsel sorunun çözümü için yapılan uygulamaların ve alınan kararların güncel sorunların meydana gelmesine etkilerini belirler."
+      },
+      {
+       "label": "d",
+       "text": "II. Dünya Savaşı sürecinde Türkiye’nin iç ve dış siyasetinde karşılaştığı tarihsel sorunu çözmeye yönelik alternatif öneriler geliştirir."
+      },
+      {
+       "label": "e",
+       "text": "II. Dünya Savaşı sürecinde Türkiye’nin iç ve dış siyasetinde karşılaştığı tarihsel sorunu çözmeye yönelik geliştirdiği alternatif önerilerin olası sonuçlarını yetkililerin yaptıkları uygulamalar ve aldıkları kararların sonuçlarıyla karşılaştırarak değerlendirir."
+      }
+     ]
+    },
+    {
+     "code": "İTA.12.3.3",
+     "order": 3,
+     "text": "Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’nin dış politikasındaki değişim ve sürekliliği neden ve sonuçlarıyla yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’nin dış politikasındaki değişim ve sürekliliğe neden olan unsurları inceler."
+      },
+      {
+       "label": "b",
+       "text": "Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’nin dış politikasındaki değişim ve sürekliliğin etkilediği unsurları inceler."
+      },
+      {
+       "label": "c",
+       "text": "Soğuk Savaş Dönemi’nin başlangıcından itibaren yaşanan gelişmeleri Türkiye’nin dış politikasındaki değişim ve sürekliliğe etkileri açısından sorgular."
+      },
+      {
+       "label": "ç",
+       "text": "Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’nin dış politikasındaki değişim ve sürekliliğin neden ve sonuçlarını bağlamından kopmadan ifade eder."
+      }
+     ]
+    },
+    {
+     "code": "İTA.12.3.4",
+     "order": 4,
+     "text": "Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’de meydana gelen siyasi gelişmelerin demokratikleşme sürecine etkilerini yorumlayabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’de meydana gelen siyasi gelişmelere ilişkin verilen kaynakları inceler."
+      },
+      {
+       "label": "b",
+       "text": "Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’de meydana gelen siyasi gelişmelere ilişkin kaynaklarda verilen bilgileri bağlamından kopmadan sözlü, yazılı, görsel biçimlere dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’de meydana gelen siyasi gelişmeleri demokratikleşme sürecine etkileri açısından kendi ifadeleriyle açıklar. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI"
+      }
+     ]
+    },
+    {
+     "code": "İTA.12.3.5",
+     "order": 5,
+     "text": "Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’deki sosyal ve ekonomik gelişmeleri toplumsal etkileri açısından değerlendirebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’deki sosyal ve ekonomik gelişmeleri toplumsal etkileri bakımından karşılaştırır."
+      },
+      {
+       "label": "b",
+       "text": "Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’deki sosyal ve ekonomik gelişmelerle ilgili yaptığı karşılaştırmalara yönelik yargıda bulunur."
+      }
+     ]
+    },
+    {
+     "code": "İTA.12.3.6",
+     "order": 6,
+     "text": "Soğuk Savaş Dönemi’nin başlangıcından itibaren Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmelere ilişkin oluşturduğu özgün ürünleri paylaşabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmeler hakkındaki araştırmasına dair belirlediği kaynaklardan bilgi toplar."
+      },
+      {
+       "label": "b",
+       "text": "Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmelere ilişkin topladığı bilgilerin araştırmasına uygunluğunu belirler."
+      },
+      {
+       "label": "c",
+       "text": "Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmelere ilişkin kullanacağı kaynakların sınırlılığını sorgular."
+      },
+      {
+       "label": "ç",
+       "text": "Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmelerle ilgili olarak araştırmasına uygun kaynaklardan belirlediği bilgileri yorumlar."
+      },
+      {
+       "label": "d",
+       "text": "Türkiye’de bilim, teknoloji, kültür, eğitim ve spor alanlarında yaşanan gelişmelere ilişkin kanıta dayalı oluşturduğu araştırmasını paylaşır veya sergiler."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "unassigned_outcomes": [],
+ "report": {
+  "units": 3,
+  "outcomes": 16,
+  "components": 53,
+  "orphan_outcomes": 0,
+  "gaps": [
+   {
+    "course": "T.C. İnkılap Tarihi ve Atatürkçülük Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "İTA.8.1.1",
+     "İTA.8.1.2",
+     "İTA.8.1.3",
+     "İTA.8.2.1",
+     "İTA.8.2.2",
+     "İTA.8.2.3",
+     "İTA.8.2.4",
+     "İTA.8.2.5",
+     "İTA.8.3.1",
+     "İTA.8.3.2",
+     "İTA.8.3.3",
+     "İTA.8.3.4",
+     "İTA.8.4.1",
+     "İTA.8.4.2",
+     "İTA.8.4.3"
+    ]
+   }
+  ]
+ }
+}

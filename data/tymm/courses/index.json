@@ -1,0 +1,2007 @@
+{
+ "source": {
+  "name": "Türkiye Yüzyılı Maarif Modeli — Ders Programları",
+  "fetched_at": "2026-09-09",
+  "generator": "scripts/fetch_tymm_ogrenme_ciktilari.py",
+  "note": "Ders programı PDF'lerinden çıkarıldı; PDF'ler sürümlenmez."
+ },
+ "report": {
+  "courses": 80,
+  "units": 1212,
+  "outcomes": 3156,
+  "components": 7608,
+  "courses_without_outcomes": 31,
+  "gaps": [
+   {
+    "course": "İlkokul Türkçe Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Ortaokul Türkçe Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "T.C. İnkılap Tarihi ve Atatürkçülük Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "İTA.8.1.1",
+     "İTA.8.1.2",
+     "İTA.8.1.3",
+     "İTA.8.2.1",
+     "İTA.8.2.2",
+     "İTA.8.2.3",
+     "İTA.8.2.4",
+     "İTA.8.2.5",
+     "İTA.8.3.1",
+     "İTA.8.3.2",
+     "İTA.8.3.3",
+     "İTA.8.3.4",
+     "İTA.8.4.1",
+     "İTA.8.4.2",
+     "İTA.8.4.3"
+    ]
+   },
+   {
+    "course": "Din Kültürü ve Ahlak Bilgisi Dersi",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "DKAB.6.2.226"
+    ]
+   },
+   {
+    "course": "Peygamberimizin Hayatı Dersi",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "PH.8.2.2"
+    ]
+   },
+   {
+    "course": "Kur'an-ı Kerim Dersi",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "KK.7.4.1"
+    ]
+   },
+   {
+    "course": "Okul Öncesi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Müzik Dersi",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "MÜZ.1.2.7"
+    ]
+   },
+   {
+    "course": "Trafik Güvenliği Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "TG.4.1.1",
+     "TG.4.1.2",
+     "TG.4.1.3",
+     "TG.4.1.4",
+     "TG.4.2.1",
+     "TG.4.2.2",
+     "TG.4.2.3",
+     "TG.4.2.4",
+     "TG.4.3.1",
+     "TG.4.3.2",
+     "TG.4.4.2"
+    ]
+   },
+   {
+    "course": "Trafik Güvenliği Dersi",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "TG.4.4.1"
+    ]
+   },
+   {
+    "course": "İngilizce Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "ENG.3.1.6"
+    ]
+   },
+   {
+    "course": "Çoklu Yabancı Dil Eğitim Modeli İngilizce",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Çoklu Yabancı Dil Eğitim Modeli Almanca",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Bilişim Teknolojileri ve Yazılım Dersi",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "BTY.5.2.1",
+     "BTY.5.2.4"
+    ]
+   },
+   {
+    "course": "Afet Bilinci Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "AB.1.1.1",
+     "AB.1.1.2",
+     "AB.1.1.3",
+     "AB.1.2.1",
+     "AB.1.2.2",
+     "AB.1.2.3",
+     "AB.1.3.1",
+     "AB.1.3.2",
+     "AB.1.3.3",
+     "AB.1.4.1",
+     "AB.1.4.2",
+     "AB.2.1.1",
+     "AB.2.1.2",
+     "AB.2.1.3",
+     "AB.2.2.1",
+     "AB.2.2.2",
+     "AB.2.2.3",
+     "AB.2.3.1",
+     "AB.2.3.2",
+     "AB.2.3.3",
+     "AB.2.4.1",
+     "AB.2.4.2"
+    ]
+   },
+   {
+    "course": "Ahlak ve Vatandaşlık Eğitimi Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "AVE.1.1.1",
+     "AVE.1.1.2",
+     "AVE.1.1.3",
+     "AVE.1.2.1",
+     "AVE.1.2.2",
+     "AVE.1.2.3",
+     "AVE.1.3.1",
+     "AVE.1.3.2",
+     "AVE.1.3.3",
+     "AVE.1.4.1",
+     "AVE.1.4.2",
+     "AVE.1.4.3",
+     "AVE.2.1.1",
+     "AVE.2.1.2",
+     "AVE.2.1.3",
+     "AVE.2.2.1",
+     "AVE.2.2.2",
+     "AVE.2.3.1",
+     "AVE.2.3.2",
+     "AVE.2.4.1",
+     "AVE.2.4.2"
+    ]
+   },
+   {
+    "course": "Çevre Eğitimi ve İklim Değişikliği Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Dijital Sanatlar Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "DS.1.1.1",
+     "DS.1.1.2",
+     "DS.1.1.3",
+     "DS.1.2.1",
+     "DS.1.2.2",
+     "DS.1.3.1",
+     "DS.1.3.2",
+     "DS.1.4.1",
+     "DS.1.4.2",
+     "DS.1.5.1",
+     "DS.1.5.2",
+     "DS.1.5.3",
+     "DS.1.6.1",
+     "DS.2.1.1",
+     "DS.2.2.1",
+     "DS.2.2.2",
+     "DS.2.3.1",
+     "DS.2.3.2",
+     "DS.2.4.1",
+     "DS.2.4.2",
+     "DS.2.5.1",
+     "DS.2.5.2",
+     "DS.2.6.1",
+     "DS.2.6.2"
+    ]
+   },
+   {
+    "course": "Düşünme Eğitimi Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "DE.1.1.1",
+     "DE.1.1.2",
+     "DE.1.2.1",
+     "DE.1.2.2",
+     "DE.1.2.3",
+     "DE.1.3.1",
+     "DE.1.3.2",
+     "DE.1.4.1",
+     "DE.2.1.1",
+     "DE.2.1.2",
+     "DE.2.2.1",
+     "DE.2.3.1",
+     "DE.2.3.2",
+     "DE.2.4.1",
+     "DE.2.4.2",
+     "DE.2.4.3"
+    ]
+   },
+   {
+    "course": "Geleneksel Sanatlar Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "GS.1.1.1",
+     "GS.1.1.2",
+     "GS.1.1.3",
+     "GS.1.1.4",
+     "GS.1.2.1",
+     "GS.1.2.2",
+     "GS.1.3.1",
+     "GS.1.3.2",
+     "GS.1.3.3",
+     "GS.1.4.1",
+     "GS.1.4.2",
+     "GS.1.4.3",
+     "GS.1.5.1",
+     "GS.1.5.2",
+     "GS.1.5.3",
+     "GS.2.1.1",
+     "GS.2.1.2",
+     "GS.2.2.1",
+     "GS.2.2.2",
+     "GS.2.2.3",
+     "GS.2.3.1",
+     "GS.2.3.2",
+     "GS.2.3.3",
+     "GS.2.4.1",
+     "GS.2.4.2",
+     "GS.2.4.3"
+    ]
+   },
+   {
+    "course": "Görgü Kuralları ve Nezaket Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "GKN.1.1.1",
+     "GKN.1.1.2",
+     "GKN.1.1.3",
+     "GKN.1.2.1",
+     "GKN.1.2.2",
+     "GKN.1.3.1",
+     "GKN.1.3.2",
+     "GKN.1.4.1",
+     "GKN.1.4.2",
+     "GKN.2.1.1",
+     "GKN.2.1.2",
+     "GKN.2.2.1",
+     "GKN.2.2.2",
+     "GKN.2.3.1",
+     "GKN.2.3.2",
+     "GKN.2.4.1",
+     "GKN.2.4.2"
+    ]
+   },
+   {
+    "course": "Halk Oyunları Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Hukuk ve Adalet Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Kültür ve Medeniyetimize Yön Verenler Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "KMYV.1.1.1",
+     "KMYV.1.1.2",
+     "KMYV.1.2.1",
+     "KMYV.1.2.2",
+     "KMYV.1.2.3",
+     "KMYV.1.3.1",
+     "KMYV.1.3.2",
+     "KMYV.1.4.1",
+     "KMYV.1.4.2",
+     "KMYV.2.1.1",
+     "KMYV.2.1.2",
+     "KMYV.2.2.1",
+     "KMYV.2.2.2",
+     "KMYV.2.2.3",
+     "KMYV.2.3.1",
+     "KMYV.2.3.2",
+     "KMYV.2.4.1",
+     "KMYV.2.4.2"
+    ]
+   },
+   {
+    "course": "Matematik ve Bilim Uygulamaları Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "MBU.MU.1.1.1",
+     "MBU.MU.1.1.2",
+     "MBU.MU.1.1.3",
+     "MBU.MU.1.1.4",
+     "MBU.MU.1.1.5",
+     "MBU.MU.1.2.1",
+     "MBU.MU.1.2.2",
+     "MBU.MU.1.2.3",
+     "MBU.MU.1.3.1",
+     "MBU.MU.1.3.2",
+     "MBU.MU.1.3.3",
+     "MBU.MU.1.3.4",
+     "MBU.MU.1.4.1",
+     "MBU.MU.1.4.2",
+     "MBU.MU.1.4.3",
+     "MBU.MU.1.4.4",
+     "MBU.MU.1.5.1",
+     "MBU.MU.1.5.2",
+     "MBU.MU.1.5.3",
+     "MBU.MU.2.1.1",
+     "MBU.MU.2.1.2",
+     "MBU.MU.2.1.3",
+     "MBU.MU.2.2.1",
+     "MBU.MU.2.2.2",
+     "MBU.MU.2.2.3",
+     "MBU.MU.2.3.1",
+     "MBU.MU.2.3.2",
+     "MBU.MU.2.3.3",
+     "MBU.MU.2.4.1",
+     "MBU.MU.2.4.2",
+     "MBU.MU.2.4.3",
+     "MBU.MU.2.5.1",
+     "MBU.MU.2.5.2",
+     "MBU.MU.2.5.3",
+     "MBU.MU.2.5.4"
+    ]
+   },
+   {
+    "course": "Masal ve Destanlarımız Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "MD.1.1.1",
+     "MD.1.1.2",
+     "MD.1.1.3",
+     "MD.1.1.4",
+     "MD.1.1.5",
+     "MD.1.1.6",
+     "MD.1.1.7",
+     "MD.1.2.1",
+     "MD.1.2.2",
+     "MD.1.2.3",
+     "MD.1.2.4",
+     "MD.1.2.5",
+     "MD.1.2.6",
+     "MD.1.2.7",
+     "MD.1.3.1",
+     "MD.1.3.2",
+     "MD.1.3.3",
+     "MD.1.3.4",
+     "MD.1.3.5",
+     "MD.1.3.6",
+     "MD.2.1.1",
+     "MD.2.1.2",
+     "MD.2.1.3",
+     "MD.2.1.4",
+     "MD.2.1.5",
+     "MD.2.1.6",
+     "MD.2.1.7",
+     "MD.2.2.1",
+     "MD.2.2.2",
+     "MD.2.2.3",
+     "MD.2.2.4",
+     "MD.2.2.5",
+     "MD.2.2.6",
+     "MD.2.2.7",
+     "MD.2.3.1",
+     "MD.2.3.2",
+     "MD.2.3.3",
+     "MD.2.3.4",
+     "MD.2.3.5",
+     "MD.2.3.6"
+    ]
+   },
+   {
+    "course": "Medya Okuryazarlığı Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Okul Temelli Sosyal Sorumluluk Çalışmaları Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "OTSSÇ.1.1.1",
+     "OTSSÇ.1.1.2",
+     "OTSSÇ.1.1.3",
+     "OTSSÇ.1.2.1",
+     "OTSSÇ.1.2.2",
+     "OTSSÇ.1.2.3",
+     "OTSSÇ.1.3.1",
+     "OTSSÇ.1.3.2",
+     "OTSSÇ.1.3.3",
+     "OTSSÇ.1.4.1",
+     "OTSSÇ.1.4.2",
+     "OTSSÇ.1.4.3",
+     "OTSSÇ.1.5.1",
+     "OTSSÇ.1.5.2",
+     "OTSSÇ.1.6.1",
+     "OTSSÇ.1.6.2",
+     "OTSSÇ.2.1.1",
+     "OTSSÇ.2.1.2",
+     "OTSSÇ.2.1.3",
+     "OTSSÇ.2.2.1",
+     "OTSSÇ.2.2.2",
+     "OTSSÇ.2.2.3",
+     "OTSSÇ.2.3.1",
+     "OTSSÇ.2.3.2",
+     "OTSSÇ.2.3.3",
+     "OTSSÇ.2.4.1",
+     "OTSSÇ.2.4.2",
+     "OTSSÇ.2.4.3",
+     "OTSSÇ.2.5.1",
+     "OTSSÇ.2.5.2",
+     "OTSSÇ.2.6.1",
+     "OTSSÇ.2.6.2",
+     "OTSSÇ.3.1.1",
+     "OTSSÇ.3.1.2",
+     "OTSSÇ.3.1.3",
+     "OTSSÇ.3.2.1",
+     "OTSSÇ.3.2.2",
+     "OTSSÇ.3.2.3",
+     "OTSSÇ.3.3.1",
+     "OTSSÇ.3.3.2",
+     "OTSSÇ.3.4.1",
+     "OTSSÇ.3.4.2",
+     "OTSSÇ.3.5.1",
+     "OTSSÇ.3.5.2",
+     "OTSSÇ.3.6.1",
+     "OTSSÇ.3.6.2"
+    ]
+   },
+   {
+    "course": "Okuma Becerileri Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Oyun ve Oyun Etkinlikleri Dersi (Drama)",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "OOED.1.1.1",
+     "OOED.1.1.2",
+     "OOED.1.1.3",
+     "OOED.1.1.4",
+     "OOED.1.2.1",
+     "OOED.1.2.2",
+     "OOED.1.2.3",
+     "OOED.1.2.4",
+     "OOED.1.3.1",
+     "OOED.1.3.2",
+     "OOED.1.4.1",
+     "OOED.1.4.2",
+     "OOED.1.4.3",
+     "OOED.1.4.4",
+     "OOED.1.5.1",
+     "OOED.1.5.2",
+     "OOED.1.5.3",
+     "OOED.1.5.4",
+     "OOED.1.6.1",
+     "OOED.1.6.2",
+     "OOED.1.7.1",
+     "OOED.2.1.1",
+     "OOED.2.1.2",
+     "OOED.2.1.3",
+     "OOED.2.2.1",
+     "OOED.2.2.2",
+     "OOED.2.2.3",
+     "OOED.2.2.4",
+     "OOED.2.2.5",
+     "OOED.2.3.1",
+     "OOED.2.3.2",
+     "OOED.2.3.3",
+     "OOED.2.3.4",
+     "OOED.2.4.1",
+     "OOED.2.4.2",
+     "OOED.2.4.3",
+     "OOED.2.4.4",
+     "OOED.2.5.1",
+     "OOED.2.5.2",
+     "OOED.2.5.3",
+     "OOED.2.5.4",
+     "OOED.2.5.5",
+     "OOED.2.5.6",
+     "OOED.2.6.1",
+     "OOED.2.6.2",
+     "OOED.2.6.3",
+     "OOED.2.7.1"
+    ]
+   },
+   {
+    "course": "Oyun ve Oyun Etkinlikleri Dersi (Geleneksel Oyunlar)",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Oyun ve Oyun Etkinlikleri Dersi (Satranç)",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Oyun ve Oyun Etkinlikleri Dersi (Zekâ Oyunları)",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "OOEZO.1.1.1",
+     "OOEZO.1.1.2",
+     "OOEZO.1.1.3",
+     "OOEZO.1.1.4",
+     "OOEZO.1.1.5",
+     "OOEZO.1.2.1",
+     "OOEZO.1.2.2",
+     "OOEZO.1.2.3",
+     "OOEZO.1.2.4",
+     "OOEZO.1.2.5",
+     "OOEZO.1.3.1",
+     "OOEZO.1.3.2",
+     "OOEZO.1.3.3",
+     "OOEZO.1.3.4",
+     "OOEZO.1.4.1",
+     "OOEZO.1.4.2",
+     "OOEZO.1.4.3",
+     "OOEZO.1.4.4",
+     "OOEZO.1.5.1",
+     "OOEZO.1.5.2",
+     "OOEZO.1.5.3",
+     "OOEZO.1.6.1",
+     "OOEZO.1.6.2",
+     "OOEZO.1.6.3",
+     "OOEZO.1.6.4",
+     "OOEZO.2.1.1",
+     "OOEZO.2.1.2",
+     "OOEZO.2.1.3",
+     "OOEZO.2.1.4",
+     "OOEZO.2.1.5",
+     "OOEZO.2.1.6",
+     "OOEZO.2.2.1",
+     "OOEZO.2.2.2",
+     "OOEZO.2.2.3",
+     "OOEZO.2.2.4",
+     "OOEZO.2.2.5",
+     "OOEZO.2.3.1",
+     "OOEZO.2.3.2",
+     "OOEZO.2.3.3",
+     "OOEZO.2.3.4",
+     "OOEZO.2.3.5",
+     "OOEZO.2.4.1",
+     "OOEZO.2.4.2",
+     "OOEZO.2.4.3",
+     "OOEZO.2.4.4",
+     "OOEZO.2.4.5",
+     "OOEZO.2.5.1",
+     "OOEZO.2.5.2",
+     "OOEZO.2.5.3",
+     "OOEZO.2.5.4",
+     "OOEZO.2.5.5",
+     "OOEZO.2.6.1",
+     "OOEZO.2.6.2",
+     "OOEZO.2.6.3",
+     "OOEZO.2.6.4"
+    ]
+   },
+   {
+    "course": "Proje Tasarımı ve Uygulamaları Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Robotik Kodlama Dersi",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "RK.2.4.2"
+    ]
+   },
+   {
+    "course": "Seçmeli Müzik Dersi (Bağlama)",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "SMBAĞ.1.1.1",
+     "SMBAĞ.1.1.2",
+     "SMBAĞ.1.1.3",
+     "SMBAĞ.1.1.4",
+     "SMBAĞ.1.2.1",
+     "SMBAĞ.1.2.2",
+     "SMBAĞ.1.2.3",
+     "SMBAĞ.1.2.4",
+     "SMBAĞ.2.1.1",
+     "SMBAĞ.2.1.2",
+     "SMBAĞ.2.2.1",
+     "SMBAĞ.2.2.2",
+     "SMBAĞ.3.1.1",
+     "SMBAĞ.3.1.2",
+     "SMBAĞ.3.1.3",
+     "SMBAĞ.3.2.1",
+     "SMBAĞ.3.2.2",
+     "SMBAĞ.4.1.1",
+     "SMBAĞ.4.1.2",
+     "SMBAĞ.4.2.1",
+     "SMBAĞ.4.2.2"
+    ]
+   },
+   {
+    "course": "Seçmeli Müzik Dersi (Genel Müzik Eğitimi)",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "SMGME.1.1.1",
+     "SMGME.1.1.2",
+     "SMGME.1.1.3",
+     "SMGME.1.1.4",
+     "SMGME.1.1.5",
+     "SMGME.1.1.6",
+     "SMGME.1.2.1",
+     "SMGME.1.2.2",
+     "SMGME.1.2.3",
+     "SMGME.1.2.4",
+     "SMGME.2.1.1",
+     "SMGME.2.1.2",
+     "SMGME.2.1.3",
+     "SMGME.2.1.4",
+     "SMGME.2.1.5",
+     "SMGME.2.2.1",
+     "SMGME.2.2.2",
+     "SMGME.2.2.3",
+     "SMGME.3.1.1",
+     "SMGME.3.1.2",
+     "SMGME.3.1.3",
+     "SMGME.3.1.4",
+     "SMGME.3.1.5",
+     "SMGME.3.2.1",
+     "SMGME.3.2.2",
+     "SMGME.3.2.3",
+     "SMGME.4.1.1",
+     "SMGME.4.1.2",
+     "SMGME.4.1.3",
+     "SMGME.4.1.4",
+     "SMGME.4.1.5",
+     "SMGME.4.2.1",
+     "SMGME.4.2.2",
+     "SMGME.4.2.3",
+     "SMGME.4.2.4",
+     "SMGME.4.2.5"
+    ]
+   },
+   {
+    "course": "Seçmeli Müzik Dersi (Gitar)",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "SMGTR.1.1.1",
+     "SMGTR.1.1.2",
+     "SMGTR.1.1.3",
+     "SMGTR.1.1.4",
+     "SMGTR.1.1.5",
+     "SMGTR.1.2.1",
+     "SMGTR.1.2.2",
+     "SMGTR.1.2.3",
+     "SMGTR.1.2.4",
+     "SMGTR.1.3.1",
+     "SMGTR.1.3.2",
+     "SMGTR.1.4.1",
+     "SMGTR.1.4.2",
+     "SMGTR.1.4.3",
+     "SMGTR.1.4.4",
+     "SMGTR.1.4.5",
+     "SMGTR.2.1.1",
+     "SMGTR.2.1.2",
+     "SMGTR.2.1.3",
+     "SMGTR.2.1.4",
+     "SMGTR.2.2.1",
+     "SMGTR.2.2.2",
+     "SMGTR.2.2.3",
+     "SMGTR.2.3.1",
+     "SMGTR.2.3.2",
+     "SMGTR.2.3.3",
+     "SMGTR.2.4.1",
+     "SMGTR.2.4.2",
+     "SMGTR.2.4.3",
+     "SMGTR.2.4.4",
+     "SMGTR.3.1.1",
+     "SMGTR.3.1.2",
+     "SMGTR.3.1.3",
+     "SMGTR.3.1.4",
+     "SMGTR.3.2.1",
+     "SMGTR.3.2.2",
+     "SMGTR.3.2.3",
+     "SMGTR.3.2.4",
+     "SMGTR.3.3.1",
+     "SMGTR.3.3.2",
+     "SMGTR.3.3.3",
+     "SMGTR.3.3.4",
+     "SMGTR.4.1.1",
+     "SMGTR.4.1.2",
+     "SMGTR.4.2.1",
+     "SMGTR.4.2.2",
+     "SMGTR.4.2.3",
+     "SMGTR.4.3.1",
+     "SMGTR.4.3.2",
+     "SMGTR.4.4.1",
+     "SMGTR.4.4.2"
+    ]
+   },
+   {
+    "course": "Seçmeli Müzik Dersi (Keman)",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "SMKMN.1.1.1",
+     "SMKMN.1.1.2",
+     "SMKMN.1.1.3",
+     "SMKMN.1.1.4",
+     "SMKMN.1.1.5",
+     "SMKMN.1.2.1",
+     "SMKMN.1.2.2",
+     "SMKMN.1.2.3",
+     "SMKMN.1.3.1",
+     "SMKMN.1.3.2",
+     "SMKMN.1.3.3",
+     "SMKMN.1.3.4",
+     "SMKMN.1.3.5",
+     "SMKMN.1.4.1",
+     "SMKMN.1.4.2",
+     "SMKMN.1.4.3",
+     "SMKMN.2.1.1",
+     "SMKMN.2.1.2",
+     "SMKMN.2.1.3",
+     "SMKMN.2.2.1",
+     "SMKMN.2.2.2",
+     "SMKMN.2.2.3",
+     "SMKMN.2.2.4",
+     "SMKMN.2.3.1",
+     "SMKMN.2.3.2",
+     "SMKMN.2.3.3",
+     "SMKMN.2.3.4",
+     "SMKMN.2.3.5",
+     "SMKMN.2.3.6",
+     "SMKMN.3.1.1",
+     "SMKMN.3.1.2",
+     "SMKMN.3.1.3",
+     "SMKMN.3.1.4",
+     "SMKMN.3.2.1",
+     "SMKMN.3.2.2",
+     "SMKMN.3.2.3",
+     "SMKMN.3.2.4",
+     "SMKMN.3.3.1",
+     "SMKMN.3.3.2",
+     "SMKMN.3.3.3",
+     "SMKMN.3.3.4",
+     "SMKMN.3.3.5",
+     "SMKMN.3.3.6",
+     "SMKMN.3.3.7",
+     "SMKMN.3.3.8",
+     "SMKMN.4.1.1",
+     "SMKMN.4.1.2",
+     "SMKMN.4.1.3",
+     "SMKMN.4.1.4",
+     "SMKMN.4.1.5",
+     "SMKMN.4.2.1",
+     "SMKMN.4.2.2",
+     "SMKMN.4.2.3",
+     "SMKMN.4.2.4",
+     "SMKMN.4.3.1",
+     "SMKMN.4.3.2",
+     "SMKMN.4.3.3",
+     "SMKMN.4.3.4",
+     "SMKMN.4.3.5",
+     "SMKMN.4.3.6",
+     "SMKMN.4.3.7",
+     "SMKMN.4.3.8",
+     "SMKMN.4.3.9"
+    ]
+   },
+   {
+    "course": "Seçmeli Müzik Dersi (Piyano)",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "SMPYN.1.1.1",
+     "SMPYN.1.1.2",
+     "SMPYN.1.1.3",
+     "SMPYN.1.2.1",
+     "SMPYN.1.2.2",
+     "SMPYN.1.3.1",
+     "SMPYN.1.3.2",
+     "SMPYN.1.3.3",
+     "SMPYN.2.1.1",
+     "SMPYN.2.1.2",
+     "SMPYN.2.1.3",
+     "SMPYN.2.2.1",
+     "SMPYN.2.2.2",
+     "SMPYN.2.2.3",
+     "SMPYN.2.2.4",
+     "SMPYN.2.3.1",
+     "SMPYN.2.3.2",
+     "SMPYN.2.3.3",
+     "SMPYN.3.1.1",
+     "SMPYN.3.1.2",
+     "SMPYN.3.1.3",
+     "SMPYN.3.1.4",
+     "SMPYN.3.2.1",
+     "SMPYN.3.2.2",
+     "SMPYN.3.2.3",
+     "SMPYN.3.2.4",
+     "SMPYN.3.3.1",
+     "SMPYN.3.3.2",
+     "SMPYN.3.3.3",
+     "SMPYN.4.1.1",
+     "SMPYN.4.1.2",
+     "SMPYN.4.2.1",
+     "SMPYN.4.2.2",
+     "SMPYN.4.2.3",
+     "SMPYN.4.2.4",
+     "SMPYN.4.3.1",
+     "SMPYN.4.3.2",
+     "SMPYN.4.3.3"
+    ]
+   },
+   {
+    "course": "Seçmeli Müzik Dersi (Türk Halk Müziği Koro)",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Seçmeli Müzik Dersi (Ud)",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "SMUD.1.1.1",
+     "SMUD.1.1.2",
+     "SMUD.1.1.3",
+     "SMUD.1.1.4",
+     "SMUD.1.2.1",
+     "SMUD.1.2.2",
+     "SMUD.1.2.3",
+     "SMUD.1.3.1",
+     "SMUD.1.3.2",
+     "SMUD.1.4.1",
+     "SMUD.1.4.2",
+     "SMUD.2.1.1",
+     "SMUD.2.1.2",
+     "SMUD.2.1.3",
+     "SMUD.2.2.1",
+     "SMUD.2.2.2",
+     "SMUD.2.3.1",
+     "SMUD.2.3.2",
+     "SMUD.3.1.1",
+     "SMUD.3.1.2",
+     "SMUD.3.1.3",
+     "SMUD.3.2.1",
+     "SMUD.3.2.2",
+     "SMUD.3.3.1",
+     "SMUD.3.3.2",
+     "SMUD.4.1.1",
+     "SMUD.4.1.2",
+     "SMUD.4.1.3",
+     "SMUD.4.2.1",
+     "SMUD.4.2.2",
+     "SMUD.4.3.1",
+     "SMUD.4.3.2"
+    ]
+   },
+   {
+    "course": "Spor ve Fiziki Etkinlikler Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "\"Şehrimiz ...\" Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Temel Yaşam Becerileri Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "TYB.1.1.1",
+     "TYB.1.1.2",
+     "TYB.1.1.3",
+     "TYB.1.1.4",
+     "TYB.1.2.1",
+     "TYB.1.2.2",
+     "TYB.1.2.3",
+     "TYB.1.3.1",
+     "TYB.1.3.2",
+     "TYB.1.3.3",
+     "TYB.1.3.4",
+     "TYB.1.4.1",
+     "TYB.1.4.2",
+     "TYB.1.4.3",
+     "TYB.1.4.4",
+     "TYB.2.1.1",
+     "TYB.2.1.2",
+     "TYB.2.1.3",
+     "TYB.2.1.4",
+     "TYB.2.2.1",
+     "TYB.2.2.2",
+     "TYB.2.2.3",
+     "TYB.2.3.1",
+     "TYB.2.3.2",
+     "TYB.2.3.3",
+     "TYB.2.3.4",
+     "TYB.2.4.1",
+     "TYB.2.4.2",
+     "TYB.2.4.3",
+     "TYB.2.4.4"
+    ]
+   },
+   {
+    "course": "Türk Sosyal Hayatında Aile Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Yapay Zekâ Uygulamaları Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "YZU.1.1.1"
+    ]
+   },
+   {
+    "course": "Yazarlık ve Yazma Becerileri Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "YYB.1.1.1",
+     "YYB.1.1.2",
+     "YYB.1.1.3",
+     "YYB.1.1.4",
+     "YYB.1.1.5",
+     "YYB.1.1.6",
+     "YYB.1.2.1",
+     "YYB.1.2.2",
+     "YYB.1.2.3",
+     "YYB.1.3.1",
+     "YYB.2.1.1",
+     "YYB.2.1.2",
+     "YYB.2.1.3",
+     "YYB.2.1.4",
+     "YYB.2.1.5",
+     "YYB.2.1.6",
+     "YYB.2.2.1",
+     "YYB.2.2.2",
+     "YYB.2.2.3",
+     "YYB.2.3.1"
+    ]
+   },
+   {
+    "course": "Türk Dili Ve Edebiyatı Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "İngilizce Dersi (Hazırlık-12)",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "İngilizce Dersi (9-12)",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Astronomi ve Uzay Bilimleri Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Demokrasi ve İnsan Hakları Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "İklim, Çevre ve Yenilikçi Çözümler Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Mantık Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Psikoloji Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Sosyal Bilim Çalışmaları Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Sosyoloji Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "SOS.11.1.1",
+     "SOS.11.1.2",
+     "SOS.11.1.3",
+     "SOS.11.2.1",
+     "SOS.11.2.2",
+     "SOS.11.2.3",
+     "SOS.11.3.2",
+     "SOS.11.3.3",
+     "SOS.11.4.1",
+     "SOS.11.4.2",
+     "SOS.11.4.3",
+     "SOS.11.4.4",
+     "SOS.11.4.5",
+     "SOS.11.4.6",
+     "SOS.11.5.1",
+     "SOS.11.5.2",
+     "SOS.11.5.3",
+     "SOS.12.1.1",
+     "SOS.12.1.2",
+     "SOS.12.2.1"
+    ]
+   },
+   {
+    "course": "Sosyoloji Dersi",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "SOS.11.3.1"
+    ]
+   },
+   {
+    "course": "İslam Bilim Tarihi Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Çağdaş Türk ve Dünya Tarihi Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Türk Kültür ve Medeniyet Tarihi Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Matematik Uygulamaları Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "MAT.U.1.1.1",
+     "MAT.U.1.1.2",
+     "MAT.U.1.2.1",
+     "MAT.U.1.2.2",
+     "MAT.U.1.3.1",
+     "MAT.U.1.3.2",
+     "MAT.U.1.4.1",
+     "MAT.U.1.4.2",
+     "MAT.U.1.5.1",
+     "MAT.U.1.5.2",
+     "MAT.U.2.1.1",
+     "MAT.U.2.1.2",
+     "MAT.U.2.2.1",
+     "MAT.U.2.3.1",
+     "MAT.U.2.3.2",
+     "MAT.U.2.4.1",
+     "MAT.U.2.4.2",
+     "MAT.U.2.4.3",
+     "MAT.U.2.5.1",
+     "MAT.U.2.5.2",
+     "MAT.U.2.5.3",
+     "MAT.U.2.5.4"
+    ]
+   },
+   {
+    "course": "Sağlık Bilgisi ve Trafik Kültürü Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Kapsamlı Spor Eğitimi Dersi",
+    "reason": "kodlu çıktı bulunamadı"
+   },
+   {
+    "course": "Çocuklarda Atletik Performans Uygulamaları Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "ÇAPU.6.4.1",
+     "ÇAPU.6.4.2",
+     "ÇAPU.6.4.3"
+    ]
+   },
+   {
+    "course": "Beden Eğitimi ve Sporun Temelleri Dersi",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "BEST.7.2.1"
+    ]
+   },
+   {
+    "course": "Çalgı Toplulukları Dersi",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "Ç.T.8.2.1"
+    ]
+   },
+   {
+    "course": "Müziksel İşitme, Okuma ve Yazma Dersi",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "MİOY.4.4.1",
+     "MİOY.4.4.2",
+     "MİOY.4.4.3",
+     "MİOY.7.1.1",
+     "MİOY.7.1.2",
+     "MİOY.7.1.3",
+     "MİOY.7.4.2"
+    ]
+   },
+   {
+    "course": "Müzik Tarihi Dersi",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "MT.7.2.4"
+    ]
+   },
+   {
+    "course": "Bireysel Çalgı Eğitimi Dersi-Flüt Modülü",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "FLT.7.5.1",
+     "FLT.7.5.2",
+     "FLT.7.5.3",
+     "FLT.7.5.4"
+    ]
+   },
+   {
+    "course": "Bireysel Çalgı Eğitimi Dersi-Flüt Modülü",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "FLT.3.3.2",
+     "FLT.3.3.3",
+     "FLT.3.3.4",
+     "FLT.3.3.5",
+     "FLT.4.3.1",
+     "FLT.5.1.2"
+    ]
+   },
+   {
+    "course": "Bireysel Çalgı Eğitimi Dersi-Kanun Modülü",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "KNN.1.1.3",
+     "KNN.1.2.1",
+     "KNN.3.4.2"
+    ]
+   },
+   {
+    "course": "Bireysel Çalgı Eğitimi Dersi-Kaval Modülü",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "KVL.1.2.1"
+    ]
+   },
+   {
+    "course": "Bireysel Çalgı Eğitimi Dersi-Keman Modülü",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "KMN.5.2.2",
+     "KMN.6.2.2",
+     "KMN.7.4.1"
+    ]
+   },
+   {
+    "course": "Bireysel Çalgı Eğitimi Dersi-Ney Modülü",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "NEY.2.4.1",
+     "NEY.3.1.1",
+     "NEY.3.1.2",
+     "NEY.3.1.3",
+     "NEY.3.2.1",
+     "NEY.3.2.2",
+     "NEY.7.1.1",
+     "NEY.7.2.1"
+    ]
+   },
+   {
+    "course": "Bireysel Çalgı Eğitimi Dersi-Piyano Modülü",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "PYN.8.3.1"
+    ]
+   },
+   {
+    "course": "Bireysel Çalgı Eğitimi Dersi-Viyolonsel Modülü",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "VLS.1.3.1",
+     "VLS.1.3.2",
+     "VLS.1.3.3",
+     "VLS.1.4.1",
+     "VLS.1.4.2",
+     "VLS.4.1.1"
+    ]
+   }
+  ]
+ },
+ "courses": [
+  {
+   "slug": "ortaokul-afet-bilinci-dersi",
+   "name": "Afet Bilinci Dersi",
+   "kademe": 2,
+   "prefix": "AB",
+   "file": "courses/ortaokul-afet-bilinci-dersi.json",
+   "units": 4,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "ortaokul-ahlak-ve-vatandaslik-egitimi-dersi",
+   "name": "Ahlak ve Vatandaşlık Eğitimi Dersi",
+   "kademe": 2,
+   "prefix": "AVE",
+   "file": "courses/ortaokul-ahlak-ve-vatandaslik-egitimi-dersi.json",
+   "units": 4,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "beden-egitimi-ve-oyun-dersi",
+   "name": "Beden Eğitimi ve Oyun Dersi",
+   "kademe": 2,
+   "prefix": "BEO",
+   "file": "courses/beden-egitimi-ve-oyun-dersi.json",
+   "units": 20,
+   "outcomes": 53,
+   "components": 0
+  },
+  {
+   "slug": "beden-egitimi-ve-spor-temel-egitim",
+   "name": "Beden Eğitimi ve Spor Dersi",
+   "kademe": 2,
+   "prefix": "BES",
+   "file": "courses/beden-egitimi-ve-spor-temel-egitim.json",
+   "units": 19,
+   "outcomes": 58,
+   "components": 11
+  },
+  {
+   "slug": "bilisim-teknolojileri-ve-yazilim-dersi",
+   "name": "Bilişim Teknolojileri ve Yazılım Dersi",
+   "kademe": 2,
+   "prefix": "BTY",
+   "file": "courses/bilisim-teknolojileri-ve-yazilim-dersi.json",
+   "units": 12,
+   "outcomes": 46,
+   "components": 12
+  },
+  {
+   "slug": "ortaokul-dijital-sanatlar-dersi",
+   "name": "Dijital Sanatlar Dersi",
+   "kademe": 2,
+   "prefix": "DS",
+   "file": "courses/ortaokul-dijital-sanatlar-dersi.json",
+   "units": 6,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "din-kulturu-ve-ahlak-bilgisi-dersi",
+   "name": "Din Kültürü ve Ahlak Bilgisi Dersi",
+   "kademe": 2,
+   "prefix": "DKAB",
+   "file": "courses/din-kulturu-ve-ahlak-bilgisi-dersi.json",
+   "units": 25,
+   "outcomes": 96,
+   "components": 312
+  },
+  {
+   "slug": "ortaokul-dusunme-egitimi-dersi",
+   "name": "Düşünme Eğitimi Dersi",
+   "kademe": 2,
+   "prefix": "DE",
+   "file": "courses/ortaokul-dusunme-egitimi-dersi.json",
+   "units": 4,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "fen-bilimleri-dersi",
+   "name": "Fen Bilimleri Dersi",
+   "kademe": 2,
+   "prefix": "FB",
+   "file": "courses/fen-bilimleri-dersi.json",
+   "units": 44,
+   "outcomes": 180,
+   "components": 439
+  },
+  {
+   "slug": "ortaokul-geleneksel-sanatlar-dersi",
+   "name": "Geleneksel Sanatlar Dersi",
+   "kademe": 2,
+   "prefix": "GS",
+   "file": "courses/ortaokul-geleneksel-sanatlar-dersi.json",
+   "units": 5,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "ortaokul-gorgu-kurallari-ve-nezaket-dersi",
+   "name": "Görgü Kuralları ve Nezaket Dersi",
+   "kademe": 2,
+   "prefix": "GKN",
+   "file": "courses/ortaokul-gorgu-kurallari-ve-nezaket-dersi.json",
+   "units": 4,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "gorsel-sanatlar-dersi-temel-egitim",
+   "name": "Görsel Sanatlar Dersi",
+   "kademe": 2,
+   "prefix": "GS",
+   "file": "courses/gorsel-sanatlar-dersi-temel-egitim.json",
+   "units": 56,
+   "outcomes": 85,
+   "components": 196
+  },
+  {
+   "slug": "hayat-bilgisi-dersi",
+   "name": "Hayat Bilgisi Dersi",
+   "kademe": 2,
+   "prefix": "HB",
+   "file": "courses/hayat-bilgisi-dersi.json",
+   "units": 18,
+   "outcomes": 66,
+   "components": 106
+  },
+  {
+   "slug": "kurani-kerim-dersi",
+   "name": "Kur'an-ı Kerim Dersi",
+   "kademe": 2,
+   "prefix": "KK",
+   "file": "courses/kurani-kerim-dersi.json",
+   "units": 16,
+   "outcomes": 82,
+   "components": 300
+  },
+  {
+   "slug": "ortaokul-kultur-ve-medeniyetimize-yon-verenler-dersi",
+   "name": "Kültür ve Medeniyetimize Yön Verenler Dersi",
+   "kademe": 2,
+   "prefix": "KMYV",
+   "file": "courses/ortaokul-kultur-ve-medeniyetimize-yon-verenler-dersi.json",
+   "units": 4,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "ortaokul-masal-ve-destanlarimiz-dersi",
+   "name": "Masal ve Destanlarımız Dersi",
+   "kademe": 2,
+   "prefix": "MD",
+   "file": "courses/ortaokul-masal-ve-destanlarimiz-dersi.json",
+   "units": 3,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "ortaokul-matematik-ve-bilim-uygulamalari-dersi",
+   "name": "Matematik ve Bilim Uygulamaları Dersi",
+   "kademe": 2,
+   "prefix": "MBU.MU",
+   "file": "courses/ortaokul-matematik-ve-bilim-uygulamalari-dersi.json",
+   "units": 5,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "muzik-dersi-temel-egitim",
+   "name": "Müzik Dersi",
+   "kademe": 2,
+   "prefix": "MÜZ",
+   "file": "courses/muzik-dersi-temel-egitim.json",
+   "units": 16,
+   "outcomes": 105,
+   "components": 15
+  },
+  {
+   "slug": "ortaokul-okul-temelli-sosyal-sorumluluk-calismalari-dersi",
+   "name": "Okul Temelli Sosyal Sorumluluk Çalışmaları Dersi",
+   "kademe": 2,
+   "prefix": "OTSSÇ",
+   "file": "courses/ortaokul-okul-temelli-sosyal-sorumluluk-calismalari-dersi.json",
+   "units": 6,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "ortaokul-matematik-dersi",
+   "name": "Ortaokul Matematik Dersi",
+   "kademe": 2,
+   "prefix": "MAT",
+   "file": "courses/ortaokul-matematik-dersi.json",
+   "units": 26,
+   "outcomes": 100,
+   "components": 444
+  },
+  {
+   "slug": "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-drama",
+   "name": "Oyun ve Oyun Etkinlikleri Dersi (Drama)",
+   "kademe": 2,
+   "prefix": "OOED",
+   "file": "courses/ortaokul-oyun-ve-oyun-etkinlikleri-dersi-drama.json",
+   "units": 7,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-zeka-oyunlari",
+   "name": "Oyun ve Oyun Etkinlikleri Dersi (Zekâ Oyunları)",
+   "kademe": 2,
+   "prefix": "OOEZO",
+   "file": "courses/ortaokul-oyun-ve-oyun-etkinlikleri-dersi-zeka-oyunlari.json",
+   "units": 6,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "peygamberimizin-hayati-dersi",
+   "name": "Peygamberimizin Hayatı Dersi",
+   "kademe": 2,
+   "prefix": "PH",
+   "file": "courses/peygamberimizin-hayati-dersi.json",
+   "units": 16,
+   "outcomes": 37,
+   "components": 120
+  },
+  {
+   "slug": "ortaokul-robotik-kodlama-dersi",
+   "name": "Robotik Kodlama Dersi",
+   "kademe": 2,
+   "prefix": "RK",
+   "file": "courses/ortaokul-robotik-kodlama-dersi.json",
+   "units": 4,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "ortaokul-secmeli-muzik-dersi-baglama",
+   "name": "Seçmeli Müzik Dersi (Bağlama)",
+   "kademe": 2,
+   "prefix": "SMBAĞ",
+   "file": "courses/ortaokul-secmeli-muzik-dersi-baglama.json",
+   "units": 2,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "ortaokul-secmeli-muzik-dersi-genel-muzik-egitimi",
+   "name": "Seçmeli Müzik Dersi (Genel Müzik Eğitimi)",
+   "kademe": 2,
+   "prefix": "SMGME",
+   "file": "courses/ortaokul-secmeli-muzik-dersi-genel-muzik-egitimi.json",
+   "units": 2,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "ortaokul-secmeli-muzik-dersi-gitar-egitimi",
+   "name": "Seçmeli Müzik Dersi (Gitar)",
+   "kademe": 2,
+   "prefix": "SMGTR",
+   "file": "courses/ortaokul-secmeli-muzik-dersi-gitar-egitimi.json",
+   "units": 4,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "ortaokul-secmeli-muzik-dersi-keman-egitimi",
+   "name": "Seçmeli Müzik Dersi (Keman)",
+   "kademe": 2,
+   "prefix": "SMKMN",
+   "file": "courses/ortaokul-secmeli-muzik-dersi-keman-egitimi.json",
+   "units": 4,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "ortaokul-secmeli-muzik-dersi-piyano-egitimi",
+   "name": "Seçmeli Müzik Dersi (Piyano)",
+   "kademe": 2,
+   "prefix": "SMPYN",
+   "file": "courses/ortaokul-secmeli-muzik-dersi-piyano-egitimi.json",
+   "units": 3,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "ortaokul-secmeli-muzik-dersi-ud-egitimi",
+   "name": "Seçmeli Müzik Dersi (Ud)",
+   "kademe": 2,
+   "prefix": "SMUD",
+   "file": "courses/ortaokul-secmeli-muzik-dersi-ud-egitimi.json",
+   "units": 4,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "sosyal-bilgiler-dersi",
+   "name": "Sosyal Bilgiler Dersi",
+   "kademe": 2,
+   "prefix": "SB",
+   "file": "courses/sosyal-bilgiler-dersi.json",
+   "units": 24,
+   "outcomes": 71,
+   "components": 220
+  },
+  {
+   "slug": "tc-inkilap-tarihi-ve-ataturkculuk-dersi",
+   "name": "T.C. İnkılap Tarihi ve Atatürkçülük Dersi",
+   "kademe": 2,
+   "prefix": "İTA",
+   "file": "courses/tc-inkilap-tarihi-ve-ataturkculuk-dersi.json",
+   "units": 4,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "teknoloji-tasarim-dersi",
+   "name": "Teknoloji ve Tasarım Dersi",
+   "kademe": 2,
+   "prefix": "TT",
+   "file": "courses/teknoloji-tasarim-dersi.json",
+   "units": 17,
+   "outcomes": 49,
+   "components": 5
+  },
+  {
+   "slug": "ortaokul-temel-yasam-becerileri-dersi",
+   "name": "Temel Yaşam Becerileri Dersi",
+   "kademe": 2,
+   "prefix": "TYB",
+   "file": "courses/ortaokul-temel-yasam-becerileri-dersi.json",
+   "units": 4,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "trafik-guvenligi-dersi",
+   "name": "Trafik Güvenliği Dersi",
+   "kademe": 2,
+   "prefix": "TG",
+   "file": "courses/trafik-guvenligi-dersi.json",
+   "units": 4,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "ortaokul-yapay-zeka-uygulamalari-dersi",
+   "name": "Yapay Zekâ Uygulamaları Dersi",
+   "kademe": 2,
+   "prefix": "YZU",
+   "file": "courses/ortaokul-yapay-zeka-uygulamalari-dersi.json",
+   "units": 3,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "ortaokul-yazarlik-ve-yazma-becerileri-dersi",
+   "name": "Yazarlık ve Yazma Becerileri Dersi",
+   "kademe": 2,
+   "prefix": "YYB",
+   "file": "courses/ortaokul-yazarlik-ve-yazma-becerileri-dersi.json",
+   "units": 3,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "ilkokul-matematik-dersi",
+   "name": "İlkokul Matematik Dersi",
+   "kademe": 2,
+   "prefix": "MAT",
+   "file": "courses/ilkokul-matematik-dersi.json",
+   "units": 26,
+   "outcomes": 111,
+   "components": 324
+  },
+  {
+   "slug": "ingilizce-dersi-temel-egitim",
+   "name": "İngilizce Dersi",
+   "kademe": 2,
+   "prefix": "ENG",
+   "file": "courses/ingilizce-dersi-temel-egitim.json",
+   "units": 0,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "insan-haklari-vatandaslik-ve-demokrasi-dersi",
+   "name": "İnsan Hakları,Vatandaşlık Ve Demokrasi Dersi",
+   "kademe": 2,
+   "prefix": "İHVD",
+   "file": "courses/insan-haklari-vatandaslik-ve-demokrasi-dersi.json",
+   "units": 4,
+   "outcomes": 13,
+   "components": 0
+  },
+  {
+   "slug": "beden-egitimi-ve-spor-dersi",
+   "name": "Beden Eğitimi ve Spor Dersi",
+   "kademe": 3,
+   "prefix": "BES",
+   "file": "courses/beden-egitimi-ve-spor-dersi.json",
+   "units": 12,
+   "outcomes": 35,
+   "components": 0
+  },
+  {
+   "slug": "biyoloji-dersi",
+   "name": "Biyoloji Dersi",
+   "kademe": 3,
+   "prefix": "BİY",
+   "file": "courses/biyoloji-dersi.json",
+   "units": 8,
+   "outcomes": 75,
+   "components": 247
+  },
+  {
+   "slug": "cografya-dersi",
+   "name": "Coğrafya Dersi",
+   "kademe": 3,
+   "prefix": "COĞ",
+   "file": "courses/cografya-dersi.json",
+   "units": 28,
+   "outcomes": 76,
+   "components": 291
+  },
+  {
+   "slug": "din-kulturu-ve-ahlak-bilgisi-dersi-2",
+   "name": "Din Kültürü ve Ahlak Bilgisi Dersi",
+   "kademe": 3,
+   "prefix": "DKAB",
+   "file": "courses/din-kulturu-ve-ahlak-bilgisi-dersi-2.json",
+   "units": 20,
+   "outcomes": 73,
+   "components": 256
+  },
+  {
+   "slug": "felsefe-dersi",
+   "name": "Felsefe Dersi",
+   "kademe": 3,
+   "prefix": "FEL",
+   "file": "courses/felsefe-dersi.json",
+   "units": 15,
+   "outcomes": 22,
+   "components": 65
+  },
+  {
+   "slug": "fizik-dersi",
+   "name": "Fizik Dersi",
+   "kademe": 3,
+   "prefix": "FİZ",
+   "file": "courses/fizik-dersi.json",
+   "units": 15,
+   "outcomes": 106,
+   "components": 310
+  },
+  {
+   "slug": "gorsel-sanatlar-dersi",
+   "name": "Görsel Sanatlar Dersi",
+   "kademe": 3,
+   "prefix": "GS",
+   "file": "courses/gorsel-sanatlar-dersi.json",
+   "units": 16,
+   "outcomes": 95,
+   "components": 6
+  },
+  {
+   "slug": "kimya-dersi",
+   "name": "Kimya Dersi",
+   "kademe": 3,
+   "prefix": "KİM",
+   "file": "courses/kimya-dersi.json",
+   "units": 12,
+   "outcomes": 93,
+   "components": 325
+  },
+  {
+   "slug": "kurani-kerim-dersi-2",
+   "name": "Kur'an-ı Kerim Dersi",
+   "kademe": 3,
+   "prefix": "KK",
+   "file": "courses/kurani-kerim-dersi-2.json",
+   "units": 16,
+   "outcomes": 43,
+   "components": 161
+  },
+  {
+   "slug": "matematik-dersi",
+   "name": "Matematik Dersi",
+   "kademe": 3,
+   "prefix": "MAT",
+   "file": "courses/matematik-dersi.json",
+   "units": 22,
+   "outcomes": 77,
+   "components": 452
+  },
+  {
+   "slug": "matematik-uygulamalari-dersi",
+   "name": "Matematik Uygulamaları Dersi",
+   "kademe": 3,
+   "prefix": "MAT.U",
+   "file": "courses/matematik-uygulamalari-dersi.json",
+   "units": 5,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "muzik-dersi",
+   "name": "Müzik Dersi",
+   "kademe": 3,
+   "prefix": "MÜZ",
+   "file": "courses/muzik-dersi.json",
+   "units": 12,
+   "outcomes": 41,
+   "components": 0
+  },
+  {
+   "slug": "peygamberimizin-hayati-dersi-2",
+   "name": "Peygamberimizin Hayatı Dersi",
+   "kademe": 3,
+   "prefix": "PH",
+   "file": "courses/peygamberimizin-hayati-dersi-2.json",
+   "units": 16,
+   "outcomes": 38,
+   "components": 124
+  },
+  {
+   "slug": "sosyoloji-dersi",
+   "name": "Sosyoloji Dersi",
+   "kademe": 3,
+   "prefix": "SOS",
+   "file": "courses/sosyoloji-dersi.json",
+   "units": 5,
+   "outcomes": 0,
+   "components": 0
+  },
+  {
+   "slug": "tc-inkilap-tarihi-ve-ataturkculuk-dersi-2",
+   "name": "T.C. İnkılap Tarihi ve Atatürkçülük Dersi",
+   "kademe": 3,
+   "prefix": "İTA",
+   "file": "courses/tc-inkilap-tarihi-ve-ataturkculuk-dersi-2.json",
+   "units": 3,
+   "outcomes": 16,
+   "components": 53
+  },
+  {
+   "slug": "tarih-dersi",
+   "name": "Tarih Dersi",
+   "kademe": 3,
+   "prefix": "TAR",
+   "file": "courses/tarih-dersi.json",
+   "units": 9,
+   "outcomes": 38,
+   "components": 113
+  },
+  {
+   "slug": "temel-matematik-dersi",
+   "name": "Temel Matematik Dersi",
+   "kademe": 3,
+   "prefix": "MAT.T",
+   "file": "courses/temel-matematik-dersi.json",
+   "units": 6,
+   "outcomes": 10,
+   "components": 50
+  },
+  {
+   "slug": "beden-egitimi-ve-sporun-temelleri-dersi",
+   "name": "Beden Eğitimi ve Sporun Temelleri Dersi",
+   "kademe": 9,
+   "prefix": "BEST",
+   "file": "courses/beden-egitimi-ve-sporun-temelleri-dersi.json",
+   "units": 16,
+   "outcomes": 21,
+   "components": 23
+  },
+  {
+   "slug": "oyun-ve-taktiksel-farkindalik-dersi",
+   "name": "Oyun ve Taktiksel Farkındalık Dersi",
+   "kademe": 9,
+   "prefix": "OTF",
+   "file": "courses/oyun-ve-taktiksel-farkindalik-dersi.json",
+   "units": 10,
+   "outcomes": 28,
+   "components": 3
+  },
+  {
+   "slug": "ritim-egitimi-ve-halk-oyunları-dersi",
+   "name": "Ritim Eğitimi ve Halk Oyunları Dersi",
+   "kademe": 9,
+   "prefix": "RİHO",
+   "file": "courses/ritim-egitimi-ve-halk-oyunları-dersi.json",
+   "units": 9,
+   "outcomes": 20,
+   "components": 0
+  },
+  {
+   "slug": "cocuklarda-atletik-performans-uygulamalari-dersi",
+   "name": "Çocuklarda Atletik Performans Uygulamaları Dersi",
+   "kademe": 9,
+   "prefix": "ÇAPU",
+   "file": "courses/cocuklarda-atletik-performans-uygulamalari-dersi.json",
+   "units": 12,
+   "outcomes": 28,
+   "components": 0
+  },
+  {
+   "slug": "muzik-okullari-beden-egitimi-oyun-muzik-dersi",
+   "name": "Beden Eğitimi, Oyun ve Müzik Dersi",
+   "kademe": 11,
+   "prefix": "BOM",
+   "file": "courses/muzik-okullari-beden-egitimi-oyun-muzik-dersi.json",
+   "units": 32,
+   "outcomes": 132,
+   "components": 245
+  },
+  {
+   "slug": "muzik-okullari-bireysel-ses-egitimi-dersi",
+   "name": "Bireysel Ses Eğitimi Dersi",
+   "kademe": 11,
+   "prefix": "BSE",
+   "file": "courses/muzik-okullari-bireysel-ses-egitimi-dersi.json",
+   "units": 27,
+   "outcomes": 94,
+   "components": 190
+  },
+  {
+   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-baglama-modulu",
+   "name": "Bireysel Çalgı Eğitimi Dersi-Bağlama Modülü",
+   "kademe": 11,
+   "prefix": "BAĞL",
+   "file": "courses/muzik-okullari-bireysel-calgi-egitimi-dersi-baglama-modulu.json",
+   "units": 26,
+   "outcomes": 36,
+   "components": 125
+  },
+  {
+   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-flut-modulu",
+   "name": "Bireysel Çalgı Eğitimi Dersi-Flüt Modülü",
+   "kademe": 11,
+   "prefix": "FLT",
+   "file": "courses/muzik-okullari-bireysel-calgi-egitimi-dersi-flut-modulu.json",
+   "units": 28,
+   "outcomes": 54,
+   "components": 171
+  },
+  {
+   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-gitar-modulu",
+   "name": "Bireysel Çalgı Eğitimi Dersi-Gitar Modülü",
+   "kademe": 11,
+   "prefix": "GTR",
+   "file": "courses/muzik-okullari-bireysel-calgi-egitimi-dersi-gitar-modulu.json",
+   "units": 30,
+   "outcomes": 38,
+   "components": 72
+  },
+  {
+   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-kanun-modulu",
+   "name": "Bireysel Çalgı Eğitimi Dersi-Kanun Modülü",
+   "kademe": 11,
+   "prefix": "KNN",
+   "file": "courses/muzik-okullari-bireysel-calgi-egitimi-dersi-kanun-modulu.json",
+   "units": 35,
+   "outcomes": 38,
+   "components": 137
+  },
+  {
+   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-kaval-modulu",
+   "name": "Bireysel Çalgı Eğitimi Dersi-Kaval Modülü",
+   "kademe": 11,
+   "prefix": "KVL",
+   "file": "courses/muzik-okullari-bireysel-calgi-egitimi-dersi-kaval-modulu.json",
+   "units": 30,
+   "outcomes": 61,
+   "components": 87
+  },
+  {
+   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-keman-modulu",
+   "name": "Bireysel Çalgı Eğitimi Dersi-Keman Modülü",
+   "kademe": 11,
+   "prefix": "KMN",
+   "file": "courses/muzik-okullari-bireysel-calgi-egitimi-dersi-keman-modulu.json",
+   "units": 31,
+   "outcomes": 51,
+   "components": 139
+  },
+  {
+   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-ney-modulu",
+   "name": "Bireysel Çalgı Eğitimi Dersi-Ney Modülü",
+   "kademe": 11,
+   "prefix": "NEY",
+   "file": "courses/muzik-okullari-bireysel-calgi-egitimi-dersi-ney-modulu.json",
+   "units": 31,
+   "outcomes": 52,
+   "components": 160
+  },
+  {
+   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-piyano-modulu",
+   "name": "Bireysel Çalgı Eğitimi Dersi-Piyano Modülü",
+   "kademe": 11,
+   "prefix": "PYN",
+   "file": "courses/muzik-okullari-bireysel-calgi-egitimi-dersi-piyano-modulu.json",
+   "units": 26,
+   "outcomes": 62,
+   "components": 222
+  },
+  {
+   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-ud-modulu",
+   "name": "Bireysel Çalgı Eğitimi Dersi-Ud Modülü",
+   "kademe": 11,
+   "prefix": "UD",
+   "file": "courses/muzik-okullari-bireysel-calgi-egitimi-dersi-ud-modulu.json",
+   "units": 25,
+   "outcomes": 34,
+   "components": 119
+  },
+  {
+   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-viyola-modulu",
+   "name": "Bireysel Çalgı Eğitimi Dersi-Viyola Modülü",
+   "kademe": 11,
+   "prefix": "VİY",
+   "file": "courses/muzik-okullari-bireysel-calgi-egitimi-dersi-viyola-modulu.json",
+   "units": 28,
+   "outcomes": 33,
+   "components": 75
+  },
+  {
+   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-viyolonsel-modulu",
+   "name": "Bireysel Çalgı Eğitimi Dersi-Viyolonsel Modülü",
+   "kademe": 11,
+   "prefix": "VLS",
+   "file": "courses/muzik-okullari-bireysel-calgi-egitimi-dersi-viyolonsel-modulu.json",
+   "units": 22,
+   "outcomes": 44,
+   "components": 156
+  },
+  {
+   "slug": "muzik-okullari-calgi-topluluklari-dersi",
+   "name": "Çalgı Toplulukları Dersi",
+   "kademe": 11,
+   "prefix": "Ç.T",
+   "file": "courses/muzik-okullari-calgi-topluluklari-dersi.json",
+   "units": 24,
+   "outcomes": 20,
+   "components": 51
+  },
+  {
+   "slug": "muzik-okullari-koro-repertuvar-dersi",
+   "name": "Koro ve Repertuvar Dersi",
+   "kademe": 11,
+   "prefix": "KOREP",
+   "file": "courses/muzik-okullari-koro-repertuvar-dersi.json",
+   "units": 32,
+   "outcomes": 116,
+   "components": 220
+  },
+  {
+   "slug": "muzik-okullari-muzik-tarihi-dersi",
+   "name": "Müzik Tarihi Dersi",
+   "kademe": 11,
+   "prefix": "MT",
+   "file": "courses/muzik-okullari-muzik-tarihi-dersi.json",
+   "units": 16,
+   "outcomes": 72,
+   "components": 171
+  },
+  {
+   "slug": "muzik-okullari-muzik-kulturu-dersi",
+   "name": "Müzik Kültürü Dersi",
+   "kademe": 11,
+   "prefix": "MK",
+   "file": "courses/muzik-okullari-muzik-kulturu-dersi.json",
+   "units": 6,
+   "outcomes": 26,
+   "components": 22
+  },
+  {
+   "slug": "muzik-okullari-muziksel-isitme-okuma-yazma-dersi",
+   "name": "Müziksel İşitme, Okuma ve Yazma Dersi",
+   "kademe": 11,
+   "prefix": "MİOY",
+   "file": "courses/muzik-okullari-muziksel-isitme-okuma-yazma-dersi.json",
+   "units": 34,
+   "outcomes": 92,
+   "components": 249
+  },
+  {
+   "slug": "muzik-okullari-turk-muzigi-teori-uygulamasi-dersi",
+   "name": "Türk Müziği Teori ve Uygulaması Dersi",
+   "kademe": 11,
+   "prefix": "TMT",
+   "file": "courses/muzik-okullari-turk-muzigi-teori-uygulamasi-dersi.json",
+   "units": 24,
+   "outcomes": 14,
+   "components": 14
+  }
+ ]
+}

@@ -1,0 +1,648 @@
+{
+ "course": {
+  "id": 66,
+  "name": "Afet Bilinci Dersi",
+  "slug": "ortaokul-afet-bilinci-dersi",
+  "prefix": "AB",
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/afet-bilinci-dersi_20260819_065745_171.pdf"
+ },
+ "units": [
+  {
+   "grade": null,
+   "unit": 1,
+   "kind": "ÜNİTE",
+   "title": "AFET VE AFET BİLİNCİ",
+   "description": "Bu ünite ile öğrencilerin afet ve acil durumlarda hayat kurtarma zincirinin ilk halkası olan ilk yardımın öncelikli amaçlarını ve temel ilkelerini sorgulayarak kavramaları amaçlanmaktadır. Öğrencilerin AFAD, Türk Kızılay gibi ulusal kuruluşlar ile uluslararası yardım organizasyonlarının afet yönetimindeki rollerini araştırmaları, topladıkları bilgileri doğrulayarak raporlamaları hedeflenir. Ünite genelinde “acil durum aile planı”, “toplanma alanı” gibi hazırlık süreçlerini uygulamalı senaryolarla eyleme dönüştürerek afet yönetimine aktif katılım sağlayan bilinçli ve sorumlu bireyler yetiştirilmesi esastır.",
+   "lesson_hours": 8,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB5.5. Fikri Eyleme Dönüştürme",
+    "KAVRAMSAL BECERİLER": "KB2.6. Bilgi Toplama, KB2.8. Sorgulama",
+    "EĞİLİMLER": "E1.1. Merak, E3.3. Yaratıcılık, E3.8. Soru Sorma, E3.10. Eleştirel Bakma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D5. Duyarlılık, D9. Merhamet, D12. Sabır, D16. Sorumluluk, D17. Tasarruf, D19. Vatanseverlik, D20. Yardımseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Sosyal Bilgiler, Fen Bilimleri BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.10. Çıkarım Yapma AFET BILINCI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "AB.2.1.1. Afet ve acil durumlarda ilk yardımın öncelikli amaçlarını sorgulayabilme a) Afet ve acil durumlarda ilk yardımın öncelikli amaçları hakkında merak ettiği konuları tanımlar. b) Afet ve acil durumlarda ilk yardımın öncelikli amaçları hakkında sorular sorar. c) Afet ve acil durumlarda ilk yardımın öncelikli amaçları hakkında bilgi toplar. ç) Afet ve acil durumlarda ilk yardımın öncelikli amaçları hakkında toplanan bilgilerin doğruluğunu değerlendirir. d) Afet ve acil durumlarda ilk yardımın öncelikli amaçları hakkından toplanan bilgiler üzerinden çıkarım yapar. AB.2.1.2. Afet ve acil durum yönetimiyle ilgili ulusal ve uluslararası kuruluşların çalışmaları hakkında bilgi toplayabilme a) Afet ve acil durum yönetimiyle ilgili ulusal ve uluslararası kuruluşların çalışmaları hakkında bilgi toplamak için kullanacağı araçları belirler. b) Afet ve acil durum yönetimiyle ilgili ulusal ve uluslararası kuruluşların çalışmaları hakkındaki bilgileri bulur. c) Afet ve acil durum yönetimiyle ilgili ulusal ve uluslararası kuruluşların çalışmaları hakkındaki ulaşılan bilgileri doğrular. ç) Afet ve acil durum yönetimiyle ilgili ulusal ve uluslararası kuruluşların çalışmaları hakkındaki ulaşılan bilgileri kaydeder. AB.2.1.3. Afetlere karşı bilinçli olmanın afet ve acil durum yönetimindeki önemiyle ilgili fikrini eyleme dönüştürebilme a) Afetlere karşı bilinçli olmanın afet ve acil durum yönetimindeki önemiyle ilgili plan yapar. b) Afetlere karşı bilinçli olmanın afet ve acil durum yönetimindeki önemiyle ilgili planı uygular. c) Afetlere karşı bilinçli olmanın afet ve acil durum yönetimindeki önemiyle ilgili planı değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Afetlerde ve Acil Durumlarda İlk Yardım Afetlerde ve Acil Durumlarda Görev Alan Kuruluşlar Afetler ve Acil Durum Yönetimi",
+    "Anahtar Kavramlar": "acil durum çantası, acil durum planı, afet bilinci, asılsız ihbar, bilgi doğrulama, doğru bilgi, hayat kurtarma zinciri, ilk yardım, Koruma-Bildirme-Kurtarma (KBK), sahte duyuru, tedarik zincirinin kırılması, toplanma alanı",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktılarının değerlendirilmesinde akran değerlendirme formu, öz değerlendirme (Ölçme ve formu, kontrol listesi, dereceli puanlama anahtarı, performans görevi vb. ölçme ve değerDeğerlendirme) lendirme araçları kullanılabilir. Performans görevi olarak öğrencilerden afet ve acil durum yönetimiyle ilgili ulusal ve uluslararası kuruluşların çalışmalarını yansıtan bir rapor hazırlayarak sunmaları istenebilir. Performans görevi, kontrol listesi ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI AFET BILINCI DERSİ ÖĞRETİM PROGRAMI Temel Kabuller Öğrencilerin afet bilinci, acil durum, acil durum yönetimi, ilk yardım, risk yönetimi gibi kavramlar hakkında temel düzeyde ön bilgiye sahip olduğu kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere “İlk yardım bilgisine sahip olmak afetler karşısında insanlara ne gibi faydalar sağlar?”, “Ülkemizde meydana gelen afet ve acil durumlarda görev alan kurum ve kuruluşlardan hangilerini biliyorsunuz?”, “Afet ve acil durum kavramlarıyla ilgili neler biliyorsunuz?” soruları sorulabilir. Köprü Kurma Öğrencilerden günlük hayatta gördükleri veya duydukları ilk yardım uygulamalarına, doğa ve insan kaynaklı afetlere karşı alınan tedbirlerin uygulanmasından sorumlu olan ulusal ve uluslararası kuruluşlara örnek vermeleri istenebilir. Ayrıca öğrencilerden acil bir durumda veya acil durum tatbikatlarında okulda nasıl davrandıklarına ilişkin deneyimlerini paylaşmaları istenebilir. Bu doğrultuda öğrencilerin günlük yaşam deneyimleriyle bağ kurabilmeleri amacıyla acil çağrı merkezi 112 hattına yapılan asılsız ihbarların gerçek afet ve acil durumlarda yol açabileceği gecikmeler, hak ihlalleri ve can/mal kayıpları ile doğrudan bağlantı kurulur. Öğrenme-Öğretme AB.2.1.1 Uygulamaları Öğrencilere yazılı ve görsel kaynaklar üzerinden afet ve acil durumlarda yapılan ilk yardım uygulamalarına ait örnekler sunulur (OB1, OB4). Bu süreçte dijital kaynaklardan da yararlanılabilir (OB2). Bu örnekler Kızılay, AFAD, T.C. Sağlık Bakanlığı gibi kurumların eğitici araç gerecinden veya güvenilir haber kaynaklarından seçilir. Öğrencilerden inceledikleri kaynaklardaki ilk yardım uygulamalarında dikkatlerini çeken ve merak uyandıran konuları belirleyip listelemeleri istenir. Öğrencilerden oluşturdukları listede yer alan konular ve ilk yardımın öncelikli amaçları ile ilgili “5N1K” tekniği kullanılarak sorular hazırlamaları ve sorulara cevap bulmaları istenir (E1.1, E3.8). Öğrencilerden elde ettikleri bilgilerden hareketle “hayat kurtarma zinciri”, “koruma-bildirme-kurtarma” gibi temel ilkeleri dikkate alarak canlandırma yapmaları istenir (SDB2.1). Canlandırma sürecinde yardımseverlik, duyarlılık, şefkatli olma ve sabır değerlerinin önemi vurgulanır (D5.2, D9.2, D12.1, D20.3). Ayrıca öğrencilerden günlük hayatta ilk yardım uygulamalarını zorlaştıran veya engelleyen durumlara (panik, bilgisizlik, yanlış inanışlar vb.) ilişkin farklı örnekler vermeleri beklenir (SDB3.3, E3.3). Canlandırma sonunda sergilenen davranışların doğruluğu üzerine tartışma yapılarak değerlendirme gerçekleştirilir. Bu süreçte öğrencilerin doğru bilginin hayat kurtarmadaki önemi ve ilk yardımın öncelikleri hakkında çıkarımlar yapmaları sağlanır (KB2.10). Süreç, kontrol listesi kullanılarak değerlendirilebilir. AB.2.1.2 Öğrencilerin verilen yazılı ve görsel kaynakları inceleyerek afet ve acil durum yönetimiyle ilgili ulusal ve uluslararası kuruluşların çalışmaları hakkında bilgi toplamak için kullanabilecekleri kaynakları belirlemeleri sağlanır (OB1, OB4). Bu süreçte dijital kaynaklardan da faydalanılabilir (OB2). Belirlenen kaynaklar üzerinden afet ve acil durum yönetimiyle ilgili ulusal ve uluslararası kuruluşların çalışmaları hakkında bilgi toplanır (OB1, OB2). Bu kuruluşların ulusal ve uluslararası düzeyde hayat kurtarma ve risk azaltmadaki önemine; afet anında gıda, ilaç ve temel ihtiyaçlara erişimi engelleyen “tedarik zincirinin kırılması” durumuna karşı yürüttükleri lojistik faaliyetlerin hayatiyetine ve bu çalışmalara destek olmanın gerekliliğine yönelik bir beyin fırtınası yapılır (SDB2.1). Beyin fırtınasında afet öncesi planlama ve hazırlık aşamalarında kurumsal düzeyde yürütülen stratejik risk azaltma durumlarının önemi vurgulanır. Bu süreçte afet yönetiminde devlet ve belediyelere düşen kurumsal sorumluluklar analiz edilir. Afet anında ortaya çıkabilecek koordinasyon sorunları ve bu sorunların çözümünde kurumlar arası eş güdümün önemi üzerinde durulur. Yardımseverlik değeri kapsamında gönüllü olmanın önemi vurgulanır (D20.4). Bu süreçte AFAD, Türk Kızılay, Birleşmiş Milletler Afet Riskini Azaltma Ofisi (UNDRR) gibi kuruluşların AFET BILINCI DERSİ ÖĞRETİM PROGRAMI katkılarına değinilir. Bu süreçte öğrencilerin Okul Dışı Öğrenme Platformu’nu (okuldisiogrenme.eba.gov.tr) ziyaret ederek “Okul Dışı Öğrenme Ortamlarını Keşfet” sayfasındaki harita üzerinde yaşadıkları ili seçmeleri; bu ildeki AFAD ve Türk Kızılay ilgili kuruluşları tanıtan sayfaları incelemeleri sağlanabilir. Vatanseverlik değeri kapsamında vatanını sevmenin işini en iyi şekilde yapmayı gerektirdiği vurgulanır (D19.1). Öğrencilerden ulusal ve uluslararası kuruluşların çalışmalarıyla ilgili ulaşılan bilgileri farklı türden kaynaklarla karşılaştırarak doğrulamaları istenir (E3.10). Sahte duyuru ve asılsız ihbarların afet yönetimi ile lojistik faaliyetler üzerindeki olumsuz etkileri ele alınarak öğrencilerde dijital ortamlarda bilgi doğrulama bilinci geliştirilir. Performans görevi kapsamında öğrencilerden doğruladıkları bilgilerden yararlanılarak grup çalışması yolu ile seçtikleri bir ulusal veya uluslararası kuruluşun çalışmalarını yansıtan bir rapor hazırlamaları ve hazırladıkları raporu kaydederek sunmaları istenebilir (SDB2.1, SDB2.2). Hazırlanan ürünler kontrol listesi ile değerlendirilebilir. AB.2.1.3 “Beyin Fırtınası” tekniği kullanılarak öğrencilerden “Afet karşısında hazırlıklı olmak neden önemlidir?” ve “Afete hazırlıksız bireyler ile hazırlıklı bireyler arasında ne gibi farklar vardır?” sorularına cevap vermeleri istenir. Öğrencilerden afet ve acil durum yönetimi ile ilgili “Acil Durum Çantası”, “Toplanma Alanı”, “Acil Durum Aile Planı” gibi afişler, kısa bilgilendirme videoları veya dijital içerikler sunularak afet bilincinin yönetim süreçlerindeki rolü hakkında bilgi edinmeleri beklenir (OB1, OB2, OB4). Bu süreçte afet sonrasında meydana gelebilecek iletişim sorunu üzerinde durulur, iletişimin kesintisiz sürdürülebilmesi için her evde ve acil durum çantasında pilli radyo, taşınabilir şarj aleti, yedek pil gibi materyallerin bulundurulmasının hayati önemi vurgulanır. Öğrencilerden gruplara ayrılarak doğa ve insan kaynaklı afet türlerinden birini seçmeleri istenir. Gruplardan seçtikleri afet türünden kaynaklanan acil durumu yönetmeleri amacıyla bir afet ve acil durum planı hazırlamaları istenir. Öğrencilerin bu içerikleri incelemeleri ve afetlere hazırlıklı olmanın afet sonrası kayıpları azaltmadaki önemine yönelik çıkarımlarda bulunmaları beklenir (KB2.10, SDB2.1). Gruplar hazırladıkları planı sınıf ortamında uygulamalı hâle getirmek üzere özgün bir şekilde küçük senaryolar oluştururlar. Oluşturdukları senaryoları sınıfta sergilerler. Bu uygulama aşamasında öğrencilerden iş birliği içinde hareket etmeleri, sorumluluk almaları, zamanı verimli kullanmak için planlama yapmaları ve belirledikleri adımlar doğrultusunda ilerlemeleri beklenir (D16.3, D17.2, E3.3, SDB2.2). Öğrencilerden canlandırma sürecinin ardından uyguladıkları planın güçlü, zayıf ve geliştirilebilir yönlerini tartışarak değerlendirmeleri istenir. Süreç, kontrol listesi kullanılarak değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden afet ve acil durumlarda yapılması gereken öncelikli ilk yardım uygulamalarını içeren bir bilgi görseli hazırlamaları istenebilir. Ayrıca afet ve acil durum yönetimiyle ilgili sivil toplum kuruluşlarıyla iş birliği yaparak bir sosyal sorumluluk projesi tasarlamaları beklenebilir. Bunun yanı sıra öğrencilerden afet yönetimi ve bilincini artırmaya yönelik farklı ülkelerde gerçekleştirilen uygulamalar ile ülkemizdeki uygulamaların benzerlik ve farklılıklarını içeren bir sunum hazırlamaları istenebilir. Destekleme Öğrencilerden ilk yardımın öncelikli amaçlarını ve uygulamalarını anlatan animasyon, eğitici video vb. izletilerek çıkarım yapmaları, afet ve acil durum yönetimiyle ilgili ulusal ve uluslararası kuruluşları gösteren bir tablo hazırlamaları istenebilir. Ayrıca öğrencilerden aile üyeleriyle evleri için basit bir “Afet ve Acil Durum Planı” hazırlamaları ve bu planda acil durum çantasında neler olması gerektiğini listelemeleri istenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. AFET BILINCI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 2,
+   "kind": "ÜNİTE",
+   "title": "İNSAN KAYNAKLI AFETLER",
+   "description": "Bu ünitede öğrencilerin; kimyasal ve nükleer sızıntılar, endüstriyel kazalar, orman yangınları gibi insan kaynaklı afetlerin riskli olduğu bölgeleri haritalar üzerinden analiz etmeleri amaçlanmaktadır. Öğrencilerin; bu afetlerin toplumsal, ekonomik ve çevresel zararlarını kanıtlara dayanarak sorgulamaları ve elde ettikleri çıkarımları özgün ürünlere dönüştürmeleri hedeflenir. Ünite genelinde; “Yeşil Vatan”, “ikiz dönüşüm” gibi güncel kavramlar ele alınarak; afet öncesi, sırası ve sonrasında uygulanacak acil durum planlarını eyleme dönüştüren sorumlu bireyler yetiştirilmesi esastır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB2.6. Kanıta Dayalı Ürün Oluşturma ve Paylaşma, SBAB5.5. Fikri Eyleme Dönüştürme, SBAB10.3. Haritadan Çıkarım Yapma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E2.2. Sorumluluk, E3.3. Yaratıcılık",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D5. Duyarlılık, D13. Sağlıklı Yaşam, D14.Saygı, D15. Sevgi, D18. Temizlik, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB6. Vatandaşlık Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Sosyal Bilgiler, Fen Bilimleri BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.10. Çıkarım Yapma, KB2.18. Tartışma, SBAB7.5. Mekânsal Etkiyi Sorgulama AFET BILINCI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "AB.2.2.1. İnsan kaynaklı afet türlerinin yaşanma riskinin bulunduğu yerler hakkında haritalardan çıkarım yapabilme Haritada yer alan insan kaynaklı afet türlerinin yaşanma riskinin bulunduğu yerler ile ilgili çıkarım yapar. AB.2.2.2. İnsan kaynaklı afetlerin neden olduğu zararın boyutlarıyla ilgili kanıta dayalı ürün oluşturabilme ve paylaşabilme a) İnsan kaynaklı afetlerin neden olduğu zararın boyutlarıyla ilgili kanıta dayanarak çıkarım yapar. b) İnsan kaynaklı afetlerin neden olduğu zararın boyutlarıyla ilgili kanıtlardan elde ettiği çıkarım üzerine kişisel görüşünü̈ yansıtan bir ürün oluşturur. c) İnsan kaynaklı afetlerin neden olduğu zararın boyutlarıyla ilgili kanıtlardan oluşan ürünleri paylaşır. AB.2.2.3. İnsan kaynaklı afet türlerinin öncesinde, sırasında ve sonrasında alınması gereken önlemlerle ilgili fikrini eyleme dönüştürebilme a) İnsan kaynaklı afet türlerinin öncesi, sırası ve sonrasında alınması gereken önlemlerle ilgili plan yapar. b) İnsan kaynaklı afet türlerinin öncesi, sırası ve sonrasında alınması gereken önlemlerle ilgili planı uygular. c) İnsan kaynaklı afet türlerinin öncesi, sırası ve sonrasında alınması gereken önlemlerle ilgili planı değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "İnsan Kaynaklı Afetlerin Oluşum Yerleri İnsan Kaynaklı Afetlerin Zararları İnsan Kaynaklı Afetlerde Alınabilecek Önlemler",
+    "Anahtar Kavramlar": "acil durum hazırlık planı, AFAD, endüstriyel kaza, ikiz dönüşüm, kimyasal sızıntı, nükleer sızıntı, orman yangını, riskli bölgeler, salgın, TENMAK, Türk Kızılay, yerleşim riski, yeşil beceriler, Yeşil Vatan",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktılarının değerlendirilmesinde akran değerlendirme formu, öz değerlendirme (Ölçme ve formu, kontrol listesi, dereceli puanlama anahtarı, performans görevi vb. ölçme ve değerDeğerlendirme) lendirme araçları kullanılabilir. Performans görevi olarak öğrencilerden insan kaynaklı afetlerin yaşanma riskinin olduğu yerler ile ilgili poster ya da broşür hazırlamaları istenebilir. Performans görevi, dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Türkiye’nin coğrafi özellikleri ile insan kaynaklı afetler ve bunların türleri hakkında temel bilgiye sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerden insan kaynaklı afet türlerine örnekler vermeleri istenebilir. Öğrencilere insan kaynaklı afetlerin hangi alanlarda zararları olabileceği sorulabilir. Öğrencilere insan kaynaklı afetlere karşı alınabilecek önlemlerin hangi zaman dilimlerinde gerçekleşmesi gerektiği sorgulatılabilir. AFET BILINCI DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilerden yaşadığı bölgede insan yaşamını etkileyen veya etkileyebilecek riskli durumlara örnekler verilmesi, insan kaynaklı afetlerin çevresel veya ekonomik boyutlarıyla ilgili güncel bir haber bularak sınıfta paylaşmaları, insan yaşamını etkileyen veya etkileyebilecek riskli durumlar karşısında alınan veya alınabilecek önlemlere örnekler vermesi istenebilir. Öğrenme-Öğretme AB.2.2.1 Uygulamaları Öğrencilere (kimyasal sızıntı, nükleer sızıntı, endüstriyel kazalar, insan kaynaklı salgın hastalıklar, orman yangınları vb.) insan kaynaklı afet türlerinin oluşumunu etkileyen faktörlere ilişkin yazılı ve görsel kaynaklar inceletilir (OB1, OB4). Öğrencilerin Türkiye’de insan kaynaklı afet türlerinin yaşanma riskinin yüksek olan yerleri gösteren haritaları incelemeleri sağlanır (SBAB7.5). Öğrencilerden inceledikleri haritalardan hareketle insan kaynaklı afet türlerinin yaşanma riskinin yüksek olduğu yerleri tespit etmeleri istenir. Belirledikleri yerlerin yakınında yerleşim alanlarının bulunup bulunmadığını kontrol etmeleri, yakın çevredeki yerleşimlerin taşıyabileceği risklere ilişkin düşüncelerini grup içinde tartışmaları istenir (KB2.18, SDB2.1, SDB2.2). Tartışma sonunda gruplar Türkiye’de insan kaynaklı afet türlerinin görülme riski yüksek olan yerlere yönelik çıkarımlar yapar ve bu çıkarımları liste hâline getirir (KB2.10). Performans görevi kapsamında öğrenciler, gruplar oluşturarak haritalar üzerinden belirledikleri insan kaynaklı afet riski taşıyan alanlara dikkat çekmek ve toplumsal farkındalık oluşturmak amacıyla poster veya broşür hazırlayabilir (D5.3, E2.2, SDB2.1, SDB2.2). Hazırlanan çalışmalar sınıfta veya okul panosunda sergilenebilir ve ortaya çıkan ürünler dereceli puanlama anahtarı ile değerlendirilebilir. AB.2.2.2 İnsan kaynaklı afetlerin neden olduğu zararlara ilişkin yazılı ve görsel kaynaklar öğrenciler tarafından incelenir (OB1, OB4, OB6). Ayrıca dijital kaynaklar da kullanılabilir (OB2). Öğrencilerden kaynaklardan edindiği kanıtları kullanarak insan kaynaklı afetlerin neden olduğu zararların sosyal, ekonomik, sağlık, güvenlik, çevresel vb. boyutları ile ilgili çıkarım yaparak bu çıkarımları listelemeleri istenir (SDB3.3). Bu aşamada “yeşil beceriler ve ikiz dönüşüm” uygulamaları üzerinde durulur. Ardından “İstasyon” tekniği kullanılarak insan kaynaklı afetlerin neden olduğu zararların sosyal, ekonomik, sağlık, güvenlik, çevresel vb. boyutları ile ilgili afiş, resim, hikâye, şiir istasyonlarında öğrencilerin iş birliğiyle özgün ürün oluşturmaları sağlanır (E3.3, KB2.10, SDB2.2). Hazırlanan ürünler afet bilinci ve afetlerin zararları konusunda toplumsal farkındalık oluşturmak amacıyla sınıf veya okul panosunda sergilenir (D5.3). Ürünler bütüncül dereceli puanlama anahtarı ile değerlendirilebilir. AB.2.2.3 İnsan kaynaklı afet türlerine karşı afet öncesi, sırası ve sonrasında alınması gereken önlemler hakkında “Beyin Fırtınası” tekniği uygulanır. Bu kapsamda öğrencilere “Bir kimyasal sızıntı durumunda nasıl davranılmalıdır?”, “Orman yangınlarına karşı yangın öncesi, sırası ve sonrasında hangi önlemler alınmalıdır?” gibi sorular yöneltilerek öğrencilerden görüşlerini ifade etmeleri istenir (SDB2.1). Bu süreçte “Yeşil Vatan” kavramına değinilerek vatanseverlik değeri çerçevesinde ülkemizin doğal güzelliklerini korumanın önemi vurgulanır (D19.3). AFET BILINCI DERSİ ÖĞRETİM PROGRAMI Ardından öğrencilere insan kaynaklı afetlerin öncesi, sırası ve sonrasında alınabilecek önlemlerle ilgili T.C. Sağlık Bakanlığı, Türk Kızılay, AFAD, T.C. Çevre, Şehircilik ve İklim Değişikliği Bakanlığı, Türkiye Enerji, Nükleer ve Maden Araştırma Kurumu (TENMAK) ve diğer ilgili kurumların hazırladığı bilgilendirme broşürleri, kısa videolar, afişler veya dijital içerikler sunulur (OB1, OB2, OB4). Öğrenciler gruplara ayrılır ve her gruba bir insan kaynaklı afet türü verilir. Gruplardan seçtikleri afet türüyle ilgili afet öncesi, sırası ve sonrasında alınabilecek önlemleri içeren bir “Acil Durum Hazırlık Planı” oluşturmaları istenir. Plan hazırlanırken insan faaliyetlerinden kaynaklanan riskleri kaynağında engellemeye yönelik teknik risk azaltma durumları öncelikle göz önünde bulundurulur. Öğrencilerden hazırladıkları planları sınıf ortamında canlandırarak uygulaması istenir. Bu uygulama sürecinde öğrencilerin iş birliği, sorumluluk, sevgi ve şefkat gösterme, çevresel temizliğe ve sürdürülebilirliğe önem verme ile diğer insanlara karşı nezaketli olma becerilerini geliştirmesi beklenir (D13.4, D14.1, D15.1, D18.3, E2.2, SDB2.2). Canlandırma sürecinin tamamlanmasının ardından öğrencilerden uyguladıkları planın güçlü, zayıf ve geliştirilebilir yönlerini tartışarak değerlendirmeleri istenebilir. Süreç, akran değerlendirmesi ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden insan kaynaklı afet türlerinin yaşanma riskinin bulunduğu bölge, şehir veya yerin haritasını çizmeleri; insan kaynaklı afetlerin neden olduğu zararlarla ilgili dijital hikâye yazmaları; insan kaynaklı afet türlerinden birini seçerek dijital acil durum hazırlık planı hazırlamaları istenebilir. Destekleme Öğrencilerden insan kaynaklı afet türlerinin yaşanma riskinin bulunduğu yerleri harita üzerinde boyamaları istenebilir. Ayrıca insan kaynaklı afetlerin zararlarına ilişkin basit görsel eşleştirme kartlarıyla oyun oynamaları sağlanabilir. Bunun yanı sıra öğrencilere insan kaynaklı afetlerin öncesi, sırası ve sonrasına ait görseller verilerek bu görselleri uygun şekilde eşleştirmeleri istenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. AFET BILINCI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 3,
+   "kind": "ÜNİTE",
+   "title": "DOĞA KAYNAKLI AFETLER",
+   "description": "Bu ünitede öğrencilerin deprem, sel, heyelan, fırtına gibi doğa kaynaklı afetlerin görülme riski yüksek olan bölgeleri haritalar üzerinden analiz etmeleri amaçlanmaktadır. Öğrencilerin bu afetlerin yol açtığı sosyal, ekonomik, çevresel ve sağlıkla ilgili zararları bilimsel kanıtlara dayanarak sorgulamaları ve elde ettikleri çıkarımları özgün ürünlere dönüştürmeleri hedeflenir. Ünite genelinde afetzedelerle empati kurarak afet öncesi, sırası ve sonrasında uygulanması gereken önlemleri ve “acil durum hazırlık planlarını” canlandırmalar yoluyla eyleme dönüştüren duyarlı bireyler yetiştirilmesi esastır.",
+   "lesson_hours": 24,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB2.6. Kanıta Dayalı Ürün Oluşturma ve Paylaşma, SBAB5.5. Fikri Eyleme Dönüştürme, SBAB10.3. Haritadan Çıkarım Yapma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E2.1. Empati, E2.2. Sorumluluk, E3.3. Yaratıcılık",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.3.Sorumlu Karar Verme Becerisi",
+    "Değerler": "D5. Duyarlılık, D8. Mahremiyet, D15. Sevgi, D18. Temizlik, D20. Yardımseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Sosyal Bilgiler, Fen Bilimleri BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.10. Çıkarım Yapma, KB2.18. Tartışma AFET BILINCI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "AB.2.3.1. Doğa kaynaklı afet riskinin yüksek olduğu yerler hakkında haritalardan çıkarım yapabilme a) Haritada yer alan doğa kaynaklı afet türlerinin yaşanma riskinin bulunduğu yerler ile ilgili çıkarım yapar. AB.2.3.2. Doğa kaynaklı afetlerin neden olduğu zararın boyutlarıyla ilgili kanıta dayalı ürün oluşturabilme ve paylaşabilme a) Doğa kaynaklı afetlerin neden olduğu zararın boyutlarıyla ilgili kanıta dayanarak çıkarım yapar. b) Doğa kaynaklı afetlerin neden olduğu zararın boyutlarıyla ilgili kanıtlardan elde ettiği çıkarım üzerine kişisel görüşünü̈ yansıtan bir ürün oluşturur. c) Doğa kaynaklı afetlerin neden olduğu zararın boyutlarıyla ilgili oluşturduğu ürünü paylaşır. AB.2.3.3. Doğa kaynaklı afet türlerinin öncesi, sırası ve sonrasında alınması gereken önlemlerle ilgili fikirleri eyleme dönüştürebilme a) Doğa kaynaklı afet türlerinin öncesi, sırası ve sonrasında alınması gereken önlemlerle ilgili plan yapar. b) Doğa kaynaklı afet türlerinin öncesi, sırası ve sonrasında alınması gereken önlemlerle ilgili planı uygular. c) Doğa kaynaklı afet türlerinin öncesi, sırası ve sonrasında alınması gereken önlemlerle ilgili planı değerlendirir.",
+    "İÇERİK ÇERÇEVESİ": "Doğa Kaynaklı Afetlerin Oluşum Yerleri Doğa Kaynaklı Afetlerin Zararları Doğa Kaynaklı Afetlerde Alınabilecek Önlemler",
+    "Anahtar Kavramlar": "çığ, deprem, fırtına, heyelan, hortum, kasırga, kuraklık, orman yangını, risk haritası, riskli bölgeler, sel, tsunami, volkanik patlama",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktılarının değerlendirilmesinde akran değerlendirme formu, öz değerlendirme (Ölçme ve formu, kontrol listesi, dereceli puanlama anahtarı, performans görevi vb. ölçme ve değerDeğerlendirme) lendirme araçları kullanılabilir. Performans görevi olarak öğrencilerden doğa kaynaklı afetlerin yaşanma riskinin olduğu yerlerdeki insanları bilinçlendirme amacıyla farkındalık posteri hazırlamaları istenebilir. Performans görevi, kontrol listesi ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin Türkiye’nin coğrafi özellikleri, doğa kaynaklı afetler ve türleri, doğa kaynaklı afetlerin nedenleri ve sonuçları ile doğa kaynaklı afetlere karşı alınabilecek önlemler hakkında temel düzeyde bilgi sahibi oldukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilerin Türkiye’nin dağlık ve engebeli yapısı, iklim çeşitliliği, fay hatlarının dağılımı gibi coğrafi özelliklerinin afet riskleri üzerindeki etkileri hakkındaki ön bilgileri, soru-cevap yöntemiyle yoklanabilir. Öğrencilerden “Doğa kaynaklı afetlerin etkilerini azaltmak için neler yapılabilir?”, “Doğa kaynaklı afetlerin öncesinde alınacak önlemler neler olabilir?” sorularına cevap vermeleri istenebilir. AFET BILINCI DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilerden doğa kaynaklı afetlerden hangilerinin yakın çevrelerinde görülebileceğini ve risk oluşturabilecek alanların neler olabileceğini belirtmeleri istenebilir. Ayrıca öğrencilerden doğa kaynaklı afetlerin yol açtığı zararların boyutlarını yansıtan güncel haberler bulup sınıfta paylaşmaları beklenebilir. Bunun yanı sıra öğrencilerden doğa kaynaklı afetlere karşı aileleriyle birlikte yaptıkları hazırlıkları sınıfta paylaşmaları istenebilir. Öğrenme-Öğretme AB.2.3.1 Uygulamaları Öğrencilere (deprem, sel, heyelan, çığ, fırtına, kasırga, hortum, kuraklık, tsunami, volkanik patlamalar, orman yangını, kaya düşmesi, dolu, aşırı sıcak hava dalgası, aşırı soğuk hava dalgası vb.) doğa kaynaklı afet türlerinin oluşumunu etkileyen faktörlere ilişkin yazılı ve görsel kaynaklar inceletilir (OB1, OB4). Öğrencilerin Türkiye’de doğa kaynaklı afet türlerinin yaşanma riskinin yüksek olduğu yerleri gösteren haritaları incelemeleri sağlanır. Daha sonra öğrencilerden inceledikleri haritalardan hareketle doğa kaynaklı afet türlerinin yaşanma riskinin yüksek olduğu yerleri tespit etmeleri istenir. “Çember Tartışma” tekniği uygulanarak öğrencilerin doğa kaynaklı afet türlerinin yaşanma riski taşıyan yerler ve bu yerlerin özellikleri hakkında çıkarımda bulunmaları sağlanır (SDB2.1, KB2.10). Öğrencilerden performans görevi kapsamında gruplar oluşturarak haritalar üzerinden belirledikleri doğa kaynaklı afet türlerinin yaşanma riski bulunan bölgelerde yaşayan insanları bilinçlendirmeye yönelik bir farkındalık posteri hazırlamaları istenebilir (D5.1, E2.2, SDB2.2). Hazırlanan posterler sınıfta veya okul panosunda sergilenebilir. Ortaya çıkan ürünler kontrol listesi ile değerlendirilebilir. AB.2.3.2 Öğrencilere yaşanan doğa kaynaklı afetlere (deprem, sel, fırtına, çığ, orman yangını, volkanik patlama, heyelan vb.) ilişkin sosyal, ekonomik, sağlık, güvenlik, çevresel vb. etkileri gösteren yazılı, görsel veya dijital kaynaklar sunulur (OB1, OB2, OB4). Öğrencilerden bu kaynakları inceleyerek afetlerin yol açtığı zararın boyutlarına dair kanıtlara dayalı çıkarım yaparak bu çıkarımları listelemeleri istenir (SDB3.3). Ardından öğrencilerden afetlerin yol açtığı zararın boyutlarıyla ilgili edindikleri kanıtlardan hareketle kendi görüşlerini yansıtan bilgi görseli, poster, haber metni, gazete vb. bir ürün oluşturmaları istenir (E3.3). Bu süreçte afet sonrasında toplumsal yardımlaşma ve dayanışmanın önemini kazanmanın gerekliliği vurgulanır (D5.3, D20.2). Hazırlanan ürünler sınıfta paylaşılır. Ürünler dereceli puanlama anahtarı ile değerlendirilebilir. AB.2.3.3 Doğa kaynaklı afet türlerine (deprem, sel, heyelan, çığ, fırtına, kasırga, hortum, kuraklık, tsunami, volkanik patlamalar, orman yangını, kaya düşmesi, aşırı sıcak hava dalgası, aşırı soğuk hava dalgası, dolu vb.) karşı öncesi, sırası ve sonrasında alınması gereken önlemler hakkında “Beyin Fırtınası” tekniği kullanılarak öğrencilere “Deprem sırasında nasıl davranılmalıdır?”, “Sel öncesinde sırasında ve sonrasında hangi önlemler alınmalıdır?” gibi sorular yöneltilerek öğrencilerden sorulara cevap vermesi istenir (SDB2.1). Ardından öğrencilere doğa kaynaklı afetlerin öncesi, sırası ve sonrasında alınabilecek önlemlerle ilgili T.C. Sağlık Bakanlığı, AFAD, T.C. Ulaştırma ve Altyapı Bakanlığı, T.C. Çevre, Şehircilik ve İklim Değişikliği Bakanlığı, Meteoroloji Genel Müdürlüğü (MGM), Türk Kızılay, Doğal Afet Sigortaları Kurumu ve diğer ilgili kurumların hazırladığı bilgilendirme broşürleri, kısa videolar, afişler veya dijital içerikler sunulur (OB1, OB2, OB4). AFET BILINCI DERSİ ÖĞRETİM PROGRAMI Bu aşamada yardımseverlik değeri kapsamında afetlerle ilgili kuruluşlara gönüllü katılımının önemi vurgulanır (D20.4). Öğrenciler gruplara ayrılır ve her gruptan bir doğa kaynaklı afet türünü seçmesi istenir. Gruplardan seçtikleri afet türüyle ilgili afet öncesi, sırası ve sonrasında alınabilecek önlemleri içeren bir “Acil Durum Hazırlık Planı” oluşturmaları istenir. Öğrencilerin planda yaşadıkları bölgenin coğrafi yapısına özgü (heyelan duvarı, sel bentleri vb.) mühendislik temelli risk azaltma durumlarına yer vermeleri sağlanır. Planı hazırlarken mahremiyet ve yaşadığı ortamın temizliğine dikkat edilmesinin gereği üzerinde durulur (D8.2, D18.2). Öğrencilerden hazırladıkları planları sınıf ortamında canlandırarak uygulamaları istenir (SDB2.2). Öğrencilerden canlandırma yaparken afetzedelerin durumlarını anlamak için empati kurmaları beklenir (E2.1). Toplumsal bağları onarmada insan ve doğa sevgisinin kapsayıcı ve iyileştirici rolü vurgulanır (D.15). Öğrencilerden canlandırma sürecinin tamamlanmasının ardından uyguladıkları planın güçlü, zayıf ve geliştirilebilir yönlerini tartışarak değerlendirmeleri istenir (KB2.18, SDB 2.1). Süreç, kontrol listesi ile değerlendirilebilir.",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden doğa kaynaklı afet türlerinin yaşanma riskinin bulunduğu yerleri yansıtan bir harita çizmesi, doğa kaynaklı afet türlerinden birini seçerek acil durumda yapılması gerekenlere yönelik sosyal sorumluluk projesi hazırlamaları istenebilir. Ayrıca öğrencilerden doğa kaynaklı afetlerin neden olduğu zararlarla ilgili dijital hikâye yazmaları istenebilir. Destekleme Öğrencilerden doğa kaynaklı afet türlerinin yaşanma riskinin bulunduğu yerleri harita üzerinde boyamaları istenebilir. Ayrıca öğrencilerden doğa kaynaklı afet türlerinin öncesi, sırası ve sonrası ile ilgili görseller verilerek bunları öncesi, sırası ve sonrası olarak eşleştirmeleri istenebilir. Bunun yanı sıra öğrencilere doğa kaynaklı afetlerin zararları ile ilgili basit görsel eşleştirme kartlarıyla oyun oynatılabilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. AFET BILINCI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 4,
+   "kind": "ÜNİTE",
+   "title": "KÜRESEL İKLİM DEĞİŞİKLİĞİ VE AFETLER",
+   "description": "Bu ünitede öğrencilerin küresel iklim değişikliğiyle mücadelede ülkemizin ulusal ve uluslararası düzeyde üstlendiği stratejik rolü bilimsel belgeler üzerinden yorumlamaları amaçlanmaktadır. Öğrencilerin Paris Anlaşması, Sıfır Atık Projesi, Yeşil Mutabakat gibi önemli girişimleri yürüten kuruluşların faaliyetlerini kanıtlara dayanarak analiz etmeleri ve bu süreçlere dair kişisel görüşlerini yansıtan özgün ürünler geliştirmeleri hedeflenir. Ünite genelinde karbon azaltım hedefleri, iklim eylem planları gibi güncel politikaları kavrayarak çevre sorunlarına karşı duyarlı ve sorumluluk sahibi birer vatandaşlık bilinci kazandırılması esastır.",
+   "lesson_hours": 16,
+   "sections": {
+    "ALAN BECERİLERİ": "SBAB2.6. Kanıta Dayalı Ürün Oluşturma ve Paylaşma",
+    "KAVRAMSAL BECERİLER": "KB2.14. Yorumlama",
+    "EĞİLİMLER": "E3.3. Yaratıcılık",
+    "PROGRAMLAR ARASI BİLEŞENLER": "",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim, SDB2.2. İş Birliği, SDB3.3. Sorumlu Karar Verme",
+    "Değerler": "D1. Adalet, D5. Duyarlılık, D12. Sabır, D15. Sevgi, D18. Temizlik, D19. Vatanseverlik",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB2. Dijital Okuryazarlık, OB4. Görsel Okuryazarlık, OB6. Vatandaşlık Okuryazarlığı, OB8. Sürdürülebilirlik Okuryazarlığı",
+    "DİSİPLİNLER ARASI İLİŞKİLER": "Sosyal Bilgiler, Fen Bilimleri BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.10. Çıkarım Yapma AFET BILINCI DERSİ ÖĞRETİM PROGRAMI",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "AB.2.4.1. Küresel iklim değişikliği mücadelesinde ülkemizin rolünü yorumlayabilme a) Küresel iklim değişikliği mücadelesinde ülkemizin rolünü inceler. b) Küresel iklim değişikliği mücadelesinde ülkemizin rolünü bağlamdan kopmadan dönüştürür. c) Küresel iklim değişikliği mücadelesinde ülkemizin rolünü nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder. AB.2.4.2. Küresel iklim değişikliği mücadelesinde ulusal ve uluslararası kuruluşların faaliyetleri ile ilgili kanıta dayalı ürün oluşturabilme ve paylaşabilme a) Küresel iklim değişikliği mücadelesinde ulusal ve uluslararası kuruluşların faaliyetleri ile ilgili kanıta dayanarak çıkarım yapar. b) Küresel iklim değişikliği mücadelesinde ulusal ve uluslararası kuruluşların faaliyetleri ile ilgili kanıtlardan elde ettiği çıkarım üzerine kişisel görüşünü̈ yansıtan bir ürün oluşturur. c) Küresel iklim değişikliği mücadelesinde ulusal ve uluslararası kuruluşların faaliyetleri ile ilgili oluşturduğu ürünü paylaşır.",
+    "İÇERİK ÇERÇEVESİ": "Küresel İklim Değişikliği Küresel İklim Değişikliği Mücadelesinde Ulusal ve Uluslararası Kuruluşlar",
+    "Anahtar Kavramlar": "çevre duyarlılığı, iklim değişikliği, iklim krizi, karbon azaltım hedefleri, MEB İklim Değişikliği Eylem Planı, Paris Anlaşması, sıfır atık, ulusal politika, uluslararası iş birliği, uyum ve azaltım stratejileri, yeşil mutabakat",
+    "ÖĞRENME KANITLARI": "Öğrenme çıktılarının değerlendirilmesinde akran değerlendirme formu, öz değerlendirme (Ölçme ve formu, kontrol listesi, dereceli puanlama anahtarı, performans görevi vb. ölçme ve değerDeğerlendirme) lendirme araçları kullanılabilir. Performans görevi olarak öğrencilerden küresel iklim değişikliği ile mücadele eden ulusal ve uluslararası kuruluşların faaliyetleri ile ilgili bilgi görseli, poster, broşür veya gazete haberi hazırlamaları istenebilir. Performans görevi, dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Öğrencilerin küresel iklim değişikliği kavramı ile bilgi sahibi oldukları kabul edilmektedir. Ön Değerlendirme Süreci Öğrencilere “Küresel iklim değişikliği ile mücadele denilince aklınıza neler geliyor?” sorusu yönetilebilir. AFET BILINCI DERSİ ÖĞRETİM PROGRAMI Köprü Kurma Öğrencilerin iklim değişikliğinin kendi günlük yaşamlarına olan etkilerine örnekler vermeleri istenebilir. Öğrencilerden çevresinde yapılan küresel iklim değişikliği mücadelesi ile ilgili örnekler vermeleri istenebilir. AB.2.4.1 Öğrenme-Öğretme Uygulamaları Öğrencilere küresel iklim değişikliği ile mücadelede uluslararası alanda yürütülen çalışmalar ile ilgili yazılı, görsel veya dijital kaynaklar sunulur (OB1, OB2, OB4). Ardından öğrencilere Türkiye’nin iklim değişikliği mücadelesindeki rolünü anlatan ulusal ve uluslararası resmî belgeler, kısa videolar, grafikler, haber metinleri, ulusal politika örnekleri, iklim kriziyle mücadele yöntemleri vb. kaynaklar inceletilir (OB1,OB2,0B4). Dünya Su Günü ve Sıfır Atık Projesi’nin uluslararası arenada kabulünde Türkiye’nin rolüne değinilir. Bu aşamada öğrencilere küresel iklim değişikliği mücadelesinde vatandaşlık sorumluluğu taşıması gerektiği vurgulanır (D19.4, OB6, OB8). Ayrıca iklim krizinin küresel etkilerine karşı uluslararası düzeyde hakkaniyetli olmanın önemi belirtilir (D1.2). Öğretmen rehberliğinde gruplar oluşturulur. Gruplardan Türkiye’nin iklim değişikliğiyle mücadele kapsamında ulusal ve uluslararası düzeyde gerçekleştirdiği faaliyetleri ele alan özgün bir tanıtım broşürü veya kitapçık hazırlamaları ve bunu sınıfta sunmaları beklenir (E3.3, SDB2.1, SDB2.2). Bu ürünlerde öğrencilerden Türkiye’nin küresel iklim değişikliği ile mücadeleye sağladığı katkıları kendi ifadeleriyle yeniden ortaya koymaları istenir (SDB3.3). Ortaya konulan ürünler kontrol listesi ile değerlendirilebilir. AB.2.4.2 Öğrencilere küresel iklim değişikliği ile mücadelede rol alan ulusal ve uluslararası kurum ve kuruluşlara [T.C. Çevre, Şehircilik ve İklim Değişikliği Bakanlığı, AFAD, Meteoroloji Genel Müdürlüğü, TEMA, Türkiye Bilimsel ve Teknik Araştırmalar Kurumu (TÜBİTAK), Avrupa Birliği Çevre Ajansı, Birleşmiş Milletler İklim Değişikliği Çerçeve Sözleşmesi (UNFCCC), Hükümetlerarası İklim Değişikliği Paneli (IPCC), Birleşmiş Milletler Çevre Programı (UNEP) vb.] ilişkin yazılı, görsel veya dijital bilgi kaynakları sunulur. (OB1, OB2, OB4). Ardından öğrencilerden kuruluşların iklim değişikliği ile mücadelede yürüttükleri faaliyetler hakkında kanıtlara dayalı çıkarım yaparak bu çıkarımları listelemeleri istenir (KB2.10). Bu çıkarımlarda kurumların iklim krizine bağlı gelişen hidro-meteorolojik afetlere karşı geliştirdiği uyum ve uzun vadeli risk azaltma durumları listelenir. Bu aşamada öğrencilere duyarlılık değeri kapsamında çevre sorunlarına yol açabilecek davranışlardan kaçınması gerektiği vurgulanır (D5.2). Ayrıca çevre sorunlarının çözümünde çevresel temizliğe ve sürdürülebilirliğe önem verme, doğaya sevgi ve şefkat gösterme ile mücadele süreçlerinde sabır göstermenin gerekliliği belirtilir (D12.1, D15.1, D18.3). Öğrencilerden performans görevi olarak ulusal ve uluslararası kurum ve kuruluşların (Paris Anlaşması, Sıfır Atık Projesi, Yeşil Mutabakat, IPCC değerlendirme raporları, grafikler, kampanya afişleri, proje örnekleri, karbon azaltım hedefleri, iklim eylem planları vb.) faaliyetlerinin yer aldığı kanıt nitelikli içerikler üzerinden kişisel görüşlerini yansıtan bilgi görseli, poster, broşür veya gazete haberi vb. ürün oluşturmaları istenebilir (E3.3). Hazırlanan ürünler okul veya sınıf panosunda sergilenir. Ortaya konulan ürünler dereceli puanlama anahtarı ile değerlendirilebilir. AFET BILINCI DERSİ ÖĞRETİM PROGRAMI",
+    "FARKLILAŞTIRMA": "Zenginleştirme Öğrencilerden Türkiye’nin iklim değişikliğiyle mücadele kapsamında yürüttüğü ulusal ve uluslararası faaliyetlere ilişkin dijital bir tanıtım kitapçığı oluşturmaları istenebilir. Ayrıca öğrencilerden ulusal veya uluslararası bir kurum ya da kuruluşta görev yapan bir uzman rolünü üstlenerek küresel iklim değişikliğiyle ilgili yürütülen çalışmalara yönelik bir konuşma hazırlamaları beklenebilir. Destekleme Öğrencilerden küresel iklim değişikliği ile mücadelede Türkiye’nin rolü ile ilgili bir hikâye yazmaları istenebilir. Öğrencilerden küresel iklim değişikliği mücadelesinde rol alan ulusal ve uluslararası kuruluşların (T.C. Çevre, Şehircilik ve İklim Değişikliği Bakanlığı, AFAD, TEMA vb.) adlarını ve temel faaliyet alanlarını eşleştirmeleri istenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. AFET BILINCI DERSİ ÖĞRETİM PROGRAMI"
+   },
+   "outcomes": []
+  }
+ ],
+ "unassigned_outcomes": [
+  {
+   "code": "AB.1.1.1",
+   "grade": 1,
+   "unit": 1,
+   "order": 1,
+   "text": "Afet ile ilgili temel kavramlar hakkında bilgi kazandırılması amaçlanan bilgi, SÜREÇ BİLEŞENLERİ toplayabilme beceri ve becerilerin süreç",
+   "components": [
+    {
+     "label": "a",
+     "text": "Afet ile ilgili temel kavramlar hakkında bilgi toplabileşenlerini ifade eder. yabileceği araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Afet ile ilgili temel kavramlar hakkında belirlediği araçlardan bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "Afet ile ilgili temel kavramlar hakkında belirlediği araçlardan ulaşılan bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "Afet ile ilgili temel kavramlar hakkında belirlediği araçlardan ulaşılan bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "AB.1.1.2",
+   "grade": 1,
+   "unit": 1,
+   "order": 2,
+   "text": "Afetlere neden olabilecek doğa ve insan kaynaklı olayları sınıflandırabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Afetlere neden olabilecek doğa ve insan kaynaklı olaylara ilişkin değişkenleri belirler."
+    },
+    {
+     "label": "b",
+     "text": "Afetlere neden olabilecek doğa ve insan kaynaklı olayları ayrıştırır."
+    },
+    {
+     "label": "c",
+     "text": "Afetlere neden olabilecek doğa ve insan kaynaklı olayları tasnif eder."
+    },
+    {
+     "label": "ç",
+     "text": "Afetlere neden olabilecek doğa ve insan kaynaklı olayları etiketler."
+    }
+   ]
+  },
+  {
+   "code": "AB.1.1.3",
+   "grade": 1,
+   "unit": 1,
+   "order": 3,
+   "text": "Afetlere karşı bilinçli olmanın afet ve acil durum yönetimindeki önemini yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Afetlere karşı bilinçli olmanın afet ve acil durum yönetimindeki önemini inceler."
+    },
+    {
+     "label": "b",
+     "text": "Afetlere karşı bilinçli olmanın afet ve acil durum yönetimindeki önemini bağlamdan kopmadan dönüştürür."
+    },
+    {
+     "label": "c",
+     "text": "Afetlere karşı bilinçli olmanın afet ve acil durum yönetimindeki önemini nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder."
+    }
+   ]
+  },
+  {
+   "code": "AB.1.2.1",
+   "grade": 1,
+   "unit": 2,
+   "order": 1,
+   "text": "İnsan kaynaklı afetler ve türleri hakkında bilgi toplayabilme SÜREÇ BİLEŞENLERİ",
+   "components": [
+    {
+     "label": "a",
+     "text": "İnsan kaynaklı afetler ve türleri hakkında bilgi toplayabileceği araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "İnsan kaynaklı afetler ve türleri hakkında belirlediği araçlardan bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "İnsan kaynaklı afetler ve türleri hakkında belirlediği araçlardan ulaşılan bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "İnsan kaynaklı afetler ve türleri hakkında belirlediği araçlardan ulaşılan bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "AB.1.2.2",
+   "grade": 1,
+   "unit": 2,
+   "order": 2,
+   "text": "İnsan kaynaklı afetlerin nedenleri ve sonuçlarını sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İnsan kaynaklı afetlerin nedenleri ve sonuçlarıyla ilgili merak ettiği konuları tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "İnsan kaynaklı afetlerin nedenleri ve sonuçlarıyla ilgili sorular sorar."
+    },
+    {
+     "label": "c",
+     "text": "İnsan kaynaklı afetlerin nedenleri ve sonuçlarıyla ilgili bilgi toplar."
+    },
+    {
+     "label": "ç",
+     "text": "İnsan kaynaklı afetlerin nedenleri ve sonuçlarıyla ilgili topladığı bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "İnsan kaynaklı afetlerin nedenleri ve sonuçlarıyla ilgili topladığı bilgiler üzerinde çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "AB.1.2.3",
+   "grade": 1,
+   "unit": 2,
+   "order": 3,
+   "text": "İnsan kaynaklı afetlere karşı alınabilecek önlemleri yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İnsan kaynaklı afetlere karşı alınabilecek önlemleri inceler."
+    },
+    {
+     "label": "b",
+     "text": "İnsan kaynaklı afetlere karşı alınabilecek önlemleri bağlamdan kopmadan dönüştürür."
+    },
+    {
+     "label": "c",
+     "text": "İnsan kaynaklı afetlere karşı alınabilecek önlemleri nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder."
+    }
+   ]
+  },
+  {
+   "code": "AB.1.3.1",
+   "grade": 1,
+   "unit": 3,
+   "order": 1,
+   "text": "Doğa kaynaklı afetler ve türleri hakkında bilgi toplayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Doğa kaynaklı afetler ve türleri hakkında bilgi toplayabileceği araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Doğa kaynaklı afetler ve türleri hakkında belirlediği araçlardan bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "Doğa kaynaklı afetler ve türleri hakkında belirlediği araçlardan ulaşılan bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "Doğa kaynaklı afetler ve türleri hakkında belirlediği araçlardan ulaşılan bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "AB.1.3.2",
+   "grade": 1,
+   "unit": 3,
+   "order": 2,
+   "text": "Doğa kaynaklı afetlerin neden ve sonuçlarını sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Doğa kaynaklı afetlerin nedenleri ve sonuçlarıyla ilgili merak ettiği konuları tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Doğa kaynaklı afetlerin nedenleri ve sonuçlarıyla ilgili sorular sorar."
+    },
+    {
+     "label": "c",
+     "text": "Doğa kaynaklı afetlerin nedenleri ve sonuçlarıyla ilgili bilgi toplar."
+    },
+    {
+     "label": "ç",
+     "text": "Doğa kaynaklı afetlerin nedenleri ve sonuçlarıyla ilgili topladığı bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Doğa kaynaklı afetlerin nedenleri ve sonuçlarıyla ilgili topladığı bilgiler üzerinde çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "AB.1.3.3",
+   "grade": 1,
+   "unit": 3,
+   "order": 3,
+   "text": "Doğa kaynaklı afetlere karşı alınabilecek önlemleri yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Doğa kaynaklı afetlere karşı alınabilecek önlemleri inceler."
+    },
+    {
+     "label": "b",
+     "text": "Doğa kaynaklı afetlere karşı alınabilecek önlemleri bağlamdan kopmadan dönüştürür."
+    },
+    {
+     "label": "c",
+     "text": "Doğa kaynaklı afetlere karşı alınabilecek önlemleri nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder."
+    }
+   ]
+  },
+  {
+   "code": "AB.1.4.1",
+   "grade": 1,
+   "unit": 4,
+   "order": 1,
+   "text": "Küresel iklim değişikliği hakkında bilgi toplayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Küresel iklim değişikliği hakkında bilgi toplamak için kullanacağı araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Küresel iklim değişikliği hakkında belirlediği araçlardan bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "Küresel iklim değişikliği hakkında kullanacağı araçlardan ulaşılan bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "Küresel iklim değişikliği hakkında belirlediği araçlardan ulaşılan bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "AB.1.4.2",
+   "grade": 1,
+   "unit": 4,
+   "order": 2,
+   "text": "Küresel iklim değişikliğinin afetlere etkisini sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Küresel iklim değişikliğinin afetlere etkisi ile ilgili merak ettiği konuları tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Küresel iklim değişikliğinin afetlere etkisi ile ilgili sorular sorar."
+    },
+    {
+     "label": "c",
+     "text": "Küresel iklim değişikliğinin afetlere etkisi ile ilgili bilgi toplar."
+    },
+    {
+     "label": "ç",
+     "text": "Küresel iklim değişikliğinin afetlere etkisi ile ilgili topladığı bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Küresel iklim değişikliğinin afetlere etkisi ile ilgili topladığı bilgiler üzerinde çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "AB.2.1.1",
+   "grade": 2,
+   "unit": 1,
+   "order": 1,
+   "text": "Afet ve acil durumlarda ilk yardımın öncelikli amaçlarını sorgulayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Afet ve acil durumlarda ilk yardımın öncelikli amaçları hakkında merak ettiği konuları tanımlar."
+    },
+    {
+     "label": "b",
+     "text": "Afet ve acil durumlarda ilk yardımın öncelikli amaçları hakkında sorular sorar."
+    },
+    {
+     "label": "c",
+     "text": "Afet ve acil durumlarda ilk yardımın öncelikli amaçları hakkında bilgi toplar."
+    },
+    {
+     "label": "ç",
+     "text": "Afet ve acil durumlarda ilk yardımın öncelikli amaçları hakkında toplanan bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Afet ve acil durumlarda ilk yardımın öncelikli amaçları hakkından toplanan bilgiler üzerinden çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "AB.2.1.2",
+   "grade": 2,
+   "unit": 1,
+   "order": 2,
+   "text": "Afet ve acil durum yönetimiyle ilgili ulusal ve uluslararası kuruluşların çalışmaları hakkında bilgi toplayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Afet ve acil durum yönetimiyle ilgili ulusal ve uluslararası kuruluşların çalışmaları hakkında bilgi toplamak için kullanacağı araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Afet ve acil durum yönetimiyle ilgili ulusal ve uluslararası kuruluşların çalışmaları hakkındaki bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "Afet ve acil durum yönetimiyle ilgili ulusal ve uluslararası kuruluşların çalışmaları hakkındaki ulaşılan bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "Afet ve acil durum yönetimiyle ilgili ulusal ve uluslararası kuruluşların çalışmaları hakkındaki ulaşılan bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "AB.2.1.3",
+   "grade": 2,
+   "unit": 1,
+   "order": 3,
+   "text": "Afetlere karşı bilinçli olmanın afet ve acil durum yönetimindeki önemiyle ilgili fikrini eyleme dönüştürebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Afetlere karşı bilinçli olmanın afet ve acil durum yönetimindeki önemiyle ilgili plan yapar."
+    },
+    {
+     "label": "b",
+     "text": "Afetlere karşı bilinçli olmanın afet ve acil durum yönetimindeki önemiyle ilgili planı uygular."
+    },
+    {
+     "label": "c",
+     "text": "Afetlere karşı bilinçli olmanın afet ve acil durum yönetimindeki önemiyle ilgili planı değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "AB.2.2.1",
+   "grade": 2,
+   "unit": 2,
+   "order": 1,
+   "text": "İnsan kaynaklı afet türlerinin yaşanma riskinin bulunduğu yerler hakkında haritalardan çıkarım yapabilme Haritada yer alan insan kaynaklı afet türlerinin yaşanma riskinin bulunduğu yerler ile ilgili çıkarım yapar.",
+   "components": []
+  },
+  {
+   "code": "AB.2.2.2",
+   "grade": 2,
+   "unit": 2,
+   "order": 2,
+   "text": "İnsan kaynaklı afetlerin neden olduğu zararın boyutlarıyla ilgili kanıta dayalı ürün oluşturabilme ve paylaşabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İnsan kaynaklı afetlerin neden olduğu zararın boyutlarıyla ilgili kanıta dayanarak çıkarım yapar."
+    },
+    {
+     "label": "b",
+     "text": "İnsan kaynaklı afetlerin neden olduğu zararın boyutlarıyla ilgili kanıtlardan elde ettiği çıkarım üzerine kişisel görüşünü̈ yansıtan bir ürün oluşturur."
+    },
+    {
+     "label": "c",
+     "text": "İnsan kaynaklı afetlerin neden olduğu zararın boyutlarıyla ilgili kanıtlardan oluşan ürünleri paylaşır."
+    }
+   ]
+  },
+  {
+   "code": "AB.2.2.3",
+   "grade": 2,
+   "unit": 2,
+   "order": 3,
+   "text": "İnsan kaynaklı afet türlerinin öncesinde, sırasında ve sonrasında alınması gereken önlemlerle ilgili fikrini eyleme dönüştürebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İnsan kaynaklı afet türlerinin öncesi, sırası ve sonrasında alınması gereken önlemlerle ilgili plan yapar."
+    },
+    {
+     "label": "b",
+     "text": "İnsan kaynaklı afet türlerinin öncesi, sırası ve sonrasında alınması gereken önlemlerle ilgili planı uygular."
+    },
+    {
+     "label": "c",
+     "text": "İnsan kaynaklı afet türlerinin öncesi, sırası ve sonrasında alınması gereken önlemlerle ilgili planı değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "AB.2.3.1",
+   "grade": 2,
+   "unit": 3,
+   "order": 1,
+   "text": "Doğa kaynaklı afet riskinin yüksek olduğu yerler hakkında haritalardan çıkarım yapabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Haritada yer alan doğa kaynaklı afet türlerinin yaşanma riskinin bulunduğu yerler ile ilgili çıkarım yapar."
+    }
+   ]
+  },
+  {
+   "code": "AB.2.3.2",
+   "grade": 2,
+   "unit": 3,
+   "order": 2,
+   "text": "Doğa kaynaklı afetlerin neden olduğu zararın boyutlarıyla ilgili kanıta dayalı ürün oluşturabilme ve paylaşabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Doğa kaynaklı afetlerin neden olduğu zararın boyutlarıyla ilgili kanıta dayanarak çıkarım yapar."
+    },
+    {
+     "label": "b",
+     "text": "Doğa kaynaklı afetlerin neden olduğu zararın boyutlarıyla ilgili kanıtlardan elde ettiği çıkarım üzerine kişisel görüşünü̈ yansıtan bir ürün oluşturur."
+    },
+    {
+     "label": "c",
+     "text": "Doğa kaynaklı afetlerin neden olduğu zararın boyutlarıyla ilgili oluşturduğu ürünü paylaşır."
+    }
+   ]
+  },
+  {
+   "code": "AB.2.3.3",
+   "grade": 2,
+   "unit": 3,
+   "order": 3,
+   "text": "Doğa kaynaklı afet türlerinin öncesi, sırası ve sonrasında alınması gereken önlemlerle ilgili fikirleri eyleme dönüştürebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Doğa kaynaklı afet türlerinin öncesi, sırası ve sonrasında alınması gereken önlemlerle ilgili plan yapar."
+    },
+    {
+     "label": "b",
+     "text": "Doğa kaynaklı afet türlerinin öncesi, sırası ve sonrasında alınması gereken önlemlerle ilgili planı uygular."
+    },
+    {
+     "label": "c",
+     "text": "Doğa kaynaklı afet türlerinin öncesi, sırası ve sonrasında alınması gereken önlemlerle ilgili planı değerlendirir."
+    }
+   ]
+  },
+  {
+   "code": "AB.2.4.1",
+   "grade": 2,
+   "unit": 4,
+   "order": 1,
+   "text": "Küresel iklim değişikliği mücadelesinde ülkemizin rolünü yorumlayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Küresel iklim değişikliği mücadelesinde ülkemizin rolünü inceler."
+    },
+    {
+     "label": "b",
+     "text": "Küresel iklim değişikliği mücadelesinde ülkemizin rolünü bağlamdan kopmadan dönüştürür."
+    },
+    {
+     "label": "c",
+     "text": "Küresel iklim değişikliği mücadelesinde ülkemizin rolünü nesnel, doğru ve anlamı değiştirmeyecek şekilde yeniden ifade eder."
+    }
+   ]
+  },
+  {
+   "code": "AB.2.4.2",
+   "grade": 2,
+   "unit": 4,
+   "order": 2,
+   "text": "Küresel iklim değişikliği mücadelesinde ulusal ve uluslararası kuruluşların faaliyetleri ile ilgili kanıta dayalı ürün oluşturabilme ve paylaşabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Küresel iklim değişikliği mücadelesinde ulusal ve uluslararası kuruluşların faaliyetleri ile ilgili kanıta dayanarak çıkarım yapar."
+    },
+    {
+     "label": "b",
+     "text": "Küresel iklim değişikliği mücadelesinde ulusal ve uluslararası kuruluşların faaliyetleri ile ilgili kanıtlardan elde ettiği çıkarım üzerine kişisel görüşünü̈ yansıtan bir ürün oluşturur."
+    },
+    {
+     "label": "c",
+     "text": "Küresel iklim değişikliği mücadelesinde ulusal ve uluslararası kuruluşların faaliyetleri ile ilgili oluşturduğu ürünü paylaşır."
+    }
+   ]
+  }
+ ],
+ "report": {
+  "units": 4,
+  "outcomes": 0,
+  "components": 0,
+  "orphan_outcomes": 22,
+  "gaps": [
+   {
+    "course": "Afet Bilinci Dersi",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "AB.1.1.1",
+     "AB.1.1.2",
+     "AB.1.1.3",
+     "AB.1.2.1",
+     "AB.1.2.2",
+     "AB.1.2.3",
+     "AB.1.3.1",
+     "AB.1.3.2",
+     "AB.1.3.3",
+     "AB.1.4.1",
+     "AB.1.4.2",
+     "AB.2.1.1",
+     "AB.2.1.2",
+     "AB.2.1.3",
+     "AB.2.2.1",
+     "AB.2.2.2",
+     "AB.2.2.3",
+     "AB.2.3.1",
+     "AB.2.3.2",
+     "AB.2.3.3",
+     "AB.2.4.1",
+     "AB.2.4.2"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,912 @@
+{
+ "course": {
+  "id": 91,
+  "name": "Seçmeli Müzik Dersi (Piyano)",
+  "slug": "ortaokul-secmeli-muzik-dersi-piyano-egitimi",
+  "prefix": "SMPYN",
+  "kademe": 2,
+  "kademe_name": "Temel Eğitim",
+  "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/secmeli-muzik-dersi-piyano_20260819_075028_951.pdf"
+ },
+ "units": [
+  {
+   "grade": null,
+   "unit": 1,
+   "kind": "TEMA",
+   "title": "TEMEL KAVRAMLAR",
+   "description": "Bu temada öğrencilerin hız ve gürlük terimlerini tanımlayabilmeleri, dolap ve tekrar işaretlerini tanıyabilmeleri, Türk müziğinde kullanılan makam kavramını açıklayabilmeleri ile müzik cümlesi ve 6/8’lik ölçüleri çözümleyebilmeleri amaçlanmaktadır.",
+   "lesson_hours": 10,
+   "sections": {
+    "ALAN BECERİLERİ": "-",
+    "KAVRAMSAL BECERİLER": "KB1. Temel Beceriler, KB2.4. Çözümleme",
+    "EĞİLİMLER": "E1.1. Merak, E2.2. Sorumluluk, E3.1. Muhakeme",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMPYN.3.1.1 • Öğrencilerin hız ve gürlük terimlerini tanımlayabilme konusunda soru-cevap tekniği ile sözlü mesajlar alıp vermeleri sağlanabilir (SDB2.1). • Öğrencilerin hız ve gürlük terimlerini tanımlayabilme konusunda doğru bilgiyi ayırt etmeleri desteklenir (D3.3). • Öğrencilerin hız ve gürlük terimlerini tanımlayabilme konusunda bilgi parçaları arasında ilişki kurmaları sağlanır (OB1). SMPYN.3.1.2 • Öğrencilerin dolap ve tekrar işaretlerini tanıyabilme konusunda soru-cevap tekniği ile sözlü mesajlar alıp vermeleri sağlanabilir (SDB2.1). • Öğrencilerin dolap ve tekrar işaretlerini tanıyabilme konusunda doğru bilgiyi ayırt etmeleri desteklenir (D3.3). • Öğrencilerin dolap ve tekrar işaretlerini tanıyabilme konusunda bilgi parçaları arasında ilişki kurmaları sağlanır (OB1). SMPYN 3.1.3 • Öğrencilerin Türk müziğinde kullanılan makam kavramını açıklayabilme konusunda soru-cevap tekniği ile sözlü mesajlar alıp vermeleri sağlanabilir (SDB2.1). • Öğrencilerin Türk müziğinde kullanılan makam kavramını açıklayabilme konusunda doğru bilgiyi ayırt etmeleri desteklenir (D3.3). • Öğrencilerin Türk müziğinde kullanılan makam kavramını açıklayabilme konusundaki çalışmalarda arkadaşlarına karşı nazik olmaları teşvik edilir (D5.1). • Öğrencilerin Türk müziğinde kullanılan makam kavramını açıklayabilme konusunda bilgi parçaları arasında ilişki kurmaları sağlanır (OB1). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI PİYANO MODÜLÜ SMPYN.3.1.4 • Öğrencilerin müzik cümlesini ve 6/8’lik ölçüleri çözümleyebilme konusunda aldıkları görevleri yerine getirirken özverili davranmaları sağlanır (D16.3). • Öğrencilerin müzik cümlesini ve 6/8’lik ölçüleri çözümleyebilme konusunda temel sanat kavramlarını tanımaları desteklenir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI PİYANO MODÜLÜ",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB2.1. İletişim",
+    "Değerler": "D3. Çalışkanlık, D5. Duyarlılık, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB1. Bilgi Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI PİYANO MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMPYN.3.1.1. Hız ve gürlük terimlerini tanımlayabilme SMPYN.3.1.2. Dolap ve tekrar işaretlerini tanıyabilme SMPYN.3.1.3. Türk müziğinde kullanılan makam kavramını açıklayabilme SMPYN.3.1.4. Müzik cümlesini ve 6/8’lik ölçüleri çözümleyebilme a) Müzik cümlesini ve 6/8’lik ölçülere ilişkin parçaları belirler. b) Müzik cümlesini ve 6/8’lik ölçülere ilişkin parçaların arasındaki ilişkileri belirler.",
+    "İÇERİK ÇERÇEVESİ": "Hız ve Gürlük Terimleri Dolap ve Tekrar İşaretleri Türk Müziğinde Makam Kavramı Müzik Cümlesi ve 6/8’lik Ölçü",
+    "Anahtar Kavramlar": "gürlük, hız, makam, ölçü, piyano, ton"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 2,
+   "kind": "TEMA",
+   "title": "TEKNİK ÇALIŞMALAR",
+   "description": "Bu temada öğrencilerin hız, gürlük terimlerine uygun etütler ile staccato (kesik çalma) ve legato (bağlı çalma) tekniğini geliştirici etütler, tek diyez ve tek bemollü tonlarda iki oktav gam ve çargâh makamı dizisi ile çargâh makamında etütler çalabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 32,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "KB2.7. Karşılaştırma",
+    "EĞİLİMLER": "E1.3. Azim ve Kararlılık, E3.2. Odaklanma, E3.7. Sistematik Olma, E3.8. Soru Sorma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMPYN.3.2.1 • Öğrencilerden hız ve gürlük terimlerine uygun etütler çalabilme konusunda hedeflerine uygun planlama yapmaları istenir (SBD1.2). • Öğrencilerin hız ve gürlük terimlerine uygun etütler çalabilme çalışmalarında planlı olmaları sağlanır (D3.2). • Öğrencilerin hız ve gürlük terimlerine uygun etütler çalabilmeleri için görev bilincine sahip olarak çalışma yapmaları sağlanır (D16.3). • Öğrencilerden hız ve gürlük terimlerine uygun etütler çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). SMPYN.3.2.2 • Öğrencilerden staccato (kesik çalma) ve legato (bağlı çalma) tekniğini geliştirici etütler çalabilme konusunda hedeflerine uygun planlama yapmaları istenir (SBD1.2). • Öğrencilerin staccato (kesik çalma) ve legato (bağlı çalma) tekniğini geliştirici etütler çalabilme çalışmalarında planlı olmaları sağlanır (D3.2). • Öğrencilerin staccato (kesik çalma) ve legato (bağlı çalma) tekniğini geliştirici etütler çalabilmeleri için görev bilincine sahip olarak çalışma yapmaları sağlanır (D16.3). • Öğrencilerden staccato (kesik çalma) ve legato (bağlı çalma) tekniğini geliştirici etütler çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). SMPYN.3.2.3 • Öğrencilerden tek diyez ve tek bemollü tonlarda iki oktav gam çalabilme konusunda hedeflerine uygun planlama yapmaları istenir (SBD1.2). • Öğrencilerin tek diyez ve tek bemollü tonlarda iki oktav gam çalabilme çalışmalarında planlı olmaları sağlanır (D3.2). • Öğrencilerin tek diyez ve tek bemollü tonlarda iki oktav gam çalabilmeleri için görev bilincine sahip olarak çalışma yapmaları sağlanır (D16.3). • Öğrencilerden tek diyez ve tek bemollü tonlarda iki oktav gam çalabilme konusunda dijital bilgi üzerinden çıkarım yapmaları istenir (OB2). SMPYN.3.2.4 • Öğrencilerin çargâh makamı dizisini ve çargâh makamında etütleri çalabilme konusunda değişen durumları olumlu karşılamaları desteklenir (SDB3.1). • Öğrencilerin çargâh makamı dizisini ve çargâh makamında etütleri çalabilmeleri için hatalarının sonuçlarını değerlendirmeleri ve hatalarını düzeltme yollarını aramaları teşvik edilir (D10.1). • Öğrencilerin çargâh makamı dizisini ve çargâh makamında etütleri çalabilme konusundaki çalışmalarda sebat etmeleri teşvik edilir (D12.3). • Öğrencilerin çargâh makamı dizisini ve çargâh makamında etütleri çalabilme konusunda performans sergilemeleri teşvik edilir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI PİYANO MODÜLÜ",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB3.1. Uyum",
+    "Değerler": "D3. Çalışkanlık, D10. Mütevazılık, D12. Sabır, D16. Sorumluluk",
+    "Okuryazarlık Becerileri": "OB2. Dijital Okuryazarlık, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.2. Gözlemleme, KB2.4. Çözümleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI PİYANO MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMPYN.3.2.1. Hız ve gürlük terimlerine uygun etütler çalabilme a) Hız ve gürlük terimlerine uygun etütleri çözümler. b) Hız ve gürlük terimlerine uygun etütleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır. c) Hız ve gürlük terimlerine uygun etütleri çalabilmek için piyanoya özgü teknikleri kullanır. ç) Hız ve gürlük terimlerine uygun etütleri çalarken müziksel bileşenleri kullanır. SMPYN.3.2.2. Staccato (kesik çalma) ve legato (bağlı çalma) tekniğini geliştirici etütler çalabilme a) Staccato (kesik çalma) ve legato (bağlı çalma) tekniğini geliştirici etütleri çözümler. b) Staccato (kesik çalma) ve legato (bağlı çalma) tekniğini geliştirici etütleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır. c) Staccato (kesik çalma) ve legato (bağlı çalma) tekniğini geliştirici etütleri çalabilmek için piyanoya özgü teknikleri kullanır. ç) Staccato (kesik çalma) ve legato (bağlı çalma) tekniğini geliştirici etütleri çalarken müziksel bileşenleri kullanır. SMPYN.3.2.3. Tek diyez ve tek bemollü tonlarda iki oktav gam çalabilme a) Tek diyez ve tek bemollü tonlarda iki oktav gam çözümler. b) Tek diyez ve tek bemollü tonlarda iki oktav gam çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır. c) Tek diyez ve tek bemollü tonlarda iki oktav gam çalabilmek için piyanoya özgü teknikleri kullanır. ç) Tek diyez ve tek bemollü tonlarda iki oktav gam çalarken müziksel bileşenleri kullanır. SMPYN.3.2.4. Çargâh makamı dizisini ve çargâh makamında etütler çalabilme a) Çargâh makamı dizisini ve çargâh makamında etütleri çözümler. b) Çargâh makamı dizisini ve çargâh makamında etütleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır. c) Çargâh makamı dizisini ve çargâh makamında etütleri çalabilmek için piyanoya özgü teknikleri kullanır. ç) Çargâh makamı dizisini ve çargâh makamında etütleri çalarken müziksel bileşenleri kullanır.",
+    "İÇERİK ÇERÇEVESİ": "Hız ve Gürlük Terimlerine Uygun Etütler Staccato (Kesik Çalma) ve Legato (Bağlı Çalma) Tekniği Gam Çalışmaları Çargâh Makamı Dizisi ve Çargâh Makamında Etütler",
+    "Anahtar Kavramlar": "akor, çargâh, etüt, legato, makam, piyano, staccato ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI PİYANO MODÜLÜ"
+   },
+   "outcomes": []
+  },
+  {
+   "grade": null,
+   "unit": 3,
+   "kind": "TEMA",
+   "title": "ESER ÇALIŞMALARI",
+   "description": "Bu temada öğrencilerin uzatma pedalı kullanarak kendi düzeylerine uygun eserleri çalabilmelerinin yanında buselik makamında eserler ve konser etkinliklerinde düzeyine uygun eserler çalabilmeleri amaçlanmaktadır.",
+   "lesson_hours": 26,
+   "sections": {
+    "ALAN BECERİLERİ": "SAB11. Müziksel Çalma",
+    "KAVRAMSAL BECERİLER": "-",
+    "EĞİLİMLER": "E1.2. Bağımsızlık, E1.6. Seçicilik, E3.2. Odaklanma",
+    "PROGRAMLAR ARASI BİLEŞENLER": "E YÖNELİK UYGULAMALAR SMPYN.4.3.1 • Öğrencilerden düzeyine uygun eserlerde uzatma pedalını kullanabilme çalışmalarında hedeflerine uygun planlama yapmaları istenir (SDB1.2). • Öğrencilerin düzeyine uygun eserlerde uzatma pedalını kullanabilme çalışmalarında yaşadığı problemlerin geçici olduğunu fark etmeleri desteklenir (D12.1). • Öğrencilerin düzeyine uygun eserlerde uzatma pedalını kullanarak performans sergilemeleri teşvik edilir (OB9). SMPYN.4.3.2 • Öğrencilerin buselik makamında eserler çalabilme sürecinde anlaşılmayan konuları açığa çıkarmak için etkili sorular sormaları teşvik edilir (SDB2.1). • Öğrencilerin buselik makamında eserler çalabilme sürecinde insanlara saygı duymakla birlikte fikirlerinin eleştirilmesine açık olmaları desteklenir (D14.1). ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI PİYANO MODÜLÜ • Öğrencilerin buselik makamında eserler çalabilme sürecinde kendi kültürlerinin unsurlarını fark etmeleri desteklenir (OB5). SMPYN.4.3.3 • Öğrencilerin konser etkinliklerinde düzeylerine uygun eserleri çalabilme sürecinde iş birliği yapabileceği kişi ve grupları tespit etmeleri desteklenir (SDB2.2). • Öğrencilerin konser etkinliklerinde düzeylerine uygun eserleri çalabilme sürecinde grup arkadaşlarına karşı adil olmaları ve karşılık beklemeden birbirlerine yardımcı olmaları desteklenir (D9.1, D20.4). • Öğrencilerin konser etkinliklerinde kılık kıyafetlerinin temiz ve düzgün olmasına dikkat etmeleri teşvik edilir (D18.1). • Öğrencilerin konser etkinliklerinde çalacakları düzeylerine uygun eserler, millî kimliğimizi tanımaya yönelik eserlerden seçilir (D19.2). • Öğrencilerin konser etkinliklerinde düzeylerine uygun eserleri çalışarak performans sergilemeleri teşvik edilir (OB9). ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz.",
+    "Sosyal-Duygusal Öğrenme Becerileri": "SDB1.2. Kendini Düzenleme (Öz Düzenleme), SDB2.1. İletişim, SDB2.2. İş Birliği",
+    "Değerler": "D9. Merhamet, D12. Sabır, D14. Saygı, D18. Temizlik, D19. Vatanseverlik, D20.Yardımseverlik",
+    "Okuryazarlık Becerileri": "OB5. Kültür Okuryazarlığı, OB9. Sanat Okuryazarlığı BECERİLER ARASI",
+    "İLİŞKİLER": "KB2.2. Gözlemleme, KB2.4. Çözümleme ORTAOKUL SEÇMELİ MÜZİK DERSİ ÖĞRETİM PROGRAMI PİYANO MODÜLÜ",
+    "ÖĞRENME ÇIKTILARI VE SÜREÇ BİLEŞENLERİ": "SMPYN.4.3.1. Uzatma pedalı kullanarak düzeyine uygun eserler çalabilme a) Uzatma pedalı kullanarak düzeyine uygun eserleri çözümler. b) Uzatma pedalı kullanarak düzeyine uygun eserleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır. c) Uzatma pedalı kullanarak düzeyine uygun eserleri çalabilmek için piyanoya özgü teknikleri kullanır. ç) Düzeyine uygun eserleri çalarken müziksel bileşenleri kullanır. SMPYN.4.3.2. Buselik makamında eserler çalabilme a) Buselik makamında eserleri çözümler. b) Buselik makamında eserleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır. c) Buselik makamında eserleri çalabilmek için piyanoya özgü teknikleri kullanır. ç) Buselik makamında eserleri çalarken müziksel bileşenleri kullanır. SMPYN.4.3.3. Konser etkinliklerinde düzeyine uygun eserleri çalabilme a) Konser etkinliklerinde çalacağı düzeyine uygun eserleri çözümler. b) Konser etkinliklerinde düzeyine uygun eserleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır. c) Konser etkinliklerinde düzeyine uygun eserleri çalabilmek için piyanoya özgü teknikleri kullanır. ç) Konser etkinliklerinde düzeyine uygun eserleri çalarken müziksel bileşenleri kullanır.",
+    "İÇERİK ÇERÇEVESİ": "Uzatma Pedalı Buselik Makamında Eser Çalışmaları Konser Etkinlikleri",
+    "Anahtar Kavramlar": "buselik, eser, konser, piyano"
+   },
+   "outcomes": []
+  }
+ ],
+ "unassigned_outcomes": [
+  {
+   "code": "SMPYN.1.1.1",
+   "grade": 1,
+   "unit": 1,
+   "order": 1,
+   "text": "Piyanonun tarihsel gelişimi hakkında bilgi toplayabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Piyanonun tarihsel gelişimi hakkında bilgi toplamak için kullanacağı araçları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Belirlediği araçları kullanarak piyanonun tarihsel gelişimi hakkındaki bilgileri bulur."
+    },
+    {
+     "label": "c",
+     "text": "Piyanonun tarihsel gelişimi hakkındaki ulaştığı bilgileri doğrular."
+    },
+    {
+     "label": "ç",
+     "text": "Piyanonun tarihsel gelişimi hakkındaki ulaştığı bilgileri kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.1.1.2",
+   "grade": 1,
+   "unit": 1,
+   "order": 2,
+   "text": "Piyanonun yapısı ve bölümlerini çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Piyanonun yapısı ve bölümlerine ilişkin parçaları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Piyanonun yapısı ve bölümlerine ilişkin parçalar arası ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.1.1.3",
+   "grade": 1,
+   "unit": 1,
+   "order": 3,
+   "text": "Piyano çalmada oturuş ve duruş pozisyonunu gözlemleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Piyano çalmada oturuş ve duruş pozisyonuna ilişkin amaç-ölçüt belirler."
+    },
+    {
+     "label": "b",
+     "text": "Piyano çalmada oturuş ve duruş pozisyonu hakkında uygun veri toplama araçları ile veri toplar."
+    },
+    {
+     "label": "c",
+     "text": "Piyano çalmada oturuş ve duruş pozisyonu hakkında topladığı verileri sınıflandırır ve kaydeder."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.1.2.1",
+   "grade": 1,
+   "unit": 2,
+   "order": 1,
+   "text": "Temel kavramlar ve notaları tanımlayabilme",
+   "components": []
+  },
+  {
+   "code": "SMPYN.1.2.2",
+   "grade": 1,
+   "unit": 2,
+   "order": 2,
+   "text": "Sağ ve sol el parmak numaralarını çözümleyebilme ifade eder.",
+   "components": [
+    {
+     "label": "a",
+     "text": "Sağ ve sol el parmak numaralarına ilişkin parçaları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Sağ ve sol el parmak numaraları arasındaki ilişkileri belirler. Öğrenme-öğretme sürecinde"
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.1.3.1",
+   "grade": 1,
+   "unit": 3,
+   "order": 1,
+   "text": "Birinci pozisyonda sağ ve sol eldeki notaları sıralı şekilde okuyabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Birinci pozisyonda sağ ve sol eldeki notaların ritmik ve ezgisel bileşenlerini tanır."
+    },
+    {
+     "label": "b",
+     "text": "Birinci pozisyonda sağ ve sol eldeki notaların ritmik ve ezgisel bileşenlerini ayırt eder."
+    },
+    {
+     "label": "c",
+     "text": "Birinci pozisyonda sağ ve sol eldeki notaları okurken ritmik ve ezgisel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.1.3.2",
+   "grade": 1,
+   "unit": 3,
+   "order": 2,
+   "text": "Birinci pozisyonda sağ ve sol eldeki notaları atlamalı (arpejleme) şekilde çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Birinci pozisyonda sağ ve sol eldeki notaları atlamalı (arpejleme) şekilde çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Birinci pozisyonda sağ ve sol eldeki notaları atlamalı (arpejleme) şekilde çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Birinci pozisyonda sağ ve sol eldeki notaları atlamalı (arpejleme) şekilde çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Birinci pozisyonda sağ ve sol eldeki notaları atlamalı (arpejleme) şekilde çalma çalışmalarında müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.1.3.3",
+   "grade": 1,
+   "unit": 3,
+   "order": 3,
+   "text": "Birinci pozisyonda yer alan etüt ve eser çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Birinci pozisyonda yer alan etüt ve eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Birinci pozisyonda yer alan etüt ve eserleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Birinci pozisyonda yer alan etüt ve eserleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Birinci pozisyonda yer alan etüt ve eserleri çalma çalışmalarında müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.2.1.1",
+   "grade": 2,
+   "unit": 1,
+   "order": 1,
+   "text": "Ölçü kavramını açıklayabilme",
+   "components": []
+  },
+  {
+   "code": "SMPYN.2.1.2",
+   "grade": 2,
+   "unit": 1,
+   "order": 2,
+   "text": "Puandorg, oktav ve vurgu işaretlerini tanıyabilme",
+   "components": []
+  },
+  {
+   "code": "SMPYN.2.1.3",
+   "grade": 2,
+   "unit": 1,
+   "order": 3,
+   "text": "Ton kavramı ve ses değiştirici işaretleri çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Ton kavramı ve ses değiştirici işaretlere ilişkin parçaları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Ton kavramı ve ses değiştirici işaretlere ilişkin parçaların arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.2.2.1",
+   "grade": 2,
+   "unit": 2,
+   "order": 1,
+   "text": "İkinci pozisyonda sıralı sesler ile yazılmış etütleri okuyabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İkinci pozisyonda sıralı sesler ile yazılmış etütlerin ritmik ve ezgisel bileşenlerini tanır."
+    },
+    {
+     "label": "b",
+     "text": "İkinci pozisyonda sıralı sesler ile yazılmış etütlerin ritmik ve ezgisel bileşenlerini ayırt eder."
+    },
+    {
+     "label": "c",
+     "text": "İkinci pozisyonda sıralı sesler ile yazılmış etütleri çalarken okurken ritmik ve ezgisel bileşenleri uygular."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.2.2.2",
+   "grade": 2,
+   "unit": 2,
+   "order": 2,
+   "text": "İki elle aynı anda, düzeyine uygun etütler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İki elle aynı anda, düzeyine uygun etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "İki elle aynı anda, düzeyine uygun etütleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "İki elle aynı anda, düzeyine uygun etütleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "İki elle aynı anda, düzeyine uygun etütleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.2.2.3",
+   "grade": 2,
+   "unit": 2,
+   "order": 3,
+   "text": "Düzeyine uygun iki sesli yapı (aralık) ve üç sesli akor eşlikli etütler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Düzeyine uygun iki sesli yapı (aralık) ve üç sesli akor eşlikli etütleri çözümler."
+    },
+    {
+     "label": "a",
+     "text": "Düzeyine uygun iki sesli yapı (aralık) ve üç sesli akor eşlikli etütleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "b",
+     "text": "Düzeyine uygun iki sesli yapı (aralık) ve üç sesli akor eşlikli etütleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Düzeyine uygun iki sesli yapı (aralık) ve üç sesli akor eşlikli etütleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.2.2.4",
+   "grade": 2,
+   "unit": 2,
+   "order": 4,
+   "text": "Do majör tonunda iki el ile bir oktav gam çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Do majör tonunda iki el ile bir oktav gam çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Do majör tonunda iki el ile bir oktav gam çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Do majör tonunda iki el ile bir oktav gam çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Do majör tonunda iki el ile bir oktav gam çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.2.3.1",
+   "grade": 2,
+   "unit": 3,
+   "order": 1,
+   "text": "Düzeyine uygun eserler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Düzeyine uygun eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Düzeyine uygun eserleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Düzeyine uygun eserleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Düzeyine uygun eserleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.2.3.2",
+   "grade": 2,
+   "unit": 3,
+   "order": 2,
+   "text": "Düzeyine uygun dört el için yazılmış eserler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Düzeyine uygun dört el için yazılmış eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Düzeyine uygun dört el için yazılmış eserleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Düzeyine uygun dört el için yazılmış eserleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Düzeyine uygun dört el için yazılmış eserleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.2.3.3",
+   "grade": 2,
+   "unit": 3,
+   "order": 3,
+   "text": "Konser etkinliklerinde düzeyine uygun eserleri çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Konser etkinliklerinde çalacağı düzeyine uygun eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Konser etkinliklerinde düzeyine uygun eserleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Konser etkinliklerinde düzeyine uygun eserleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Konser etkinliklerinde düzeyine uygun eserleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.3.1.1",
+   "grade": 3,
+   "unit": 1,
+   "order": 1,
+   "text": "Hız ve gürlük terimlerini tanımlayabilme",
+   "components": []
+  },
+  {
+   "code": "SMPYN.3.1.2",
+   "grade": 3,
+   "unit": 1,
+   "order": 2,
+   "text": "Dolap ve tekrar işaretlerini tanıyabilme",
+   "components": []
+  },
+  {
+   "code": "SMPYN.3.1.3",
+   "grade": 3,
+   "unit": 1,
+   "order": 3,
+   "text": "Türk müziğinde kullanılan makam kavramını açıklayabilme",
+   "components": []
+  },
+  {
+   "code": "SMPYN.3.1.4",
+   "grade": 3,
+   "unit": 1,
+   "order": 4,
+   "text": "Müzik cümlesini ve 6/8’lik ölçüleri çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Müzik cümlesini ve 6/8’lik ölçülere ilişkin parçaları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Müzik cümlesini ve 6/8’lik ölçülere ilişkin parçaların arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.3.2.1",
+   "grade": 3,
+   "unit": 2,
+   "order": 1,
+   "text": "Hız ve gürlük terimlerine uygun etütler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Hız ve gürlük terimlerine uygun etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Hız ve gürlük terimlerine uygun etütleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Hız ve gürlük terimlerine uygun etütleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Hız ve gürlük terimlerine uygun etütleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.3.2.2",
+   "grade": 3,
+   "unit": 2,
+   "order": 2,
+   "text": "Staccato (kesik çalma) ve legato (bağlı çalma) tekniğini geliştirici etütler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Staccato (kesik çalma) ve legato (bağlı çalma) tekniğini geliştirici etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Staccato (kesik çalma) ve legato (bağlı çalma) tekniğini geliştirici etütleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Staccato (kesik çalma) ve legato (bağlı çalma) tekniğini geliştirici etütleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Staccato (kesik çalma) ve legato (bağlı çalma) tekniğini geliştirici etütleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.3.2.3",
+   "grade": 3,
+   "unit": 2,
+   "order": 3,
+   "text": "Tek diyez ve tek bemollü tonlarda iki oktav gam çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Tek diyez ve tek bemollü tonlarda iki oktav gam çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Tek diyez ve tek bemollü tonlarda iki oktav gam çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Tek diyez ve tek bemollü tonlarda iki oktav gam çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Tek diyez ve tek bemollü tonlarda iki oktav gam çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.3.2.4",
+   "grade": 3,
+   "unit": 2,
+   "order": 4,
+   "text": "Çargâh makamı dizisini ve çargâh makamında etütler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Çargâh makamı dizisini ve çargâh makamında etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Çargâh makamı dizisini ve çargâh makamında etütleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Çargâh makamı dizisini ve çargâh makamında etütleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Çargâh makamı dizisini ve çargâh makamında etütleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.3.3.1",
+   "grade": 3,
+   "unit": 3,
+   "order": 1,
+   "text": "Düzeyine uygun eserler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Düzeyine uygun eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Düzeyine uygun eserleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Düzeyine uygun eserleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Düzeyine uygun eserleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.3.3.2",
+   "grade": 3,
+   "unit": 3,
+   "order": 2,
+   "text": "Çargâh makamında eserler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Çargâh makamında eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Çargâh makamında eserleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Çargâh makamında eserleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Çargâh makamında eserleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.3.3.3",
+   "grade": 3,
+   "unit": 3,
+   "order": 3,
+   "text": "Konser etkinliklerinde düzeyine uygun eserleri çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Konser etkinliklerinde çalacağı düzeyine uygun eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Konser etkinliklerinde düzeyine uygun eserleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Konser etkinliklerinde düzeyine uygun eserleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Konser etkinliklerinde düzeyine uygun eserleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.4.1.1",
+   "grade": 4,
+   "unit": 1,
+   "order": 1,
+   "text": "Aksan, tril ve mordan işaretlerini tanıyabilme",
+   "components": []
+  },
+  {
+   "code": "SMPYN.4.1.2",
+   "grade": 4,
+   "unit": 1,
+   "order": 2,
+   "text": "Üçleme ve senkop kalıplarını çözümleyebilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Üçleme ve senkop kalıplarına ilişkin parçaları belirler."
+    },
+    {
+     "label": "b",
+     "text": "Üçleme ve senkop kalıplarına ilişkin parçaların arasındaki ilişkileri belirler."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.4.2.1",
+   "grade": 4,
+   "unit": 2,
+   "order": 1,
+   "text": "Aksan, tril ve mordan teknikleri ile ilgili etütler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Aksan, tril ve mordan teknikleri ile ilgili etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Aksan, tril ve mordan teknikleri ile ilgili etütleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Aksan, tril ve mordan teknikleri ile ilgili etütleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Aksan, tril ve mordan teknikleri ile ilgili etütleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.4.2.2",
+   "grade": 4,
+   "unit": 2,
+   "order": 2,
+   "text": "Üçleme ve senkop kalıplarını geliştirici etütler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Üçleme ve senkop kalıplarını geliştirici etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Üçleme ve senkop kalıplarını geliştirici etütleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Üçleme ve senkop kalıplarını geliştirici etütleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Üçleme ve senkop kalıplarını geliştirici etütleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.4.2.3",
+   "grade": 4,
+   "unit": 2,
+   "order": 3,
+   "text": "İki diyez ve iki bemollü tonlarda iki oktav gam çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "İki diyez ve iki bemollü tonlarda iki oktav gam çözümler."
+    },
+    {
+     "label": "b",
+     "text": "İki diyez ve iki bemollü tonlarda iki oktav gam çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "İki diyez ve iki bemollü tonlarda iki oktav gam çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "İki diyez ve iki bemollü tonlarda iki oktav gam çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.4.2.4",
+   "grade": 4,
+   "unit": 2,
+   "order": 4,
+   "text": "Buselik makamı dizisini ve buselik makamında etütleri çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Buselik makamı dizisini ve buselik makamında etütleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Buselik makamı dizisini ve buselik makamında etütleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Buselik makamı dizisini ve buselik makamında etütleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Buselik makamı dizisini ve buselik makamında etütleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.4.3.1",
+   "grade": 4,
+   "unit": 3,
+   "order": 1,
+   "text": "Uzatma pedalı kullanarak düzeyine uygun eserler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Uzatma pedalı kullanarak düzeyine uygun eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Uzatma pedalı kullanarak düzeyine uygun eserleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Uzatma pedalı kullanarak düzeyine uygun eserleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Düzeyine uygun eserleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.4.3.2",
+   "grade": 4,
+   "unit": 3,
+   "order": 2,
+   "text": "Buselik makamında eserler çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Buselik makamında eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Buselik makamında eserleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Buselik makamında eserleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Buselik makamında eserleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  },
+  {
+   "code": "SMPYN.4.3.3",
+   "grade": 4,
+   "unit": 3,
+   "order": 3,
+   "text": "Konser etkinliklerinde düzeyine uygun eserleri çalabilme",
+   "components": [
+    {
+     "label": "a",
+     "text": "Konser etkinliklerinde çalacağı düzeyine uygun eserleri çözümler."
+    },
+    {
+     "label": "b",
+     "text": "Konser etkinliklerinde düzeyine uygun eserleri çalabilmek için piyanoya özgü oturuş ve duruş pozisyonu alır."
+    },
+    {
+     "label": "c",
+     "text": "Konser etkinliklerinde düzeyine uygun eserleri çalabilmek için piyanoya özgü teknikleri kullanır."
+    },
+    {
+     "label": "ç",
+     "text": "Konser etkinliklerinde düzeyine uygun eserleri çalarken müziksel bileşenleri kullanır."
+    }
+   ]
+  }
+ ],
+ "report": {
+  "units": 3,
+  "outcomes": 0,
+  "components": 0,
+  "orphan_outcomes": 38,
+  "gaps": [
+   {
+    "course": "Seçmeli Müzik Dersi (Piyano)",
+    "reason": "ünitesi bulunamayan çıktı",
+    "codes": [
+     "SMPYN.1.1.1",
+     "SMPYN.1.1.2",
+     "SMPYN.1.1.3",
+     "SMPYN.1.2.1",
+     "SMPYN.1.2.2",
+     "SMPYN.1.3.1",
+     "SMPYN.1.3.2",
+     "SMPYN.1.3.3",
+     "SMPYN.2.1.1",
+     "SMPYN.2.1.2",
+     "SMPYN.2.1.3",
+     "SMPYN.2.2.1",
+     "SMPYN.2.2.2",
+     "SMPYN.2.2.3",
+     "SMPYN.2.2.4",
+     "SMPYN.2.3.1",
+     "SMPYN.2.3.2",
+     "SMPYN.2.3.3",
+     "SMPYN.3.1.1",
+     "SMPYN.3.1.2",
+     "SMPYN.3.1.3",
+     "SMPYN.3.1.4",
+     "SMPYN.3.2.1",
+     "SMPYN.3.2.2",
+     "SMPYN.3.2.3",
+     "SMPYN.3.2.4",
+     "SMPYN.3.3.1",
+     "SMPYN.3.3.2",
+     "SMPYN.3.3.3",
+     "SMPYN.4.1.1",
+     "SMPYN.4.1.2",
+     "SMPYN.4.2.1",
+     "SMPYN.4.2.2",
+     "SMPYN.4.2.3",
+     "SMPYN.4.2.4",
+     "SMPYN.4.3.1",
+     "SMPYN.4.3.2",
+     "SMPYN.4.3.3"
+    ]
+   }
+  ]
+ }
+}
