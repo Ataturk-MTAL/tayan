@@ -182,6 +182,17 @@ def main() -> int:
 
         outcomes = parse_declared(text, families)
 
+        # SIFIR ÇIKTI DA BİR BOŞLUKTUR. Aile beyan edilmiş ama hiçbiri
+        # ayrıştırılamamışsa ders sessizce boş çıkıyordu: sekiz yabancı dil
+        # dersi böyle duruyordu ve ne kapsama denetimi ne manifest denetimi
+        # bunu görüyordu — beyan edilen şema yanlış olduğunda ikisi de sessiz.
+        if not outcomes:
+            gaps.append({
+                "course": course["name"],
+                "reason": "aile beyan edildi ama çıktı ayrıştırılamadı",
+                "codes": sorted(declared.get("outcome", []))[:20],
+            })
+
         # KAPSAMA DENETİMİ. Metinde geçen kod kümesinden ayrıştırılan küme
         # çıkarılır; fark raporlanır. Bu oturumdaki her sessiz kaybı bu
         # denetim yakaladı — kaldırılmamalı.

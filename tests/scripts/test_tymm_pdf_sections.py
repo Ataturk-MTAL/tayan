@@ -544,14 +544,32 @@ BES.H.2.1. Hazirlik ucuncu cikti
    a) Bilesen.
 """
 
-# Gosterge kademesi PDF'lerde de var: ENG.9.1.G1. 60 gecis.
-# Bunlar CIKTI DEGIL, ciktinin altindaki gosterge.
-PDF_INDICATORS = """ENG.9.1. Students can understand simple texts
-   a) Reads short paragraphs.
-ENG.9.1.G1. Students identify the main idea.
-ENG.9.1.G2. Students locate specific information.
-ENG.9.2. Students can write short notes
-   a) Writes a note.
+# ALAN BECERISI KADEMESI. Yabanci dil programlarinda kodun bir parcasi harf+sayi:
+# L/R/S/W = Listening/Reading/Speaking/Writing, G/V/P = Grammar/Vocabulary/
+# Pronunciation. Bu bicimi tanıyan desen YOKTU ve sekiz ders SIFIR ciktiyla
+# duruyordu. "G" gostergeyle KARISIYOR: belgenin kendi lejantina gore
+# (ingilizce-dersi-9-12 satir 110-113) G destekleyici alan becerisidir.
+FIELD_CODES = """ENG.9.1.L1. Students can prepare for listening
+   a) Students activate prior knowledge.
+ENG.9.1.G1. Students can select and use target grammatical items
+   a) Students recognise structures in context.
+ENG.9.1.W2. Students can organise content for writing
+   a) Students plan the text.
+"""
+
+# Almanca bes parcali: alan blogundan SONRA bir sira numarasi var.
+FIELD5_CODES = """DE.5.1.H1.1. Vorbereitung auf das Hoerverstehen
+   a) Die Schueler aktivieren Vorwissen.
+DE.5.1.H1.2. Informationen zusammenfuehren
+   a) Die Schueler erfassen Details.
+"""
+
+# GERCEK gosterge kademesi surec bileseninin ALTINDADIR ve ".SB<n>." tasir.
+# Olcum: ".SB<n>.G<n>." 111 dersin yalniz okul-oncesi'nde geciyor (121).
+PDF_INDICATORS = """SDB2.1. Iletisim becerisi
+   a) Etkin dinler.
+SDB2.1.SB1.G1. Baskalarindan gelen iletileri fark eder.
+SDB2.1.SB1.G2. Iletiyi kendi sozcukleriyle ifade eder.
 """
 
 
@@ -575,18 +593,44 @@ class MultiFamilyTest(unittest.TestCase):
         self.assertEqual(len(codes), len(set(codes)))
 
 
+class FieldCodeTest(unittest.TestCase):
+    """Kodun bir parcasi SAYI DEGIL harf+sayi olabiliyor; desen yoktu."""
+
+    def test_alanli_kod_ayristirilir(self):
+        outcomes = parse_outcomes(FIELD_CODES, ["ENG"], 7)
+        self.assertEqual([o["code"] for o in outcomes],
+                         ["ENG.9.1.G1", "ENG.9.1.L1", "ENG.9.1.W2"])
+        self.assertEqual(outcomes[0]["field"], "G1")
+        self.assertEqual(sum(len(o["components"]) for o in outcomes), 3)
+
+    def test_grammar_kodu_gosterge_sayilmaz(self):
+        # "G" hem Grammar hem Gosterge harfi; belgenin lejanti Grammar diyor.
+        outcomes = parse_declared(FIELD_CODES, [(["ENG"], 7)])
+        self.assertIn("ENG.9.1.G1", {o["code"] for o in outcomes})
+        self.assertEqual(sum(len(o.get("indicators", [])) for o in outcomes), 0)
+
+    def test_bes_parcali_alanli_kod_ayristirilir(self):
+        outcomes = parse_outcomes(FIELD5_CODES, ["DE"], 8)
+        self.assertEqual([o["code"] for o in outcomes],
+                         ["DE.5.1.H1.1", "DE.5.1.H1.2"])
+        self.assertEqual(outcomes[0]["field"], "H1")
+        self.assertEqual(outcomes[1]["order"], 2)
+
+    def test_alanli_sekil_sayimda_gorunur(self):
+        self.assertIn("ENG/alanlı-4", {shape_key(s) for s in census(FIELD_CODES)})
+        self.assertIn("DE/alanlı-5", {shape_key(s) for s in census(FIELD5_CODES)})
+
+
 class PdfIndicatorTest(unittest.TestCase):
     def test_gosterge_cikti_sayilmaz(self):
-        outcomes = parse_declared(PDF_INDICATORS, families_of(PDF_INDICATORS))
-        codes = {o["code"] for o in outcomes}
-        self.assertIn("ENG.9.1", codes)
-        self.assertNotIn("ENG.9.1.G1", codes)
+        outcomes = parse_declared(PDF_INDICATORS, [(["SDB"], 2)])
+        self.assertNotIn("SDB2.1.SB1.G1", {o["code"] for o in outcomes})
 
     def test_gostergeler_ciktiya_baglanir(self):
-        outcomes = parse_declared(PDF_INDICATORS, families_of(PDF_INDICATORS))
-        first = [o for o in outcomes if o["code"] == "ENG.9.1"][0]
+        outcomes = parse_declared(PDF_INDICATORS, [(["SDB"], 2)])
+        first = [o for o in outcomes if o["code"] == "SDB2.1"][0]
         self.assertEqual(len(first.get("indicators", [])), 2)
-        self.assertEqual(first["indicators"][0]["code"], "ENG.9.1.G1")
+        self.assertEqual(first["indicators"][0]["code"], "SDB2.1.SB1.G1")
 
 
 if __name__ == "__main__":

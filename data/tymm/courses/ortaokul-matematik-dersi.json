@@ -2767,6 +2767,7 @@
    "code": "MAT.5.1.1",
    "grade": 5,
    "unit": 1,
+   "field": null,
    "order": 1,
    "text": "Altı basamaklı sayıları okuma ve yazmayı daha Öğrenme-öğretme yaşantıları çok basamaklı sayılara genelleyebilme sonunda öğrenciye kazandırılması VE amaçlanan bilgi, beceri ve becerilerin SÜREÇ BİLEŞENLERİ a) Günlük hayattaki farklı bağlamlardan yola çısüreç bileşenlerini ifade eder. karak altıdan çok basamaklı sayılar hakkında bilgi toplar. Öğrenme-öğretme sürecinde ele",
    "components": []
@@ -2775,6 +2776,7 @@
    "code": "MAT.5.1.2",
    "grade": 5,
    "unit": 1,
+   "field": null,
    "order": 2,
    "text": "Doğal sayılar ve işlemler içeren gerçek yaşam problemlerini çözebilme",
    "components": [
@@ -2824,6 +2826,7 @@
    "code": "MAT.6.1.1",
    "grade": 6,
    "unit": 1,
+   "field": null,
    "order": 1,
    "text": "Karşılaştığı problem durumlarında bir doğal sayının çarpan ve katlarına yönelik muhakeme yapabilme",
    "components": [
@@ -2861,6 +2864,7 @@
    "code": "MAT.6.1.2",
    "grade": 6,
    "unit": 1,
+   "field": null,
    "order": 2,
    "text": "Bir doğal sayının 2, 3, 4, 5, 6, 9 ve 10 ile tam bölünebilme kriterlerine ilişkin çıkarım yapabilme",
    "components": [
@@ -2890,6 +2894,7 @@
    "code": "MAT.6.1.3",
    "grade": 6,
    "unit": 1,
+   "field": null,
    "order": 3,
    "text": "Bir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme",
    "components": [
@@ -2907,6 +2912,7 @@
    "code": "MAT.6.1.4",
    "grade": 6,
    "unit": 1,
+   "field": null,
    "order": 4,
    "text": "Günlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme",
    "components": [
@@ -2928,6 +2934,7 @@
    "code": "MAT.7.1.5",
    "grade": 7,
    "unit": 1,
+   "field": null,
    "order": 5,
    "text": "Gerçek yaşam durumları üzerinden oran ilişkileri hakkında muhakeme yapabilme",
    "components": [
@@ -2973,6 +2980,7 @@
    "code": "MAT.7.1.6",
    "grade": 7,
    "unit": 1,
+   "field": null,
    "order": 6,
    "text": "Gerçek yaşam durumları üzerinden orantılı durumları yorumlayabilme",
    "components": [
@@ -2994,6 +3002,7 @@
    "code": "MAT.7.1.7",
    "grade": 7,
    "unit": 1,
+   "field": null,
    "order": 7,
    "text": "Gerçek yaşam durumları üzerinden doğru orantılı durumlara ilişkin problemleri çözebilme",
    "components": [
@@ -3043,6 +3052,7 @@
    "code": "MAT.7.4.7",
    "grade": 7,
    "unit": 4,
+   "field": null,
    "order": 7,
    "text": "Dikdörtgenin, paralelkenarın alanına ve çemberin uzunluğuna ilişkin deneyimlerini dairenin alan bağıntısına yansıtabilme",
    "components": [
@@ -3064,6 +3074,7 @@
    "code": "MAT.7.4.8",
    "grade": 7,
    "unit": 4,
+   "field": null,
    "order": 8,
    "text": "Çemberde merkez açı ve gördüğü yay uzunluğu arasındaki ilişkiden yola çıkarak daire ve daire diliminin alanları arasındaki ilişkiye yönelik analojik akıl yürütebilme",
    "components": [
@@ -3085,6 +3096,7 @@
    "code": "MAT.7.4.9",
    "grade": 7,
    "unit": 4,
+   "field": null,
    "order": 9,
    "text": "Eşkenar dörtgen ve yamuğun alan bağıntılarına dair çıkarım yapabilme",
    "components": [
@@ -3114,6 +3126,7 @@
    "code": "MAT.7.4.10",
    "grade": 7,
    "unit": 4,
+   "field": null,
    "order": 10,
    "text": "Günlük hayat durumlarında daire, daire dilimi, eşkenar dörtgen ve yamuğun alanına ilişkin problem çözebilme",
    "components": [

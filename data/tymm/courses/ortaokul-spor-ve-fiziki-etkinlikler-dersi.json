@@ -17,6 +17,7 @@
    "code": "SFE.1.1",
    "grade": 1,
    "unit": null,
+   "field": null,
    "order": 1,
    "text": "Seçilen spor branşının tarihsel gelişimini özetleyebilme amaçlanan bilgi, beceri ve becerilerin süreç bileşenlerini a) Seçilen spor branşının tarihsel gelişimini çözümler. ifade eder. b) Seçilen spor branşının gelişim sürecinde yer alan önemli dönem ve gelişmeleri sınıflandırır.",
    "components": [
@@ -30,6 +31,7 @@
    "code": "SFE.1.2",
    "grade": 1,
    "unit": null,
+   "field": null,
    "order": 2,
    "text": "Seçilen spor branşının kurallarını çözümleyebilme",
    "components": [
@@ -47,6 +49,7 @@
    "code": "SFE.2.1",
    "grade": 2,
    "unit": null,
+   "field": null,
    "order": 1,
    "text": "Seçilen spor branşında güvenli ortam oluşturabilme",
    "components": [
@@ -64,6 +67,7 @@
    "code": "SFE.2.2",
    "grade": 2,
    "unit": null,
+   "field": null,
    "order": 2,
    "text": "Seçilen spor branşına özgü hareket becerilerini sergileyebilme",
    "components": [
@@ -85,6 +89,7 @@
    "code": "SFE.2.3",
    "grade": 2,
    "unit": null,
+   "field": null,
    "order": 3,
    "text": "Seçilen spor branşına özgü fiziksel uygunluğu sağlayabilme",
    "components": [
@@ -106,6 +111,7 @@
    "code": "SFE.3.1",
    "grade": 3,
    "unit": null,
+   "field": null,
    "order": 1,
    "text": "Seçilen Spor branşına özgü taktik ve strateji geliştirebilme",
    "components": [
@@ -127,6 +133,7 @@
    "code": "SFE.3.2",
    "grade": 3,
    "unit": null,
+   "field": null,
    "order": 2,
    "text": "Seçilen spor branşında adil oyun anlayışına uygun davranabilme",
    "components": [
@@ -144,6 +151,7 @@
    "code": "SFE.3.3",
    "grade": 3,
    "unit": null,
+   "field": null,
    "order": 3,
    "text": "Seçilen spor branşında takım/grup liderliği sergileme",
    "components": [

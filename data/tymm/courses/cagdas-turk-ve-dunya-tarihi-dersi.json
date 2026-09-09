@@ -3,8 +3,9 @@
   "id": 109,
   "name": "Çağdaş Türk ve Dünya Tarihi Dersi",
   "slug": "cagdas-turk-ve-dunya-tarihi-dersi",
-  "prefix": "ÇTDT",
+  "prefix": "KKB",
   "shapes": [
+   "KKB/yapışık-2",
    "ÇTDT/noktalı-3"
   ],
   "kademe": 3,
@@ -282,12 +283,30 @@
    ]
   }
  ],
- "unassigned_outcomes": [],
+ "unassigned_outcomes": [
+  {
+   "code": "KKB2.4",
+   "grade": 2,
+   "unit": null,
+   "field": null,
+   "order": 4,
+   "text": "Çözümleme, KB2.14. Yorumlama faaliyetlerin bir ürünü olarak sahip olunan becerilerin niyet, işe koşulan bütünleşik ve üst duyarlılık, isteklilik ve değerlendüzey düşünme becerilerini dirme ögeleri doğrultusunda EĞİLİMLER E3.1. Muhakeme, E3.2. Odaklanma, E3.10. Eleştirel ifade eder. gerekli durumlarda nasıl Bakma kullanıldığı ile ilgili zihinsel örüntüleri ifade eder.",
+   "components": []
+  }
+ ],
  "report": {
   "units": 3,
   "outcomes": 9,
   "components": 32,
-  "orphan_outcomes": 0,
-  "gaps": []
+  "orphan_outcomes": 1,
+  "gaps": [
+   {
+    "course": "Çağdaş Türk ve Dünya Tarihi Dersi",
+    "reason": "hiçbir ünite bloğunun içinde değil",
+    "codes": [
+     "KKB2.4"
+    ]
+   }
+  ]
  }
 }

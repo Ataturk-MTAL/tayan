@@ -56,10 +56,15 @@ tutarsızlıkları dosyanın `notes` alanındadır.
 
 ## Kod şekli manifesti
 
-Ders programlarında öğrenme çıktısı kodu beş ayrı biçimde yazılıyor:
+Ders programlarında öğrenme çıktısı kodu yedi ayrı biçimde yazılıyor:
 
     noktalı-4    FİZ.9.1.2.    noktalı-3   T.O.5.2.     yapışık-3   RK2.4.1.
     yapışık-2    TDE1.1.       boşluklu-2  TKMT 3.1.
+    alanlı-4     ENG.9.1.L1.   alanlı-5    DE.5.1.H1.1.
+
+Son ikisinde kodun bir parçası SAYI DEĞİL, harf+sayı: alan becerisini gösterir
+(İngilizce L/R/S/W = Listening/Reading/Speaking/Writing, G/V/P = Grammar/
+Vocabulary/Pronunciation; Almanca H/L/S/SP = Hören/Lesen/Schreiben/Sprechen).
 
 Hangi biçimin ÇIKTI olduğu belgeden **sezilmiyor, beyan ediliyor**. Sezgi tek
 aileyi hacme göre seçiyordu ve azınlıkta kalanı sessizce düşürüyordu — Görsel
@@ -93,9 +98,21 @@ altında `manifestte rolü olmayan şekil` boşluk kaydı çıkar ve manifest ye
 kurulmayı bekler. Mevcut roller korunur, yalnız yeni şekiller taslak rol alır.
 
 Taslak kuralın bilemeyeceği kararlar `overrides` altında **gerekçesiyle**
-yazılır. Şu an iki tane var: Ortaokul Okuma Becerileri dersinin kendi `OB`
-çıktı ön eki (Okuryazarlık Becerileri çerçevesiyle çakışıyor) ve Çağdaş Türk ve
-Dünya Tarihi'nde `KKB` (pdftotext bir `K` yapıştırmış).
+yazılır. Şu an üç ders için dört tane var: Ortaokul Okuma Becerileri dersinin
+kendi `OB` çıktı ön eki (Okuryazarlık Becerileri çerçevesiyle çakışıyor),
+Çağdaş Türk ve Dünya Tarihi'nde `KKB` (pdftotext bir `K` yapıştırmış), ve
+Almanca programında `KK` + `SELK` — beceri çerçevesinin ALMANCASI (Kognitive
+Kompetenzen, Sozial-Emotionale Lernkompetenzen); ön ek listesi yalnız Türkçe ve
+İngilizce adları biliyor.
+
+### Manifestin göremediği şey
+
+Değişmez yalnız DESENİN EŞLEDİĞİ şekilleri kapsar. Hiçbir desenin eşlemediği
+bir kod biçimi sayıma da girmez, dolayısıyla "beyan edilmemiş" de sayılmaz.
+Sekiz ders bu yüzden SIFIR çıktıyla duruyordu ve denetimler sessizdi. Bunun
+için ikinci bir denetim var: bir derste aile beyan edilmiş ama hiç çıktı
+ayrıştırılamamışsa boşluk kaydı çıkar (`aile beyan edildi ama çıktı
+ayrıştırılamadı`).
 
 ## Güncelleme
 

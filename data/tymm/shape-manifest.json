@@ -15,9 +15,9 @@
  },
  "report": {
   "courses": 111,
-  "declarations": 635,
-  "kept": 633,
-  "overridden": 2,
+  "declarations": 642,
+  "kept": 639,
+  "overridden": 3,
   "added": 0,
   "removed": 0
  },
@@ -28,10 +28,14 @@
     "reason": "Dersin KENDİ çıktı ailesi, beceri çerçevesindeki OB ile aynı ön eki taşıyor. Kanıt: 'OB.1.1. Akıcı okuma sürecini yansıtabilme' (çıktı cümlesi); çerçeve atıfları bu belgede yapışık yazılıyor (OB4.1.), yani şekil zaten ayrı. Ön eke bakan genel kural bu çakışmayı ifade edemez — ders başına karar şart."
    }
   },
-  "cagdas-turk-ve-dunya-tarihi-dersi": {
-   "KKB/yapışık-2": {
-    "role": "noise",
-    "reason": "pdftotext artefaktı: 'BECERİLER KKB2.4. Çözümleme, KB2.14. Yorumlama' satırında (489) önceki sözcüğün 'K'si KB2.4'e yapışmış. Hayalet kuralı yakalayamıyor çünkü hem KKB hem KB bu belgede seyrek — oran eşiği iki nadir ön ek arasında ayrım yapamıyor."
+  "coklu-yabanci-dil-egitim-modeli-almanca": {
+   "KK/yapışık-2": {
+    "role": "skill_reference",
+    "reason": "Kavramsal Beceriler'in ALMANCASI (Kognitive Kompetenzen). Kanıt satır 1186: 'Fachbereiche KOGNİTİVE KK2.2.Beobachtungsfähigkeit' — beceri ADI taşıyor, çıktı cümlesi değil. Taslak kural ön ek listesine bakıyor; liste yalnız Türkçe ve İngilizce adları biliyor."
+   },
+   "SELK/yapışık-2": {
+    "role": "skill_reference",
+    "reason": "Sosyal-Duygusal Öğrenme Becerileri'nin ALMANCASI (Sozial-Emotionale Lernkompetenzen). Kanıt satır 1144: 'Sozial-emotionale SELK1.1. Selbstwahrnehmungskompetenz'."
    }
   }
  },
@@ -131,6 +135,7 @@
   },
   "cagdas-turk-ve-dunya-tarihi-dersi": {
    "outcome": [
+    "KKB/yapışık-2",
     "ÇTDT/noktalı-3"
    ],
    "skill_reference": [
@@ -138,9 +143,6 @@
     "KB/yapışık-2",
     "SBAB/yapışık-2",
     "SDB/yapışık-2"
-   ],
-   "noise": [
-    "KKB/yapışık-2"
    ]
   },
   "cocuklarda-atletik-performans-uygulamalari-dersi": {
@@ -175,9 +177,15 @@
   },
   "coklu-yabanci-dil-egitim-modeli-almanca": {
    "outcome": [
-    "DE/noktalı-3",
+    "DE/alanlı-5"
+   ],
+   "skill_reference": [
     "KK/yapışık-2",
     "SELK/yapışık-2"
+   ],
+   "heading": [
+    "DE/alanlı-4",
+    "DE/noktalı-3"
    ],
    "shadow": [
     "SP/yapışık-2"
@@ -185,13 +193,16 @@
   },
   "coklu-yabanci-dil-egitim-modeli-ingilizce": {
    "outcome": [
-    "ENG/noktalı-3",
-    "ENG/yapışık-2"
+    "ENG/alanlı-4"
    ],
    "skill_reference": [
     "CS/yapışık-2",
     "CS/yapışık-3",
     "SELS/yapışık-2"
+   ],
+   "heading": [
+    "ENG/noktalı-3",
+    "ENG/yapışık-2"
    ]
   },
   "demokrasi-ve-insan-haklari-dersi": {
@@ -356,30 +367,40 @@
   },
   "ingilizce-dersi-9-12": {
    "outcome": [
-    "ENG/noktalı-3"
+    "ENG/alanlı-4"
    ],
    "skill_reference": [
     "CS/yapışık-2",
     "CS/yapışık-3",
     "SELS/yapışık-2"
+   ],
+   "heading": [
+    "ENG/noktalı-3"
    ]
   },
   "ingilizce-dersi-hazirlik-12": {
    "outcome": [
     "EN/yapışık-2",
-    "ENG/noktalı-3"
+    "ENG/alanlı-4"
    ],
    "skill_reference": [
     "CS/yapışık-2",
     "CS/yapışık-3",
     "SELS/yapışık-2"
    ],
-   "noise": [
+   "heading": [
+    "ENG/noktalı-3"
+   ],
+   "shadow": [
     "EENG/noktalı-3"
+   ],
+   "noise": [
+    "EENG/alanlı-4"
    ]
   },
   "ingilizce-dersi-temel-egitim": {
    "outcome": [
+    "ENG/alanlı-4",
     "ENG/noktalı-4"
    ],
    "skill_reference": [

@@ -7,9 +7,9 @@
  },
  "report": {
   "courses": 111,
-  "units": 1613,
-  "outcomes": 5887,
-  "components": 13044,
+  "units": 1786,
+  "outcomes": 9506,
+  "components": 22847,
   "courses_without_outcomes": 0,
   "gaps": [
    {
@@ -67,68 +67,42 @@
    },
    {
     "course": "İngilizce Dersi",
-    "reason": "hiçbir ünite bloğunun içinde değil",
+    "reason": "ayrıştırılamayan kod",
     "codes": [
-     "ENG.3.1.6"
+     "ENG.3.1.PC1"
     ]
    },
    {
     "course": "Çoklu Yabancı Dil Eğitim Modeli İngilizce",
     "reason": "ayrıştırılamayan kod",
     "codes": [
-     "ENG.1.2"
-    ]
-   },
-   {
-    "course": "Çoklu Yabancı Dil Eğitim Modeli İngilizce",
-    "reason": "hiçbir ünite bloğunun içinde değil",
-    "codes": [
-     "ENG.2.1",
-     "ENG5.1",
-     "ENG.5.1",
-     "ENG5.2",
-     "ENG.5.2",
-     "ENG5.3",
-     "ENG.5.3",
-     "ENG5.4",
-     "ENG.5.4",
-     "ENG5.5",
-     "ENG.5.5",
-     "ENG5.6",
-     "ENG.5.6",
-     "ENG5.7",
-     "ENG.5.7",
-     "ENG5.8",
-     "ENG.5.8",
-     "ENG5.9",
-     "ENG.5.9",
-     "ENG5.10"
+     "ENG.1.2.PC4"
     ]
    },
    {
     "course": "Çoklu Yabancı Dil Eğitim Modeli Almanca",
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
-     "SELK1.1",
-     "SELK1.2",
-     "SELK2.1",
-     "SELK2.2",
-     "KK2.2",
-     "SELK2.3",
-     "KK2.3",
-     "KK2.4",
-     "KK2.5",
-     "KK2.7",
-     "KK2.8",
-     "KK2.11",
-     "KK2.12",
-     "KK2.13",
-     "KK2.16",
-     "KK2.17",
-     "SELK3.1",
-     "SELK3.2",
-     "DE.5.1",
-     "DE.5.2"
+     "DE.5.1.G1.1",
+     "DE.5.1.H1.1",
+     "DE.5.1.L2.1",
+     "DE.5.1.P3.1",
+     "DE.5.1.S4.1",
+     "DE.5.1.SP3.1",
+     "DE.5.1.W2.1",
+     "DE.5.1.H1.2",
+     "DE.5.1.L2.3",
+     "DE.5.1.SP3.3",
+     "DE.5.2.G1.1",
+     "DE.5.2.H1.1",
+     "DE.5.2.L2.1",
+     "DE.5.2.P3.1",
+     "DE.5.2.S4.1",
+     "DE.5.2.SP3.1",
+     "DE.5.2.W2.1",
+     "DE.5.2.H1.2",
+     "DE.5.2.L2.3",
+     "DE.5.2.SP3.3"
     ]
    },
    {
@@ -196,32 +170,6 @@
     ]
    },
    {
-    "course": "İngilizce Dersi (Hazırlık-12)",
-    "reason": "hiçbir ünite bloğunun içinde değil",
-    "codes": [
-     "ENG.9.1",
-     "ENG.9.2",
-     "ENG.9.3",
-     "ENG.9.4",
-     "ENG.9.5",
-     "ENG.9.6",
-     "ENG.9.7",
-     "ENG.9.8",
-     "ENG.10.1",
-     "ENG.10.2",
-     "ENG.10.3",
-     "EN10.4",
-     "ENG.10.4",
-     "ENG.10.5",
-     "ENG.10.6",
-     "ENG.10.7",
-     "ENG.10.8",
-     "ENG.11.1",
-     "ENG.11.2",
-     "ENG.11.3"
-    ]
-   },
-   {
     "course": "Görsel Sanatlar Dersi",
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
@@ -269,29 +217,10 @@
     ]
    },
    {
-    "course": "İngilizce Dersi (9-12)",
+    "course": "Çağdaş Türk ve Dünya Tarihi Dersi",
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
-     "ENG.9.1",
-     "ENG.9.2",
-     "ENG.9.3",
-     "ENG.9.4",
-     "ENG.9.5",
-     "ENG.9.6",
-     "ENG.9.7",
-     "ENG.9.8",
-     "ENG.10.1",
-     "ENG.10.2",
-     "ENG.10.3",
-     "ENG.10.4",
-     "ENG.10.5",
-     "ENG.10.6",
-     "ENG.10.7",
-     "ENG.10.8",
-     "ENG.11.1",
-     "ENG.11.2",
-     "ENG.11.3",
-     "ENG.11.4"
+     "KKB2.4"
     ]
    },
    {
@@ -818,7 +747,7 @@
    "slug": "coklu-yabanci-dil-egitim-modeli-almanca",
    "name": "Çoklu Yabancı Dil Eğitim Modeli Almanca",
    "kademe": 2,
-   "prefix": "KK",
+   "prefix": "DE",
    "file": "courses/coklu-yabanci-dil-egitim-modeli-almanca.json",
    "units": 0,
    "outcomes": 0,
@@ -830,9 +759,9 @@
    "kademe": 2,
    "prefix": "ENG",
    "file": "courses/coklu-yabanci-dil-egitim-modeli-ingilizce.json",
-   "units": 0,
-   "outcomes": 0,
-   "components": 0
+   "units": 41,
+   "outcomes": 935,
+   "components": 2817
   },
   {
    "slug": "ilkokul-matematik-dersi",
@@ -860,9 +789,9 @@
    "kademe": 2,
    "prefix": "ENG",
    "file": "courses/ingilizce-dersi-temel-egitim.json",
-   "units": 0,
-   "outcomes": 0,
-   "components": 0
+   "units": 52,
+   "outcomes": 1194,
+   "components": 6767
   },
   {
    "slug": "insan-haklari-vatandaslik-ve-demokrasi-dersi",
@@ -1128,7 +1057,7 @@
    "slug": "cagdas-turk-ve-dunya-tarihi-dersi",
    "name": "Çağdaş Türk ve Dünya Tarihi Dersi",
    "kademe": 3,
-   "prefix": "ÇTDT",
+   "prefix": "KKB",
    "file": "courses/cagdas-turk-ve-dunya-tarihi-dersi.json",
    "units": 3,
    "outcomes": 9,
@@ -1150,9 +1079,9 @@
    "kademe": 3,
    "prefix": "ENG",
    "file": "courses/ingilizce-dersi-9-12.json",
-   "units": 0,
-   "outcomes": 0,
-   "components": 0
+   "units": 31,
+   "outcomes": 721,
+   "components": 96
   },
   {
    "slug": "ingilizce-dersi-hazirlik-12",
@@ -1160,9 +1089,9 @@
    "kademe": 3,
    "prefix": "EN",
    "file": "courses/ingilizce-dersi-hazirlik-12.json",
-   "units": 0,
-   "outcomes": 0,
-   "components": 0
+   "units": 49,
+   "outcomes": 769,
+   "components": 123
   },
   {
    "slug": "islam-bilim-tarihi-dersi",

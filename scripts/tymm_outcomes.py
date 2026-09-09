@@ -49,10 +49,32 @@ GLUED3_RE = re.compile(r"([A-ZÇĞİÖŞÜ]{2,8})(\d+)\.(\d+)\.(\d+)\.\s*(.*)$",
 SPACED_RE = re.compile(
     r"(?:^|(?<=[^A-ZÇĞİÖŞÜ]))([A-ZÇĞİÖŞÜ]{2,5})[ \t]+(\d+)\.(\d+)\.\s*(.*)$", re.M
 )
+# ALAN BECERİSİ KADEMESİ. Yabancı dil programlarında kodun bir parçası SAYI
+# DEĞİL, harf+sayı: ENG.9.1.L1. = ders ENG, 9. sınıf, 1. tema, Listening 1.
+# Harfler alan becerisini gösterir — İngilizce'de L/R/S/W (Listening, Reading,
+# Speaking, Writing) ve G/V/P (Grammar, Vocabulary, Pronunciation), Almanca'da
+# H/L/S/SP (Hören, Lesen, Schreiben, Sprechen).
+# Bu biçimi tanıyan desen YOKTU: sekiz ders SIFIR çıktıyla duruyordu ve
+# manifest bunu göremiyordu — hiçbir desenin eşlemediği kod sayıma da girmez.
+FIELD_RE = re.compile(
+    r"([A-ZÇĞİÖŞÜ][A-ZÇĞİÖŞÜ.]*?)\.(\d+)\.(\d+)\.([A-Z]{1,2}\d+)\.\s*(?![\d\s])(.*)$", re.M
+)
+# Almanca beş parçalı: DE.5.1.H1.1. — alan bloğundan SONRA bir sıra numarası var.
+FIELD5_RE = re.compile(
+    r"([A-ZÇĞİÖŞÜ][A-ZÇĞİÖŞÜ.]*?)\.(\d+)\.(\d+)\.([A-Z]{1,2}\d+)\.(\d+)\.\s*(.*)$", re.M
+)
 COMPONENT_RE = re.compile(r"^\s*([a-zçğöşü])\)\s*(.+)$")
-# Gösterge kademesi PDF'lerde de var: "ENG.9.1.G1. Students identify..."
-# Bunlar ÇIKTI DEĞİL, çıktının altındaki göstergelerdir.
-INDICATOR_RE = re.compile(r"^\s*([A-ZÇĞİÖŞÜ][A-ZÇĞİÖŞÜ.]*[\d.]*\d)\.G(\d+)\.\s*(.*)$", re.M)
+# Gösterge kademesi süreç bileşeninin ALTINDADIR ve kodu ".SB<n>." taşır:
+#   SDB2.1.SB1.G1. Başkalarından gelen iletileri fark eder.
+# .SB<n>. ŞARTI KRİTİK. Desen önce yalnız "X.G<n>." bekliyordu ve yabancı dil
+# programlarının GRAMMAR çıktılarını gösterge sanıp çalıyordu — belgenin kendi
+# lejantına göre (satır 110-113) G/V/P destekleyici alan becerileridir
+# (grammaring, vocabulary, pronunciation), gösterge değil. Ölçüm: "X.G<n>."
+# 111 dersin YALNIZ 5'inde geçiyor ve beşi de yabancı dil; gerçek gösterge
+# (".SB<n>.G<n>.") yalnız okul öncesinde var (121 geçiş).
+INDICATOR_RE = re.compile(
+    r"^\s*([A-ZÇĞİÖŞÜ][A-ZÇĞİÖŞÜ.]*[\d.]*\.SB\.?\s*\d+)\.G(\d+)\.\s*(.*)$", re.M
+)
 
 # Şema kodu -> desen. TEK KAYNAK: hem ayrıştırma hem kapsama denetimi burayı
 # kullanır. Ayrı ayrı yazıldığında denetim, ayrıştırıcının tanıdığı biçimleri
@@ -98,6 +120,7 @@ def parse_outcomes(text: str, prefixes: str | list[str], segments: int) -> list[
     index = 0
 
     while index < len(lines):
+        field = None
         # DİKKAT: search, match DEĞİL. Her ünitenin ilk çıktısı bölüm etiketiyle
         # aynı satırı paylaşır ("VE SÜREÇ BİLEŞENLERİ FİZ.9.1.1. ...").
         # "a)" ile başlayan satır SÜREÇ BİLEŞENİDİR, kod taşısa bile. Türk
@@ -117,6 +140,20 @@ def parse_outcomes(text: str, prefixes: str | list[str], segments: int) -> list[
             grade, unit, order = int(head.group(2)), None, int(head.group(3))
             code = f"{head.group(1)}.{head.group(2)}.{head.group(3)}"
             title_parts = [head.group(4)]
+        elif segments == 7:
+            # ENG.9.1.L1. -> sınıf 9, tema 1, alan "L1", sıra 1
+            grade, unit = int(head.group(2)), int(head.group(3))
+            field = head.group(4)
+            order = int(re.search(r"\d+", field).group())
+            code = f"{head.group(1)}.{head.group(2)}.{head.group(3)}.{field}"
+            title_parts = [head.group(5)]
+        elif segments == 8:
+            # DE.5.1.H1.1. -> sınıf 5, tema 1, alan "H1", sıra 1
+            grade, unit = int(head.group(2)), int(head.group(3))
+            field = head.group(4)
+            order = int(head.group(5))
+            code = f"{head.group(1)}.{head.group(2)}.{head.group(3)}.{field}.{head.group(5)}"
+            title_parts = [head.group(6)]
         elif segments == 5:
             # Yapışık, üç sayılı: RK2.4.1 -> ön ek RK, 2, ünite 4, sıra 1.
             grade, unit, order = int(head.group(2)), int(head.group(3)), int(head.group(4))
@@ -151,6 +188,7 @@ def parse_outcomes(text: str, prefixes: str | list[str], segments: int) -> list[
             "code": code,
             "grade": grade,
             "unit": unit,
+            "field": field,
             "order": order,
             "text": collapse(" ".join(title_parts)),
             "components": [
@@ -166,13 +204,22 @@ def parse_outcomes(text: str, prefixes: str | list[str], segments: int) -> list[
     for entry in best.values():
         entry.pop("_score", None)
     return sorted(
-        best.values(), key=lambda e: (e["grade"], e["unit"] if e["unit"] is not None else 0, e["order"])
+        best.values(),
+        key=lambda e: (
+            e["grade"],
+            e["unit"] if e["unit"] is not None else 0,
+            e["field"] or "",
+            e["order"],
+        ),
     )
 
 
-SCHEME_PATTERNS.update({4: FOUR_RE, 3: THREE_RE, 2: GLUED_RE, 5: GLUED3_RE, 6: SPACED_RE})
+SCHEME_PATTERNS.update({
+    4: FOUR_RE, 3: THREE_RE, 2: GLUED_RE, 5: GLUED3_RE, 6: SPACED_RE,
+    7: FIELD_RE, 8: FIELD5_RE,
+})
 # Şema başına kod parçası sayısı (kapsama denetimi kodu bundan kurar).
-SCHEME_PARTS = {4: 4, 3: 3, 5: 4, 2: 3, 6: 3}
+SCHEME_PARTS = {4: 4, 3: 3, 5: 4, 2: 3, 6: 3, 7: 4, 8: 5}
 
 
 def build_code(match, segments: int) -> str:
@@ -189,6 +236,10 @@ def build_code(match, segments: int) -> str:
         return f"{g[0]}.{g[1]}.{g[2]}"
     if segments == 5:
         return f"{g[0]}{g[1]}.{g[2]}.{g[3]}"
+    if segments == 7:
+        return f"{g[0]}.{g[1]}.{g[2]}.{g[3]}"
+    if segments == 8:
+        return f"{g[0]}.{g[1]}.{g[2]}.{g[3]}.{g[4]}"
     # 2 (yapışık) ve 6 (boşluklu) aynı kodu üretir: ÖNEKn.m
     return f"{g[0]}{g[1]}.{g[2]}"
 
@@ -222,14 +273,20 @@ def parse_declared(text: str, families: list[tuple[list[str], int]]) -> list[dic
             if previous is None or score > previous["_score"]:
                 merged[outcome["code"]] = {**outcome, "_score": score}
 
+    # Gösterge süreç bileşenine bağlıdır, bileşen de çıktıya: "SDB2.1.SB1.G1"
+    # -> bileşen "SDB2.1.SB1" -> çıktı "SDB2.1". Sahip aranırken ".SB<n>"
+    # kuyruğu atılır; atılmazsa hiçbir gösterge sahibini bulamaz.
     for match in INDICATOR_RE.finditer(text):
-        parent = match.group(1)
+        component_code = match.group(1)
+        parent = re.sub(r"\.SB\.?\s*\d+$", "", component_code)
         owner = merged.get(parent)
         if owner is None:
             continue
-        owner.setdefault("indicators", []).append(
-            {"code": f"{parent}.G{match.group(2)}", "text": collapse(match.group(3))}
-        )
+        owner.setdefault("indicators", []).append({
+            "code": f"{component_code}.G{match.group(2)}",
+            "component": component_code,
+            "text": collapse(match.group(3)),
+        })
 
     for outcome in merged.values():
         outcome.pop("_score", None)

@@ -2527,6 +2527,7 @@
    "code": "MAT.H.1.1",
    "grade": 1,
    "unit": null,
+   "field": null,
    "order": 1,
    "text": "Doğrusal ilişkiler içeren problemlerin çözümlerinde matematiksel araç ve teknolojilerden yararlanabilme",
    "components": [
@@ -2548,6 +2549,7 @@
    "code": "MAT.H.2.1",
    "grade": 2,
    "unit": null,
+   "field": null,
    "order": 1,
    "text": "Mantıksal çıkarım gerektiren problemleri çözebilme",
    "components": [
@@ -2597,6 +2599,7 @@
    "code": "MAT.H.3.1",
    "grade": 3,
    "unit": null,
+   "field": null,
    "order": 1,
    "text": "Sonlu sayı örüntülerine yönelik tümevarımsal akıl yürütebilme",
    "components": [
@@ -2618,6 +2621,7 @@
    "code": "MAT.H.3.2",
    "grade": 3,
    "unit": null,
+   "field": null,
    "order": 2,
    "text": "Şifreli metinleri çözebilmek için tümevarımsal akıl yürütebilme",
    "components": [
@@ -2639,6 +2643,7 @@
    "code": "MAT.H.3.3",
    "grade": 3,
    "unit": null,
+   "field": null,
    "order": 3,
    "text": "Şifreli metinler oluşturabilmek için analojik akıl yürütebilme",
    "components": [
@@ -2660,6 +2665,7 @@
    "code": "MAT.H.4.1",
    "grade": 4,
    "unit": null,
+   "field": null,
    "order": 1,
    "text": "Farklı geometrik kavram ve şekillerin inşa çalışmalarında matematiksel araç ve teknolojilerden yararlanabilme",
    "components": [
@@ -2681,6 +2687,7 @@
    "code": "MAT.H.4.2",
    "grade": 4,
    "unit": null,
+   "field": null,
    "order": 2,
    "text": "Matematiksel araç ve teknolojilerden yararlanılarak inşa edilen bazı özel dörtgenlerin (yamuk, paralelkenar, dikdörtgen, eşkenar dörtgen, kare) özellikleri ile ilgili çıkarım yapabilme",
    "components": [
@@ -2710,6 +2717,7 @@
    "code": "MAT.H.4.3",
    "grade": 4,
    "unit": null,
+   "field": null,
    "order": 3,
    "text": "Fraktalları çözümleyebilme",
    "components": [
@@ -2727,6 +2735,7 @@
    "code": "MAT.H.4.4",
    "grade": 4,
    "unit": null,
+   "field": null,
    "order": 4,
    "text": "Geometrik şekiller kullanılarak oluşturulan süslemeleri çözümleyebilme",
    "components": [
@@ -2744,6 +2753,7 @@
    "code": "MAT.H.4.5",
    "grade": 4,
    "unit": null,
+   "field": null,
    "order": 5,
    "text": "Geometrik şekillerden kaplamalar sentezleyebilme",
    "components": [
@@ -2765,6 +2775,7 @@
    "code": "MAT.H.5.1",
    "grade": 5,
    "unit": null,
+   "field": null,
    "order": 1,
    "text": "Başkaları tarafından oluşturulan istatistiksel sonuç veya yorumları tartışabilme",
    "components": [
@@ -2786,6 +2797,7 @@
    "code": "MAT.11.3.1",
    "grade": 11,
    "unit": 3,
+   "field": null,
    "order": 1,
    "text": "f (x) = sinx (x ∈ ℝ), f (x) = cosx (x ∈ ℝ), f (x) = tanx (x ∈ ℝ, x ≠ π + kπ, k ∈ ℤ ) ve f (x) = cotx (x ∈ ℝ, x ≠ kπ, k ∈ ℤ) şeklinde tanımlı trigonometrik referans fonksiyonların nitel özellikleri ile bu fonksiyonlardan türetilen [g(x) = k ∙ f (mx ± r) ± s (k, m, r, s ∈ ℝ, k ≠ 0, m ≠ 0)] trigonometrik fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yapabilme",
    "components": [
@@ -2835,6 +2847,7 @@
    "code": "MAT.11.3.2",
    "grade": 11,
    "unit": 3,
+   "field": null,
    "order": 2,
    "text": "Trigonometrik fonksiyonlarla ifade edilebilen denklemleri içeren problemleri çözebilme",
    "components": [
@@ -2884,6 +2897,7 @@
    "code": "MAT.11.3.7",
    "grade": 11,
    "unit": 3,
+   "field": null,
    "order": 7,
    "text": "Fonksiyonların bileşkelerine ilişkin muhakeme yapabilme",
    "components": [
@@ -2933,6 +2947,7 @@
    "code": "MAT.11.3.8",
    "grade": 11,
    "unit": 3,
+   "field": null,
    "order": 8,
    "text": "Fonksiyonlarda dört işlem özelliklerini yorumlayabilme",
    "components": [
@@ -2954,6 +2969,7 @@
    "code": "MAT.12.1.1",
    "grade": 12,
    "unit": 1,
+   "field": null,
    "order": 1,
    "text": "Aritmetik ve geometrik dizilerin özelliklerine ilişkin muhakeme yapabilme",
    "components": [
@@ -3003,6 +3019,7 @@
    "code": "MAT.12.1.2",
    "grade": 12,
    "unit": 1,
+   "field": null,
    "order": 2,
    "text": "Gerçek sayılarda tanımlı fonksiyonlar ile gerçek sayı dizilerini karşılaştırabilme",
    "components": [
@@ -3024,6 +3041,7 @@
    "code": "MAT.12.4.5",
    "grade": 12,
    "unit": 4,
+   "field": null,
    "order": 5,
    "text": "Bir fonksiyonun belirli bir nokta civarındaki değişim oranına ilişkin muhakeme yapabilme",
    "components": [
@@ -3073,6 +3091,7 @@
    "code": "MAT.12.4.6",
    "grade": 12,
    "unit": 4,
+   "field": null,
    "order": 6,
    "text": "Fonksiyonların türevinin olmadığı noktalar hakkında çıkarım yapabilme",
    "components": [
@@ -3102,6 +3121,7 @@
    "code": "MAT.12.4.7",
    "grade": 12,
    "unit": 4,
+   "field": null,
    "order": 7,
    "text": "Türevin limit gösteriminden faydalanarak iki fonksiyonun toplamı, farkı, çarpımı, bölümü ve bileşkesinin türevine ilişkin muhakeme yapabilme",
    "components": [
@@ -3139,6 +3159,7 @@
    "code": "MAT.12.4.8",
    "grade": 12,
    "unit": 4,
+   "field": null,
    "order": 8,
    "text": "Bir fonksiyonun ve onun türev fonksiyonunun matematiksel temsillerine ve bunlar arasındaki ilişkilere dair çıkarımlar yapabilme",
    "components": [
@@ -3168,6 +3189,7 @@
    "code": "MAT.12.4.9",
    "grade": 12,
    "unit": 4,
+   "field": null,
    "order": 9,
    "text": "Gerçek yaşam durumlarında türevi kullanarak problemler çözebilme",
    "components": [

@@ -44,7 +44,11 @@ from tymm_outcomes import SCHEME_PARTS, SCHEME_PATTERNS, build_code
 
 # Şema kodu -> insan okur ad. Manifest bu adları taşır; sayı taşımak
 # incelemeyi gereksiz zorlaştırıyor.
-SCHEME_NAMES = {4: "noktalı-4", 3: "noktalı-3", 5: "yapışık-3", 2: "yapışık-2", 6: "boşluklu-2"}
+SCHEME_NAMES = {
+    4: "noktalı-4", 3: "noktalı-3", 5: "yapışık-3", 2: "yapışık-2", 6: "boşluklu-2",
+    # Yabancı dil programlarında kodun bir parçası harf+sayı: ENG.9.1.L1.
+    7: "alanlı-4", 8: "alanlı-5",
+}
 SCHEME_CODES = {v: k for k, v in SCHEME_NAMES.items()}
 
 DIGIT_TAIL_RE = re.compile(r"^\d")

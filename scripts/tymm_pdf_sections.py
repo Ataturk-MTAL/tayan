@@ -18,6 +18,15 @@ import re
 UNIT_RE = re.compile(
     r"^\s*(\d+)\.\s*(ÜNİTE|TEMA|ÖĞRENME ALANI)\s*:\s*(.+?)\s*$"
 )
+# Yabancı dil programlarında başlık İNGİLİZCE ve sayı sözcükten SONRA geliyor:
+#   "THEME 1: SCHOOL LIFE"
+# Ayrıca satır başında olmayabiliyor (pdftotext sütunu birleştiriyor:
+# "the theme.        THEME 1: SCHOOL LIFE") ve sözcük tekrarlanabiliyor
+# ("THEME THEME 6: LIFE IN THE CITY & COUNTRY"). Bu biçim tanınmadığı için
+# dört İngilizce derste ünite sayısı SIFIRDI ve tüm çıktılar sahipsiz kalıyordu.
+UNIT_EN_RE = re.compile(
+    r"(?:^|\s)(?:THEME|UNIT)\s+(?:(?:THEME|UNIT)\s+)?(\d+)\s*:\s*(.+?)\s*$"
+)
 GRADE_RE = re.compile(r"^\s*(\d+)\.\s*SINIF\b")
 HOURS_RE = re.compile(r"^\s*DERS SAATİ\s+(\d+)\b")
 
@@ -97,13 +106,19 @@ def parse_units(text: str, prefix: str) -> list[dict]:
             continue
 
         unit_hit = UNIT_RE.match(line)
-        if unit_hit:
+        english_hit = None if unit_hit else UNIT_EN_RE.search(line)
+        if unit_hit or english_hit:
             flush()
+            number, title, kind = (
+                (unit_hit.group(1), unit_hit.group(3), unit_hit.group(2))
+                if unit_hit
+                else (english_hit.group(1), english_hit.group(2), "THEME")
+            )
             current = {
                 "grade": grade,
-                "unit": int(unit_hit.group(1)),
-                "kind": unit_hit.group(2),
-                "title": unit_hit.group(3).strip(),
+                "unit": int(number),
+                "kind": kind,
+                "title": title.strip(),
                 "description": "",
                 "lesson_hours": None,
                 "sections": {},
