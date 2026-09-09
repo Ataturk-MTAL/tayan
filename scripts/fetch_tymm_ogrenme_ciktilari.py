@@ -37,6 +37,10 @@ import sys
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from tymm_pdf_sections import parse_units  # noqa: E402
+from fetch_tymm_dersler import KADEME_NAMES  # noqa: E402
+
 USER_AGENT = "Mozilla/5.0 (compatible; tayan-tymm-fetch/1.0)"
 REQUEST_TIMEOUT_S = 120
 
@@ -203,11 +207,32 @@ def main() -> int:
             continue
 
         outcomes = parse_outcomes(text, prefix)
-        titles = unit_titles(dersler["courses"], course["url"])
+        units = parse_units(text, prefix)
+        by_unit = {(u["grade"], u["unit"]): u for u in units}
+        for unit in units:
+            unit["outcomes"] = []
+
+        orphan_outcomes = []
         for outcome in outcomes:
-            title = titles.get((outcome["grade"], outcome["unit"]))
-            if title:
-                outcome["unit_title"] = title
+            target = by_unit.get((outcome["grade"], outcome["unit"]))
+            if target is None:
+                # Ünite bloğu bulunamadı; çıktı KAYBOLMAZ, boşluk raporlanır.
+                orphan_outcomes.append(outcome)
+                continue
+            target["outcomes"].append(
+                {
+                    "code": outcome["code"],
+                    "order": outcome["order"],
+                    "text": outcome["text"],
+                    "components": outcome["components"],
+                }
+            )
+        if orphan_outcomes:
+            gaps.append({
+                "course": course["name"],
+                "reason": "ünitesi bulunamayan çıktı",
+                "codes": [o["code"] for o in orphan_outcomes],
+            })
 
         # KAPSAMA DENETİMİ. Metinde geçen kod sayısı ile ayrıştırılan sayı
         # eşleşmiyorsa sessiz kayıp var demektir — raporlanır, gizlenmez.
@@ -229,6 +254,8 @@ def main() -> int:
             "prefix": prefix,
             "pdf_url": course["pdf_url"],
             "outcomes": outcomes,
+            "units": units,
+            "orphans": orphan_outcomes,
         })
         print(
             f"  [{position}/{len(courses)}] {course['name'][:40]:<42} "
@@ -240,33 +267,79 @@ def main() -> int:
         if not args.keep_pdf:
             pdf_path.unlink(missing_ok=True)
 
-    total_outcomes = sum(len(r["outcomes"]) for r in results)
-    total_components = sum(len(o["components"]) for r in results for o in r["outcomes"])
-    document = {
-        "report": {
-            "courses": len(results),
-            "outcomes": total_outcomes,
-            "components": total_components,
-            "courses_without_outcomes": len(courses) - len(results),
-            # Boş olmalı. Doluysa ayrıştırıcı bir şey kaçırıyor demektir.
-            "gaps": gaps,
-        },
-        "source": {
-            "name": "Türkiye Yüzyılı Maarif Modeli — Öğrenme Çıktıları",
-            "fetched_at": datetime.date.today().isoformat(),
-            "generator": "scripts/fetch_tymm_ogrenme_ciktilari.py",
-            "note": "Ders programı PDF'lerinden çıkarıldı; PDF'ler sürümlenmez.",
-        },
-        "courses": results,
-    }
+    courses_dir = args.data_dir / "courses"
+    courses_dir.mkdir(parents=True, exist_ok=True)
 
-    args.data_dir.mkdir(parents=True, exist_ok=True)
-    out_path = args.data_dir / "ogrenme-ciktilari.json"
-    out_path.write_text(
-        json.dumps(document, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
+    index = []
+    for result in results:
+        report = {
+            "units": len(result["units"]),
+            "outcomes": sum(len(u["outcomes"]) for u in result["units"]),
+            "components": sum(
+                len(o["components"]) for u in result["units"] for o in u["outcomes"]
+            ),
+            "orphan_outcomes": len(result["orphans"]),
+            "gaps": [g for g in gaps if g["course"] == result["course"]],
+        }
+        document = {
+            "course": {
+                "id": result["course_id"],
+                "name": result["course"],
+                "slug": result["course_url"],
+                "prefix": result["prefix"],
+                "kademe": result["kademe"],
+                "kademe_name": KADEME_NAMES.get(result["kademe"], str(result["kademe"])),
+                "pdf_url": result["pdf_url"],
+            },
+            "units": result["units"],
+            # Ünitesine bağlanamayan çıktılar ATILMAZ; burada durur.
+            "unassigned_outcomes": result["orphans"],
+            "report": report,
+        }
+        (courses_dir / f"{result['course_url']}.json").write_text(
+            json.dumps(document, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
+        )
+        index.append({
+            "slug": result["course_url"],
+            "name": result["course"],
+            "kademe": result["kademe"],
+            "prefix": result["prefix"],
+            "file": f"courses/{result['course_url']}.json",
+            "units": report["units"],
+            "outcomes": report["outcomes"],
+            "components": report["components"],
+        })
+
+    total_outcomes = sum(c["outcomes"] for c in index)
+    total_components = sum(c["components"] for c in index)
+    (courses_dir / "index.json").write_text(
+        json.dumps(
+            {
+                "source": {
+                    "name": "Türkiye Yüzyılı Maarif Modeli — Ders Programları",
+                    "fetched_at": datetime.date.today().isoformat(),
+                    "generator": "scripts/fetch_tymm_ogrenme_ciktilari.py",
+                    "note": "Ders programı PDF'lerinden çıkarıldı; PDF'ler sürümlenmez.",
+                },
+                "report": {
+                    "courses": len(index),
+                    "units": sum(c["units"] for c in index),
+                    "outcomes": total_outcomes,
+                    "components": total_components,
+                    "courses_without_outcomes": len(courses) - len(results),
+                    "gaps": gaps,
+                },
+                "courses": sorted(index, key=lambda c: (c["kademe"], c["name"])),
+            },
+            ensure_ascii=False,
+            indent=1,
+        )
+        + "\n",
+        encoding="utf-8",
     )
+
     print(
-        f"\nyazıldı: {out_path} — {len(results)} ders, {total_outcomes} çıktı, "
+        f"\nyazıldı: {courses_dir}/ — {len(results)} ders dosyası, {total_outcomes} çıktı, "
         f"{total_components} süreç bileşeni, {len(gaps)} boşluk",
         file=sys.stderr,
     )
