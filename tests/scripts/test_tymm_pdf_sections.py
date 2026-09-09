@@ -93,5 +93,42 @@ class DuplicateUnitTest(unittest.TestCase):
         self.assertTrue(unit["description"].startswith("Gerçek"))
 
 
+# Ünite başlığı her derste "ÜNİTE" demiyor: Matematik "N. TEMA", Hayat Bilgisi
+# "N. ÖĞRENME ALANI" kullanıyor. Yalnız ÜNİTE aranınca 111 dersin çoğunda
+# çıktılar üniteye bağlanamıyor ve sahipsiz kalıyordu (3069/3877).
+TEMA_SAMPLE = """1. SINIF
+1. TEMA: SAYILAR VE NİCELİKLER
+Bu temada sayılar ele alınmaktadır.
+DERS SAATİ 40
+İÇERİK ÇERÇEVESİ      Doğal sayılar
+"""
+
+OGRENME_ALANI_SAMPLE = """1. SINIF
+2. ÖĞRENME ALANI: SAĞLIĞIM VE GÜVENLİĞİM
+Bu öğrenme alanında güvenlik ele alınmaktadır.
+DERS SAATİ 20
+İÇERİK ÇERÇEVESİ      Güvenli davranış
+"""
+
+
+class UnitHeaderVariantTest(unittest.TestCase):
+    def test_tema_basligi_taninir(self):
+        units = parse_units(TEMA_SAMPLE, "MAT")
+        self.assertEqual(len(units), 1)
+        self.assertEqual(units[0]["unit"], 1)
+        self.assertEqual(units[0]["title"], "SAYILAR VE NİCELİKLER")
+        self.assertEqual(units[0]["kind"], "TEMA")
+
+    def test_ogrenme_alani_basligi_taninir(self):
+        units = parse_units(OGRENME_ALANI_SAMPLE, "HB")
+        self.assertEqual(len(units), 1)
+        self.assertEqual(units[0]["unit"], 2)
+        self.assertEqual(units[0]["kind"], "ÖĞRENME ALANI")
+        self.assertEqual(units[0]["lesson_hours"], 20)
+
+    def test_unite_basliginda_kind_alani_dolu(self):
+        self.assertEqual(parse_units(SAMPLE, "FİZ")[0]["kind"], "ÜNİTE")
+
+
 if __name__ == "__main__":
     unittest.main()

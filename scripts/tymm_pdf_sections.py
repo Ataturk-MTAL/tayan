@@ -11,7 +11,13 @@ from __future__ import annotations
 
 import re
 
-UNIT_RE = re.compile(r"^\s*(\d+)\.\s*ÜNİTE\s*:\s*(.+?)\s*$")
+# Ünite başlığı her derste "ÜNİTE" demiyor: Matematik "N. TEMA", Hayat
+# Bilgisi "N. ÖĞRENME ALANI" kullanıyor. Sözcüğü sabitlemek 111 dersin
+# çoğunda çıktıların üniteye bağlanamamasına yol açıyordu (3069/3877
+# çıktı sahipsiz kalmıştı). Kullanılan sözcük `kind` alanında saklanır.
+UNIT_RE = re.compile(
+    r"^\s*(\d+)\.\s*(ÜNİTE|TEMA|ÖĞRENME ALANI)\s*:\s*(.+?)\s*$"
+)
 GRADE_RE = re.compile(r"^\s*(\d+)\.\s*SINIF\b")
 HOURS_RE = re.compile(r"^\s*DERS SAATİ\s+(\d+)\b")
 
@@ -92,7 +98,8 @@ def parse_units(text: str, prefix: str) -> list[dict]:
             current = {
                 "grade": grade,
                 "unit": int(unit_hit.group(1)),
-                "title": unit_hit.group(2).strip(),
+                "kind": unit_hit.group(2),
+                "title": unit_hit.group(3).strip(),
                 "description": "",
                 "lesson_hours": None,
                 "sections": {},

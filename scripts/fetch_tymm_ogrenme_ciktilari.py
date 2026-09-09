@@ -34,6 +34,7 @@ import re
 import shutil
 import subprocess
 import sys
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -66,7 +67,10 @@ def collapse(text: str) -> str:
 
 
 def download(url: str, target: Path) -> None:
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    # PDF adlarında Türkçe karakter geçebiliyor; ham hâliyle istenirse
+    # urllib "'ascii' codec can't encode character '\u0131'" ile düşüyor.
+    safe = urllib.parse.quote(url, safe=":/?&=%#")
+    request = urllib.request.Request(safe, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(request, timeout=REQUEST_TIMEOUT_S) as response:
         target.write_bytes(response.read())
 
@@ -175,7 +179,11 @@ def main() -> int:
             return 1
 
     args.pdf_dir.mkdir(parents=True, exist_ok=True)
-    results, gaps = [], []
+    courses_dir = args.data_dir / "courses"
+    courses_dir.mkdir(parents=True, exist_ok=True)
+    index: list[dict] = []
+    gaps: list[dict] = []
+    parsed_count = 0
 
     for position, course in enumerate(courses, 1):
         if not course.get("pdf_url"):
@@ -246,17 +254,52 @@ def main() -> int:
         if missed:
             gaps.append({"course": course["name"], "reason": "ayrıştırılamayan kod", "codes": missed})
 
-        results.append({
-            "course_id": course["id"],
-            "course": course["name"],
-            "course_url": course["url"],
+        # Ders dosyası HEMEN yazılır, bellekte biriktirilmez. 111 dersin
+        # tamamını tutup sonda yazmak tepe belleği gereksiz şişiriyordu ve
+        # sıkışık bir makinede koşum işletim sistemi tarafından öldürüldü.
+        report = {
+            "units": len(units),
+            "outcomes": sum(len(u["outcomes"]) for u in units),
+            "components": sum(len(o["components"]) for u in units for o in u["outcomes"]),
+            "orphan_outcomes": len(orphan_outcomes),
+            "gaps": [g for g in gaps if g["course"] == course["name"]],
+        }
+        (courses_dir / f"{course['url']}.json").write_text(
+            json.dumps(
+                {
+                    "course": {
+                        "id": course["id"],
+                        "name": course["name"],
+                        "slug": course["url"],
+                        "prefix": prefix,
+                        "kademe": course["kademe"],
+                        "kademe_name": KADEME_NAMES.get(
+                            course["kademe"], str(course["kademe"])
+                        ),
+                        "pdf_url": course["pdf_url"],
+                    },
+                    "units": units,
+                    # Ünitesine bağlanamayan çıktılar ATILMAZ; burada durur.
+                    "unassigned_outcomes": orphan_outcomes,
+                    "report": report,
+                },
+                ensure_ascii=False,
+                indent=1,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        index.append({
+            "slug": course["url"],
+            "name": course["name"],
             "kademe": course["kademe"],
             "prefix": prefix,
-            "pdf_url": course["pdf_url"],
-            "outcomes": outcomes,
-            "units": units,
-            "orphans": orphan_outcomes,
+            "file": f"courses/{course['url']}.json",
+            "units": report["units"],
+            "outcomes": report["outcomes"],
+            "components": report["components"],
         })
+        parsed_count += 1
         print(
             f"  [{position}/{len(courses)}] {course['name'][:40]:<42} "
             f"{prefix:<8} çıktı={len(outcomes):<4} bileşen="
@@ -266,49 +309,6 @@ def main() -> int:
 
         if not args.keep_pdf:
             pdf_path.unlink(missing_ok=True)
-
-    courses_dir = args.data_dir / "courses"
-    courses_dir.mkdir(parents=True, exist_ok=True)
-
-    index = []
-    for result in results:
-        report = {
-            "units": len(result["units"]),
-            "outcomes": sum(len(u["outcomes"]) for u in result["units"]),
-            "components": sum(
-                len(o["components"]) for u in result["units"] for o in u["outcomes"]
-            ),
-            "orphan_outcomes": len(result["orphans"]),
-            "gaps": [g for g in gaps if g["course"] == result["course"]],
-        }
-        document = {
-            "course": {
-                "id": result["course_id"],
-                "name": result["course"],
-                "slug": result["course_url"],
-                "prefix": result["prefix"],
-                "kademe": result["kademe"],
-                "kademe_name": KADEME_NAMES.get(result["kademe"], str(result["kademe"])),
-                "pdf_url": result["pdf_url"],
-            },
-            "units": result["units"],
-            # Ünitesine bağlanamayan çıktılar ATILMAZ; burada durur.
-            "unassigned_outcomes": result["orphans"],
-            "report": report,
-        }
-        (courses_dir / f"{result['course_url']}.json").write_text(
-            json.dumps(document, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
-        )
-        index.append({
-            "slug": result["course_url"],
-            "name": result["course"],
-            "kademe": result["kademe"],
-            "prefix": result["prefix"],
-            "file": f"courses/{result['course_url']}.json",
-            "units": report["units"],
-            "outcomes": report["outcomes"],
-            "components": report["components"],
-        })
 
     total_outcomes = sum(c["outcomes"] for c in index)
     total_components = sum(c["components"] for c in index)
@@ -326,7 +326,7 @@ def main() -> int:
                     "units": sum(c["units"] for c in index),
                     "outcomes": total_outcomes,
                     "components": total_components,
-                    "courses_without_outcomes": len(courses) - len(results),
+                    "courses_without_outcomes": len(courses) - parsed_count,
                     "gaps": gaps,
                 },
                 "courses": sorted(index, key=lambda c: (c["kademe"], c["name"])),
@@ -339,7 +339,7 @@ def main() -> int:
     )
 
     print(
-        f"\nyazıldı: {courses_dir}/ — {len(results)} ders dosyası, {total_outcomes} çıktı, "
+        f"\nyazıldı: {courses_dir}/ — {parsed_count} ders dosyası, {total_outcomes} çıktı, "
         f"{total_components} süreç bileşeni, {len(gaps)} boşluk",
         file=sys.stderr,
     )
