@@ -5,7 +5,14 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
 
 from tymm_pdf_sections import parse_units
-from tymm_outcomes import SKILL_PREFIXES, build_code, detect_scheme, parse_outcomes
+from tymm_outcomes import (
+    SKILL_PREFIXES,
+    build_code,
+    detect_scheme,
+    detect_families,
+    parse_all,
+    parse_outcomes,
+)
 from tymm_beceri_lines import split_indicator, split_code_line
 
 SAMPLE = """9. SINIF
@@ -492,6 +499,71 @@ T.D.5.2. Dördüncü
 """
         prefixes, _ = detect_scheme(text)
         self.assertEqual(set(prefixes), {"T.O", "T.D"})
+
+
+# BİR BELGE BİRDEN ÇOK ŞEKİL TAŞIYABİLİR. Tek sema secmek, azinlikta kalan
+# aileyi SESSIZCE dusuruyordu:
+#   BES.9.1.1. (dort sayili) + BES.H.1.1. (uc sayili, hazirlik on eki)
+#   SNAB1. (yapisik) + SNAB.1. (noktali) — ayni belge, ayni on ek
+MULTI_FAMILY = """BES.9.1.1. Dokuzuncu sinif birinci cikti
+   a) Bilesen.
+BES.9.1.2. Dokuzuncu sinif ikinci cikti
+   a) Bilesen.
+BES.9.2.1. Dokuzuncu sinif ucuncu cikti
+   a) Bilesen.
+BES.9.2.2. Dokuzuncu sinif dorduncu cikti
+   a) Bilesen.
+BES.H.1.1. Hazirlik birinci cikti
+   a) Bilesen.
+BES.H.1.2. Hazirlik ikinci cikti
+   a) Bilesen.
+BES.H.2.1. Hazirlik ucuncu cikti
+   a) Bilesen.
+"""
+
+# Gosterge kademesi PDF'lerde de var: ENG.9.1.G1. 60 gecis.
+# Bunlar CIKTI DEGIL, ciktinin altindaki gosterge.
+PDF_INDICATORS = """ENG.9.1. Students can understand simple texts
+   a) Reads short paragraphs.
+ENG.9.1.G1. Students identify the main idea.
+ENG.9.1.G2. Students locate specific information.
+ENG.9.2. Students can write short notes
+   a) Writes a note.
+"""
+
+
+class MultiFamilyTest(unittest.TestCase):
+    def test_iki_aile_de_bulunur(self):
+        families = detect_families(MULTI_FAMILY)
+        schemes = {f[1] for f in families}
+        self.assertIn(4, schemes)
+        self.assertIn(3, schemes)
+
+    def test_hazirlik_ciktilari_dusmez(self):
+        outcomes = parse_all(MULTI_FAMILY)
+        codes = {o["code"] for o in outcomes}
+        self.assertIn("BES.9.1.1", codes)
+        self.assertIn("BES.H.1.1", codes)
+        self.assertEqual(len(outcomes), 7)
+
+    def test_kod_tekrari_yok(self):
+        outcomes = parse_all(MULTI_FAMILY)
+        codes = [o["code"] for o in outcomes]
+        self.assertEqual(len(codes), len(set(codes)))
+
+
+class PdfIndicatorTest(unittest.TestCase):
+    def test_gosterge_cikti_sayilmaz(self):
+        outcomes = parse_all(PDF_INDICATORS)
+        codes = {o["code"] for o in outcomes}
+        self.assertIn("ENG.9.1", codes)
+        self.assertNotIn("ENG.9.1.G1", codes)
+
+    def test_gostergeler_ciktiya_baglanir(self):
+        outcomes = parse_all(PDF_INDICATORS)
+        first = [o for o in outcomes if o["code"] == "ENG.9.1"][0]
+        self.assertEqual(len(first.get("indicators", [])), 2)
+        self.assertEqual(first["indicators"][0]["code"], "ENG.9.1.G1")
 
 
 if __name__ == "__main__":

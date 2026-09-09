@@ -37,6 +37,9 @@ GLUED3_RE = re.compile(r"([A-ZÇĞİÖŞÜ]{2,8})(\d+)\.(\d+)\.(\d+)\.\s*(.*)$",
 # kelimeler ön ek sanılıyor.
 SPACED_RE = re.compile(r"(?:^|(?<=[^A-ZÇĞİÖŞÜ]))([A-ZÇĞİÖŞÜ]{2,5})\s+(\d+)\.(\d+)\.\s*(.*)$", re.M)
 COMPONENT_RE = re.compile(r"^\s*([a-zçğöşü])\)\s*(.+)$")
+# Gösterge kademesi PDF'lerde de var: "ENG.9.1.G1. Students identify..."
+# Bunlar ÇIKTI DEĞİL, çıktının altındaki göstergelerdir.
+INDICATOR_RE = re.compile(r"^\s*([A-ZÇĞİÖŞÜ][A-ZÇĞİÖŞÜ.]*[\d.]*\d)\.G(\d+)\.\s*(.*)$", re.M)
 
 # Şema kodu -> desen. TEK KAYNAK: hem ayrıştırma hem kapsama denetimi burayı
 # kullanır. Ayrı ayrı yazıldığında denetim, ayrıştırıcının tanıdığı biçimleri
@@ -250,3 +253,99 @@ def build_code(match, segments: int) -> str:
         return f"{g[0]}{g[1]}.{g[2]}.{g[3]}"
     # 2 (yapışık) ve 6 (boşluklu) aynı kodu üretir: ÖNEKn.m
     return f"{g[0]}{g[1]}.{g[2]}"
+
+
+# Bir belgede bir ailenin "gerçek" sayılması için gereken en az geçiş.
+# Altında kalanlar pdftotext gürültüsü kabul edilir.
+FAMILY_MIN = 3
+
+
+# NOT: detect_families/parse_all HENÜZ BAĞLI DEĞİL. Sezgisel çoklu aile
+# denendi ve ÖLÇÜLDÜ: toplam geri kazanım arttı (6119 -> 6560 çıktı) ama
+# ünite bağlantısı ve bileşenler bozuldu (bileşen 12 215 -> 9435, sahipsiz
+# 285 -> 1701, Matematik 77 çıktı/452 bileşen -> 50/292). Gürültü aileleri
+# ("SELS", "CS" gibi çerçeve atıfları) birleştirmede kazanıp daha kötü
+# ayrıştırmayı öne geçiriyor.
+#
+# Doğru çözüm sezgisel değil BEYAN: belge başına manifest (hangi kademe
+# hangi şekli kullanıyor) + şekil sayımı, ve manifestte olmayan şekil HATA.
+# Bu işlevler o adımın temeli olarak testleriyle birlikte duruyor.
+
+
+def detect_families(text: str) -> list[tuple[list[str], int]]:
+    """Belgedeki TÜM şekil ailelerini döndürür, hacme göre azalan sırada.
+
+    Tek aile seçmek azınlıkta kalan aileyi sessizce düşürüyordu: beden
+    eğitiminde "BES.9.1.1." (dört sayılı) kazanıp "BES.H.1.1." (hazırlık,
+    üç sayılı) hiç tanınmıyordu; okul öncesinde aynı ön ek hem yapışık
+    ("SNAB1.") hem noktalı ("SNAB.1.") yazılıyor.
+    """
+    families = []
+    for scheme in (4, 3, 5, 2, 6):
+        prefixes, found = _tally_scheme(text, scheme)
+        if found >= FAMILY_MIN:
+            families.append((prefixes, scheme, found))
+    families.sort(key=lambda f: -f[2])
+    return [(p, s) for p, s, _ in families]
+
+
+def _tally_scheme(text: str, scheme: int) -> tuple[list[str], int]:
+    """Tek bir şema için (ön ekler, toplam geçiş)."""
+    pattern = SCHEME_PATTERNS[scheme]
+    counter = collections.Counter()
+    for match in pattern.finditer(text):
+        prefix = match.group(1)
+        if scheme in (2, 5, 6) and prefix in SKILL_PREFIXES:
+            continue
+        tail = match.groups()[-1].strip()
+        if scheme != 4 and re.match(r"^\d", tail):
+            continue
+        counter[prefix] += 1
+    counter = collections.Counter({k: v for k, v in counter.items() if v >= FAMILY_MIN})
+    if scheme in (4, 3):
+        non_skill = {k: v for k, v in counter.items() if k not in SKILL_PREFIXES}
+        if non_skill:
+            counter = collections.Counter(non_skill)
+    # hayalet eleme (son ek ilişkisinde nadir olan artefakt)
+    kept = dict(counter)
+    for a in list(counter):
+        for b in counter:
+            if a == b or a not in kept:
+                continue
+            if (a.endswith(b) or b.endswith(a)) and counter[a] * 5 < counter[b]:
+                del kept[a]
+                break
+    return sorted(kept), sum(kept.values())
+
+
+def parse_all(text: str) -> list[dict]:
+    """Tüm aileleri ayrıştırıp birleştirir; göstergeleri çıktılara bağlar.
+
+    Kod bazında tekilleştirir — bir kod birden çok ailede eşleşebilir
+    (ör. "SNAB1." hem yapışık hem noktalı desene uyar).
+    """
+    merged: dict[str, dict] = {}
+    for prefixes, scheme in detect_families(text):
+        for outcome in parse_outcomes(text, prefixes, scheme):
+            previous = merged.get(outcome["code"])
+            score = len(outcome["text"]) + 50 * len(outcome["components"])
+            if previous is None or score > previous["_score"]:
+                merged[outcome["code"]] = {**outcome, "_score": score}
+
+    # Göstergeleri sahibine bağla. Gösterge kodu ebeveynini taşır:
+    # ENG.9.1.G1 -> ENG.9.1
+    for match in INDICATOR_RE.finditer(text):
+        parent = match.group(1)
+        owner = merged.get(parent)
+        if owner is None:
+            continue
+        owner.setdefault("indicators", []).append(
+            {"code": f"{parent}.G{match.group(2)}", "text": collapse(match.group(3))}
+        )
+
+    for outcome in merged.values():
+        outcome.pop("_score", None)
+    return sorted(
+        merged.values(),
+        key=lambda o: (o["grade"], o["unit"] if o["unit"] is not None else 0, o["order"]),
+    )
