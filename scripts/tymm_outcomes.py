@@ -38,6 +38,11 @@ GLUED3_RE = re.compile(r"([A-ZÇĞİÖŞÜ]{2,8})(\d+)\.(\d+)\.(\d+)\.\s*(.*)$",
 SPACED_RE = re.compile(r"(?:^|(?<=[^A-ZÇĞİÖŞÜ]))([A-ZÇĞİÖŞÜ]{2,5})\s+(\d+)\.(\d+)\.\s*(.*)$", re.M)
 COMPONENT_RE = re.compile(r"^\s*([a-zçğöşü])\)\s*(.+)$")
 
+# Şema kodu -> desen. TEK KAYNAK: hem ayrıştırma hem kapsama denetimi burayı
+# kullanır. Ayrı ayrı yazıldığında denetim, ayrıştırıcının tanıdığı biçimleri
+# tanımıyordu ve 8 derste sessizce işlemsiz kalıyordu.
+SCHEME_PATTERNS = {}
+
 # Beceri çerçevesinin kodları ÖĞRENME ÇIKTISI DEĞİLDİR. Ders programları
 # ünite bloklarında bu kodlara atıf yapıyor; ön ek tespitine karışırlarsa
 # çıktı sanılıyorlar (Okul Öncesi'nde "D" değer kodu çıktı ön eki seçilmişti).
@@ -90,14 +95,44 @@ def detect_scheme(text: str) -> tuple[list[str], int]:
     glued, _ = tally(GLUED_RE, exclude_spans=glued3_spans, skill_filter=True, text_group=4)
     spaced, _ = tally(SPACED_RE, skill_filter=True, text_group=4)
 
+    def drop_ghosts(counter):
+        """Kırpılmış ön ekleri eler.
+
+        pdftotext bir satırı kestiğinde ön ekin KUYRUĞU ayrı bir ön ek gibi
+        görünür: "İTA" 20 kez geçerken kırpılmış tek bir "TA" aileye üye
+        oluyor ve sorted()[0] ile dersin kimliğini ele geçiriyordu. Bir ön ek
+        başka bir ön ekin son ekiyse ve geçişi onun beşte birinden azsa
+        artefakttır.
+        """
+        result = dict(counter)
+        for a in list(counter):
+            for b in counter:
+                if a == b or a not in result:
+                    continue
+                # Son ek ilişkisi iki yönde de olabilir:
+                #   TA  ⊂ İTA   -> baştan kırpılmış, KISA olan hayalet
+                #   ENG ⊂ EENG  -> başa harf yapışmış, UZUN olan hayalet
+                # Hangisi olduğu uzunluktan değil SIKLIKTAN anlaşılır: nadir
+                # olan artefakttır.
+                if not (a.endswith(b) or b.endswith(a)):
+                    continue
+                if counter[a] * 5 < counter[b]:
+                    del result[a]
+                    break
+        return collections.Counter(result)
+
     def prefer_non_skill(counter):
         non_skill = {k: v for k, v in counter.items() if k not in SKILL_PREFIXES}
         return collections.Counter(non_skill or counter)
 
-    four = prefer_non_skill(four)
-    three = prefer_non_skill(three)
+    four = prefer_non_skill(drop_ghosts(four))
+    three = prefer_non_skill(drop_ghosts(three))
 
     # Eşitlikte daha ÖZGÜL şema kazanır: dört sayılı > üç sayılı > yapışık.
+    glued3 = drop_ghosts(glued3)
+    glued = drop_ghosts(glued)
+    spaced = drop_ghosts(spaced)
+
     families = [(four, 4), (three, 3), (glued3, 5), (glued, 2), (spaced, 6)]
     best = max(
         (f for f in families if f[0]),
@@ -118,10 +153,9 @@ def parse_outcomes(text: str, prefixes: str | list[str], segments: int) -> list[
     if isinstance(prefixes, str):
         prefixes = [prefixes]
     wanted = set(prefixes)
-    patterns = {4: FOUR_RE, 3: THREE_RE, 2: GLUED_RE, 5: GLUED3_RE, 6: SPACED_RE}
-    if segments not in patterns:
+    if segments not in SCHEME_PATTERNS:
         return []
-    pattern = patterns[segments]
+    pattern = SCHEME_PATTERNS[segments]
     lines = text.splitlines()
     best: dict[str, dict] = {}
     index = 0
@@ -193,3 +227,26 @@ def parse_outcomes(text: str, prefixes: str | list[str], segments: int) -> list[
     return sorted(
         best.values(), key=lambda e: (e["grade"], e["unit"] if e["unit"] is not None else 0, e["order"])
     )
+
+
+SCHEME_PATTERNS.update({4: FOUR_RE, 3: THREE_RE, 2: GLUED_RE, 5: GLUED3_RE, 6: SPACED_RE})
+# Şema başına kod parçası sayısı (kapsama denetimi kodu bundan kurar).
+SCHEME_PARTS = {4: 4, 3: 3, 5: 4, 2: 3, 6: 3}
+
+
+def build_code(match, segments: int) -> str:
+    """Eşleşmeden kod dizesini kurar — TEK KAYNAK.
+
+    Ayrıştırıcı ile kapsama denetimi bu işlevi paylaşır. Ayrı ayrı yazıldığında
+    denetim, ayrıştırıcının ürettiğinden farklı kod dizeleri kurup sahte
+    "ayrıştırılamayan kod" raporluyordu.
+    """
+    g = match.groups()
+    if segments == 4:
+        return f"{g[0]}.{g[1]}.{g[2]}.{g[3]}"
+    if segments == 3:
+        return f"{g[0]}.{g[1]}.{g[2]}"
+    if segments == 5:
+        return f"{g[0]}{g[1]}.{g[2]}.{g[3]}"
+    # 2 (yapışık) ve 6 (boşluklu) aynı kodu üretir: ÖNEKn.m
+    return f"{g[0]}{g[1]}.{g[2]}"

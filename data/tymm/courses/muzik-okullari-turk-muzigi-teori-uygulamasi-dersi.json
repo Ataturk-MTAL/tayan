@@ -907,33 +907,6 @@
   "outcomes": 43,
   "components": 3,
   "orphan_outcomes": 0,
-  "gaps": [
-   {
-    "course": "Türk Müziği Teori ve Uygulaması Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "TMT.1.1.1.",
-     "TMT.1.1.1. Müziği tanımlayabilme",
-     "TMT.1.1.2.",
-     "TMT.1.1.2. Müzikle ilgili materyalleri tanımlayabilme",
-     "TMT.1.2.1.",
-     "TMT.1.2.1. Porteyi tanıyabilme",
-     "TMT.1.2.2.",
-     "TMT.1.2.2. Müzikte anahtar kavramını tanıyabilme",
-     "TMT.1.2.3.",
-     "TMT.1.2.3. Nota işaretlerini tanıyabilme",
-     "TMT.1.3.1.",
-     "TMT.1.3.1.Müzikal olan/olmayan sesleri işitebilme",
-     "TMT.1.3.2.",
-     "TMT.1.3.2. Ölçülü seslerin bileşenlerini dinleyebilme",
-     "TMT.2.1.1.",
-     "TMT.2.1.1. Tam ses ve yarım sesi işitebilme",
-     "TMT.2.1.2. Tam ses ve yarım sesi okuyabilme",
-     "TMT.2.1.3. Tam ses ve yarım sesi yazabilme",
-     "TMT.2.2.1.",
-     "TMT.2.2.1. Sesleri pestleştirme ve tizleştirmeyi işitebilme"
-    ]
-   }
-  ]
+  "gaps": []
  }
 }

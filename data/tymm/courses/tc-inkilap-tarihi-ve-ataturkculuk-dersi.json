@@ -3,7 +3,7 @@
   "id": 9,
   "name": "T.C. İnkılap Tarihi ve Atatürkçülük Dersi",
   "slug": "tc-inkilap-tarihi-ve-ataturkculuk-dersi",
-  "prefix": "TA",
+  "prefix": "İTA",
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/2024programink8Onayli.pdf"
@@ -99,37 +99,6 @@
      "order": 4,
      "text": "Öğrencilere Birinci Dünya Savaşı’nın siyasi ve ekonomik sonuçlarıyla ilgili tablo, grafik, harita (SBAB10.3), şekil ve diyagram gibi görseller verilir (E3.2, OB1, OB4). Öğrencilerden ilgili görsellerin başlığından yola çıkılarak hangi bilgilerin edinilebileceğine yönelik (OB1, OB4, OB7) açıklamalar yapmaları istenir. Öğrenciler verilen görselleri inceleyerek Birinci Dünya Savaşı’nın siyasi ve ekonomik etkilerini belirler (E3.6, OB4, OB7). Birinci Dünya Savaşı’nın sonucunda dünyada ortaya çıkan genel durum, savaşın sonunda devletler arasında imzalanan antlaşmalar, Paris Barış Konferansı ve yarattığı uluslararası etkiler hakkında kaynaklar üzerinden genel değerlendirmeler yapılarak incelenen görsellerdeki bilgilerin yazılı kaynaklarla desteklenmesi sağlanır. Paris Barış Konferansı’nın bir sonucu olarak barışı korumak için oluşturulan Milletler Cemiyeti’ne sonraki yıllarda Türkiye’nin dâhil oluşu, savaşın toplumlara nasıl zararlar verdiğine bizzat şahit olan ve ülkesinin menfaatini her şeyin üzerinde gören Atatürk’ün “Yurtta sulh, cihanda sulh” anlayışı (D4.5, D19.1) doğrultusunda yorumlanır. Öğrencilerden, belirlenen etkilerden hareketle Birinci Dünya Savaşı’nın siyasi ve ekonomik sonuçları hakkında çıkarımlarda bulunmaları (OB1) istenir. Tartışma yöntemi ile bireysel çıkarımlar paylaşılmak suretiyle Birinci Dünya Savaşı’nın sonuçları belirlenir. Öğrenciler gruplara ayrılır. Gruplardan Birinci Dünya Savaşı’nın siyasi ve ekonomik sonuçlarına ilişkin değerlendirmelerini kavram ağıyla listelemesi istenir (E3.2, E3.7). Grupların oluşturduğu kavram ağları üzerinden öğrenciler, Birinci Dünya Savaşı’nın siyasi ve ekonomik sonuçlarına ilişkin yapmış oldukları çıkarımları karşılaştırır.",
      "components": []
-    },
-    {
-     "code": "TA.8.2.5",
-     "order": 5,
-     "text": "Birinci Dünya Savaşı’nın Türk toplumuna etkilerine yönelik bakış açısı geliştirebilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Birinci Dünya Savaşı’nın toplumsal etkilerini kaynaklar üzerinden inceler."
-      },
-      {
-       "label": "b",
-       "text": "Birinci Dünya Savaşı’nın toplumsal etkilerine dair kaynaklardan elde ettiği bilgileri kendi cümleleriyle ifade eder."
-      },
-      {
-       "label": "c",
-       "text": "Birinci Dünya Savaşı’nın Türk toplumuna etkilerini kaynaklara dayalı olarak analiz eder. T.C. İNKILAP TARİHİ VE ATATÜRKÇÜLÜK DERSİ ÖĞRETİM PROGRAMI"
-      },
-      {
-       "label": "ç",
-       "text": "Birinci Dünya Savaşı’nın Türk toplumunda meydana getirdiği insani krizleri belirler."
-      },
-      {
-       "label": "d",
-       "text": "Birinci Dünya Savaşı’nın Türk toplumunda meydana getirdiği insani krizler ile günümüzdeki insani krizleri karşılaştırır."
-      },
-      {
-       "label": "e",
-       "text": "Birinci Dünya Savaşı’nın Türk toplumuna etkileri hakkında çıkarım yapar."
-      }
-     ]
     },
     {
      "code": "İTA.8.2.5",
@@ -250,8 +219,8 @@
  "unassigned_outcomes": [],
  "report": {
   "units": 4,
-  "outcomes": 16,
-  "components": 9,
+  "outcomes": 15,
+  "components": 3,
   "orphan_outcomes": 0,
   "gaps": []
  }

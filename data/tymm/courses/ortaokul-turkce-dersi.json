@@ -3,7 +3,7 @@
   "id": 6,
   "name": "Ortaokul Türkçe Dersi",
   "slug": "ortaokul-turkce-dersi",
-  "prefix": "DO",
+  "prefix": "DYS.DO",
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/ortaokul-turkce-dersi_20260902_111157_977.pdf"
@@ -3069,12 +3069,6 @@
      "components": []
     },
     {
-     "code": "DO.6.10",
-     "order": 10,
-     "text": "; DYS.KY.6.6.). Öğrencilerin çekim eklerinin [isim çekim ekleri (çoğul eki, hâl ekleri, ilgi (tamlayan) eki, iyelik ekleri ve soru eki)] işlevlerini ayırt etmeleri ve bunları işlevlerine uygun kullanmaları",
-     "components": []
-    },
-    {
      "code": "T.K.6.12",
      "order": 12,
      "text": "Konuşmasında sınıflandırma yapabilme",
@@ -3242,21 +3236,9 @@
      "components": []
     },
     {
-     "code": "DO.6.6",
-     "order": 6,
-     "text": "; DYS.KY.6.2.). Öğrencilerin zıtlık ifade etme işlevli söz varlığını (ama, fakat, lakin, aksine, ancak, yoksa, aslında, hâlbuki, tam tersine vb.) belirlemeleri, işlevine uygun kullanmaları sağlanır (DYS.",
-     "components": []
-    },
-    {
      "code": "T.D.6.7",
      "order": 7,
      "text": ", T.O.6.9.). Öğrencilerin dinledikleri/izledikleri ve okudukları bilgilendirici metinde metin yapılarından",
-     "components": []
-    },
-    {
-     "code": "DO.6.7",
-     "order": 7,
-     "text": "; DYS.KY.6.3.).",
      "components": []
     },
     {
@@ -3287,12 +3269,6 @@
      "code": "T.Y.6.9",
      "order": 9,
      "text": "Yorumunu yazılı olarak ifade edebilme",
-     "components": []
-    },
-    {
-     "code": "DO.6.10",
-     "order": 10,
-     "text": "; DYS.KY.6.6.). Öğrencilerin çekim eklerinin [isim çekim ekleri (çoğul eki, hâl ekleri, ilgi (tamlayan) eki, iyelik ekleri ve soru eki)] işlevlerini ayırt etmeleri ve bunları işlevlerine uygun kullanmaları",
      "components": []
     },
     {
@@ -4122,12 +4098,6 @@
      "components": []
     },
     {
-     "code": "DO.7.3",
-     "order": 3,
-     "text": "; DYS.KY.7.3.). Öğrencilerin zaman işlevli fiilimsi dil yapılarını belirlemeleri ve bu dil yapılarını kullanmaları",
-     "components": []
-    },
-    {
      "code": "T.D.7.4",
      "order": 4,
      "text": ", T.D.7.5.). Basit ve üst düzey çıkarımlar yoluyla dinlediklerinin/izlediklerinin derin anlamını belirleyebilmeleri sağlanır",
@@ -4221,12 +4191,6 @@
      "code": "DYS.DO.7.10",
      "order": 10,
      "text": "Sınırlama ifade etme işlevli dil yapıları ve DYS.KY.7.10. Sınırlama ifade etme işlevli dil yapıları ve söz varlığını (-A kadar, -A dek, -A değin, -mAk üzere; sasöz varlığını (-A kadar, -A dek, -A değin, -mAk üzere; sadece, tek, yalnız, yalnızca, artık, ancak, bir, bir tek vb.) dece, tek, yalnız, yalnızca, artık, ancak, bir, bir tek vb.) belirler. işlevine uygun kullanır.",
-     "components": []
-    },
-    {
-     "code": "DO.7.11",
-     "order": 11,
-     "text": "; DYS.KY.7.11.). Tema sürecinde öğrenme çıktılarına yönelik yapılacak çalışmalarda kavramsal becerilerden. Gözlemleme (KB2.2), Yapılandırma (KB2.13.), Sentezleme (KB2.20.); eğilimlerden Empati (E2.1.), Oyunseverlik (E2.5.), Soru Sorma (E3.8.), Eleştirel Bakma (E3.10.); sosyal-duygusal öğrenme becerilerinden Kendini Düzenleme (Öz Düzenleme) (SDB1.2.), İletişim (SDB2.1.); değerlerden Aile İçi Sorumlulukları Yerine Getirmek (D2.4.), İnsan İlişkilerinde Yapıcı Olmak (D10.3.), Çevresine, Millî ve Manevi Değerlerine Saygı Duymak (D14.3.), Kişisel Temizlik ve Bakımına Önem Vermek (D18.1.); okuryazarlık becerilerinden Kültür Okuryazarlığı (OB5.) uygun bir şekilde işe koşulur. Atölye Çalışmaları Dinleme/İzleme Atölyesi Belirlenen dinleme/izleme materyalinin öğrenciler tarafından dinlenmesi/izlenmesi ve çözümlenmesi sürdürülerek sonlandırılır. Okuma Atölyesi Belirlenen iki kitabın öğrenciler tarafından okunması ve birinin sınıf içerisinde çözümlenmesi sürdürülerek tamamlanır. Diğer kitaba yönelik çözümleme rapor hâlinde sunulur. Üretim Atölyesi Üretim atölyesi uygulama esasları doğrultusunda öğrencilerin tema içeriği ile temadaki öğrenme çıktılarına uygun ürünler (ses kaydı, konuşma metni, sunum videosu; afiş, kolaj, sınıf panosu, dijital albüm vb.) hazırlamaları sağlanır. Bu etkinlikler, öğrencilerin yaratıcılığını ve özgün düşünme becerilerini destekleyecek nitelikte olmalıdır. ORTAOKUL TÜRKÇE DERSİ ÖĞRETİM PROGRAMI",
      "components": []
     },
     {
@@ -4647,12 +4611,6 @@
      "code": "T.D.7.6",
      "order": 6,
      "text": ", T.D.7.7.). Öyküleyici metinlerde hikâye unsurlarını belirleme (T.D.7.11.), dinledik-",
-     "components": []
-    },
-    {
-     "code": "DO.7.6",
-     "order": 6,
-     "text": "; DYS.KY.7.6.). Öğrencilerin sözcükleri miktar yönünden belirten söz varlığının cümlenin anlamına katkısını",
      "components": []
     },
     {
@@ -5794,12 +5752,6 @@
      "components": []
     },
     {
-     "code": "KY.8.4",
-     "order": 4,
-     "text": "). Tema sürecinde öğrenme çıktılarına yönelik yapılacak çalışmalarda kavramsal becerilerden Genelleme (KB2.9.), Yapılandırma (KB2.13.), Analojik Akıl Yürütme (KB2.16.3.); eğilimlerden Seçicilik (E1.6.), Odaklanma (E3.2.), Yaratıcılık (E3.3.); sosyal-duygusal öğrenme becerilerinden İletişim (SDB2.1.); değerlerden. Sanatsal ve Görsel Zevkleri Hayatın Bir Parçası Hâline Getirmek (D7.3.); okuryazarlık becerilerinden Görsel Okuryazarlık (OB4.), Sanat Okuryazarlığı (OB9.) uygun bir şekilde işe koşulur. Atölye Çalışmaları Dinleme/İzleme Atölyesi Belirlenen ikinci dinleme/izleme materyalini öğrencinin ailesiyle dinleyerek/izleyerek çözümlemesi çalışması sürdürülür. Okuma Atölyesi Belirlenen iki kitabın öğrenciler tarafından okunması ve birinin sınıf içerisinde çözümlenmesi çalışmalarına devam edilir. Üretim Atölyesi Üretim atölyesi uygulama esasları doğrultusunda öğrencilerin tema içeriği ile temadaki öğrenme çıktılarına uygun ürünler (ses kaydı, konuşma metni, sunum videosu; afiş, kolaj, sınıf panosu, dijital albüm vb.) hazırlamaları sağlanır. Bu etkinlikler, öğrencilerin yaratıcılığını ve özgün düşünme becerilerini destekleyecek nitelikte olmalıdır.",
-     "components": []
-    },
-    {
      "code": "T.D.8.5",
      "order": 5,
      "text": ") sağlanır. Basit ve üst düzey çıkarımlar yoluyla dinlediklerinin/izlediklerinin derin anlamını belirleyebilmeleri",
@@ -6055,12 +6007,6 @@
      "code": "T.K.8.4",
      "order": 4,
      "text": "), konuşmalarında karşılaştırma yapabilmeleri (T.K.8.11.), sözlü olarak özetle-",
-     "components": []
-    },
-    {
-     "code": "KY.8.4",
-     "order": 4,
-     "text": "). Tema sürecinde öğrenme çıktılarına yönelik yapılacak çalışmalarda kavramsal becerilerden Genelleme (KB2.9.), Yapılandırma (KB2.13.), Analojik Akıl Yürütme (KB2.16.3.); eğilimlerden Seçicilik (E1.6.), Odaklanma (E3.2.), Yaratıcılık (E3.3.); sosyal-duygusal öğrenme becerilerinden İletişim (SDB2.1.); değerlerden. Sanatsal ve Görsel Zevkleri Hayatın Bir Parçası Hâline Getirmek (D7.3.); okuryazarlık becerilerinden Görsel Okuryazarlık (OB4.), Sanat Okuryazarlığı (OB9.) uygun bir şekilde işe koşulur. Atölye Çalışmaları Dinleme/İzleme Atölyesi Belirlenen ikinci dinleme/izleme materyalini öğrencinin ailesiyle dinleyerek/izleyerek çözümlemesi çalışması sürdürülür. Okuma Atölyesi Belirlenen iki kitabın öğrenciler tarafından okunması ve birinin sınıf içerisinde çözümlenmesi çalışmalarına devam edilir. Üretim Atölyesi Üretim atölyesi uygulama esasları doğrultusunda öğrencilerin tema içeriği ile temadaki öğrenme çıktılarına uygun ürünler (ses kaydı, konuşma metni, sunum videosu; afiş, kolaj, sınıf panosu, dijital albüm vb.) hazırlamaları sağlanır. Bu etkinlikler, öğrencilerin yaratıcılığını ve özgün düşünme becerilerini destekleyecek nitelikte olmalıdır.",
      "components": []
     },
     {
@@ -6349,12 +6295,6 @@
      "code": "DYS.DO.6.5",
      "order": 5,
      "text": ").Tema sürecinde öğrenme çıktılarına yönelik yapılacak çalışmalarda kavramsal becerilerden Yapılandırma (KB2.13.); eğilimlerden Seçicilik (E1.6.); sosyal-duygusal öğrenme becerilerinden İletişim (SDB2.1.); değerlerden Sanatsal ve Görsel Zevkleri Hayatın Bir Parçası Hâline Getirmek (D7.3.), Görev Bilincine Sahip Olmak (D16.3.), Millî Kimliğini Tanımak (D19.2.); okuryazarlık becerilerinden Bilgi Okuryazarlığı (OB1.), Dijital Okuryazarlık (OB2.) uygun bir şekilde işe koşulur. Atölye Çalışmaları Dinleme/İzleme Atölyesi Dinleme/izleme atölyesi uygulama esaslarına uygun olarak belirlenen dinleme/izleme materyalinin öğrenciler tarafından dinlenerek/izlenerek çözümlenmesi çalışmalarına başlanır. Okuma Atölyesi Okuma atölyesi uygulama esaslarına uygun olarak belirlenen iki kitabın öğrenciler tarafından okunması ve çözümlenmesi çalışmalarına başlanır. Üretim Atölyesi Üretim atölyesi uygulama esasları doğrultusunda öğrencilerin tema içeriği ile temadaki öğrenme çıktılarına uygun ürünler (ses kaydı, konuşma metni, sunum videosu; afiş, kolaj, sınıf panosu, dijital albüm vb.) hazırlamaları sağlanır. Bu etkinlikler, öğrencilerin yaratıcılığını ve özgün düşünme becerilerini destekleyecek nitelikte olmalıdır.",
-     "components": []
-    },
-    {
-     "code": "S.DO.6.6",
-     "order": 6,
-     "text": "Söz varlığı ve dil yapılarının birleşmesinde DYS.KY.6.2. Söz varlığı ve dil yapılarının birleşmesinde karşılaşılan yardımcı ünsüzleri (y, ş, s, n), pekiştirme ünkarşılaşılan yardımcı ünsüzleri (y, ş, s, n), pekiştirme ünsüzleri ve ses olaylarını (ünlü düşmesi, ünsüz benzeşsüzleri ve ses olaylarını (ünlü düşmesi, ünsüz benzeşmesi, ünsüz yumuşaması, ünlü daralması, ünlü türememesi, ünsüz yumuşaması, ünlü daralması, ünlü türemesi, ünsüz türemesi, ünsüz düşmesi, ulama) fark eder. si, ünsüz türemesi, ünsüz düşmesi, ulama) kullanır. 6. SINIF",
      "components": []
     },
     {
@@ -6727,7 +6667,7 @@
  ],
  "report": {
   "units": 24,
-  "outcomes": 800,
+  "outcomes": 790,
   "components": 300,
   "orphan_outcomes": 2,
   "gaps": [

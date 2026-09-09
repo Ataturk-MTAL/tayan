@@ -3,7 +3,7 @@
   "id": 60,
   "name": "Bireysel Çalgı Eğitimi Dersi-Ney Modülü",
   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-ney-modulu",
-  "prefix": "EY",
+  "prefix": "NEY",
   "kademe": 11,
   "kademe_name": "Müzik Okulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/muzik-bireysel-calgi-egitimi-ney.pdf"
@@ -1307,29 +1307,6 @@
    },
    "outcomes": [
     {
-     "code": "EY.7.1.1",
-     "order": 1,
-     "text": "Farklı nota sürelerinde yazılmış etütleri non legato çalabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Non legato tekniğini çözümler."
-      },
-      {
-       "label": "b",
-       "text": "Doğru duruş ve tutuş pozisyonu alır."
-      },
-      {
-       "label": "c",
-       "text": "Çalgıya özgü teknikleri kullanır."
-      },
-      {
-       "label": "ç",
-       "text": "Etütleri yapısına uygun olarak non legato çalar."
-      }
-     ]
-    },
-    {
      "code": "NEY.7.1.2",
      "order": 2,
      "text": "Farklı nota sürelerinde yazılmış, etütleri legato çalabilme",
@@ -1835,8 +1812,8 @@
  "unassigned_outcomes": [],
  "report": {
   "units": 31,
-  "outcomes": 53,
-  "components": 164,
+  "outcomes": 52,
+  "components": 160,
   "orphan_outcomes": 0,
   "gaps": []
  }

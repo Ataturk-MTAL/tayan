@@ -5,7 +5,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
 
 from tymm_pdf_sections import parse_units
-from tymm_outcomes import SKILL_PREFIXES, detect_scheme, parse_outcomes
+from tymm_outcomes import SKILL_PREFIXES, build_code, detect_scheme, parse_outcomes
+from tymm_beceri_lines import split_indicator, split_code_line
 
 SAMPLE = """9. SINIF
 1. ÜNİTE: FİZİK BİLİMİ VE KARİYER KEŞFİ
@@ -414,6 +415,83 @@ class RemainingSchemeTest(unittest.TestCase):
         self.assertEqual(len(outcomes), 2)
         self.assertEqual(outcomes[0]["code"], "TKMT3.1")
         self.assertEqual(len(outcomes[0]["components"]), 1)
+
+
+# SDB sayfası İKİ SÜTUNLU: sol hücre süreç bileşeni, sağ hücre gösterge listesi
+# (<ul class="indicator-list">). Düzleştirilince her gösterge satırı üst
+# bileşenin kodunu taşıyor ve 36 bileşen 225 kayıt oluyordu; gösterge kodları
+# (SDB2.1.SB1.G1) tamamen kayboluyordu.
+class IndicatorTest(unittest.TestCase):
+    def test_gosterge_satiri_ayirt_edilir(self):
+        code, text = split_indicator("SDB2.1.SB1.G1. Başkalarından gelen iletileri fark eder.")
+        self.assertEqual(code, "SDB2.1.SB1.G1")
+        self.assertEqual(text, "Başkalarından gelen iletileri fark eder.")
+
+    def test_bilesen_satiri_gosterge_sayilmaz(self):
+        self.assertIsNone(split_indicator("SDB2.1.SB1. Başkalarını etkin şekilde dinlemek")[0])
+
+    def test_gosterge_kodu_bilesen_kodunu_tasir(self):
+        code, _ = split_indicator("SDB1.2.SB3.G2. Örnek gösterge metni.")
+        self.assertTrue(code.startswith("SDB1.2.SB3."))
+
+
+# Akordiyon başlıklarında kod ile ad NOKTA yerine BOŞLUKLA ayrılabiliyor:
+#   <span class="trigger-text">DAB3.1 Dinî Kavramları Ayırt Etme</span>
+# Yalnız "KOD.Ad" bekleyen desen bu düğümleri atlıyordu.
+class CodeLineSeparatorTest(unittest.TestCase):
+    def test_noktali_ayirac(self):
+        self.assertEqual(split_code_line("KB2.8.Sorgulama Becerisi"), ("KB2.8", "Sorgulama Becerisi"))
+
+    def test_bosluklu_ayirac(self):
+        self.assertEqual(split_code_line("DAB3.1 Dinî Kavramları Ayırt Etme"),
+                         ("DAB3.1", "Dinî Kavramları Ayırt Etme"))
+
+    def test_nokta_bosluk_birlikte(self):
+        self.assertEqual(split_code_line("OB1. Bilgi Okuryazarlığı"), ("OB1", "Bilgi Okuryazarlığı"))
+
+    def test_kod_olmayan_satir_none(self):
+        self.assertIsNone(split_code_line("Süreç bileşenleri"))
+
+
+# pdftotext bir satırı kırptığında ön ekin KUYRUĞU ayrı bir ön ek gibi görünür:
+# "İTA.8.1.1." 20 kez geçerken kırpılmış tek bir "TA.8.1.1." aileye üye oluyor.
+# sorted(prefixes)[0] ile dersin prefix alanı "TA" olup doğrulayıcının
+# own_prefix süzgecini bozuyor ve sahte "çözülemeyen kod" üretiyordu.
+GHOST_PREFIX = """İTA.8.1.1. Birinci çıktı
+   a) Bileşen.
+İTA.8.1.2. İkinci çıktı
+   a) Bileşen.
+İTA.8.1.3. Üçüncü çıktı
+   a) Bileşen.
+İTA.8.2.1. Dördüncü çıktı
+   a) Bileşen.
+İTA.8.2.2. Beşinci çıktı
+   a) Bileşen.
+İTA.8.2.3. Altıncı çıktı
+   a) Bileşen.
+TA.8.1.1. Kırpılmış satır artefaktı
+"""
+
+
+class GhostPrefixTest(unittest.TestCase):
+    def test_kirpilmis_on_ek_elenir(self):
+        prefixes, _ = detect_scheme(GHOST_PREFIX)
+        self.assertIn("İTA", prefixes)
+        self.assertNotIn("TA", prefixes)
+
+    def test_gercek_kardes_on_ekler_korunur(self):
+        # DYS.DO ve T.O gercek kardeslerdir; biri otekinin son eki DEGILDIR.
+        text = """T.O.5.1. Birinci
+   a) Bir.
+T.O.5.2. İkinci
+   a) İki.
+T.D.5.1. Üçüncü
+   a) Üç.
+T.D.5.2. Dördüncü
+   a) Dört.
+"""
+        prefixes, _ = detect_scheme(text)
+        self.assertEqual(set(prefixes), {"T.O", "T.D"})
 
 
 if __name__ == "__main__":

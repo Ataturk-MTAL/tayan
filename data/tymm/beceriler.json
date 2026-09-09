@@ -1,18 +1,9 @@
 {
   "report": {
     "sets": 17,
-    "skills": 462,
-    "components": 1512,
+    "skills": 465,
+    "components": 1321,
     "duplicate_codes": [
-      {
-        "set": "DAB",
-        "code": "DAB3",
-        "count": 2,
-        "contexts": [
-          "Tahkik Becerisi",
-          "Tahkik Becerisi"
-        ]
-      },
       {
         "set": "YDDB",
         "code": "YDDB1.1",
@@ -47,7 +38,7 @@
   "source": {
     "name": "Türkiye Yüzyılı Maarif Modeli — Beceri Çerçevesi",
     "base_url": "https://tymm.meb.gov.tr",
-    "fetched_at": "2026-09-08",
+    "fetched_at": "2026-09-09",
     "generator": "scripts/fetch_tymm_beceriler.py"
   },
   "sets": [
@@ -728,79 +719,85 @@
           "components": [
             {
               "code": "SDB1.1.SB1",
-              "text": "Öğreneceği yeni konu/kavram veya bilgiyi nasıl öğrendiğini belirlemek"
-            },
-            {
-              "code": "SDB1.1.SB1",
-              "text": "G1. Öğrenmek istediği yeni konu/kavram veya bilgileri fark eder."
-            },
-            {
-              "code": "SDB1.1.SB1",
-              "text": "G2. Öğreneceği konu/kavram veya bilgilerle ilgili eski öğrendiklerini kontrol eder."
-            },
-            {
-              "code": "SDB1.1.SB1",
-              "text": "G3. Öğreneceği konu/kavram veya bilgilerle ilişkili olmayan bilgileri ayırt eder."
-            },
-            {
-              "code": "SDB1.1.SB1",
-              "text": "G4. Öğreneceği konu/kavram veya bilgileri sahip olduğu önceki bilgilerle ilişkilendirir."
-            },
-            {
-              "code": "SDB1.1.SB1",
-              "text": "G5. Öğreneceği konu veya kavramlara ilişkin kendisine en uygun düşünme ve öğrenme stratejisi seçer."
-            },
-            {
-              "code": "SDB1.1.SB1",
-              "text": "G6. Öğrenme sürecinde kendi potansiyeline güvenir."
-            },
-            {
-              "code": "SDB1.1.SB2",
-              "text": "Olaylar/durumlar karşısında hangi duyguları yaşadığını fark etmek"
-            },
-            {
-              "code": "SDB1.1.SB2",
-              "text": "G1. Olaylar/durumlar karşısında farklı duygular hissedebileceğinin farkına varır."
+              "text": "Öğreneceği yeni konu/kavram veya bilgiyi nasıl öğrendiğini belirlemek",
+              "indicators": [
+                {
+                  "code": "SDB1.1.SB1.G1",
+                  "text": "Öğrenmek istediği yeni konu/kavram veya bilgileri fark eder."
+                },
+                {
+                  "code": "SDB1.1.SB1.G2",
+                  "text": "Öğreneceği konu/kavram veya bilgilerle ilgili eski öğrendiklerini kontrol eder."
+                },
+                {
+                  "code": "SDB1.1.SB1.G3",
+                  "text": "Öğreneceği konu/kavram veya bilgilerle ilişkili olmayan bilgileri ayırt eder."
+                },
+                {
+                  "code": "SDB1.1.SB1.G4",
+                  "text": "Öğreneceği konu/kavram veya bilgileri sahip olduğu önceki bilgilerle ilişkilendirir."
+                },
+                {
+                  "code": "SDB1.1.SB1.G5",
+                  "text": "Öğreneceği konu veya kavramlara ilişkin kendisine en uygun düşünme ve öğrenme stratejisi seçer."
+                },
+                {
+                  "code": "SDB1.1.SB1.G6",
+                  "text": "Öğrenme sürecinde kendi potansiyeline güvenir."
+                }
+              ]
             },
             {
               "code": "SDB1.1.SB2",
-              "text": "G2. Olaylar/durumlar karşısında duygularını ayırt eder."
-            },
-            {
-              "code": "SDB1.1.SB2",
-              "text": "G3. Olaylar/durumlar karşısında hissettiği duyguları tanımlar."
-            },
-            {
-              "code": "SDB1.1.SB2",
-              "text": "G4. Olaylar/durumlar karşısında hissettiği duyguları ifade eder."
-            },
-            {
-              "code": "SDB1.1.SB2",
-              "text": "G5. Duygularının davranışlarını nasıl etkilediğini fark eder."
-            },
-            {
-              "code": "SDB1.1.SB3",
-              "text": "Kendi duygularına ilişkin farkındalığını artırmaya yönelik çalışmalar yapmak"
-            },
-            {
-              "code": "SDB1.1.SB3",
-              "text": "G1. Olaylar/durumlar karşısında gösterdiği duygusal tepkilerin nedenlerini araştırır."
-            },
-            {
-              "code": "SDB1.1.SB3",
-              "text": "G2. Olay veya durumlar karşısında hissettiği duygulara önem verir."
-            },
-            {
-              "code": "SDB1.1.SB3",
-              "text": "G3. İyi hissettiren duyguları bilir."
+              "text": "Olaylar/durumlar karşısında hangi duyguları yaşadığını fark etmek",
+              "indicators": [
+                {
+                  "code": "SDB1.1.SB2.G1",
+                  "text": "Olaylar/durumlar karşısında farklı duygular hissedebileceğinin farkına varır."
+                },
+                {
+                  "code": "SDB1.1.SB2.G2",
+                  "text": "Olaylar/durumlar karşısında duygularını ayırt eder."
+                },
+                {
+                  "code": "SDB1.1.SB2.G3",
+                  "text": "Olaylar/durumlar karşısında hissettiği duyguları tanımlar."
+                },
+                {
+                  "code": "SDB1.1.SB2.G4",
+                  "text": "Olaylar/durumlar karşısında hissettiği duyguları ifade eder."
+                },
+                {
+                  "code": "SDB1.1.SB2.G5",
+                  "text": "Duygularının davranışlarını nasıl etkilediğini fark eder."
+                }
+              ]
             },
             {
               "code": "SDB1.1.SB3",
-              "text": "G4. Kötü hissettiren duyguları bilir."
-            },
-            {
-              "code": "SDB1.1.SB3",
-              "text": "G5. Genel iyi olma hâlini destekleyecek olumlu duygular geliştirir."
+              "text": "Kendi duygularına ilişkin farkındalığını artırmaya yönelik çalışmalar yapmak",
+              "indicators": [
+                {
+                  "code": "SDB1.1.SB3.G1",
+                  "text": "Olaylar/durumlar karşısında gösterdiği duygusal tepkilerin nedenlerini araştırır."
+                },
+                {
+                  "code": "SDB1.1.SB3.G2",
+                  "text": "Olay veya durumlar karşısında hissettiği duygulara önem verir."
+                },
+                {
+                  "code": "SDB1.1.SB3.G3",
+                  "text": "İyi hissettiren duyguları bilir."
+                },
+                {
+                  "code": "SDB1.1.SB3.G4",
+                  "text": "Kötü hissettiren duyguları bilir."
+                },
+                {
+                  "code": "SDB1.1.SB3.G5",
+                  "text": "Genel iyi olma hâlini destekleyecek olumlu duygular geliştirir."
+                }
+              ]
             }
           ]
         },
@@ -813,155 +810,165 @@
           "components": [
             {
               "code": "SDB1.2.SB1",
-              "text": "İhtiyaçlarını karşılamaya yönelik hedef belirlemek"
-            },
-            {
-              "code": "SDB1.2.SB1",
-              "text": "G1. İhtiyaçlarının olduğunu fark eder."
-            },
-            {
-              "code": "SDB1.2.SB1",
-              "text": "G2. İhtiyaçlarını tanımlar."
-            },
-            {
-              "code": "SDB1.2.SB1",
-              "text": "G3. İhtiyaçlarına yönelik hedeflerini tanımlar."
-            },
-            {
-              "code": "SDB1.2.SB1",
-              "text": "G4. Hedeflerine ulaşmayı etkileyen çevresel etmenleri belirler."
-            },
-            {
-              "code": "SDB1.2.SB1",
-              "text": "G5. Hedeflerine uygun planlama yapar."
-            },
-            {
-              "code": "SDB1.2.SB1",
-              "text": "G6. Hedeflerini planlarken esnek davranır."
-            },
-            {
-              "code": "SDB1.2.SB2",
-              "text": "Motivasyonunu ayarlamak"
-            },
-            {
-              "code": "SDB1.2.SB2",
-              "text": "G1. Hedeflerini gerçekleştirmek için motivasyonun gerekli bir içsel güç olduğunu anlar."
+              "text": "İhtiyaçlarını karşılamaya yönelik hedef belirlemek",
+              "indicators": [
+                {
+                  "code": "SDB1.2.SB1.G1",
+                  "text": "İhtiyaçlarının olduğunu fark eder."
+                },
+                {
+                  "code": "SDB1.2.SB1.G2",
+                  "text": "İhtiyaçlarını tanımlar."
+                },
+                {
+                  "code": "SDB1.2.SB1.G3",
+                  "text": "İhtiyaçlarına yönelik hedeflerini tanımlar."
+                },
+                {
+                  "code": "SDB1.2.SB1.G4",
+                  "text": "Hedeflerine ulaşmayı etkileyen çevresel etmenleri belirler."
+                },
+                {
+                  "code": "SDB1.2.SB1.G5",
+                  "text": "Hedeflerine uygun planlama yapar."
+                },
+                {
+                  "code": "SDB1.2.SB1.G6",
+                  "text": "Hedeflerini planlarken esnek davranır."
+                }
+              ]
             },
             {
               "code": "SDB1.2.SB2",
-              "text": "G2. Motivasyon kaynaklarını tanımlar."
-            },
-            {
-              "code": "SDB1.2.SB2",
-              "text": "G3. İçsel ve dışsal motivasyon kaynaklarını ayırt eder."
-            },
-            {
-              "code": "SDB1.2.SB2",
-              "text": "G4. Bir eyleme başlamadan önce dikkatini etkileyebilecek etkenleri belirler."
-            },
-            {
-              "code": "SDB1.2.SB2",
-              "text": "G5. Bir eylemi gerçekleştirirken dikkatini olumsuz etkileyen faktörleri kontrol eder."
-            },
-            {
-              "code": "SDB1.2.SB2",
-              "text": "G6. Hedefleriyle ilgili çalışmalar yapmak için gerekli araç gereci temin eder."
-            },
-            {
-              "code": "SDB1.2.SB2",
-              "text": "G7. Hedefleriyle ilgili çalışmalar yapmak için gereken düzeyde risk alır."
-            },
-            {
-              "code": "SDB1.2.SB2",
-              "text": "G8. Hedefe ulaşma sürecinde başarı sağladığı durumlarda kendisini ödüllendirir."
+              "text": "Motivasyonunu ayarlamak",
+              "indicators": [
+                {
+                  "code": "SDB1.2.SB2.G1",
+                  "text": "Hedeflerini gerçekleştirmek için motivasyonun gerekli bir içsel güç olduğunu anlar."
+                },
+                {
+                  "code": "SDB1.2.SB2.G2",
+                  "text": "Motivasyon kaynaklarını tanımlar."
+                },
+                {
+                  "code": "SDB1.2.SB2.G3",
+                  "text": "İçsel ve dışsal motivasyon kaynaklarını ayırt eder."
+                },
+                {
+                  "code": "SDB1.2.SB2.G4",
+                  "text": "Bir eyleme başlamadan önce dikkatini etkileyebilecek etkenleri belirler."
+                },
+                {
+                  "code": "SDB1.2.SB2.G5",
+                  "text": "Bir eylemi gerçekleştirirken dikkatini olumsuz etkileyen faktörleri kontrol eder."
+                },
+                {
+                  "code": "SDB1.2.SB2.G6",
+                  "text": "Hedefleriyle ilgili çalışmalar yapmak için gerekli araç gereci temin eder."
+                },
+                {
+                  "code": "SDB1.2.SB2.G7",
+                  "text": "Hedefleriyle ilgili çalışmalar yapmak için gereken düzeyde risk alır."
+                },
+                {
+                  "code": "SDB1.2.SB2.G8",
+                  "text": "Hedefe ulaşma sürecinde başarı sağladığı durumlarda kendisini ödüllendirir."
+                }
+              ]
             },
             {
               "code": "SDB1.2.SB3",
-              "text": "Bir hedefi gerçekleştirebilmek için kendi duygu, düşünce ve davranışlarını izlemek ve yönetmek"
-            },
-            {
-              "code": "SDB1.2.SB3",
-              "text": "G1. Bir hedef için eylemde bulunurken gerektiğinde mevcut duygu, düşünce ve davranışları üzerinde uyarlamalar yapar."
-            },
-            {
-              "code": "SDB1.2.SB3",
-              "text": "G2. Hedefe yönelik olarak yapması gereken iş veya eylemleri ertelemekten kaçınır."
-            },
-            {
-              "code": "SDB1.2.SB3",
-              "text": "G3. Hedefleriyle ilgili iş veya eylemleri pratikte uygular."
-            },
-            {
-              "code": "SDB1.2.SB3",
-              "text": "G4. İş veya eylemleri gerçekleştirirken olumlu bakış açısını korur."
-            },
-            {
-              "code": "SDB1.2.SB3",
-              "text": "G5. Hedefleriyle ilgili ortaya çıkan fırsatları değerlendirir."
-            },
-            {
-              "code": "SDB1.2.SB3",
-              "text": "G6. Hedefe yönelik ve olumlu sonuçlar doğuran duygu, düşünce ve davranışları tekrar eder."
-            },
-            {
-              "code": "SDB1.2.SB3",
-              "text": "G7. Hedefe yönelik olmayan ve olumsuz sonuçlar doğuran duygu, düşünce ve davranışları terk eder."
-            },
-            {
-              "code": "SDB1.2.SB4",
-              "text": "Bir hedefi gerçekleştirebilme sürecinde kendini değerlendirmek"
-            },
-            {
-              "code": "SDB1.2.SB4",
-              "text": "G1. Davranışlarının olası doğrudan sonuçlarını fark eder."
+              "text": "Bir hedefi gerçekleştirebilmek için kendi duygu, düşünce ve davranışlarını izlemek ve yönetmek",
+              "indicators": [
+                {
+                  "code": "SDB1.2.SB3.G1",
+                  "text": "Bir hedef için eylemde bulunurken gerektiğinde mevcut duygu, düşünce ve davranışları üzerinde uyarlamalar yapar."
+                },
+                {
+                  "code": "SDB1.2.SB3.G2",
+                  "text": "Hedefe yönelik olarak yapması gereken iş veya eylemleri ertelemekten kaçınır."
+                },
+                {
+                  "code": "SDB1.2.SB3.G3",
+                  "text": "Hedefleriyle ilgili iş veya eylemleri pratikte uygular."
+                },
+                {
+                  "code": "SDB1.2.SB3.G4",
+                  "text": "İş veya eylemleri gerçekleştirirken olumlu bakış açısını korur."
+                },
+                {
+                  "code": "SDB1.2.SB3.G5",
+                  "text": "Hedefleriyle ilgili ortaya çıkan fırsatları değerlendirir."
+                },
+                {
+                  "code": "SDB1.2.SB3.G6",
+                  "text": "Hedefe yönelik ve olumlu sonuçlar doğuran duygu, düşünce ve davranışları tekrar eder."
+                },
+                {
+                  "code": "SDB1.2.SB3.G7",
+                  "text": "Hedefe yönelik olmayan ve olumsuz sonuçlar doğuran duygu, düşünce ve davranışları terk eder."
+                }
+              ]
             },
             {
               "code": "SDB1.2.SB4",
-              "text": "G2. Davranışlarının olası dolaylı sonuçlarını fark eder."
-            },
-            {
-              "code": "SDB1.2.SB4",
-              "text": "G3. Olası sonuçları düşünerek davranışlarını uyarlar."
-            },
-            {
-              "code": "SDB1.2.SB4",
-              "text": "G4. Uyarladığı eylemlerinin sonuçlarını değerlendirir."
-            },
-            {
-              "code": "SDB1.2.SB4",
-              "text": "G5. Hedefe yönelik olmayan davranışlarını ayırt eder."
-            },
-            {
-              "code": "SDB1.2.SB4",
-              "text": "G6. Hedefe ulaşma sürecinde problem yaşanması durumunda hedefe yönelik alternatif davranışlar belirler."
-            },
-            {
-              "code": "SDB1.2.SB4",
-              "text": "G7. Belirlediği alternatif davranışların sonuçlarını değerlendirir."
-            },
-            {
-              "code": "SDB1.2.SB4",
-              "text": "G8. Hedefe yönelik duygu, düşünce ve davranışları sonucunda elde ettiği olumlu-olumsuz çıktıları ayırt eder."
+              "text": "Bir hedefi gerçekleştirebilme sürecinde kendini değerlendirmek",
+              "indicators": [
+                {
+                  "code": "SDB1.2.SB4.G1",
+                  "text": "Davranışlarının olası doğrudan sonuçlarını fark eder."
+                },
+                {
+                  "code": "SDB1.2.SB4.G2",
+                  "text": "Davranışlarının olası dolaylı sonuçlarını fark eder."
+                },
+                {
+                  "code": "SDB1.2.SB4.G3",
+                  "text": "Olası sonuçları düşünerek davranışlarını uyarlar."
+                },
+                {
+                  "code": "SDB1.2.SB4.G4",
+                  "text": "Uyarladığı eylemlerinin sonuçlarını değerlendirir."
+                },
+                {
+                  "code": "SDB1.2.SB4.G5",
+                  "text": "Hedefe yönelik olmayan davranışlarını ayırt eder."
+                },
+                {
+                  "code": "SDB1.2.SB4.G6",
+                  "text": "Hedefe ulaşma sürecinde problem yaşanması durumunda hedefe yönelik alternatif davranışlar belirler."
+                },
+                {
+                  "code": "SDB1.2.SB4.G7",
+                  "text": "Belirlediği alternatif davranışların sonuçlarını değerlendirir."
+                },
+                {
+                  "code": "SDB1.2.SB4.G8",
+                  "text": "Hedefe yönelik duygu, düşünce ve davranışları sonucunda elde ettiği olumlu-olumsuz çıktıları ayırt eder."
+                }
+              ]
             },
             {
               "code": "SDB1.2.SB5",
-              "text": "Kendi öğrenme durumunu geliştirmeye yönelik çalışmalar yapmak"
-            },
-            {
-              "code": "SDB1.2.SB5",
-              "text": "G1. Konu/kavram veya bilgileri öğrenmek için seçtiği öğrenme stratejisi üzerinden pratik yapar."
-            },
-            {
-              "code": "SDB1.2.SB5",
-              "text": "G2. Seçtiği strateji/yöntem veya teknikleri kullanırken güçlük çektiği noktaları ortadan kaldırmak için çözüm önerileri geliştirir."
-            },
-            {
-              "code": "SDB1.2.SB5",
-              "text": "G3. Seçtiği strateji/yöntem veya teknikleri kullanırken esnek olur."
-            },
-            {
-              "code": "SDB1.2.SB5",
-              "text": "G4. Seçtiği strateji/yöntem veya teknikleri kullanırken faydalı olmayanları kullanmaktan vazgeçer."
+              "text": "Kendi öğrenme durumunu geliştirmeye yönelik çalışmalar yapmak",
+              "indicators": [
+                {
+                  "code": "SDB1.2.SB5.G1",
+                  "text": "Konu/kavram veya bilgileri öğrenmek için seçtiği öğrenme stratejisi üzerinden pratik yapar."
+                },
+                {
+                  "code": "SDB1.2.SB5.G2",
+                  "text": "Seçtiği strateji/yöntem veya teknikleri kullanırken güçlük çektiği noktaları ortadan kaldırmak için çözüm önerileri geliştirir."
+                },
+                {
+                  "code": "SDB1.2.SB5.G3",
+                  "text": "Seçtiği strateji/yöntem veya teknikleri kullanırken esnek olur."
+                },
+                {
+                  "code": "SDB1.2.SB5.G4",
+                  "text": "Seçtiği strateji/yöntem veya teknikleri kullanırken faydalı olmayanları kullanmaktan vazgeçer."
+                }
+              ]
             }
           ]
         },
@@ -974,35 +981,39 @@
           "components": [
             {
               "code": "SDB1.3.SB1",
-              "text": "Kendini değerlendirmek"
-            },
-            {
-              "code": "SDB1.3.SB1",
-              "text": "G1. Mevcut duygu, düşünce ve davranışlarını inceler."
-            },
-            {
-              "code": "SDB1.3.SB1",
-              "text": "G2. Mevcut duygu, düşünce ve davranışlarını değerlendirir."
-            },
-            {
-              "code": "SDB1.3.SB1",
-              "text": "G3. Mevcut duygu, düşünce ve davranışlarını ortaya çıkaran faktörleri tanımlar."
-            },
-            {
-              "code": "SDB1.3.SB2",
-              "text": "Duygu/düşünce/davranışlarını dönüştürmek"
-            },
-            {
-              "code": "SDB1.3.SB2",
-              "text": "G1. Mevcut duygu, düşünce ve davranışlarına yönelik yaptığı değerlendirmeler sonucunda yaşadığı duygulanımı fark eder."
+              "text": "Kendini değerlendirmek",
+              "indicators": [
+                {
+                  "code": "SDB1.3.SB1.G1",
+                  "text": "Mevcut duygu, düşünce ve davranışlarını inceler."
+                },
+                {
+                  "code": "SDB1.3.SB1.G2",
+                  "text": "Mevcut duygu, düşünce ve davranışlarını değerlendirir."
+                },
+                {
+                  "code": "SDB1.3.SB1.G3",
+                  "text": "Mevcut duygu, düşünce ve davranışlarını ortaya çıkaran faktörleri tanımlar."
+                }
+              ]
             },
             {
               "code": "SDB1.3.SB2",
-              "text": "G2. Mevcut duygu, düşünce ve davranışlarına yönelik yaptığı değerlendirmelerden doyum sağlar."
-            },
-            {
-              "code": "SDB1.3.SB2",
-              "text": "G3. Mevcut duygu, düşünce ve davranışlarına yönelik yaptığı değerlendirmeleri yeni olay ve durumlara uyum sağlama sürecinde kullanır."
+              "text": "Duygu/düşünce/davranışlarını dönüştürmek",
+              "indicators": [
+                {
+                  "code": "SDB1.3.SB2.G1",
+                  "text": "Mevcut duygu, düşünce ve davranışlarına yönelik yaptığı değerlendirmeler sonucunda yaşadığı duygulanımı fark eder."
+                },
+                {
+                  "code": "SDB1.3.SB2.G2",
+                  "text": "Mevcut duygu, düşünce ve davranışlarına yönelik yaptığı değerlendirmelerden doyum sağlar."
+                },
+                {
+                  "code": "SDB1.3.SB2.G3",
+                  "text": "Mevcut duygu, düşünce ve davranışlarına yönelik yaptığı değerlendirmeleri yeni olay ve durumlara uyum sağlama sürecinde kullanır."
+                }
+              ]
             }
           ]
         },
@@ -1023,151 +1034,161 @@
           "components": [
             {
               "code": "SDB2.1.SB1",
-              "text": "Başkalarını etkin şekilde dinlemek"
-            },
-            {
-              "code": "SDB2.1.SB1",
-              "text": "G1. Başkalarından gelen iletileri fark eder."
-            },
-            {
-              "code": "SDB2.1.SB1",
-              "text": "G2. Farklı kanallardan gelen iletileri bağlam etrafında birleştirir."
-            },
-            {
-              "code": "SDB2.1.SB1",
-              "text": "G3. Başkalarının anlattıklarını dinlemek için onlara zaman ayırır."
-            },
-            {
-              "code": "SDB2.1.SB1",
-              "text": "G4. Başkalarını dinlerken ne karşılık vereceğini düşünmekten çok ne söylediklerini anlamaya çalışır."
-            },
-            {
-              "code": "SDB2.1.SB1",
-              "text": "G5. Başkaları konuşurken cevap vermeden önce onların sözlerini bitirmelerini bekler."
-            },
-            {
-              "code": "SDB2.1.SB1",
-              "text": "G6. Etkin dinlemenin iletişime katkısını değerlendirir."
-            },
-            {
-              "code": "SDB2.1.SB2",
-              "text": "Duygu ve düşüncelerini ifade etmek"
-            },
-            {
-              "code": "SDB2.1.SB2",
-              "text": "G1. Duygu ve düşüncelerini fark eder."
+              "text": "Başkalarını etkin şekilde dinlemek",
+              "indicators": [
+                {
+                  "code": "SDB2.1.SB1.G1",
+                  "text": "Başkalarından gelen iletileri fark eder."
+                },
+                {
+                  "code": "SDB2.1.SB1.G2",
+                  "text": "Farklı kanallardan gelen iletileri bağlam etrafında birleştirir."
+                },
+                {
+                  "code": "SDB2.1.SB1.G3",
+                  "text": "Başkalarının anlattıklarını dinlemek için onlara zaman ayırır."
+                },
+                {
+                  "code": "SDB2.1.SB1.G4",
+                  "text": "Başkalarını dinlerken ne karşılık vereceğini düşünmekten çok ne söylediklerini anlamaya çalışır."
+                },
+                {
+                  "code": "SDB2.1.SB1.G5",
+                  "text": "Başkaları konuşurken cevap vermeden önce onların sözlerini bitirmelerini bekler."
+                },
+                {
+                  "code": "SDB2.1.SB1.G6",
+                  "text": "Etkin dinlemenin iletişime katkısını değerlendirir."
+                }
+              ]
             },
             {
               "code": "SDB2.1.SB2",
-              "text": "G2. Duygu ve düşüncelerini sınıflandırır."
-            },
-            {
-              "code": "SDB2.1.SB2",
-              "text": "G3. Duygu ve düşüncelerini ifade etmek için uygun zaman ve ortamı belirler."
-            },
-            {
-              "code": "SDB2.1.SB2",
-              "text": "G4. Duygu ve düşüncelerini bağlama uygun şekilde açıklar."
-            },
-            {
-              "code": "SDB2.1.SB2",
-              "text": "G5. Duygu ve düşüncelerini beden dili ile uyumlu olarak açıklar."
-            },
-            {
-              "code": "SDB2.1.SB2",
-              "text": "G6. Duygu ve düşünce ifadelerinin iletişime katkısını değerlendirir."
-            },
-            {
-              "code": "SDB2.1.SB3",
-              "text": "Sözlü ya da sözsüz olarak etkileşim sağlamak"
-            },
-            {
-              "code": "SDB2.1.SB3",
-              "text": "G1. Sözlü etkileşimin gücünü ve önemini fark eder."
-            },
-            {
-              "code": "SDB2.1.SB3",
-              "text": "G2. Sözsüz etkileşimin gücünü ve önemini fark eder."
-            },
-            {
-              "code": "SDB2.1.SB3",
-              "text": "G3. Sözlü ve sözsüz etkileşim için iletişim kanalları belirler."
+              "text": "Duygu ve düşüncelerini ifade etmek",
+              "indicators": [
+                {
+                  "code": "SDB2.1.SB2.G1",
+                  "text": "Duygu ve düşüncelerini fark eder."
+                },
+                {
+                  "code": "SDB2.1.SB2.G2",
+                  "text": "Duygu ve düşüncelerini sınıflandırır."
+                },
+                {
+                  "code": "SDB2.1.SB2.G3",
+                  "text": "Duygu ve düşüncelerini ifade etmek için uygun zaman ve ortamı belirler."
+                },
+                {
+                  "code": "SDB2.1.SB2.G4",
+                  "text": "Duygu ve düşüncelerini bağlama uygun şekilde açıklar."
+                },
+                {
+                  "code": "SDB2.1.SB2.G5",
+                  "text": "Duygu ve düşüncelerini beden dili ile uyumlu olarak açıklar."
+                },
+                {
+                  "code": "SDB2.1.SB2.G6",
+                  "text": "Duygu ve düşünce ifadelerinin iletişime katkısını değerlendirir."
+                }
+              ]
             },
             {
               "code": "SDB2.1.SB3",
-              "text": "G4. Sözlü mesajlar alıp verir."
-            },
-            {
-              "code": "SDB2.1.SB3",
-              "text": "G5. Sözsüz mesajlar (duraksama, ses tonundaki duygusal ton, yüz ifadeleri, beden dili, beden yönelimi, seçilen kıyafetler, esnemek vb.) alıp verir."
-            },
-            {
-              "code": "SDB2.1.SB3",
-              "text": "G6. Ortak bağlamlar oluşturarak başkalarıyla iletişim başlatır."
-            },
-            {
-              "code": "SDB2.1.SB3",
-              "text": "G7. İletişim kurulan kişi ya da kişilerle arasındaki fiziksel mesafeyi ayarlar."
-            },
-            {
-              "code": "SDB2.1.SB3",
-              "text": "G8. Anlaşılmayan konuları açığa çıkarmak için etkili sorular sorar."
-            },
-            {
-              "code": "SDB2.1.SB3",
-              "text": "G9. Sağlanan etkileşimin iletişime katkısını değerlendirir."
+              "text": "Sözlü ya da sözsüz olarak etkileşim sağlamak",
+              "indicators": [
+                {
+                  "code": "SDB2.1.SB3.G1",
+                  "text": "Sözlü etkileşimin gücünü ve önemini fark eder."
+                },
+                {
+                  "code": "SDB2.1.SB3.G2",
+                  "text": "Sözsüz etkileşimin gücünü ve önemini fark eder."
+                },
+                {
+                  "code": "SDB2.1.SB3.G3",
+                  "text": "Sözlü ve sözsüz etkileşim için iletişim kanalları belirler."
+                },
+                {
+                  "code": "SDB2.1.SB3.G4",
+                  "text": "Sözlü mesajlar alıp verir."
+                },
+                {
+                  "code": "SDB2.1.SB3.G5",
+                  "text": "Sözsüz mesajlar (duraksama, ses tonundaki duygusal ton, yüz ifadeleri, beden dili, beden yönelimi, seçilen kıyafetler, esnemek vb.) alıp verir."
+                },
+                {
+                  "code": "SDB2.1.SB3.G6",
+                  "text": "Ortak bağlamlar oluşturarak başkalarıyla iletişim başlatır."
+                },
+                {
+                  "code": "SDB2.1.SB3.G7",
+                  "text": "İletişim kurulan kişi ya da kişilerle arasındaki fiziksel mesafeyi ayarlar."
+                },
+                {
+                  "code": "SDB2.1.SB3.G8",
+                  "text": "Anlaşılmayan konuları açığa çıkarmak için etkili sorular sorar."
+                },
+                {
+                  "code": "SDB2.1.SB3.G9",
+                  "text": "Sağlanan etkileşimin iletişime katkısını değerlendirir."
+                }
+              ]
             },
             {
               "code": "SDB2.1.SB4",
-              "text": "Grup iletişimine katılmak"
-            },
-            {
-              "code": "SDB2.1.SB4",
-              "text": "G1. Ortaklıklar çerçevesinde oluşan gruplara katılır."
-            },
-            {
-              "code": "SDB2.1.SB4",
-              "text": "G2. Grubun diğer üyeleriyle etkileşim sağlar."
-            },
-            {
-              "code": "SDB2.1.SB4",
-              "text": "G3. Grup üyelerinin duygu ve düşünceleri ile ilgilenir."
-            },
-            {
-              "code": "SDB2.1.SB4",
-              "text": "G4. Ortak faydaya yönelen grup içi iletişime katkıda bulunur."
-            },
-            {
-              "code": "SDB2.1.SB4",
-              "text": "G5. Konuşurken bağlama uygun, kısa, net ve tüm grubu ilgilendiren mesajlar vermeyi tercih eder."
-            },
-            {
-              "code": "SDB2.1.SB4",
-              "text": "G6. Grup iletişiminin sosyal ve duygusal kazanımlarını değerlendirir."
+              "text": "Grup iletişimine katılmak",
+              "indicators": [
+                {
+                  "code": "SDB2.1.SB4.G1",
+                  "text": "Ortaklıklar çerçevesinde oluşan gruplara katılır."
+                },
+                {
+                  "code": "SDB2.1.SB4.G2",
+                  "text": "Grubun diğer üyeleriyle etkileşim sağlar."
+                },
+                {
+                  "code": "SDB2.1.SB4.G3",
+                  "text": "Grup üyelerinin duygu ve düşünceleri ile ilgilenir."
+                },
+                {
+                  "code": "SDB2.1.SB4.G4",
+                  "text": "Ortak faydaya yönelen grup içi iletişime katkıda bulunur."
+                },
+                {
+                  "code": "SDB2.1.SB4.G5",
+                  "text": "Konuşurken bağlama uygun, kısa, net ve tüm grubu ilgilendiren mesajlar vermeyi tercih eder."
+                },
+                {
+                  "code": "SDB2.1.SB4.G6",
+                  "text": "Grup iletişiminin sosyal ve duygusal kazanımlarını değerlendirir."
+                }
+              ]
             },
             {
               "code": "SDB2.1.SB5",
-              "text": "İletişiminin önündeki engelleri ortadan kaldırmak"
-            },
-            {
-              "code": "SDB2.1.SB5",
-              "text": "G1. İletişimin önündeki engelleri fark eder."
-            },
-            {
-              "code": "SDB2.1.SB5",
-              "text": "G2. İletişimin önündeki engelleri sınıflandırır."
-            },
-            {
-              "code": "SDB2.1.SB5",
-              "text": "G3. İletişimin önündeki engelleri ortadan kaldırmak için plan yapar."
-            },
-            {
-              "code": "SDB2.1.SB5",
-              "text": "G4. İletişimin önündeki engelleri ortadan kaldırmak için yaptığı planı uygular."
-            },
-            {
-              "code": "SDB2.1.SB5",
-              "text": "G5. İletişimin önündeki engellerin giderilip giderilmediğini denetler."
+              "text": "İletişiminin önündeki engelleri ortadan kaldırmak",
+              "indicators": [
+                {
+                  "code": "SDB2.1.SB5.G1",
+                  "text": "İletişimin önündeki engelleri fark eder."
+                },
+                {
+                  "code": "SDB2.1.SB5.G2",
+                  "text": "İletişimin önündeki engelleri sınıflandırır."
+                },
+                {
+                  "code": "SDB2.1.SB5.G3",
+                  "text": "İletişimin önündeki engelleri ortadan kaldırmak için plan yapar."
+                },
+                {
+                  "code": "SDB2.1.SB5.G4",
+                  "text": "İletişimin önündeki engelleri ortadan kaldırmak için yaptığı planı uygular."
+                },
+                {
+                  "code": "SDB2.1.SB5.G5",
+                  "text": "İletişimin önündeki engellerin giderilip giderilmediğini denetler."
+                }
+              ]
             }
           ]
         },
@@ -1180,143 +1201,153 @@
           "components": [
             {
               "code": "SDB2.2.SB1",
-              "text": "Kişi ve gruplarla iş birliği yapmak"
-            },
-            {
-              "code": "SDB2.2.SB1",
-              "text": "G1. İş birliği yapabileceği kişi ve grupları tespit eder."
-            },
-            {
-              "code": "SDB2.2.SB1",
-              "text": "G2. Yapılacak iş birliği için uygun koşulları belirler."
-            },
-            {
-              "code": "SDB2.2.SB1",
-              "text": "G3. Gerektiğinde kişi ve gruplarla ortaklıklar oluşturur."
-            },
-            {
-              "code": "SDB2.2.SB1",
-              "text": "G4. Sağlanan iş birliğinin çıktılarını değerlendirir."
-            },
-            {
-              "code": "SDB2.2.SB2",
-              "text": "Düşüncelerini başkalarıyla tartışmak/müzakere etmek"
-            },
-            {
-              "code": "SDB2.2.SB2",
-              "text": "G1. Düşüncelerini tartışabileceği ortamları tespit eder."
+              "text": "Kişi ve gruplarla iş birliği yapmak",
+              "indicators": [
+                {
+                  "code": "SDB2.2.SB1.G1",
+                  "text": "İş birliği yapabileceği kişi ve grupları tespit eder."
+                },
+                {
+                  "code": "SDB2.2.SB1.G2",
+                  "text": "Yapılacak iş birliği için uygun koşulları belirler."
+                },
+                {
+                  "code": "SDB2.2.SB1.G3",
+                  "text": "Gerektiğinde kişi ve gruplarla ortaklıklar oluşturur."
+                },
+                {
+                  "code": "SDB2.2.SB1.G4",
+                  "text": "Sağlanan iş birliğinin çıktılarını değerlendirir."
+                }
+              ]
             },
             {
               "code": "SDB2.2.SB2",
-              "text": "G2. Uygun koşullar altında düşüncelerini başkalarıyla tartışır."
-            },
-            {
-              "code": "SDB2.2.SB2",
-              "text": "G3. Tartışmaların kendi duygu, düşünce ve davranışlarına etkisini değerlendirir."
-            },
-            {
-              "code": "SDB2.2.SB2",
-              "text": "G4. Tartışmaların başkalarına olan katkısını değerlendirir."
-            },
-            {
-              "code": "SDB2.2.SB3",
-              "text": "Farklı düşünceler üzerinde uzlaşma sağlayıp ortaklıklar kurmak"
-            },
-            {
-              "code": "SDB2.2.SB3",
-              "text": "G1. Başkalarının kendisinden farklı düşündüğünü fark eder."
-            },
-            {
-              "code": "SDB2.2.SB3",
-              "text": "G2. Düşünceler arasındaki farklılıkları belirler."
-            },
-            {
-              "code": "SDB2.2.SB3",
-              "text": "G3. Düşünceler arasındaki ortaklıkları/uyuşmaları belirler."
+              "text": "Düşüncelerini başkalarıyla tartışmak/müzakere etmek",
+              "indicators": [
+                {
+                  "code": "SDB2.2.SB2.G1",
+                  "text": "Düşüncelerini tartışabileceği ortamları tespit eder."
+                },
+                {
+                  "code": "SDB2.2.SB2.G2",
+                  "text": "Uygun koşullar altında düşüncelerini başkalarıyla tartışır."
+                },
+                {
+                  "code": "SDB2.2.SB2.G3",
+                  "text": "Tartışmaların kendi duygu, düşünce ve davranışlarına etkisini değerlendirir."
+                },
+                {
+                  "code": "SDB2.2.SB2.G4",
+                  "text": "Tartışmaların başkalarına olan katkısını değerlendirir."
+                }
+              ]
             },
             {
               "code": "SDB2.2.SB3",
-              "text": "G4. Alternatif fikirler ortaya koyar."
-            },
-            {
-              "code": "SDB2.2.SB3",
-              "text": "G5. Farklı düşünceler üzerinde uzlaşmak için çözüm arar."
-            },
-            {
-              "code": "SDB2.2.SB3",
-              "text": "G6. Ortak çalışma sorumluluğu üstlenir."
-            },
-            {
-              "code": "SDB2.2.SB3",
-              "text": "G7. Gerektiğinde kendi görüş ve düşüncelerini farklı görüş ve düşünceleri dikkate alarak uyarlar."
-            },
-            {
-              "code": "SDB2.2.SB3",
-              "text": "G8. Farklı düşünceler üzerindeki bireysel katkılarını değerlendirir."
-            },
-            {
-              "code": "SDB2.2.SB3",
-              "text": "G9. Sağlanan uzlaşma ve kurulan ortaklığın çıktılarını değerlendirir."
+              "text": "Farklı düşünceler üzerinde uzlaşma sağlayıp ortaklıklar kurmak",
+              "indicators": [
+                {
+                  "code": "SDB2.2.SB3.G1",
+                  "text": "Başkalarının kendisinden farklı düşündüğünü fark eder."
+                },
+                {
+                  "code": "SDB2.2.SB3.G2",
+                  "text": "Düşünceler arasındaki farklılıkları belirler."
+                },
+                {
+                  "code": "SDB2.2.SB3.G3",
+                  "text": "Düşünceler arasındaki ortaklıkları/uyuşmaları belirler."
+                },
+                {
+                  "code": "SDB2.2.SB3.G4",
+                  "text": "Alternatif fikirler ortaya koyar."
+                },
+                {
+                  "code": "SDB2.2.SB3.G5",
+                  "text": "Farklı düşünceler üzerinde uzlaşmak için çözüm arar."
+                },
+                {
+                  "code": "SDB2.2.SB3.G6",
+                  "text": "Ortak çalışma sorumluluğu üstlenir."
+                },
+                {
+                  "code": "SDB2.2.SB3.G7",
+                  "text": "Gerektiğinde kendi görüş ve düşüncelerini farklı görüş ve düşünceleri dikkate alarak uyarlar."
+                },
+                {
+                  "code": "SDB2.2.SB3.G8",
+                  "text": "Farklı düşünceler üzerindeki bireysel katkılarını değerlendirir."
+                },
+                {
+                  "code": "SDB2.2.SB3.G9",
+                  "text": "Sağlanan uzlaşma ve kurulan ortaklığın çıktılarını değerlendirir."
+                }
+              ]
             },
             {
               "code": "SDB2.2.SB4",
-              "text": "Ekip (takım) çalışması yapmak ve yardımlaşmak"
-            },
-            {
-              "code": "SDB2.2.SB4",
-              "text": "G1. Yardımlaşma ve takım çalışmasının önemini fark eder."
-            },
-            {
-              "code": "SDB2.2.SB4",
-              "text": "G2. Ortak hedefler doğrultusunda takım oluşturur ya da var olan bir takıma dâhil olur."
-            },
-            {
-              "code": "SDB2.2.SB4",
-              "text": "G3. Diğer üyelerle görev paylaşımı ya da birliği oluşturur."
-            },
-            {
-              "code": "SDB2.2.SB4",
-              "text": "G4. Diğer üyelerle yardımlaşır."
-            },
-            {
-              "code": "SDB2.2.SB4",
-              "text": "G5. Aldığı görevleri yerine getirerek takıma katkı sağlar."
-            },
-            {
-              "code": "SDB2.2.SB4",
-              "text": "G6. Takım ruhunu önemser."
-            },
-            {
-              "code": "SDB2.2.SB4",
-              "text": "G7. Takım üyeleri ile saygı ve güven bağları kurar."
-            },
-            {
-              "code": "SDB2.2.SB4",
-              "text": "G8. Takım çalışmasının kendine ve takımına katkılarını değerlendirir."
+              "text": "Ekip (takım) çalışması yapmak ve yardımlaşmak",
+              "indicators": [
+                {
+                  "code": "SDB2.2.SB4.G1",
+                  "text": "Yardımlaşma ve takım çalışmasının önemini fark eder."
+                },
+                {
+                  "code": "SDB2.2.SB4.G2",
+                  "text": "Ortak hedefler doğrultusunda takım oluşturur ya da var olan bir takıma dâhil olur."
+                },
+                {
+                  "code": "SDB2.2.SB4.G3",
+                  "text": "Diğer üyelerle görev paylaşımı ya da birliği oluşturur."
+                },
+                {
+                  "code": "SDB2.2.SB4.G4",
+                  "text": "Diğer üyelerle yardımlaşır."
+                },
+                {
+                  "code": "SDB2.2.SB4.G5",
+                  "text": "Aldığı görevleri yerine getirerek takıma katkı sağlar."
+                },
+                {
+                  "code": "SDB2.2.SB4.G6",
+                  "text": "Takım ruhunu önemser."
+                },
+                {
+                  "code": "SDB2.2.SB4.G7",
+                  "text": "Takım üyeleri ile saygı ve güven bağları kurar."
+                },
+                {
+                  "code": "SDB2.2.SB4.G8",
+                  "text": "Takım çalışmasının kendine ve takımına katkılarını değerlendirir."
+                }
+              ]
             },
             {
               "code": "SDB2.2.SB5",
-              "text": "Sosyal etkileşimlerle elde edilen çıktıları eyleme dönüştürmek"
-            },
-            {
-              "code": "SDB2.2.SB5",
-              "text": "G1. Sosyal etkileşimlerin taraflar açısından çıktılarını sorgular."
-            },
-            {
-              "code": "SDB2.2.SB5",
-              "text": "G2. Sosyal etkileşimler sonucu elde edilen çıktıları sınıflandırır."
-            },
-            {
-              "code": "SDB2.2.SB5",
-              "text": "G3. Sosyal etkileşim çıktılarının eyleme dönüşmesi için plan yapar."
-            },
-            {
-              "code": "SDB2.2.SB5",
-              "text": "G4. Çıktılara dayalı olarak belirlediği eylem planını uygular."
-            },
-            {
-              "code": "SDB2.2.SB5",
-              "text": "G5. Ortaya çıkan eylemlerin sonuçlarını değerlendirir."
+              "text": "Sosyal etkileşimlerle elde edilen çıktıları eyleme dönüştürmek",
+              "indicators": [
+                {
+                  "code": "SDB2.2.SB5.G1",
+                  "text": "Sosyal etkileşimlerin taraflar açısından çıktılarını sorgular."
+                },
+                {
+                  "code": "SDB2.2.SB5.G2",
+                  "text": "Sosyal etkileşimler sonucu elde edilen çıktıları sınıflandırır."
+                },
+                {
+                  "code": "SDB2.2.SB5.G3",
+                  "text": "Sosyal etkileşim çıktılarının eyleme dönüşmesi için plan yapar."
+                },
+                {
+                  "code": "SDB2.2.SB5.G4",
+                  "text": "Çıktılara dayalı olarak belirlediği eylem planını uygular."
+                },
+                {
+                  "code": "SDB2.2.SB5.G5",
+                  "text": "Ortaya çıkan eylemlerin sonuçlarını değerlendirir."
+                }
+              ]
             }
           ]
         },
@@ -1329,91 +1360,99 @@
           "components": [
             {
               "code": "SDB2.3.SB1",
-              "text": "Sosyal ipuçlarını dikkate almak"
-            },
-            {
-              "code": "SDB2.3.SB1",
-              "text": "G1. Sözel ve sözel olmayan sosyal ipuçlarını fark eder."
-            },
-            {
-              "code": "SDB2.3.SB1",
-              "text": "G2. Sözel ve sözel olmayan sosyal ipuçlarını tanır."
-            },
-            {
-              "code": "SDB2.3.SB1",
-              "text": "G3. Sözel ve sözel olmayan sosyal ipuçlarından faydalanarak başkalarının davranışlarını çözümler."
-            },
-            {
-              "code": "SDB2.3.SB1",
-              "text": "G4. Sözel ve sözel olmayan sosyal ipuçlarından faydalanarak kendi davranışlarının başkaları üzerindeki etkisini fark eder."
-            },
-            {
-              "code": "SDB2.3.SB2",
-              "text": "Başkalarının duygularını, düşüncelerini ve bakış açılarını anlamak"
-            },
-            {
-              "code": "SDB2.3.SB2",
-              "text": "G1. Başkalarının mevcut bir durum hakkında farklı düşünebileceğini ve hissedebileceğini fark eder."
+              "text": "Sosyal ipuçlarını dikkate almak",
+              "indicators": [
+                {
+                  "code": "SDB2.3.SB1.G1",
+                  "text": "Sözel ve sözel olmayan sosyal ipuçlarını fark eder."
+                },
+                {
+                  "code": "SDB2.3.SB1.G2",
+                  "text": "Sözel ve sözel olmayan sosyal ipuçlarını tanır."
+                },
+                {
+                  "code": "SDB2.3.SB1.G3",
+                  "text": "Sözel ve sözel olmayan sosyal ipuçlarından faydalanarak başkalarının davranışlarını çözümler."
+                },
+                {
+                  "code": "SDB2.3.SB1.G4",
+                  "text": "Sözel ve sözel olmayan sosyal ipuçlarından faydalanarak kendi davranışlarının başkaları üzerindeki etkisini fark eder."
+                }
+              ]
             },
             {
               "code": "SDB2.3.SB2",
-              "text": "G2. Farklı bakış açılarına sahip kişileri dikkatle dinler."
-            },
-            {
-              "code": "SDB2.3.SB2",
-              "text": "G3. Başkalarının duygularını, bakış açılarını ve görüşlerini anlamayı önemser."
-            },
-            {
-              "code": "SDB2.3.SB2",
-              "text": "G4. Başkalarıyla aynı fikirde olmadığını yapıcı olarak ifade eder."
-            },
-            {
-              "code": "SDB2.3.SB3",
-              "text": "Başkalarına karşı anlayış geliştirerek saygı göstermek"
-            },
-            {
-              "code": "SDB2.3.SB3",
-              "text": "G1. Kendisi ve başkaları arasındaki ortak yönleri belirler."
-            },
-            {
-              "code": "SDB2.3.SB3",
-              "text": "G2. Kendisi ve başkaları arasındaki farklılıkları tespit eder."
-            },
-            {
-              "code": "SDB2.3.SB3",
-              "text": "G3. Sosyal ve kültürel faktörler açısından çeşitli grupların varlığını tanır."
+              "text": "Başkalarının duygularını, düşüncelerini ve bakış açılarını anlamak",
+              "indicators": [
+                {
+                  "code": "SDB2.3.SB2.G1",
+                  "text": "Başkalarının mevcut bir durum hakkında farklı düşünebileceğini ve hissedebileceğini fark eder."
+                },
+                {
+                  "code": "SDB2.3.SB2.G2",
+                  "text": "Farklı bakış açılarına sahip kişileri dikkatle dinler."
+                },
+                {
+                  "code": "SDB2.3.SB2.G3",
+                  "text": "Başkalarının duygularını, bakış açılarını ve görüşlerini anlamayı önemser."
+                },
+                {
+                  "code": "SDB2.3.SB2.G4",
+                  "text": "Başkalarıyla aynı fikirde olmadığını yapıcı olarak ifade eder."
+                }
+              ]
             },
             {
               "code": "SDB2.3.SB3",
-              "text": "G4. Kendinden farklı bireylerle ilişki kurmaya yönelik stratejiler geliştirir."
-            },
-            {
-              "code": "SDB2.3.SB3",
-              "text": "G5. Farklı bakış açılarının, kültürlerin veya sosyal grupların sahip olduğu değerlerin farkında olarak bu değerleri önemser."
-            },
-            {
-              "code": "SDB2.3.SB3",
-              "text": "G6. Farklı kültür ve bakış açılarının toplum refahına yaptıkları olumlu katkıları tanır."
+              "text": "Başkalarına karşı anlayış geliştirerek saygı göstermek",
+              "indicators": [
+                {
+                  "code": "SDB2.3.SB3.G1",
+                  "text": "Kendisi ve başkaları arasındaki ortak yönleri belirler."
+                },
+                {
+                  "code": "SDB2.3.SB3.G2",
+                  "text": "Kendisi ve başkaları arasındaki farklılıkları tespit eder."
+                },
+                {
+                  "code": "SDB2.3.SB3.G3",
+                  "text": "Sosyal ve kültürel faktörler açısından çeşitli grupların varlığını tanır."
+                },
+                {
+                  "code": "SDB2.3.SB3.G4",
+                  "text": "Kendinden farklı bireylerle ilişki kurmaya yönelik stratejiler geliştirir."
+                },
+                {
+                  "code": "SDB2.3.SB3.G5",
+                  "text": "Farklı bakış açılarının, kültürlerin veya sosyal grupların sahip olduğu değerlerin farkında olarak bu değerleri önemser."
+                },
+                {
+                  "code": "SDB2.3.SB3.G6",
+                  "text": "Farklı kültür ve bakış açılarının toplum refahına yaptıkları olumlu katkıları tanır."
+                }
+              ]
             },
             {
               "code": "SDB2.3.SB4",
-              "text": "Toplumsal normlar hakkında bir anlayış geliştirmek"
-            },
-            {
-              "code": "SDB2.3.SB4",
-              "text": "G1. Çeşitli sosyal bağlamlardaki farklı normları fark eder."
-            },
-            {
-              "code": "SDB2.3.SB4",
-              "text": "G2. Toplumsal normların toplum üzerindeki etkisini anlar."
-            },
-            {
-              "code": "SDB2.3.SB4",
-              "text": "G3. Okulunun, yaşadığı toplumun veya dünyanın bir ihtiyacını/ sorununu keşfeder."
-            },
-            {
-              "code": "SDB2.3.SB4",
-              "text": "G4. Topluma olumlu katkıda bulunmak için çabalar."
+              "text": "Toplumsal normlar hakkında bir anlayış geliştirmek",
+              "indicators": [
+                {
+                  "code": "SDB2.3.SB4.G1",
+                  "text": "Çeşitli sosyal bağlamlardaki farklı normları fark eder."
+                },
+                {
+                  "code": "SDB2.3.SB4.G2",
+                  "text": "Toplumsal normların toplum üzerindeki etkisini anlar."
+                },
+                {
+                  "code": "SDB2.3.SB4.G3",
+                  "text": "Okulunun, yaşadığı toplumun veya dünyanın bir ihtiyacını/ sorununu keşfeder."
+                },
+                {
+                  "code": "SDB2.3.SB4.G4",
+                  "text": "Topluma olumlu katkıda bulunmak için çabalar."
+                }
+              ]
             }
           ]
         },
@@ -1434,87 +1473,97 @@
           "components": [
             {
               "code": "SDB3.1.SB1",
-              "text": "Yeni, değişen ve belirsiz durumları anlamak"
-            },
-            {
-              "code": "SDB3.1.SB1",
-              "text": "G1. Karşılaştığı yeni, belirsiz veya değişen durumları olumlu karşılar."
-            },
-            {
-              "code": "SDB3.1.SB1",
-              "text": "G2. Yeni, belirsiz veya değişen durumların gerektirdiği değişim ihtiyacını fark eder."
-            },
-            {
-              "code": "SDB3.1.SB1",
-              "text": "G3. Yeni, belirsiz veya değişen durumlarla kendi koşullarını karşılaştırır."
-            },
-            {
-              "code": "SDB3.1.SB2",
-              "text": "Yeni, değişen ve belirsiz durumlar karşısında değişime açık ve istekli olmak"
-            },
-            {
-              "code": "SDB3.1.SB2",
-              "text": "G1. Değişimi gelişmek için bir fırsat olarak görür."
+              "text": "Yeni, değişen ve belirsiz durumları anlamak",
+              "indicators": [
+                {
+                  "code": "SDB3.1.SB1.G1",
+                  "text": "Karşılaştığı yeni, belirsiz veya değişen durumları olumlu karşılar."
+                },
+                {
+                  "code": "SDB3.1.SB1.G2",
+                  "text": "Yeni, belirsiz veya değişen durumların gerektirdiği değişim ihtiyacını fark eder."
+                },
+                {
+                  "code": "SDB3.1.SB1.G3",
+                  "text": "Yeni, belirsiz veya değişen durumlarla kendi koşullarını karşılaştırır."
+                }
+              ]
             },
             {
               "code": "SDB3.1.SB2",
-              "text": "G2. Yeni bakış açılarını ve konuları öğrenmeye isteklidir."
-            },
-            {
-              "code": "SDB3.1.SB2",
-              "text": "G3. Yeni, belirsiz veya değişen durumlarda esnek bir tutum benimser."
-            },
-            {
-              "code": "SDB3.1.SB2",
-              "text": "G4. Değişimin gerektirdiği adımları atmak için istekli davranır."
+              "text": "Yeni, değişen ve belirsiz durumlar karşısında değişime açık ve istekli olmak",
+              "indicators": [
+                {
+                  "code": "SDB3.1.SB2.G1",
+                  "text": "Değişimi gelişmek için bir fırsat olarak görür."
+                },
+                {
+                  "code": "SDB3.1.SB2.G2",
+                  "text": "Yeni bakış açılarını ve konuları öğrenmeye isteklidir."
+                },
+                {
+                  "code": "SDB3.1.SB2.G3",
+                  "text": "Yeni, belirsiz veya değişen durumlarda esnek bir tutum benimser."
+                },
+                {
+                  "code": "SDB3.1.SB2.G4",
+                  "text": "Değişimin gerektirdiği adımları atmak için istekli davranır."
+                }
+              ]
             },
             {
               "code": "SDB3.1.SB3",
-              "text": "Yeni, değişen ve belirsiz durumlarla başa çıkmak için düşünce biçimini ayarlamak"
-            },
-            {
-              "code": "SDB3.1.SB3",
-              "text": "G1. Yeni bir durumla karşılaştığında kendisine yardımcı olacak alternatif seçenekler üzerinde düşünür."
-            },
-            {
-              "code": "SDB3.1.SB3",
-              "text": "G2. Yeni bir durum hakkında düşünme şeklini gözden geçirir."
-            },
-            {
-              "code": "SDB3.1.SB3",
-              "text": "G3. Gerektiğinde yeni bir durumda düşüncelerini veya beklentilerini ayarlar."
-            },
-            {
-              "code": "SDB3.1.SB4",
-              "text": "Yeni, değişen ve belirsiz durumlarda davranış veya eylemin doğasını, seviyesini ve derecesini ayarlamak"
-            },
-            {
-              "code": "SDB3.1.SB4",
-              "text": "G1. Yeni durumlarla etkili bir şekilde başa çıkmak için yardımcı olabilecek kaynaklar arar."
+              "text": "Yeni, değişen ve belirsiz durumlarla başa çıkmak için düşünce biçimini ayarlamak",
+              "indicators": [
+                {
+                  "code": "SDB3.1.SB3.G1",
+                  "text": "Yeni bir durumla karşılaştığında kendisine yardımcı olacak alternatif seçenekler üzerinde düşünür."
+                },
+                {
+                  "code": "SDB3.1.SB3.G2",
+                  "text": "Yeni bir durum hakkında düşünme şeklini gözden geçirir."
+                },
+                {
+                  "code": "SDB3.1.SB3.G3",
+                  "text": "Gerektiğinde yeni bir durumda düşüncelerini veya beklentilerini ayarlar."
+                }
+              ]
             },
             {
               "code": "SDB3.1.SB4",
-              "text": "G2. Belirsiz durumlarda kendisine yardımcı olacak yeni yollar geliştirir."
-            },
-            {
-              "code": "SDB3.1.SB4",
-              "text": "G3. Yeni bir durumla karşılaştığında uyum sağlamak için gerekirse davranışlarını değiştirir."
+              "text": "Yeni, değişen ve belirsiz durumlarda davranış veya eylemin doğasını, seviyesini ve derecesini ayarlamak",
+              "indicators": [
+                {
+                  "code": "SDB3.1.SB4.G1",
+                  "text": "Yeni durumlarla etkili bir şekilde başa çıkmak için yardımcı olabilecek kaynaklar arar."
+                },
+                {
+                  "code": "SDB3.1.SB4.G2",
+                  "text": "Belirsiz durumlarda kendisine yardımcı olacak yeni yollar geliştirir."
+                },
+                {
+                  "code": "SDB3.1.SB4.G3",
+                  "text": "Yeni bir durumla karşılaştığında uyum sağlamak için gerekirse davranışlarını değiştirir."
+                }
+              ]
             },
             {
               "code": "SDB3.1.SB5",
-              "text": "Yeni, değişen ve belirsiz bir çevreyle başarılı bir şekilde etkileşime geçmek için duygusal tepkileri ayarlamak"
-            },
-            {
-              "code": "SDB3.1.SB5",
-              "text": "G1. Yeni, belirsiz veya değişen durumlar karşında ortaya çıkan duygularını fark eder."
-            },
-            {
-              "code": "SDB3.1.SB5",
-              "text": "G2. Yeni, belirsiz veya değişen durumlarla başa çıkabilmek için olumsuz duygularını kontrol eder."
-            },
-            {
-              "code": "SDB3.1.SB5",
-              "text": "G3. Yeni, belirsiz veya değişen durumlarda kendisine yardımcı olması için olumlu duygulardan yararlanır."
+              "text": "Yeni, değişen ve belirsiz bir çevreyle başarılı bir şekilde etkileşime geçmek için duygusal tepkileri ayarlamak",
+              "indicators": [
+                {
+                  "code": "SDB3.1.SB5.G1",
+                  "text": "Yeni, belirsiz veya değişen durumlar karşında ortaya çıkan duygularını fark eder."
+                },
+                {
+                  "code": "SDB3.1.SB5.G2",
+                  "text": "Yeni, belirsiz veya değişen durumlarla başa çıkabilmek için olumsuz duygularını kontrol eder."
+                },
+                {
+                  "code": "SDB3.1.SB5.G3",
+                  "text": "Yeni, belirsiz veya değişen durumlarda kendisine yardımcı olması için olumlu duygulardan yararlanır."
+                }
+              ]
             }
           ]
         },
@@ -1527,59 +1576,63 @@
           "components": [
             {
               "code": "SDB3.2.SB1",
-              "text": "Zor durumlara farklı çözümler bulmak"
-            },
-            {
-              "code": "SDB3.2.SB1",
-              "text": "G1. Zor durumlarla baş edebilmek için önünde farklı birçok seçeneğin olabileceğini fark eder."
-            },
-            {
-              "code": "SDB3.2.SB1",
-              "text": "G2. Zor durumlarla karşılaştığı zaman farklı açılardan bakarak olası çözümleri düşünür."
-            },
-            {
-              "code": "SDB3.2.SB1",
-              "text": "G3. Zor durumlarda bir şeyleri değiştirme konusunda kendine güvenir."
-            },
-            {
-              "code": "SDB3.2.SB1",
-              "text": "G4. Zor durumlarla karşı karşıya kaldığında karar vermekte güçlük çekmez."
-            },
-            {
-              "code": "SDB3.2.SB1",
-              "text": "G5. Yaşamda karşılaştığı güçlüklerle baş etmek için çaba gösterir."
-            },
-            {
-              "code": "SDB3.2.SB1",
-              "text": "G6. Bir davranışın nedenleri konusunda karara varmadan önce ek bilgiler arar."
-            },
-            {
-              "code": "SDB3.2.SB1",
-              "text": "G7. Yeni bir durumun nedenlerini anlamaya çalışırken bütün olası gerçekleri ve bilgileri göz önünde bulundurarak katı düşünmekten kaçınır."
-            },
-            {
-              "code": "SDB3.2.SB2",
-              "text": "Yeni durumlara uyum sağlamak"
-            },
-            {
-              "code": "SDB3.2.SB2",
-              "text": "G1. Yeni bir durumla karşılaştığında alternatif çözüm yolları bulur."
+              "text": "Zor durumlara farklı çözümler bulmak",
+              "indicators": [
+                {
+                  "code": "SDB3.2.SB1.G1",
+                  "text": "Zor durumlarla baş edebilmek için önünde farklı birçok seçeneğin olabileceğini fark eder."
+                },
+                {
+                  "code": "SDB3.2.SB1.G2",
+                  "text": "Zor durumlarla karşılaştığı zaman farklı açılardan bakarak olası çözümleri düşünür."
+                },
+                {
+                  "code": "SDB3.2.SB1.G3",
+                  "text": "Zor durumlarda bir şeyleri değiştirme konusunda kendine güvenir."
+                },
+                {
+                  "code": "SDB3.2.SB1.G4",
+                  "text": "Zor durumlarla karşı karşıya kaldığında karar vermekte güçlük çekmez."
+                },
+                {
+                  "code": "SDB3.2.SB1.G5",
+                  "text": "Yaşamda karşılaştığı güçlüklerle baş etmek için çaba gösterir."
+                },
+                {
+                  "code": "SDB3.2.SB1.G6",
+                  "text": "Bir davranışın nedenleri konusunda karara varmadan önce ek bilgiler arar."
+                },
+                {
+                  "code": "SDB3.2.SB1.G7",
+                  "text": "Yeni bir durumun nedenlerini anlamaya çalışırken bütün olası gerçekleri ve bilgileri göz önünde bulundurarak katı düşünmekten kaçınır."
+                }
+              ]
             },
             {
               "code": "SDB3.2.SB2",
-              "text": "G2. Bulduğu çözüm yollarından duruma en uygun olanı kolaylıkla seçer."
-            },
-            {
-              "code": "SDB3.2.SB2",
-              "text": "G3. Seçmiş olduğu çözüm yolunu uygular."
-            },
-            {
-              "code": "SDB3.2.SB2",
-              "text": "G4. Uyguladığı çözüm yolunun sonuçlarını izler."
-            },
-            {
-              "code": "SDB3.2.SB2",
-              "text": "G5. Gerekli durumlarda çözüm yollarında ve davranışlarında uyarlamalar yapar."
+              "text": "Yeni durumlara uyum sağlamak",
+              "indicators": [
+                {
+                  "code": "SDB3.2.SB2.G1",
+                  "text": "Yeni bir durumla karşılaştığında alternatif çözüm yolları bulur."
+                },
+                {
+                  "code": "SDB3.2.SB2.G2",
+                  "text": "Bulduğu çözüm yollarından duruma en uygun olanı kolaylıkla seçer."
+                },
+                {
+                  "code": "SDB3.2.SB2.G3",
+                  "text": "Seçmiş olduğu çözüm yolunu uygular."
+                },
+                {
+                  "code": "SDB3.2.SB2.G4",
+                  "text": "Uyguladığı çözüm yolunun sonuçlarını izler."
+                },
+                {
+                  "code": "SDB3.2.SB2.G5",
+                  "text": "Gerekli durumlarda çözüm yollarında ve davranışlarında uyarlamalar yapar."
+                }
+              ]
             }
           ]
         },
@@ -1592,127 +1645,137 @@
           "components": [
             {
               "code": "SDB3.3.SB1",
-              "text": "Problemleri tanımlayıp çözmek"
-            },
-            {
-              "code": "SDB3.3.SB1",
-              "text": "G1. Problemleri saptar."
-            },
-            {
-              "code": "SDB3.3.SB1",
-              "text": "G2. Problemleri önem düzeyine göre sınıflandırır."
-            },
-            {
-              "code": "SDB3.3.SB1",
-              "text": "G3. Problemle ilişkili değişkenleri belirler."
-            },
-            {
-              "code": "SDB3.3.SB1",
-              "text": "G4. Problemler için alternatif çözümler üretir."
-            },
-            {
-              "code": "SDB3.3.SB1",
-              "text": "G5. Alternatif çözümler arasından uygun olanı belirler."
-            },
-            {
-              "code": "SDB3.3.SB1",
-              "text": "G6. Uygun çözümü uygular."
-            },
-            {
-              "code": "SDB3.3.SB1",
-              "text": "G7. Uygulanan çözümün etkililiğini değerlendirir."
-            },
-            {
-              "code": "SDB3.3.SB2",
-              "text": "Eylemlerinin sonuçlarını öngörmek"
-            },
-            {
-              "code": "SDB3.3.SB2",
-              "text": "G1. Eylemlerinin olası doğrudan sonuçlarını fark eder."
+              "text": "Problemleri tanımlayıp çözmek",
+              "indicators": [
+                {
+                  "code": "SDB3.3.SB1.G1",
+                  "text": "Problemleri saptar."
+                },
+                {
+                  "code": "SDB3.3.SB1.G2",
+                  "text": "Problemleri önem düzeyine göre sınıflandırır."
+                },
+                {
+                  "code": "SDB3.3.SB1.G3",
+                  "text": "Problemle ilişkili değişkenleri belirler."
+                },
+                {
+                  "code": "SDB3.3.SB1.G4",
+                  "text": "Problemler için alternatif çözümler üretir."
+                },
+                {
+                  "code": "SDB3.3.SB1.G5",
+                  "text": "Alternatif çözümler arasından uygun olanı belirler."
+                },
+                {
+                  "code": "SDB3.3.SB1.G6",
+                  "text": "Uygun çözümü uygular."
+                },
+                {
+                  "code": "SDB3.3.SB1.G7",
+                  "text": "Uygulanan çözümün etkililiğini değerlendirir."
+                }
+              ]
             },
             {
               "code": "SDB3.3.SB2",
-              "text": "G2. Eylemlerinin olası dolaylı sonuçlarını fark eder."
-            },
-            {
-              "code": "SDB3.3.SB2",
-              "text": "G3. Olası sonuçları düşünerek eylemlerini düzenler."
-            },
-            {
-              "code": "SDB3.3.SB2",
-              "text": "G4. Düzenlediği eylemlerinin sonuçlarını değerlendirir."
-            },
-            {
-              "code": "SDB3.3.SB2",
-              "text": "G5. Olumlu-olumsuz sonuçları görerek sorumluluk üstlenir."
+              "text": "Eylemlerinin sonuçlarını öngörmek",
+              "indicators": [
+                {
+                  "code": "SDB3.3.SB2.G1",
+                  "text": "Eylemlerinin olası doğrudan sonuçlarını fark eder."
+                },
+                {
+                  "code": "SDB3.3.SB2.G2",
+                  "text": "Eylemlerinin olası dolaylı sonuçlarını fark eder."
+                },
+                {
+                  "code": "SDB3.3.SB2.G3",
+                  "text": "Olası sonuçları düşünerek eylemlerini düzenler."
+                },
+                {
+                  "code": "SDB3.3.SB2.G4",
+                  "text": "Düzenlediği eylemlerinin sonuçlarını değerlendirir."
+                },
+                {
+                  "code": "SDB3.3.SB2.G5",
+                  "text": "Olumlu-olumsuz sonuçları görerek sorumluluk üstlenir."
+                }
+              ]
             },
             {
               "code": "SDB3.3.SB3",
-              "text": "Gerekçeli yargıda bulunmak"
-            },
-            {
-              "code": "SDB3.3.SB3",
-              "text": "G1. Konu, olay ya da durumla ilgili yargılarını temellendirir."
-            },
-            {
-              "code": "SDB3.3.SB3",
-              "text": "G2. Ulaştığı yargıların dayanaklarını keşfeder."
-            },
-            {
-              "code": "SDB3.3.SB3",
-              "text": "G3. Yargılarını düzenleyip gerekçelendirir."
-            },
-            {
-              "code": "SDB3.3.SB3",
-              "text": "G4. Gerekçeli yargılarının sonuçlarını değerlendirir."
-            },
-            {
-              "code": "SDB3.3.SB4",
-              "text": "Alınan kararların ahlaki olarak uygunluğunu değerlendirmek"
-            },
-            {
-              "code": "SDB3.3.SB4",
-              "text": "G1. Kendi hakları ile başkalarının hakları arasında denge gözeterek kararlar alır."
+              "text": "Gerekçeli yargıda bulunmak",
+              "indicators": [
+                {
+                  "code": "SDB3.3.SB3.G1",
+                  "text": "Konu, olay ya da durumla ilgili yargılarını temellendirir."
+                },
+                {
+                  "code": "SDB3.3.SB3.G2",
+                  "text": "Ulaştığı yargıların dayanaklarını keşfeder."
+                },
+                {
+                  "code": "SDB3.3.SB3.G3",
+                  "text": "Yargılarını düzenleyip gerekçelendirir."
+                },
+                {
+                  "code": "SDB3.3.SB3.G4",
+                  "text": "Gerekçeli yargılarının sonuçlarını değerlendirir."
+                }
+              ]
             },
             {
               "code": "SDB3.3.SB4",
-              "text": "G2. Aldığı kararların sonuçlarını geçmiş ahlaki değerlendirmeler ve toplumsal normlarla ilişkilendirir."
-            },
-            {
-              "code": "SDB3.3.SB4",
-              "text": "G3. Kararlarının bireysel ve toplumsal açıdan etki alanlarını ve çıktılarını sorgular."
-            },
-            {
-              "code": "SDB3.3.SB4",
-              "text": "G4. Kararlarının ahlaki sorumluluğunu üstlenir."
-            },
-            {
-              "code": "SDB3.3.SB4",
-              "text": "G5. Kararlarını ahlaki açıdan denetler."
-            },
-            {
-              "code": "SDB3.3.SB5",
-              "text": "Derinlemesine düşünmek"
-            },
-            {
-              "code": "SDB3.3.SB5",
-              "text": "G1. Düşüncelerinin olası olumlu ve olumsuz sonuçlarını inceler."
-            },
-            {
-              "code": "SDB3.3.SB5",
-              "text": "G2. Düşüncelerini başkalarının bakış açılarını da göz önünde bulundurarak değerlendirir."
-            },
-            {
-              "code": "SDB3.3.SB5",
-              "text": "G3. Düşüncelerini açık fikirlilikle değerlendirir."
+              "text": "Alınan kararların ahlaki olarak uygunluğunu değerlendirmek",
+              "indicators": [
+                {
+                  "code": "SDB3.3.SB4.G1",
+                  "text": "Kendi hakları ile başkalarının hakları arasında denge gözeterek kararlar alır."
+                },
+                {
+                  "code": "SDB3.3.SB4.G2",
+                  "text": "Aldığı kararların sonuçlarını geçmiş ahlaki değerlendirmeler ve toplumsal normlarla ilişkilendirir."
+                },
+                {
+                  "code": "SDB3.3.SB4.G3",
+                  "text": "Kararlarının bireysel ve toplumsal açıdan etki alanlarını ve çıktılarını sorgular."
+                },
+                {
+                  "code": "SDB3.3.SB4.G4",
+                  "text": "Kararlarının ahlaki sorumluluğunu üstlenir."
+                },
+                {
+                  "code": "SDB3.3.SB4.G5",
+                  "text": "Kararlarını ahlaki açıdan denetler."
+                }
+              ]
             },
             {
               "code": "SDB3.3.SB5",
-              "text": "G4. Alternatif düşünce sistemlerini, varsayım ve çıkarımlarını ele alır."
-            },
-            {
-              "code": "SDB3.3.SB5",
-              "text": "G5. Gerektiğinde düşüncelerini değiştirir."
+              "text": "Derinlemesine düşünmek",
+              "indicators": [
+                {
+                  "code": "SDB3.3.SB5.G1",
+                  "text": "Düşüncelerinin olası olumlu ve olumsuz sonuçlarını inceler."
+                },
+                {
+                  "code": "SDB3.3.SB5.G2",
+                  "text": "Düşüncelerini başkalarının bakış açılarını da göz önünde bulundurarak değerlendirir."
+                },
+                {
+                  "code": "SDB3.3.SB5.G3",
+                  "text": "Düşüncelerini açık fikirlilikle değerlendirir."
+                },
+                {
+                  "code": "SDB3.3.SB5.G4",
+                  "text": "Alternatif düşünce sistemlerini, varsayım ve çıkarımlarını ele alır."
+                },
+                {
+                  "code": "SDB3.3.SB5.G5",
+                  "text": "Gerektiğinde düşüncelerini değiştirir."
+                }
+              ]
             }
           ]
         }
@@ -9645,10 +9708,19 @@
         },
         {
           "code": "DAB3",
-          "name": "1 Dinî Kavramları Ayırt Etme",
+          "name": "Tahkik Becerisi",
           "description": "Dinî ilimler içerisinde yer alan önemli kavramları tanımayı, bu kavramları bağlamına uygun olarak kullanmayı ve dinî metinlerin incelenmesi ve yorumlanması için takip edilmesi gereken  süreci ifade eder. Tahkik becerisi; \"dinî kavramları ayırt etme\", \"dinî kavramları bağlamına uygun kullanma\", \"dinî metinleri yorumlama\" ve \"dinî metinleri tahlil etme\" bütünleşik  becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
+          "components": [],
+          "from_heading": true
+        },
+        {
+          "code": "DAB3.1",
+          "name": "Dinî Kavramları Ayırt Etme",
+          "description": "",
+          "parent": "DAB3",
+          "level": 2,
           "components": [
             {
               "code": "DAB3.1.SB1",
@@ -9666,11 +9738,11 @@
           "context": "Tahkik Becerisi"
         },
         {
-          "code": "DAB3",
-          "name": "2 Dinî Kavramları Bağlamına Uygun Kullanma",
-          "description": "Dinî ilimler içerisinde yer alan önemli kavramları tanımayı, bu kavramları bağlamına uygun olarak kullanmayı ve dinî metinlerin incelenmesi ve yorumlanması için takip edilmesi gereken  süreci ifade eder. Tahkik becerisi; \"dinî kavramları ayırt etme\", \"dinî kavramları bağlamına uygun kullanma\", \"dinî metinleri yorumlama\" ve \"dinî metinleri tahlil etme\" bütünleşik  becerilerinden oluşmaktadır.",
-          "parent": null,
-          "level": 1,
+          "code": "DAB3.2",
+          "name": "Dinî Kavramları Bağlamına Uygun Kullanma",
+          "description": "",
+          "parent": "DAB3",
+          "level": 2,
           "components": [
             {
               "code": "DAB3.2.SB1",
@@ -9687,11 +9759,17 @@
             {
               "code": "DAB3.2.SB4",
               "text": "Dinî kavramlara sözlü ve yazılı iletişimde bağlamına uygun olarak yer vermek"
-            },
-            {
-              "code": "DAB3.3",
-              "text": "Dinî Metinleri Yorumlama"
-            },
+            }
+          ],
+          "context": "Tahkik Becerisi"
+        },
+        {
+          "code": "DAB3.3",
+          "name": "Dinî Metinleri Yorumlama",
+          "description": "",
+          "parent": "DAB3",
+          "level": 2,
+          "components": [
             {
               "code": "DAB3.3.SB1",
               "text": "Temel İslam bilimlerinin usullerine göre bir metni yorumlamada yararlanılacak ilke ve ölçütleri seçmek"
@@ -9703,11 +9781,17 @@
             {
               "code": "DAB3.3.SB3",
               "text": "Bir metni bağlamı içinde kendi cümleleri ile ifade etmek"
-            },
-            {
-              "code": "DAB3.4",
-              "text": "Dinî Metinleri Tahlil Etme"
-            },
+            }
+          ],
+          "context": "Tahkik Becerisi"
+        },
+        {
+          "code": "DAB3.4",
+          "name": "Dinî Metinleri Tahlil Etme",
+          "description": "",
+          "parent": "DAB3",
+          "level": 2,
+          "components": [
             {
               "code": "DAB3.4.SB1",
               "text": "Temel İslam bilimlerinin usullerine göre bir metni incelemede yararlanılacak ilke ve ölçütleri seçmek"

@@ -8,8 +8,8 @@
  "report": {
   "courses": 111,
   "units": 1613,
-  "outcomes": 5846,
-  "components": 12225,
+  "outcomes": 5834,
+  "components": 12215,
   "courses_without_outcomes": 0,
   "gaps": [
    {
@@ -37,13 +37,6 @@
      "MAT.7.4.8",
      "MAT.7.4.9",
      "MAT.7.4.10"
-    ]
-   },
-   {
-    "course": "Okul Öncesi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "MYB.5"
     ]
    },
    {
@@ -96,18 +89,6 @@
      "ENG.4.6",
      "ENG.5.1",
      "ENG.5.2"
-    ]
-   },
-   {
-    "course": "Çoklu Yabancı Dil Eğitim Modeli İngilizce",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "ENG.1",
-     "ENG.2",
-     "ENG.5",
-     "ENG.6",
-     "ENG.7",
-     "ENG.8"
     ]
    },
    {
@@ -180,13 +161,6 @@
     ]
    },
    {
-    "course": "Robotik Kodlama Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "RK.2.4.2"
-    ]
-   },
-   {
     "course": "Spor ve Fiziki Etkinlikler Dersi",
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
@@ -198,14 +172,6 @@
      "SFE.3.1",
      "SFE.3.2",
      "SFE.3.3"
-    ]
-   },
-   {
-    "course": "Yapay Zekâ Uygulamaları Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "YZU.1.1.1",
-     "YZU.1.1.1. Yapay zekâya ilişkin temel kavramları sorgulaya­"
     ]
    },
    {
@@ -246,9 +212,9 @@
      "ENG.10.7",
      "ENG.10.8",
      "ENG.11.1",
-     "EENG.11.1",
      "ENG.11.2",
-     "ENG.11.3"
+     "ENG.11.3",
+     "ENG.11.4"
     ]
    },
    {
@@ -314,32 +280,6 @@
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
      "ÇT.3.1.1"
-    ]
-   },
-   {
-    "course": "Türk Müziği Teori ve Uygulaması Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "TMT.1.1.1.",
-     "TMT.1.1.1. Müziği tanımlayabilme",
-     "TMT.1.1.2.",
-     "TMT.1.1.2. Müzikle ilgili materyalleri tanımlayabilme",
-     "TMT.1.2.1.",
-     "TMT.1.2.1. Porteyi tanıyabilme",
-     "TMT.1.2.2.",
-     "TMT.1.2.2. Müzikte anahtar kavramını tanıyabilme",
-     "TMT.1.2.3.",
-     "TMT.1.2.3. Nota işaretlerini tanıyabilme",
-     "TMT.1.3.1.",
-     "TMT.1.3.1.Müzikal olan/olmayan sesleri işitebilme",
-     "TMT.1.3.2.",
-     "TMT.1.3.2. Ölçülü seslerin bileşenlerini dinleyebilme",
-     "TMT.2.1.1.",
-     "TMT.2.1.1. Tam ses ve yarım sesi işitebilme",
-     "TMT.2.1.2. Tam ses ve yarım sesi okuyabilme",
-     "TMT.2.1.3. Tam ses ve yarım sesi yazabilme",
-     "TMT.2.2.1.",
-     "TMT.2.2.1. Sesleri pestleştirme ve tizleştirmeyi işitebilme"
     ]
    }
   ]
@@ -609,10 +549,10 @@
    "slug": "ortaokul-turkce-dersi",
    "name": "Ortaokul Türkçe Dersi",
    "kademe": 2,
-   "prefix": "DO",
+   "prefix": "DYS.DO",
    "file": "courses/ortaokul-turkce-dersi.json",
    "units": 24,
-   "outcomes": 800,
+   "outcomes": 790,
    "components": 300
   },
   {
@@ -779,11 +719,11 @@
    "slug": "tc-inkilap-tarihi-ve-ataturkculuk-dersi",
    "name": "T.C. İnkılap Tarihi ve Atatürkçülük Dersi",
    "kademe": 2,
-   "prefix": "TA",
+   "prefix": "İTA",
    "file": "courses/tc-inkilap-tarihi-ve-ataturkculuk-dersi.json",
    "units": 4,
-   "outcomes": 16,
-   "components": 9
+   "outcomes": 15,
+   "components": 3
   },
   {
    "slug": "teknoloji-tasarim-dersi",
@@ -1199,7 +1139,7 @@
    "slug": "ingilizce-dersi-hazirlik-12",
    "name": "İngilizce Dersi (Hazırlık-12)",
    "kademe": 3,
-   "prefix": "EENG",
+   "prefix": "ENG",
    "file": "courses/ingilizce-dersi-hazirlik-12.json",
    "units": 0,
    "outcomes": 0,
@@ -1349,11 +1289,11 @@
    "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-ney-modulu",
    "name": "Bireysel Çalgı Eğitimi Dersi-Ney Modülü",
    "kademe": 11,
-   "prefix": "EY",
+   "prefix": "NEY",
    "file": "courses/muzik-okullari-bireysel-calgi-egitimi-dersi-ney-modulu.json",
    "units": 31,
-   "outcomes": 53,
-   "components": 164
+   "outcomes": 52,
+   "components": 160
   },
   {
    "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-piyano-modulu",

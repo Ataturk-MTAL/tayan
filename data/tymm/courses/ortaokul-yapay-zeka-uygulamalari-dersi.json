@@ -477,15 +477,6 @@
   "outcomes": 15,
   "components": 56,
   "orphan_outcomes": 0,
-  "gaps": [
-   {
-    "course": "Yapay Zekâ Uygulamaları Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "YZU.1.1.1",
-     "YZU.1.1.1. Yapay zekâya ilişkin temel kavramları sorgulaya­"
-    ]
-   }
-  ]
+  "gaps": []
  }
 }

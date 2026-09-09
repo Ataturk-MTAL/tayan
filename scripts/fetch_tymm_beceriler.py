@@ -29,6 +29,9 @@ import urllib.request
 from collections import Counter
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from tymm_beceri_lines import split_code_line, split_indicator  # noqa: E402
+
 BASE_URL = "https://tymm.meb.gov.tr"
 
 # Beceri çerçevesini taşıyan sayfalar. Sıra çıktıdaki set sırasını belirler:
@@ -98,7 +101,7 @@ def content_slice(lines: list[str]) -> list[str]:
         start = lines.index(READ_MORE_MARKER) + 1
 
     body = lines[start:]
-    first_code = next((i for i, line in enumerate(body) if CODE_RE.match(line)), None)
+    first_code = next((i for i, line in enumerate(body) if split_code_line(line)), None)
     if first_code is None:
         return body
 
@@ -163,14 +166,14 @@ def parse_page(path: str, lines: list[str]) -> list[dict]:
 
     for line in body:
         heading = HEADING_RE.match(line)
-        if heading and not CODE_RE.match(line):
+        if heading and not split_code_line(line):
             awaiting_description_for = heading.group(2)
             last_heading = (heading.group(2), heading.group(1).strip())
             heading_nodes[heading.group(2)] = heading.group(1).strip()
             continue
 
         header = SET_HEADER_RE.match(line)
-        if header and not CODE_RE.match(line):
+        if header and not split_code_line(line):
             code, name = header.group(1), header.group(2).strip()
             set_names[code] = name
             if code in sets:
@@ -184,6 +187,29 @@ def parse_page(path: str, lines: list[str]) -> list[dict]:
         # DİKKAT: kodu COMPONENT_RE'den al. CODE_RE aynı satırda "KB2.1" verir
         # (harf olmayan kısımda durur) ve o kodla yapılan alt-düğüm sınaması
         # yanlışlıkla başarısız olur.
+        # GÖSTERGE KADEMESİ. SDB sayfası iki sütunlu tablo; sağ hücredeki
+        # <ul class="indicator-list"> ögeleri süreç bileşeninin ALTINDA ayrı
+        # bir kademedir. Etiketler satıra düzleştirilince her gösterge üst
+        # bileşenin kodunu taşıyor gibi görünüyordu: 36 bileşen 225 kayda
+        # şişmiş, G kodları tamamen kaybolmuştu.
+        indicator_code, indicator_text = split_indicator(line)
+        if indicator_code and current is not None:
+            owner_code = indicator_code.rsplit(".", 1)[0]
+            for existing in current["components"]:
+                if existing["code"] == owner_code:
+                    existing.setdefault("indicators", []).append(
+                        {"code": indicator_code, "text": indicator_text}
+                    )
+                    break
+            else:
+                anomalies.append({
+                    "kind": "indicator_without_component",
+                    "code": indicator_code,
+                    "expected_parent": owner_code,
+                    "source_line": line,
+                })
+            continue
+
         component = COMPONENT_RE.match(line)
         if component and current is not None:
             code = component.group(1) + "SB" + component.group(2)
@@ -203,9 +229,13 @@ def parse_page(path: str, lines: list[str]) -> list[dict]:
             })
             continue
 
-        node = CODE_RE.match(line)
+        # AYIRAÇ NOKTA DA OLABİLİR BOŞLUK DA:
+        #   KB2.8.Sorgulama Becerisi            (nokta)
+        #   DAB3.1 Dinî Kavramları Ayırt Etme   (boşluk, akordiyon başlığı)
+        # Yalnız noktayı bekleyen desen ikinci biçimdeki düğümleri atlıyordu.
+        node = split_code_line(line)
         if node:
-            code, name = node.group(1), node.group(2).strip()
+            code, name = node
             prefix = PREFIX_RE.match(code).group(1)
 
             if in_components and current is not None and is_descendant(code, current["code"]):

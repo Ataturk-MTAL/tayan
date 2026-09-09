@@ -41,8 +41,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from tymm_pdf_sections import parse_units  # noqa: E402
 from tymm_outcomes import (  # noqa: E402
-    FOUR_RE,
-    THREE_RE,
+    SCHEME_PATTERNS,
+    build_code,
     detect_scheme,
     parse_outcomes,
 )
@@ -137,11 +137,16 @@ def main() -> int:
         # KAPSAMA DENETİMİ. Metinde geçen kod kümesinden ayrıştırılan küme
         # çıkarılır; fark raporlanır. Bu oturumdaki her sessiz kaybı bu
         # denetim yakaladı — kaldırılmamalı.
-        pattern = FOUR_RE if segments == 4 else THREE_RE
+        # Denetim, AYRIŞTIRICININ deseninin AYNISINI kullanır. Önceden
+        # "FOUR_RE if segments == 4 else THREE_RE" yazıyordu; yapışık (2, 5) ve
+        # boşluklu (6) şemalarda THREE_RE hiçbir kodu eşlemiyor, scanned boş
+        # kalıyor ve denetim 8 derste sessizce işlemsiz oluyordu.
+        pattern = SCHEME_PATTERNS.get(segments)
+        wanted = set(prefixes)
         scanned = {
-            ".".join(m.groups()[:segments])
-            for m in pattern.finditer(text)
-            if m.group(1) in set(prefixes)
+            build_code(m, segments)
+            for m in (pattern.finditer(text) if pattern else ())
+            if m.group(1) in wanted
         }
         missed = sorted(scanned - {o["code"] for o in outcomes})
         if missed:

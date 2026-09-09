@@ -299,13 +299,6 @@
   "gaps": [
    {
     "course": "Okul Öncesi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "MYB.5"
-    ]
-   },
-   {
-    "course": "Okul Öncesi",
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
      "TAEOB1.1",

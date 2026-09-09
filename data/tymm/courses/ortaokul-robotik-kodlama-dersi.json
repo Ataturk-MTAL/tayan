@@ -611,14 +611,6 @@
   "outcomes": 21,
   "components": 70,
   "orphan_outcomes": 0,
-  "gaps": [
-   {
-    "course": "Robotik Kodlama Dersi",
-    "reason": "ayrıştırılamayan kod",
-    "codes": [
-     "RK.2.4.2"
-    ]
-   }
-  ]
+  "gaps": []
  }
 }
