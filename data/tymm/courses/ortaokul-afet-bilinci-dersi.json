@@ -4,6 +4,9 @@
   "name": "Afet Bilinci Dersi",
   "slug": "ortaokul-afet-bilinci-dersi",
   "prefix": "AB",
+  "shapes": [
+   "AB/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/afet-bilinci-dersi_20260819_065745_171.pdf"

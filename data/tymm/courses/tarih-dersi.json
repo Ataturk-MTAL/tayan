@@ -4,6 +4,9 @@
   "name": "Tarih Dersi",
   "slug": "tarih-dersi",
   "prefix": "TAR",
+  "shapes": [
+   "TAR/noktalı-4"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/tarih-dersi_20260819_143303_057.pdf"

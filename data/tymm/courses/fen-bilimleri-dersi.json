@@ -4,6 +4,9 @@
   "name": "Fen Bilimleri Dersi",
   "slug": "fen-bilimleri-dersi",
   "prefix": "FB",
+  "shapes": [
+   "FB/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/fen-bilimleri-dersi_20260902_111309_119.pdf"

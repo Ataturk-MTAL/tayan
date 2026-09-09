@@ -4,6 +4,9 @@
   "name": "Peygamberimizin Hayatı Dersi",
   "slug": "peygamberimizin-hayati-dersi-2",
   "prefix": "PH",
+  "shapes": [
+   "PH/noktalı-4"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/peygamberimizin-hayati-dersi_20260902_113159_431.pdf"

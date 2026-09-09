@@ -4,6 +4,9 @@
   "name": "Ortaokul Matematik Dersi",
   "slug": "ortaokul-matematik-dersi",
   "prefix": "MAT",
+  "shapes": [
+   "MAT/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/ortaokul-matematik-dersi_20260902_111111_630.pdf"

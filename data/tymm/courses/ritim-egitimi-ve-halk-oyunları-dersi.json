@@ -4,6 +4,9 @@
   "name": "Ritim Eğitimi ve Halk Oyunları Dersi",
   "slug": "ritim-egitimi-ve-halk-oyunları-dersi",
   "prefix": "RİHO",
+  "shapes": [
+   "RİHO/noktalı-4"
+  ],
   "kademe": 9,
   "kademe_name": "Spor Ortaokulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/ritim-egitimi-ve-halk-oyunları-dersi.pdf"

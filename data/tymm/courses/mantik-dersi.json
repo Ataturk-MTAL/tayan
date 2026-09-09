@@ -4,6 +4,9 @@
   "name": "Mantık Dersi",
   "slug": "mantik-dersi",
   "prefix": "MAN",
+  "shapes": [
+   "MAN/noktalı-3"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/mantik-dersi_20260828_160813_523.pdf"

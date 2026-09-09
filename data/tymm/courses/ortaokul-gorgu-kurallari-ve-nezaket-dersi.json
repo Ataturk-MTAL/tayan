@@ -4,6 +4,9 @@
   "name": "Görgü Kuralları ve Nezaket Dersi",
   "slug": "ortaokul-gorgu-kurallari-ve-nezaket-dersi",
   "prefix": "GKN",
+  "shapes": [
+   "GKN/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/gorgu-kurallari-ve-nezaket-dersi_20260819_071525_341.pdf"

@@ -4,6 +4,11 @@
   "name": "Sosyal Bilim Çalışmaları Dersi",
   "slug": "sosyal-bilim-calismalari-dersi",
   "prefix": "SBÇ.I",
+  "shapes": [
+   "SBÇ.I/noktalı-3",
+   "SBÇ.II/noktalı-3",
+   "SBÇ.III/noktalı-3"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/sosyal-bilim-calismalari-dersi_20260828_161042_774.pdf"

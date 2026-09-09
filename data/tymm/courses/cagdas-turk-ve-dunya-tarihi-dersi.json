@@ -4,6 +4,9 @@
   "name": "Çağdaş Türk ve Dünya Tarihi Dersi",
   "slug": "cagdas-turk-ve-dunya-tarihi-dersi",
   "prefix": "ÇTDT",
+  "shapes": [
+   "ÇTDT/noktalı-3"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/cagdas-turk-ve-dunya-tarihi-dersi_20260901_151343_583.pdf"

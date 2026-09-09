@@ -4,6 +4,9 @@
   "name": "Sosyoloji Dersi",
   "slug": "sosyoloji-dersi",
   "prefix": "SOS",
+  "shapes": [
+   "SOS/noktalı-4"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/sosyoloji-dersi_20260828_161133_609.pdf"

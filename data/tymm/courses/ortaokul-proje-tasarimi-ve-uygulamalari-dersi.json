@@ -3,7 +3,11 @@
   "id": 85,
   "name": "Proje Tasarımı ve Uygulamaları Dersi",
   "slug": "ortaokul-proje-tasarimi-ve-uygulamalari-dersi",
-  "prefix": "PTU",
+  "prefix": "SBSB",
+  "shapes": [
+   "PTU/noktalı-3",
+   "SBSB/yapışık-2"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/proje-tasarimi-ve-uygulamalari-dersi_20260819_074038_150.pdf"
@@ -607,6 +611,12 @@
        "text": "Problemin çözümüne yönelik geliştirdiği fikir önerisine ilişkin ön bilgilerden yararlanarak uyumlu bir bütün oluşturarak projesini ortaya koyar."
       }
      ]
+    },
+    {
+     "code": "SBSB5.3",
+     "order": 3,
+     "text": "Fikir Üretme)",
+     "components": []
     }
    ]
   },
@@ -737,7 +747,7 @@
  "unassigned_outcomes": [],
  "report": {
   "units": 24,
-  "outcomes": 17,
+  "outcomes": 18,
   "components": 68,
   "orphan_outcomes": 0,
   "gaps": []

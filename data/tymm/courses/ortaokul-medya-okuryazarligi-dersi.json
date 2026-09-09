@@ -4,6 +4,9 @@
   "name": "Medya Okuryazarlığı Dersi",
   "slug": "ortaokul-medya-okuryazarligi-dersi",
   "prefix": "MOY",
+  "shapes": [
+   "MOY/noktalı-3"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/medya-okuryazarligi-dersi_20260819_072814_372.pdf"

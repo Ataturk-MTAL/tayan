@@ -3,15 +3,22 @@
 
 Saf işlev: ağa çıkmaz, dosya okumaz/yazmaz.
 
-TYMM iki kod şeması kullanıyor ve hangisinin geçerli olduğu BELGEDEN
-ANLAŞILIR, ders adından değil:
+TYMM beş kod şeması kullanıyor:
 
-    dört sayılı   FİZ.9.1.2.   ön ek + sınıf + ünite + sıra
-    üç sayılı     T.O.5.2.     ön ek + sınıf + sıra   (ünite kademesi yok)
+    noktalı-4    FİZ.9.1.2.   ön ek + sınıf + ünite + sıra
+    noktalı-3    T.O.5.2.     ön ek + sınıf + sıra   (ünite kademesi yok)
+    yapışık-3    RK2.4.1.     rakam ön eke yapışık, üç sayı
+    yapışık-2    TDE1.1.      rakam ön eke yapışık, iki sayı
+    boşluklu-2   TKMT 3.1.    ön ek ile sayı arasında boşluk
 
 Ön ek nokta içerebilir (`T.O` = Türkçe/Okuma, `T.D` = Dinleme). Ön ek
-uzunluğunu ya da şemayı sabitlemek 111 dersin 27'sinde hiç çıktı bulunamamasına
-yol açmıştı.
+uzunluğunu ya da şemayı SABİTLEMEK 111 dersin 27'sinde hiç çıktı
+bulunamamasına yol açmıştı; TEK şema SEZMEK ise azınlıkta kalan aileyi
+sessizce düşürüyordu.
+
+Hangi şeklin çıktı olduğu artık SEZİLMİYOR: `data/tymm/shape-manifest.json`
+ders başına beyan ediyor, bu modül kendisine söylenen aileleri ayrıştırıyor.
+Beyan edilmeyen şekil hatadır — bkz. tymm_shape_census.
 """
 
 from __future__ import annotations
@@ -21,7 +28,7 @@ import re
 
 # Ön ek harf ve nokta içerir, tembel eşleşir: "T.O.5.2." için ön ek "T.O",
 # "FİZ.9.1.2." için "FİZ". Tembel olmazsa ön ek sayıları da yutar.
-# re.M şart: detect_scheme desenleri TÜM metne uyguluyor ve MULTILINE olmadan
+# re.M şart: şekil sayımı desenleri TÜM metne uyguluyor ve MULTILINE olmadan
 # "$" yalnız metnin en sonunda eşleşir — hiçbir kod bulunamaz.
 FOUR_RE = re.compile(r"([A-ZÇĞİÖŞÜ][A-ZÇĞİÖŞÜ.]*?)\.(\d+)\.(\d+)\.(\d+)\.\s*(.*)$", re.M)
 THREE_RE = re.compile(r"([A-ZÇĞİÖŞÜ][A-ZÇĞİÖŞÜ.]*?)\.(\d+)\.(\d+)\.\s*(.*)$", re.M)
@@ -35,7 +42,13 @@ GLUED3_RE = re.compile(r"([A-ZÇĞİÖŞÜ]{2,8})(\d+)\.(\d+)\.(\d+)\.\s*(.*)$",
 # Boşluklu yazım ("TKMT 3.1.") ayrı desen ve ön ek EN FAZLA 5 HARF. Sınır şart:
 # boşluğa serbest izin verilince "ESASLAR 3.1.", "PROGRAMI 1.2." gibi Türkçe
 # kelimeler ön ek sanılıyor.
-SPACED_RE = re.compile(r"(?:^|(?<=[^A-ZÇĞİÖŞÜ]))([A-ZÇĞİÖŞÜ]{2,5})\s+(\d+)\.(\d+)\.\s*(.*)$", re.M)
+# Ayıraç \s DEĞİL [ \t]: \s satır sonunu da yutuyordu ve kendi satırında duran
+# bir Türkçe/İngilizce kelime, BİR SONRAKİ satırdaki bölüm numarasıyla birleşip
+# ön ek sanılıyordu — "SÜRE\n 1.3.", "MODÜL\n 1.1.", "SIZES\n 1.6.", "EBADI",
+# "NIN". Altı sahte aile bu tek karakter yüzündendi.
+SPACED_RE = re.compile(
+    r"(?:^|(?<=[^A-ZÇĞİÖŞÜ]))([A-ZÇĞİÖŞÜ]{2,5})[ \t]+(\d+)\.(\d+)\.\s*(.*)$", re.M
+)
 COMPONENT_RE = re.compile(r"^\s*([a-zçğöşü])\)\s*(.+)$")
 # Gösterge kademesi PDF'lerde de var: "ENG.9.1.G1. Students identify..."
 # Bunlar ÇIKTI DEĞİL, çıktının altındaki göstergelerdir.
@@ -68,85 +81,6 @@ def collapse(text: str) -> str:
     return re.sub(r"-\s+(?=\w)", "", joined)
 
 
-def detect_scheme(text: str) -> tuple[list[str], int]:
-    """(ön ek listesi, şema kodu) döndürür.
-
-    Şema kodları: 4 dört sayılı, 3 üç sayılı, 5 yapışık üç sayılı,
-    2 yapışık iki sayılı, 6 boşluklu. 0 = hiçbiri.
-
-    Aileler SIRAYLA değil HACME göre yarışır. Sıralı denemede Türk Dili ve
-    Edebiyatı'nda 10 kez geçen noktalı "E." atıfı, 382 kez geçen yapışık
-    "TDE" şemasını gölgeliyordu.
-    """
-    def tally(pattern, exclude_spans=(), skill_filter=False, text_group=None):
-        counter = collections.Counter()
-        spans = []
-        for match in pattern.finditer(text):
-            if any(a <= match.start() < b for a, b in exclude_spans):
-                continue
-            if skill_filter and match.group(1) in SKILL_PREFIXES:
-                continue
-            if text_group and re.match(r"^\d", match.group(text_group).strip()):
-                continue
-            counter[match.group(1)] += 1
-            spans.append(match.span())
-        return counter, spans
-
-    four, four_spans = tally(FOUR_RE)
-    three, _ = tally(THREE_RE, exclude_spans=four_spans, text_group=4)
-    glued3, glued3_spans = tally(GLUED3_RE, skill_filter=True)
-    glued, _ = tally(GLUED_RE, exclude_spans=glued3_spans, skill_filter=True, text_group=4)
-    spaced, _ = tally(SPACED_RE, skill_filter=True, text_group=4)
-
-    def drop_ghosts(counter):
-        """Kırpılmış ön ekleri eler.
-
-        pdftotext bir satırı kestiğinde ön ekin KUYRUĞU ayrı bir ön ek gibi
-        görünür: "İTA" 20 kez geçerken kırpılmış tek bir "TA" aileye üye
-        oluyor ve sorted()[0] ile dersin kimliğini ele geçiriyordu. Bir ön ek
-        başka bir ön ekin son ekiyse ve geçişi onun beşte birinden azsa
-        artefakttır.
-        """
-        result = dict(counter)
-        for a in list(counter):
-            for b in counter:
-                if a == b or a not in result:
-                    continue
-                # Son ek ilişkisi iki yönde de olabilir:
-                #   TA  ⊂ İTA   -> baştan kırpılmış, KISA olan hayalet
-                #   ENG ⊂ EENG  -> başa harf yapışmış, UZUN olan hayalet
-                # Hangisi olduğu uzunluktan değil SIKLIKTAN anlaşılır: nadir
-                # olan artefakttır.
-                if not (a.endswith(b) or b.endswith(a)):
-                    continue
-                if counter[a] * 5 < counter[b]:
-                    del result[a]
-                    break
-        return collections.Counter(result)
-
-    def prefer_non_skill(counter):
-        non_skill = {k: v for k, v in counter.items() if k not in SKILL_PREFIXES}
-        return collections.Counter(non_skill or counter)
-
-    four = prefer_non_skill(drop_ghosts(four))
-    three = prefer_non_skill(drop_ghosts(three))
-
-    # Eşitlikte daha ÖZGÜL şema kazanır: dört sayılı > üç sayılı > yapışık.
-    glued3 = drop_ghosts(glued3)
-    glued = drop_ghosts(glued)
-    spaced = drop_ghosts(spaced)
-
-    families = [(four, 4), (three, 3), (glued3, 5), (glued, 2), (spaced, 6)]
-    best = max(
-        (f for f in families if f[0]),
-        key=lambda f: sum(f[0].values()),
-        default=None,
-    )
-    if best is None:
-        return [], 0
-    return sorted(best[0]), best[1]
-
-
 def parse_outcomes(text: str, prefixes: str | list[str], segments: int) -> list[dict]:
     """Çıktıları ve a/b/c/ç süreç bileşenlerini çıkarır.
 
@@ -166,7 +100,11 @@ def parse_outcomes(text: str, prefixes: str | list[str], segments: int) -> list[
     while index < len(lines):
         # DİKKAT: search, match DEĞİL. Her ünitenin ilk çıktısı bölüm etiketiyle
         # aynı satırı paylaşır ("VE SÜREÇ BİLEŞENLERİ FİZ.9.1.1. ...").
-        head = pattern.search(lines[index])
+        # "a)" ile başlayan satır SÜREÇ BİLEŞENİDİR, kod taşısa bile. Türk
+        # Dili'nde bileşenin kendi kodu var ("a) TDE1.1.1. Seçim yapar.") ve
+        # desen onu bir sonraki çıktı sanıyordu: ders 239 çıktı üretiyor ama
+        # SIFIR bileşen — bileşenlerin hepsi çıktı olarak sayılmıştı.
+        head = None if COMPONENT_RE.match(lines[index]) else pattern.search(lines[index])
         if not head or head.group(1) not in wanted:
             index += 1
             continue
@@ -196,12 +134,12 @@ def parse_outcomes(text: str, prefixes: str | list[str], segments: int) -> list[
         index += 1
         while index < len(lines):
             line = lines[index]
-            if pattern.search(line) or SECTION_RE.match(line):
+            component = COMPONENT_RE.match(line)
+            if not component and (pattern.search(line) or SECTION_RE.match(line)):
                 break
             if PAGE_NOISE_RE.match(line):
                 index += 1
                 continue
-            component = COMPONENT_RE.match(line)
             if component:
                 current = {"label": component.group(1), "text": [component.group(2)]}
                 components.append(current)
@@ -260,80 +198,30 @@ def build_code(match, segments: int) -> str:
 FAMILY_MIN = 3
 
 
-# NOT: detect_families/parse_all HENÜZ BAĞLI DEĞİL. Sezgisel çoklu aile
-# denendi ve ÖLÇÜLDÜ: toplam geri kazanım arttı (6119 -> 6560 çıktı) ama
-# ünite bağlantısı ve bileşenler bozuldu (bileşen 12 215 -> 9435, sahipsiz
-# 285 -> 1701, Matematik 77 çıktı/452 bileşen -> 50/292). Gürültü aileleri
-# ("SELS", "CS" gibi çerçeve atıfları) birleştirmede kazanıp daha kötü
-# ayrıştırmayı öne geçiriyor.
-#
-# Doğru çözüm sezgisel değil BEYAN: belge başına manifest (hangi kademe
-# hangi şekli kullanıyor) + şekil sayımı, ve manifestte olmayan şekil HATA.
-# Bu işlevler o adımın temeli olarak testleriyle birlikte duruyor.
+# ÇOKLU AİLE ARTIK SEZGİ DEĞİL BEYAN. Aileler `data/tymm/shape-manifest.json`
+# içinde ders başına yazılıdır; bu modül hangi ailelerin ayrıştırılacağını
+# ARAMAZ, kendisine SÖYLENİR. Sezgisel deneme ölçülmüş ve bırakılmıştı:
+# geri kazanım artıyordu (6119 -> 6560 çıktı) ama kesinlik çöküyordu
+# (bileşen 12 215 -> 9435, sahipsiz 285 -> 1701) çünkü çerçeve atıfları
+# ("CS" x542, "SELS" x125 — beceri adlarının İngilizcesi) hacimde gerçek
+# çıktı ailesini geçiyordu. Manifest bu ikisini ayırt eder, sezgi edemez.
 
 
-def detect_families(text: str) -> list[tuple[list[str], int]]:
-    """Belgedeki TÜM şekil ailelerini döndürür, hacme göre azalan sırada.
-
-    Tek aile seçmek azınlıkta kalan aileyi sessizce düşürüyordu: beden
-    eğitiminde "BES.9.1.1." (dört sayılı) kazanıp "BES.H.1.1." (hazırlık,
-    üç sayılı) hiç tanınmıyordu; okul öncesinde aynı ön ek hem yapışık
-    ("SNAB1.") hem noktalı ("SNAB.1.") yazılıyor.
-    """
-    families = []
-    for scheme in (4, 3, 5, 2, 6):
-        prefixes, found = _tally_scheme(text, scheme)
-        if found >= FAMILY_MIN:
-            families.append((prefixes, scheme, found))
-    families.sort(key=lambda f: -f[2])
-    return [(p, s) for p, s, _ in families]
-
-
-def _tally_scheme(text: str, scheme: int) -> tuple[list[str], int]:
-    """Tek bir şema için (ön ekler, toplam geçiş)."""
-    pattern = SCHEME_PATTERNS[scheme]
-    counter = collections.Counter()
-    for match in pattern.finditer(text):
-        prefix = match.group(1)
-        if scheme in (2, 5, 6) and prefix in SKILL_PREFIXES:
-            continue
-        tail = match.groups()[-1].strip()
-        if scheme != 4 and re.match(r"^\d", tail):
-            continue
-        counter[prefix] += 1
-    counter = collections.Counter({k: v for k, v in counter.items() if v >= FAMILY_MIN})
-    if scheme in (4, 3):
-        non_skill = {k: v for k, v in counter.items() if k not in SKILL_PREFIXES}
-        if non_skill:
-            counter = collections.Counter(non_skill)
-    # hayalet eleme (son ek ilişkisinde nadir olan artefakt)
-    kept = dict(counter)
-    for a in list(counter):
-        for b in counter:
-            if a == b or a not in kept:
-                continue
-            if (a.endswith(b) or b.endswith(a)) and counter[a] * 5 < counter[b]:
-                del kept[a]
-                break
-    return sorted(kept), sum(kept.values())
-
-
-def parse_all(text: str) -> list[dict]:
-    """Tüm aileleri ayrıştırıp birleştirir; göstergeleri çıktılara bağlar.
+def parse_declared(text: str, families: list[tuple[list[str], int]]) -> list[dict]:
+    """BEYAN EDİLEN ailelerin hepsini ayrıştırıp birleştirir.
 
     Kod bazında tekilleştirir — bir kod birden çok ailede eşleşebilir
-    (ör. "SNAB1." hem yapışık hem noktalı desene uyar).
+    (ör. "SNAB1." hem yapışık hem noktalı desene uyar). En dolgun geçiş kazanır.
+    Göstergeler (ENG.9.1.G1) çıktı sayılmaz, sahiplerine bağlanır.
     """
     merged: dict[str, dict] = {}
-    for prefixes, scheme in detect_families(text):
+    for prefixes, scheme in families:
         for outcome in parse_outcomes(text, prefixes, scheme):
             previous = merged.get(outcome["code"])
             score = len(outcome["text"]) + 50 * len(outcome["components"])
             if previous is None or score > previous["_score"]:
                 merged[outcome["code"]] = {**outcome, "_score": score}
 
-    # Göstergeleri sahibine bağla. Gösterge kodu ebeveynini taşır:
-    # ENG.9.1.G1 -> ENG.9.1
     for match in INDICATOR_RE.finditer(text):
         parent = match.group(1)
         owner = merged.get(parent)

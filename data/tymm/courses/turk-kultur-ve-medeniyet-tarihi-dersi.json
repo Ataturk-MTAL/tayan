@@ -4,6 +4,9 @@
   "name": "Türk Kültür ve Medeniyet Tarihi Dersi",
   "slug": "turk-kultur-ve-medeniyet-tarihi-dersi",
   "prefix": "TKMT",
+  "shapes": [
+   "TKMT/boşluklu-2"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/turk-kultur-ve-medeniyet-tarihi-dersi_20260901_151558_829.pdf"

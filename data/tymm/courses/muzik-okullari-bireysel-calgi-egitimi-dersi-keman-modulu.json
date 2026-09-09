@@ -4,6 +4,9 @@
   "name": "Bireysel Çalgı Eğitimi Dersi-Keman Modülü",
   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-keman-modulu",
   "prefix": "KMN",
+  "shapes": [
+   "KMN/noktalı-4"
+  ],
   "kademe": 11,
   "kademe_name": "Müzik Okulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/muzik-bireysel-calgi-egitimi-keman.pdf"

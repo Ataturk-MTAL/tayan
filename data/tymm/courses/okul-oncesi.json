@@ -4,20 +4,24 @@
   "name": "Okul Öncesi",
   "slug": "okul-oncesi",
   "prefix": "HSAB",
+  "shapes": [
+   "HSAB/boşluklu-2",
+   "HSAB/yapışık-2",
+   "MDB/yapışık-2",
+   "MHB/yapışık-2",
+   "MHBB/yapışık-2",
+   "MSB/yapışık-2",
+   "MYB/noktalı-3",
+   "MYB/yapışık-2",
+   "MÇB/yapışık-2",
+   "TAK/yapışık-2"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/2024programokuloncesiOnayli.pdf"
  },
  "units": [],
  "unassigned_outcomes": [
-  {
-   "code": "TAEOB1.1",
-   "grade": 1,
-   "unit": null,
-   "order": 1,
-   "text": "Görsel sembolleri okumak TAEOB.1. Yazı farkındalığına ilişkin a. Görsel semboller arasından yazıyı gösterir. becerileri gösterebilme TAEOB. Erken Okuryazarlık TAEOB1. Erken Okuryazarlık Becerileri TAEOB.6. Yazma öncesi becerileri",
-   "components": []
-  },
   {
    "code": "HSAB1.1",
    "grade": 1,
@@ -35,14 +39,6 @@
    "components": []
   },
   {
-   "code": "TAEOB1.2",
-   "grade": 1,
-   "unit": null,
-   "order": 2,
-   "text": "Yazının yönünü bilmek b. Yazı yönünü gösterir. TAEOB.1. Yazı farkındalığına ilişkin becerileri",
-   "components": []
-  },
-  {
    "code": "HSAB1.2",
    "grade": 1,
    "unit": null,
@@ -51,27 +47,11 @@
    "components": []
   },
   {
-   "code": "TAEOB1.3",
-   "grade": 1,
-   "unit": null,
-   "order": 3,
-   "text": "İletişimde yazıya ihtiyaç gösterebilme c. İletişimde yazıya neden ihtiyaç duyulduğunu duyulduğunu fark etmek açıklar.",
-   "components": []
-  },
-  {
    "code": "HSAB1.3",
    "grade": 1,
    "unit": null,
    "order": 3,
    "text": "Harekete HSAB.3. Jimnastik, dans ve hareket İlişkin Ritmik etkinliklerinde ritmik beceriler sergileyebilme Beceriler b. Gösterilen dans figürlerini doğru formda yapar.",
-   "components": []
-  },
-  {
-   "code": "TAEOB1.4",
-   "grade": 1,
-   "unit": null,
-   "order": 4,
-   "text": "Yazıdaki noktalama işaretlerini fark ç. Temel noktalama işaretlerini fark eder. etmek a. Cümlenin sözcüklerden oluştuğunu fark eder.",
    "components": []
   },
   {
@@ -96,22 +76,6 @@
    "unit": null,
    "order": 6,
    "text": "SB2. Grupla uyum içerisind. Grup çalışmalarında hareketi farklı yönlerde de hareket etmek yapar. e. Grup çalışmalarında hareketi eş zamanlı yapar. f. Grup içinde sorumlu olduğu hareketi yapar. HSAB2. Aktif ve Zinde Yaşam a. Sağlıklı/sağlıksız yiyecek ve içecekleri ayırt eder.",
-   "components": []
-  },
-  {
-   "code": "SSDB2.1",
-   "grade": 2,
-   "unit": null,
-   "order": 1,
-   "text": "SB4. Grup iletişimine katılmak Değerler: D3 Çalışkanlık D3.4. Çalışmalarda aktif rol almak D3.4.4. Kişisel ve grup içi etkinliklerde sorumluluklarını yerine getirir. OKUL ÖNCESİ EĞİTİM PROGRAMI D19 Vatanseverlik D19.1. Millî bilinç sahibi olmak D19.1.3. Konuşmasında yabancı kelimeler kullanmaktan kaçınır. Okuryazarlık Becerileri OB4.Görsel Okuryazarlık",
-   "components": []
-  },
-  {
-   "code": "TAEOB2.1",
-   "grade": 2,
-   "unit": null,
-   "order": 1,
-   "text": "Cümlelerin sözcüklerden TAEOB.2. Cümlelerin sözcüklerden oluştuğunu oluştuğunu fark etmek söyleyebilme b. Cümlede sözcükler arasında boşluk olduğunu fark eder. TAEOB. Erken Okuryazarlık a. Sözcüklerin ilk/son seslerini fark eder.",
    "components": []
   },
   {
@@ -155,6 +119,14 @@
    "components": []
   },
   {
+   "code": "HSAB2.5",
+   "grade": 2,
+   "unit": null,
+   "order": 5,
+   "text": "SB3. Tehlike ve kaza durumularında yapması gerekenleri b. Tehlike/kaza/afet durumlarında neler yapması bilmek gerektiğini söyler. HSAB3. Harekete HSAB3.3.SB1. Gruba liderlik yapmaya istekli olmak a. Liderlik yapmaya istekli olur. ilişkin Sosyal/Bilişsel HSAB3.3. Hareketli HSAB.12. Hareketli oyunlarda liderliği oyunlarda liderlik deneyimleme özelliklerini keşfetmek Beceriler HSAB3.3.SB2. Kendisi ve diğerleri tarafından alınan kararları uygulamak b. Alınan kararları uygular. HAREKET VE SAĞLIK ALANI (60-72 AY) Bütünleşik Alan Becerileri Süreç Bileşenleri Öğrenme Çıktıları Alt Öğrenme Çıktıları Beceriler HSAB1.1. SB.1 Yer değiştirme hareketleri a. Farklı ortam ve koşullarda yer değiştirme hareketleri yapar. yapmak HSAB1. Aktif Yaşam İçin Psikomotor Beceriler HSAB.1. Farklı çevre ve fiziksel etkinliklerde HSAB1.1. Büyük büyük kas becerilerini etkin bir şekilde Kas Becerileri HSAB1.1. SB.2. Denge hareketleri yapmak b. Etkinliğin durumuna uygun denge hareketleri yapar. uygulayabilme HSAB1.1. SB.3. Nesne kontrolü becerisini c. Nesne kontrolü gerektiren hareketleri yapar. geliştirmek a. Farklı büyüklükteki nesneleri kavrar. HSAB1.2. SB1. Kavrama hareketleri yapmak b. Nesneleri şekillendirir. HSAB1.2. Küçük HSAB.2. Farklı ebat ve özellikteki nesneleri Kas Becerileri etkin bir şekilde kullanabilme HSAB1.2. SB2. El-göz koordinasyonunu c. Farklı boyutlardaki nesneleri kullanır. gerektiren hareketleri yapmak ç. Çeşitli nesneleri kullanarak özgün ürünler oluşturur. HAREKET VE SAĞLIK ALANI (60-72 AY) Bütünleşik Alan Becerileri Süreç Bileşenleri Öğrenme Çıktıları Alt Öğrenme Çıktıları Beceriler HSAB1.3.SB1.Ritmik hareket etmek a. Hareketin ritmine ve temposuna uygun olarak HSAB1.3. SB2. Ritmik hareketleri akıcı bir şekilde farklı şekilde hareket eder. yapmak HSAB1. Aktif Yaşam İçin Psikomotor Beceriler HSAB1.3. Harekete HSAB.3. Jimnastik, dans ve hareket İlişkin Ritmik etkinliklerinde ritmik beceriler sergileyebilme Beceriler b. Gösterilen dans figürlerini doğru formda yapar. HSAB1.3. SB3. Bireysel/eşli/grupla dans etmek c. Bireysel/eşli dans etkinliklerine katılır. HSAB1.4. SB1. Bedeninin farkına varmak a. Bedeninin bölümlerini gösterir. HSAB1.4. Beden HSAB.4. Beden farkındalığına dayalı hareket Farkındalığı edebilme Becerileri HSAB1.4. SB2.Bedeninin farkında olarak hareket etmek b. Bedeninin farkında olarak hareket eder. HSAB1.5. SB1.Genel alanının farkında olmak a. Bedeninin alandaki konumunu söyler. HSAB1.5. Kişisel ve Genel Alan HSAB.5. Kişisel ve genel alanın farkında olarak b. Genel ve kişisel alanı ayırt eder. Farkındalığı hareket edebilme c. Hareketlerinde kişisel sınırlara dikkat eder. Becerileri ç. Kişisel alanına müdahale durumlarından HSAB1.5. SB2.Kişisel alanın farkında olmak kendini sakınır. d. Özel bölge ve iyi-kötü dokunuşları ayırt eder. HAREKET VE SAĞLIK ALANI (60-72 AY) Bütünleşik Alan Becerileri Süreç Bileşenleri Öğrenme Çıktıları Alt Öğrenme Çıktıları Beceriler a. Eşli çalışmalarda hareketi eşiyle aynı yönde HSAB1. Aktif Yaşam İçin HSAB1.6. SB1. Eşiyle uyum içerisinde yapar. hareket etmek b. Eş çalışmalarında hareketi farklı yönlerde yapar. c. Eş çalışmalarında hareketi eş zamanlı yapar. Psikomotor Beceriler HSAB1.6. Eşle/ HSAB.6. Eşle/grupla ahenk içinde Grupla Hareket hareket örüntüleri sergileyebilme ç. Grup çalışmalarında hareketi grupla aynı yönde Becerileri yapar. HSAB1.6. SB2. Grupla uyum içerisind. Grup çalışmalarında hareketi farklı yönlerde de hareket etmek yapar. e. Grup çalışmalarında hareketi eş zamanlı yapar. f. Grup içinde sorumlu olduğu hareketi yapar. HSAB2. Aktif ve Zinde Yaşam a. Sağlıklı/sağlıksız yiyecek ve içecekleri ayırt eder. HSAB2.1. SB1.Sağlıklı besinleri tercih b. Sağlıklı beslenmeye özen gösterir. etmek HSAB2.1. İçin Sağlık Becerileri HSAB.7. Günlük yaşamında sağlıklı Sağlıklı beslenme davranışları gösterebilme Beslenme Becerileri c. \u0007Yeterli ve dengeli beslenmenin önemini fark eder. HSAB2.1.SB2. Yeterli ve dengeli ç. Günlük olarak yeteri kadar sıvı tüketmeye gayret beslenmek eder. HAREKET VE SAĞLIK ALANI (60-72 AY) Bütünleşik Alan Becerileri Süreç Bileşenleri Öğrenme Çıktıları Alt Öğrenme Çıktıları Beceriler a. Hareket etkinlikleri esnasında solunum/ kalp HSAB2.2.SB1. Hareketle birlikte HSAB2. Aktif ve Zinde Yaşam İçin Sağlık atışı/ terleme gibi gerçekleşen fizyolojik değigerçekleşen fizyolojik değişimleri şimleri söyler. açıklamak HSAB2.2.SB2. Doğru duruş ve otuHSAB2.2. HSAB.8. Aktif ve sağlıklı yaşam için b. Günlük yaşamda doğru duruş ve oturuş becerisi ruşun sağlığı için önemini fark etmek Zindelik gereken zindelik becerilerinin neler sergiler. Becerileri olduğunu söyleyebilme c. İhtiyaç duyduğunda dinlenmek istediğini ifade HSAB2.2.SB3.Vücudunu dinlendireder. Becerileri mek ç. Düzenli ve yeteri kadar dinlenmenin önemini kendi cümleleriyle açıklar. HSAB2.3.SB1. Hareketli etkinliklere a. İç ve dış mekanda hareketli etkinliklere istekle aktif olarak katılmak katılır. HSAB2.3. HSAB2.3.SB2. Fiziksel hareketin HSAB.9. Aktif ve sağlıklı yaşam için Aktif Yaşam b. Fiziksel hareketin olumlu etkilerini fark eder. sağlıklı yaşam için önemini söylemek hareket edebilme Becerileri HSAB2.3.SB3. Duruma ve şartlara c. Günlük yaşamda duruma ve şartlara uygun uygun giyinmek giyinir. HAREKET VE SAĞLIK ALANI (60-72 AY) Bütünleşik Alan Becerileri Süreç Bileşenleri Öğrenme Çıktıları Alt Öğrenme Çıktıları Beceriler HSAB2.4. SB1. Kişisel temizliğine dikkat a. Kişisel temizliğini yardım almadan yapar. etmek HSAB2. Aktif ve Zinde Yaşam İçin Sağlık Becerileri HSAB2.4. Temizlik HSAB.10. Sağlıklı yaşam için temizliğe ve düzene Becerisi dikkat edebilme HSAB2.4. SB2. Bulunduğu ortamın b. Bulunduğu çevrenin temizliğine / düzenine katkıda temizliğine/düzenine dikkat etmek bulunur.",
+   "components": []
+  },
+  {
    "code": "TAK3.1",
    "grade": 3,
    "unit": null,
@@ -163,19 +135,11 @@
    "components": []
   },
   {
-   "code": "TAEOB3.1",
-   "grade": 3,
-   "unit": null,
-   "order": 1,
-   "text": "Sözcüklerin ilk ve son seslerini fark b. Sözcüklerin ilk/son seslerinden yeni sözcükler TAEOB.1. Erken etmek üretir. Okuryazarlık TAEOB.3. Ses bilgisel farkındalık becerileri Becerileri gösterebilme c. Sözcüklerin hece/hecelerden oluştuğunu fark",
-   "components": []
-  },
-  {
    "code": "HSAB3.1",
    "grade": 3,
    "unit": null,
    "order": 1,
-   "text": "SB2. Hareketli oyunun kurallarını HSAB.12. Hareketli oyunların temel kurallarını HSAB3. Harekete İlişkin Sosyal/Bilişsel Beceriler b. Hareketli oyunun kurallarını söyler. kurallarını söylemek açıklayabilme söylemek HSAB 3.1. SB3. Hareketli oyuna/kurallarınaic. Hareketli oyunlara basit kural önerileri getirir. lişkin düşüncelerini söylemek",
+   "text": "SB3. Hareketli oyuna/kurallarınaic. Hareketli oyunlara basit kural önerileri getirir. lişkin düşüncelerini söylemek HSAB3.2. SB1. Hareketli oyunları dikkatini a. Hareketli oyunu gözlemler. yoğunlaştırarak gözlemek HSAB3.2. HSAB3.2. SB2. Hareketli oyunun akışını Hareketli söylemek b. Gözlemlediği/bildiği bir hareketli oyunun akışını söyler. HSAB.13. Hareketli oyunlara özgü basit taktik oyunlarda basit ve strateji geliştirebilme",
    "components": []
   },
   {
@@ -187,14 +151,6 @@
    "components": []
   },
   {
-   "code": "TA3.2",
-   "grade": 3,
-   "unit": null,
-   "order": 2,
-   "text": "SB3. Karşılaştırmak c. Konuşma sürecinde karşılaştırmalar yapar. TAKB. Konuşma",
-   "components": []
-  },
-  {
    "code": "TAK3.2",
    "grade": 3,
    "unit": null,
@@ -203,19 +159,11 @@
    "components": []
   },
   {
-   "code": "TAEOB3.2",
-   "grade": 3,
-   "unit": null,
-   "order": 2,
-   "text": "Sözcüklerin hece/hecelerden eder. oluştuğunu fark etmek ç. Bazı sözcüklerin uyaklı olduğunu fark eder. a. Sözcüklerin harflerden oluştuğunu fark eder.",
-   "components": []
-  },
-  {
    "code": "HSAB3.2",
    "grade": 3,
    "unit": null,
    "order": 2,
-   "text": "HSAB3.2. SB2. Hareketli oyunun akışını Hareketli söylemek b. Gözlemlediği/bildiği bir hareketli oyunun akışını söyler. HSAB.13. Hareketli oyunlara özgü basit taktik oyunlarda basit ve strateji geliştirebilme taktik ve strateji HSAB 3.2. SB3. Hareketli oyuna özgü basit geliştirmek taktik ve strateji önermek c. Hareketli oyuna yönelik basit taktik ve stratejiler önerir.",
+   "text": "SB3. Hareketli oyuna özgü basit geliştirmek taktik ve strateji önermek c. Hareketli oyuna yönelik basit taktik ve stratejiler önerir. HSAB3.2. SB4. Hareketli oyuna yönelik söyleç. Hareketli oyuna yönelik basit taktik ve stratejileri dener. diği basit taktik ve stratejiyi uygulamak HSAB3.3. HSAB3.3.SB1. Gruba liderlik yapmaya istekli a. Liderlik yapmaya istekli olur. Hareketli olmak HSAB.14. Hareketli oyunlarda liderliği deneoyunlarda liderlik yimleme özelliklerini HSAB3.3.SB2. Kendisi ve diğerleri tarafından b. Alınan kararları uygular. keşfetmek alınan kararları uygulamak SANAT ALANI (36-48 AY) Alan Bütünleşik Öğrenme Süreç Bileşenleri Alt Öğrenme Çıktıları Becerileri Beceriler Çıktıları SNAB1.SB1. Temel sanat kavramlarını tanımak SNAB1. Sanat Türlerini ve a. Temel sanat türlerini anlamına uygun söyler. SNAB1. Sanat Türlerini ve SNAB.1. Temel sanat kavramlarını ve SNAB1.SB2. Temel sanat türlerini açıklamak Tekniklerini Anlama Tekniklerini türlerini anlayabilme Anlama b. Temel sanat materyallerini kullanım amacına uygun olarak seçer. SNAB1.SB3. Temel sanat materyallerini kullanmak c. Temel sanat materyallerini amacına uygun şekilde kullanır. a. Sanat eserine odaklanır. SNAB2. Sanat Eseri İnceleme SNAB2.SB1. Sanat eserini anlatmak b. Sanat eserinde gördüklerini söyler. SNAB2. Sanat SNAB2.SB2. Sanat eserini yorumlamak SNAB.2. Sanat eseri inceleyebilme c. Sanat eserine ilişkin sorular sorar. Eseri İnceleme SNAB2. SB3. Sanat eseri hakkında yargıda ç. Sanat eserine yönelik duygu ve düşüncelerini ifade eder. bulunmak SANAT ALANI (36-48 AY) Alan Bütünleşik Öğrenme Süreç Bileşenleri Alt Öğrenme Çıktıları Becerileri Beceriler Çıktıları SNAB3. Sanata Değer Verme a. Sanat ve sanatçılar hakkında sorular sorar. SNAB3.SB1. Sanata ilgi duymak b. Sanat eserlerinin nasıl yapıldığına ilişkin tahmin yürütür. SNAB3. Sanata SNAB.3. Sanat eserlerine ve sanatçılara Değer Verme değer verebilme c. Geleneksel ve evrensel sanat eserlerinin bulunduğu dijital ortam ve mekânları ziyaret eder. SNAB3.SB2. Sanatsal etkinlikleri izlemek ç. Dijital veya gerçek sanat ortamlarında sergilenen geleneksel ve evrensel sanat eserlerini inceler. SNAB4. Sanatsal Uygulama SNAB4.SB1. Sanat etkinliği planlamak a. Yapmak istediği sanat etkinliğinin türüne karar verir. SNAB4. Sanatsal SNAB.4. Sanat etkinliği uygulayabilme Uygulama Yapma Yapma b. Yaratıcılığını geliştirecek bireysel veya grup sanat etkinliklerinde aktif rol alır. SNAB4.SB2. Sanat etkinliği yapmak c. Sanat etkinliklerinde yaratıcı ürünler oluşturur. SANAT ALANI (48-60 AY) Alan Bütünleşik Öğrenme Süreç Bileşenleri Alt Öğrenme Çıktıları Becerileri Beceriler Çıktıları SNAB1. Sanat Türlerini ve SNAB1.SB1. Temel sanat kavramlarını tanımak a. Temel sanat türlerini anlamına uygun söyler. SNAB1.SB2. Temel sanat türleriniaçıklamak SNAB1. Sanat Türlerini SNAB.1. Temel sanat kavramlarını Tekniklerini Anlama ve Tekniklerini Anlama ve türlerini anlayabilme b. Temel sanat materyallerini kullanım amacına uygun olarak seçer. SNAB1.SB3. Temel sanat materyallerini kullanmak c. Temel sanat materyallerini amacına uygun şekilde kullanır. a. Sanat eserine odaklanır. SNAB2.SB1. Sanat eserini anlatmak SNAB2. Sanat Eseri İnceleme b. Sanat eserinde gördüklerini söyler. c. Sanat eserine ilişkin sorular sorar. SNAB2.SB2. Sanat eserini yorumlamak SNAB2. Sanat Eseri SNAB.2. Sanat eseri inceleyebilme İnceleme ç. Sanat eserinin konusuna ilişkin kendi deneyimlerine dayanarak tahmin yürütür. d. Sanat eserine yönelik duygu ve düşüncelerini ifade eder. SNAB2. SB3. Sanat eseri hakkında yargıda bulunmak e. Sanat eseri hakkındaki duygu ve düşüncelerinin nedenlerini açıklar. SANAT ALANI (48-60 AY) Alan Bütünleşik Öğrenme Süreç Bileşenleri Alt Öğrenme Çıktıları Becerileri Beceriler Çıktıları SNAB3. Sanata Değer Verme a. Sanat ve sanatçılar hakkında sorular sorar. SNAB3.SB1. Sanata ilgi duymak b. Sanat eserlerinin nasıl yapıldığına ilişkin tahmin yürütür. SNAB3. Sanata Değer SNAB.3. Sanat eserlerine ve sanatçılara Verme değer verebilme c. Geleneksel ve evrensel sanat eserlerinin bulunduğu dijital ortam ve mekânları ziyaret eder. SNAB3.SB2. Sanatsal etkinlikleri izlemek ç. Dijital veya gerçek sanat ortamlarında sergilenen geleneksel ve evrensel sanat eserlerini inceler. SNAB4. Sanatsal Uygulama a. Yapmak istediği sanat etkinliğinin türüne karar verir. SNAB4.SB1. Sanat etkinliği planlamak b. Yapmak istediği sanat etkinliği için gerekli olan materyalleri seçer. SNAB4. Sanatsal SNAB.4. Sanat etkinliği uygulayabilme Yapma Uygulama Yapma c. Yaratıcılığını geliştirecek bireysel veya grup sanat etkinliklerinde aktif rol alır. SNAB4.SB2. Sanat etkinliği yapmak ç. Sanat etkinliklerinde yaratıcı ürünler oluşturur. SANAT ALANI (60-72 AY) Alan Bütünleşik Süreç Bileşenleri Öğrenme Çıktıları Alt Öğrenme Çıktıları Becerileri Beceriler SNAB1. Sanat Türlerini SNAB1.SB1. Temel sanat kavramlarını tanımak a. Temel sanat türlerini anlamına uygun söyler. SNAB1.SB2. Temel sanat türlerini açıklamak ve SNAB1. Sanat Türlerini ve Tekniklerini Anlama SNAB.1. Temel sanat kavramlarını ve türlerini anlayabilme b. Temel sanat materyallerini kullanım amacına uygun olarak seçer. Tekniklerini Anlama SNAB1.SB3. Temel sanat materyallerini kullanmak c. Temel sanat materyallerini amacına uygun şekilde kullanır. ç. Dramaya özgü seçtiği materyalleri amacına uygun şekilde kullanır. a. Sanat eserine odaklanır. b. Sanat eserinde gördüklerini söyler. SNAB2.SB1. Sanat eserini anlatmak c. Yer aldığı drama etkinliğinde geçen canlandırmalara ilişkin gözlemlerini ifade eder. SNAB2. Sanat Eseri İnceleme ç. Sanat eserine ilişkin sorular sorar. d. Sanat eserinin konusuna ilişkin kendi deneyimlerine dayanarak tahmin yürütür. SNAB2.SB2. Sanat eserini yorumlamak SNAB2. Sanat Eseri SNAB.2. Sanat eseri e. Drama etkinliğinin konusu hakkında sorular sorar. İnceleme inceleyebilme f. Drama etkinliğinde geçen konu, durum ya da hikâyeye ilişkin tahmin yürütür. g. Sanat eserine yönelik duygu ve düşüncelerini ifade eder. ğ. Sanat eseri hakkındaki duygu ve düşüncelerinin nedenlerini açıklar. SNAB2. SB3. Sanat eseri hakkında yargıda bulunmak h. Drama etkinliğinde geçen konu, durum ya da hikâyeye yönelik duygu ve düşüncelerini ifade eder. ı. Drama etkinliğinde geçen konu, durum ya da hikâyeye yönelik duygu ve düşüncelerinin nedenlerini açıklar. SANAT ALANI (60-72 AY) Alan Bütünleşik Öğrenme Süreç Bileşenleri Alt Öğrenme Çıktıları Becerileri Beceriler Çıktıları SNAB3. Sanata Değer Verme a. Sanat ve sanatçılar hakkında sorular sorar. SNAB3.SB1. Sanata ilgi duymak b. Sanat eserlerinin nasıl yapıldığına ilişkin tahmin yürütür. SNAB.3. Sanat SNAB3. Sanata Değer eserlerine ve Verme sanatçılara değer verebilme c. Geleneksel ve evrensel sanat eserlerinin bulunduğu dijital ortam ve mekânları ziyaret eder. SNAB3.SB2. Sanatsal etkinlikleri izlemek ç. Dijital veya gerçek sanat ortamlarında sergilenen geleneksel ve evrensel sanat eserlerini inceler. a. Yapmak istediği sanat etkinliğinin türüne karar verir. SNAB4. Sanatsal Uygulama SNAB4.SB1. Sanat etkinliği planlamak b. Yapmak istediği sanat etkinliği için gerekli olan materyalleri seçer. c. Katıldığı drama etkinliği için gerekli olabilecek materyalleri seçer. SNAB.4. SNAB4. Sanatsal Sanat etkinliği Yapma Uygulama Yapma uygulayabilme ç. Yaratıcılığını geliştirecek bireysel veya grup sanat etkinliklerinde aktif rol alır. SNAB4.SB2. Sanat etkinliği yapmak d. Sanat etkinliklerinde yaratıcı ürünler oluşturur. e. Drama etkinliklerinde yaratıcı performans sergiler. MÜZİK ALANI (36 48 AY) Alan Bütünleşik Süreç Bileşenleri Öğrenme Çıktıları Alt Öğrenme Çıktıları Becerileri Beceriler a. Kendisine sunulan seçenekler arasından dinleyeceği çocuk şarkılarını/çocuk şarkısı formlarını seçer. MDB.1. Çeşitli çocuk şarkılarını/çocuk şarkısı formlarını MDB1.1.SB1. dinleyebilme b. Seçtiği çocuk şarkılarını/çocuk şarkısı formlarını dinler. MDB1. Müziksel Dinlemeyi/ izlemeyi yönetmek a. Dinlediği çocuk şarkılarının/çocuk şarkısı formlarının isimlerini söyler. MDB.2. Dinlediği çocuk şarkılarına/çocuk şarkısı formlarına dair duygu ve düşüncelerini ifade edebilme MDB1.1. b. Dinlediği çocuk şarkılarına/çocuk şarkısı formlarına dair duygu ve düşüncelerini ifade eder. Dinleme/ a. Doğadan/çevreden/nesnelerden duyduğu seslerin kaynağını gösterir. Dinleme İzleme MDB.3. Duyduğu seslerin kaynağını anlayabilme MDB1.1.SB2. b. Doğadan/çevreden/nesnelerden duyduğu seslerin kaynağını ifade eder. Dinlediğini a. Dinlediği sözlü/sözsüz müzik eserlerindeki/çocuk şarkılarındaki kuvvetli ve hafif ses farklılıklarını/yavaş anlamlandırmak MDB.4. Dinlediği sözlü/ sözsüz müzik eserlerindeki/ ve hızlı tempo farklılıklarını ifade eder. çocuk şarkılarındaki özellikleri fark edebilme b. Dinlediği sözlü/sözsüz müzik eserlerindeki/çocuk şarkılarındaki ritim farklılıklarını ifade eder. a. Doğadan/çevreden/nesnelerden duyduğu seslere dair duygu ve düşüncelerini ifade eder. MSB2.1.SB1. MSB2. Müziksel MSB.1. Duyduğu sesleri kendi sesiyle taklit edebilme Söylemeyi yönetmek b. Doğadan/çevreden/nesnelerden duyduğu sesleri taklit eder. a. Çocuk şarkılarının/çocuk şarkısı formlarının sözlerini doğru telaffuzla söyler. MSB2.1.SB2. MSB2.1. MSB.2. Çocuk şarkılarındaki/çocuk şarkısı Söylediğini Söyleme Söyleme formlarındaki özellikleri fark ederek söyleyebilme b. Çocuk şarkılarını/çocuk şarkısı formlarını kuvvetli ve hafif ses farklılıklarına/yavaş ve hızlı tempo anlamlandırmak farklılıklarına/ritim farklılıklarına göre söyler. a. Duygu ve düşüncelerini çocuk şarkılarını/çocuk şarkısı formlarını söyleyerek ifade eder. MSB2.1.SB3. MSB.3. Söyleme becerilerini sınıf içinde Söylemeyi sunmak sergileyebilme b. Çocuk şarkılarını/çocuk şarkısı formlarını bireysel olarak/grupla uyum içinde söyler. a. Kendisine sunulan artık materyallerden yapılmış çalgı/Orff çalgısı seçenekleri arasından çalacağı çalgıyı seçer. MÇB3. Müziksel Çalma b. Seçtiği artık materyallerden yapılmış çalgının/Orff çalgısının ismini/özelliklerini söyler. MÇB3.1.SB1. Çalmayı MÇB.1. Çalacağı çalgılara/ritimlere/ezgilere dair duygu yönetmek ve düşüncelerini ifade edebilme c. Kendisine sunulan seçenekler arasından çalacağı ritimleri/ezgileri seçer. MÇB3.1. Çalma ç. Çaldığı ritimlere/ezgilere/çocuk şarkılarına/çocuk şarkısı formlarına dair duygu ve düşüncelerini ifade eder. MÇB3.1.SB2. Çalmayı MÇB.2. Çaldığı ritimlerdeki özellikleri fark edebilme a. Ritimleri/ ezgileri kuvvetli ve hafif ses farklılıklarına/yavaş ve hızlı tempo farklılıklarına göre çalar. anlamlandırmak MÇB3.1.SB3. Çalmayı MÇB.3. Müziksel çalma becerilerini sergileyebilme a. Duyduğu çeşitli sesleri artık materyallerden yapılmış çalgılar ve Orff çalgılarıyla çalar. sunmak MÜZİK ALANI (36 48 AY) Alan Bütünleşik Süreç Bileşenleri Öğrenme Çıktıları Alt Öğrenme Çıktıları Becerileri Beceriler a. Kendisine sunulan seçenekler arasından hareket ve dans edeceği ritimleri/müzik MHB.1. Harekete ve dansa eşlik eden ritimlere/müzik eserlerini seçer. MHB4.1.SB1. Hareket ve eserlerine/çocuk şarkılarına/çocuk şarkısı formlarına dair b. Seçtiği müzik eserlerinin isimlerini söyler. dansı yönetmek MHB4. Müziksel Hareket duygu ve düşüncelerini ifade edebilme c. Harekete eşlik eden ritimlere/müzik eserlerine/çocuk şarkılarına/çocuk şarkısı formlarına dair duygu ve düşüncelerini ifade eder. MHB.2. Harekete ve dansa eşlik eden ritimlerdeki/müzik a. Ritimlerdeki yavaş ve hızlı tempo değişikliklerini hareketle/dansla gösterir. MHB4.1. Hareket MHB4.1.SB2. Hareket ve eserlerindeki/çocuk şarkılarındaki/çocuk şarkısı formlarındaki b. Müzik eserlerindeki/çocuk şarkılarındaki/çocuk şarkısı formlarındaki kuvvetli ve ve Dans Etme dansı anlamlandırmak özellikleri fark edebilme hafif ses farklılıklarını/yavaş ve hızlı tempo farklılıklarını hareketle/dansla gösterir. a. Mekânın fiziki koşullarına uygun olarak hareket/dans eder. MHBB4.1.SB3. Hareket b. Çocuğa uygun müzik eserleriyle bireysel/grupla birlikte hareket/dans eder. MHB.3. Müzik ve ritimlerle hareket ve dans edebilme ve dansı sunmak c. Grupla uyum içerisinde beden perküsyonu yapar. MYB5.1.SB1. Müziksel MYB.1. Müziksel deneyimlerinden yola çıkarak müziksel ürün MYB5. Müziksel a. Beden perküsyonuyla/hareketle/dansla planlı veya doğaçlama ritim üretir. yaratım yapmak ortaya koyabilme Yaratıcılık MYB.5.1. Yaratıcılık MYB5.1.SB2. Müziksel a. Planlı veya doğaçlama ürettiği ritmi beden perküsyonuyla/hareketle/dansla MYB.2. Ürettiği müziksel ürünlerini sergileyebilme yaratımı sunmak gösterir. MÜZİK ALANI (48 60 AY) Alan Bütünleşik Süreç Bileşenleri Öğrenme Çıktıları Alt Öğrenme Çıktıları Becerileri Beceriler a. Kendisine sunulan seçenekler arasından dinleyeceği çocuk şarkılarını/çocuk şarkısı MDB.1. Çeşitli çocuk şarkılarını/çocuk şarkısı formlarını formlarını seçer. dinleyebilme b. Seçtiği çocuk şarkılarını/çocuk şarkısı formlarını dinler. MDB1. Müziksel Dinleme MDB1.1.SB1. Dinlemeyi/ izlemeyi yönetmek a. Dinlediği çocuk şarkılarının/çocuk şarkısı formlarının isimlerini söyler. MDB.2. Dinlediği çocuk şarkılarına/çocuk şarkısı formlarına dair duygu ve düşüncelerini ifade edebilme b. Dinlediği çocuk şarkılarına/çocuk şarkısı formlarına dair duygu ve düşüncelerini ifade eder. MDB1.1. Dinleme/İzleme a. Doğadan/çevreden/nesnelerden duyduğu seslerin kaynağını gösterir. MDB.3. Duyduğu seslerin kaynağını anlayabilme b. Doğadan/çevreden/nesnelerden duyduğu seslerin kaynağını ifade eder. MDB1.1.SB2. Dinlediğini anlamlandırmak a. Dinlediği sözlü/sözsüz müzik eserlerindeki/çocuk şarkılarındaki kalın ve ince/kuvvetli ve hafif ses farklılıklarını/yavaş ve hızlı tempo farklılıklarını ifade eder. MDB.4. Dinlediği sözlü/ sözsüz müzik eserlerindeki/çocuk şarkılarındaki özellikleri fark edebilme b. Dinlediği sözlü/sözsüz müzik eserlerindeki/çocuk şarkılarındaki ezgi/ritim/çalgı farklılıklarını ifade eder. a. Doğadan/çevreden/nesnelerden duyduğu seslere dair duygu ve düşüncelerini ifade eder. MSB2.1.SB1. Söylemeyi MSB.1. Duyduğu sesleri kendi sesiyle taklit edebilme MSB2. Müziksel Söyleme yönetmek b. Doğadan/çevreden/nesnelerden duyduğu sesleri taklit eder. a. Çocuk şarkılarının/çocuk şarkısı formlarının sözlerini doğru telaffuzla söyler. MSB2.1.SB2. Söylediğini MSB.2. Çocuk şarkılarındaki/çocuk şarkısı formlarındaki anlamlandırmak özellikleri fark ederek söyleyebilme b. Çocuk şarkılarını/çocuk şarkısı formlarını kalın ve ince/kuvvetli ve hafif ses farklılıklarına/ MSB2.1. yavaş ve hızlı tempo farklılıklarına/ritim farklılıklarına göre söyler. Söyleme a. Duygu ve düşüncelerini çocuk şarkılarını/çocuk şarkısı formlarını söyleyerek ifade eder. b. Çocuk şarkılarını/çocuk şarkısı formlarını bireysel olarak/grupla uyum içinde söyler. MSB2.1.SB3. Söylemeyi MSB.3. Söyleme becerilerini sınıf içinde sergileyebilme sunmak c. Çocuk şarkılarını/çocuk şarkısı formlarını müzikli dramatizasyonda grupla uyum içerisinde söyler. MÜZİK ALANI (48 60 AY) Alan Bütünleşik Süreç Bileşenleri Öğrenme Çıktıları Alt Öğrenme Çıktıları Becerileri Beceriler a. Doğadan/çevreden/nesnelerden duyduğu sesleri artık materyallerden yapılmış çalgıları/Orff çalgılarını kullanarak MÇB.1. Duyduğu sesleri çalgıyla taklit taklit eder. MÇB3. Müziksel Çalma edebilme b. Doğadan/çevreden/nesnelerden artık materyallerden yapılmış çalgıları/Orff çalgılarını kullanarak taklit ettiği MÇB3.1.SB1. Çalmayı seslere dair duygu ve düşüncelerini ifade eder. yönetmek MÇB.2. Çalacağı çalgılara/ritimlere/ a. Kendisine sunulan artık materyallerden yapılmış çalgı/Orff çalgısı seçenekleri arasından çalacağı çalgıyı seçer. ezgilere/çocuk şarkılarına/çocuk şarkısı b. Seçtiği artık materyallerden yapılmış çalgının/Orff çalgısının ismini/özelliklerini söyler. formlarına dair duygu ve düşüncelerini c. Kendisine sunulan seçenekler arasından çalacağı ritimleri/ezgileri/çocuk şarkılarını/çocuk şarkısı formlarını seçer. MÇB3.1. Çalma ifade edebilme ç. Çaldığı ritimlere/ezgilere/çocuk şarkılarına/çocuk şarkısı formlarına dair duygu ve düşüncelerini ifade eder. MÇB.3. Çaldığı ritimlerdeki/ezgilerdeki/ a. Ritimleri/ ezgileri kuvvetli ve hafif ses farklılıklarına/yavaş ve hızlı tempo farklılıklarına göre çalar. MÇB3.1.SB2. Çalmayı çocuk şarkılarındaki/çocuk şarkısı b. Çocuk şarkılarını/çocuk şarkısı formlarını kuvvetli ve hafif ses farklılıklarına/yavaş ve hızlı tempo farklılıklarına göre anlamlandırmak formlarındaki özellikleri fark edebilme çalar. a. Duygu ve düşüncelerini çocuk şarkılarını/çocuk şarkısı formlarını artık materyallerden yapılmış çalgılar ve Orff MÇB3.1.SB3. Çalmayı MÇB.4. Müziksel çalma becerilerini çalgılarını çalarak ifade eder. sunmak sergileyebilme b. Artık materyallerden yapılmış çalgıları ve Orff çalgılarını bireysel olarak/grupla birlikte uyum içerisinde çalar. c. Artık materyallerden yapılmış çalgıları ve Orff çalgılarını müzikli dramatizasyonda kullanır. MHB.1. Harekete ve dansa eşlik eden a. Kendisine sunulan seçenekler arasından hareket ve dans edeceği ritimleri/müzik eserlerini seçer. MHB4.1.SB1. Hareket ritimlere/müzik eserlerine/çocuk b. Seçtiği müzik eserlerinin isimlerini söyler. MHB4. Müziksel ve dansı yönetmek şarkılarına/çocuk şarkısı formlarına dair c. Harekete ve dansa eşlik eden ritimlere/müzik eserlerine/çocuk şarkılarına/çocuk şarkısı formlarına dair duygu ve duygu ve düşüncelerini ifade edebilme düşüncelerini ifade eder. MHB.2. Harekete ve dansa eşlik eden MHB4.1. MHB4.1.SB2. a. Ritimlerdeki uzun ve kısa süre yavaş ve hızlı tempo değişikliklerini hareketle/dansla gösterir. ritimlerdeki/müzik eserlerindeki/ Hareket ve Dans Hareket ve dansı çocuk şarkılarındaki/çocuk şarkısı b. Müzik eserlerindeki/çocuk şarkılarındaki/çocuk şarkısı formlarındaki kalın ve ince/kuvvetli ve hafif ses farklılıklarını/ Hareket Etme anlamlandırmak yavaş ve hızlı tempo farklılıklarını hareketle/dansla gösterir. formlarındaki özellikleri fark edebilme a. Mekânın fiziki koşullarına uygun olarak hareket/dans eder. MHBB4.1.SB3. MHB.3. Müzik ve ritimlerle hareket ve b. Çocuğa uygun müzik eserleriyle bireysel/grupla birlikte hareket/dans eder. Hareket ve dansı dans edebilme c. Hareket ve dansı müzikli dramatizasyonda kullanır. sunmak ç. Grupla uyum içerisinde beden perküsyonu yapar. a. Beden perküsyonuyla/hareketle/dansla planlı veya doğaçlama ritim üretir. b. Planlı ya da doğaçlama çocuk şarkıları/çocuk şarkısı formları üretir. MYB5. Müziksel MYB5.1.SB1. Müziksel MYB.1. Müziksel deneyimlerinden yola c. Artık materyallerden yapılmış çalgılarla ve Orff çalgılarıyla planlı veya doğaçlama ritim/ezgi üretir. yaratım yapmak çıkarak müziksel ürün ortaya koyabilme ç. Grupla uyum içerisinde müzikli oyun veya dramatizasyon üretir. d. Artık materyallerle çalgılar üretir. MYB.5.1. Yaratıcılık Yaratıcılık a. Planlı veya doğaçlama ürettiği ritmi beden perküsyonuyla/hareketle/dansla gösterir. b. Planlı veya doğaçlama ürettiği çocuk şarkısını/çocuk şarkısı formunu söyler. MYB5.1.SB2. Müziksel MYB.2. Ürettiği müziksel ürünlerini c. Planlı veya doğaçlama ürettiği ritmi/ezgiyi artık materyallerden yapılmış çalgılarla ve Orff çalgılarıyla çalar. yaratımı sunmak sergileyebilme ç. Planlı veya doğaçlama ürettiği müzikli oyunu veya dramatizasyonu sunar. d. Artık materyallerden ürettiği çalgıları çalar. MÜZİK ALANI (60 72 AY) Alan Bütünleşik Süreç Bileşenleri Öğrenme Çıktıları Alt Öğrenme Çıktıları Becerileri Beceriler a. Kendisine sunulan seçenekler arasından dinleyeceği çocuk şarkılarını/çocuk şarkısı MDB.1. Çeşitli çocuk şarkılarını/çocuk şarkısı formlarını formlarını seçer. dinleyebilme b. Seçtiği çocuk şarkılarını/çocuk şarkısı formlarını dinler. MDB1. Müziksel Dinleme MDB1.1.SB1. Dinlemeyi/ izlemeyi yönetmek a. Dinlediği çocuk şarkılarının/çocuk şarkısı formlarının isimlerini söyler. MDB.2. Dinlediği çocuk şarkılarına/çocuk şarkısı formlarına b. Dinlediği çocuk şarkılarına/çocuk şarkısı formlarına dair duygu ve düşüncelerini dair duygu ve düşüncelerini ifade edebilme ifade eder. MDB1.1. Dinleme/İzleme a. Doğadan/çevreden/nesnelerden duyduğu seslerin kaynağını gösterir. MDB.3. Duyduğu seslerin kaynağını anlayabilme b. Doğadan/çevreden/nesnelerden duyduğu seslerin kaynağını ifade eder. MDB1.1.SB2. Dinlediğini a. Dinlediği sözlü/sözsüz müzik eserlerindeki/çocuk şarkılarındaki kalın ve ince/ anlamlandırmak MDB.4. Dinlediği sözlü/ sözsüz müzik eserlerindeki/çocuk kuvvetli ve hafif ses farklılıklarını/yavaş ve hızlı tempo farklılıklarını ifade eder. şarkılarındaki özellikleri fark edebilme b. Dinlediği sözlü/sözsüz müzik eserlerindeki/çocuk şarkılarındaki ezgi/ritim/çalgı farklılıklarını ifade eder. a. Doğadan/çevreden/nesnelerden duyduğu seslere dair duygu ve düşüncelerini ifade MSB2.1.SB1. Söylemeyi MSB2. Müziksel Söyleme MSB.1. Duyduğu sesleri kendi sesiyle taklit edebilme eder. yönetmek b. Doğadan/çevreden/nesnelerden duyduğu sesleri taklit eder. MSB2.1.SB2. a. Çocuk şarkılarının/çocuk şarkısı formlarının sözlerini doğru telaffuzla söyler. MSB.2. Çocuk şarkılarındaki/çocuk şarkısı formlarındaki MSB2.1. Söylediğini b. Çocuk şarkılarını/çocuk şarkısı formlarını kalın ve ince/kuvvetli ve hafif ses özellikleri fark ederek söyleyebilme Söyleme anlamlandırmak farklılıklarına/yavaş ve hızlı tempo farklılıklarına/ritim farklılıklarına göre söyler. a. Duygu ve düşüncelerini çocuk şarkılarını/çocuk şarkısı formlarını söyleyerek ifade eder. MSB2.1.SB3. Söylemeyi MSB.3. Söyleme becerilerini sınıf içinde sergileyebilme b. Çocuk şarkılarını/çocuk şarkısı formlarını bireysel olarak/grupla uyum içinde söyler. sunmak c. Çocuk şarkılarını/çocuk şarkısı formlarını müzikli dramatizasyonda grupla uyum içerisinde söyler. MÜZİK ALANI (60 72 AY) Alan Bütünleşik Süreç Bileşenleri Öğrenme Çıktıları Alt Öğrenme Çıktıları Becerileri Beceriler a. Doğadan/çevreden/nesnelerden duyduğu sesleri artık materyallerden yapılmış çalgıları/Orff çalgılarını kullanarak taklit eder. MÇB.1. Duyduğu sesleri çalgıyla taklit edebilme b. Doğadan/çevreden/nesnelerden artık materyallerden yapılmış çalgıları/Orff çalgılarını kullanarak taklit ettiği MÇB3. Müziksel Çalma seslere dair duygu ve düşüncelerini ifade eder. MÇB3.1.SB1. Çalmayı yönetmek a. Kendisine sunulan artık materyallerden yapılmış çalgı/Orff çalgısı seçenekleri arasından çalacağı çalgıyı seçer. MÇB.2. Çalacağı çalgılara/ritimlere/ezgilere/çocuk b. Seçtiği artık materyallerden yapılmış çalgının/Orff çalgısının ismini/özelliklerini söyler. şarkılarına/çocuk şarkısı formlarına dair duygu ve c. Kendisine sunulan seçenekler arasından çalacağı ritimleri/ezgileri/çocuk şarkılarını/çocuk şarkısı formlarını düşüncelerini ifade edebilme seçer. MÇB3.1. ç. Çaldığı ritimlere/ezgilere/çocuk şarkılarına/çocuk şarkısı formlarına dair duygu ve düşüncelerini ifade eder. Çalma MÇB.3. Çaldığı ritimlerdeki/ezgilerdeki/çocuk a. Ritimleri/ ezgileri kuvvetli ve hafif ses farklılıklarına/yavaş ve hızlı tempo farklılıklarına göre çalar. MÇB3.1.SB2. Çalmayı şarkılarındaki/çocuk şarkısı formlarındaki özellikleri b. Çocuk şarkılarını/çocuk şarkısı formlarını kuvvetli ve hafif ses farklılıklarına/yavaş ve hızlı tempo farklılıklarına anlamlandırmak fark edebilme göre çalar. a. Duygu ve düşüncelerini çocuk şarkılarını/çocuk şarkısı formlarını artık materyallerden yapılmış çalgılar ve Orff MÇB3.1.SB3. Çalmayı çalgılarını çalarak ifade eder. MÇB.4. Müziksel çalma becerilerini sergileyebilme sunmak b. Artık materyallerden yapılmış çalgıları ve Orff çalgılarını bireysel olarak/grupla birlikte uyum içerisinde çalar. c. Artık materyallerden yapılmış çalgıları ve Orff çalgılarını müzikli dramatizasyonda kullanır. a. Kendisine sunulan seçenekler arasından hareket ve dans edeceği ritimleri/müzik eserlerini seçer. MHB.1. Harekete ve dansa eşlik eden ritimlere/müzik MHB4.1.SB1. Hareket b. Seçtiği müzik eserlerinin isimlerini söyler. eserlerine/çocuk şarkılarına/çocuk şarkısı formlarına MHB4. Müziksel ve dansı yönetmek c. Harekete/dansa eşlik eden ritimlere/müzik eserlerine/çocuk şarkılarına/çocuk şarkısı formlarına dair duygu ve dair duygu ve düşüncelerini ifade edebilme düşüncelerini ifade eder. MHB4.1. MHB4.1.SB2. MHB.2. Harekete ve dansa eşlik eden ritimlerdeki/ a. Ritimlerdeki uzun ve kısa süre yavaş ve hızlı tempo değişikliklerini hareketle/dansla gösterir. Hareket ve Hareket ve dansı müzik eserlerindeki/çocuk şarkılarındaki/çocuk b. Müzik eserlerindeki/çocuk şarkılarındaki/çocuk şarkısı formlarındaki kalın ve ince/kuvvetli ve hafif ses Hareket Dans Etme anlamlandırmak şarkısı formlarındaki özellikleri fark edebilme farklılıklarını/yavaş ve hızlı tempo farklılıklarını hareketle/dansla gösterir. a. Mekânın fiziki koşullarına uygun olarak hareket/dans eder. MHBB4.1.SB3. b. Çocuğa uygun müzik eserleriyle bireysel/grupla birlikte hareket/dans eder. Hareket ve dansı MHB.3. Müzik ve ritimlerle hareket ve dans edebilme c. Hareket ve dansı müzikli dramatizasyonda kullanır. sunmak ç. Grupla uyum içerisinde beden perküsyonu yapar. a. Beden perküsyonuyla/hareketle/dansla planlı veya doğaçlama ritim üretir. MYB5. Müziksel b. Planlı ya da doğaçlama çocuk şarkıları/çocuk şarkısı formları üretir. MYB5.1.SB1. Müziksel MYB.1. Müziksel deneyimlerinden yola çıkarak c. Artık materyallerden yapılmış çalgılarla ve Orff çalgılarıyla planlı veya doğaçlama ritim/ezgi üretir. yaratım yapmak müziksel ürün ortaya koyabilme ç. Grupla uyum içerisinde müzikli oyun veya dramatizasyon üretir. MYB.5.1. d. Artık materyallerle çalgılar üretir. Yaratıcılık Yaratıcılık a. Planlı veya doğaçlama ürettiği ritmi beden perküsyonuyla/hareketle/dansla gösterir. b. Planlı veya doğaçlama ürettiği çocuk şarkısını/çocuk şarkısı formunu söyler. MYB5.1.SB2. Müziksel MYB.2. Ürettiği müziksel ürünlerini sergileyebilme c. Planlı veya doğaçlama ürettiği ritmi/ezgiyi artık materyallerden yapılmış çalgılarla ve Orff çalgılarıyla çalar. yaratımı sunmak ç. Planlı veya doğaçlama ürettiği müzikli oyunu veya dramatizasyonu sunar. d. Artık materyallerden ürettiği çalgıları çalar. EK 2 : BECERİ GÖZLEM FORMU Sayın Öğretmen, “Beceri Gözlem Formu” dönemde en az bir defa olmak üzere her bir çocuk için doldurulmalıdır. Her çocuk için ayrı ayrı doldurulacak olan bu form iyi, orta ve geliştirilmeli olmak üzere üçlü dereceleme ölçeği niteliğindedir. Çocukta belirlenen ay aralığında kazandırılması planlanan becerilerin ve değerlerin karşısındaki ilgili kutucuklara beceri edinim düzeyi işaretlenmelidir. Açıklama bölümünde ise geliştirilmesi gerekenlere ilişkin ek açıklamalara, özel durumlara ve önerilere yer verilebilir. Çocuğun Adı Soyadı : . .................................................. Çocuğun Yaşı : ............. Tarih : ...../...../.......... 1. Dönem 2. Dönem",
    "components": []
   },
   {
@@ -251,27 +199,11 @@
    "components": []
   },
   {
-   "code": "TAEOB4.1",
-   "grade": 4,
-   "unit": null,
-   "order": 1,
-   "text": "Sözcüklerin harflerden oluştuğunu TAEOB.4. Sözcüklerin harflerden oluştuğunu fark etmek fark edebilme b. Sözcükte yer alan büyük ve küçük harfleri gösterir.",
-   "components": []
-  },
-  {
    "code": "MHBB4.1",
    "grade": 4,
    "unit": null,
    "order": 1,
    "text": "SB3. MHB.3. Müzik ve ritimlerle hareket ve b. Çocuğa uygun müzik eserleriyle bireysel/grupla birlikte hareket/dans eder. Hareket ve dansı dans edebilme c. Hareket ve dansı müzikli dramatizasyonda kullanır. sunmak ç. Grupla uyum içerisinde beden perküsyonu yapar. a. Beden perküsyonuyla/hareketle/dansla planlı veya doğaçlama ritim üretir. b. Planlı ya da doğaçlama çocuk şarkıları/çocuk şarkısı formları üretir. MYB5. Müziksel",
-   "components": []
-  },
-  {
-   "code": "TAEOB5.1",
-   "grade": 5,
-   "unit": null,
-   "order": 1,
-   "text": "Kitabın nasıl kullanılması gerektiğini a. Kitabın temel unsurlarını bilir. TAEOB.5. Okuma öncesi becerileri kazanabilme bilmek b. Uygun okuma şeklini bilir.",
    "components": []
   },
   {
@@ -283,11 +215,11 @@
    "components": []
   },
   {
-   "code": "TAEOB6.1",
-   "grade": 6,
+   "code": "MYB.5.1",
+   "grade": 5,
    "unit": null,
    "order": 1,
-   "text": "Yazı yazma için gerekli becerileri a. Yazma için uygun oturma pozisyonu alır. TAEOB.6. Yazma öncesi becerileri kazanabilme kazanmak b. İstenilen nitelikte yazar ve çizer. MATEMATİK ALANI (36-48 AY) Alan Bütünleşik Süreç Bileşenleri Öğrenme Çıktıları Alt Öğrenme Çıktıları Becerileri Beceriler MAB6. Sayma",
+   "text": "Yaratıcılık Yaratıcılık a. Planlı veya doğaçlama ürettiği ritmi beden perküsyonuyla/hareketle/dansla gösterir. b. Planlı veya doğaçlama ürettiği çocuk şarkısını/çocuk şarkısı formunu söyler. MYB5.1.SB2. Müziksel MYB.2. Ürettiği müziksel ürünlerini c. Planlı veya doğaçlama ürettiği ritmi/ezgiyi artık materyallerden yapılmış çalgılarla ve Orff çalgılarıyla çalar. yaratımı sunmak sergileyebilme ç. Planlı veya doğaçlama ürettiği müzikli oyunu veya dramatizasyonu sunar. d. Artık materyallerden ürettiği çalgıları çalar. MÜZİK ALANI (60 72 AY) Alan Bütünleşik Süreç Bileşenleri Öğrenme Çıktıları Alt Öğrenme Çıktıları Becerileri Beceriler a. Kendisine sunulan seçenekler arasından dinleyeceği çocuk şarkılarını/çocuk şarkısı MDB.1. Çeşitli çocuk şarkılarını/çocuk şarkısı formlarını formlarını seçer. dinleyebilme b. Seçtiği çocuk şarkılarını/çocuk şarkısı formlarını dinler. MDB1. Müziksel Dinleme MDB1.1.SB1. Dinlemeyi/ izlemeyi yönetmek a. Dinlediği çocuk şarkılarının/çocuk şarkısı formlarının isimlerini söyler. MDB.2. Dinlediği çocuk şarkılarına/çocuk şarkısı formlarına b. Dinlediği çocuk şarkılarına/çocuk şarkısı formlarına dair duygu ve düşüncelerini dair duygu ve düşüncelerini ifade edebilme ifade eder. MDB1.1. Dinleme/İzleme a. Doğadan/çevreden/nesnelerden duyduğu seslerin kaynağını gösterir. MDB.3. Duyduğu seslerin kaynağını anlayabilme b. Doğadan/çevreden/nesnelerden duyduğu seslerin kaynağını ifade eder. MDB1.1.SB2. Dinlediğini a. Dinlediği sözlü/sözsüz müzik eserlerindeki/çocuk şarkılarındaki kalın ve ince/ anlamlandırmak MDB.4. Dinlediği sözlü/ sözsüz müzik eserlerindeki/çocuk kuvvetli ve hafif ses farklılıklarını/yavaş ve hızlı tempo farklılıklarını ifade eder. şarkılarındaki özellikleri fark edebilme b. Dinlediği sözlü/sözsüz müzik eserlerindeki/çocuk şarkılarındaki ezgi/ritim/çalgı farklılıklarını ifade eder. a. Doğadan/çevreden/nesnelerden duyduğu seslere dair duygu ve düşüncelerini ifade MSB2.1.SB1. Söylemeyi MSB2. Müziksel Söyleme MSB.1. Duyduğu sesleri kendi sesiyle taklit edebilme eder. yönetmek b. Doğadan/çevreden/nesnelerden duyduğu sesleri taklit eder. MSB2.1.SB2. a. Çocuk şarkılarının/çocuk şarkısı formlarının sözlerini doğru telaffuzla söyler. MSB.2. Çocuk şarkılarındaki/çocuk şarkısı formlarındaki MSB2.1. Söylediğini b. Çocuk şarkılarını/çocuk şarkısı formlarını kalın ve ince/kuvvetli ve hafif ses özellikleri fark ederek söyleyebilme Söyleme anlamlandırmak farklılıklarına/yavaş ve hızlı tempo farklılıklarına/ritim farklılıklarına göre söyler. a. Duygu ve düşüncelerini çocuk şarkılarını/çocuk şarkısı formlarını söyleyerek ifade eder. MSB2.1.SB3. Söylemeyi MSB.3. Söyleme becerilerini sınıf içinde sergileyebilme b. Çocuk şarkılarını/çocuk şarkısı formlarını bireysel olarak/grupla uyum içinde söyler. sunmak c. Çocuk şarkılarını/çocuk şarkısı formlarını müzikli dramatizasyonda grupla uyum içerisinde söyler. MÜZİK ALANI (60 72 AY) Alan Bütünleşik Süreç Bileşenleri Öğrenme Çıktıları Alt Öğrenme Çıktıları Becerileri Beceriler a. Doğadan/çevreden/nesnelerden duyduğu sesleri artık materyallerden yapılmış çalgıları/Orff çalgılarını kullanarak taklit eder. MÇB.1. Duyduğu sesleri çalgıyla taklit edebilme b. Doğadan/çevreden/nesnelerden artık materyallerden yapılmış çalgıları/Orff çalgılarını kullanarak taklit ettiği MÇB3. Müziksel Çalma seslere dair duygu ve düşüncelerini ifade eder. MÇB3.1.SB1. Çalmayı yönetmek a. Kendisine sunulan artık materyallerden yapılmış çalgı/Orff çalgısı seçenekleri arasından çalacağı çalgıyı seçer. MÇB.2. Çalacağı çalgılara/ritimlere/ezgilere/çocuk b. Seçtiği artık materyallerden yapılmış çalgının/Orff çalgısının ismini/özelliklerini söyler. şarkılarına/çocuk şarkısı formlarına dair duygu ve c. Kendisine sunulan seçenekler arasından çalacağı ritimleri/ezgileri/çocuk şarkılarını/çocuk şarkısı formlarını düşüncelerini ifade edebilme seçer. MÇB3.1. ç. Çaldığı ritimlere/ezgilere/çocuk şarkılarına/çocuk şarkısı formlarına dair duygu ve düşüncelerini ifade eder. Çalma MÇB.3. Çaldığı ritimlerdeki/ezgilerdeki/çocuk a. Ritimleri/ ezgileri kuvvetli ve hafif ses farklılıklarına/yavaş ve hızlı tempo farklılıklarına göre çalar. MÇB3.1.SB2. Çalmayı şarkılarındaki/çocuk şarkısı formlarındaki özellikleri b. Çocuk şarkılarını/çocuk şarkısı formlarını kuvvetli ve hafif ses farklılıklarına/yavaş ve hızlı tempo farklılıklarına anlamlandırmak fark edebilme göre çalar. a. Duygu ve düşüncelerini çocuk şarkılarını/çocuk şarkısı formlarını artık materyallerden yapılmış çalgılar ve Orff MÇB3.1.SB3. Çalmayı çalgılarını çalarak ifade eder. MÇB.4. Müziksel çalma becerilerini sergileyebilme sunmak b. Artık materyallerden yapılmış çalgıları ve Orff çalgılarını bireysel olarak/grupla birlikte uyum içerisinde çalar. c. Artık materyallerden yapılmış çalgıları ve Orff çalgılarını müzikli dramatizasyonda kullanır. a. Kendisine sunulan seçenekler arasından hareket ve dans edeceği ritimleri/müzik eserlerini seçer. MHB.1. Harekete ve dansa eşlik eden ritimlere/müzik MHB4.1.SB1. Hareket b. Seçtiği müzik eserlerinin isimlerini söyler. eserlerine/çocuk şarkılarına/çocuk şarkısı formlarına MHB4. Müziksel ve dansı yönetmek c. Harekete/dansa eşlik eden ritimlere/müzik eserlerine/çocuk şarkılarına/çocuk şarkısı formlarına dair duygu ve dair duygu ve düşüncelerini ifade edebilme düşüncelerini ifade eder. MHB4.1. MHB4.1.SB2. MHB.2. Harekete ve dansa eşlik eden ritimlerdeki/ a. Ritimlerdeki uzun ve kısa süre yavaş ve hızlı tempo değişikliklerini hareketle/dansla gösterir. Hareket ve Hareket ve dansı müzik eserlerindeki/çocuk şarkılarındaki/çocuk b. Müzik eserlerindeki/çocuk şarkılarındaki/çocuk şarkısı formlarındaki kalın ve ince/kuvvetli ve hafif ses Hareket Dans Etme anlamlandırmak şarkısı formlarındaki özellikleri fark edebilme farklılıklarını/yavaş ve hızlı tempo farklılıklarını hareketle/dansla gösterir. a. Mekânın fiziki koşullarına uygun olarak hareket/dans eder. MHBB4.1.SB3. b. Çocuğa uygun müzik eserleriyle bireysel/grupla birlikte hareket/dans eder. Hareket ve dansı MHB.3. Müzik ve ritimlerle hareket ve dans edebilme c. Hareket ve dansı müzikli dramatizasyonda kullanır. sunmak ç. Grupla uyum içerisinde beden perküsyonu yapar. a. Beden perküsyonuyla/hareketle/dansla planlı veya doğaçlama ritim üretir. MYB5. Müziksel b. Planlı ya da doğaçlama çocuk şarkıları/çocuk şarkısı formları üretir. MYB5.1.SB1. Müziksel MYB.1. Müziksel deneyimlerinden yola çıkarak c. Artık materyallerden yapılmış çalgılarla ve Orff çalgılarıyla planlı veya doğaçlama ritim/ezgi üretir. yaratım yapmak müziksel ürün ortaya koyabilme ç. Grupla uyum içerisinde müzikli oyun veya dramatizasyon üretir.",
    "components": []
   }
  ],
@@ -295,32 +227,32 @@
   "units": 0,
   "outcomes": 0,
   "components": 0,
-  "orphan_outcomes": 35,
+  "orphan_outcomes": 25,
   "gaps": [
    {
     "course": "Okul Öncesi",
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
-     "TAEOB1.1",
      "HSAB1.1",
      "MDB1.1",
-     "TAEOB1.2",
      "HSAB1.2",
-     "TAEOB1.3",
      "HSAB1.3",
-     "TAEOB1.4",
      "HSAB1.4",
      "HSAB1.5",
      "HSAB1.6",
-     "SSDB2.1",
-     "TAEOB2.1",
      "HSAB2.1",
      "MSB2.1",
      "HSAB2.2",
      "HSAB2.3",
      "HSAB2.4",
+     "HSAB2.5",
      "TAK3.1",
-     "TAEOB3.1"
+     "HSAB3.1",
+     "MÇB3.1",
+     "TAK3.2",
+     "HSAB3.2",
+     "TAK3.3",
+     "HSAB3.3"
     ]
    }
   ]

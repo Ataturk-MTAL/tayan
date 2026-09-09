@@ -4,6 +4,9 @@
   "name": "Kur'an-ı Kerim Dersi",
   "slug": "kurani-kerim-dersi-2",
   "prefix": "KK",
+  "shapes": [
+   "KK/noktalı-4"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/kuran-i-kerim-dersi_20260902_112620_128.pdf"

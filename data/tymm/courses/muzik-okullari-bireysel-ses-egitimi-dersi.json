@@ -4,6 +4,9 @@
   "name": "Bireysel Ses Eğitimi Dersi",
   "slug": "muzik-okullari-bireysel-ses-egitimi-dersi",
   "prefix": "BSE",
+  "shapes": [
+   "BSE/noktalı-4"
+  ],
   "kademe": 11,
   "kademe_name": "Müzik Okulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/muzik-okullari-bireysel-ses-egitimi-dersi.pdf"

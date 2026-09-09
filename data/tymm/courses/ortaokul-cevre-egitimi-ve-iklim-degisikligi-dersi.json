@@ -4,6 +4,9 @@
   "name": "Çevre Eğitimi ve İklim Değişikliği Dersi",
   "slug": "ortaokul-cevre-egitimi-ve-iklim-degisikligi-dersi",
   "prefix": "ÇEİD",
+  "shapes": [
+   "ÇEİD/noktalı-3"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/cevre-egitimi-ve-iklim-degisikligi-dersi_20260819_070617_444.pdf"

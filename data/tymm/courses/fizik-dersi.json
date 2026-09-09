@@ -4,6 +4,9 @@
   "name": "Fizik Dersi",
   "slug": "fizik-dersi",
   "prefix": "FİZ",
+  "shapes": [
+   "FİZ/noktalı-4"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/fizik-dersi_20260819_142915_270.pdf"

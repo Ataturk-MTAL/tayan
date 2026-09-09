@@ -4,6 +4,9 @@
   "name": "Okuma Becerileri Dersi",
   "slug": "ortaokul-okuma-becerileri-dersi",
   "prefix": "OB",
+  "shapes": [
+   "OB/noktalı-3"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/okuma-becerileri-dersi_20260819_073100_538.pdf"

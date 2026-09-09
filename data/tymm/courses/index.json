@@ -8,8 +8,8 @@
  "report": {
   "courses": 111,
   "units": 1613,
-  "outcomes": 5834,
-  "components": 12215,
+  "outcomes": 5887,
+  "components": 13044,
   "courses_without_outcomes": 0,
   "gaps": [
    {
@@ -43,104 +43,92 @@
     "course": "Okul Öncesi",
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
-     "TAEOB1.1",
      "HSAB1.1",
      "MDB1.1",
-     "TAEOB1.2",
      "HSAB1.2",
-     "TAEOB1.3",
      "HSAB1.3",
-     "TAEOB1.4",
      "HSAB1.4",
      "HSAB1.5",
      "HSAB1.6",
-     "SSDB2.1",
-     "TAEOB2.1",
      "HSAB2.1",
      "MSB2.1",
      "HSAB2.2",
      "HSAB2.3",
      "HSAB2.4",
+     "HSAB2.5",
      "TAK3.1",
-     "TAEOB3.1"
+     "HSAB3.1",
+     "MÇB3.1",
+     "TAK3.2",
+     "HSAB3.2",
+     "TAK3.3",
+     "HSAB3.3"
     ]
    },
    {
     "course": "İngilizce Dersi",
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
-     "ENG.2.1",
-     "ENG.2.2",
-     "ENG.2.3",
-     "ENG.2.4",
-     "ENG.2.5",
-     "ENG.2.6",
-     "ENG.3.1",
-     "ENG.3.2",
-     "ENG.3.3",
-     "ENG.3.4",
-     "ENG.3.5",
-     "ENG.3.6",
-     "ENG.4.1",
-     "ENG.4.2",
-     "ENG.4.3",
-     "ENG.4.4",
-     "ENG.4.5",
-     "ENG.4.6",
-     "ENG.5.1",
-     "ENG.5.2"
+     "ENG.3.1.6"
+    ]
+   },
+   {
+    "course": "Çoklu Yabancı Dil Eğitim Modeli İngilizce",
+    "reason": "ayrıştırılamayan kod",
+    "codes": [
+     "ENG.1.2"
     ]
    },
    {
     "course": "Çoklu Yabancı Dil Eğitim Modeli İngilizce",
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
-     "SELS1.1",
-     "SELS1.3",
-     "SELS2.1",
-     "CS2.1",
-     "SELS2.3",
-     "CS2.3",
-     "CS2.4",
-     "CS2.5",
-     "CS2.7",
-     "CS2.10",
-     "CS2.11",
-     "CS2.12",
-     "CS2.13",
-     "CS2.14",
-     "CS2.15",
-     "CS2.16",
-     "CS2.17",
-     "CS2.19",
-     "CS2.20",
-     "CS3.1"
+     "ENG.2.1",
+     "ENG5.1",
+     "ENG.5.1",
+     "ENG5.2",
+     "ENG.5.2",
+     "ENG5.3",
+     "ENG.5.3",
+     "ENG5.4",
+     "ENG.5.4",
+     "ENG5.5",
+     "ENG.5.5",
+     "ENG5.6",
+     "ENG.5.6",
+     "ENG5.7",
+     "ENG.5.7",
+     "ENG5.8",
+     "ENG.5.8",
+     "ENG5.9",
+     "ENG.5.9",
+     "ENG5.10"
     ]
    },
    {
     "course": "Çoklu Yabancı Dil Eğitim Modeli Almanca",
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
+     "SELK1.1",
+     "SELK1.2",
+     "SELK2.1",
+     "SELK2.2",
+     "KK2.2",
+     "SELK2.3",
+     "KK2.3",
+     "KK2.4",
+     "KK2.5",
+     "KK2.7",
+     "KK2.8",
+     "KK2.11",
+     "KK2.12",
+     "KK2.13",
+     "KK2.16",
+     "KK2.17",
+     "SELK3.1",
+     "SELK3.2",
      "DE.5.1",
-     "DE.5.2",
-     "DE.5.3",
-     "DE.5.4",
-     "DE.5.5",
-     "DE.5.6",
-     "DE.6.1",
-     "DE.6.2",
-     "DE.6.3",
-     "DE.6.4",
-     "DE.6.5",
-     "DE.6.6",
-     "DE.7.1",
-     "DE.7.2",
-     "DE.7.3",
-     "DE.7.4",
-     "DE.7.5",
-     "DE.7.6",
-     "DE.8.1",
-     "DE.8.2"
+     "DE.5.2"
     ]
    },
    {
@@ -175,9 +163,27 @@
     ]
    },
    {
+    "course": "Yapay Zekâ Uygulamaları Dersi",
+    "reason": "hiçbir ünite bloğunun içinde değil",
+    "codes": [
+     "YZU.1.1.1"
+    ]
+   },
+   {
     "course": "Matematik Dersi",
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
+     "MAT.H.1.1",
+     "MAT.H.2.1",
+     "MAT.H.3.1",
+     "MAT.H.3.2",
+     "MAT.H.3.3",
+     "MAT.H.4.1",
+     "MAT.H.4.2",
+     "MAT.H.4.3",
+     "MAT.H.4.4",
+     "MAT.H.4.5",
+     "MAT.H.5.1",
      "MAT.11.3.1",
      "MAT.11.3.2",
      "MAT.11.3.7",
@@ -186,9 +192,7 @@
      "MAT.12.1.2",
      "MAT.12.4.5",
      "MAT.12.4.6",
-     "MAT.12.4.7",
-     "MAT.12.4.8",
-     "MAT.12.4.9"
+     "MAT.12.4.7"
     ]
    },
    {
@@ -206,6 +210,7 @@
      "ENG.10.1",
      "ENG.10.2",
      "ENG.10.3",
+     "EN10.4",
      "ENG.10.4",
      "ENG.10.5",
      "ENG.10.6",
@@ -213,14 +218,19 @@
      "ENG.10.8",
      "ENG.11.1",
      "ENG.11.2",
-     "ENG.11.3",
-     "ENG.11.4"
+     "ENG.11.3"
     ]
    },
    {
     "course": "Görsel Sanatlar Dersi",
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
+     "GS.H.3.1",
+     "GS.H.3.2",
+     "GS.H.3.3",
+     "GS.H.3.4",
+     "GS.H.3.5",
+     "GS.H.3.6",
      "GS.12.1.1",
      "GS.12.1.2",
      "GS.12.2.1",
@@ -238,6 +248,11 @@
     "course": "Müzik Dersi",
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
+     "MÜZ.HAZ.2.1",
+     "MÜZ.HAZ.2.2",
+     "MÜZ.HAZ.2.3",
+     "MÜZ.HAZ.3.1",
+     "MÜZ.HAZ.3.2",
      "MÜZ.12.1.1"
     ]
    },
@@ -245,6 +260,10 @@
     "course": "Beden Eğitimi ve Spor Dersi",
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
+     "BES.H.2.1",
+     "BES.H.2.2",
+     "BES.H.2.3",
+     "BES.H.2.4",
      "BES.12.1.1",
      "BES.12.1.2"
     ]
@@ -342,7 +361,7 @@
    "prefix": "BTY",
    "file": "courses/bilisim-teknolojileri-ve-yazilim-dersi.json",
    "units": 12,
-   "outcomes": 46,
+   "outcomes": 47,
    "components": 12
   },
   {
@@ -549,11 +568,11 @@
    "slug": "ortaokul-turkce-dersi",
    "name": "Ortaokul Türkçe Dersi",
    "kademe": 2,
-   "prefix": "DYS.DO",
+   "prefix": "DO",
    "file": "courses/ortaokul-turkce-dersi.json",
    "units": 24,
-   "outcomes": 790,
-   "components": 300
+   "outcomes": 799,
+   "components": 311
   },
   {
    "slug": "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-drama",
@@ -609,10 +628,10 @@
    "slug": "ortaokul-proje-tasarimi-ve-uygulamalari-dersi",
    "name": "Proje Tasarımı ve Uygulamaları Dersi",
    "kademe": 2,
-   "prefix": "PTU",
+   "prefix": "SBSB",
    "file": "courses/ortaokul-proje-tasarimi-ve-uygulamalari-dersi.json",
    "units": 24,
-   "outcomes": 17,
+   "outcomes": 18,
    "components": 68
   },
   {
@@ -732,8 +751,8 @@
    "prefix": "TT",
    "file": "courses/teknoloji-tasarim-dersi.json",
    "units": 17,
-   "outcomes": 49,
-   "components": 5
+   "outcomes": 54,
+   "components": 15
   },
   {
    "slug": "ortaokul-temel-yasam-becerileri-dersi",
@@ -799,7 +818,7 @@
    "slug": "coklu-yabanci-dil-egitim-modeli-almanca",
    "name": "Çoklu Yabancı Dil Eğitim Modeli Almanca",
    "kademe": 2,
-   "prefix": "DE",
+   "prefix": "KK",
    "file": "courses/coklu-yabanci-dil-egitim-modeli-almanca.json",
    "units": 0,
    "outcomes": 0,
@@ -809,7 +828,7 @@
    "slug": "coklu-yabanci-dil-egitim-modeli-ingilizce",
    "name": "Çoklu Yabancı Dil Eğitim Modeli İngilizce",
    "kademe": 2,
-   "prefix": "CS",
+   "prefix": "ENG",
    "file": "courses/coklu-yabanci-dil-egitim-modeli-ingilizce.json",
    "units": 0,
    "outcomes": 0,
@@ -869,10 +888,10 @@
    "slug": "beden-egitimi-ve-spor-dersi",
    "name": "Beden Eğitimi ve Spor Dersi",
    "kademe": 3,
-   "prefix": "BES",
+   "prefix": "BES.H",
    "file": "courses/beden-egitimi-ve-spor-dersi.json",
    "units": 12,
-   "outcomes": 33,
+   "outcomes": 35,
    "components": 0
   },
   {
@@ -939,10 +958,10 @@
    "slug": "gorsel-sanatlar-dersi",
    "name": "Görsel Sanatlar Dersi",
    "kademe": 3,
-   "prefix": "GS",
+   "prefix": "GS.H",
    "file": "courses/gorsel-sanatlar-dersi.json",
    "units": 16,
-   "outcomes": 84,
+   "outcomes": 102,
    "components": 6
   },
   {
@@ -979,7 +998,7 @@
    "slug": "matematik-dersi",
    "name": "Matematik Dersi",
    "kademe": 3,
-   "prefix": "MAT",
+   "prefix": "MAT.H",
    "file": "courses/matematik-dersi.json",
    "units": 22,
    "outcomes": 66,
@@ -999,10 +1018,10 @@
    "slug": "muzik-dersi",
    "name": "Müzik Dersi",
    "kademe": 3,
-   "prefix": "MÜZ",
+   "prefix": "MÜZ.HAZ",
    "file": "courses/muzik-dersi.json",
    "units": 12,
-   "outcomes": 40,
+   "outcomes": 42,
    "components": 0
   },
   {
@@ -1093,7 +1112,7 @@
    "file": "courses/turk-dili-ve-edebiyati-dersi.json",
    "units": 16,
    "outcomes": 239,
-   "components": 0
+   "components": 794
   },
   {
    "slug": "turk-kultur-ve-medeniyet-tarihi-dersi",
@@ -1139,7 +1158,7 @@
    "slug": "ingilizce-dersi-hazirlik-12",
    "name": "İngilizce Dersi (Hazırlık-12)",
    "kademe": 3,
-   "prefix": "ENG",
+   "prefix": "EN",
    "file": "courses/ingilizce-dersi-hazirlik-12.json",
    "units": 0,
    "outcomes": 0,
@@ -1262,7 +1281,7 @@
    "prefix": "KNN",
    "file": "courses/muzik-okullari-bireysel-calgi-egitimi-dersi-kanun-modulu.json",
    "units": 35,
-   "outcomes": 38,
+   "outcomes": 39,
    "components": 137
   },
   {
@@ -1392,8 +1411,8 @@
    "prefix": "TMT",
    "file": "courses/muzik-okullari-turk-muzigi-teori-uygulamasi-dersi.json",
    "units": 24,
-   "outcomes": 43,
-   "components": 3
+   "outcomes": 57,
+   "components": 17
   }
  ]
 }

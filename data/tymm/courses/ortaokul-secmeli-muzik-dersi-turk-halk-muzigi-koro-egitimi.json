@@ -4,6 +4,12 @@
   "name": "Seçmeli Müzik Dersi (Türk Halk Müziği Koro)",
   "slug": "ortaokul-secmeli-muzik-dersi-turk-halk-muzigi-koro-egitimi",
   "prefix": "SMTHMK.I",
+  "shapes": [
+   "SMTHMK.I/noktalı-3",
+   "SMTHMK.II/noktalı-3",
+   "SMTHMK.III/noktalı-3",
+   "SMTHMK.IV/noktalı-3"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/secmeli-muzik-dersi-turk-halk-muzigi-koro_20260819_075210_201.pdf"

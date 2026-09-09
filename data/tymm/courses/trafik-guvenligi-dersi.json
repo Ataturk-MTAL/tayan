@@ -4,6 +4,9 @@
   "name": "Trafik Güvenliği Dersi",
   "slug": "trafik-guvenligi-dersi",
   "prefix": "TG",
+  "shapes": [
+   "TG/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/trafik-guvenligi-programi-tegm.pdf"

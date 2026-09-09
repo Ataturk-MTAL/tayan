@@ -4,6 +4,9 @@
   "name": "Coğrafya Dersi",
   "slug": "cografya-dersi",
   "prefix": "COĞ",
+  "shapes": [
+   "COĞ/noktalı-4"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/cografya-dersi_20260819_142604_415.pdf"

@@ -8,12 +8,29 @@ from tymm_pdf_sections import parse_units
 from tymm_outcomes import (
     SKILL_PREFIXES,
     build_code,
-    detect_scheme,
-    detect_families,
-    parse_all,
+    parse_declared,
     parse_outcomes,
 )
+from tymm_shape_census import census, bootstrap_roles, outcome_families, shape_key
 from tymm_beceri_lines import split_indicator, split_code_line
+
+
+# Şema artık SEZİLMİYOR, BEYAN EDİLİYOR. Üretimde aileler
+# data/tymm/shape-manifest.json'dan gelir; testler manifest taslağını üreten
+# sayımı doğrular. free_min=1 şart: varsayılan eşik gerçek belgelere göre
+# ayarlı ve iki satırlık örneklerde her aileyi gürültü sayar.
+def families_of(text):
+    return outcome_families(text, SKILL_PREFIXES, free_min=1)
+
+
+def single_family(text):
+    """Tek aileli örnek için (ön ekler, şema) — sezgisel seçimin yerini alır."""
+    families = families_of(text)
+    return families[0] if families else ([], 0)
+
+
+def draft_roles(text):
+    return bootstrap_roles(census(text), SKILL_PREFIXES, free_min=1)
 
 SAMPLE = """9. SINIF
 1. ÜNİTE: FİZİK BİLİMİ VE KARİYER KEŞFİ
@@ -157,12 +174,12 @@ FOUR_SEGMENT = """FİZ.9.1.2. Fizik biliminin alt dallarını sınıflandırabil
 
 class OutcomeSchemeTest(unittest.TestCase):
     def test_dort_sayili_sema_bulunur(self):
-        prefixes, segments = detect_scheme(FOUR_SEGMENT)
+        prefixes, segments = single_family(FOUR_SEGMENT)
         self.assertEqual(prefixes, ["FİZ"])
         self.assertEqual(segments, 4)
 
     def test_uc_sayili_sema_bulunur(self):
-        prefixes, segments = detect_scheme(THREE_SEGMENT)
+        prefixes, segments = single_family(THREE_SEGMENT)
         self.assertEqual(prefixes, ["T.O"])
         self.assertEqual(segments, 3)
 
@@ -209,18 +226,18 @@ MYB.5.2. Denge kurabilme
 
 class MultiPrefixTest(unittest.TestCase):
     def test_tum_on_ekler_toplanir(self):
-        prefixes, segments = detect_scheme(MULTI_PREFIX)
+        prefixes, segments = single_family(MULTI_PREFIX)
         self.assertEqual(segments, 3)
         self.assertEqual(set(prefixes), {"T.O", "T.D", "T.Y"})
 
     def test_tum_on_eklerin_ciktilari_ayristirilir(self):
-        prefixes, segments = detect_scheme(MULTI_PREFIX)
+        prefixes, segments = single_family(MULTI_PREFIX)
         outcomes = parse_outcomes(MULTI_PREFIX, prefixes, segments)
         self.assertEqual(len(outcomes), 3)
         self.assertEqual({o["code"] for o in outcomes}, {"T.O.5.2", "T.D.5.1", "T.Y.5.3"})
 
     def test_beceri_on_ekleri_cikti_sayilmaz(self):
-        prefixes, segments = detect_scheme(SKILL_CODE_NOISE)
+        prefixes, segments = single_family(SKILL_CODE_NOISE)
         self.assertNotIn("D", prefixes)
         self.assertIn("MYB", prefixes)
 
@@ -246,12 +263,12 @@ Devam: FB.3.2 FB.3.2 FB.3.2 FB.3.2 FB.3.2 FB.3.2 FB.3.2 FB.3.2
 
 class SchemeTieBreakTest(unittest.TestCase):
     def test_ciplak_atiflar_semayi_dusurmez(self):
-        prefixes, segments = detect_scheme(FOUR_WITH_NOISE)
+        prefixes, segments = single_family(FOUR_WITH_NOISE)
         self.assertEqual(segments, 4)
         self.assertEqual(prefixes, ["FB"])
 
     def test_dort_sayili_ciktilar_butun_kalir(self):
-        prefixes, segments = detect_scheme(FOUR_WITH_NOISE)
+        prefixes, segments = single_family(FOUR_WITH_NOISE)
         outcomes = parse_outcomes(FOUR_WITH_NOISE, prefixes, segments)
         self.assertEqual(len(outcomes), 3)
         self.assertEqual(outcomes[0]["code"], "FB.3.1.1")
@@ -277,11 +294,11 @@ Tablo satırı FB.5.3.1
 
 class TruncatedReferenceTest(unittest.TestCase):
     def test_noktasiz_dort_sayili_atif_semayi_dusurmez(self):
-        prefixes, segments = detect_scheme(TRUNCATED_FOUR)
+        prefixes, segments = single_family(TRUNCATED_FOUR)
         self.assertEqual(segments, 4)
 
     def test_bilesenler_korunur(self):
-        prefixes, segments = detect_scheme(TRUNCATED_FOUR)
+        prefixes, segments = single_family(TRUNCATED_FOUR)
         outcomes = parse_outcomes(TRUNCATED_FOUR, prefixes, segments)
         self.assertEqual(len(outcomes), 2)
         self.assertEqual(sum(len(o["components"]) for o in outcomes), 2)
@@ -356,17 +373,17 @@ E3.3. Soru sorma eğilimi
 
 class GluedPrefixTest(unittest.TestCase):
     def test_yapisik_sema_bulunur(self):
-        prefixes, segments = detect_scheme(GLUED_PREFIX)
+        prefixes, segments = single_family(GLUED_PREFIX)
         self.assertEqual(segments, 2)
         self.assertEqual(prefixes, ["TDE"])
 
     def test_beceri_kodlari_secilmez(self):
-        prefixes, segments = detect_scheme(GLUED_PREFIX)
+        prefixes, segments = single_family(GLUED_PREFIX)
         self.assertNotIn("SDB", prefixes)
         self.assertNotIn("E", prefixes)
 
     def test_yapisik_kod_ayristirilir(self):
-        prefixes, segments = detect_scheme(GLUED_PREFIX)
+        prefixes, segments = single_family(GLUED_PREFIX)
         outcomes = parse_outcomes(GLUED_PREFIX, prefixes, segments)
         self.assertEqual(len(outcomes), 2)
         self.assertEqual(outcomes[0]["code"], "TDE1.1")
@@ -401,23 +418,29 @@ TKMT 3.2. Bilim alanındaki gelişmeleri açıklayabilme
 
 class RemainingSchemeTest(unittest.TestCase):
     def test_yapisik_uc_sayili_ayristirilir(self):
-        prefixes, scheme = detect_scheme(GLUED_THREE_NUM)
+        prefixes, scheme = single_family(GLUED_THREE_NUM)
         outcomes = parse_outcomes(GLUED_THREE_NUM, prefixes, scheme)
         self.assertEqual(len(outcomes), 2)
         self.assertEqual(outcomes[0]["code"], "RK2.4.1")
         self.assertEqual(len(outcomes[0]["components"]), 1)
 
-    def test_noktali_on_ek_beceri_adiyla_cakissa_da_bulunur(self):
+    def test_beceri_on_ekiyle_cakisan_ders_kodu_taslakta_atif_sayilir(self):
         # "OB" hem Okuryazarlık Becerileri seti hem Okuma Becerileri dersi.
-        # Beceri kodları YAPIŞIK yazılır (OB4.3), ders kodu NOKTALI (OB.4.1);
-        # biçim onları zaten ayırıyor, ön ek filtresi noktalıya uygulanmamalı.
-        prefixes, scheme = detect_scheme(DOTTED_SKILL_COLLISION)
-        outcomes = parse_outcomes(DOTTED_SKILL_COLLISION, prefixes, scheme)
+        # Biçim onları AYIRMIYOR: kaynakta çerçeve atıfı da noktalı yazılabiliyor
+        # ("OB.4.3. Görsel Hakkında Eleştirel Düşünme", okul öncesi). Ayıran tek
+        # şey anlam — çıktı CÜMLE, atıf beceri ADI. Taslak kural bunu bilemez,
+        # bu yüzden çakışmayı atıf sayar; karar manifestte ders başına verilir.
+        self.assertEqual(draft_roles(DOTTED_SKILL_COLLISION)["OB/noktalı-3"], "skill_reference")
+
+    def test_cakisan_kod_beyan_edilince_ayristirilir(self):
+        # Manifest "OB/noktalı-3" için role=outcome yazdığında ayrıştırıcı onu
+        # işler; gerçek dersteki (Ortaokul Okuma Becerileri) düzeltme budur.
+        outcomes = parse_outcomes(DOTTED_SKILL_COLLISION, ["OB"], 3)
         self.assertEqual(len(outcomes), 2)
         self.assertEqual(outcomes[0]["code"], "OB.4.1")
 
     def test_bosluklu_on_ek_ayristirilir(self):
-        prefixes, scheme = detect_scheme(SPACED_PREFIX)
+        prefixes, scheme = single_family(SPACED_PREFIX)
         outcomes = parse_outcomes(SPACED_PREFIX, prefixes, scheme)
         self.assertEqual(len(outcomes), 2)
         self.assertEqual(outcomes[0]["code"], "TKMT3.1")
@@ -482,7 +505,7 @@ TA.8.1.1. Kırpılmış satır artefaktı
 
 class GhostPrefixTest(unittest.TestCase):
     def test_kirpilmis_on_ek_elenir(self):
-        prefixes, _ = detect_scheme(GHOST_PREFIX)
+        prefixes, _ = single_family(GHOST_PREFIX)
         self.assertIn("İTA", prefixes)
         self.assertNotIn("TA", prefixes)
 
@@ -497,7 +520,7 @@ T.D.5.1. Üçüncü
 T.D.5.2. Dördüncü
    a) Dört.
 """
-        prefixes, _ = detect_scheme(text)
+        prefixes, _ = single_family(text)
         self.assertEqual(set(prefixes), {"T.O", "T.D"})
 
 
@@ -534,33 +557,33 @@ ENG.9.2. Students can write short notes
 
 class MultiFamilyTest(unittest.TestCase):
     def test_iki_aile_de_bulunur(self):
-        families = detect_families(MULTI_FAMILY)
+        families = families_of(MULTI_FAMILY)
         schemes = {f[1] for f in families}
         self.assertIn(4, schemes)
         self.assertIn(3, schemes)
 
     def test_hazirlik_ciktilari_dusmez(self):
-        outcomes = parse_all(MULTI_FAMILY)
+        outcomes = parse_declared(MULTI_FAMILY, families_of(MULTI_FAMILY))
         codes = {o["code"] for o in outcomes}
         self.assertIn("BES.9.1.1", codes)
         self.assertIn("BES.H.1.1", codes)
         self.assertEqual(len(outcomes), 7)
 
     def test_kod_tekrari_yok(self):
-        outcomes = parse_all(MULTI_FAMILY)
+        outcomes = parse_declared(MULTI_FAMILY, families_of(MULTI_FAMILY))
         codes = [o["code"] for o in outcomes]
         self.assertEqual(len(codes), len(set(codes)))
 
 
 class PdfIndicatorTest(unittest.TestCase):
     def test_gosterge_cikti_sayilmaz(self):
-        outcomes = parse_all(PDF_INDICATORS)
+        outcomes = parse_declared(PDF_INDICATORS, families_of(PDF_INDICATORS))
         codes = {o["code"] for o in outcomes}
         self.assertIn("ENG.9.1", codes)
         self.assertNotIn("ENG.9.1.G1", codes)
 
     def test_gostergeler_ciktiya_baglanir(self):
-        outcomes = parse_all(PDF_INDICATORS)
+        outcomes = parse_declared(PDF_INDICATORS, families_of(PDF_INDICATORS))
         first = [o for o in outcomes if o["code"] == "ENG.9.1"][0]
         self.assertEqual(len(first.get("indicators", [])), 2)
         self.assertEqual(first["indicators"][0]["code"], "ENG.9.1.G1")

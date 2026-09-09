@@ -4,6 +4,9 @@
   "name": "Oyun ve Oyun Etkinlikleri Dersi (Satranç)",
   "slug": "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-satranc",
   "prefix": "OOEST",
+  "shapes": [
+   "OOEST/noktalı-3"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/oyun-ve-oyun-etkinlikleri-dersi-santranc_20260819_073719_347.pdf"

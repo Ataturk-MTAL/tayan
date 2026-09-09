@@ -4,6 +4,9 @@
   "name": "Bireysel Çalgı Eğitimi Dersi-Piyano Modülü",
   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-piyano-modulu",
   "prefix": "PYN",
+  "shapes": [
+   "PYN/noktalı-4"
+  ],
   "kademe": 11,
   "kademe_name": "Müzik Okulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/muzik-bireysel-calgi-egitimi-piyano.pdf"

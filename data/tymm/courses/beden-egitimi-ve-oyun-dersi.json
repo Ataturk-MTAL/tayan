@@ -4,6 +4,9 @@
   "name": "Beden Eğitimi ve Oyun Dersi",
   "slug": "beden-egitimi-ve-oyun-dersi",
   "prefix": "BEO",
+  "shapes": [
+   "BEO/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/beden-egitimi-ve-oyun-programi.pdf"

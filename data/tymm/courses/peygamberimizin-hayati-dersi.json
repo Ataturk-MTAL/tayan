@@ -4,6 +4,9 @@
   "name": "Peygamberimizin Hayatı Dersi",
   "slug": "peygamberimizin-hayati-dersi",
   "prefix": "PH",
+  "shapes": [
+   "PH/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/peygamberimizin-hayati-dersi_20260902_110804_873.pdf"

@@ -4,6 +4,10 @@
   "name": "Yapay Zekâ Uygulamaları Dersi",
   "slug": "ortaokul-yapay-zeka-uygulamalari-dersi",
   "prefix": "YZU",
+  "shapes": [
+   "YZU/noktalı-4",
+   "YZU/yapışık-3"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/yapay-zeka-uygulamalari-dersi_20260819_080024_885.pdf"
@@ -471,12 +475,50 @@
    ]
   }
  ],
- "unassigned_outcomes": [],
+ "unassigned_outcomes": [
+  {
+   "code": "YZU.1.1.1",
+   "grade": 1,
+   "unit": 1,
+   "order": 1,
+   "text": "Yapay zekâya ilişkin temel kavramları sorgulaya­ bilme Öğrenme yaşantıları sonunda öğrenciye kazan-",
+   "components": [
+    {
+     "label": "a",
+     "text": "Yapay zekâya ilişkin temel kavramları tanımlar. dırılması amaçlanan bilgi,"
+    },
+    {
+     "label": "b",
+     "text": "Yapay zekâya ilişkin temel kavramlar ile ilgili sorular sorar. beceri ve becerilerin süreç"
+    },
+    {
+     "label": "c",
+     "text": "Yapay zekâya ilişkin temel kavramlar ile ilgili bilgi toplar. bileşenlerini ifade eder."
+    },
+    {
+     "label": "ç",
+     "text": "Yapay zekâya ilişkin temel kavramlar ile ilgili toplanan bilgilerin doğruluğunu değerlendirir."
+    },
+    {
+     "label": "d",
+     "text": "Toplanan bilgiler üzerinden çıkarım yapar. Öğrenme-öğretme sürecinde ele alınan bilgi kümeİÇERİK sini (bölüm-konu-alt konuÇERÇEVESİ Yapay Zekâya Genel Bakış ya ilişkin sınırları) ifade eder. Yapay Zekâ Uygulamalarını Tanıma ve Sınıflandırma Yapay Zekâda Etik Disipline ait başlıca genelAnahtar kavramlar akıllı sistemler, etik, güvenlik, mahremiyet, nesnelerin interneti, leme, ilke, anahtar kavram sensör, veri, yapay zekâ ve sembolleri ifade eder. Öğrenme çıktıları, programlar arası bileşenler arasında kurulan ve anPROGRAMLAR ARASI lamlı ilişkilere dayanan BİLEŞENLERE YÖNELİK öğren­me-öğretme süreciUYGULAMALAR YZU.1.1.1 ni ifade eder. • Öğrencilerin çeşitli fikir ve argümanlara açık olmaları için farklı bakış açılarıyla düşünmeleri teşvik edilir. Örneğin bir öğrenci yapay zekânın insan gibi düşünebileceğini savunurken, bir başkası bunun mümkün olmadığını belir­ terek kendi gerekçelerini ortaya koyabilir (D3.3, SDB3.3). • Öğrencilerin görüşleri alındıktan sonra yapay zekâya ilişkin kısa ve günlük hayattan örnekler verilir (sesli asis­ tanlar, yüz algılama ve tanıma uygulamaları, otonom arabalar vb.). Örneklerdeki yapay zekâ uygulamaları ile nerelerde karşılaştıklarını ve bu uygulamalardan nasıl faydalandıklarını düşünüp ifade etmeleri istenir (SDB1.1). Öğretmen ile programın güçlü ve iyileştirilmesi gereken yönlerinin öğretÖĞRETMEN Programa yönelik görüş ve önerileriniz için karekodu akıllı menlerin kendileri taracihazınıza okutunuz. YANSITMALARI fından değerlendirilmesini ifade eder. ORTAOKUL YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI 2. YAPAY ZEKÂ UYGULAMALARI DERSİ ÖĞRETİM PROGRAMI’NIN DÜZEYLERİ I. DÜZEY"
+    }
+   ]
+  }
+ ],
  "report": {
   "units": 6,
   "outcomes": 15,
   "components": 56,
-  "orphan_outcomes": 0,
-  "gaps": []
+  "orphan_outcomes": 1,
+  "gaps": [
+   {
+    "course": "Yapay Zekâ Uygulamaları Dersi",
+    "reason": "hiçbir ünite bloğunun içinde değil",
+    "codes": [
+     "YZU.1.1.1"
+    ]
+   }
+  ]
  }
 }

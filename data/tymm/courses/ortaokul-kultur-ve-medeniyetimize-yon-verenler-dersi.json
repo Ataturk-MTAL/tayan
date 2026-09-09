@@ -4,6 +4,9 @@
   "name": "Kültür ve Medeniyetimize Yön Verenler Dersi",
   "slug": "ortaokul-kultur-ve-medeniyetimize-yon-verenler-dersi",
   "prefix": "KMYV",
+  "shapes": [
+   "KMYV/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/kultur-ve-medeniyetimize-yon-verenler-dersi_20260819_072301_780.pdf"

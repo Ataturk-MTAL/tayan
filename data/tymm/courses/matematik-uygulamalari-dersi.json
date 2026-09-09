@@ -4,6 +4,9 @@
   "name": "Matematik Uygulamaları Dersi",
   "slug": "matematik-uygulamalari-dersi",
   "prefix": "MAT.U",
+  "shapes": [
+   "MAT.U/noktalı-4"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/matematik-uygulamalari-dersi_20260901_151823_207.pdf"

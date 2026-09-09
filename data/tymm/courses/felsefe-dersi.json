@@ -4,6 +4,9 @@
   "name": "Felsefe Dersi",
   "slug": "felsefe-dersi",
   "prefix": "FEL",
+  "shapes": [
+   "FEL/noktalı-4"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/felsefe-dersi_20260819_142831_736.pdf"

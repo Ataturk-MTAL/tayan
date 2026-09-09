@@ -4,6 +4,9 @@
   "name": "İslam Bilim Tarihi Dersi",
   "slug": "islam-bilim-tarihi-dersi",
   "prefix": "İBT",
+  "shapes": [
+   "İBT/noktalı-3"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/islam-bilim-tarihi-dersi_20260828_161300_548.pdf"

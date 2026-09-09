@@ -4,6 +4,10 @@
   "name": "Temel Matematik Dersi",
   "slug": "temel-matematik-dersi",
   "prefix": "MAT.T",
+  "shapes": [
+   "MAT.T/noktalı-4",
+   "T.MAT/noktalı-4"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/temel-matematik-dersi_20260901_152050_706.pdf"

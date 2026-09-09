@@ -4,6 +4,9 @@
   "name": "Yazarlık ve Yazma Becerileri Dersi",
   "slug": "ortaokul-yazarlik-ve-yazma-becerileri-dersi",
   "prefix": "YYB",
+  "shapes": [
+   "YYB/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/yazarlik-ve-yazma-becerileri-dersi_20260819_080157_403.pdf"

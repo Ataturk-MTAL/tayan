@@ -4,6 +4,9 @@
   "name": "Sağlık Bilgisi ve Trafik Kültürü Dersi",
   "slug": "saglik-bilgisi-ve-trafik-kulturu-dersi",
   "prefix": "SBTK",
+  "shapes": [
+   "SBTK/noktalı-3"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/saglik-bilgisi-ve-trafik-kulturu-dersi_20260908_183434_364.pdf"

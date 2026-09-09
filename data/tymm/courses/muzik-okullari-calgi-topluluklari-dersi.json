@@ -4,6 +4,10 @@
   "name": "Çalgı Toplulukları Dersi",
   "slug": "muzik-okullari-calgi-topluluklari-dersi",
   "prefix": "Ç.T",
+  "shapes": [
+   "Ç.T/noktalı-4",
+   "ÇT/noktalı-4"
+  ],
   "kademe": 11,
   "kademe_name": "Müzik Okulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/muzik-okullari-calgi-topluluklari-dersi.pdf"

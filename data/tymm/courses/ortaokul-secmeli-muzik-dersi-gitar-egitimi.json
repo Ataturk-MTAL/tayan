@@ -4,6 +4,9 @@
   "name": "Seçmeli Müzik Dersi (Gitar)",
   "slug": "ortaokul-secmeli-muzik-dersi-gitar-egitimi",
   "prefix": "SMGTR",
+  "shapes": [
+   "SMGTR/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/secmeli-muzik-dersi-gitar_20260819_074737_232.pdf"

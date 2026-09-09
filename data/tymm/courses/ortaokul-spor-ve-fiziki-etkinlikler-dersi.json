@@ -4,6 +4,9 @@
   "name": "Spor ve Fiziki Etkinlikler Dersi",
   "slug": "ortaokul-spor-ve-fiziki-etkinlikler-dersi",
   "prefix": "SFE",
+  "shapes": [
+   "SFE/noktalı-3"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/spor-ve-fiziki-etkinlikler-dersi_20260819_075451_091.pdf"

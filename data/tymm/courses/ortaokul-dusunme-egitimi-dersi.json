@@ -4,6 +4,9 @@
   "name": "Düşünme Eğitimi Dersi",
   "slug": "ortaokul-dusunme-egitimi-dersi",
   "prefix": "DE",
+  "shapes": [
+   "DE/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/dusunme-egitimi-dersi_20260819_071101_966.pdf"

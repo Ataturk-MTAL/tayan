@@ -4,6 +4,9 @@
   "name": "Müzik Kültürü Dersi",
   "slug": "muzik-okullari-muzik-kulturu-dersi",
   "prefix": "MK",
+  "shapes": [
+   "MK/noktalı-4"
+  ],
   "kademe": 11,
   "kademe_name": "Müzik Okulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/muzik-okullari-muzik-kulturu-dersi.pdf"

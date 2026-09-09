@@ -4,6 +4,9 @@
   "name": "İnsan Hakları,Vatandaşlık Ve Demokrasi Dersi",
   "slug": "insan-haklari-vatandaslik-ve-demokrasi-dersi",
   "prefix": "İHVD",
+  "shapes": [
+   "İHVD/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/2024programvat4Onayli.pdf"

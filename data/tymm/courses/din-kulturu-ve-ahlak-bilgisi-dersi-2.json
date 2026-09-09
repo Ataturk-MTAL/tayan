@@ -4,6 +4,9 @@
   "name": "Din Kültürü ve Ahlak Bilgisi Dersi",
   "slug": "din-kulturu-ve-ahlak-bilgisi-dersi-2",
   "prefix": "DKAB",
+  "shapes": [
+   "DKAB/noktalı-4"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/din-kulturu-ve-ahlak-bilgisi-dersi_20260819_142709_568.pdf"

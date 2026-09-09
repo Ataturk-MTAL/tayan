@@ -4,6 +4,10 @@
   "name": "Matematik ve Bilim Uygulamaları Dersi",
   "slug": "ortaokul-matematik-ve-bilim-uygulamalari-dersi",
   "prefix": "MBU.BU",
+  "shapes": [
+   "MBU.BU/noktalı-4",
+   "MBU.MU/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/matematik-ve-bilim-uygulamalari-dersi_20260819_072414_252.pdf"

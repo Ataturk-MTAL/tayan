@@ -4,6 +4,12 @@
   "name": "İlkokul Türkçe Dersi",
   "slug": "ilkokul-turkce-dersi",
   "prefix": "T.D",
+  "shapes": [
+   "T.D/noktalı-3",
+   "T.K/noktalı-3",
+   "T.O/noktalı-3",
+   "T.Y/noktalı-3"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/ilkokul-turkce-dersi_20260902_111433_940.pdf"

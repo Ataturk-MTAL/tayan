@@ -4,6 +4,9 @@
   "name": "Oyun ve Oyun Etkinlikleri Dersi (Drama)",
   "slug": "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-drama",
   "prefix": "OOED",
+  "shapes": [
+   "OOED/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/oyun-ve-oyun-etkinlikleri-dersi-drama_20260819_073410_377.pdf"

@@ -14,11 +14,13 @@ programları ve ölçme-değerlendirme rehberi.
 
 | Dosya | Boyut | Kaynak |
 |---|---:|---|
-| `beceriler.json` | 392 KB | 16 statik sayfa — 17 set, 462 beceri, 1512 süreç bileşeni |
+| `beceriler.json` | 448 KB | 16 statik sayfa — 17 set, 465 beceri, 1321 süreç bileşeni |
 | `dersler.json` | 6.0 MB | 2 uç nokta, 111 ders — 32 639 beceri eşlemesi |
 | `olcme-rehberi.json` | 40 KB | 2 PDF'ten elle çıkarılmış ölçme kuralları |
-| `courses/<slug>.json` | 80 dosya | Ders programı PDF'lerinden ünite, ders saati, öğrenme çıktısı ve süreç bileşenleri |
+| `courses/<slug>.json` | 111 dosya | Ders programı PDF'lerinden ünite, ders saati, öğrenme çıktısı ve süreç bileşenleri |
 | `courses/index.json` | 1 dosya | Ders dizini + toplam sayımlar |
+| `shape-census.json` | 156 KB | ÖLÇÜLEN — her belgedeki kod şekilleri ve sayıları |
+| `shape-manifest.json` | 29 KB | BEYAN EDİLEN — her şeklin ne olduğu (rol) |
 
 `dersler.json` yeniden çekmek 111 HTTP çağrısı demek; bu yüzden sürümlenir.
 
@@ -43,6 +45,7 @@ python3 scripts/fetch_tymm_beceriler.py        # ağ
 python3 scripts/fetch_tymm_dersler.py          # ağ
 python3 scripts/build_tymm_ders_beceri.py      # ağ yok
 python3 scripts/fetch_tymm_kilavuzlar.py       # ağ; PDF'ler .tymm-pdf/ (sürümlenmez)
+python3 scripts/build_tymm_shape_manifest.py     # ağ yok; .tymm-pdf/dersler/*.txt gerekir
 python3 scripts/fetch_tymm_ogrenme_ciktilari.py  # ağ; ders PDF'lerini indirir, metne çevirir, siler
 python3 scripts/check_tymm_courses.py            # doğrulama; yapısal sorunda çıkış kodu 1
 ```
@@ -50,6 +53,49 @@ python3 scripts/check_tymm_courses.py            # doğrulama; yapısal sorunda 
 `olcme-rehberi.json` mekanik üretilmez — kaynak serbest metindir, içerik
 PDF'lerden elle çıkarılmıştır. Kapsam dışı bırakılanlar ve kaynak
 tutarsızlıkları dosyanın `notes` alanındadır.
+
+## Kod şekli manifesti
+
+Ders programlarında öğrenme çıktısı kodu beş ayrı biçimde yazılıyor:
+
+    noktalı-4    FİZ.9.1.2.    noktalı-3   T.O.5.2.     yapışık-3   RK2.4.1.
+    yapışık-2    TDE1.1.       boşluklu-2  TKMT 3.1.
+
+Hangi biçimin ÇIKTI olduğu belgeden **sezilmiyor, beyan ediliyor**. Sezgi tek
+aileyi hacme göre seçiyordu ve azınlıkta kalanı sessizce düşürüyordu — Görsel
+Sanatlar'da hazırlık sınıfının `GS.H` ailesi (48 geçiş), Türk Dili'nde
+`a) TDE1.1.1.` bileşen kademesinin tamamı böyle kayboldu. Çoklu aileyi sezgiyle
+açmak daha kötüydü: İngilizce programında beceri çerçevesinin İngilizce adları
+(`CS` = Conceptual Skills, 542 geçiş) gerçek çıktı ailesini hacimde geçiyor.
+
+İki dosya, iki farklı iş:
+
+- **`shape-census.json` — ÖLÇÜLEN.** PDF metinlerinden yeniden üretilir. Her
+  `(ön ek, şema)` çiftinin kaç kez geçtiğini ve geçişin ne olduğunu tutar:
+  `nested` (aynı konumda daha uzun kod var), `inner` (uzun kodun ortasından
+  kopmuş), `truncated` (kuyruk rakamla başlıyor, kod daha derin), `labelled`
+  (önünde `a)` bileşen etiketi var), `free` (gerçek geçiş).
+- **`shape-manifest.json` — BEYAN EDİLEN.** Her şeklin ROLÜ. Elle gözden
+  geçirilir, nadiren değişir. Ayrıştırıcı bunu okur.
+
+| Rol | Anlamı |
+|---|---|
+| `outcome` | Öğrenme çıktısı ailesi — ayrıştırılan tek rol |
+| `component` | Süreç bileşeni kademesi (`a) TDE1.1.1.`) |
+| `heading` | Aynı ön ekin üst kademesi: `MAT.1.1.` başlık, `MAT.1.1.1.` çıktı |
+| `skill_reference` | Beceri çerçevesi kodu (`KB`, `SDB`, `CS`, `SELK`) |
+| `shadow` | Başka bir şeklin gölgesi |
+| `noise` | pdftotext artefaktı |
+
+**Değişmez: sayımda olup manifestte rolü olmayan şekil HATA'dır.** Kaynak yeni
+bir kod biçimi getirdiğinde ayrıştırıcı onu sessizce düşürmez; `courses/index.json`
+altında `manifestte rolü olmayan şekil` boşluk kaydı çıkar ve manifest yeniden
+kurulmayı bekler. Mevcut roller korunur, yalnız yeni şekiller taslak rol alır.
+
+Taslak kuralın bilemeyeceği kararlar `overrides` altında **gerekçesiyle**
+yazılır. Şu an iki tane var: Ortaokul Okuma Becerileri dersinin kendi `OB`
+çıktı ön eki (Okuryazarlık Becerileri çerçevesiyle çakışıyor) ve Çağdaş Türk ve
+Dünya Tarihi'nde `KKB` (pdftotext bir `K` yapıştırmış).
 
 ## Güncelleme
 

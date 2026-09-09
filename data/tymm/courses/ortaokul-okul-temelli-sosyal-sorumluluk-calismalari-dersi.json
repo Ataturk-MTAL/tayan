@@ -4,6 +4,9 @@
   "name": "Okul Temelli Sosyal Sorumluluk Çalışmaları Dersi",
   "slug": "ortaokul-okul-temelli-sosyal-sorumluluk-calismalari-dersi",
   "prefix": "OTSSÇ",
+  "shapes": [
+   "OTSSÇ/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/okul-temelli-sosyal-sorumluluk-calismalari-dersi_20260819_072945_192.pdf"

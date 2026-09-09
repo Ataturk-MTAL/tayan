@@ -4,6 +4,9 @@
   "name": "Müzik Tarihi Dersi",
   "slug": "muzik-okullari-muzik-tarihi-dersi",
   "prefix": "MT",
+  "shapes": [
+   "MT/noktalı-4"
+  ],
   "kademe": 11,
   "kademe_name": "Müzik Okulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/muzik-okullari-muzik-tarihi-dersi.pdf"

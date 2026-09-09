@@ -4,6 +4,9 @@
   "name": "Kapsamlı Spor Eğitimi Dersi",
   "slug": "kapsamli-spor-egitimi-dersi",
   "prefix": "KSE",
+  "shapes": [
+   "KSE/noktalı-3"
+  ],
   "kademe": 9,
   "kademe_name": "Spor Ortaokulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/kapsamli-spor-egitimi-dersi.pdf"

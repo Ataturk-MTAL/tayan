@@ -4,6 +4,9 @@
   "name": "Biyoloji Dersi",
   "slug": "biyoloji-dersi",
   "prefix": "BİY",
+  "shapes": [
+   "BİY/noktalı-4"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/biyoloji-dersi_20260819_142444_074.pdf"

@@ -4,6 +4,9 @@
   "name": "Geleneksel Sanatlar Dersi",
   "slug": "ortaokul-geleneksel-sanatlar-dersi",
   "prefix": "GS",
+  "shapes": [
+   "GS/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/geleneksel-sanatlar-dersi_20260819_071232_389.pdf"

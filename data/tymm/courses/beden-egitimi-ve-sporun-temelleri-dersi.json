@@ -4,6 +4,9 @@
   "name": "Beden Eğitimi ve Sporun Temelleri Dersi",
   "slug": "beden-egitimi-ve-sporun-temelleri-dersi",
   "prefix": "BEST",
+  "shapes": [
+   "BEST/noktalı-4"
+  ],
   "kademe": 9,
   "kademe_name": "Spor Ortaokulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/beden-egitimi-ve-sporun-temelleri-dersi.pdf"

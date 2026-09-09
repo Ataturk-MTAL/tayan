@@ -4,6 +4,9 @@
   "name": "Demokrasi ve İnsan Hakları Dersi",
   "slug": "demokrasi-ve-insan-haklari-dersi",
   "prefix": "DİH",
+  "shapes": [
+   "DİH/yapışık-2"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/demokrasi-ve-insan-haklari-dersi_20260828_160526_525.pdf"

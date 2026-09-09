@@ -4,6 +4,9 @@
   "name": "Hayat Bilgisi Dersi",
   "slug": "hayat-bilgisi-dersi",
   "prefix": "HB",
+  "shapes": [
+   "HB/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/hayat-bilgisi-dersi_20260902_111246_099.pdf"

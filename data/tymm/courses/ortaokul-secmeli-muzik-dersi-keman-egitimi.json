@@ -4,6 +4,9 @@
   "name": "Seçmeli Müzik Dersi (Keman)",
   "slug": "ortaokul-secmeli-muzik-dersi-keman-egitimi",
   "prefix": "SMKMN",
+  "shapes": [
+   "SMKMN/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/secmeli-muzik-dersi-keman_20260819_074907_882.pdf"

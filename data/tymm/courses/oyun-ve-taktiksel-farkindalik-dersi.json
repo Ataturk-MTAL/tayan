@@ -4,6 +4,9 @@
   "name": "Oyun ve Taktiksel Farkındalık Dersi",
   "slug": "oyun-ve-taktiksel-farkindalik-dersi",
   "prefix": "OTF",
+  "shapes": [
+   "OTF/noktalı-4"
+  ],
   "kademe": 9,
   "kademe_name": "Spor Ortaokulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/oyun-ve-taktiksel-farkindalik-dersi.pdf"

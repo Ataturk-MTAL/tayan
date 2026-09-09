@@ -4,6 +4,9 @@
   "name": "T.C. İnkılap Tarihi ve Atatürkçülük Dersi",
   "slug": "tc-inkilap-tarihi-ve-ataturkculuk-dersi-2",
   "prefix": "İTA",
+  "shapes": [
+   "İTA/noktalı-4"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/tc-inkilap-tarihi-ve-ataturkculuk-dersi_20260819_143332_827.pdf"

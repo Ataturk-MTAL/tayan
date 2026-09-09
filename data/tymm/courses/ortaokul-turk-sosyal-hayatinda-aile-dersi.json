@@ -4,6 +4,9 @@
   "name": "Türk Sosyal Hayatında Aile Dersi",
   "slug": "ortaokul-turk-sosyal-hayatinda-aile-dersi",
   "prefix": "TSHA",
+  "shapes": [
+   "TSHA/noktalı-3"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/turk-sosyal-hayatinda-aile-dersi_20260819_075859_803.pdf"

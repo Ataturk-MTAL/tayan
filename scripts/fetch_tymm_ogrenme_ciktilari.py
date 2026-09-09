@@ -43,8 +43,14 @@ from tymm_pdf_sections import parse_units  # noqa: E402
 from tymm_outcomes import (  # noqa: E402
     SCHEME_PATTERNS,
     build_code,
-    detect_scheme,
+    parse_declared,
     parse_outcomes,
+)
+from tymm_shape_census import (  # noqa: E402
+    SCHEME_CODES,
+    census,
+    check_manifest,
+    declared_families,
 )
 from fetch_tymm_dersler import KADEME_NAMES  # noqa: E402
 
@@ -87,6 +93,18 @@ def main() -> int:
     if not dersler_path.exists():
         print(f"HATA: {dersler_path} yok. Önce fetch_tymm_dersler.py çalıştır.", file=sys.stderr)
         return 1
+    # ŞEKİL MANİFESTİ. Hangi kod şeklinin öğrenme çıktısı olduğu BURADA yazılı;
+    # ayrıştırıcı artık tahmin etmiyor. Manifestte rolü olmayan bir şekil HATA
+    # üretir — sezgi, azınlıkta kalan aileyi sessizce düşürüyordu.
+    manifest_path = args.data_dir / "shape-manifest.json"
+    if not manifest_path.exists():
+        print(
+            f"HATA: {manifest_path} yok. Önce build_tymm_shape_manifest.py çalıştır.",
+            file=sys.stderr,
+        )
+        return 1
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))["courses"]
+
     dersler = json.loads(dersler_path.read_text(encoding="utf-8"))
     courses = dersler["courses"]
     if args.only:
@@ -110,9 +128,12 @@ def main() -> int:
         pdf_path = args.pdf_dir / f"{course['url']}.pdf"
         txt_path = pdf_path.with_suffix(".txt")
         try:
-            if not pdf_path.exists():
-                download(course["pdf_url"], pdf_path)
+            # Metin zaten çıkarılmışsa PDF'e hiç ihtiyaç yok. Önceden indirme
+            # koşulsuzdu: metin önbellekte dururken bile 111 PDF yeniden
+            # iniyordu (MEB sunucusuna gereksiz yük, koşum dakikalarca uzun).
             if not txt_path.exists():
+                if not pdf_path.exists():
+                    download(course["pdf_url"], pdf_path)
                 subprocess.run(
                     ["pdftotext", "-layout", str(pdf_path), str(txt_path)],
                     check=True, capture_output=True,
@@ -123,16 +144,43 @@ def main() -> int:
             continue
 
         text = txt_path.read_text(encoding="utf-8", errors="replace")
-        prefixes, segments = detect_scheme(text)
-        prefix = prefixes[0] if prefixes else None
-        if not prefixes:
+
+        declared = manifest.get(course["url"])
+        if declared is None:
+            gaps.append({
+                "course": course["name"],
+                "reason": "şekil manifestinde yok",
+                "codes": [course["url"]],
+            })
+            print(
+                f"  [{position}/{len(courses)}] {course['name'][:40]:<42} MANİFEST YOK",
+                file=sys.stderr,
+            )
+            continue
+
+        # BEYAN EDİLMEYEN ŞEKİL HATADIR. Kaynak yeni bir kod biçimi getirdiğinde
+        # ayrıştırıcı onu sessizce düşürmez; boşluk kaydı üretir ve manifest
+        # yeniden kurulmayı bekler.
+        shapes = census(text)
+        undeclared = check_manifest(shapes, declared)
+        if undeclared:
+            gaps.append({
+                "course": course["name"],
+                "reason": "manifestte rolü olmayan şekil",
+                "codes": [e["shape"] for e in undeclared[:20]],
+            })
+
+        families = declared_families(declared)
+        prefixes = sorted({p for ps, _ in families for p in ps})
+        prefix = families[0][0][0] if families else None
+        if not families:
             gaps.append({"course": course["name"], "reason": "kodlu çıktı bulunamadı"})
             print(f"  [{position}/{len(courses)}] {course['name'][:40]:<42} kod YOK", file=sys.stderr)
             if not args.keep_pdf:
                 pdf_path.unlink(missing_ok=True)
             continue
 
-        outcomes = parse_outcomes(text, prefixes, segments)
+        outcomes = parse_declared(text, families)
 
         # KAPSAMA DENETİMİ. Metinde geçen kod kümesinden ayrıştırılan küme
         # çıkarılır; fark raporlanır. Bu oturumdaki her sessiz kaybı bu
@@ -141,13 +189,17 @@ def main() -> int:
         # "FOUR_RE if segments == 4 else THREE_RE" yazıyordu; yapışık (2, 5) ve
         # boşluklu (6) şemalarda THREE_RE hiçbir kodu eşlemiyor, scanned boş
         # kalıyor ve denetim 8 derste sessizce işlemsiz oluyordu.
-        pattern = SCHEME_PATTERNS.get(segments)
-        wanted = set(prefixes)
-        scanned = {
-            build_code(m, segments)
-            for m in (pattern.finditer(text) if pattern else ())
-            if m.group(1) in wanted
-        }
+        # Denetim BEYAN EDİLEN HER AİLE için ayrı koşar. Tek aileye bakmak,
+        # çoklu aileli belgede ikinci ailenin kaybını görünmez kılıyordu.
+        scanned: set[str] = set()
+        for family_prefixes, scheme in families:
+            pattern = SCHEME_PATTERNS[scheme]
+            wanted = set(family_prefixes)
+            scanned |= {
+                build_code(m, scheme)
+                for m in pattern.finditer(text)
+                if m.group(1) in wanted
+            }
         missed = sorted(scanned - {o["code"] for o in outcomes})
         if missed:
             gaps.append({
@@ -171,7 +223,7 @@ def main() -> int:
 
         assigned: set[str] = set()
         for unit in units:
-            unit_outcomes = parse_outcomes(unit["text"], prefixes, segments)
+            unit_outcomes = parse_declared(unit["text"], families)
             merged = []
             for o in unit_outcomes:
                 source = canonical.get(o["code"], o)
@@ -220,6 +272,7 @@ def main() -> int:
                         "name": course["name"],
                         "slug": course["url"],
                         "prefix": prefix,
+                        "shapes": sorted(declared.get("outcome", [])),
                         "kademe": course["kademe"],
                         "kademe_name": KADEME_NAMES.get(
                             course["kademe"], str(course["kademe"])

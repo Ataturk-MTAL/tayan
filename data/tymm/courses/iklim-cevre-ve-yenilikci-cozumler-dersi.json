@@ -4,6 +4,9 @@
   "name": "İklim, Çevre ve Yenilikçi Çözümler Dersi",
   "slug": "iklim-cevre-ve-yenilikci-cozumler-dersi",
   "prefix": "İÇYÇ",
+  "shapes": [
+   "İÇYÇ/noktalı-3"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/iklim-cevre-ve-yenilikci-cozumler-dersi_20260828_160659_839.pdf"

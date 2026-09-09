@@ -4,6 +4,9 @@
   "name": "Dijital Sanatlar Dersi",
   "slug": "ortaokul-dijital-sanatlar-dersi",
   "prefix": "DS",
+  "shapes": [
+   "DS/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/dijital-sanatlar-dersi_20260819_070938_522.pdf"

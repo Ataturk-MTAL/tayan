@@ -4,6 +4,9 @@
   "name": "Hukuk ve Adalet Dersi",
   "slug": "ortaokul-hukuk-ve-adalet-dersi",
   "prefix": "HA",
+  "shapes": [
+   "HA/noktalı-3"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/hukuk-ve-adalet-dersi_20260819_072010_421.pdf"

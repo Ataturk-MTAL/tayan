@@ -4,6 +4,9 @@
   "name": "Beden Eğitimi ve Spor Dersi",
   "slug": "beden-egitimi-ve-spor-temel-egitim",
   "prefix": "BES",
+  "shapes": [
+   "BES/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/beden-egitimi-ve-spor-tegm.pdf"

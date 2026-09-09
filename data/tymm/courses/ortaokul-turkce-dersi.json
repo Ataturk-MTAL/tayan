@@ -3,7 +3,17 @@
   "id": 6,
   "name": "Ortaokul Türkçe Dersi",
   "slug": "ortaokul-turkce-dersi",
-  "prefix": "DYS.DO",
+  "prefix": "DO",
+  "shapes": [
+   "DO/noktalı-3",
+   "DYS.DO/noktalı-3",
+   "DYS.KY/noktalı-3",
+   "KY/noktalı-3",
+   "T.D/noktalı-3",
+   "T.K/noktalı-3",
+   "T.O/noktalı-3",
+   "T.Y/noktalı-3"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/ortaokul-turkce-dersi_20260902_111157_977.pdf"
@@ -349,17 +359,8 @@
     {
      "code": "T.K.5.20",
      "order": 20,
-     "text": "T.K.6.23. T.K.7.24. T.K.8.25. Sözlü Üretim ✔ Sözlü Etkileşim ✔ Konuşma sürecine yönelik öz yansıtma yapabilme ve kendini uyarlayabilme becerisi, bireyin konuşurken gösterdiği yeterlikleri gözden geçirmesini ve bu doğrultuda gelişim hedefleri belirlemesini kapsar. Konuşma sürecini değerlendirebilme Öğrenci, konuşma sürecindeki güçlü ve gelişmeye açık yönlerini öğretmeninin, akranlarının görüşünü alarak veya bir değerlendirme aracı kullanarak gerekçeleriyle belirler. Deneyimlenen süreçteki güçlü yönlerini sonraki konuşmalarına yansıtır. Gelişmeye açık yönlerini ise destekleyecek tedbirler alır. Böylece konuşan kimliğinin gelişimine yön verir.",
-     "components": [
-      {
-       "label": "a",
-       "text": "Konuşma sürecindeki güçlü ve gelişmeye açık yönlerini belirler. Öğrencinin konuşma sürecine ilişkin gelişiminin izlenebilmesi için konuşmalarından oluşan arşiv (ses kaydı, konuşma metni, sunum videosu vb.) oluşturması desteklenir."
-      },
-      {
-       "label": "b",
-       "text": "Deneyimlediği süreçteki gelişmeye açık yönlerini destekleyecek tedbirler alıp, güçlü yönlerini sonraki çalışmalara aktararak konuşan kimliğinin gelişimine yön verir."
-      }
-     ]
+     "text": ") sağlayacak çalışmalar yapılır. Öğrencilerin yazmada strateji, yöntem ve tekniklerine yönelik seçimlerini; içerik ve yapı-",
+     "components": []
     }
    ]
   },
@@ -388,17 +389,8 @@
     {
      "code": "T.D.5.1",
      "order": 1,
-     "text": "T.D.6.1. T.D.7.1. T.D.8.1. yıtları, film, belgesel, dijital içerikler, etkileşimli sunumlar vb.) seçer. Dinlemede/izlemede strateji, yöntem ve teknik seçimlerini yönetebilme Öğrenci; dinleme/izleme faaliyeti öncesinde dinlemenin/izlemenin şekli, amacı, ilgi ve ihtiyacı, materyalin özellikleri, faaliyeti tamamlamak için sahip olduğu süre ve ihtiyaç duyması hâlinde farklı kaynaklardan bilgiye erişim olanaklarını analiz eder. Analiz sonuçlarından hareketle dinleme/izleme sürecinde kullanacağı stratejiyi ve/veya yöntem ve tekniği seçer. Dinleme/",
-     "components": [
-      {
-       "label": "a",
-       "text": "Dinleme/izleme şekli (etkileşimli veya etkileşimsiz), amacı, ilgi ve ihtiyaçları; materyalin özelizlemeye başladıktan sonra herhangi bir sorunla karşılaşırsa (metni anlamama, amacına ulaşamama vb.) seçimlerinde değişikliğe gidebilir. likleri ve faaliyetin süresini analiz ederek görüş oluşturur. Öğrencinin strateji seçimi yapabilmesi için öncelikle stratejileri bağımsız olarak uygulayabilecek düzeye erişmesi gerekir. Bu kapsamda “metin yapılarının analizi ve bilgileri organize etme"
-      },
-      {
-       "label": "b",
-       "text": "Analiz sonuçları doğrultusunda dinlerken/izlerken kullanacağı strateji ve/veya yöntemi/tekstratejisi”nin öğretimi Kademeli Sorumluluk Devri Modeli ile yapılır. Diğer stratejilerin (ön bilgileri harekete geçirme ve kullanma, tahmin etme, görselleştirme, çıkarım yapma, özetleme ve niği seçer. soru sorma) ise zorunlu olmamakla birlikte Kademeli Sorumluluk Devri Modeli ile öğretilmesi önerilir. Önceden öğretilen stratejilerin ilerleyen tema ve sınıf seviyelerinde uygun olanlarının seçilip kullanılması sağlanır. Öğrencinin farklı amaçlarla farklı içerikleri dinlemesi/izlemesi gerekebilir. Ayrıca dinlediğini/izlediğini anlama düzeyi öğrenciden öğrenciye farklılık gösterebilir. Bu sebeple öğrenci düzeyi, amaç, dinleme/izleme içeriği vb.ne göre öğretmen rehberliğinde dinleme/izleme yöntem ve tekniklerinden uygun olanının seçilip kullanılması sağlanır. Katılımlı, katılımsız, not alarak, empati kurarak, seçici, yaratıcı, eleştirel, grup hâlinde dinleme/izleme vb. yöntem ve teknikler seçilip kullanılabilir. Öğretmen, seçim sürecinde öğrenciye rehberlik edebilir. İhtiyaç duyulması hâlinde bu yöntem ve tekniklerin nasıl kullanılacağı konusunda öğretmen rehberliğinde eğitim verilebilir."
-      }
-     ]
+     "text": "), dinleme/izleme ve okuma sürecinde strateji, yöntem ve teknik seçimlerini yönetebilmelerini (T.D.5.2,",
+     "components": []
     },
     {
      "code": "T.O.5.1",
@@ -433,6 +425,10 @@
       {
        "label": "b",
        "text": "İçerik veya sonraki bölümlerle ilgili mantıklı tahminde bulunur."
+      },
+      {
+       "label": "c",
+       "text": "Tahminine yönelik gerekçelendirme yapar. T.D.5.3. T.D.6.3. T.D.7.3. T.D.8.3."
       }
      ]
     },
@@ -587,21 +583,8 @@
     {
      "code": "T.K.5.9",
      "order": 9,
-     "text": "T.K.6.10. T.K.7.10. T.K.8.10. Sözlü Üretim ✔ Sözlü Etkileşim ✔ Öğrenci; dinlediği/izlediği içerikler, okuduğu metinler veya günlük yaşantısından yola çıkarak karşılaştırma yapar. Konuşmasında karşılaştırma yapabilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Karşılaştırılabilir unsurlara ilişkin özellikleri belirler."
-      },
-      {
-       "label": "b",
-       "text": "Özellikler arasındaki benzerlikleri tespit ederek konuşmasında kullanır."
-      },
-      {
-       "label": "c",
-       "text": "Özellikler arasındaki farklılıkları tespit ederek konuşmasında kullanır."
-      }
-     ]
+     "text": "Konuşmasında tahminlerinden yararlanabilme",
+     "components": []
     },
     {
      "code": "T.D.5.11",
@@ -632,6 +615,26 @@
       {
        "label": "a",
        "text": "Dinlediğinde/izlediğinde başvurulan düşünceyi geliştirme yollarını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Düşünceyi geliştirme yollarının içerikle ilişkisini ortaya koyar. T.D.5.15. T.D.6.15. T.D.7.15. T.D.8.15. Tanımlama, karşılaştırma, benzetme ve örTanık gösterme, sayısal verilerden yararlanÖnceki sınıf seviyelerinde işlenilen düşünÖnceki sınıf seviyelerinde işlenilen düşünneklendirme. ma, tanımlama, karşılaştırma, benzetme ve ceyi geliştirme yollarını belirlemeye yönelik ceyi geliştirme yollarını belirlemeye yönelik örneklendirme. çalışmalar yapılır. çalışmalar yapılır. Dinlediğindeki/izlediğindeki söz sanatlarını belirlemeye yönelik çözümleme yapabilme Kaynağın kullandığı söz sanatları, metindeki örnekler üzerinden somutlaştırılır. Böylece öğrencinin kullanılan söz sanatlarını somut olarak görmesi ve belirlemesi sağlanır. Öğrenci, belirlediği söz sanatlarının metnin anlatımıyla olan ilişkisini özellikle anlatıma sağladığı katkıdan hareketle ortaya koyar."
+      },
+      {
+       "label": "a",
+       "text": "Dinlediğindeki/izlediğindeki söz sanatlarını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Söz sanatlarının metnin anlatımıyla ilişkisini ortaya koyar. T.D.5.16. T.D.6.16. T.D.7.16. T.D.8.16. Kişileştirme, konuşturma ve benzetme. Karşıtlık, abartma, kişileştirme, konuşturma Önceki sınıf seviyelerinde işlenilen söz saÖnceki sınıf seviyelerinde işlenilen söz save benzetme. natlarını belirlemeye yönelik çalışmalar yanatlarını belirlemeye yönelik çalışmalar yapılır. pılır. Dinlediğinde/izlediğinde kullanılan ikna tekniklerini belirlemeye yönelik çözümleme yaÖğrencinin, dinlediğinde/izlediğinde (bilgilendirici, öyküleyici metin vb.) kaynağın başvurduğu ikna tekniklerini belirlemesine yönelik çözümleme yapması sağlanır. Dinlediğinde/ izledipabilme ğinde kullanılan ikna tekniklerini örnek ifade, görsel, ses, beden dili vb. üzerinden somutlaştırması böylece öğrencinin başvurulan ikna tekniklerini ve bunların metin içinde nasıl kullanıldıklarını somut olarak görmesi ve belirlemesi sağlanır. Öğrenci, belirlediği tekniklerin dinlediğinin/izlediğinin içeriğiyle -özellikle ikna etmeye katkısı bakımındanilişkisini ortaya koyar."
+      },
+      {
+       "label": "a",
+       "text": "Dinlediğinde/izlediğinde başvurulan ikna tekniklerini belirler."
+      },
+      {
+       "label": "b",
+       "text": "İkna tekniklerinin içerikle ilişkisini ortaya koyar."
       }
      ]
     },
@@ -661,6 +664,10 @@
       {
        "label": "a",
        "text": "Yazarın başvurduğu düşünceyi geliştirme yollarını belirler."
+      },
+      {
+       "label": "b",
+       "text": "Düşünceyi geliştirme yollarının içerikle ilişkisini ortaya koyar. T.O.5.18. T.O.6.18. T.O.7.17. T.O.8.17. Tanımlama, karşılaştırma, benzetme ve örTanık gösterme, sayısal verilerden yararlanÖnceki sınıf seviyelerinde işlenilen düşünÖnceki sınıf seviyelerinde işlenilen düşünneklendirme. ma, tanımlama, karşılaştırma, benzetme ve ceyi geliştirme yollarını belirlemeye yönelik ceyi geliştirme yollarını belirlemeye yönelik örneklendirme. çalışmalar yapılır. çalışmalar yapılır."
       }
      ]
     },
@@ -679,17 +686,8 @@
     {
      "code": "T.O.5.19",
      "order": 19,
-     "text": "T.O.6.19. T.O.7.18. T.O.8.18. Kişileştirme, konuşturma ve benzetme. Karşıtlık, abartma, kişileştirme, konuşturma Önceki sınıf seviyelerinde işlenilen söz saÖnceki sınıf seviyelerinde işlenilen söz save benzetme. natlarını belirlemeye yönelik çalışmalar yanatlarını belirlemeye yönelik çalışmalar yapılır. pılır. Metinde kullanılan ikna tekniklerini belirlemeye yönelik çözümleme yapabilme Öğrencinin, metinde (bilgilendirici, öyküleyici metin vb.) yazarın başvurduğu ikna tekniklerini belirlemesine yönelik çözümleme yapması sağlanır. Metinde kullanılan ikna tekniklerini örnek ifadeler, görsel, grafik, tablo vb. üzerinden somutlaştırması böylece öğrencinin başvurulan ikna tekniklerini ve bunların metin içinde nasıl kullanıldıklarını somut olarak görmesi",
-     "components": [
-      {
-       "label": "a",
-       "text": "Yazarın başvurduğu ikna tekniklerini belirler. ve belirlemesi sağlanır. Öğrenci, belirlediği tekniklerin metnin içeriğiyle -özellikle ikna etmeye katkısı bakımındanilişkisini ortaya koyar."
-      },
-      {
-       "label": "b",
-       "text": "İkna tekniklerinin içerikle ilişkisini ortaya koyar."
-      }
-     ]
+     "text": ") belirlemeye yönelik çözümlemeler yapabilmelerini sağlayacak çalışmalara yer verilir. Dinledikleri/izledikleri ve okudukları metin-",
+     "components": []
     },
     {
      "code": "T.K.5.19",
@@ -703,6 +701,18 @@
       {
        "label": "b",
        "text": "Baş, el, kol, bacak ve bedenin genel duruşunu içeriğe uygun kullanır."
+      },
+      {
+       "label": "c",
+       "text": "İçeriğe uygun olarak yaygın yüz ifadelerini (şaşırma, kızgınlık, mutluluk vb.) kullanır. T.K.5.20. T.K.6.23. T.K.7.24. T.K.8.25. Sözlü Üretim ✔ Sözlü Etkileşim ✔ Konuşma sürecine yönelik öz yansıtma yapabilme ve kendini uyarlayabilme becerisi, bireyin konuşurken gösterdiği yeterlikleri gözden geçirmesini ve bu doğrultuda gelişim hedefleri belirlemesini kapsar. Konuşma sürecini değerlendirebilme Öğrenci, konuşma sürecindeki güçlü ve gelişmeye açık yönlerini öğretmeninin, akranlarının görüşünü alarak veya bir değerlendirme aracı kullanarak gerekçeleriyle belirler. Deneyimlenen süreçteki güçlü yönlerini sonraki konuşmalarına yansıtır. Gelişmeye açık yönlerini ise destekleyecek tedbirler alır. Böylece konuşan kimliğinin gelişimine yön verir."
+      },
+      {
+       "label": "a",
+       "text": "Konuşma sürecindeki güçlü ve gelişmeye açık yönlerini belirler. Öğrencinin konuşma sürecine ilişkin gelişiminin izlenebilmesi için konuşmalarından oluşan arşiv (ses kaydı, konuşma metni, sunum videosu vb.) oluşturması desteklenir."
+      },
+      {
+       "label": "b",
+       "text": "Deneyimlediği süreçteki gelişmeye açık yönlerini destekleyecek tedbirler alıp, güçlü yönlerini sonraki çalışmalara aktararak konuşan kimliğinin gelişimine yön verir."
       }
      ]
     },
@@ -772,6 +782,10 @@
       {
        "label": "b",
        "text": "İçerik veya sonraki bölümlerle ilgili mantıklı tahminde bulunur."
+      },
+      {
+       "label": "c",
+       "text": "Tahminine yönelik gerekçelendirme yapar. T.D.5.3. T.D.6.3. T.D.7.3. T.D.8.3."
       }
      ]
     },
@@ -1002,21 +1016,8 @@
     {
      "code": "T.O.5.11",
      "order": 11,
-     "text": "T.O.6.11. T.O.7.10. T.O.8.10. Metni yorumlayabilme Öğrencinin okuduğu metinde yer alan olay, bilgi, durum vb.ni inceleme aşamasında metnin hem yüzey hem de derin anlamına hâkim olması gerekmektedir. Öğrenci; metindeki olay, bilgi, durum vb.ni belirli bir bakış açısıyla (yazarın bakış açısı, okur olarak kendi öznel veya tarafsız bakış açısı ya da bunların dışında başka bir bakış açısı) detaylandırır veya genellemeler ya-",
-     "components": [
-      {
-       "label": "a",
-       "text": "Metindeki olay, bilgi, durum vb.ni inceler. parak bunlara açıklık getirir. Böylece içeriği, belirlenen bakış açısıyla görerek söz konusu bakış açısına göre anlam üretmiş olur."
-      },
-      {
-       "label": "b",
-       "text": "Metindeki olay, bilgi, durum vb.ni yazarın, okurun veya bunların dışında bir başkasının bakış açısını dikkate alıp genişleterek veya daraltarak dönüştürür."
-      },
-      {
-       "label": "c",
-       "text": "Metindeki olay, bilgi, durum vb.ni seçilen bakış açısıyla kendine özgü bir biçimde yeniden"
-      }
-     ]
+     "text": "Metindeki unsurları sınıflandırabilme",
+     "components": []
     },
     {
      "code": "T.O.5.13",
@@ -1054,17 +1055,8 @@
     {
      "code": "T.K.5.16",
      "order": 16,
-     "text": "T.K.6.19. T.K.7.20. T.K.8.20. Düşünceyi geliştirme yollarından tanımlaDüşünceyi geliştirme yollarından tanık gösÖnceki sınıf seviyelerinde işlenilen düşünÖnceki sınıf seviyelerinde işlenilen düşünma, karşılaştırma, benzetme ve örneklemeyi terme ve sayısal verilerden yararlanmayı ceyi geliştirme yollarını kullanmaya yönelik ceyi geliştirme yollarını kullanmaya yönelik kullanır. kullanır. Gerek görülmesi hâlinde önceki sıçalışmalar yapılır. çalışmalar yapılır. nıf seviyesinde işlenilen düşünceyi geliştirme yollarının kullanımına yönelik çalışmalara yer verilir. Sözlü Üretim ✔ Sözlü Etkileşim ✔ Türkçeyi doğru, güzel ve etkili kullandığı cümleler kurar. Konuşmasında yabancı dillerden alınan ve dilimizde henüz yaygınlaşmamış kelimelerin Türkçelerini kullanır. Konuşmasını zenginleştirecek biçimde söz varlığını kullanabilme Söz varlığı unsurlarını (eş, yakın, zıt, terim, gerçek, mecaz anlamlı kelimeler; eş sesli, çağrıştırdığı kelimeler, atasözü, deyim, kalıp sözler, ikileme, pekiştirme) kullanmaya yönelik çalışmalar yapılır.",
-     "components": [
-      {
-       "label": "a",
-       "text": "Kullanacağı söz varlığı unsurlarını belirler."
-      },
-      {
-       "label": "b",
-       "text": "Söz varlığı unsurlarına bağlama uygun şekilde konuşmasında yer verir."
-      }
-     ]
+     "text": "Düşünceyi geliştirme yollarını kullanarak konuşmasını yapılandırabilme",
+     "components": []
     },
     {
      "code": "T.Y.5.16",
@@ -1100,7 +1092,7 @@
     {
      "code": "T.O.5.18",
      "order": 18,
-     "text": "T.O.6.18. T.O.7.17. T.O.8.17. Tanımlama, karşılaştırma, benzetme ve örTanık gösterme, sayısal verilerden yararlanÖnceki sınıf seviyelerinde işlenilen düşünÖnceki sınıf seviyelerinde işlenilen düşünneklendirme. ma, tanımlama, karşılaştırma, benzetme ve ceyi geliştirme yollarını belirlemeye yönelik ceyi geliştirme yollarını belirlemeye yönelik örneklendirme. çalışmalar yapılır. çalışmalar yapılır.",
+     "text": ") ve çoklu ortam ögelerini çözümleyebilmelerini (T.D.5.18.) sağlayacak etkinliklere yer verilir. Dinledikleri/izledikleri ve okudukları metinden hareketle söz varlığını geliş-",
      "components": []
     },
     {
@@ -1115,6 +1107,18 @@
       {
        "label": "b",
        "text": "Baş, el, kol, bacak ve bedenin genel duruşunu içeriğe uygun kullanır."
+      },
+      {
+       "label": "c",
+       "text": "İçeriğe uygun olarak yaygın yüz ifadelerini (şaşırma, kızgınlık, mutluluk vb.) kullanır. T.K.5.20. T.K.6.23. T.K.7.24. T.K.8.25. Sözlü Üretim ✔ Sözlü Etkileşim ✔ Konuşma sürecine yönelik öz yansıtma yapabilme ve kendini uyarlayabilme becerisi, bireyin konuşurken gösterdiği yeterlikleri gözden geçirmesini ve bu doğrultuda gelişim hedefleri belirlemesini kapsar. Konuşma sürecini değerlendirebilme Öğrenci, konuşma sürecindeki güçlü ve gelişmeye açık yönlerini öğretmeninin, akranlarının görüşünü alarak veya bir değerlendirme aracı kullanarak gerekçeleriyle belirler. Deneyimlenen süreçteki güçlü yönlerini sonraki konuşmalarına yansıtır. Gelişmeye açık yönlerini ise destekleyecek tedbirler alır. Böylece konuşan kimliğinin gelişimine yön verir."
+      },
+      {
+       "label": "a",
+       "text": "Konuşma sürecindeki güçlü ve gelişmeye açık yönlerini belirler. Öğrencinin konuşma sürecine ilişkin gelişiminin izlenebilmesi için konuşmalarından oluşan arşiv (ses kaydı, konuşma metni, sunum videosu vb.) oluşturması desteklenir."
+      },
+      {
+       "label": "b",
+       "text": "Deneyimlediği süreçteki gelişmeye açık yönlerini destekleyecek tedbirler alıp, güçlü yönlerini sonraki çalışmalara aktararak konuşan kimliğinin gelişimine yön verir."
       }
      ]
     },
@@ -1176,17 +1180,8 @@
     {
      "code": "T.D.5.1",
      "order": 1,
-     "text": "T.D.6.1. T.D.7.1. T.D.8.1. yıtları, film, belgesel, dijital içerikler, etkileşimli sunumlar vb.) seçer. Dinlemede/izlemede strateji, yöntem ve teknik seçimlerini yönetebilme Öğrenci; dinleme/izleme faaliyeti öncesinde dinlemenin/izlemenin şekli, amacı, ilgi ve ihtiyacı, materyalin özellikleri, faaliyeti tamamlamak için sahip olduğu süre ve ihtiyaç duyması hâlinde farklı kaynaklardan bilgiye erişim olanaklarını analiz eder. Analiz sonuçlarından hareketle dinleme/izleme sürecinde kullanacağı stratejiyi ve/veya yöntem ve tekniği seçer. Dinleme/",
-     "components": [
-      {
-       "label": "a",
-       "text": "Dinleme/izleme şekli (etkileşimli veya etkileşimsiz), amacı, ilgi ve ihtiyaçları; materyalin özelizlemeye başladıktan sonra herhangi bir sorunla karşılaşırsa (metni anlamama, amacına ulaşamama vb.) seçimlerinde değişikliğe gidebilir. likleri ve faaliyetin süresini analiz ederek görüş oluşturur. Öğrencinin strateji seçimi yapabilmesi için öncelikle stratejileri bağımsız olarak uygulayabilecek düzeye erişmesi gerekir. Bu kapsamda “metin yapılarının analizi ve bilgileri organize etme"
-      },
-      {
-       "label": "b",
-       "text": "Analiz sonuçları doğrultusunda dinlerken/izlerken kullanacağı strateji ve/veya yöntemi/tekstratejisi”nin öğretimi Kademeli Sorumluluk Devri Modeli ile yapılır. Diğer stratejilerin (ön bilgileri harekete geçirme ve kullanma, tahmin etme, görselleştirme, çıkarım yapma, özetleme ve niği seçer. soru sorma) ise zorunlu olmamakla birlikte Kademeli Sorumluluk Devri Modeli ile öğretilmesi önerilir. Önceden öğretilen stratejilerin ilerleyen tema ve sınıf seviyelerinde uygun olanlarının seçilip kullanılması sağlanır. Öğrencinin farklı amaçlarla farklı içerikleri dinlemesi/izlemesi gerekebilir. Ayrıca dinlediğini/izlediğini anlama düzeyi öğrenciden öğrenciye farklılık gösterebilir. Bu sebeple öğrenci düzeyi, amaç, dinleme/izleme içeriği vb.ne göre öğretmen rehberliğinde dinleme/izleme yöntem ve tekniklerinden uygun olanının seçilip kullanılması sağlanır. Katılımlı, katılımsız, not alarak, empati kurarak, seçici, yaratıcı, eleştirel, grup hâlinde dinleme/izleme vb. yöntem ve teknikler seçilip kullanılabilir. Öğretmen, seçim sürecinde öğrenciye rehberlik edebilir. İhtiyaç duyulması hâlinde bu yöntem ve tekniklerin nasıl kullanılacağı konusunda öğretmen rehberliğinde eğitim verilebilir."
-      }
-     ]
+     "text": "), dinleme/izleme ve okuma sürecinde strateji, yöntem ve teknik seçimlerini yönetebilmelerini (T.D.5.2,",
+     "components": []
     },
     {
      "code": "T.D.5.2",
@@ -1200,6 +1195,10 @@
       {
        "label": "b",
        "text": "İçerik veya sonraki bölümlerle ilgili mantıklı tahminde bulunur."
+      },
+      {
+       "label": "c",
+       "text": "Tahminine yönelik gerekçelendirme yapar. T.D.5.3. T.D.6.3. T.D.7.3. T.D.8.3."
       }
      ]
     },
@@ -1453,6 +1452,22 @@
       {
        "label": "c",
        "text": "Metindeki unsurları ölçüte göre gruplandırır."
+      },
+      {
+       "label": "ç",
+       "text": "Oluşturulan grupları adlandırır. T.O.5.11. T.O.6.11. T.O.7.10. T.O.8.10. Metni yorumlayabilme Öğrencinin okuduğu metinde yer alan olay, bilgi, durum vb.ni inceleme aşamasında metnin hem yüzey hem de derin anlamına hâkim olması gerekmektedir. Öğrenci; metindeki olay, bilgi, durum vb.ni belirli bir bakış açısıyla (yazarın bakış açısı, okur olarak kendi öznel veya tarafsız bakış açısı ya da bunların dışında başka bir bakış açısı) detaylandırır veya genellemeler ya-"
+      },
+      {
+       "label": "a",
+       "text": "Metindeki olay, bilgi, durum vb.ni inceler. parak bunlara açıklık getirir. Böylece içeriği, belirlenen bakış açısıyla görerek söz konusu bakış açısına göre anlam üretmiş olur."
+      },
+      {
+       "label": "b",
+       "text": "Metindeki olay, bilgi, durum vb.ni yazarın, okurun veya bunların dışında bir başkasının bakış açısını dikkate alıp genişleterek veya daraltarak dönüştürür."
+      },
+      {
+       "label": "c",
+       "text": "Metindeki olay, bilgi, durum vb.ni seçilen bakış açısıyla kendine özgü bir biçimde yeniden"
       }
      ]
     },
@@ -1504,23 +1519,13 @@
      "code": "T.Y.5.12",
      "order": 12,
      "text": "), yazılarında karşılaştırma yapabilmelerine (T.Y.5.7.) ve yazılı olarak",
-     "components": [
-      {
-       "label": "b",
-       "text": "Düşünceyi geliştirme yollarını yazısının içeriğiyle uyumlu şekilde kullanır. Düşünceyi geliştirme yollarından tanımlaDüşünceyi geliştirme yollarından tanık gösÖnceki sınıf seviyelerinde işlenilen düşünÖnceki sınıf seviyelerinde işlenilen düşünma, karşılaştırma, benzetme ve örneklemeyi terme ve sayısal verilerden yararlanmayı ceyi geliştirme yollarını kullanmaya yönelik ceyi geliştirme yollarını kullanmaya yönelik kullanır. kullanır. Gerek görülmesi hâlinde önceki sıçalışmalar yapılır. çalışmalar yapılır. nıf seviyesinde işlenilen düşünceyi geliştirme yollarının kullanımına yönelik çalışmalara yer verilir."
-      }
-     ]
+     "components": []
     },
     {
      "code": "T.D.5.15",
      "order": 15,
-     "text": "T.D.6.15. T.D.7.15. T.D.8.15. Tanımlama, karşılaştırma, benzetme ve örTanık gösterme, sayısal verilerden yararlanÖnceki sınıf seviyelerinde işlenilen düşünÖnceki sınıf seviyelerinde işlenilen düşünneklendirme. ma, tanımlama, karşılaştırma, benzetme ve ceyi geliştirme yollarını belirlemeye yönelik ceyi geliştirme yollarını belirlemeye yönelik örneklendirme. çalışmalar yapılır. çalışmalar yapılır. Dinlediğindeki/izlediğindeki söz sanatlarını belirlemeye yönelik çözümleme yapabilme Kaynağın kullandığı söz sanatları, metindeki örnekler üzerinden somutlaştırılır. Böylece öğrencinin kullanılan söz sanatlarını somut olarak görmesi ve belirlemesi sağlanır. Öğrenci, belirlediği söz sanatlarının metnin anlatımıyla olan ilişkisini özellikle anlatıma sağladığı katkıdan hareketle ortaya koyar.",
-     "components": [
-      {
-       "label": "a",
-       "text": "Dinlediğindeki/izlediğindeki söz sanatlarını belirler."
-      }
-     ]
+     "text": ") yönelik çalışmalar yapılır. Dinledikleri/izledikleri ve okudukları metinden hareketle söz varlığını",
+     "components": []
     },
     {
      "code": "T.Y.5.16",
@@ -1619,6 +1624,10 @@
       {
        "label": "b",
        "text": "İçerik veya sonraki bölümlerle ilgili mantıklı tahminde bulunur."
+      },
+      {
+       "label": "c",
+       "text": "Tahminine yönelik gerekçelendirme yapar. T.D.5.3. T.D.6.3. T.D.7.3. T.D.8.3."
       }
      ]
     },
@@ -1827,6 +1836,10 @@
       {
        "label": "c",
        "text": "İnceleme sonuçlarını belirlediği ölçütle karşılaştırır."
+      },
+      {
+       "label": "ç",
+       "text": "Karşılaştırma sonucunda ulaştığı yargıya konuşmasında yer verir. * T.K.6.15. T.K.7.15. T.K.8.15."
       }
      ]
     },
@@ -1854,17 +1867,8 @@
     {
      "code": "T.D.5.16",
      "order": 16,
-     "text": "T.D.6.16. T.D.7.16. T.D.8.16. Kişileştirme, konuşturma ve benzetme. Karşıtlık, abartma, kişileştirme, konuşturma Önceki sınıf seviyelerinde işlenilen söz saÖnceki sınıf seviyelerinde işlenilen söz save benzetme. natlarını belirlemeye yönelik çalışmalar yanatlarını belirlemeye yönelik çalışmalar yapılır. pılır. Dinlediğinde/izlediğinde kullanılan ikna tekniklerini belirlemeye yönelik çözümleme yaÖğrencinin, dinlediğinde/izlediğinde (bilgilendirici, öyküleyici metin vb.) kaynağın başvurduğu ikna tekniklerini belirlemesine yönelik çözümleme yapması sağlanır. Dinlediğinde/ izledipabilme ğinde kullanılan ikna tekniklerini örnek ifade, görsel, ses, beden dili vb. üzerinden somutlaştırması böylece öğrencinin başvurulan ikna tekniklerini ve bunların metin içinde nasıl kullanıldıklarını somut olarak görmesi ve belirlemesi sağlanır. Öğrenci, belirlediği tekniklerin dinlediğinin/izlediğinin içeriğiyle -özellikle ikna etmeye katkısı bakımındanilişkisini ortaya koyar.",
-     "components": [
-      {
-       "label": "a",
-       "text": "Dinlediğinde/izlediğinde başvurulan ikna tekniklerini belirler."
-      },
-      {
-       "label": "b",
-       "text": "İkna tekniklerinin içerikle ilişkisini ortaya koyar."
-      }
-     ]
+     "text": ") yönelik çalışmalar yapılır. Dinledikleri/izledikleri ve okudukları metinden hareketle söz varlığı-",
+     "components": []
     },
     {
      "code": "T.Y.5.16",
@@ -1909,6 +1913,30 @@
       {
        "label": "c",
        "text": "Dinlediğindeki/izlediğindeki unsurları belirlediği ölçütle karşılaştırır."
+      },
+      {
+       "label": "ç",
+       "text": "Karşılaştırma sonucundan hareketle bir yargıya ulaşır. * T.D.6.20. T.D.7.21. T.D.8.21. Dinlediğinin/izlediğinin içeriğini (şahıs ve/ Dinlediğinin/izlediğinin dilini (kelime seçimi, Dinlediğinin/izlediğinin kaynağını (kaynağın veya varlıklar ile bunların davranışları, kacümle uzunluğu vb.) değerlendirir. bakış açısı, tutumu vb.) değerlendirir. rakter özellikleri, olay vb.; ileri sürülen göDinlediğinin/izlediğinin organizasyonunu (olay rüşler, ana düşünce ve yardımcı düşünceler, örgüsü, serim, düğüm, çözüm bölümlerinin seçilen örnekler vb.) değerlendirir. yapılandırılması; düşünceler arası bağlantılar, giriş, gelişme, sonuç bölümleri ve bunlar arasındaki akış vb.) değerlendirir. Medya içeriğini sorgulayabilme Öğrenci, medya içeriğinin bir unsuru ve/veya özelliğini (amaç, hedef kitleye uygunluk, tutarlılık, olay, karakter, karakterin davranışları ile fiziksel ve psikolojik özellikleri, ileri sürülen görüşler, ana düşünce ve yardımcı düşünceler, hak ve özgürlükler, etik, değerler, dil-anlatım, ikna teknikleri, kaynak vb.) belirleyerek inceler. Ön bilgilerini de kullanarak medya içeriğinin"
+      },
+      {
+       "label": "a",
+       "text": "Medya içeriğini inceler. belirlediği özelliğine ilişkin sorular oluşturur."
+      },
+      {
+       "label": "b",
+       "text": "İçeriğe yönelik sorular sorar. Oluşturulan soruların düşük düzeyli değil derinlemesine ve kapsamlı sorgulamalara imkân sağlayacak türden sorular olması bakımından, öğrenciye rehberlik edilir. Bu sorular doğrultu-"
+      },
+      {
+       "label": "c",
+       "text": "Sorular doğrultusunda bilgi toplar. sunda öğrenci, ulaştığı bilgilerle değerlendirme yaparak bir yargıya ulaşır."
+      },
+      {
+       "label": "ç",
+       "text": "Ulaştığı bilgiden hareketle içeriği değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Değerlendirmesinden hareketle yargıya ulaşır. * * T.D.7.22. T.D.8.22."
       }
      ]
     },
@@ -1924,6 +1952,18 @@
       {
        "label": "b",
        "text": "Baş, el, kol, bacak ve bedenin genel duruşunu içeriğe uygun kullanır."
+      },
+      {
+       "label": "c",
+       "text": "İçeriğe uygun olarak yaygın yüz ifadelerini (şaşırma, kızgınlık, mutluluk vb.) kullanır. T.K.5.20. T.K.6.23. T.K.7.24. T.K.8.25. Sözlü Üretim ✔ Sözlü Etkileşim ✔ Konuşma sürecine yönelik öz yansıtma yapabilme ve kendini uyarlayabilme becerisi, bireyin konuşurken gösterdiği yeterlikleri gözden geçirmesini ve bu doğrultuda gelişim hedefleri belirlemesini kapsar. Konuşma sürecini değerlendirebilme Öğrenci, konuşma sürecindeki güçlü ve gelişmeye açık yönlerini öğretmeninin, akranlarının görüşünü alarak veya bir değerlendirme aracı kullanarak gerekçeleriyle belirler. Deneyimlenen süreçteki güçlü yönlerini sonraki konuşmalarına yansıtır. Gelişmeye açık yönlerini ise destekleyecek tedbirler alır. Böylece konuşan kimliğinin gelişimine yön verir."
+      },
+      {
+       "label": "a",
+       "text": "Konuşma sürecindeki güçlü ve gelişmeye açık yönlerini belirler. Öğrencinin konuşma sürecine ilişkin gelişiminin izlenebilmesi için konuşmalarından oluşan arşiv (ses kaydı, konuşma metni, sunum videosu vb.) oluşturması desteklenir."
+      },
+      {
+       "label": "b",
+       "text": "Deneyimlediği süreçteki gelişmeye açık yönlerini destekleyecek tedbirler alıp, güçlü yönlerini sonraki çalışmalara aktararak konuşan kimliğinin gelişimine yön verir."
       }
      ]
     },
@@ -1985,17 +2025,8 @@
     {
      "code": "T.D.5.1",
      "order": 1,
-     "text": "T.D.6.1. T.D.7.1. T.D.8.1. yıtları, film, belgesel, dijital içerikler, etkileşimli sunumlar vb.) seçer. Dinlemede/izlemede strateji, yöntem ve teknik seçimlerini yönetebilme Öğrenci; dinleme/izleme faaliyeti öncesinde dinlemenin/izlemenin şekli, amacı, ilgi ve ihtiyacı, materyalin özellikleri, faaliyeti tamamlamak için sahip olduğu süre ve ihtiyaç duyması hâlinde farklı kaynaklardan bilgiye erişim olanaklarını analiz eder. Analiz sonuçlarından hareketle dinleme/izleme sürecinde kullanacağı stratejiyi ve/veya yöntem ve tekniği seçer. Dinleme/",
-     "components": [
-      {
-       "label": "a",
-       "text": "Dinleme/izleme şekli (etkileşimli veya etkileşimsiz), amacı, ilgi ve ihtiyaçları; materyalin özelizlemeye başladıktan sonra herhangi bir sorunla karşılaşırsa (metni anlamama, amacına ulaşamama vb.) seçimlerinde değişikliğe gidebilir. likleri ve faaliyetin süresini analiz ederek görüş oluşturur. Öğrencinin strateji seçimi yapabilmesi için öncelikle stratejileri bağımsız olarak uygulayabilecek düzeye erişmesi gerekir. Bu kapsamda “metin yapılarının analizi ve bilgileri organize etme"
-      },
-      {
-       "label": "b",
-       "text": "Analiz sonuçları doğrultusunda dinlerken/izlerken kullanacağı strateji ve/veya yöntemi/tekstratejisi”nin öğretimi Kademeli Sorumluluk Devri Modeli ile yapılır. Diğer stratejilerin (ön bilgileri harekete geçirme ve kullanma, tahmin etme, görselleştirme, çıkarım yapma, özetleme ve niği seçer. soru sorma) ise zorunlu olmamakla birlikte Kademeli Sorumluluk Devri Modeli ile öğretilmesi önerilir. Önceden öğretilen stratejilerin ilerleyen tema ve sınıf seviyelerinde uygun olanlarının seçilip kullanılması sağlanır. Öğrencinin farklı amaçlarla farklı içerikleri dinlemesi/izlemesi gerekebilir. Ayrıca dinlediğini/izlediğini anlama düzeyi öğrenciden öğrenciye farklılık gösterebilir. Bu sebeple öğrenci düzeyi, amaç, dinleme/izleme içeriği vb.ne göre öğretmen rehberliğinde dinleme/izleme yöntem ve tekniklerinden uygun olanının seçilip kullanılması sağlanır. Katılımlı, katılımsız, not alarak, empati kurarak, seçici, yaratıcı, eleştirel, grup hâlinde dinleme/izleme vb. yöntem ve teknikler seçilip kullanılabilir. Öğretmen, seçim sürecinde öğrenciye rehberlik edebilir. İhtiyaç duyulması hâlinde bu yöntem ve tekniklerin nasıl kullanılacağı konusunda öğretmen rehberliğinde eğitim verilebilir."
-      }
-     ]
+     "text": "), dinleme/izleme ve okuma sürecinde strateji, yöntem ve teknik seçimlerini yönetebilmelerini (T.D.5.2,",
+     "components": []
     },
     {
      "code": "T.Y.5.1",
@@ -2564,6 +2595,22 @@
       {
        "label": "b",
        "text": "İlişkilendirmelerden hareketle olay, bilgi ya da duruma yönelik mantıklı tahminde bulunur."
+      },
+      {
+       "label": "c",
+       "text": "Konuşmasında tahminlerine yer verir. T.K.5.9. T.K.6.10. T.K.7.10. T.K.8.10. Sözlü Üretim ✔ Sözlü Etkileşim ✔ Öğrenci; dinlediği/izlediği içerikler, okuduğu metinler veya günlük yaşantısından yola çıkarak karşılaştırma yapar. Konuşmasında karşılaştırma yapabilme"
+      },
+      {
+       "label": "a",
+       "text": "Karşılaştırılabilir unsurlara ilişkin özellikleri belirler."
+      },
+      {
+       "label": "b",
+       "text": "Özellikler arasındaki benzerlikleri tespit ederek konuşmasında kullanır."
+      },
+      {
+       "label": "c",
+       "text": "Özellikler arasındaki farklılıkları tespit ederek konuşmasında kullanır."
       }
      ]
     },
@@ -2682,6 +2729,22 @@
       {
        "label": "ç",
        "text": "Ulaştığı bilgilden hareketle metnin içeriğini değerlendirir."
+      },
+      {
+       "label": "d",
+       "text": "Değerlendirmesinden hareketle yargıya ulaşır. * * T.O.7.23. T.O.8.23. Metni eleştirebilme Öğrenci, metnin içeriğinde (olay, bilgi, durum vb.) sorgulayacağı yönü belirler. Ön bilgilerini de kullanarak bununla ilgili soru sorar ve bilgi edinir. Sorgulama sonucunda metnin eleştiriye konu olan unsuruna ve/veya özelliğine yönelik olumlu veya olumsuz bir yargıya ulaşır. Olumlu yargıya yönelik gerekçe ve/veya olumsuz yargıya yönelik alternatif sunar."
+      },
+      {
+       "label": "a",
+       "text": "Metnin içeriğini sorgular."
+      },
+      {
+       "label": "b",
+       "text": "Sorguladıklarıyla ilgili akıl yürüterek olumlu ve/veya olumsuz yargıya ulaşır."
+      },
+      {
+       "label": "c",
+       "text": "Olumlu yargıya yönelik gerekçe ve/veya olumsuz yargıya yönelik alternatif sunar. * T.O.6.23. T.O.7.24. T.O.8.24. Metnin başlığını, içeriğini (şahıs ve/veya varMetnin dilini (kelime seçimi, cümle uzunluğu Metnin yazarını (bakış açısı, tutumu vb.) lıklar ile bunların davranışları, karakter özelvb.) ve organizasyonunu (olay örgüsü, serim, eleştirir. likleri, olay vb.; ileri sürülen görüşler, ana düğüm, çözüm bölümlerinin yapılandırılmadüşünce ve yardımcı düşünceler, seçilen sı; düşünceler arası bağlantılar, giriş, gelişörnekler vb.) eleştirir. me ve sonuç bölümleri ve bunlar arasındaki akış vb.) eleştirir."
       }
      ]
     },
@@ -2880,25 +2943,8 @@
     {
      "code": "T.D.6.20",
      "order": 20,
-     "text": "T.D.7.21. T.D.8.21. Dinlediğinin/izlediğinin içeriğini (şahıs ve/ Dinlediğinin/izlediğinin dilini (kelime seçimi, Dinlediğinin/izlediğinin kaynağını (kaynağın veya varlıklar ile bunların davranışları, kacümle uzunluğu vb.) değerlendirir. bakış açısı, tutumu vb.) değerlendirir. rakter özellikleri, olay vb.; ileri sürülen göDinlediğinin/izlediğinin organizasyonunu (olay rüşler, ana düşünce ve yardımcı düşünceler, örgüsü, serim, düğüm, çözüm bölümlerinin seçilen örnekler vb.) değerlendirir. yapılandırılması; düşünceler arası bağlantılar, giriş, gelişme, sonuç bölümleri ve bunlar arasındaki akış vb.) değerlendirir. Medya içeriğini sorgulayabilme Öğrenci, medya içeriğinin bir unsuru ve/veya özelliğini (amaç, hedef kitleye uygunluk, tutarlılık, olay, karakter, karakterin davranışları ile fiziksel ve psikolojik özellikleri, ileri sürülen görüşler, ana düşünce ve yardımcı düşünceler, hak ve özgürlükler, etik, değerler, dil-anlatım, ikna teknikleri, kaynak vb.) belirleyerek inceler. Ön bilgilerini de kullanarak medya içeriğinin",
-     "components": [
-      {
-       "label": "a",
-       "text": "Medya içeriğini inceler. belirlediği özelliğine ilişkin sorular oluşturur."
-      },
-      {
-       "label": "b",
-       "text": "İçeriğe yönelik sorular sorar. Oluşturulan soruların düşük düzeyli değil derinlemesine ve kapsamlı sorgulamalara imkân sağlayacak türden sorular olması bakımından, öğrenciye rehberlik edilir. Bu sorular doğrultu-"
-      },
-      {
-       "label": "c",
-       "text": "Sorular doğrultusunda bilgi toplar. sunda öğrenci, ulaştığı bilgilerle değerlendirme yaparak bir yargıya ulaşır."
-      },
-      {
-       "label": "ç",
-       "text": "Ulaştığı bilgiden hareketle içeriği değerlendirir."
-      }
-     ]
+     "text": "Dinlediğini/izlediğini değerlendirebilme",
+     "components": []
     },
     {
      "code": "T.O.6.20",
@@ -3069,6 +3115,12 @@
      "components": []
     },
     {
+     "code": "DO.6.10",
+     "order": 10,
+     "text": "; DYS.KY.6.6.). Öğrencilerin çekim eklerinin [isim çekim ekleri (çoğul eki, hâl ekleri, ilgi (tamlayan) eki, iyelik ekleri ve soru eki)] işlevlerini ayırt etmeleri ve bunları işlevlerine uygun kullanmaları",
+     "components": []
+    },
+    {
      "code": "T.K.6.12",
      "order": 12,
      "text": "Konuşmasında sınıflandırma yapabilme",
@@ -3154,7 +3206,7 @@
     {
      "code": "T.O.6.23",
      "order": 23,
-     "text": "T.O.7.24. T.O.8.24. Metnin başlığını, içeriğini (şahıs ve/veya varMetnin dilini (kelime seçimi, cümle uzunluğu Metnin yazarını (bakış açısı, tutumu vb.) lıklar ile bunların davranışları, karakter özelvb.) ve organizasyonunu (olay örgüsü, serim, eleştirir. likleri, olay vb.; ileri sürülen görüşler, ana düğüm, çözüm bölümlerinin yapılandırılmadüşünce ve yardımcı düşünceler, seçilen sı; düşünceler arası bağlantılar, giriş, gelişörnekler vb.) eleştirir. me ve sonuç bölümleri ve bunlar arasındaki akış vb.) eleştirir.",
+     "text": "Metni eleştirebilme",
      "components": []
     },
     {
@@ -3236,9 +3288,21 @@
      "components": []
     },
     {
+     "code": "DO.6.6",
+     "order": 6,
+     "text": "; DYS.KY.6.2.). Öğrencilerin zıtlık ifade etme işlevli söz varlığını (ama, fakat, lakin, aksine, ancak, yoksa, aslında, hâlbuki, tam tersine vb.) belirlemeleri, işlevine uygun kullanmaları sağlanır (DYS.",
+     "components": []
+    },
+    {
      "code": "T.D.6.7",
      "order": 7,
      "text": ", T.O.6.9.). Öğrencilerin dinledikleri/izledikleri ve okudukları bilgilendirici metinde metin yapılarından",
+     "components": []
+    },
+    {
+     "code": "DO.6.7",
+     "order": 7,
+     "text": "; DYS.KY.6.3.).",
      "components": []
     },
     {
@@ -3269,6 +3333,12 @@
      "code": "T.Y.6.9",
      "order": 9,
      "text": "Yorumunu yazılı olarak ifade edebilme",
+     "components": []
+    },
+    {
+     "code": "DO.6.10",
+     "order": 10,
+     "text": "; DYS.KY.6.6.). Öğrencilerin çekim eklerinin [isim çekim ekleri (çoğul eki, hâl ekleri, ilgi (tamlayan) eki, iyelik ekleri ve soru eki)] işlevlerini ayırt etmeleri ve bunları işlevlerine uygun kullanmaları",
      "components": []
     },
     {
@@ -3328,13 +3398,8 @@
     {
      "code": "T.D.6.21",
      "order": 21,
-     "text": "T.D.7.23. T.D.8.23. Dinlediğinin/izlediğinin başlığını, içeriğini Dinlediğinin/izlediğinin dilini (kelime seçimDinlediğinin/izlediğinin kaynağını (kaynağın (şahıs ve/veya varlıklar ile bunların davraleri, cümle uzunlukları vb.) ve organizasyobakış açısı, tutumu vb.) eleştirir. nışları, karakter özellikleri, olay vb.; ileri sünunu (olay örgüsü, serim, düğüm, çözüm rülen görüşler, ana düşünce ve yardımcı dübölümlerinin yapılandırılması; düşünceler şünceler, seçilen örnekler vb.) eleştirir. arası bağlantılar, giriş, gelişme ve sonuç bölümleri ve bunlar arasındaki akış vb.) eleştirir. Dinlediğindeki/izlediğindeki probleme çözüm üretebilme",
-     "components": [
-      {
-       "label": "a",
-       "text": "Dinlediğinde/izlediğinde yer alan olay ya da durumu problem biçiminde tanımlar."
-      }
-     ]
+     "text": ") ve dinleme/izleme sürecini değerlendirebilme (T.D.6.23.) çalışmaları yapılır. Öğrencilerin yazmada strateji, yöntem ve teknik seçimlerini yönetebilmeleri sağlanır",
+     "components": []
     },
     {
      "code": "T.K.6.21",
@@ -4098,6 +4163,12 @@
      "components": []
     },
     {
+     "code": "DO.7.3",
+     "order": 3,
+     "text": "; DYS.KY.7.3.). Öğrencilerin zaman işlevli fiilimsi dil yapılarını belirlemeleri ve bu dil yapılarını kullanmaları",
+     "components": []
+    },
+    {
      "code": "T.D.7.4",
      "order": 4,
      "text": ", T.D.7.5.). Basit ve üst düzey çıkarımlar yoluyla dinlediklerinin/izlediklerinin derin anlamını belirleyebilmeleri sağlanır",
@@ -4191,6 +4262,12 @@
      "code": "DYS.DO.7.10",
      "order": 10,
      "text": "Sınırlama ifade etme işlevli dil yapıları ve DYS.KY.7.10. Sınırlama ifade etme işlevli dil yapıları ve söz varlığını (-A kadar, -A dek, -A değin, -mAk üzere; sasöz varlığını (-A kadar, -A dek, -A değin, -mAk üzere; sadece, tek, yalnız, yalnızca, artık, ancak, bir, bir tek vb.) dece, tek, yalnız, yalnızca, artık, ancak, bir, bir tek vb.) belirler. işlevine uygun kullanır.",
+     "components": []
+    },
+    {
+     "code": "DO.7.11",
+     "order": 11,
+     "text": "; DYS.KY.7.11.). Tema sürecinde öğrenme çıktılarına yönelik yapılacak çalışmalarda kavramsal becerilerden. Gözlemleme (KB2.2), Yapılandırma (KB2.13.), Sentezleme (KB2.20.); eğilimlerden Empati (E2.1.), Oyunseverlik (E2.5.), Soru Sorma (E3.8.), Eleştirel Bakma (E3.10.); sosyal-duygusal öğrenme becerilerinden Kendini Düzenleme (Öz Düzenleme) (SDB1.2.), İletişim (SDB2.1.); değerlerden Aile İçi Sorumlulukları Yerine Getirmek (D2.4.), İnsan İlişkilerinde Yapıcı Olmak (D10.3.), Çevresine, Millî ve Manevi Değerlerine Saygı Duymak (D14.3.), Kişisel Temizlik ve Bakımına Önem Vermek (D18.1.); okuryazarlık becerilerinden Kültür Okuryazarlığı (OB5.) uygun bir şekilde işe koşulur. Atölye Çalışmaları Dinleme/İzleme Atölyesi Belirlenen dinleme/izleme materyalinin öğrenciler tarafından dinlenmesi/izlenmesi ve çözümlenmesi sürdürülerek sonlandırılır. Okuma Atölyesi Belirlenen iki kitabın öğrenciler tarafından okunması ve birinin sınıf içerisinde çözümlenmesi sürdürülerek tamamlanır. Diğer kitaba yönelik çözümleme rapor hâlinde sunulur. Üretim Atölyesi Üretim atölyesi uygulama esasları doğrultusunda öğrencilerin tema içeriği ile temadaki öğrenme çıktılarına uygun ürünler (ses kaydı, konuşma metni, sunum videosu; afiş, kolaj, sınıf panosu, dijital albüm vb.) hazırlamaları sağlanır. Bu etkinlikler, öğrencilerin yaratıcılığını ve özgün düşünme becerilerini destekleyecek nitelikte olmalıdır. ORTAOKUL TÜRKÇE DERSİ ÖĞRETİM PROGRAMI",
      "components": []
     },
     {
@@ -4614,6 +4691,12 @@
      "components": []
     },
     {
+     "code": "DO.7.6",
+     "order": 6,
+     "text": "; DYS.KY.7.6.). Öğrencilerin sözcükleri miktar yönünden belirten söz varlığının cümlenin anlamına katkısını",
+     "components": []
+    },
+    {
      "code": "T.D.7.7",
      "order": 7,
      "text": "). Dinlediklerinden/izlediklerinden hareketle söz varlığını geliştirmeye ve çoklu or-",
@@ -4681,6 +4764,14 @@
       {
        "label": "d",
        "text": "Problem çözme sürecini değerlendirir. Verilen bir problemi kendi bakış açısıyla yeProblem olarak görülebilecek olay, bilgi, duniden yapılandırması (olay, bilgi, durum vb. rum vb.ni problem olarak yapılandırması ni netleştirmesi; bunların sorun olarak algı- (olay, bilgi, durum vb.ni netleştirmesi; bunlanan yönlerini ve olası sebeplerini detaylıca ların sorun olarak algılanan yönlerini ve olaortaya koyması) ve probleme çözüm üretsı sebeplerini detaylıca ortaya koyması) ve mesi beklenir. probleme çözüm üretmesi beklenir. Düşünceyi geliştirme yollarını kullanarak metni yapılandırabilme"
+      },
+      {
+       "label": "a",
+       "text": "Kullanacağı düşünceyi geliştirme yollarını belirler. T.Y.5.12. T.Y.6.14. T.Y.7.15. T.Y.8.15."
+      },
+      {
+       "label": "b",
+       "text": "Düşünceyi geliştirme yollarını yazısının içeriğiyle uyumlu şekilde kullanır. Düşünceyi geliştirme yollarından tanımlaDüşünceyi geliştirme yollarından tanık gösÖnceki sınıf seviyelerinde işlenilen düşünÖnceki sınıf seviyelerinde işlenilen düşünma, karşılaştırma, benzetme ve örneklemeyi terme ve sayısal verilerden yararlanmayı ceyi geliştirme yollarını kullanmaya yönelik ceyi geliştirme yollarını kullanmaya yönelik kullanır. kullanır. Gerek görülmesi hâlinde önceki sıçalışmalar yapılır. çalışmalar yapılır. nıf seviyesinde işlenilen düşünceyi geliştirme yollarının kullanımına yönelik çalışmalara yer verilir."
       }
      ]
     },
@@ -5001,17 +5092,8 @@
     {
      "code": "T.O.7.23",
      "order": 23,
-     "text": "T.O.8.23. Metni eleştirebilme Öğrenci, metnin içeriğinde (olay, bilgi, durum vb.) sorgulayacağı yönü belirler. Ön bilgilerini de kullanarak bununla ilgili soru sorar ve bilgi edinir. Sorgulama sonucunda metnin eleştiriye konu olan unsuruna ve/veya özelliğine yönelik olumlu veya olumsuz bir yargıya ulaşır. Olumlu yargıya yönelik gerekçe ve/veya olumsuz yargıya yönelik alternatif sunar.",
-     "components": [
-      {
-       "label": "a",
-       "text": "Metnin içeriğini sorgular."
-      },
-      {
-       "label": "b",
-       "text": "Sorguladıklarıyla ilgili akıl yürüterek olumlu ve/veya olumsuz yargıya ulaşır."
-      }
-     ]
+     "text": ") sağlanır. Bilgilendirici metinde metin yapılarından hareketle önemli",
+     "components": []
     },
     {
      "code": "T.D.7.24",
@@ -5752,6 +5834,12 @@
      "components": []
     },
     {
+     "code": "KY.8.4",
+     "order": 4,
+     "text": "). Tema sürecinde öğrenme çıktılarına yönelik yapılacak çalışmalarda kavramsal becerilerden Genelleme (KB2.9.), Yapılandırma (KB2.13.), Analojik Akıl Yürütme (KB2.16.3.); eğilimlerden Seçicilik (E1.6.), Odaklanma (E3.2.), Yaratıcılık (E3.3.); sosyal-duygusal öğrenme becerilerinden İletişim (SDB2.1.); değerlerden. Sanatsal ve Görsel Zevkleri Hayatın Bir Parçası Hâline Getirmek (D7.3.); okuryazarlık becerilerinden Görsel Okuryazarlık (OB4.), Sanat Okuryazarlığı (OB9.) uygun bir şekilde işe koşulur. Atölye Çalışmaları Dinleme/İzleme Atölyesi Belirlenen ikinci dinleme/izleme materyalini öğrencinin ailesiyle dinleyerek/izleyerek çözümlemesi çalışması sürdürülür. Okuma Atölyesi Belirlenen iki kitabın öğrenciler tarafından okunması ve birinin sınıf içerisinde çözümlenmesi çalışmalarına devam edilir. Üretim Atölyesi Üretim atölyesi uygulama esasları doğrultusunda öğrencilerin tema içeriği ile temadaki öğrenme çıktılarına uygun ürünler (ses kaydı, konuşma metni, sunum videosu; afiş, kolaj, sınıf panosu, dijital albüm vb.) hazırlamaları sağlanır. Bu etkinlikler, öğrencilerin yaratıcılığını ve özgün düşünme becerilerini destekleyecek nitelikte olmalıdır.",
+     "components": []
+    },
+    {
      "code": "T.D.8.5",
      "order": 5,
      "text": ") sağlanır. Basit ve üst düzey çıkarımlar yoluyla dinlediklerinin/izlediklerinin derin anlamını belirleyebilmeleri",
@@ -6007,6 +6095,12 @@
      "code": "T.K.8.4",
      "order": 4,
      "text": "), konuşmalarında karşılaştırma yapabilmeleri (T.K.8.11.), sözlü olarak özetle-",
+     "components": []
+    },
+    {
+     "code": "KY.8.4",
+     "order": 4,
+     "text": "). Tema sürecinde öğrenme çıktılarına yönelik yapılacak çalışmalarda kavramsal becerilerden Genelleme (KB2.9.), Yapılandırma (KB2.13.), Analojik Akıl Yürütme (KB2.16.3.); eğilimlerden Seçicilik (E1.6.), Odaklanma (E3.2.), Yaratıcılık (E3.3.); sosyal-duygusal öğrenme becerilerinden İletişim (SDB2.1.); değerlerden. Sanatsal ve Görsel Zevkleri Hayatın Bir Parçası Hâline Getirmek (D7.3.); okuryazarlık becerilerinden Görsel Okuryazarlık (OB4.), Sanat Okuryazarlığı (OB9.) uygun bir şekilde işe koşulur. Atölye Çalışmaları Dinleme/İzleme Atölyesi Belirlenen ikinci dinleme/izleme materyalini öğrencinin ailesiyle dinleyerek/izleyerek çözümlemesi çalışması sürdürülür. Okuma Atölyesi Belirlenen iki kitabın öğrenciler tarafından okunması ve birinin sınıf içerisinde çözümlenmesi çalışmalarına devam edilir. Üretim Atölyesi Üretim atölyesi uygulama esasları doğrultusunda öğrencilerin tema içeriği ile temadaki öğrenme çıktılarına uygun ürünler (ses kaydı, konuşma metni, sunum videosu; afiş, kolaj, sınıf panosu, dijital albüm vb.) hazırlamaları sağlanır. Bu etkinlikler, öğrencilerin yaratıcılığını ve özgün düşünme becerilerini destekleyecek nitelikte olmalıdır.",
      "components": []
     },
     {
@@ -6667,8 +6761,8 @@
  ],
  "report": {
   "units": 24,
-  "outcomes": 790,
-  "components": 300,
+  "outcomes": 799,
+  "components": 311,
   "orphan_outcomes": 2,
   "gaps": [
    {

@@ -4,6 +4,10 @@
   "name": "Teknoloji ve Tasarım Dersi",
   "slug": "teknoloji-tasarim-dersi",
   "prefix": "TT",
+  "shapes": [
+   "TT/noktalı-4",
+   "TT/yapışık-3"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/teknoloji-ve-tasarim-dersi_20260902_110033_392.pdf"
@@ -180,6 +184,12 @@
      "components": []
     },
     {
+     "code": "TT7.5.1",
+     "order": 1,
+     "text": "Mekânsal analoji yapabilme",
+     "components": []
+    },
+    {
      "code": "TT.7.5.2",
      "order": 2,
      "text": "Öğrencilerin okul, hastane, müze, konut, kervansaray, kümbet, saray vb. yapıların özelliklerine ilişkin araştırma yapmaları ve yakın çevrelerindeki mimari yapıların işlevsel özelliklerden oluşan yapısal farklılıklarını gözlemlemeleri ve algılamaları sağlanır. Ardından çevrelerindeki yapıların işlevsel farklılıklarına göre mekânsal özelliklerini renk, doku, aydınlatma, iklimlendirme, estetik, sürdürülebilirlik, doğadan esinlenme vb. açılardan karşılaştırmaları istenir (KB3.1, OB1, E3.10, KB2.7). Bu karşılaştırma verilerini analiz ederek ilham panosunda göstermeleri sağlanabilir (E3.6). Çalışmanın gruplar hâlinde yapılması sağlanarak grup çalışma becerilerinin sergilenmesi ve bilgi paylaşımının etkinleştirilmesi hedeflenebilir. Gruplar, topladıkları verileri ve analizleri ilham panosunda sunarak ortak bir bilgi havuzu oluşturur (OB7, D3.4, SDB2.2). Öğrencilerin sanat eserini toplumlar değerler ve bireysel deneyimleriyle ilişkilendirerek yorumlamaları beklenir (D7.1, SDB1.1). Ayrıca söz hakkı vermek, söz kesmemek, etkin dinlemek gibi etkili iletişim becerilerini kullanarak birbirlerinin görüşlerine saygı duymaları sağlanır (D14.1, SDB2.1). TEKNOLOJI VE TASARIM DERSI ÖĞRETIM PROGRAMI",
@@ -192,10 +202,48 @@
      "components": []
     },
     {
+     "code": "TT7.5.3",
+     "order": 3,
+     "text": "Yaşamak istediği konutun farklı coğrafi alan ve şartlara uygun olarak tasarımını oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Farklı coğrafi alan ve iklim şartlarına göre kişisel ihtiyaçlara uygun yaşamak istediği konutun taslağını oluşturur."
+      },
+      {
+       "label": "b",
+       "text": "Tasarımını çizim veya maket yoluyla ürüne dönüştürür."
+      }
+     ]
+    },
+    {
      "code": "TT.7.5.4",
      "order": 4,
      "text": "Öğrencilerden tasarımını sunmak için hangi tanıtım materyallerini kullanacağını planlayarak (tanıtım kartı, afiş, el broşürü, video, kısa film, bilgisayar destekli sunum vb.) tasarımlarını oluşturmaları beklenir. Yaratıcılıklarını geliştirecek faaliyetlere katılmaları ve çeşitli fikir, argüman ve yeni bilgilere açık olmaları için farklı sunum tekniklerini deneyerek tasarımlarını en etkili şekilde anlatmaları teşvik edilir. Örneğin bir öğrenci projesini görselleştirmek için bilgisayar destekli bir animasyon hazırlarken bir diğeri maket üzerinden anlatım yapabilir ya da etkileşimli bir afiş tasarlayarak sunumunu zenginleştirebilir (D3.3). Bu ünite uygulanırken “3. Tasarım Odaklı Süreç” ünitesi incelenebilir (KB3.1, E3.3). Öğrencilerin hazırladığı tanıtım materyalini veya materyallerini akranlarıyla paylaşması istenir. Paylaşma sürecindeki tartışma ortamında birbirlerine söz hakkı vererek, söz kesmeyerek, etkin dinleyerek etkili iletişim becerilerini kullanmaları ve birbirlerinin görüşlerine saygı duymaları sağlanır (D14.1, SDB2.1). Ayrıca arkadaşlarının fikir ve görüşlerine değer vermeleri için her sunum sonrasında geri bildirim verme süreci planlanır ve öğrencilerin birbirlerine yapıcı eleştirilerde bulunarak geliştirme önerileri sunmaları teşvik edilir (E2.4). Örneğin bir öğrenci arkadaşının tasarımında renk seçimlerini nasıl daha etkili kullanabileceğini önerirken bir diğeri anlatımın daha akıcı olması için sunum tekniğiyle ilgili ipuçları paylaşılabilir (D4.4, D10.1). Çalışma sonunda sunumların öz değerlendirme ve akran değerlendirmesi yolu ile değerlendirilmesi sağlanır (SDB1.3). Öğrencilerin hazırladıkları tanıtım materyalleri performans görevi olarak ele alınabilir. Tasarım, planlama ve uygulama süreci dereceli puanlama anahtarı ile değerlendirilebilir. TEKNOLOJİ VE TASARIM DERSI ÖĞRETIM PROGRAMI",
      "components": []
+    },
+    {
+     "code": "TT7.5.4",
+     "order": 4,
+     "text": "Mimari tasarımı için çoklu ortam sunumu yapabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Mimari tasarımı için çoklu ortam sunum özelliklerine göre sunumu planlar."
+      },
+      {
+       "label": "b",
+       "text": "Mimari tasarımı için çoklu ortam sunum özelliklerine göre sunumu tasarlar."
+      },
+      {
+       "label": "c",
+       "text": "Mimari tasarımı için çoklu ortam sunum özelliklerine göre sunumu uygular."
+      },
+      {
+       "label": "ç",
+       "text": "Mimari tasarımı için çoklu ortam sunum özelliklerine göre sunumu değerlendirir."
+      }
+     ]
     }
    ]
   },
@@ -470,10 +518,40 @@
      "components": []
     },
     {
+     "code": "TT8.3.2",
+     "order": 2,
+     "text": "Yayın grafiği tasarım ürünlerini çözümleyebilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yayın grafiği tasarım ürünlerine ilişkin parçaları belirler."
+      },
+      {
+       "label": "b",
+       "text": "Yayın grafiği tasarım ürünlerinin parçaları arasındaki ilişkiyi belirler."
+      }
+     ]
+    },
+    {
      "code": "TT.8.3.3",
      "order": 3,
      "text": "Öğrenciler ilk olarak günlük yaşamda karşılaştıkları bir problemi belirler (SDB3.3). Belirlenen problem, bir dergi kapağının hedef kitleye hitap etmemesi, bir gazete sayfasındaki okunabilirliğin düşük olması, bir dergi sayfası tasarımındaki renk kullanımı veya bir broşürün daha bilgilendirici hâle getirilmesi gibi konular olabilir. Öğrencilerden seçtikleri tasarım problemini daha iyi anlamak için konu veya tema hakkında araştırma ve inceleme yapmaları istenir (OB1). Bu süreçte öğrenciler seçtikleri yayın TEKNOLOJİ VE TASARIM DERSI ÖĞRETIM PROGRAMI türüyle ilgili örnekleri inceleyerek tasarım dilini anlamaya çalışır (E3.2). Örneğin bir öğrenci dergi sayfası tasarlayacaksa mevcut başarılı dergi sayfalarının nasıl düzenlendiğini ve hangi sanat-tasarım eleman ve ilkelerinin öne çıktığını inceler (OB9). Öğrenciler edindiği bilgiler sonucunda belirledikleri tasarım problemine ilişkin fikir geliştirirler (SDB3.3). Beyin fırtınası yaparak alternatif tasarım çözümleri üzerinde düşünür ve hangi çözümün daha uygun olabileceğini tartışırlar (D14.1, E3.10, SDB2.1). Seçilen fikir doğrultusunda öğrencilerden eskizler oluşturmaları beklenir (SDB3.3). Bu eskizler, mizanpaj ilkelerine uygun şekilde sütun genişliği, başlık yerleşimi, yazı karakteri, renk kullanımı ve görsellerin konumlandırılması gibi unsurları içerecek şekilde geliştirilir. Öğrenciler oluşturdukları eskizleri sınıfta akranlarıyla paylaşır ve geri bildirim alarak tasarımlarını bu doğrultuda geliştirirler (SDB2.2). Eskiz aşamasından sonra öğrenciler yayın grafiği tasarımını oluşturabilmek için kullanacakları araç gereç ve grafik tasarım programlarını belirler. İmkânlar dâhilinde yayın grafiği tasarımını dijital olarak yapabilecek olan öğrenciler çeşitli yazılımlar üzerinde çalışmalar yaparken geleneksel yöntemlerle tasarım yapan öğrenciler kâğıt ve kolaj tekniklerini kullanarak mizanpaj tasarımı oluştururlar. Tasarım sürecinin aşamalarını konu ve işleve göre sıralayarak uygulamaya geçerler (E3.7). Örneğin bir dergi sayfası tasarlayacak olan öğrenci, öncelikle derginin hitap ettiği hedef kitlenin algılarını dikkate alarak renk, yazı karakteri, kullanacağı şekillerin yumuşaklığı veya sertliği (köşeli veya oval) gibi birçok unsuru göz önüne alır. Ayrıca yazılı metnin azlığı-çokluğu, görsel sayısı-niteliği, şekil gibi unsurları da dikkate alması beklenir. Mizanpaj yaparken vurgu, denge, boşluk kullanımı, hizalama ve sütun sayısı ilkelerinin etkili bir şekilde kullanılması teşvik edilir (SDB3.3). Öğrenciler tasarımlarını tasarım oluşturma kriterlerine göre uygular ve oluşturdukları tasarım ürünü ile ilgili maket-model-prototip (ilk örnek) yapmaları beklenir (OB4, SDB3.2). Yayın grafiği ürününü tamamladıktan sonra sınıfta sunarak akranlarından ve öğretmenden geri bildirim alır. Yapılan geri bildirimlere dayanarak tasarımda iyileştirmeler yapar ve son hâlini oluşturur (SDB2.2). İmkânlar dâhilinde oluşturulan tasarımlar dijital veya basılı olarak sunulabilir. Son aşamada öğrencilerin ürettikleri yayın grafiği tasarım ürünlerini değerlendirmek için tasarımın işlevselliği, hedef kitleye uygunluğu, sanat-tasarım eleman ve ilkeleri ile estetik bütünlüğü üzerine öz değerlendirmelerini yapması beklenir (E3.5). Öğrencilerin performans görevi olarak ürettikleri yayın grafiği tasarımlarını işlevsellik, hedef kitleye uygunluk, sanat ve tasarımın temel eleman-ilkeleri ile estetik bütünlük açısından öz değerlendirme yoluyla değerlendirmeleri sağlanabilir.",
      "components": []
+    },
+    {
+     "code": "TT8.3.3",
+     "order": 3,
+     "text": "Yayın grafiği tasarım ürünü oluşturabilme",
+     "components": [
+      {
+       "label": "a",
+       "text": "Yayın grafiği tasarım ürünü için taslak oluşturur."
+      },
+      {
+       "label": "b",
+       "text": "Yayın grafiği tasarımını ürüne dönüştürür."
+      }
+     ]
     }
    ]
   },
@@ -668,8 +746,8 @@
  "unassigned_outcomes": [],
  "report": {
   "units": 17,
-  "outcomes": 49,
-  "components": 5,
+  "outcomes": 54,
+  "components": 15,
   "orphan_outcomes": 0,
   "gaps": []
  }

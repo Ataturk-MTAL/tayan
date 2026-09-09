@@ -4,6 +4,9 @@
   "name": "Oyun ve Oyun Etkinlikleri Dersi (Geleneksel Oyunlar)",
   "slug": "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-geleneksel-oyunlar",
   "prefix": "OOEGO",
+  "shapes": [
+   "OOEGO/noktalı-3"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/oyun-ve-oyun-etkinlikleri-dersi-geleneksel-oyunlar_20260819_073604_446.pdf"

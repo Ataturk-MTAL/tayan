@@ -4,6 +4,9 @@
   "name": "T.C. İnkılap Tarihi ve Atatürkçülük Dersi",
   "slug": "tc-inkilap-tarihi-ve-ataturkculuk-dersi",
   "prefix": "İTA",
+  "shapes": [
+   "İTA/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/2024programink8Onayli.pdf"

@@ -4,6 +4,9 @@
   "name": "Ahlak ve Vatandaşlık Eğitimi Dersi",
   "slug": "ortaokul-ahlak-ve-vatandaslik-egitimi-dersi",
   "prefix": "AVE",
+  "shapes": [
+   "AVE/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/ahlak-ve-vatandaslik-egitimi-dersi_20260819_070330_389.pdf"

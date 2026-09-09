@@ -4,6 +4,9 @@
   "name": "Görsel Sanatlar Dersi",
   "slug": "gorsel-sanatlar-dersi-temel-egitim",
   "prefix": "GS",
+  "shapes": [
+   "GS/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/gorsel-sanatlar-ogretim-programi-temel-egitim.pdf"

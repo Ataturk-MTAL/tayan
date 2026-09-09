@@ -4,6 +4,9 @@
   "name": "Beden Eğitimi, Oyun ve Müzik Dersi",
   "slug": "muzik-okullari-beden-egitimi-oyun-muzik-dersi",
   "prefix": "BOM",
+  "shapes": [
+   "BOM/noktalı-4"
+  ],
   "kademe": 11,
   "kademe_name": "Müzik Okulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/muzik-okullari-beden-egitimi-oyun-muzik-dersi.pdf"

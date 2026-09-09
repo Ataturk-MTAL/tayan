@@ -4,6 +4,9 @@
   "name": "Bireysel Çalgı Eğitimi Dersi-Viyolonsel Modülü",
   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-viyolonsel-modulu",
   "prefix": "VLS",
+  "shapes": [
+   "VLS/noktalı-4"
+  ],
   "kademe": 11,
   "kademe_name": "Müzik Okulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/muzik-bireysel-calgi-egitimi-viyolonsel.pdf"

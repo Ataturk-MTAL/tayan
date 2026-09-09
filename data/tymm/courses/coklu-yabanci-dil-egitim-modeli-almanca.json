@@ -3,7 +3,12 @@
   "id": 37,
   "name": "Çoklu Yabancı Dil Eğitim Modeli Almanca",
   "slug": "coklu-yabanci-dil-egitim-modeli-almanca",
-  "prefix": "DE",
+  "prefix": "KK",
+  "shapes": [
+   "DE/noktalı-3",
+   "KK/yapışık-2",
+   "SELK/yapışık-2"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/almanca-tegm.pdf"
@@ -11,12 +16,806 @@
  "units": [],
  "unassigned_outcomes": [
   {
+   "code": "SELK1.1",
+   "grade": 1,
+   "unit": null,
+   "order": 1,
+   "text": "Selbstwahrnehmungskompetenz SELK1.2. Selbstregulationskompetenz",
+   "components": []
+  },
+  {
+   "code": "SELK1.2",
+   "grade": 1,
+   "unit": null,
+   "order": 2,
+   "text": "Selbstregulationskompetenz und gefördert werden.",
+   "components": []
+  },
+  {
+   "code": "SELK2.1",
+   "grade": 2,
+   "unit": null,
+   "order": 1,
+   "text": "Kommunikationskompetenz",
+   "components": []
+  },
+  {
+   "code": "SELK2.2",
+   "grade": 2,
+   "unit": null,
+   "order": 2,
+   "text": "Kooperationskompetenz Fähigkeiten in",
+   "components": []
+  },
+  {
+   "code": "KK2.2",
+   "grade": 2,
+   "unit": null,
+   "order": 2,
+   "text": "Beobachtungsfähigkeit Thematisiert",
+   "components": []
+  },
+  {
+   "code": "SELK2.3",
+   "grade": 2,
+   "unit": null,
+   "order": 3,
+   "text": "Wahrnehmungskompetenz",
+   "components": []
+  },
+  {
+   "code": "KK2.3",
+   "grade": 2,
+   "unit": null,
+   "order": 3,
+   "text": "Fähigkeit zum Zusammenfassen ergänzende fachliche",
+   "components": []
+  },
+  {
+   "code": "KK2.4",
+   "grade": 2,
+   "unit": null,
+   "order": 4,
+   "text": "Analysefähigkeit und gedankliche",
+   "components": []
+  },
+  {
+   "code": "KK2.5",
+   "grade": 2,
+   "unit": null,
+   "order": 5,
+   "text": "Klassifizierungsfähigkeit Kompetenzen, die",
+   "components": []
+  },
+  {
+   "code": "KK2.7",
+   "grade": 2,
+   "unit": null,
+   "order": 7,
+   "text": "Vergleichsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN DE.5.1.H1.1. – Vorbereitung auf das Hörund Sehverstehen Lernziel: Die Schüler können sich gezielt auf den Prozess für das Hör/Sehverstehen zu den Themen „Sich vorstellen“, „Das Alphabet“ und „Nach dem Befinden fragen“ vorbereiten, um vertraute Redemittel, Namen, Buchstaben und Fragen zum Befinden zu erkennen und zu deuten. Prozesskomponenten:",
+   "components": [
+    {
+     "label": "a",
+     "text": "Die Schüler aktivieren ihr Vorwissen und ihre bisherigen Erfahrungen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler erkennen/erfassen grundlegende, konkrete und einfache Zusammenhänge zwischen ihrem Vorwissen und den Hinweisen im vorliegenden Inhalt."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler machen auf der Grundlage ihres Vorwissens und ihrer Erfahrungen Vermutungen über den Inhalt. DE.5.1.H1.2. – Informationen zusammenführen durch bedeutende Details Lernziel: Die Schüler können beim Zuhören/Zusehen wichtige Informationen und Details zu den Themen „Sich vorstellen“, „Das Alphabet“ und „Nach dem Befinden fragen“ erkennen und verstehen. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler machen anhand der visuellen/auditiven Elemente, die den Zielinhalt umgeben, Vermutungen über den Inhalt."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler erfassen durch Zuhören/Zusehen den allgemeinen Inhalt des vorliegenden Materials."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler erkennen konkrete/einfache/grundlegende Details und Bestandteile im ganzheitlichen Inhalt. DE.5.1.P3.1. – Phonologische Elemente erkennen und anwenden Lernziel: Die Schüler können die phonologischen Zielstrukturen zu den Themen „Sich vorstellen“, „Das Alphabet“ und „Nach dem Befinden fragen“ spontan, authentisch und angemessen in der mündlichen Kommunikation mit anderen erkennen, auswählen und anwenden. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler hören sich den aktuellen Inhalt aufmerksam an und achten dabei auf die zielgerichteten Ausspracheelemente."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler wiederholen die zielgerichteten Ausspracheelemente und festigen diese dadurch."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler erkennen die zielgerichteten Ausspracheelemente aus dem Inhalt in verschiedenen Kontexten."
+    },
+    {
+     "label": "d",
+     "text": "Die Schüler wenden die zielgerichteten Ausspracheelemente in neuen Kontexten spontan, korrekt, natürlich und situationsgerecht an."
+    },
+    {
+     "label": "e",
+     "text": "Die Schüler verwenden die zielgerichteten Ausspracheelemente auch in anderen"
+    },
+    {
+     "label": "f",
+     "text": "Kommunikationssituationen spontan, korrekt, natürlich und situationsgerecht. DE.5.1.L2.1. – Vorbereitung auf das Leseverstehen Lernziel: Die Schüler können sich gezielt auf den Prozess für Leseverstehen zu den Themen „Sich vorstellen“, „Das Alphabet“ und „Nach dem Befinden fragen“ vorbereiten und zentrale Informationen durch schnelles Lesen erfassen. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler aktivieren ihr Vorwissen und ihre bisherigen Erfahrungen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler erkennen grundlegende Zusammenhänge zwischen dem Vorwissen und den Hinweisen im aktuellen Inhalt."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler machen einfache Vermutungen über das Thema des aktuellen Inhalts. DE.5.1.L2.3. – Bedeutung erschließen und Gedanken zum Leseprozess ausdrücken Lernziel: Die Schüler können die Bedeutung einfacher Texte aus dem Alltag (z. B. Steckbrief, Dialog) durch genaues Lesen verstehen. Sie reflektieren anschließend ihre Gedanken und Eindrücke und können eigene Texte verfassen und präsentieren. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler überprüfen die Richtigkeit ihrer vorherigen Vermutungen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler ordnen die grundlegenden Elemente des Inhalts in einfache Kategorien ein."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler vergleichen die grundlegenden Elemente des Inhalts auf einfache Weise."
+    },
+    {
+     "label": "d",
+     "text": "Die Schüler erkennen horizontale und vertikale Beziehungen im Inhalt."
+    },
+    {
+     "label": "e",
+     "text": "Die Schüler ziehen einfache und grundlegende Schlussfolgerungen aus dem Inhalt."
+    },
+    {
+     "label": "f",
+     "text": "Die Schüler verinnerlichen den gegebenen Inhalt individuell. DE.5.1.W2.1. – Zielwortschatz erkennen und anwenden Lernziel: Die Schüler können den Zielwortschatz zu den Themen „Sich vorstellen“, „Das Alphabet“ und „Nach dem Befinden fragen“ sicher erkennen, auswählen und anwenden. Sie können diesen Wortschatz spontan, altersgerecht und kommunikativ angemessen verwenden. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler hören oder sehen zielsprachliche Wörter ganzheitlich im aktuellen Inhalt."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler sprechen die wiederholten Zielwörter laut nach."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler erfassen die Verwendung der Zielwörter."
+    },
+    {
+     "label": "d",
+     "text": "Die Schüler verknüpfen die wahrgenommenen Zielwörter gedanklich mit vorhandenen konzeptuellen Bedeutungen."
+    },
+    {
+     "label": "e",
+     "text": "Die Schüler erfassen die Bedeutungen der wiederholten und verwendeten Zielwörter im Inhalt."
+    },
+    {
+     "label": "f",
+     "text": "Die Schüler setzen die kontextuell verknüpften Zielwörter in verschiedenen Aktivitäten spontan, authentisch und natürlich ein."
+    },
+    {
+     "label": "g",
+     "text": "Die Schüler verwenden Zielwörter in unterschiedlichen Kommunikationssituationen effektiv, spontan, authentisch und natürlich. DE.5.1.G1.1. – Zielgrammatik erkennen und anwenden Lernziel: Die Schüler können die grammatischen Zielstrukturen zu den Themen „Sich vorstellen“, „Das Alphabet“ und „Nach dem Befinden fragen“ spontan, authentisch und situationsgerecht erkennen und anwenden – ohne explizite Regelkenntnisse. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler gewinnen durch Zuhören oder Zusehen ein allgemeines Vertrautsein mit dem Inhalt."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler festigen ihre Vertrautheit mit dem Zielinhalt, indem sie darin enthaltene Handlungen erkennen und den Inhalt hörend oder sehend wahrnehmen."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler hören/sehen sich Präsentationen an, in denen sprachliche Elemente mit Körpersprache und Wiederholung (mündlich/visuell) dargestellt werden. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE"
+    },
+    {
+     "label": "d",
+     "text": "Die Schüler erkennen durch Zuhören/Zusehen ähnliche sprachliche Strukturen mit Körpersprache und Wiederholung und entwickeln so eine auditive/visuelle Wahrnehmung."
+    },
+    {
+     "label": "e",
+     "text": "Die Schüler wiederholen sprachliche Zielstrukturen im Inhalt mehrmals automatisch und durch Zeigen, ohne die grammatischen Regeln zu kennen."
+    },
+    {
+     "label": "f",
+     "text": "Die Schüler wiederholen sprachliche Strukturen automatisch, natürlich, kurz, einfach und bedeutungsvoll."
+    },
+    {
+     "label": "g",
+     "text": "Die Schüler stellen die gehörten/gesehenen sprachlichen Strukturen automatisch und körperlich dar, ohne die Regeln zu kennen."
+    },
+    {
+     "label": "h",
+     "text": "Die Schüler wiederholen die gehörten/gesehenen sprachlichen Strukturen gleichzeitig automatisch und körperlich, ohne die Regeln zu kennen."
+    },
+    {
+     "label": "i",
+     "text": "Die Schüler wenden ähnliche gehörte/gesehene/gelesene sprachliche Strukturen spontan, ohne bewusste Regelkenntnis, mündlich oder schriftlich in der Kommunikation an. DE.5.1.S4.1. – Vorbereitung auf den Schreibprozess Lernziel: Die Schüler können sich auf einfache Schreibaufgaben vorbereiten und eigene kurze schriftliche Inhalte passend zum Thema „Ich und Du“ verfassen. Sie lernen, persönliche Informationen strukturiert und korrekt aufzuschreiben und mit anderen zu teilen. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler aktivieren ihr Vorwissen und ihre Erfahrungen, um sie einfach mit dem aktuellen Inhalt zu verknüpfen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler erfassen im Allgemeinen, worin die Schreibaufgabe besteht."
+    }
+   ]
+  },
+  {
+   "code": "KK2.8",
+   "grade": 2,
+   "unit": null,
+   "order": 8,
+   "text": "Forschungsfähigkeit",
+   "components": []
+  },
+  {
+   "code": "KK2.11",
+   "grade": 2,
+   "unit": null,
+   "order": 11,
+   "text": "Vorhersagefähigkeit auf Beobachtungsbasis",
+   "components": []
+  },
+  {
+   "code": "KK2.12",
+   "grade": 2,
+   "unit": null,
+   "order": 12,
+   "text": "Datenbasierte Vorhersagefähigkeit",
+   "components": []
+  },
+  {
+   "code": "KK2.13",
+   "grade": 2,
+   "unit": null,
+   "order": 13,
+   "text": "Strukturierungsfähigkeit \u0007 LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN DE.5.2.H1.1. – Vorbereitung auf das Hörund Sehverstehen Lernziel: Die Schüler können sich gezielt auf den Prozess für Hör-und Sehverstehen zu den Themen „Das Alter und Zahlen“, „Die Länder und die Sprachen“ sowie „Die Herkunft und der Wohnort“ vorbereiten, um relevante Redemittel, Zahlenangaben, Herkunftsländer, Sprachen und Wohnorte zu erkennen und zu deuten. Prozesskomponenten:",
+   "components": [
+    {
+     "label": "a",
+     "text": "Die Schüler aktivieren ihr Vorwissen und ihre bisherigen Erfahrungen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler erkennen einfache und konkrete Zusammenhänge zwischen ihrem Vorwissen und den Hinweisen im aktuellen Inhalt."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler machen auf Grundlage ihres Vorwissens Vermutungen über den aktuellen Inhalt. DE.5.2.H1.2. – Informationen zusammenführen durch bedeutende Details Lernziel: Die Schüler können beim Zuhören/Zusehen wichtige Informationen und Details zu den Themen „Das Alter und Zahlen“, „Die Länder und die Sprachen“ sowie „Die Herkunft und der Wohnort“ erkennen und verstehen. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler machen Vermutungen über den Inhalt, indem sie sich auf visuelle/akustische Elemente rund um den Zielinhalt stützen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler erfassen das Thema des aktuellen Inhalts im Allgemeinen durch Zuhören oder Zusehen."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler erkennen konkrete, einfache und grundlegende Details und Bestandteile des Gesamtinhalts. DE.5.2.P3.1. Phonologische Elemente erkennen und anwenden Lernziel: Die Schüler können die lautlichen Merkmale (Aussprache, Betonung und Intonation) zu den Themen Alter, Zahlen, Länder, Sprachen, Herkunft und Wohnort korrekt und bewusst erkennen. Sie können diese Kenntnisse in einfachen Kommunikationssituationen angemessen anwenden. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler hören den Inhalt aufmerksam, wobei sie auf die zielsprachlichen Ausspracheelemente achten."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler festigen die zielsprachlichen Ausspracheelemente durch wiederholtes Nachsprechen."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler erkennen die zielsprachlichen Ausspracheelemente in verschiedenen Kontexten."
+    },
+    {
+     "label": "d",
+     "text": "Die Schüler setzen die zielsprachlichen Ausspracheelemente in unterschiedlichen Kontexten spontan, richtig, authentisch und natürlich ein."
+    },
+    {
+     "label": "e",
+     "text": "Die Schüler wenden die zielsprachlichen Ausspracheelemente auch in anderen Kommunikationssituationen korrekt, spontan, authentisch und natürlich an. DE.5.2.L2.1. – Vorbereitung auf das Leseverstehen Lernziel: Die Schüler können sich gezielt auf das Leseverstehen zu einfachen Texten über Alter, Zahlen, Herkunft, Länder und Sprachen vorbereiten, indem sie ihr Vorwissen aktivieren und erste inhaltliche Vermutungen auf Grundlage von Textmerkmalen anstellen. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler aktivieren ihr Vorwissen und ihre bisherigen Erfahrungen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler erkennen grundlegende Zusammenhänge zwischen dem Vorwissen und den Hinweisen im aktuellen Inhalt. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE"
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler machen einfache Vermutungen über das Thema des aktuellen Inhalts. DE.5.2.L2.3. – Bedeutung erschließen und Gedanken zum Leseprozess ausdrücken Lernziel: Die Schüler können beim Lesen einfacher Texte zu den Themen Alter, Länder, Sprachen, Herkunft und Wohnort zentrale Informationen erkennen und verstehen. Sie können zudem eigene Gedanken und Eindrücke zum Gelesenen formulieren und austauschen. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler überprüfen die Richtigkeit ihrer vorherigen Vermutungen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler ordnen die grundlegenden Elemente des Inhalts in einfache Kategorien ein."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler vergleichen die grundlegenden Elemente des Inhalts auf einfache Weise."
+    },
+    {
+     "label": "d",
+     "text": "Die Schüler erkennen horizontale und vertikale Beziehungen im Inhalt."
+    },
+    {
+     "label": "e",
+     "text": "Die Schüler ziehen einfache und grundlegende Schlussfolgerungen aus dem Inhalt."
+    },
+    {
+     "label": "f",
+     "text": "Die Schüler verinnerlichen den gegebenen Inhalt individuell. DE.5.2.W2.1. – Zielwortschatz erkennen und anwenden Lernziel: Die Schüler können den themenspezifischen Wortschatz zu Alter, Zahlen, Ländern, Sprachen, Herkunft und Wohnort erkennen, verstehen und diesen im eigenen Sprachgebrauch angemessen, spontan und altersgerecht anwenden. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler hören oder sehen zielsprachliche Wörter ganzheitlich im aktuellen Inhalt."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler sprechen die wiederholten Zielwörter laut nach."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler erfassen die Verwendung der Zielwörter."
+    },
+    {
+     "label": "d",
+     "text": "Die Schüler verknüpfen die wahrgenommenen Zielwörter gedanklich mit vorhandenen konzeptuellen Bedeutungen."
+    },
+    {
+     "label": "e",
+     "text": "Die Schüler erfassen die Bedeutungen der wiederholten und verwendeten Zielwörter im Inhalt."
+    },
+    {
+     "label": "f",
+     "text": "Die Schüler setzen die kontextuell verknüpften Zielwörter in verschiedenen Aktivitäten spontan, authentisch und natürlich ein."
+    },
+    {
+     "label": "g",
+     "text": "Die Schüler verwenden Zielwörter in unterschiedlichen Kommunikationssituationen effektiv, spontan, authentisch und natürlich. DE.5.2.G1.1. – Zielgrammatik erkennen und anwenden Lernziel: Die Schüler können grammatikalische Strukturen wie Personalpronomen, konjugierte Formen von sein und kommen, sowie einfache Fragesätze erkennen und in altersgerechten Kommunikationssituationen korrekt, authentisch und spontan anwenden. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler gewinnen durch Zuhören oder Zusehen ein allgemeines Vertrautsein mit dem Inhalt."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler festigen ihre Vertrautheit mit dem Zielinhalt, indem sie darin enthaltene Handlungen erkennen und den Inhalt hörend oder sehend wahrnehmen."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler hören/sehen sich Präsentationen an, in denen sprachliche Elemente mit Körpersprache und Wiederholung (mündlich/visuell) dargestellt werden."
+    },
+    {
+     "label": "d",
+     "text": "Die Schüler erkennen durch Zuhören/Zusehen ähnliche sprachliche Strukturen mit Körpersprache und Wiederholung und entwickeln so eine auditive/visuelle Wahrnehmung."
+    },
+    {
+     "label": "e",
+     "text": "Die Schüler wiederholen sprachliche Zielstrukturen im Inhalt mehrmals automatisch und durch Zeigen, ohne die grammatischen Regeln zu kennen. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE"
+    },
+    {
+     "label": "f",
+     "text": "Die Schüler wiederholen sprachliche Strukturen automatisch, natürlich, kurz, einfach und bedeutungsvoll."
+    },
+    {
+     "label": "g",
+     "text": "Die Schüler stellen die gehörten/gesehenen sprachlichen Strukturen automatisch und körperlich dar, ohne die Regeln zu kennen."
+    },
+    {
+     "label": "h",
+     "text": "Die Schüler wiederholen die gehörten/gesehenen sprachlichen Strukturen gleichzeitig automatisch und körperlich, ohne die Regeln zu kennen."
+    },
+    {
+     "label": "i",
+     "text": "Die Schüler wenden ähnliche gehörte/gesehene/gelesene sprachliche Strukturen spontan, ohne bewusste Regelkenntnis, mündlich oder schriftlich in der Kommunikation an. DE.5.2.S4.1. – Vorbereitung auf den Schreibprozess Lernziel: Die Schüler können sich auf das Schreiben eines kurzen Vorstellungstextes vorbereiten, analysieren ein Modell, verfassen eigene Texte und können die gelernten Strukturen und Inhalte in unterschiedlichen Schreibkontexten anwenden. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler aktivieren ihr Vorwissen und ihre Erfahrungen, um sie einfach mit dem aktuellen Inhalt zu verknüpfen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler erfassen im Allgemeinen, worin die Schreibaufgabe besteht."
+    }
+   ]
+  },
+  {
+   "code": "KK2.16",
+   "grade": 2,
+   "unit": null,
+   "order": 16,
+   "text": "Denkvermögen LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN DE.7.4.H1.1. – Vorbereitung auf das Hörund Sehverstehen Lernziel: Die Schüler können beim Zuhören/Zusehen zentrale Informationen und Kernaussagen zu den Themen Körperteile, Krankheiten sowie Gesundheitstipps und Ratschläge erkennen und verstehen. Prozesskomponenten:",
+   "components": [
+    {
+     "label": "a",
+     "text": "Die Schüler aktivieren ihr Vorwissen und ihre bisherigen Erfahrungen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler erkennen einfache und konkrete Zusammenhänge zwischen ihrem Vorwissen und den Hinweisen im aktuellen Inhalt."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler machen auf Grundlage ihres Vorwissens Vermutungen über den aktuellen Inhalt. DE.7.4.H1.2. – Informationen zusammenführen durch bedeutende Details Lernziel: Die Schüler können beim Zuhören/Zusehen wichtige Details erkennen und einfache Schlussfolgerungen zu den Themen Körperteile, Krankheiten und Gesundheitstipps und Ratschläge ziehen. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler machen Vermutungen über den Inhalt, indem sie sich auf visuelle/akustische Elemente rund um den Zielinhalt stützen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler erfassen das Thema des aktuellen Inhalts im Allgemeinen durch Zuhören oder Zusehen."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler erkennen konkrete, einfache und grundlegende Details und Bestandteile des Gesamtinhalts DE.7.4.P3.1. – Phonologische Elemente erkennen und anwenden Lernziel: Die Schüler können zentrale Ausspracheregeln und Intonationsmuster im Kontext der Themen Körperteile, Krankheiten sowie Gesundheitstipps und Ratschläge erkennen und gezielt anwenden. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler hören den Inhalt aufmerksam, wobei sie auf die zielsprachlichen Ausspracheelemente achten."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler festigen die zielsprachlichen Ausspracheelemente durch wiederholtes Nachsprechen."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler erkennen die zielsprachlichen Ausspracheelemente in verschiedenen Kontexten."
+    },
+    {
+     "label": "d",
+     "text": "Die Schüler setzen die zielsprachlichen Ausspracheelemente in unterschiedlichen Kontexten spontan, richtig, authentisch und natürlich ein."
+    },
+    {
+     "label": "e",
+     "text": "Die Schüler wenden die zielsprachlichen Ausspracheelemente auch in anderen Kommunikationssituationen korrekt, spontan, authentisch und natürlich an. DE.7.4.L2.1. – Vorbereitung auf das Leseverstehen Lernziel: Die Schüler können zentrale Informationen und Kernaussagen in kurzen Lesetexten zum Thema Körperteile, Krankheiten und Gesundheitstipps erfassen und verstehen. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler aktivieren ihr Vorwissen und ihre bisherigen Erfahrungen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler erkennen grundlegende Zusammenhänge zwischen dem Vorwissen und den Hinweisen im aktuellen Inhalt."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler machen einfache Vermutungen über das Thema des aktuellen Inhalts. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE DE.7.4.L2.3. – Bedeutung erschließen und Gedanken zum Leseprozess ausdrücken Lernziel: Die Schüler können detaillierte Informationen in Lesetexten zu den Themen Körperteile, Krankheiten und Gesundheitstipps verstehen und für ihre eigene Kommunikation nutzen. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler überprüfen die Richtigkeit ihrer vorherigen Vermutungen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler ordnen die grundlegenden Elemente des Inhalts in einfache Kategorien ein."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler vergleichen die grundlegenden Elemente des Inhalts auf einfache Weise."
+    },
+    {
+     "label": "d",
+     "text": "Die Schüler erkennen horizontale und vertikale Beziehungen im Inhalt."
+    },
+    {
+     "label": "e",
+     "text": "Die Schüler ziehen einfache und grundlegende Schlussfolgerungen aus dem Inhalt."
+    },
+    {
+     "label": "f",
+     "text": "Die Schüler verinnerlichen den gegebenen Inhalt individuell. DE.7.4.W2.1. – Zielwortschatz erkennen und anwenden Lernziel: Die Schüler können den Zielwortschatz zu den Themen Körperteile, Krankheiten und Gesundheitstipps gezielt erkennen, in unterschiedlichen Kontexten verstehen und situationsgerecht anwenden. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler hören oder sehen zielsprachliche Wörter ganzheitlich im aktuellen Inhalt."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler sprechen die wiederholten Zielwörter laut nach."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler erfassen die Verwendung der Zielwörter."
+    },
+    {
+     "label": "d",
+     "text": "Die Schüler verknüpfen die wahrgenommenen Zielwörter gedanklich mit vorhandenen konzeptuellen Bedeutungen."
+    },
+    {
+     "label": "e",
+     "text": "Die Schüler erfassen die Bedeutungen der wiederholten und verwendeten Zielwörter im Inhalt."
+    },
+    {
+     "label": "f",
+     "text": "Die Schüler setzen die kontextuell verknüpften Zielwörter in verschiedenen Aktivitäten spontan, authentisch und natürlich ein."
+    },
+    {
+     "label": "g",
+     "text": "Die Schüler verwenden Zielwörter in unterschiedlichen Kommunikationssituationen effektiv, spontan, authentisch und natürlich. DE.7.4.G1.1. – Zielgrammatik erkennen und anwenden Lernziel: Die Schüler können, die für das Thema Körper und Gesundheit relevanten Zielgrammatikelemente erkennen, in verschiedenen kommunikativen Kontexten verstehen und angemessen anwenden. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler gewinnen durch Zuhören oder Zusehen ein allgemeines Vertrautsein mit dem Inhalt."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler festigen ihre Vertrautheit mit dem Zielinhalt, indem sie darin enthaltene Handlungen erkennen und den Inhalt hörend oder sehend wahrnehmen."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler hören/sehen sich Präsentationen an, in denen sprachliche Elemente mit Körpersprache und Wiederholung (mündlich/visuell) dargestellt werden."
+    },
+    {
+     "label": "d",
+     "text": "Die Schüler erkennen durch Zuhören/Zusehen ähnliche sprachliche Strukturen mit Körpersprache und Wiederholung und entwickeln so eine auditive/visuelle Wahrnehmung."
+    },
+    {
+     "label": "e",
+     "text": "Die Schüler wiederholen sprachliche Zielstrukturen im Inhalt mehrmals automatisch und durch Zeigen, ohne die grammatischen Regeln zu kennen."
+    },
+    {
+     "label": "f",
+     "text": "Die Schüler wiederholen sprachliche Strukturen automatisch, natürlich, kurz, einfach und bedeutungsvoll."
+    },
+    {
+     "label": "g",
+     "text": "Die Schüler stellen die gehörten/gesehenen sprachlichen Strukturen automatisch und körperlich dar, ohne die Regeln zu kennen. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE"
+    },
+    {
+     "label": "h",
+     "text": "Die Schüler wiederholen die gehörten/gesehenen sprachlichen Strukturen gleichzeitig automatisch und körperlich, ohne die Regeln zu kennen."
+    },
+    {
+     "label": "i",
+     "text": "Die Schüler wenden ähnliche gehörte/gesehene/gelesene sprachliche Strukturen spontan, ohne bewusste Regelkenntnis, mündlich oder schriftlich in der Kommunikation an. DE.7.4.S4.1. – Vorbereitung auf den Schreibprozess Lernziel: Die Schüler können sich gezielt auf den Schreibprozess zum Thema Körper, Krankheiten, Gesundheitstipps und Ratschläge vorbereiten können, um relevante Redemittel und Strukturen sicher anzuwenden. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler aktivieren ihr Vorwissen und ihre Erfahrungen, um sie einfach mit dem aktuellen Inhalt zu verknüpfen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler erfassen im Allgemeinen, worin die Schreibaufgabe besteht. DE.7.4.S4.4. – Inhalt vorbereiten und schreiben Lernziel: Die Schüler können selbstständig einfache schriftliche Texte zum Thema Körper und Gesundheit verfassen, um Beschwerden zu beschreiben und Gesundheitstipps zu geben. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler verwenden geeignete Materialien, strukturelle Merkmale, Diskursformen und Satzzeichen entsprechend der vorgegebenen Schreibaufgabe für geplantes oder spontanes Schreiben."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler wählen und verwenden geeignete Wörter und sprachliche Einheiten entsprechend der einfachen Schreibaufgabe für geplantes oder spontanes Schreiben."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler äußern einfache Botschaften entsprechend der Schreibaufgabe für geplantes oder spontanes Schreiben."
+    }
+   ]
+  },
+  {
+   "code": "KK2.17",
+   "grade": 2,
+   "unit": null,
+   "order": 17,
+   "text": "Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN DE.8.5.H1.1. – Vorbereitung auf das Hörund Sehverstehen Lernziel: Die Schüler können sich gezielt auf den Prozess für das Hör-/Sehverstehen zu den Themen Leben in der Stadt und auf dem Land, Meine Stadt vorstellen und unsere Umwelt schützen vorbereiten. Sie können bekannte Redemittel, Ortsbegriffe sowie einfache Aussagen zu Umweltproblemen erkennen und deuten. Prozesskomponenten:",
+   "components": [
+    {
+     "label": "a",
+     "text": "Die Schüler aktivieren ihr Vorwissen und ihre bisherigen Erfahrungen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler erkennen einfache und konkrete Zusammenhänge zwischen ihrem Vorwissen und den Hinweisen im aktuellen Inhalt."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler machen auf Grundlage ihres Vorwissens Vermutungen über den aktuellen Inhalt. DE.8.5.H1.2. – Informationen zusammenführen durch bedeutende Details Lernziel: Die Schüler können beim Zuhören und Zusehen wichtige Informationen, bedeutende Details sowie inhaltliche Zusammenhänge zu den Themen Leben in der Stadt und auf dem Land, Meine Stadt vorstellen und Unsere Umwelt schützen erkennen, verstehen und sinnvoll verknüpfen. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler machen Vermutungen über den Inhalt, indem sie sich auf visuelle/akustische Elemente rund um den Zielinhalt stützen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler erfassen das Thema des aktuellen Inhalts im Allgemeinen durch Zuhören oder Zusehen."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler erkennen konkrete, einfache und grundlegende Details und Bestandteile des Gesamtinhalts DE.8.5.P3.1. – Phonologische Elemente erkennen und anwenden Lernziel: Die Schüler können die phonologischen Zielstrukturen zum Thema Unsere Lebensräume: Stadt, Land und Umwelt gezielt, authentisch und natürlich erkennen und anwenden. Sie können diese spontan und in der Kommunikation mit anderen angemessen und wirksam nutzen. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler hören den Inhalt aufmerksam, wobei sie auf die zielsprachlichen Ausspracheelemente achten."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler festigen die zielsprachlichen Ausspracheelemente durch wiederholtes Nachsprechen."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler erkennen die zielsprachlichen Ausspracheelemente in verschiedenen Kontexten."
+    },
+    {
+     "label": "d",
+     "text": "Die Schüler setzen die zielsprachlichen Ausspracheelemente in unterschiedlichen Kontexten spontan, richtig, authentisch und natürlich ein."
+    },
+    {
+     "label": "e",
+     "text": "Die Schüler wenden die zielsprachlichen Ausspracheelemente auch in anderen Kommunikationssituationen korrekt, spontan, authentisch und natürlich an. DE.8.5.L2.1. – Vorbereitung auf das Leseverstehen Lernziel: Die Schüler können sich gezielt auf den Prozess für Leseverstehen zum Thema Unsere Lebensräume: Stadt, Land und Umwelt vorbereiten. Sie aktivieren ihr Vorwissen zu Stadtund Landleben, zur eigenen Stadt oder zum eigenen Dorf und zu Umweltthemen, um einfache Lesetexte besser zu verstehen. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler aktivieren ihr Vorwissen und ihre bisherigen Erfahrungen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler erkennen grundlegende Zusammenhänge zwischen dem Vorwissen und den Hinweisen im aktuellen Inhalt."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler machen einfache Vermutungen über das Thema des aktuellen Inhalts. DE.8.5.L2.3. –Bedeutungen erschließen Lernziel: Die Schüler können beim Lesen von Texten zum Thema Unsere Lebensräume: Stadt, Land und Umwelt wesentliche Informationen, bedeutende Details sowie Zusammenhänge und Bedeutungen erfassen und in eigenen Worten wiedergeben. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler überprüfen die Richtigkeit ihrer vorherigen Vermutungen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler ordnen die grundlegenden Elemente des Inhalts in einfache Kategorien ein."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler vergleichen die grundlegenden Elemente des Inhalts auf einfache Weise."
+    },
+    {
+     "label": "d",
+     "text": "Die Schüler erkennen horizontale und vertikale Beziehungen im Inhalt."
+    },
+    {
+     "label": "e",
+     "text": "Die Schüler ziehen einfache und grundlegende Schlussfolgerungen aus dem Inhalt."
+    },
+    {
+     "label": "f",
+     "text": "Die Schüler verinnerlichen den gegebenen Inhalt individuell. DE.8.5.W2.1. – Zielwortschatz erkennen und anwenden Lernziel: Die Schüler können den Zielwortschatz zum Thema Unsere Lebensräume: Stadt, Land und Umwelt gezielt erkennen und anwenden. Sie können einfache Sätze bilden, Fragen stellen und beantworten sowie über ihre eigene Stadt, das Leben auf dem Land und über Umweltschutz sprechen. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler hören oder sehen zielsprachliche Wörter ganzheitlich im aktuellen Inhalt."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler sprechen die wiederholten Zielwörter laut nach."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler erfassen die Verwendung der Zielwörter."
+    },
+    {
+     "label": "d",
+     "text": "Die Schüler verknüpfen die wahrgenommenen Zielwörter gedanklich mit vorhandenen konzeptuellen Bedeutungen."
+    },
+    {
+     "label": "e",
+     "text": "Die Schüler erfassen die Bedeutungen der wiederholten und verwendeten Zielwörter im Inhalt."
+    },
+    {
+     "label": "f",
+     "text": "Die Schüler setzen die kontextuell verknüpften Zielwörter in verschiedenen Aktivitäten spontan, authentisch und natürlich ein."
+    },
+    {
+     "label": "g",
+     "text": "Die Schüler verwenden Zielwörter in unterschiedlichen Kommunikationssituationen effektiv, spontan, authentisch und natürlich. DE.8.5.G1.1. – Zielgrammatik erkennen und anwenden Lernziel: Die Schüler können grundlegende grammatische Strukturen zum Thema Unsere Lebensräume: Stadt, Land und Umwelt gezielt erkennen und anwenden. Sie können über ihre eigene Stadt, das Leben auf dem Land, Umweltprobleme und Umweltschutzmaßnahmen sprechen und einfache Fragen formulieren. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler gewinnen durch Zuhören oder Zusehen ein allgemeines Vertrautsein mit dem Inhalt."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler festigen ihre Vertrautheit mit dem Zielinhalt, indem sie darin enthaltene Handlungen erkennen und den Inhalt hörend oder sehend wahrnehmen. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE"
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler hören/sehen sich Präsentationen an, in denen sprachliche Elemente mit Körpersprache und Wiederholung (mündlich/visuell) dargestellt werden."
+    },
+    {
+     "label": "d",
+     "text": "Die Schüler erkennen durch Zuhören/Zusehen ähnliche sprachliche Strukturen mit Körpersprache und Wiederholung und entwickeln so eine auditive/visuelle Wahrnehmung."
+    },
+    {
+     "label": "e",
+     "text": "Die Schüler wiederholen sprachliche Zielstrukturen im Inhalt mehrmals automatisch und durch Zeigen, ohne die grammatischen Regeln zu kennen."
+    },
+    {
+     "label": "f",
+     "text": "Die Schüler wiederholen sprachliche Strukturen automatisch, natürlich, kurz, einfach und bedeutungsvoll."
+    },
+    {
+     "label": "g",
+     "text": "Die Schüler stellen die gehörten/gesehenen sprachlichen Strukturen automatisch und körperlich dar, ohne die Regeln zu kennen."
+    },
+    {
+     "label": "h",
+     "text": "Die Schüler wiederholen die gehörten/gesehenen sprachlichen Strukturen gleichzeitig automatisch und körperlich, ohne die Regeln zu kennen."
+    },
+    {
+     "label": "i",
+     "text": "Die Schüler wenden ähnliche gehörte/gesehene/gelesene sprachliche Strukturen spontan, ohne bewusste Regelkenntnis, mündlich oder schriftlich in der Kommunikation an. DE.8.5.S4.1. – Vorbereitung auf den Schreibprozess Lernziel: Die Schüler können sich gezielt auf den Schreibprozess zum Thema Unsere Lebensräume: Stadt, Land und Umwelt vorbereiten. Sie aktivieren ihr Vorwissen über ihre eigene Stadt bzw. ihr Dorf, den Vergleich Stadt–Land und Umweltthemen, um einfache Sätze und kurze Texte zu formulieren. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler aktivieren ihr Vorwissen und ihre Erfahrungen, um sie einfach mit dem aktuellen Inhalt zu verknüpfen."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler erfassen im Allgemeinen, worin die Schreibaufgabe besteht. DE.8.5.S4.4. – Inhalt vorbereiten und schreiben Lernziel: Die Schüler können einen kurzen zusammenhängenden Text zum Thema Unsere Lebensräume: Stadt, Land und Umwelt schreiben und dabei die gelernten Strukturen und Redemittel korrekt anwenden. Prozesskomponenten:"
+    },
+    {
+     "label": "a",
+     "text": "Die Schüler verwenden geeignete Materialien, strukturelle Merkmale, Diskursformen und Satzzeichen entsprechend der vorgegebenen Schreibaufgabe für geplantes oder spontanes Schreiben."
+    },
+    {
+     "label": "b",
+     "text": "Die Schüler wählen und verwenden geeignete Wörter und sprachliche Einheiten entsprechend der einfachen Schreibaufgabe für geplantes oder spontanes Schreiben."
+    },
+    {
+     "label": "c",
+     "text": "Die Schüler äußern einfache Botschaften entsprechend der Schreibaufgabe für geplantes oder spontanes Schreiben."
+    }
+   ]
+  },
+  {
+   "code": "SELK3.1",
+   "grade": 3,
+   "unit": null,
+   "order": 1,
+   "text": "Anpassungsfähigkeit Werte: W3. Fleiß W4. Freundschaft LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz BK5. Kulturelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik",
+   "components": []
+  },
+  {
+   "code": "SELK3.2",
+   "grade": 3,
+   "unit": null,
+   "order": 2,
+   "text": "Flexibilität und Reflexion. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Thematisiert nationale Werte W1. Gerechtigkeit Identität, geistigW3. Fleiß kulturelle Überzeugungen und grundlegende W4. Freundschaft menschliche Werte. W5. Einfühlungsvermögen W6. Ehrlichkeit W10. Bescheidenheit W12. Geduld W14. Respekt W16. Verantwortung Bildungskompetenzen BK1. Informationskompetenz Thematisiert BK2. Digitale Kompetenz Anpassungsfähigkeit, BK4. Visuelle Kompetenz Veränderungskompetenz und den praktischen Umgang mit technologischen Englisch, Türkisch, Sozialkunde, Neuerungen im täglichen Umfasst die INTERDISZIPLINÄRE Leben. interdisziplinäre Informationstechnologie, Bildende Kunst, Musik BEZIEHUNGEN Verbindung von Wissen und Fertigkeiten, die auf unterschiedliche",
+   "components": []
+  },
+  {
    "code": "DE.5.1",
    "grade": 5,
    "unit": null,
    "order": 1,
    "text": "SP2. INHALT FÜR DAS SPRECHEN ORGANISIEREN UND ANWENDEN Im Rahmen der Unterrichtseinheit werden die Schüler gezielt dazu ermutigt, verschiedene mündliche Produkte zu erstellen und aktiv anzuwenden. Im Fokus stehen kurze Aussagen und einfache Dialoge zu den Themen „Sich vorstellen“, „Das Alphabet“ und „Nach dem Befinden fragen“. Dabei kommunizieren die Schüler mit Mitschülern und/oder anderen Personen innerhalb und außerhalb der Schule und wenden dabei Zielwortschatz, grammatische Strukturen und soziale sprachliche Wendungen des Themas aktiv an (N1.1, SELK2.1, SELK2.2, SELK3.2, W3.1, W16.3). Zu Beginn wählen die Schüler passende Sätze aus und bereiten sich auf kurze Rollenspiele oder Interviews vor. Bildoder Satzkarten unterstützen sie bei der Planung von Gesprächsverläufen und helfen, Inhalte gezielt zu strukturieren. In den folgenden Phasen führen die Schüler kurze Dialoge durch, wobei sie passende Intonation und Körpersprache anwenden (W4.2, W12.1, W14.1). Zusätzlich werden sie dazu angeleitet, die gelernten Redemittel auch spontan in neuen Situationen einzusetzen und dabei ihren eigenen Lernfortschritt im Bereich Sprechen bewusst zu reflektieren. Zur Festigung und Wiederholung werden u. a. Bildgeschichten und visuelle Elemente eingesetzt (N1.1, N3.2, W3.1, KK2.2, KK2.7). Diese Elemente bieten abwechslungsreiche und schülernahe Sprechanlässe und helfen den Schülern, ihre Sprachverwendung zu vertiefen. Zum Abschluss der Einheit reflektieren die Schüler in kollaborativen Reflexionsphasen über ihren Sprechprozess. Sie äußern ihre Gedanken, Ideen und Gefühle dazu (N3.6, N3.7, SELK1.2, SELK1.3, SELK3.2, W3.1, W4.2), tauschen Feedback in Partnerarbeit aus und halten die Rückmeldungen schriftlich fest (N2.4, N3.5, SELK2.2, W4.2, W6.2, BK1). Die Lernleistung wird gemäß den Punkten der Prinzipien zur Umsetzung des Curriculums überprüft. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE DIFFERENZIERUNG Erweiterung Ziel: Die Schüler denken über typische Situationen aus dem Alltag nach, in denen sie sich vorstellen, jemanden begrüßen/verabschieden oder nach dem Befinden fragen – und wenden dabei den Zielwortschatz und die grundlegenden Redemittel auf Deutsch an. Aktivität: „Meine erste Begegnung“ – ein Rollenspiel Die Lehrkraft teilt die Klasse in zwei Gruppen auf. Jede Gruppe erhält eine Aufgabe: Sie sollen eine kurze Alltagsszene als Rollenspiel entwerfen – zum Beispiel: ein erstes Kennenlernen in der Schule, ein Gespräch auf dem Pausenhof, eine Begegnung im Alphabetisierungskurs. Die Schüler überlegen gemeinsam, welche Redemittel sie verwenden können, z. B. – -Hallo, ich heiße … Wie heißt du? Ich heiße … Und du? Wie geht’s? – Gut, danke. Tschüss! Sie schreiben kurze Dialoge (2–3 Sätze pro Schüler), üben diese und stellen sie dann der Klasse vor. Jede Gruppe führt ihre Szene zweimal auf – einmal normal, einmal übertrieben (z. B. mit Emotionen oder Gestik). Am Ende bewerten sich die Gruppen gegenseitig mit Sternen (z. B. 3–5 Sterne) und nennen, was ihnen gefallen hat. Unterstützung Ziel: Die Schüler denken über alltägliche Begrüßungsund Vorstellungssituationen nach und präsentieren einfache Dialoge mithilfe vorgegebener Fragen und Sätze. Dabei verwenden sie gezielt den Wortschatz und die Redemittel zum Thema „Ich und Du“. Aktivität: „Begrüßungskarten mit Fragen und Satzanfängen“ Die Lehrkraft teilt die Klasse in zwei Gruppen. Jede Gruppe erhält ein großes Plakat sowie Karten mit Lückensätzen und Fragen, z. B. -Wie heißt? -Ich heiße.– Wer bist? -Ich bin. -Wie geht es dir? -Mir geht es gut. Die Schüler überlegen gemeinsam, wie man diese Sätze sinnvoll vervollständigen kann. Sie stellen sich gegenseitig Fragen, beantworten diese und schreiben vollständige Dialoge auf das Plakat. Beispiel: -Hallo! Wie heißt du? -Ich heiße Lara. Und du? -Ich bin Jonas. Jeder Schüler trägt 2–3 Sätze bei. Am Ende stellt jede Gruppe ihre Dialoge der Klasse vor. Die andere Gruppe bewertet mit Sternen (z. B. 3–5 Sterne) und nennt, was gut gefallen hat. Die Lehrkraft gibt gezieltes, lobendes Feedback. REFLEXIONEN DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 2: DAS BIN ICH! Unterthemen: Das Alter und die Zahlen; Die Länder und die Sprachen; Die Herkunft und der Wohnort Das Thema „Das bin ich“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehr-und Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Zielvokabular zu den Komponenten des Themas „Das bin ich” in die Unterthemen: „Das Alter und Zahlen“, „Die Länder und die Sprachen” und „Die Herkunft und der Wohnort” integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikkenntnis in Auswahl und Anwendung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.2. Unabhängigkeit N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.5. Aufgeschlossenheit N3.6. Analytik N3.7. Systematik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN Sozial-emotionale Lernfähigkeiten: SELK1.1. Selbstwahrnehmungskompetenz SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Werte: W1. Gerechtigkeit W3. Fleiß W4. Freundschaft W10. Bescheidenheit Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.12. Datenbasierte Vorhersagefähigkeit KK2.13. Strukturierungsfähigkeit \u0007 LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.5.1.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    },
+    {
+     "code": "DE.5.1.G1",
+     "text": "ZIELGRAMMATIK ERKENNEN UND ANWENDEN"
+    }
+   ]
   },
   {
    "code": "DE.5.2",
@@ -24,7 +823,17 @@
    "unit": null,
    "order": 2,
    "text": "SP2. INHALT FÜR DAS SPRECHEN ORGANISIEREN UND ANWENDEN Im Rahmen der Unterrichtseinheit werden die Schüler gezielt dazu ermutigt, verschiedene mündliche Produkte zu erstellen und aktiv anzuwenden. Im Fokus stehen kurze Aussagen und einfache Dialoge zu den Themen „Das Alter und Zahlen“, „Die Länder und die Sprachen“ sowie „Die Herkunft und der Wohnort“ (N1.5, W3.1). Dabei kommunizieren die Schüler mit Mitschülern und/oder anderen Personen innerhalb und außerhalb der Schule und wenden dabei Zielwortschatz, grammatische Strukturen und soziale sprachliche Wendungen des Themas aktiv an (N1.1, SELK2.1, SELK2.2, SELK3.2, W4.2). Zu Beginn wählen die Schüler passende Sätze aus – z. B. „Ich bin … Jahre alt.“, „Ich komme aus …“, „Ich wohne in …“, „Ich spreche …“ – und bereiten sich auf kurze Rollenspiele oder Interviews vor. Bildoder Satzkarten unterstützen sie bei der Planung von Gesprächsverläufen und helfen, Inhalte gezielt zu strukturieren (BK4). In den folgenden Phasen führen die Schüler kurze Dialoge durch, wobei sie passende Intonation und Körpersprache anwenden. Zusätzlich werden sie dazu angeleitet, die gelernten Redemittel auch spontan in neuen Situationen einzusetzen, z. B. in Begegnungen mit anderen Personen oder in fiktiven Alltagsszenen, und dabei ihren eigenen Lernfortschritt im Bereich Sprechen bewusst zu reflektieren. Zur Festigung und Wiederholung werden u. a. Bildgeschichten, Landkarten, Flaggenkarten und visuelle Elemente eingesetzt (N1.1, N3.2, BK4, KK2.2, KK2.7). Diese Elemente bieten abwechslungsreiche und schülernahe Sprechanlässe und helfen den Schülern, ihre Sprachverwendung zu vertiefen. Zum Abschluss der Einheit reflektieren die Schüler in kollaborativen Reflexionsphasen über ihren Sprechprozess. Sie äußern ihre Gedanken, Ideen und Gefühle dazu, tauschen Feedback in Partnerarbeit aus und halten die Rückmeldungen schriftlich fest (N2.4, N3.5, SELK1.2, SELK2.3, SELK3.2, W3.1, W4.2, BK1). Die Lernleistung wird gemäß den Punkten der Prinzipien zur Umsetzung des Curriculums überprüft. DIFFERENZIERUNG Erweiterung Ziel: Die Schüler sprechen über Alter, Herkunft, Wohnort und Sprache in Alltagssituationen und verwenden dabei den Zielwortschatz und typische Satzmuster. Aktivität: -Meine Vorstellung auf der Bühne – ein freies Rollenspiel Die Schüler erstellen in Kleingruppen kurze Szenen, in denen sie sich vorstellen – z. B. auf dem Schulhof, im Kursraum oder beim Sprachenfest. Beispielsätze: –Ich heiße … –Ich bin … Jahre alt –Ich komme aus … –Ich spreche … Die Szenen werden erst normal, dann mit verteilten Rollen und übertriebenen Emotionen gespielt. Die Klasse bewertet die Gruppen mit Sternen und benennt positive Aspekte. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Unterstützung Ziel: Die Schüler üben das Vorstellen mit Hilfe von Karten mit Satzanfängen, Ländernamen, Zahlen oder Piktogrammen. Aktivität: „Steckbrief zum Ausschneiden“ Die Lehrkraft verteilt vorbereitete Satzbausteine auf Karten (z. B. Ich heiße …, Ich bin … Jahre alt, Ich komme aus …, Ich spreche …). Die Schüler kleben die Bausteine auf ein Steckbrief-Poster, ordnen sie richtig an und ergänzen mit eigenen Angaben. Dann stellen sie sich paarweise gegenseitig vor und präsentieren sich der Klasse. Die andere Gruppe gibt Feedback mit Sternen. Die Lehrkraft lobt besonders verständliche Aussprache und passende Wortwahl. REFLEXIONEN DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 3: MEINE FAMILIE Unterthemen: Die Familienmitglieder; Die Berufe von Familienmitgliedern Das Thema „Meine Familie“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehr-und Lernprozesses erfolgt kontextbezogen, kommunikativ und kooperativ. Dabei wird das Zielvokabular zu den Komponenten des Themas „Meine Familie” in die Unterthemen: „Die Familienmitglieder” und „Die Berufe von Familienmitgliedern” integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikkenntnis in Auswahl und Anwendung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.2. Unabhängigkeit N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.5. Aufgeschlossenheit N3.6. Analytik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN Sozial-emotionale SELK1.1. Selbstwahrnehmungskompetenz Lernfähigkeiten: SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Werte: W1. Gerechtigkeit W2.Familienzusammenhalt W3. Fleiß W4. Freundschaft W9. Barmherzigkeit W10. Bescheidenheit W14. Respekt Bildungskompetenzen: BK4. Visuelle Kompetenz BK5. Kulturelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KK2.2.Beobachtungsfähigkeit KOMPETENZEN: KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.8.Forschungsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.12. Datenbasierte Vorhersagefähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.5.2.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    },
+    {
+     "code": "DE.5.2.G1",
+     "text": "ZIELGRAMMATIK ERKENNEN UND ANWENDEN"
+    }
+   ]
   },
   {
    "code": "DE.5.3",
@@ -32,7 +841,17 @@
    "unit": null,
    "order": 3,
    "text": "SP2. INHALT FÜR DAS SPRECHEN ORGANISIEREN UND ANWENDEN Im Rahmen der Unterrichtseinheit werden die Schüler gezielt dazu ermutigt, verschiedene mündliche Produkte zu erstellen und aktiv anzuwenden. Im Fokus stehen kurze Aussagen und einfache Dialoge zu den Themen „Die Familienmitglieder“ und „Die Berufe von Familienmitgliedern“. Dabei kommunizieren die Schüler mit Mitschülern und/oder anderen Personen innerhalb und außerhalb der Schule und wenden dabei Zielwortschatz, grammatische Strukturen (Possessivartikel mein/meine, Verben sein und haben) sowie soziale sprachliche Wendungen des Themas aktiv an (N1.1, SELK2.1, SELK2.2, SELK3.2, W3.2). Zu Beginn wählen die Schüler passende Sätze aus – z. B. „Das ist meine Mutter.“, „Mein Vater ist Arzt.“, „Ich habe zwei Schwestern.“, „Meine Oma ist sehr nett.“ – und bereiten sich auf kurze Rollenspiele oder Interviews vor. Bildoder Satzkarten unterstützen sie bei der Planung von Gesprächsverläufen und helfen, Inhalte gezielt zu strukturieren (BK4). In den folgenden Phasen führen die Schüler kurze Dialoge durch, wobei sie passende Intonation und Körpersprache anwenden. Zusätzlich werden sie dazu angeleitet, die gelernten Redemittel auch spontan in neuen Situationen einzusetzen, z. B. beim Vorstellen von Familienmitgliedern in einer fiktiven Begegnung oder bei einem „Familienfest“-Rollenspiel, und dabei ihren eigenen Lernfortschritt im Bereich Sprechen bewusst zu reflektieren. Zur Festigung und Wiederholung werden u. a. Bildgeschichten, Stammbaumabbildungen und visuelle Elemente eingesetzt (N1.1, N3.2, W3.1, KK2.2, KK2.13). Diese Elemente bieten abwechslungsreiche und schülernahe Sprechanlässe und helfen den Schülern, ihre Sprachverwendung zu vertiefen. Zum Abschluss der Einheit reflektieren die Schüler in kollaborativen Reflexionsphasen über ihren Sprechprozess. Sie äußern ihre Gedanken, Ideen und Gefühle dazu (SELK1.2, SELK2.3, SELK3.2, W3.2), tauschen Feedback in Partnerarbeit aus und halten die Rückmeldungen schriftlich fest (N2.4, N3.5, SELK2.2, W4.2, BK1). Die Lernleistung wird gemäß den Punkten der Prinzipien zur Umsetzung des Curriculums überprüft. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE DIFFERENZIERUNG Erweiterung: Ziel: Eigene Familie in vollständigen Sätzen vorstellen und zusätzliche Informationen hinzufügen. Aktivität: –Schüler erstellen ein Poster oder digitales Steckbriefbuch mit mindestens fünf Familienmitgliedern. –Sie ergänzen Informationen wie Alter, Wohnort, Beruf, Eigenschaften. –Die Schüler formulieren selbstständig Fragen an andere: -Was ist dein Vater von Beruf? – Mein Vater ist Architekt. Unterstützung (für lernschwächere Schüler): Ziel: Vertraut werden mit Basisvokabular und einfachen Strukturen durch gelenkte Übungen. Aktivität: – Partnerarbeit mit Bildkarten (z. B. Mutter – Vater – Arzt – Lehrer). –Lückensätze mit Strukturhilfe: -Das ist meine Mutter. – Er ist mein Bruder. – Meine Tante heißt Ayşe. REFLEXIONEN DER LEHRKRAFT FÜR WEITERE REFLEXIONEN SCANNEN SIE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 4: MEINE SCHULE Unterthemen: Die Schulsachen; Das Klassenzimmer; Die Schulräume Das Thema „Meine Schule“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehr-und Lernprozesses erfolgt kontextbezogen, kommunikativ und kooperativ. Dabei wird das Zielvokabular zu den Komponenten des Themas „Meine Schule” in die Unterthemen: „Die Schulsachen“, „Das Klassenzimmer” und „Die Schulräume” integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikkenntnis in Auswahl und Anwendung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.2. Unabhängigkeit N1.3. Entschlossenheit N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.5. Aufgeschlossenheit N3.6. Analytik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN Sozial-emotionale SELK1.1. Selbstwahrnehmungskompetenz Lernfähigkeiten: SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Werte: W3. Fleiß W4. Freundschaft W10. Bescheidenheit Bildungskompetenzen: BK1. Informationskompetenz BK4. Visuelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.5.3.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    },
+    {
+     "code": "DE.5.3.G1",
+     "text": "ZIELGRAMMATIK ERKENNEN UND ANWENDEN"
+    }
+   ]
   },
   {
    "code": "DE.5.4",
@@ -40,7 +859,17 @@
    "unit": null,
    "order": 4,
    "text": "SP2. INHALT FÜR DAS SPRECHEN ORGANISIEREN UND ANWENDEN Im Rahmen der Unterrichtseinheit werden die Schüler gezielt dazu ermutigt, verschiedene mündliche Produkte zu erstellen und aktiv anzuwenden. Im Fokus stehen kurze Aussagen und einfache Dialoge zu den Themen „Die Schulsachen“, „Das Klassenzimmer“ und „Die Schulräume“. Dabei kommunizieren die Schüler mit Mitschülern und/oder anderen Personen innerhalb und außerhalb der Schule und wenden den Zielwortschatz, passende grammatische Strukturen und gebräuchliche Redemittel des Themas aktiv an (N1.1, SELK2.1, SELK2.2, SELK3.2, W3.2). Zu Beginn wählen die Schüler passende Sätze aus und bereiten sich auf kurze Rollenspiele oder Interviews vor. Bildoder Satzkarten unterstützen sie bei der Planung von Gesprächsverläufen und helfen, Inhalte gezielt zu strukturieren. In den folgenden Phasen führen die Schüler kurze Dialoge durch, wobei sie auf eine passende Intonation und Körpersprache achten. Zusätzlich werden sie dazu angeleitet, die gelernten Redemittel auch spontan in neuen Situationen einzusetzen, z. B. beim Nachfragen, Erklären oder Beschreiben eines Schulraums. Dabei reflektieren sie bewusst ihren eigenen Lernfortschritt im Bereich Sprechen. Zur Festigung und Wiederholung werden u. a. Bildgeschichten und visuelle Elemente eingesetzt (N1.1, N3.2, W3.1, KK2.2). Diese Elemente bieten abwechslungsreiche und schülernahe Sprechanlässe und helfen den Schülern, ihre Sprachverwendung zu vertiefen. Zum Abschluss der Einheit reflektieren die Schüler in kollaborativen Reflexionsphasen über ihren Sprechprozess. Sie äußern ihre Gedanken, Ideen und Gefühle dazu (N3.6, SELK1.2, SELK2.3, SELK3.2, W4.2, BK1), tauschen Feedback in Partnerarbeit aus und halten die Rückmeldungen schriftlich fest (N2.4, N3.5, SELK2.2, W3.1, W3.2, W4.2, BK1). Die Lernleistung wird gemäß den Punkten der Prinzipien zur Umsetzung des Curriculums überprüft. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE DIFFERENZIERUNG Erweiterung (für stärkere Schüler) Ziel: Die Schüler können mit vollständigen Sätzen über den Klassenraum und Schulmaterial sprechen. Aktivität: Pantomime-Spiel -Wo bin ich? Die Schüler raten, in welchem Raum sich ihr Klassenkamerad oder ihre Klassenkameradin befindet. Der/die beschreibende Schüler/in stellt den Raum mit Gesten, Mimik und eventuell mit Hilfsmitteln dar (z. B. in der Bibliothek, in der Turnhalle, im Musikraum). Die Mitschüler formulieren vollständige Sätze, um ihre Vermutungen zu äußern, z. B.: – Ich glaube, du bist in der Bibliothek.– Du bist in der Turnhalle. Am Ende werden die Rollen getauscht, sodass jeder Schüler mindestens einmal beschreiben und raten kann. Unterstützung (für Schüler mit Förderbedarf) Ziel: Die Schüler können grundlegende Wörter benennen und einfache Strukturen wiedergeben. Aktivität: -Zeig mir und sag Die Lehrkraft zeigt Bilder von Schulgegenständen. Die Schüler benennen diese laut oder zeigen auf entsprechende Kärtchen. Mit Hilfe von Satzanfängen wie –Das ist … . –Ich habe …, –Das Buch ist … Die Sätze werden gemeinsam gesprochen und visuell gestützt (z. B. durch Satzbausteine an der Tafel). REFLEXION DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 5: DER SCHULALLTAG Unterthemen: Die Schulfächer; Die Wochentage und die Tageszeiten; Mein Stundenplan Das Thema „Der Schulalltag“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung und Umsetzung des Lehr-und Lernprozesses erfolgt handlungsorientiert, kommunikativ und kontextbezogen. Die Inhalte werden in realitätsnahe Schulsituationen eingebettet – z. B. beim Beschreiben des Stundenplans, beim Erzählen vom Tagesablauf oder beim Vergleichen von Lieblingsfächern – und bauen auf bereits bekannten Themen wie „Meine Schule“, „Die Schulräume“ oder „Schulsachen“ auf. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikkenntnis in Auswahl und Anwendung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.2. Unabhängigkeit N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.5. Aufgeschlossenheit N3.6. Analytik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN Sozial-emotionale Lernfähigkeiten: SELK1.1. Selbstwahrnehmungskompetenz SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Werte: W3. Fleiß W4. Freundschaft W6. Ehrlichkeit Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz BK5. Kulturelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.8.Forschungsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.12. Datenbasierte Vorhersagefähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.5.4.G1",
+     "text": "1. Zielgrammatik erkennen und anwenden"
+    },
+    {
+     "code": "DE.5.4.G1",
+     "text": "ZIELGRAMMATIK ERKENNEN UND ANWENDEN"
+    }
+   ]
   },
   {
    "code": "DE.5.5",
@@ -48,7 +877,17 @@
    "unit": null,
    "order": 5,
    "text": "SP2. INHALT FÜR DAS SPRECHEN ORGANISIEREN UND ANWENDEN Im Rahmen der Unterrichtseinheit werden die Schüler gezielt dazu ermutigt, verschiedene mündliche Produkte zu erstellen und aktiv in unterschiedlichen Situationen anzuwenden. Im Fokus stehen kurze Aussagen und einfache Dialoge zu den Themen „Die Schulfächer“, „Die Wochentage und Tageszeiten“ und „Mein Stundenplan“. Dabei kommunizieren die Schüler mit Mitschülern und/oder anderen Personen innerhalb und außerhalb der Schule und wenden dabei den Zielwortschatz, grammatische Strukturen und soziale sprachliche Wendungen des Themas aktiv an (N1.1, SELK2.1, SELK2.2, SELK3.2, W4.2). Zu Beginn wählen die Schüler passende Sätze aus, um über ihren Stundenplan oder ihre Lieblingsfächer zu sprechen, und bereiten sich auf kurze Rollenspiele oder Interviews vor. Bildoder Satzkarten unterstützen sie bei der Planung von Gesprächsverläufen und helfen, Inhalte gezielt zu strukturieren (N3.2, W3.2, KK2.2). In den nächsten Phasen führen die Schüler kurze Dialoge durch, z. B.: „Was hast du am Montag?“ – „Ich habe Mathe und Sport. „Wann beginnt der Unterricht?“ – „Um acht Uhr.“ Dabei setzen sie eine passende Intonation und Körpersprache ein und achten auf eine deutliche Aussprache (N1.3, N2.5, KK2.4, KK2.16). Darüber hinaus werden die Schüler angeleitet, die gelernten Redemittel auch spontan in neuen Situationen einzusetzen, etwa beim spontanen Beschreiben eines gezeigten Stundenplans oder beim Vergleichen von Unterrichtsfächern mit einem Partner. Sie reflektieren anschließend bewusst ihren eigenen Lernfortschritt im Bereich Sprechen und geben gegenseitig Feedback (N2.4, SELK2.3, SELK3.2, W4.2, BK1). Zur Festigung und Wiederholung werden abwechslungsreiche Sprechanlässe wie Bildgeschichten, Mini-Präsentationen oder Partnerinterviews eingesetzt. Diese Methoden fördern eine aktive Sprachverwendung, erweitern den themenbezogenen Wortschatz und unterstützen die Schüler dabei, ihre kommunikativen Fähigkeiten nachhaltig zu vertiefen (N3.6, W4.2, SELK2.1, W4.4, KK2.3, KK2.16). DIFFERENZIERUNG Erweiterung (für fortgeschrittene Schüler) Ziel: Die Schüler können ihren Schulalltag strukturierter beschreiben und dabei Fächer, Zeiten, Meinungen und Präferenzen ausdrücken. Aktivität: Erstellen einer Mini-Präsentation: „Mein perfekter Schultag“. Die Schüler schreiben einen kleinen Text mit Aussagen wie: –Am Montag habe ich Sport. –Ich mag Musik, weil es Spaß macht. –Mein Tag beginnt um 8 Uhr. Die Präsentation kann vorgetragen oder als Plakat gestaltet werden. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Unterstützung (für lernschwächere Schüler) Ziel: Die Schüler verwenden vorgegebene Satzanfänge und visuelle Hilfsmittel, um ihren Stundenplan zu beschreiben. Aktivität: Satzbaustein-Karten mit z. B.: –Am Montag habe ich … –Mein Lieblingsfach ist … –Um … Uhr beginnt … Die Schüler ordnen die Karten, sprechen die Sätze nach und schreiben sie ab. Am Ende lesen sie ihre eigenen Stundenpläne vor oder zeigen sie der Klasse als Poster. REFLEXIONEN DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 6: SPORT Die Unterthemen sind: Die Sportarten; Die Einzel-und Mannschaftssportarten; Mein Lieblingssport Das Thema „Sport“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehr-und Lernprozesses erfolgt kontextbezogen, kommunikativ und kooperativ. Dabei wird das Zielvokabular zu den Komponenten des Themas „Sport” in die Unterthemen: „Die Schulsachen“, „Das Klassenzimmer” und „Die Schulräume” integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikkenntnis in Auswahl und Anwendung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.2. Unabhängigkeit N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.5. Aufgeschlossenheit N3.6. Analytik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN Sozial-emotionale SELK1.1. Selbstwahrnehmungskompetenz Lernfähigkeiten: SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Werte: W3. Fleiß W4. Freundschaft W10. Bescheidenheit W12. Geduld W14. Respekt W16. Verantwortung W19. Vaterlandsliebe Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KK2.2.Beobachtungsfähigkeit KOMPETENZEN: KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.8.Forschungsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.12. Datenbasierte Vorhersagefähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.5.5.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    },
+    {
+     "code": "DE.5.5.G1",
+     "text": "ZIELGRAMMATIK ERKENNEN UND ANWENDEN"
+    }
+   ]
   },
   {
    "code": "DE.5.6",
@@ -56,7 +895,17 @@
    "unit": null,
    "order": 6,
    "text": "SP2. INHALT FÜR DAS SPRECHEN ORGANISIEREN UND ANWENDEN In dieser Phase organisieren und nutzen die Schüler gezielt Inhalte, um zusammenhängend über das Thema „Sport“ zu sprechen. Sie strukturieren ihre Aussagen, indem sie zunächst die Sportart benennen, anschließend Angaben zur Häufigkeit und zum Ort machen und zuletzt eine persönliche Meinung hinzufügen. Beispielhafte Satzmuster sind: „Ich spiele Fußball am Wochenende in der Sporthalle. Ich finde Fußball spannend.“ (N1.5, N3.2, SELK1.1, W3.2, W10.1, BK1, KK2.3, KK2.16). Die Schüler üben, Fragen zu stellen und auf Fragen zu reagieren, indem sie Redemittel wie „Was ist dein Lieblingssport?“ situationsgerecht einsetzen. Sie lernen, Antworten durch zusätzliche Informationen auszubauen, um das Gespräch lebendig zu gestalten. Zur Unterstützung der Gesprächsorganisation setzen die Schüler Notizen, Stichwortkarten oder einfache Gedankenkarten ein (N3.3, N3.6, SELK3.2, W3.2, KK2.13, KK2.16). In Partnerund Gruppenaktivitäten bereiten sie kurze Dialoge oder Interviews vor und führen diese anschließend im Plenum vor. Die Lehrkraft achtet dabei auf die korrekte Wortstellung, den Einsatz der gelernten Strukturen sowie auf eine deutliche Aussprache. Durch diese systematische Vorbereitung lernen die Schüler, ihre Gedanken klar zu strukturieren, inhaltlich passende Antworten zu formulieren und sprachliche Mittel bewusst einzusetzen, um aktiv am Gespräch teilzunehmen und den Dialog zu fördern (N1.5, N3.5, SELK1.2, W4.4, W12.1, W16.3, KK2.3, KK2.5, KK2.17). LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE DIFFERENZIERUNG Erweiterung Ziel: Die Schüler erzählen mit erweiterten Satzstrukturen über ihr Sportverhalten. Aktivität: „Mein Sporttag“ – Schüler schreiben und präsentieren einen Tagesplan mit Sportaktivitäten: –Am Montag spiele ich Fußball. –Am Dienstag gehe ich schwimmen. –Ich spiele mit meinen Freunden Basketball. In Gruppen tauschen sie sich über Gemeinsamkeiten aus : z. B. -Wir mögen Volleyball.) und präsentieren das Ergebnis. Unterstützung Ziel: Die Schüler nennen Sportarten und äußern einfache Meinungen dazu. Aktivität: „Sportarten-Spiel“ – Schüler wählen eine Sportart aus, nennen den Namen und sagen, ob sie sie mögen oder nicht: „Ich mag Tischtennis.“ ,-Ich finde Tischtennis super. -Ich mag Schwimmen nicht. Visuelle Hilfsmittel wie Sportkarten oder Satzbausteine helfen beim sprachlichen Ausdruck. REFLEXIONEN DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE 6. KLASSE (NIVEAU: A1.1) LEKTION 1: MEINE HOBBYS Unterthemen: Die Freizeitaktivitäten; Die Hobbys; Mein Lieblingshobby Das Thema „Mein Tag“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehr-und Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Zielvokabular zu den Komponenten des Themas „Mein Tag” in die Unterthemen: „Die Zahlen“, „Die Uhrzeiten” und „Mein Alltag” integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikkenntnis in Auswahl und Anwendung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.2. Unabhängigkeit N1.3. Entschlossenheit N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.5. Aufgeschlossenheit N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Sozial-emotionale Lernfähigkeiten: SELK1.1. Selbstwahrnehmungskompetenz SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität Werte: W3. Fleiß W4. Freundschaft W6. Ehrlichkeit W10. Bescheidenheit W12. Geduld W14. Respekt Bildungskompetenzen: BK1. Informationskompetenz BK4. Visuelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.8.Forschungsfähigkeit KK2.12. Datenbasierte Vorhersagefähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.5.6.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    },
+    {
+     "code": "DE.5.6.G1",
+     "text": "ZIELGRAMMATIK ERKENNEN UND ANWENDEN"
+    }
+   ]
   },
   {
    "code": "DE.6.1",
@@ -64,7 +913,13 @@
    "unit": null,
    "order": 1,
    "text": "SP2 INHALT FÜR DAS SPRECHEN ORGANISIEREN UND ANWENDEN Im weiteren Verlauf der Einheit werden die Schüler gezielt dazu ermutigt, eigene mündliche Beiträge zu strukturieren und aktiv in unterschiedlichen Sprechsituationen anzuwenden. Im Mittelpunkt stehen kurze Aussagen, einfache Dialoge und Präsentationen zu den Unterthemen „Die Freizeitaktivitäten“, „Die Hobbys“ und „Mein Lieblingshobby“ (SELK2.2, SELK3.2, W3.1, KK2.2). Zunächst wählen die Schüler geeignete Redemittel und Satzmuster aus, z. B. „Ich mache gern...“, „Am Wochenende...“, „Ich spiele lieber...“. Sie planen damit kurze Rollenspiele, Interviews oder Mini-Vorstellungen über sich und ihre Freizeitgestaltung. Bildkarten, Steckbriefvorlagen oder Satzanfänge dienen als Hilfsmittel zur Strukturierung (N3.2, SELK1.2, W3.1, W4.2, W10.1, W12.1, KK2.3). In den folgenden Phasen setzen sie das Gelernte in dialogischen Situationen um. Dabei achten sie auf klare Intonation, passende Mimik und Körpersprache. Auch spontane Elemente werden bewusst eingebaut – z. B. durch Rückfragen, Zustimmungen oder kleine Erklärungen („Ich mache das oft mit meinem Freund.“) (N3.8, SELK3.1, W3.1, KK2.5, KK2.7). Zum Abschluss reflektieren die Schüler ihren Sprechprozess in Kleingruppen oder im Plenum. Sie tauschen Erfahrungen aus, geben sich gegenseitig Feedback und halten Verbesserungsmöglichkeiten schriftlich fest – z. B. im Reflexionsbogen oder Lerntagebuch (N2.4, N3.5, SELK2.2, SELK3.2, W3.1, W3.2, KK2.7). DIFFERENZIERUNG Erweiterung Ziel: Die Schüler entwickeln kleine Präsentationen oder Interviews über ihre Hobbys, nutzen gezielt Wortschatz und Redemittel zur Beschreibung und stellen ihre Texte mündlich vor. Aktivität: Interviewprojekt „Was machst du gern?“ –Die Schüler bereiten in Partnerarbeit Fragen und Antworten vor. –Sie filmen sich gegenseitig oder führen das Interview vor der Klasse. –Beispiel: -Was ist dein Hobby? -Ich spiele gern Gitarre. -Wie oft spielst du? -Jeden Tag. Unterstützung Ziel: Die Schüler verwenden visuelle Hilfen und Satzanfänge, um einfache Aussagen über ihre Hobbys zu machen. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Aktivität: Steckbrief „Mein Hobby“ –Vorgedruckte Formulare mit Lücken: –Mein Hobby ist . –Ich mag . –Ich mache es . –Die Schüler füllen den Steckbrief aus, malen ein Bild dazu und präsentieren ihn in der Kleingruppe. –Die Lehrkraft unterstützt mit Wortkarten, Bildern und Beispielsätzen. REFLEXIONEN DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 2: MEIN TAG Unterthemen: Die Zahlen; Die Uhrzeiten; Mein Alltag Das Thema „Mein Tag“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehr-und Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Zielvokabular zu den Komponenten des Themas „Mein Tag” in die Unterthemen: „Die Zahlen“, „Die Uhrzeiten” und „Mein Alltag” integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikkenntnis in Auswahl und Anwendung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.6. Analytik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN Sozial-emotionale SELK1.1. Selbstwahrnehmungskompetenz Lernfähigkeiten: SELK1.2. Selbstregulationskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität Werte: W3. Fleiß W4. Freundschaft LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.8.Forschungsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.12. Datenbasierte Vorhersagefähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit \u0007 LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.6.1.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    }
+   ]
   },
   {
    "code": "DE.6.2",
@@ -72,7 +927,13 @@
    "unit": null,
    "order": 2,
    "text": "SP2 INHALT FÜR DAS SPRECHEN ORGANISIEREN UND ANWENDEN In dieser Phase strukturieren die Schüler ihre mündlichen Beiträge zu den Themen „Die Zahlen“, „Die Uhrzeiten“ und „Mein Alltag“ so, dass sie klar, flüssig und situationsgerecht kommunizieren können. Zunächst sammeln sie in Partneroder Gruppenarbeit Ideen zu ihrem Tagesablauf und ordnen diese chronologisch. Sie erstellen einfache Ablaufpläne oder Gedankenkarten mit Aktivitäten und Uhrzeiten, z. B. „Um sieben Uhr aufstehen – Um acht Uhr beginnt die Schule – Am Nachmittag Hausaufgaben machen“ (N1.1, N3.2, N3.6, W3.1, W3.2, BK4, KK2.3, KK2.8, KK2.16). Anschließend üben die Schüler, diese Pläne in vollständige Sätze und zusammenhängende Mini-Präsentationen zu übertragen. Sie verwenden dabei gezielt Redemittel wie „Am Morgen …“, „Nach dem Mittagessen …“, „Am Abend …“ sowie Verknüpfungswörter wie „und“, „dann“, „später“. Die Lehrkraft achtet auf eine logische Reihenfolge, korrekte Satzstrukturen und die passende Verwendung von Zeitangaben. Zur Festigung werden kommunikative Aktivitäten durchgeführt, z. B. Interviewübungen („Frage deinen Partner nach seinem Tagesablauf“), Klassenspaziergänge mit Fragekarten oder kleine Gruppenpräsentationen. Die Schüler lernen, auf Antworten ihres Gesprächspartners spontan zu reagieren, z. B. mit „Oh, das mache ich auch!“ oder „Interessant!“ (N1.1, N1.3, N3.2, N3.3, N3.6, W3.1, W4.2, W4.4,, KK2.3, KK2.8, KK2.16, KK2.17). Außerdem wird gezielt an der Intonation gearbeitet, insbesondere bei W-Fragen („Wann gehst du ins Bett?“) und Ja-/Nein-Fragen („Gehst du heute ins Kino?“), sowie an der deutlichen Aussprache von Uhrzeiten und Zahlen. Am Ende der Phase präsentieren einzelne Schüler ihren Tagesablauf vor der Klasse oder in Kleingruppen. Dabei setzen sie die erarbeiteten sprachlichen Mittel eigenständig ein, um flüssig, verständlich und adressatengerecht zu sprechen (N2.4, N2.5, N3.2, SELK1.1, KK2.4, W3.1, W3.2, W4.2, BK1, KK2.13, KK2.16, KK2.17). LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE DIFFERENZIERUNG Erweiterung Ziel: Die Schüler sprechen detailliert über persönliche und fiktive Tagesabläufe. Aktivität: -Erstellung eines Tagesablauf-Posters -Erzählen eines typischen Schultages + eines Wunsch-Tages (Was würdest du gern machen?) Unterstützung Ziel: Die Schüler benennen einfache Aktivitäten und Uhrzeiten in vorgegebenen Satzmustern. Aktivität: -Satzstreifen sortieren (z. B. Ich stehe um ... auf. / Um ... Uhr spiele ich.) -Uhrzeiten zuordnen: passende Zeiten zu Bildern angeben REFLEXIONEN DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 3: DIE JAHRESZEITEN UND DAS WETTER Unterthemen: Die Monate und die Jahreszeiten; Das Wetter und die Kleidungen Das Thema „Die Jahreszeiten und das Wetter“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehr-und Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Zielvokabular zu den Komponenten des Themas „Die Jahreszeiten und das Wetter” in die Unterthemen: „Die Monate und die Jahreszeiten ”, „Das Wetter und die Kleidungen” integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikkenntnis in Auswahl und Anwendung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.6. Analytik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN Sozial-emotionale SELK1.1. Selbstwahrnehmungskompetenz Lernfähigkeiten: SELK1.2. Selbstregulationskompetenz SELK3.1. Anpassungsfähigkeit Werte: W3. Fleiß W4. Freundschaft LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz BK5. Kulturelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KK2.2.Beobachtungsfähigkeit KOMPETENZEN: KK2.3. Fähigkeit zum Zusammenfassen KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.12. Datenbasierte Vorhersagefähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.6.2.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    }
+   ]
   },
   {
    "code": "DE.6.3",
@@ -80,7 +941,13 @@
    "unit": null,
    "order": 3,
    "text": "SP2 INHALT FÜR DAS SPRECHEN ORGANISIEREN UND ANWENDEN Die Schüler wenden den erarbeiteten Wortschatz und die Zielgrammatik zum Thema „Die Jahreszeiten und das Wetter“ an, um kurze, alltagsnahe Dialoge zu führen. Sie organisieren ihre Aussagen so, dass sie in Gesprächen über Wetterbedingungen, passende Kleidung und persönliche Vorlieben flüssig und verständlich kommunizieren können (N1.1, N3.2, N3.3, SELK1.1, W3.2, BK4, KK2.2).. Zunächst üben die Schüler, einfache Fragen zu stellen und zu beantworten, wie „Wie ist das Wetter heute?“ – „Es ist sonnig und warm.“ oder „Was trägst du im Winter?“ – „Ich trage eine Mütze und Handschuhe.“ Anschließend erweitern sie ihre Äußerungen, indem sie Gründe angeben, z. B. „Es regnet. Ich trage heute eine Jacke.” In Partnerübungen übernehmen sie wechselweise Rollen, z. B. als Wetterreporter oder Interviewpartner, und berichten über das Wetter in verschiedenen Jahreszeiten oder Regionen. Durch gezielte Sprechanlässe, wie Bilder, Wetterkarten oder kurze Videos, organisieren die Schüler ihre Aussagen sinnvoll, setzen den themenbezogenen Wortschatz ein und beachten die passende Satzmelodie und Betonung. Die Lehrkraft gibt Rückmeldung zu Wortwahl, Satzbau, Aussprache und Intonation, um die kommunikativen Kompetenzen der Schüler weiterzuentwickeln (N3.2, N3.3, SELK1.1, W3.2, BK4, KK2.3, KK2.11, KK2.16). LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE DIFFERENZIERUNG: Erweiterung: Die Schüler, die besonders schnell lernen, schreiben oder erzählen über ein besonderes Wettererlebnis oder gestalten ein kleines „Wettertagebuch“. Unterstützung: Schüler mit Unterstützungsbedarf arbeiten mit Wortkarten und Satzmustern, z. B.: -Im Sommer ist es …. -Ich trage …. Dabei wird gezielt auf korrekte Satzbildung und verständliche Aussprache geachtet. REFLEXIONEN DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 4: MEIN ZUHAUSE nterthemen: Die Wohnräume; Die Möbel und die Gegenstände Das Thema „Mein Zuhause“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehr-und Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Zielvokabular zu den Komponenten des Themas „Mein Zuhause“ in die Unterthemen: „Die Wohnräume“, „Die Möbelstücke und die Gegenstände“ integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikkenntnis in Auswahl und Anwendung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.2. Unabhängigkeit N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.5. Aufgeschlossenheit N3.6. Analytik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN Sozial-emotionale SELK1.1. Selbstwahrnehmungskompetenz Lernfähigkeiten: SELK2.1. Kommunikationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Werte: W3. Fleiß W4. Freundschaft W6. Ehrlichkeit W10. Bescheidenheit Bildungskompetenzen: BK1. Informationskompetenz BK4. Visuelle Kompetenz BK5. Kulturelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.8.Forschungsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.12. Datenbasierte Vorhersagefähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.6.3.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    }
+   ]
   },
   {
    "code": "DE.6.4",
@@ -88,7 +955,13 @@
    "unit": null,
    "order": 4,
    "text": "SP2 INHALT FÜR DAS SPRECHEN ORGANISIEREN UND ANWENDEN Die Schüler wenden den erarbeiteten Wortschatz und die Zielgrammatik zum Thema „Mein Zuhause“ an, um kurze, alltagsnahe Dialoge zu führen. Sie organisieren ihre Aussagen so, dass sie in Gesprächen über Räume, Möbel, Gegenstände und deren Lage flüssig und verständlich kommunizieren können (N3.2, W3.1, KK2.2, KK2.7). Zunächst üben die Schüler, einfache Fragen zu stellen und zu beantworten, wie „Wie ist dein Zimmer?“, „Was ist im Wohnzimmer?“ oder „Wo ist der Schreibtisch?“ (N3.8, SELK3.2, W3.2, BK4, KK2.2, KK2.3). Anschließend erweitern sie ihre Äußerungen, indem sie Eigenschaften und Lagebeschreibungen kombinieren, z. B. „Das Wohnzimmer ist groß und hell. Der Teppich ist vor dem Sofa.“ In Partnerübungen übernehmen sie wechselweise Rollen, z. B. als Bewohner, Besucher oder Möbelverkäufer, und beschreiben Räume und Gegenstände in ihrer Wohnung oder in Bildern (W4.2, KK2.3). Durch gezielte Sprechanlässe wie Raumpläne, Fotos oder kurze Videosequenzen organisieren die Schüler ihre Aussagen sinnvoll, setzen den themenbezogenen Wortschatz ein und beachten die passende Satzmelodie und Betonung. Die Lehrkraft gibt Rückmeldung zu Wortwahl, Satzbau, Aussprache und Intonation, um die kommunikativen Kompetenzen der Schüler weiterzuentwickeln (N1.1, N2.4, N2.5, N3.2, SELK1.1, W3.1, W3.2, W4.2, BK1, KK2.13, KK2.16, KK2.17). DIFFERENZIERUNG Erweiterung: Ziel: Die Schüler erweitern ihr sprachliches Repertoire, indem sie ein Modell ihrer idealen Wohnung oder ihres Traumzimmers gestalten. Aktivität: In Gruppen oder Partnerarbeit entwickeln die Schüler Skizzen oder Collagen und beschreiben diese mit passenden Adjektiven, Präpositionen und Fragesätzen. Beispiel: „Mein Zimmer ist groß und hell. Auf dem Teppich ist ein Ball. Neben dem Bett ist ein Schrank.“ Am Ende präsentieren die Gruppen ihre Ergebnisse im Plenum. Unterstützung: Ziel: Schüler mit geringem sprachlichem Niveau erhalten Hilfskarten oder Satzbausteine, um ihre Sätze zu formulieren. Beispielkarten: -Im Wohnzimmer ist…, -Der Schreibtisch ist…. Die Lehrkraft bietet zusätzliche Phasen an und visualisiert typische Satzmuster an der Tafel oder am Smartboard. In Kleingruppen oder im Tandem üben die Schüler anhand von Bildkarten die Positionsangaben und die Adjektivverwendung. REFLEXION DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 5: MEINE UMGEBUNG Unterthemen: Die Geschäfte in der Stadt; Die Orientierung in der Stadt; Die Wegbeschreibung Das Thema „Meine Umgebung“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehr-und Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Zielvokabular zu den Komponenten des Themas „Meine Umgebung”, in die Unterthemen: „Die Geschäfte in der Stadt”, „Die Orientierung in der Stadt” und „Die Wegbeschreibung” integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikkenntnis in Auswahl und Anwendung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.2. Unabhängigkeit N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.5. Aufgeschlossenheit N3.6. Analytik N3.7. Systematik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN Sozial-emotionale SELK1.1. Selbstwahrnehmungskompetenz Lernfähigkeiten: SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Werte: W1. Gerechtigkeit W2.Familienzusammenhalt W3. Fleiß W4. Freundschaft W5. Einfühlungsvermögen W6. Ehrlichkeit W9. Barmherzigkeit W10. Bescheidenheit W12. Geduld W13 Gesundes Leben W14. Respekt W16. Verantwortung W19. Vaterlandsliebe Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz BK5. Kulturelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.8.Forschungsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.12. Datenbasierte Vorhersagefähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.6.4.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    }
+   ]
   },
   {
    "code": "DE.6.5",
@@ -96,7 +969,13 @@
    "unit": null,
    "order": 5,
    "text": "SP2 INHALT FÜR DAS SPRECHEN ORGANISIEREN UND ANWENDEN In dieser Unterrichtseinheit werden die Schüler gezielt dazu angeleitet, mündliche Inhalte zum Thema „Meine Umgebung“ selbstständig zu produzieren und in realistischen Gesprächssituationen anzuwenden (N1.1, N1.5, N3.2, N3.5, SELK2.1, SELK3.1, W3.1, W16.3, BK1, KK2.13). Der Schwerpunkt liegt auf einfachen Dialogen und kurzen Monologen, in denen die Schüler Wegbeschreibungen geben, nach dem Weg fragen oder Geschäfte und öffentliche Orte in ihrer Stadt benennen (N3.3, N3.6, N3.7, SELK2.1, SELK1.2, W4.2, BK1, KK2.4, KK2.7). Dabei nutzen sie den im Unterricht erarbeiteten Zielwortschatz (z. B. „die Bäckerei“, „der Bahnhof“, „geradeaus gehen“, „links abbiegen“) und die passenden grammatischen Strukturen, wie Präpositionen mit Dativ/Akkusativ, Imperativformen in der Höflichkeitsform sowie W-Fragen (N3.2, SELK1.2, W3.1, BK1, KK2.4, KK2.5). Zu Beginn werden die Schüler in Partnerübungen dazu angehalten, kurze Fragen nach dem Weg zu formulieren, etwa „Entschuldigung, wo ist die Bank?“ oder „Wie komme ich zum Bahnhof?“, und diese in Rollenspielen zu üben (N2.5, N3.8, SELK2.2, SELK2.1, W4.2, BK4, KK2.2, KK2.7). Im nächsten Schritt erweitern sie ihre Antworten, indem sie mehrere aufeinanderfolgende Anweisungen geben, wie „Gehen Sie geradeaus, dann biegen Sie links ab, und das Museum ist auf der rechten Seite.“ (N3.7, SELK1.2, W3.2, BK1, KK2.13). Dabei achten sie auf korrekte Satzstellung, deutliche Aussprache und angemessene Intonation in Frageund Aussagesätzen (N3.2, SELK3.1, W14.1, BK1, KK2.16, KK2.17). Um die Ausdrucksfähigkeit zu fördern, werden verschiedene kommunikative Szenarien simuliert, z. B. als Tourist in einer fremden Stadt nach dem Weg fragen, einem Mitschüler den Weg zur Schule beschreiben oder eine Stadtkarte gemeinsam lesen (N1.1, N3.5, SELK3.2, W5, BK5, KK2.8). Die Schüler lernen, dabei auch Höflichkeitsformeln und soziale Wendungen wie „Vielen Dank!“ oder „Kein Problem!“ gezielt einzusetzen (N1.5, SELK2.1, W14.1, BK1, KK2.4). Zur Unterstützung der Sprechproduktion werden visuelle Hilfsmittel wie Stadtpläne, Bilder von Geschäften und Videos mit authentischen Dialogen eingesetzt (N2.5, SELK3.1, W3.2, BK4, BK2, KK2.13). Spielerische Methoden wie „Wegbeschreibung-Memory“ oder „Stadtplan-Rallye“ dienen der Festigung und motivieren die Schüler, die erlernten Redemittel mehrfach in unterschiedlichen Kontexten anzuwenden (N2.5, N3.3, SELK2.3, W3, BK2, KK2.11). Am Ende der Einheit präsentieren die Schüler in Kleingruppen kurze Dialoge vor der Klasse, bei denen sie eine Wegbeschreibung realitätsnah umsetzen (N1.5, SELK2.2, W16, BK1, KK2.17). So wird die Fähigkeit gestärkt, spontan und verständlich mündliche Inhalte zu produzieren, die im Alltag unmittelbar nutzbar sind (N3.7, SELK3.1, W16.3, BK1, KK2.16). DIFFERENZIERUNG Erweiterung Für leistungsstarke Schüler werden weiterführende Aufgaben bereitgestellt, z. B.: Komplexe Wegbeschreibungen erstellen (unter Einbeziehung von mehr als drei Richtungsangaben und mehreren Orten). Eigene Stadtpläne zeichnen und die Wege zu verschiedenen Orten mündlich präsentieren. Dialoge erweitern, indem zusätzlich Höflichkeitsformen, alternative Redemittel und Umschreibungen eingebaut werden. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Unterstützung Für Schüler mit Unterstützungsbedarf werden folgende Maßnahmen angeboten: Einsatz von visuellen Hilfsmitteln (Piktogramme, Bildkarten). Satzmuster und Redemittellisten an die Hand geben, damit sie sich an den Strukturen orientieren können. Geführte Partnerarbeit mit klaren Vorgaben zur Rollengestaltung (z. B. der eine fragt, der andere antwortet). Kurze, strukturierte Übungen, um Sicherheit im Gebrauch der Richtungsangaben und Ortsbezeichnungen zu gewinnen. REFLEXION DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 6: DIE TIERE Unterthemen: Die Tiere und ihre Eigenschaften; Die Haustiere; Die Bauernhoftiere; Die Wildtiere Das Thema „Die Tiere“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehr-und Lernprozesses zur Vermittlung des Zieles inhaltserfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Ziel Vokabular zu den Komponenten des Themas „Die Tiere“ in die Unterthemen: „Die Tiere und ihre Eigenschaften”, „Die Haustiere”, „Die Bauernhoftiere”, „Die Wildtiere” integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikvermittlung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.2. Unabhängigkeit N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.5. Aufgeschlossenheit N3.6. Analytik N3.7. Systematik INTERDISZIPLINÄRE KOMPONENTEN Sozial-emotionale SELK1.1. Selbstwahrnehmungskompetenz Lernfähigkeiten: SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Werte: W1. Gerechtigkeit W3. Fleiß W4. Freundschaft W5. Einfühlungsvermögen W9. Barmherzigkeit W12. Geduld W13 Gesundes Leben W14. Respekt W16. Verantwortung Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.12. Datenbasierte Vorhersagefähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.6.5.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    }
+   ]
   },
   {
    "code": "DE.6.6",
@@ -104,7 +983,13 @@
    "unit": null,
    "order": 6,
    "text": "SP2 INHALT FÜR DAS SPRECHEN ORGANISIEREN UND ANWENDEN Die Schüler lernen, ihre Aussagen zum Thema „Die Tiere“ inhaltlich sinnvoll zu strukturieren und thematisch zu organisieren. (N3.7, N3.2, SELK1.2, W3.2, W16.3, BK1, KK2.13). Sie ordnen Informationen zu einem Tier – Name, Aussehen, Lebensraum, Eigenschaften und Fähigkeiten – in logischer Reihenfolge an (N3.7, SELK1.2, W3.2, BK4, KK2.13). In gelenkten Sprechübungen planen sie kurze Tierbeschreibungen, bevor sie diese mündlich präsentieren (N1.5, N3.7, SELK2.1, W3.1, BK1, KK2.3, KK2.16). Durch Partnerund Gruppenarbeit werden Dialoge entwickelt, in denen die Schüler sich gegenseitig über Tiere informieren oder ein kurzes Tierportrait vorstellen (N2.5, N3.3, SELK2.2, SELK2.1, W4.2, BK1, KK2.7). Die Lehrkraft gibt gezielte Hinweise, wie Inhalte klar gegliedert und sprachlich korrekt präsentiert werden können (N1.5, SELK3.1, W3.1, BK1, KK2.4, KK2.17). Abschließend wenden die Schüler ihre Planungskompetenz in einer Mini-Präsentation an, z. B. bei der Vorstellung eines selbst gewählten Tieres vor der Klasse (N1.5, N3.5, SELK3.2, SELK2.1, W16.3, BK1, KK2.16). DIFFERENZIERUNG Erweiterung Ziel: Die Schüler erweitern ihr Wissen über die Tierwelt und lernen, Tiere in verschiedenen Kontexten sprachlich korrekt zu beschreiben. Aktivität: Die Schüler erstellen in Gruppen Plakate zu verschiedenen Tiergruppen (Haustiere, Bauernhoftiere, Wildtiere). Sie sammeln passende Adjektive, beschreiben das Aussehen, den Lebensraum und das Verhalten der Tiere. Anschließend präsentieren sie ihre Ergebnisse der Klasse. Unterstützung Ziel: Die Schüler mit weniger sprachlicher Sicherheit werden gezielt unterstützt, einfache Satzmuster zur Tierbeschreibung anzuwenden. Aktivität: Die Lehrkraft stellt Satzbausteine und Redemittelkarten zur Verfügung (z.B. „Mein Lieblingstier ist …“, „Es ist …“, „Es lebt im …“). In Partnerarbeit üben die Schüler dialogisch, diese Satzmuster korrekt anzuwenden. Zur Unterstützung können Bildkarten eingesetzt werden. REFLEXION DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE 7. KLASSE (NIVEAU: A1.2) LEKTION 1: DIE FREUNDSCHAFT Unterthemen: Meine beste Freundin/Mein bester Freund; Das Aussehen; Die Charaktereigenschaften Das Thema „Freundschaft“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehr-und Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Zielvokabular zu den Komponenten des Themas „Die Freundschaft“ in die Unterthemen: „Mein bester Freund”, „Das Aussehen”, „Die Charaktereigenschaften” integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikkenntnis in Auswahl und Anwendung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.5. Aufgeschlossenheit N3.6. Analytik N3.7. Systematik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Sozial-emotionale Lernfähigkeiten: SELK1.1. Selbstwahrnehmungskompetenz SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität Werte: W1. Gerechtigkeit W3. Fleiß W4. Freundschaft W5. Einfühlungsvermögen W12. Geduld W14. Respekt W16. Verantwortung Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.12. Datenbasierte Vorhersagefähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.6.6.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    }
+   ]
   },
   {
    "code": "DE.7.1",
@@ -112,7 +997,17 @@
    "unit": null,
    "order": 1,
    "text": "SP3. MÜNDLICHE INHALTE PRODUZIEREN Im Rahmen der Unterrichtseinheit „Die Freundschaft“ unterstützt die Lehrkraft die Schüler dabei, eigene mündliche Beiträge zu gestalten und diese aktiv in passenden Kommunikationssituationen einzusetzen (N1.1, N1.5, N3.2, SELK2.1, SELK3.2, W4.2, W14.1, BK1, KK2.16). Zu Beginn stellt die Lehrkraft typische Redemittel und Satzmuster zu den Unterthemen „Meine beste Freundin / Mein bester Freund“, „Das Aussehen“ und „Die Charaktereigenschaften“ vor (N3.2, SELK1.2, W3.1, W4.2, BK1, KK2.2, KK2.4). Gemeinsam mit den Schülern werden passende Adjektive, Verben und Satzstrukturen gesammelt und geübt (N3.3, N3.7, SELK2.2, W12.1, BK1, KK2.5, KK2.13). Anschließend erhalten die Schüler visuelle Impulse (z. B. Bilder von Personen, Steckbriefe, Wortkarten) und bereiten damit kurze mündliche Beiträge vor (N2.5, N3.2, SELK3.1, W3.2, BK4, KK2.2, KK2.13). Die Lehrkraft organisiert Partneroder Gruppenaktivitäten, in denen die Schüler: Personen beschreiben, Eigenschaften benennen, eigene Meinungen äußern, kurze Dialoge oder Interviews führen (N2.4, N3.5, SELK2.1, SELK2.2, W4.2, W14.1, BK1, KK2.7, KK2.4). Dabei achtet die Lehrkraft auf eine angemessene Aussprache, Intonation und Sprechflüssigkeit und gibt individuelles Feedback (N1.5, N3.6, SELK1.2, W5.1, W14.1, BK1, KK2.17). In einer erweiterten Phase präsentieren die Schüler ihre Ergebnisse im Plenum oder in einer Galerie-Runde (N1.5, N3.5, SELK2.1, W16.3, BK1, BK4, KK2.16). Hierbei werden die sprachlichen Mittel gezielt eingesetzt und gefestigt (N3.2, SELK3.1, W3.1, BK1, KK2.4). Abschließend moderiert die Lehrkraft eine kurze Reflexion, in der die Schüler ihre eigenen Fortschritte beim mündlichen Ausdruck einschätzen (N1.5, N3.6, SELK1.1, SELK3.1, W16.3, BK1, KK2.17). DIFFERENZIERUNG Erweiterung Für leistungsstärkere Schüler bieten sich folgende Erweiterungen an: -Verfassen eines kleinen Porträts ihres besten Freundes / ihrer besten Freundin -Erstellen eines interviewbasierten Dialogs in Paararbeit -Rollenspiele: Freundschaftsinterview -Freies Sprechen: Was macht eine gute Freundschaft aus? Unterstützung Für Schüler, die mehr Unterstützung benötigen: -Arbeiten mit Satzmustern und Sprachbausteinen -Visualisierte Wortschatzhilfen (z.B. Wortkarten zu Eigenschaften) -Dialogkarten für geführte Gespräche -Einsatz von kooperativen Lernformen (z.B. Tandemarbeit) REFLEXION DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 2: ESSEN UND TRINKEN Unterthemen: Die Lebensmittel; Die Getränke; Mein Lieblingsessen; Mein Lieblingsgetränk Das Thema „Essen und Trinken“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehrund Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Zielvokabular zu den Komponenten des Themas „Essen und Trinken”, in die Unterthemen: „Die Lebensmittel“, „Die Getränke”, „Mein Lieblingsessen” und „Mein Lieblingsgetränk ” integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikkenntnis in Auswahl und Anwendung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.5. Aufgeschlossenheit N3.6. Analytik N3.7. Systematik INTERDISZIPLINÄRE KOMPONENTEN Sozial-emotionale SELK1.1. Selbstwahrnehmungskompetenz Lernfähigkeiten: SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Werte: W3. Fleiß W4. Freundschaft W12. Geduld W13 Gesundes Leben W14. Respekt Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.7.1.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    },
+    {
+     "code": "DE.7.1.G1",
+     "text": "ZIELGRAMMATIK ERKENNEN UND ANWENDEN"
+    }
+   ]
   },
   {
    "code": "DE.7.2",
@@ -120,7 +1015,13 @@
    "unit": null,
    "order": 2,
    "text": "SP3 MÜNDLICHE INHALTE PRODUZIEREN In dieser Phase setzen die Schüler die erarbeiteten Redemittel, Strukturen und Wortschatzlisten zum Thema „Essen und Trinken“ aktiv in Sprechsituationen um (N1.5, N3.2, N3.5, SELK2.1, SELK3.1, BK1, KK2.16). Sie führen authentische Dialoge, kurze Monologe oder Gruppenpräsentationen durch, in denen sie Lebensmittel und Getränke benennen, Vorlieben und Wünsche äußern sowie einfache Bestellund Einkaufsgespräche simulieren (N2.5, N3.3, SELK2.2, SELK2.1, KK2.7). Die Lehrkraft schafft realistische Kommunikationsanlässe, z. B. durch Rollenspiele wie „Im Restaurant bestellen“, „Auf dem Markt einkaufen“ oder „Mein Lieblingsessen vorstellen“ (N2.4, SELK2.2, SELK3.2, BK4). LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Die Schüler formulieren vollständige Sätze, verwenden passende Frageund Antwortmuster („Was möchten Sie essen?“ – „Ich möchte eine Suppe, bitte“) und achten auf die richtige Aussprache, Satzmelodie und Betonung (N3.2, SELK1.2, W14.1, KK2.4). Ziel ist es, die mündliche Ausdrucksfähigkeit zu festigen, spontane Sprachproduktion zu fördern und die Sicherheit im Umgang mit den erlernten Strukturen zu steigern (N1.5, N3.5, SELK3.1, KK2.16, KK2.17). Durch das wiederholte Einüben dieser Sprechsituationen entwickeln die Schüler flüssigere und selbstbewusstere Kommunikationsfähigkeiten, die sie sowohl im schulischen als auch im alltäglichen Kontext anwenden können (W12.1, SELK1.1, SELK1.2, N3.7, KK2.13). DIFFERENZIERUNG Erweiterung Ziel: Die Schüler erweitern ihr sprachliches Repertoire und wenden es kreativ an, indem sie persönliche Vorlieben beim Essen und Trinken formulieren und präsentieren. Aktivität: Mein eigenes Menü -Die Schüler erstellen ein eigenes Menü für ein Frühstück, Mittagoder Abendessen. -Sie wählen passende Speisen und Getränke aus und formulieren Sätze dazu: -Zum Frühstück esse ich… und trinke… -Mein Lieblingsgetränk ist… -Ich mag keinen/keine/kein… -Anschließend stellen sie ihr Menü der Klasse vor und begründen ihre Auswahl. Ziel: Die Schüler verwenden bekannte Redemittel, Modalverben (möchten, mögen), Verneinungen und Wortschatz zu Essen und Trinken in personalisierten Kontexten und stärken dabei ihre Sprechund Präsentationskompetenz. Unterstützung Ziel: Die Schüler festigen den Grundwortschatz und die wichtigsten Satzmuster zum Thema Essen und Trinken auf elementarer Ebene. Aktivität: Speise-Memory und Satzbau-Übungen -In Kleingruppen spielen die Schüler ein Memoryspiel mit Bildund Wortkarten zu Speisen und Getränken. -Zu jedem gefundenen Paar formulieren sie einfache Sätze: -Das ist eine Banane.“ -Ich trinke gern Wasser.“ -Danach führen sie Satzbau-Übungen durch (z.B. Lückentexte, Zuordnung von Subjekt, Verb und Objekt). -In geführten Dialogen üben sie typische Gesprächsstrukturen: -Was möchten Sie essen?“ – „Ich möchte eine Suppe.“ Ziel: Die Schüler gewinnen Sicherheit beim Erkennen und Verwenden zentraler sprachlicher Strukturen und beim mündlichen Austausch. REFLEXION DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 3: DIE FREIZEITAKTIVITÄTEN AM WOCHENENDE Unterthemen: Die Freizeitaktivitäten mit der Familie; Die Freizeitaktivitäten mit den Freunden Das Thema „Die Freizeitaktivitäten am Wochenende’’ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehrund Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Zielvokabular zu den Komponenten des Themas „Die Freizeitaktivitäten am Wochenende” in die Unterthemen: „Die Freizeitaktivitäten mit der Familie“ und „Die Freizeitaktivitäten mit den Freunden“ integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikkenntnis in Auswahl und Anwendung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.2. Unabhängigkeit N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.5. Aufgeschlossenheit N3.6. Analytik N3.7. Systematik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN SELK1.1. Selbstwahrnehmungskompetenz Sozial-emotionale Lernfähigkeiten: SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Werte: W3. Fleiß W4. Freundschaft W12. Geduld W14. Respekt W16. Verantwortung Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz BK5. Kulturelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.8.Forschungsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.12. Datenbasierte Vorhersagefähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.7.2.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    }
+   ]
   },
   {
    "code": "DE.7.3",
@@ -128,7 +1029,13 @@
    "unit": null,
    "order": 3,
    "text": "SP3 MÜNDLICHE INHALTE PRODUZIEREN Im Rahmen der Unterrichtseinheit „Freizeitaktivitäten am Wochenende“ werden die Schüler dazu angeregt, selbstständig kurze mündliche Beiträge zu gestalten und diese in authentischen Gesprächssituationen anzuwenden (N1.1, N1.2, N1.3, N1.5, N2.4, N2.5, N3.2, SELK1.1, SELK1.2, SELK2.1, SELK2.2, SELK3.1, SELK3.2, W4.2, W14.1, BK1, BK4, KK2.16). Sie berichten über ihre eigenen Wochenendpläne, stellen Fragen zu den Aktivitäten anderer und reagieren mit passenden Antworten (N3.3, N3.5, N3.6, N3.7, N3.8, SELK2.1, SELK2.2, W14.1, KK2.4, KK2.17). Dabei setzen sie den gelernten Zielwortschatz, die Redemittel zu Vorlieben und Abneigungen sowie die Zielgrammatik im Präsens aktiv ein, strukturieren Informationen adressatengerecht und begründen ihre Entscheidungen kurz und präzise (SELK1.2, SELK2.3, BK1, BK2, KK2.13, KK2.4). Durch Rollenspiele, spontane Dialoge und kurze Präsentationen üben sie, flüssig zu sprechen, Informationen klar zu ordnen und eine angemessene Intonation zu verwenden, um im Gespräch sicher und respektvoll aufzutreten (N2.5, N3.5, SELK2.2, SELK2.1, W14.1, KK2.3). DIFFERENZIERUNG Erweiterung Im Unterricht zum Thema „Freizeitaktivitäten am Wochenende“ wird Differenzierung gezielt eingesetzt, um den unterschiedlichen sprachlichen Voraussetzungen, Lernbedürfnissen und Interessen der Schüler gerecht zu werden. Erweiterung: Für fortgeschrittene Lernende oder schnell lernende Schüler werden komplexere sprachliche Strukturen und Ausdrucksformen angeboten. Diese Schüler können: -detaillierte Wochenendpläne erstellen und präsentieren, kurze Berichte oder Tagebuchtexte über vergangene oder geplante Freizeitaktivitäten verfassen (z.B. Am Samstag habe ich… gemacht. Danach sind wir… gegangen.), -eigene Meinungen und Vorlieben begründen (z.B. Ich gehe gern ins Kino, weil…), -in Partnerarbeit kurze Rollenspiele zu Freizeitabsprachen entwickeln und vortragen. Unterstützung: Für Schüler, die mehr sprachliche Unterstützung benötigen, werden folgende Maßnahmen angeboten: -Arbeit mit visuellen Hilfsmitteln (Bildkarten, Piktogrammen), -strukturierte Satzanfänge und Sprechmuster (z.B. Am Wochenende… Ich gehe… Ich treffe…), -Hör-/Lesetexte mit klarer Gliederung und gezielten Verstehens-Hilfen, -Partneroder Gruppenarbeit, in der stärkere Lernende schwächere unterstützen können, -spielerische Übungen (z.B. Brettspiele, Memory), um den Wortschatz zu festigen. Auf diese Weise wird sichergestellt, dass alle Schüler — unabhängig von ihrem Lernstand — aktiv und erfolgreich am Unterricht teilnehmen und die sprachlichen Lernziele im Rahmen ihrer Möglichkeiten erreichen können. REFLEXION DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 4: DER KÖRPER Unterthemen: Die Körperteile; Die Krankheiten; Gesundheitstipps und Ratschläge Das Thema „Die Körperteile“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehrund Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Zielvokabular zu den Komponenten des Themas „Der Körper“ in die Unterthemen: „Die Körperteile “, „Die Krankheiten“ und „Die Ratschläge und die Gesundheitstipps“ integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikkenntnis in Auswahl und Anwendung UFK2. Wortschatzauswahl und Anwendungauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.2. Unabhängigkeit N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.5. Aufgeschlossenheit N3.6. Analytik N3.7. Systematik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN Sozial-emotionale SELK1.1. Selbstwahrnehmungskompetenz Lernfähigkeiten: SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Werte: W3. Fleiß W5. Einfühlungsvermögen W9. Barmherzigkeit W12. Geduld W13 Gesundes Leben W14. Respekt W16. Verantwortung Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz BK5. Kulturelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.7.3.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    }
+   ]
   },
   {
    "code": "DE.7.4",
@@ -136,7 +1043,17 @@
    "unit": null,
    "order": 4,
    "text": "SP3. MÜNDLICHE INHALTE PRODUZIEREN Die Schüler führen einfache, themenbezogene Dialoge und kurze Monologe zum Thema „Körper, Krankheiten und Gesundheitstipps“ (N1.5, SELK2.1, N3.3). Sie beschreiben ihr Befinden, nennen Körperteile und Symptome, geben Ratschläge und reagieren angemessen auf Fragen (N3.6, W16.3, W13.1). In Rollenspielen (z. B. „beim Arzt“, „unter Freunden“) setzen sie den Zielwortschatz, die Zielgrammatik und passende Redemittel ein (SELK2.2, N2.5, KK2.16). Sie achten auf deutliche Aussprache, richtige Satzbetonung und angemessene Intonation, um Empathie und Verständnis zu zeigen (W9.3, SELK1.1). Die Schüler nutzen spontane Sprechgelegenheiten, um kurze Gespräche zu initiieren, Informationen zu erfragen und Vorschläge zu machen (N1.1, N1.2). Sie reagieren flexibel auf Gesprächsimpulse der Partner und halten den Dialog flüssig aufrecht (SELK3.2, SELK3.1, N3.2). DIFFERENZIERUNG Um der heterogenen Lernvoraussetzung und den unterschiedlichen Bedürfnissen der Schüler im Umgang mit dem Thema „Der Körper“ gerecht zu werden, werden im Unterricht differenzierende Maßnahmen auf mehreren Ebenen eingesetzt: Erweiterung: Schüler mit fortgeschritteneren sprachlichen Kompetenzen und schnellem Auffassungsvermögen sollen angeregt werden, den gelernten Wortschatz und die Strukturen kreativ und erweitert anzuwenden. Umsetzung: -Die Schüler schreiben komplexere Dialoge zum Arztbesuch (z. B. „Ich habe Fieber. Wie hoch ist es? 39 Grad.“). -Sie ergänzen eigene Gesundheitstipps und begründen diese (z. B. „Wenn man Husten hat, soll man heißen Tee mit Honig trinken, weil das den Hals beruhigt.“). -In Kleingruppen präsentieren sie Mini-Ratgeber: „Fünf Tipps für einen gesunden Alltag“. Unterstützung: Schüler, die mehr Unterstützung benötigen, sollen gezielt gefördert werden, um zentrale Begriffe und Satzmuster sicher anwenden zu können. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Umsetzung: -Es werden visuelle Hilfsmittel (Bildkarten, Plakateingesetzt, um Körperteile und Symptome zu verdeutlichen. -Die Schüler nutzen Satzbausteine als sprachliche Stützen (z. B. „Ich habe …“, „Du sollst …“, „Trink …“). -In gelenkten Partnerübungen werden typische Arztgespräche in einfacher Form eingeübt. -Hörtexte werden mehrfach wiederholt und durch visuelle Unterstützung begleitet. Auf diese Weise wird gewährleistet, dass alle Schüler — unabhängig von ihrem aktuellen Sprachniveau — die Möglichkeit haben, sich aktiv und erfolgreich mit dem Thema „Der Körper“ auseinanderzusetzen und ihre kommunikativen Kompetenzen zu erweitern. REFLEXION DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 5: DIE REGELN ZU HAUSE Unterthemen: Die Hausarbeiten in der Familie; Mein Tagesablauf zu Hause; Gutes Benehmen in der Familie Das Thema „Die Regeln zu Hause“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehrund Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Zielvokabular zu den Komponenten des Themas „Die Regeln zu Hause“ in die Unterthemen: „Die Regeln zu Hause“, ‘Die Hausarbeiten in der Familie“‘, „Mein Tagesablauf zu Hause“ und „Gutes Benehmen in der Familie“ integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikvermittlung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.2. Unabhängigkeit N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.5. Aufgeschlossenheit N3.6. Analytik N3.7. Systematik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN SELK1.1. Selbstwahrnehmungskompetenz Sozial-emotionale Lernfähigkeiten: SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Werte: W2.Familienzusammenhalt W3. Fleiß W5. Einfühlungsvermögen W12. Geduld W13 Gesundes Leben W14. Respekt W16. Verantwortung Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz BK5. Kulturelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.7.4.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    },
+    {
+     "code": "DE.7.4.G1",
+     "text": "ZIELGRAMMATIK ERKENNEN UND ANWENDEN"
+    }
+   ]
   },
   {
    "code": "DE.7.5",
@@ -144,7 +1061,17 @@
    "unit": null,
    "order": 5,
    "text": "SP3. MÜNDLICHE INHALTE PRODUZIEREN In dieser Phase setzen die Schüler die erarbeiteten sprachlichen Strukturen und den Zielwortschatz aktiv ein, um zusammenhängende mündliche Äußerungen zu produzieren (N3.2, N3.7, SELK2.1, KK2.13). Sie führen kurze Dialoge, präsentieren ihre Hausregeln oder erzählen von alltäglichen Routinen in der Familie (N1.5, SELK3.1, W16.2, W16.3). Dabei nutzen sie Redemittel, um ihre Aussagen klar zu strukturieren, Begründungen zu geben und einfache Meinungen zu äußern (N3.6, SELK1.2, W14.1, KK2.5). Durch Rollenspiele, Interviews und spontane Gesprächsanlässe üben sie, frei zu sprechen und sich an unterschiedliche Gesprächspartner anzupassen (N2.5, SELK2.2, SELK3.2, W2.3). Besonderer Wert wird auf die flüssige Aussprache, die korrekte Intonation sowie die sichere Verwendung der gelernten Grammatikstrukturen gelegt (N3.2, SELK1.2, KK2.16). Ziel ist es, die kommunikative Kompetenz zu stärken, sodass die Schüler auch in neuen Situationen selbstbewusst und verständlich sprechen können (N1.5, SELK3.1, W14.1, KK2.17). DIFFERENZIERUNG Da die Schüler unterschiedliche Sprachstände und Erfahrungen mitbringen, werden differenzierende Methoden eingesetzt: -Schwächere Schüler arbeiten mit Bildkarten, Satzmustern und Lückentexten. -Fortgeschrittene Schüler formulieren eigene Regeln und Empfehlungen. -Im offenen Unterrichtsgespräch werden alle Beiträge wertgeschätzt und in den Unterricht integriert. Erweiterung Um die kommunikativen Kompetenzen zu erweitern, werden folgende Maßnahmen eingesetzt: -Rollenspiele (z.B. Kind erklärt Regeln zu Hause, Diskussion über gerechte Aufgabenteilung) -Interviews im Klassenverband: Schüler befragen sich gegenseitig zu ihren Hausarbeiten. -Erstellung eines Hausarbeitsplans für die Familie in Partnerarbeit. Unterstützung Die Schüler werden durch folgende unterstützende Maßnahmen begleitet: -Visualisierung zentraler Redemittel und Satzmuster an der Tafel oder auf Plakaten. -Bereitstellung von Satzbausteinen und Redemittelkarten für mündliche und schriftliche Übungen. -Individuelles Feedback beim Schreiben eigener Texte und beim freien Sprechen. REFLEXION DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 6: DIE REISEZIELE Unterthemen: Die Vorbereitungen auf eine Reise; Sehenswürdigkeiten entdecken; Die Verkehrsmittel auf einer Reise. Das Thema „Reiseziele“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehr-und Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Zielvokabular zu den Komponenten des Themas „Die Reiseziele“ in die Unterthemen: „Die Vorbereitungen auf eine Reise”, „Sehenswürdigkeiten entdecken”, und „Verkehrsmittel auf einer Reise” integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikvermittlung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.2. Unabhängigkeit N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.5. Aufgeschlossenheit N3.6. Analytik N3.7. Systematik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Sozial-emotionale Lernfähigkeiten: SELK1.1. Selbstwahrnehmungskompetenz SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität Werte: W3. Fleiß W4. Freundschaft W5. Einfühlungsvermögen W14. Respekt Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz BK5. Kulturelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.12. Datenbasierte Vorhersagefähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.7.5.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    },
+    {
+     "code": "DE.7.5.G1",
+     "text": "ZIELGRAMMATIK ERKENNEN UND ANWENDEN"
+    }
+   ]
   },
   {
    "code": "DE.7.6",
@@ -152,7 +1079,13 @@
    "unit": null,
    "order": 6,
    "text": "SP3 MÜNDLICHE INHALTE PRODUZIEREN In dieser Phase setzen die Schüler ihre vorbereiteten und geübten Inhalte aktiv in gesprochene Sprache um (SELK2.1, W3.1, W14.1). Sie formulieren vollständige Sätze, führen kurze Monologe oder Dialoge und reagieren spontan auf Beiträge ihrer Gesprächspartner (N3.2, N3.3). Dabei wenden sie den gelernten Zielwortschatz, die Zielgrammatik und passende Redemittel selbstständig an (KK2.3, KK2.16). Der Fokus liegt auf flüssiger und klarer Aussprache, angemessener Betonung und natürlicher Intonation (SELK1.1, SELK1.2). Die Schüler üben, ihre Gedanken ohne lange Pausen auszudrücken, Füllwörter sinnvoll einzusetzen und gegebenenfalls Umschreibungen zu verwenden, wenn ihnen ein bestimmtes Wort nicht einfällt (N3.5, N3.8). Die Lehrkraft schafft kommunikative Situationen, in denen authentische Gespräche stattfinden – z. B. Rollenspiele, Interviews, Gruppendiskussionen oder Präsentationen (BK2, BK4). Sie gibt gezieltes Feedback zu Aussprache, Satzbau, Wortwahl und Kohärenz und unterstützt bei der Verbesserung individueller Schwächen (KK2.2, KK2.17). Ziel ist es, dass die Schüler selbstbewusst, verständlich und zusammenhängend mündlich kommunizieren können und ihre Sprachproduktion zunehmend flüssiger und sicherer wird (N1.5, SELK3.1, SELK3.2). DIFFERENZIERUNG Erweiterung Schüler mit fortgeschrittenen sprachlichen Fähigkeiten oder besonderem Interesse am Thema können: -eigene Reiseplakate oder Präsentationen zu Reisezielen gestalten, -komplexere Dialoge üben (z.B. Hotelreservierung, Beschwerde im Reisebüro), -Reisetagebücher schreiben, -interkulturelle Vergleiche anstellen (z.B. Urlaub in Türkiye oder Deutschland). Unterstützung Für Schüler, die sprachlich noch unsicher sind, werden folgende Unterstützungsmaßnahmen angeboten: -Arbeit mit Satzbausteinen und Dialogmustern, -klar strukturierte Übungen zu typischen Redemitteln, -visuelle Unterstützung (z.B. Bildkarten zu Verkehrsmitteln, Sehenswürdigkeiten), -kooperative Lernformen (z.B. Partnerarbeit mit sprachlich stärkeren Schülern). REFLEXION DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE 8. KLASSE (NIVEAU: A1.2) LEKTION 1: DIE REGELN IN DER SCHULE Unterthemen: Die Regeln in der Klasse; Die Regeln im Unterricht; Die Schulregeln Das Thema „Mein Tag“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehr-und Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Zielvokabular zu den Komponenten des Themas „Mein Tag” in die Unterthemen: „Die Zahlen“, „Die Uhrzeiten” und „Mein Alltag” integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikkenntnis in Auswahl und Anwendung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.2. Unabhängigkeit N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.5. Aufgeschlossenheit N3.6. Analytik N3.7. Systematik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Sozial-emotionale Lernfähigkeiten: SELK1.1. Selbstwahrnehmungskompetenz SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität Werte: W1. Gerechtigkeit W3. Fleiß W4. Freundschaft W14. Respekt W16. Verantwortung Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz BK5. Kulturelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.12. Datenbasierte Vorhersagefähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.7.6.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    }
+   ]
   },
   {
    "code": "DE.8.1",
@@ -160,7 +1093,13 @@
    "unit": null,
    "order": 1,
    "text": "SP3 MÜNDLICHE INHALTE PRODUZIEREN Im Rahmen der Unterrichtseinheit „Die Regeln in der Schule“ werden die Schüler gezielt dazu angeleitet, verschiedene mündliche Produkte zu erarbeiten und diese in passenden Situationen anzuwenden, sie formulieren einfache Aussagen, Meinungen oder Vorschläge zu Regeln in der Schule, im Unterricht oder in der Klasse (N1.3, SELK2.1, W14.3). Zunächst üben die Schüler Redemittel und Satzstrukturen zum Thema Regeln, z. B. „Man darf nicht …“, „Es ist wichtig, dass …“ oder „Wir sollen …“, mithilfe von Bildkarten, Rollenkarten oder kleinen Dialogszenen werden sie dazu angeregt, kurze Rollenspiele, Interviews oder Diskussionen durchzuführen (N3.3, SELK2.2, BK4). In Gruppen oder in Partnerarbeit diskutieren sie z. B., welche Regeln sie sinnvoll finden oder wie man Regelverstöße vermeiden kann, dabei achten sie auf eine klare Aussprache, angemessene Körpersprache und einfache Argumentationen, ihre Beiträge werden durch die Lehrkraft beobachtet und in Form von Feedback oder Checklisten gewürdigt (N2.4, SELK3.1, W16.2, KK2.4). DIFFERENZIERUNG Erweiterung In dieser Phase erhalten leistungsstärkere oder schneller lernende Schüler zusätzliche Anregungen, um ihre sprachlichen und kommunikativen Fähigkeiten im Themenbereich Schulregeln weiter auszubauen. Die Schüler sollen: -komplexere Satzstrukturen bilden, um Regeln differenziert zu beschreiben (z. B. „Man darf im Unterricht nicht mit dem Handy spielen, weil es stört.“ oder „Wir müssen im Klassenzimmer leise sein, damit alle gut lernen können.“) -eigene Klassenregeln entwickeln und diese in Gruppenarbeit präsentieren (z. B. „Unsere Klasse möchte, dass wir uns gegenseitig helfen.“) -Meinungen zu Regeln begründen (z. B. „Ich finde es wichtig, dass wir pünktlich sind, weil...“) -einfache Diskussionen führen: Die Schüler tauschen sich in kleinen Gruppen über Sinn und Nutzen bestimmter Regeln aus. -zusätzlichen Wortschatz integrieren, z. B.: respektvoll, gemeinsam, Rücksicht nehmen, Verantwortung übernehmen, Konflikte lösen. Durch diese Erweiterung werden die Schüler angeregt, über die Bedeutung von Regeln im Schulalltag tiefer LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE nachzudenken und ihre sprachlichen Mittel zur Meinungsäußerung und Argumentation zu erweitern. REFLEXION DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 2: BESONDERE TAGE UND TRADITIONEN IN TÜRKİYE Unterthemen: Besondere Tage und Geburtstage; Feste in Türkiye; Traditionen in Türkiye Das Thema „Besondere Tage und Traditionen in Türkiye“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehrund Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Zielvokabular zu den Komponenten des Themas „Besondere Tage und Traditionen in Türkiye“ in die Unterthemen: „Besondere Tage und Geburtstage“, „Feste in Türkiye“ und ,,Traditionen in Türkiye“ integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikkenntnis in Auswahl und Anwendung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.2. Unabhängigkeit N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.5. Aufgeschlossenheit N3.6. Analytik N3.7. Systematik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Sozial-emotionale Lernfähigkeiten: SELK1.1. Selbstwahrnehmungskompetenz SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität Werte: W3. Fleiß W4. Freundschaft W5. Einfühlungsvermögen W6. Ehrlichkeit W12. Geduld W14. Respekt W16. Verantwortung W19. Vaterlandsliebe Bildungskompetenzen: BK4. Visuelle Kompetenz BK5. Kulturelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.12. Datenbasierte Vorhersagefähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.8.1.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    }
+   ]
   },
   {
    "code": "DE.8.2",
@@ -168,7 +1107,17 @@
    "unit": null,
    "order": 2,
    "text": "SP3 MÜNDLICHE INHALTE PRODUZIEREN In dieser Phase setzen die Schüler ihre vorbereiteten Inhalte um und präsentieren sie mündlich in zusammenhängender Form (N1.1, N1.2, N1.3). Sie sprechen frei oder anhand kurzer Notizen über besondere Tage und Traditionen in Türkiye und nutzen dabei den zuvor erarbeiteten Wortschatz sowie die passenden grammatischen Strukturen (N1.5, N2.4, N2.5). Die Schüler achten auf eine deutliche Aussprache, angemessene Intonation und den Einsatz der gelernten Redemittel, um Glückwünsche, Beschreibungen oder persönliche Erlebnisse klar und authentisch auszudrücken (N3.2, N3.3, N3.5). In simulierten Gesprächssituationen wie Interviews, Festankündigungen oder kurzen Dialogen wenden sie ihre sprachlichen Kenntnisse spontan an und reagieren flexibel auf Rückfragen oder Kommentare ihrer Gesprächspartner (N3.6, N3.7, N3.8, SELK1.1, SELK1.2). Durch Partnerund Gruppenarbeit, Rollenspiele und kleine Präsentationen trainieren sie, ihre Beiträge flüssig, strukturiert und mit sicherem Auftreten vorzutragen (SELK2.1, SELK2.2, SELK2.3, SELK3.1, SELK3.2). Ziel dieser Phase ist es, mündliche Aussagen so zu gestalten, dass sie verständlich, situationsgerecht und kommunikativ wirksam sind, wobei die Schüler Selbstvertrauen im freien Sprechen entwickeln und ihre Ausdrucksfähigkeit nachhaltig verbessern (W3.1, W3.2, W12.1, W14.1, W16.3, BK1, BK4, BK5, KK2.7, KK2.13, KK2.16, KK2.17). DIFFERENZIERUNG Erweiterung Für leistungsstärkere Schüler werden im Rahmen dieser Lerneinheit gezielt erweiterte Lernmöglichkeiten angeboten, um ihre sprachlichen und interkulturellen Kompetenzen weiterzuentwickeln. Diese Schüler erhalten die Gelegenheit, detailliertere Informationen über besondere Tage und Traditionen zu recherchieren und im Unterricht zu präsentieren. Darüber hinaus formulieren sie komplexere Satzstrukturen, um z.B. den Ablauf eines Festes ausführlich LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE zu beschreiben oder Vergleiche zwischen Festtraditionen in verschiedenen Regionen Türkiye oder im internationalen Kontext zu ziehen. Leistungsstärkere Schüler verfassen zusätzlich kreative Texte (z.B. Einladungen, Grußkarten, kleine Berichte oder Präsentationen) und setzen sich reflektierend mit der Bedeutung von Traditionen im persönlichen und gesellschaftlichen Leben auseinander. In der mündlichen Kommunikation werden sie ermutigt, differenzierte Meinungen zu äußern und im interkulturellen Dialog aktiv Beiträge zu leisten. Dadurch entwickeln sie ihre Fähigkeit situationsangemessen und stilistisch variabel zu kommunizieren und ihre sprachliche Ausdrucksfähigkeit zu erweitern. Unterstützung Für Schüler, die im Lernprozess mehr Zeit und Wiederholung benötigen, werden im Rahmen dieser Einheit gezielt angepasste Lehrund Lernerfahrungen bereitgestellt. Diese Schüler erhalten zusätzliche visuelle Hilfsmittel (z.B. Wort-Bild-Karten, strukturierte Übersichten zu Festen und Traditionen) und werden durch vereinfachte Aufgabenformate unterstützt, um die sprachlichen Inhalte schrittweise zu erarbeiten. Darüber hinaus wird ihnen ermöglicht, den Zielwortschatz und die zentralen sprachlichen Strukturen durch häufige Wiederholungen und mehrfache Übungssequenzen zu festigen. In Kleingruppen oder durch individuelle Lernbegleitung werden sie dabei unterstützt, die Frageund Antwortmuster zum Thema besondere Tage und Traditionen sicher anzuwenden. Beim mündlichen und schriftlichen Ausdruck wird ihnen die Möglichkeit gegeben, auf ihrem individuellen Lernniveau Erfolgserlebnisse zu erzielen, indem sie zunächst kurze, einfache Sätze formulieren und schrittweise erweitert sprechen und schreiben lernen. Ziel dieser differenzierten Unterstützung ist es, allen Schülern eine aktive und erfolgreiche Teilhabe an der Lerneinheit zu ermöglichen und ihr Vertrauen in die eigene sprachliche Handlungsfähigkeit zu stärken. REFLEXION DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 3: RUND UMS KOCHEN UND EINKAUFEN Unterthemen: In der Küche; Die Vorbereitung eines Rezepts; Einkaufen im Supermarkt; Ein Rezept kochen Das Thema „Rund ums Kochen und Einkaufen“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehrund Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Ziel Vokabular zu den Komponenten des Themas „Rund ums Kochen und Einkaufen“ in die Unterthemen: „In der Küche“, „Die Vorbereitung eines Rezepts“, „Einkaufen im Supermarkt“ und „Ein Rezept kochen” integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikvermittlung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.2. Unabhängigkeit N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.5. Aufgeschlossenheit N3.6. Analytik N3.7. Systematik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN Sozial-emotionale SELK1.1. Selbstwahrnehmungskompetenz Lernfähigkeiten: SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Werte: W3. Fleiß W4. Freundschaft W5. Einfühlungsvermögen W12. Geduld W13 Gesundes Leben W14. Respekt W16. Verantwortung Bildungskompetenzen: BK4. Visuelle Kompetenz BK5. Kulturelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.12. Datenbasierte Vorhersagefähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.8.2.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    },
+    {
+     "code": "DE.8.2.G1",
+     "text": "ZIELGRAMMATIK ERKENNEN UND ANWENDEN"
+    }
+   ]
   },
   {
    "code": "DE.8.3",
@@ -176,7 +1125,17 @@
    "unit": null,
    "order": 3,
    "text": "SP3. MÜNDLICHE INHALTE PRODUZIEREN In dieser Phase setzen die Schüler ihre sprachlichen Fähigkeiten aktiv ein, um selbstständig mündliche Inhalte zu produzieren. Sie verwenden den zuvor erarbeiteten Wortschatz, die Zielgrammatik sowie passende Redemittel, um zusammenhängende und klar strukturierte Aussagen zu formulieren (N1.3, N1.5, N3.2, N3.3, N3.6, N3.7, SELK2.1, SELK3.1, W13, W16, BK1, KK2.4). Die Schüler üben, ihre Gedanken flüssig und verständlich auszudrücken, indem sie Dialoge führen, Präsentationen halten, Rezepte erklären oder Einkaufssituationen nachspielen. Dabei achten sie auf eine natürliche Intonation, deutliche Aussprache und die korrekte Verwendung der erlernten Strukturen (N3.2, N3.5, SELK2.1, SELK2.2, W14, BK4, KK2.2, KK2.5). Authentische Sprechanlässe, wie Rollenspiele, Interviews oder Gruppendiskussionen, fördern die Fähigkeit, flexibel auf Gesprächspartner zu reagieren und spontan zu sprechen. Die Lehrkraft unterstützt durch gezieltes Feedback, um die Ausdrucksfähigkeit, Grammatik und Wortwahl weiter zu verbessern (N3.8, SELK3.2, W5, W14, KK2.16, KK2.17). Ziel ist es, dass die Schüler in realen Kommunikationssituationen sicher, situationsangemessen und sprachlich korrekt agieren können (N1.5, SELK1.2, SELK3.1, W16). LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE DIFFERENZIERUNG Erweiterung Die Schüler erweitern ihr sprachliches Repertoire und wenden es kreativ an, indem sie eigene Rezepte formulieren und präsentieren. Aktivität: Mein Lieblingsrezept -Die Schüler schreiben ein einfaches Rezept für ein Gericht ihrer Wahl. -Sie wählen passende Zutaten und Zubereitungsschritte aus und formulieren Sätze dazu: -Zuerst wasche ich das Gemüse. -Dann schneide ich die Tomaten. -Am Ende serviere ich das Gericht. -Anschließend stellen sie ihr Rezept der Klasse vor und erklären, warum sie dieses Gericht mögen. Unterstützung Ziel: Die Schüler festigen den Grundwortschatz und die wichtigsten Satzmuster zum Thema Kochen und Einkaufen auf elementarer Ebene. Aktivität: Koch-Memory und Satzbau-Übungen -In Kleingruppen spielen die Schüler ein Memoryspiel mit Bildund Wortkarten zu Lebensmitteln, Küchengeräten und Zubereitungsschritten. -Zu jedem gefundenen Paar formulieren sie einfache Sätze: „Das ist eine Zitrone.“, „Ich brauche einen Topf.“, „Ich schneide das Gemüse.“ -Danach führen sie Satzbau-Übungen durch (z.B. Lückentexte, Zuordnung von Subjekt, Verb und Objekt). -In geführten Dialogen üben sie typische Gesprächsstrukturen: -Was brauchst du? —Ich brauche Salz und Pfeffer. -Was kochst du gern? —Ich koche gern Suppe. Ziel: Die Schüler gewinnen Sicherheit beim Erkennen und Verwenden zentraler sprachlicher Strukturen und beim mündlichen Austausch. REFLEXION DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 4: MEDIEN UND KOMMUNIKATIONR Unterthemen: Medien im Alltag; Freundschaft und Kommunikation Das Thema „Medien und Kommunikation“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehrund Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Ziel Vokabular zu den Komponenten des Themas „Medien und Kommunikation“ in die Unterthemen: „Medien im Alltag“ und „Freundschaft und Kommunikation“ integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikvermittlung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.5. Selbstvertrauen N3.2. Konzentration N3.3. Kreativität N3.5. Aufgeschlossenheit N3.6. Analytik N3.7. Systematik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN Sozial-emotionale SELK1.1. Selbstwahrnehmungskompetenz Lernfähigkeiten: SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Werte: W3. Fleiß W4. Freundschaft W5. Einfühlungsvermögen W6. Ehrlichkeit W12. Geduld W14. Respekt W16. Verantwortung Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz BK5. Kulturelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.12. Datenbasierte Vorhersagefähigkeit KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.8.3.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    },
+    {
+     "code": "DE.8.3.G1",
+     "text": "ZIELGRAMMATIK ERKENNEN UND ANWENDEN"
+    }
+   ]
   },
   {
    "code": "DE.8.4",
@@ -184,7 +1143,17 @@
    "unit": null,
    "order": 4,
    "text": "SP3 MÜNDLICHE INHALTE PRODUZIEREN In dieser Phase setzen die Schüler ihre vorbereiteten Inhalte in vollständige mündliche Beiträge um und präsentieren selbstständig ihre Meinungen, Erfahrungen oder Beobachtungen in klar strukturierten Sätzen (N1.5, N3.2, N3.3, SELK2.1). Sie berichten über ihre täglichen Mediengewohnheiten, erklären Vorund Nachteile bestimmter Kommunikationsmittel oder erzählen von persönlichen Erlebnissen mit digitalen Medien (N3.6, N3.7, SELK2.2, SELK3.1). Die Schüler gestalten sowohl kurze als auch längere Sprechbeiträge, etwa monologische Präsentationen wie „Meine Lieblings-App und warum ich sie benutze“ sowie dialogische Interaktionen wie Diskussionen über Medienkonsum oder Rollenspiele zwischen Journalist und Interviewpartner (BK2, W14, W16, KK2.4, KK2.5). Bei der Produktion achten sie auf flüssiges Sprechen, den Einsatz des gelernten Wortschatzes und die Anwendung der Zielgrammatik, einschließlich Präsens, Modalverben, trennbarer Verben, Satzfragen und einfacher Nebensätze mit „weil“, und nutzen Redemittel für Einleitungen, Übergänge und Schlussformulierungen (BK1, KK2.13). Ziel ist es, die mündliche Ausdrucksfähigkeit in authentischen Kommunikationssituationen zu stärken und die Fähigkeit zu fördern, spontan und selbstsicher zu sprechen (KK2.16, KK2.17). LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE DIFFERENZIERUNG Erweiterung Ziel: Die Schüler erweitern ihr sprachliches Repertoire und wenden es kreativ an, indem sie persönliche Mediengewohnheiten und Kommunikationsverhalten formulieren und präsentieren. Aktivität: Mein persönlicher Medienalltag Die Schüler erstellen eine kleine Präsentation über ihre Mediennutzung -Welche Geräte nutze ich? -Wie kommuniziere ich mit meinen Freunden? -Welche Apps nutze ich am meisten? Sie formulieren einfache Sätze dazu: -Ich sehe jeden Tag fern. -Ich telefoniere mit meinen Freunden. -Ich schreibe Nachrichten auf dem Handy. -Ich nutze soziale Medien selten. Anschließend stellen sie ihren Medienalltag der Klasse vor und vergleichen ihn mit den Gewohnheiten der Mitschüler. Unterstützung Ziel: Die Schüler festigen den Grundwortschatz und die wichtigsten Satzmuster zum Thema Medien und Kommunikation auf elementarer Ebene. Aktivität: Memory-Spiel und Satzbau-Übungen In Kleingruppen spielen die Schüler ein Memory-Spiel mit Bildund Wortkarten zu Mediengeräten, Kommunikationsmitteln und Verben. Zu jedem gefundenen Paar formulieren sie einfache Sätze: -Das ist ein Handy. -Ich telefoniere mit meiner Freundin. -Ich sehe jeden Tag fern. Danach führen sie Satzbau-Übungen durch (z.B. Lückentexte, Zuordnung von Subjekt, Verb und Objekt). In geführten Dialogen üben sie typische Gesprächsstrukturen: -Wie oft benutzt du dein Handy? -Ich benutze es jeden Tag. -Was machst du mit dem Computer? -Ich schreibe E-Mails. Ziel: Die Schüler gewinnen Sicherheit beim Erkennen und Verwenden zentraler sprachlicher Strukturen und beim mündlichen Austausch. REFLEXION DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 5: UNSERE LEBENSRÄUME: STADT, LAND UND UMWELT Unterthemen: Leben in der Stadt und auf dem Land; Meine Stadt vorstellen; Unsere Umwelt schützen Das Thema „Unsere Lebensräume: Stadt, Land und Umwelt“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehr-und Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Zielvokabular zu den Komponenten des Themas „Unsere Lebensräume: Stadt, Land und Umwelt“ in die Unterthemen: „Leben in der Stadt und auf dem Land”, „Meine Stadt vorstellen”, „Unsere Umwelt schützen“ integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikvermittlung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.5. Aufgeschlossenheit N3.6. Analytik N3.7. Systematik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN Sozial-emotionale SELK1.1. Selbstwahrnehmungskompetenz Lernfähigkeiten: SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Werte: W3. Fleiß W4. Freundschaft W10. Bescheidenheit W14. Respekt W16. Verantwortung Bildungskompetenzen: BK1. Informationskompetenz BK2. Digitale Kompetenz BK4. Visuelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.8.4.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    },
+    {
+     "code": "DE.8.4.G1",
+     "text": "ZIELGRAMMATIK ERKENNEN UND ANWENDEN"
+    }
+   ]
   },
   {
    "code": "DE.8.5",
@@ -192,7 +1161,17 @@
    "unit": null,
    "order": 5,
    "text": "SP3 MÜNDLICHE INHALTE PRODUZIEREN Im Rahmen des Themas „Unsere Lebensräume: Stadt, Land und Umwelt“ setzen die Schüler ihre vorbereiteten Gesprächsinhalte in authentische mündliche Sprachhandlungen um (N3.2, N3.7, SELK2.1, SELK2.3, W16.3, BK1, KK2.13). Sie führen Dialoge, präsentieren kurze Beschreibungen oder berichten frei über ihre Erfahrungen und Meinungen zu Stadtund Landleben sowie zu Umweltthemen (N2.4, N2.5, SELK2.1, SELK2.2, W14.1, KK2.4). Dabei verwenden sie den thematischen Wortschatz und die gelernten grammatischen Strukturen, um ihre Aussagen klar, korrekt und situationsgerecht zu formulieren (N3.2, N3.7, SELK1.2, W16.1, BK1, KK2.5). Die Schüler achten auf eine deutliche Aussprache, angemessene Satzund Wortbetonung sowie passende Intonation, um ihre Aussagen verständlich und ausdrucksstark zu gestalten (N3.2, SELK1.1, SELK3.1, KK2.2). Sie reagieren spontan auf Fragen ihrer Gesprächspartner, gehen auf deren Beiträge ein und erweitern so den Gesprächsverlauf (N1.5, SELK2.1, SELK3.2, W4.2, KK2.3). Durch Rollenspiele, Interviews oder Gruppendiskussionen erproben sie verschiedene Kommunikationssituationen und entwickeln dabei zunehmend Sicherheit im freien Sprechen (N2.5, SELK2.2, SELK3.1, W4.4, KK2.7). Ziel ist es, zusammenhängende, themenbezogene mündliche Beiträge zu produzieren, die sowohl informativ als auch sprachlich korrekt sind (N3.7, SELK3.2, W16.3, KK2.17). DIFFERENZIERUNG Erweiterung Ziel: Die Schüler erweitern ihr sprachliches Repertoire und wenden es kreativ an, indem sie persönliche Erfahrungen zu Stadtund Landleben sowie eigene Ideen zum Umweltschutz formulieren und präsentieren. Aktivität: Mein idealer Lebensraum Die Schüler erstellen eine kleine Präsentation oder ein Plakat über ihren idealen Lebensraum (z.B. Stadt, Land, Natur) und überlegen, was sie für die Umwelt dort tun würden. Sie formulieren einfache Sätze dazu: -In meiner Stadt gibt es viele Parks. -Ich möchte auf dem Land leben, weil es ruhig ist. -Wir sollen in der Schule Recycling machen. Anschließend stellen sie ihre Ergebnisse der Klasse vor und vergleichen die Ideen. Unterstützung Ziel: Die Schüler festigen den Grundwortschatz und die wichtigsten Satzmuster zum Thema Stadt, Land und Umwelt auf elementarer Ebene. Aktivität: Memory-Spiel und Satzbau-Übungen In Kleingruppen spielen die Schüler ein Memory-Spiel mit Bildund Wortkarten zu Stadt, Land, Natur und Umwelt. Zu jedem gefundenen Paar formulieren sie einfache Sätze: -Das ist ein Park. -Ich wohne in der Stadt. -Wir müssen die Umwelt schützen. Danach führen sie Satzbau-Übungen durch). In geführten Dialogen üben sie typische Gesprächsstrukturen: -Wie ist das Leben in der Stadt? -Es ist laut und modern. -Was machst du für die Umwelt? -Ich spare Wasser. Ziel: Die Schüler gewinnen Sicherheit beim Erkennen und Verwenden zentraler sprachlicher Strukturen und beim mündlichen Austausch. REFLEXION DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE. LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LEKTION 6: MEINE ZUKUNFTSPLÄNE UND BERUFSWÜNSCHE Unterthemen: Wünsche äußern; Mein Traumberuf Das Thema „Meine Zukunftspläne und Berufswünsche“ umfasst die oben genannten Unterthemen und konzentriert sich auf dieses zentrale Konzept. Die Unterthemen werden anhand gezielt ausgewählter Wortschätze, grammatischer Strukturen, phonetischer Elemente und sozialer Sprache vermittelt, die dem Alter und dem Sprachniveau der Schüler entsprechen. Die Planung, Organisation und Umsetzung des Lehr-/Lernprozesses zur Vermittlung des Zielinhalts erfolgt sinnvoll, kommunikativ und kooperativ im Kontext. Dabei wird das Zielvokabular zu den Komponenten des Themas „Meine Zukunftspläne und Berufswünsche“ in die Unterthemen: „Wünsche äußern” und „Mein Traumberuf” integriert. UNTERRICHTSEINHEITEN 12 Stunden FACHKOMPETENZEN FK1. Hör-/Sehverstehen und Bedeutungserschließung UND UNTERSTÜTZENDE FK2. Leseverstehen und Bedeutungserschließung FACHKOMPETENZEN FK3. Schreibund Ausdruckskompetenz FK4. Sprechund Erzählkompetenz UFK1. Grammatikvermittlung UFK2. Wortschatzauswahl und Anwendung UFK3. Auswahl und Anwendung der Aussprache KONZEPTIONELLE FÄHIGKEITEN NEIGUNGEN N1.1. Neugier N1.3. Entschlossenheit N1.5. Selbstvertrauen N2.4. Vertrauen N2.5. Spielfreude N3.2. Konzentration N3.3. Kreativität N3.5. Aufgeschlossenheit N3.6. Analytik N3.7. Systematik N3.8. Hinterfragen INTERDISZIPLINÄRE KOMPONENTEN Sozial-emotionale SELK1.1. Selbstwahrnehmungskompetenz Lernfähigkeiten: SELK1.2. Selbstregulationskompetenz SELK2.1. Kommunikationskompetenz SELK2.2. Kooperationskompetenz SELK2.3. Wahrnehmungskompetenz SELK3.1. Anpassungsfähigkeit SELK3.2. Flexibilität LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE Werte: W3. Fleiß W4. Freundschaft W10. Bescheidenheit W12. Geduld W14. Respekt W16. Verantwortung W19. Vaterlandsliebe Bildungskompetenzen: BK1. Informationskompetenz BK4. Visuelle Kompetenz INTERDISZIPLINÄRE Englisch, Türkisch, Sozialkunde, Informationstechnologie, Bildende Kunst, BEZIEHUNGEN: Musik KOGNITIVE KOMPETENZEN: KK2.2.Beobachtungsfähigkeit KK2.3. Fähigkeit zum Zusammenfassen KK2.4. Analysefähigkeit KK2.5. Klassifizierungsfähigkeit KK2.7.Vergleichsfähigkeit KK2.8.Forschungsfähigkeit KK2.11. Vorhersagefähigkeit auf Beobachtungsbasis KK2.13. Strukturierungsfähigkeit KK2.16. Denkvermögen KK2.17. Bewertungsfähigkeit LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE LERNZIELE UND PROZESSKOMPONENTEN",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.8.5.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    },
+    {
+     "code": "DE.8.5.G1",
+     "text": "ZIELGRAMMATIK ERKENNEN UND ANWENDEN"
+    }
+   ]
   },
   {
    "code": "DE.8.6",
@@ -200,39 +1179,49 @@
    "unit": null,
    "order": 6,
    "text": "SP3 MÜNDLICHE INHALTE PRODUZIEREN Beim Produzieren mündlicher Inhalte zum Thema „Meine Zukunftspläne und Berufswünsche“ präsentieren die Schüler ihre vorbereiteten Aussagen frei und zusammenhängend vor der Klasse oder in Partnerbzw. Gruppenarbeit (N1.5, N3.2, N3.7, SELK2.1, SELK3.1, W3.1). Sie verwenden dabei den zuvor erarbeiteten Zielwortschatz, die passenden Redemittel und die themenrelevanten grammatischen Strukturen wie Modalverben, „weil“-Sätze, die Zukunftsform mit „werden“ und passende Präpositionen (N3.6, SELK2.1, W3.2, LEHRPLAN FÜR DEN DEUTSCHUNTERRICHT IN TÜRKİYE KK2.4, KK2.13). Während des Sprechens achten sie auf eine deutliche Aussprache, korrekte Satzintonation und flüssige Formulierungen (N3.2, SELK2.3, KK2.2). Die Schüler geben persönliche Einblicke in ihre Zukunftsvorstellungen, erläutern ihre Beweggründe und verbinden ihre Aussagen mit Beispielen (N3.3, N3.8, SELK1.1, W10.1, KK2.16). Durch den Einsatz interaktiver Methoden wie Rollenspiele, Interviews oder kurzen Präsentationen wird das freie Sprechen gefördert und die kommunikative Kompetenz gestärkt, sodass sie ihre Ideen selbstbewusst und adressatengerecht ausdrücken können (N3.7, SELK2.1, SELK2.2, SELK3.2, W4.2) DIFFERENZIERUNG Erweiterung Ziel: Die Schüler erweitern ihr sprachliches Repertoire und wenden es kreativ an, indem sie persönliche Zukunftspläne und Berufswünsche formulieren und präsentieren. Aktivität: Mein Traumberuf – Mein Lebensplan Die Schüler erstellen eine kleine Präsentation oder ein Plakat zu ihrem Traumberuf und ihren Zukunftsplänen. Sie formulieren einfache Sätze dazu, z.B.: -Ich möchte später Architekt werden. -Ich will in einer großen Stadt wohnen. -Ich wünsche mir, viel zu reisen. Sie erklären, warum sie diesen Beruf wählen, z.B.: -Weil ich kreativ bin. Anschließend stellen sie ihre Ergebnisse der Klasse vor. Ziel: Die Schüler verwenden bekannte Redemittel, Modalverben, weil-Sätze und Wortschatz zum Thema Zukunftspläne und Berufe in personalisierter Form und stärken dabei ihre Sprechund Präsentationskompetenz. Unterstützung Ziel: Die Schüler festigen den Grundwortschatz und die wichtigsten Satzmuster zum Thema Zukunftspläne und Berufswünsche auf elementarer Ebene. Aktivität: Berufswünsche-Memory und Satzbau-Übungen In Kleingruppen spielen die Schüler ein Memoryspiel mit Bildund Wortkarten zu Berufen und Traumhäusern. Zu jedem gefundenen Paar formulieren sie einfache Sätze: -Ich möchte Feuerwehrmann werden. -Mein Traumberuf ist Arzt. Danach führen sie Satzbau-Übungen durch (z.B. Lückentexte, Zuordnung von Subjekt, Verb, Objekt). In geführten Dialogen üben sie typische Gesprächsstrukturen: -Was möchtest du später machen? -Ich möchte Tierärztin werden. -Warum möchtest du Lehrer werden? -Weil ich gern mit Kindern arbeite. Ziel: Die Schüler gewinnen Sicherheit beim Erkennen und Verwenden zentraler sprachlicher Strukturen und beim mündlichen Austausch. REFLEXION DER LEHRKRAFT FÜR WEITERE REFLEXIONEN DER LEHRKRAFT SCANNEN SIE BITTE DEN QR-CODE.",
-   "components": []
+   "components": [],
+   "indicators": [
+    {
+     "code": "DE.8.6.G1",
+     "text": "1. – Zielgrammatik erkennen und anwenden"
+    },
+    {
+     "code": "DE.8.6.G1",
+     "text": "ZIELGRAMMATIK ERKENNEN UND ANWENDEN"
+    }
+   ]
   }
  ],
  "report": {
   "units": 0,
   "outcomes": 0,
   "components": 0,
-  "orphan_outcomes": 24,
+  "orphan_outcomes": 42,
   "gaps": [
    {
     "course": "Çoklu Yabancı Dil Eğitim Modeli Almanca",
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
+     "SELK1.1",
+     "SELK1.2",
+     "SELK2.1",
+     "SELK2.2",
+     "KK2.2",
+     "SELK2.3",
+     "KK2.3",
+     "KK2.4",
+     "KK2.5",
+     "KK2.7",
+     "KK2.8",
+     "KK2.11",
+     "KK2.12",
+     "KK2.13",
+     "KK2.16",
+     "KK2.17",
+     "SELK3.1",
+     "SELK3.2",
      "DE.5.1",
-     "DE.5.2",
-     "DE.5.3",
-     "DE.5.4",
-     "DE.5.5",
-     "DE.5.6",
-     "DE.6.1",
-     "DE.6.2",
-     "DE.6.3",
-     "DE.6.4",
-     "DE.6.5",
-     "DE.6.6",
-     "DE.7.1",
-     "DE.7.2",
-     "DE.7.3",
-     "DE.7.4",
-     "DE.7.5",
-     "DE.7.6",
-     "DE.8.1",
-     "DE.8.2"
+     "DE.5.2"
     ]
    }
   ]

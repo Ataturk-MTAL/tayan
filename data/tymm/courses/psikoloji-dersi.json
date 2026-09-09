@@ -4,6 +4,9 @@
   "name": "Psikoloji Dersi",
   "slug": "psikoloji-dersi",
   "prefix": "PSK",
+  "shapes": [
+   "PSK/noktalı-3"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/psikoloji-dersi_20260828_160926_279.pdf"

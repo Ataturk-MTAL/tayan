@@ -4,6 +4,9 @@
   "name": "Masal ve Destanlarımız Dersi",
   "slug": "ortaokul-masal-ve-destanlarimiz-dersi",
   "prefix": "MD",
+  "shapes": [
+   "MD/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/masal-ve-destanlarimiz-dersi_20260819_072649_012.pdf"

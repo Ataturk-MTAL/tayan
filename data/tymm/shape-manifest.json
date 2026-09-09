@@ -1,0 +1,1531 @@
+{
+ "source": {
+  "name": "TYMM kod şekli manifesti",
+  "updated_at": "2026-09-09",
+  "generator": "scripts/build_tymm_shape_manifest.py",
+  "note": "BEYAN EDİLEN. Elle düzenlenebilir; mevcut roller korunur. Sayımda olup burada rolü olmayan şekil HATA'dır."
+ },
+ "roles": {
+  "outcome": "Öğrenme çıktısı ailesi. Ayrıştırıcı YALNIZ bunları işler.",
+  "skill_reference": "Beceri çerçevesi kodu (KB, SDB, CS, SELS…). Çıktı değil.",
+  "component": "Süreç bileşeni kademesi: satırda kodun önünde 'a)' etiketi var. Türk Dili'nde çıktı 'TDE1.1.', bileşen 'a) TDE1.1.1.'.",
+  "heading": "Aynı ön ekin bir ÜST kademesi: ünite/öğrenme alanı/tema başlığı. 'MAT.1.1.' başlıktır, çıktı 'MAT.1.1.1.'.",
+  "shadow": "Başka bir şeklin gölgesi: aynı konumda daha uzun kod eşleşti ya da kuyruk rakamla başlıyor (kod daha derin).",
+  "noise": "pdftotext artefaktı: kırpılmış ön ek ya da eşik altı geçiş."
+ },
+ "report": {
+  "courses": 111,
+  "declarations": 635,
+  "kept": 633,
+  "overridden": 2,
+  "added": 0,
+  "removed": 0
+ },
+ "overrides": {
+  "ortaokul-okuma-becerileri-dersi": {
+   "OB/noktalı-3": {
+    "role": "outcome",
+    "reason": "Dersin KENDİ çıktı ailesi, beceri çerçevesindeki OB ile aynı ön eki taşıyor. Kanıt: 'OB.1.1. Akıcı okuma sürecini yansıtabilme' (çıktı cümlesi); çerçeve atıfları bu belgede yapışık yazılıyor (OB4.1.), yani şekil zaten ayrı. Ön eke bakan genel kural bu çakışmayı ifade edemez — ders başına karar şart."
+   }
+  },
+  "cagdas-turk-ve-dunya-tarihi-dersi": {
+   "KKB/yapışık-2": {
+    "role": "noise",
+    "reason": "pdftotext artefaktı: 'BECERİLER KKB2.4. Çözümleme, KB2.14. Yorumlama' satırında (489) önceki sözcüğün 'K'si KB2.4'e yapışmış. Hayalet kuralı yakalayamıyor çünkü hem KKB hem KB bu belgede seyrek — oran eşiği iki nadir ön ek arasında ayrım yapamıyor."
+   }
+  }
+ },
+ "courses": {
+  "astronomi-ve-uzay-bilimleri-dersi": {
+   "outcome": [
+    "AST/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SDB/yapışık-2"
+   ]
+  },
+  "beden-egitimi-ve-oyun-dersi": {
+   "outcome": [
+    "BEO/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "heading": [
+    "BEO/noktalı-3"
+   ]
+  },
+  "beden-egitimi-ve-spor-dersi": {
+   "outcome": [
+    "BES.H/noktalı-3",
+    "BES/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "BES/noktalı-3"
+   ]
+  },
+  "beden-egitimi-ve-spor-temel-egitim": {
+   "outcome": [
+    "BES/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "heading": [
+    "BES/noktalı-3"
+   ]
+  },
+  "beden-egitimi-ve-sporun-temelleri-dersi": {
+   "outcome": [
+    "BEST/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "BEST/noktalı-3"
+   ]
+  },
+  "bilisim-teknolojileri-ve-yazilim-dersi": {
+   "outcome": [
+    "BTY/noktalı-4",
+    "BTY/yapışık-3"
+   ],
+   "skill_reference": [
+    "BTYAB/yapışık-2",
+    "E/noktalı-3",
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "BTY/noktalı-3",
+    "BTY/yapışık-2"
+   ],
+   "noise": [
+    "YAB/yapışık-2"
+   ]
+  },
+  "biyoloji-dersi": {
+   "outcome": [
+    "BİY/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "BİY/noktalı-3"
+   ]
+  },
+  "cagdas-turk-ve-dunya-tarihi-dersi": {
+   "outcome": [
+    "ÇTDT/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/boşluklu-2",
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "noise": [
+    "KKB/yapışık-2"
+   ]
+  },
+  "cocuklarda-atletik-performans-uygulamalari-dersi": {
+   "outcome": [
+    "ÇAPU/noktalı-4"
+   ],
+   "skill_reference": [
+    "E/noktalı-3",
+    "KB/yapışık-2",
+    "SDB/boşluklu-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "ÇAPU/noktalı-3"
+   ]
+  },
+  "cografya-dersi": {
+   "outcome": [
+    "COĞ/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/boşluklu-2",
+    "KB/noktalı-3",
+    "KB/yapışık-2",
+    "SBAB/boşluklu-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "COĞ/noktalı-3"
+   ]
+  },
+  "coklu-yabanci-dil-egitim-modeli-almanca": {
+   "outcome": [
+    "DE/noktalı-3",
+    "KK/yapışık-2",
+    "SELK/yapışık-2"
+   ],
+   "shadow": [
+    "SP/yapışık-2"
+   ]
+  },
+  "coklu-yabanci-dil-egitim-modeli-ingilizce": {
+   "outcome": [
+    "ENG/noktalı-3",
+    "ENG/yapışık-2"
+   ],
+   "skill_reference": [
+    "CS/yapışık-2",
+    "CS/yapışık-3",
+    "SELS/yapışık-2"
+   ]
+  },
+  "demokrasi-ve-insan-haklari-dersi": {
+   "outcome": [
+    "DİH/yapışık-2"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "din-kulturu-ve-ahlak-bilgisi-dersi-2": {
+   "outcome": [
+    "DKAB/noktalı-4"
+   ],
+   "skill_reference": [
+    "DAB/yapışık-2",
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "DKAB/noktalı-3"
+   ]
+  },
+  "din-kulturu-ve-ahlak-bilgisi-dersi": {
+   "outcome": [
+    "DKAB/noktalı-4"
+   ],
+   "skill_reference": [
+    "DAB/yapışık-2",
+    "E/noktalı-3",
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "DKAB/noktalı-3"
+   ]
+  },
+  "felsefe-dersi": {
+   "outcome": [
+    "FEL/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "FEL/noktalı-3"
+   ]
+  },
+  "fen-bilimleri-dersi": {
+   "outcome": [
+    "FB/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "FB/noktalı-3"
+   ],
+   "noise": [
+    "SD/yapışık-2"
+   ]
+  },
+  "fizik-dersi": {
+   "outcome": [
+    "FİZ/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "FİZ/noktalı-3"
+   ]
+  },
+  "gorsel-sanatlar-dersi-temel-egitim": {
+   "outcome": [
+    "GS/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "GS/noktalı-3"
+   ]
+  },
+  "gorsel-sanatlar-dersi": {
+   "outcome": [
+    "GS.H/noktalı-3",
+    "GS/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "GS/noktalı-3"
+   ]
+  },
+  "hayat-bilgisi-dersi": {
+   "outcome": [
+    "HB/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SAB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "HB/boşluklu-2",
+    "HB/noktalı-3"
+   ]
+  },
+  "iklim-cevre-ve-yenilikci-cozumler-dersi": {
+   "outcome": [
+    "İÇYÇ/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "ilkokul-matematik-dersi": {
+   "outcome": [
+    "MAT/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "MAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "heading": [
+    "MAT/noktalı-3"
+   ]
+  },
+  "ilkokul-turkce-dersi": {
+   "outcome": [
+    "T.D/noktalı-3",
+    "T.K/noktalı-3",
+    "T.O/noktalı-3",
+    "T.Y/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "ingilizce-dersi-9-12": {
+   "outcome": [
+    "ENG/noktalı-3"
+   ],
+   "skill_reference": [
+    "CS/yapışık-2",
+    "CS/yapışık-3",
+    "SELS/yapışık-2"
+   ]
+  },
+  "ingilizce-dersi-hazirlik-12": {
+   "outcome": [
+    "EN/yapışık-2",
+    "ENG/noktalı-3"
+   ],
+   "skill_reference": [
+    "CS/yapışık-2",
+    "CS/yapışık-3",
+    "SELS/yapışık-2"
+   ],
+   "noise": [
+    "EENG/noktalı-3"
+   ]
+  },
+  "ingilizce-dersi-temel-egitim": {
+   "outcome": [
+    "ENG/noktalı-4"
+   ],
+   "skill_reference": [
+    "CS/yapışık-2",
+    "CS/yapışık-3",
+    "SELS/yapışık-2"
+   ],
+   "heading": [
+    "ENG/noktalı-3",
+    "ENG/yapışık-2"
+   ]
+  },
+  "insan-haklari-vatandaslik-ve-demokrasi-dersi": {
+   "outcome": [
+    "İHVD/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "İHVD/noktalı-3"
+   ]
+  },
+  "islam-bilim-tarihi-dersi": {
+   "outcome": [
+    "İBT/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "kapsamli-spor-egitimi-dersi": {
+   "outcome": [
+    "KSE/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "kimya-dersi": {
+   "outcome": [
+    "KİM/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "KİM/noktalı-3"
+   ]
+  },
+  "kurani-kerim-dersi-2": {
+   "outcome": [
+    "KK/noktalı-4"
+   ],
+   "skill_reference": [
+    "DAB/yapışık-2",
+    "KB/yapışık-2",
+    "SDB/noktalı-3",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "KK/noktalı-3"
+   ]
+  },
+  "kurani-kerim-dersi": {
+   "outcome": [
+    "KK/noktalı-4"
+   ],
+   "skill_reference": [
+    "DAB/yapışık-2",
+    "KB/yapışık-2",
+    "SDB/yapışık-2",
+    "TAB/yapışık-2"
+   ],
+   "shadow": [
+    "KK/noktalı-3"
+   ]
+  },
+  "mantik-dersi": {
+   "outcome": [
+    "MAN/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "matematik-dersi": {
+   "outcome": [
+    "MAT.H/noktalı-3",
+    "MAT/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "MAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "heading": [
+    "MAT/noktalı-3"
+   ],
+   "shadow": [
+    "MAT/boşluklu-2"
+   ]
+  },
+  "matematik-uygulamalari-dersi": {
+   "outcome": [
+    "MAT.U/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "MAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "heading": [
+    "MAT.U/noktalı-3"
+   ]
+  },
+  "muzik-dersi-temel-egitim": {
+   "outcome": [
+    "MÜZ/noktalı-4"
+   ],
+   "skill_reference": [
+    "E/noktalı-3",
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "MÜZ/boşluklu-2",
+    "MÜZ/noktalı-3"
+   ]
+  },
+  "muzik-dersi": {
+   "outcome": [
+    "MÜZ.HAZ/noktalı-3",
+    "MÜZ/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "MÜZ/noktalı-3"
+   ]
+  },
+  "muzik-okullari-beden-egitimi-oyun-muzik-dersi": {
+   "outcome": [
+    "BOM/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/noktalı-3",
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "heading": [
+    "BOM/noktalı-3"
+   ]
+  },
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-baglama-modulu": {
+   "outcome": [
+    "BAĞL/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "BAĞL/noktalı-3"
+   ]
+  },
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-flut-modulu": {
+   "outcome": [
+    "FLT/noktalı-4"
+   ],
+   "skill_reference": [
+    "E/noktalı-3",
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "FLT/noktalı-3"
+   ]
+  },
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-gitar-modulu": {
+   "outcome": [
+    "GTR/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "OB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "GTR/noktalı-3"
+   ]
+  },
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-kanun-modulu": {
+   "outcome": [
+    "KNN/noktalı-4",
+    "KNN/yapışık-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "heading": [
+    "KNN/noktalı-3"
+   ],
+   "shadow": [
+    "KNN/yapışık-2"
+   ]
+  },
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-kaval-modulu": {
+   "outcome": [
+    "KVL/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "KVL/noktalı-3"
+   ]
+  },
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-keman-modulu": {
+   "outcome": [
+    "KMN/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "KMN/noktalı-3"
+   ]
+  },
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-ney-modulu": {
+   "outcome": [
+    "NEY/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "OB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "EY/noktalı-3",
+    "NEY/boşluklu-2",
+    "NEY/noktalı-3"
+   ],
+   "noise": [
+    "EY/noktalı-4"
+   ]
+  },
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-piyano-modulu": {
+   "outcome": [
+    "PYN/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "OB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "PYN/noktalı-3"
+   ]
+  },
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-ud-modulu": {
+   "outcome": [
+    "UD/noktalı-4"
+   ],
+   "skill_reference": [
+    "E/noktalı-3",
+    "KB/yapışık-2",
+    "SDB/noktalı-3",
+    "SDB/yapışık-2",
+    "TAB/yapışık-2"
+   ],
+   "shadow": [
+    "UD/noktalı-3",
+    "UD/yapışık-2"
+   ]
+  },
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-viyola-modulu": {
+   "outcome": [
+    "VİY/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "OB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "VİY/noktalı-3"
+   ]
+  },
+  "muzik-okullari-bireysel-calgi-egitimi-dersi-viyolonsel-modulu": {
+   "outcome": [
+    "VLS/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "VLS/noktalı-3"
+   ]
+  },
+  "muzik-okullari-bireysel-ses-egitimi-dersi": {
+   "outcome": [
+    "BSE/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "heading": [
+    "BSE/noktalı-3"
+   ]
+  },
+  "muzik-okullari-calgi-topluluklari-dersi": {
+   "outcome": [
+    "Ç.T/noktalı-4",
+    "ÇT/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/boşluklu-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "Ç.T/noktalı-3",
+    "ÇT/noktalı-3"
+   ]
+  },
+  "muzik-okullari-koro-repertuvar-dersi": {
+   "outcome": [
+    "KOREP/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SAB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "heading": [
+    "KOREP/noktalı-3"
+   ]
+  },
+  "muzik-okullari-muzik-kulturu-dersi": {
+   "outcome": [
+    "MK/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "heading": [
+    "MK/noktalı-3"
+   ]
+  },
+  "muzik-okullari-muzik-tarihi-dersi": {
+   "outcome": [
+    "MT/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "heading": [
+    "MT/noktalı-3"
+   ]
+  },
+  "muzik-okullari-muziksel-isitme-okuma-yazma-dersi": {
+   "outcome": [
+    "MİOY/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2",
+    "TAB/yapışık-2"
+   ],
+   "shadow": [
+    "MİOY/noktalı-3",
+    "MİOY/yapışık-2"
+   ]
+  },
+  "muzik-okullari-turk-muzigi-teori-uygulamasi-dersi": {
+   "outcome": [
+    "TMT/noktalı-4",
+    "TMT/yapışık-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2",
+    "TAB/yapışık-2"
+   ],
+   "shadow": [
+    "TMT/noktalı-3",
+    "TMT/yapışık-2"
+   ]
+  },
+  "okul-oncesi": {
+   "outcome": [
+    "HSAB/boşluklu-2",
+    "HSAB/yapışık-2",
+    "MDB/yapışık-2",
+    "MHB/yapışık-2",
+    "MHBB/yapışık-2",
+    "MSB/yapışık-2",
+    "MYB/noktalı-3",
+    "MYB/yapışık-2",
+    "MÇB/yapışık-2",
+    "TAK/yapışık-2"
+   ],
+   "skill_reference": [
+    "D/noktalı-4",
+    "E/noktalı-3",
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "MAB/yapışık-2",
+    "OB/noktalı-3",
+    "OB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2",
+    "TAB/yapışık-2"
+   ],
+   "shadow": [
+    "D/noktalı-3"
+   ],
+   "noise": [
+    "SSDB/yapışık-2",
+    "TA/yapışık-2",
+    "TAEOB/yapışık-2"
+   ]
+  },
+  "ortaokul-afet-bilinci-dersi": {
+   "outcome": [
+    "AB/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "AB/noktalı-3"
+   ]
+  },
+  "ortaokul-ahlak-ve-vatandaslik-egitimi-dersi": {
+   "outcome": [
+    "AVE/noktalı-4"
+   ],
+   "skill_reference": [
+    "E/noktalı-3",
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "AVE/noktalı-3"
+   ]
+  },
+  "ortaokul-cevre-egitimi-ve-iklim-degisikligi-dersi": {
+   "outcome": [
+    "ÇEİD/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "ortaokul-dijital-sanatlar-dersi": {
+   "outcome": [
+    "DS/noktalı-4"
+   ],
+   "skill_reference": [
+    "BTYAB/yapışık-2",
+    "KB/noktalı-3",
+    "KB/yapışık-2",
+    "SAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "DS/noktalı-3"
+   ]
+  },
+  "ortaokul-dusunme-egitimi-dersi": {
+   "outcome": [
+    "DE/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "DE/boşluklu-2",
+    "DE/noktalı-3"
+   ]
+  },
+  "ortaokul-geleneksel-sanatlar-dersi": {
+   "outcome": [
+    "GS/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "GS/noktalı-3"
+   ]
+  },
+  "ortaokul-gorgu-kurallari-ve-nezaket-dersi": {
+   "outcome": [
+    "GKN/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "GKN/noktalı-3"
+   ]
+  },
+  "ortaokul-halk-oyunlari-dersi": {
+   "outcome": [
+    "HO/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "ortaokul-hukuk-ve-adalet-dersi": {
+   "outcome": [
+    "HA/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/boşluklu-2",
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "ortaokul-kultur-ve-medeniyetimize-yon-verenler-dersi": {
+   "outcome": [
+    "KMYV/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "KMYV/noktalı-3"
+   ]
+  },
+  "ortaokul-masal-ve-destanlarimiz-dersi": {
+   "outcome": [
+    "MD/noktalı-4"
+   ],
+   "skill_reference": [
+    "E/noktalı-3",
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "MD/noktalı-3"
+   ]
+  },
+  "ortaokul-matematik-dersi": {
+   "outcome": [
+    "MAT/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "MAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "heading": [
+    "MAT/noktalı-3"
+   ],
+   "shadow": [
+    "MAT/boşluklu-2"
+   ]
+  },
+  "ortaokul-matematik-ve-bilim-uygulamalari-dersi": {
+   "outcome": [
+    "MBU.BU/noktalı-4",
+    "MBU.MU/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "MBU.BU/noktalı-3",
+    "MBU.MU/noktalı-3"
+   ]
+  },
+  "ortaokul-medya-okuryazarligi-dersi": {
+   "outcome": [
+    "MOY/noktalı-3"
+   ],
+   "skill_reference": [
+    "BTYAB/yapışık-2",
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "ortaokul-okul-temelli-sosyal-sorumluluk-calismalari-dersi": {
+   "outcome": [
+    "OTSSÇ/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "OTSSÇ/noktalı-3"
+   ]
+  },
+  "ortaokul-okuma-becerileri-dersi": {
+   "outcome": [
+    "OB/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2",
+    "TAB/yapışık-2"
+   ]
+  },
+  "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-drama": {
+   "outcome": [
+    "OOED/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SAB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "OOED/noktalı-3"
+   ]
+  },
+  "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-geleneksel-oyunlar": {
+   "outcome": [
+    "OOEGO/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-satranc": {
+   "outcome": [
+    "OOEST/noktalı-3"
+   ],
+   "skill_reference": [
+    "BTYAB/yapışık-2",
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SAB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-zeka-oyunlari": {
+   "outcome": [
+    "OOEZO/noktalı-4"
+   ],
+   "skill_reference": [
+    "BTYAB/yapışık-2",
+    "KB/noktalı-3",
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "MAB/yapışık-2",
+    "SAB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2",
+    "TAB/yapışık-2",
+    "TSRMAB/yapışık-2"
+   ],
+   "shadow": [
+    "OOEZO/noktalı-3"
+   ]
+  },
+  "ortaokul-proje-tasarimi-ve-uygulamalari-dersi": {
+   "outcome": [
+    "PTU/noktalı-3",
+    "SBSB/yapışık-2"
+   ],
+   "skill_reference": [
+    "BTYAB/yapışık-2",
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2",
+    "TSRMAB/yapışık-2"
+   ]
+  },
+  "ortaokul-robotik-kodlama-dersi": {
+   "outcome": [
+    "RK/yapışık-3"
+   ],
+   "skill_reference": [
+    "BTYAB/yapışık-2",
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "RK/noktalı-3",
+    "RK/yapışık-2"
+   ]
+  },
+  "ortaokul-secmeli-muzik-dersi-baglama": {
+   "outcome": [
+    "SMBAĞ/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "heading": [
+    "SMBAĞ/noktalı-3"
+   ]
+  },
+  "ortaokul-secmeli-muzik-dersi-genel-muzik-egitimi": {
+   "outcome": [
+    "SMGME/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "heading": [
+    "SMGME/noktalı-3"
+   ]
+  },
+  "ortaokul-secmeli-muzik-dersi-gitar-egitimi": {
+   "outcome": [
+    "SMGTR/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "SMGTR/noktalı-3"
+   ]
+  },
+  "ortaokul-secmeli-muzik-dersi-keman-egitimi": {
+   "outcome": [
+    "SMKMN/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "SMKMN/noktalı-3"
+   ]
+  },
+  "ortaokul-secmeli-muzik-dersi-piyano-egitimi": {
+   "outcome": [
+    "SMPYN/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "SMPYN/boşluklu-2",
+    "SMPYN/noktalı-3"
+   ]
+  },
+  "ortaokul-secmeli-muzik-dersi-turk-halk-muzigi-koro-egitimi": {
+   "outcome": [
+    "SMTHMK.I/noktalı-3",
+    "SMTHMK.II/noktalı-3",
+    "SMTHMK.III/noktalı-3",
+    "SMTHMK.IV/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "ortaokul-secmeli-muzik-dersi-ud-egitimi": {
+   "outcome": [
+    "SMUD/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "heading": [
+    "SMUD/noktalı-3"
+   ]
+  },
+  "ortaokul-spor-ve-fiziki-etkinlikler-dersi": {
+   "outcome": [
+    "SFE/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "ortaokul-temel-yasam-becerileri-dersi": {
+   "outcome": [
+    "TYB/noktalı-4"
+   ],
+   "skill_reference": [
+    "BTYAB/yapışık-2",
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "TYB/noktalı-3"
+   ]
+  },
+  "ortaokul-turk-sosyal-hayatinda-aile-dersi": {
+   "outcome": [
+    "TSHA/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "ortaokul-turkce-dersi": {
+   "outcome": [
+    "DO/noktalı-3",
+    "DYS.DO/noktalı-3",
+    "DYS.KY/noktalı-3",
+    "KY/noktalı-3",
+    "T.D/noktalı-3",
+    "T.K/noktalı-3",
+    "T.O/noktalı-3",
+    "T.Y/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SDB/yapışık-2"
+   ],
+   "noise": [
+    "S.DO/noktalı-3"
+   ]
+  },
+  "ortaokul-yapay-zeka-uygulamalari-dersi": {
+   "outcome": [
+    "YZU/noktalı-4",
+    "YZU/yapışık-3"
+   ],
+   "skill_reference": [
+    "BTYAB/yapışık-2",
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "YZU/noktalı-3",
+    "YZU/yapışık-2"
+   ],
+   "noise": [
+    "YAB/yapışık-2"
+   ]
+  },
+  "ortaokul-yazarlik-ve-yazma-becerileri-dersi": {
+   "outcome": [
+    "YYB/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2",
+    "TAB/yapışık-2"
+   ],
+   "shadow": [
+    "YYB/noktalı-3"
+   ]
+  },
+  "oyun-ve-taktiksel-farkindalik-dersi": {
+   "outcome": [
+    "OTF/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/noktalı-3",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "OTF/noktalı-3"
+   ]
+  },
+  "peygamberimizin-hayati-dersi-2": {
+   "outcome": [
+    "PH/noktalı-4"
+   ],
+   "skill_reference": [
+    "DAB/yapışık-2",
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2",
+    "TAB/yapışık-2"
+   ],
+   "shadow": [
+    "PH/noktalı-3"
+   ]
+  },
+  "peygamberimizin-hayati-dersi": {
+   "outcome": [
+    "PH/noktalı-4"
+   ],
+   "skill_reference": [
+    "DAB/yapışık-2",
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "P.H/noktalı-3",
+    "PH/noktalı-3"
+   ]
+  },
+  "psikoloji-dersi": {
+   "outcome": [
+    "PSK/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "ritim-egitimi-ve-halk-oyunları-dersi": {
+   "outcome": [
+    "RİHO/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "RİHO/noktalı-3"
+   ]
+  },
+  "saglik-bilgisi-ve-trafik-kulturu-dersi": {
+   "outcome": [
+    "SBTK/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SDB/yapışık-2"
+   ]
+  },
+  "sehrimiz-dersi": {
+   "outcome": [
+    "Ş/noktalı-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "sosyal-bilgiler-dersi": {
+   "outcome": [
+    "SB/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "KB/yapışık-3",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "SB/noktalı-3"
+   ]
+  },
+  "sosyal-bilim-calismalari-dersi": {
+   "outcome": [
+    "SBÇ.I/noktalı-3",
+    "SBÇ.II/noktalı-3",
+    "SBÇ.III/noktalı-3"
+   ],
+   "skill_reference": [
+    "BTYAB/yapışık-2",
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  },
+  "sosyoloji-dersi": {
+   "outcome": [
+    "SOS/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "SOS/noktalı-3"
+   ]
+  },
+  "tarih-dersi": {
+   "outcome": [
+    "TAR/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "TAR/noktalı-3"
+   ]
+  },
+  "tc-inkilap-tarihi-ve-ataturkculuk-dersi-2": {
+   "outcome": [
+    "İTA/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "İTA/noktalı-3"
+   ]
+  },
+  "tc-inkilap-tarihi-ve-ataturkculuk-dersi": {
+   "outcome": [
+    "İTA/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "TA/noktalı-3",
+    "İTA/noktalı-3"
+   ],
+   "noise": [
+    "TA/noktalı-4"
+   ]
+  },
+  "teknoloji-tasarim-dersi": {
+   "outcome": [
+    "TT/noktalı-4",
+    "TT/yapışık-3"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SAB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/boşluklu-2",
+    "SDB/noktalı-3",
+    "SDB/yapışık-2",
+    "TSRMAB/yapışık-2"
+   ],
+   "shadow": [
+    "TT/boşluklu-2",
+    "TT/noktalı-3",
+    "TT/yapışık-2"
+   ]
+  },
+  "temel-matematik-dersi": {
+   "outcome": [
+    "MAT.T/noktalı-4",
+    "T.MAT/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "heading": [
+    "MAT.T/noktalı-3"
+   ],
+   "shadow": [
+    "T.MAT/noktalı-3"
+   ]
+  },
+  "trafik-guvenligi-dersi": {
+   "outcome": [
+    "TG/noktalı-4"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SDB/yapışık-2"
+   ],
+   "shadow": [
+    "TG/noktalı-3"
+   ]
+  },
+  "turk-dili-ve-edebiyati-dersi": {
+   "outcome": [
+    "TDE/yapışık-2"
+   ],
+   "skill_reference": [
+    "E/noktalı-3",
+    "KB/yapışık-2",
+    "SDB/boşluklu-2",
+    "SDB/yapışık-2"
+   ],
+   "component": [
+    "TDE/yapışık-3"
+   ]
+  },
+  "turk-kultur-ve-medeniyet-tarihi-dersi": {
+   "outcome": [
+    "TKMT/boşluklu-2"
+   ],
+   "skill_reference": [
+    "KB/yapışık-2",
+    "SBAB/yapışık-2",
+    "SDB/yapışık-2"
+   ]
+  }
+ }
+}

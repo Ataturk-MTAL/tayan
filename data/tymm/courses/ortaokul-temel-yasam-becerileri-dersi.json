@@ -4,6 +4,9 @@
   "name": "Temel Yaşam Becerileri Dersi",
   "slug": "ortaokul-temel-yasam-becerileri-dersi",
   "prefix": "TYB",
+  "shapes": [
+   "TYB/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/temel-yasam-becerileri-dersi_20260819_075744_972.pdf"

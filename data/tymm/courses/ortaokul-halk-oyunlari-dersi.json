@@ -4,6 +4,9 @@
   "name": "Halk Oyunları Dersi",
   "slug": "ortaokul-halk-oyunlari-dersi",
   "prefix": "HO",
+  "shapes": [
+   "HO/noktalı-3"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/halk-oyunlari-dersi_20260819_071852_879.pdf"

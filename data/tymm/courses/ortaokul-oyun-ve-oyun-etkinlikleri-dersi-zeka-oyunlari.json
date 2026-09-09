@@ -4,6 +4,9 @@
   "name": "Oyun ve Oyun Etkinlikleri Dersi (Zekâ Oyunları)",
   "slug": "ortaokul-oyun-ve-oyun-etkinlikleri-dersi-zeka-oyunlari",
   "prefix": "OOEZO",
+  "shapes": [
+   "OOEZO/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/oyun-ve-oyun-etkinlikleri-dersi-zeka-oyunlari_20260819_073852_194.pdf"

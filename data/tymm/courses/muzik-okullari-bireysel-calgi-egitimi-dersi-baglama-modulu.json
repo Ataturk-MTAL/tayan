@@ -4,6 +4,9 @@
   "name": "Bireysel Çalgı Eğitimi Dersi-Bağlama Modülü",
   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-baglama-modulu",
   "prefix": "BAĞL",
+  "shapes": [
+   "BAĞL/noktalı-4"
+  ],
   "kademe": 11,
   "kademe_name": "Müzik Okulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/muzik-bireysel-calgi-egitimi-baglama.pdf"

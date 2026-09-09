@@ -4,6 +4,9 @@
   "name": "\"Şehrimiz ...\" Dersi",
   "slug": "sehrimiz-dersi",
   "prefix": "Ş",
+  "shapes": [
+   "Ş/noktalı-3"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/sehrimiz-dersi_20260819_075626_930.pdf"

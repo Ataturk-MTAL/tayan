@@ -4,6 +4,9 @@
   "name": "Bireysel Çalgı Eğitimi Dersi-Kaval Modülü",
   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-kaval-modulu",
   "prefix": "KVL",
+  "shapes": [
+   "KVL/noktalı-4"
+  ],
   "kademe": 11,
   "kademe_name": "Müzik Okulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/muzik-bireysel-calgi-egitimi-kaval.pdf"

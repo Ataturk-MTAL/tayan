@@ -4,6 +4,9 @@
   "name": "Bireysel Çalgı Eğitimi Dersi-Gitar Modülü",
   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-gitar-modulu",
   "prefix": "GTR",
+  "shapes": [
+   "GTR/noktalı-4"
+  ],
   "kademe": 11,
   "kademe_name": "Müzik Okulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/muzik-bireysel-calgi-egitimi-gitar.pdf"

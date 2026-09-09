@@ -4,6 +4,9 @@
   "name": "Astronomi ve Uzay Bilimleri Dersi",
   "slug": "astronomi-ve-uzay-bilimleri-dersi",
   "prefix": "AST",
+  "shapes": [
+   "AST/noktalı-3"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/astronomi-ve-uzay-bilimleri-dersi_20260828_160400_732.pdf"

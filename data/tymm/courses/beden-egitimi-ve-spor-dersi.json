@@ -3,7 +3,11 @@
   "id": 30,
   "name": "Beden Eğitimi ve Spor Dersi",
   "slug": "beden-egitimi-ve-spor-dersi",
-  "prefix": "BES",
+  "prefix": "BES.H",
+  "shapes": [
+   "BES.H/noktalı-3",
+   "BES/noktalı-4"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/beden-egitimi-ve-spor-dersi_20260907_192825_148.pdf"
@@ -428,7 +432,20 @@
     "ÖĞRENME KANITLARI": "Bu temadaki öğrenme çıktıları; dereceli puanlama anahtarı, grup değerlendirme formu kul- (Ölçme ve lanılarak değerlendirilebilir. Değerlendirme) Grupların ritmik hareket edebilme ile ilgili çalışmaları; yardımlaşma, grup uyumu, alan kullanımı vb. ölçütler kullanılarak oluşturulan grup değerlendirme formu ile değerlendirilebilir. Fiziksel aktivitenin beden ve ruh sağlığına etkisine yönelik çıkarımlarını içeren 150-200 kelimeden oluşan metin hazırlamaları performans görevi olarak verilebilir. Performans görevi dereceli puanlama anahtarı ile değerlendirilebilir. ÖĞRENME-ÖĞRETME YAŞANTILARI Temel Kabuller Fiziksel etkinliğin beden ve ruh sağlığına etkisi ile ilgili temel düzeyde bilgi sahibi oldukları kabul edilmektedir. Hareket kalıpları ve ritmik hareket etme ile ilgili temel düzeyde bilgi ve becerilere sahip oldukları kabul edilmektedir. Ön Değerlendirme Süreci Fiziksel etkinliğin beden ve ruh sağlığına etkilerine yönelik örnekler vermeleri istenebilir. Seçtiği hareket kalıplarını ritim eşliğinde sergilemeleri istenebilir. Köprü Kurma Fiziksel etkinliklerin günlük hayata etkilerine ilişkin çıkarımda bulunmaları istenebilir. Fiziksel etkinliklerde (koşma, sıçrama, top sürme, yürüme, sekme, merdiven çıkma vb.) ritmik hareket etmeleri istenebilir. BEDEN EĞİTİMİ VE SPOR DERSİ ÖĞRETİM PROGRAMI Öğrenme-Öğretme Uygulamaları BES.H.1.1. Öğrenciler, verilen kaynaklardan (kısa film, karikatür, slayt, belgesel, makale vb.) hareketle fiziksel aktivitenin beden ve ruh sağlığına etkisini inceler (OB1). Öğrenciler, tartışma yoluyla düzenli yapılan fiziksel aktivitenin beden ve ruh sağlığı (fizyolojik, kardiyovasküler sistem, depresyon, anksiyete bozukluğu, dikkat eksikliği vb.) üzerindeki olumlu etkilerini belirler (D13.2). Öğretmen rehberliğinde öğrenciler gruplara ayrılır. Gruplar, belirledikleri bir fiziksel aktivitenin (yürüyüş, koşu, yüzme, bisiklet sürme vb.) beden ve ruh sağlığına yararlarını gösteren afiş hazırlar (SDB2.2, E3.3). Hazırladıkları afişleri sınıf ya da okul panosunda sergiler. Gruplardan fiziksel aktivitenin beden ve ruh sağlığına etkisine yönelik 100-150 kelimeden oluşan kısa bir metin hazırlamaları performans görevi olarak verilebilir. Performans görevi dereceli puanlama anahtarı ile değerlendirilebilir. BES.H.1.2. Öğrencilerin ritmik hareketlerle (el çırpma, kolları sallama, diz çekme vb.) ısınmaları sağlanır. Verilen ritimler (alkış, düdük, melodi vb.) dinlenerek bu ritimlerin algılanması sağlanır. Öğrenciler, öğretmen rehberliğinde gruplara ayrılır. Gruplar, algıladıkları ritimlere göre hareket kalıplarını farklı seviye (yüksek-alçak), yön (ileri-geri, sağa-sola vb.) ve hızlarda (yavaş, orta, yüksek) uygular (SDB2.2). Uygulama esnasında arkadaşlarına yapıcı geri bildirimler vermeleri istenir (SDB2.1, D4.1). Gruplardan ritim eşliğinde uyguladıkları hareket kalıplarıyla koreografi oluşturmaları istenir (E3.3, D7.2). Oluşturulan koreografiler gruplar tarafından sergilenir (BEOSAB4). Öğrenciler, hafif tempolu yürüyüş yaparak soğuma hareketlerini gerçekleştirirler. Gruplar birbirlerinin performanslarını izler. Performanslar; hareketlerin çeşitliliği, grup uyumu, alan kullanımı vb. ölçütler kullanılarak oluşturulan grup değerlendirme formu ile değerlendirilebilir.",
     "FARKLILAŞTIRMA": "Zenginleştirme Beden ve ruh sağlığının iyileştirilmesinde fiziksel etkinliğin önemi hakkında profesyonel sporcularla röportaj yapması istenebilir. Hareket kalıplarını kullanarak kendine özgü bir figür oluşturması istenebilir. Destekleme Öğretmen veya akran yardımıyla fiziksel etkinliğin beden ve ruh sağlığına etkisini ifade eden bilgi kartı hazırlaması istenebilir. El çırpma, kolları sallama, diz çekme vb. hareket kalıplarını uygulaması istenebilir. ÖĞRETMEN YANSITMALARI Programa yönelik görüş ve önerileriniz için karekodu akıllı cihazınıza okutunuz. BEDEN EĞİTİMİ VE SPOR DERSİ ÖĞRETİM PROGRAMI"
    },
-   "outcomes": []
+   "outcomes": [
+    {
+     "code": "BES.H.1.1",
+     "order": 1,
+     "text": "Öğrenciler, verilen kaynaklardan (kısa film, karikatür, slayt, belgesel, makale vb.) hareketle fiziksel aktivitenin beden ve ruh sağlığına etkisini inceler (OB1). Öğrenciler, tartışma yoluyla düzenli yapılan fiziksel aktivitenin beden ve ruh sağlığı (fizyolojik, kardiyovasküler sistem, depresyon, anksiyete bozukluğu, dikkat eksikliği vb.) üzerindeki olumlu etkilerini belirler (D13.2). Öğretmen rehberliğinde öğrenciler gruplara ayrılır. Gruplar, belirledikleri bir fiziksel aktivitenin (yürüyüş, koşu, yüzme, bisiklet sürme vb.) beden ve ruh sağlığına yararlarını gösteren afiş hazırlar (SDB2.2, E3.3). Hazırladıkları afişleri sınıf ya da okul panosunda sergiler. Gruplardan fiziksel aktivitenin beden ve ruh sağlığına etkisine yönelik 100-150 kelimeden oluşan kısa bir metin hazırlamaları performans görevi olarak verilebilir. Performans görevi dereceli puanlama anahtarı ile değerlendirilebilir.",
+     "components": []
+    },
+    {
+     "code": "BES.H.1.2",
+     "order": 2,
+     "text": "Öğrencilerin ritmik hareketlerle (el çırpma, kolları sallama, diz çekme vb.) ısınmaları sağlanır. Verilen ritimler (alkış, düdük, melodi vb.) dinlenerek bu ritimlerin algılanması sağlanır. Öğrenciler, öğretmen rehberliğinde gruplara ayrılır. Gruplar, algıladıkları ritimlere göre hareket kalıplarını farklı seviye (yüksek-alçak), yön (ileri-geri, sağa-sola vb.) ve hızlarda (yavaş, orta, yüksek) uygular (SDB2.2). Uygulama esnasında arkadaşlarına yapıcı geri bildirimler vermeleri istenir (SDB2.1, D4.1). Gruplardan ritim eşliğinde uyguladıkları hareket kalıplarıyla koreografi oluşturmaları istenir (E3.3, D7.2). Oluşturulan koreografiler gruplar tarafından sergilenir (BEOSAB4). Öğrenciler, hafif tempolu yürüyüş yaparak soğuma hareketlerini gerçekleştirirler. Gruplar birbirlerinin performanslarını izler. Performanslar; hareketlerin çeşitliliği, grup uyumu, alan kullanımı vb. ölçütler kullanılarak oluşturulan grup değerlendirme formu ile değerlendirilebilir.",
+     "components": []
+    }
+   ]
   },
   {
    "grade": 12,
@@ -521,6 +538,38 @@
  ],
  "unassigned_outcomes": [
   {
+   "code": "BES.H.2.1",
+   "grade": 2,
+   "unit": null,
+   "order": 1,
+   "text": "Öğrencilerin gruplara ayrılması sağlanır. Her grup, temel hareket becerilerinin (koşu ve yön değiştirme, arkadaşına pas atma vb.) uygulandığı bir ısınma egzersizi tasarlar (SDB2.2). Gruplar, tasarladıkları ısınma hareketlerini uygular. Isınma sonrasında öğrencilerden yaptıkları hareketlerin hangi spor dallarında kullanılabileceğine dair düşüncelerini paylaşmaları istenir (SDB2.1). Belirlenen takım mücadele sporunun özelleşmiş hareket becerilerinin kılavuz eşliğindeki algılanması sağlanır. Öğrenciler, özelleşmiş hareket becerilerini bireysel olarak tekrar eder ve farklı şekillerde deneyerek pekiştirebilirler. Öğrenciler ikişerli eşleşerek özelleşmiş hareket becerilerinin (pas atma, top kontrolü, top sürme vb.) basamaklarını sırayla birbirine gösterir. Hareket becerilerinin doğru forma ulaşması için eşler birbirine geri bildirimler verir (D4.1, BEOSAB7). Öğrenciler, grup çalışması yoluyla müsabaka tasarlar. Gruplardaki öğrenciler, müsabaka için kuralları (sahayı küçültme, süreyi kısaltma, oyuncu sayısının azaltma vb.) belirler. Her grup, tasarladığı müsabakayı seçtiği diğer iki gruba oynatır. Tüm grupların en az bir müsabakaya katılması sağlanır. Öğrenciler, müsabakalarda belirli görevler (savunmacı, hücumcu vb.) üstlenerek oyuna aktif katılır (D3.4, E2.5). Müsabakalar sırasında oyuna katılmayan gruplar, diğer grupların oyununu gözlemler. Öğrenciler olay ve durumları çok yönlü bakış açısıyla değerlendirerek grup çalışması yoluyla senaryodaki problem/duruma ilişkin fikirlerini paylaşır (D14.1). Öğrenciler, etkinliklerin ardından vücudun soğuması için hafif tempolu koşu ve yürüyüş yapar. Belirlenen takım mücadele sporunun özelleşmiş hareket becerilerini sergileyebilmeleri dereceli puanlama anahtarı ile değerlendirilebilir. Belirlenen takım mücadele sporuna ait özelleşmiş hareket becerilerinin kullanıldığı hedef oyunlarını (belli bir mesafeden hedefe atış yapma, belirlenen sayıda pas yaparak skor üretme vb.) grup hâlinde tasarlayıp oynamaları performans görevi olarak verilebilir. Performans görevi, gözlem formuyla değerlendirilebilir. BEDEN EĞİTİMİ VE SPOR DERSİ ÖĞRETİM PROGRAMI",
+   "components": []
+  },
+  {
+   "code": "BES.H.2.2",
+   "grade": 2,
+   "unit": null,
+   "order": 2,
+   "text": "Öğrenciler, etkinliklere hazırlanmak için ısınma hareketlerinin (hafif tempolu koşu, sıçrama, sekme vb.) ardından belirlenen takım mücadele spor dalına özgü esneme hareketleri yapar. Belirlenen takım mücadele spor branşında hücum ve savunmaya yönelik taktik ve strateji senaryosu öğrencilere verilir. Öğrenciler grup çalışması yoluyla senaryodaki problem/duruma ilişkin fikirlerini paylaşır. Gruplar senaryoda belirledikleri problem/durumlara yönelik taktik ve strateji kurgular (SDB2.2). Kurgulanan taktik ve stratejilerin uygulanacağı etkinlikler öğretmen rehberliğinde düzenlenir. Gruplar, etkinliklerde hücum ve savunma rollerini değiştirerek taktiksel becerileri pekiştirirler. Etkinliklerin ardından taktik ve stratejileri uygulamak için her grubun birbiriyle karşılaşacağı kısa süreli müsabakalar düzenlenir (BEOSAB7). Müsabakada yer almayan diğer gruplar, sahadaki takımları gözlemleyerek taktik ve stratejilerin uygulanmasını çok yönlü bakış açısıyla değerlendirir (D14.1). İzleyici gruplar, her müsabakanın sonunda değerlendirmelerinden hareketle müsabakada yer alan öğrencilere yapıcı geri bildirimler verir. Müsabakaların ardından esneme hareketleriyle vücudun soğuması sağlanır. Belirlenen takım mücadele sporunda taktik ve strateji geliştirebilme becerileri gözlem formu ile değerlendirilebilir.",
+   "components": []
+  },
+  {
+   "code": "BES.H.2.3",
+   "grade": 2,
+   "unit": null,
+   "order": 3,
+   "text": "Öğrenciler ısınma hareketlerini uygulamak için eşleşirler. Eşler gösterip yaptırma tekniğinden yararlanarak ısınma hareketlerini gerçekleştirir. Isınmanın ardından belirlenen file/raket sporunda özelleşmiş hareket becerilerinin (voleybolda manşet, badmintonda clear, masa tenisinde kesme vb.) kılavuz eşliğinde algılanması sağlanır. Öğrencilerin algıladıkları becerileri eşli/grupla deneyimlemeleri sağlanır (SDB2.2). Öğrenciler hareket becerilerinin (duvarda top sektirme, ritmik vuruşlar yapma, eşli paslaşma vb.) basamaklarını eşli/grupla tekrarlayarak çalışır. Öğrencilerin çalışmalarda birbirlerinin fikirlerini dinleme ve hatalarını fark etmelerinin kendi öğrenmeleri üzerindeki etkisine yönelik çıkarımda bulunmaları sağlanır (D10.1). Eşli/ grupla yapılan çalışmalarda bire bir rehberlik yapılarak doğru ve yanlış uygulamalar açıklanır. Hareket becerilerinin pekiştirilmesi için etkinlikler (voleybolda smaç hazırlığı sırasında manşet pas çalışması, badmintonda atak yapmaya uygun vuruşlar vb.) oluşturulur. Etkinliklerin zorluk seviyesi (tenis oynarken belirli bir hedefe top vurma, masa tenisinde hızlandırılmış top alışverişi yapma vb.) artırılarak öğrencilerin stres altında sağlıklı karar verme ve duruma uyum sağlama becerileri geliştirilir (SBD3.1, E1.3). Etkinliklerin ardından hafif tempolu koşu egzersizleriyle vücudun soğuması sağlanır. Belirlenen takım mücadele sporunun özelleşmiş hareket becerilerini sergileyebilmeleri öz değerlendirme formu ile değerlendirilebilir.",
+   "components": []
+  },
+  {
+   "code": "BES.H.2.4",
+   "grade": 2,
+   "unit": null,
+   "order": 4,
+   "text": "Gönüllü bir öğrencinin ısınma hareketlerini arkadaşlarına gösteri yöntemiyle yaptırması sağlanır (E1.5). Öğrenciler sınıf mevcuduna göre gruplara ayrılır. Belirlenen file/raket spor dalında taktik ve stratejilerin yazıldığı (rakip takımın zayıf bölgelerini kullanma, oyun alanını geniş tutma, farklı hızlarda vuruş yapma, savunmada dikkatli ve hareketli olma vb.) bilgi kartları her gruba dağıtılır. Gruplar, bilgi kartlarını inceler ve mini oyunlar (voleybolda zayıf bölgeyi keşfet oyunu, tenis/masa tenisinde yönlendirme oyunu, badminton sahada hâkimiyet oyunu vb.) oluşturur (SDB2.2, OB1). Tüm grupların mini oyunları oynaması sağlanır. Oyun esnasında gruplara taktiksel problem/durumlar (Rakibin sürekli kısa servis atması, rakibin hücumda topu boş alana göndermesi, takımın hücum yaparken sürekli hata yapması ve sayı kaybetmesi vb.) sunulur. Grup içindeki her birey verilen problem/duruma yönelik bir çözüm önerisi sunar, ardından tartışarak en uygun öneriyi uygular (SDB3.2, E3.5, KB3.3). Mini oyunlar tamamlandıktan sonra grupların kendi taktiklerini geliştirmeleri için müsabakalar organize edilir. Gruplardaki öğrenciler geliştirdikleri taktiğe göre rollerini ve pozisyonlarını belirler. Geliştirilen taktikler, gruplar tarafından düzenlenen müsabakalarda uygulanır. Gruplar, müsabakalarda birbirlerinin performanslarını değerlendirir ve önerilerde bulunur (D4.1, BEOSAB7). Öğrenciler, etkinliklerin ardından vücudun soğuması için hafif tempolu koşu yapar. Öğrencilerin belirlenen file/raket spor dalında taktik ve strateji geliştirebilme becerileri akran değerlendirme formu ile değerlendirilebilir. BEDEN EĞİTİMİ VE SPOR DERSİ ÖĞRETİM PROGRAMI",
+   "components": []
+  },
+  {
    "code": "BES.12.1.1",
    "grade": 12,
    "unit": 1,
@@ -539,14 +588,18 @@
  ],
  "report": {
   "units": 12,
-  "outcomes": 33,
+  "outcomes": 35,
   "components": 0,
-  "orphan_outcomes": 2,
+  "orphan_outcomes": 6,
   "gaps": [
    {
     "course": "Beden Eğitimi ve Spor Dersi",
     "reason": "hiçbir ünite bloğunun içinde değil",
     "codes": [
+     "BES.H.2.1",
+     "BES.H.2.2",
+     "BES.H.2.3",
+     "BES.H.2.4",
      "BES.12.1.1",
      "BES.12.1.2"
     ]

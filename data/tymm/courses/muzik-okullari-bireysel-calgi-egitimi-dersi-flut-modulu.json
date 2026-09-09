@@ -4,6 +4,9 @@
   "name": "Bireysel Çalgı Eğitimi Dersi-Flüt Modülü",
   "slug": "muzik-okullari-bireysel-calgi-egitimi-dersi-flut-modulu",
   "prefix": "FLT",
+  "shapes": [
+   "FLT/noktalı-4"
+  ],
   "kademe": 11,
   "kademe_name": "Müzik Okulları",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/muzik-bireysel-calgi-egitimi-flut.pdf"

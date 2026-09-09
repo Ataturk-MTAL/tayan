@@ -4,6 +4,9 @@
   "name": "Kimya Dersi",
   "slug": "kimya-dersi",
   "prefix": "KİM",
+  "shapes": [
+   "KİM/noktalı-4"
+  ],
   "kademe": 3,
   "kademe_name": "Ortaöğretim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/kimya-dersi_20260819_143012_862.pdf"

@@ -4,6 +4,9 @@
   "name": "Sosyal Bilgiler Dersi",
   "slug": "sosyal-bilgiler-dersi",
   "prefix": "SB",
+  "shapes": [
+   "SB/noktalı-4"
+  ],
   "kademe": 2,
   "kademe_name": "Temel Eğitim",
   "pdf_url": "https://tymm.meb.gov.tr/assets/pdf/sosyal-bilgiler-dersi_20260902_111029_619.pdf"
