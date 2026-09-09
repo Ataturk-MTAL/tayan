@@ -33,7 +33,10 @@
           "Sesletim Seçme-Kullanma Becerisi (Tümevarımsal Yaklaşım)"
         ]
       }
-    ]
+    ],
+    "anomalies": 3,
+    "repeated_nodes": 16,
+    "variant_nodes": 18
   },
   "source": {
     "name": "Türkiye Yüzyılı Maarif Modeli — Beceri Çerçevesi",
@@ -162,7 +165,7 @@
         {
           "code": "KB2",
           "name": "Bütünleşik Beceriler",
-          "description": "Süreç modellemesi yapılabilen eylemleri ifade eder. Öğretim programlarında (i) çelişki giderme, (ii) gözlemleme, (iii) özetleme, (iv) çözümleme, (v) sınıflandırma, (vi) bilgi toplama, (vii) karşılaştırma, (viii) sorgulama, (ix) genelleme, (x) çıkarım yapma, (xi) gözleme dayalı tahmin etme, (xii) mevcut bilgiye/veriye dayalı tahmin etme, (xiii) yapılandırma, (xiv) yorumlama, (xv) yansıtma, (xvi) muhakeme (akıl yürütme), (xvii) değerlendirme, (xviii) tartışma, (xix) mantıksal denetleme ve (xx) sentezleme olmak üzere Türkiye Yüzyılı Maarif Modeli'nde yirmi bütünleşik beceri tanımlanmıştır.",
+          "description": "Süreç modellemesi yapılabilen eylemleri ifade eder. Öğretim programlarında (i) çelişki giderme, (ii) gözlemleme, (iii) özetleme, (iv) çözümleme, (v) sınıflandırma, (vi) bilgi toplama, (vii) karşılaştırma, (viii) sorgulama, (ix) genelleme, (x) çıkarım yapma, (xi) gözleme dayalı tahmin etme, (xii) mevcut bilgiye/veriye dayalı tahmin etme, (xiii) yapılandırma, (xiv) yorumlama, (xv) yansıtma, (xvi) muhakeme (akıl yürütme), (xvii) değerlendirme, (xviii) tartışma, (xix) mantıksal denetleme ve (xx) sentezleme olmak üzere Türkiye Yüzyılı Maarif Modeli'nde yirmi bütünleşik beceri tanımlanmıştır.",
           "parent": null,
           "level": 1,
           "components": []
@@ -231,6 +234,26 @@
             {
               "code": "KB2.3.SB3",
               "text": "Metin/olay/konu/durumu yorumlamak (kendi cümleleri ile aktarmak)"
+            }
+          ],
+          "variants": [
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/din-egitimi-ve-ogretimi-alan-becerileri",
+              "name": "Özetleme",
+              "components": [
+                {
+                  "code": "KB2.3.SB1",
+                  "text": "Metin/olay/konu/durum ile ilgili çözümleme yapmak"
+                },
+                {
+                  "code": "KB2.3.SB2",
+                  "text": "Metin/olay/konu/durum ile ilgili sınıflandırma yapmak"
+                },
+                {
+                  "code": "KB2.3.SB3",
+                  "text": "Metin/olay/konu/durumu yorumlamak (kendi cümleleri ile aktarmak)"
+                }
+              ]
             }
           ]
         },
@@ -349,6 +372,86 @@
               "code": "KB2.8.SB5",
               "text": "Toplanan bilgiler üzerinde çıkarım yapmak"
             }
+          ],
+          "variants": [
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/sosyal-bilimler-alan-becerileri",
+              "name": "Sorgulama",
+              "components": [
+                {
+                  "code": "KB2.8.SB1",
+                  "text": "Merak ettiği konuyu tanımlamak"
+                },
+                {
+                  "code": "KB2.8.SB2",
+                  "text": "İlgili konu hakkında sorular sormak"
+                },
+                {
+                  "code": "KB2.8.SB3",
+                  "text": "İlgili konu hakkında bilgi toplamak"
+                },
+                {
+                  "code": "KB2.8.SB4",
+                  "text": "Toplanan bilgilerin doğruluğunu değerlendirmek"
+                },
+                {
+                  "code": "KB2.8.SB5",
+                  "text": "Toplanan bilgiler üzerinden çıkarım yapmak"
+                }
+              ]
+            },
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/sosyal-bilimler-alan-becerileri",
+              "name": "Sorgulama",
+              "components": [
+                {
+                  "code": "KB2.8.SB1",
+                  "text": "Merak ettiği konuyu tanımlamak"
+                },
+                {
+                  "code": "KB2.8.SB2",
+                  "text": "İlgili konu hakkında sorular sormak"
+                },
+                {
+                  "code": "KB2.8.SB3",
+                  "text": "İlgili konu hakkında bilgi toplamak"
+                },
+                {
+                  "code": "KB2.8.SB4",
+                  "text": "Toplanan bilgilerin doğruluğunu değerlendirmek"
+                },
+                {
+                  "code": "KB2.8.SB5",
+                  "text": "Toplanan bilgilerin doğruluğunu değerlendirerek çıkarım yapmak"
+                }
+              ]
+            },
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/bilisim-teknolojileri-ve-yazilim-alan-becerileri",
+              "name": "Sorgulama",
+              "components": [
+                {
+                  "code": "KB2.8.SB1",
+                  "text": "Merak ettiği konuyu tanımlamak"
+                },
+                {
+                  "code": "KB2.8.SB2",
+                  "text": "İlgili konu hakkında sorular sormak"
+                },
+                {
+                  "code": "KB2.8.SB3",
+                  "text": "İlgili konu hakkında bilgi toplamak"
+                },
+                {
+                  "code": "KB2.8.SB4",
+                  "text": "İlgili konu hakkında toplanan bilgilerin doğruluğunu değerlendirmek"
+                },
+                {
+                  "code": "KB2.8.SB5",
+                  "text": "İlgili konu hakkında toplanan bilgiler üzerinde çıkarım yapmak"
+                }
+              ]
+            }
           ]
         },
         {
@@ -424,6 +527,26 @@
               "code": "KB2.11.SB3",
               "text": "Mevcut olay/konu/duruma ilişkin yargıda bulunmak"
             }
+          ],
+          "variants": [
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/sosyal-bilimler-alan-becerileri",
+              "name": "Gözleme Dayalı Tahmin Etme",
+              "components": [
+                {
+                  "code": "KB2.11.SB1",
+                  "text": "Mevcut olay/konu/sorun/duruma ilişkin ön gözlem ve/veya deneyimi ilişkilendirmek"
+                },
+                {
+                  "code": "KB2.11.SB2",
+                  "text": "Mevcut olay/konu/sorun/duruma ilişkin çıkarım yapmak"
+                },
+                {
+                  "code": "KB2.11.SB3",
+                  "text": "Mevcut olay/konu/sorun/duruma ilişkin yargıda bulunmak"
+                }
+              ]
+            }
           ]
         },
         {
@@ -483,6 +606,68 @@
               "code": "KB2.14.SB3",
               "text": "Kendi ifadeleriyle olay/konu/durumu nesnel, doğru anlamı değiştirmeyecek bir şekilde yeniden ifade etmek"
             }
+          ],
+          "variants": [
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/matematik-alan-becerileri",
+              "name": "Yorumlama",
+              "components": [
+                {
+                  "code": "KB2.14.SB2",
+                  "text": "Mevcut olay/konu/ durumu bağlamdan kopmadan dönüştürmek"
+                },
+                {
+                  "code": "KB2.14.SB3",
+                  "text": "Kendi ifadeleriyle olay/konu/durumu nesnel, doğru anlamı değiştirmeyecek bir şekilde yeniden ifade etmek"
+                }
+              ]
+            },
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/matematik-alan-becerileri",
+              "name": "Yorumlama",
+              "components": [
+                {
+                  "code": "KB2.14.SB2",
+                  "text": "Mevcut olay/konu/durumu bağlamdan kopmadan dönüştürmek"
+                },
+                {
+                  "code": "KB2.14.SB3",
+                  "text": "Kendi ifadeleriyle olay/konu/durumu nesnel, doğru anlamı değiştirmeyecek bir şekilde yeniden ifade etmek"
+                }
+              ]
+            },
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/sosyal-bilimler-alan-becerileri",
+              "name": "Yorumlama",
+              "components": [
+                {
+                  "code": "KB2.14.SB1",
+                  "text": "Mevcut olay/ konu/durumu incelemek"
+                },
+                {
+                  "code": "KB2.14.SB3",
+                  "text": "Kendi ifadeleriyle olay/konu/durumu nesnel, doğru anlamı değiştirmeyecek bir şekilde yeniden ifade etmek"
+                }
+              ]
+            },
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/sosyal-bilimler-alan-becerileri",
+              "name": "Yorumlama",
+              "components": [
+                {
+                  "code": "KB2.14.SB1",
+                  "text": "Mevcut olay/konu/durumu incelemek"
+                },
+                {
+                  "code": "KB2.14.SB2",
+                  "text": "Mevcut olay/konu/durumu bağlamdan kopmadan dönüştürmek"
+                },
+                {
+                  "code": "KB2.14.SB3",
+                  "text": "Kendi ifadeleriyle olay/konu/durumu, nesnel ve doğru anlamı değiştirmeyecek bir şekilde yeniden ifade etmek"
+                }
+              ]
+            }
           ]
         },
         {
@@ -503,6 +688,13 @@
             {
               "code": "KB2.15.SB3",
               "text": "Ulaşılan çıkarımları değerlendirmek"
+            }
+          ],
+          "variants": [
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/sosyal-bilimler-alan-becerileri",
+              "name": "Yansıtmak",
+              "components": []
             }
           ]
         },
@@ -537,6 +729,44 @@
               "code": "KB2.17.SB4",
               "text": "Karşılaştırmalarına ilişkin yargıda bulunmak"
             }
+          ],
+          "variants": [
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/matematik-alan-becerileri",
+              "name": "Değerlendirme",
+              "components": [
+                {
+                  "code": "KB2.17.SB1",
+                  "text": "Mevcut olay/konu/duruma ilişkin ölçüt belirlemek"
+                },
+                {
+                  "code": "KB2.17.SB2",
+                  "text": "Mevcut olay/konu/duruma ilişkin ölçme yapmak"
+                },
+                {
+                  "code": "KB2.17.SB3",
+                  "text": "Ölçme sonuçlarını belirlediği ölçütlerle karşılaştırmak"
+                },
+                {
+                  "code": "KB2.17.SB4",
+                  "text": "Karşılaştırmalarına ilişkin yargıda bulunmak"
+                }
+              ]
+            },
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/sosyal-bilimler-alan-becerileri",
+              "name": "Değerlendirme",
+              "components": [
+                {
+                  "code": "KB2.17.SB3",
+                  "text": "Olay/dönem/kavramları ölçütlerle karşılaştırmak"
+                },
+                {
+                  "code": "KB2.17.SB4",
+                  "text": "Karşılaştırmaya ilişkin yargıda bulunmak"
+                }
+              ]
+            }
           ]
         },
         {
@@ -557,6 +787,26 @@
             {
               "code": "KB2.18.SB3",
               "text": "Çürütmek veya kabul etmek"
+            }
+          ],
+          "variants": [
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/sosyal-bilimler-alan-becerileri",
+              "name": "Tartışma",
+              "components": [
+                {
+                  "code": "KB2.18.SB1",
+                  "text": "Mantıksal temellendirme yapmak"
+                },
+                {
+                  "code": "KB2.18.SB2",
+                  "text": "Mantıksal çelişkileri, tutarsızlıkları ve/veya geçersizlikleri tespit etmek"
+                },
+                {
+                  "code": "KB2.18.SB3",
+                  "text": "Çürütmek veya kabul etmek"
+                }
+              ]
             }
           ]
         },
@@ -579,6 +829,26 @@
               "code": "KB2.19.SB3",
               "text": "Ölçüt bağlamında yargıda bulunmak"
             }
+          ],
+          "variants": [
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/sosyal-bilimler-alan-becerileri",
+              "name": "Mantıksal Denetleme",
+              "components": [
+                {
+                  "code": "KB2.19.SB1",
+                  "text": "Önermeleri dönüştürmek"
+                },
+                {
+                  "code": "KB2.19.SB2",
+                  "text": "Ölçüt bağlamında kuralları uygulamak"
+                },
+                {
+                  "code": "KB2.19.SB3",
+                  "text": "Ölçüt bağlamında yargıda bulunmak"
+                }
+              ]
+            }
           ]
         },
         {
@@ -600,12 +870,64 @@
               "code": "KB2.20.SB3",
               "text": "Parçaları birleştirerek özgün bir bütün oluşturmak"
             }
+          ],
+          "variants": [
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/sosyal-bilimler-alan-becerileri",
+              "name": "Sentezleme",
+              "components": [
+                {
+                  "code": "KB2.20.SB2",
+                  "text": "Parçalar arası ilişki kurmak"
+                },
+                {
+                  "code": "KB2.20.SB3",
+                  "text": "Parçaları birleştirerek özgün bir bütün oluşturmak"
+                }
+              ]
+            },
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/sosyal-bilimler-alan-becerileri",
+              "name": "Sentezleme",
+              "components": [
+                {
+                  "code": "KB2.20.SB1",
+                  "text": "Parçaları belirlemek"
+                },
+                {
+                  "code": "KB2.20.SB2",
+                  "text": "Parçalar arası ilişki kurmak"
+                },
+                {
+                  "code": "KB2.20.SB3",
+                  "text": "Parçaları birleştirerek özgün bir bütün oluşturmak"
+                }
+              ]
+            },
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/bilisim-teknolojileri-ve-yazilim-alan-becerileri",
+              "name": "Sentezleme",
+              "components": [
+                {
+                  "code": "KB2.20.SB1",
+                  "text": "Parçaları belirlemek"
+                },
+                {
+                  "code": "KB2.20.SB2",
+                  "text": "Parçalar arasında ilişki kurmak"
+                },
+                {
+                  "code": "KB2.20.SB3",
+                  "text": "Parçaları birleştirerek özgün bir bütün oluşturmak"
+                }
+              ]
+            }
           ]
         },
         {
           "code": "KB3",
           "name": "Üst Düzey Düşünme Becerileri",
-          "description": "Bütünleşik becerilerden en az ikisini içeren ve çok boyutlu zihinsel süreçler gerektiren eylemleri ifade eder. Kavramsal becerilerde vurgulandığı üzere temel ve bütünleşik beceriler arasında bir aşamalılık ilişkisi bulunmamaktadır. Bu beceriler, üst düzey düşünme becerilerinin hayata geçirilmesindeki alt yapıyı oluşturmaktadır. Türkiye Yüzyılı Maarif Modeli'nde (I) karar verme, (II) problem çözme ve (III)  eleştirel düşünme olmak üzere üç üst düzey düşünme becerisi tanımlanmıştır.",
+          "description": "Bütünleşik becerilerden en az ikisini içeren ve çok boyutlu zihinsel süreçler gerektiren eylemleri ifade eder. Kavramsal becerilerde vurgulandığı üzere temel ve bütünleşik beceriler arasında bir aşamalılık ilişkisi bulunmamaktadır. Bu beceriler, üst düzey düşünme becerilerinin hayata geçirilmesindeki alt yapıyı oluşturmaktadır. Türkiye Yüzyılı Maarif Modeli'nde (I) karar verme, (II) problem çözme ve (III) eleştirel düşünme olmak üzere üç üst düzey düşünme becerisi tanımlanmıştır.",
           "parent": null,
           "level": 1,
           "components": []
@@ -613,7 +935,7 @@
         {
           "code": "KB3.1",
           "name": "Karar Verme Becerisi",
-          "description": "Bir ihtiyaç hâlinde karar durumuna ilişkin amacı belirleme, bilgi arama/toplama, olası alternatif önermeler/seçenekler oluşturma, oluşturduğu önermeler/seçenekler üzerinde mantıksal denetleme yapma,  ulaşılan yapıya dayalı seçim yapma ve kararın sonuçları üzerinde yansıtma yapma becerisini ifade eder.",
+          "description": "Bir ihtiyaç hâlinde karar durumuna ilişkin amacı belirleme, bilgi arama/toplama, olası alternatif önermeler/seçenekler oluşturma, oluşturduğu önermeler/seçenekler üzerinde mantıksal denetleme yapma, ulaşılan yapıya dayalı seçim yapma ve kararın sonuçları üzerinde yansıtma yapma becerisini ifade eder.",
           "parent": "KB3",
           "level": 2,
           "components": [
@@ -646,7 +968,7 @@
         {
           "code": "KB3.2",
           "name": "Problem Çözme Becerisi",
-          "description": "Karşılaşılan sorunla baş edebilmek için duruma ilişkin yapılandırma, özetleme, gözleme dayalı/mevcut bilgiye/veriye dayalı tahmin etme, akıl yürütme, yansıtma/değerlendirmede bulunmayı kapsayan  zihinsel işlemleri yürütebilmeyi ifade eder.",
+          "description": "Karşılaşılan sorunla baş edebilmek için duruma ilişkin yapılandırma, özetleme, gözleme dayalı/mevcut bilgiye/veriye dayalı tahmin etme, akıl yürütme, yansıtma/değerlendirmede bulunmayı kapsayan zihinsel işlemleri yürütebilmeyi ifade eder.",
           "parent": "KB3",
           "level": 2,
           "components": [
@@ -691,9 +1013,30 @@
               "code": "KB3.3.SB3",
               "text": "Akıl yürütmeyle ulaştığı çıkarımları yansıtmak"
             }
+          ],
+          "variants": [
+            {
+              "source_url": "https://tymm.meb.gov.tr/beceriler/sosyal-bilimler-alan-becerileri",
+              "name": "Eleştirel Düşünme",
+              "components": [
+                {
+                  "code": "KB3.3.SB1",
+                  "text": "Olay/olgu/problem veya durumu sorgulamak"
+                },
+                {
+                  "code": "KB3.3.SB2",
+                  "text": "Sorgulanan olay/konu/problem veya durum ile ilgili akıl yürütmek"
+                },
+                {
+                  "code": "KB3.3.SB3",
+                  "text": "Akıl yürütmeyle ulaştığı çıkarımları yansıtmak"
+                }
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "anomalies": []
     },
     {
       "code": "SDB",
@@ -705,7 +1048,7 @@
         {
           "code": "SDB1",
           "name": "Benlik Becerileri",
-          "description": "Sosyal-duygusal öğrenme becerilerinin ilk bileşeni benlik becerileridir. Benlik becerileri, kişinin ihtiyacı olan kişisel kaynakları geliştirerek kullanabilmesini ifade etmekte ve bu açıdan kendiliği ve kişiliği ile  ilgili süreçleri yakından ilgilendirmektedir. Öğretim programlarında (I) kendini tanıma (öz farkındalık becerisi), (II) kendini düzenleme (öz düzenleme becerisi) ve (III) kendine uyarlama (öz yansıtma becerisi) olmak üzere üç benlik becerisi tanımlanmıştır.",
+          "description": "Sosyal-duygusal öğrenme becerilerinin ilk bileşeni benlik becerileridir. Benlik becerileri, kişinin ihtiyacı olan kişisel kaynakları geliştirerek kullanabilmesini ifade etmekte ve bu açıdan kendiliği ve kişiliği ile ilgili süreçleri yakından ilgilendirmektedir. Öğretim programlarında (I) kendini tanıma (öz farkındalık becerisi), (II) kendini düzenleme (öz düzenleme becerisi) ve (III) kendine uyarlama (öz yansıtma becerisi) olmak üzere üç benlik becerisi tanımlanmıştır.",
           "parent": null,
           "level": 1,
           "components": []
@@ -1020,7 +1363,7 @@
         {
           "code": "SDB2",
           "name": "Sosyal Yaşam Becerileri",
-          "description": "Sosyal-duygusal öğrenme becerilerinin ikinci bileşeni sosyal yaşam becerileridir. Sosyal yaşam becerileri, kişinin toplumsal hayata etkin olarak katılabilmek ve günlük hayatta karşılaştığı problemlerin  üstesinden gelebilmek için kullandığı becerileri ifade etmektedir ve bu açıdan kişinin toplumsal yönü ile ilişkilidir. Öğretim programlarında (I) iletişim, (II) iş birliği ve (III) sosyal farkındalık olmak üzere üç  sosyal yaşam becerisi tanımlanmıştır.",
+          "description": "Sosyal-duygusal öğrenme becerilerinin ikinci bileşeni sosyal yaşam becerileridir. Sosyal yaşam becerileri, kişinin toplumsal hayata etkin olarak katılabilmek ve günlük hayatta karşılaştığı problemlerin üstesinden gelebilmek için kullandığı becerileri ifade etmektedir ve bu açıdan kişinin toplumsal yönü ile ilişkilidir. Öğretim programlarında (I) iletişim, (II) iş birliği ve (III) sosyal farkındalık olmak üzere üç sosyal yaşam becerisi tanımlanmıştır.",
           "parent": null,
           "level": 1,
           "components": []
@@ -1459,7 +1802,7 @@
         {
           "code": "SDB3",
           "name": "Ortak/Birleşik Beceriler",
-          "description": "Öğretim programlarında alan yazınındaki diğer sosyal-duygusal öğrenme becerilerinin kavramsallaştırılmasından farklı biçimde özgün ortak/birleşik beceriler olarak ifade edilen bir beceri seti  tanımlanmıştır. Bu noktada ortak/birleşik beceriler, benlik becerileri ve sosyal yaşam becerileri ile sosyal-duygusal öğrenme becerilerinin yapısını oluşturmakta ayrıca benlik becerileri ile sosyal yaşam  becerilerinin kesişim noktasında yer almaktadır. Bu sayede birey, becerilerin hem kişisel hem de toplumsal yönünden beslenmektedir. Öğretim programlarında (I) uyum, (II) esneklik ve (III) sorumlu karar  verme olmak üzere üç ortak/birleşik beceri tanımlanmıştır.",
+          "description": "Öğretim programlarında alan yazınındaki diğer sosyal-duygusal öğrenme becerilerinin kavramsallaştırılmasından farklı biçimde özgün ortak/birleşik beceriler olarak ifade edilen bir beceri seti tanımlanmıştır. Bu noktada ortak/birleşik beceriler, benlik becerileri ve sosyal yaşam becerileri ile sosyal-duygusal öğrenme becerilerinin yapısını oluşturmakta ayrıca benlik becerileri ile sosyal yaşam becerilerinin kesişim noktasında yer almaktadır. Bu sayede birey, becerilerin hem kişisel hem de toplumsal yönünden beslenmektedir. Öğretim programlarında (I) uyum, (II) esneklik ve (III) sorumlu karar verme olmak üzere üç ortak/birleşik beceri tanımlanmıştır.",
           "parent": null,
           "level": 1,
           "components": []
@@ -1779,7 +2122,8 @@
             }
           ]
         }
-      ]
+      ],
+      "anomalies": []
     },
     {
       "code": "E",
@@ -1791,7 +2135,7 @@
         {
           "code": "E1",
           "name": "Benlik Eğilimleri",
-          "description": "Kişinin içsel özelliklerini ve kişiliğini, sergileyeceği becerilere yansıtmasını ifade eder. Türkiye Yüzyılı Maarif Modeli'nde (I) merak, (II) bağımsızlık, (III) azim ve kararlılık, (IV) kendine inanma (öz yeterlilik),  (V) kendine güvenme (öz güven) ve (VI) seçicilik olmak üzere altı benlik eğilimi tanımlanmıştır.",
+          "description": "Kişinin içsel özelliklerini ve kişiliğini, sergileyeceği becerilere yansıtmasını ifade eder. Türkiye Yüzyılı Maarif Modeli'nde (I) merak, (II) bağımsızlık, (III) azim ve kararlılık, (IV) kendine inanma (öz yeterlilik), (V) kendine güvenme (öz güven) ve (VI) seçicilik olmak üzere altı benlik eğilimi tanımlanmıştır.",
           "parent": null,
           "level": 1,
           "components": []
@@ -1839,7 +2183,7 @@
         {
           "code": "E1.6",
           "name": "Seçicilik",
-          "description": "Bireyin bir bilgi, durum ya da eylem karşısında anlamlı ve etkili olanı ayırt etme; kendi amaç, değer, ilke ve ölçütlerine uygun olanı bilinçli biçimde tercih etme ya da tercih etmeme yönünde zihinsel eleme ve kullanmaya ilişkin zihinsel örüntüleri ifade eder. Bu eğilim, bireyin kendi birikimiyle uyumlu tercihler yapma, kararlarının arkasında gerekçeler bulundurma ve seçimlerinde öznel sorumluluğu üstlenme tutumunu  yansıtır.",
+          "description": "Bireyin bir bilgi, durum ya da eylem karşısında anlamlı ve etkili olanı ayırt etme; kendi amaç, değer, ilke ve ölçütlerine uygun olanı bilinçli biçimde tercih etme ya da tercih etmeme yönünde zihinsel eleme ve kullanmaya ilişkin zihinsel örüntüleri ifade eder. Bu eğilim, bireyin kendi birikimiyle uyumlu tercihler yapma, kararlarının arkasında gerekçeler bulundurma ve seçimlerinde öznel sorumluluğu üstlenme tutumunu yansıtır.",
           "parent": "E1",
           "level": 2,
           "components": []
@@ -1847,7 +2191,7 @@
         {
           "code": "E2",
           "name": "Sosyal Eğilimler",
-          "description": "Kişinin içsel özelliklerini ve kişiliğini sosyal bir ortam içerisinde sergileyeceği becerilere yansıtmasını ifade eder. Türkiye Yüzyılı Maarif Modeli'nde (I) empati, (II) sorumluluk, (III) girişkenlik, (IV) güven ve (V)  oyunseverlik olmak üzere beş sosyal eğilim tanımlanmıştır.",
+          "description": "Kişinin içsel özelliklerini ve kişiliğini sosyal bir ortam içerisinde sergileyeceği becerilere yansıtmasını ifade eder. Türkiye Yüzyılı Maarif Modeli'nde (I) empati, (II) sorumluluk, (III) girişkenlik, (IV) güven ve (V) oyunseverlik olmak üzere beş sosyal eğilim tanımlanmıştır.",
           "parent": null,
           "level": 1,
           "components": []
@@ -1863,7 +2207,7 @@
         {
           "code": "E2.2",
           "name": "Sorumluluk",
-          "description": "Üstlenilen görev doğru ve zamanında yerine getirilirken verilen kararların ve yerine getirilen eylemlerin sonuçlarını üstlenerek gerektiğinde bu sonuçlarla ilgili hesap verilmesine ilişkin zihinsel örüntüleri  ifade eder.",
+          "description": "Üstlenilen görev doğru ve zamanında yerine getirilirken verilen kararların ve yerine getirilen eylemlerin sonuçlarını üstlenerek gerektiğinde bu sonuçlarla ilgili hesap verilmesine ilişkin zihinsel örüntüleri ifade eder.",
           "parent": "E2",
           "level": 2,
           "components": []
@@ -1895,7 +2239,7 @@
         {
           "code": "E3",
           "name": "Entelektüel Eğilimler",
-          "description": "Kişinin zihinsel ve düşünsel birikimlerini sergileyeceği becerilere yansıtmasını ifade eder. Türkiye Yüzyılı Maarif Modeli'nde (I) muhakeme, (II) odaklanma, (III) yaratıcılık, (IV) gerçeği arama, (V) açık  fikirlilik, (VI) analitiklik, (VII) sistematiklik, (VIII) soru sorma, (IX) şüphe duyma ve (X) eleştirel bakma olmak üzere on entelektüel eğilim tanımlanmıştır.",
+          "description": "Kişinin zihinsel ve düşünsel birikimlerini sergileyeceği becerilere yansıtmasını ifade eder. Türkiye Yüzyılı Maarif Modeli'nde (I) muhakeme, (II) odaklanma, (III) yaratıcılık, (IV) gerçeği arama, (V) açık fikirlilik, (VI) analitiklik, (VII) sistematiklik, (VIII) soru sorma, (IX) şüphe duyma ve (X) eleştirel bakma olmak üzere on entelektüel eğilim tanımlanmıştır.",
           "parent": null,
           "level": 1,
           "components": []
@@ -1903,7 +2247,7 @@
         {
           "code": "E3.1",
           "name": "Muhakeme",
-          "description": "Bir konuya/duruma/olaya/olguya ilişkin bilgi, veri ve unsurları dikkatle değerlendirerek mantıklı, tutarlı ve doğru sonuçlara ulaşma; kavramlar ve düşünceler arasında anlamlı bağlantılar kurarak  karşılaştırmalar yapabilmeye dair zihinsel süreçleri farkındalık, bakış açısı, tutum ve davranışa dönüştürmeye yönelik zihinsel örüntüleri ifade eder.",
+          "description": "Bir konuya/duruma/olaya/olguya ilişkin bilgi, veri ve unsurları dikkatle değerlendirerek mantıklı, tutarlı ve doğru sonuçlara ulaşma; kavramlar ve düşünceler arasında anlamlı bağlantılar kurarak karşılaştırmalar yapabilmeye dair zihinsel süreçleri farkındalık, bakış açısı, tutum ve davranışa dönüştürmeye yönelik zihinsel örüntüleri ifade eder.",
           "parent": "E3",
           "level": 2,
           "components": []
@@ -1967,7 +2311,7 @@
         {
           "code": "E3.9",
           "name": "Şüphe Duyma",
-          "description": "Kendisine sunulan bir bilgi karşısında hissettiği emin olamama durumundan hareketle bu bilgiyi en küçük parçalarına kadar bölmesini ve her aşamada işlemlerini kontrol ederek emin olduğu her adımda bir  üst basamağa çıkmasını hedefleyen zihinsel örüntüleri ifade eder.",
+          "description": "Kendisine sunulan bir bilgi karşısında hissettiği emin olamama durumundan hareketle bu bilgiyi en küçük parçalarına kadar bölmesini ve her aşamada işlemlerini kontrol ederek emin olduğu her adımda bir üst basamağa çıkmasını hedefleyen zihinsel örüntüleri ifade eder.",
           "parent": "E3",
           "level": 2,
           "components": []
@@ -1980,7 +2324,8 @@
           "level": 2,
           "components": []
         }
-      ]
+      ],
+      "anomalies": []
     },
     {
       "code": "D",
@@ -4035,7 +4380,7 @@
         {
           "code": "D18",
           "name": "Temizlik",
-          "description": "Kişisel temizlik ve bakıma dikkat ederek kendisine ve topluma saygı duymayı, yaşadığı ortamın ve çevrenin temizliğine önem vererek toplumdaki genel yaşam kalitesine ve sürdürülebilirliğe katkıda bulunmayı",
+          "description": "Kişisel temizlik ve bakıma dikkat ederek kendisine ve topluma saygı duymayı, yaşadığı ortamın ve çevrenin temizliğine önem vererek toplumdaki genel yaşam kalitesine ve sürdürülebilirliğe katkıda bulunmayı kapsar.",
           "parent": null,
           "level": 1,
           "components": []
@@ -4399,7 +4744,8 @@
             }
           ]
         }
-      ]
+      ],
+      "anomalies": []
     },
     {
       "code": "OB",
@@ -5535,7 +5881,8 @@
             }
           ]
         }
-      ]
+      ],
+      "anomalies": []
     },
     {
       "code": "",
@@ -5543,11 +5890,12 @@
       "source_urls": [
         "https://tymm.meb.gov.tr/beceriler/fiziksel-beceriler"
       ],
-      "skills": []
+      "skills": [],
+      "anomalies": []
     },
     {
       "code": "TAB",
-      "name": "Türkçe Alan Becerileri (TAB)",
+      "name": "Türkçe Alan Becerileri",
       "source_urls": [
         "https://tymm.meb.gov.tr/beceriler/turkce-alan-becerileri"
       ],
@@ -5559,7 +5907,8 @@
           "parent": null,
           "level": 1,
           "components": [],
-          "from_heading": true
+          "from_heading": true,
+          "group": "Anlama Becerileri"
         },
         {
           "code": "TAB1.1",
@@ -5577,7 +5926,8 @@
               "text": "İlişkiyi sürdürmek"
             }
           ],
-          "context": "Dinleme/İzleme Becerisi"
+          "context": "Dinleme/İzleme Becerisi",
+          "group": "Anlama Becerileri"
         },
         {
           "code": "TAB1.2",
@@ -5611,7 +5961,8 @@
               "text": "Tepki vermek"
             }
           ],
-          "context": "Dinleme/İzleme Becerisi"
+          "context": "Dinleme/İzleme Becerisi",
+          "group": "Anlama Becerileri"
         },
         {
           "code": "TAB1.3",
@@ -5629,7 +5980,8 @@
               "text": "Tepki ortaya koymak"
             }
           ],
-          "context": "Dinleme/İzleme Becerisi"
+          "context": "Dinleme/İzleme Becerisi",
+          "group": "Anlama Becerileri"
         },
         {
           "code": "TAB2",
@@ -5638,7 +5990,8 @@
           "parent": null,
           "level": 1,
           "components": [],
-          "from_heading": true
+          "from_heading": true,
+          "group": "Anlama Becerileri"
         },
         {
           "code": "TAB2.1",
@@ -5656,7 +6009,8 @@
               "text": "Seçim yapmak"
             }
           ],
-          "context": "Okuma Becerisi"
+          "context": "Okuma Becerisi",
+          "group": "Anlama Becerileri"
         },
         {
           "code": "TAB2.2",
@@ -5690,7 +6044,8 @@
               "text": "Tepki vermek"
             }
           ],
-          "context": "Okuma Becerisi"
+          "context": "Okuma Becerisi",
+          "group": "Anlama Becerileri"
         },
         {
           "code": "TAB2.3",
@@ -5708,7 +6063,8 @@
               "text": "Tepki ortaya koymak"
             }
           ],
-          "context": "Okuma Becerisi"
+          "context": "Okuma Becerisi",
+          "group": "Anlama Becerileri"
         },
         {
           "code": "TAB3",
@@ -5717,7 +6073,8 @@
           "parent": null,
           "level": 1,
           "components": [],
-          "from_heading": true
+          "from_heading": true,
+          "group": "Anlatma Becerileri"
         },
         {
           "code": "TAB3.1",
@@ -5735,7 +6092,8 @@
               "text": "İlişkiyi sürdürmek"
             }
           ],
-          "context": "Konuşma Becerisi"
+          "context": "Konuşma Becerisi",
+          "group": "Anlatma Becerileri"
         },
         {
           "code": "TAB3.2",
@@ -5781,7 +6139,8 @@
               "text": "Sunmak"
             }
           ],
-          "context": "Konuşma Becerisi"
+          "context": "Konuşma Becerisi",
+          "group": "Anlatma Becerileri"
         },
         {
           "code": "TAB3.3",
@@ -5819,7 +6178,8 @@
               "text": "Beden dilini ve mekânı kullanmak"
             }
           ],
-          "context": "Konuşma Becerisi"
+          "context": "Konuşma Becerisi",
+          "group": "Anlatma Becerileri"
         },
         {
           "code": "TAB3.4",
@@ -5837,7 +6197,8 @@
               "text": "Tepki ortaya koymak"
             }
           ],
-          "context": "Konuşma Becerisi"
+          "context": "Konuşma Becerisi",
+          "group": "Anlatma Becerileri"
         },
         {
           "code": "TAB4",
@@ -5846,7 +6207,8 @@
           "parent": null,
           "level": 1,
           "components": [],
-          "from_heading": true
+          "from_heading": true,
+          "group": "Anlatma Becerileri"
         },
         {
           "code": "TAB4.1",
@@ -5864,7 +6226,8 @@
               "text": "İlişkiyi sürdürmek"
             }
           ],
-          "context": "Yazma Becerisi"
+          "context": "Yazma Becerisi",
+          "group": "Anlatma Becerileri"
         },
         {
           "code": "TAB4.2",
@@ -5906,7 +6269,8 @@
               "text": "Sunmak"
             }
           ],
-          "context": "Yazma Becerisi"
+          "context": "Yazma Becerisi",
+          "group": "Anlatma Becerileri"
         },
         {
           "code": "TAB4.3",
@@ -5948,7 +6312,8 @@
               "text": "Noktalama kurallarını uygulamak"
             }
           ],
-          "context": "Yazma Becerisi"
+          "context": "Yazma Becerisi",
+          "group": "Anlatma Becerileri"
         },
         {
           "code": "TAB4.4",
@@ -5966,13 +6331,23 @@
               "text": "Tepki ortaya koymak"
             }
           ],
-          "context": "Yazma Becerisi"
+          "context": "Yazma Becerisi",
+          "group": "Anlatma Becerileri"
+        }
+      ],
+      "anomalies": [
+        {
+          "kind": "component_code_mismatch",
+          "code": "TAB3.3.SB8",
+          "expected_parent": "TAB3.2",
+          "source_line": "TAB3.3.SB.8. Görselle anlam oluşturmak",
+          "source_url": "https://tymm.meb.gov.tr/beceriler/turkce-alan-becerileri"
         }
       ]
     },
     {
       "code": "MAB",
-      "name": "Matematik Alan Becerileri (MAB)",
+      "name": "Matematik Alan Becerileri",
       "source_urls": [
         "https://tymm.meb.gov.tr/beceriler/matematik-alan-becerileri"
       ],
@@ -5980,7 +6355,7 @@
         {
           "code": "MAB1",
           "name": "Matematiksel Muhakeme Becerisi",
-          "description": "Bilgi veya varsayımlar kullanarak mantığa yatkın çıkarımlarda bulunma sürecini ifade eder. Matematiksel muhakeme becerisi; \"çözümleme\", \"yorumlama\", \"çıkarım yapma\" ve \"matematiksel doğrulama veya  ispat yapma\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Bilgi veya varsayımlar kullanarak mantığa yatkın çıkarımlarda bulunma sürecini ifade eder. Matematiksel muhakeme becerisi; \"çözümleme\", \"yorumlama\", \"çıkarım yapma\" ve \"matematiksel doğrulama veya ispat yapma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -6007,7 +6382,7 @@
         {
           "code": "MAB2",
           "name": "Matematiksel Problem Çözme Becerisi",
-          "description": "Asgari düzeyde matematiksel bir problemi çözebilmek için deneyimlenmesi gereken süreci ifade eder. Matematiksel problem çözme becerisi; \"çözümleme\", \"yorumlama\", \"matematiksel çözümler  geliştirme\" ve \"yansıtma\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Asgari düzeyde matematiksel bir problemi çözebilmek için deneyimlenmesi gereken süreci ifade eder. Matematiksel problem çözme becerisi; \"çözümleme\", \"yorumlama\", \"matematiksel çözümler geliştirme\" ve \"yansıtma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -6038,7 +6413,7 @@
         {
           "code": "MAB3",
           "name": "Matematiksel Temsil Becerisi",
-          "description": "Matematik diliyle ifade edilebilir bir durum, problem, çözüm ya da ispatı kişinin anlamlandırması ve çevresi ile paylaşarak tartışması için gerekli olan matematiksel süreçleri, olguları ve düşünceleri sergileme  araçlarını ifade eder. Matematiksel temsil becerisi, \"matematiksel temsillerden yararlanma\" ve \"matematiksel temsilleri değerlendirme\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Matematik diliyle ifade edilebilir bir durum, problem, çözüm ya da ispatı kişinin anlamlandırması ve çevresi ile paylaşarak tartışması için gerekli olan matematiksel süreçleri, olguları ve düşünceleri sergileme araçlarını ifade eder. Matematiksel temsil becerisi, \"matematiksel temsillerden yararlanma\" ve \"matematiksel temsilleri değerlendirme\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -6091,7 +6466,7 @@
         {
           "code": "MAB4",
           "name": "Veri ile Çalışma ve Veriye Dayalı Karar Verme Becerisi",
-          "description": "İstatistiksel bir problemi çözmek veya bir araştırma sorusuna cevap bulmak için verilerden belirli süreç adımlarını takip ederek anlamlı sonuçlar çıkarmayı ifade eder. Veri ile çalışma ve veriye dayalı karar  verme becerisi; \"istatistiksel problemi belirleme\", \"verileri elde etme ve analiz için değerlendirme\", \"bulgulara ulaşma\" ve \"bulguları yorumlama\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "İstatistiksel bir problemi çözmek veya bir araştırma sorusuna cevap bulmak için verilerden belirli süreç adımlarını takip ederek anlamlı sonuçlar çıkarmayı ifade eder. Veri ile çalışma ve veriye dayalı karar verme becerisi; \"istatistiksel problemi belirleme\", \"verileri elde etme ve analiz için değerlendirme\", \"bulgulara ulaşma\" ve \"bulguları yorumlama\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -6172,7 +6547,7 @@
         {
           "code": "MAB5",
           "name": "Matematiksel Araç ve Teknoloji İle Çalışma Becerisi",
-          "description": "Matematiği öğrenirken, matematiksel bir durumu incelerken, bir problemin çözümünü araştırırken matematiği yazılı, sözlü veya görsel yollarla paylaşırken uygun araç ve teknolojiden yararlanmayı ifade  eder. Matematiksel araç ve teknoloji ile çalışma becerisi, \"matematiksel araç ve teknolojiden yararlanma\" ve \"değerlendirme\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Matematiği öğrenirken, matematiksel bir durumu incelerken, bir problemin çözümünü araştırırken matematiği yazılı, sözlü veya görsel yollarla paylaşırken uygun araç ve teknolojiden yararlanmayı ifade eder. Matematiksel araç ve teknoloji ile çalışma becerisi, \"matematiksel araç ve teknolojiden yararlanma\" ve \"değerlendirme\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -6200,18 +6575,19 @@
           ],
           "context": "Matematiksel Araç ve Teknoloji İle Çalışma Becerisi"
         }
-      ]
+      ],
+      "anomalies": []
     },
     {
       "code": "FBAB",
-      "name": "Fen Bilimleri Alan Becerileri (FBAB)",
+      "name": "Fen Bilimleri Alan Becerileri",
       "source_urls": [
         "https://tymm.meb.gov.tr/beceriler/fen-bilimleri-alan-becerileri"
       ],
       "skills": [
         {
           "code": "FBAB1",
-          "name": "Bilimsel Gözlem",
+          "name": "Bilimsel Gözlem Becerisi",
           "description": "Bilgiye ulaşmada veya bilgiyi yapılandırmada tüm duyularla doğrudan ya da dolaylı olarak nesne, olgu, olay ve süreçlerle ilgili veriler toplamayı ifade eder.",
           "parent": null,
           "level": 1,
@@ -6233,7 +6609,7 @@
         },
         {
           "code": "FBAB2",
-          "name": "Sınıflandırma",
+          "name": "Sınıflandırma Becerisi",
           "description": "Bir nesne, canlı, olay ve olguya ait niteliklerin belirlenmesi; benzerliklerinin, farklılıklarının ve aralarındaki (örüntüyle ilgili) ilişkilerin belirlenmesi ve bunlara göre gruplandırılması ya da ayrıştırılmasını ifade eder.",
           "parent": null,
           "level": 1,
@@ -6259,7 +6635,7 @@
         },
         {
           "code": "FBAB3",
-          "name": "Bilimsel Gözleme Dayalı Tahmin",
+          "name": "Bilimsel Gözleme Dayalı Tahmin Becerisi",
           "description": "Mevcut durum/olay ile ilgili ön gözlemlerden veya deneyimlerden yola çıkarak çıkarım yapmayı ve buna ilişkin yargıda bulunmayı ifade eder.",
           "parent": null,
           "level": 1,
@@ -6289,7 +6665,7 @@
         },
         {
           "code": "FBAB4",
-          "name": "Bilimsel Veriye Dayalı Tahmin",
+          "name": "Bilimsel Veriye Dayalı Tahmin Becerisi",
           "description": "Mevcut durum/olaya ilişkin eldeki veriler üzerinden hesaplamalar yapılarak yargıda bulunmayı ifade eder.",
           "parent": null,
           "level": 1,
@@ -6315,7 +6691,7 @@
         },
         {
           "code": "FBAB5",
-          "name": "Operasyonel Tanımlama",
+          "name": "Operasyonel Tanımlama Becerisi",
           "description": "Örneklerin ilişkilendirilerek veya bir şeyin nasıl çalıştığına ilişkin düşüncelerin paylaşılarak bir kavramın anlaşılmasının gösterilmesini ifade eder.",
           "parent": null,
           "level": 1,
@@ -6337,7 +6713,7 @@
         },
         {
           "code": "FBAB6",
-          "name": "Hipotez Oluşturma",
+          "name": "Hipotez Oluşturma Becerisi",
           "description": "Belirlenen bir problemi çözmek amacıyla değişkenler arasındaki ilişkileri açıklamaya çalışan bilimsel, basit ve sınanabilir özelliğe sahip önermeleri ifade eder.",
           "parent": null,
           "level": 1,
@@ -6367,7 +6743,7 @@
         },
         {
           "code": "FBAB7",
-          "name": "Deney Yapma",
+          "name": "Deney Yapma Becerisi",
           "description": "Salt gözlemin ötesine geçerek ölçme verileri ve onların analizlerini kullanarak bir sonuca ulaşma sürecini ifade eder.",
           "parent": null,
           "level": 1,
@@ -6385,7 +6761,7 @@
         },
         {
           "code": "FBAB8",
-          "name": "Bilimsel Çıkarım Yapma",
+          "name": "Bilimsel Çıkarım Yapma Becerisi",
           "description": "Gözlem verilerine dayanan destekleyici kanıtlara ve geçmiş deneyimlere dayalı bir sonuca ulaşma ve bir yargıda bulunmayı ifade eder.",
           "parent": null,
           "level": 1,
@@ -6407,7 +6783,7 @@
         },
         {
           "code": "FBAB9",
-          "name": "Bilimsel Model Oluşturma",
+          "name": "Bilimsel Model Oluşturma Becerisi",
           "description": "Zihinsel aşamalar içeren bilimsel işlemler bütününü ifade eder.",
           "parent": null,
           "level": 1,
@@ -6425,7 +6801,7 @@
         },
         {
           "code": "FBAB10",
-          "name": "Tümevarımsal Akıl Yürütme",
+          "name": "Tümevarımsal Akıl Yürütme Becerisi",
           "description": "Deneyimlere dayalı gözlemlerden veya deneysel olarak çıkarılmış önermelerden genellemelere ulaşmak yani deneyimlerden genelleme yoluyla bilgi üretme yöntemini ifade eder.",
           "parent": null,
           "level": 1,
@@ -6443,7 +6819,7 @@
         },
         {
           "code": "FBAB11",
-          "name": "Tümdengelimsel Akıl Yürütme",
+          "name": "Tümdengelimsel Akıl Yürütme Becerisi",
           "description": "Mantıksal çıkarım adımları izlenerek genel önermelerden yola çıkılarak özel önermelerin elde edilme sürecini ifade eder.",
           "parent": null,
           "level": 1,
@@ -6461,7 +6837,7 @@
         },
         {
           "code": "FBAB12",
-          "name": "Kanıt Kullanma",
+          "name": "Kanıt Kullanma Becerisi",
           "description": "Bilimsel sorgulama, argümantasyon ve problem çözme süreçlerinin temel becerisini ifade eder.",
           "parent": null,
           "level": 1,
@@ -6483,7 +6859,7 @@
         },
         {
           "code": "FBAB13",
-          "name": "Bilimsel Sorgulama",
+          "name": "Bilimsel Sorgulama Becerisi",
           "description": "Bilim insanlarının gözlemlenebilir bilimsel nitelikteki bir konuyu, sorunu veya olayı anlamak ve kanıtlara dayalı olarak açıklamak için kullandıkları sistematik araştırma yöntemleri ve stratejilerinin bütününü ifade eder.",
           "parent": null,
           "level": 1,
@@ -6515,11 +6891,12 @@
           ],
           "context": "Bilimsel Sorgulama Becerisi"
         }
-      ]
+      ],
+      "anomalies": []
     },
     {
       "code": "SBAB",
-      "name": "Sosyal Bilimler Alan Becerileri (SBAB)",
+      "name": "Sosyal Bilimler Alan Becerileri",
       "source_urls": [
         "https://tymm.meb.gov.tr/beceriler/sosyal-bilimler-alan-becerileri"
       ],
@@ -6527,7 +6904,7 @@
         {
           "code": "SBAB1",
           "name": "Zamanı Algılama ve Kronolojik Düşünme Becerisi",
-          "description": "En temelde tarihsel olay, dönem ve aktörleri zamanın içine yerleştirmeye ve zaman içinde ardışık bir şekilde sıralamaya katkı sağlayan; farklı olay ve dönemlerin birbirleriyle ilişkisini tanımayı kolaylaştıran,  bir olayın kısa ve uzun süreli sonuçlarını karşılaştırmayı sağlayan bir beceridir. Zamanı anlama ve kronolojik düşünme becerisi; \"karşılaştırma\", \"dönüştürme\", \"sıralama\" ve \"değerlendirme\" bütünleşik  becerilerinden oluşmaktadır.",
+          "description": "En temelde tarihsel olay, dönem ve aktörleri zamanın içine yerleştirmeye ve zaman içinde ardışık bir şekilde sıralamaya katkı sağlayan; farklı olay ve dönemlerin birbirleriyle ilişkisini tanımayı kolaylaştıran, bir olayın kısa ve uzun süreli sonuçlarını karşılaştırmayı sağlayan bir beceridir. Zamanı anlama ve kronolojik düşünme becerisi; \"karşılaştırma\", \"dönüştürme\", \"sıralama\" ve \"değerlendirme\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -6568,7 +6945,7 @@
         {
           "code": "SBAB2",
           "name": "Kanıta Dayalı Sorgulama ve Araştırma Becerisi",
-          "description": "Tarihçilerin araştırma, sorgulama, analiz ve yorumlama süreçlerinin öğrenciye tanıtılmasını ve öğrencide bu süreçlere ilişkin deneyim ve becerilerin oluşturulmasını ve bu süreçlerde tarihsel kaynakların nasıl  kullanılacağını ifade eder. Kanıta dayalı sorgulama ve araştırma becerisi; \"meraka dayalı soru sorma\", \"kaynaklardan bilgi toplama\", \"kaynağı inceleme\", \"kaynağı sorgulama\", \"kaynağı yorumlama\" ve  \"kanıta dayalı ürün oluşturma ve paylaşma\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Tarihçilerin araştırma, sorgulama, analiz ve yorumlama süreçlerinin öğrenciye tanıtılmasını ve öğrencide bu süreçlere ilişkin deneyim ve becerilerin oluşturulmasını ve bu süreçlerde tarihsel kaynakların nasıl kullanılacağını ifade eder. Kanıta dayalı sorgulama ve araştırma becerisi; \"meraka dayalı soru sorma\", \"kaynaklardan bilgi toplama\", \"kaynağı inceleme\", \"kaynağı sorgulama\", \"kaynağı yorumlama\" ve \"kanıta dayalı ürün oluşturma ve paylaşma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -6736,7 +7113,7 @@
         {
           "code": "SBAB4",
           "name": "Değişim ve Sürekliliği Algılama Becerisi",
-          "description": "Tarihin herhangi bir döneminde bazı şeylerin devam ettiğini ve bazılarının ise nasıl değiştiğini açıklayabilme, zaman içindeki değişimi ilerleme-gelişme veya gerileme-bozulma şeklinde değerlendirebilmeyi  ifade eder. Değişim ve sürekliliği algılama becerisi; \"karşılaştırma\", \"sıralama\", \"değişim ve sürekliliği neden ve sonuçlarıyla yorumlama\", \"sentezleme\" ve \"değişim ve sürekliliğe dair kanıta dayalı öngörüde  bulunma\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Tarihin herhangi bir döneminde bazı şeylerin devam ettiğini ve bazılarının ise nasıl değiştiğini açıklayabilme, zaman içindeki değişimi ilerleme-gelişme veya gerileme-bozulma şeklinde değerlendirebilmeyi ifade eder. Değişim ve sürekliliği algılama becerisi; \"karşılaştırma\", \"sıralama\", \"değişim ve sürekliliği neden ve sonuçlarıyla yorumlama\", \"sentezleme\" ve \"değişim ve sürekliliğe dair kanıta dayalı öngörüde bulunma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -6803,7 +7180,7 @@
         {
           "code": "SBAB5",
           "name": "Sosyal Katılım Becerisi",
-          "description": "Öğrencilerin hem kendini hem de yakın çevresini etkileyen konularla ilgili bilgi sahibi olmasının yanında ihtiyaçların giderilmesinde sosyal grup çatısına dâhil olarak fikir üretmekten eyleme geçilme sürecini ifade eder. Üretilen fikrin çevredekilere iletilmesi; fikirle ilgili görüşme, tartışma ve planlama yapılması; uzlaşmaya varılması ve eylemde bulunulması faaliyetlerini kapsar. Sosyal katılım becerisi; \"sorgulama\",  \"sosyal temas oluşturma\", \"grup dinamiğini sağlama\", \"fikir üretme\", \"müzakere etme\" ve \"fikri eyleme dönüştürme\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Öğrencilerin hem kendini hem de yakın çevresini etkileyen konularla ilgili bilgi sahibi olmasının yanında ihtiyaçların giderilmesinde sosyal grup çatısına dâhil olarak fikir üretmekten eyleme geçilme sürecini ifade eder. Üretilen fikrin çevredekilere iletilmesi; fikirle ilgili görüşme, tartışma ve planlama yapılması; uzlaşmaya varılması ve eylemde bulunulması faaliyetlerini kapsar. Sosyal katılım becerisi; \"sorgulama\", \"sosyal temas oluşturma\", \"grup dinamiğini sağlama\", \"fikir üretme\", \"müzakere etme\" ve \"fikri eyleme dönüştürme\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -6934,7 +7311,7 @@
         {
           "code": "SBAB6",
           "name": "Girişimcilik Becerisi",
-          "description": "İnsanlarla ilişkilerde uyum gösterebilme ve onlarla empati yapabilme, risk alarak toplumda ihtiyaç duyulan herhangi bir alanda bir ürüne olan ihtiyacı sezme, ürünle ilgili planlama yapma, ürün ortaya  koyma ve pazarlama süreçlerini kapsayan temel bir beceri alanını ifade eder. Girişimcilik becerisi; \"sorgulama\", \"gözleme dayalı tahmin etme\", \"riskleri değerlendirerek karar verme\", \"kaynakları yönetme\" ve  \"fikri sonuçlandırma\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "İnsanlarla ilişkilerde uyum gösterebilme ve onlarla empati yapabilme, risk alarak toplumda ihtiyaç duyulan herhangi bir alanda bir ürüne olan ihtiyacı sezme, ürünle ilgili planlama yapma, ürün ortaya koyma ve pazarlama süreçlerini kapsayan temel bir beceri alanını ifade eder. Girişimcilik becerisi; \"sorgulama\", \"gözleme dayalı tahmin etme\", \"riskleri değerlendirerek karar verme\", \"kaynakları yönetme\" ve \"fikri sonuçlandırma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -7013,7 +7390,7 @@
         {
           "code": "SBAB7",
           "name": "Mekânsal Düşünme Becerisi",
-          "description": "Mekân kavramlarını bilme, temsil araçlarını kullanma ve akıl yürütme süreçlerini uygulama şeklinde üç unsurun yapıcı bir bileşimini ifade eder. Bu beceri; insanların dünyayı modellemek (gerçek ve teorik),  problemleri yapılandırmak, yapılandırdıkları problemlere cevap ve çözümler bulmak için mekânı kullanmalarını sağlar. Mekânsal düşünme becerisi; \"konum algılama\", \"mekânın coğrafi koşullarını  tanımlama\", \"mekânsal bağlantıları çözümleme\", \"mekânları karşılaştırma\", \"mekânsal etkiyi sorgulama\", \"mekânsal bölge belirleme/çizme\", \"mekânsal hiyerarşiyi çözümleme\", \"mekânsal geçiş ile ilgili  çıkarımda bulunma\", \"mekânsal analoji yapma\", \"mekânsal deseni algılama\" ve \"mekânda desenlenen farklı coğrafi olay, olgu, konu veya mekânları çözümleme\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Mekân kavramlarını bilme, temsil araçlarını kullanma ve akıl yürütme süreçlerini uygulama şeklinde üç unsurun yapıcı bir bileşimini ifade eder. Bu beceri; insanların dünyayı modellemek (gerçek ve teorik), problemleri yapılandırmak, yapılandırdıkları problemlere cevap ve çözümler bulmak için mekânı kullanmalarını sağlar. Mekânsal düşünme becerisi; \"konum algılama\", \"mekânın coğrafi koşullarını tanımlama\", \"mekânsal bağlantıları çözümleme\", \"mekânları karşılaştırma\", \"mekânsal etkiyi sorgulama\", \"mekânsal bölge belirleme/çizme\", \"mekânsal hiyerarşiyi çözümleme\", \"mekânsal geçiş ile ilgili çıkarımda bulunma\", \"mekânsal analoji yapma\", \"mekânsal deseni algılama\" ve \"mekânda desenlenen farklı coğrafi olay, olgu, konu veya mekânları çözümleme\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -7264,7 +7641,7 @@
         {
           "code": "SBAB8",
           "name": "Coğrafi Sorgulama Becerisi",
-          "description": "Merak edilen coğrafi olay/olgu ve mekânlar hakkında bilgi sahibi olmak için sorular sorma, doğru kaynaklardan veri toplama, düzenleme, görselleştirme, analiz ederek inceleme ve ilgili verilerden sonuçlar  çıkarma şeklinde gerçekleşen beceriyi ifade eder.",
+          "description": "Merak edilen coğrafi olay/olgu ve mekânlar hakkında bilgi sahibi olmak için sorular sorma, doğru kaynaklardan veri toplama, düzenleme, görselleştirme, analiz ederek inceleme ve ilgili verilerden sonuçlar çıkarma şeklinde gerçekleşen beceriyi ifade eder.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -7399,7 +7776,7 @@
         {
           "code": "SBAB9",
           "name": "Coğrafi Gözlem ve Saha Çalışması Becerisi",
-          "description": "Coğrafi gözlem; coğrafi bir olay, olgu, konu ve mekân hakkında bilgi ve görüş edinmek amacıyla planlı ve sistemli bir biçimde duyu organları veya gözlem araçları yardımıyla yapılan incelemeyi ifade eder.  Coğrafya biliminin dolayısıyla coğrafyacının laboratuvarı arazidir. Coğrafi saha çalışması; olayların meydana geldiği mekânlara giderek gözlem yapmak, yerinde değerlendirmelerde bulunmak ve olaylar  arası korelasyonları tespit etmek şeklinde gerçekleşir. Coğrafi gözlem ve saha çalışması, coğrafi süreçlerin ve coğrafi sorgulamanın anlaşılmasını kolaylaştıran önemli becerilerden biridir. Coğrafi gözlem  ve saha çalışması becerisi; \"coğrafi gözlem ve çalışma sahası için hazırlık yapma\", \"coğrafi gözlem ve çalışma sahasında uygulama\", \"coğrafi gözlem ve çalışma sahasından elde edilen bilgileri  düzenleme\", \"coğrafi gözlem ve çalışma sahasından elde edilen bilgileri çözümleme\", \"coğrafi gözlem ve saha çalışması verilerine dayalı tahminde bulunma\" ve \"coğrafi gözlem sahasından elde edilen  bilgileri raporlama\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Coğrafi gözlem; coğrafi bir olay, olgu, konu ve mekân hakkında bilgi ve görüş edinmek amacıyla planlı ve sistemli bir biçimde duyu organları veya gözlem araçları yardımıyla yapılan incelemeyi ifade eder. Coğrafya biliminin dolayısıyla coğrafyacının laboratuvarı arazidir. Coğrafi saha çalışması; olayların meydana geldiği mekânlara giderek gözlem yapmak, yerinde değerlendirmelerde bulunmak ve olaylar arası korelasyonları tespit etmek şeklinde gerçekleşir. Coğrafi gözlem ve saha çalışması, coğrafi süreçlerin ve coğrafi sorgulamanın anlaşılmasını kolaylaştıran önemli becerilerden biridir. Coğrafi gözlem ve saha çalışması becerisi; \"coğrafi gözlem ve çalışma sahası için hazırlık yapma\", \"coğrafi gözlem ve çalışma sahasında uygulama\", \"coğrafi gözlem ve çalışma sahasından elde edilen bilgileri düzenleme\", \"coğrafi gözlem ve çalışma sahasından elde edilen bilgileri çözümleme\", \"coğrafi gözlem ve saha çalışması verilerine dayalı tahminde bulunma\" ve \"coğrafi gözlem sahasından elde edilen bilgileri raporlama\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -7548,7 +7925,7 @@
         {
           "code": "SBAB10",
           "name": "Harita Becerisi",
-          "description": "Haritalar, mekânsal bilgiyi görselleştirmek için kullanılan araçlar arasında yer almaktadır. Harita kullanma becerisi sayesinde yaşanılan bölge ve yerküre hakkındaki uzamsal bilgiler daha doğru şekilde  yorumlanır. Harita becerisi; \"harita okuma\", \"haritayı çözümleme\", \"haritadan çıkarım yapma\" ve \"harita oluşturma\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Haritalar, mekânsal bilgiyi görselleştirmek için kullanılan araçlar arasında yer almaktadır. Harita kullanma becerisi sayesinde yaşanılan bölge ve yerküre hakkındaki uzamsal bilgiler daha doğru şekilde yorumlanır. Harita becerisi; \"harita okuma\", \"haritayı çözümleme\", \"haritadan çıkarım yapma\" ve \"harita oluşturma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -7657,7 +8034,7 @@
         {
           "code": "SBAB11",
           "name": "Tablo, Grafik, Şekil ve/veya Diyagram Becerisi",
-          "description": "Tablo, grafik, şekil ve/veya diyagram becerisi ve bu becerinin bileşenleri ile tanınması; bu beceriye ait değişkenler arası ilişkiler, eğilimler, modeller, değişimler, sıralamalar ve bağlantıların belirlenmesi;  bunlardan sonuç çıkarılması ve bu sonuçların karşılaştırılması; tablo, grafik, şekil ve/veya diyagram hazırlamak için veri toplanması, verilerin sınıflandırılması ve uygun formlar yoluyla görselleştirilmesi  beklenir. Tablo, grafik, şekil ve/veya diyagram becerisi; \"tablo, grafik, şekil ve/veya diyagram okuma ve yorumlama\" ve \"tablo, grafik, şekil ve/veya diyagram hazırlama\" bütünleşik becerilerinden  oluşmaktadır.",
+          "description": "Tablo, grafik, şekil ve/veya diyagram becerisi ve bu becerinin bileşenleri ile tanınması; bu beceriye ait değişkenler arası ilişkiler, eğilimler, modeller, değişimler, sıralamalar ve bağlantıların belirlenmesi; bunlardan sonuç çıkarılması ve bu sonuçların karşılaştırılması; tablo, grafik, şekil ve/veya diyagram hazırlamak için veri toplanması, verilerin sınıflandırılması ve uygun formlar yoluyla görselleştirilmesi beklenir. Tablo, grafik, şekil ve/veya diyagram becerisi; \"tablo, grafik, şekil ve/veya diyagram okuma ve yorumlama\" ve \"tablo, grafik, şekil ve/veya diyagram hazırlama\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -7726,7 +8103,7 @@
         {
           "code": "SBAB12",
           "name": "Mantıksal Muhakeme Becerisi",
-          "description": "Hayatın tüm unsurlarıyla farkında olabilme, bu farkındalık ile bir bakış, tutum, duruş kazanma ve bunları davranışa, eyleme dökebilme olanağını ifade eder. Mantıksal muhakeme becerisi; \"yorumlama\", \"akıl  yürütme biçimlerini uygulama\" ve \"mantıksal denetleme\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Hayatın tüm unsurlarıyla farkında olabilme, bu farkındalık ile bir bakış, tutum, duruş kazanma ve bunları davranışa, eyleme dökebilme olanağını ifade eder. Mantıksal muhakeme becerisi; \"yorumlama\", \"akıl yürütme biçimlerini uygulama\" ve \"mantıksal denetleme\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -7761,7 +8138,7 @@
         {
           "code": "SBAB13",
           "name": "Felsefi Sorgulama Becerisi",
-          "description": "İnsan, evren ve hayata yönelik olarak sistemli, ardışık, bütüncül, refleksif nitelikte soru sorma sürecinin gerçekleşmesini ifade eder. Felsefi sorgulama becerisi; \"felsefi merak etme ve şüphe duyma\", \"felsefi  derinlemesine düşünme\", \"felsefi soru sorma\", \"eleştirel tavır alma\" ve \"tartışma\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "İnsan, evren ve hayata yönelik olarak sistemli, ardışık, bütüncül, refleksif nitelikte soru sorma sürecinin gerçekleşmesini ifade eder. Felsefi sorgulama becerisi; \"felsefi merak etme ve şüphe duyma\", \"felsefi derinlemesine düşünme\", \"felsefi soru sorma\", \"eleştirel tavır alma\" ve \"tartışma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -7882,7 +8259,7 @@
         {
           "code": "SBAB14",
           "name": "Felsefi Muhakeme Becerisi",
-          "description": "Geçmişten günümüze aklı düşünmeye sevk eden sorular ve bu sorular karşısında felsefi değer kazanmış cevaplarla karşılaşma, düşünme ve sorgulama becerilerini kullanabilmeyi ifade eder. Felsefi  muhakeme becerisi; \"felsefi problemleri anlama\", \"felsefi düşünce ve argümanları değerlendirme\", \"yorumlama\" ve \"felsefi metin inceleme\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Geçmişten günümüze aklı düşünmeye sevk eden sorular ve bu sorular karşısında felsefi değer kazanmış cevaplarla karşılaşma, düşünme ve sorgulama becerilerini kullanabilmeyi ifade eder. Felsefi muhakeme becerisi; \"felsefi problemleri anlama\", \"felsefi düşünce ve argümanları değerlendirme\", \"yorumlama\" ve \"felsefi metin inceleme\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -7961,7 +8338,7 @@
         {
           "code": "SBAB15",
           "name": "Felsefi Düşünce Ortaya Koyma Becerisi",
-          "description": "Veriye dayalı bilgileri kullanarak mantıksal çıkarımlarda bulunma ve alternatif görüş üretme sürecini ifade eder. Felsefi düşünce ortaya koyma becerisi; \"çözümleme\", \"felsefi  argümantasyon oluşturma\" ve \"özgün felsefi görüş sunma ve felsefi metin yazma\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Veriye dayalı bilgileri kullanarak mantıksal çıkarımlarda bulunma ve alternatif görüş üretme sürecini ifade eder. Felsefi düşünce ortaya koyma becerisi; \"çözümleme\", \"felsefi argümantasyon oluşturma\" ve \"özgün felsefi görüş sunma ve felsefi metin yazma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -8010,7 +8387,7 @@
         {
           "code": "SBAB16",
           "name": "Eleştirel Sosyolojik Düşünme Becerisi",
-          "description": "Bir sorunu veya argümanı, onu etkileyen sosyal güçlerin ve içinde şekillendiği toplumsal bağlamın bilinciyle ve duyarlığıyla sağduyulu bir şekilde değerlendirme becerisini ifade eder.  Eleştirel sosyolojik düşünme becerisi; \"çözümleme\", \"sorgulama\", \"sentezleme\" ve \"eleştirel düşünme\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Bir sorunu veya argümanı, onu etkileyen sosyal güçlerin ve içinde şekillendiği toplumsal bağlamın bilinciyle ve duyarlığıyla sağduyulu bir şekilde değerlendirme becerisini ifade eder. Eleştirel sosyolojik düşünme becerisi; \"çözümleme\", \"sorgulama\", \"sentezleme\" ve \"eleştirel düşünme\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -8019,7 +8396,7 @@
         {
           "code": "SBAB17",
           "name": "Tarihsel Sorun Analizi ve Karar Verme Becerisi",
-          "description": "Geçmişteki bir sorunu tarihsel bağlamında ve olayı yaşayan insanların gözünden değerlendirerek dönemin şartları içinde neler yapılabileceğini analiz etme ve karar verme becerisini ifade  eder. Tarihsel sorun analizi ve karar verme becerisi; \" tarihsel sorunu belirleme ve çözümleme\" ve \"tarihsel soruna alternatif çözüm üretme ve değerlendirme\" bütünleşik becerilerinden  oluşmaktadır.",
+          "description": "Geçmişteki bir sorunu tarihsel bağlamında ve olayı yaşayan insanların gözünden değerlendirerek dönemin şartları içinde neler yapılabileceğini analiz etme ve karar verme becerisini ifade eder. Tarihsel sorun analizi ve karar verme becerisi; \" tarihsel sorunu belirleme ve çözümleme\" ve \"tarihsel soruna alternatif çözüm üretme ve değerlendirme\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -8069,11 +8446,20 @@
           ],
           "context": "Tarihsel Sorun Analizi ve Karar Verme Becerisi"
         }
+      ],
+      "anomalies": [
+        {
+          "kind": "component_code_mismatch",
+          "code": "SBAB7.3.SB5",
+          "expected_parent": "SBAB7.5",
+          "source_line": "SBAB7.3.SB5. Mekânın diğer mekânlar üzerindeki etkisi ile ilgili çıkarımda bulunmak",
+          "source_url": "https://tymm.meb.gov.tr/beceriler/sosyal-bilimler-alan-becerileri"
+        }
       ]
     },
     {
       "code": "SAB",
-      "name": "Sanat Alan Becerileri (SAB)",
+      "name": "Sanat Alan Becerileri",
       "source_urls": [
         "https://tymm.meb.gov.tr/beceriler/sanat-alan-becerileri"
       ],
@@ -8126,7 +8512,7 @@
         {
           "code": "SAB2",
           "name": "Görsel Mesajı Okuma Becerisi",
-          "description": "Millî kültüre ait semboller ile evrensel semboller, sanatsal olgular, işaretler, imgeler ve motiflerin nesnel ve öznel mesajlarının anlamlandırılmasını kapsamaktadır. Görsel mesajı okuma becerisi;  “görsel mesajı algılama” ve “görsel mesajı anlamlandırma” bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Millî kültüre ait semboller ile evrensel semboller, sanatsal olgular, işaretler, imgeler ve motiflerin nesnel ve öznel mesajlarının anlamlandırılmasını kapsamaktadır. Görsel mesajı okuma becerisi; “görsel mesajı algılama” ve “görsel mesajı anlamlandırma” bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -8171,7 +8557,7 @@
         {
           "code": "SAB3",
           "name": "Sanat Eserini İnceleme Becerisi",
-          "description": "Sanat eserindeki ön yapı ile arka yapı elemanları arasındaki ilişkilerin belirlenerek eserin anlamlandırılması ve değerlendirilmesini içeren sistematik bir süreçtir. Ön yapı elemanları eserin renk, içim, form, doku ve mekân gibi sanat elemanları ile denge, ritim ve zıtlık gibi tasarım ilkelerini kapsayan görsel ve biçimsel bileşenlerden oluşmaktadır. Arka yapı elemanları ise sanatçının  iletmek istediği mesaj, eserin üretildiği dönem, sanatçının üslubu ile toplumsal ve kültürel bağlam gibi eserin kavramsal derinliğini oluşturan boyutları temsil etmektedir. Sanat eserini inceleme  becerisi; “sanatsal betimleme”, “sanatsal çözümleme”, “sanatsal yorumlama” ve “sanatsal yargıda bulunma” bütünleşik becerilerden oluşmaktadır.",
+          "description": "Sanat eserindeki ön yapı ile arka yapı elemanları arasındaki ilişkilerin belirlenerek eserin anlamlandırılması ve değerlendirilmesini içeren sistematik bir süreçtir. Ön yapı elemanları eserin renk, içim, form, doku ve mekân gibi sanat elemanları ile denge, ritim ve zıtlık gibi tasarım ilkelerini kapsayan görsel ve biçimsel bileşenlerden oluşmaktadır. Arka yapı elemanları ise sanatçının iletmek istediği mesaj, eserin üretildiği dönem, sanatçının üslubu ile toplumsal ve kültürel bağlam gibi eserin kavramsal derinliğini oluşturan boyutları temsil etmektedir. Sanat eserini inceleme becerisi; “sanatsal betimleme”, “sanatsal çözümleme”, “sanatsal yorumlama” ve “sanatsal yargıda bulunma” bütünleşik becerilerden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -8252,7 +8638,7 @@
         {
           "code": "SAB4",
           "name": "Sanatsal Üretim Yapma Becerisi",
-          "description": "Belirli bir tema, konu veya problem üzerine geliştirilen sanatsal fikirlerin uygun görsel anlatım araçları ve teknik malzemelerle birleştirilerek özgün sanat ürünlerine dönüştürülmesi  sürecidir. Görsel anlatım araçları; resim, heykel, grafik tasarım, dijital sanat, fotoğraf, kolaj gibi sanatsal ifade biçimlerini kapsamaktadır. Sanatsal üretim sürecinde, belirlenen tema veya  kavrama bağlı olarak görsel iletişim yöntemleri ve teknik malzemelerle çok katmanlı anlamlar meydana getirilmektedir. Sanatsal üretim yapma becerisi; \"sanatsal ürün tasarlama\" ve  \"sanatsal ürün oluşturma\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Belirli bir tema, konu veya problem üzerine geliştirilen sanatsal fikirlerin uygun görsel anlatım araçları ve teknik malzemelerle birleştirilerek özgün sanat ürünlerine dönüştürülmesi sürecidir. Görsel anlatım araçları; resim, heykel, grafik tasarım, dijital sanat, fotoğraf, kolaj gibi sanatsal ifade biçimlerini kapsamaktadır. Sanatsal üretim sürecinde, belirlenen tema veya kavrama bağlı olarak görsel iletişim yöntemleri ve teknik malzemelerle çok katmanlı anlamlar meydana getirilmektedir. Sanatsal üretim yapma becerisi; \"sanatsal ürün tasarlama\" ve \"sanatsal ürün oluşturma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -8297,7 +8683,7 @@
         {
           "code": "SAB5",
           "name": "Sanatsal Tasarım Yapma Becerisi",
-          "description": "Belirli bir konu/tema/kavram üzerine geliştirilen fikirlerin, uygun teknik/yöntem ve malzemelerle uygulanan üretim aşamaları sonunda özgün sanatsal tasarım ürünlerine dönüştürülerek  estetik ve işlevsel yeterliklerinin değerlendirildiği süreçtir. Sanatsal tasarım yapma becerisi; \"sanatsal tasarım taslağı oluşturma\" ve \"sanatsal tasarım ürünü oluşturma\" bütünleşik  becerilerinden oluşmaktadır.",
+          "description": "Belirli bir konu/tema/kavram üzerine geliştirilen fikirlerin, uygun teknik/yöntem ve malzemelerle uygulanan üretim aşamaları sonunda özgün sanatsal tasarım ürünlerine dönüştürülerek estetik ve işlevsel yeterliklerinin değerlendirildiği süreçtir. Sanatsal tasarım yapma becerisi; \"sanatsal tasarım taslağı oluşturma\" ve \"sanatsal tasarım ürünü oluşturma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -8357,7 +8743,7 @@
         },
         {
           "code": "SAB6",
-          "name": "Müziksel İşitme",
+          "name": "Müziksel İşitme Becerisi",
           "description": "İşitilen ritmik ve ezgisel/armonik bileşenleri tanımayı, işitsel olarak birbirinden ayırt ederek açıklamayı ifade eder.",
           "parent": null,
           "level": 1,
@@ -8379,7 +8765,7 @@
         },
         {
           "code": "SAB7",
-          "name": "Müziksel Okuma",
+          "name": "Müziksel Okuma Becerisi",
           "description": "Yazılı müzik eserinin ritmik ve ezgisel/armonik bileşenlerinin ayırt edilerek bu bileşenlere uygun, akıcı ve bütüncül bir şekilde okunmasını ifade eder.",
           "parent": null,
           "level": 1,
@@ -8401,7 +8787,7 @@
         },
         {
           "code": "SAB8",
-          "name": "Müziksel Yazma",
+          "name": "Müziksel Yazma Becerisi",
           "description": "Bireyin dinlediği müzik cümlesinde/eserinde yer alan ritmik ve ezgisel/armonik bileşenleri ayırt etmesi ve işittiği ritmik, ezgisel, armonik bileşenlerden oluşan yapıyı müzik yazısına dönüştürmesini ifade eder.",
           "parent": null,
           "level": 1,
@@ -8423,7 +8809,7 @@
         },
         {
           "code": "SAB9",
-          "name": "Müziksel Dinleme",
+          "name": "Müziksel Dinleme Becerisi",
           "description": "Bireyin dinlediği müzik eserinin müziksel bileşenlerini tanımasını, bu bileşenleri birbirinden ayırt etmesini, işitsel olarak anlamlandırılan bu kavramları sözlü olarak açıklamasını ifade eder.",
           "parent": null,
           "level": 1,
@@ -8445,7 +8831,7 @@
         },
         {
           "code": "SAB10",
-          "name": "Müziksel Söyleme",
+          "name": "Müziksel Söyleme Becerisi",
           "description": "Müziksel söyleme becerisi, bireyin müzik eserini seslendirmeden önce bedenini hazır hâle getirmesini, eseri seslendirirken doğru nefes almasını, uygun söyleme tekniklerini kullanmasını ve eseri müziksel bileşenlere uygun icra etmesini ifade eder.",
           "parent": null,
           "level": 1,
@@ -8467,7 +8853,7 @@
         },
         {
           "code": "SAB11",
-          "name": "Müziksel Çalma",
+          "name": "Müziksel Çalma Becerisi",
           "description": "Bireyin çalgıya özgü duruş ve tutuş pozisyonunu sergilemesi, çalgıya özgü teknikleri tanıması, kullanması ve eseri müziksel bileşenlere uygun icra etmesini ifade eder.",
           "parent": null,
           "level": 1,
@@ -8493,7 +8879,7 @@
         },
         {
           "code": "SAB12",
-          "name": "Müziksel Yaratıcılık",
+          "name": "Müziksel Yaratıcılık Becerisi",
           "description": "Belirli bir tema, konu, duygu ve düşünce üzerine geliştirilen fikirlerin müziksel ögeler kullanılarak oluşturulan ürün yoluyla dışa vurulmasını ifade eder.",
           "parent": null,
           "level": 1,
@@ -8515,7 +8901,7 @@
         },
         {
           "code": "SAB13",
-          "name": "Müziksel Hareket",
+          "name": "Müziksel Hareket Becerisi",
           "description": "Bireyin dinlediği ya da seslendirdiği müzik eserindeki ritmik ve ezgisel yapılara, eserin amacına, anlatımına uygun hareketler belirleyerek bunları sergilemesini ifade eder.",
           "parent": null,
           "level": 1,
@@ -8534,7 +8920,7 @@
         {
           "code": "SAB14",
           "name": "Sahneleme Becerisi",
-          "description": "Bireyin bir düşünceyi, duyguyu ya da olayı sahne ortamına özgü anlatım biçimleriyle kurgulayıp canlandırabilmesidir. Bu beceri; yaratıcı yorumlama, estetik ifade, etkileşim ve bütünlük ilkeleri doğrultusunda",
+          "description": "Bireyin bir düşünceyi, duyguyu ya da olayı sahne ortamına özgü anlatım biçimleriyle kurgulayıp canlandırabilmesidir. Bu beceri; yaratıcı yorumlama, estetik ifade, etkileşim ve bütünlük ilkeleri doğrultusunda sahneleme sürecinin tüm aşamalarını planlama, uygulama ve değerlendirme yeterliklerini kapsamaktadır. Sahneleme becerisi; “dramaturjik okuma\", “tiyatral ses ve konuşma yapma\", “tiyatral hareket yapma\", “rol oynama\", “yansıtma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -8612,19 +8998,20 @@
           ],
           "context": "Sahneleme Becerisi"
         }
-      ]
+      ],
+      "anomalies": []
     },
     {
       "code": "BEOSAB",
-      "name": "Beden Eğitimi, Oyun ve Spor Alan Becerileri (BEOSAB)",
+      "name": "Beden Eğitimi, Oyun ve Spor Alan Becerileri",
       "source_urls": [
         "https://tymm.meb.gov.tr/beceriler/beden-egitimi-oyun-ve-spor-alan-becerileri"
       ],
       "skills": [
         {
           "code": "BEOSAB1",
-          "name": "Hareketi Sergileme",
-          "description": "Bireyin fiziksel aktivitelerde kaba, ince, spora hazırlayıcı ve spora özgü hareket becerilerini anlaması; bu becerileri aşamalı olarak geliştirmesi ve farklı durumlara uyum sağlayarak  uygulaması sürecini ifade eder. Bu beceri, bireyin hareketleri doğru ve uygun şekilde gerçekleştirme kapasitesini geliştirmesine olanak tanır.",
+          "name": "Hareketi Sergileme Becerisi",
+          "description": "Bireyin fiziksel aktivitelerde kaba, ince, spora hazırlayıcı ve spora özgü hareket becerilerini anlaması; bu becerileri aşamalı olarak geliştirmesi ve farklı durumlara uyum sağlayarak uygulaması sürecini ifade eder. Bu beceri, bireyin hareketleri doğru ve uygun şekilde gerçekleştirme kapasitesini geliştirmesine olanak tanır.",
           "parent": null,
           "level": 1,
           "components": [
@@ -8645,7 +9032,7 @@
         },
         {
           "code": "BEOSAB2",
-          "name": "Hareket Kavramlarını Uygulama",
+          "name": "Hareket Kavramlarını Uygulama Becerisi",
           "description": "Bireyin beden farkındalığı, alan farkındalığı, efor (çaba) ve hareket ilişkileri gibi temel kavramlar ile hareket becerileri arasında ilişki kurarak uygulamasını içerir. Bu beceri, bireyin fiziksel aktivitelerde bilinçli ve etkili bir şekilde hareket etmesini sağlar.",
           "parent": null,
           "level": 1,
@@ -8667,8 +9054,8 @@
         },
         {
           "code": "BEOSAB3",
-          "name": "Taktik ve Strateji Geliştirme",
-          "description": "Fiziksel aktivite, oyun vb. sportif etkinlikler sırasında karşılaşılan durumları/problemleri belirlemek, bu durumlara/problemlere yönelik çözüm yolları geliştirmek ve uygulamak için kullanılan bir  beceridir. Bu beceri, bireyin stratejik düşünme ve planlama yeteneğini geliştirir; hareketlerini daha etkili ve bilinçli bir şekilde gerçekleştirmesini sağlar.",
+          "name": "Taktik ve Strateji Geliştirme Becerisi",
+          "description": "Fiziksel aktivite, oyun vb. sportif etkinlikler sırasında karşılaşılan durumları/problemleri belirlemek, bu durumlara/problemlere yönelik çözüm yolları geliştirmek ve uygulamak için kullanılan bir beceridir. Bu beceri, bireyin stratejik düşünme ve planlama yeteneğini geliştirir; hareketlerini daha etkili ve bilinçli bir şekilde gerçekleştirmesini sağlar.",
           "parent": null,
           "level": 1,
           "components": [
@@ -8689,8 +9076,8 @@
         },
         {
           "code": "BEOSAB4",
-          "name": "Fiziksel Aktiviteye Katılma",
-          "description": "Bireyin fiziksel aktivitelerin gerekliliğini fark etmesini, bu aktiviteler için uygun planlar geliştirmesini ve belirlenen hedeflere ulaşmak için bu planları uygulamasını içerir. Bu beceri, bireyin yaşam  boyu fiziksel aktivite alışkanlığı kazanmasına ve sağlıklı bir yaşam tarzı benimsemesine katkı sağlar.",
+          "name": "Fiziksel Aktiviteye Katılma Becerisi",
+          "description": "Bireyin fiziksel aktivitelerin gerekliliğini fark etmesini, bu aktiviteler için uygun planlar geliştirmesini ve belirlenen hedeflere ulaşmak için bu planları uygulamasını içerir. Bu beceri, bireyin yaşam boyu fiziksel aktivite alışkanlığı kazanmasına ve sağlıklı bir yaşam tarzı benimsemesine katkı sağlar.",
           "parent": null,
           "level": 1,
           "components": [
@@ -8711,8 +9098,8 @@
         },
         {
           "code": "BEOSAB5",
-          "name": "Ritmik Hareket Etme",
-          "description": "Bireyin hareket veya müzikle ilişkilendirilen ritmi algılamasını, bu ritme uygun hareketler yapmasını ve ritmik becerilerini etkili bir şekilde sergilemesini içerir. Bu beceri, bireyin koordinasyonunu,  estetik duygusunu ve müzikle uyumlu hareket yetkinliğini geliştirmesine katkı sağlar.",
+          "name": "Ritmik Hareket Etme Becerisi",
+          "description": "Bireyin hareket veya müzikle ilişkilendirilen ritmi algılamasını, bu ritme uygun hareketler yapmasını ve ritmik becerilerini etkili bir şekilde sergilemesini içerir. Bu beceri, bireyin koordinasyonunu, estetik duygusunu ve müzikle uyumlu hareket yetkinliğini geliştirmesine katkı sağlar.",
           "parent": null,
           "level": 1,
           "components": [
@@ -8733,8 +9120,8 @@
         },
         {
           "code": "BEOSAB6",
-          "name": "Fiziksel Uygunluk Sağlama",
-          "description": "Bireyin sağlıkla ilişkili (kalp-damar sistemi dayanıklılığı, kas kuvveti, kas dayanıklılığı, esneklik, vücut kompozisyonu vb.) ve performansla ilişkili (kuvvet, çeviklik, dayanıklılık, hız vb.) fiziksel uygunluk  bileşenlerini açıklamasını, bu bileşenleri fiziksel aktivitelerde uygulamasını ve fiziksel uygunluk düzeyini geliştirmeye yönelik çalışmalar yapmasını ifade eder. Bu beceri, bireyin sağlıklı bir yaşam  sürdürmesine ve fiziksel performansını artırmasına olanak tanır.",
+          "name": "Fiziksel Uygunluk Sağlama Becerisi",
+          "description": "Bireyin sağlıkla ilişkili (kalp-damar sistemi dayanıklılığı, kas kuvveti, kas dayanıklılığı, esneklik, vücut kompozisyonu vb.) ve performansla ilişkili (kuvvet, çeviklik, dayanıklılık, hız vb.) fiziksel uygunluk bileşenlerini açıklamasını, bu bileşenleri fiziksel aktivitelerde uygulamasını ve fiziksel uygunluk düzeyini geliştirmeye yönelik çalışmalar yapmasını ifade eder. Bu beceri, bireyin sağlıklı bir yaşam sürdürmesine ve fiziksel performansını artırmasına olanak tanır.",
           "parent": null,
           "level": 1,
           "components": [
@@ -8755,7 +9142,7 @@
         },
         {
           "code": "BEOSAB7",
-          "name": "Eşle/Grupla Hareket Etme",
+          "name": "Eşle/Grupla Hareket Etme Becerisi",
           "description": "Bireyin takım çalışması veya grup etkinlikleri sırasında rolleri tanımlamasını, belirlenen rolleri yerine getirmesini ve diğer bireylerle uyumlu hareket etmesini içerir. Bu beceri, bireyin sosyal etkileşim becerilerini ve takım uyumunu geliştirerek uyum içinde hareket etmesini sağlar.",
           "parent": null,
           "level": 1,
@@ -8777,8 +9164,8 @@
         },
         {
           "code": "BEOSAB8",
-          "name": "Adil Oyun Anlayışına Uygun Davranma",
-          "description": "Spor ve fiziksel aktivitelerde dürüstlük, saygı, eşitlik, sportmenlik gibi temel etik değerleri benimsemeyi ifade eder. Bireyin kurallara uymasını, rakiplerine ve takım arkadaşlarına karşı  saygılı davranmasını, aynı zamanda iş birliği içinde hareket etmesini içerir. Adil oyun anlayışına uygun davranma becerisi; bireyin spor katılımını olumlu bir deneyime dönüştürürken  teknik becerilerini geliştirme, sosyal etkileşimde bulunma ve kişisel sorumluluk bilincini artırma fırsatları sunar. Bu beceri, bireyin etik değerlere bağlılığını, sorumluluk bilincini ve  sportmenlik davranışlarını geliştirmesine katkıda bulunur.",
+          "name": "Adil Oyun Anlayışına Uygun Davranma Becerisi",
+          "description": "Spor ve fiziksel aktivitelerde dürüstlük, saygı, eşitlik, sportmenlik gibi temel etik değerleri benimsemeyi ifade eder. Bireyin kurallara uymasını, rakiplerine ve takım arkadaşlarına karşı saygılı davranmasını, aynı zamanda iş birliği içinde hareket etmesini içerir. Adil oyun anlayışına uygun davranma becerisi; bireyin spor katılımını olumlu bir deneyime dönüştürürken teknik becerilerini geliştirme, sosyal etkileşimde bulunma ve kişisel sorumluluk bilincini artırma fırsatları sunar. Bu beceri, bireyin etik değerlere bağlılığını, sorumluluk bilincini ve sportmenlik davranışlarını geliştirmesine katkıda bulunur.",
           "parent": null,
           "level": 1,
           "components": [
@@ -8795,8 +9182,8 @@
         },
         {
           "code": "BEOSAB9",
-          "name": "Takım/Grup Liderliği Sergileme",
-          "description": "Beden eğitimi, spor, fiziksel aktivite veya hareket temelli grup etkinlikleri sırasında bireyin liderlik özelliklerini tanımasını ve bu özellikleri etkin bir şekilde uygulayarak grubu yönlendirme,  motive etme ve organize etme kapasitesini ifade eder. Takım/grup liderliği becerisi; bireyin sorumluluk almasını, karar verme süreçlerine katılmasını ve etkili iletişim becerilerini  geliştirmesini sağlar. Bu beceri, grup dinamiklerini anlamaya ve grup hedeflerine ulaşılmasına katkıda bulunur.",
+          "name": "Takım/Grup Liderliği Sergileme Becerisi",
+          "description": "Beden eğitimi, spor, fiziksel aktivite veya hareket temelli grup etkinlikleri sırasında bireyin liderlik özelliklerini tanımasını ve bu özellikleri etkin bir şekilde uygulayarak grubu yönlendirme, motive etme ve organize etme kapasitesini ifade eder. Takım/grup liderliği becerisi; bireyin sorumluluk almasını, karar verme süreçlerine katılmasını ve etkili iletişim becerilerini geliştirmesini sağlar. Bu beceri, grup dinamiklerini anlamaya ve grup hedeflerine ulaşılmasına katkıda bulunur.",
           "parent": null,
           "level": 1,
           "components": [
@@ -8813,8 +9200,8 @@
         },
         {
           "code": "BEOSAB10",
-          "name": "Güvenli Ortam Oluşturma",
-          "description": "Bireyin fiziksel aktiviteler, oyunlar veya spor etkinlikleri sırasında kendisinin ve çevresindekilerin sağlığını tehdit edebilecek davranışlardan uzak durmasını ve bu tür durumlara karşı  önleyici tedbirler almasını içerir. Bu beceri, bireyin riskleri tanıma, güvenli bir çevre sağlama ve sağlığı koruma bilincini geliştirmesini amaçlar. Güvenli ortam oluşturma kapsamında  bireyin sakatlık riski, bilinçsiz fiziksel aktivite veya zararlı içeriklerden uzak durması sağlanır. Bu süreç, bireyin hem kendi güvenliğini hem de çevresindekilerin sağlığını korumasına olanak  tanır ve toplumsal sağlık bilincini destekler.",
+          "name": "Güvenli Ortam Oluşturma Becerisi",
+          "description": "Bireyin fiziksel aktiviteler, oyunlar veya spor etkinlikleri sırasında kendisinin ve çevresindekilerin sağlığını tehdit edebilecek davranışlardan uzak durmasını ve bu tür durumlara karşı önleyici tedbirler almasını içerir. Bu beceri, bireyin riskleri tanıma, güvenli bir çevre sağlama ve sağlığı koruma bilincini geliştirmesini amaçlar. Güvenli ortam oluşturma kapsamında bireyin sakatlık riski, bilinçsiz fiziksel aktivite veya zararlı içeriklerden uzak durması sağlanır. Bu süreç, bireyin hem kendi güvenliğini hem de çevresindekilerin sağlığını korumasına olanak tanır ve toplumsal sağlık bilincini destekler.",
           "parent": null,
           "level": 1,
           "components": [
@@ -8829,11 +9216,12 @@
           ],
           "context": "Güvenli Ortam Oluşturma Becerisi"
         }
-      ]
+      ],
+      "anomalies": []
     },
     {
       "code": "BTYAB",
-      "name": "Bilişim Teknolojileri ve Yazılım Alan Becerileri (BTYAB)",
+      "name": "Bilişim Teknolojileri ve Yazılım Alan Becerileri",
       "source_urls": [
         "https://tymm.meb.gov.tr/beceriler/bilisim-teknolojileri-ve-yazilim-alan-becerileri"
       ],
@@ -8841,7 +9229,7 @@
         {
           "code": "BTYAB1",
           "name": "Bilişim Teknolojilerini Kullanma Becerisi",
-          "description": "Bireyin bilişim teknolojilerini etkin ve verimli bir şekilde kullanma yeteneğini ifade eder. Günümüzün dijital dünyasında, farklı teknolojik araç ve uygulamaları tanıma, sınıflandırma ve bu teknolojilerle çalışma becerisi bireylerin bilgiye ulaşmasını kolaylaştırırken aynı zamanda iş süreçlerinde de daha verimli olmalarını sağlayacaktır. Bilişim teknolojilerini kullanma becerisi;  \"bilişim teknolojilerini sınıflandırma\" ve \"bilişim teknolojileri ile çalışma\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Bireyin bilişim teknolojilerini etkin ve verimli bir şekilde kullanma yeteneğini ifade eder. Günümüzün dijital dünyasında, farklı teknolojik araç ve uygulamaları tanıma, sınıflandırma ve bu teknolojilerle çalışma becerisi bireylerin bilgiye ulaşmasını kolaylaştırırken aynı zamanda iş süreçlerinde de daha verimli olmalarını sağlayacaktır. Bilişim teknolojilerini kullanma becerisi; \"bilişim teknolojilerini sınıflandırma\" ve \"bilişim teknolojileri ile çalışma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -8894,7 +9282,7 @@
         {
           "code": "BTYAB2",
           "name": "Bilgi İşlemsel Düşünme Becerisi",
-          "description": "Bireyin karmaşık problemleri çözmek ve bilgiyi işlemek için sistematik ve algoritmik düşünme yeteneğini ifade eder. Bu beceri bireylerin problemleri yönetilebilir parçalara ayırmalarını,  her parçayı analiz ederek çözüm yolları geliştirmelerini, algoritmalar kullanarak çözümler üretmelerini ve veriyi düzenleyerek anlamlı bilgilere dönüştürmelerini sağlar. Bilgi işlemsel  düşünme becerisi; \"sorgulama\", \"algoritmik düşünme\", \"soyutlama\", \"ayrıştırma\" ve \"test etme-hata ayıklama\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Bireyin karmaşık problemleri çözmek ve bilgiyi işlemek için sistematik ve algoritmik düşünme yeteneğini ifade eder. Bu beceri bireylerin problemleri yönetilebilir parçalara ayırmalarını, her parçayı analiz ederek çözüm yolları geliştirmelerini, algoritmalar kullanarak çözümler üretmelerini ve veriyi düzenleyerek anlamlı bilgilere dönüştürmelerini sağlar. Bilgi işlemsel düşünme becerisi; \"sorgulama\", \"algoritmik düşünme\", \"soyutlama\", \"ayrıştırma\" ve \"test etme-hata ayıklama\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -8991,7 +9379,7 @@
         {
           "code": "BTYAB3",
           "name": "Yazılım Geliştirme Becerisi",
-          "description": "Bireyin teknik bilgi birikimlerini genişletirken yazılım tasarımı ve mimarisi konusunda etkin çözümler oluşturabilmelerini ifade eder. Ayrıca yazılım geliştirme sürecinin aşamalarını  öğrenmede yardımcı olur. Bu beceri, öğrencilerin programlama dilleri yardımıyla kodlama yapmalarını, yazılımın işlevselliğini ve performansını artırmak için gerekli algoritma ve yapıları  kullanarak uygulama geliştirmelerini içerir. Böylelikle öğrencilerin yaratıcı düşünme yeteneklerini geliştirerek özgün ve yenilikçi yaklaşımla problem çözme yeteneklerinin güçlenmesini  sağlar. Yazılım geliştirme becerisi; \"sorgulama\", \"yapılandırma\", \"yazılım geliştirme ortamını hazırlama\", \"yazılım geliştirme sürecinde kullanılan bileşen/yapı/yöntemlerinden  yararlanma\", \"yazılım geliştirme sürecini yönetme\", \"yazılım geliştirme sürecinde robotik/mekanik sistemler ile entegre bir ürün/sistem geliştirme\", \"test etme-hata ayıklama\" ve  \"sentezleme\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Bireyin teknik bilgi birikimlerini genişletirken yazılım tasarımı ve mimarisi konusunda etkin çözümler oluşturabilmelerini ifade eder. Ayrıca yazılım geliştirme sürecinin aşamalarını öğrenmede yardımcı olur. Bu beceri, öğrencilerin programlama dilleri yardımıyla kodlama yapmalarını, yazılımın işlevselliğini ve performansını artırmak için gerekli algoritma ve yapıları kullanarak uygulama geliştirmelerini içerir. Böylelikle öğrencilerin yaratıcı düşünme yeteneklerini geliştirerek özgün ve yenilikçi yaklaşımla problem çözme yeteneklerinin güçlenmesini sağlar. Yazılım geliştirme becerisi; \"sorgulama\", \"yapılandırma\", \"yazılım geliştirme ortamını hazırlama\", \"yazılım geliştirme sürecinde kullanılan bileşen/yapı/yöntemlerinden yararlanma\", \"yazılım geliştirme sürecini yönetme\", \"yazılım geliştirme sürecinde robotik/mekanik sistemler ile entegre bir ürün/sistem geliştirme\", \"test etme-hata ayıklama\" ve \"sentezleme\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -9114,7 +9502,7 @@
         {
           "code": "BTYAB4",
           "name": "Dijital Ürün Geliştirme Becerisi",
-          "description": "Bireyin tasarım araç ve teknolojilerinden etkin bir şekilde yararlanarak görsel ve canlandırma ile desteklenen tasarım kurgusu oluşturma, estetik ve işlevsel yönleri güçlü ürün ve  simülasyon/model geliştirmelerini ifade eder. Dijital ürün geliştirme becerisi; \"tasarım araç, teknoloji ve yöntemlerinden yararlanma\", \"tasarım kurgusu oluşturma\", \"ürün geliştirme\" ve  \"simülasyon/model geliştirme\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Bireyin tasarım araç ve teknolojilerinden etkin bir şekilde yararlanarak görsel ve canlandırma ile desteklenen tasarım kurgusu oluşturma, estetik ve işlevsel yönleri güçlü ürün ve simülasyon/model geliştirmelerini ifade eder. Dijital ürün geliştirme becerisi; \"tasarım araç, teknoloji ve yöntemlerinden yararlanma\", \"tasarım kurgusu oluşturma\", \"ürün geliştirme\" ve \"simülasyon/model geliştirme\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -9219,7 +9607,7 @@
         {
           "code": "BTYAB5",
           "name": "Veri Yönetimi Becerisi",
-          "description": "Bir problemi çözmek veya bir araştırma sorusuna yanıt bulmak için verilerden bilimsel araştırma süreç adımlarını takip ederek anlamlı sonuçlar elde etme sürecini ifade eder. Veri  yönetimi becerisi; \"problemi belirleme\", \"verileri toplama ve düzenleme\", \"bulgulara ulaşma\" ve \"bulguları yorumlama\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Bir problemi çözmek veya bir araştırma sorusuna yanıt bulmak için verilerden bilimsel araştırma süreç adımlarını takip ederek anlamlı sonuçlar elde etme sürecini ifade eder. Veri yönetimi becerisi; \"problemi belirleme\", \"verileri toplama ve düzenleme\", \"bulgulara ulaşma\" ve \"bulguları yorumlama\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -9312,7 +9700,7 @@
         {
           "code": "BTYAB6",
           "name": "Dijital Güvenlik Önlemleri Alma Becerisi",
-          "description": "Dijital ortamların güvenliğini sağlamak ve siber tehditlere karşı etkili bir koruma oluşturmak için gerekli yeterlikleri ve süreçleri ifade eder. Bu beceri, dijital ortamlarda risklerin  belirlenmesini, dijital güvenlik önlemlerinin uygulanmasını ve sürekli olarak güncellenmesini ve böylelikle dijital ortamda verinin korunmasını sağlar. Ayrıca siber uzayda saldırı ve  savunma stratejileri geliştirilmesi, dijital ortamda güvenlik açıklarının belirlenerek tehdit analizinin yapılması ve etkili savunma yöntemlerinin belirlenmesi süreçlerinden oluşur. Bu  süreçler, dijital varlıkların korunmasını ve bilgi güvenliği risklerinin minimize edilmesini sağlar. Dijital güvenlik önlemleri alma becerisi \"dijital güvenlik önlemlerini yönetme\", \"dijital güvenlik önlemlerini uygulama\" ve \"siber saldırılara karşı savunma stratejilerini kullanma\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Dijital ortamların güvenliğini sağlamak ve siber tehditlere karşı etkili bir koruma oluşturmak için gerekli yeterlikleri ve süreçleri ifade eder. Bu beceri, dijital ortamlarda risklerin belirlenmesini, dijital güvenlik önlemlerinin uygulanmasını ve sürekli olarak güncellenmesini ve böylelikle dijital ortamda verinin korunmasını sağlar. Ayrıca siber uzayda saldırı ve savunma stratejileri geliştirilmesi, dijital ortamda güvenlik açıklarının belirlenerek tehdit analizinin yapılması ve etkili savunma yöntemlerinin belirlenmesi süreçlerinden oluşur. Bu süreçler, dijital varlıkların korunmasını ve bilgi güvenliği risklerinin minimize edilmesini sağlar. Dijital güvenlik önlemleri alma becerisi \"dijital güvenlik önlemlerini yönetme\", \"dijital güvenlik önlemlerini uygulama\" ve \"siber saldırılara karşı savunma stratejilerini kullanma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -9384,11 +9772,12 @@
           ],
           "context": "Dijital Güvenlik Önlemleri Alma Becerisi"
         }
-      ]
+      ],
+      "anomalies": []
     },
     {
       "code": "TSRMAB",
-      "name": "Tasarım Alan Becerileri (TSRMAB)",
+      "name": "Tasarım Alan Becerileri",
       "source_urls": [
         "https://tymm.meb.gov.tr/beceriler/tasarim-alan-becerileri"
       ],
@@ -9396,7 +9785,7 @@
         {
           "code": "TSRMAB1",
           "name": "Tasarım Ürünü Oluşturma Becerisi",
-          "description": "Belirli bir tema, konu ya da problemin çözümü üzerine geliştirilen fikirlerin tasarım oluşturma kriterleri (işlevsellik, sürdürülebilirlik, ekonomiklik, özgünlük, dayanıklılık, uygunluk,  ergonomi, estetik) dikkate alınarak var olan ürünlere yenilikler getirilmesi veya var olan ürünlerin alternatif tasarım ürünlerine dönüştürülmesi sürecidir. Tasarım ürünü oluşturma becerisi;  \"taslak oluşturma\" ve \"tasarımı ürüne dönüştürme\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Belirli bir tema, konu ya da problemin çözümü üzerine geliştirilen fikirlerin tasarım oluşturma kriterleri (işlevsellik, sürdürülebilirlik, ekonomiklik, özgünlük, dayanıklılık, uygunluk, ergonomi, estetik) dikkate alınarak var olan ürünlere yenilikler getirilmesi veya var olan ürünlerin alternatif tasarım ürünlerine dönüştürülmesi sürecidir. Tasarım ürünü oluşturma becerisi; \"taslak oluşturma\" ve \"tasarımı ürüne dönüştürme\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -9465,7 +9854,7 @@
         {
           "code": "TSRMAB2",
           "name": "Benzetişim/Benzetim Becerisi",
-          "description": "Anlatılmak istenilenin daha iyi anlaşılmasını sağlamak için benzerliği olmayan iki şeyi (nesne, obje, sözcük, renk vb.) ilişkilendirmeyi (metafor) içerir. Ayrıca iki şey arasında birbirine  doğrudan benzeyen veya andıran şeyleri birbirine benzetmeyi (analoji) kapsar. Görselin yaratıcı ve mecazi yönünü kullanarak benzetmeler oluşturma yeteneği metafor olarak; bilinen ile  bilinmeyen durumlar arasındaki benzerlik ise analoji olarak ifade edilir. Bilinenlere dayanılarak yeni durumun öğrenilmesi sürecinde; bilinen durumun kaynak, bilinmeyenin hedef olarak  ele alınmasını kapsar. Tasarım fikir geliştirme sürecinde analoji ve metafor kullanımı problemlerin tanımlanması, çerçevelendirilmesi ve çözümlenmesinde; tasarım kavramlarının  açıklanmasında yararlanılır. Benzetişim/benzetim becerisi; \"metafor yapabilme\" ve \"analoji yapabilme\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Anlatılmak istenilenin daha iyi anlaşılmasını sağlamak için benzerliği olmayan iki şeyi (nesne, obje, sözcük, renk vb.) ilişkilendirmeyi (metafor) içerir. Ayrıca iki şey arasında birbirine doğrudan benzeyen veya andıran şeyleri birbirine benzetmeyi (analoji) kapsar. Görselin yaratıcı ve mecazi yönünü kullanarak benzetmeler oluşturma yeteneği metafor olarak; bilinen ile bilinmeyen durumlar arasındaki benzerlik ise analoji olarak ifade edilir. Bilinenlere dayanılarak yeni durumun öğrenilmesi sürecinde; bilinen durumun kaynak, bilinmeyenin hedef olarak ele alınmasını kapsar. Tasarım fikir geliştirme sürecinde analoji ve metafor kullanımı problemlerin tanımlanması, çerçevelendirilmesi ve çözümlenmesinde; tasarım kavramlarının açıklanmasında yararlanılır. Benzetişim/benzetim becerisi; \"metafor yapabilme\" ve \"analoji yapabilme\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -9517,7 +9906,7 @@
         },
         {
           "code": "TSRMAB3",
-          "name": "Çoklu Ortam Sunum",
+          "name": "Çoklu Ortam Sunum Becerisi",
           "description": "Metin, görüntü, grafik, çizim, ses, video, animasyon gibi zenginleştirilmiş birden fazla bileşenin teknik ve iletişim yetkinlikleri çerçevesinde bir arada kullanılmasını içerir.",
           "parent": null,
           "level": 1,
@@ -9544,7 +9933,7 @@
         {
           "code": "TSRMAB4",
           "name": "Doğa ve Canlıları Tasarımla İlişkilendirebilme/ Esinlenme",
-          "description": "Doğa ve tasarım arasındaki ilişkiyi dikkate alarak biyotaklit, biyofili, biyomimercy, biyomorfizm, biyomimikri gibi kavramların önemini araştırmayı içerir. Ayrıca doğada var olan canlıların  ve doğal yapıların fonksiyonellik, form, malzeme, estetik, strüktür vb. özellikleri ile doğanın modellerini inceleyerek bu tasarımları ve süreçleri taklit etmeyi, doğa odaklı tasarım anlayışını  benimseyerek iki ve üç boyutlu nesne, obje vb. unsurları tasarlayabilmeyi ve doğadaki öğretilerden faydalanarak tasarıma yönelik çözümler aramayı içerir.",
+          "description": "Doğa ve tasarım arasındaki ilişkiyi dikkate alarak biyotaklit, biyofili, biyomimercy, biyomorfizm, biyomimikri gibi kavramların önemini araştırmayı içerir. Ayrıca doğada var olan canlıların ve doğal yapıların fonksiyonellik, form, malzeme, estetik, strüktür vb. özellikleri ile doğanın modellerini inceleyerek bu tasarımları ve süreçleri taklit etmeyi, doğa odaklı tasarım anlayışını benimseyerek iki ve üç boyutlu nesne, obje vb. unsurları tasarlayabilmeyi ve doğadaki öğretilerden faydalanarak tasarıma yönelik çözümler aramayı içerir.",
           "parent": null,
           "level": 1,
           "components": [
@@ -9561,13 +9950,17 @@
               "text": "Gözlemlerinden elde ettiği bilgilerle tasarım fikri geliştirmek"
             }
           ],
-          "context": "Doğa ve Canlıları Tasarımla İlişkilendirebilme/Esinlenme Becerisi"
+          "context": "Doğa ve Canlıları Tasarımla İlişkilendirebilme/Esinlenme Becerisi",
+          "also_titled": [
+            "Doğa ve Canlıları Tasarımla İlişkilendirebilme/Esinlenme Becerisi"
+          ]
         }
-      ]
+      ],
+      "anomalies": []
     },
     {
       "code": "DAB",
-      "name": "Din Eğitimi ve Öğretimi Alan Becerileri (DAB)",
+      "name": "Din Eğitimi ve Öğretimi Alan Becerileri",
       "source_urls": [
         "https://tymm.meb.gov.tr/beceriler/din-egitimi-ve-ogretimi-alan-becerileri"
       ],
@@ -9575,7 +9968,7 @@
         {
           "code": "DAB1",
           "name": "Temel Kaynakları Kullanma Becerisi",
-          "description": "İslam dininin temel kaynakları olan Kur'an-ı Kerim ve hadis kaynaklarını kullanabilmek için takip edilecek süreçleri ifade eder. Temel kaynaklara erişme becerisi; \"Kur'an-ı Kerim meallerine  başvurma\" ve \"hadis kaynaklarına başvurma\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "İslam dininin temel kaynakları olan Kur'an-ı Kerim ve hadis kaynaklarını kullanabilmek için takip edilecek süreçleri ifade eder. Temel kaynaklara erişme becerisi; \"Kur'an-ı Kerim meallerine başvurma\" ve \"hadis kaynaklarına başvurma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -9644,7 +10037,7 @@
         {
           "code": "DAB2",
           "name": "Dinî Kaynakları Tetkik Becerisi",
-          "description": "Bir konu hakkında bilgi edinilmesi için dinî kaynakların tetkik edilmesinde takip edilecek süreci ifade eder. Dinî kaynakları tetkik becerisi; \"kaynak kullanımını yönetme\", \"özetleme\" ve  \"dinî kaynakların ilişkisini değerlendirme\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Bir konu hakkında bilgi edinilmesi için dinî kaynakların tetkik edilmesinde takip edilecek süreci ifade eder. Dinî kaynakları tetkik becerisi; \"kaynak kullanımını yönetme\", \"özetleme\" ve \"dinî kaynakların ilişkisini değerlendirme\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -9709,7 +10102,7 @@
         {
           "code": "DAB3",
           "name": "Tahkik Becerisi",
-          "description": "Dinî ilimler içerisinde yer alan önemli kavramları tanımayı, bu kavramları bağlamına uygun olarak kullanmayı ve dinî metinlerin incelenmesi ve yorumlanması için takip edilmesi gereken  süreci ifade eder. Tahkik becerisi; \"dinî kavramları ayırt etme\", \"dinî kavramları bağlamına uygun kullanma\", \"dinî metinleri yorumlama\" ve \"dinî metinleri tahlil etme\" bütünleşik  becerilerinden oluşmaktadır.",
+          "description": "Dinî ilimler içerisinde yer alan önemli kavramları tanımayı, bu kavramları bağlamına uygun olarak kullanmayı ve dinî metinlerin incelenmesi ve yorumlanması için takip edilmesi gereken süreci ifade eder. Tahkik becerisi; \"dinî kavramları ayırt etme\", \"dinî kavramları bağlamına uygun kullanma\", \"dinî metinleri yorumlama\" ve \"dinî metinleri tahlil etme\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -9814,7 +10207,7 @@
         {
           "code": "DAB4",
           "name": "Tefekkür Becerisi",
-          "description": "Bir konu/kavram/olayın derinlemesine düşünülmesi ve değerlendirilmesi için takip edilecek süreci ifade eder. Tefekkür becerisi; \"müşahede etme\", \"dinî meseleleri anlama\", \"dinî  görüş/argümanları irdeleme\", \"dinî konularda analitik düşünme\" ve \"idrak etme\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Bir konu/kavram/olayın derinlemesine düşünülmesi ve değerlendirilmesi için takip edilecek süreci ifade eder. Tefekkür becerisi; \"müşahede etme\", \"dinî meseleleri anlama\", \"dinî görüş/argümanları irdeleme\", \"dinî konularda analitik düşünme\" ve \"idrak etme\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -9949,7 +10342,7 @@
         {
           "code": "DAB5",
           "name": "Dinî Delillere Başvurma Becerisi",
-          "description": "Akli/nakli delillerin kullanılmasıyla birlikte bir sonuca varılması için takip edilecek süreci ifade eder. Dinî delillere başvurma becerisi; \"akli/nakli delilleri kullanma\" ve \"mukayese yapma\"  bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Akli/nakli delillerin kullanılmasıyla birlikte bir sonuca varılması için takip edilecek süreci ifade eder. Dinî delillere başvurma becerisi; \"akli/nakli delilleri kullanma\" ve \"mukayese yapma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -10035,12 +10428,15 @@
               "text": "Dinî uygulama süreçlerini değerlendirmek"
             }
           ],
-          "context": "Tatbik Becerisi"
+          "context": "Tatbik Becerisi",
+          "also_titled": [
+            "Tatbik Becerisi"
+          ]
         },
         {
           "code": "DAB7",
           "name": "Tilavet Becerisi",
-          "description": "Kur'an-ı Kerim'i bir femimuhsinin rehberliğinde yüzünden ve ezbere okuyabilmek için takip edilecek süreçleri ifade eder. Tilavet becerisi; \"telaffuz etme\", \"yüzünden okuma\" ve \"ezbere  okuma\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Kur'an-ı Kerim'i bir femimuhsinin rehberliğinde yüzünden ve ezbere okuyabilmek için takip edilecek süreçleri ifade eder. Tilavet becerisi; \"telaffuz etme\", \"yüzünden okuma\" ve \"ezbere okuma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -10127,7 +10523,7 @@
         {
           "code": "DAB8",
           "name": "Hitabet ve Mesleki Uygulama Becerisi",
-          "description": "Mesleki uygulama çeşitlerini usulüne uygun olarak yerine getirebilmek için takip edilecek süreçleri ifade eder. Hitabet ve mesleki uygulama becerisi; \"hitabet uygulama\" ve \"mesleki  uygulama\" bütünleşik becerilerinden oluşmaktadır.",
+          "description": "Mesleki uygulama çeşitlerini usulüne uygun olarak yerine getirebilmek için takip edilecek süreçleri ifade eder. Hitabet ve mesleki uygulama becerisi; \"hitabet uygulama\" ve \"mesleki uygulama\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
@@ -10185,11 +10581,20 @@
           ],
           "context": "Hitabet ve Mesleki Uygulama Becerisi"
         }
+      ],
+      "anomalies": [
+        {
+          "kind": "component_code_mismatch",
+          "code": "DAB4.3.SB4",
+          "expected_parent": "DAB4.4",
+          "source_line": "DAB4.3.SB4. Tercih edilebilir görüş ve argümanları gerekçeleriyle belirlemek",
+          "source_url": "https://tymm.meb.gov.tr/beceriler/din-egitimi-ve-ogretimi-alan-becerileri"
+        }
       ]
     },
     {
       "code": "YDAB",
-      "name": "Yabancı Dil Alan Becerileri ve Yabancı Dil Destekleyici Beceriler",
+      "name": "Yabancı Dil Alan Becerileri",
       "source_urls": [
         "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
       ],
@@ -10197,40 +10602,65 @@
         {
           "code": "YDAB1",
           "name": "Dinleme/İzleme-Anlamlandırma Becerisi (Bütüncül Yaklaşım)",
-          "description": "Alımlayıcı becerilerde, dinleme/izleme-anlamlandırma becerisi; bir bireyin yabancı dil edinirken ve/veya öğrenirken o dilin kullanıldığı bağlam ve ortamda, bir konuşmacının veya başka sesli bir kaynağın kullandığı ve ürettiği aksan, vurgu, hız, ritim gibi dilin sesli dil içeriğini; deyimler, terimler, bağlaçlar, hedef sözcükler gibi dilin sözcük varlık ve içeriğini; temel ve hedef dil bilgisi gibi yapısal içeriğini; kültürel yansıtmalar gibi konuyla ilgili içerik özelliklerini çeşitli görseller yardımıyla (daha sonra seçim ve kullanım yapabilmesi için), algılamak ve anlamlandırmak için geliştirdiği bir beceridir.",
+          "description": "Alımlayıcı becerilerde, dinleme/izleme-anlamlandırma becerisi; bir bireyin yabancı dil edinirken ve/veya öğrenirken o dilin kullanıldığı bağlam ve ortamda, bir konuşmacının veya başka sesli bir kaynağın kullandığı ve ürettiği aksan, vurgu, hız, ritim gibi dilin sesli dil içeriğini; deyimler, terimler, bağlaçlar, hedef sözcükler gibi dilin sözcük varlık ve içeriğini; temel ve hedef dil bilgisi gibi yapısal içeriğini; kültürel yansıtmalar gibi konuyla ilgili içerik özelliklerini çeşitli görseller yardımıyla (daha sonra seçim ve kullanım yapabilmesi için), algılamak ve anlamlandırmak için geliştirdiği bir beceridir. Yabancı dil \"dinleme/izleme-anlamlandırma\" becerisi üç gruba ayrılmıştır. Dinleme/izleme-anlamlandırma becerisi, üç grupta, \"dinlemeye/izlemeye hazırlık yapma\", \"bilgileri bir araya getirme\", \"anlamlandırma/anlam çıkarma\" ve \"bireysel ve etkileşimli yansıtma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
-          "context": "1.1.Dinleme/İzleme-Anlamlandırma Becerisi"
+          "context": "1.1.Dinleme/İzleme-Anlamlandırma Becerisi",
+          "group": "Alımlayıcı Beceriler",
+          "also_titled": [
+            "1.1.Dinleme/İzleme-Anlamlandırma Becerisi",
+            "Dinleme/İzleme-Anlamlandırma Becerisi (Yarı Bütüncül-Yarı Tümevarımsal Yaklaşım)",
+            "Dinleme/İzleme-Anlamlandırma Becerisi (Tümevarımsal Yaklaşım)"
+          ]
         },
         {
           "code": "YDAB2",
           "name": "Okuma-Anlamlandırma Becerisi (Bütüncül Yaklaşım)",
-          "description": "Alımlayıcı bir beceri olan okuma-anlamlandırma becerisi üretilmiş olan yazılı içeriği; metin türü, görsel destek, sözcük kullanımı, dil bilgisi kullanımı, anlamsal yapıların kullanımı  yardımıyla algılamak ve anlamlandırmak için geliştirdiği bir beceridir. Her iki alımlayıcı beceride de dilin hem yapısal hem de anlamsal içerik özelliklerinin önemi büyüktür.  \"Dinleme/izleme-anlamlandırma\" gerçek zamanlı, oldukça akışkan ve hızlı bir süreç içinde yer aldığı için aynı şekilde akışkan, hızlı bir alımlama ve anlama; aynı zamanda hızlı ve  anlamlı bir geri dönüş-tepki verme gerektirir. Okuma-anlamlandırma ise daha durağan, kontrollü ve daha ağır işleyen bir süreçtir. Her iki alımlayıcı beceride de öncelikle bireye iletilen  içerik ve mesajın anlamının algılanması bireyin o içerik ile kurduğu bireysel ve toplumsal ilişkiye dayanır. Yabancı dil dinleme/izleme-anlamlandırma ve okuma-anlamlandırma becerileri  bu olgular dikkate alınarak düzenlenmiştir.",
+          "description": "Alımlayıcı bir beceri olan okuma-anlamlandırma becerisi üretilmiş olan yazılı içeriği; metin türü, görsel destek, sözcük kullanımı, dil bilgisi kullanımı, anlamsal yapıların kullanımı yardımıyla algılamak ve anlamlandırmak için geliştirdiği bir beceridir. Her iki alımlayıcı beceride de dilin hem yapısal hem de anlamsal içerik özelliklerinin önemi büyüktür. \"Dinleme/izleme-anlamlandırma\" gerçek zamanlı, oldukça akışkan ve hızlı bir süreç içinde yer aldığı için aynı şekilde akışkan, hızlı bir alımlama ve anlama; aynı zamanda hızlı ve anlamlı bir geri dönüş-tepki verme gerektirir. Okuma-anlamlandırma ise daha durağan, kontrollü ve daha ağır işleyen bir süreçtir. Her iki alımlayıcı beceride de öncelikle bireye iletilen içerik ve mesajın anlamının algılanması bireyin o içerik ile kurduğu bireysel ve toplumsal ilişkiye dayanır. Yabancı dil dinleme/izleme-anlamlandırma ve okuma-anlamlandırma becerileri bu olgular dikkate alınarak düzenlenmiştir. Yabancı dil \"okuma-anlamlandırma\" becerisi üç gruba ayrılmıştır. Okuma-anlamlandırma becerisi, tüm gruplarda \"okumaya hazırlık yapma\", \"bilgileri bir araya getirme\", \"anlamlandırma/anlam çıkarma\" ve \"bireysel ve etkileşimli yansıtma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
-          "context": "1.2.Okuma-Anlamlandırma Becerisi"
+          "context": "1.2.Okuma-Anlamlandırma Becerisi",
+          "group": "Alımlayıcı Beceriler",
+          "also_titled": [
+            "1.2.Okuma-Anlamlandırma Becerisi",
+            "Okuma-Anlamlandırma Becerisi (Yarı Bütüncül-Yarı Tümevarımsal Yaklaşım)",
+            "Okuma-Anlamlandırma Becerisi (Tümevarımsal Yaklaşım)"
+          ]
         },
         {
           "code": "YDAB3",
           "name": "Konuşma-Anlatma Becerisi (Bütüncül Yaklaşım)",
-          "description": "Within productive competences, the speaking–expression competence refers to the ability that individuals develop, while acquiring and/or learning a language, to use the sounds, grammatical structures, vocabulary, and semantic expressions of that language effectively and meaningfully in order to achieve proficiency and competence in communicating with others. The most essential elements of speaking–expression competence are interaction and communication. In the process of speaking, the individual employs grammatical content with appropriate vocabulary in line with the communicative context, produces the sounds and pronunciation of the target language accurately, and conveys knowledge, thoughts, and feelings clearly and fluently in a contextually appropriate manner. Through this process, cultural content and messages are transmitted accurately and effectively, and the individual develops competences that lead to the ability and proficiency to establish communication and interaction.",
+          "description": "Within productive competences, the speaking–expression competence refers to the ability that individuals develop, while acquiring and/or learning a language, to use the sounds, grammatical structures, vocabulary, and semantic expressions of that language effectively and meaningfully in order to achieve proficiency and competence in communicating with others. The most essential elements of speaking–expression competence are interaction and communication. In the process of speaking, the individual employs grammatical content with appropriate vocabulary in line with the communicative context, produces the sounds and pronunciation of the target language accurately, and conveys knowledge, thoughts, and feelings clearly and fluently in a contextually appropriate manner. Through this process, cultural content and messages are transmitted accurately and effectively, and the individual develops competences that lead to the ability and proficiency to establish communication and interaction. Foreign language speaking–expression competence is categorized into three approaches. Within the holistic approach, it consists of the integrated competences of preparing for speaking, imitating/repeating a speaking model, producing oral content through imitation, structuring/applying, restructuring/communicating, and individual as well as interactive reflection. Within the semi-holistic–semi-inductive approach, it consists of the integrated competences of preparing for speaking, drawing on a speaking model, producing oral content, structuring/applying, restructuring/communicating, and individual as well as interactive reflection. Within the inductive approach, it consists of the integrated competences of preparing for speaking, understanding model content, producing oral content, structuring/applying, restructuring/communicating, and individual as well as interactive reflection.",
           "parent": null,
           "level": 1,
           "components": [],
-          "context": "2.1.Konuşma-Anlatma Becerisi"
+          "context": "2.1.Konuşma-Anlatma Becerisi",
+          "group": "Üretici Beceriler",
+          "also_titled": [
+            "2.1.Konuşma-Anlatma Becerisi",
+            "Konuşma-Anlatma Becerisi (Yarı Bütüncül-Yarı Tümevarımsal Yaklaşım)",
+            "Konuşma-Anlatma Becerisi (Tümevarımsal Yaklaşım)"
+          ]
         },
         {
           "code": "YDAB4",
           "name": "Yazma-Anlatma Becerisi (Bütüncül Yaklaşım)",
-          "description": "Üretici bir beceri olan yazma-anlatma becerisi bireyin o dile ait dil bilgisi yapılarını, sözcüklerini, çeşitli kendini ifade etme biçimlerini, yazım türlerini, yazım kurallarını kullanarak bilgi,  düşünce, deneyim ve duygularını anlamlı bir biçimde ifade ederek yazılı bir biçimde aktarma becerisidir. Üretme odaklı olan yazma becerisinin ediniminde öncelikle bilgi girdisinin  dinleme, izleme, okuma gibi diğer dil becerilerin kullanımı ile sağlanması gerekir. Yazma-anlatma becerisi planlama, uygulama, geri bildirim ve geri bildirimi dikkate alarak ve metni  geliştirerek tekrar yazma gerektiren birçok süreci içerir ve yaratıcılığın gelişmesini sağlar. Değişik türlerde yazma çalışmaları yapılarak bu beceri güçlendirilir.",
+          "description": "Üretici bir beceri olan yazma-anlatma becerisi bireyin o dile ait dil bilgisi yapılarını, sözcüklerini, çeşitli kendini ifade etme biçimlerini, yazım türlerini, yazım kurallarını kullanarak bilgi, düşünce, deneyim ve duygularını anlamlı bir biçimde ifade ederek yazılı bir biçimde aktarma becerisidir. Üretme odaklı olan yazma becerisinin ediniminde öncelikle bilgi girdisinin dinleme, izleme, okuma gibi diğer dil becerilerin kullanımı ile sağlanması gerekir. Yazma-anlatma becerisi planlama, uygulama, geri bildirim ve geri bildirimi dikkate alarak ve metni geliştirerek tekrar yazma gerektiren birçok süreci içerir ve yaratıcılığın gelişmesini sağlar. Değişik türlerde yazma çalışmaları yapılarak bu beceri güçlendirilir. Yabancı dil \"yazma-anlatma\" becerisi göre üç gruba ayrılmıştır. Yazma-anlatma becerisi, bütüncül yaklaşımda, \"yazmaya hazırlık yapma\", \"modelden kopyalama\", \"içerik oluşturma\", \"yapılandırma/uygulamaya geçirme\", \"yeniden yapılanma/iletişim kurma\" ve \"bireysel ve etkileşimli yansıtma\" bütünleşik becerilerinden oluşmaktadır. Yarı bütüncül-yarı tümevarımsal yaklaşımda, \"yazmaya hazırlık yapma\", \"modelden tanıma\", \"içerik oluşturma\", \"yapılandırma/uygulamaya geçirme\", \"yeniden yapılandırma/iletişim kurma\" ve \"bireysel ve etkileşimli yansıtma\" bütünleşik becerilerinden oluşmaktadır. Tümevarımsal yaklaşımda ise \"yazmaya hazırlık yapma\", \"modelden anlama\", \"içerik oluşturma\", \"yapılandırma/uygulamaya geçirme\", \"süreçsel yazma\", \"yeniden yapılandırma/iletişim kurma\" ve \"bireysel ve etkileşimli yansıtma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
-          "context": "2.2.Yazma-Anlatma Becerisi"
+          "context": "2.2.Yazma-Anlatma Becerisi",
+          "group": "Üretici Beceriler",
+          "also_titled": [
+            "2.2.Yazma-Anlatma Becerisi",
+            "Yazma-Anlatma Becerisi (Yarı Bütüncül-Yarı Tümevarımsal Yaklaşım)",
+            "Yazma-Anlatma Becerisi (Tümevarımsal Yaklaşım)"
+          ]
         }
-      ]
+      ],
+      "anomalies": []
     },
     {
       "code": "YDDB",
@@ -10241,12 +10671,18 @@
       "skills": [
         {
           "code": "YDDB1",
-          "name": "Dil Bilgisi Seçme-Kullanma Becerisi (Tümevarımsal Yaklaşım)",
-          "description": "İçerik bilgisi olarak dil bilgisinin, \"bütüncül\", \"yarı bütüncül/yarı tümevarımsal\" ve \"tümevarımsal\" yaklaşımlarının dil düzeyine uygun, doğal ve otantik bir içerikle oluşturulmuş bağlamlarda, uygun ve doğru tekniklerle öğrenilmesi, seçilmesi ile sağlanır. Dil bilgisi seçme-kullanma becerisi mümkün olduğu oranda doğal ve otomatik bir şekilde seçilerek doğru,  uygun ve doğal bir biçimde kullanılma yeterliliği olarak görülmektedir. Bu yetkinlik ve yeterliğin iletişim dilinde kullanılması en önemli hedeftir.",
+          "name": "1.Dil Bilgisi Seçme-Kullanma Becerisi",
+          "description": "İçerik bilgisi olarak dil bilgisinin, \"bütüncül\", \"yarı bütüncül/yarı tümevarımsal\" ve \"tümevarımsal\" yaklaşımlarının dil düzeyine uygun, doğal ve otantik bir içerikle oluşturulmuş bağlamlarda, uygun ve doğru tekniklerle öğrenilmesi, seçilmesi ile sağlanır. Dil bilgisi seçme-kullanma becerisi mümkün olduğu oranda doğal ve otomatik bir şekilde seçilerek doğru, uygun ve doğal bir biçimde kullanılma yeterliliği olarak görülmektedir. Bu yetkinlik ve yeterliğin iletişim dilinde kullanılması en önemli hedeftir. Yabancı dil destekleyici becerilerinden \"dil bilgisi seçme-kullanma\" becerisi üç gruba ayrılmıştır. Dil bilgisi seçme-kullanma becerisi, bütüncül yaklaşımda \"otomatik, otantik ve doğal dil bilgisi seçme ve kullanma\"; yarı bütüncül-yarı tümevarımsal yaklaşımda \"otantik, doğal ve farkındalıkla dil bilgisi seçme ve kullanma\"; tümevarımsal yaklaşımda ise \"otantik, doğal ve bilinçli keşifle dil bilgisi seçme ve kullanma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
-          "from_heading": true
+          "from_heading": true,
+          "group": "Üretici Beceriler",
+          "also_titled": [
+            "Dil Bilgisi Seçme-Kullanma Becerisi (Bütüncül Yaklaşım)",
+            "Dil Bilgisi Seçme-Kullanma Becerisi (Yarı Bütüncül-Yarı Tümevarımsal Yaklaşım)",
+            "Dil Bilgisi Seçme-Kullanma Becerisi (Tümevarımsal Yaklaşım)"
+          ]
         },
         {
           "code": "YDDB1.1",
@@ -10292,7 +10728,8 @@
               "text": "Duyulan/görülen/okunan benzer hedef dil parçacıklarını iletişim kurarken kurallarını bilmeden ve düşünmeden seçip tabii bir şekilde sözlü veya yazılı olarak kullanıma sokmak"
             }
           ],
-          "context": "Dil Bilgisi Seçme-Kullanma Becerisi (Bütüncül Yaklaşım)"
+          "context": "Dil Bilgisi Seçme-Kullanma Becerisi (Bütüncül Yaklaşım)",
+          "group": "Üretici Beceriler"
         },
         {
           "code": "YDDB1.1",
@@ -10342,7 +10779,8 @@
               "text": "Hedef dil bilgisi parçacıklarını, iletişim süreçlerindeki bağlamlarda kurallarını bilmeden ve düşünmeden, otantik ve özgün, kendiliğinden, tabii bir biçimde kullanıma sokmak"
             }
           ],
-          "context": "Dil Bilgisi Seçme-Kullanma Becerisi (Yarı Bütüncül-Yarı Tümevarımsal Yaklaşım)"
+          "context": "Dil Bilgisi Seçme-Kullanma Becerisi (Yarı Bütüncül-Yarı Tümevarımsal Yaklaşım)",
+          "group": "Üretici Beceriler"
         },
         {
           "code": "YDDB1.1",
@@ -10389,19 +10827,26 @@
             },
             {
               "code": "YDDB1.1.SB10",
-              "text": "İletişim süreçlerinde, hedef dil bilgisi yapılarını etkili, özgün, otomatik ve doğal bir şekilde bağlam içinde kullanarak kurallar üzerinde düşünmeden yeni sözlü/yazılı içerik  üretmek"
+              "text": "İletişim süreçlerinde, hedef dil bilgisi yapılarını etkili, özgün, otomatik ve doğal bir şekilde bağlam içinde kullanarak kurallar üzerinde düşünmeden yeni sözlü/yazılı içerik üretmek"
             }
           ],
-          "context": "Dil Bilgisi Seçme-Kullanma Becerisi (Tümevarımsal Yaklaşım)"
+          "context": "Dil Bilgisi Seçme-Kullanma Becerisi (Tümevarımsal Yaklaşım)",
+          "group": "Üretici Beceriler"
         },
         {
           "code": "YDDB2",
           "name": "Sözcük Seçme-Kullanma Becerisi (Bütüncül Yaklaşım)",
-          "description": "Sözcük seçme-kullanma becerisi, bireyin hedef dilde yer alan sözcük varlığını bağlama, duruma, yere ve zamana uygun bir biçimde algılaması, anlaması, konumlandırması ve sözcük  dağarcığına eklemesi sürecinde, sırasında ve/veya sonrasında duruma ve bağlama uygun olanlarını seçmesi, etkin ve doğru bir biçimde kullanarak bu yönde iletişim yetkinliği ve yeterliliğini  geliştirme becerisidir. Sözcük edinimi, ana dilde olduğu gibi bireylerin sözcükleri fark etmeden öğrenme durumudur ve uygun yöntemler, teknikler ve etkinlikler kullanıldığında mümkün  olabilir. Ancak yabancı dil çalışmaları doğal bağlam ve ortamlarda değil sınıftaki yapay ortamda oluştuğu için bilinçli tekrar ve uygun öğrenme etkinlikleri ile de desteklenmesi gerekir. Sözcük  öğrenimi ise sözcüklerin etkileşim ve iletişim süreçlerinde doğru bir biçimde kullanımını sağlamak için sözcüklerin anlamını uygun ve doğru bir bağlamda, biçiminin, yapısının, sesletiminin ve  kullanımının farkına vararak sıklıkla uygulama ve pekiştirme çalışmaları yapmayı gerektirir.",
+          "description": "Sözcük seçme-kullanma becerisi, bireyin hedef dilde yer alan sözcük varlığını bağlama, duruma, yere ve zamana uygun bir biçimde algılaması, anlaması, konumlandırması ve sözcük dağarcığına eklemesi sürecinde, sırasında ve/veya sonrasında duruma ve bağlama uygun olanlarını seçmesi, etkin ve doğru bir biçimde kullanarak bu yönde iletişim yetkinliği ve yeterliliğini geliştirme becerisidir. Sözcük edinimi, ana dilde olduğu gibi bireylerin sözcükleri fark etmeden öğrenme durumudur ve uygun yöntemler, teknikler ve etkinlikler kullanıldığında mümkün olabilir. Ancak yabancı dil çalışmaları doğal bağlam ve ortamlarda değil sınıftaki yapay ortamda oluştuğu için bilinçli tekrar ve uygun öğrenme etkinlikleri ile de desteklenmesi gerekir. Sözcük öğrenimi ise sözcüklerin etkileşim ve iletişim süreçlerinde doğru bir biçimde kullanımını sağlamak için sözcüklerin anlamını uygun ve doğru bir bağlamda, biçiminin, yapısının, sesletiminin ve kullanımının farkına vararak sıklıkla uygulama ve pekiştirme çalışmaları yapmayı gerektirir. Yabancı dil destekleyici becerilerinden \"sözcük seçme-kullanma\" becerisi üç gruba ayrılmıştır. Sözcük seçme-kullanma becerisi, bütüncül yaklaşımda \"otomatik, otantik ve doğal sözcük seçme ve kullanma\"; yarı bütüncül-yarı tümevarımsal yaklaşımda \"otantik, doğal ve farkındalıkla sözcük seçme ve kullanma\"; tümevarımsal yaklaşımda ise \"otantik, doğal ve bilinçli keşifle sözcük seçme ve kullanma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
-          "context": "2.Sözcük Seçme-Kullanma Becerisi"
+          "context": "2.Sözcük Seçme-Kullanma Becerisi",
+          "group": "Üretici Beceriler",
+          "also_titled": [
+            "2.Sözcük Seçme-Kullanma Becerisi",
+            "Sözcük Seçme-Kullanma Becerisi (Yarı Bütüncül-Yarı Tümevarımsal Yaklaşım)",
+            "Sözcük Seçme-Kullanma Becerisi (Tümevarımsal Yaklaşım)"
+          ]
         },
         {
           "code": "YDDB2.1",
@@ -10439,7 +10884,8 @@
               "text": "Hedef sözcükleri, farklı bağlamlardaki iletişim süreçlerinde etkili, kendiliğinden, gerçek ve tabii bir biçimde kullanıma sokmak"
             }
           ],
-          "context": "2.Sözcük Seçme-Kullanma Becerisi"
+          "context": "2.Sözcük Seçme-Kullanma Becerisi",
+          "group": "Üretici Beceriler"
         },
         {
           "code": "YDDB2.1",
@@ -10477,7 +10923,8 @@
               "text": "Hedef sözcükleri, farklı bağlamlarda iletişim süreçlerinde kendiliğinden, tabii bir biçimde ve farklarını bilerek kullanıma sokmak"
             }
           ],
-          "context": "Sözcük Seçme-Kullanma Becerisi (Yarı Bütüncül-Yarı Tümevarımsal Yaklaşım)"
+          "context": "Sözcük Seçme-Kullanma Becerisi (Yarı Bütüncül-Yarı Tümevarımsal Yaklaşım)",
+          "group": "Üretici Beceriler"
         },
         {
           "code": "YDDB2.1",
@@ -10535,16 +10982,22 @@
               "text": "Hedef sözcükleri bağlamsal iletişimde etkili bir şekilde kullanmak"
             }
           ],
-          "context": "Sözcük Seçme-Kullanma Becerisi (Tümevarımsal Yaklaşım)"
+          "context": "Sözcük Seçme-Kullanma Becerisi (Tümevarımsal Yaklaşım)",
+          "group": "Üretici Beceriler"
         },
         {
           "code": "YDDB3",
           "name": "Sesletim Seçme-Kullanma Becerisi (Bütüncül Yaklaşım ve Yarı Bütüncül-Yarı Tümevarımsal Yaklaşım)",
-          "description": "Sesletim seçme-kullanma becerisine de destekleyici bir beceri olarak yer verilmiştir. Sesletim, içerik olarak bir dildeki konuşmalarda yer alan sesler, vurgular, ritimler, tonlamalar gibi ses  bilgisi özellikleridir. Sesletim seçme-kullanma becerisi, bu ögelerin doğru bir biçimde kullanılmasını, konuşma içeriğini doğru bir biçimde yansıtmasını ve bu sayede bireyin doğru etkileşimde  bulunup iletişim kurabilmesini sağlar. Sesletim seçme-kullanma becerisinin, dinleme çalışmaları, tekrarlar, taklitler, fonetik ses çalışmaları, akran kayıtları dinleme-geri bildirim verme, bireysel ses kaydı dinleme-bireysel geri bildirim verme, otomatik seçim, kullanım, yansıtma gibi çalışmalarla desteklenmesi önem arz etmektedir.",
+          "description": "Sesletim seçme-kullanma becerisine de destekleyici bir beceri olarak yer verilmiştir. Sesletim, içerik olarak bir dildeki konuşmalarda yer alan sesler, vurgular, ritimler, tonlamalar gibi ses bilgisi özellikleridir. Sesletim seçme-kullanma becerisi, bu ögelerin doğru bir biçimde kullanılmasını, konuşma içeriğini doğru bir biçimde yansıtmasını ve bu sayede bireyin doğru etkileşimde bulunup iletişim kurabilmesini sağlar. Sesletim seçme-kullanma becerisinin, dinleme çalışmaları, tekrarlar, taklitler, fonetik ses çalışmaları, akran kayıtları dinleme-geri bildirim verme, bireysel ses kaydı dinleme-bireysel geri bildirim verme, otomatik seçim, kullanım, yansıtma gibi çalışmalarla desteklenmesi önem arz etmektedir. Yabancı dil destekleyici becerilerinden \"sesletim seçme-kullanma\" becerisi iki gruba ayrılmıştır. Sesletim seçme-kullanma becerisi, bütüncül yaklaşım ve yarı bütüncül-yarı tümevarımsal yaklaşımda \"otomatik, otantik ve doğal sesletim seçme ve kullanma\"; tümevarımsal yaklaşımda ise \"otantik, doğal ve bilinçli sesletim seçme ve kullanma\" bütünleşik becerilerinden oluşmaktadır.",
           "parent": null,
           "level": 1,
           "components": [],
-          "context": "3.Sesletim Seçme-Kullanma Becerisi"
+          "context": "3.Sesletim Seçme-Kullanma Becerisi",
+          "group": "Üretici Beceriler",
+          "also_titled": [
+            "3.Sesletim Seçme-Kullanma Becerisi",
+            "Sesletim Seçme-Kullanma Becerisi (Tümevarımsal Yaklaşım)"
+          ]
         },
         {
           "code": "YDDB3.1",
@@ -10574,7 +11027,8 @@
               "text": "Mevcut içeriğe özgü sesletim unsurlarını başka bağlamlarda iletişim sırasında doğru, kendiliğinden, gerçek ve tabii bir şekilde kullanıma sokmak"
             }
           ],
-          "context": "3.Sesletim Seçme-Kullanma Becerisi"
+          "context": "3.Sesletim Seçme-Kullanma Becerisi",
+          "group": "Üretici Beceriler"
         },
         {
           "code": "YDDB3.1",
@@ -10605,12 +11059,14 @@
             },
             {
               "code": "YDDB3.1.SB6",
-              "text": "Mevcut içeriğin hedef sesletim unsurlarını farklı bağlamlarda iletişim kurarken sesletim özelliklerine uygun ve etkili bir şekilde gerçek, doğru, tabii ve bilerek kullanıma  sokmak"
+              "text": "Mevcut içeriğin hedef sesletim unsurlarını farklı bağlamlarda iletişim kurarken sesletim özelliklerine uygun ve etkili bir şekilde gerçek, doğru, tabii ve bilerek kullanıma sokmak"
             }
           ],
-          "context": "Sesletim Seçme-Kullanma Becerisi (Tümevarımsal Yaklaşım)"
+          "context": "Sesletim Seçme-Kullanma Becerisi (Tümevarımsal Yaklaşım)",
+          "group": "Üretici Beceriler"
         }
-      ]
+      ],
+      "anomalies": []
     }
   ]
 }

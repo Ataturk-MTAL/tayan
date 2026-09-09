@@ -29,6 +29,15 @@ INDICATOR_RE = re.compile(
 )
 # Kod satırı: ayıraç NOKTA ya da BOŞLUK.
 CODE_LINE_RE = re.compile(r"^([A-ZÇĞİÖŞÜ]{1,8}\d[\d.]*)(?:\.\s*|\s+)(\S.*)$")
+# Kaynak HTML'i bölünmez boşluk (U+00A0) ve satır içi çift boşluk taşıyor.
+# Bunlar ders programı PDF'iyle dize eşleştirmesini sessizce kırıyor: aynı
+# görünen iki ad byte düzeyinde eşit olmuyor.
+WHITESPACE_RE = re.compile(r"[\s\u00a0\u200b]+")
+
+
+def normalize_ws(text: str) -> str:
+    """Her tür boşluk dizisini tek boşluğa indirir, uçları kırpar."""
+    return WHITESPACE_RE.sub(" ", text).strip()
 
 
 def split_indicator(line: str) -> tuple[str | None, str]:
