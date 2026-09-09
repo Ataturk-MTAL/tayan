@@ -93,19 +93,24 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-          # macOS imzalama ve noterleme.
+          # macOS imzalama BİLEREK BAĞLANMADI — buraya APPLE_* değişkeni eklemeyin.
           #
-          # Sır tanımlı DEĞİLSE bu değişkenler boş gelir ve tauri-action imzasız
-          # paket üretir — bugünkü davranış. Yani bu blok hiçbir şeyi bozmaz;
-          # sırlar eklendiği gün imzalama kendiliğinden devreye girer.
+          # Burada bir blok vardı ve yorumu "sır tanımlı değilse boş gelir,
+          # tauri imzasız üretir, hiçbir şeyi bozmaz" diyordu. YANLIŞTI.
+          # Tanımlanmamış bir sır BOŞ DİZEYE açılır ama env değişkeni yine de
+          # TANIMLI olur; tauri bunu imzalama niyeti sayıp boş sertifikayla
+          # devam eder ve iki macOS işi de şu hatayla düşer:
           #
-          # Kurulum adımları: docs/IMZALAMA.md
-          APPLE_CERTIFICATE: ${{ secrets.APPLE_CERTIFICATE }}
-          APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
-          APPLE_SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
-          APPLE_ID: ${{ secrets.APPLE_ID }}
-          APPLE_PASSWORD: ${{ secrets.APPLE_PASSWORD }}
-          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          #   failed to bundle project failed codesign application:
+          #   failed to run command security import:
+          #   failed to import keychain certificate
+          #
+          # v0.1.0 (2026-09-09) macOS paketleri olmadan yayımlandı; sebebi buydu.
+          # Depoda hiç sır tanımlı değil (`gh secret list` boş).
+          #
+          # İmzalamayı açmak için gerçek sertifikalar alındığında: sırları ekleyin
+          # VE bu değişkenleri geri koyun — ikisi birlikte, ayrı ayrı değil.
+          # Adımlar: docs/IMZALAMA.md
         with:
           projectPath: apps/tayan-desktop
           tagName: ${{ github.ref_name }}
